@@ -3,6 +3,8 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
 import ExamDetail from './pages/ExamDetail';
+import Setter from './pages/Setter';
+import PaperEditor from './pages/PaperEditor';
 import './App.css';
 
 // Auth Context
@@ -50,6 +52,7 @@ function App() {
             path="/login"
             element={user ? <Navigate to="/" /> : <Login />}
           />
+          {/* CheckerAI Routes */}
           <Route
             path="/"
             element={user ? <Dashboard /> : <Navigate to="/login" />}
@@ -57,6 +60,15 @@ function App() {
           <Route
             path="/exam/:id"
             element={user ? <ExamDetail /> : <Navigate to="/login" />}
+          />
+          {/* SetterAI Routes */}
+          <Route
+            path="/setter"
+            element={user ? <Setter /> : <Navigate to="/login" />}
+          />
+          <Route
+            path="/setter/edit/:id"
+            element={user ? <PaperEditor /> : <Navigate to="/login" />}
           />
         </Routes>
       </BrowserRouter>

@@ -88,6 +88,9 @@ function Dashboard() {
                     <h1>CheckerAI</h1>
                 </div>
                 <div className="header-right">
+                    <button onClick={() => navigate('/setter')} className="setter-btn">
+                        📝 SetterAI
+                    </button>
                     <span className="user-name">{user?.name || user?.email}</span>
                     <button onClick={logout} className="logout-btn">Logout</button>
                 </div>

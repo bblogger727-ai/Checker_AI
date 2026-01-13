@@ -1,10 +1,8 @@
-# CheckerAI - Full Stack Docker Compose
-# Backend + Frontend + PostgreSQL
-
-version: '3.8'
+# CheckerAI + SetterAI - Full Stack Docker Compose
+# 2 Backends + 1 Frontend + PostgreSQL
 
 services:
-  # PostgreSQL Database
+  # PostgreSQL Database (shared)
   postgres:
     image: postgres:15-alpine
     container_name: checkerai-db
@@ -22,8 +20,8 @@ services:
       timeout: 5s
       retries: 5
 
-  # Backend API
-  backend:
+  # CheckerAI Backend (Grading)
+  checker-backend:
     build:
       context: ./CheckerAI - Backend
       dockerfile: Dockerfile
@@ -31,10 +29,9 @@ services:
     environment:
       - DATABASE_URL=postgresql://postgres:postgres@postgres:5432/checkerai
       - OPENAI_API_KEY=${OPENAI_API_KEY}
-      - JWT_SECRET_KEY=${JWT_SECRET_KEY:-supersecretkey}
     volumes:
-      - backend_uploads:/app/uploads
-      - backend_data:/app/data
+      - checker_uploads:/app/uploads
+      - checker_data:/app/data
     ports:
       - "8000:8000"
     depends_on:
@@ -42,7 +39,26 @@ services:
         condition: service_healthy
     restart: unless-stopped
 
-  # Frontend
+  # SetterAI Backend (Paper Generation)
+  setter-backend:
+    build:
+      context: ./SetterAI - Backend
+      dockerfile: Dockerfile
+    container_name: setterai-backend
+    environment:
+      - DATABASE_URL=postgresql://postgres:postgres@postgres:5432/checkerai
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    volumes:
+      - setter_uploads:/app/uploads
+      - setter_data:/app/data
+    ports:
+      - "8001:8001"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+
+  # Frontend (serves both UIs)
   frontend:
     build:
       context: ./frontend
@@ -51,10 +67,13 @@ services:
     ports:
       - "80:80"
     depends_on:
-      - backend
+      - checker-backend
+      - setter-backend
     restart: unless-stopped
 
 volumes:
   postgres_data:
-  backend_uploads:
-  backend_data:
+  checker_uploads:
+  checker_data:
+  setter_uploads:
+  setter_data:
