@@ -1,0 +1,313 @@
+.dashboard {
+    min-height: 100vh;
+    background: #f7fafc;
+}
+
+.header {
+    background: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
+    color: white;
+    padding: 16px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.header-left .logo-icon {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, #48bb78 0%, #38a169 100%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header-left h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.user-name {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.logout-btn {
+    padding: 8px 16px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.logout-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+.content-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.content-header h2 {
+    margin: 0;
+    font-size: 28px;
+    color: #1a202c;
+}
+
+.create-btn {
+    padding: 12px 24px;
+    background: linear-gradient(135deg, #48bb78 0%, #38a169 100%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.create-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(72, 187, 120, 0.4);
+}
+
+.loading {
+    text-align: center;
+    padding: 60px;
+    color: #718096;
+    font-size: 18px;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 80px 20px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.empty-icon {
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+.empty-state h3 {
+    margin: 0 0 8px;
+    color: #2d3748;
+    font-size: 24px;
+}
+
+.empty-state p {
+    color: #718096;
+    margin-bottom: 24px;
+}
+
+.exams-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 24px;
+}
+
+.exam-card {
+    background: white;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.exam-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.exam-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.exam-header h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #1a202c;
+}
+
+.status-badge {
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.status-ready {
+    background: #c6f6d5;
+    color: #22543d;
+}
+
+.status-processing {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.status-pending {
+    background: #e2e8f0;
+    color: #4a5568;
+}
+
+.status-failed {
+    background: #fed7d7;
+    color: #c53030;
+}
+
+.exam-details {
+    margin-bottom: 16px;
+}
+
+.exam-details .subject {
+    margin: 0 0 4px;
+    color: #4a5568;
+    font-size: 14px;
+}
+
+.exam-details .date {
+    margin: 0;
+    color: #718096;
+    font-size: 13px;
+}
+
+.exam-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 16px;
+    border-top: 1px solid #e2e8f0;
+}
+
+.student-count {
+    color: #4299e1;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.delete-btn {
+    padding: 6px 10px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: opacity 0.2s;
+}
+
+.delete-btn:hover {
+    opacity: 1;
+}
+
+/* Modal */
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    z-index: 100;
+}
+
+.modal {
+    background: white;
+    border-radius: 16px;
+    padding: 32px;
+    width: 100%;
+    max-width: 480px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.modal h2 {
+    margin: 0 0 24px;
+    font-size: 24px;
+    color: #1a202c;
+}
+
+.modal .form-group {
+    margin-bottom: 20px;
+}
+
+.modal .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #4a5568;
+    font-size: 14px;
+}
+
+.modal .form-group input {
+    width: 100%;
+    padding: 12px 16px;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.modal .form-group input:focus {
+    outline: none;
+    border-color: #4299e1;
+}
+
+.help-text {
+    margin: 8px 0 0;
+    font-size: 12px;
+    color: #718096;
+}
+
+.modal-actions {
+    display: flex;
+    gap: 12px;
+    justify-content: flex-end;
+    margin-top: 24px;
+}
+
+.cancel-btn {
+    padding: 12px 24px;
+    background: #e2e8f0;
+    color: #4a5568;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.modal .submit-btn {
+    padding: 12px 24px;
+    width: auto;
+}

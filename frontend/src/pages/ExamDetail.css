@@ -1,0 +1,265 @@
+.exam-detail {
+    min-height: 100vh;
+    background: #f7fafc;
+}
+
+.exam-detail .header {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.back-btn {
+    padding: 8px 16px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 14px;
+}
+
+.back-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.exam-detail .header h1 {
+    margin: 0;
+    flex: 1;
+}
+
+.exam-info {
+    background: white;
+    padding: 20px 24px;
+    border-radius: 12px;
+    margin-bottom: 24px;
+    display: flex;
+    gap: 32px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.exam-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #4a5568;
+}
+
+.students-section {
+    background: white;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.section-header h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #1a202c;
+}
+
+.upload-btn {
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #4299e1 0%, #3182ce 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.upload-btn:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(66, 153, 225, 0.4);
+}
+
+.upload-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.warning-message {
+    background: #fef3c7;
+    color: #92400e;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    font-size: 14px;
+}
+
+.students-table-wrapper {
+    overflow-x: auto;
+}
+
+.students-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.students-table th,
+.students-table td {
+    padding: 16px;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.students-table th {
+    background: #f7fafc;
+    font-weight: 600;
+    color: #4a5568;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.students-table td {
+    font-size: 14px;
+    color: #2d3748;
+}
+
+.student-name {
+    font-weight: 500;
+}
+
+.grade-badge {
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.grade-a {
+    background: #c6f6d5;
+    color: #22543d;
+}
+
+.grade-b {
+    background: #bee3f8;
+    color: #2a4365;
+}
+
+.grade-c {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.grade-d {
+    background: #fed7aa;
+    color: #7b341e;
+}
+
+.grade-f {
+    background: #fed7d7;
+    color: #c53030;
+}
+
+.download-btn {
+    padding: 8px 14px;
+    background: linear-gradient(135deg, #48bb78 0%, #38a169 100%);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.download-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(72, 187, 120, 0.4);
+}
+
+/* Reuse modal styles from Dashboard */
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    z-index: 100;
+}
+
+.modal {
+    background: white;
+    border-radius: 16px;
+    padding: 32px;
+    width: 100%;
+    max-width: 480px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.modal h2 {
+    margin: 0 0 24px;
+    font-size: 24px;
+    color: #1a202c;
+}
+
+.modal .form-group {
+    margin-bottom: 20px;
+}
+
+.modal .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #4a5568;
+    font-size: 14px;
+}
+
+.modal .form-group input {
+    width: 100%;
+    padding: 12px 16px;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.modal .form-group input:focus {
+    outline: none;
+    border-color: #4299e1;
+}
+
+.modal-actions {
+    display: flex;
+    gap: 12px;
+    justify-content: flex-end;
+    margin-top: 24px;
+}
+
+.cancel-btn {
+    padding: 12px 24px;
+    background: #e2e8f0;
+    color: #4a5568;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.submit-btn {
+    padding: 12px 24px;
+    background: linear-gradient(135deg, #4299e1 0%, #3182ce 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.submit-btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
