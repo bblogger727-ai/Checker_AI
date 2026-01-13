@@ -104,10 +104,15 @@ def generate_paper_content(
                 existing=available
             )
         
+        # Build instruction text
+        is_compulsory = section.get("compulsory", True)
+        choose = section.get("choose", question_count)
+        instruction_text = "Answer all questions." if is_compulsory else f"Answer any {choose} questions."
+        
         paper_sections.append({
             "section_name": section_name,
             "section_marks": section.get("marks", len(selected_questions) * marks_per_q),
-            "instructions": f"Answer {'all' if section.get('compulsory', True) else f'any {section.get(\"choose\", question_count)}'} questions.",
+            "instructions": instruction_text,
             "compulsory": section.get("compulsory", True),
             "choose": section.get("choose"),
             "questions": selected_questions
@@ -137,14 +142,20 @@ def _generate_questions_with_ai(subject, question_type: str, count: int, marks: 
     # Get topics from existing questions for context
     topics = list(set(q.topic for q in existing if q.topic))
     
+    # Build prompt
+    topics_str = ', '.join(topics[:5]) if topics else 'General ' + subject.name
+    mcq_note = "For MCQs, include 4 options (a, b, c, d) and mark the correct answer." if question_type == "MCQ" else ""
+    mcq_comma = "," if question_type == "MCQ" else ""
+    mcq_options = '"options": {"a": "...", "b": "...", "c": "...", "d": "...", "correct": "a"}' if question_type == "MCQ" else ""
+    
     prompt = f"""
 Generate {count} {question_type} questions for a {subject.name} exam.
 
 Each question should be worth {marks} marks.
 
-Topics to cover: {', '.join(topics[:5]) if topics else 'General ' + subject.name}
+Topics to cover: {topics_str}
 
-{"For MCQs, include 4 options (a, b, c, d) and mark the correct answer." if question_type == "MCQ" else ""}
+{mcq_note}
 
 Return as JSON array:
 [
@@ -153,8 +164,8 @@ Return as JSON array:
     "question_text": "...",
     "marks": {marks},
     "topic": "...",
-    "difficulty": "Medium"{"," if question_type == "MCQ" else ""}
-    {"\"options\": {\"a\": \"...\", \"b\": \"...\", \"c\": \"...\", \"d\": \"...\", \"correct\": \"a\"}" if question_type == "MCQ" else ""}
+    "difficulty": "Medium"{mcq_comma}
+    {mcq_options}
   }}
 ]
 """
