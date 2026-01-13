@@ -1,0 +1,39 @@
+Sure, here is the extracted handwritten text from the image:
+
+```
+Q C
+
+(1) cost of Machine @ factory of Export $ 20,000
+(2) Transport charges $ 1,000
+(3) Handling charges $ 100
+(4) Charges for design & engineering work $ 5,000
+$ 26,100
+Exchange rate = 2.5/01 (26100 x 10)
+$ 1,81,000
+FOB as per customs 1,81,000
+(5) Freight charges (2000 x 10) 20,000
+(6) Insurance charges (62 x 2000 x 1.10 x 1.05) 20,554
+$ 2,19,2,554
+
+Note:
+1) Buying commission paid by importer is not includible
+2) Unloading & handling charges at the place of importation is not includible
+3) Transport charge within India are not includible
+
+A
+
+a) Services provided by ecommerce operators
+notified u/s 9(5) includes housekeeping service,
+accommodation service, transportation services &
+eating food from restaurant. For these services
+GST is to be paid by the ecommerce
+operator.
+Where the supplier is providing a facility
+only through ecommerce operator and whose
+turnover has not exceeded the
+threshold, they are not required to get
+registered, Hence MSME Put and whose turnover
+is less than so law threshold & exclusively
+supplying through ecommerce operator, are
+not required to get registered.
+```

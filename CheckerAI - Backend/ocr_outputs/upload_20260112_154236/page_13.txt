@@ -1,0 +1,27 @@
+Computation of ITC available.
+
+| Particular | Value | CGST | SGST | IGST |
+|------------|-------|------|------|------|
+| 1) Paid sponsor- | 500,000 | 45,000 | 45,000 | - |
+| sponsorship fee | | | | |
+| (Since sponsorship | | | | |
+| services are provided | | | | |
+| by a body corporate | | | | |
+| then they are payable | | | | |
+| under forward charge | | | | |
+| mechanism so ITC | | | | |
+| in respect of this | | | | |
+| will be available.) | | | | |
+| 2) Received transportation | 200,000 | 5,000 | 5,000 | |
+| services from unregistered | | | | |
+| Goods Transport agency | | | | |
+| (Since it is not | | | | |
+| registered tax will | | | | |
+| be payable under | | | | |
+| Reverse charge basis.) | | | | |
+| 3) Taken car on | 150,000 | - | - | - |
+| Rent | | | | |
+| (ITC on cars is | | | | |
+| blocked under section | | | | |
+| 17(5)(a) | | | | |
+| Total ITC Available | | 50,000 | 50,000 | - |

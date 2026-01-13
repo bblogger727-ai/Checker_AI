@@ -1,0 +1,11 @@
+Ans 5. B.
+
+As per Foreign Exchange Management Act 1999, the drawal of foreign exchange can be done as per [Foreign Exchange Management (Current Account Transactions Rules, 2000)] which prescribes the certain restrictions & limits on drawal of foreign exchange is governed by Schedules as mentioned below:
+
+1. **Schedule-I** - Such transactions are strictly prohibited.
+
+2. **Schedule-II** - & such transactions require prior approval of central government.
+
+3. **Schedule-III** - Transactions which require prior approval of RBI, if such drawal exceeds specified limit of $2,50,000 under Liberalised Remittance Scheme.
+
+(a) Mr. Rohan requires USD 1,20,000 for studies abroad on the basis of estimates given by foreign university. The same is covered under Schedule-III mentioned above, however, it is within the limit under LRS, but if Mr. Rohan requires higher amount for studies, he needs an estimation or approval letter from such institution. Therefore, Mr. Rohan does not require any prior approval in both cases as if drawal $1,20,000 or higher if such higher amt is given as an

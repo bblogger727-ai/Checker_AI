@@ -1,0 +1,28 @@
+Sure, here is the extracted handwritten text:
+
+```
+Losses to be carried forward
+
+1) House Property Loss  31,000
+
+Note
+1) Loss incurred by the firm in which he a
+partner is not eligible for Loss setoff since
+share of profit is exempt.
+2) House property Loss can be setoff maximum
+upto ₹ 200,000 from Salary Remaining
+has been carried forward.
+
+Q.2)
+
+=> b)
+
+=> 1) As per section 194C if the contract value
+exceed ₹ 100,000 in aggregate and ₹ 30,000 in
+single payment then TDS shall be deducted
+at 1%, for Individual and Hindu-undivided family
+and 2% for others.
+The tax deduction at source in this case
+will be
+= 300,000 x 1% = 3000
+```

@@ -1,0 +1,32 @@
+Sure, here is the extracted handwritten text:
+
+---
+
+Q.1) Computation of Total Income under the Head Salary in the hands of Mr. Kunal for the Assessment Year 2025-26 (115BAC)
+
+| Particulars | ₹ | ₹ |
+|-------------|---|---|
+| 1) Basic Salary | | 7,22,000 |
+| (60,000x10) + (61,000x2) | | |
+| 2) Dearness Allowance | | 1,80,500 |
+| 3) Bonus | | 60,000 |
+| 4) Leave Encashment | | |
+| (Note 1) | | |
+| 5) Loan given at | | 2,00,000 |
+| Lower Rate (Note 2) | | |
+| 6) Rent free | | 92,000 |
+| Accommodation | | |
+| Accommodation (Note 3) | | |
+| 7) Furniture provided | | 15,000 |
+| free of cost | | |
+| (Note 4) | | |
+| 8) Electricity & | | 60,000 |
+| Water bill paid | | |
+| by the employer | | |
+| (5000 x 12) | | |
+| 9) Gift from colleague | | Nil |
+| (Note 5) | | |
+| Total Salary | | 13,29,500 |
+| chargeable to tax | | |
+
+---

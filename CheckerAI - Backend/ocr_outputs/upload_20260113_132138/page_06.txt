@@ -1,0 +1,26 @@
+Sure, here is the extracted handwritten text from the image:
+
+```
+WN1: Calculation of depreciation:-
+
+Land 100 lakhs
+[Not depreciable]
+
+Building: [99.125 - 100]
+   ➔ Roof [30%] ➔ 29.7375 [99.125 x 30%]
+   ➔ depreciation 0.4956
+
+   [29.7375 x 1 x 4]
+   [          20     12]
+   ➔ 29.2419
+
+   ➔ 70% Building ➔ 69.3875
+   ➔ depreciation 0.5782
+
+   [69.3875 x 1 x 4]
+   [          40     12]
+   ➔ 68.8093
+
+Total depreciation = 0.4956 (+) 0.5782
+   ➔ 1.0738
+```

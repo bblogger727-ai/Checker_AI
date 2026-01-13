@@ -1,0 +1,21 @@
+```
+Net Computation of
+GST Payable
+
+Particulars        CGST     SGST     IGST
+
+Total GST Payable  40091    40091    50000
+- FCM
+(-) ITC availed    (2250)   (2250)   -
+
+GST Payable        38241    38241    50000
+
+(+) GST Payable
+through RCM        2250     2250     50000
+(ITC is not available
+for GST Payable through
+RCM it has to be
+paid in cash)
+
+Total GST Payable  40591    40591    50000
+```

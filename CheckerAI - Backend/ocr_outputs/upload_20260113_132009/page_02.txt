@@ -1,0 +1,26 @@
+**Q2. Anti Dumping Duty**
+
+- Such duty is imposed when goods are dumped at reduced prices causing injury to domestic market.
+- Such duty can be imposed retrospectively only when following conditions are satisfied.
+  ➤ There is history of such dumping
+  ➤ Such dumping has caused major serious injury overtime.
+
+Hence in given scenario Chaintop Industries has to prove the above conditions to make antidumping duty liable on same retrospectively.
+
+**Q3. Computation of Custom Duty Payable**
+
+| Particulars | ₹ |
+|-------------|---|
+| Assessable Value of Sodium Nitrate | 30,00,000 |
+| Basic Custom duty @10% | 3,00,000 |
+| Social Welfare Surcharge @10% | 30,000 |
+| Safeguard duty @30% | 9,00,000 |
+| ➤ Total value incl. Custom duty | 42,30,000 |
+| IGST @ 12% | 5,07,600 |
+| ➤ Total Custom duty | 12,30,000 |
+| ➤ Total custom duty + IGST payable | 17,37,600 |
+
+**Note**
+
+- Safeguard duty is not imposed when goods are imported from developing countries if goods imported from developing countries < 8% of total imports of such goods.
+- In given case & since the share of import of Sodium Nitrate against total imports from developing country is 4%, safeguard duty shall be levied.

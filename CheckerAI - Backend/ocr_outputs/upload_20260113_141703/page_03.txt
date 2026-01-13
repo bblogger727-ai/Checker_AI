@@ -1,0 +1,39 @@
+Sure, here is the extracted handwritten text from the image:
+
+---
+
+**Outward Tax payable**
+
+Particulars | CGST | SGST | IGST
+---|---|---|---
+(i) Sale in West Bengal | 0.63 | 0.63 | -
+(ii) Sale in other state | - | - | 0.54
+(iii) Export LUT NO | - | - | -
+GST as paid | 0.62 | 0.62 | 0.54
+
+**Net GST payable**
+
+Particular | CGST | SGST | IGST
+---|---|---|---
+Outward Tax payable | 0.63 | 0.62 | 0.54
+-> ITC (computed in note (i)) | (0.556) | (0.48) | (0.533)
+(+) RCM (Payable through ECL) | 0.073 | 0.115 | 0.0063
+Net GST payable through ECL | 0.0885 | 0.0855 | 0.0063
+
+---
+
+**(2) (a)**
+
+Particular | ₹
+---|---
+Wholesale price of Machinery | 4,00,000
+(+) Handling & loading | 10,000
+(+) Installation & commissioning | 1,00,000
+(+) GTA - freight directly paid | -
+However, if it is arranged by Supplier but Customer enters into separate service contract, so not includible | -
+(-) Cash discount (agreed @ the time of supply is allowed) | (84,000)
+(-) Price linked subsidy | (2,00,000)
+
+**Assessable Value** | 4,26,000
+
+---

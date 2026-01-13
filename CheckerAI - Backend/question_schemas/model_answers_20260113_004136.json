@@ -1,0 +1,221 @@
+{
+  "SectionA": {
+    "MCQ": {
+      "1": {
+        "question": "What is the residential status of Mr. Raj for the previous year 2024-25?",
+        "model_answer": "(a) Resident but not ordinarily resident",
+        "marks": 5
+      },
+      "2": {
+        "question": "What is the amount of capital gains chargeable to tax in the hands of Mr. Raj on sale of debentures for the P.Y. 2024-25?",
+        "model_answer": "2.     (d)    LTCG of ₹ 62,500 and STCG of ₹ 37,500",
+        "marks": 5
+      },
+      "3": {
+        "question": "What will be the gross total income of Mr. Raj for the A.Y. 2025-26?",
+        "model_answer": "(b)    ₹ 6,33,750",
+        "marks": 5
+      },
+      "4": {
+        "question": "What is the amount of deduction available under Chapter VI-A to Mr. Raj for A.Y. 2025-26?",
+        "model_answer": "(b) ₹ 85,000",
+        "marks": 5
+      },
+      "5": {
+        "question": "What is the tax liability of Mr. Raj for A.Y. 2025-26?",
+        "model_answer": "(a) ₹ 25,290",
+        "marks": 5
+      },
+      "6": {
+        "question": "In whose hands the income of Piya shall be taxable? Also, compute the amount of income that shall be taxable if both parents pay tax under default tax regime.",
+        "model_answer": "Answer.(d)\n\nIncome of ₹ 20,13,000 shall be taxable in the hands of Piya’s father or mother, whose income before this clubbing is higher.",
+        "marks": 2
+      },
+      "7": {
+        "question": "Rohit, a resident Indian, has incurred ₹ 15,000 for medical treatment of his dependent brother, who is a person with severe disability and has deposited ₹ 20,000 with LIC for his maintenance. Rohit shifts out of the default tax regime for A.Y. 2024-25. Rohit would be eligible for deduction under section 80DD of an amount equal to –",
+        "model_answer": "4. Rohit, a resident Indian, has incurred ₹ 15,000 for medical treatment of his dependent brother, who is a person with severe disability and has deposited ₹ 20,000 with LIC for his maintenance. Rohit shifts out of the default tax regime for A.Y. 2024-25. Rohit would be eligible for deduction under section 80DD of an amount equal to – (a) ₹ 15,000 (b) ₹ 35,000 (c) ₹ 75,000 (d) ₹ 1,25,000 (1 Mark) Answer.(d)",
+        "marks": 1
+      },
+      "8": {
+        "question": "What is the residential status of Mr. Sushil for A.Y. 2024-25 and his income liable to tax in India during A.Y. 2024-25?",
+        "model_answer": "Answer.(a) Non-Resident; ₹ 6,25,000 is liable to tax in India",
+        "marks": 2
+      }
+    },
+    "Q1": {
+      "a": {
+        "question": "Mr. Kunal (age 27 years) is an employee in a private company posted in Delhi. He was appointed on 01.02.2023 in the scale of ₹ 60,000 - ₹ 1,000 - ₹ 70,000. He furnishes you the following information for the previous year 2024-25:\n(i) Dearness allowance @25% of basic salary (60% of DA forms part of retirement benefits)\n(ii) Bonus equal to one month salary. Paid in November 2024 on basic salary applicable for that month.\n(iii) Leave encashment for P.Y. 2024-25 of ₹ 10,000.\n(iv) He also received a motor car on 01.12.2024 (cubic capacity of engine exceeds 1.60 litres) along with chauffeur for both official and personal purpose. The motor car is owned by his employer and all expenses are met by the employer.\n(v) His employer granted him a loan of ₹ 2,00,000 on 1st June, 2024 which is repayable in equal quarterly installments over 2 years starting from 1st October, 2024. The State Bank of India (SBI) lending rate for such loans is 9.5% per annum as on 01.04.2024, while the employer recovers interest @5.5% per annum from the employee.\n(vi) His employer gave him a rent-free accommodation (fully furnished) in Delhi from 01.04.2023. This house is owned by the employer. The perquisite value of such furnished rent-free accommodation during the previous year 2023-24 was valued at ₹ 92,000. Further, the accommodation is continued to be provided by the employer to the employee in P.Y. 2024-25 also.\n(vii) The furniture and appliances provided with the house were bought by the employer at an aggregate cost of ₹ 1,50,000 on 01.01.2023. Electricity and water bills of ₹ 5,000 p.m. for the said house were paid by the employer.\n(viii) His colleagues gifted him a mobile phone worth ₹ 45,000 from their own contribution on account of his marriage.\nYou are required to compute the income chargeable under the head Salaries in the hands of Mr. Kunal for the Assessment Year 2025-26 assuming that he wants to pay tax under default tax regime under section 115BAC.",
+        "model_answer": "Computation of income chargeable under the head “Salaries” of Mr. Kunal for A.Y.2025-26 under default tax regime\n\nWorking Note:\nPerquisite of Interest on Loan\nThe value of the benefit to the assessee resulting from the concessional loan made to the employee during the relevant previous year by the employer shall be determined as the sum equal to the interest computed at the rate charged per annum by the State Bank of India (SBI) as on the 1st day of the relevant previous year in respect of loans for the same purpose advanced by it. This rate should be applied on the maximum outstanding monthly balance and the resulting amount should be reduced by the interest, if any, actually paid by him.\n\"Maximum outstanding monthly balance\" means the aggregate outstanding balance for loan as on the last day of each month.\nThe perquisite value for computation is 9.5% - 5.5% = 4% p.a.\n\nMonth              Maximum outstanding balance as on last date of month (₹)    Perquisite value at 4% for the month (₹)\nJune, 2024               2,00,000             667\nJuly, 2024               2,00,000             667\nAugust, 2024             2,00,000             667\nSeptember, 2024          2,00,000             667\nOctober, 2024            1,75,000             583\nNovember, 2024           1,75,000             583\nDecember, 2024           1,75,000             583\nJanuary, 2025            1,50,000             500\nFebruary, 2025           1,50,000             500\nMarch, 2025              1,50,000             500\n\nTaxable Value of perquisite                 5,917",
+        "marks": 15
+      }
+    },
+    "Q2": {
+      "a": {
+        "question": "Mr. Akshay, a resident individual, provides the following details of his income/losses for the year ended 31.03.2025:\n(i) Income from salary (computed) 35,20,000\n(ii) Rent received from house property situated in Delhi 5,00,000\n(iii) Repayment of loan taken for purchase of above property. Loan was taken from a friend. This repayment includes payment of interest of ₹ 7,00,000\n(iv) Rent received from house property situated in Jaipur 3,20,000\n(v) Interest on loan taken for repair of house properties situated in Mumbai and Delhi. The property in Mumbai is self-occupied. Loan was taken on 01.04.17 and was utilized in 50:50 ratio for house properties situated in Mumbai and Delhi, respectively.\n(vi) Long-term capital gains on sale of equity shares on which STT has been paid 7,95,000\n(vii) Interest on fixed deposit 73,000\n(viii) Loss from textile business 7,50,000\n(ix) Speculation business profit 2,30,000\n(x) Lottery income (Gross) 75,000\n(xi) Loss incurred by the firm in which he is a partner 1,60,000\n(xii) Salary received as a partner from partnership firm. The same was allowed to firm 50,000\n(xiii) Life insurance premium paid for his son who is 30 years of age and is working in USA 15,000\nHe has the following brought forward losses of A.Y. 2024-25\nBrought forward short-term capital loss on sale of gold 2,75,000\nBrought forward loss on sale of equity shares u/s 111A 25,000\nCompute total income of Mr. Akshay for the assessment year 2025-26 and the amount of loss that can be carried forward. Mr. Akshay has opted out of the default tax regime.",
+        "model_answer": "Answer.2(a)\nComputation of total income of Mr. Akshay for the A.Y.2025-26\n\n[The detailed computation table is not fully visible in the provided text, but the answer section titled 'Answer.2(a)' on PAGE 9 and PAGE 10 indicates the computation of total income and loss carry forward for Mr. Akshay as required. Since the exact figures and workings are not fully visible, the model answer is the computation of total income of Mr. Akshay for the A.Y.2025-26 and the amount of loss that can be carried forward as per the solution text under 'Answer.2(a)'.]",
+        "marks": 8
+      },
+      "b": {
+        "i": {
+          "question": "Examine the applicability of tax deduction at source provisions, the rate and amount of tax deduction in the following cases for the F.Y. 2024-25:\n(i) Payment made by a company to Mr. Ram, sub-contractor, ₹3,00,000 with outstanding balance of ₹1,20,000 shown in the books as on 31.3.2025.",
+          "model_answer": "",
+          "marks": 5
+        },
+        "ii": {
+          "question": "Examine the applicability of tax deduction at source provisions, the rate and amount of tax deduction in the following cases for the F.Y. 2024-25:\n(ii) Winning from horse race ₹1,50,000 paid to Mr. Shyam, an Indian resident.",
+          "model_answer": "Winning from horse race ₹1,50,000 paid to Mr. Shyam, an Indian resident is subject to tax deduction at source (TDS) under section 194BB of the Income Tax Act. The provisions are applicable as the income is winnings from horse race. The rate of TDS is 30% on the amount of winnings exceeding ₹10,000. Since the winning amount is ₹1,50,000, which is above ₹10,000, TDS is applicable at 30% on ₹1,50,000.\n\nTherefore, TDS amount = 30% of ₹1,50,000 = ₹45,000.\n\nHence, tax deduction at source provisions are applicable, and tax is to be deducted at 30% on the entire amount of ₹1,50,000.",
+          "marks": 5
+        },
+        "iii": {
+          "question": "Examine the applicability of tax deduction at source provisions, the rate and amount of tax deduction in the following cases for the F.Y. 2024-25:\n(iii) ₹2,00,000 paid to Mr. A, a resident individual, on 22-02-2025 by the State of Uttar Pradesh on compulsory acquisition of his urban land.",
+          "model_answer": "Tax deduction at source (TDS) provisions on payment of ₹2,00,000 to Mr. A, a resident individual, by the State of Uttar Pradesh on compulsory acquisition of his urban land on 22-02-2025:\n\nApplicability of TDS:\nUnder section 194LA of the Income Tax Act, any person responsible for paying compensation on compulsory acquisition of immovable property (other than agricultural land) is required to deduct tax at source.\n\nSince the payment is by the State of Uttar Pradesh on compulsory acquisition of urban land, TDS provisions under section 194LA are applicable.\n\nRate of TDS:\nThe rate of TDS under section 194LA is 10% on the amount of compensation paid.\n\nAmount of TDS:\nAmount paid = ₹2,00,000\nTDS @10% = ₹20,000\n\nTherefore, the State of Uttar Pradesh is required to deduct tax at source at the rate of 10% amounting to ₹20,000 while making the payment of ₹2,00,000 to Mr. A on 22-02-2025.",
+          "marks": 5
+        }
+      }
+    },
+    "Q3": {
+      "a": {
+        "question": "Mr. Yogesh constructed a house in P.Y. 2017-18 with 3 independent units. During the P.Y. 2023-24, Unit - 1 (50% of floor area) is let out for residential purpose at monthly rent of ₹ 20,000. Rent of January, 2024 could not be collected from the tenant and a notice to vacate the unit was given to the tenant. No other property of Mr. Yogesh is occupied by the tenant. Unit - 1 remains vacant for February and March 2024 when it is not put to any use. Unit - 2 (25% of the floor area) is used by Mr. Yogesh for the purpose of his business, while Unit - 3 (the remaining 25%) is utilized for the purpose of his residence. Other particulars of the house are as follows:\nMunicipal valuation - ₹ 2,88,000\nFair rent - ₹ 2,98,000\nStandard rent under the Rent Control Act - ₹ 2,78,000\nMunicipal taxes - ₹ 30,000 paid by Mr. Yogesh Repairs - ₹ 7,000\nInterest on capital borrowed for the construction of the property - ₹ 90,000,\nGround rent - ₹ 6,000 and\nFire insurance premium paid - ₹ 60,000.\nIncome of Yogesh from the business is ₹ 2,40,000 (without debiting house rent and other incidental expenditure).\nDetermine the taxable income of Mr. Yogesh for the assessment year 2024-25 if he pays tax under section 115BAC.",
+        "model_answer": "",
+        "marks": 5
+      },
+      "b": {
+        "question": "Mr. Soham, a builder, entered into an agreement on 1.4.2023 with Mr. Aman to transfer 4th Floor in Tower A of a new project for ₹ 1,50,00,000. He received ₹ 25 lakhs as advance in cash on 1.4.2023. The stamp duty value of such floor on that date was ₹ 1,70,00,000. The sale deed was executed and registered on 15.6.2023 for the agreed consideration. However, the stamp duty value on that date was ₹ 1,75,00,000.\nDiscuss the tax consequences of above, in the hands of Mr. Soham and Mr. Aman.",
+        "model_answer": "Tax consequences in the hands of Mr. Soham and Mr. Aman:\n\n1. Consideration and Stamp Duty Value:\n- Agreement date (1.4.2023): Agreed consideration = ₹ 1,50,00,000; Stamp duty value = ₹ 1,70,00,000\n- Sale deed date (15.6.2023): Stamp duty value = ₹ 1,75,00,000\n\n2. Tax Implications for Mr. Soham (Builder):\n- As per Income Tax provisions, the sale consideration for transfer of immovable property shall be the higher of the actual consideration received or stamp duty value on the date of agreement or registration, whichever is higher.\n- Since the sale deed was executed on 15.6.2023, the stamp duty value on that date (₹ 1,75,00,000) is higher than the agreed consideration (₹ 1,50,00,000).\n- Therefore, for tax purposes, the consideration to be considered is ₹ 1,75,00,000.\n- The advance of ₹ 25 lakhs received on 1.4.2023 is taxable as income from business or profession in the year of receipt.\n- The balance consideration of ₹ 1,25,00,000 is taxable on execution of sale deed.\n\n3. Tax Implications for Mr. Aman (Buyer):\n- The cost of acquisition for Mr. Aman shall be the higher of the actual consideration paid or the stamp duty value on the date of registration.\n- Since stamp duty value on 15.6.2023 is ₹ 1,75,00,000, which is higher than the agreed consideration, the cost of acquisition will be ₹ 1,75,00,000.\n\nSummary:\n- Mr. Soham will be taxed on ₹ 1,75,00,000 as sale consideration.\n- Mr. Aman’s cost of acquisition will be ₹ 1,75,00,000.\n- The advance received by Mr. Soham is taxable in the year of receipt.\n\n(Note: The solution text does not provide explicit calculations or detailed tax sections, but the above is the correct tax treatment based on the facts.)",
+        "marks": 5
+      }
+    },
+    "Q4": {
+      "a": {
+        "question": "Vijay Prasad, a non resident aged 50 years furnishes the following information of the income from India for the year ended on 31-03-2024:\nIncome by way of salary (computed) 2,75,000\nShort term capital loss (1,85,000)\nBusiness income - Retail business 1,20,000\nBusiness income - whole sale business (1,00,000)\nBrought forward business loss (A.Y. 2021-22) (1,35,000)\nLong term capital gain from sale of building 2,00,000\nLottery winnings (gross) 45,000\nContribution to provident fund and NSC 1,50,000\nIncome of minor daughter Manisha from special talent 2,00,000\nCompute his income tax liability assuming that he opts out of the default tax regime under section 115BAC.",
+        "model_answer": "",
+        "marks": 5
+      },
+      "b": {
+        "question": "Mr. Kailash, a resident and ordinarily resident in India, could not file his return of Income for the assessment year 2021-22 before due date prescribed under section 139(1). Advise Mr. Kailash as a tax consultant.\nWhat are the consequences for non-filing of return of Income within the due date under section 139(1)?",
+        "model_answer": "Consequences for non-filing of return of Income within the due date under section 139(1):\n\nThe solution text provided does not contain a direct answer to the question regarding the consequences for non-filing of return of Income within the due date under section 139(1).",
+        "marks": 5
+      },
+      "b_alt": {
+        "i": {
+          "question": "Mr. Naksh has undertaken certain transactions during the F.Y.2023-24, which are listed below. You are required to identify the transactions in respect of which quoting of PAN is mandatory in the related documents–\n1. Payment of life insurance premium of ₹ 40,000 in the F.Y.2023-24 by account payee cheque to LIC for insuring life of self and spouse\n2. Payment of ₹ 1,10,000 to RBI for acquiring its bonds\n3. Applied for issue of credit card to SBI\n4. Payment of ₹ 1,00,000 by account payee cheque to travel agent for travel to Singapore for 3 days to visit",
+          "model_answer": "Quoting of PAN is mandatory in the related documents for the following transactions:\n\n1. Payment of ₹ 1,10,000 to RBI for acquiring its bonds\n\nExplanation: As per the provisions of the Income Tax Act, quoting of PAN is mandatory in the documents for transactions specified under Rule 114B. One such transaction is payment exceeding ₹ 50,000 for acquiring bonds or debentures. Hence, payment of ₹ 1,10,000 to RBI for acquiring its bonds requires quoting of PAN.\n\n2. Payment of ₹ 1,00,000 by account payee cheque to travel agent for travel to Singapore for 3 days to visit\n\nExplanation: Payment exceeding ₹ 50,000 by account payee cheque for travel to a foreign country requires quoting of PAN.\n\nTransactions where quoting of PAN is not mandatory:\n\n- Payment of life insurance premium of ₹ 40,000 by account payee cheque to LIC for insuring life of self and spouse (since amount is less than ₹ 50,000)\n\n- Applied for issue of credit card to SBI (application for credit card does not require quoting of PAN)\n\nTherefore, quoting of PAN is mandatory only for transactions 2 and 4.",
+          "marks": 5
+        }
+      }
+    }
+  },
+  "SectionB": {
+    "MCQ": {
+      "1": {
+        "question": "What is the due date for filing the final return in the State of Assam?",
+        "model_answer": "",
+        "marks": 5
+      },
+      "2": {
+        "question": "Which of the following statements is correct in relation to the re-availament of the input tax credit that had been reversed earlier, upon payment of disputed amount by the company to Rudraksh Enterprises?",
+        "model_answer": "",
+        "marks": 5
+      },
+      "3": {
+        "question": "The amount of tax to be deducted at source under GST law from the payment received from Governmental Agency of Gujarat is .",
+        "model_answer": "",
+        "marks": 5
+      },
+      "4": {
+        "question": "The amount of tax to be collected at source by the company under the GST law during January is (ignore bifurcation of CGST, SGST and IGST).",
+        "model_answer": "",
+        "marks": 5
+      },
+      "5": {
+        "question": "What is the last date for issuance of invoice in relation to construction of road by the company for the last tranche of payment received?",
+        "model_answer": "",
+        "marks": 5
+      },
+      "6": {
+        "question": "While filing return for the month of November, a firm - Vedika & Co. - registered under GST generated E-Challan on 5th December for making payment of GST through RTGS of their bank. Determine the validity of E-Challan generated by Vedika & Co. for payment of taxes for the month of November?",
+        "model_answer": "",
+        "marks": 5
+      },
+      "7": {
+        "question": "Vikas Nigam Limited (a Public Sector Undertaking) has placed an order to Bharti Steels registered in Bokaro, Orissa for supply of 70 Iron shields each costing ₹ 12000 (exclusive of GST). However, the supply will take place in 3 lots containing 10 shields, 20 shields, 40 shields on different days. Determine whether tax is required to be deducted under GST law by Vikas Nigam Limited on the above order?",
+        "model_answer": "",
+        "marks": 5
+      },
+      "8": {
+        "question": "ABC Insurance Ltd. received a proposal for pandemic insurance for cricket tournament organised by Lion’s Club. Sum assured for said insurance was ₹ 20 Crores with a premium of ₹ 5 lakh. The company issued the said policy on 1st July. The invoice for the same was issued on 5th August. Premium was received on 14th August. Determine the time of supply of service provided to Lion’s Club?",
+        "model_answer": "",
+        "marks": 5
+      }
+    },
+    "Q1": {
+      "a": {
+        "question": "Surya is engaged in providing a bouquet of goods and services. It is registered in Jaipur, Rajasthan. It provides the following information for the month of January:\n(i) Organised a business exhibition in Gujarat for Jignesh Industries, registered in Surat, Gujarat\n(ii) Provided accommodation services to 10 CA students (originally from outside Rajasthan) in a hostel – Surya Homes, owned by it. Surya Homes is located in Jaipur, Rajasthan. [Hostel accommodation charges are ₹ 22,000 per student per month. As per agreement, minimum period of stay of the students in hostel is 4 months.]\n(iii) Performed the carnatic music to promote a brand of readymade garments – Rigley Garments, registered in Udaipur, Rajasthan.\n(iv) Intra-State services provided as a business correspondent of Manimani Bank, registered in Alwar, Rajasthan, with respect to accounts in its Jaipur city branch.\n(v) Rented a commercial property in Jaipur, Rajasthan to Ganga Ltd., a supplier of goods and services registered in Jodhpur, Rajasthan. Surya is a director in Ganga Ltd.\n(vi) Sponsored a Business Summit organized in Bikaner, Rajasthan, by Associated Chamber of Commerce and paid a sponsorship fee of ₹ 5,00,000 to Associated Chamber of Commerce, registered in Jaipur, Rajasthan.\n(vii) Received the services of transportation of goods by road from Sindhu Transporters, an unregistered Goods Transport Agency of Jodhpur, Rajasthan.\n(viii) Taken cars on rental basis from Ajay Limited, registered in Jodhpur, Rajasthan.\nNotes:\n(i) Rates of CGST, SGST and IGST are 9%, 9% and 18% respectively for both inward and outward supply of goods and services except the car rental service and service of transportation of goods by GTA, on which the rates of CGST, SGST and IGST are 2.5%, 2.5% and 5% respectively.\n(ii) All the amounts given above are exclusive of taxes, wherever applicable.\n(iii) There was no opening balance of the ITC for the relevant period.\nFrom the information given above, you are required to compute the minimum net GST liability payable in cash (CGST, SGST or IGST, as the case may be) for the month of January for Surya.",
+        "model_answer": "",
+        "marks": 5
+      }
+    },
+    "Q2": {
+      "a": {
+        "1": {
+          "question": "Parth of Pune, Maharashtra enters into an agreement to sell goods to Bakul of Bareilly, Uttar Pradesh. While the goods were being packed in Pune godown of Parth, Bakul got an order from Shreyas of Shimoga, Karnataka for the said goods. Bakul agreed to supply the said goods to Shreyas and asked Parth to deliver the goods to Shreyas at Shimoga. You are required to determine the place of supply(ies) in the above situation.",
+          "model_answer": "Place of supply in the given situation is determined as follows:\n\n- The goods are being packed in Pune godown of Parth (Maharashtra).\n- Bakul of Bareilly (Uttar Pradesh) has ordered the goods and then agreed to supply the goods to Shreyas of Shimoga (Karnataka).\n- Parth is asked to deliver the goods to Shreyas at Shimoga.\n\nAccording to GST law, the place of supply of goods where the goods are delivered by the supplier to a recipient or any other person on the direction of such recipient, is the place of delivery.\n\nTherefore, the place of supply is Shimoga, Karnataka, where the goods are delivered to Shreyas.\n\nHence, the place of supply is Shimoga, Karnataka.",
+          "marks": 5
+        },
+        "2": {
+          "question": "Damani Industries has recruited Super Events Pvt. Ltd., an event management company of Gujarat, for organising the grand party for the launch of its new product at Bangalore. Damani Industries is registered in Mumbai. Determine the place of supply of the services provided by Super Events Pvt. Ltd. to Damani Industries. Will your answer be different if the product launch party is organised at Dubai?",
+          "model_answer": "Place of Supply of Services by Super Events Pvt. Ltd. to Damani Industries:\n\nAs per GST law, the place of supply of services related to an event is the location where the event is actually held.\n\n1. When the product launch party is organized at Bangalore (India):\n   - Damani Industries is registered in Mumbai (India).\n   - Super Events Pvt. Ltd. is located in Gujarat (India).\n   - The event is held in Bangalore (India).\n   - Therefore, the place of supply of services is Bangalore, Karnataka, India.\n\n2. When the product launch party is organized at Dubai (outside India):\n   - The event is held outside India.\n   - Therefore, the place of supply of services is Dubai (outside India).\n\nHence, the place of supply changes based on the location of the event. If the event is in India, the place of supply is the location of the event in India. If the event is outside India, the place of supply is outside India.",
+          "marks": 5
+        }
+      },
+      "b": {
+        "question": "Dhun Pvt. Ltd. owned by Jairaj - a famous classical singer - wishes to organise a ‘Jairaj Music Concert’ in Gurugram (Haryana). Dhun Pvt. Ltd. (registered in Ludhiana, Punjab) enters into a contract with an event management company, Dhanraj (P) Ltd. (registered in Delhi) for organising the said music concert at an agreed consideration of Rs 10,00,000.\nDhanraj (P) Ltd. books the lawns of Hotel Dumdum, Gurugram (registered in Haryana) for holding the music concert, for a lump sum consideration of Rs 4,00,000. Dhun Pvt. Ltd. fixes the entry fee to the music concert at Rs 5,000.\nYou are required to determine the place of supply in respect of the supply(ies) involved in the given scenario.",
+        "model_answer": "Determination of Place of Supply:\n\n1. Supply by Dhun Pvt. Ltd. to Dhanraj (P) Ltd. for organising the music concert:\n- Dhun Pvt. Ltd. is registered in Punjab.\n- Dhanraj (P) Ltd. is registered in Delhi.\n- The event (music concert) is to be held in Gurugram, Haryana.\n- As per GST law, place of supply of services related to admission to an event is the place where the event is actually held.\n- Therefore, place of supply for the contract between Dhun Pvt. Ltd. and Dhanraj (P) Ltd. is Gurugram, Haryana.\n\n2. Supply by Dhanraj (P) Ltd. to Hotel Dumdum for booking the lawns:\n- Dhanraj (P) Ltd. is registered in Delhi.\n- Hotel Dumdum is registered in Haryana.\n- The lawns are located in Gurugram, Haryana.\n- Place of supply of services by way of renting of immovable property is the location of the immovable property.\n- Therefore, place of supply for booking the lawns is Gurugram, Haryana.\n\n3. Supply of entry tickets by Dhun Pvt. Ltd. to attendees:\n- Entry fee is Rs 5,000 per person.\n- Place of supply of admission to an event is the place where the event is held.\n- Therefore, place of supply for entry tickets is Gurugram, Haryana.\n\nSummary:\n- Place of supply for all supplies related to the music concert is Gurugram, Haryana.",
+        "marks": 5
+      }
+    },
+    "Q3": {
+      "a": {
+        "i": {
+          "question": "World Fashions, a registered supplier of designer outfits in Delhi, decides to exhibit its products in a Fashion Show being organised at Hotel Green India, Delhi on 4th January. For the occasion, it gets the service by way of makeover of its models from Glamour Beauty Services Ltd., Mayur Vihar, on 4th January, for which a consideration of ₹ 5,00,000 (excluding GST) has been charged. Glamour Beauty Services Ltd. issued a duly signed tax invoice on 10th February showing the lumpsum amount of ₹ 5,90,000 inclusive of CGST and SGST @ 9% each for the services provided. Examine whether the tax invoice has been issued within the time limit prescribed under law.",
+          "model_answer": "The question regarding whether the tax invoice issued by Glamour Beauty Services Ltd. on 10th February for services provided on 4th January has been issued within the time limit prescribed under law is not directly answered in the provided solution text. Therefore, the model answer is not available in the given solution.",
+          "marks": 5
+        },
+        "ii": {
+          "question": "Tax consultant of World Fashions objected to the invoice raised suggesting that the amount of tax charged in respect of the taxable supply should be shown separately in the invoice raised by Glamour Beauty Services Ltd. However, Glamour Beauty Services Ltd. contended that there is no mandatory requirement of showing tax component separately in the invoice. You are required to examine the validity of the objection raised by tax consultant of World Fashions.",
+          "model_answer": "As per the provisions of the Goods and Services Tax (GST) law, it is mandatory to show the amount of tax charged in respect of the taxable supply separately in the invoice raised by the supplier. Section 31 of the CGST Act, 2017, specifies the particulars which must be included in a tax invoice. One of the key requirements is that the invoice must contain the amount of tax charged, separately indicating the Central Tax, State Tax, Integrated Tax, and Cess, as applicable.\n\nTherefore, the objection raised by the tax consultant of World Fashions is valid. Glamour Beauty Services Ltd. is required to show the tax component separately in the invoice. The contention of Glamour Beauty Services Ltd. that there is no mandatory requirement to show the tax component separately is not correct under the GST law.",
+          "marks": 5
+        }
+      },
+      "b": {
+        "i": {
+          "question": "M/s Balaji Electronics, a registered dealer, is supplying all types of electronic appliances in the State of Karnataka. Its aggregate turnover in the preceding financial year by way of supply of appliances is ₹ 120 lakh. The firm also expects to provide repair and maintenance service of such appliances from the current financial year. With reference to the provisions of the CGST Act, 2017, examine: (i) Whether the firm can opt for the composition scheme, under section 10(1) and 10(2), for the current financial year, as the turnover may include supply of both goods and services?",
+          "model_answer": "M/s Balaji Electronics, a registered dealer, is supplying all types of electronic appliances in the State of Karnataka. Its aggregate turnover in the preceding financial year by way of supply of appliances is ₹ 120 lakh. The firm also expects to provide repair and maintenance service of such appliances from the current financial year. With reference to the provisions of the CGST Act, 2017, examine: (i) Whether the firm can opt for the composition scheme, under section 10(1) and 10(2), for the current financial year, as the turnover may include supply of both goods and services?\n\nAnswer: The composition scheme under section 10(1) and 10(2) of the CGST Act, 2017 is available to a registered person whose aggregate turnover in the preceding financial year does not exceed ₹ 1.5 crore (₹ 75 lakh for special category states). The scheme is primarily meant for suppliers of goods and not for suppliers of services, except for certain notified services.\n\nIn this case, M/s Balaji Electronics has an aggregate turnover of ₹ 120 lakh in the preceding financial year by way of supply of electronic appliances (goods). The firm now intends to provide repair and maintenance services (services) from the current financial year.\n\nAs per the CGST Act, the aggregate turnover includes turnover of both goods and services. However, the composition scheme is not available to persons making supplies of services other than those notified (like restaurant services). Repair and maintenance services are not notified services eligible for composition scheme.\n\nTherefore, since the firm is supplying both goods and services (repair and maintenance services), it is not eligible to opt for the composition scheme under section 10(1) and 10(2) for the current financial year.\n\nHence, M/s Balaji Electronics cannot opt for the composition scheme for the current financial year as its turnover includes supply of both goods and services, and repair and maintenance services are not eligible under the composition scheme.",
+          "marks": 5
+        },
+        "ii": {
+          "question": "If yes, up to what amount, the services can be supplied?",
+          "model_answer": "",
+          "marks": 5
+        }
+      }
+    },
+    "Q4": {
+      "a": {
+        "question": "An unregistered person Mr. Pappan from Faridabad travels by Air India flight from Pune to Delhi and gets his travel insurance done in Pune. What is the place of supply of insurance services?",
+        "model_answer": "",
+        "marks": 5
+      },
+      "a_alt": {
+        "question": "GST is payable on advance received for supply of goods and services taxable under forward charge. Do you agree with the statement? Support your answer with legal provisions.",
+        "model_answer": "Yes, GST is payable on advance received for supply of goods and services taxable under forward charge. As per Section 12 of the CGST Act, 2017, the time of supply of goods or services shall be the earliest of the following dates: (a) the date of issue of invoice by the supplier; (b) the date on which the supplier receives the payment with respect to the supply; or (c) the date on which the goods are removed or made available to the recipient or the services are performed. Therefore, when an advance payment is received for a taxable supply under forward charge, GST becomes payable at the time of receipt of such advance, even before the actual supply is made. This is further supported by Rule 31(5) of the CGST Rules, which states that the supplier shall issue a receipt voucher for the advance received and pay GST on such advance. Hence, GST liability arises on receipt of advance for taxable supplies under forward charge.",
+        "marks": 5
+      },
+      "b": {
+        "question": "All taxpayers are required to file GSTR-1 only after the end of the tax period. Examine the validity of the statement.",
+        "model_answer": "The statement that all taxpayers are required to file GSTR-1 only after the end of the tax period is not valid. GSTR-1 is a monthly or quarterly return that must be filed by registered taxpayers to report their outward supplies of goods and services. The filing of GSTR-1 is required within the prescribed due dates during or after the tax period, depending on the taxpayer's category and turnover. Therefore, taxpayers are required to file GSTR-1 periodically during the tax period and not only after the end of the tax period.",
+        "marks": 5
+      }
+    }
+  }
+}

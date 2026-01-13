@@ -1,0 +1,18 @@
+Sure, here is the extracted handwritten text:
+
+```
+Q.27 b7
+
+(i) As per Section 194BB if Winning from & Horse
+Races exceed ₹ 10,000 in a year then TDS
+@ at the rate 30% will be applicable.
+Therefore tax deducted in this case will be
+= 150,000 x 30% = 45,000
+
+(ii) As per Section 194LA in case of compulsary
+compulsory acquisition if the compensation
+exceed ₹ 250,000 in a year then only TDS
+provision will be applicable. Since the consideration
+does not exceed ₹ 200,000 then there will be
+no tax deducted at such source.
+```

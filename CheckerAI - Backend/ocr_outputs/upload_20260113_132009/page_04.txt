@@ -1,0 +1,30 @@
+Q6.
+
+- Bill of entry shall be filed by end of the day preceding the date of arrival of vessel/aircraft, but not before 30 days from the date of expected arrival.
+- Payment of duty can be deferred by following class of persons, however the condition for filing Bill of entry for them remains the same viz. namely
+  - Authorised Economic Operator (AEO) Tier II & Tier III
+  - Authorised Public Undertaking (APU)
+- Hence penalty can be levied on late filing of Bill of Entry as the same has to be filed in advance.
+
+Q7.
+
+(1) Laxmi Company can pay additional provisional duty if there is no bar on extra payment of duty than so assessed.
+
+(2) Computation of Amount of Interest Payable
+
+Particulars ₹
+Additional Amount Payable
+Amt paid on 15/12/23 - 200000
+Amt voluntary paid on - 150000
+20/1/24
+Total Amount paid 350000
+Amount actually payable
+upon final assessment 400000
+∴ Additional Amount Payable 50000
+
+Interest Payable
+Additional Amt = 50000 X 62 X 15% 1274
+365
+On voluntary Amt = 150000 X 31 X 15% 1911
+365
+53185

@@ -1,0 +1,44 @@
+Sure, here is the extracted handwritten text from the image:
+
+---
+
+Balance Sheet (extract)
+
+Assets
+PPE 8.95 Cr
+[7 Cr (+) 1.95 Cr]
+
+Notes: Fair value of property is 10.50 Cr.
+As per Ind AS 40, Asset is kept at cost model only.
+Disclosure of fair value is required.
+
+Profit & Loss:
+Revenue 100 Lakhs
+
+Expenses
+Sales promotion exp. 5 to 0.05 Cr.
+Fees & Taxes 0.01 Cr.
+0.025 Cr.
+Ground Rent 2.5 Cr
+Repairs & Maintenance 1.5 to 0.015 Cr.
+Legal & professional 0.02 Cr
+Commission & Brokerage 0.01 Cr.
+Depreciation 0.55 Cr.
+Error 0.68 Lakhs
+
+Q7: - Land 100 Lakhs
+Prep of Land 300,000
+Material 60.80 Lakhs
+Overheads (1 x 7) 700,000
+Demolishing cost 920,000
+Borrowing cost 512,500
+[1.75 Cr. x 6% x 7/12] (-) 100,000
+Employee cost (2 L x 7 m) 1,400,000
+
+Cost of factory on 30 Nov. 20x1 199.125 Lakhs
+2) Depreciation [WN] 1.0738 Lakhs
+Value on 31/3/x2 198.0512 Lakhs
+
+Spiral
+
+---

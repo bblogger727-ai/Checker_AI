@@ -1,0 +1,34 @@
+Sure, here is the extracted handwritten text:
+
+```
+Expenses expenses  35000  28000  14000  77000
+Expenses on transfer  81000  58000  112000  251000
+with other segment
+
+Segment result  244000  170000  69000  492000
+
+Conclusion - All segment A, B & C are reportable
+segment as per AS 18.
+
+Q.5  Cash Flow Statement
+
+Cash from Operating Activities
+Collection from Trade Receivable  350000
+Salaries & wages  (25000)
+Payment for Account Payables  (90000)
+Payment of Overheads  (15000)
+Cash from Operation  220000
+(-) Tax paid  (155000)  65000
+
+Cash from Investing Activities
+Sale of Machinery  70000
+Machinery acquired  (400000)  (330000)
+
+Cash from Financing Activities
+Shares issued  (500000)
+Debentures redeemed  (57000)
+Bank loan repaid  (250000)  200000
+Cash & Cash equivalent  (675000)
+op balance of C & C equivalent  80000
+cl. balance C & C equivalent  15000
+```

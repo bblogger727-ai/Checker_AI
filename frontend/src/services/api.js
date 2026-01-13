@@ -1,12 +1,15 @@
 /**
  * API Service for CheckerAI Backend
  * 
- * Simple admin-only version without authentication headers.
+ * Uses relative URLs when running in Docker (nginx proxies to backend)
+ * Uses localhost:8000 for local development
  */
 
 import axios from 'axios';
 
-const API_BASE = 'http://localhost:8000';
+// Detect if running in production (no port in URL) or development
+const isProduction = !window.location.port || window.location.port === '80';
+const API_BASE = isProduction ? '' : 'http://localhost:8000';
 
 // Create axios instance
 const api = axios.create({
@@ -16,7 +19,7 @@ const api = axios.create({
     },
 });
 
-// Exams (no auth required - single admin system)
+// Exams
 export const getExams = async () => {
     const response = await api.get('/api/exams');
     return response.data;

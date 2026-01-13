@@ -1,0 +1,41 @@
+Q4. Project Import
+
+- Importer when starting new plant or wants to expand its business, it requires various machinery, instruments & apparatus.
+- These goods have are different & has different rate of duty.
+- If the person imports the same, he shall be liable to pay heavy custom duty making project inviable.
+- In such case Project Import comes into picture wherein goods are imported at concessional rate for the entire project.
+
+Q5. Computation of Assessable Value
+
+Particulars
+
+Cost of Machine (ex-factory)  
+(+) Transport charges to port for shipment  
+(+) Handling charges for loading machine  
+(+) Design charges and engineering work  
+Total Free on Board (FOB)  
+
+FOB in ₹  
+(+) Freight ($2000 x 70)  
+(+) Insurance (1827000 x 1.125%)  
+Assessable Value (CIF) [rounded off]
+
+Notes:
+
+- Buying commission do not form part of Assessable Value
+- Value up until port of importation are the ones that are considered in determining assessable value therefore
+- Unloading & handling charges paid at place of importation & transport charges from Mumbai to Cochin port are ignored
+- Since Insurance charges are unascertained, it is computed at 1.125% of FOB.
+
+$  
+20000  
+1000  
+100  
+5000  
+26100  
+
+₹  
+1827000  
+140000  
+20553.75  
+1987554  

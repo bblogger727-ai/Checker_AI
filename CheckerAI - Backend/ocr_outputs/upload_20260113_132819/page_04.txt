@@ -1,0 +1,15 @@
+Q.1 As per AS18 'Related party disclosure', An individual has interest in the voting power that gives them control or significant influence over the enterprises and has financial and operating decision policy decision, then shall be considered as related party.
+
+In the given case, SP. hotels limited enters an agreement with Mr. A for running the day to day management of the hotel, although he does not own any voting power in SP hotels limited.
+
+Conclusion :- If Mr. A entered into agreement for running the day to day management of the hotel, which all financial and operating policy taken by BOD, although he does not have any voting power, and hence, he shall not be considered as related party.
+
+Q.2 As per AS 17, each segment result is 10% or more of revenue, profit minus expenses (i.e. combined profit of all profit making segment or combined loss of all loss making segment whichever is higher in absolute term).
+
+|        | A      | B      | C      | Total  |
+|--------|--------|--------|--------|--------|
+| Directly revenue | 500000 | 300000 | 100000 | 700000 |
+| Enterprise revenue | 50000  | 40000  | 20000  | 110000 |
+| Revenue from tran. with other segment | 110000 | 75000  | 150000 | 335000 |
+| (–) Operating expenses | 300000 | 150000 | 75000  | 525000 |
+| Segment result | 360000 | 265000 | 195000 | 820000 |

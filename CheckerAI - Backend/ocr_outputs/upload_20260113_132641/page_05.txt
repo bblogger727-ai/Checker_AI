@@ -1,0 +1,36 @@
+Sure, here is the extracted handwritten text from the image:
+
+---
+
+QM.
+
+- In case of company, if key managerial decisions or place of effective management is in India, then the company is said to be resident of India.
+- In given scenario, ABC Inc. Swedish co. has just setup a liaison office for routine operation support services in India. Significant management & commercial decision are made at Sweden.
+- Liaison office is preparatory & auxiliary in nature & does not implies to having a P.E.
+- Considering entire above scenario, ABC Inc. is Non resident.
+
+Q8.
+
+Computation of Income under PGBP
+
+Mr. Q A.Y. 25-26
+
+Particulars ₹(in lacs)
+
+Amount received in India:
+- Carriage of passenger from Chennai 2
+- Carriage of goods from Chennai 1
+- Carriage of passenger from Singapore 3
+
+Amount received in Singapore:
+- Carriage of passenger from Chennai 1
+
+Total Amount 7
+
+PGBP income (7 x 7.5%) 0.525
+
+PGBP income = 5250000
+
+- In case of presumptive taxation of aircraft, Amount received in India for carriage of goods/passenger outside India & Amount received outside India for carriage of goods or passenger in India shall be treated for computation of PGBP income.
+
+---

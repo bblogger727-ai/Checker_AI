@@ -1,0 +1,25 @@
+Q4 Working Note
+
+ND Ltd. ← 90 cr loan @10% TM Inc. (London)
+(India Co.) ↑ guarantee
+40% v.p. ↑
+TD Inc. → 40% v.p. → TY Inc. (U.K.)
+
+Proposed Answer
+
+o As per sec 92A, where one enterprise holds more than 26% of voting power directly/indirectly in another enterprise, such enterprise are deemed to be Associate enterprise (A.E.)
+o If when 2 enterprises become A.E. of such another enterprise, then such 2 enterprises shall also be A.E.
+o Based on above scenario, ND Ltd & TY Inc. are A.E.
+o When one A.E. provide guarantee/deposit against loan taken by another A.E. & interest on such loan exceeds 10x then Sec 94B shall apply.
+o Max Int allowable on each loan shall be 30% of EBITDA or Actual, whichever is lower. Balance int can be carried forward upto 8 A.Y.
+o Calculations
+  Particulars ₹ (in cr)
+  Net Profit 11
+  (+) Dep. 5
+  (+) Income Tax 4
+  (+) Interest (90 cr x 10%) 9
+  EBITDA 29
+  30% of EBITDA 8.7
+  Actual Interest 9
+  c/f Interest 0.3
+  Amt of Int. claimed under PGBP 8.7

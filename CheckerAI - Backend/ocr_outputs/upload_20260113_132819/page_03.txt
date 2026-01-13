@@ -1,0 +1,36 @@
+Q.8.
+
+Com of Net Prof for Equity shareholders
+
+Profit after tax  90,00,000
+less: Preference dividend (10% X 8%/)
+
+82,00,000
+
+Com of weighted average no. of equity shares (WANES)
+
+Equity shares  10,00,000
+(+) Bonus Issue \[ \frac{old}{10} \times \frac{new}{5} \]  5,00,000
+
+fresh Issue \[ \frac{2,00,000 \times 3}{12} \]  50,000
+15,50,000
+
+Basic EPS 2021-22
+NP for Equity shareholders  82,00,000
+÷ WANES  15,50,000
+
+5.29
+
+Adjusted EPS 2020-21
+NP for Eq shareholders  82,00,000
+÷ WANES  15,00,000
+
+5.46
+
+Reported EPS for 20-21
+Net profit-reported EPS x WANES
+for ESH = 62.30 x 10,00,000 = 6,23,00,000
+
+EPS = \[ \frac{6,23,00,000}{15,00,000} \]
+
+= 4.15

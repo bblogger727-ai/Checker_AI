@@ -1,0 +1,33 @@
+Sure, here is the extracted handwritten text:
+
+```
+9/10/23
+
+Full Test Paper - 1
+
+Division A - Case Based MCQs
+
+Case scenario - 1
+
+1 (c)
+2 (a)
+3 (d)
+4 (c)
+5 (c)
+
+Case scenario - 2
+
+6 (b)
+7 (a)
+8 (c)
+9 (a)
+10 (d)
+
+11 (c)
+12 (a)
+13 (d)
+14 (d)
+15 (d)
+
+Oog value = 650,000
+```

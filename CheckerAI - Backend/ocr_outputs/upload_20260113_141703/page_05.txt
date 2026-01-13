@@ -1,0 +1,26 @@
+(C)
+
+3 (a) @ Event manage company , conducting award
+function at New Delhi - place of supply
+will be at location of recipient if in
+India, so for award function @ New Delhi
+pos = Chennai
+However, award function outside India , ie,
+Singapore , pos = Singapore.
+
+5) place of supply , where event occurs in
+India undertaken by unregistered person
+pos = location of recipient, hence
+Kerala is the place of supply.
+Even if it is Malaysia , service to unregistered
+person , will remain same , ie, Kerala
+
+3 (b)
+* The residential property let out for
+residential purpose will be exempt for
+the purpose of GST.
+* The monthly rent of ₹100,000 to Mr. Smiley
+will be chargeable @ RCM , as Mr. Smiley
+is unregistered.
+* The Tenancy premium is chargeable to
+tax.

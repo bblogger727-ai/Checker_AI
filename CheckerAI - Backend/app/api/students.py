@@ -17,7 +17,7 @@ from app.core.database import get_db
 from app.models import Exam, StudentPaper
 from app.services.pdf_processor import pdf_to_images
 from app.services.ocr_service import perform_ocr
-from app.services.answer_aligner import align_answers
+from app.services.answer_aligner import align_answers_to_schema as align_answers
 from app.services.answer_grader import grade_all_answers
 from app.services.pdf_generator import generate_grading_pdf
 

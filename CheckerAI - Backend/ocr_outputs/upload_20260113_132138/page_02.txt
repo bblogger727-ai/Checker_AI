@@ -1,0 +1,30 @@
+Sure, here is the extracted handwritten text from the image:
+
+```
+(ii) Value of franchise = 8000000
+÷ Life of Asset = 5 yrs
+Amortisation = 1600000
+
+Annual fee @ 2% of 1000000 = 20000 [HP to PL]
+
+(iii) Value = 250000
+÷ Life = 10 yr
+Amortisation = 25000
+
+Main Answer :-
+(i) Balance Sheet [Extract]:-
+Assets
+Intangible Assets 6945000
+[64L (+) 2.25L (+) 3.20L]
+
+(ii) P/L A/c [extract]
+Revenue 1000000
+Other Income: -
+1080000
+
+Expenses
+Royalty 20000
+Amortisation (25000 + 1600000) 1625000
+Copyright Infringement 700000
+2345000
+```

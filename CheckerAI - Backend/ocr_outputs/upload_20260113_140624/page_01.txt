@@ -1,0 +1,27 @@
+```plaintext
+Laher Patel
+TEST
+
+[CA Rucha Sarda]
+
+Full Course Test - 01.
+
+Section B - CET
+
+[MCQ]
+
+Case Scenario - 1
+
+Q1 a)
+Q2 b)
+Q3 c)
+Q4 a)
+
+Case Scenario - 2
+
+Q4 d)
+Q5 c)
+Q6 a)
+Q7 a)
+Q8 c)
+```

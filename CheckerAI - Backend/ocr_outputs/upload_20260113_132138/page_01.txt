@@ -1,0 +1,37 @@
+Sure, here is the extracted handwritten text from the image:
+
+```
+Time Allowed -> 1.5 Hrs
+Time Taken -> 1 Hr.
+PAGE NO. 1
+DATE 21.11.23
+
+FR - Portionwise Test - 2
+
+Q2:- Calculation of Borrowing cost to be capitalised:-
+
+-> Specific Borrowing 65000
+(-) Interest earned 20000 45000
+
+-> General Borrowings
+1000000 x 11% x 9/12 82500
+1200000 x 11% x 3/12 33000 41250
+Total Borrowing cost to be capitalised 86250
+
+WN1:- Calculation of Capitalisation Rate [General Borrowings]:-
+
+Weighted average Interest [Total] x 100
+Weighted average Borrowings [Total]
+
+=> [1000000 x 12.5%] + [500000 x 10%] x 12/12 x 100
+1000000 (+) 500000
+
+=> 11%
+
+Q3:- (i) Purchase Consideration 1320000
+(-) Net Assets Value 1000000
+Goodwill 320000
+
+As per Ind AS 38 Goodwill is never amortised, it is only tested for
+Impairment.
+```

@@ -1,0 +1,36 @@
+Sure, here is the extracted handwritten text:
+
+```
+Division B
+
+3) Computation of Net GST Payable in cash for
+   the month of January of Surya
+
+Particulars                Value      CGST     SGST     IGST
+
+Tax payable on
+outward supplier-
+a) Organised business   20,00,000                      360,000
+   exhibition in Gujarat                               (20,00,000 x
+   (since services are                                 18%)
+   rendered in Gujarat
+   Place of Supply is
+   in Gujarat)
+
+b) Provided accommodation 220,000   19,800   19,800
+   service                (220,000
+   (Since the room        x 9%)
+   rent exceeds ₹ 20000
+   per month the said
+   service is not
+   exempt)
+
+c) Intra-state           120,000   10,800   10,800
+   service provided
+   to Bank as a
+   business correspondent
+   (Since the services
+   are supplied in
+   urban area they
+   are not exempt)
+```

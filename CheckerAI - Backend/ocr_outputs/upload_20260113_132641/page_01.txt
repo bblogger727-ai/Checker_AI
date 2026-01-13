@@ -1,0 +1,23 @@
+Direct Tax & International Taxation  
+Portionwise Test 3
+
+Q1
+
+Working Note
+
+Tom Sawyer  FTS  Ganga Ltd  
+(NR)  (Ind. Co.)  
+(country A)  (agreement approved by CG)  
+
+'No PE in India.'
+
+Answer
+
+a) India has no DTAA with country A
+- As per sec 115A when a NR or foreign company receives royalty or fee for technical services from R or Indian co. w.r.t an agreement approved by Central government & such NR does not have PE Permanent establishment in India, then such income shall be taxed @ 20%.
+- However, no other deduction or expense benefit is available on the same.
+- Since India does not have any DTAA with country A, such income shall be taxed as income & is deemed to be accrue/arise in India u/s 9(1) & taxed as per sec 115A @ 20%.
+
+b) India has DTAA with country A - Taxation rate 5%
+- Since in given case DTAA provides tax @ 5%, as per sec 90, provision of Act more beneficial to assessee shall apply.
+- As per Income-tax Act, sec 115A tax rate is 20% which is greater than rate offered in DTAA. Hence DTAA shall apply.

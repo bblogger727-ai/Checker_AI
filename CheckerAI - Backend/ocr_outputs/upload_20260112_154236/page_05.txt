@@ -1,0 +1,34 @@
+Sure, here is the extracted handwritten text:
+
+```
+Particulars
+
+Total Loss from House Property (231,000)
+
+1) Long-term Capital Gain 795,000
+(-) Loss of textile business (397,000)
+(-) Brought forward Loss (295,275,000)
+on sale of gold
+(-) Loss on equity shares  (25,000) 98,000
+
+2) Income from business
+1) Speculation business Profit 230,000
+2) Salary received from 50,000
+partnership firm
+(-) Loss from textile (280,000)
+business -> Nil
+
+3) Income from other sources
+a) Lottery Income 75,000
+b) Interest on fixed deposit 73,000
+(-) Loss of textile (78,000) 75,000
+business
+
+Gross Total Income 34,93,000
+(-) Deduction U/s 80C (15000)
+(Since the loan is taken
+from his friend no deduction
+under 80C will be available to
+Assessee)
+Total Income 34,78,000
+```

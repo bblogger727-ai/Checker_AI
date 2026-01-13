@@ -1,0 +1,33 @@
+```plaintext
+Indirect Tax laws
+Portionwise Test - 3. [Customs & FTP]
+
+Q1 Import - 12/1/19
+    Put to use - 1/2/19
+    Clearance for home consumption - 5/4/22
+
+    Concessional Rate - 5%
+    Normal Rate - 20%
+
+Computation of Custom duty payable
+Particulars                                                                 ₹
+Amount of Duty to be paid on clearance.
+
+Value of machine as on 5/4/22
+Original Value of Machine  20,00,000
+Depreciation on value of machine
+2019  1st yr. - 4 Quarter - 4% X 4 = 16%
+2020  2nd yr. - 4 Quarter - 3% X 4 = 12%
+2021  3rd yr. - 4 Quarter - 3% X 4 = 12%
+2022  4th yr. - 2 Quarter - 2.5% X 4 = 10%
+                                                      50%
+
+∴ Value of Machine = 20 lakh - 50% = 10 lakh
+∴ Amount of Duty payable
+   = 10,00,000 X 20%                                      200000
+
+(-) Amount of Duty Actually paid
+      20,00,000 X 5%                                      (100000)
+
+∴ Duty payable                                              100000
+```

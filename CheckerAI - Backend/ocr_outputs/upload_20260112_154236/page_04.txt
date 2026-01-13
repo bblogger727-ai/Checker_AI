@@ -1,0 +1,30 @@
+Q.2) Computation of Total Income of Mr. Akshay  
+for the A.Y Assessment year 25-26
+
+=> a)
+
+| Particulars | ₹ | ₹ |
+|-------------|---|---|
+| 1) Income from Salary | 35,20,000 | |
+| (-) House Property loss | (200,000) | 33,20,000 |
+| 2) Rent received from | | |
+| property situated in Delhi | 500,000 | |
+| (-) Standard Deduction | 150,000 | |
+| U/s 24(a) 30% | | |
+| Net Annual Value | 350,000 | |
+| (-) Interest on Borrowed | 700,000 | |
+| Capital U/s 24(b) | 75,000 | |
+| Loss from House | (350,000) | |
+| Property in Delhi | (425,000) | |
+| 3) Rent from property | | |
+| situated in Jaipur | 320,000 | |
+| (-) Standard Deduction | 96,000 | |
+| U/s 24(a) | | |
+| Net Annual Value | 224,000 | |
+| 4) Property situated in | | |
+| Mumbai | | |
+| GAV Gross Annual Value | Nil | |
+| (-) Interest on borrowed | (75,000) | |
+| Capital Restricted to | (30,000) | |
+| Loss from self-occupied | (30,000) | |
+| Property | (75,000) | |

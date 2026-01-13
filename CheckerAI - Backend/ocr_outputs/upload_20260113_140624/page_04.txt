@@ -1,0 +1,41 @@
+Sure, here is the extracted handwritten text:
+
+```
+5) Place of supply for seating and
+performance appraisal service for unregistered
+person etc is where services are actually
+performed.
+
+6) Rent paid to service provided by renting
+a residential dwelling to a registered
+person taxable as a RCM on Reverse Charge
+basis.
+
+Computation of ITC availed & GST Payable
+
+Particulars     Value   CGST   SGST   IGST
+
+i) Rent paid for
+   Residential
+   dwelling used
+   for providing
+   services
+   ITC is available
+   as availed for
+   furtherance of
+   business
+
+                 25000   2250   2250   -
+
+ii) Purchase of car
+    (Purchase of motor
+    vehicle is blocked
+    u/s 17(5) except in
+    cases prescribed u/s
+    16(1)
+
+                 900000   -   -   -
+
+ITC can be
+availed             -   2250   2250   -
+```

@@ -1,0 +1,26 @@
+```plaintext
+Q3. Working Note
+
+ABC Ltd
+Pepsi Co. Ltd
+CoCo Cola Ltd
+Machine Cola Co. (UK)
+BOAR
+Indian Co
+
+- Answer
+- A non resident has undertaken or proposes to undertake 
+  transaction with resident wherein he wishes to enquire on 
+  matter related to question of law or facts, he shall make 
+  an application to BOAR.
+- BOAR provides ruling against transaction entered or proposed 
+  to be undertaken.
+- However, if the case in relation to similar transaction is pending 
+  with ITA, ITAT, HC or SC then the application shall 
+  be rejected by BOAR.
+- In given case, Machine Cola Co. has made an application 
+  to BOAR relating to rate of withhold tax applicable to it & 
+  CoCo Cola Ltd. had made similar application to A.O.
+- Since the case is already resting with ITA, the rejection 
+  stands justifiable
+```

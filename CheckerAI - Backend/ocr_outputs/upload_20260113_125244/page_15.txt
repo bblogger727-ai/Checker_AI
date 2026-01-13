@@ -1,0 +1,26 @@
+Case Scenario 1 (Ramola)
+(i) (b)
+(ii) c
+(iii) c
+
+Case Scenario 2 (Mr. Inder Dutta)
+(i) b
+(ii) d
+(iii) a
+
+Case Scenario 3
+(i) d
+(ii) c
+
+Case Scenario 4
+(i) b
+(ii) c
+
+Case Scenario 5
+(i) a
+(ii) b
+(iii) d
+
+Case Scenario 6
+(i) (a)
+(ii) c

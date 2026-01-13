@@ -1,0 +1,37 @@
+```
+| Descriptive Questions |
+
+Q1
+a) Computation of GST Payable
+
+Particulars    Value    CGST    SGST    IGST
+
+i) Sponsorship
+   Services to
+   Clu Das Proprietor
+   (note no 1)    250000    22500    22500    -
+
+ii) Services Provided
+    for of processing
+    of to another to
+    make setup
+    (note no 2)    99900    8991    8991    -
+
+iii) Importation of    nil
+     Services
+     (note no 3)    -    -    -
+
+iv) Training and    300000    -    -    50000
+     performance appraisal
+     services to ABC Pvt
+     Ltd.
+     (note no 4)
+
+v) Training & Performance    100000    9000    9000    -
+    appraisal service
+    to Ralu Care.
+    (note no 5)
+
+Total GST    -    40491    40491    50000
+(Paybl. u/s FCM)
+```

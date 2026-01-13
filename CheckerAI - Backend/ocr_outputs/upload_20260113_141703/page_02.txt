@@ -1,0 +1,39 @@
+```
+Division - B
+
+(i) Computation of Total ITC available with Qwert Pvt Ltd
+
+                CGST     SGST     IGST
+opening Balance     0.15     0.08     0.01
+(b) a) Raw material of 
+0.8 from Bihar (IGST)     -     -     0.14
+b) RM imported from 
+China     -     -     0.2997
+c) RM from Unregistered 
+person - no GST payable     -     -     -
+d) RM destroyed, no 
+credit is available u/s 
+17(5), it is a blocked credit
+e) remaining RM is procured     0.0765     0.0765     -
+locally
+
+(ii) Diesel - non taxable 
+remaining from elegd person     0.04     0.09     -
+
+(iii) GTA under RCM     0.015     0.015     -
+horse pull cart - 
+unregd.     -     -     -
+
+(iv) Life insurance policy     0.144     0.144     -
+taken to fulfill a statutory 
+obligation is not a blocked 
+credit
+
+(v) Audit fee     0.045     0.045     -
+
+(vi) Telephone Expense     0.021     0.021     -
+
+(vii) Bank charges     0.009     0.009     -
+
+0.5505     0.4850     0.5337
+```

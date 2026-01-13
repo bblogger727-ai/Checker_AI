@@ -1,0 +1,19 @@
+Q.4)
+
+=> a) Computation of Total Income Tax Liability of Mr. Vijay Prasad for Assessment year 2025-26.
+
+| Particulars | ₹ | ₹ |
+|-------------|---|---|
+| 1) Income from salary | | 275,000 |
+| 2) Income from business | 120,000 | |
+| Retail | | |
+| (-) Brought forward loss | (100,000) | - Nil |
+| (-) Brought forward loss | 20,000 | |
+| 3) Capital Gain | | |
+| a) Long-term Capital Gain | 200,000 | |
+| (-) Short Term Capital Loss | (185,000) | |
+| (-) Business Loss brought forward | (15,000) | → Nil |
+| 4) Income from other sources | | |
+| a) Lottery winnings | 45,000 | 45,000 |
+| 5) Income of minor daughter | Nil | |
+| (Since as per the Sec 64(1A) provision if minor daughter has earned Income out of talent it should not be clubbed) | | |

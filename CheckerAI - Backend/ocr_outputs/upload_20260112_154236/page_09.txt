@@ -1,0 +1,33 @@
+Sure, here is the extracted handwritten text:
+
+```
+Q.4
+
+Particulars
+
+Gross Total Income 320,000
+(-) Deduction under
+Chapter VIA
+80C (Contribution to
+provident fund & NSC) (150,000)
+__________
+Total Income 170,000
+(Since his total
+Income does not exceeds
+Basic exemption limit that
+is ₹ 250,000 there
+will be no tax liability.)
+
+Q.4
+
+⇒ b) If Return of Income under section 139(1)
+the following will be the consequence;
+1) Loss from Business & Profession cannot be
+carried forward
+2) Capital Gain Loss cannot be carried forward
+3) Fee under section 234F will be
+applicable that is ₹ 5000 or 1000 if total
+Income does not exceed ₹ 500,000
+4) Interest will be applicable as per the provisions
+of the Act.
+```

@@ -1,0 +1,29 @@
+Qy4: Incorrect Computation of Goodwill:-
+
+Purchase Consideration 25000
+(+) Previously held Investment 9000
+(-) Identifiable net Assets 30000
+Goodwill 4000
+
+Journal Entry :- ① INA A/c Dr. 30000
+Goodwill A/c Dr. 4000
+To purchase cons. 25000
+To Prev. held invt. 9000
+
+② Prev. held investment A/c Dr. 150
+To P/L A/c [gain] 150
+
+③ Revaluation Reserve A/c Dr. 50
+To Retained earnings 50
+
+④ Exchange difference A/c Dr. 100
+To P/L A/c 100
+
+concept :- when associate becomes subsidiary, items of other equity are reclassified.
+
+Q5:- As per Ind AS 10, Events that occurred after reporting period but before the approval of financial statements & condition of which exist on balance sheet date are considered as Adjusting Event.
+
+condition:
+Here the law suit was present at Balance sheet date settlement to which happened after 31st March but before approval of Financial Statements.
+
+Spiral
