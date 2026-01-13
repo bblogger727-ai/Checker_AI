@@ -34,10 +34,15 @@ function Login() {
             <div className="login-card">
                 <div className="login-header">
                     <div className="logo">
-                        <span className="logo-icon">✓</span>
-                        <h1>CheckerAI</h1>
+                        <span className="logo-icon">🎓</span>
+                        <h1>Student Evaluator</h1>
                     </div>
-                    <p>AI-Powered Exam Evaluation System</p>
+                    <p>AI-Powered Student Management System</p>
+                    <div className="module-badges">
+                        <span className="module-badge checker">✓ CheckerAI</span>
+                        <span className="module-badge setter">📝 SetterAI</span>
+                        <span className="module-badge mentor">👨‍🏫 MentorAI</span>
+                    </div>
                 </div>
 
                 <form onSubmit={handleSubmit} className="login-form">

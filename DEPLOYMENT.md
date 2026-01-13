@@ -1,298 +1,366 @@
-# CheckerAI - Deployment Guide
+# Deployment Guide - Agentic Student Evaluator
 
-This guide explains Docker, Kubernetes, and how to deploy the CheckerAI application.
+Complete deployment guide for the AI-powered student management system.
 
 ---
 
-## 📦 What is Docker & Why Use It?
-
-### The Problem Without Docker
-Without Docker, deploying this app requires:
-- Installing Python 3.11 with exact dependencies
-- Installing poppler-utils for PDF processing
-- Installing PostgreSQL and configuring it
-- Installing Node.js and building the frontend
-- Configuring nginx for serving
-
-**On every server. Every time. Hoping nothing conflicts.**
-
-### How Docker Solves This
-
-Docker packages your app + ALL dependencies into a **container** - a portable, isolated environment that runs the same everywhere.
+## 🏗️ Architecture Overview
 
 ```
-┌─────────────────────────────────────────────────────┐
-│                    WITHOUT DOCKER                    │
-│                                                      │
-│   Your Laptop        Staging Server      Production  │
-│   ┌──────────┐       ┌──────────┐       ┌──────────┐│
-│   │Python 3.11│       │Python 3.9│       │Python 3.10│
-│   │Works! ✓   │       │Fails! ✗  │       │Fails! ✗  ││
-│   └──────────┘       └──────────┘       └──────────┘│
-└─────────────────────────────────────────────────────┘
-
-┌─────────────────────────────────────────────────────┐
-│                     WITH DOCKER                      │
-│                                                      │
-│   Your Laptop        Staging Server      Production  │
-│   ┌──────────┐       ┌──────────┐       ┌──────────┐│
-│   │Container │       │Container │       │Container ││
-│   │Works! ✓  │ ────▶ │Works! ✓  │ ────▶ │Works! ✓  ││
-│   └──────────┘       └──────────┘       └──────────┘│
-│         Same container image runs EVERYWHERE         │
-└─────────────────────────────────────────────────────┘
-```
-
-### Our Docker Setup
-
-```
-docker-compose.yml orchestrates 3 containers:
-
-┌─────────────────────────────────────────────────────┐
-│                  checkerai-frontend                  │
-│                    (nginx:80)                        │
-│  Serves React app + proxies /api to backend         │
-└─────────────────────┬───────────────────────────────┘
-                      │ /api/* requests
-                      ▼
-┌─────────────────────────────────────────────────────┐
-│                  checkerai-backend                   │
-│                   (uvicorn:8000)                     │
-│  FastAPI + OCR + Grading pipeline                   │
-└─────────────────────┬───────────────────────────────┘
-                      │ SQL queries
-                      ▼
-┌─────────────────────────────────────────────────────┐
-│                   checkerai-db                       │
-│                (PostgreSQL:5432)                     │
-│  Stores exams, students, all debug data             │
-└─────────────────────────────────────────────────────┘
+                    ┌─────────────────────────────────────┐
+                    │           Load Balancer              │
+                    │         (nginx on port 80)           │
+                    └─────────────────┬───────────────────┘
+                                      │
+              ┌───────────────────────┼───────────────────────┐
+              │                       │                       │
+    ┌─────────▼─────────┐   ┌────────▼────────┐   ┌─────────▼─────────┐
+    │   /api/*           │   │  /api/setter/*  │   │  /api/mentor/*    │
+    │   CheckerAI        │   │    SetterAI     │   │     MentorAI      │
+    │   Port 8000        │   │    Port 8001    │   │     Port 8002     │
+    └─────────┬──────────┘   └────────┬────────┘   └─────────┬─────────┘
+              │                       │                       │
+              └───────────────────────┼───────────────────────┘
+                                      │
+                          ┌───────────▼───────────┐
+                          │      PostgreSQL       │
+                          │       Port 5432       │
+                          └───────────────────────┘
 ```
 
 ---
 
-## 🚀 Docker Setup (Local Development)
+## 🐳 Docker Deployment (Recommended)
 
 ### Prerequisites
-- Docker Desktop installed ([Download](https://www.docker.com/products/docker-desktop/))
+- Docker 20.10+
+- Docker Compose 2.0+
+- 4GB RAM minimum
+- OpenAI API key
 
-### Quick Start
+### Quick Deploy
 
 ```bash
-# 1. Clone the repository
-git clone git@github.com:GaureshMantri/CheckerAI.git
-cd CheckerAI
+# 1. Clone repository
+git clone https://github.com/GaureshMantri/Agentic_Student_Evaluator.git
+cd Agentic_Student_Evaluator
 
-# 2. Create environment file with your API key
-cp .env.docker.example .env
-# Edit .env and add: OPENAI_API_KEY=your-key-here
+# 2. Create environment file
+cat > .env << EOF
+OPENAI_API_KEY=sk-your-key-here
+SMTP_USER=
+SMTP_PASSWORD=
+EOF
 
 # 3. Build and start all containers
-docker compose up --build -d
+docker compose up -d --build
 
-# 4. Access the app
-# Frontend: http://localhost
-# API Docs: http://localhost:8000/docs
+# 4. Check status
+docker compose ps
+
+# 5. View logs
+docker compose logs -f
 ```
 
-### Useful Commands
+### Services Started
+
+| Service | Container Name | Port | Health Check |
+|---------|---------------|------|--------------|
+| PostgreSQL | checkerai-db | 5432 | `pg_isready` |
+| CheckerAI Backend | checkerai-backend | 8000 | `/health` |
+| SetterAI Backend | setterai-backend | 8001 | `/health` |
+| MentorAI Backend | mentorai-backend | 8002 | `/health` |
+| Frontend | checkerai-frontend | 80 | nginx |
+
+### Verify Deployment
 
 ```bash
-# View running containers
+# Check all containers are running
 docker ps
 
-# View logs (follow mode)
+# Test each service
+curl http://localhost/health           # Frontend (via nginx)
+curl http://localhost:8000/health      # CheckerAI
+curl http://localhost:8001/health      # SetterAI
+curl http://localhost:8002/health      # MentorAI
+
+# Access Swagger docs
+open http://localhost:8000/docs        # CheckerAI API
+open http://localhost:8001/docs        # SetterAI API
+open http://localhost:8002/docs        # MentorAI API
+```
+
+---
+
+## ⚙️ Configuration
+
+### Environment Variables
+
+Create a `.env` file in the project root:
+
+```env
+# === REQUIRED ===
+OPENAI_API_KEY=sk-...
+
+# === DATABASE (auto-configured in Docker) ===
+DATABASE_URL=postgresql://postgres:postgres@postgres:5432/checkerai
+
+# === EMAIL (Optional - for MentorAI reports) ===
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USER=your_email@gmail.com
+SMTP_PASSWORD=your_app_password
+FROM_EMAIL=your_email@gmail.com
+FROM_NAME=Student Evaluator
+
+# === JWT (Future use) ===
+JWT_SECRET_KEY=your-secret-key-here
+```
+
+### Gmail App Password Setup
+
+For email functionality:
+1. Go to Google Account → Security → 2-Step Verification
+2. At the bottom, select "App passwords"
+3. Generate a new app password for "Mail"
+4. Use this password in `SMTP_PASSWORD`
+
+---
+
+## 🔄 Scaling with Docker Compose
+
+### Horizontal Scaling
+
+```yaml
+# docker-compose.override.yml
+services:
+  checker-backend:
+    deploy:
+      replicas: 3
+  
+  setter-backend:
+    deploy:
+      replicas: 2
+  
+  mentor-backend:
+    deploy:
+      replicas: 2
+```
+
+### With Load Balancer
+
+```bash
+docker compose -f docker-compose.yml -f docker-compose.override.yml up -d
+```
+
+---
+
+## ☸️ Kubernetes Deployment
+
+### Prerequisites
+- Kubernetes cluster (EKS, GKE, AKS, or local)
+- kubectl configured
+- Helm 3.x (optional)
+
+### Deployment Steps
+
+1. **Create namespace**
+```bash
+kubectl create namespace student-evaluator
+```
+
+2. **Create secrets**
+```bash
+kubectl create secret generic api-keys \
+  --from-literal=OPENAI_API_KEY=sk-... \
+  --from-literal=SMTP_PASSWORD=... \
+  -n student-evaluator
+```
+
+3. **Apply manifests**
+```bash
+kubectl apply -f k8s/ -n student-evaluator
+```
+
+### Sample Kubernetes Manifest
+
+```yaml
+# k8s/checker-backend.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: checker-backend
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: checker-backend
+  template:
+    metadata:
+      labels:
+        app: checker-backend
+    spec:
+      containers:
+      - name: checker-backend
+        image: your-registry/checker-backend:latest
+        ports:
+        - containerPort: 8000
+        env:
+        - name: DATABASE_URL
+          value: postgresql://postgres:postgres@postgres:5432/checkerai
+        - name: OPENAI_API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: api-keys
+              key: OPENAI_API_KEY
+        resources:
+          requests:
+            memory: "256Mi"
+            cpu: "250m"
+          limits:
+            memory: "512Mi"
+            cpu: "500m"
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 8000
+          initialDelaySeconds: 10
+          periodSeconds: 10
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: checker-backend
+spec:
+  selector:
+    app: checker-backend
+  ports:
+  - port: 8000
+    targetPort: 8000
+```
+
+---
+
+## 📊 Monitoring
+
+### Docker Logs
+
+```bash
+# All services
 docker compose logs -f
 
-# View specific service logs
-docker compose logs backend
+# Specific service
+docker compose logs -f checker-backend
+docker compose logs -f setter-backend
+docker compose logs -f mentor-backend
+```
 
-# Stop all containers
-docker compose down
+### Health Endpoints
 
-# Stop and remove volumes (DELETES DATA!)
-docker compose down -v
+Each backend exposes:
+- `GET /health` - Returns `{"status": "healthy"}`
+- `GET /` - Returns service info
 
-# Rebuild a specific service
-docker compose build backend
-docker compose up -d backend
+### Database Access
 
-# Access PostgreSQL shell
+```bash
+# Connect to PostgreSQL
 docker exec -it checkerai-db psql -U postgres -d checkerai
 
-# Access backend container shell
-docker exec -it checkerai-backend bash
+# List tables
+\dt
+
+# Query students
+SELECT * FROM mentor_students;
 ```
 
 ---
 
-## ☸️ Kubernetes (K8s) - For Production Scaling
+## 🔧 Maintenance
 
-### Why Kubernetes?
+### Backup Database
 
-Docker Compose runs everything on **1 machine**. For production, you need:
+```bash
+# Backup
+docker exec checkerai-db pg_dump -U postgres checkerai > backup.sql
 
-| Challenge | Kubernetes Solution |
-|-----------|---------------------|
-| High traffic | Run multiple backend replicas |
-| Server crashes | Auto-restart failed containers |
-| Zero downtime deploys | Rolling updates |
-| Resource limits | CPU/memory quotas per container |
-| Load balancing | Automatic across replicas |
-
-### K8s Architecture for CheckerAI
-
-```
-                    ┌─────────────────────┐
-                    │   Load Balancer     │
-                    │  (Cloud Provider)   │
-                    └──────────┬──────────┘
-                               │
-         ┌─────────────────────┼─────────────────────┐
-         ▼                     ▼                     ▼
-┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐
-│ Frontend Pod 1  │  │ Frontend Pod 2  │  │ Frontend Pod 3  │
-│    (nginx)      │  │    (nginx)      │  │    (nginx)      │
-└────────┬────────┘  └────────┬────────┘  └────────┬────────┘
-         │                    │                    │
-         └────────────────────┼────────────────────┘
-                              │
-                    ┌─────────┴─────────┐
-                    │  Backend Service  │
-                    │  (Load Balancer)  │
-                    └─────────┬─────────┘
-         ┌────────────────────┼────────────────────┐
-         ▼                    ▼                    ▼
-┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐
-│  Backend Pod 1  │  │  Backend Pod 2  │  │  Backend Pod 3  │
-│   (FastAPI)     │  │   (FastAPI)     │  │   (FastAPI)     │
-└────────┬────────┘  └────────┬────────┘  └────────┬────────┘
-         │                    │                    │
-         └────────────────────┼────────────────────┘
-                              │
-                    ┌─────────┴─────────┐
-                    │ PostgreSQL (PVC)  │
-                    │ or Cloud DB (RDS) │
-                    └───────────────────┘
+# Restore
+cat backup.sql | docker exec -i checkerai-db psql -U postgres checkerai
 ```
 
-### K8s Setup (Coming Soon)
+### Update Services
 
-For production K8s deployment, you'll need:
+```bash
+# Pull latest code
+git pull origin main
 
-1. **Container Registry** - Push Docker images to:
-   - Docker Hub
-   - Google Container Registry (GCR)
-   - Amazon ECR
-
-2. **K8s Cluster** - Options:
-   - Google GKE (easiest)
-   - Amazon EKS
-   - DigitalOcean Kubernetes
-   - Self-hosted (harder)
-
-3. **K8s Manifests** - YAML files for:
-   - Deployments (how many replicas)
-   - Services (networking)
-   - Ingress (external access)
-   - Secrets (API keys)
-   - PersistentVolumeClaims (database storage)
-
----
-
-## 📊 Scaling Considerations
-
-### Current Bottleneck
-
-The grading pipeline is **I/O bound** (waiting for OpenAI API):
-
-```
-Upload PDF → OCR (GPT-4o) → Align (GPT-4.1) → Grade (GPT-4.1) → PDF
-            ~3-5 sec        ~2-3 sec         ~2-3 sec
-            
-Total: ~8-12 seconds per student paper
+# Rebuild and restart
+docker compose down
+docker compose up -d --build
 ```
 
-### Scaling Strategy
+### Reset Database
 
-1. **Horizontal Pod Autoscaling**
-   - Scale backend pods based on CPU/request count
-   - Handle multiple papers simultaneously
-
-2. **Background Job Queue** (Future)
-   - Add Celery + Redis for async processing
-   - Upload returns immediately, grading happens in background
-   - Webhook/polling for status
-
-3. **Managed Database**
-   - Move PostgreSQL to Cloud SQL/RDS
-   - Automated backups, high availability
-
----
-
-## 🔐 Production Checklist
-
-Before deploying to production:
-
-- [ ] Change default PostgreSQL password
-- [ ] Set strong JWT_SECRET_KEY
-- [ ] Enable HTTPS (SSL certificate)
-- [ ] Add rate limiting to API
-- [ ] Set up monitoring (Prometheus/Grafana)
-- [ ] Configure backup for database
-- [ ] Add health check endpoints
-- [ ] Set resource limits in K8s
-
----
-
-## 📁 File Structure
-
-```
-CheckerAI/
-├── CheckerAI - Backend/
-│   ├── Dockerfile           # Backend container definition
-│   ├── app/
-│   │   ├── api/             # FastAPI routes
-│   │   ├── services/        # Business logic (OCR, grading)
-│   │   ├── core/            # Database, auth config
-│   │   └── models.py        # SQLAlchemy models
-│   └── requirements.txt
-│
-├── frontend/
-│   ├── Dockerfile           # Multi-stage React build
-│   ├── nginx.conf           # SPA routing + API proxy
-│   └── src/
-│
-├── docker-compose.yml       # Local development orchestration
-├── .env                     # Environment variables (not in git)
-└── .env.docker.example      # Template for .env
+```bash
+# WARNING: Deletes all data
+docker compose down -v
+docker compose up -d
 ```
 
 ---
 
-## 🆘 Troubleshooting
+## 🐛 Troubleshooting
 
 ### Container won't start
+
 ```bash
-docker compose logs backend  # Check error messages
+# Check logs
+docker logs <container_name>
+
+# Common issues:
+# - Port already in use: Change port in docker-compose.yml
+# - Database not ready: Wait for postgres healthcheck
+# - Missing env vars: Check .env file
 ```
 
-### Database connection error
+### API returns errors
+
 ```bash
-# Ensure postgres is healthy first
-docker ps  # Check STATUS column
-docker compose restart postgres
+# Check backend logs
+docker compose logs -f checker-backend
+
+# Test database connection
+docker exec -it checkerai-db pg_isready -U postgres
 ```
 
-### Changes not reflecting
+### Frontend shows blank
+
 ```bash
-# Rebuild the container
-docker compose build backend --no-cache
-docker compose up -d backend
+# Check nginx logs
+docker logs checkerai-frontend
+
+# Verify nginx config
+docker exec checkerai-frontend cat /etc/nginx/conf.d/default.conf
 ```
 
 ### Reset everything
+
 ```bash
-docker compose down -v  # Removes volumes (DATA LOSS!)
-docker compose up --build -d
+docker compose down -v --rmi all
+docker compose up -d --build
 ```
+
+---
+
+## 🔒 Security Considerations
+
+1. **API Keys**: Never commit `.env` to git
+2. **Database**: Change default PostgreSQL password in production
+3. **HTTPS**: Use a reverse proxy (nginx, traefik) with SSL in production
+4. **Authentication**: JWT authentication is prepared but not enforced (single admin mode)
+
+---
+
+## 📞 Support
+
+For issues and feature requests, please open an issue on GitHub.

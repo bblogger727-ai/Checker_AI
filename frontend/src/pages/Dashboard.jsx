@@ -84,8 +84,9 @@ function Dashboard() {
         <div className="dashboard">
             <header className="header">
                 <div className="header-left">
-                    <span className="logo-icon">✓</span>
-                    <h1>CheckerAI</h1>
+                    <span className="logo-icon">🎓</span>
+                    <h1>Student Evaluator</h1>
+                    <span className="module-indicator checker-indicator">✓ CheckerAI</span>
                 </div>
                 <div className="header-right">
                     <button onClick={() => navigate('/setter')} className="setter-btn">

@@ -52,9 +52,38 @@
 }
 
 .login-header p {
-  margin: 0;
+  margin: 0 0 16px;
   opacity: 0.8;
   font-size: 14px;
+}
+
+.module-badges {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.module-badge {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.module-badge.checker {
+  background: rgba(72, 187, 120, 0.2);
+  color: #48bb78;
+}
+
+.module-badge.setter {
+  background: rgba(245, 87, 108, 0.2);
+  color: #f5576c;
+}
+
+.module-badge.mentor {
+  background: rgba(34, 211, 238, 0.2);
+  color: #22d3ee;
 }
 
 .login-form {

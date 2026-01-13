@@ -36,6 +36,18 @@
     font-size: 24px;
 }
 
+.module-indicator {
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.checker-indicator {
+    background: rgba(72, 187, 120, 0.2);
+    color: #48bb78;
+}
+
 .header-right {
     display: flex;
     align-items: center;

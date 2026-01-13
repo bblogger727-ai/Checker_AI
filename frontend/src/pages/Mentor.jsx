@@ -85,9 +85,10 @@ function Mentor() {
         <div className="mentor-page">
             <header className="header">
                 <div className="header-left">
-                    <button onClick={() => navigate('/')} className="back-btn">← Checker</button>
-                    <span className="logo-icon">👨‍🏫</span>
-                    <h1>MentorAI</h1>
+                    <button onClick={() => navigate('/')} className="back-btn">← Home</button>
+                    <span className="logo-icon">🎓</span>
+                    <h1>Student Evaluator</h1>
+                    <span className="module-indicator mentor-indicator">👨‍🏫 MentorAI</span>
                 </div>
                 <div className="header-right">
                     <span className="user-name">{user?.name || 'Admin'}</span>

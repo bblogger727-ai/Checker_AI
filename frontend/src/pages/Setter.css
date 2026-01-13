@@ -14,10 +14,22 @@
 }
 
 .setter-page .header h1 {
-    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+}
+
+.setter-page .module-indicator {
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.setter-indicator {
+    background: rgba(245, 87, 108, 0.2);
+    color: #f5576c;
 }
 
 /* Generate Section */
