@@ -91,6 +91,9 @@ function Dashboard() {
                     <button onClick={() => navigate('/setter')} className="setter-btn">
                         📝 SetterAI
                     </button>
+                    <button onClick={() => navigate('/mentor')} className="mentor-btn">
+                        👨‍🏫 MentorAI
+                    </button>
                     <span className="user-name">{user?.name || user?.email}</span>
                     <button onClick={logout} className="logout-btn">Logout</button>
                 </div>

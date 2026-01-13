@@ -77,6 +77,22 @@
     box-shadow: 0 4px 12px rgba(245, 87, 108, 0.4);
 }
 
+.mentor-btn {
+    padding: 8px 16px;
+    background: linear-gradient(135deg, #22d3ee 0%, #0ea5e9 100%);
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.mentor-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(34, 211, 238, 0.4);
+}
+
 .main-content {
     max-width: 1200px;
     margin: 0 auto;

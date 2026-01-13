@@ -5,6 +5,8 @@ import Dashboard from './pages/Dashboard';
 import ExamDetail from './pages/ExamDetail';
 import Setter from './pages/Setter';
 import PaperEditor from './pages/PaperEditor';
+import Mentor from './pages/Mentor';
+import StudentProfile from './pages/StudentProfile';
 import './App.css';
 
 // Auth Context
@@ -69,6 +71,15 @@ function App() {
           <Route
             path="/setter/edit/:id"
             element={user ? <PaperEditor /> : <Navigate to="/login" />}
+          />
+          {/* MentorAI Routes */}
+          <Route
+            path="/mentor"
+            element={user ? <Mentor /> : <Navigate to="/login" />}
+          />
+          <Route
+            path="/mentor/student/:id"
+            element={user ? <StudentProfile /> : <Navigate to="/login" />}
           />
         </Routes>
       </BrowserRouter>

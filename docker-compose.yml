@@ -1,5 +1,5 @@
-# CheckerAI + SetterAI - Full Stack Docker Compose
-# 2 Backends + 1 Frontend + PostgreSQL
+# CheckerAI + SetterAI + MentorAI - Full Stack Docker Compose
+# 3 Backends + 1 Frontend + PostgreSQL
 
 services:
   # PostgreSQL Database (shared)
@@ -20,7 +20,7 @@ services:
       timeout: 5s
       retries: 5
 
-  # CheckerAI Backend (Grading)
+  # CheckerAI Backend (Grading) - Port 8000
   checker-backend:
     build:
       context: ./CheckerAI - Backend
@@ -39,7 +39,7 @@ services:
         condition: service_healthy
     restart: unless-stopped
 
-  # SetterAI Backend (Paper Generation)
+  # SetterAI Backend (Paper Generation) - Port 8001
   setter-backend:
     build:
       context: ./SetterAI - Backend
@@ -58,7 +58,31 @@ services:
         condition: service_healthy
     restart: unless-stopped
 
-  # Frontend (serves both UIs)
+  # MentorAI Backend (Student Mentoring) - Port 8002
+  mentor-backend:
+    build:
+      context: ./MentorAI - Backend
+      dockerfile: Dockerfile
+    container_name: mentorai-backend
+    environment:
+      - DATABASE_URL=postgresql://postgres:postgres@postgres:5432/checkerai
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - SMTP_HOST=${SMTP_HOST:-smtp.gmail.com}
+      - SMTP_PORT=${SMTP_PORT:-587}
+      - SMTP_USER=${SMTP_USER:-}
+      - SMTP_PASSWORD=${SMTP_PASSWORD:-}
+      - FROM_EMAIL=${FROM_EMAIL:-}
+      - FROM_NAME=${FROM_NAME:-MentorAI}
+    volumes:
+      - mentor_reports:/app/data/reports
+    ports:
+      - "8002:8002"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+
+  # Frontend (serves all UIs)
   frontend:
     build:
       context: ./frontend
@@ -69,6 +93,7 @@ services:
     depends_on:
       - checker-backend
       - setter-backend
+      - mentor-backend
     restart: unless-stopped
 
 volumes:
@@ -77,3 +102,4 @@ volumes:
   checker_data:
   setter_uploads:
   setter_data:
+  mentor_reports:
