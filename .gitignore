@@ -1,0 +1,57 @@
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Processed output files - contents only (keep folder structure with .gitkeep)
+backend/ocr_outputs/**
+!backend/ocr_outputs/.gitkeep
+backend/ocr_pdfs/**
+!backend/ocr_pdfs/.gitkeep
+backend/aligned_outputs/**
+!backend/aligned_outputs/.gitkeep
+backend/grading_results/**
+!backend/grading_results/.gitkeep
+backend/question_schemas/**
+!backend/question_schemas/.gitkeep
+backend/solution_texts/**
+!backend/solution_texts/.gitkeep
+
+# Student answer PDFs (sample data)
+*.pdf
+
+# Logs
+*.log
+
+# Test coverage
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
