@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "subject_code": "AA",
+    "subject_name": "Advanced Auditing",
+    "paper_num": "Portionwise_3",
+    "total_marks_printed": 50,
+    "total_marks_in_paper": 50,
+    "section_a_marks": 0,
+    "section_b_marks": 50,
+    "two_section_format": false,
+    "note": "Portionwise Test: Attempt all 5 questions. Each question carries 10 marks (6 + 4 split).",
+    "blacklisted_from": [
+      "/Users/gaureshmantri/Documents/Secure PDF Extraction/Final/Generated_Papers/AA/AA_Portionwise_Test_1.json",
+      "/Users/gaureshmantri/Documents/Secure PDF Extraction/Final/Generated_Papers/AA/AA_Portionwise_Test_2.json"
+    ],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)"
+    ]
+  },
+  "section_a": [],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "17",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "During the course of audit of Limca Ltd., CA Ranjan observed frequent changes in accounting estimates of receivables, delays in providing information requested by management including altered documents. He also noticed discrepancies between the company's records and external party confirmations. These factors made him suspect the possibility of fraud in the entity. Identify the common indications that may alert an auditor to the existence of fraud considering the given situation. Also, explain the four elements of fraud, often referred to as the \"Fraud Diamond.\" (RTP Jan'26)",
+          "answer": "The given situation presents several indications that may alert an auditor to possible fraud, which include the following:\n\n(i) Discrepancies in Accounting Records including non-recording or partial recording or incorrect recording or delayed recording of amounts, misclassifications, etc.\n\n(ii) Conflicting or missing evidence including missing documents, altered documents, significant unexplained items in reconciliations, discrepancies between entity's records and confirmations received etc.\n\n(iii) Unacceptable management responses such as - denial of access to records/facilities/employees, undue time pressure to resolve complex issues, unusual delays in providing requested information, denial for use of Computer Assisted Audit Techniques, unwillingness to address identified deficiencies in internal control etc.\n\n(iv) Other indications such as - Accounting Policies in variance with Industry Norms, Frequent changes in accounting estimates etc.\n\nIn the given case, the altered documentation, discrepancies in records, and management's delayed cooperation clearly point to above mentioned fraud indicators.\n\nFraud Diamond: Four Elements of Fraud are:\n\n- Incentive: I want to, or have a need to, commit fraud.\n\n- Opportunity: There is a weakness in the system that the right person could exploit. Fraud is possible.\n\n- Rationalization: I have convinced myself that this fraudulent behavior is worth the risks.\n\n- Capability: I have the necessary traits and abilities to be the right person to pull it off. I have recognized this particular fraud opportunity and can turn it into reality.",
+          "chapter_number": "17",
+          "chapter_name": "DUE DILIGENCE, INVESTIGATION AND FORENSIC ACCOUNTING",
+          "unique_id": "17-T-22"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Write note on Classification of frauds by NBFC. (RTP Nov'20/May'19)",
+          "answer": "Classification of Frauds by NBFC: In order to have uniformity in reporting, frauds have been classified as under based mainly on the provisions of the Indian Penal Code:\n\n- Misappropriation and criminal breach of trust.\n- Fraudulent encashment through forged instruments, manipulation of books of account, or through fictitious accounts and conversion of property.\n- Unauthorised credit facilities extended for reward or for illegal gratification.\n- Negligence and cash shortages.\n- Cheating and forgery.\n- Irregularities in foreign exchange transactions.\n- Any other type of fraud not coming under the specific heads as above.\n\nCases of negligence and cash shortages and irregularities in foreign exchange transactions referred to in items (d) and (f) above are to be reported as fraud if the intention to cheat/defraud is suspected/proved.\n\nHowever, the following cases where fraudulent intention is not suspected/proved, at the time of detection, will be treated as fraud and reported accordingly:\n\n(I) cases of cash shortages more than ₹10,000/-; and\n(II) cases of cash shortages more than ₹5,000/-, if detected by management/auditor/inspecting officer and not reported on the occurrence by the persons handling cash.",
+          "chapter_number": "17",
+          "chapter_name": "DUE DILIGENCE, INVESTIGATION AND FORENSIC ACCOUNTING",
+          "unique_id": "FILE-AA-P3-Q1b"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "18",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Sukaran Ltd., a leading textile manufacturing company, has been facing criticism from its employees regarding various workplace concerns. Some employees have raised issues about delayed salary payments, while others have reported excessive working hours that affect their work-life balance. Additionally, a few workers have complained about inadequate safety measures in the factory, leading to frequent minor accidents. Which principle of BRSR deals with this? Mention the core elements of this principle. (RTP May '25, MP[3])",
+          "answer": "Principle 3 - Promote Well-Being of All Employees Including those in the Value Chain: The third principle relates to all the initiatives an entity has to take for the benefit of its employees from the point of view of their dignity, health, well-being.\n\nThe essence of the core elements associated with the principle is:\n\n(a) The entity should ensure compliance with all regulatory requirements as far as employees are concerned.\n\n(b) The entities are to respect the dignity of employee as a human being and should not restrict their freedom of associations, unions, and other participatory mechanism for collective bargaining of their rights and redressal of issues they face at the workplace.\n\n(c) The entities should prevent all kinds of child labour, bonded labour, and any other forms of involuntary labour.\n\n(d) The entities should have a system in which the work-life balance of the employees is not compromised.\n\n(e) The businesses have to ensure timely payment of the worker's wages and compensation.\n\n(f) The payment of the wages has to be as per the living wages, that can take care of the basic needs and provide economic security to the employees.\n\n(g) The entities are responsible to create a workplace and work environment that is safe, hygienic, and comfortable for people to work for long durations.\n\n(h) The skill development, career development and training of the workforce is another responsibility of the entities employing them.\n\n(i) The creation of a workplace which is free of harassment and violence is also a responsibility of the entity.\n\nIn the given case, employees have raised issues about delayed salary payments, excessive working hours that affect their work-life balance and complained about inadequate safety measures in the factory. In view of the above, Sukaran Ltd. must take corrective actions to align with this principle.",
+          "chapter_number": "18",
+          "chapter_name": "EMERGING AREAS: SUSTAINABLE DEVELOPMENT GOALS (SDG) AND ENVIRONMENT, SOCIAL AND GOVERNANCE (ESG) ASSURANCE",
+          "unique_id": "18-T-12"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "CA Ram, a practicing chartered accountant, is well known for his expertise in handling Goods and Services Tax (GST) cases at the GST Tribunal and he does not provide any assurance services. Given his long-standing reputation in the field, CA Ram is approached by DEF Limited to file an appeal in the Tribunal against a GST demand of Rs. 6 crore, which was imposed by the Commissioner (Appeals), and to represent DEF Limited in the matter. CA Ram offers to accept a fee of Rs. $3,50,000$ for filing the appeal and pleading at the GST Tribunal. Comment on the act of CA Ram in terms of the Chartered Accountant Act, 1949 and Schedules thereon. (MTP 4 Marks Oct'24,MP[5])",
+          "answer": "Under Section 2(2)(iv) of the Chartered Accountants Act, 1949, a member of the Institute shall be deemed \"to be in practice\" when individually or in partnership with Chartered Accountants in practice, he, in consideration of remuneration received or to be received renders such other services as, in the opinion of the Council, are or may be rendered by a Chartered Accountant in practice.\n\nPursuant to Section 2(2)(iv) of the Chartered Accountants Act, 1949, read with Regulation 191 of Chartered Accountants Regulations, 1988 a member shall be deemed to be in practice if he, in his professional capacity and neither in his personal capacity nor in his capacity as an employee, acts as representative for taxation matters.\n\nIn the given situation, CA Ram, a practicing Chartered Accountant, provides non-assurance services. He is approached by DEF Limited, a non-audit client, to file an appeal in GST Tribunal against GST Demand of Rs. 6 crore, which was imposed by the Commissioner (Appeals) and to plead on behalf of DEF Limited in the matter. CA Ram offers to accept the case and agrees to charge fees of Rs. $3,50,000$.\n\nTherefore, CA Ram is not guilty of professional misconduct.",
+          "chapter_number": "1.2",
+          "chapter_name": "SA 220- QUALITY CONTROL FOR AN AUDIT OF FINANCIAL STATEMENTS",
+          "unique_id": "1.2-T-13"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "17",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Mr. Z, a newly qualified chartered accountant started his practice in February 2025 by setting up an office in the hill station Kodaikanal. Initially, since he was not getting very assignments he decided to set up a temporary office in the nearby city Marudai, situated at about 100 kms from the main office. As planned, he took an office space on rent for the months of April, May & June. During these months, his regular office was not closed and Mr. Z was in-charge for both the offices. Mrs. A, another newly qualified chartered accountant who also practiced in Marudai came to know about the new office of Mr. Z thinking that he could be a potential practice she informed the Institute stating that Mr. Z had violated the provisions of the Chartered Accountant Act. As a member of the Board of Discipline of ICAI, you are requested to analyse this complaint.",
+          "answer": "As per section 27 of Chartered Accountants Act 1949, if a Chartered Accountant in practice or Firm of Chartered Accountants has more than one office, then each one of such offices should be in separate charge of a member of the Institute. Failure on the part of a member to have a member in charge of its branch and a separate member in case of each of the branches where there is more than one, would constitute professional misconduct. This condition applies to any additional office situated at a place beyond 50 kms from the municipal limits in which any office is situated.\n\nHowever, exemption has been given to members in practicing in hill areas subject to certain conditions such as:\n- Such member/ firm be allowed to open temporary offices in a city in the plains for a limited period not exceeding 3 months in a year.\n- The regular office need not be closed during this period and all correspondence can continue to be made at the regular office.\n\nCh-2 Professional Ethics\n- The name board of the firm in temporary office should not be displayed at times other than the period such office is permitted to function.\n- The temporary office should not be mentioned in letter head, visiting card, any other documents as a place of business of the member/ firm.\n- Before commencement of every winter, it shall be obligatory on the member/firm to inform the Institute that he/it is opening the temporary office from a particular date and after the office is closed at the expiry of the period of permission, an intimation to that effect should also be sent to the office of the Institute by registered post.\n\nFacts\nIn the given case, Mr. Z has set up his regular office in the hill area of Kodaikanal , he decided to set up a temporary office in the nearby city Marudai, situated at about 100 kms from the main office. As planned, he took an office space on rent for the months of April, May & June. During these months, his regular office was not closed. Further he was in-charge for both the offices. In view of abovementioned criteria’s, he is eligible to avail the benefits of the above exemptions. Also, it is given that the temporary office was open in Madurai for only 3 months and not beyond that. The fact that Mr. Z is in-charge for both the offices, the temporary office being set-up in the plains which is 100 kms away and the regular office kept open during the 3 months does not constitute any violation of the provisions of the Chartered Accountant Act. Assuming Mr. Z has informed the Institute regarding such temporary office in the prescribed manner.\n\nConclusion\nTherefore, in the given case, no penal action needs to be taken on the basis of complaint registered by Mrs. A, as Mr. Z is not guilty of professional misconduct.",
+          "chapter_number": "17",
+          "chapter_name": "DUE DILIGENCE, INVESTIGATION AND FORENSIC ACCOUNTING",
+          "unique_id": "FILE-AA-P3-Q3a"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "MNS Bank Ltd. is suffering from huge number of NPAs. During the month of April 2026, the management of the bank decided to sell some of its NPAs. Bank is doing this exercise for the first time. The management has selected following NPA accounts for sale:\n\n| Name         | NPA since FY | Amount (₹'lakh) |\n|--------------|--------------|-----------------|\n| S Store Ltd  | 2021-22      | 27.50           |\n| Ch-fa Bank Audit | 2020-21  | 55.23           |\n| V Pvt Ltd    | 2023-24      | 34.20           |\n| AV Fab Corp. | 2024-25      | 45.30           |\n| MN Iron Works| 2022-23      | 50.00           |\n| D6 & Associates | 2019-20   | 40.00           |\n\nBeing internal auditor of the bank, you are required to scrutinize the proposal made by the branch and help them by providing specific points to be considered.",
+          "answer": "In case of Sale of NPA by Bank, the auditor should examine:\n\n- The policy laid down by the Board of Directors in this regard relating to procedures, valuation and delegation of powers.\n- Only such NPA has been sold which has remained NPA in the books of the bank for at least 2 years.\n- The assets have been sold 'without recourse' only.\n- Subsequent to the sale of the NPA, the bank does not assume any legal, operational or any other type of risk relating to the sold NPAs.\n- The NPA has been sold at cash basis only.\n- On the sale of the NPA, the same has been removed from the books of the account.\n- The short fall in the net book value has been charged to the profit and loss account.\n- Where sale is for a value higher than the NBV, no profit is recognised and the excess provision has not been reversed but retained to meet the shortfall/ loss because sale of other non-performing financial assets.\n\nIn view of above-mentioned conditions, the auditor is required to ensure that only such NPA has been sold which has remained NPA in the books of the bank for at least 2 years.\n\nConsidering the facts given in the question all the NPAs, except for MN Iron Works, are prior to April 2024 i.e., 2 years prior to April 2026.\n\nIn view of above provisions, management of MNS Bank Ltd. can sell all the NPAs except for NPA of 45.30 lakh rupees of MN Iron Works as it has remained NPA in the books of the banks less than 2-year duration.",
+          "chapter_number": "17",
+          "chapter_name": "DUE DILIGENCE, INVESTIGATION AND FORENSIC ACCOUNTING",
+          "unique_id": "FILE-AA-P3-Q3b"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "19",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "CA. Gyan is a Chartered Accountant in practice and also an engineer by qualification. He wants to pursue a registered valuer course and work as a registered valuer for plant and machinery under the Companies Act, 2013. Comment on above with reference to provisions of the Chartered Accountants Act, 1949. (MTP 5 Marks, Mar'24,MP[1])",
+          "answer": "As per section 2(2)(iv) of the Chartered Accountants Act, 1949, a member of the Institute shall be deemed \"to be in practice\" when individually or in partnership with the Chartered Accountants in practice or in partnership with members of such other recognised professions as may be prescribed, he, in consideration of remuneration received or to be received, renders such other services as, in the opinion of the Council, are or may be rendered by a Chartered Accountant in practice.\n\nPursuant to section 2(2) (iv) above, the Council has passed a resolution permitting a Chartered Accountant in practice to render entire range of \"Management Consultancy and other Services\" which, inter alia, includes\n\nrendering services of valuation of shares and business and advice regarding amalgamation, merger and acquisition, acting as Registered Valuer under the Companies Act, 2013 read with the Companies (Registered Valuers and Valuation) Rules, 2017. In this regard, such rules qualify Chartered Accountants for valuation of the securities or the financial Assets only and not for the Plant and Machinery. Therefore, valuation of plant and machinery does not form part of Management Consultancy and other services permitted by the council.\n\nFurther, in accordance with resolution passed under Regulation 190A of the Chartered Accountant Regulations, 1988, members in practice are generally permitted for attending classes and appearing for any examination. There is no need to take prior permission of ICAI in this regard. Therefore, it is generally permitted for a member in practice to attend classes and appear for any examination, and accordingly, doing the Registered valuer course would be deemed as permissible.\n\nHence, keeping in view above and in terms of the provisions of the Chartered Accountants Act, 1949 and Code of Ethics, it is not permissible for a Chartered Accountant in practice to work as an Engineer/valuer in plant & machinery simultaneously.",
+          "chapter_number": "19",
+          "chapter_name": "PROFESSIONAL ETHICS AND LIABILITIES OF AUDITORS",
+          "unique_id": "19-T-9"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "## Question 21 (PYP 4 Marks Sep'25)\n\nBIL Limited is a company manufacturing premium shampoos since last decade. The company functions through various salesmen appointed across the country. The management of company came across the news that the salesmen in the central and western regions have exaggerated their sales through fictitious billings to achieve higher commission and to accommodate the sales volume achieved by one employee with other employees, who falls short of their target. The management of the company appointed you to investigate and unearth such type of fraud, if it is prevailing in their company. What procedures will be followed by you to investigate such type of fraud?",
+          "answer": "## Procedure to be followed to Investigate Commission Schemes Fraud:\n\n(1) Before proceeding to investigate frauds of the type aforementioned, the investigating accountant should ascertain the exact duties of the person concerned who is suspected to have committed a fraud, his relationship to the general routine of the office and the circumstances in which any known instances of defalcation have come to light.\n\n(2) Such an enquiry would give a clue to promising avenues of investigation. Greater the authority of the individual suspected of a fraud, wider would be the field which would have to be covered by the investigation.\n\n(3) At times, an accountant is called upon to investigate a suspected fraud, the details or the nature whereof is not known. In such a case, for localising the source of the fraud, the investigating accountant will have to study the financial and accounting structure of the organisation.\n\n(4) As a first step, he should examine the line of responsibility between the various members of the staff. He should have a look at the system of internal control in operation for spotting out the weaknesses, if any, that may exist in it.\n\n(5) Relying on the above study, he should direct his enquiry towards those aspects of the business where there has been excessive control in the hands of single person/employee, without any supervision by any other person/employee or, any other inherent weakness that may be in existence in the system.",
+          "chapter_number": "17",
+          "chapter_name": "DUE DILIGENCE, INVESTIGATION AND FORENSIC ACCOUNTING",
+          "unique_id": "17-T-21"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "19",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "(RTP May'24, SM) (a) Comment on the following with reference to the provisions of the Chartered Accountant Act 1949:\n\n(1) CA. Pankaj accepted professional work of acting as valuer under direct taxes. He charges fees on a percentage of the property valued.\n\n(2) CA. Anita joined as an audit executive in a CA firm on April 1, 20X1. Despite receiving multiple reminders from ICAI, she has failed to respond with her appointment date and submit her membership certificate.\n\n(b) Mr. Johny, a chartered accountant, was invited to a seminar on bank audits to give a presentation on the process of conducting such audits. During his presentation, he provided examples from his clients' experiences and shared the significant information about clients with the intention of aid in understanding of audience on the topic. Does above situation have implications in relation to the professional ethics?",
+          "answer": "(a) (1) Restriction on fees based on a Percentage: According to Clause (10) of Part I of First Schedule to the Chartered Accountants Act, 1949, a Chartered Accountant in practice shall be deemed to be guilty of professional misconduct if he charges or offers to charge, accepts or offers to accept in respect of any\n\nprofessional employment fees which are based on a percentage of profits or which are contingent upon the findings, or results of such employment, except as permitted under any regulations made under this Act.\n\nHowever, Regulation 192 exempts Chartered Accountants in practice to charge fees based on a percentage of profits or contingent upon findings or results for professional work for certain professional services. Regulation 192 specifically states that in the case of a valuer for the purposes of direct taxes and duties, the fees may be based on a percentage of the value of the property valued.\n\nConclusion: Consequently, CA. Pankaj shall not be deemed to be guilty of professional misconduct, as he is within the permissible scope of charging fees based on a percentage of the property valued.\n\n(2) Failed to Supply Information Called For: In accordance with Clause (2) of Part III of the First Schedule to the Chartered Accountants Act, 1949, a member, whether in practice or not, is considered to be engaged in professional misconduct if he fails to provide the information requested or does not comply with the requirements set forth by the Institute, Council, or any of its Committees, including the Director (Discipline), Board of Discipline, Disciplinary Committee, Quality Review Board, or the Appellate Authority.\n\nConclusion: Therefore, in the given scenario, CA. Anita has neglected to respond to the Institute's letters seeking confirmation of her appointment date and has not submitted her membership certificate. Consequently, she is deemed to be guilty of professional misconduct as given in Clause (2) of Part III of the First Schedule to the Chartered Accountants Act, 1949.\n\n(b) Disclosure of Client's Information: Confidentiality is one of fundamental principles governing professional ethics. Clause (1) of Part I of the Second Schedule to the Chartered Accountants Act, 1949, addresses professional misconduct related to the disclosure of information by a chartered accountant in practice concerning the business of their clients. Such disclosure to any person other than the client, without the client's consent or unless mandated by prevailing law, is considered a breach of conduct. The Code of Ethics emphasizes that this duty continues even after the completion of the assignment, except when disclosure is necessary for the performance of professional duties.\n\nIn the provided case, CA. Johny disclosed significant information about his client's business without obtaining the client's consent, believing that it would enhance the audience's understanding of the topic. Conclusion: Therefore, this action of CA. Johny constitutes professional misconduct under Clause (1) of Part I of the Second Schedule to the Chartered Accountants Act, 1949.",
+          "chapter_number": "19",
+          "chapter_name": "PROFESSIONAL ETHICS AND LIABILITIES OF AUDITORS",
+          "unique_id": "19-T-39"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Navyam Limited is into the business of construction for the past 20 years. Management of the Company came to know that building material sent to construction sites is of substandard quality whereas the payment released by the accounts department of the Company is on the higher side. Forensic Accountant was asked to carry out detailed investigation. Forensic Accountant completed his investigation and now preparing his report. What are the broad areas of information that needs to be incorporated in the report of forensic accountant? (RTP Sep'25), (PYP 4 Marks Jul'21)",
+          "answer": "Broad areas of information to be incorporated in the report of Forensic Accountant -\n\nIssuing an audit report is the final step of a fraud audit. Auditors will include information detailing the fraudulent activity, if any has been found. The client will expect a report containing the findings of the investigation, including a summary of evidence, a conclusion as to the amount of loss suffered as a result of the fraud and to identify those involved in fraud.\n\nThe report may include sections on the nature of the assignment, scope of the investigation, approach utilized, limitations of scope and findings and/or opinions. The report will include schedules and graphics necessary to properly support and explain the findings.\n\nThe report will also discuss how the fraudster set up the fraud scheme, and which controls, if any, were circumvented. It is also likely that the investigative team will recommend improvements to controls within the organization to prevent any similar frauds occurring in the future.\n\nThe Forensic Accountant should have active listening skills which will enable him to summarize the facts in the report. It should be kept in mind that the report should be based on the facts assimilated during the process and not on the opinion of the person writing the report.",
+          "chapter_number": "17",
+          "chapter_name": "DUE DILIGENCE, INVESTIGATION AND FORENSIC ACCOUNTING",
+          "unique_id": "17-T-3"
+        }
+      ]
+    }
+  ]
+}

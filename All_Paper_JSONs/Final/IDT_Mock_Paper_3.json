@@ -1,0 +1,464 @@
+{
+  "meta": {
+    "subject_code": "IDT",
+    "subject_name": "Indirect Tax",
+    "paper_num": 3,
+    "total_marks_printed": 100,
+    "total_marks_in_paper": 114,
+    "section_a_marks": 30,
+    "section_b_marks": 84,
+    "note": "Section B: Q1 compulsory (14m). Attempt any 4 of Q2-Q6 (14m each).",
+    "blacklisted_from": [
+      "Generated_Papers/IDT/IDT_Mock_Paper_1.json",
+      "Generated_Papers/IDT/IDT_Mock_Paper_2.json"
+    ]
+  },
+  "section_a": [
+    {
+      "type": "case_study",
+      "chapter_number": "5",
+      "chapter_name": "Time of Supply",
+      "case_text": "## CS 42 (PYP 12 Marks Sep'25)\n\nM/s Jose & Co. (Firm) is a partnership firm registered under GST regular scheme in the State of Kerala. Firm is an original equipment manufacturer of motor pumps and engaged in supply of related goods and services all over India and having its agents network also.\n\nDuring the month of August 2025, the firm made following outward transactions:\n\n(i) Supplied moulds and dies owned by it to unrelated component manufacturers free of cost; market value of the same was ₹ 65,000 .\n\n(ii) Provided free training on e-invoice and e-way bill to all its agents free of cost; value of such training was ₹ 1,00,000.\n\nProvided the following services during the month of September 2025, and received payment subject to deduction of GST TDS, as applicable:\n\n(a) Water supply services provided to Kerala Water Resources Management Board, a Government Authority in which $85 \\%$ of control was held by Kerala Government; total consideration was ₹ $2,50,000$\n\n(b) Composite supply of goods and services provided to Kerala Government, in respect of an activity entrusted to a municipality under Article 243 W of the Constitution, in which value of service constituted $25 \\%$ of the value of said composite supply; total consideration was ₹ $3,00,000$\n\n(c) Conducted training program for rain water harvesting for a consideration of ₹ $4,00,000$. This service was provided to Central Government and 76\\% of the total expenditure of this program was borne by the Central Government.\n\nDuring the month of October 2025, the firm made a supply to its related concern valued under invoice at ₹ $5,00,000$; whereas the market value was $₹ 8,00,000$ and the recipient was eligible for full ITC. Value of like kind of supply was ₹ $7,00,000$. Recipient intended to consume the supply for production purposes.\n\nThe firm entered into a contract for service of 100 pump motors on 15.11.2025 for an amount of ₹5,00,000.\n\nDeadline for completing the contract was 15.01.2026. However, due to some misunderstanding the contract was terminated on $\\mathbf{2 0 . 1 2 . 2 0 2 5}$ when only $\\mathbf{5 0 \\%}$ of the work was completed.\n\nThe firm received a show-cause notice under section 74A of the CGST Act, 2017 on 31.01.2026 for short payment tax due to clerical error. IGST demanded in the said notice was $₹ 20,000$. Since the owner was hospitalized, the payment for demand was made belatedly on 25.03.2026 for tax and interest, but before any order was passed.\n\nAll the amounts given above are exclusive of taxes wherever applicable. All the supply referred above is intraState unless specified otherwise.\n\nBased on the information given above, choose the correct and most appropriate answer to Questions Nos.\n\n1. In respect of outward transactions made during the month of August 2025, which of the following value will be treated as supply? (Chapter 1: Supply Under GST)\n\n(a) ₹ 65,000\n\n(b) ₹ 1,00,000\n\n(c) ₹ $1,65,000$\n\n(d) Nil\n\n\nAns: (d)\n\n2. In respect of services provided during the month of September 2025, the value of exempt supply will be: (Chapter 4: Exemption of GST)\n\n(a) ₹ $2,50,000$\n\n(b) ₹ $3,00,000$\n\n(c) $₹ 4,00,000$\n\n(d) ₹ $7,00,000$\n\n\nAns: (c)\n\n3. The amount of GST TDS that will be deducted each under CGST and SGST against the supply made during the month of September 2025 will be: (Chapter 11: Payment of Tax)\n\n(a) ₹ 7,000\n\n(b) ₹ 5,500\n\n(c) ₹ 3,000\n\n(d) ₹ 2,500\n\n\nAns: (c)\n\n4. The value of supply made to related concern during the month of October 2025 will be: (Chapter 6: Value of Supply)\n\n(a) ₹ $5,00,000$\n\n(b) ₹ $6,30,000$\n\n(c) ₹ $7,00,000$\n\n(d) ₹ $8,00,000$\n\n\nAns: (a)\n\n5. Due date for issue of invoice against pump motors service contract which was terminated on 20.12.2025 will be: (Chapter 9: Tax Invoice, Credit & Debit Notes)\n\n(a) 15.12.2025\n\n(b) 20.12.2025\n\n(c) 20.01.2026\n\n(d) 15.02 .2026\n\n\nAns: (b)\n\n6. Penalty which could be levied in respect of SCN issued under section 74A will be: (Chapter 19: Demand & Recovery)\n\n(a) Nil\n\n(b) ₹ 2,000\n\n(c) ₹ 10,000\n\n(d) ₹ 20,000\n\n\nAns: (a)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "In respect of outward transactions made during the month of August 2025, which of the following value will be treated as supply? (Chapter 1: Supply Under GST)",
+          "options": {
+            "a": "₹ 65,000",
+            "b": "₹ 1,00,000",
+            "c": "₹ $1,65,000$",
+            "d": "Nil"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null,
+          "_serial": 1
+        },
+        {
+          "q_num": 2,
+          "question": "In respect of services provided during the month of September 2025, the value of exempt supply will be: (Chapter 4: Exemption of GST)",
+          "options": {
+            "a": "₹ $2,50,000$",
+            "b": "₹ $3,00,000$",
+            "c": "$₹ 4,00,000$",
+            "d": "₹ $7,00,000$"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": 2
+        },
+        {
+          "q_num": 3,
+          "question": "The amount of GST TDS that will be deducted each under CGST and SGST against the supply made during the month of September 2025 will be: (Chapter 11: Payment of Tax)",
+          "options": {
+            "a": "₹ 7,000",
+            "b": "₹ 5,500",
+            "c": "₹ 3,000",
+            "d": "₹ 2,500"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": 3
+        },
+        {
+          "q_num": 4,
+          "question": "The value of supply made to related concern during the month of October 2025 will be: (Chapter 6: Value of Supply)",
+          "options": {
+            "a": "₹ $5,00,000$",
+            "b": "₹ $6,30,000$",
+            "c": "₹ $7,00,000$",
+            "d": "₹ $8,00,000$"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "_serial": 4
+        },
+        {
+          "q_num": 5,
+          "question": "Due date for issue of invoice against pump motors service contract which was terminated on 20.12.2025 will be: (Chapter 9: Tax Invoice, Credit & Debit Notes)",
+          "options": {
+            "a": "15.12.2025",
+            "b": "20.12.2025",
+            "c": "20.01.2026",
+            "d": "15.02 .2026"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": 5
+        },
+        {
+          "q_num": 6,
+          "question": "Penalty which could be levied in respect of SCN issued under section 74A will be: (Chapter 19: Demand & Recovery)",
+          "options": {
+            "a": "Nil",
+            "b": "₹ 2,000",
+            "c": "₹ 10,000",
+            "d": "₹ 20,000"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "_serial": 6
+        }
+      ],
+      "mcq_count": 6,
+      "unique_id": "5-CS-42"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "33",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "## CS 3 (MTP 10 Marks April '22, Mar'25)\n\nHimgiri Solutions Private Limited (hereinafter referred to as 'Himgiri Solutions') is engaged in providing multidimensional services to its clients through its office in Haryana, registered under GST. During the month of July, the following transactions were undertaken by Himgiri Solutions:\n\n(i) Import of certain cloud services from Easecart.com for an amount of ₹51,00,000.\n\n(ii) Himgiri Solutions pays sitting fee of ₹ $\\mathbf{2 5 , 0 0 0}$ each to its $\\mathbf{4}$ directors per month. Further, there are two directors who are in the executive roles and are withdrawing ₹2,00,000 each per month as salary from the company and the applicable TDS amount, under section 192 of the Income-tax Act, 1961, is deducted from such salary.\n\n(iii) Himgiri Solutions paid for life insurance of its employees in compliance of its internal policy. The total amount of premium paid for 20 employees was ₹ 5,00,000.\n\n(iv) Himgiri Solutions provided consultancy services to its client, Zoom Corp. based in Bangalore and issued an invoice of ₹ $30,00,000$.\n\n(v) Empowering India is a Non-Government Organisation located in Haryana. It aims at empowering the eligible companies to grow their business in India. Himgiri Solutions, being one of the eligible companies, received a subsidy of ₹ $5,00,000$ in lumpsum from Empowering India for the month of July.\n\n(vi) Himgiri Solutions provided sponsorship services to Mr. X an individual, for an event organised by it in the State of Haryana. The amount agreed for such sponsorship services is $₹ 5,00,000$.\n\nAll the amounts given above are exclusive of GST unless otherwise provided. There is no other outward or inward supply transaction apart from aforesaid transactions in the month of July.\n\nThe opening balance of input tax credit for the relevant tax period for the company is nil. Subject to the information given above, assume that all the other conditions necessary for availing ITC have been fulfilled. GST is applicable on all inward and outward supplies in the aforesaid case scenario @ 18\\%, unless otherwise specified. Ignore CGST, SGST and IGST bifurcation for the sake of simplicity.\n\nBased on the facts of the case scenario given above, choose the most appropriate answer to Q. Nos 1 to 5 below, carrying $\\mathbf{2}$ marks each:\n\n\n1. The liability to pay GST for cloud services procured by Himgiri Solutions from Easecart.com shall be: (Chapter 12: Electronic Commerce Transaction Under GST)\n\n(a) on Easecart.com since the services are online information and database access or retrieval services and GST of ₹ $9,00,000$ shall be paid by Easecart.com.\n\n(b) nil. There will not be any GST liability on the transaction since Easecart.com is located outside India and services are provided electronically.\n\n(c) on Easecart.com under forward charge and GST of ₹ $9,18,000$ shall be paid by Easecart.com.\n\n(d) on Himgiri Solutions under reverse charge and GST of ₹ $9,18,000$ shall be paid by Himgiri Solutions.\n\n\nAns: (d)\n\n2. Himgiri Solutions seeks your advice on the taxability of the sitting fee payable to directors and salary payable to the executive directors. The correct advice is: (Chapter 2: Charge of GST)\n\n(a) Sitting fees paid to the directors is liable to GST under reverse charge and the salary paid to executive directors shall not be liable to GST.\n\n(b) Total amount payable to directors (sitting fees as well as salary) is exempt from GST.\n\n(c) Total amount payable to directors (sitting fees as well as salary) is liable to GST under reverse charge in hands of Himgiri Solutions.\n\n(d) Total amount payable to directors (sitting fees as well as salary) is liable to GST under forward charge in the hands of the directors as professional income.\n\nAns: (a)\n\n3. What shall be the amount of input tax credit available with Himgiri Solutions for the month of July? (Chapter 7: Input Tax Credit)\n\n(a) ₹ $10,26,000$\n\n(b) ₹ $11,16,000$\n\n(c) $₹ 9,36,000$\n\n(d) ₹ $1,96,000$\n\n\nAns: (c)\n\n4. Compute the value of outward supplies made by Himgiri Solutions in the month of July. (Chapter 6: Value of Supply)\n\n(a) ₹ $30,00,000$\n\n(b) ₹ $25,00,000$\n\n(c) $₹ 35,00,000$\n\n(d) ₹ $40,00,000$\n\n\nAns: (c)\n\n5. Compute the amount of net GST to be deposited in cash by Himgiri Solutions for the month of July. (Chapter 11: Payment of Tax)\n\n(a) Nil\n\n(b) ₹ $7,20,000$\n\n(c) $₹ 9,36,000$\n\n(d) ₹ $14,76,000$\n\n\nAns: (c)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "The liability to pay GST for cloud services procured by Himgiri Solutions from Easecart.com shall be: (Chapter 12: Electronic Commerce Transaction Under GST)",
+          "options": {
+            "a": "on Easecart.com since the services are online information and database access or retrieval services and GST of ₹ $9,00,000$ shall be paid by Easecart.com.",
+            "b": "nil. There will not be any GST liability on the transaction since Easecart.com is located outside India and services are provided electronically.",
+            "c": "on Easecart.com under forward charge and GST of ₹ $9,18,000$ shall be paid by Easecart.com.",
+            "d": "on Himgiri Solutions under reverse charge and GST of ₹ $9,18,000$ shall be paid by Himgiri Solutions."
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null,
+          "_serial": 7
+        },
+        {
+          "q_num": 2,
+          "question": "Himgiri Solutions seeks your advice on the taxability of the sitting fee payable to directors and salary payable to the executive directors. The correct advice is: (Chapter 2: Charge of GST)",
+          "options": {
+            "a": "Sitting fees paid to the directors is liable to GST under reverse charge and the salary paid to executive directors shall not be liable to GST.",
+            "b": "Total amount payable to directors (sitting fees as well as salary) is exempt from GST.",
+            "c": "Total amount payable to directors (sitting fees as well as salary) is liable to GST under reverse charge in hands of Himgiri Solutions.",
+            "d": "Total amount payable to directors (sitting fees as well as salary) is liable to GST under forward charge in the hands of the directors as professional income."
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "_serial": 8
+        },
+        {
+          "q_num": 3,
+          "question": "What shall be the amount of input tax credit available with Himgiri Solutions for the month of July? (Chapter 7: Input Tax Credit)",
+          "options": {
+            "a": "₹ $10,26,000$",
+            "b": "₹ $11,16,000$",
+            "c": "$₹ 9,36,000$",
+            "d": "₹ $1,96,000$"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": 9
+        },
+        {
+          "q_num": 4,
+          "question": "Compute the value of outward supplies made by Himgiri Solutions in the month of July. (Chapter 6: Value of Supply)",
+          "options": {
+            "a": "₹ $30,00,000$",
+            "b": "₹ $25,00,000$",
+            "c": "$₹ 35,00,000$",
+            "d": "₹ $40,00,000$"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": 10
+        },
+        {
+          "q_num": 5,
+          "question": "Compute the amount of net GST to be deposited in cash by Himgiri Solutions for the month of July. (Chapter 11: Payment of Tax)",
+          "options": {
+            "a": "Nil",
+            "b": "₹ $7,20,000$",
+            "c": "$₹ 9,36,000$",
+            "d": "₹ $14,76,000$"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": 11
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "33-CS-3"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "33",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "## CS 6 <br> (MTP 8 Marks March '23, MTP 6 Marks Sep'24,MP[3])\n\n\nScoobie Inc. is an entity incorporated in USA and is engaged in provision of various information technology related services directly as well as through its subsidiaries located across the world. In India, Scoobie India, a subsidiary of Scoobie Inc., is registered under GST in the State of Karnataka under GST and is providing services to various customers in India.\n\nScoobie Inc. provides cloud-based storage services to its customers (business entities and non- business entities) in India. The customers can subscribe to the services by making online payment directly to Scoobie Inc.'s bank account through internet banking and other modes. The terms and conditions for such services are entered between Scoobie Inc. and the customer directly without involvement of any third party.\n\nIn case of any issue, the customers can call and log the issue at the customer help centre which is operated by Scoobie India on principal to principal basis. For operation of such customer help centre, Scoobie India is paid on cost plus $10 \\\\%$ basis by Scoobie Inc. on monthly basis.\n\nFurther, Scoobie India is engaged in promotion and marketing of cloud-based storage services on principal to principal basis in India for Scoobie Inc. The payment for such services is made by Scoobie Inc. to Scoobie India\n\non monthly basis at cost plus $20 \\\\%$. The promotional and marketing activities are carried out in the name of Scoobie Inc., without any reference to operations of Scoobie India.\n\nScoobie Inc. owns online space for advertisement on internet. Scoobie Inc. has agreed to sell such online advertising space to Scoobie India for an amount of ₹ $5,00,00,000$ per month. Scoobie India sells such advertising space to its customers in India on its own account. The contractual arrangement for sale of such advertising space is between the customer and Scoobie India.\n\nScoobie Inc. provides technology support to Scoobie India and charges royalty from Scoobie India for such technology support at a fixed charge of ₹ $\\mathbf{2 5 , 0 0 , 0 0 0}$ per month. The royalty paid is exclusively related to the business of advertising space of Scoobie India.\n\nIn addition to above information, during the month of January:\n\n(I) Scoobie India has incurred following expenses:\n\n\n1. Expenses exclusively related to operation of call centre- $₹ 75,00,000$\n\n2. Expenses exclusively related to promotion and marketing services for Scoobie Inc. - ₹ $50,00,000$\n\n(II) Scoobie India earned an income of ₹ $8,00,00,000$ from sale of online advertising space in India.\n\n(III) Scoobie Inc. earned an income of ₹ $10,00,00,000$ from non-taxable online recipient customers, from cloud-based storage services in India.\n\nThe opening balance of input tax credit for the relevant tax period for Scoobie India and Scoobie Inc. is nil. Note: In the aforesaid case scenario,\n\n(i) GST is applicable on all inward and outward supplies unless otherwise specified:\n\nA. Intra-State supply- 9\\% CGST and 9\\% SGST\n\nB. Inter-State supply $-18 \\%$ IGST\n\n(ii) Subject to the information given above, assume that all the other conditions necessary for availing ITC have been fulfilled.\n\n(iii) All the amounts are exclusive of GST, wherever applicable, unless otherwise provided.\n\n(iv) Exports made by Scoobie India, if any, are through furnishing of LUT without payment of IGST.\n\n\nBased on the facts of the case scenario given above, choose the most appropriate answer to Q. Nos. 1 to 4 below:\n\n\n1. What shall be the output tax liability, without any adjustment of input tax credit, if any, by Scoobie India for the month of January? (Chapter 6 Value of Supply)\n\n(a) ₹ $1,44,00,000$\n\n(b) ₹ $2,38,50,000$\n\n(c) ₹ $1,69,65,000$\n\n(d) ₹ $1,66,50,000$\n\n\nAns: (a)\n\n2. What shall be the net GST liability of Scoobie Inc. for the month of January? (Chapter 11 Payment of Tax)\n\n(a) Nil\n\n(b) ₹ $1,80,00,000$\n\n(c) $₹ 1,84,50,000$\n\n(d) ₹ $2,74,50,000$\n\n\nAns: (b)\n\n3. What shall be the total input tax credit that can be availed by Scoobie India from the transactions undertaken in the month of January? (Chapter 7 Input Tax Credit)\n\n(a) $₹ 90,00,000$\n\n(b) ₹ $1,12,50,000$\n\n(c) ₹ $1,17,00,000$\n\n(d) ₹ $27,00,000$\n\n\nAns: (c)\n\n4. Please select the correct statement specifically in relation to sale of online advertisement space service provided by Scoobie Inc. to Scoobie India: (Chapter 2 Charge of GST)\n\n(a) Scoobie Inc is providing online information and database access or retrieval service and is thus, required to register in India under GST and discharge GST on forward charge basis.\n\n(b) Scoobie Inc is providing online information and database access or retrieval service electronically and place of supply in such case is the location of supplier which is outside taxable territory in present scenario. Therefore, no GST is payable on such services.\n\n(c) Scoobie Inc. is providing online information and database access or retrieval service and tax on the same is to be paid by Scoobie India on reverse charge basis.\n\n(d) Scoobie Inc. is providing online information and database access or retrieval service and tax on the\n\nsame is to be paid by Scoobie India in capacity of an agent of Scoobie Inc.\n\nAns: (c)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "What shall be the output tax liability, without any adjustment of input tax credit, if any, by Scoobie India for the month of January? (Chapter 6 Value of Supply)",
+          "options": {
+            "a": "₹ $1,44,00,000$",
+            "b": "₹ $2,38,50,000$",
+            "c": "₹ $1,69,65,000$",
+            "d": "₹ $1,66,50,000$"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "_serial": 12
+        },
+        {
+          "q_num": 2,
+          "question": "What shall be the net GST liability of Scoobie Inc. for the month of January? (Chapter 11 Payment of Tax)",
+          "options": {
+            "a": "Nil",
+            "b": "₹ $1,80,00,000$",
+            "c": "₹ $1,84,50,000$",
+            "d": "₹ $2,74,50,000$"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": 13
+        },
+        {
+          "q_num": 3,
+          "question": "What shall be the total input tax credit that can be availed by Scoobie India from the transactions undertaken in the month of January? (Chapter 7 Input Tax Credit)",
+          "options": {
+            "a": "₹ $90,00,000$",
+            "b": "₹ $1,12,50,000$",
+            "c": "₹ $1,17,00,000$",
+            "d": "₹ $27,00,000$"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": 14
+        },
+        {
+          "q_num": 4,
+          "question": "Please select the correct statement specifically in relation to sale of online advertisement space service provided by Scoobie Inc. to Scoobie India: (Chapter 2 Charge of GST)",
+          "options": {
+            "a": "Scoobie Inc is providing online information and database access or retrieval service and is thus, required to register in India under GST and discharge GST on forward charge basis.",
+            "b": "Scoobie Inc is providing online information and database access or retrieval service electronically and place of supply in such case is the location of supplier which is outside taxable territory in present scenario. Therefore, no GST is payable on such services.",
+            "c": "Scoobie Inc. is providing online information and database access or retrieval service and tax on the same is to be paid by Scoobie India on reverse charge basis.",
+            "d": "Scoobie Inc. is providing online information and database access or retrieval service and tax on the same is to be paid by Scoobie India in capacity of an agent of Scoobie Inc."
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": 15
+        }
+      ],
+      "mcq_count": 4,
+      "unique_id": "33-CS-6"
+    }
+  ],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": true,
+      "total_marks": 14,
+      "chapter_number": "1",
+      "sub_questions": [
+        {
+          "label": "—",
+          "marks": 14,
+          "internal_split": null,
+          "question": "XYZ Pvt. Ltd. is a manufacturing company registered under GST in the State of Uttar Pradesh. It manufactures two taxable products 'Alpha' and 'Beta' and one exempt product 'Gama'. On 1st October, while product 'Beta' got exempted through an exemption notification, exemption available on 'Gama' got withdrawn on the same date. The turnover (exclusive of taxes) of 'Alpha', 'Beta' and 'Gama' in the month of October was ₹ 9,00,000, ₹ 10,00,000 and ₹ 6,00,000 respectively. XYZ Pvt. Ltd. has furnished the following details:\n\nS. No. Particulars  Price (₹)  GST (₹)\n(a)  Machinery 'U' purchased on 1st October for being used in manufacturing all the three products  2,00,000  36,000\n(b)  Machinery 'V' purchased on 1st October for being used in manufacturing product 'Alpha' and 'Gama'  1,00,000  18,000\n(c)  Machinery 'W' purchased on 1st October for being exclusively used in manufacturing product 'Beta'  3,00,000  54,000\n(d)  Machinery 'Y' purchased on 1st October four years ago for being exclusively used in manufacturing product 'Beta'. From 1st October, such machinery will also be used for manufacturing product 'Gama'. 4,00,000  72,000\n(e)  Machinery 'Z' purchased on 1st October two years ago for being used in manufacturing all the three products  3,00,000  54,000\n(f)  Raw Material used for manufacturing 'Alpha' purchased on 5th October  1,50,000  27,000\n(g)  Raw Material used for manufacturing 'Beta' purchased on 10th October  2,00,000  36,000\n(h)  Raw Material used for manufacturing 'Gama' purchased on 15th October  1,00,000  18,000\n\nCompute the following:\n(i)  Amount of ITC to be credited to Electronic Credit Ledger, for the month of October\n(ii)  Amount of aggregate value of common credit (Tc)\n(iii)  Common credit attributable to exempt supplies, for the month of October\n(iv)  GST liability of the company payable through Electronic Cash Ledger, for the month of October if opening balance of ITC is nil. Note: Assume that all the procurements made by the company are from States other than Uttar Pradesh. Similarly, the company sells all its products in States other than Uttar Pradesh. Rate of IGST is 18%. Subject to the information given above, assume that all the other conditions necessary for availing ITC have been fulfilled. Ignore interest, if any and make suitable assumptions wherever required.",
+          "answer": "(i) Amount of ITC credited to Electronic Credit Ledger for the month of October:\n\nMachinery 'U' - ₹ 36,000\nMachinery 'V' - ₹ 18,000\nMachinery 'W' - ₹ 54,000\nMachinery 'Y' - ₹ 72,000\nMachinery 'Z' - ₹ 54,000\nRaw Material 'Alpha' - ₹ 27,000\nRaw Material 'Beta' - ₹ 36,000\nRaw Material 'Gama' - ₹ 18,000\n\nTotal ITC = ₹ 36,000 + ₹ 18,000 + ₹ 54,000 + ₹ 72,000 + ₹ 54,000 + ₹ 27,000 + ₹ 36,000 + ₹ 18,000 = ₹ 99,000\n\n(ii) Aggregate value of common credit (Tc):\n\nValue of 'A' for Machinery 'U' purchased on 1st October = ₹ 36,000\nValue of 'A' for Machinery 'Z' purchased on 1st October = ₹ 54,000\n\nTotal = ₹ 36,000 + ₹ 54,000 = ₹ 90,000\n\n(iii) Common credit attributable to exempt supplies for the month of October:\n\nTotal turnover of exempt supplies during the month = ₹ 10,00,000\nTotal turnover of XYZ Pvt. Ltd. during the month = ₹ 25,00,000\n\nCommon credit attributable to exempt supplies = (Exempt supplies / Total supplies) * Total common credit\n= (10,00,000 / 25,00,000) * 90,000 = ₹ 36,000\n\n(iv) GST liability of the company payable through Electronic Cash Ledger:\n\nTotal output tax liability of October = ₹ 2,71,000\nLess: ITC available in the Electronic Credit Ledger = ₹ 99,000\n\nGST payable = ₹ 2,71,000 - ₹ 99,000 = ₹ 1,72,000",
+          "chapter_number": "7",
+          "chapter_name": "INPUT TAX CREDIT",
+          "unique_id": "IDT-OCR-P3_ITC_Q1"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "7",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "As per rule 32(4), of the CGST Rules, value of supply of services in relation to life insurance services is (a) the gross premium reduced by the amount allocated for investment on behalf of the policy holder, if such an amount is intimated to the policy holder at the time of supply of service; (b) in all other cases, 25% of the premium in the 1st year and 12.5% of the premium in subsequent years. However, where the entire premium paid by the policy holder is only towards risk cover, such gross premium is the value of supply of life insurance services. In the light of the aforesaid provisions, value of supply of life insurance services provided by ALICL in financial year 2023-24 will be computed as follows: (i) Amount allocated for investment intimated to policy holder at the time of supply of service Value of service = ₹ (180-100) lakh = ₹ 80,00,000 (ii) Amount allocated for investment not intimated to policyholders at the time of supply of service Value of service = 25% of ₹ 180 lakh = ₹ 45,00,000 (iii) Gross premium received is only towards risk cover Value of service = ₹ 180 lakh",
+          "answer": "Arihant Life Insurance Company Ltd. (ALICL) has charged gross premium of ₹ 180 lakh from policy holders with respect to life insurance policies in the FY 2023-24; out of which ₹ 100 lakh have been allocated for investment on behalf of the policy holders. Compute the value of supply of life insurance services provided by ALICL: (i) if the amount allocated for investment has been intimated by ALICL to policy holders at the time of supply of service. (ii) if the amount allocated for investment has not been intimated by ALICL to policy holders at the time of providing of service. (iii) if the gross premium charged by ALICL from policy holders is only towards risk cover. Note: ALICL has started its operations in the FY 2023-24. Thus, the entire gross premium of ₹ 180 lakh is the premium for the first year of all the policies. ALICL has not issued any single premium annuity policy.",
+          "chapter_number": "6",
+          "chapter_name": "VALUE OF SUPPLY",
+          "unique_id": "IDT-OCR-P3_ValueSupply"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "XYZ Ltd. has obtained a loan from a foreign bank. The company does not have an account with the foreign bank from whom it has taken the loan. Whether RCM liability under GST laws should be discharged in this regard for import of services received in relation to the loan? Provide relevant legal provisions in support of your answer. (PYP 4 Marks Jul'21)",
+          "answer": "Yes. RCM liability needs to be discharged on such services.\n\nThe place of supply of services supplied by a banking company in case where either supplier or recipient is located outside India is location of supplier provided said services are supplied to an account holder, otherwise the place of supply is the location of the recipient.\n\nAccordingly, in the given case, the place of supply is the location of recipient - XYZ Ltd., i.e., India.\n\nSince the supplier is outside India and recipient and place of supply are in India, said service qualifies as import of services which in turn, is considered as inter-State supply.",
+          "chapter_number": "2",
+          "chapter_name": "CHARGE OF GST"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Compute export duty from the following data:\n\n(i) FOB price of goods: US $ 1,00,000. (ii) Shipping bill presented electronically on 26th April. (iii) Proper officer passed order permitting clearance and loading of goods for export (Let Export Order) on 4th May. (iv) Rate of exchange and rate of export duty are as under:\n\n| Date          | Rate of Exchange | Rate of Export Duty |\n|---------------|------------------|---------------------|\n| On 26th April | 1 US $ = ₹ 70   | 10%                 |\n| On 4th May    | 1 US $ = ₹ 72   | 8%                  |\n\n(v) Rate of exchange is notified for export by Central Board of Indirect taxes and Customs. (Make suitable assumptions wherever required and show the workings.)",
+          "answer": "Computation of export duty\n\n1. FOB price of goods [Note 1]  \n   Amount (US $)  \n   = 1,00,000  \n\n2. Value in Indian currency (US $ 1,00,000 x ₹ 70) [Note 2]  \n   Amount (₹)  \n   = 70,00,000  \n\n3. Export duty @ 8% [Note 3]  \n   = 70,00,000 x 8%  \n   = 5,60,000  \n\nNotes:  \n1. As per section 14(1) of the Customs Act, 1962, assessable value of the export goods is the transaction value of such goods which is the price actually paid or payable for the goods when sold for export from India for delivery at the time and place of exportation.  \n2. As per third proviso to section 14(1) of the Customs Act, 1962, assessable value has to be calculated with reference to the rate of exchange notified by the CBIC on the date of presentation of shipping bill of export.  \n3. As per section 16(1)(a) of the Customs Act, 1962, in case of goods entered for export, the rate of duty prevalent on the date on which the proper officer makes an order permitting clearance and loading of the goods for exportation, is considered.",
+          "chapter_number": "28",
+          "chapter_name": "VALUATION UNDER CUSTOMS ACT, 1962",
+          "unique_id": "IDT-OCR-P3_ValCustoms"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "4",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Briefly explain the applicability of GST on the application fee charged for entrance or the fee charged for issuance of eligibility certificate for admission or for issuance of migration certificate by educational institutions. (RTP Nov'23)",
+          "answer": "Educational services supplied by educational institutions to its students are exempt from GST vide Exemption Notification No. 12/2017 CT (R) dated 28.06.2017. As per said notification, services provided\n\na) by an educational institution to its students, faculty and staff;\n\nb) by an educational institution by way of conduct of entrance examination against consideration in the form of entrance fee are exempt from GST.\n\nTherefore, it can be seen that all services supplied by an 'educational institution' to its students are exempt from GST. Further, consideration charged by the educational institutes by way of entrance fee for conduct of entrance examination is also exempt.\n\nIt has been clarified by CBIC vide Circular No. 177/09/2022 GST dated 03.08.2022 that the exemption is wide enough to cover the amount or fee charged for admission or entrance, or amount charged for application fee for entrance, or the fee charged from prospective students for issuance of eligibility certificate to them in the process of their entrance/admission to the educational institution. Services supplied by an educational institution by way of issuance of migration certificate to the leaving or ex-students are also covered by the exemption.\n\nIn view of the same, GST is not payable on the application fee charged for entrance or the fee charged for issuance of eligibility certificate for admission or for issuance of migration certificate by educational institutions.",
+          "chapter_number": "4",
+          "chapter_name": "EXEMPTION OF GST"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Mr. Goldy, a Chartered Accountant, being a partner in GST registered firm orders a gaming software for his son Mr. Tony from a company located in USA. He makes the payment for the same from his personal bank account. Examine whether the transaction will be liable to GST. If yes, in whose hands the tax liability will arise? (MTP 5 Marks April'24, SM,MP[2])",
+          "answer": "The supply of gaming software is in the nature of OIDAR service. The transaction is for personal consumption of Mr. Goldy and the payment has also been made from the personal bank account of Mr. Goldy and not from the bank account of his GST registered firm. Therefore, being an unregistered person receiving OIDAR service in taxable territory, Mr. Goldy is a non-taxable online recipient. Services received from a provider of service located in a non- taxable territory by an individual in relation to any purpose other than commerce, industry or any other business or profession is exempt from IGST. However, such exemption is not available in case of OIDAR services. Therefore, being an OIDAR service provided by a supplier located outside India and received by a non-taxable online recipient, the same is liable to GST. Tax on service supplied by any person located in a non-taxable territory to any person other than non-taxable online recipient is payable by the recipient of such service under reverse charge. Therefore, tax on OIDAR services provided by the company located in USA to Mr Goldy, a nontaxable online recipient, will be payable by such company under forward charge.",
+          "chapter_number": "14",
+          "chapter_name": "IMPORT \\& EXPORT UNDER GST"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Rock & Rock India Ltd. imported a consignment from U.S.A (by sea). The value of consignment was ₹7,50,000 and total duty payable was ₹1,50,000.\n\nCompany filed bill of entry for home consumption but before inspection and clearance for home consumption it found that the goods were damaged.\n\nOn filing a representation to the Customs Department, the proper officer refused the claim for abatement because goods were already unloaded. The proper officer is in agreement with the claim that the value of goods has come down to only ₹1,50,000.\n\nExamine the issue with reference to the relevant statutory provisions and calculate the amount of total duty payable:\n\nWould your answer be different in the above case if the goods get deteriorated after unloading and examination but before clearance for home consumption, and value comes down to ₹7,00,000?",
+          "answer": "(i) Damage after unloading\nThe abatement of duty is allowed under section 22(b) where it is shown to the satisfaction of the Assistant/Deputy Commissioner of Customs that, inter alia, any imported goods, other than warehoused goods, had been damaged at any time after the unloading thereof in India but before their examination, on account of any accident not due to any wilful act, negligence or default of the importer.\n\nThus, in view of the above-mentioned provisions, the stand taken by the proper officer of refusing the claim for abatement is not valid in law.\n\nThe duty to be charged on the damaged goods shall be reduced in proportion to the reduction in the value of goods on account of damage.\n\nThus, in the given case, the amount of total\n= [₹1,50,000/₹7,50,000] × ₹1,50,000 = ₹30,000\n\n(ii) Deterioration after unloading\nThe abatement of duty is allowed in case of deterioration only if such deterioration occurs before or during the unloading of goods. Since in this case, imported goods have deteriorated before clearance for home consumption but after unloading, abatement of duty will not be allowed and full duty will have to be paid.",
+          "chapter_number": "25",
+          "chapter_name": "LEVY OF EXEMPTIONS UNDER CUSTOMS DUTY",
+          "unique_id": "IDT-OCR-P3_LevyExempt"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "17",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "8. Explain the relevant dates as provided in section 26A(2) of the Customs Act, 1962 for purpose of refund of duty under specified circumstances, namely:\n\n(i) goods exported out of India\n\n(ii) relinquishment of title to goods\n\n(iii) goods destroyed or rendered valueless.",
+          "answer": "The relevant dates provided under Explanation to section 26A(2) of the Customs Act, 1962 for purpose of refund of duty under specified circumstances are as follows:-\n\n| Case                                         | Relevant date                                                                                          |\n|----------------------------------------------|--------------------------------------------------------------------------------------------------------|\n| (i) Goods exported out of India              | Date on which the proper officer makes an order permitting clearance and loading of goods for exportation |\n| (ii) Relinquishment of title to the goods    | Date of such relinquishment                                                                             |\n| (iii) Goods being destroyed or rendered valueless | Date of such destruction or rendering of goods commercially valueless",
+          "chapter_number": "31",
+          "chapter_name": "REFUND",
+          "unique_id": "IDT-OCR-P3_RefundsCustoms"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Shubi Enterprises is entitled for exemption from tax under GST law. However, it collected tax from its buyers worth Rs. 50,000 in the month of August. It has not deposited the said amount collected as GST with the Government. You are required to brief to Shubi Enterprises the consequences of collecting tax, but not depositing the same with Government as provided under section 76 of the CGST Act, 2017. (MTP 5 Marks Apr'21, Jul'25)",
+          "answer": "It is mandatory to pay amount, collected from other person representing tax under GST law, to the Government. Every person who has collected from any other person any amount as representing the tax under GST law, and has not paid the said amount to the Government, shall forthwith pay the said amount to the Government, irrespective of whether the supplies in respect of which such amount was collected are taxable or not. For any such amount not so paid, proper officer may issue show cause notice(SCN) for recovery of such amount and penalty equivalent to amount specified in notice.\n\nThe proper officer shall, after considering the representation, if any, made by the person on whom SCN is served, determine the amount due from such person and thereupon such person shall pay the amount so determined along with interest at the rate specified under section 50 of the CGST Act, 2017 from the date such amount was collected by him to the date such amount is paid by him to the Government.",
+          "chapter_number": "11",
+          "chapter_name": "PAYMENT OF TAX",
+          "unique_id": "11-T-1"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "## Question 2 (SM, MTP 4 Marks Nov 21)\n\nKanchenjunga Pvt. Ltd. supplies taxable goods to Sutlej Pvt. Ltd. for Rs. 2,50,000 on 23rd June and issues the invoice on 25th June. Payment for the goods is made by Sutlej Pvt. Ltd. on 15th July.\n\nDetermine the time of supply of goods for the purpose of payment of tax.",
+          "answer": "In terms of section 12(2), the time of supply of goods is the earlier of, the date of issue of invoice/last date on which the invoice is required to be issued or date of receipt of payment. However, Notification No. 66/2017 CT dated 15.11.2017 specifies that a registered person (excluding composition supplier) has to pay GST on the outward supply of goods at the time of supply as specified in section 12(2)(a), i.e. date of issue of invoice or the last date on which invoice ought to have been issued in terms of section 31.\n\nAs per section 31(1), invoice for supply of goods should be issued before or at the time of removal of goods for supply to the recipient, where supply involves movement of goods. Therefore, time of supply of goods is 23rd June being the last date on which invoice ought to have been issued and not 25th June when the invoice is actually issued.",
+          "chapter_number": "5",
+          "chapter_name": "TIME OF SUPPLY",
+          "or_question": {
+            "question": "Kothari Ltd., Mumbai, holds 51\\% of shares of Wilson Inc., a USA based company. Wilson Inc. provides business auxiliary services to Kothari Ltd. From the following details, determine the time of supply of service provided by Wilson Inc:\n\n| Agreed consideration | US $1,00,000 |\n| :--- | :--- |\n| Date on which services are provided by Wilson Inc. | 16 th June |\n| Date on which invoice is issued by Wilson Inc. | 19 th August |\n| Date of debit in the books of account of Kothari Ltd. | 30 th September |\n| Date on which payment is made by Kothari Ltd. | 2 rd December |",
+            "answer": "## Answer 1\n\nSince Kothari Ltd. holds 51\\% shares of Wilson Inc., Kothari Ltd. and Wilson Inc. are 'associated enterprises' as per section 92A of the Income-tax Act, 1961. As per second proviso to section 13(3), in case of supply by associated enterprises, where the supplier of service is located outside India, the time of supply is the earlier of the following two dates:\n\n| Date of entry in the books of account of the recipient of supply [which is Kothari Ltd. in <br> the present case] | $30^{\\text {th }}$ September |\n| :--- | :---: |\n| OR | OR |\n| Date of payment [by Kothari Ltd. in the present case] | $23^{\\text {rd }}$ December |\n\nHence, Time of supply in the given case shall be $30^{\\text {th }}$ September."
+          }
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "21",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "## Question 16 (PYP 5 Marks May'25)\n\nMr. X, a registered person under GST, issued invoice without actual supply of goods for taxable value amounting to Rs. 20 crore. Central GST authority issued a show cause notice under section 74A by demanding following:\n\n## CGST & SGST 18% - 3.60 crore\n\nPenalty under section 74A amounting to $100 \\%$ of tax due\n\n- Rs. 3.60 crore Interest @ 18% per annum\n\nYou are required to answer the following:\n\n(i) Can the amount of tax be demanded in such cases?\n\n(ii) Is it a cognizable offence?\n\n(iii) Quantum of punishment if Mr. X has been convicted.\n\n(iv) Amount of penalty leviable on Mr. X, if any.\n\n(v) Amount of penalty leviable on the person who aids or abets the above offence.",
+          "answer": "(I) Since issuance of tax invoice without the underlying supply does not qualify as \"supply\" under GST, no tax liability would arise against Mr. X. Thus, tax is NOT required to be demanded from Mr. X.\n\n(II) In the given case, the offence is non-cognizable since the amount of tax evaded or ITC availed/utilised wrongly, or the refund claimed fraudulently, does not exceed Rs.500 lakh.\n\n(III) In cases where the amount of tax evaded or the amount of input tax credit wrongly availed or utilised or the amount of refund wrongly taken exceeds Rs. 200 lakh but does not exceed Rs. 500 lakh, with imprisonment for a term which may extend to 3 years and with fine.\n\nIn the given case, the amount involved is Rs. 3.6 crore (together under CGST and SGST). So, the quantum of punishment will be 3 years and fine.\n\n(IV) Penalty is higher of the following amounts: -\n\n(a) Rs.10,000 (under CGST/SGST) or\n\n(b) 100\\% of tax evaded or ITC availed of or passed on/distributed irregularly, or the refund claimed fraudulently.\n\nSo, in the given case, penalty would be Rs.3.60 crore (Rs.1.80 crore under CGST and Rs.1.80 crore under SGST)\n\n(V) The amount of penalty leviable on a person, who aids or abets the above offence would be Rs. 25,000 each under CGST and SGST.\n\nSo, in the given case, the total amount of penalty would be Rs. 50,000 (Rs. 25,000 under CGST + Rs. 25,000 under SGST).",
+          "chapter_number": "21",
+          "chapter_name": "OFFENCES \\& PENALTIES AND ETHICAL ASPECTS UNDER GST",
+          "unique_id": "21-T-16"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "M/s. Om Sai Traders, a registered person, received an order passed by the Adjudicating Authority on 23rd January 2026. The said order was duly communicated to M/s. Om Sai Traders on the very same day. Aggrieved by the order, M/s. Om Sai Traders filed an appeal with the Appellate Authority (AA) on 16th February 2026. During the appeal proceedings, a competent Court issued an order staying the proceedings before the Appellate Authority for a period commencing from 1st May 2026 to 30th June 2026. Based on the above information, determine the last date by which the Appellate Authority can pass its order. (MTP 5 Marks Aug'25)",
+          "answer": "The Appellate Authority (AA) must ordinarily decide an appeal within one year from the date it was filed. However, if the proceedings are stayed by a court or tribunal, this stay period is excluded from the calculation. In the given case, the order was communicated on January 23, 2026, and the appeal was filed on February 16, 2026. The stay order was in effect for 61 days i.e. May 1, 2026 to June 30, 2026. Therefore, the ordinary one-year period from February 16, 2026, which would have ended on February 16, 2027, will be extended by 61 days i.e. April 18, 2027, is the last date for the AA to pass its order.",
+          "chapter_number": "22",
+          "chapter_name": "APPEALS \\& REVISIONS"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Decide with reason whether the registration is required under CGST Act, 2017 in the following independent cases:\n\n(i) A casual taxable person (CTP) has provided inter-State supply of notified products being textiles hand printing amounting to Rs. 19.25 lakh during the month of January. Those products were made by craftsmen by both hand and machines equally. CTP had obtained PAN and generated e-way bill for supply.\n\n(ii) Mr. Chandu of Delhi doing trading business across India and his intra-state turnover details are as below,\n\n(1) Taxable supplies made from Delhi - Rs. 18 lakh.\n\n(2) Exempt supplies made from Andhra Pradesh - Rs. 10 lakh.\n\n(3) Both taxable and exempt supplies made from Tamilnadu - $Rs. 5,00,000$ and $Rs. 6,00,000$ respectively. It may be noted that Mr. Chandu makes only intra-State supplies across India.\n\n(MTP 5 Marks Sep'24,MP[3])",
+          "answer": "(i) A casual taxable person (CTP) is liable to be registered compulsorily under GST irrespective of the threshold limit.\n\nHowever, CTPs making inter-State taxable supplies of notified products, when made by the craftsmen predominantly by hand even though some machinery may also be used in the process, have been exempted from obtaining registration if their aggregate turnover does not exceed Rs. 20 lakh [Rs. 10 lakh for specified special category States].\n\nSince, in the given case, the notified products were made by craftsmen by both hand and machines equally, they are not eligible for exemption and are required to obtain registration mandatorily.\n\n(ii) For a supplier exclusively engaged in intra-State supply of goods, the threshold limit of turnover to obtain registration in the States of Delhi, Andhra Pradesh and Tamil Nadu is Rs. 40 lakh. Aggregate turnover includes value of all taxable and exempt supplies under same PAN.\n\nThus, aggregate turnover of Mr. Chandu doing trading business across India\n\n$=$ Rs. (18 lakh +10 lakh + 5 lakh + 6 lakh) = Rs. 39 lakh.\n\nTherefore, Mr. Chandu is not liable for registration as his turnover does not exceed Rs. 40 lakh.",
+          "chapter_number": "8",
+          "chapter_name": "REGISTRATION"
+        }
+      ]
+    },
+    {
+      "q_main": 6,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "19",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Mr. Arihant is engaged in supply of taxable goods and is registered in the State of Orissa. A demand notice under GST law of Rs. 50 lakh is served on him on 5th April. On 10th April, despite having knowledge of said notice, Mr. Arihant transferred his ancestral property located in Punjab in the name of his wife Soma for a consideration of Rs. 2 lakh without taking any permission from the authorities under GST. The value for the purpose of stamp duty valuation was Rs. 80 lakh. Subsequently, he filed a reply to said demand notice on 15th April stating that he would not be able to pay the amount of tax demanded in the notice due to his distressed financial situation. Determine the validity of the act of transferring of property by Mr. Arihant to his wife Soma, under the provisions of the GST law. (RTP May'22, MTP 5 Marks Apr'23)",
+          "answer": "Section 81 of the CGST Act, 2017 stipulates that where a person, after any amount has become due from him, creates a charge on or parts with the property belonging to him or in his possession by way of sale, mortgage, exchange, or any other mode of transfer whatsoever of any of his properties in favour of any other person with the intention of defrauding the Government revenue, such charge or transfer shall be void as against any claim in respect of any tax or any other sum payable by the said person.\n\nHowever, such charge or transfer shall not be void if it is made for adequate consideration, in good faith and without notice of the pendency of such proceedings under this Act or without notice of such tax or other sum payable by the said person, or with the previous permission of the proper officer.\n\nIn view of the above provisions, in the given case, transfer of property by Mr. Arihant to his wife Soma is void and the property will still be considered in the hands of Mr. Arihant under GST law for the purpose of recovery of dues under GST from him.",
+          "chapter_number": "19",
+          "chapter_name": "Demands & Recovery"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Section 158(1) lays down that the information obtained by a public servant from the record of any proceeding under the CGST Act is confidential and cannot be disclosed. Is there any exception to this rule? Discuss in brief. (MTP 4 Marks Sep'24, Aug'25,MP[3])",
+          "answer": "Yes, the confidential information can be disclosed by the public servant for certain specific purposes in terms of section 158(3) of the CGST Act, 2017. Such specific purposes are given in brief hereunder:\n\ni) For prosecution\n\nii) For carrying out the objects of the CGST Act\n\niii) For service of notice or recovery of demand\n\niv) For furnishing information to Court in a proceeding where Government is a party\n\nv) For audit of tax receipts or refunds\n\nvi) For inquiry into the conduct of a GST officer\n\nvii) For enabling levy, realization of any tax or duty\n\nviii) In lawful exercise of powers\n\nix) For enquiry into a charge of misconduct by any professional\n\nx) For data entry on automated system\n\nxi) For fulfilling the requirement under any other law and in public interest.",
+          "chapter_number": "24",
+          "chapter_name": "MISCELLANEOUS PROVISIONS"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Two exporters namely, Red Sky Pvt. Ltd. and Black Night Pvt. Ltd. have achieved the status of Status Holders (One Star Export House) in the current financial year. Both the exporters have been regularly exporting goods (other than Gems and Jewellery) every year. What would have been the minimum export performance of the two exporters to achieve such status? Both the exporters want to establish export warehouses in accordance with the applicable guidelines. What should be their export turnover to enable them to establish export warehouses?",
+          "answer": "In order to be categorized as One Star Export House, an exporter needs to achieve the export performance of 3 million USD [FOB/ FOR (as converted)] during the current and all the three preceding financial years. Therefore, both Red Sky Pvt. Ltd. and Black Night Pvt. Ltd. would have needed to achieve at least 3 million USD [FOB/ FOR (as converted)] during the current and all the three preceding financial years to qualify as One Star Export House. \n\nFurthermore, to establish export warehouses, both exporters need to achieve the status of Two Star Export House and above. The threshold for Two Star Export House is 15 million USD. Hence, to establish export warehouses, their export turnover should be at least 15 million USD.",
+          "chapter_number": "32",
+          "chapter_name": "FOREIGN TRADE POLICY",
+          "unique_id": "IDT-OCR-P3_FTP"
+        }
+      ]
+    }
+  ]
+}

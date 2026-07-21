@@ -1,0 +1,19 @@
+{
+  "SectionB__Q2a": {
+    "delete_tick_indices": [3, 4, 5]
+  },
+  "SectionB__Q2b": {
+    "delete_tick_indices": [0],
+    "marks_page": 7
+  },
+  "SectionB__Q5b": {
+    "move_tick_indices": [
+      {"index": 1, "direction": "down"}
+    ]
+  },
+  "SectionB__Q1a": {
+    "move_tick_indices": [
+      {"index": 0, "direction": "down3"}
+    ]
+  }
+}

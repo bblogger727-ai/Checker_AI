@@ -8,6 +8,7 @@ WORKDIR /app
 # Install system dependencies for PDF processing
 RUN apt-get update && apt-get install -y \
     poppler-utils \
+    tesseract-ocr \
     libpq-dev \
     gcc \
     && rm -rf /var/lib/apt/lists/*

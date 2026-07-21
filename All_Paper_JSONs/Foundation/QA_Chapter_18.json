@@ -1,0 +1,392 @@
+[
+  {
+    "chapter_name": "Chapter 18: Index Numbers",
+    "chapter_number": "18",
+    "q_num": 1,
+    "question": "From the following chain base index numbers based on 2015, find out new chain base index number for the year 2022 by shifting the base year 2019. (PYP May'25, MTP Aug'25[1])\n\\begin{tabular}{|l|r|r|r|r|r|r|r|r|}\n\\hline Years: & 2015 & 2016 & 2017 & 2018 & 2019 & 2020 & 2021 & 2022 \\\\\n\\hline Index No: (Base 2015) & 100 & 105 & 95 & 85 & 120 & 110 & 130 & 150 \\\\\n\\hline\n\\end{tabular}",
+    "options": {
+      "a": "125",
+      "b": "180",
+      "c": "100",
+      "d": "150"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 18: Index Numbers",
+    "chapter_number": "18",
+    "q_num": 2,
+    "question": "The value index is equal to:(MP [9])",
+    "options": {
+      "a": "The total sum of the values of a given year multiplied by the sum of the values of the base year.",
+      "b": "The total sum of the values of a given year Divided by the sum of the values of the base year.",
+      "c": "The total sum of the values of a given year plus by the sum of the values of the base year.",
+      "d": "None of these."
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 18: Index Numbers",
+    "chapter_number": "18",
+    "q_num": 3,
+    "question": "Index numbers are not helpful in (MTP Mar22;Aug'25[2]) 45",
+    "options": {
+      "a": "Framining Economic Policies",
+      "b": "Revealing Trend",
+      "c": "Forecasting",
+      "d": "Identifying errors"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 18: Index Numbers",
+    "chapter_number": "18",
+    "q_num": 4,
+    "question": "Which index measures the change from month to month in the cost of a representative basket of goods and services of the type bought by a typical household? (MTP Apr'23)",
+    "options": {
+      "a": "Retail Price Index",
+      "b": "Laspeyre's Index",
+      "c": "Fisher's index",
+      "d": "Paasche's Index"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 18: Index Numbers",
+    "chapter_number": "18",
+    "q_num": 5,
+    "question": "Test whether the index number due to walsh given by: $I=\\frac{\\sum P_{1} \\sqrt{Q_{0} Q_{1}}}{\\sum P_{0} \\sqrt{Q_{0} Q_{1}}} \\times 100$ Satisfies is: -",
+    "options": {
+      "a": "Time reversal Test.",
+      "b": "Factor reversal Test.",
+      "c": "Circular Test.",
+      "d": "None of these."
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 18: Index Numbers",
+    "chapter_number": "18",
+    "q_num": 6,
+    "question": "With the base year 1960 the C. L. I. in 1972 stood at 250. $x$ was getting a monthly Salary of \u20b9 500 in 1960 and $\u20b9 750$ in 1972. In 1972 to maintain his standard of living in $1960 \\times$ has to receive as extra allowances of",
+    "options": {
+      "a": "\u20b9 $600 /-$",
+      "b": "\u20b9 $500 /-$",
+      "c": "$\u20b9 300 /-$",
+      "d": "none of these"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 18: Index Numbers",
+    "chapter_number": "18",
+    "q_num": 7,
+    "question": "$\\\\_\\\\_\\$ is an extent of time reversal test (MTP Oct'18, May'24, MP [3])",
+    "options": {
+      "a": "Factor reversal test",
+      "b": "Circular Test",
+      "c": "Both",
+      "d": "None of them"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 18: Index Numbers",
+    "chapter_number": "18",
+    "q_num": 8,
+    "question": "The consumer price index in 1990 increases by 80- per cent as compared to the base 1980. A person in 1980 getting \u20b9 $\\mathbf{6 0 , 0 0 0}$ per annum should now get (MTP May'24, MP [3])",
+    "options": {
+      "a": "\u20b9 $1,08,000$ per annum",
+      "b": "$\u20b9 82,000$ per annum",
+      "c": "\u20b9 64,000 per annum",
+      "d": "None of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 18: Index Numbers",
+    "chapter_number": "18",
+    "q_num": 9,
+    "question": "The construction of chain index is:",
+    "options": {
+      "a": "$103,100.94,107,118.72$",
+      "b": "$103,108.15,121.3,130.82$",
+      "c": "$107,100.25,104,118.72$",
+      "d": "None of these"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 18: Index Numbers",
+    "chapter_number": "18",
+    "q_num": 10,
+    "question": "From the following data The price index number for the year 1934 is:",
+    "options": {
+      "a": "140",
+      "b": "145",
+      "c": "147",
+      "d": "None of these."
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 18: Index Numbers",
+    "chapter_number": "18",
+    "q_num": 11,
+    "question": "Factor Reversal Test According to Fisher is $P_{01} \\times Q_{01}=$",
+    "options": {
+      "a": "$\\frac{\\sum \\mathrm{P}_{0} \\mathrm{q}_{0}}{\\sum \\mathrm{P}_{\\mathrm{n}} \\mathrm{q}_{\\mathrm{n}}}$",
+      "b": "$\\frac{\\sum P_{n} q_{n}}{\\sum P_{0} q_{0}}$",
+      "c": "$\\frac{\\sum \\mathrm{P}_{o} \\mathrm{q}_{\\mathrm{n}}}{\\sum \\mathrm{P}_{\\mathrm{n}} \\mathrm{q}_{\\mathrm{n}}}$",
+      "d": "None Of These"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 18: Index Numbers",
+    "chapter_number": "18",
+    "q_num": 12,
+    "question": "The prices of a commodity in the year 1975 and 1980 were 25 and 30 respectively taking 1980 as base year the price relative is: (SM, MTP Mar'21, Aug'24, MP [6])",
+    "options": {
+      "a": "109.78",
+      "b": "110.25",
+      "c": "113.25",
+      "d": "None of these."
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 18: Index Numbers",
+    "chapter_number": "18",
+    "q_num": 13,
+    "question": "Then index numbers from G. M. Method is:",
+    "options": {
+      "a": "181.66",
+      "b": "185.25",
+      "c": "181.75",
+      "d": "None of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 18: Index Numbers",
+    "chapter_number": "18",
+    "q_num": 14,
+    "question": "Which sampling technique can be used for the construction of Index numbers? (PYP Sep'25)",
+    "options": {
+      "a": "Systematic sampling",
+      "b": "Quota sampling",
+      "c": "Cluster sampling",
+      "d": "Random sampling"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 18: Index Numbers",
+    "chapter_number": "18",
+    "q_num": 15,
+    "question": "The Factor Reversal Test is as represented symbolically is :",
+    "options": {
+      "a": "$\\mathrm{P}_{01} \\times \\mathrm{Q}_{01}=\\frac{\\sum \\mathrm{P}_{1} \\mathrm{Q}_{1}}{\\sum \\mathrm{P}_{0} \\mathrm{Q}_{0}}$",
+      "b": "$I_{01} \\times I_{10}$",
+      "c": "$\\frac{\\sum \\mathrm{P}_{0} \\mathrm{Q}_{0}}{\\sum \\mathrm{P}_{1} \\mathrm{Q}_{1}}$",
+      "d": "$\\sqrt{\\frac{\\sum \\mathrm{P}_{1} \\mathrm{Q}_{1}}{\\sum \\mathrm{P}_{0} \\mathrm{Q}_{0}} \\times \\frac{\\sum \\mathrm{P}_{0} \\mathrm{Q}_{1}}{\\sum \\mathrm{Q}_{10} \\mathrm{P}_{0}}}$"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 18: Index Numbers",
+    "chapter_number": "18",
+    "q_num": 16,
+    "question": "The price index number using simple G.M. of the $n$ relatives is given by:",
+    "options": {
+      "a": "$\\log I_{\\text {on }}=2-\\frac{1}{n} \\sum \\log \\frac{P_{n}}{P_{0}}$",
+      "b": "$\\log I_{\\text {on }}=2+\\frac{1}{n} \\sum \\log \\frac{P_{n}}{P_{0}}$",
+      "c": "$\\log \\mathrm{I}_{\\text {on }}=\\frac{1}{2 \\mathrm{n}} \\sum \\log \\frac{\\mathrm{P}_{\\mathrm{n}}}{\\mathrm{P}_{0}}$",
+      "d": "None Of These"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 18: Index Numbers",
+    "chapter_number": "18",
+    "q_num": 17,
+    "question": "Factor Reversal test is satisfied by (MTP Oct'20) (SM)",
+    "options": {
+      "a": "Fisher's Ideal Index Number",
+      "b": "Laspeyre's Index Number",
+      "c": "Paasche's Index Number",
+      "d": "All of the above"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 18: Index Numbers",
+    "chapter_number": "18",
+    "q_num": 18,
+    "question": "What is the formula for calculating the detailed value? (MTP May'25)",
+    "options": {
+      "a": "Current value/Price index of current year",
+      "b": "(Current value/Price index of current year) $\times 100$",
+      "c": "Price index of current year / Current value",
+      "d": "(Current value/Price index of last year) $\times 100$"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 18: Index Numbers",
+    "chapter_number": "18",
+    "q_num": 19,
+    "question": "Consumer price index is commonly known as (MTP Apr'24, May'25, MP [1])",
+    "options": {
+      "a": "Chain Based index",
+      "b": "Ideal index",
+      "c": "Wholesale price index",
+      "d": "Cost of living index."
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 18: Index Numbers",
+    "chapter_number": "18",
+    "q_num": 20,
+    "question": "If the prices of all commodities in the base year are twice the values of the respective commodities in the current year, then the Fisher's ideal index number is equal to: (MTP July 24, MP [5])",
+    "options": {
+      "a": "200",
+      "b": "50",
+      "c": "400",
+      "d": "25"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 18: Index Numbers",
+    "chapter_number": "18",
+    "q_num": 21,
+    "question": "If the price index for the year, say 1960 be 110.3 and the price index for the year, say 1950 be 98.4 , then the purchasing power of money (Rupees) of 1950 in 1960 is",
+    "options": {
+      "a": "\u20b9 1.12",
+      "b": "\u20b9 1.25",
+      "c": "\u20b9 1.37",
+      "d": "None of these."
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 18: Index Numbers",
+    "chapter_number": "18",
+    "q_num": 22,
+    "question": "Circular test, an index constructed for the year ' $x$ ' on the base year ' $y$ ' and for the year ' $y$ ' on the base year ' $z$ ' should yield the same result as an index constructed for ' $x$ ' on base year ' $z$ ' i.e. $l_{01} \\times l_{12} \\times l_{20}$ equal is:",
+    "options": {
+      "a": "3",
+      "b": "2",
+      "c": "1",
+      "d": "None of these"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 18: Index Numbers",
+    "chapter_number": "18",
+    "q_num": 23,
+    "question": "During a certain period the cost of living index number goes up from 110 to 200 and the salary of a worker is also raised from \u20b9 330 to \u20b9 500 . The worker does not get really gain. Then the real wages decreased by:",
+    "options": {
+      "a": "\u20b9 45.45",
+      "b": "\u20b9 43.25",
+      "c": "\u20b9 100",
+      "d": "None of these."
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 18: Index Numbers",
+    "chapter_number": "18",
+    "q_num": 24,
+    "question": "In 1996 the average price of a commodity was $20 \\%$ more than in 1995 but $20 \\%$ less than in 1994; and more over it was $50 \\%$ more than in 1997 to price relatives using 1995 as base (1995 price relative 100). Reduce the data is: (SM, MTP Dec'23)",
+    "options": {
+      "a": "$150,100,120,80$ for (1994-97)",
+      "b": "$135,100,125,87$ for (1994-97)",
+      "c": "$140,100,120,80$ for (1994-97)",
+      "d": "None of these."
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 18: Index Numbers",
+    "chapter_number": "18",
+    "q_num": 25,
+    "question": "Fisher's price index number equal is:",
+    "options": {
+      "a": "G.M. of Kelly's price index number and Paasche's price index number.",
+      "b": "G.M. of Laspeyre's and Paasche's Price index number.",
+      "c": "G.M. of Bowley's price index number and Paasche's price index number.",
+      "d": "None of these."
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 18: Index Numbers",
+    "chapter_number": "18",
+    "q_num": 26,
+    "question": "The price of a commodity increases from \u20b9 5 per unit in 1990 to \u20b9 7.50 per unit in 1995 and the quantity consumed decreases from 120 units in 1990 to 90 units in 1995. The price and quantity in 1995 are 150\\% and $75 \\%$ respectively of the corresponding price and quantity in 1990. Therefore, the product of the price ratio and quantity ratio is:",
+    "options": {
+      "a": "1.8",
+      "b": "1.125",
+      "c": "1.75",
+      "d": "None of these."
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 18: Index Numbers",
+    "chapter_number": "18",
+    "q_num": 27,
+    "question": "If the prices of all commodities in a place have decreased $35 \\%$ over the base period prices, then the index number of prices of that place is now",
+    "options": {
+      "a": "35",
+      "b": "135",
+      "c": "65",
+      "d": "None Of These"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 18: Index Numbers",
+    "chapter_number": "18",
+    "q_num": 28,
+    "question": "The prices and quantities of 3 commodities in base and current years are as follows:\n\n\\begin{tabular}{|c|c|c|c|}\n\\hline $\\mathrm{P}_{0}$ & $\\mathrm{P}_{1}$ & $\\mathrm{Q}_{0}$ & $\\mathrm{Q}_{1}$ \\\\\n\\hline 12 & 14 & 10 & 20 \\\\\n\\hline 10 & 8 & 20 & 30 \\\\\n\\hline 8 & 10 & 30 & 10 \\\\\n\\hline\n\\end{tabular}\n\nThe Laspyre's Price Index Number is: (MTP Nov'22, MP [10])",
+    "options": {
+      "a": "118.13",
+      "b": "107.14",
+      "c": "120.10",
+      "d": "None of these ${ }^{\\text {sh | } 8237317945}$"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 18: Index Numbers",
+    "chapter_number": "18",
+    "q_num": 29,
+    "question": "The Circular Test is known as: (MTP Nov'22, MP [2])",
+    "options": {
+      "a": "$\\mathrm{P}_{01} \\times \\mathrm{P}_{12} \\times \\mathrm{P}_{20}=1$",
+      "b": "$\\mathrm{P}_{12} \\times \\mathrm{P}_{01} \\times \\mathrm{P}_{20}=1$",
+      "c": "$\\mathrm{P}_{20} \\times \\mathrm{P}_{12} \\times \\mathrm{P}_{01}=1$",
+      "d": "$\\mathrm{P}_{02} \\times \\mathrm{P}_{21} \\times \\mathrm{P}_{12}=1$"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 18: Index Numbers",
+    "chapter_number": "18",
+    "q_num": 30,
+    "question": "The value Index is expressed in terms of",
+    "options": {
+      "a": "$\\frac{\\sum \\mathrm{P}_{1} \\mathrm{Q}_{1}}{\\sum \\mathrm{P}_{0} \\mathrm{Q}_{0}} \\times 100$",
+      "b": "$\\frac{\\sum \\mathrm{P}_{1} \\mathrm{Q}_{1}}{\\sum \\mathrm{P}_{0} \\mathrm{Q}_{0}}$",
+      "c": "$\\frac{\\sum \\mathrm{P}_{0} \\mathrm{Q}_{0}}{\\sum \\mathrm{P}_{1} \\mathrm{Q}_{1}} \\times 100$",
+      "d": "$\\frac{\\sum \\mathrm{P}_{\\mathrm{o}} \\mathrm{Q}_{1} \\times \\sum \\mathrm{P}_{1} \\mathrm{Q}_{1}}{\\sum \\mathrm{P}_{0} \\mathrm{Q}_{0} \\times \\sum \\mathrm{P}_{1} \\mathrm{Q}_{0}}$"
+    },
+    "answer": "a"
+  }
+]

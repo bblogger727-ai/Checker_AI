@@ -8,6 +8,7 @@ import {
     generateReport,
     sendReport
 } from '../services/mentorApi';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import './StudentProfile.css';
 
 function StudentProfile() {
@@ -226,6 +227,38 @@ function StudentProfile() {
                         </div>
                     </div>
                 </div>
+
+                {/* Performance Graph */}
+                {student.exams?.length > 1 && (
+                    <div className="graph-card">
+                        <h2>📈 Progress Chart</h2>
+                        <div className="graph-container">
+                            <ResponsiveContainer width="100%" height={300}>
+                                <LineChart data={[...student.exams].reverse()}>
+                                    <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
+                                    <XAxis
+                                        dataKey="exam_date"
+                                        tickFormatter={(date) => new Date(date).toLocaleDateString(undefined, { month: 'short', day: 'numeric' })}
+                                        stroke="#94a3b8"
+                                    />
+                                    <YAxis domain={[0, 100]} stroke="#94a3b8" />
+                                    <Tooltip
+                                        contentStyle={{ backgroundColor: '#1e293b', border: '1px solid #334155', color: '#fff' }}
+                                        labelFormatter={(date) => new Date(date).toLocaleDateString()}
+                                    />
+                                    <Line
+                                        type="monotone"
+                                        dataKey="percentage"
+                                        stroke="#22d3ee"
+                                        strokeWidth={3}
+                                        dot={{ fill: '#22d3ee', strokeWidth: 2 }}
+                                        activeDot={{ r: 8 }}
+                                    />
+                                </LineChart>
+                            </ResponsiveContainer>
+                        </div>
+                    </div>
+                )}
 
                 {/* Exams Table */}
                 <div className="exams-card">

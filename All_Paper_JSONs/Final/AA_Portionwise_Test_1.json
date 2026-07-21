@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "subject_code": "AA",
+    "subject_name": "Advanced Auditing",
+    "paper_num": "Portionwise_1",
+    "total_marks_printed": 50,
+    "total_marks_in_paper": 50,
+    "section_a_marks": 0,
+    "section_b_marks": 50,
+    "two_section_format": false,
+    "note": "Portionwise Test: Attempt all 5 questions. Each question carries 10 marks (6 + 4 split).",
+    "blacklisted_from": [],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)"
+    ]
+  },
+  "section_a": [],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "3",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "JIN Ltd., at its annual general meeting, appointed Mr. J, Mr. I and Mr. N as joint auditors to conduct audit for the financial year 2022-23. For the valuation of gratuity scheme of the company, Mr. J, Mr. I and Mr. N wanted to refer their own known Actuaries. Due to difference of opinion, all the joint auditors consulted their respective Actuaries. Subsequently, major difference was found in the actuarial reports. However, Mr. J agreed to Mr. I's actuary report, though, Mr. N did not. Mr. J contends that Mr. I's actuary report shall be considered in audit report due to majority of votes. Now, Mr. N is in dilemma. Explain the responsibility of auditors, in case, report made by Mr. I's actuary, later on, was found faulty. (MTP 5 Marks, Apr'23, Mar'18, RTP Nov'18, SM)",
+          "answer": "Using the work of an Auditor's Expert: As per SA 620 \"Using the Work of an Auditor's Expert\", the expertise of an expert may be required in the actuarial calculation of liabilities associated with insurance contracts or employee benefit plans etc., however, the auditor has sole responsibility for the audit opinion expressed, and that responsibility is not reduced by the auditor's use of the work of an auditor's expert.\n\nThe auditor shall evaluate the adequacy of the auditor's expert's work for the auditor's purposes, including the relevance and reasonableness of that expert's findings or conclusions, and their consistency with other audit evidence as per SA 500.\n\nFurther, in view of SA 620, if the expert's work involves use of significant assumptions and methods, then the relevance and reasonableness of those assumptions and methods must be ensured by the auditor and if the expert's work involves the use of source data that is significant to that expert's work, the relevance, completeness, and accuracy of that source data in the circumstances must be verified by the auditor.\n\nIn the instant case, Mr. J, Mr. I and Mr. N, jointly appointed as auditors of JIN Ltd., referred their own known Actuaries for valuation of gratuity scheme. Actuaries are an auditor's expert as per SA 620. Mr. Y's referred actuary has provided the gratuity valuation report, which later on was found faulty. Further, Mr. N is not in agreement with this report, therefore, he submitted a separate audit report specifically for such gratuity valuation.\n\nIn such situation, it was duty of Mr. J, Mr. I and Mr. N, before using the gratuity valuation report of Actuary, to ensure the relevance and reasonableness of assumptions and methods used. They were also required to examine the relevance, completeness and accuracy of source data used for such report before expressing their opinion. Mr. J, and Mr. I will be held responsible for gross negligence and using such faulty report without examining the adequacy of expert actuary's work whereas $\\mathrm{Mr} . \\mathrm{N}$ will not be held liable for the same due to separate opinion expressed by him.",
+          "chapter_number": "3.5",
+          "chapter_name": "SA 620- USING THE WORK OF AN AUDITOR'S EXPERT",
+          "unique_id": "3.5-T-3"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "M/s Krishna Associates, Chartered Accountants, while conducting the audit of Love Kush Ltd want to conduct an inquiry of management and those charged with governance as to whether any subsequent events have occurred which might affect the financial statements. Guide M/s Krishna Associates with the matters where specific inquiries may be conducted to evaluate subsequent events. (MTP 4 Marks Apr'22)",
+          "answer": "Specific Inquiries to Evaluate Subsequent Events: As per SA 560, \"Subsequent Events\", in inquiring of management and, where appropriate, those charged with governance, as to whether any subsequent events have occurred that might affect the financial statements, the auditor may inquire as to the current status of items that were accounted for on the basis of preliminary or inconclusive data and may make specific inquiries about the following matters:\n\n(i) Whether new commitments, borrowings or guarantees have been entered into.\n\n(ii) Whether sales or acquisitions of assets have occurred or are planned.\n\n(iii) Whether there have been increases in capital or issuance of debt instruments, such as the issue of new shares or debentures, or an agreement to merge or liquidate has been made or is planned.\n\n(iv) Whether any assets have been appropriated by government or destroyed, for example, by fire or flood.\n\n(v) Whether there have been any developments regarding contingencies.\n\n(vi) Whether any unusual accounting adjustments have been made or are contemplated.\n\n(vii) Whether any events have occurred or are likely to occur that will bring into question the appropriateness of accounting policies used in the financial statements, as would be the case, for example, if such events call into question the validity of the going concern assumption.\n\n(viii) Whether any events have occurred that are relevant to the measurement of estimates or provisions made in the financial statements.\n\n(ix) Whether any events have occurred that are relevant to the recoverability of assets.",
+          "chapter_number": "6.1",
+          "chapter_name": "SA 560- SUBSEQUENT EVENTS",
+          "unique_id": "6.1-T-1"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "5",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "During the audit of the financial statements of Looks Limited for the year ended March 31, 20X2, CA Suyash, the statutory auditor requested external confirmation for certain trade receivables and trade payables as part of audit procedures in accordance with SA 505:\n\n(i) CA Suyash sent a confirmation request to a debtor for balance of Rs. $15,50,000$ which was outstanding for more than 6 months, insisting him to respond directly to the auditor, confirming whether they agree or disagree with the balance stated.\n\n(ii) He also sent a confirmation request to a creditor with an outstanding balance of Rs. $13,25,000$ requesting a response only if there was a disagreement with the stated amount.\n\nCA Suyash received responses from the aforementioned debtor and creditor in following manner:\n\n- The debtor confirmed that, as per their records, they owed Rs. $14,90,000$ to Looks Limited instead of Rs. $\textbf{1 5 , 5 0 , 0 0 0}$ as per the company's books.\n\n- The creditor did not respond to the confirmation request.\n\nIdentify and explain the type of confirmation request sent by the auditor to the debtor and creditor. Also, discuss the course of action the auditor should take for the discrepancy in the confirmation received from the debtor and non-receipt of confirmation from the creditor. (RTP May '25)",
+          "answer": "Positive confirmation request: A request that the confirming party respond directly to the auditor indicating whether the confirming party agrees or disagrees with the information in the request or providing the requested information.\n\nException - A response that indicates a difference between information requested to be confirmed, or contained in the entity's records, and information provided by the confirming party. The exception needs to be assessed to the entire population after analyzing the reason for difference.\n\nIn the given situation, the auditor has sent the positive confirmation request for the amount of Rs.15,50,000 to a debtor which was outstanding for more than 6 months, however, due to difference between information requested to be confirmed, or contained in the entity's records (i.e. Rs. $15,50,000$ ), and information provided by the confirming party (i.e. Rs. $14,90,000$ ) is forming situation of exception confirmation.\n\nThe auditor's evaluation, when taken into account with other audit procedures the auditor may have performed, may assist the auditor in concluding whether sufficient appropriate audit evidence has been obtained or whether performing further audit procedures is necessary, as required by SA 330 in case a response is indicating an exception.\n\nThe company should be asked to investigate and reconcile the discrepancy indicated by the confirming party.\n\nNegative confirmation request - A request that the confirming party respond directly to the auditor only if the confirming party disagrees. In the given case, the auditor has sent the negative confirmation request for Rs. $13,25,000$ to a creditor. Non- response by the creditor implies that creditor agrees with the amount. Thus, an auditor is not required to take any action in this case.",
+          "chapter_number": "5.2",
+          "chapter_name": "SA 501- AUDIT EVIDENCE- SPECIFIC CONSIDERATIONS FOR SELECTED ITEMS",
+          "unique_id": "5.2-T-5"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "FAB Limited is availing the services of Atiya Private Limited for its payroll operations. Payroll cost accounts for $63 \\%$ of total cost for FAB Limited. Atiya Limited has provided the type 2 report as specified under SA 402 for its description, design, and operating effectiveness of control. Atiya Private Limited has also outsourced a material part of payroll operation M/s RST & Associates in such a way that M/s RST & Associates is sub-service organization to FAB Limited. The Type 2 report which was provided by Atiya Private Limited was based on carve-out method as specified under SA 402. CA. Akram while reviewing the unmodified audit report drafted by his assistant found that, a reference has been made to the work done by the service auditor. CA. Akram hence asked his assistant to remove such reference and modify report accordingly. Comment whether CA. Akram is correct in removing the reference of the work done by service auditor? (MTP 4 Marks Mar'24, Apr'21, Nov'21, Sep'22,RTP Nov '20, MP[1])",
+          "answer": "Reporting by the User Auditor: As per SA 402, \"Audit Considerations Relating to an Entity Using a Service Organisation\", the user auditor shall modify the opinion in the user auditor's report in accordance with SA 705, \"Modifications to the Opinion in the Independent Auditor's Report\", if the user auditor is unable to obtain sufficient appropriate audit evidence regarding the services provided by the service organisation relevant to the audit of the user entity's financial statements. The user auditor shall not refer to the work of a service auditor in the user auditor's report containing an unmodified opinion unless required by law or regulation to do so. If such reference is required by law or regulation, the user auditor's report shall indicate that the reference does not diminish the user auditor's responsibility for the audit opinion. Thus, in view of the above, contention of CA. Akram in removing reference of the work done by service auditor is in order as in case of unmodified audit report, user auditor cannot refer to the work done by service auditor.",
+          "chapter_number": "2.5",
+          "chapter_name": "SA 402- AUDIT CONSIDERATIONS RELATING TO AN ENTITY USING A SERVICE ORGANIZATION",
+          "unique_id": "2.5-T-1"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "3",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "In audit of DEF Limited, the Auditor had made use of certain analytical procedures with regard to certain key data in the Statement of Profit and Loss. The results obtained showed inconsistencies with other relevant information. State the course of action that the Auditor should take to ensure that the risk of material misstatement would be contained to a low level fixed as per materiality level. (PYP 4 Marks, Nov'18)",
+          "answer": "Investigating Results of Analytical Procedures: As per SA 520, \"Analytical Procedures\", if analytical procedures performed in accordance with this SA identify fluctuations or relationships that are inconsistent with other relevant information or that differ from expected values by a significant amount, the auditor shall investigate such differences by:\n\n(i) Inquiring of management and obtaining appropriate audit evidence relevant to management's responses; and\n\n(ii) Performing other audit procedures as necessary in the circumstances.\n\nAudit evidence relevant to management's responses may be obtained by evaluating those responses taking into account the auditor's understanding of the entity and its environment, and with other audit evidence obtained during the course of the audit.\n\nThe need to perform other audit procedures may arise when, for example, management is unable to provide an explanation, or the explanation, together with the audit evidence obtained relevant to management's response, is not considered adequate.",
+          "chapter_number": "3.7",
+          "chapter_name": "SA 520- ANALYTICAL PROCEDURES",
+          "unique_id": "3.7-T-1"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Question 7 (MTP 4 Marks Mar'23 & Apr'23, PYP 4 Marks Dec'21)\n\nCA Subhadra is the statutory auditor of SATI Ltd. for the financial year 20X1-X2. In respect of loans and advances of Rs. 95 lakh given to Shripal Pvt. Ltd., the Company has not furnished any agreement to CA Subhadra and in absence of the same, he is unable to verify the terms of repayment, chargeability of interest and other terms.\n\nJustify the type of opinion which CA Subhadra should give in such situation. Also, Draft an appropriate Opinion paragraph and Basis of Opinion paragraph.",
+          "answer": "In the present case, with respect to loans and advances of Rs. 95 Lacs given to Shripal Pvt. Limited, the Company has not furnished any agreement to CA Subhadra. In the absence of such an agreement, CA Subhadra is unable to verify the terms of repayment, chargeability of interest and other terms. For an auditor, while verifying any loans and advances, one of the most important audit evidence is the loan agreement. Therefore, the absence of such document in the present case, tantamount to a material misstatement in the financial statements of the company. However, the inability of CA Subhadra to obtain such audit evidence is though material but not pervasive so as to require him to give a disclaimer of opinion.\n\nThus, in the present case, CA Subhadra should give a qualified opinion.\n\nThe relevant extract of the Qualified Opinion Paragraph and Basis for Qualified Opinion paragraph is as under:\n\n## Qualified Opinion\n\nIn our opinion and to the best of our information and according to the explanations given to us, except for the effects of the matter described in the Basis for Qualified Opinion section of our report, the financial statements of SATI Limited give a true and fair view in conformity with the accounting principles generally accepted in India, of the state of affairs of the Company as on 31.03.20X2 and profit/ loss for the year ended on that date.\n\n## Basis for Qualified Opinion\n\nThe Company is unable to furnish the loan agreement with respect to loans and advances of Rs. 95 Lacs given to Shripal Pvt. Limited. Consequently, in the absence of such an agreement, we are unable to verify the terms of repayment, chargeability of interest and other terms.",
+          "chapter_number": "7.1",
+          "chapter_name": "SA 700- FORMING AN OPINION AND REPORTING ON FINANCIAL STATEMENTS",
+          "unique_id": "7.1-T-7"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "3",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "PQR & Associates, Chartered Accountants, is a partnership firm having 3 partners CA P, CA Q and CA R. PQR & Associates are appointed as Statutory Auditors of ABC Limited, a listed entity for the financial year 2025-26 and CA P is appointed as Engagement Partner for the audit of ABC Limited. Before issuing the Audit Report of ABC Limited, CA P asked CA R to perform Engagement Quality Control Review and is of the view that his responsibility will be reduced after review by CA R. Whether the contention of CA P is correct? What are the aspects that need to be considered by CA R while performing Engagement Quality Control Review for audit of financial statements of ABC Limited? (MTP May'21)",
+          "answer": "As per SQC 1, \"Quality Control for Firms that Perform Audit and Reviews of Historical Financial Information, and other Assurance and Related Services Engagements\", the review does not reduce the responsibilities of the engagement partner. Hence, contention of CA P that after engagement quality control review by CA R, his responsibility will be reduced, is not correct.\n\nHowever, CA. R needs to consider the following aspect while performing Engagement Quality Control Review for audit of financial statements of a listed entity ABC Ltd:\n\n1) The engagement team's evaluation of the firm's independence in relation to the specific engagement.\n2) Significant risks identified during the engagement and the responses to those risks.\n3) Judgments made, particularly with respect to materiality and significant risks.\n4) Whether appropriate consultation has taken place on matters involving differences of opinion or other difficult or contentious matters, and the conclusions arising from those consultations.\n5) The significance and disposition of corrected and uncorrected misstatements identified during the engagement.\n6) The matters to be communicated to management and those charged with governance and, where applicable, other parties such as regulatory bodies.\n7) Whether working papers selected for review reflect the work performed in relation to the significant judgments and support the conclusions reached.\n8) The appropriateness of the report to be issued.\n\nEngagement quality control reviews for engagements other than audits of financial statements of listed entities may, depending on the circumstances, include some or all of these considerations.",
+          "chapter_number": "3.6",
+          "chapter_name": "SA 540-AUDITING ACCOUNTING ESTIMATES,",
+          "unique_id": "FILE-AA-P1-Q4a"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Discuss the reporting responsibilities of statutory auditor in the following situations for year 2025-26 under CARO, 2020: \n\nii) On 15th May, 2025, a TDS survey was carried out in premises of SSO Industries Limited in accordance with the provisions of the Income Tax Act, 1961. The survey team pointed out certain lapses regarding non-deduction of tax at source and subsequently Deputy Commissioner of Income Tax (TDS) raised a demand of ₹ 25 lacs on the company treating it as \"assessee in default\". The company has not deposited demand raised and filed appeal against impugned order on 1st March, 2026 under e-appeals scheme with JCIT (Appeals). [MTP Nov'24]",
+          "answer": "(ii) As per clause (vii) (b) of Paragraph 3 of CARO, 2020, the auditor is required to report where statutory dues have not been deposited on account of any dispute, then the amounts involved and the forum where dispute is pending shall be mentioned.\n\nFacts\nIn the given situation, the survey team pointed out certain lapses regarding non-deduction of TDS and demand raised by DCIT(TDS). TDS dues are in the nature of statutory dues and the company has filed appeal against order of DCIT (TDS) raising a demand of ₹ 25 lacs with JCIT (Appeals). Therefore, these are in the nature of disputed statutory dues.\n\nSolution\nThus, it should be reported in accordance with Clause (vii) (b) of Paragraph 3 of CARO, 2020.",
+          "chapter_number": "1.2",
+          "chapter_name": "SA 220- QUALITY CONTROL FOR AN AUDIT OF FINANCIAL STATEMENTS",
+          "unique_id": "FILE-AA-P1-Q4b"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "6",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Question 5 (MTP 5 Marks Jul'25)\n\nCA. Arvind, statutory auditor of Divinity Technologies Pvt. Ltd., noticed that Mr. Kamlesh was engaged by Management for investigation of suspected fraud within the organisation. CA. Arvind formally requested a copy of the report of the same to understand the nature, extent and implications of the suspected fraud so that he could appropriately consider it in his audit procedures and reporting responsibilities. Despite multiple written reminders, the management did not provide the report.\n\nIn view of this, CA. Arvind requested the management to at least provide a written representation regarding the fraud on/by the Company. The management neither provided the investigation report nor responded to his request to provide the requested representation. How should CA. Arvind deal in the given situation?",
+          "answer": "As per SA 240, \"The Auditor's Responsibilities Relating to Fraud in an Audit of Financial Statements\", the auditor is responsible for obtaining reasonable assurance that the financial statements, taken as a whole, are free from material misstatement, whether caused by fraud or error.\n\nAs per SA 580, \"Written Representations\", if management modifies or does not provide the requested written representations, it may alert the auditor to the possibility that one or more significant issues may exist.\n\nIn the instant case, the auditor observed that there was an investigation conducted at the instance of the management on a possible suspicion of fraud. Therefore, the auditor requested for investigation report which was not provided by the management despite of many reminders. The auditor also insisted for written representation in respect of fraud on/by the company. For this request also management remained silent.\n\nIt may be noted that, if management does not provide one or more of the requested written representations, the auditor shall discuss the matter with management; re-evaluate the integrity of management and evaluate the effect that this may have on the reliability of representations (oral or written) and audit evidence in general; and take appropriate actions, including determining the possible effect on the opinion in the auditor's report.\n\nFurther, as per section 143(12) of the Companies Act, 2013, if an auditor of a company, in the course of the performance of his duties as auditor, has reason to believe that an offence involving fraud is being or has been committed against the company by officers or employees of the company, he shall immediately report the matter to the Central Government (in case amount of fraud is Rs. 1 crore or above) or Audit Committee or Board in other cases (in case the amount of fraud involved is less than Rs. 1 crore) within such time and in such manner as may be prescribed.\n\nThe auditor is also required to report as per Clause (xi) of Paragraph 3 of CARO, 2020, (a) whether any fraud by the company or any fraud on the company has been noticed or reported during the year, if yes, the nature and the amount involved is to be indicated; (b) whether any report under sub-section (12) of section 143 of the Companies Act has been filed by the auditors in Form ADT-4 as prescribed under rule 13 of Companies (Audit and Auditors) Rules, 2014 with the Central Government;\n\nIf, as a result of a misstatement resulting from fraud or suspected fraud, the auditor encounters exceptional circumstances that bring into question the auditor's ability to continue performing the audit, the auditor shall:\n\n(i) Determine the professional and legal responsibilities applicable in the circumstances, including whether there is a requirement for the auditor to report to the person or persons who made the audit appointment or, in some cases, to regulatory authorities;\n\n(ii) Consider whether it is appropriate to withdraw from the engagement, where withdrawal from the engagement is legally permitted; and\n\n(iii) If the auditor withdraws:\n\n1. Discuss with the appropriate level of management and those charged with governance, the auditor's withdrawal from the engagement and the reasons for the withdrawal; and\n\n2. Determine whether there is a professional or legal requirement to report to the person or persons who made the audit appointment or, in some cases, to regulatory authorities, the auditor's withdrawal from the engagement and the reasons for the withdrawal.",
+          "chapter_number": "6.1",
+          "chapter_name": "SA 560- SUBSEQUENT EVENTS",
+          "unique_id": "6.1-T-5"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "## Question 1 (PYP 4 Marks May'22)\n\nCA Harry is appointed as a Statutory Auditor of Delist Limited for the financial year 20X1-X2. M/s Delist Limited is a listed entity at National Stock Exchange and the financial statements are to be drawn up in compliance with Ind AS. M/s Delist Limited made certain fair value accounting estimates on complex financial instruments which are not traded in an active and open market. CA Harry is concerned with identification and assessment of the risks of material misstatement for accounting estimates. Guide him with regard to the estimation making process adopted by management with reference to the relevant Standard on Auditing.",
+          "answer": "As per SA 540 \"Auditing Accounting Estimates, Including Fair Value Accounting Estimates, and Related Disclosures\", CA. Harry shall obtain an understanding of the following in order to provide a basis for the identification and assessment of the risks of material misstatements for accounting estimates:\n\nThe estimation making process adopted by the management including-\n\n(1) The method, including where applicable the model, used in making the accounting estimates.\n\n(2) Relevant controls.\n\n(3) Whether management has used an expert?\n\n(4) The assumption underlying the accounting estimates.\n\n(5) Whether there has been or ought to have been a change from the prior period in the methods for making the accounting estimates, and if so, why; and\n\n(6) Whether and, if so, how the management has assessed the effect of estimation uncertainty.",
+          "chapter_number": "3.6",
+          "chapter_name": "SA 540-AUDITING ACCOUNTING ESTIMATES,",
+          "unique_id": "3.6-T-1"
+        }
+      ]
+    }
+  ]
+}

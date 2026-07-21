@@ -1,0 +1,377 @@
+{
+  "source_pdf": "/Users/gaureshmantri/Desktop/CheckerAI/15919AS.pdf",
+  "output_pdf": "test_out.pdf",
+  "grading_json": "grading_results/dataset_15919/grading_final.json",
+  "aligned_json": "grading_results/dataset_15919/aligned_answers.json",
+  "generated_at": "2026-07-19T19:42:39.087335",
+  "grand_total": {
+    "obtained": 18.5,
+    "total": 50.0,
+    "page": 1,
+    "x": 260.425,
+    "y": 726.8967997100515,
+    "y_frac": 0.0822010104671067,
+    "scale": 0.9406175771971497
+  },
+  "questions": {
+    "SectionB__Q1a": {
+      "section": "SectionB",
+      "q_id": "Q1a",
+      "q_num": "1a",
+      "marks_obtained": 2.5,
+      "marks_total": 6.0,
+      "stamp": {
+        "page": 1,
+        "x": 74.84867053425678,
+        "y": 591.9467997100514,
+        "scale": 0.9406175771971497
+      },
+      "feedback": {
+        "text": "Solve for P1 correctly using the MM formula for accurate results",
+        "page": 1,
+        "x": 125.22029469851495,
+        "y": 56.58705510788489,
+        "font_size": 10,
+        "scale": 0.9406175771971497
+      },
+      "ticks_crosses": [
+        {
+          "page": 1,
+          "x": 213.1518881770765,
+          "y": 431.3248816618641,
+          "action": "tick",
+          "size": 70.8361747332643
+        },
+        {
+          "page": 1,
+          "x": 283.3045004295209,
+          "y": 326.82702984480613,
+          "action": "tick",
+          "size": 66.57040748542649
+        },
+        {
+          "page": 1,
+          "x": 338.2239694207011,
+          "y": 201.69004876468983,
+          "action": "tick",
+          "size": 63.72877435008181
+        },
+        {
+          "page": 2,
+          "x": 207.00468979023606,
+          "y": 618.7231595380186,
+          "action": "cross",
+          "size": 64.72304504068471
+        },
+        {
+          "page": 2,
+          "x": 284.82253735413406,
+          "y": 507.81257098704214,
+          "action": "cross",
+          "size": 57.83482537622725
+        },
+        {
+          "page": 2,
+          "x": 372.24523946936677,
+          "y": 370.0198499386871,
+          "action": "cross",
+          "size": 55.55958547935957
+        },
+        {
+          "page": 2,
+          "x": 321.78813179855456,
+          "y": 204.17087473153086,
+          "action": "cross",
+          "size": 57.219855334275124
+        }
+      ]
+    },
+    "SectionB__Q1b": {
+      "section": "SectionB",
+      "q_id": "Q1b",
+      "q_num": "1b",
+      "marks_obtained": 1.5,
+      "marks_total": 4.0,
+      "stamp": {
+        "page": 2,
+        "x": 230.83240330558806,
+        "y": 298.6179105094451,
+        "scale": 0.9406175771971497
+      },
+      "feedback": {
+        "text": "Expand on MM theory and complete all valuation calculations",
+        "page": 2,
+        "x": 189.2,
+        "y": 74.30603389829612,
+        "font_size": 10,
+        "scale": 0.9406175771971497
+      },
+      "ticks_crosses": [
+        {
+          "page": 2,
+          "x": 324.09604590703117,
+          "y": 315.1689119918884,
+          "action": "tick",
+          "size": 64.14963942402778
+        }
+      ]
+    },
+    "SectionB__Q2a": {
+      "section": "SectionB",
+      "q_id": "Q2a",
+      "q_num": "2a",
+      "marks_obtained": 2.5,
+      "marks_total": 6.0,
+      "stamp": {
+        "page": 3,
+        "x": 112.21252349450279,
+        "y": 561.2617051230317,
+        "scale": 0.9406175771971497
+      },
+      "feedback": {
+        "text": "Include all cash flows and correct marketing costs for accurate NPV",
+        "page": 3,
+        "x": 118.34144355128973,
+        "y": 65.54499566200606,
+        "font_size": 10,
+        "scale": 0.9406175771971497
+      },
+      "ticks_crosses": [
+        {
+          "page": 3,
+          "x": 267.4643644767537,
+          "y": 368.5442109342065,
+          "action": "tick",
+          "size": 65.92412172195357
+        },
+        {
+          "page": 3,
+          "x": 205.4065595139668,
+          "y": 255.2599470534724,
+          "action": "cross",
+          "size": 57.89056394856021
+        }
+      ]
+    },
+    "SectionB__Q3a": {
+      "section": "SectionB",
+      "q_id": "Q3a",
+      "q_num": "3a",
+      "marks_obtained": 0.5,
+      "marks_total": 6.0,
+      "stamp": {
+        "page": 4,
+        "x": 145.28145205793268,
+        "y": 623.76,
+        "scale": 0.9406175771971497
+      },
+      "feedback": {
+        "text": "• Answered a different question entirely  \n• Lacked discussion on operating and financial risk  \n• No mention of EBIT variability or cost structures",
+        "page": 4,
+        "x": 38.968,
+        "y": 747.5,
+        "font_size": 10,
+        "scale": 0.9406175771971497
+      },
+      "ticks_crosses": [
+        {
+          "page": 4,
+          "x": 357.06404293431586,
+          "y": 459.230105731317,
+          "action": "cross",
+          "size": 55.14134467170644
+        },
+        {
+          "page": 4,
+          "x": 183.50269421015392,
+          "y": 345.7701943251324,
+          "action": "cross",
+          "size": 63.64809068815637
+        },
+        {
+          "page": 4,
+          "x": 189.000258345018,
+          "y": 218.6702487443886,
+          "action": "cross",
+          "size": 60.23842852160545
+        }
+      ]
+    },
+    "SectionB__Q4a": {
+      "section": "SectionB",
+      "q_id": "Q4a",
+      "q_num": "4a",
+      "marks_obtained": 5.5,
+      "marks_total": 6.0,
+      "stamp": {
+        "page": 4,
+        "x": 87.97700872262736,
+        "y": 170.6037434874188,
+        "scale": 0.9406175771971497
+      },
+      "feedback": {
+        "text": "Add detailed commentary on each leverage measure for clarity",
+        "page": 4,
+        "x": 143.03425854265174,
+        "y": 79.40374348741878,
+        "font_size": 10,
+        "scale": 0.9406175771971497
+      },
+      "ticks_crosses": [
+        {
+          "page": 4,
+          "x": 358.5065436745673,
+          "y": 340.6405299037577,
+          "action": "tick",
+          "size": 73.39445816777767
+        },
+        {
+          "page": 5,
+          "x": 206.96676273874792,
+          "y": 509.7816414154965,
+          "action": "tick",
+          "size": 67.02134831698325
+        },
+        {
+          "page": 5,
+          "x": 222.3485546717387,
+          "y": 415.7910539261872,
+          "action": "cross",
+          "size": 59.654229220288
+        },
+        {
+          "page": 5,
+          "x": 292.5754908128159,
+          "y": 315.9878002480062,
+          "action": "tick",
+          "size": 61.514954410327846
+        },
+        {
+          "page": 5,
+          "x": 269.51004510827744,
+          "y": 200.2632044878579,
+          "action": "tick",
+          "size": 71.75418639345538
+        }
+      ]
+    },
+    "SectionB__Q4b": {
+      "section": "SectionB",
+      "q_id": "Q4b",
+      "q_num": "4b",
+      "marks_obtained": 1.5,
+      "marks_total": 4.0,
+      "stamp": {
+        "page": 5,
+        "x": 94.0027219547718,
+        "y": 169.68042539684888,
+        "scale": 0.9406175771971497
+      },
+      "feedback": {
+        "text": "Include key distinctions like recourse, upfront payments, and secondary markets",
+        "page": 5,
+        "x": 78.55493374097328,
+        "y": 78.48042539684889,
+        "font_size": 10,
+        "scale": 0.9406175771971497
+      },
+      "ticks_crosses": [
+        {
+          "page": 5,
+          "x": 152.23325366566343,
+          "y": 614.5519329769241,
+          "action": "tick",
+          "size": 66.94212847221921
+        },
+        {
+          "page": 6,
+          "x": 107.98371669190546,
+          "y": 623.2204745842173,
+          "action": "cross",
+          "size": 65.220947851513
+        },
+        {
+          "page": 6,
+          "x": 117.47903810763158,
+          "y": 510.32902185105115,
+          "action": "cross",
+          "size": 60.998976068617
+        },
+        {
+          "page": 6,
+          "x": 158.6649729985592,
+          "y": 395.9062335342691,
+          "action": "tick",
+          "size": 61.72931931352345
+        },
+        {
+          "page": 6,
+          "x": 183.3532228848557,
+          "y": 217.87677010471276,
+          "action": "cross",
+          "size": 56.30682888968461
+        }
+      ]
+    },
+    "SectionB__Q5a": {
+      "section": "SectionB",
+      "q_id": "Q5a",
+      "q_num": "5a",
+      "marks_obtained": 1.0,
+      "marks_total": 6.0,
+      "stamp": {
+        "page": 6,
+        "x": 92.9563510074019,
+        "y": 623.76,
+        "scale": 0.9406175771971497
+      },
+      "feedback": {
+        "text": "• Incorrect MM formula applied for P₁ calculation  \n• Wrong P₁ values led to incorrect share count  \n• Final firm value did not demonstrate MM irrelevance",
+        "page": 6,
+        "x": 38.28,
+        "y": 745.5,
+        "font_size": 10,
+        "scale": 0.9406175771971497
+      },
+      "ticks_crosses": [
+        {
+          "page": 6,
+          "x": 146.28240313800399,
+          "y": 310.68391440825974,
+          "action": "tick",
+          "size": 71.37461578986064
+        }
+      ]
+    },
+    "SectionB__Q5b": {
+      "section": "SectionB",
+      "q_id": "Q5b",
+      "q_num": "5b",
+      "marks_obtained": 3.5,
+      "marks_total": 4.0,
+      "stamp": {
+        "page": 7,
+        "x": 136.00730497209992,
+        "y": 623.76,
+        "scale": 0.9406175771971497
+      },
+      "feedback": {
+        "text": "Refine rounding in Walter's formula for improved accuracy",
+        "page": 7,
+        "x": 176.06531508648533,
+        "y": 64.35439944120361,
+        "font_size": 10,
+        "scale": 0.9406175771971497
+      },
+      "ticks_crosses": [
+        {
+          "page": 7,
+          "x": 429.2219821242477,
+          "y": 369.04809732676574,
+          "action": "tick",
+          "size": 73.92021394963747
+        }
+      ]
+    }
+  }
+}

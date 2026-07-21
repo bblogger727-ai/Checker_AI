@@ -1,0 +1,392 @@
+[
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 1,
+    "question": "Rajesh invests \u20b920,000 per year in a stock index fund, with earns $9 \\%$ per year, for the next ten years. What would be closest value of accumulated investment upon payment of the last installment? [Given: $(1.09)^{10}$ = 2.36736]",
+    "options": {
+      "a": "\u20b93,88,764.968",
+      "b": "\u20b93,03,858.564",
+      "c": "\u20b92,68,728.484",
+      "d": "\u20b94,08,718.364"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 2,
+    "question": "A certain sum of money becomes double at $\\mathbf{5} \\boldsymbol{\\%}$ rate of S.I. p.a. in a certain time, the time in years is",
+    "options": {
+      "a": "10 years",
+      "b": "20 years",
+      "c": "25 years",
+      "d": "None of these"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 3,
+    "question": "Sinking fund factor is the reciprocal of $\\_\\_\\_$",
+    "options": {
+      "a": "Present value of interest factor of a single cash flow",
+      "b": "Present value interest factor of annuity",
+      "c": "Future value of Interest factor of annuity",
+      "d": "Future value of Interest factor of a single cash flow"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 4,
+    "question": "If the nominal rate of growth is $17 \\%$ and inflation is $9 \\%$ for the five years. Let P be the Gross domestic Product (GDP) amount at the present year then the projected real GDP after 6 years is",
+    "options": {
+      "a": "1.587 P",
+      "b": "1.921 P",
+      "c": "1.403 P",
+      "d": "2.51 P"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 5,
+    "question": "The amount of an annuity due consisting of 15 annual payments invested at $8 \\%$ effective is $\u20b9 10,000$. Find the size of each payment.",
+    "options": {
+      "a": "$\u20b9 873.86$",
+      "b": "\u20b9 108.60",
+      "c": "$\u20b9 341.01$",
+      "d": "None of these"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 6,
+    "question": "Assuming that the discount rate is $10 \\%$ per annum, how much would you pay to receive $\u20b9 800$, growing at 8\\%, annually, forever?",
+    "options": {
+      "a": "\u20b9 1,000",
+      "b": "\u20b9 1,050",
+      "c": "\u20b9 950",
+      "d": "None of these"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 7,
+    "question": "Find the effective rate of interest at $\\mathbf{1 0} \\boldsymbol{\\%}$ p.a. when interest is payable quarterly.",
+    "options": {
+      "a": "$10.38 \\%$",
+      "b": "$5 \\%$",
+      "c": "$5.04 \\%$",
+      "d": "$4 \\%$"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 8,
+    "question": "The annual rate of simple interest is $12.5 \\%$. In how many years does principal doubles?",
+    "options": {
+      "a": "11 years",
+      "b": "9 years",
+      "c": "8 years",
+      "d": "7 years"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 9,
+    "question": "Find the present value of an ordinary annuity of 8 quarterly payments of \u20b9500 each, the rate of interest being $8 \\%$ p.a. compound quarterly",
+    "options": {
+      "a": "4275.00",
+      "b": "4725.00",
+      "c": "3662.50",
+      "d": "3266.50"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 10,
+    "question": "\u20b95000 is paid every year for 10 years to pay off a loan. What is the loan amount of interest rate be $\textbf{1 4 \\%}$ p.a compounded annualy?",
+    "options": {
+      "a": "\u20b926,000.90",
+      "b": "\u20b926080.55",
+      "c": "\u20b915000.21",
+      "d": "\u20b916,345.11"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 11,
+    "question": "10 years ago the earning per share (EPS) of ABC Ltd, was \u20b95 share its EPS for this year is \u20b922. Compute at what rate, EPS of the company grow annually?",
+    "options": {
+      "a": "$15.97 \\%$",
+      "b": "$16.77 \\%$",
+      "c": "$18.64 \\%$",
+      "d": "$14.79 \\%$"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 12,
+    "question": "A company is considering proposal of purchasing a machine full payment of \u20b94000 or by leasing it for 4 years at an annual rate of \u20b91250. Which course of action is preferable if the company can borrow money at $14 \\%$ compounded annually?",
+    "options": {
+      "a": "Purchasing",
+      "b": "Leasing",
+      "c": "Both are same",
+      "d": "None of these"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 13,
+    "question": "Find future value of annuity of \u20b91000 made annually for seven years at interest rate $16 \\%$ compounded annually. [Given that $(1.16)^{7}=2.8262$ ]",
+    "options": {
+      "a": "\u20b911413.75",
+      "b": "\u20b911000.35",
+      "c": "$\u20b9 8756$",
+      "d": "\u20b99892.34"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 14,
+    "question": "\u20b980,000 is invested to earn a monthly interest of \u20b91200 at the rate of $\\_\\_\\_$ p.a. Simple interest.",
+    "options": {
+      "a": "$12 \\%$",
+      "b": "$14 \\%$",
+      "c": "$16 \\%$",
+      "d": "$18 \\%$"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 15,
+    "question": "A trust fund has invested \u20b9 27000 money in two schemes ' $A$ ' and ' $B$ ' offering compound interest at the rate of $8 \\%$ and $9 \\%$ per annum respectively. It the total amount of interest accrued through these two schemes together in two years was \u20b9 4818.30 . What was the amount invested in schemes ' A '?",
+    "options": {
+      "a": "$\u20b9 12,000$",
+      "b": "\u20b9 12,500",
+      "c": "\u20b9 13,000",
+      "d": "$\u20b9 12,500$"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 16,
+    "question": "Ravi made of an investment of \u20b915,000 in a scheme and at the time of maturity the amount was \u20b925,000. If Compound Annual Growth Rate (CAGR) for this investment is $8.88 \\%$. Calculate the approximate number of years for which he has invested the amount.",
+    "options": {
+      "a": "6",
+      "b": "7.7",
+      "c": "5.5",
+      "d": "7"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 17,
+    "question": "Mr. A invested \u20b9 $x$ in an organization, it amounts to \u20b9 $\u20b9 150$ at $\\mathbf{5 \\%}$ p.a. S.I. and to \u20b9 $\u20b9 \\mathbf{1 0 0}$ at $\\mathbf{3 \\%}$ p.a. S.I. Then the value of x is",
+    "options": {
+      "a": "\u20b970",
+      "b": "\u20b9 40",
+      "c": "$\u20b9 25$",
+      "d": "None of these"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 18,
+    "question": "An investment is earning compounded interest \u20b9100 invested in the year 2 accumulated to \u20b9105 by year 4. If \u20b9500 invested in the year 5, will become \u20b9 \\_\\_\\_ by year 10.",
+    "options": {
+      "a": "\u20b9 364.80",
+      "b": "\u20b9564.80",
+      "c": "\u20b9464.80",
+      "d": "\u20b9664.80"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 19,
+    "question": "Rajesh deposits \u20b93,000 at the start of each quarter in his savings account. If the account earns interest $5.75 \\%$ per annuam compounded quarterly, how much money (in \u20b9) while he have at the end of 4 years? [Given that $(1.014375)^{16}=1.25654$ ]",
+    "options": {
+      "a": "$\u20b9 54,308.6$",
+      "b": "$\u20b9 58,553.6$",
+      "c": "\u20b9 $68,353.6$",
+      "d": "\u20b963,624.4"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 20,
+    "question": "A man invests \u20b912,000 at $\textbf{1 0} \\boldsymbol{\\%}$ p.a. and another sum of money at $\textbf{2 0} \\boldsymbol{\\%}$ p.a for one year. The total investment earns at $\textbf{1 4} \\boldsymbol{\\%}$ p.a. simple interest the total investment is:",
+    "options": {
+      "a": "\u20b98,000",
+      "b": "\u20b920,000",
+      "c": "\u20b914,000",
+      "d": "\u20b916,000"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 21,
+    "question": "Certain sum of money borrowed at simple interest to \u20b92688 in three years and to \u20b92784 in four years at the rate per annum equal to",
+    "options": {
+      "a": "$4 \\%$",
+      "b": "$6 \\%$",
+      "c": "$5 \\%$",
+      "d": "$7 \\%$"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 22,
+    "question": "Madhu takes a loan of \u20b950,000 from ABC Bank LTD. The rate of interest is $10 \\%$ per annum. The first installment will be paid at the end of five year. Determine the amount (in \u20b9) of equal instalments, if Madhu wishes to repay the amount in five years.",
+    "options": {
+      "a": "\u20b919,510",
+      "b": "\u20b919,430",
+      "c": "\u20b919,310",
+      "d": "\u20b916,630"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 23,
+    "question": "A machine with useful life of 7 years costs $\u20b9 10,000$ while another machine with useful life of 5 years costs \u20b98000. The first machine saves labour expenses of \u20b91900 annually and the second one saves labour expenses of \u20b92200 annually. Determine the preferred course of action. Assume cost of borrowing as $10 \\%$ compounded per annum.",
+    "options": {
+      "a": "1st Machine should be purchased",
+      "b": "2nd Machine should be purchased",
+      "c": "Information is not sufficient",
+      "d": "None of these"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 24,
+    "question": "Mr. A invested \u20b920,000 every year for next 3 years at the interest rate of 8 percent per annum compounded annually. What is future value of the annuity? $(1.08)^{3}=1.2597$ )",
+    "options": {
+      "a": "62644",
+      "b": "62464",
+      "c": "64928",
+      "d": "63442"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 25,
+    "question": "Paul \u20b9 $\\mathbf{2 0 , 0 0 0}$ on condition to repay it with compound interest at $\\mathbf{5} \\boldsymbol{\\%}$ p.a. in annual instalment of\u20b9 $\\mathbf{2 , 0 0 0}$ each. Find the number of years in which the debt would be paid off.",
+    "options": {
+      "a": "10 years",
+      "b": "12 years",
+      "c": "14 years",
+      "d": "15 years"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 26,
+    "question": "\u20b910,000 is invested every month and in an account paying interest @ $\\mathbf{1 2} \\boldsymbol{\\%}$ per annum compounded monthly. What is the future value of this annuity just after making $\\mathbf{1 1}^{\\text {th }}$ payment\" (Given that $\\boldsymbol{( 1 . 0 1 )}{ }^{\\mathbf{1 1}} \\boldsymbol{=}$ 1.1156) (MTP Apr'23, Apr'21, Mar'19 Aug 18) (Same concepts different figures MTP Apr'19, Nov'22, MP [6), MP [9])",
+    "options": {
+      "a": "\u20b9 115,600",
+      "b": "\u20b9 156,100",
+      "c": "$\u20b9 156,800$",
+      "d": "$\u20b9 157,100$"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 27,
+    "question": "An investor is saving to pay off an obligation of \u20b915,250 which will due in seven years, if the investor is earning $7.5 \\%$ simple interest rate per annum, he must deposit \u20b9 \\_\\_\\_ to meet the obligation.",
+    "options": {
+      "a": "\u20b98,000",
+      "b": "\u20b99,000",
+      "c": "\u20b910,000",
+      "d": "\u20b911,000"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 28,
+    "question": "What annual payment will discharge a debt of \u20b9 770 due in years, the rate of interest being $\\mathbf{5} \\boldsymbol{\\%}$ per annum?",
+    "options": {
+      "a": "\u20b9 150",
+      "b": "\u20b9 140",
+      "c": "\u20b9 130",
+      "d": "None of these"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 29,
+    "question": "The value of furniture depreciates by $10 \\%$ a year, if the present value of the furniture in an office is \u20b9 21870 , calculate the value of furniture 3 years ago:",
+    "options": {
+      "a": "$\u20b9 30,000$",
+      "b": "$\u20b9 40,000$",
+      "c": "\u20b935,000",
+      "d": "$\u20b9 50,000$"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 30,
+    "question": "A certain sum of money amounts to \u20b9 5,000 in 5 years at $10 \\%$ p.a. In how many years will it amount to \u20b9 6,000 at same rate of S.I p.a.",
+    "options": {
+      "a": "10 years",
+      "b": "8 years",
+      "c": "6 years",
+      "d": "None of these"
+    },
+    "answer": "b"
+  }
+]

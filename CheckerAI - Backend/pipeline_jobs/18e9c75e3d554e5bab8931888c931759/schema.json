@@ -1,0 +1,19 @@
+{
+  "paper_json": "/Users/gaureshmantri/Desktop/CheckerAI/All_Paper_JSONs/Final/AFM_Portionwise_Test_1.json",
+  "meta": {
+    "subject_code": "AFM",
+    "subject_name": "Advanced Financial Management",
+    "paper_num": "Portionwise_1",
+    "total_marks_printed": 50,
+    "total_marks_in_paper": 50,
+    "section_a_marks": 0,
+    "section_b_marks": 50,
+    "two_section_format": false,
+    "note": "Portionwise Test: Attempt all 5 questions. Each question carries 10 marks (6 + 4 split).",
+    "blacklisted_from": [],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)"
+    ]
+  }
+}

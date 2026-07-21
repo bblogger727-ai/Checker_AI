@@ -1,0 +1,422 @@
+[
+  {
+    "chapter": "CHAPTER 9.1: THEORIES OF INTERNATIONAL TRADE",
+    "section": "A",
+    "q_num": 5,
+    "question": "Given the number of labour hours to produce cloth and grain in two countries, which country should produce grain? Labour cost (hours) for production of one unit",
+    "options": {
+      "a": "Country A",
+      "b": "Country B",
+      "c": "Neither AnorB",
+      "d": "BothAandB"
+    },
+    "answer": "b",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 9.1: THEORIES OF INTERNATIONAL TRADE",
+    "section": "A",
+    "q_num": 7,
+    "question": "Given the number of labour hours to produce wheat and rice in two countries and that these countries specialise and engage in trade at a relative price of 1:1 what will be the gain of country X?",
+    "options": {
+      "a": "20labour hours",
+      "b": "10 labour hours",
+      "c": "30 labour hours",
+      "d": "Does not gain anything"
+    },
+    "answer": "b",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 9.1: THEORIES OF INTERNATIONAL TRADE",
+    "section": "A",
+    "q_num": 10,
+    "question": "Ricardo explained the law of comparative advantage on the basis of",
+    "options": {
+      "a": "Opportunity costs",
+      "b": "The law of diminishing returns",
+      "c": "Economies of scale",
+      "d": "The labour theory of value"
+    },
+    "answer": "d",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 9.1: THEORIES OF INTERNATIONAL TRADE",
+    "section": "A",
+    "q_num": 11,
+    "question": "Theory of Mercantilism propagates:",
+    "options": {
+      "a": "Encourage exports and imports",
+      "b": "Encourage exports and discourage imports",
+      "c": "Discourage exports and imports",
+      "d": "Discourage exports and encourage imports"
+    },
+    "answer": "b",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 9.1: THEORIES OF INTERNATIONAL TRADE",
+    "section": "A",
+    "q_num": 12,
+    "question": "Which of the following is a zero-sum game?",
+    "options": {
+      "a": "Prisoners dilemma",
+      "b": "Competition for market share",
+      "c": "Pricing strategy",
+      "d": "None of the above is correct."
+    },
+    "answer": "b",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 9.1: THEORIES OF INTERNATIONAL TRADE",
+    "section": "A",
+    "q_num": 19,
+    "question": "Export led growth strategy does not include:",
+    "options": {
+      "a": "Outward oriented growth.",
+      "b": "Export promotion",
+      "c": "Import restrictions",
+      "d": "Emphasising comparative advantage"
+    },
+    "answer": "c",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 9.1: THEORIES OF INTERNATIONAL TRADE",
+    "section": "A",
+    "q_num": 23,
+    "question": "Which theory of international trade identified the role of labour and capital, so-called factor endowments, as a determinant of advantage?",
+    "options": {
+      "a": "Theory of Absolute Advantage",
+      "b": "Theory of Comparative Advantage",
+      "c": "Heckscher - Ohlin theory of trade",
+      "d": "None of these"
+    },
+    "answer": "c",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 9.1: THEORIES OF INTERNATIONAL TRADE",
+    "section": "A",
+    "q_num": 24,
+    "question": "Which one of the following is the first theory of International Trade that emerged in England in the 16th Century?",
+    "options": {
+      "a": "Mercantilism",
+      "b": "Absolute Cost Advantage Theory",
+      "c": "Comparative Cost Advantage Theory",
+      "d": "Product Life-Cycle Theory"
+    },
+    "answer": "a",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 9.1: THEORIES OF INTERNATIONAL TRADE",
+    "section": "A",
+    "q_num": 27,
+    "question": "Mercantilism advocates (PYP JUNE \u201824)",
+    "options": {
+      "a": "Aggressive exports over imports to accumulate wealth",
+      "b": "Comparative advantage",
+      "c": "Absolute cost advantage",
+      "d": "Factor endowment"
+    },
+    "answer": "a",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 9.1: THEORIES OF INTERNATIONAL TRADE",
+    "section": "A",
+    "q_num": 36,
+    "question": "Who proposed that a country should export goods in which it has the greatest absolute advantage and import goods in which its absolute advantage is comparatively less? (PYP Sep\u201925)",
+    "options": {
+      "a": "Adam Smith",
+      "b": "David Ricardo",
+      "c": "Eli Heckscher and Bertil Ohlin",
+      "d": "John Maynard Keynes"
+    },
+    "answer": "b",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 9.2: THE INSTRUMENTS OF TRADE POLICY",
+    "section": "A",
+    "q_num": 3,
+    "question": "A tax applied as a percentage of the value of an imported good is known as",
+    "options": {
+      "a": "Preferential tariff",
+      "b": "Ad valorem tariff",
+      "c": "Specific tariff",
+      "d": "mixed or compound tariff ."
+    },
+    "answer": "b",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 9.2: THE INSTRUMENTS OF TRADE POLICY",
+    "section": "A",
+    "q_num": 7,
+    "question": "A countervailing duty is",
+    "options": {
+      "a": "A tariff that aim to offset artificially low prices charged by exporters who enjoy export subsidies and tax concessions in their home country",
+      "b": "Charged by importing countries to ensure fair and market-oriented pricing of imported products",
+      "c": "Charged by importing countries to protect domestic industries and firms from unfair price advantage arising from subsidies",
+      "d": "All the above os"
+    },
+    "answer": "d",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 9.2: THE INSTRUMENTS OF TRADE POLICY",
+    "section": "A",
+    "q_num": 31,
+    "question": "What is disadvantage of specific tariff which is the fixed amount of money per physical unit or according to weight?",
+    "options": {
+      "a": "It discourages the import.",
+      "b": "The Government revenue remains unchanged irrespective of change in value of product.",
+      "c": "It is difficult to calculate it precisely.",
+      "d": "None of these"
+    },
+    "answer": "b",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 9.2: THE INSTRUMENTS OF TRADE POLICY",
+    "section": "A",
+    "q_num": 38,
+    "question": "Tariff can be based on .",
+    "options": {
+      "a": "Quantity only",
+      "b": "Value of Import",
+      "c": "Quantity and/or value",
+      "d": "None of these"
+    },
+    "answer": "c",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 9.2: THE INSTRUMENTS OF TRADE POLICY",
+    "section": "A",
+    "q_num": 47,
+    "question": "Which of the following is a non-tariff barrier? (MTP Aug\u201925[1])",
+    "options": {
+      "a": "Advalorem duty",
+      "b": "Quotas",
+      "c": "Countervailing duty",
+      "d": "None of these"
+    },
+    "answer": "b",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 9.2: THE INSTRUMENTS OF TRADE POLICY",
+    "section": "A",
+    "q_num": 56,
+    "question": "A tariff which a WTO member binds itself with a legal commitment not to raise tariff rate above a certain level is known as:",
+    "options": {
+      "a": "Applied tariff",
+      "b": "Bound tariff",
+      "c": "Specific tariff",
+      "d": "Most-favoured nation tariffs"
+    },
+    "answer": "b",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 9.3: TRADE NEGOTIATIONS",
+    "section": "A",
+    "q_num": 1,
+    "question": "Which of the following culminated in the establishment of the World Trade Organization?",
+    "options": {
+      "a": "The Doha Round",
+      "b": "The Tokyo Round",
+      "c": "The Uruguay Round",
+      "d": "The Kennedy Round"
+    },
+    "answer": "c",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 9.3: TRADE NEGOTIATIONS",
+    "section": "B",
+    "q_num": 13,
+    "question": "Which international organization is responsible for facilitating trade negotiations and resolving trade disputes among member countries?",
+    "options": {
+      "a": "World Health Organization (WHO)",
+      "b": "International Monetary Fund (IMF)",
+      "c": "World Trade Organization (WTO)",
+      "d": "United Nations Educational, Scientific, and, Cultural Organization (UNESCO)"
+    },
+    "answer": "c",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 9.3: TRADE NEGOTIATIONS",
+    "section": "B",
+    "q_num": 19,
+    "question": "The Word Trade Organization (WTO) was established to implement the final act of round agreement of GATT.",
+    "options": {
+      "a": "Geneva",
+      "b": "Uruguay",
+      "c": "Tokyo",
+      "d": "None of these"
+    },
+    "answer": "b",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 9.3: TRADE NEGOTIATIONS",
+    "section": "B",
+    "q_num": 20,
+    "question": "Most Favoured Nation (MFN) clause was introduced by:",
+    "options": {
+      "a": "WTO",
+      "b": "GATT",
+      "c": "ADB",
+      "d": "IBRD"
+    },
+    "answer": "b",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 9.3: TRADE NEGOTIATIONS",
+    "section": "B",
+    "q_num": 21,
+    "question": "A group of countries that have a free trade agreement between themselves and may apply a common external tariff to other countries:",
+    "options": {
+      "a": "Free trade area",
+      "b": "Custom union",
+      "c": "Trade block",
+      "d": "Regional preferential trade agreements"
+    },
+    "answer": "c",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 9.3: TRADE NEGOTIATIONS",
+    "section": "B",
+    "q_num": 25,
+    "question": "In the context of trade negotiations, the term \"Most-Favoured-Nation (MFN)\" status refers to:",
+    "options": {
+      "a": "A preferential treatment granted to one country over others in trade agreements.",
+      "b": "The obligation to trade exclusively with a particular country.",
+      "c": "A policy that allows countries to impose tariffs on imports from specific nations.",
+      "d": "A requirement to offer the same trade terms to all trading partners."
+    },
+    "answer": "d",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 9.3: TRADE NEGOTIATIONS",
+    "section": "B",
+    "q_num": 35,
+    "question": "Under WTO agreements, the countries cannot normally discriminate between their trading partners. This is referred to as",
+    "options": {
+      "a": "National Treatment (NT)",
+      "b": "Most Favoured Nation (MFN)",
+      "c": "Promoting Fair Competition (PFC)",
+      "d": "Free Trade through Negotiation (FTN)"
+    },
+    "answer": "b",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 9.3: TRADE NEGOTIATIONS",
+    "section": "B",
+    "q_num": 40,
+    "question": "Which of these countries is part of the USMCA Agreement?",
+    "options": {
+      "a": "Mexico",
+      "b": "Malta",
+      "c": "Malaysia",
+      "d": "Mongolia"
+    },
+    "answer": "a",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 9.5: INTERNATIONAL CAPITAL MOVEMENTS",
+    "section": "B",
+    "q_num": 25,
+    "question": "Fll helps to improve: (RTP May\u201925) (a) Capital market (b) How of equity capital (c) Financial innovation and development (d) All the above",
+    "options": {
+      "a": "Capital market",
+      "b": "How of equity capital",
+      "c": "Financial innovation and development",
+      "d": "All the above"
+    },
+    "answer": "d",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 9.5: INTERNATIONAL CAPITAL MOVEMENTS",
+    "section": "B",
+    "q_num": 28,
+    "question": "Based on the nature of foreign investments, FDI may be categorized as: (a) Horizontal (b) Vertical (c) Conglomerate (d) All of the above",
+    "options": {
+      "a": "Horizontal",
+      "b": "Vertical",
+      "c": "Conglomerate",
+      "d": "All of the above"
+    },
+    "answer": "d",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 9.5: INTERNATIONAL CAPITAL MOVEMENTS",
+    "section": "B",
+    "q_num": 34,
+    "question": "Match the following: (PYP May\u201925) (a) (a){ii), (b) - (i), (\u00a2) - (iv), (4) - (ili) (b) (a)(i), (b) (ii), (c) - (iv), (d) - (iii) (c) (a)(ii), (b) - (i), (c) - (ili), (d) - (iv) (d)_(a)(i), (b) (ii), (c) - (ili), (d) - (iv)",
+    "options": {
+      "a": "(a){ii), (b) - (i), (\u00a2) - (iv), (4) - (ili)",
+      "b": "(a)(i), (b) (ii), (c) - (iv), (d) - (iii)",
+      "c": "(a)(ii), (b) - (i), (c) - (ili), (d) - (iv)",
+      "d": "(a)(i), (b) (ii), (c) - (ili), (d) - (iv)"
+    },
+    "answer": "a",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 9.5: INTERNATIONAL CAPITAL MOVEMENTS",
+    "section": "B",
+    "q_num": 38,
+    "question": "Brownfield investment refers to:",
+    "options": {
+      "a": "Building new infrastructure",
+      "b": "Investing in agriculture",
+      "c": "Buying or leasing existing setups",
+      "d": "foreign loans for farms"
+    },
+    "answer": "c",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 9.5: INTERNATIONAL CAPITAL MOVEMENTS",
+    "section": "B",
+    "q_num": 41,
+    "question": "Both foreign direct investment (FDI) and foreign institutional investment (Fl) are related to investment in a country. Which of the following is incorrect regarding FDI and FII?",
+    "options": {
+      "a": "Both FIl and FDI bring capital into the economy.",
+      "b": "FIl invests in technology-oriented enterprises, whereas FDI invests in traditional business set ups.",
+      "c": "The restrictions on the entry of FDI are lower than that on FIl.",
+      "d": "FDI is considered to be more stable than Fil. Fil can be withdrawn even at a short notice."
+    },
+    "answer": "b",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 9.5: INTERNATIONAL CAPITAL MOVEMENTS",
+    "section": "B",
+    "q_num": 44,
+    "question": "Foreign corporations invest in India to benefit from the Country's particular investment privileges such as tax breaks and comparatively lower salaries. This type of investment is an example of:",
+    "options": {
+      "a": "Foreign Portfolio Investment",
+      "b": "Joint Venture",
+      "c": "Foreign Direct Investment",
+      "d": "Strategic Alliance"
+    },
+    "answer": "c",
+    "chapter_number": 9
+  }
+]

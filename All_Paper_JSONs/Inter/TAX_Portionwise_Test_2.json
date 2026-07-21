@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "subject_code": "TAX",
+    "subject_name": "Taxation",
+    "paper_num": "Portionwise_2",
+    "total_marks_printed": 50,
+    "total_marks_in_paper": 50,
+    "section_a_marks": 0,
+    "section_b_marks": 50,
+    "two_section_format": false,
+    "note": "Portionwise Test: Attempt all 5 questions. Each question carries 10 marks (6 + 4 split).",
+    "blacklisted_from": [],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)"
+    ]
+  },
+  "section_a": [],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "2",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Question 7 (MTP 6 Marks, Apr'23, PYP 6 Marks Nov '22)\n\nMr. Sarthak, an individual and Indian citizen living in Dubai, since year 2006 and never came to India for a single day since then, earned the following incomes during previous year 2025-26:\n\n|  | Particulars | Amount (in Rs.) |\n| :--- | :--- | :--- |\n| (i) | Income accrued and arisen in Dubai but he is not liable to tax in Dubai | 20,00,000 |\n| (ii) | Income accrued and arisen in India | 5,00,000 |\n| (iii) | Income deemed to accrue and arise in India | 8,00,000 |\n| (iv) | Income arising in Dubai from a profession set up in India | 10,00,000 |\n\nI. Determine the residential status of Mr. Sarthak and taxable income for the previous year 2025-26 (assuming no other income arise during the previous year).\n\nII. What would be your answer if income arising in Dubai from a profession set up in India is Rs. 2 lakhs instead of Rs. 10 lakhs?\n\nIII. What would be your answer, if Mr. Sarthak is not an Indian citizen but his parents were born in India?",
+          "answer": "1. Mr. Sarthak is an Indian citizen living in Dubai since 2005 who never came to India for a single day since then, he would not be a resident in India for the P.Y. 2025-26 on the basis of number of days of his stay in India as per section 6(1). However, since he is an Indian citizen\n\n- having total income (excluding income from foreign sources) of Rs. 23 lakhs, which exceeds the threshold of Rs.15 lakhs during the previous year; and\n- not liable to tax in Dubai, he would be deemed resident in India for the P.Y. 2025-26 by virtue of section 6(1A). A deemed resident is always a resident but not ordinarily resident in India (RNOR).\n\nComputation of Total Income for A.Y.2026-27\n\n|  | Particulars | Rs. |\n| :--- | :--- | :--- |\n| (i) | Income accrued and arisen in Dubai (not taxable in case of an RNOR) | - |\n| (ii) | Income accrued and arisen in India (taxable) | 5,00,000 |\n| (iii) | Income deemed to accrue or arise in India (taxable) | 8,00,000 |\n| (iv) | Income arising in Dubai from a profession set up in India would be taxable in case of RNOR | 10,00,000 |\n|  | Total income | 23,00,000 |\n\nII. If income arising in Dubai from a profession set up in India is Rs. 2 lakhs instead of Rs. 10 lakhs, his total income (excluding income from foreign sources) would be only Rs. 15 lakhs. Since the same does not exceed the threshold limit of Rs. 15 lakhs, he would not be deemed resident. Accordingly, he would be non-resident in India for the P.Y. 2025-26 and hence, his total income would be only Rs. 13 lakhs (aggregate of (ii) and (iii) above i.e., Rs. 5 lakhs + Rs. 8 lakhs).\n\nIII. If Mr. Sarthak is not an Indian citizen and his parents were born in India, he would be person of Indian origin. In such case, the provisions relating to deemed resident would not apply to him. Accordingly, he would be non-resident in India during the P.Y. 2025-26 and his total income would be Rs.13 lakhs.\n\nNote - In sub-part III., it is inferred that he is not a citizen of India since he is not born in India. It is assumed that he has not applied for citizenship by fulfilling the other specified eligibility condition.",
+          "chapter_number": "2",
+          "chapter_name": "RESIDENCE AND SCOPE OF TOTAL INCOME",
+          "unique_id": "2-T-7"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Determine the residential status of Mr. Madan and his HUF and compute gross total income of Mr. Madan for the assessment year 2026-27 assuming he opted out of the default tax regime. The value of one USD ($) may be taken as Rs. 70. (PYP 4 Marks Sep'24,MP[8])",
+          "answer": "## Residential Status of Mr. Madan\n\nMr. Madan, an Indian citizen who left India on $1^{\text {st }}$ September 2025 for the purpose of employment to USA, would be non-resident in India, since he stayed in India for 169 days $(30+31+30+31+31+1+15)$ only during the P.Y. 2025-26 which is less than 182 days.\n\n## Residential Status of HUF\n\nSince Mr. Madan is managing the HUF for part of the year from India, control and management of its affairs is situated partly in India.\n\nHence, the HUF would be resident in India for the P.Y. 2025-26.\n\nA HUF is said to be \"Resident and ordinarily resident\" in India during the previous year 2025-26, if Karta (Mr. Madan, in this case) satisfies both the following conditions:\n\n- He is a resident in at least 2 out of 10 previous years preceding the relevant previous year; and\n- His stay in India in the last 7 years preceding the relevant previous year is 730 days or more.\n\nMr. Madan has satisfied both the above conditions as he had never gone out of India except for 99 days and 201 days in the P.Y. 2024-25 and P.Y. 2023-24, respectively, the HUF would be ROR in India.\n\n## Computation of Gross Total Income of Mr. Madan for the A.Y. 2026-27\n\n|  | Amount in Rs. |\n| :--- | :--- |\n| Income under the head \"Salaries\" |  |\n| Salary earned in India: [ $Rs. 65,500 \\times 5+$ Rs. $65,500 \\times 15 / 31$ ] | 3,59,194 |\n| Salary paid in USA: [Not taxable as Mr. Madan is a non- resident and such income does not accrue or arise or received in India] | Nil |\n| Less: Standard Deduction | 50,000 |\n| Salary Income | 3,09,194 |\n| Income from other sources |  |\n| Difference between the consideration of Rs. 18 lakhs and stamp duty value of Rs. 23 lakhs of the residential property acquired [Taxable, since the difference of Rs. 5 lakhs exceed Rs. 1,80,000, being the higher of 10\\% of the consideration and Rs.50,000] | 5,00,000 |\n| Sculpture received as gift from Rajeev, his friend in India[Not taxable as the value does not exceed Rs.50,000] | Nil |\n| Gross Total Income | 8,09,914 |",
+          "chapter_number": "2",
+          "chapter_name": "RESIDENCE AND SCOPE OF TOTAL INCOME",
+          "unique_id": "2-T-21"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "1",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Question 8 (MTP 6 Marks Jul'24,MP[3]) Miss Geeta, a citizen of India, got married to Mr. Peter of Australia and left India for the first time on 20.8.2025. She has not visited India again during the P.Y. 2025-26. She has derived the following to income for the year ended 31-3-2026:\n\n|  | Particulars | Rs. |\n| :--- | :--- | :--- |\n| (i) | Income from sale of centrifuged latex processed from rubber plants grown in Kanyakumari. | 1,50,000 |\n| (ii) | Income from sale of coffee grown, cured, roasted and grounded in Colombo. Sale consideration was received in Chennai. | 5,00,000 |\n| (iii) | Income from sale of tea grown and manufactured in West Bengal. | 12,00,000 |\n| (iv) | Income from sapling and seedling grown in a nursery at Cochin. Basic operations were not carried out by her on land. | 2,00,000 |\n\nYou are required to determine the residential status of Miss Geeta and compute the business income and agricultural income of Miss. Geeta for the Assessment Year 2026-27.",
+          "answer": "Miss Geeta is said to be resident if she satisfies any one of the following basic conditions:\n\n(i) Has been in India during the previous year for a total period of 182 days or more\n\n(or)\n\n(ii) Has been in India during the 4 years immediately preceding the previous year for a total period of 365 days or more and has been in India for at least 60 days during the previous year.\n\nMiss Geeta's stay in India during the P.Y.2025-26 is 142 days $[30+31+30+31+20]$ which is less than 182 days. However, her stay in India during the P.Y.2025-26 exceeds 60 days. Since, she left India for the first time, her stay in India during the four previous years prior to P.Y.2025-26 would be more than 365 days. Hence, she is a resident for P.Y.2025-26. Further, Miss Geeta would be \"Resident and ordinarily resident\" in India in during the previous year 2025-26, since her stay in India in the last seven previous years prior to P.Y.2025-26 is more than 729 days and she must be resident in the preceding ten years.\n\nComputation of business income and agricultural income of Miss Geeta for A.Y. 2026-27\n\n| Particulars |  | Income | Business Income Rs. | Agricultural Income Rs. |\n| :--- | :--- | :--- | :--- | :--- |\n| (i) | Income from sale of Centrifuged latex processed from rubber plants grown in Kanyakumari (Apportioned between business and agricultural income in the ratio of 35:65 as per Rule 7A of Income-tax Rules,1962) | 1,50,000 | 52,500 | 97,500 |\n| (ii) | Income from sale of coffee grown, cured, roasted and grounded in Colombo and received in Chennai [See Note 1 below] | 5,00,000 | 5,00,000 | - |\n| (iii) | Income from sale of tea grown and manufactured in West Bengal (Apportioned between business and agricultural income in the ratio of 40:60 as per Rule 8 of the Income-tax Rules, 1962) | 12,00,000 | 4,80,000 | 7,20,000 |\n| (iv) | Income from sapling and seedling grown in a nursery at Cochin. Basic operations were not carried out on land [See Note 2 below] | $\\underline{2,00,000}$ | $\\_\\_\\_\\_$ <br> 二 | $\\underline{2,00,000}$ |\n|  |  | 20,50,000 | 10,32,500 | 10,17,500 |\n\nNotes: (i) Since Ms. Geeta is resident and ordinarily resident in India for A.Y. 2026-27, her global income is taxable in India. Entire income from sale of coffee grown, cured, roasted and grounded in Colombo is taxable as business income since such income is earned from sale of coffee grown, cured, roasted and grounded outside India i.e., in Colombo.\n\n(ii) As per Explanation 3 to section 2(1A), income derived from sapling or seedlings grown in a nursery would be deemed to be agricultural income, whether or not the basic operations were carried out on land. Hence, income of Rs. 2,00,000 from sapling and seedling grown in a nursery at Cochin is agricultural income.",
+          "chapter_number": "1",
+          "chapter_name": "BASIC CONCEPTS",
+          "unique_id": "1-T-8"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Question 2 (PYP 4 Marks Nov'22)\n\n$\text{Mr. X}$ a resident, aged 56 years, till recently was a successful businessman filing his return of incomes regularly and promptly ever since he obtained PAN card. During the COVID- Pandemic period his business suffered severely and he incurred huge losses. He was not able to continue his business and finally on $1^{\text{st}}$ January 2026 he decided to wind-up his business which he also promptly intimated to the jurisdictional Assessing Officer about the closure of his business.\n\nThe Assessing Officer sent him a notice to tax income of 2 A. $\text{Y}_{1}$ 72026-27 during the A.Y. 2025-26 itself. Does the Assessing Officer have the power to do so? Are there any exceptions to the general rule \"Income of the previous year is assessed in the assessment year following the previous year\"?",
+          "answer": "Yes, he has the power to do so.\n\nSince the business of Mr. X is discontinued on 1st January, 2026, the income of the period from 1.4.2025 to 1.1.2026 may, at the discretion of the Assessing Officer, be charged to tax in P.Y. 2025-26 itself.\n\nFollowing are the other exceptions to the general rule \"Income of the previous year is assessed in the assessment year following the previous year\" i.e., the income of the previous year is assessed in the previous year itself.\n\n(i) Shipping business of non-resident\n\n(ii) Persons leaving India with no present intention of returning\n\n(iii) AOP/BOI/Artificial Juridical Person formed for a particular event or purpose and likely to be dissolved\n\n(iv) Persons likely to transfer property to avoid tax.\n\nEXAM INSIGHTS: While computing total income of an individual, some of the examinees had not provided deduction under section 80TTA in respect of interest on savings account of minor child included in the hands of the parent.",
+          "chapter_number": "1",
+          "chapter_name": "BASIC CONCEPTS",
+          "unique_id": "1-T-2"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "3",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Compute the income chargeable from house property of Mr. Vivi Tsu for the A.Y.2026-27 if he has shifted out of the default tax regime, considering that he has a self-occupied house at Delhi with an interest on borrowed capital of Rs. 2,00,000, and a let-out house property at Bangalore with an actual rent of Rs. 40,000 per month, municipal taxes of Rs. 5,400, expected rent being the higher of Rs. 4,20,000 and municipal value and fair rent of Rs. 4,58,000 but restricted to a standard rent of Rs. 4,20,000, and interest on borrowed capital of Rs. 2,50,000.",
+          "answer": "Since Mr. Vivi Tsu, is a resident but not ordinarily resident in India, only the income in respect of properties situated in India would be taxable in his hands. Thus, the rental income which accrues or arises in Country Y from the let-out property and annual value of self-occupied property would not be taxable in his hands. However, income arising from properties in India are taxable in the hands of Mr. Vivi Tsu. Accordingly, the income from house property of Mr. Vivi Tsu for A.Y.2026-27 will be calculated as under:\n\n| Particulars |  | Rs. | Rs. |\n| :--- | :--- | :--- | :--- |\n| 1. | Self-occupied house at Delhi |  |  |\n|  | Annual value |  | Nil |\n|  | Less: Deduction under section 24 | Nil |  |\n|  | Interest on borrowed capital (See Note below) |  | 2,00,000 |\n|  | Chargeable income from this house property |  | (2,00,000) |\n| 2. | Let out house property at Bangalore |  |  |\n|  | Expected rent, being higher of Rs. $3,58,000$ | 4,20,000 |  |\n|  | municipal value and fair rent of Rs. 4,58,000 |  |  |\n|  | but restricted to Standard rent of Rs. 4,20,000 |  |  |\n|  | Actual rent [ $Rs. 40,000 \\times 12$ ] | 4,80,000 |  |\n|  | Gross Annual Value, being higher of expected rent and actual rent |  | 4,80,000 |\n|  | Less: Municipal taxes |  | 5,400 |\n|  | Net Annual Value |  | 4,74,600 |\n|  | Less: Deduction under section 24 |  |  |\n|  | - $30 \\%$ of net annual value [ $30 \\% \\times$ Rs. $4,74,600$ ] | 1,42,380 |  |\n|  | - Interest on borrowed capital (actual allowable as deduction without any ceiling limit) | 2,50,000 | 3,92,380 |\n|  |  |  | 82,220 |\n|  | Loss under the head \"Income from house property\" (Rs. 2,00,000 - Rs. 82,220) |  | (1,17,780) |\n\n\nNote: Interest on borrowed capital Gauresh|8237317945\n\n| Particulars |  | Rs. |\n| :--- | :--- | :--- |\n| Interest for the current year [ $18,00,000 \\times 9.5 \\%$ ] |  | 1,71,000 |\n| Add: $1 / 5$ th of pre-construction interest ( $Rs. 2,85,000 \\times 1 / 5$ ) |  | 57,000 |\n| 1.8.2023 to $31.03 .2024-(Rs. 18,00,000 \\times 9.5 \\% \\times 8 / 12)$ | 1,14,000 |  |\n| 1.4.2024 to $31.03 .2025-(Rs. 18,00,000 \\times 9.5 \\%)$ | $\\underline{1,71,000}$ |  |\n|  |  | 2,28,000 |\n| Interest deduction allowable under section 24, restricted to |  | 2,00,000 |",
+          "chapter_number": "3.2",
+          "chapter_name": "INCOME FROM HOUSE PROPERTY",
+          "unique_id": "3.2-T-3"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Compute the total income of Ms. Neelima for the assessment year 2026-27, clearly showing all workings. (Ignore section 115BAC provisions). (PYP 6 Marks Nov'23)",
+          "answer": "Computation of Total income of Ms. Neelima for A.Y. 2026-27\n\n| Particulars | ₹ | ₹ | ₹ |\n| :--- | :--- | :--- | :--- |\n| Income under the head \"Salaries\" |  |  |  |\n| Basic Salary [ ₹ 22,600 × 4+₹ 22,900 × 5 ] |  | 2,04,900 |  |\n| Gratuity [ ₹ 12,00,000 - ₹ 1,59,040] |  | 10,40,960 |  |\n| Less: Exempt under section 10(10) - Least of the following: |  |  |  |\n| (i) Notified limit | 20,00,000 |  |  |\n| (ii) Actual gratuity received | 12,00,000 |  |  |\n| (iii) 1 / 2 × 22,720[(22,600 × 6+22,900 × 4) / 102] × 14 [No. of completed years of services, ignore fraction] | 1,59,040 |  |  |\n| Leave encashment [ ₹ 4,14,000 - ₹ 2,27,500] |  | 1,86,500 |  |\n| Less: Exempt under section 10(10AA) - Least of the following: |  |  |  |\n| (i) Notified limit [₹ 25,00,000 - ₹ 59,000, amount exempted earlier] | 24,41,000 |  |  |\n| (ii) Actual leave salary received | 4,14,000 |  |  |\n| (iii) 10 months × 22,750[(₹ 22,600 × 5+22,900 × 5) / 103] | 2,27,500 |  |  |\n| (iv) Cash equivalent of leave to his credit | 2,50,250 |  |  |\n| [ ₹ 22,750 × 11 [ 420 days ( 30 days × 14 years of service) less 90 days of leave availed /30] |  |  |  |\n| Employer's contribution from unrecognized provident fund received on retirement |  | 2,10,000 |  |\n| Interest on Employer's contribution from unrecognized provident fund received on retirement |  | 50,000 |  |\n| Gross Salary |  | 16,92,360 |  |\n| Less: Standard deduction u/s 16(ia) |  | 50,000 |  |\n| Taxable Salary |  |  | 16,42,360 |\n| Income from Other Sources |  |  |  |\n| Interest on employee's contribution from unrecognized provident fund |  | 60,000 |  |\n| Employee's contribution from unrecognized provident fund received on retirement [Not Taxable] |  | ___ | 60,000 |\n| Gross Total Income/Total Income |  |  | ₹ 17,02,360 |",
+          "chapter_number": "3.1",
+          "chapter_name": "SALARIES",
+          "unique_id": "3.1-T-4"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "1",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Question 8 (MTP 6 Marks Jul'24,MP[3]) Miss Geeta, a citizen of India, got married to Mr. Peter of Australia and left India for the first time on 20.8.2025. She has not visited India again during the P.Y. 2025-26. She has derived the following to income for the year ended 31-3-2026:\n\n|  | Particulars | Rs. |\n| :--- | :--- | :--- |\n| (i) | Income from sale of centrifuged latex processed from rubber plants grown in Kanyakumari. | 1,50,000 |\n| (ii) | Income from sale of coffee grown, cured, roasted and grounded in Colombo. Sale consideration was received in Chennai. | 5,00,000 |\n| (iii) | Income from sale of tea grown and manufactured in West Bengal. | 12,00,000 |\n| (iv) | Income from sapling and seedling grown in a nursery at Cochin. Basic operations were not carried out by her on land. | 2,00,000 |\n\nYou are required to determine the residential status of Miss Geeta and compute the business income and agricultural income of Miss. Geeta for the Assessment Year 2026-27.",
+          "answer": "Miss Geeta is said to be resident if she satisfies any one of the following basic conditions:\n\n(i) Has been in India during the previous year for a total period of 182 days or more\n\n(or)\n\n(ii) Has been in India during the 4 years immediately preceding the previous year for a total period of 365 days or more and has been in India for at least 60 days during the previous year.\n\nMiss Geeta's stay in India during the P.Y.2025-26 is 142 days $[30+31+30+31+20]$ which is less than 182 days. However, her stay in India during the P.Y.2025-26 exceeds 60 days. Since, she left India for the first time, her stay in India during the four previous years prior to P.Y.2025-26 would be more than 365 days. Hence, she is a resident for P.Y.2025-26. Further, Miss Geeta would be \"Resident and ordinarily resident\" in India in during the previous year 2025-26, since her stay in India in the last seven previous years prior to P.Y.2025-26 is more than 729 days and she must be resident in the preceding ten years.\n\nComputation of business income and agricultural income of Miss Geeta for A.Y. 2026-27\n\n| Particulars |  | Income | Business Income Rs. | Agricultural Income Rs. |\n| :--- | :--- | :--- | :--- | :--- |\n| (i) | Income from sale of Centrifuged latex processed from rubber plants grown in Kanyakumari (Apportioned between business and agricultural income in the ratio of 35:65 as per Rule 7A of Income-tax Rules,1962) | 1,50,000 | 52,500 | 97,500 |\n| (ii) | Income from sale of coffee grown, cured, roasted and grounded in Colombo and received in Chennai [See Note 1 below] | 5,00,000 | 5,00,000 | - |\n| (iii) | Income from sale of tea grown and manufactured in West Bengal (Apportioned between business and agricultural income in the ratio of 40:60 as per Rule 8 of the Income-tax Rules, 1962) | 12,00,000 | 4,80,000 | 7,20,000 |\n| (iv) | Income from sapling and seedling grown in a nursery at Cochin. Basic operations were not carried out on land [See Note 2 below] | $\\underline{2,00,000}$ | $\\_\\_\\_\\_$ <br> 二 | $\\underline{2,00,000}$ |\n|  |  | 20,50,000 | 10,32,500 | 10,17,500 |\n\nNotes: (i) Since Ms. Geeta is resident and ordinarily resident in India for A.Y. 2026-27, her global income is taxable in India. Entire income from sale of coffee grown, cured, roasted and grounded in Colombo is taxable as business income since such income is earned from sale of coffee grown, cured, roasted and grounded outside India i.e., in Colombo.\n\n(ii) As per Explanation 3 to section 2(1A), income derived from sapling or seedlings grown in a nursery would be deemed to be agricultural income, whether or not the basic operations were carried out on land. Hence, income of Rs. 2,00,000 from sapling and seedling grown in a nursery at Cochin is agricultural income.",
+          "chapter_number": "1",
+          "chapter_name": "BASIC CONCEPTS",
+          "unique_id": "1-T-8"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Compute Mr. Sharma's tax liability for A.Y.2026-27 under the default tax regime and optional tax regime as per the normal provisions of the Act assuming that the total income is Rs. 2,30,00,000, with Rs. 52,00,000 taxed at 12.5%, Rs. 64,00,000 taxed at 20%, and other income taxed as detailed for different slabs. Assume relevant surcharges and cess as given.",
+          "answer": "Computation of tax liability of Mr. Sharma for the A.Y.2026-27 under default tax regime\n\n| Particulars | $Rs.$ |  |\n| :--- | ---: | ---: |\n| Tax on total income of Rs. $2 , 3 0 , 0 0 , 0 0 0$ |  |  |\n| Tax@12.5% of Rs.52,00,000 |  | $6,50,000$ |\n| Tax@20% of Rs.64,00,000 |  | $12,80,000$ |\n| Tax on other income of Rs. 1,14,00,000 |  |  |\n| :--- | :--- | :--- |\n| Rs. 4,00,000 - Rs. 8,00,000 @ 5% | 20,000 |  |\n| Rs. 8,00,000 - Rs. 12,00,000 @10% | 40,000 |  |\n| Rs. 12,00,000 - Rs. 16,00,000 @15% | 60,000 |  |\n| Rs. 16,00,000 - Rs. 20,00,000 @20% | 80,000 |  |\n| Rs. 20,00,000 - Rs. 24,00,000 @25% | 1,00,000 |  |\n| Rs. 24,00,000 - Rs. 1,14,00,000 @30% | $27,00,000$ | $30,00,000$ |\n|  |  | 49,30,000 |\n| Add: Surcharge @15% |  | $7,39,500$ |\n|  |  | 56,69,500 |\n| Add: Health and education cess @4% |  | 2,26,780 |\n| Tax Liability |  | 58,96,280 |\n\nComputation of tax liability of Mr. Sharma for the A.Y.2026-27 under normal provisions of the Act\n\n| Particulars |  | Rs. |\n| :--- | :--- | :--- |\n| Tax on total income of Rs. 2,30,00,000 |  |  |\n| Tax@12.5% of Rs. 52,00,000 |  | 6,50,000 |\n| Tax@20% of Rs. 64,00,000 |  | 12,80,000 |\n| Tax on other income of Rs. 1,14,00,000 |  |  |\n| Rs. 3,00,000 - Rs. 5,00,000 @5% | 10,000 |  |\n| Rs. 5,00,000 - Rs. 10,00,000 @20% | 1,00,000 |  |\n| Rs. 10,00,000 - Rs. 1,14,00,000 @30% | $31,20,000$ | $32,30,000$ |\n|  |  | 51,60,000 |\n| Add: Surcharge @15% |  | $7,74,000$ |\n|  |  | 59,34,000 |\n| Add: Health and education cess @4% |  | $2,37,360$ |\n| Tax Liability |  | 61,71,360 |",
+          "chapter_number": "1",
+          "chapter_name": "BASIC CONCEPTS",
+          "unique_id": "1-T-7"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "1",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Assuming Mr. Agarwal's total income for A.Y. 2026-27 is Rs. 6,50,00,000, with Rs. 55,00,000 and Rs. 65,00,000 subject to tax@12.50% and 20%, and the remaining Rs. 5,30,00,000 divided across different slabs as detailed in the answer, compute Mr. Agarwal's tax liability under the default and optional tax regimes.",
+          "answer": "Computation of tax liability of Mr. Agarwal for the A.Y.2026-27 under default tax regime\n\n| Particulars |  | Rs. |\n| :--- | :--- | :--- |\n| Tax on total income of Rs. 6,50,00,000 |  |  |\n| Tax@12.50% of Rs. 55,00,000 |  | 6,87,500 |\n| Tax@20% of Rs. 65,00,000 |  | 13,00,000 |\n| Tax on other income of Rs. 5,30,00,000 |  |  |\n| Rs. 4,00,000 - Rs. 8,00,000 @ 5% | 20,000 |  |\n| Rs. 8,00,000 - Rs. 12,00,000 @10% | 40,000 |  |\n| Rs. 12,00,000 - Rs. 16,00,000 @15% | 60,000 |  |\n| Rs. 16,00,000 - Rs. 20,00,000 @20% | 80,000 |  |\n| Rs. 20,00,000 - Rs. 24,00,000 @25% | 1,00,000 |  |\n| Rs. 24,00,000 - Rs. 5,30,00,000 @30% | 1,51,80,000 | 1,54,80,000 |\n|  |  | 1,74,67,500 |\n| Add: Surcharge @15% on Rs. 19,87,500 | 2,98,125 |  |\n| @25% on Rs. 1,54,80,000 | 38,70,000 | 41,68,125 |\n|  |  | 2,16,35,625 |\n| Add: Health and education cess @4% |  | 8,65,425 |\n| Tax Liability |  | 2,25,01,050 |\n\nComputation of tax liability of Mr. Agarwal for the A.Y.2026-27 under normal provisions of the Act\n\n| Particulars | Gauresh | 8237317945 |  | Rs. |\n| :--- | :--- | :--- | :--- | :--- |\n| Tax on total income of Rs. 6,50,00,000 |  |  |  |\n| Tax@12.50% of Rs. 55,00,000 |  |  | 6,87,500 |\n| Tax@20% of Rs. 65,00,000 |  |  | 13,00,000 |\n| Tax on other income of Rs. 5,30,00,000 |  |  |  |\n| Rs. 2,50,000 - Rs. 5,00,000 @5% |  | 12,500 |  |\n| Rs. 5,00,000 - Rs. 10,00,000 @20% |  | 1,00,000 |  |\n| Rs. 10,00,000 - Rs. 5,30,00,000 @30% |  | 1,56,00,000 | 1,57,12,500 |\n|  |  |  | 1,77,00,000 |\n| Add: Surcharge @15% on Rs. 19,87,500 |  | 2,98,125 |  |\n| @37% on Rs. 1,57,12,500 |  | 58,13,625 | 61,11,750 |\n|  |  |  | 2,38,11,750 |\n| Add: Health and education cess @4% |  |  | 9,52,470 |\n| Tax Liability |  |  | 2,47,64,220 |",
+          "chapter_number": "1",
+          "chapter_name": "BASIC CONCEPTS",
+          "unique_id": "1-T-6"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "State with reasons whether income chargeable to tax in India for the A.Y. 2026-27 in the hands of recipients in following independent situations: (i) Mr. Mahesh received dividend of Rs. 7 lakhs declared and paid by a foreign company outside India. Such dividend has been declared in respect of shares which derive their value substantially from assets situated in India. He is resident and not ordinarily resident in India. (ii) Mr. Shivansh is a non-resident in India and residing in China has deposited Rs. 16 lakhs with M/s ABC Ltd., an Indian company, on 01-09-2025. He has received interest @ 12% per annum in China during the previous year 2025-26. (iii) Mr. Ramesh received royalty of Rs. 8,25,000 in consideration of providing patent rights to Mr. Sunil. Mr. Sunil has developed a new product in India by utilizing the patent rights. 30% of the royalty was received in India and 70% was received outside India. Mr. Ramesh and Sunil both have status of non-resident in India. (PYP 6 Marks May'25)",
+          "answer": "(i) Dividend received by Mr. Mahesh from a foreign company outside India would not be deemed to accrue or arise in India even if shares of such company derive their value substantially from assets situated in India. Hence, such dividend of Rs. 7 lakhs would not be taxable in the hands of Mr. Mahesh.\n\n(ii) Interest on deposits with M/s ABC Ltd., an Indian Company, would be deemed to accrue or arise in India in the hands of Mr. Shivansh, being a non-resident since source of income is in India. Thus, interest income of Rs. 1,12,000 ( Rs. 16 lakhs × 12% × 7/12 ) would be taxable in his hands.\n\n(iii) Royalty received by Mr. Ramesh, a non-resident from Mr. Sunil, another non-resident would be deemed to accrue or arise in India, since such royalty is paid for patent rights used for a new product developed in India. Thus, Rs. 8,25,000 would be taxable in the hands of Mr. Ramesh irrespective of the facts that only 30% such amount is received in India.",
+          "chapter_number": "2",
+          "chapter_name": "RESIDENCE AND SCOPE OF TOTAL INCOME",
+          "unique_id": "2-T-25"
+        }
+      ]
+    }
+  ]
+}

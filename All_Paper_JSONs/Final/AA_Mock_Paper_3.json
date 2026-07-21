@@ -1,0 +1,480 @@
+{
+  "meta": {
+    "subject_code": "AA",
+    "subject_name": "Advanced Auditing",
+    "paper_num": 3,
+    "total_marks_printed": 100,
+    "total_marks_in_paper": 114,
+    "section_a_marks": 30,
+    "section_b_marks": 84,
+    "note": "Section B: Q1 compulsory (14m). Attempt any 4 of Q2-Q6 (14m each).",
+    "blacklisted_from": [
+      "Generated_Papers/AA/AA_Mock_Paper_1.json",
+      "Generated_Papers/AA/AA_Mock_Paper_2.json"
+    ]
+  },
+  "section_a": [
+    {
+      "type": "case_study",
+      "chapter_number": "19.1",
+      "chapter_name": "PROFESSIONAL ETHICS AND LIABILITIES OF AUDITORS",
+      "case_text": "CA. Subhadra is conducting statutory audit of a branch of FNB Bank. The branch is having deposits of \u20b9 450 crore and advances of \u20b9300 crore respectively reflected in its financial statements as on 31 ${ }^{\\text {st }}$ March 2026. While performing audit procedures, she noticed the following: -\n\n[1] While reviewing advances of the branch, she came across the following particulars of two cash credit accounts: (\u20b9 in crore)\n\n| Name of borrower | Sanctioned Limit | Value of primary security | Value of collateral security | Net worth of borrower | Net worth of guarantors |\n\n| :--- | :--- | :--- | :--- | :--- | :--- |\n\n| KT Fab | 10.00 | 20.00 | 15.00 | 5.00 | 3.00 |\n\n| PM Decor | 15.00 | 25.00 | 12.00 | 7.50 | 5.00 |\n\nFollowing further information is also available in respect of above noted accounts: -\n\nInformation pertaining to KT Fab (\u20b9 in crore)\n\n| As on | Drawing power | Outstanding balances |\n\n| :--- | :--- | :--- |\n\n| 31.12.2025 | 9.00 | 9.61 |\n\n| 31.01.2026 | 9.25 | 9.55 |\n\n| 28.02.2026 | 9.50 | 9.60 |\n\n| 31.03.2026 | 9.50 | 9.75 |\n\nThe outstanding balance in the account has remained more than \u20b99.50 crore beginning from 31st December, 2025 till 31st March, 2026 on all days.\n\nInformation pertaining to PM D\u00e9cor(\u20b9 in crore)\n\n| As on | Drawing power | Outstanding balances |\n\n| :--- | :--- | :--- |\n\n| 31.12.2025 | 12.00 | 12.50 |\n\n| 31.01.2026 | 12.50 | 12.25 |\n\n| 28.02.2026 | 12.50 | 12.40 |\n\n| 31.03.2026 | 12.50 | 12.50 |\n\nBoth units are working and their financial position is satisfactory. The branch has classified both accounts as Standard Assets.\n\n[2] On reviewing \"Statement of Accounts classified as NPA\" as on 31.03.26, she finds that an education loan was granted to son of Mr. X, a customer of bank, for pursuing short duration technical higher studies abroad for \u20b9 50.00 lakh sometime back repayable in 5 years. The loan was granted against security of residential house of Mr. X, valuing \u20b9 60.00 lakh assessed by bank's empaneled value. However, the name of bank's empaneled value has now been removed due to certain irregularities. Later, value of residential house got reassessed from another value and he gave a report reflecting realizable value of residential house for \u20b920.00 lakh. Meanwhile, the instalments in education loan account are overdue for $\\mathbf{1 1 0}$ days as on 31 st March, 2026. The account was classified as standard asset till last year i.e.,31 st March, 2025.\n\n[3] While verifying deposits of the branch, she noticed that inoperative accounts for less than 10 years are\nto the tune of \u20b95 crore reflected in the balance sheet of the branch. She plans to focus her audit procedures on this segment too. One of her team members has suggested the following audit procedures in this regard:\n\n- Verifying whether there exists a system of informing customers on accounts turning inoperative.\n\n- Identification of cases where there is significant reduction in balances as compared to last year.\n\n- Testing debits in inoperative accounts.\n\n- Verifying auto activation of inoperative accounts.\n\n[4] While gathering information to be included in LFAR, she comes across some cases of advance accounts which became non-performing within a relatively short span of time. The details of few such identified accounts are as under:\n\n| Account name | Sanctioned amount (\u20b9 in crore) | Nature of facility | Date of first sanction | Date of renewal |\n\n| :--- | :--- | :--- | :--- | :--- |\n\n| ABC Industries | 1.00 | Cash credit | 15/05/25 | Not applicable |\n\n| XY Pvt. Ltd. | 0.50 | Cash credit | 01/07/25 | Not applicable |\n\n| SK \\& Sons | 1.50 | Cash credit | 04/04/24 | 04/04/25 |\n\n| DK Creations | 0.75 | Term loan | 01/10/25 | Not applicable |\n\n[5] The branch also sends substantial number of Inland outward bills for collection. The bank has a system under which account of customer on whose behalf bill has been sent for collection is credited only after the bill has been actually collected from the drawee either by the bank itself or through its agents. One of her team members has jotted following audit procedures for Inland outward bills sent for collection:\n\n- Verification of outward bills for collection as on closing date.\n\n- Verification of accrual of commission income in respect of bills outstanding as on closing date.\n\n- Verification of accrual of charges in account of customer on whose behalf bill was sent for recovery where bill has been returned unpaid.",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Keeping in view information stated in respect of two borrower accounts at para [1] of case scenario, which of the following statement is correct?",
+          "options": {
+            "a": "The classification made by branch is not proper. Both accounts should be classified as non - performing assets.",
+            "b": "The classification made by branch is not proper. Borrower account of KT Fab should be classified as Standard asset. However, borrower account of PM D\u00e9cor should be classified as non-performing asset.",
+            "c": "The classification made by branch is not proper. Borrower account of KT Fab should be classified as non-performing asset. However, borrower account of PM D\u00e9cor should be classified as Standard asset.",
+            "d": "The classification made by branch is proper."
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": 1
+        },
+        {
+          "q_num": 2,
+          "question": "Considering issue relating to education loan described in para [1] of case scenario, how should it be classified in books of branch as on 31st March, 2026? (Chapter 14.1 - Special Features of Audit of Banks)",
+          "options": {
+            "a": "Sub-standard asset.",
+            "b": "Doubtful asset.",
+            "c": "SMA.",
+            "d": "Loss asset."
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": 2
+        },
+        {
+          "q_num": 3,
+          "question": "As discussed in para [3] of case scenario, one of team members has suggested certain audit procedures described in case scenario for verification of inoperative accounts. Which of audit procedure(s)/ combination of procedures are relevant in such a situation? ( $\\mathbf{1 4 . 1}$ - Special Features of Audit of Banks)",
+          "options": {
+            "a": "Identification of cases where there is significant reduction in balances as compared to last year, testing debits in inoperative accounts and verifying auto-activation of inoperative accounts.",
+            "b": "Verifying whether there exists a system of informing customers on account turning inoperative, identification of cases where there is significant reduction in balances as compared to last year and verifying auto activation of inoperative accounts.",
+            "c": "Verifying whether there exists a system of informing customers on account turning inoperative, testing debits in inoperative accounts and verifying auto activation of inoperative accounts.",
+            "d": "Verifying whether there exists a system of informing customers on account turning inoperative, identification of cases where there is significant reduction in balances as compared to last year and testing debits in inoperative accounts."
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null,
+          "_serial": 3
+        },
+        {
+          "q_num": 4,
+          "question": "Quick mortality cases are required to be stated in LFAR by statutory branch auditor. With reference to the particulars in para [4] above, which of the following statement is correct?",
+          "options": {
+            "a": "All the four cases reflected in the table in para [4] are quick mortality cases. Quick mortality cases are indicative of shortcomings in credit appraisal.",
+            "b": "Only the case of DK creations is in nature of quick mortality case. Quick mortality cases are indicative of shortcomings in credit appraisal.",
+            "c": "Cases of ABC Industries, XY Pvt Ltd and DK creations are in nature of quick mortality cases. Quick mortality cases are indicative of shortcomings in credit appraisal.",
+            "d": "Cases of XY Pvt Ltd and DK creations are in nature of quick mortality cases. Quick mortality cases are indicative of shortcomings in credit disbursement."
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": 4
+        },
+        {
+          "q_num": 5,
+          "question": "One of her team members has planned certain audit procedures described in case scenario at para [5] for verification of Inland outward bills for collection. Which of the following audit procedure(s)/combination of procedures are likely to be relevant in such situation?",
+          "options": {
+            "a": "To verify bills for collection on closing date.",
+            "b": "To verify bills for collection on closing date and verification of accrual of commission in respect of bills outstanding as on closing date.",
+            "c": "To verify accrual of charges in account of customer on whose behalf bill was sent for recovery where bill has been returned unpaid.",
+            "d": "To verify accrual of commission in respect of bills outstanding as on closing date and verification of accrual of charges in the account of customer on whose behalf bill was sent for recovery where bill has been returned unpaid."
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": 5
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "19.1-CS-10"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "19.1",
+      "chapter_name": "PROFESSIONAL ETHICS AND LIABILITIES OF AUDITORS",
+      "case_text": "## CS 11 <br> (RTP May'22, MP [3])\n\n\nM/s JKL & Associates, Chartered Accountants were acting as the statutory auditors of M/s IBS Bank Limited. During the statutory audit for the relevant financial year, the following observations were made:\n\n\n- Interest income included the following:\n\n- \u20b9 5 lakh relating to a short-term crop loan where instalment was overdue for one crop season.\n\n- \u20b97 lakh relating to an advance (guaranteed equally by Government of India & Government of Tamil Nadu) where the instalment was due for more than six months.\n\n- A 25 month old NPA account worth \u20b9 43 lakhs (net book value) was sold to an asset reconstruction company for \u20b9 45 lakh. The profit from the above transaction was taken to the P&L account. The above NPA was sold 'without recourse' and at cash basis. The auditors noticed a discrepancy in this transaction and hence decided to report the same.\n\nAfter completing the bank audit, JKL & Associates agreed to take up the following management consultancy and other services for one of the start-up company based in Noida:\n\n(i) Setting up executive incentive plan and wage incentive plan.\n\n(ii) Price-fixation and other management decision making.\n\n(iii) Conduct a periodical audit and advisor for tax matters.\n\n\nMr. K, one of the partners of the firm felt that providing the above services could result in professional misconduct. Hence, he resigned from the partnership and became a sole practitioner. One of the clients of JKL & associates came to know about the issue and they approached Mr. K to conduct the statutory audit for the financial year. Mr. K took up the assignment without informing the previous firm. Annoyed by this, Mr. J filed a complaint to ICAI regarding the act of Mr. K. After enquiry, it was decided that Mr. K was guilty of professional misconduct.\n\nAfter this incident, Mr. K also decided to file a complaint against Mr. J. When he was thinking about a reason for the same, he remembered that Mr. J had entered into an agreement with two of his articled clerks to pay stipend on an annual basis, while others were paid on monthly basis. Realizing that this act is in violation of Regulation 48 of the Act, he filed a complaint to ICAI. After enquiry, it was found that Mr. J was guilty of professional misconduct.\n\nOn the basis of the abovementioned facts, you are required to choose the most appropriate answer for the following MCQs:\n\n\n1. From the above facts and details, what is the correct amount of interest which the bank should account in its financial statements? (Chapter 14.1 - Special Features of Audit of Banks)\n\n(a) Nil.\n\n(b) $\u20b9 8.5$ lakh.\n\n(c) \u20b9 5 lakh.\n\n(d) \u20b9 3.5 lakh.\n\n\nAns: (c)\n\n2. What could be the possible amount classified as NPA relating to the accounts with respect to observation regarding the inclusion of interest income given below:\n\n\n- \u20b9 5 lakh relating to a short-term crop loan where instalment was overdue for one crop season.\n\n- \u20b9 7 lakh relating to an advance (guaranteed equally by Government of India & Government of Tamil Nadu) where the instalment was due for more than six months.\n\n(Chapter 14.1 - Special Features of Audit of Banks)\n\n(a) \u20b9 12 lakh.\n\n(b) \u20b9 8.5 lakh.\n\n(c) \u20b9 7 lakh.\n\n(d) \u20b9 3.5 lakh.\n\n\nAns: (d)\n\n3. In NPA, sale to asset reconstruction company, what discrepancy auditor might have noticed: (Chapter 14.1 - Special Features of Audit of Banks)\n\n(a) The NPA had not completed 30 months.\n\n(b) Sale was made 'without recourse'.\n\n(c) Sale was made for cash basis.\n\n(d) The profit of 2 lakh was taken to P&L account.\n\n\nAns: (d)\n\n4. Being guilty of professional misconduct, which of the following punishment Mr. K will be subject to: (Chapter 19 - Professional Ethics & Liabilities of Auditors)\n\n(a) Removal of his name from members register for a period of 6 months.\n\n(b) Impose a penalty of \u20b9 1000.\n\n(c) Removal of his name from members register up-to a period it thinks fit.\n\n(d) Impose a penalty up-to \u20b9 2 lakh.\n\n\nAns: (b)\n\n5. Being guilty of professional misconduct, which among the following punishment Mr. J will be subject to? (Chapter 19 - Professional Ethics & Liabilities of Auditors)\n\n(a) Impose a penalty up-to \u20b9 1 lakh.\n\n(b) Remove his name from member's register permanently.\n\n(c) Impose a penalty up-to \u20b9 3 lakh.\n\n(d) Impose a penalty of \u20b9 6 lakh.\n\n\nAns: (b)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "From the above facts and details, what is the correct amount of interest which the bank should account in its financial statements? (Chapter 14.1 - Special Features of Audit of Banks)",
+          "options": {
+            "a": "Nil.",
+            "b": "$\u20b9 8.5$ lakh.",
+            "c": "\u20b9 5 lakh.",
+            "d": "\u20b9 3.5 lakh."
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": 6
+        },
+        {
+          "q_num": 2,
+          "question": "What could be the possible amount classified as NPA relating to the accounts with respect to observation regarding the inclusion of interest income given below:\n\n- \u20b9 5 lakh relating to a short-term crop loan where instalment was overdue for one crop season.\n\n- \u20b9 7 lakh relating to an advance (guaranteed equally by Government of India & Government of Tamil Nadu) where the instalment was due for more than six months.\n\n(Chapter 14.1 - Special Features of Audit of Banks)",
+          "options": {
+            "a": "\u20b9 12 lakh.",
+            "b": "\u20b9 8.5 lakh.",
+            "c": "\u20b9 7 lakh.",
+            "d": "\u20b9 3.5 lakh."
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null,
+          "_serial": 7
+        },
+        {
+          "q_num": 3,
+          "question": "In NPA, sale to asset reconstruction company, what discrepancy auditor might have noticed: (Chapter 14.1 - Special Features of Audit of Banks)",
+          "options": {
+            "a": "The NPA had not completed 30 months.",
+            "b": "Sale was made 'without recourse'.",
+            "c": "Sale was made for cash basis.",
+            "d": "The profit of 2 lakh was taken to P&L account."
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null,
+          "_serial": 8
+        },
+        {
+          "q_num": 4,
+          "question": "Being guilty of professional misconduct, which of the following punishment Mr. K will be subject to: (Chapter 19 - Professional Ethics & Liabilities of Auditors)",
+          "options": {
+            "a": "Removal of his name from members register for a period of 6 months.",
+            "b": "Impose a penalty of \u20b9 1000.",
+            "c": "Removal of his name from members register up-to a period it thinks fit.",
+            "d": "Impose a penalty up-to \u20b9 2 lakh."
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": 9
+        },
+        {
+          "q_num": 5,
+          "question": "Being guilty of professional misconduct, which among the following punishment Mr. J will be subject to? (Chapter 19 - Professional Ethics & Liabilities of Auditors)",
+          "options": {
+            "a": "Impose a penalty up-to \u20b9 1 lakh.",
+            "b": "Remove his name from member's register permanently.",
+            "c": "Impose a penalty up-to \u20b9 3 lakh.",
+            "d": "Impose a penalty of \u20b9 6 lakh."
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": 10
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "19.1-CS-11"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "19.1",
+      "chapter_name": "PROFESSIONAL ETHICS AND LIABILITIES OF AUDITORS",
+      "case_text": "While auditing consolidated financial statements of Kissan Industries Limited for the year 20X1-X2, a manufacturing company whose financial statements are required to be prepared in accordance with Division II of Schedule III of the Companies Act, 2013, CA Kartik notices that:\n\n(A) The notes to accounts in respect of consolidated financial statements disclose additional information pertaining to the holding company and its subsidiaries. It provides disclosure regarding percentages of consolidated net assets; consolidated profit and loss; and total comprehensive income along with their respective amounts pertaining to holding company and its subsidiaries.\n\n(B) The financial statements of one foreign subsidiary included in consolidated financial statements are drawn up to $31{ }^{\\text {st }}$ December, 20X1 in accordance with legal requirements in US. He feels it to be weird and is of the view that consolidated financial statements of group could present a distorted picture. The management, in turn, informs him that it is not practicable to draw the financial statements of foreign subsidiary to $31^{\\text {st }}$ March, 20X2.\n\n(C) During the year 20X1-X2, goodwill of \u20b9 60 crore had arisen on account of the acquisition of a subsidiary during the year and there is no impairment loss as on the balance sheet date. Besides, adjustments have been made in consolidated financial statements with respect to intra-group indebtedness and those related to harmonizing different accounting policies being adopted by parent and its subsidiaries.\n\n(D) It is noticed by him that one subsidiary was acquired on 21.06.X1. He is in a dilemma as regards to the correctness of consolidation of its financial statements in group financial statements.\n\nBesides, he is also in the process of finalising audit report including matters to be reported under CARO, 2020 in respect of consolidated financial statements. However, he is in a fix in respect of manner of reporting under CARO, 2020 relating to consolidated financial statements.\n\nBased on the above facts, answer the following:",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Considering disclosure of additional information in consolidated financial statements as stated in para (A) of case study, which of the following statements is correct? (Chapter 13: Group Audits)",
+          "options": {
+            "a": "The said disclosure is not proper as percentage of other comprehensive income along with respective amount pertaining to holding company and its subsidiaries is also required.",
+            "b": "The said disclosure is not proper as percentage of consolidated revenue from operations along with respective amount pertaining to holding company and its subsidiaries is also required.",
+            "c": "The said disclosure is not proper as percentages of consolidated revenue from operations as well as other comprehensive income along with their respective amounts pertaining to holding company and its subsidiaries are also required.",
+            "d": "The said disclosure is proper."
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": 11
+        },
+        {
+          "q_num": 2,
+          "question": "What should be auditor's proper course of action pursuant to situation highlighted in para (B) relating to financial statements of a foreign subsidiary? (Chapter 13: Group Audits)",
+          "options": {
+            "a": "The auditor should insist for drawing up of financial statements of foreign subsidiary to $31^{\\mathrm{St}}$ March, $20 \\times 2$. The reason for impracticality is a mere excuse. In case of failure to redraw, he can modify his opinion in accordance with SA 705.",
+            "b": "The auditor can accept management's version.",
+            "c": "The auditor should modify his opinion by quantifying the financial effects of such an inconsistency.",
+            "d": "The auditor can accept management's version. However, it is his duty to verify adjustments made for effects of significant transactions or events occurring between $1^{\\text {st }}$ January $20 \\times 2$ and $31^{\\text {st }}$ March, $20 \\times 2$."
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null,
+          "_serial": 12
+        },
+        {
+          "q_num": 3,
+          "question": "Which of the following statements is correct in respect of goodwill and other matters described in the case scenario? (Chapter 13: Group Audits)",
+          "options": {
+            "a": "Goodwill represents current period consolidation adjustments. Adjustments relating to intra-group indebtedness and those relating to harmonizing different accounting policies being adopted by the parent and its subsidiaries represent permanent consolidation adjustments.",
+            "b": "Goodwill represents permanent consolidation adjustments. Adjustments relating to intra-group indebtedness and those relating to harmonizing different accounting policies being adopted by the parent and its subsidiaries represent current-period consolidation adjustments.",
+            "c": "Adjustments relating to goodwill, intra-group indebtedness and those relating to harmonizing different accounting policies being adopted by parent and its subsidiaries represent current period consolidation adjustments.",
+            "d": "Goodwill and adjustments relating to harmonizing different accounting policies being adopted by the parent and its subsidiaries represent permanent consolidation adjustments. Adjustments relating to intra-group indebtedness represent current-period consolidation adjustments."
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": 13
+        },
+        {
+          "q_num": 4,
+          "question": "Which of the following statements is most appropriate regarding consolidation of financial statements of a subsidiary acquired on 21.06.24? (Chapter 13: Group Audits)",
+          "options": {
+            "a": "The auditor should verify that income and expenses of subsidiary are included in consolidated financial statements for the complete financial year and further such income and expenses are based on the amounts of the assets and liabilities recognized in consolidated financial statements at the preceding reporting date.",
+            "b": "The auditor should verify that income and expenses of subsidiary are included in consolidated financial statements from the date it gains control of subsidiary and further such income and expenses are based on the amounts of the assets and liabilities recognized in consolidated financial statements at the preceding reporting date.",
+            "c": "The auditor should verify that income and expenses of subsidiary are included in consolidated financial statements for the complete financial year and further such income and expenses are based on the amounts of the assets and liabilities recognized in consolidated financial statements at the acquisition date.",
+            "d": "The auditor should verify that income and expenses of subsidiary are included in consolidated financial statements from the date it gains control of subsidiary and further such income and expenses are based on the amounts of the assets and liabilities recognized in consolidated financial statements at the acquisition date."
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null,
+          "_serial": 14
+        },
+        {
+          "q_num": 5,
+          "question": "As regards reporting under reporting CARO, 2020 in respect of consolidated financial statements, which of the following is in accordance with requirements of law? (Ch: 7.8 CARO)",
+          "options": {
+            "a": "A separate report providing Clause by Clause reporting under CARO, 2020 is required in respect of specified matters pertaining to parent and all subsidiaries incorporated in India.",
+            "b": "It would be sufficient if report under CARO, 2020 in respect of standalone financial statements is supplemented with additional information in respect of all subsidiaries incorporated in India.",
+            "c": "A separate report under CARO, 2020 in respect of all subsidiaries incorporated in India together is required. It should be annexed with report under CARO, 2020 in respect of standalone financial statements.",
+            "d": "Reporting of details of subsidiaries together with paragraph numbers of reports under CARO, 2020 of auditors of such companies incorporated in India containing qualifications or adverse remarks would serve the purpose."
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null,
+          "_serial": 15
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "19.1-CS-45"
+    }
+  ],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": true,
+      "total_marks": 14,
+      "chapter_number": "5",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Question 3 (MTP 4 Marks Jul'25)\n\nCA. Zora has recently accepted engagement of the statutory audit of Segment Ltd. for the financial year 20X1-X2. While reviewing the trial balance and financial records, Zora identifies that the Opening Balances as on 1st April 20X1 are carried forward from the previous year and were audited by another auditor, CA. Rohan. Zora wants to be satisfied regarding the sufficiency and appropriateness of 'Opening Balances' to ensure that they are free from misstatements.\n\n(i) Briefly mention the audit procedures Zora should perform to obtain sufficient and appropriate audit evidence regarding the Opening Balances, considering it is an initial audit engagement?\n\n(ii) Also suggest the approach to be followed by Zora if he is either unable to obtain adequate evidence about the Opening Balances or finds material misstatements therein.",
+          "answer": "(i) Audit Procedures to be followed in case of initial audit engagement: As per SA 510, \"Initial Audit Engagements - Opening Balances\", the auditor shall obtain sufficient appropriate audit evidence about whether the opening balances contain misstatements that materially affect the current period's financial statements by:\n\n- Determining whether the prior period's closing balances have been correctly brought forward to the current period or, when appropriate, any adjustments have been disclosed as prior period items in the current year's Statement of Profit and Loss;\n\n- Determining whether the opening balances reflect the application of appropriate accounting policies; and\n\n- Performing one or more of the following:\n\n- Where the prior year financial statements were audited, perusing the copies of the audited financial statements including the other relevant documents relating to the prior period financial statements;\n\n- Evaluating whether audit procedures performed in the current period provide evidence relevant to the opening balances; or\n\n- Performing specific audit procedures to obtain evidence regarding the opening balances.\n\n(ii) Approach to be followed if he is either unable to obtain adequate evidence about the Opening Balances or finds material misstatements therein: If the auditor is unable to obtain sufficient appropriate audit evidence regarding the opening balances, the auditor shall express a qualified opinion or a disclaimer of opinion, as appropriate. Further, If the auditor concludes that the opening balances contain a misstatement that materially affects the current period's financial statements, and the effect of the misstatement is not properly accounted for or not adequately presented or disclosed, the auditor shall express a qualified opinion or an adverse opinion.",
+          "chapter_number": "5.4",
+          "chapter_name": "SA 510- INITIAL AUDIT ENGAGEMENTS-"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "## Question 47 (MTP 5 Marks, Apr'24, RTP May '23, New SM,MP[2])\n\n$\text{Mr} . \text{S}$ is a practising Chartered Accountant based out of Chennai. During the weekends, he involved himself in equity research and used to advise his friends, relatives and other known people who are not his clients. Apart from this, he was also involved as a paper-setter for Accountancy subject in the school in which he studied. He also owned agricultural land and was doing agriculture during his free time. During the year 20X1, heavy losses were incurred in agricultural activity due to natural calamities and misfortune, and he lost almost all of his wealth and became undischarged insolvent. After a few court hearings, finally, in the year 20X3, he was declared discharged insolvent and obtained a certificate from the court stating that his insolvency was caused by misfortune without any misconduct on his part. You are required to comment on the above situation with reference to the Chartered Accountants Act, 1949 and Schedules thereto.",
+          "answer": "Given situation can be visualize in following parts:\n\n(i) Mr. S used to involve himself in equity research and used to advise his friends, relatives and other known people: As per the recent decisions taken by the Ethical Standards Board of ICAI, a Chartered Accountant in practice may be an equity research adviser, but he cannot publish a retail report, as it would amount to other business or occupation.\n\nIn the given case, though Mr . S is involved in doing equity research and in advising people, it is clear that he does not publish any retail report of his research. Hence, this act of Mr. S shall not make him guilty of professional misconduct.\n\n(ii) $\text{Mr} . \text{S}$ is involved in paper-setting for the Accountancy subject in the school where he studied. He also owns agricultural land and does agriculture activities: As per Clause 11 of Part I of First Schedule of Chartered Accountants Act and regulation 190A of Chartered Accountants Regulations, a Chartered Accountant in practice is deemed to be guilty of professional misconduct if he engages in any business or occupation other than the profession of Chartered Accountant unless permitted by the Council so to engage.\n\nFurther, Regulation 190A mentions the 'Permissions granted Generally' to engage in a certain category of occupations, for which no specific permission of Council is required. Those cases include:\n\n\n- Valuation of papers, acting as paper-setter, head examiner or a moderator, for any examination.\n\n- Owning agricultural land and carrying out agricultural activities.\n\nTherefore, in the given case, the activities of Mr. S as a paper-setter and involvement in agricultural activities do not make him guilty of professional misconduct.\n\n(iii) Mr. S was discharged insolvent: Disabilities for the Purpose of Membership: Section 8 of the Chartered Accountants Act, 1949 enumerates the circumstances under which a person is debarred from having his name entered in or borne on the Register of Members, If he, being a discharged insolvent, has not obtained from the court a certificate stating that his insolvency was caused by misfortune without any misconduct on his part. Here it may be noted that a person who has been removed from membership for a specified period shall not be entitled to have his name entered in the Register until the expiry of such period.\n\nIn addition, failure on the part of a person to disclose the fact that he suffers from any one of the aforementioned disabilities would constitute professional misconduct. The name of the person, who is found to have been subject at any time to any of the disabilities discussed in section 8 , can be removed from the Register of Members by the Council.\n\nIn the given case, it is clearly stated that Mr . S was discharged insolvent, and he has also obtained from the court a certificate stating that his insolvency was caused by misfortune without any misconduct on his part. Hence, Mr. S has not violated the provisions of section 8, and he is not debarred from having his name entered in the Register of Members.",
+          "chapter_number": "19",
+          "chapter_name": "PROFESSIONAL ETHICS AND LIABILITIES OF AUDITORS",
+          "unique_id": "19-T-47"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "How do \"related services\" differ from assurance engagements? (SM)",
+          "answer": "\"Assurance engagement\" means an engagement in which a practitioner expresses a conclusion designed to enhance the degree of confidence of the intended users other than the responsible party about the outcome of the evaluation or measurement of a subject matter against criteria. It means that the practitioner gives an opinion about specific information due to which users of information are able to make confident decisions knowing well that chance of information being incorrect is diminished.\n\nNot all engagements performed by practitioners are assurance engagements. Other frequently performed engagements which do not meet the definition of assurance engagements include-\n\n- The preparation of tax returns where no conclusion conveying assurance is expressed.\n\n- Consulting (or advisory) engagements such as management and tax consulting.\n\n- Engagements covered by Standards for Related Services, such as agreed-upon procedures engagements and compilations of financial or other information.",
+          "chapter_number": "9.1",
+          "chapter_name": "SA 810- ENGAGEMENTS TO REPORT ON SUMMARY FINANCIAL STATEMENTS"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "19",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "## Question 78 (MTP 4 Marks, Sep'22)\n\nAJ & Associates and PK & Co., chartered accountant firms have joined the Network firm A to Z & Affiliates registered with Institute. AJ & Associates was statutory auditor of B Ltd. for last 10 years. Due to rotation of auditor as per section 139 (2) of Companies Act, 2013, B Ltd. retires AJ & Associates and appoints PK & Co., as auditor for the year 20X1-X2. Comment as per Chartered Accountant Act, 1949 - Guidelines for Networking.",
+          "answer": "As per Council General Guidelines, 2008, Chapter XV, Guidelines for Networking, once the relationship of network arises, it will be necessary for such a network to comply with all applicable ethical requirements prescribed by the Institute from time to time in general and the following requirements in particular in those cases where rotation of firms is prescribed by any regulatory authority, no member firm of the network can accept appointment as an auditor in place of any member firm of the network which is retiring.\n\nIn the given situation, AJ & Associates was statutory auditor of B Ltd. For last 10 years and due to rotation of auditor as per section 139(2) of the Companies Act, 2013 B Ltd., retires AJ & Associates and appoints PK & Co. as auditor for the year 20X1-X2.\n\nIt may be considered that AJ & Associates and PK & Co., chartered accountant firms have joined the network firm namely A to Z & Affiliates registered with Institute. In view of above Guidelines for Networking PK & Co., is disqualified for appointment as an auditor of B Ltd.",
+          "chapter_number": "19",
+          "chapter_name": "PROFESSIONAL ETHICS AND LIABILITIES OF AUDITORS"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Question 75 (MTP 4 Marks, Oct'22 & Apr'23, SM) CA. Prakash, a practicing Chartered Accountant issued a certificate of circulation of a periodical without going into the most elementary details of how the circulation of a periodical was being maintained i.e., by not looking into the financial records, bank statements or bank pass books, by not examining evidence of actual payment of printer's bills and by not caring to ascertain how many copies were sold and paid for. Is CA. Prakash liable to professional misconduct? Comment with reference to the Chartered Accountants Act, 1949, and Schedules thereto.",
+          "answer": "Failure to Obtain Information: Clause (8) of Part I of Second Schedule to the Chartered Accountants Act, 1949 states that if a Chartered Accountant in practice fails to obtain sufficient information to warrant the expression of an opinion or his exceptions are sufficient material to negate the expression of an opinion, the chartered accountant shall be deemed to be guilty of a professional misconduct.\n\nIn the instant case Mr. Prakash, a practicing Chartered Accountant issued a certificate of circulation of a periodical without going into the most elementary details of how the circulation of a periodical was being maintained i.e., by not looking into the financial records, bank statements or bank pass books, by not examining evidence of actual payment of printer's bills and by not caring to ascertain how many copies were sold and paid for. The chartered accountant should not express his opinion before obtaining the required data and information. As an auditor, Mr. Prakash ought to have verified the basic records to ensure the correctness of circulation figures.\n\nConclusion: Thus, in the present case CA. Prakash will be held guilty of professional misconduct as per Clause (8) of Part I of Second Schedule to the Chartered Accountants Act, 1949.",
+          "chapter_number": "19",
+          "chapter_name": "PROFESSIONAL ETHICS AND LIABILITIES OF AUDITORS"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "## Question 28 (MTP 4 Marks Jul'25)\n\nKLM Industries Ltd., a mid-sized company engaged in consumer electronics manufacturing, has recently undergone a major digital transformation by implementation of a fully automated production tracking system, cloud-based accounting software, and a block chain-based vendor payment system. These changes were introduced during the financial year 20X1-X2. The management believes that these technologies will increase the efficiency and reduce the chances of errors, and hence, have revised the risk assessment accordingly. As an auditor, what steps should you take to evaluate the impact of such technology changes on the company's internal controls and financial reporting?",
+          "answer": "Steps that the auditor should take to evaluate the impact of technology-driven changes on the company's internal controls and financial reporting include the following:\n\n- Maintain sufficient professional skepticism when reviewing management's risk assessment for new systems.\n\n- Understand the direct and indirect effects of new technology and determine how its use by the entity impacts the auditor's overall risk assessment.\n\n- Understand how the technologies impact the flow of transactions, assess the completeness of the in-scope ICFR systems, and design a sufficient and appropriate audit response.\n\n- Assess the appropriateness of management's processes to select, develop, operate, and maintain controls related to the organization's technology based on the extent the technology is used.",
+          "chapter_number": "12",
+          "chapter_name": "DIGITAL AUDITING AND ASSURANCE"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "7",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "ADKS & Co. LLP are the newly appointed statutory auditors of PKK Ltd. During the course of audit, the statutory auditors have come across certain significant observations which they believe could lead to material misstatement of financial statements. Management has a different view and does not concur with the view of the statutory auditors. Considering this the statutory auditors are determining as to how to address these observations in terms of their reporting requirement. Please advise.",
+          "answer": "As per SA 705 (Revised), if the auditor concludes that, based on the audit evidence obtained, the financial statements as a whole are not free from material misstatement or the auditor is unable to obtain sufficient appropriate audit evidence to conclude that the financial statements as a whole are free from material misstatement, the auditor shall modify the opinion in his report. The auditor in such a case needs to determine the modification as follows:\n\n(i) Qualified Opinion: The auditor shall express a qualified opinion when:\n(a) The auditor, having obtained sufficient appropriate audit evidence, concludes that misstatements, individually or in the aggregate, are material, but not pervasive, to the financial statements; or\n(b) The auditor is unable to obtain sufficient appropriate audit evidence on which to base the opinion, but the auditor concludes that the possible effects on the financial statements of undetected misstatements, if any, could be material but not pervasive.\n\n(ii) Adverse Opinion: The auditor shall express an adverse opinion when the auditor, having obtained sufficient appropriate audit evidence, concludes that misstatements, individually or in the aggregate, are both material and pervasive to the financial statements.\n\n(iii) Disclaimer of Opinion: The auditor shall disclaim an opinion when the auditor is unable to obtain sufficient appropriate audit evidence on which to base the opinion, and the auditor concludes that the possible effects on the financial statements of undetected misstatements, if any, could be both material and pervasive. The auditor shall disclaim an opinion when, in extremely rare circumstances involving multiple uncertainties, the auditor concludes that, notwithstanding having obtained sufficient appropriate audit evidence regarding each of the individual uncertainties, it is not possible to form an opinion on the financial statements due to the potential interaction of the uncertainties and their possible cumulative effect on the financial statements.",
+          "chapter_number": "7.1",
+          "chapter_name": "SA 700- FORMING AN OPINION AND REPORTING ON FINANCIAL STATEMENTS",
+          "unique_id": "AA-OCR-P3_Reporting"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "## Question 1 (PYP 4 Marks May'22)\n\nCA Harry is appointed as a Statutory Auditor of Delist Limited for the financial year 20X1-X2. M/s Delist Limited is a listed entity at National Stock Exchange and the financial statements are to be drawn up in compliance with Ind AS. M/s Delist Limited made certain fair value accounting estimates on complex financial instruments which are not traded in an active and open market. CA Harry is concerned with identification and assessment of the risks of material misstatement for accounting estimates. Guide him with regard to the estimation making process adopted by management with reference to the relevant Standard on Auditing.",
+          "answer": "As per SA 540 \"Auditing Accounting Estimates, Including Fair Value Accounting Estimates, and Related Disclosures\", CA. Harry shall obtain an understanding of the following in order to provide a basis for the identification and assessment of the risks of material misstatements for accounting estimates:\n\nThe estimation making process adopted by the management including-\n\n(1) The method, including where applicable the model, used in making the accounting estimates.\n\n(2) Relevant controls.\n\n(3) Whether management has used an expert?\n\n(4) The assumption underlying the accounting estimates.\n\n(5) Whether there has been or ought to have been a change from the prior period in the methods for making the accounting estimates, and if so, why; and\n\n(6) Whether and, if so, how the management has assessed the effect of estimation uncertainty.",
+          "chapter_number": "3.6",
+          "chapter_name": "SA 540-AUDITING ACCOUNTING ESTIMATES,"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "CA Shobit is conducting an audit of XYZ Ltd. for the year 20X1-X2. The company is engaged in the export of handicraft items in Europe. The audit is nearing completion in the month of July 20X2. However, it becomes known to CA Shobit that one of overseas buyers has made a legal claim against the company on 1st June 20X2 for injury caused to a customer of one European buyer due to sub-standard dyes used in rugs of one lot of order shipped in August 20X1. The management of the company has decided to agree to an out of court settlement of Rs.4 crore to protect its reputation. The financial statements of the company are silent on this issue. Discuss, how, CA Shobit should proceed to deal with above issue. (MTP 4 Marks Sep'24,MP[4])",
+          "answer": "**Issue:** The issue involves a legal claim arising after the balance sheet date but related to events that occurred during the financial year, and the subsequent out-of-court settlement.\n\n**Applicable Standards:**\n- SA 560 \"Subsequent Events\"\n- AS 4 / Ind AS 10 \"Contingencies and Events Occurring After the Balance Sheet Date\"\n- SA 501 \"Audit Evidence - Specific Considerations for Selected Items\"\n\n**Analysis & Auditor's Responsibilities:**\n1. **Adjusting Event:** The goods were shipped in August 20X1 (during the financial year 20X1-X2). The legal claim in June 20X2 (before the audit report is signed in July 20X2) provides additional evidence of conditions existing at the balance sheet date (defective dyes). Therefore, this is an **Adjusting Event** under AS 4/Ind AS 10.\n2. **Provision Required:** Since management has decided to agree to a Rs.4 crore settlement, a provision for this amount must be recognized in the financial statements for 20X1-X2.\n3. **Audit Procedures:** CA Shobit should obtain sufficient appropriate audit evidence regarding the legal claim and settlement (e.g., communication with legal counsel, settlement agreement, management representation) as per SA 501.\n4. **Conclusion:** Since the financial statements are currently silent on this issue, they are materially misstated. CA Shobit should request management to adjust the financial statements by recognizing the provision of Rs.4 crore. If management refuses to make the necessary adjustment, the auditor should express a **Qualified or Adverse Opinion** as per SA 705, depending on the pervasiveness of the misstatement.",
+          "chapter_number": "6.1",
+          "chapter_name": "SA 560- SUBSEQUENT EVENTS"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "19",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "## Question 25 (MTP 4 Marks, Sep'23, RTP May'22, SM)\n\nMr. A, a newly qualified Chartered Accountant, started his practice and sought clients through telephone calls from his family and friends, almost all of them employed in one or the other retail trade business. One of his friends Mr. X gave him an idea to start online services and give stock certifications to traders with\n\nCash Credit Limits in Banks. Mr. A started a website with colorful catchy designs and shared the website address on his all social media posts and stories and tagged 30 traders of his local community with the caption \"Easy Online Stock Certification Services\". Besides, Mr. A entered in an agreement with a Digital Marketer to give him $5 \\%$ commission on each service procured through him. Discuss if the actions of Mr. A are valid in the light of the Professional Ethics and various pronouncements and guidelines issued by ICAI.",
+          "answer": "As per Clause (6) of Part I of the First Schedule of the Chartered Accountants Act, 1949, a Chartered Accountant in practice is deemed to be guilty of professional misconduct if he solicits clients or professional work either directly or indirectly by circular, advertisement, personal communication or interview or by any other means. Mr. A is wrong in seeking clients through family and friends. Creating a website is not a non-compliance provided it is in line with the guidelines issued by the Institute in this regard. One of the guidelines is that the website should not be in push mode. Further, mentioning of clients' names is also prohibited as per the guidelines.\n\nIn the given situation, Mr. A shared the website address on his all social media posts and stories and tagged 30 traders of his local community with the caption \"Easy Online Stock Certification Services\" mentioning his current clients as well. This is in complete contravention of the guidelines on website issued by the ICAI.\n\nThus, CA A would be held guilty of professional misconduct under clause 6 of Part 1 of First Schedule of the Chartered Accountants Act, 1949.",
+          "chapter_number": "19",
+          "chapter_name": "PROFESSIONAL ETHICS AND LIABILITIES OF AUDITORS"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "## Question 29 (PYP 5 Marks Sep'25)\n\nM/s ST & Co., Chartered Accountants, are appointed as auditors of Hitech Ltd., an IT company, engaged in providing diverse range of services like digital transformation, software development and cloud solutions. The auditors have to use online means to conduct the audit. Hence, ST & Co. decided to go for Remote Audit technology to obtain audit evidence and perform documentation review with the participation of management. The audit team got first hand evidence directly from the IT system as direct access had been provided to them. M/s ST & Co. have been developing tailored strategies to ensure that the remote audit meets the requirements and deliver results equivalent to the traditional onsite audits, they are concerned with confidentiality, Security and Data protection aspects while conducting the Remote audit. Guide them.",
+          "answer": "Considerations for Remote Audit: Confidentiality, Security and Data Protection: M/s ST & Co. have been developing tailored strategies to ensure that the remote audit meets the requirements and deliver results equivalent to traditional onsite audits.\n\n1. To ensure data security and confidentiality, access to document sharing platform should be sufficiently restricted and secured by encrypting the data that is sent across the network.\n\n2. The information, once reviewed and documented by auditor, is removed from the platform, and stored according to applicable archiving standards and data protection requirements.\n\n3. Auditors should take into consideration legislation and regulations, which may require additional agreements from both sides (e.g., there will be no recording of sound and images, or authorizations to using people's images).\n\n4. Auditors should not take screenshots of auditees as audit evidence. Any screenshots of documents or records or other kind of evidence should be previously authorized by the audited organization.\n\n5. In case of accessing the auditee's IT system auditor should use VPN (Virtual private network). VPN is a service which creates safe and encrypted online connections. It prevents unauthorized users to enter into network and allows the users to perform work remotely.",
+          "chapter_number": "12",
+          "chapter_name": "DIGITAL AUDITING AND ASSURANCE",
+          "unique_id": "12-T-29"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "GreenTech Manufacturing Ltd., engaged in production of electronic appliances, has been facing criticism from environmental activists and local communities for its high energy consumption, discharge of untreated industrial waste and dependence on non-renewable resources. Considering the same, the company\u2019s management now wants to strengthen its environmental responsibility practices and align them with national and international commitments such as Paris Agreement and National Action Plan on Climate Change. Identify the principle which is being referred to in this case. Also, state the core elements associated with this principle.",
+          "answer": "Principle 6 - Protection and Restoration of Environment is being referred to in the given case. The core elements associated with the principle are:\n\n(i) The entities should have policies, procedures, and practices in place to assess and rectify impacts to the environment. This should cover the whole life cycle of the product.\n\n(ii) The entities have to make use of natural and manmade resources in an optimum manner to ensure their sustainability by taking feedback from the stakeholders.\n\n(iii) The entities have to measure their performance relating to the prevention of pollution, destruction of forests, waste generation, energy use, land use, etc.\n\n(iv) The entities have to contribute towards climate change resilience in line with India\u2019s commitment to various international mechanisms such as, Paris Agreement and National Action Plans for Climate Change.\n\n(v) The entities should explore the comparison of its activities with industry best practices to reduce, reuse and recycle/recover materials, resources.\n\n(vi) The companies have to look out for avenues by which they can improve their performance towards various environmental responsibilities.",
+          "chapter_number": "18",
+          "chapter_name": "EMERGING AREAS: SUSTAINABLE DEVELOPMENT GOALS (ESG REPORTING)",
+          "unique_id": "AA-OCR-P3_ESGReporting"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "7",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Question 7 (MTP 4 Marks Mar'23 & Apr'23, PYP 4 Marks Dec'21)\n\nCA Subhadra is the statutory auditor of SATI Ltd. for the financial year 20X1-X2. In respect of loans and advances of Rs. 95 lakh given to Shripal Pvt. Ltd., the Company has not furnished any agreement to CA Subhadra and in absence of the same, he is unable to verify the terms of repayment, chargeability of interest and other terms.\n\nJustify the type of opinion which CA Subhadra should give in such situation. Also, Draft an appropriate Opinion paragraph and Basis of Opinion paragraph.",
+          "answer": "In the present case, with respect to loans and advances of Rs. 95 Lacs given to Shripal Pvt. Limited, the Company has not furnished any agreement to CA Subhadra. In the absence of such an agreement, CA Subhadra is unable to verify the terms of repayment, chargeability of interest and other terms. For an auditor, while verifying any loans and advances, one of the most important audit evidence is the loan agreement. Therefore, the absence of such document in the present case, tantamount to a material misstatement in the financial statements of the company. However, the inability of CA Subhadra to obtain such audit evidence is though material but not pervasive so as to require him to give a disclaimer of opinion.\n\nThus, in the present case, CA Subhadra should give a qualified opinion.\n\nThe relevant extract of the Qualified Opinion Paragraph and Basis for Qualified Opinion paragraph is as under:\n\n## Qualified Opinion\n\nIn our opinion and to the best of our information and according to the explanations given to us, except for the effects of the matter described in the Basis for Qualified Opinion section of our report, the financial statements of SATI Limited give a true and fair view in conformity with the accounting principles generally accepted in India, of the state of affairs of the Company as on 31.03.20X2 and profit/ loss for the year ended on that date.\n\n## Basis for Qualified Opinion\n\nThe Company is unable to furnish the loan agreement with respect to loans and advances of Rs. 95 Lacs given to Shripal Pvt. Limited. Consequently, in the absence of such an agreement, we are unable to verify the terms of repayment, chargeability of interest and other terms.",
+          "chapter_number": "7.1",
+          "chapter_name": "SA 700- FORMING AN OPINION AND REPORTING ON FINANCIAL STATEMENTS"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "During the course of the audit of TK Home Private Limited, a recognized export house engaged in manufacturing of T-shirts under brand name of \"TK\". CA Tripti is verifying export revenues of the company for the year 20X1-X2. She has verified transactions entered in \"Export Sales\" account maintained in accounting software from relevant export invoices. The export sales are being made on payment of IGST, for which a refund is automatically credited in the account of the company after the goods are shipped.\n\nOn enquiring from internal audit staff regarding the recognition of export revenues, she is told that export sales are recognized for the year on the basis of \"Bills of Lading\". However, she is not convinced with such a response and feels that the same does not appear to be proper.\n\nShe finds that three export invoices bearing dates in the month of March 20X2 having a value of Rs. 75.00 lacs have not been recognized in export revenue on the ground that bills of lading for these invoices were issued in the month of April 20X2.\n\nDiscuss from what sources she can obtain reliable audit evidence in this regard. How can she challenge management's assertion regarding the completeness of export revenues for the year 20X1-X2?",
+          "answer": "She can obtain reliable audit evidence by going through GST returns filed by the company on GST portal and correlating the same with e-way bills. She can obtain audit evidence about how company has reflected its export sales in its GST returns and whether export sales pertaining to three invoices having value of Rs. 75.00 lacs are reflected in such returns.\n\nFurther, e-way bills generated on the portal would provide evidence that goods have moved out of the company's premises. The export revenue should have been booked at the time the goods moved out of the company's premises. The company is claiming an IGST refund. The refund is linked to the monthly sales return. This aspect can also be verified.\n\n\"Bill of Lading\" is only a document issued by the carrier to the shipper of goods that goods have been taken on board. She should challenge and counter management's assertion on the above grounds and point out violations of relevant accounting standards and principles. In this way, she can obtain reliable audit evidence.\n\nHighlighting such digital and other evidence, she can challenge management's assertion regarding the completeness of export revenues and point out that export revenues are understated.",
+          "chapter_number": "5.1",
+          "chapter_name": "SA 500- AUDIT EVIDENCE"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Venus Ltd. is a company engaged in the manufacture of stainless steel items. The company operates through 5 business units and has 35 branches across India. Manglam & Associates are being appointed as the principal auditor of the company. While accepting the audit assignment as the principal auditor, what will be the points of consideration for the principal auditor of the company?",
+          "answer": "The principal auditor, Manglam & Associates, should consider whether their own participation is sufficient to be able to act as the principal auditor. For this purpose, the auditor would consider: (a) the materiality of the portion of the financial information which the principal auditor audits; (b) the principal auditor's degree of knowledge regarding the business of the components; (c) the risk of material misstatements in the financial information of the components audited by the other auditor; and (d) the performance of additional procedures as set out in this SA regarding the components audited by other auditor resulting in the principal auditor having significant participation in such audit.",
+          "chapter_number": "13",
+          "chapter_name": "GROUP AUDITS",
+          "unique_id": "AA-OCR-P3_GroupAudit"
+        }
+      ]
+    },
+    {
+      "q_main": 6,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "17",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Your firm has been appointed as Central Statutory Auditors of a Nationalised Bank. The Bank follows financial year as accounting year. Your Audit Manager informed you that the bank has recognised on accrual basis income from dividends on securities and Units of Mutual Funds held by it at the end of financial year. The dividends on securities and Units of Mutual Funds were declared after the end of financial year. Comment.",
+          "answer": "As per AS 9, income should be recognised on an accrual basis when it is earned and the right to receive it is established. In this case, since the dividends on securities and Units of Mutual Funds were declared after the end of the financial year, the bank should not have recognised this income on an accrual basis. The recognition of income in this manner is not in accordance with the accounting standards, as the right to receive the payment was not established before the financial year-end. Therefore, the income recognition by the bank is not appropriate and should be adjusted in the financial statements.",
+          "chapter_number": "14.1",
+          "chapter_name": "SPECIAL FEATURES OF AUDIT OF BANKS",
+          "unique_id": "AA-OCR-P3_BankAudit"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "## Question 2 (SM, MP[3] 4 Marks)\n\nCA. Tripti is conducting review of the quarterly financial information of a company of which she is also auditor. She believes that it is necessary to make a material adjustment to the quarterly financial information for it to be prepared, in all material respects, in accordance with the applicable financial reporting framework. She has communicated the matter to the CFO and audit committee. However, no response was received even after waiting for a reasonable time. What are the options available to her?",
+          "answer": "As per SRE 2410, \"Review of Interim Financial Information Performed by the Independent Auditor of the Entity\", when in the auditor's judgment, those charged with governance do not respond appropriately within a reasonable period, the auditor should consider:\n\n(a) Whether to modify the report or\n\n(b) The possibility of withdrawing from the engagement and\n\n(c) The possibility of resigning from the appointment to audit the annual financial statements.\n\nIn the given case, CA. Tripti who was conducting review of the quarterly financial information of a company, communicated the matter to the CFO and audit committee. However, no response was received even after waiting for a reasonable time. In such case, she has above mentioned options as per SRE 2410.",
+          "chapter_number": "10.2",
+          "chapter_name": "SRE 2410- REVIEW OF INTERIM FINANCIAL INFORMATION PERFORMED BY INDEPENDENT AUDITOR OF ENTITY"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "During the course of performing a forensic accounting engagement in relation to suspected fraud, which aspects CA J should take care of while undertaking the process of obtaining relevant evidence? (PYP 4 Marks May'25)",
+          "answer": "During the course of performing a forensic accounting engagement in relation to suspected fraud, while undertaking the process of obtaining relevant evidence, CA J should take care of the following aspects:\n\n1. Depending on the nature of the case, this may involve locating documents, economic information, assets, a person or company, another expert or proof of the occurrence of an event.\n\n2. In order to gather detailed evidence, the investigator must understand the specific type of fraud that has been carried out and how the fraud has been committed.\n\n3. The evidence should be sufficient to ultimately prove the identity of the fraudster(s), the mechanics of the fraud scheme, and the amount of financial loss suffered.\n\n4. It is important that the investigating team is skilled in collecting evidence that can be used in a court case within the stipulated time period, and in keeping a clear chain of custody until the evidence is presented in court.\n\n5. If any evidence is inconclusive or there are gaps in the chain of custody, then the evidence may be challenged in court, or even become inadmissible. Investigators must be alert to documents being falsified, damaged, or destroyed by the suspect(s).",
+          "chapter_number": "17",
+          "chapter_name": "DUE DILIGENCE, INVESTIGATION AND FORENSIC ACCOUNTING",
+          "or_question": {
+            "question": "CA. Puranjay is performing a forensic accounting engagement involving gathering of evidence in relation to suspected fraud of substantial amount in a company. He has been appointed under terms of a contractual agreement with the company. The company operates in an electronic environment. While performing engagement, his team has gathered evidence from electronic records in Enterprise Resource Planning system (ERP), messages in company's e-mail system and also from system logs and audit trails generated by company's computer systems. However, while doing so, team has failed to take care of aspects such as keeping record of each person in team gathering relevant evidence, date and time of collection and storage of such evidence. What implications it may have on forensic accounting engagement as such? (MTP 4 Marks, Mar'24,MP[1])",
+            "answer": "In a forensic accounting engagement, professional undertakes a scrutiny and detailed examination of all transactions and balances relevant to the mandate so that evidence gathered is suitable in a Court of Law i.e. in compliance with legal requirements where it can be challenged through cross-examination by the defending party.\n\nIt is important that team is skilled in collecting evidence that can be used in a court case keeping a clear chain of custody till evidence is presented in court. If there are gaps in chain of custody, then the evidence may be challenged in court or even become inadmissible.\n\nIn the given case, team has failed to keep record of matters such as persons gathering relevant evidence, date and time of collection and storage of evidence. Therefore, team has failed to maintain the chain of custody.\n\nIt can, therefore, defeat the objective of forensic accounting engagement as evidence may be challenged in Court of law by defending parties and may become inadmissible."
+          }
+        }
+      ]
+    }
+  ]
+}

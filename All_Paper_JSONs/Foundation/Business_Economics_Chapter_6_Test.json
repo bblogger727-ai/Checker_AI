@@ -1,0 +1,422 @@
+[
+  {
+    "chapter": "CHAPTER 5: BUSINESS CYCLES",
+    "section": "A",
+    "q_num": 2,
+    "question": "Asignificant decline in general economic activity extending over a period of time is",
+    "options": {
+      "a": "Business cycle",
+      "b": "Contraction phase",
+      "c": "Recession",
+      "d": "Recovery"
+    },
+    "answer": "b",
+    "chapter_number": 6
+  },
+  {
+    "chapter": "CHAPTER 5: BUSINESS CYCLES",
+    "section": "A",
+    "q_num": 3,
+    "question": "The trough of a business cycle occurs \u201cwhen hits its lowest point.",
+    "options": {
+      "a": "Inflation in the economy",
+      "b": "The money supply",
+      "c": "Aggregate economic activity",
+      "d": "The unemployment rate caulhnss"
+    },
+    "answer": "c",
+    "chapter_number": 6
+  },
+  {
+    "chapter": "CHAPTER 5: BUSINESS CYCLES",
+    "section": "A",
+    "q_num": 5,
+    "question": "A leading indicator is",
+    "options": {
+      "a": "A variable that tends to move along with the level of economic activity",
+      "b": "A variable that tends to move in advance of aggregate economic activity",
+      "c": "Avariable that tends to move consequent on the level of aggregate economic activity",
+      "d": "None of the above"
+    },
+    "answer": "b",
+    "chapter_number": 6
+  },
+  {
+    "chapter": "CHAPTER 5: BUSINESS CYCLES",
+    "section": "A",
+    "q_num": 14,
+    "question": "When aggregate economic activity is declining, the economy is said to be in (SM, MTPOct\u201919)",
+    "options": {
+      "a": "Contraction.",
+      "b": "An expansion.",
+      "c": "A trough.",
+      "d": "A turning point."
+    },
+    "answer": "a",
+    "chapter_number": 6
+  },
+  {
+    "chapter": "CHAPTER 5: BUSINESS CYCLES",
+    "section": "A",
+    "q_num": 11,
+    "question": "During recession, the unemployment rate and output, .",
+    "options": {
+      "a": "Rises; falls",
+      "b": "Rises; rises",
+      "c": "Falls; rises",
+      "d": "Falls; falls"
+    },
+    "answer": "a",
+    "chapter_number": 6
+  },
+  {
+    "chapter": "CHAPTER 5: BUSINESS CYCLES",
+    "section": "A",
+    "q_num": 17,
+    "question": "Which of the following is not a characteristic of business cycles?",
+    "options": {
+      "a": "Business cycles have serious consequences on the well-being of the society.",
+      "b": "Business cycles occur periodically, although they do not exhibit the same regularity.",
+      "c": "Business cycles have uniform characteristics and causes.",
+      "d": "Business cycles are contagious and unpredictable."
+    },
+    "answer": "c",
+    "chapter_number": 6
+  },
+  {
+    "chapter": "CHAPTER 5: BUSINESS CYCLES",
+    "section": "A",
+    "q_num": 22,
+    "question": "Economic indicators are \u2014",
+    "options": {
+      "a": "A one stroke solution to check the phase of economy",
+      "b": "Indicators showing the movement of economy",
+      "c": "Some activities which predict the direction of economy",
+      "d": "Just an illusion"
+    },
+    "answer": "c",
+    "chapter_number": 6
+  },
+  {
+    "chapter": "CHAPTER 5: BUSINESS CYCLES",
+    "section": "A",
+    "q_num": 23,
+    "question": "Which economic indicator is required to predict the turning point of business cycle? (SM) (MTP Jul\u201924, May\u201925,Aug\u201925[1], MP[5])",
+    "options": {
+      "a": "Leading indicator",
+      "b": "Lagging indicator",
+      "c": "Coincident",
+      "d": "All of the above"
+    },
+    "answer": "d",
+    "chapter_number": 6
+  },
+  {
+    "chapter": "CHAPTER 5: BUSINESS CYCLES",
+    "section": "A",
+    "q_num": 26,
+    "question": "According to Keynes, fluctuations in Economic activities are due to-. (MTP Apr\u201921, Mar\u201922, Nov\u201922, May\u201923, MTP April\u201925) (a) Fluctuation in aggregate effective demand. (b) Innovations (c) Changes in money supply (d) Fluctuation in agricultural output",
+    "options": {
+      "a": "Fluctuation in aggregate effective demand.",
+      "b": "Innovations",
+      "c": "Changes in money supply",
+      "d": "Fluctuation in agricultural output"
+    },
+    "answer": "a",
+    "chapter_number": 6
+  },
+  {
+    "chapter": "CHAPTER 5: BUSINESS CYCLES",
+    "section": "A",
+    "q_num": 27,
+    "question": "Which of the following is the cause of business cycles?(SM, MTPOct\u201918) (a) Fluctuations in aggregate effective demand (b) Fluctuations in investments (c) Fluctuations in government spending (d) All of the above Gaurfnie",
+    "options": {
+      "a": "Fluctuations in aggregate effective demand",
+      "b": "Fluctuations in investments",
+      "c": "Fluctuations in government spending",
+      "d": "All of the above Gaurfnie"
+    },
+    "answer": "d",
+    "chapter_number": 6
+  },
+  {
+    "chapter": "CHAPTER 5: BUSINESS CYCLES",
+    "section": "A",
+    "q_num": 28,
+    "question": "Economists use changes in a variety of activities to measure the business cycle and to predict where the economy is headed towards which are called .(MTP May\u201920) (a) Signals (b) Indicators (c) Barometer (d) Clues",
+    "options": {
+      "a": "Signals",
+      "b": "Indicators",
+      "c": "Barometer",
+      "d": "Clues"
+    },
+    "answer": "b",
+    "chapter_number": 6
+  },
+  {
+    "chapter": "CHAPTER 5: BUSINESS CYCLES",
+    "section": "A",
+    "q_num": 35,
+    "question": "When aggregate economic activity is increasing, the economy is said to be in (MTP Aug\u201918, Mar\u201919) (a) Expansion (b) Contraction (c) Peak (d) A turning point.",
+    "options": {
+      "a": "Expansion",
+      "b": "Contraction",
+      "c": "Peak",
+      "d": "A turning point."
+    },
+    "answer": "a",
+    "chapter_number": 6
+  },
+  {
+    "chapter": "CHAPTER 5: BUSINESS CYCLES",
+    "section": "A",
+    "q_num": 37,
+    "question": "Which of the following is not a variable in the index of leading indicators?",
+    "options": {
+      "a": "New consumer goods order",
+      "b": "Delayed deliveries",
+      "c": "New building permits",
+      "d": "Prime rate"
+    },
+    "answer": "d",
+    "chapter_number": 6
+  },
+  {
+    "chapter": "CHAPTER 5: BUSINESS CYCLES",
+    "section": "A",
+    "q_num": 43,
+    "question": "What are the internal causes of business cycle?",
+    "options": {
+      "a": "Fluctuations in effective demand",
+      "b": "Macroeconomic policies",
+      "c": "Money supply",
+      "d": "All the above"
+    },
+    "answer": "d",
+    "chapter_number": 6
+  },
+  {
+    "chapter": "CHAPTER 5: BUSINESS CYCLES",
+    "section": "A",
+    "q_num": 49,
+    "question": "Which is more prone to the adverse effects of the business cycle",
+    "options": {
+      "a": "Services",
+      "b": "Industries",
+      "c": "Agriculture",
+      "d": "None of these"
+    },
+    "answer": "b",
+    "chapter_number": 6
+  },
+  {
+    "chapter": "CHAPTER 5: BUSINESS CYCLES",
+    "section": "A",
+    "q_num": 55,
+    "question": "Variable that change after real output change are: (MTP Mar\u201922)",
+    "options": {
+      "a": "Leading Indicator",
+      "b": "Lagging Indicator",
+      "c": "Concurrent Indicator",
+      "d": "None of these"
+    },
+    "answer": "b",
+    "chapter_number": 6
+  },
+  {
+    "chapter": "CHAPTER 5: BUSINESS CYCLES",
+    "section": "A",
+    "q_num": 56,
+    "question": "Businesses whose fortunes are closely linked to the rate of economic growth is referred to as: (MTP Mar\u201922, MP [9])",
+    "options": {
+      "a": "Cyclical",
+      "b": "Counter Cyclical",
+      "c": "Fiscal Policy",
+      "d": "None of these"
+    },
+    "answer": "a",
+    "chapter_number": 6
+  },
+  {
+    "chapter": "CHAPTER 5: BUSINESS CYCLES",
+    "section": "A",
+    "q_num": 57,
+    "question": "Which one of the following is not an internal cause of business cycles? (MTP Jun\u201922 ,April\u201925)",
+    "options": {
+      "a": "Money supply",
+      "b": "Technology shocks",
+      "c": "Psychological factors",
+      "d": "Fluctuations in investment"
+    },
+    "answer": "b",
+    "chapter_number": 6
+  },
+  {
+    "chapter": "CHAPTER 5: BUSINESS CYCLES",
+    "section": "A",
+    "q_num": 58,
+    "question": "Peak is the ___ stage of expansion. (MTP Jun\u201922, May\u201923 ,MTP Jun\u201924, April\u201925, mp[4])",
+    "options": {
+      "a": "Later",
+      "b": "Earlier",
+      "c": "Either (A) or (B)",
+      "d": "None of the above"
+    },
+    "answer": "a",
+    "chapter_number": 6
+  },
+  {
+    "chapter": "CHAPTER 5: BUSINESS CYCLES",
+    "section": "A",
+    "q_num": 71,
+    "question": "Lagging Indicators are: (MTP Nov\u201923) (a) Unemployment (b) Corporate Profits (c) Interest rate (d) All of the above",
+    "options": {
+      "a": "Unemployment",
+      "b": "Corporate Profits",
+      "c": "Interest rate",
+      "d": "All of the above"
+    },
+    "answer": "d",
+    "chapter_number": 6
+  },
+  {
+    "chapter": "CHAPTER 5: BUSINESS CYCLES",
+    "section": "A",
+    "q_num": 72,
+    "question": "Internal causes of business cycle: (MTP Nov\u201923) (a) Money Supply (b) Psychological factors (c) Macroeconomic Policies (d) All of the above",
+    "options": {
+      "a": "Money Supply",
+      "b": "Psychological factors",
+      "c": "Macroeconomic Policies",
+      "d": "All of the above"
+    },
+    "answer": "d",
+    "chapter_number": 6
+  },
+  {
+    "chapter": "CHAPTER 5: BUSINESS CYCLES",
+    "section": "A",
+    "q_num": 73,
+    "question": "During a recession, the economy experiences: (MTP Dec\u201923, Aug\u201924,MP[6]) (a) A decrease in prices and inflation (b) High levels of economic growth and expansion (c) A decline in employment and economic activity (d) Increased business investments and consumer spending",
+    "options": {
+      "a": "A decrease in prices and inflation",
+      "b": "High levels of economic growth and expansion",
+      "c": "A decline in employment and economic activity",
+      "d": "Increased business investments and consumer spending"
+    },
+    "answer": "c",
+    "chapter_number": 6
+  },
+  {
+    "chapter": "CHAPTER 5: BUSINESS CYCLES",
+    "section": "A",
+    "q_num": 76,
+    "question": "Which of the following statements is correct regarding business cycles? (MTP Jun\u201924 Apr\u201925, MP[4]) (a) Business cycles are contagious and international in character. (b) Business cycles begin in one country and spread to other countries through trade relations. (c) Business cycles have serious consequences on well-being of the societies. (d) All of the above",
+    "options": {
+      "a": "Business cycles are contagious and international in character.",
+      "b": "Business cycles begin in one country and spread to other countries through trade relations.",
+      "c": "Business cycles have serious consequences on well-being of the societies.",
+      "d": "All of the above"
+    },
+    "answer": "d",
+    "chapter_number": 6
+  },
+  {
+    "chapter": "CHAPTER 5: BUSINESS CYCLES",
+    "section": "A",
+    "q_num": 85,
+    "question": "Economic globalization has seen:",
+    "options": {
+      "a": "Business cycles in the rest of the world synchronize with those of India.",
+      "b": "Financial markets become more integrated over time.",
+      "c": "Financial disruptions spread more easily among countries.",
+      "d": "All the above."
+    },
+    "answer": "d",
+    "chapter_number": 6
+  },
+  {
+    "chapter": "CHAPTER 5: BUSINESS CYCLES",
+    "section": "A",
+    "q_num": 88,
+    "question": "In a business cycle, a period from peak to trough may be referred to as:",
+    "options": {
+      "a": "An expansion.",
+      "b": "A recurrence.",
+      "c": "A contraction.",
+      "d": "A stagflation."
+    },
+    "answer": "c",
+    "chapter_number": 6
+  },
+  {
+    "chapter": "CHAPTER 5: BUSINESS CYCLES",
+    "section": "A",
+    "q_num": 96,
+    "question": "The phase of business cycle in which growth rate becomes negative and the development of national income and expenditure declines rapidly resulting in widespread unemployment.",
+    "options": {
+      "a": "Contraction",
+      "b": "Recession",
+      "c": "Depression",
+      "d": "Recovery"
+    },
+    "answer": "c",
+    "chapter_number": 6
+  },
+  {
+    "chapter": "CHAPTER 5: BUSINESS CYCLES",
+    "section": "A",
+    "q_num": 98,
+    "question": "The business Cycles or the periodic booms and slumps in economic activities reflect the in economic activities. (PYP July 2021)",
+    "options": {
+      "a": "Upward movements",
+      "b": "Downward movements",
+      "c": "Upward and downward movements",
+      "d": "Extreme rise"
+    },
+    "answer": "c",
+    "chapter_number": 6
+  },
+  {
+    "chapter": "CHAPTER 5: BUSINESS CYCLES",
+    "section": "A",
+    "q_num": 101,
+    "question": "Business that are more vulnerable to changes in business cycle and whose fortunes are closely linked to rate of economic growth are called as: (PYP JAN. 2021)",
+    "options": {
+      "a": "Vulnerable Business",
+      "b": "Cyclical Business",
+      "c": "Leading Business",
+      "d": "Lagging Business"
+    },
+    "answer": "b",
+    "chapter_number": 6
+  },
+  {
+    "chapter": "CHAPTER 5: BUSINESS CYCLES",
+    "section": "A",
+    "q_num": 109,
+    "question": "Identity which among the following is an \u2018example of a lagging indicator?",
+    "options": {
+      "a": "Stock market prices",
+      "b": "Gross domestic product",
+      "c": "Unemployment",
+      "d": "Industrial production"
+    },
+    "answer": "c",
+    "chapter_number": 6
+  },
+  {
+    "chapter": "CHAPTER 5: BUSINESS CYCLES",
+    "section": "A",
+    "q_num": 119,
+    "question": "The lowest level of economic activity is called:",
+    "options": {
+      "a": "Depression",
+      "b": "Boom",
+      "c": "Expansion",
+      "d": "Contraction"
+    },
+    "answer": "a",
+    "chapter_number": 6
+  }
+]

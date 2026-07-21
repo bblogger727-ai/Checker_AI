@@ -1,0 +1,392 @@
+[
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 1,
+    "question": "Let $\\mathrm{f}(\\mathrm{x})=\\left(\\sqrt{\\mathrm{x}}+\\frac{1}{\\sqrt{\\mathrm{x}}}\\right)^{2}$ then $\\mathrm{f}^{\\prime}(2)$ is equal to",
+    "options": {
+      "a": "$3 / 4$",
+      "b": "$1 / 2$",
+      "c": "0",
+      "d": "None of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 2,
+    "question": "For the curve $x^{2}+y^{2}+2 g x+2 h y=0$, the value of $\\frac{d y}{d x}$ at $(0,0)$ is",
+    "options": {
+      "a": "$-\\mathrm{g} / \\mathrm{h}$",
+      "b": "$\\mathrm{g} / \\mathrm{h}$",
+      "c": "$\\mathrm{h} / \\mathrm{g}$",
+      "d": "None of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 3,
+    "question": "The derivative of $\\frac{3-5 x}{3+5 x}$ is",
+    "options": {
+      "a": "$30 /(3+5 x)^{2}$",
+      "b": "$\\quad 1 /(3+5 x)^{2}$",
+      "c": "$-30 /(3+5 x)^{2}$",
+      "d": "None of these"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 4,
+    "question": "If $\\mathrm{u}=3 \\mathrm{t}^{4}+5 \\mathrm{t}^{3}+2 \\mathrm{t}^{2}+\\mathrm{t}+4$, then the value of $\\frac{\\mathrm{du}}{\\mathrm{dt}} \\mathrm{at} \\mathrm{t}=-1$ is: (MTP Dec'23)",
+    "options": {
+      "a": "0",
+      "b": "1",
+      "c": "2",
+      "d": "5"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 5,
+    "question": "If $y=e^{x}+e^{-x}$ then $\\frac{d y}{d x}-\\sqrt{y^{2}-4}$ is equal to",
+    "options": {
+      "a": "1",
+      "b": "-1",
+      "c": "0",
+      "d": "None of these"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 6,
+    "question": "The derivative of $x^{2} \\log x$ is",
+    "options": {
+      "a": "$1+2 \\log x$",
+      "b": "$x(1+2 \\log x)$",
+      "c": "$2 \\log x$",
+      "d": "None of these"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 7,
+    "question": "Given $\\mathrm{x}=2 \\mathrm{t}+5, \\mathrm{y}=\\mathrm{t}^{2}-2 ; \\frac{\\mathrm{dy}}{\\mathrm{dx}}$ is calculated as (SM, MTP Apr'25, Mar'22, Mar'21, Aug 24, Mar'19, Mar'24, Jul'24,Aug'25[2], RTP Sep'24, May'25, MP [6])",
+    "options": {
+      "a": "t",
+      "b": "$-1 / \\mathrm{t}$",
+      "c": "$1 / \\mathrm{t}$",
+      "d": "None of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 8,
+    "question": "If $x=3 t^{2}-1, y=t^{3}-t$, then $\\frac{d y}{d x}$ is equal to",
+    "options": {
+      "a": "$\\frac{3 t^{2}-1}{6 t}$",
+      "b": "$3 t^{2}-1$",
+      "c": "$\\frac{3 t-1}{6 t}$",
+      "d": "None of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 9,
+    "question": "If $y=\\frac{e^{3 x}-e^{2 x}}{e^{3 x}+e^{2 x}}$, then $\\frac{d y}{d x}$ is equal to",
+    "options": {
+      "a": "$2 e^{5 x}$",
+      "b": "$1 /\\left(\\mathrm{e}^{5 \\mathrm{x}}+\\mathrm{e}^{2 \\mathrm{x}}\\right)^{2}$",
+      "c": "$\\mathrm{e}^{5 \\mathrm{x}} /\\left(\\mathrm{e}^{5 \\mathrm{x}}+\\mathrm{e}^{2 \\mathrm{x}}\\right)$",
+      "d": "None of these"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 10,
+    "question": "f $x=\\left(1-t^{2}\\right) /\\left(1+t^{2}\\right) y=2 t /\\left(1+t^{2}\\right)$ then $d y / d x$ at $t=1$ is $\\_\\_\\_\\_ .$",
+    "options": {
+      "a": "$1 / 2$",
+      "b": "1",
+      "c": "0",
+      "d": "None of these"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 11,
+    "question": "Let $\\mathrm{y}=\\sqrt{2 \\mathrm{x}}+3^{2 \\mathrm{x}}$ then $\\frac{\\mathrm{dy}}{\\mathrm{dx}}$ is equal to",
+    "options": {
+      "a": "$(1 / \\sqrt{2 \\mathrm{x}})+2.3^{2 \\mathrm{x}} \\log _{\\mathrm{e}} 3$",
+      "b": "$1 / \\sqrt{2 x}$",
+      "c": "$2.3^{2 x} \\log _{e} 3$",
+      "d": "None of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 12,
+    "question": "If $y=a e^{n x}+b e^{-n x}$, then $\\frac{d^{2} y}{d x^{2}}$ is equal to $\\_\\_\\_$ . (MTP Nov'22, MP [10])",
+    "options": {
+      "a": "$n^{2} y$",
+      "b": "$-n^{2} y$",
+      "c": "ny",
+      "d": "None of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 13,
+    "question": "The derivative of $\\mathrm{e}^{3 \\mathrm{x}^{2}-6 \\mathrm{x}+2}$ is",
+    "options": {
+      "a": "$30 /(1-5 x)^{5}$",
+      "b": "$(1-5 x)^{5}$",
+      "c": "$6(x-1) e^{3 x^{2}-6 x+2}$",
+      "d": "None of these"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 14,
+    "question": "The derivative of $\\left(x^{2}-1\\right) / x$ is",
+    "options": {
+      "a": "$1+1 / x^{2}$",
+      "b": "$1-1 x^{2}$",
+      "c": "$1 / x^{2}$",
+      "d": "None of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 15,
+    "question": "If $\\mathrm{f}(\\mathrm{x})=\\mathrm{x}^{\\mathrm{k}}$ and $\\mathrm{f}^{\\prime}(1)=10$ the value of k is (SM, MTP April'25, MTP Mar'21, Nov'22, MP [10])",
+    "options": {
+      "a": "10",
+      "b": "-10",
+      "c": "$1 / 10$",
+      "d": "None of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 16,
+    "question": "If $\\mathrm{x}=\\mathrm{at}^{2}, \\mathrm{y}=2 \\mathrm{at}$ then $\\left[\\frac{\\mathrm{dy}}{\\mathrm{dx}}\\right]_{\\mathrm{t}=2}$ is equal to (SM, MTP Apr'19)",
+    "options": {
+      "a": "$1 / 2$",
+      "b": "-2",
+      "c": "$-1 / 2$",
+      "d": "None of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 17,
+    "question": "If $\\mathrm{x}=\\mathrm{c} . \\mathrm{t}, \\mathrm{y}=\\mathrm{c} / \\mathrm{t}$, then $d y / d x$ is equal to: (MTP Apr'24, MP [1])",
+    "options": {
+      "a": "$1 / \\mathrm{t}$",
+      "b": "t.e $e^{\\mathrm{t}}$",
+      "c": "$-1 / \\mathrm{t}^{2}$",
+      "d": "None of these"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 18,
+    "question": "The slope of the tangent to the curve $\\mathrm{y}=\\frac{\\mathrm{x}-1}{\\mathrm{x}+1}$ at $\\mathrm{x}=2$ is (MTP Nov'23)",
+    "options": {
+      "a": "$\\frac{4}{16}$",
+      "b": "$\\frac{3}{16}$",
+      "c": "$\\frac{1}{4}$",
+      "d": "$\\frac{2}{9}$"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 19,
+    "question": "If $\\mathrm{y}=\\frac{\\mathrm{e}^{\\mathrm{x}}+1}{\\mathrm{e}^{\\mathrm{x}}-1}$ then $\\frac{\\mathrm{dy}}{\\mathrm{dx}}$ is equal to",
+    "options": {
+      "a": "$\\frac{-2 \\mathrm{e}^{\\mathrm{x}}}{\\left(\\mathrm{e}^{\\mathrm{x}}-1\\right)^{2}}$",
+      "b": "$\\frac{2 \\mathrm{e}^{\\mathrm{x}}}{\\left(\\mathrm{e}^{\\mathrm{x}}-1\\right)^{2}}$",
+      "c": "$\\frac{-2}{\\left(\\mathrm{e}^{\\mathrm{x}}-1\\right)^{2}}$",
+      "d": "None of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 20,
+    "question": "$f(x)=x^{2} / e^{x}$ then $f^{\\prime}(1)$ is equal to $\\_\\_\\_\\_ .",
+    "options": {
+      "a": "$-1 / \\mathrm{e}$",
+      "b": "$1 / \\mathrm{e}$",
+      "c": "e",
+      "d": "None of these"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 21,
+    "question": "The slope of the tangent at the point $(2,-2)$ to the curve $x^{2}+x y+y^{2}-4=0$ is given by : (MTP May'23)",
+    "options": {
+      "a": "0",
+      "b": "1",
+      "c": "-1",
+      "d": "None of these"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 22,
+    "question": "If $\\mathrm{y}=\\frac{1}{\\sqrt{\\mathrm{x}}}$ then $\\frac{\\mathrm{dy}}{\\mathrm{dx}}$ is equal to",
+    "options": {
+      "a": "$\\frac{1}{2 x \\sqrt{x}}$",
+      "b": "$\\frac{-1}{x \\sqrt{x}}$",
+      "c": "$-\\frac{1}{2 x \\sqrt{x}}$",
+      "d": "None of these"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 23,
+    "question": "If $y=e^{\\sqrt{2 x}}$ then $\\frac{d y}{d x}$ is equal to $\\_\\_\\_\\_$. (SM, MTP May'25)",
+    "options": {
+      "a": "$\\frac{e^{\\sqrt{2 x}}}{\\sqrt{2 x}}$",
+      "b": "$\\mathrm{e}^{\\sqrt{2 \\mathrm{x}}}$",
+      "c": "$e^{\\sqrt{x}}$",
+      "d": "None of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 24,
+    "question": "If $\\mathrm{f}(\\mathrm{x})=\\mathrm{x}_{\\mathrm{c}_{3}}$ then $\\mathrm{f}^{\\prime}(1)=$ ? (MTP Nov'23)",
+    "options": {
+      "a": "$1 / 6$",
+      "b": "$-1 / 6$",
+      "c": "$5 / 6$",
+      "d": "$-5 / 6$"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 25,
+    "question": "The slope of the tangent to the curve $y=x^{2}-x$ at the point, where the line $y=2$ cuts the curve in the first quadrant, is (MTP Mar'19, July 24, MP [5])",
+    "options": {
+      "a": "2",
+      "b": "3",
+      "c": "-3",
+      "d": "2"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 26,
+    "question": "if $\\mathrm{y}=\\mathrm{e}^{\\mathrm{a} \\log \\mathrm{x}}+\\mathrm{e}^{\\mathrm{x} \\log \\mathrm{a}}$, then $\\frac{\\mathrm{dy}}{\\mathrm{dx}}=$ (MTP Dec'23)",
+    "options": {
+      "a": "$x^{a}+a^{x}$",
+      "b": "$\\mathrm{ax}^{\\mathrm{a}-1}+\\mathrm{a}^{\\mathrm{x}} \\log \\mathrm{a}$",
+      "c": "$a x^{a-1}+x a^{x-1}$",
+      "d": "$x^{x}+a^{a}$"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 27,
+    "question": "If $\\mathrm{f}(\\mathrm{x})=\\mathrm{x}^{2}-6 \\mathrm{x}+8$ then $\\mathrm{f}^{\\prime}(5)-\\mathrm{f}^{\\prime}(8)$ is equal to (SM, MTP May'20, Jan'25, MP [8])",
+    "options": {
+      "a": "$\\mathrm{f}^{\\prime}(2)$",
+      "b": "$3 \\mathrm{f}^{\\prime}(2)$",
+      "c": "$2 f^{\\prime}(2)$",
+      "d": "None of these"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 28,
+    "question": "If $x^{3}-2 x^{2} y^{2}+5 x+y-5=0$ then $\\frac{d y}{d x}$ at $x=1, y=1$ is equal to",
+    "options": {
+      "a": "$4 / 3$",
+      "b": "$-4 / 3$",
+      "c": "$3 / 4$",
+      "d": "None of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 29,
+    "question": "The differential coefficients of $\\left(x^{2}+1\\right) / x$ is",
+    "options": {
+      "a": "$1+1 / x^{2}$",
+      "b": "$\\quad 1-1 / x^{2}$",
+      "c": "$1 / x^{2}$",
+      "d": "None of these"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 30,
+    "question": "Given $\\mathrm{x}=\\mathrm{t}+\\mathrm{t}^{-1}$ and $\\mathrm{y}=\\mathrm{t}-\\mathrm{t}^{-1}$ the value of $\\frac{\\mathrm{dy}}{\\mathrm{dx}}$ at $\\mathrm{t}=2$ is",
+    "options": {
+      "a": "$3 / 5$",
+      "b": "$-3 / 5$",
+      "c": "$5 / 3$",
+      "d": "None of these"
+    },
+    "answer": "c"
+  }
+]

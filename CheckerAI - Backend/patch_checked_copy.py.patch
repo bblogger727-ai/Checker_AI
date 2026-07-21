@@ -1,0 +1,54 @@
+--- patch_checked_copy.py
++++ patch_checked_copy.py
+@@ -136,6 +136,9 @@
+               "ticks_count":    int,
+               "crosses_count":  int,
+               "ticks_crosses":  list[dict],  # full list with page/x/y/action/size
++              "delete_tick_indices": list[int],
++              "move_tick_indices": list[dict], # e.g. [{"index": 0, "direction": "down3"}]
++              "marks_page": int,
+           },
+           ...
+       }
+@@ -342,6 +345,26 @@
+             print(f"  🗑 {mkey}: deleted {before - after} tick/cross annotation(s) "
+                   f"at index(es) {sorted(to_delete)}")
+ 
++        if "move_tick_indices" in corr:
++            import re
++            existing = q.get("ticks_crosses", [])
++            for move in corr["move_tick_indices"]:
++                idx = int(move["index"])
++                direction_str = move["direction"].strip().lower()
++                if 0 <= idx < len(existing):
++                    m = re.match(r'([a-z]+)(\d*)', direction_str)
++                    if m:
++                        dir_name = m.group(1)
++                        multiplier = int(m.group(2)) if m.group(2) else 1
++                        dist = 30 * multiplier
++                        if dir_name == "up": existing[idx]["y"] += dist
++                        elif dir_name == "down": existing[idx]["y"] -= dist
++                        elif dir_name == "left": existing[idx]["x"] -= dist
++                        elif dir_name == "right": existing[idx]["x"] += dist
++                    print(f"  ↔ {mkey}: moved tick/cross[{idx}] {direction_str}")
++                else:
++                    print(f"  ⚠ {mkey}: move index {idx} out of range")
++
+         # ── Tick / Cross changes ───────────────────────────────────────────────────────────────
+         if "ticks_crosses" in corr:
+             tc_corr = corr["ticks_crosses"]
+@@ -367,6 +390,14 @@
+                 q["ticks_crosses"] = tc_corr
+                 print(f"  ✓ {mkey}: full replacement of ticks/crosses ({len(tc_corr)} items)")
+ 
++        if "marks_page" in corr:
++            new_page = int(corr["marks_page"])
++            if "stamp" in q and q["stamp"]:
++                q["stamp"]["page"] = new_page
++            if "feedback" in q and q["feedback"]:
++                q["feedback"]["page"] = new_page
++            print(f"  📄 {mkey}: moved marks/feedback to page {new_page}")
++
+     # Save back
+     with open(manifest_path, "w", encoding="utf-8") as f:
+         json.dump(manifest, f, indent=2, ensure_ascii=False)

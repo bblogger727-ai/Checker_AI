@@ -7,6 +7,8 @@ import Setter from './pages/Setter';
 import PaperEditor from './pages/PaperEditor';
 import Mentor from './pages/Mentor';
 import StudentProfile from './pages/StudentProfile';
+import CheckedPaper from './pages/CheckedPaper';
+import EditCheckedCopy from './pages/EditCheckedCopy';
 import './App.css';
 
 // Auth Context
@@ -62,6 +64,14 @@ function App() {
           <Route
             path="/exam/:id"
             element={user ? <ExamDetail /> : <Navigate to="/login" />}
+          />
+          <Route
+            path="/checked-paper/:id"
+            element={user ? <CheckedPaper /> : <Navigate to="/login" />}
+          />
+          <Route
+            path="/checked-paper/:id/edit"
+            element={user ? <EditCheckedCopy /> : <Navigate to="/login" />}
           />
           {/* SetterAI Routes */}
           <Route

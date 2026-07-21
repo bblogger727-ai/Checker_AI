@@ -1,0 +1,465 @@
+{
+  "meta": {
+    "subject_code": "IDT",
+    "subject_name": "Indirect Tax",
+    "paper_num": 2,
+    "total_marks_printed": 100,
+    "total_marks_in_paper": 114,
+    "section_a_marks": 30,
+    "section_b_marks": 84,
+    "note": "Section B: Q1 compulsory (14m). Attempt any 4 of Q2-Q6 (14m each).",
+    "blacklisted_from": [
+      "Generated_Papers/IDT/IDT_Mock_Paper_1.json"
+    ]
+  },
+  "section_a": [
+    {
+      "type": "case_study",
+      "chapter_number": "5",
+      "chapter_name": "Time of Supply",
+      "case_text": "## CS 41 (PYP 12 Marks Sep'25)\n\nMr. Suraj Rao of Bhilwara (Rajasthan) is a registered person under GST and is filing monthly returns. His turnover for the financial year 2024-25 was \u20b9 $\\mathbf{1 . 2 5}$ crores. He is engaged in the business of various goods and services. He provided the details of following transactions/supplies undertaken by him during the month of February 2026:\n\n(i) He executed a hedging contract for a commodity with NCDEX at a price of \u20b9 1,100 per unit for 600 units. Original contract of purchase of the commodity was made @ \u20b9 1,000 per unit. On the date of expiry of future contract i.e. 28th February 2026, the rate of commodity was \u20b9 900 per unit. He squared off the contract without physical delivery of the commodity. He paid \u20b9 2,000 each at the time of entry and exit off the future contract.\n\n(ii) He provided repair and maintenance service related to generator to Mr. Rajendra on 05th February, 2026 involving both supply of goods being spare parts and supply of service being labour charges. He disclosed the value of goods at $\u20b9 10,800$ and value of service at $\u20b9 25,000$ separately in the invoice issued in this regard.\n\nDetails of inward supplies during the month:\n\n(i) Purchase of goods for \u20b9 $\\mathbf{2 0 , 0 0 , 0 0 0}$ from a registered person (it includes \u20b9 $\\mathbf{5 , 0 0 , 0 0 0}$ towards purchase of goods which are exempted).\n\n(ii) Purchased a truck for \u20b9 $8,00,000$ for transportation of goods for delivery to customers. No depreciation was claimed on GST portion.\n\n(iii) Incurred \u20b9 $3,50,000$ on renovation of office building and debited the expenses (excluding the GST portion) in the Profit and Loss account under repair and maintenance head.\n\n(iv) Mr. Suraj Rao went to Surat, Gujarat for a business meeting which was mandatory under a law for the time being in force in February 2026 and stayed in a GST registered hotel named \"A One Hotel\" for few days. Room accommodation charges for \u20b9 $\\mathbf{5 0 , 0 0 0}$ (taxable value) was paid for the stay.\n\nOther information\n\n(i) Due to the accountant on leave, GSTR-3B for the month of February, 2026 could not be filed on due date prescribed i.e. 20th March, 2026. It was filed on 31st March, 2026.\n\n(ii) Suraj Rao collected an advance payment of \u20b9 $2,00,000$ plus applicable GST for provision of service in the month of September, 2025. However, no tax was deposited on such advance money to the Government even though 5 months has elapsed.\n\nAll amounts given above are exclusive of taxes, wherever applicable.\n\nAll supplies are intra-State except otherwise mentioned. All the supplies of goods and services are chargeable to GST @ 9\\% each under CGST \\& SGST and @ 18\\% under IGST except spare parts which are chargeable @ $2.5 \\%$ each under CGST \\& SGST and @ 5\\% under IGST.\n\nExamine the above case scenario and based on the information given above, choose the correct and most appropriate answer to Questions :\n\n\n1. Value of outward supply of the contract executed with NCDEX will be: (Chapter 6: Value of Supply)\n\n(a) \u20b9 $6,00,000$\n\n(b) \u20b9 $5,40,000$\n\n(c) \u20b9 $6,60,000$\n\n(d) Nil\n\n\nAns: (d)\n\n2. The amount of input tax credit that can be availed for stay in 'A One Hotel', Surat will be: (Chapter 7: Input Tax Credit)\n\n(a) \u20b9 9,000-CGST \\& \u20b9 9,000-SGST\n\n(b) \u20b9 9,000-IGST\n\n(c) No input tax credit available\n\n(d) \u20b9 4,500-CGST \\& \u20b9 4,500-SGST\n\n\nAns: (c)\n\n3. The amount of total eligible input tax credit (ITC) for the month of February, 2026, will be: (Chapter 7: Input Tax Credit)\n\n(a) \u20b9 $4,86,000$\n\n(b) \u20b9 $4,77,000$\n\n(c) \u20b9 $4,23,000$\n\n(d) \u20b9 $4,14,000$\n\n\nAns: (b)\n\n4. The nature of supply and rate applicable for service provided to Mr. Rajendra will be: (Chapter 1: Supply Under GST)\n\n(a) mixed supply and chargeable at the highest rate.\n\n(b) composite supply and chargeable at the rate of principal supply.\n\n(c) individual supply and chargeable at total of CGST and SGST at $5 \\%$ for supply of spare parts and at $18 \\%$ for supply of service.\n\n(d) neither supply of goods nor supply of service.\n\n\nAns: (c)\n\n5. The amount of late fee to be paid while filing GSTR-3B for the month February, 2026 under the GST Law (Total of CGST and SGST) will be: (Chapter 13: Returns)\n\n(a) \u20b9 2,000\n\n(b) \u20b9 500\n\n(c) $\u20b9 550$\n\n(d) \u20b9 1,100\n\n\nAns: (c)\n\n6. The amount of penalty which may be levied under section 122 of the CGST Act, 2017 for failure to deposit the tax on advance payment received (Total of CGST and SGST) will be: (Chapter 21: Offences \\& Penalties and Ethical Aspects under GST)\n\n(a) \u20b9 50,000\n\n(b) \u20b9 36,000\n\n(c) \u20b9 20,000\n\n(d) \u20b9 25,000\n\n\nAns: (b)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Value of outward supply of the contract executed with NCDEX will be:",
+          "options": {
+            "a": "\u20b9 $6,00,000$",
+            "b": "\u20b9 $5,40,000$",
+            "c": "\u20b9 $6,60,000$",
+            "d": "Nil"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null,
+          "_serial": 1
+        },
+        {
+          "q_num": 2,
+          "question": "The amount of input tax credit that can be availed for stay in 'A One Hotel', Surat will be:",
+          "options": {
+            "a": "\u20b9 9,000-CGST \\& \u20b9 9,000-SGST",
+            "b": "\u20b9 9,000-IGST",
+            "c": "No input tax credit available",
+            "d": "\u20b9 4,500-CGST \\& \u20b9 4,500-SGST"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": 2
+        },
+        {
+          "q_num": 3,
+          "question": "The amount of total eligible input tax credit (ITC) for the month of February, 2026, will be:",
+          "options": {
+            "a": "\u20b9 $4,86,000$",
+            "b": "\u20b9 $4,77,000$",
+            "c": "\u20b9 $4,23,000$",
+            "d": "\u20b9 $4,14,000$"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": 3
+        },
+        {
+          "q_num": 4,
+          "question": "The nature of supply and rate applicable for service provided to Mr. Rajendra will be:",
+          "options": {
+            "a": "mixed supply and chargeable at the highest rate.",
+            "b": "composite supply and chargeable at the rate of principal supply.",
+            "c": "individual supply and chargeable at total of CGST and SGST at $5 \\%$ for supply of spare parts and at $18 \\%$ for supply of service.",
+            "d": "neither supply of goods nor supply of service."
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": 4
+        },
+        {
+          "q_num": 5,
+          "question": "The amount of late fee to be paid while filing GSTR-3B for the month February, 2026 under the GST Law (Total of CGST and SGST) will be:",
+          "options": {
+            "a": "\u20b9 2,000",
+            "b": "\u20b9 500",
+            "c": "\u20b9 550",
+            "d": "\u20b9 1,100"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": 5
+        },
+        {
+          "q_num": 6,
+          "question": "The amount of penalty which may be levied under section 122 of the CGST Act, 2017 for failure to deposit the tax on advance payment received (Total of CGST and SGST) will be: (Chapter 21: Offences \\& Penalties and Ethical Aspects under GST)",
+          "options": {
+            "a": "\u20b9 50,000",
+            "b": "\u20b9 36,000",
+            "c": "\u20b9 20,000",
+            "d": "\u20b9 25,000"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": 6
+        }
+      ],
+      "mcq_count": 6,
+      "unique_id": "5-CS-41"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "33",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "## CS 2 (MTP 8 Marks March '22)\n\n\nYogi, a registered supplier of Delhi, is engaged in supplying a bouquet of taxable goods and services. He has made the following supplies in the month of January:\n\n\n| S. No. | Particulars | Amount*(\u20b9) |\n| :--- | :--- | :--- |\n| (i) | Supply of 20,000 packages at \u20b9 30 each to Lovely Gift Shop in Punjab [Each package consists of 2 chocolates, 2 fruit juice bottles and a packet of toy balloons] | 6,00,000 |\n| (ii) | 500 packages each consisting of 1 chocolate and 1 fruit juice bottle given as free gift to Delhi customers on the occasion of Diwali <br> [Cost of each package is \u20b9 12, but the open market value of such package of goods and of goods of like kind and quality is not available. Input tax credit has not been taken on the items contained in the package] |  |\n| (iii) | Catering services provided to elder brother free of cost for his business function in Delhi <br> [Cost of providing said services is \u20b9 55,000, but the open market value of such services and of services of like kind and quality is not available.] |  |\n\n\n*excluding GST\n\nFollowing additional information has been furnished by Yogi:\n\n\n1. Penalty of \u20b9 10,000 was collected in lumpsum in the month of March from Lovely Gift Shop since the payment was received with a delay of 60 days.\n\n2. One of the old customers of Yogi - Mr. Muni - approached him requesting him to arrange the transportation of the goods purchased by him from a local supplier. Yogi arranged the transportation of said goods for Mr. Muni through a goods transport operator. Yogi did not issue a consignment note to Mr. Muni.\n\n3. Assume the rates of GST to be as under:\n\n\n| Goods/services supplied | CGST | SGST | IGST |\n| :--- | :--- | :--- | :--- |\n| Chocolates | 9\\% | 9\\% | 18\\% |\n| Fruit juice bottles | 6\\% | 6\\% | 12\\% |\n| Toy balloons | 2.5\\% | 2.5\\% | 5\\% |\n| Catering service | 9\\% | 9\\% | 18\\% |\n\n\nBased on the facts of the case scenario given above, choose the most appropriate answer to Q. Nos. 1 to 4 below:-\n\n\n1. GST payable on packages supplied to Lovely Gift Shop in January and in March is (1) $\\_\\_\\_\\_$ and (2)\n\n$\\_\\_\\_\\_$ respectively. (Chapter 11 Payment of Tax)\n\n(a) (1) IGST - \u20b9 1,09,526; (2) nil\n\n(b) (1) CGST - \u20b9 54,763; SGST - \u20b9 54,763; (2) nil\n\n(c) (1) IGST - \u20b9 $1,08,000$; (2) IGST - \u20b9 1,526\n\n(d) (1) CGST - \u20b9 54,000; SGST - \u20b9 54,000; (2) CGST - \u20b9 763; SGST - \u20b9 763\n\n\nAns: (c)\n\n2. GST on services of transportation of goods provided by Yogi to Mr. Muni: (Chapter 2 Charge of GST)\n\n(a) is payable by Mr. Muni @ $5 \\%$.\n\n(b) is payable by Yogi @ $12 \\%$.\n\n(c) is payable by Mr. Muni @ 12\\%.\n\n(d) is not payable at all.\n\n\nAns: (d)\n\n3. Supply of 500 packages given as free gift to Delhi customers on the occasion of Diwali is $\\_\\_\\_\\_$ . (Chapter 1 Supply under GST)\n\n(a) a mixed supply\n\n(b) not a supply\n\n(c) a composite supply\n\n(d) a separate supply of chocolate and fruit juice bottle\n\n\nAns: (b)\n\n4. For the purposes of GST law, value of supply of catering services provided by Yogi to his elder brother free of cost for his business function in Delhi is $\\_\\_\\_\\_$ .(Chapter 6 Value of Supply)\n\n(a) \u20b9 60,500\n\n(b) \u20b9 55,000\n\n(c) \u20b9 60,500 or \u20b9 55,000 , whichever is lower\n\n(d) nil as catering services provided by Yogi to his elder brother is not a supply.\n\n\nAns: (d)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "GST payable on packages supplied to Lovely Gift Shop in January and in March is (1) $\\_\\_\\_\\_$ and (2) $\\_\\_\\_\\_$ respectively.",
+          "options": {
+            "a": "(1) IGST - \u20b9 1,09,526; (2) nil",
+            "b": "(1) CGST - \u20b9 54,763; SGST - \u20b9 54,763; (2) nil",
+            "c": "(1) IGST - \u20b9 $1,08,000$; (2) IGST - \u20b9 1,526",
+            "d": "(1) CGST - \u20b9 54,000; SGST - \u20b9 54,000; (2) CGST - \u20b9 763; SGST - \u20b9 763"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": 7
+        },
+        {
+          "q_num": 2,
+          "question": "GST on services of transportation of goods provided by Yogi to Mr. Muni:",
+          "options": {
+            "a": "is payable by Mr. Muni @ $5 \\%$.",
+            "b": "is payable by Yogi @ $12 \\%$.",
+            "c": "is payable by Mr. Muni @ 12\\%.",
+            "d": "is not payable at all."
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null,
+          "_serial": 8
+        },
+        {
+          "q_num": 3,
+          "question": "Supply of 500 packages given as free gift to Delhi customers on the occasion of Diwali is $\\_\\_\\_\\_$ .",
+          "options": {
+            "a": "a mixed supply",
+            "b": "not a supply",
+            "c": "a composite supply",
+            "d": "a separate supply of chocolate and fruit juice bottle"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": 9
+        },
+        {
+          "q_num": 4,
+          "question": "For the purposes of GST law, value of supply of catering services provided by Yogi to his elder brother free of cost for his business function in Delhi is $\\_\\_\\_\\_$ .",
+          "options": {
+            "a": "\u20b9 60,500",
+            "b": "\u20b9 55,000",
+            "c": "\u20b9 60,500 or \u20b9 55,000 , whichever is lower",
+            "d": "nil as catering services provided by Yogi to his elder brother is not a supply."
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null,
+          "_serial": 10
+        }
+      ],
+      "mcq_count": 4,
+      "unique_id": "33-CS-2"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "33",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "## CS 7 (MTP 10 Marks Sep '23, RTP Nov'21)\n\nKarim Associates is a partnership firm registered under GST in the State of Rajasthan. In the month of July, following transactions were made by Karim Associates:\n\n(a) Purchase of commodity $X$ on 1st July from registered person for an amount of $\u20b9 5,00,000$ at the rate of $\u20b9$ 1,000 per tonne from the open market. The said commodity was deposited in the warehouse of NCDEX Ltd. (an agricultural commodity exchange) in Rajasthan as a security against transactions entered by Karim Associates on the same day.\n\n(b) In order to hedge the aforesaid transaction, on 1st July, Karim Associates undertook a derivative sale transaction in futures contract for the month of August at NCDEX at the rate of \u20b9 1,100 per tonne.\n\n(c) Karim Associates took subscription for an AI (Artificial Intelligence) based platform from an unrelated party, ABC Inc (a company based in US) to get real time updates on the pricing of commodity X in the international market. ABC Inc charged \u20b9 50,000 for such subscription. The invoice was issued to Karim Associates on 1st July, but the payment was made to ABC Inc on 20th August.\n\n(d) NCDEX charges rent from Karim Associates at the rate of \u20b9 $\\mathbf{1 0 , 0 0 0 ~ p e r ~ m o n t h ~ a n d ~ s e r v i c e ~ c h a r g e s ~ a t ~ t h e ~}$ rate of \u20b9 $\\mathbf{2 0 , 0 0 0}$ per month.\n\n(e) On the date of expiry of future contract of the month of August, i.e. 31st August for commodity $X$, the rate of commodity X was \u20b9 900 per tonne. Karim Associates squared off the contract (without physical delivery) for the month of August at the same rate.\n\n(f) NCDEX charged brokerage on the transactions (both purchase and sale of derivative contract separately) at the rate of \u20b9 $\\mathbf{5 , 0 0 0}$ per contract from Karim Associates in the month when such transaction was entered and when such transaction was squared off.\n\ng) On the purchase of commodity X , additional levy in form of Mandi Tax was applicable at the rate of \u20b9 10 per tonne which is not included in the rate per tonne under point (a) above.\n\nAll the amounts given above are exclusive of GST unless otherwise provided. The opening balance of input tax credit for the relevant tax period of Karim Associates is Nil. Subject to the information given above, assume that all the other conditions necessary for availing ITC have been fulfilled.\n\nAssume that there is no other outward or inward supply transaction apart from aforesaid transactions, in the months of July and August.\n\nGST is applicable in the aforesaid case scenario at the following rates unless otherwise specified:\n\nI. Intra-State supply- 9\\% CGST and 9\\% SGST\n\nII. Inter-State supply- $\\mathbf{1 8 \\%}$ IGST\n\nBased on the facts of the case scenario given above, choose the most appropriate answer to Q. Nos. 1 to 5 below:-\n\n\n1. Compute the taxable value of inward supply of commodity $X$ for Karim Associates in the month of July. (Chapter 6: Value of Supply)\n\n(a) \u20b9 $5,00,000$\n\n(b) \u20b9 $5,50,000$\n\n(c) \u20b9 $5,55,000$\n\n(d) $\u20b9 5,05,000$\n\n\nAns: (d)\n\n2. Compute the value of outward supply made by Karim Associates in the month of August. (Chapter 6: Value of Supply)\n\n(a) Nil\n\n(b) \u20b9 $5,55,000$\n\n(c) $\u20b9 5,60,000$\n\n(d) \u20b9 $5,00,000$\n\n\nAns: (a)\n\n3. What is the time of supply for subscription of AI based platform by Karim Associates? (chapter 5: Time of Supply)\n\n(a) July 1\n\n(b) August 31\n\n(c) August 20\n\n(d) July 31\n\n\nAns: (c)\n\n4. Compute the net GST payable in cash by Karim Associates for the month of August. (Chapter 11: Payment of Tax)\n\n(a) Nil\n\n(b) \u20b9 2,700\n\n(c) \u20b9 81,000\n\n(d) \u20b9 9,000\n\n\nAns: (d)\n\n5. Compute the input tax credit balance available with Karim Associates for the month of July. (Chapter 7: Input Tax Credit)\n\n(a) \u20b9 9,000\n\n(b) \u20b9 16,200\n\n(c) \u20b9 97,200\n\n(d) Nil\n\n\nAns: (a)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Compute the taxable value of inward supply of commodity $X$ for Karim Associates in the month of July.",
+          "options": {
+            "a": "\u20b9 $5,00,000$",
+            "b": "\u20b9 $5,50,000$",
+            "c": "\u20b9 $5,55,000$",
+            "d": "$\u20b9 5,05,000$"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null,
+          "_serial": 11
+        },
+        {
+          "q_num": 2,
+          "question": "Compute the value of outward supply made by Karim Associates in the month of August.",
+          "options": {
+            "a": "Nil",
+            "b": "\u20b9 $5,55,000$",
+            "c": "$\u20b9 5,60,000$",
+            "d": "\u20b9 $5,00,000$"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "_serial": 12
+        },
+        {
+          "q_num": 3,
+          "question": "What is the time of supply for subscription of AI based platform by Karim Associates? (chapter 5: Time of Supply)",
+          "options": {
+            "a": "July 1",
+            "b": "August 31",
+            "c": "August 20",
+            "d": "July 31"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": 13
+        },
+        {
+          "q_num": 4,
+          "question": "Compute the net GST payable in cash by Karim Associates for the month of August.",
+          "options": {
+            "a": "Nil",
+            "b": "\u20b9 2,700",
+            "c": "\u20b9 81,000",
+            "d": "\u20b9 9,000"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null,
+          "_serial": 14
+        },
+        {
+          "q_num": 5,
+          "question": "Compute the input tax credit balance available with Karim Associates for the month of July.",
+          "options": {
+            "a": "\u20b9 9,000",
+            "b": "\u20b9 16,200",
+            "c": "\u20b9 97,200",
+            "d": "Nil"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "_serial": 15
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "33-CS-7"
+    }
+  ],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": true,
+      "total_marks": 14,
+      "chapter_number": "1",
+      "sub_questions": [
+        {
+          "label": "\u2014",
+          "marks": 14,
+          "internal_split": null,
+          "question": "Quanto Enterprises is not required to register under the CGST Act. However, it applied for voluntary registration on 17th September. Registration certificate has been granted to the firm on 25th September. The CGST and SGST liability of the firm for the month of September is \u20b9 24,000 each. The firm is not engaged in making inter-State outward taxable supplies.\n\nQuanto Enterprises provides the following information regarding capital goods and inputs held in stock by it as on 24th September:\n\n| Particulars | Amount (\u20b9) |\n|-------------|------------|\n| Inputs procured on 2nd September lying in stock |  |\n\n| - CGST @ 6% | 4,500 |\n| - SGST @ 6% | 4,500 |\n| Input received on 21st July contained in semi-finished goods held in stock: |  |\n| - CGST @ 6% | 7,500 |\n| - SGST @ 6% | 7,500 |\n| Value of inputs contained in finished goods held in stock- \u20b9 2,00,000 [Such inputs were procured on 19th September last year. Invoice for the goods was also issued on the same day] |  |\n| - IGST @ 18% | 36,000 |\n| Inputs valued at \u20b9 50,000 procured on 13th September lying in stock: |  |\n| - IGST @ 18% | 9,000 |\n| Capital goods procured on 12th September |  |\n| - CGST @ 6% | 12,000 |\n| - SGST @ 6% | 12,000 |\n\nYou are required to compute the net GST payable from Electronic Cash Ledger by Quanto Enterprises for the month of September assuming that conditions for availing ITC are fulfilled subject to the information given above.",
+          "answer": "Computation of net GST payable from Electronic Cash Ledger by Quanto Enterprises for the month of September\n\n| Particulars | CGST (Rs) | SGST (Rs) |\n|-------------|-----------|-----------|\n| Output tax liability for the month | 24,000 | 24,000 |\n| Less: ITC [Notes 1 & 2] | 9,000 (CGST) | 12,000 (SGST) |\n| | 12,000 (CGST) |  |\n| Net GST payable (from electronic cash ledger) | 3,000 | 12,000 |\n\nNotes:\n1. Credit of IGST is first utilized towards payment of IGST and thereafter for CGST and SGST in any order and in any proportion. Credit of CGST and SGST can be utilized only after IGST credit has been fully utilized [Rule 88A read with sections 49(5), 49A and 49B].\n\n2. Since Quanto Enterprises does not make any inter-State supply, in the above answer, entire credit of IGST has been utilized towards payment of CGST. Credit of IGST can also be utilized against SGST liability or against both CGST and SGST liabilities in any proportion and thus, the final answer will change accordingly.\n\nAs per section 18(1)(b) a person who takes voluntary registration is entitled to take credit of input tax in respect of inputs held in stock and inputs contained in semi-finished/ finished goods held in stock on the day immediately preceding the date of grant of registration.\n\nHowever, he cannot take ITC in respect of capital goods held on the day immediately preceding the date of grant of registration.\n\nITC on inputs needs to be availed within 1 year from the date of issue of the invoice by the supplier [Section 18(2)].\n\nIn this case, since Quanto Enterprises has been granted voluntary registration on 25th September, it will be entitled to ITC on inputs held in stock and inputs contained in semi-finished/ finished goods held in stock, on 24th September. In view of the said provisions, eligible ITC for Quanto Enterprises is computed as follows:\n\n| Particulars | CGST (\u20b9) | SGST (\u20b9) | IGST (\u20b9) |\n|-------------|----------|----------|----------|\n| Inputs held in stock since 2nd September | 4,500 | 4,500 |  |\n| Inputs received on 21st July contained in semi-finished goods held in stock | 7,500 | 7,500 |  |\n| Inputs contained in finished goods held in stock which were procured on 19th September last year [Invoice issued prior to one year, hence ITC cannot be availed] | Nil | Nil |  |\n| Inputs held in stock since 13th September |  |  | 9,000 |\n| Total ITC | 12,000 | 12,000 | 9,000 |",
+          "chapter_number": "7",
+          "chapter_name": "INPUT TAX CREDIT",
+          "unique_id": "IDT-OCR-P2_ITC_Q1"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "7",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Moti Weavers, at Pune, Maharashtra is a registered input service distributor and intends to distribute ITC for the month of March. The following are the details available for such distribution:\n\n| Branch | Turnover of the last quarter (Rs.) | ITC specifically attributable to the branch (Rs.) |\n| :--- | :--- | :--- |\n| Ganganagar Branch (Rajasthan) | 10,00,000 | IGST - Rs. 12,000 CGST - Rs. 3,000 SGST - Rs. 3,000 |\n| Madhugiri Branch (Karnataka) | 5,00,000 | Nil |\n| Kosala Branch (UP) | 15,00,000 | Nil |\n| Mumbai Branch (Maharashtra) | 20,00,000 | IGST - Rs. 1,50,000 CGST- Rs. 15,000 <br> SGST- Rs. 15,000 |\n\nITC available on input services used commonly for all branches is as under:\n\nCGST - Rs.60,000 SGST Rs.60,000 IGST - Rs.1,20,000\n\nITC (IGST) of Rs. 10,000 pertaining to March (last year) was inadvertently not distributed. Whether the same can be considered for distribution in March this year?\n\nMadhugiri, Karnataka branch uses input services to manufacture exempted products. Turnover excludes duties & taxes payable to Central and State Government.\n\nDetermine the manner of input tax distribution. (MTP 5 Marks April'24, SM,MP[2])",
+          "answer": "(i) Total GST credit (CGST+ SGST + IGST) of Rs. 18,000 specifically attributable to Ganganagar Branch, Rajasthan will be distributed as IGST credit of Rs. 18,000 only to Ganganagar Branch, Rajasthan [Since recipient and input service distributor (ISD) are located in different states].\n\n(ii) IGST credit of Rs. $1,50,000$, CGST credit of Rs. 15,000 and SGST credit of Rs. 15,000 specifically attributable to Mumbai Branch, Maharashtra will be distributed as IGST credit of Rs. $1,50,000$, CGST credit of Rs. 15,000 and SGST credit of Rs. 15,000 respectively, only to Mumbai Branch, Maharashtra [Since recipient is located in the same State in which ISD is located].\n\n(iii) CGST credit of Rs. 60,000 , SGST credit of Rs. 60,000 and IGST credit of Rs. $1,20,000$ have to be distributed among the three branches and Mumbai Branch, Maharashtra in proportion of their turnover of the last quarter.\n\n- Ganganagar Branch, Rajasthan will get: $Rs. 48,000$ [ Rs. $2,40,000 \\times(Rs. 10,00,000 / Rs. 50,00,000)$ ] as IGST credit.\n\n- Madhugiri Branch, Karnataka will get: $Rs. 24,000[Rs. 2,40,000 \\times(Rs. 5,00,000 / Rs. 50,00,000)]$ as IGST credit.\n\n- The credit attributable to a recipient is distributed even if such recipient is making exempt supplies.\n\n- Kosala Branch, UP will get: Rs. 72,000 [Rs. $2,40,000 \\quad x$ (Rs. $15,00,000$ / Rs. $50,00,000$ )] as IGST credit.\n\n- Mumbai Branch, Maharashtra will get:\n\nRs. 24,000 [Rs. $60,000 \\times$ (Rs. $20,00,000$ / Rs. $50,00,000$ )] as CGST credit, Rs. 24,000 [Rs. $60,000 \\times$ ( Rs. $20,00,000$ / Rs. $50,00,000$ )] as SGST credit and Rs. 48,000 [Rs. $1,20,000 \\times$ ( Rs. $20,00,000$ / Rs. $50,00,000$ )] as IGST credit.\n\n(iv) ITC of Rs. 10,000 of March (last year) cannot be distributed in March this year as ITC available for distribution in a month is to be distributed in the same month.",
+          "chapter_number": "7",
+          "chapter_name": "INPUT TAX CREDIT"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Mr. Prem is running a restaurant in New Delhi. In the financial year 2023-24, it has an aggregate turnover of \u20b9120 lakh from the restaurant services. In the financial year 2024-25, apart from restaurant service, he also wants to provide food delivery services to other small restaurants. He estimated the turnover of such services is upto \u20b95 lakh.\n\nMr. Prem wishes to opt for composition scheme under sub-sections (1) and (2) of section 10 in the financial year 2024-25. You are required to advise him for the same.",
+          "answer": "As per section 10(1) read with Notification No.14/2019 CT dated 07.03.2019, a registered person, whose aggregate turnover in the preceding financial year did not exceed \u20b91.5 crore, may opt to pay, in lieu of the tax payable by him, an amount calculated at the specified rates if, inter alia, he is not engaged in the supply of services other than restaurant services.\n\nHowever, the scheme permits supply of other marginal services for a specified value along with the supply of goods and restaurant service, as the case may be. Such marginal services can be supplied for a value up to 10% of the turnover in a State/Union Territory in the preceding year or \u20b95 lakh, whichever is higher.\n\nIn the present case, since the aggregate turnover of Mr. Prem was \u20b9120 lakh in financial year 2023-24 (i.e. it did not exceed \u20b91.5 crore), he is eligible for composition scheme in the financial year 2024-25. Further, in the financial year 2024-25, he can also supply services other than restaurant services for a value upto \u20b912 lakh (10% of \u20b9120 lakh) or \u20b95 lakh, whichever is higher. Thus, till the time his turnover from food delivery services does not exceed \u20b912 lakh, he is eligible for the scheme.",
+          "chapter_number": "2",
+          "chapter_name": "CHARGE OF GST",
+          "unique_id": "IDT-OCR-P2_ChargeGST"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "M/s IES Ltd. (assessee) imported certain goods at US $ 20 per unit from an exporter who was holding 30% equity in the share capital of the importer company. Subsequently, the assessee entered into an agreement with the same exporter to import the said goods in bulk at US $ 14 per unit. When imports at the reduced price were effected pursuant to this agreement, the Department rejected the transaction value stating that the price was influenced by the relationship and completed the assessment on the basis of transaction value of the earlier imports i.e., at US $20 per unit under rule 4 of the Customs Valuation (Determination of Value of Imported Goods) Rules 2007. State briefly, whether the Department's action is sustainable in law?",
+          "answer": "No, the Department\u2019s action is not sustainable in law. Rule 2(2) of the Customs Valuation (Determination of Value of Imported Goods) Rules, 2007, inter alia, provides that persons shall be deemed to be \"related\" if one of them directly or indirectly controls the other. The word \"control\" has not been defined under the said rules. As per common parlance, control is established when one enterprise holds at least 51% of the equity shareholding of the other company. However, in the instant case, the exporter company held only 30% of shareholding of the assessee. Thus, exporter company did not exercise control over the assessee. So, the two parties cannot be said to be related. The fact that assessee had made bulk imports could be a reason for reduction of import price. The burden to prove under-valuation lies on the Revenue and in absence of any evidence from the Department to prove under-valuation, the price declared by the assessee is acceptable. In the light of foregoing discussion, it can be inferred that Department\u2019s action is not sustainable in law.",
+          "chapter_number": "28",
+          "chapter_name": "VALUATION UNDER CUSTOMS ACT, 1962",
+          "unique_id": "IDT-OCR-P2_ValCustoms"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "3",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "(i) Rhea is a person registered under GST in Mysore, Karnataka. She transports certain goods by air to Mrs. Iyer who resides in Florida, USA. The air cargo operator by which goods are transported is registered in Bengaluru, Karnataka.\n\nDetermine the place of supply of such transport/courier service under GST law with supporting notes related to legal provisions.\n\n(ii) 'Mischievous Muppets' - a Kindergarten school in Pune, Maharashtra, has given the contract of catering service to a Pune based agency viz. 'Toddlers Catering Agency', registered under GST.\n\nWhether the said catering service provided by 'Toddlers Catering Agency' in the school is taxable under GST law? Answer with supporting notes related to legal provisions.",
+          "answer": "(i) The place of supply of services by way of transportation of goods, including by courier, to a place outside India is the place of recipient of service as per default provisions 13(2).\n\nHence, in the given case, place of supply of such services would be Florida, USA.\n\n(ii) Catering services provided to an educational institution providing services by way of pre-school education and education up to higher secondary school are exempt from GST.\n\nThus, in the given case, catering service provided by \"Toddlers Catering Agency\" to \"Mischievous Muppets\" - a Kindergarten school is exempt from GST.",
+          "chapter_number": "3",
+          "chapter_name": "PLACE OF SUPPLY"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Question 2 (SM)\n\n'Separate LUT is to be furnished for every export supply.'\n\nWith reference to the provisions of the GST law, examine the veracity or otherwise of the statement.",
+          "answer": "No, the statement is not correct.\n\nThe LUT remains valid for the whole financial year and there is no need to furnish separate LUT for each export supply. However, in case goods are not exported within the time limit specified in rule 96A(1) of the CGST Rules and the registered person fails to pay the amount mentioned in the said sub rule, the facility of export under LUT will be deemed to have been withdrawn. However, if the amount mentioned in the said sub-rule is paid subsequently, the facility of export under LUT shall be restored. As a result, exports, during the period from when the facility to export under LUT is withdrawn till the time the same is restored, shall be either on payment of the applicable IGST or under bond with bank guarantee.\n\nRule $96 \\mathrm{~A}(1)$ provides inter alia that an exporter of goods has to execute the bond or LUT prior to export, binding himself to pay the tax due along with interest @ 18\\% within 15 days after the expiry of 3 months, or such further period as may be allowed by the Commissioner, from the date of issue of the invoice for export, if the goods are not exported out of India.",
+          "chapter_number": "14",
+          "chapter_name": "IMPORT \\& EXPORT UNDER GST"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Moris Lal has imported goods from Germany and is finally re-assessed u/s 18(2) of the Customs Act, 1962 for two such consignments. Particulars are as follows:\n\nDate of provisional assessment\t\t\t12th December, 2024\nDate of final re-assessment\t\t\t2nd February, 2025\nDuty demand for 1st consignment\t\t\t\u20b91,80,000\nRefund for the 2nd consignment\t\t\t\u20b94,20,000\nDate of refund made by the department\t\t28th April, 2025\nDate of payment of duty demanded\t\t\t5th February, 2025\n\nDetermine the interest payable and receivable, if any, by Moris Lal on the final re-assessment of the two consignments, with suitable notes thereon.",
+          "answer": "As per section 18(3) of the Customs Act, 1962, an importer is liable to pay interest at the rate of 15% p.a. (Notification No. 33/2016-Cus. (NT) dated 01.03.2016), on any amount payable consequent to the re-assessment order from the first day of the month in which the duty is provisionally assessed till the date of payment.\n\nTherefore, in the given case, Moris Lal is liable to pay following interest in respect of 1st consignment:\n\n= \u20b9 1,80,000 \u00d7 15% \u00d7 67/365\n= \u20b9 4,956 (rounded off)\n\nIf any amount refundable consequent to the re-assessment order is not refunded within 3 months from date of re-assessment of duty, interest is payable to importer on unrefunded amount at the specified rate till the date of refund of such amount in terms of section 18(4) of the Customs Act, 1962.\n\nSince in the given case, refund has been made (28.04.2025) within 3 months from the date of re-assessment of duty (02.02.2025), interest is not payable to Moris Lal on duty refunded in respect of 2nd consignment.",
+          "chapter_number": "29",
+          "chapter_name": "Importation, Exportation and of Goods",
+          "unique_id": "IDT-OCR-P2_ImportExport"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "15",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Y Ltd. exported service valued at US $\\$ 1,00,000$. Supply of service was completed on $15{ }^{\\text {th }}$ January. Payment for this service was received on $28^{\\text {th }}$ February. Refund claim was filed by Y Ltd. in respect of tax paid on inputs and inputs services for Rs. $6,00,000$ on $31^{\\text {st }}$ March. The refund claim was sanctioned on $30^{\\text {th }}$ June. What is the amount of refund Y Ltd. will get in accordance with law? What is the relevant date and rate of interest as per GST law? (MTP 4 Marks Apr'22, Apr'21)",
+          "answer": "As per clause (i) of first proviso to section 54(3), refund claim admissible to Y Ltd. on account of export of services being a zero-rated supply, is the unutilized ITC of Rs. $6,00,000$. Where the supply of services had been completed prior to the receipt of payment, relevant date is the date of receipt of payment in convertible foreign exchange, i.e. 28th February [Explanation to section 54]. As per section 56, where any tax ordered to be refunded to any applicant is not refunded within 60 days from the date of receipt of application, interest shall be payable @ 6\\% p.a. from the date immediately after the expiry of 60 days from the date of receipt of application till the date of refund of such tax. Since in the given case, tax ordered to be refunded is not refunded within 60 days from the date of receipt of application, viz., 31st March, interest @ 6\\% p.a. is payable.",
+          "chapter_number": "15",
+          "chapter_name": "REFUNDS"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "When is an e-way bill required to be generated? (MTP 5 Marks May '20 & Apr'21, PYP 5 Marks May'19)",
+          "answer": "As per rule 138 of the CGST Rules, 2017, whenever there is a movement of goods of consignment value exceeding Rs. 50,000:\n\n(i) in relation to a supply; or\n\n(ii) for reasons other than supply; or\n\n(iii) due to inward supply from an unregistered person, e-way bill needs to be generated prior to the commencement of transport of goods.\n\nFurther, in the following situations, e-way bill needs to be issued even if the value of the consignment is less than Rs. 50,000:\n\n(i) Where goods are sent by a principal located in one State/ Union territory to a job worker located in any other State/Union territory, the e-way bill shall be generated either by the principal or the job worker, if registered, irrespective of the value of the consignment.\n\n(ii) Where specified handicraft goods are transported from one State/ Union territory to another State/ Union territory by a person who has been exempted from the requirement of obtaining registration under section 24 of the CGST Act, 2017, the e-way bill shall be generated by the said person irrespective of the value of the consignment.",
+          "chapter_number": "10",
+          "chapter_name": "Accounts & Records, E-way Bill",
+          "unique_id": "10-T-11"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Briefly explain the provisions of rule 2(a) of Rules of Interpretation of the First Schedule to the Customs Tariff Act, 1975 on classification of incomplete/unfinished articles.",
+          "answer": "The provisions of rule 2(a) of Rules of Interpretation of the First Schedule to the Customs Tariff Act, 1975 on classification of incomplete/unfinished articles are as under:-\n\nIf any particular heading refers to a finished/complete article, the incomplete/unfinished form of that article shall also be classified under the same heading provided the incomplete/unfinished goods have the essential characteristics of the finished goods.\n\nReference to an article will also include the article complete or finished (or failing to be classified as complete or finished) presented un-assembled or dis-assembled.",
+          "chapter_number": "27",
+          "chapter_name": "CLASSIFICATION OF IMPORTED & EXPORTED",
+          "unique_id": "IDT-OCR-P2_Classification"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "21",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "List the scenarios where goods or conveyances are liable to confiscation under section 130 of the CGST Act, 2017. (RTP May'25)",
+          "answer": "As per section 130, where any person-\n\n(i) supplies or receives any goods in contravention of any of the provisions of GST law or the rules made thereunder with intent to evade payment of tax;\n\n(ii) does not account for any goods on which he is liable to pay tax under GST law; or\n\n(iii) supplies any goods liable to tax under GST law without having applied for registration; or\n\n(iv) contravenes any of the provisions of GST law or the rules made thereunder with intent to evade payment of tax; or\n\n(v) uses any conveyance as a means of transport for carriage of goods in contravention of the provisions of GST law or the rules made thereunder unless the owner of the conveyance proves that it was so used without the knowledge or connivance of the owner himself, his agent, if any, and the person in charge of the conveyance, then, all such goods or conveyances shall be liable to confiscation and the person shall be liable to penalty under section 122.",
+          "chapter_number": "21",
+          "chapter_name": "OFFENCES \\& PENALTIES AND ETHICAL ASPECTS UNDER GST",
+          "unique_id": "21-T-14"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "## Question 20 (PYP 5 Marks May'25)\n\n$\text{M} / \text{s}$ Karim Associates (supplier) was issued show cause notice under section 74A of the CGST Act, 2017 by the Adjudicating Authority (AA). In the final order dated 30-08-20XX issued to M/s Karim Associates, the Additional Commissioner of Central Tax (AA) confirmed the tax demand of Rs. $60,00,000$. Demand on account of penalty of equal amount and interest amounting to Rs. $16,00,000$ was also confirmed.\n\nHowever, the Revisional Authority (RA), using the powers under section 108 of the CGST Act, on its own motion called for the records and found that the order passed by the AA is erroneous in so far as it is prejudicial to the interest of revenue and enhanced the tax demand to Rs. $70,00,000$, penalty of equal amount and interest amounting to Rs. $\textbf{2 0 , 0 0 , 0 0 0}$ by order dated $\textbf{1 5 - 1 1 - 2 0 X X}$.\n\nThe supplier admitted tax demand of Rs. $20,00,000$, interest amounting to Rs. $5,00,000$ and penalty for Rs. $\textbf{2 0 , 0 0 , 0 0 0}$ and deposited the admitted tax, interest and penalty on 30-11-20XX. For the balance amount, the supplier decided to file an appeal and appointed a Chartered Accountant for this purpose. The appeal was filed with the necessary pre deposit of the amount and the same was decided in favour of $\text{M} / \text{s}$ Karim Associates on dated 28-02-20YY.\n\nThe application for refund of pre-deposit was made on 01-03-20YY and refund was granted on 14-03-20YY. Considering the above facts, you are required to answer the following:\n\n(1) The appellate authority to which $\text{M} / \text{s}$ Karim Associates would be required to file the appeal against the order of RA.\n\n(2) The amount of pre-deposit required to be deposited along with the above appeal.\n\n(3) Compute the amount of interest payable on refund of such pre-deposit under section 115 of the CGST Act, 2017.\n\n(4) The amount of pre-deposit required assuming if the appeal is to be filed against the orders of appellate authority with original demand and after considering the same amount of payment of admitted demand deposited on 30-11-20XX.",
+          "answer": "(1) M/s Karim Associates would be required to file an appeal against the order of Revisional Authority to the Appellate Tribunal (GSTAT).\n\n(2) The amount of pre-deposit is computed as under\n(a) full amount of tax (Rs.20 lakh), interest (Rs.5 lakh) and penalty (Rs.20 lakh) admitted, i.e. Rs.45 lakh and\n\n(b) $10 \\\\%$ of the remaining amount of tax in dispute [Rs.5 lakh ( $10 \\\\%$ of Rs.50 lakh)], Thus, amount of pre-deposit would be Rs. 50 lakh ( 45 lakh +10 lakh).\n\n(3) Interest on refund of pre-deposit shall be payable @ 9\\% per annum from the date of payment (30-11-20XX) till the date of refund of such amount (14-03-20YY), i.e. for 104 days, as under:\n\n$=Rs. 5,00,000 \\times 9 \\% \\times 104 / 365$\n\n= Rs.12,821.92\n\nRs.12,822 (rounded off)]\n\n(4) In this case, the appeal should be filed to Appellate Authority and the amount of pre-deposit is computed as under-\n\n(i) Full amount of tax, interest and penalty admitted, i.e., Rs. 45 lakh ( 20 lakh +5 lakh +20 lakh)\n\n(ii) $10 \\\\%$ of the tax in dispute, i.e. Rs.4 lakh ( $10 \\\\%$ of Rs.40 lakh)\n\nTherefore, amount of pre-deposit to be made is Rs.49 lakh ( Rs.45 lakh +4 lakh).",
+          "chapter_number": "22",
+          "chapter_name": "APPEALS \\& REVISIONS",
+          "unique_id": "22-T-20"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "State the exceptions to the principle of unjust enrichment as applicable to refund claims. (SM, PYP 4 Marks Dec'21)",
+          "answer": "The principle of unjust enrichment is applicable in all cases of refund except in the following cases:-\n\n(a) Refund of tax paid on export of goods or services or both or on inputs or input services used in making such exports.\n\n(b) Unutilized input tax credit in respect of (i) zero rated supplies made without payment of tax or, (ii) where the credit has accumulated on account of rate of tax on inputs being higher than the rate of tax on output supplies.\n\n(c) refund of tax paid on a supply which is not provided, either wholly or partially, and for which invoice has not been issued.\n\nd) refund of tax in pursuance of section 77 of CGST/SGST Act i.e. tax wrongfully collected and paid to Central Government or State Government.\n\ne) if the incidence of tax or interest paid has not been passed on to any other person.",
+          "chapter_number": "15",
+          "chapter_name": "REFUNDS",
+          "or_question": {
+            "question": "With reference to section 54(3), mention the cases where refund of unutilised input tax credit is allowed. (SM)",
+            "answer": "As per section 54(3), a registered person may claim refund of unutilised input tax credit at the end of any tax period in the following cases:\n\n(i) Zero rated supplies made without payment of tax: Supply of goods or services or both for authorized operations to an SEZ developer/unit or export of goods or services or both qualifies as zero rated supplies.\n\n(ii) Accumulated ITC on account of inverted duty structure: Where the credit has accumulated on account of rate of tax on inputs being higher than the rate of tax on output supplies (other than nil rated or fully exempt supplies), except supplies of goods or services or both as may be notified by the Government on the recommendations of the Council.\n\nHowever, refund of unutilized input tax credit shall not be allowed if:\n\n- the goods exported out of India are subjected to export duty;\n\n- the supplier of goods or services or both avails of drawback in respect of CGST or claims refund of the IGST paid on such supplies."
+          }
+        }
+      ]
+    },
+    {
+      "q_main": 6,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "19",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "List the cases, in which transfer of property to be void specified under section 81 of the CGST Act, 2017. (MTP 4 Marks Apr'25)",
+          "answer": "In accordance with section 81 of the CGST Act, 2017, where a person, after any amount has become due from him, creates a charge on or parts with the property belonging to him or in his possession by way of sale, mortgage, exchange, or any other mode of transfer whatsoever of any of his properties in favour of any other person with the intention of defrauding the Government revenue, such charge or transfer shall be void as against any claim in respect of any tax or any other sum payable by the said person.\n\nHowever, such charge or transfer shall not be void if it is made for adequate consideration, in good faith and without notice of the pendency of such proceedings under this Act or without notice of such tax or other sum payable by the said person, or with the previous permission of the proper officer.",
+          "chapter_number": "19",
+          "chapter_name": "Demands & Recovery"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Write short note on \"Summary Assessment\" under section 64 of the CGST Act, 2017. (PYP 5 Marks Nov'23, SM, MTP Mar'25)",
+          "answer": "Summary assessments may be initiated to protect the interest of revenue with the previous permission of Additional/Joint Commissioner when:\n\n(i) the proper officer has evidence that a taxable person has incurred a tax liability, and\n\n(ii) the proper officer has sufficient grounds to believe that delay in passing an assessment order may adversely affect the interest of revenue.\n\nIn case Additional/Joint Commissioner considers such order to be erroneous, either on his own motion or on an application made by the taxable person within 30 days of receipt of order, he may withdraw such order. Where the taxable person to whom the liability pertains is not ascertainable and such liability pertains to supply of goods, the person in charge of such goods shall be deemed to be the taxable person liable to be assessed and liable to pay tax and any other amount due.",
+          "chapter_number": "17",
+          "chapter_name": "ASSESSMENT \\& AUDIT",
+          "unique_id": "17-T-6"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "6. With reference to the provisions of FTP, discuss giving reasons whether the following statements are true or false:\n\n(i) If any doubt arises in respect of interpretation of any provision of FTP, the said doubt should be forwarded to CBIC, whose decision thereon would be final and binding.\n\n(ii) IEC is a unique 12 digit PAN based alphanumeric code allotted to a person for undertaking any export/ import activities.",
+          "answer": "(i) False. If any question or doubt arises in respect of interpretation of any provision of the FTP, said question or doubt ought to be referred to DGFT whose decision thereon would be final and binding.\n\n(ii) False. IEC is a unique 10-digit alphanumeric number allotted to a person for undertaking export/ import activities.",
+          "chapter_number": "32",
+          "chapter_name": "FOREIGN TRADE POLICY",
+          "unique_id": "IDT-OCR-P2_FTP"
+        }
+      ]
+    }
+  ]
+}

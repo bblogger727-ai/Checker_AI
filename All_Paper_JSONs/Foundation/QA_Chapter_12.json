@@ -1,0 +1,392 @@
+[
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 1,
+    "question": "When Rani saw Vinit, she recollected that \"He is the brother of my grandfather's son\". How is Rani related to Vinit? (MTP Apr'23)",
+    "options": {
+      "a": "Aunt",
+      "b": "Daughter",
+      "c": "Sister",
+      "d": "Niece"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 2,
+    "question": "Suresh introduces a man as \"He is the son of the woman who is the mother of the husband of my mother\". How is Suresh related to the man?",
+    "options": {
+      "a": "Uncle",
+      "b": "Son",
+      "c": "Cousin",
+      "d": "Grandson"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 3,
+    "question": "Pointing towards A, B said \"your mother is the younger sister of my mother\". How is A related to B?",
+    "options": {
+      "a": "Uncle",
+      "b": "Cousin",
+      "c": "Nephew",
+      "d": "Father"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 4,
+    "question": "P is the mother of $K, K$ is the sister of $D . D$ is the father of $J$. How is P related to J? (MTP Nov'23, Mar'22, Mar'21)",
+    "options": {
+      "a": "Mother",
+      "b": "Grandmother",
+      "c": "Aunt",
+      "d": "Data is in adequate"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 5,
+    "question": "Ravi's father has a son Rohit who has an aunt Laxmi who has a husband Rao whose father-in-law is Mohan. What is the relation of Mohan to Ravi?",
+    "options": {
+      "a": "Nephew",
+      "b": "Grandfather",
+      "c": "Son",
+      "d": "Uncle"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 6,
+    "question": "Pointing to a photograph Vikas said \"She is the daughter of my grandfather's only son\". How is lady in the photograph related to Vikas in the photograph?",
+    "options": {
+      "a": "Father",
+      "b": "Brother",
+      "c": "Sister",
+      "d": "Mother"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 7,
+    "question": "Pointing towards photograph. Vinod said \"she is the daughter of my wife's mother's only daughter\". How is Vinod is related to the girl in the Photograph? (MTP Nov'21, Oct'21, Jan'25)",
+    "options": {
+      "a": "Cousin",
+      "b": "Uncle",
+      "c": "Father",
+      "d": "None"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 8,
+    "question": "If $A+B$ means $B$ is the brother of $A ; A \\times B$ means $B$ is the husband of $A ; A-B$ means $A$ is the mother of $B$ and $A \\% B$ means $A$ is the father of $B$, which of the following relations shows that $Q$ is the grandmother of $T$ ? (MTP Nov'23, Jul'24, MP [5])",
+    "options": {
+      "a": "$\\mathrm{Q}-\\mathrm{P}+\\mathrm{R} \\% \\mathrm{~T}$",
+      "b": "PXQ\\%R-T",
+      "c": "$P \\times Q \\% R+T$",
+      "d": "$P+Q \\% R-T$"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 9,
+    "question": "Pointing to a photograph, a man said to a woman \"His mother is the only daughter of your father \" How is the woman related to that person (MTP Apr'24, Apr'23, Oct'19, MP[1])",
+    "options": {
+      "a": "Daughter",
+      "b": "Sister",
+      "c": "Mother",
+      "d": "Wife"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 10,
+    "question": "M and F are a married couple. A and B are sisters. A is the sister of F . Who is B to M ?",
+    "options": {
+      "a": "Sister",
+      "b": "Sister-in-law",
+      "c": "Niece",
+      "d": "Daughter"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 11,
+    "question": "A is the father of C and D is the son of B. E is the brother of A. If C is the sister of D, how is B is related to E? (MTP Apr'24, MP [1])",
+    "options": {
+      "a": "Daughter",
+      "b": "Brother-in-law",
+      "c": "Husband",
+      "d": "Sister-in-law"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 12,
+    "question": "Introducing a man, a woman said, \"His wife is the only daughter of my mother.\" How is the woman related with the man?",
+    "options": {
+      "a": "Sister-in-law",
+      "b": "Wife",
+      "c": "Aunt",
+      "d": "Mother-in-law"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 13,
+    "question": "In a certain language, '+' means father of, '-' means daughter of, '*' means son of, and '/' means mother of. For example, $\\mathrm{X}+\\mathrm{Y}-\\mathrm{Z}$ means that X is the father of Y and Y is the daughter of Z . $\\mathrm{A}+\\mathrm{F}-\\mathrm{K} / \\mathrm{G}+\\mathrm{L}^{*} \\mathrm{H}$ How is H related to A ? (MTP May'23)",
+    "options": {
+      "a": "Sister-in-law",
+      "b": "Daughter-in-Law",
+      "c": "Daughter",
+      "d": "Grand-Daughter"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 14,
+    "question": "Rohan is Prateek's $\\_\\_\\_\\_$ . (MTP Nov'22,Aug'25[1], MP [2])",
+    "options": {
+      "a": "Brother",
+      "b": "Brother-in-law",
+      "c": "Uncle",
+      "d": "Cousin brothers"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 15,
+    "question": "A and B are brothers. C and D are sisters. A's son is D's brother. How is B related to C?",
+    "options": {
+      "a": "Father",
+      "b": "Brother",
+      "c": "Uncle",
+      "d": "Son"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 16,
+    "question": "In a joint family, there are father, mother, 3 married sons and one unmarried daughter. Out of the sons, two have $\\mathbf{2}$ daughters each and one has a son only. How many female members are there in the family? (MTP Apr'23)",
+    "options": {
+      "a": "3",
+      "b": "6",
+      "c": "9",
+      "d": "8"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 17,
+    "question": "Rohan's mother is $\\_\\_\\_\\_$ to Anita's mother. (MTP Nov'22,Aug'25[1], MP [2])",
+    "options": {
+      "a": "Aunt",
+      "b": "Mother",
+      "c": "No relation",
+      "d": "Sister"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 18,
+    "question": "A is the mother of D and sister of B . B has a daughter C who is married to F . G is the husband of A . How is G related to D? (MTP Mar'18, Jun'24, SM, MP [4])",
+    "options": {
+      "a": "Uncle",
+      "b": "Husband",
+      "c": "Son",
+      "d": "Father"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 19,
+    "question": "Rahul and Robin are brothers. Promod is Robin's father. Sheela is Pramod's sister. Prema is Promod's niece. Shubha is Sheela's grand-daughter. How is Rahul related to Shubha?",
+    "options": {
+      "a": "Brother",
+      "b": "Cousin",
+      "c": "Uncle",
+      "d": "Nephew"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 20,
+    "question": "Annanya is mother of Satya and Shyam is the son of Bhima, Shiva is brother of Annanya. If Satya is sister of Shyam, How Bhima is related to Shiva? (MTP Apr'23)",
+    "options": {
+      "a": "Son",
+      "b": "Cousin",
+      "c": "Brother-in-law",
+      "d": "Son-in-law"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 21,
+    "question": "If $\\mathrm{A}+\\mathrm{B}$ means, \" A is the son of B \" A-B means, \" $A$ is the daughter of $B$ \" $A * B$ means, \" $A$ is the wife of $B$ \" $A \\$ B$ means, \" $A$ is the sister of $B$ \". If A\\$B-C*D is true, how is D related to B? (MTP May'23)",
+    "options": {
+      "a": "Wife",
+      "b": "Father",
+      "c": "Grandmother",
+      "d": "Grandfather"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 22,
+    "question": "P is the father of T . T is the daughter of M . M is the daughter of K . What is P to K ? (MTP Aug'18, SM)",
+    "options": {
+      "a": "Father",
+      "b": "Father-in-law",
+      "c": "Brother",
+      "d": "Son-in-law"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 23,
+    "question": "P, Q, R, S, T, U are 6 members of a family in which there are two married couples. T, a teacher is married to a doctor who is mother of R and U . Q the lawyer is married to $\\mathrm{P} . \\mathrm{P}$ has one son and one grandson. Of the two married ladies one is a housewife. There is also one student and male engineer in the family. Which of the following is true about the grand-daughter of the family?",
+    "options": {
+      "a": "She is a lawyer",
+      "b": "She is an engineer",
+      "c": "She is a student",
+      "d": "She is a doctor"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 24,
+    "question": "A is D's brother. D is B's father. B and C are sisters. How is C related to A?",
+    "options": {
+      "a": "Cousin",
+      "b": "Niece",
+      "c": "Aunt",
+      "d": "Nephew"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 25,
+    "question": "There are 2 film stars. One is the father of the other's son. What is the relationship of the two with each other?",
+    "options": {
+      "a": "Grandfather and Grandson",
+      "b": "Grandfather and son",
+      "c": "Husband and wife",
+      "d": "Father and Son"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 26,
+    "question": "B is the brother of A whose only sister is mother of C, D is maternal grandmother of C How is A related to D? (MTP Nov'22,Aug'25[1], MP [2], MP [10])",
+    "options": {
+      "a": "Aunt",
+      "b": "Daughter-in-law",
+      "c": "Daughter",
+      "d": "Nephew"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 27,
+    "question": "Vinod introduces Vishal as the son of the only brother of his father's wife. How is Vinod related to Vishal?",
+    "options": {
+      "a": "Cousin",
+      "b": "Brother",
+      "c": "Son",
+      "d": "Uncle"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 28,
+    "question": "A prisoner introduced a boy who came to visit him to the jailor as \"Brothers and sisters I have none, he is my father's son's son\". Who is the boy? (SM) (MTP Dec'24, MP [7])",
+    "options": {
+      "a": "Nephew",
+      "b": "Son",
+      "c": "Cousin",
+      "d": "Uncle"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 29,
+    "question": "Vijay says, Ananda's mother is the only daughter of my mother\". How is Ananda relation to Vijay?",
+    "options": {
+      "a": "Brother",
+      "b": "Father",
+      "c": "Nephew",
+      "d": "Grandfather"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 30,
+    "question": "Preeti has a son, named Arun. Ram is Preeti's brother. Neeta too has a daughter named Reema. Neeta is Ram's sister. What is Arun's relationship to Reema?",
+    "options": {
+      "a": "Brother",
+      "b": "Nephew",
+      "c": "Cousin",
+      "d": "Uncle"
+    },
+    "answer": "c"
+  }
+]

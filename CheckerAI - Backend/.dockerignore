@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+env/
+venv/
+.venv/
+.env
+
+# CheckerAI Data & Uploads
+grading_results/
+pipeline_jobs/
+pipeline_temp/
+pipeline_temp_*/
+pipeline_output/
+ocr_outputs/
+ocr_pdfs/
+uploads/
+solution_texts/
+question_schemas/
+poc_results/
+data/
+
+# Raw PDFs
+*.pdf
+
+# Logs
+*.log
+
+# IDEs & OS
+.DS_Store
+.idea/
+.vscode/

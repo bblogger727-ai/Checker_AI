@@ -1,0 +1,93 @@
+[
+  {
+    "q_num": 1,
+    "question": "Differentiate between Book-keeping and Accounting.",
+    "answer": "| Book-keeping | Accounting |\n|--------------|------------|\n| It is a process concerned with recording of transactions. | It is a process concerned with summarizing of the recorded transactions. |\n| It constitutes as a base for accounting. | It is considered as a language of the business. |\n| Financial statements do not form part of this process. | Financial statements are prepared in this process on the basis of book- keeping records. |\n| Managerial decisions cannot be taken with the help of these records. | Management takes decisions on the basis of these records. |\n| There is no sub-field of book- keeping. | It has several sub-fields like financial accounting, management accounting etc. |\n| Financial position of the business cannot be ascertained through book-keeping records. | Financial position of the business is ascertained on the basis of the accounting reports.",
+    "chapter_number": "1.1",
+    "chapter_name": "Theoretical Framework",
+    "section": "Section B",
+    "category": "Theoretical & Practical",
+    "unique_id": "1.1-SectionB-TP-1",
+    "marks": 7,
+    "question_cleaned": "Differentiate between Book-keeping and Accounting.",
+    "mark_split": ""
+  },
+  {
+    "q_num": 4,
+    "question": "**Discuss the limitations which must be kept in mind while evaluating the Financial Statements.**",
+    "answer": "Limitations which must be kept in mind while evaluating the Financial Statements are as follows:\n\n- The factors which may be relevant in assessing the worth of the enterprise don\u2019t find place in the accounts as they cannot be measured in terms of money.\n- Balance Sheet shows the position of the business on the day of its preparation and not on the future date while the users of the accounts are interested in knowing the position of the business in the near future and also in long run and not for the past date.\n- Accounting ignores changes in some money factors like inflation etc.\n- There are occasions when accounting principles conflict with each other.\n- Certain accounting estimates depend on the sheer personal judgement of the accountant.\n- Different accounting policies for the treatment of same item adds to the probability of manipulations.",
+    "chapter_number": "1.1",
+    "chapter_name": "Theoretical Framework",
+    "section": "Section A",
+    "category": "Theoretical & Practical",
+    "unique_id": "1.1-SectionA-TP-4",
+    "marks": 6,
+    "question_cleaned": "**Discuss the limitations which must be kept in mind while evaluating the Financial Statements.**",
+    "mark_split": ""
+  },
+  {
+    "q_num": 3,
+    "question": "Explain four main functions of accounting.",
+    "answer": "The main functions of accounting are as follows:  \n(a) **Measurement**: Accounting measures past performance of the business entity and depicts its current financial position.  \n(b) **Forecasting**: Accounting helps in forecasting future performance and financial position of the enterprise using past data and analyzing trends.  \n(c) **Decision-making**: Accounting provides relevant information to the users of accounts to aid rational decision-making.  \n(d) **Comparison & Evaluation**: Accounting assesses performance achieved in relation to targets and discloses information regarding accounting policies and contingent liabilities which play an important role in predicting, comparing and evaluating the financial results.  \n(e) **Control**: Accounting also identifies weaknesses of the operational system and provides feedback regarding effectiveness of measures adopted to check such weaknesses.  \n(f) **Government Regulation and Taxation**: Accounting provides necessary information to the government to exercise control on the entity as well as in collection of tax revenues.",
+    "chapter_number": "1.1",
+    "chapter_name": "Theoretical Framework",
+    "section": "Section B",
+    "category": "Theoretical & Practical",
+    "unique_id": "1.1-SectionB-TP-3",
+    "marks": 5,
+    "question_cleaned": "Explain four main functions of accounting.",
+    "mark_split": "5"
+  },
+  {
+    "q_num": 8,
+    "question": "Explain the following:  (1) Cash Basis of Accounting (2) Going Concern concept",
+    "answer": "(i) Cash Basis of Accounting is the method of recording financial transactions, by which revenues and expenditure and assets and liabilities are reflected in the accounts in the period in which the receipts or payments are actually effected/made.  (ii) Going Concern concept states that the financial statements are normally prepared on the assumption that an enterprise is a going concern and will continue in operation for the foreseeable future. Hence, it is assumed that the enterprise has neither the intention nor the need to liquidate or curtail materially the scale of its operations; if such an intention or need exists, the financial statements may have to be prepared on a different basis and, if so, the basis used needs to be disclosed.  The valuation of assets of a business entity is dependent on this assumption. Traditionally, accountants follow historical cost in majority of the cases.",
+    "chapter_number": "1.2",
+    "chapter_name": "Theoretical Framework",
+    "section": "Section B",
+    "category": "Theoretical & Practical",
+    "unique_id": "1.2-SectionB-TP-8",
+    "marks": 4,
+    "question_cleaned": "Explain the following:  (1) Cash Basis of Accounting (2) Going Concern concept",
+    "mark_split": "2+2"
+  },
+  {
+    "q_num": 2,
+    "question": "Classify the following transactions either as capital or revenue expenditures or as capital or revenue receipts;  \n(i) Dividend received from XYZ limited during the year.  \n(ii) Amount spent for replacement of a petrol driven engine by CNG kits.  \n(iii) Expenses incurred on the repairs and white washing for the first time on purchase of an old factory.  \n(iv) Overhauling expenses of second-hand machine purchased.  \n(v) Insurance claim received on account of inventory damaged by fire.  \n(vi) Entrance fees of \u20b935,000 received by society club.",
+    "answer": "| 1. Revenue Receipts | 2. Capital Expenditure | 3. Capital Expenditure |\n|---------------------|------------------------|------------------------|\n| 4. Capital Expenditure | 5. Revenue Receipts | 6. Capital Receipts |",
+    "chapter_number": "1.3",
+    "chapter_name": "Theoretical Framework",
+    "section": "Section B",
+    "category": "Theoretical & Practical",
+    "unique_id": "1.3-SectionB-TP-2",
+    "marks": 3,
+    "question_cleaned": "Classify the following transactions either as capital or revenue expenditures or as capital or revenue receipts;  \n(i) Dividend received from XYZ limited during the year.  \n(ii) Amount spent for replacement of a petrol driven engine by CNG kits.  \n(iii) Expenses incurred on the repairs and white washing for the first time on purchase of an old factory.  \n(iv) Overhauling expenses of second-hand machine purchased.  \n(v) Insurance claim received on account of inventory damaged by fire.  \n(vi) Entrance fees of \u20b935,000 received by society club.",
+    "mark_split": "1+1+1"
+  },
+  {
+    "q_num": 7,
+    "question": "Classify the following expenditures as capital or revenue expenditure/receipt:  \n(i) An extension of railway tracks in the factory area.  \n(ii) Amount spent on painting the factory.  \n(iii) Payment of wages for building a new office extension  \n(iv) Premium received on issue of shares  \n(v) Rings and Pistons of an engine were changed to get full efficiency.  \n(vi) Legal fees paid to acquire a property",
+    "answer": "(i) Expenses incurred for extension of railway tracks in the factory area should be treated as a Capital Expenditure because it will yield benefit for more than one accounting period.  \n(ii) Painting of the factory should be treated as a Revenue Expenditure because it has been incurred to maintain the factory building.  \n(iii) Payment of wages for building a new office extension should be treated as a Capital Expenditure.  \n(iv) Premium received on issue of shares is an example of capital receipt.  \n(v) Expenditure incurred for changing Rings and Pistons of an engine is a Revenue Expenditure because, the change of rings and piston will restore the efficiency of the engine only and it will not add anything to the capacity of the engine.  \n(vi) Legal fees paid to acquire a property is a part of the cost of that property. Hence, it is taken as capital expenditure.",
+    "chapter_number": "1.3",
+    "chapter_name": "Theoretical Framework",
+    "section": "Section B",
+    "category": "Theoretical & Practical",
+    "unique_id": "1.3-SectionB-TP-7",
+    "marks": 3,
+    "question_cleaned": "Classify the following expenditures as capital or revenue expenditure/receipt:  \n(i) An extension of railway tracks in the factory area.  \n(ii) Amount spent on painting the factory.  \n(iii) Payment of wages for building a new office extension  \n(iv) Premium received on issue of shares  \n(v) Rings and Pistons of an engine were changed to get full efficiency.  \n(vi) Legal fees paid to acquire a property",
+    "mark_split": "1+1+1"
+  },
+  {
+    "q_num": 1,
+    "question": "Differentiate between:  \n(i) Provision and Contingent Liability. | (ii) Liability and Contingent liability.",
+    "answer": "(i) Provision is a present liability of uncertain amount, which can be measured reliably by using a substantial degree of estimation. On the other hand, a Contingent liability is a possible obligation that may or may not crystallize depending on the occurrence or non-occurrence of one or more uncertain future events.  \n(ii) A liability is defined as the present financial obligation of an enterprise, which arises from past events. On the other hand, in the case of contingent liability, either outflow of resources to settle the obligation is not probable or the amount expected to be paid to settle the liability cannot be measured with sufficient reliability.",
+    "chapter_number": "1.4",
+    "chapter_name": "Theoretical Framework",
+    "section": "Section A",
+    "category": "Theoretical & Practical",
+    "unique_id": "1.4-SectionA-TP-1",
+    "marks": 2,
+    "question_cleaned": "Differentiate between:  \n(i) Provision and Contingent Liability. | (ii) Liability and Contingent liability.",
+    "mark_split": "1+1"
+  }
+]

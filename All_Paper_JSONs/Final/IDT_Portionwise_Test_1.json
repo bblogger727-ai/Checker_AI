@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "subject_code": "IDT",
+    "subject_name": "Indirect Tax",
+    "paper_num": "Portionwise_1",
+    "total_marks_printed": 50,
+    "total_marks_in_paper": 50,
+    "section_a_marks": 0,
+    "section_b_marks": 50,
+    "two_section_format": false,
+    "note": "Portionwise Test: Attempt all 5 questions. Each question carries 10 marks (6 + 4 split).",
+    "blacklisted_from": [],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)"
+    ]
+  },
+  "section_a": [],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "21",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Question 9 (RTP Nov'22)\n\nAdinath Private Limited, registered under GST in the State of Uttar Pradesh, instructed Ashok Transporters to deliver certain taxable goods to Mahavir Enterprises in Uttar Pradesh on 10th January, 20XX. The value of the goods is $Rs. 6,80,000$ which are chargeable to CGST & SGST @ $9 \\\\%$ each. While the goods were in transit, proper officer intercepted the goods and the truck in which goods were being transported, under section 68.\n\nHowever, the driver of the truck failed to tender any document in relation to the goods in movement. The proper officer, after conducting the physical verification of the goods and the truck, decided to seize the goods and the truck and issued a notice under section $\\mathbf{1 2 9} \\boldsymbol{(} \\mathbf{3} \\boldsymbol{)}$ specifying the penalty payable by Adinath Private Limited after giving it an opportunity of being heard.\n\nYou are required to determine the amount of penalty payable under CGST Act if Adinath Private Limited does not come forward for the payment of penalty.\n\nFurther, discuss the suitable course of action for Ashok Transporters if it intends to get its truck released.",
+          "answer": "## Legal Provision: -\n\n- As per section 129(1)(b) of CGST Act, if the owner of goods does not come forward for the payment of penalty, detained/seized goods and conveyance (used as a means of transport for carrying said goods) and related documents are released on payment of penalty equal to higher of following:-\n\ni) $50 \\\\%$ of value of goods or\n\nii) $200 \\\\%$ of the tax payable on such goods.\n\n- As per first proviso to section 129(6), transporter can get the conveyance released on payment of penalty as mentioned in the order or Rs.1 lakh, whichever is less.\n\n## Discussion & Conclusion: -\n\n- In given case, if Adinath Private Limited failed to come forward for the payment of penalty, the penalty payable under the CGST Act is Rs.3,40,000 which is higher of the following:-\n\ni) $50 \\\\%$ of value of goods i.e. $(50 \\\\%$ of Rs. $6,80,000)=Rs. 3,40,000$ or\n\nii) $200 \\\\%$ of the tax payable on such goods i.e. $(200 \\\\%$ of $Rs. 6,80,000 \\times 9 \\\\%)=Rs. 1,22,400$.\n\n- Further, the transporter of goods can get its truck released upon payment of Rs.1,00,000 which is the lower of the following under CGST Act:-\n\n(i) Penalty as mentioned in the order $[Rs. 3,40,000]$ or\n\n(ii) Rs.1,00,000.",
+          "chapter_number": "21",
+          "chapter_name": "OFFENCES \\& PENALTIES AND ETHICAL ASPECTS UNDER GST",
+          "unique_id": "21-T-9"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "(b) Determine the time of supply for the purpose of the payment of tax in each of the following independent transactions with explaining relevant provisions under the CGST Act, 2017 in brief: (i) Cuteex Pvt. Ltd. is registered in the State of Karnataka under GST. It has taken a residential house for its Managing Director (MD) on rent from Mr. Rathi, also registered under GST in Karnataka. The invoice for rent for the month of August 2025 was issued on 31st July 2025 by Mr. Rathi. The due date for payment was 7th August 2025, but since the MD was on a business trip, payment was made online by IMPS system on 15th October 2025 but recorded in advance in the books of the accounts of the company on the 14th October 2025. The amount was credited in Mr. Rathi's bank account on 15th October, 2025. (ii) Ziva Telecom Ltd. is a telecom operator providing mobile network services in India by securing the right to use spectrum from the Government of India as per the spectrum allocation model. As per the contract, the company has to make periodic payments over a period of 12 months in 12 installments to the Government. The due date for payment was 20th October 2025 and payment was made by the company on 19th October 2025 since it was a Sunday on 20th October 2025. Also discuss in brief the provision related to due date of issue of the invoice in the above case.",
+          "answer": "(a) (i) Tax on renting of residential dwelling services is payable under reverse charge since they are being provided to a registered person (Cuteex Pvt. Ltd.) Time of supply is earliest of: (i) Date of recording payment in books of recipient-14th October 2025 (ii) Date of debit from bank account of recipient -15th October 2025 (iii) Date immediately following 60 days from issue of invoice (61st day from issue of invoice) - 30th September 2025 Accordingly, time of supply is 30th September 2025. (ii) Spectrum allocation services are ‘continuous supply of services’ since they are: • provided continuously • under a contract for over 3 months • with periodic payments. Since the due date of payment is clearly ascertainable from contract, the invoice must be issued on or before due date of payment, i.e., on or before 20th October 2025. Tax on said services provided by Government is payable under reverse charge. Thus, time of supply is as and when the payments are due or made, whichever is earlier, 19th October 2025.",
+          "chapter_number": "23",
+          "chapter_name": "ADVANCE RULINGS",
+          "unique_id": "FILE-IDT-P1-Q1b"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "3",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "## Question 19 (PYP 5 Marks May'25)\n\nDetermine the 'place of supply' along with explaining the correct provision of law for the following independent cases:\n\n(i) Mr. Prakash Kumar (unregistered person under GST law) is a resident of Surat, Gujarat. He places an order on 'E-SHOPPE' (an e-commerce platform) for supply of laptop, which is to be delivered to his sister Ms. Ridhima at Mumbai, Maharashtra. Mr. Prakash, while placing the order on the above e-commerce platform, provides the billing address of his residence located in Surat, Gujarat,\n\n(ii) Ms. Ritu is proprietor of 'G n F Center', situated at Lucknow and registered under GST law in Uttar Pradesh. Her client Ms. Neha (unregistered person under GST law) located at Delhi, requests her to provide personal grooming & fitness services at her home at Delhi. Ms. Ritu provides her grooming & fitness services at client's home at Delhi.\n\n(iii) Decor n Décor, an interior decorator firm located at Dehradun, Uttarakhand, enters into a contract with Mr. Diego of Italy to provide interior decoration services in respect two immovable properties of Mr. Diego, one located at Dehradun, Uttarakhand and another located at Italy.\n\n(iv) SQR Mills Private Limited of Kolkata, registered under GST law in West Bengal, gives a contract to LQR Private Limited of Varanasi, registered under GST law in Uttar Pradesh to supply a machine which is required to be assembled at a printing plant of SQR Mills Private Limited located at Bhopal, Madhya Pradesh",
+          "answer": "(I) In cases involving supply of goods to an unregistered person, where the billing address and delivery address are different, the delivery address shall be the place of supply. Thus, place of supply is Mumbai, Maharashtra.\n\n(ii) The place of supply of personal grooming and fitness services is the location where the services are actually performed.\n\nThus, place of supply is Delhi.\n\n(iii) Where any services directly in relation to an immovable property are supplied at more than one location, including a location in the taxable territory, its place of supply shall be the location in the taxable territory. Thus, place of supply is Dehradun, Uttarakhand in respect of interior decoration services provided in relation to the immovable properties located in Dehradun and Italy.\n\n(iv) Where the goods are assembled at site, place of supply shall be the place of such assembly.\n\nThus, place of supply is Bhopal, Madhya Pradesh.",
+          "chapter_number": "3",
+          "chapter_name": "PLACE OF SUPPLY",
+          "unique_id": "3-T-19"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "(PYP 4 Marks May'23, MTP 5 Marks Oct'24, MP[4]) Mr. Raj intends to start a new manufacturing business in Jaipur. However, he is not able to determine the classification of the goods proposed to be manufactured and supplied by him since the classification of said goods has been contentious. Mr. Raj read an article about advance ruling in the newspaper and decided to apply for advance ruling so as to avoid litigation later. Mr. Rahul, who is friend of Mr. Raj is also engaged in the supply of goods similar to which Mr. Raj proposes to manufacture in Jaipur and Mr. Rahul advised him to apply the same classification as of his, since he has already taken advance ruling order regarding classification of the said goods. Mr. Raj's tax consultant also agreed with the advice given by Mr. Rahul. Mr. Raj also thought it to be a good decision since he was unregistered and thought that he needed to be registered to apply for advance ruling in his name. You are required to advise Mr. Raj with respect to following: (a) Whether Mr. Raj and his tax consultant are right and can classify the goods proposed to be supplied by Mr. Raj on the basis of his friend Mr. Rahul's advance ruling order? (b) Whether Raj needs to get registered to apply for advance ruling?",
+          "answer": "(a) No, Mr. Raj and his tax consultant are not correct. An advance ruling is binding only on the applicant who had sought it and on the concerned officer. An advance ruling is not applicable to similarly placed other taxable persons in the State. Thus, Mr. Raj cannot classify the goods to be supplied by him on the basis of his friend Mr. Rahul's advance ruling order. (b) No, Mr. Raj need not register to apply for advance ruling since advance ruling can be sought by a registered person or person desirous of obtaining registration. It is not mandatory for a person seeking advance ruling to be registered.",
+          "chapter_number": "23",
+          "chapter_name": "ADVANCE RULINGS",
+          "unique_id": "23-T-2"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "2",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Mr. Rajbeer, a registered person at Delhi, is in the business of selling goods relating to interior decoration under the firm name M/s. Rajbeer & Sons. He has opted for composition scheme for the financial year 202425. His turnover for current FY Rs. 80 lakh and is expected to achieve Rs. 130 lakh in financial year 2025-26. Discuss whether M/s Rajbeer & Sons can still enjoy the benefits of composition scheme in financial year 2025-26.\n\nHis son Karan wants to start business of providing services relating to interior decoration, after completing post-graduation course in interior decoration under same firm name M/s Rajbeer & Sons with effect from 1st April of financial year 2025-26 and wants to enjoy the benefits of composition scheme under GST. Advise Mr. Rajbeer and his son Karan. (SM PYP 5 Marks Nov'19)",
+          "answer": "As per section 10, a registered person, whose aggregate turnover in the preceding financial year did not exceed Rs. 1.5 crore in a State/UT may opt for composition scheme, provided he is, inter alia, engaged in supply of goods and/or restaurant service. However, a person who opts for composition scheme is permitted to supply services other than restaurant service of value not exceeding $10 \\%$ of turnover in a State/UT in the preceding financial year or Rs. 5 lakh, whichever is higher.\n\nIn the given case, M/s. Rajbeer & Sons, engaged in business of selling goods relating to interior decoration, is eligible for composition scheme in the financial year 2025-26 since its aggregate turnover in financial year 2024-25 (viz. Rs. 80 lakh) does not exceed Rs. 1.5 crore.\n\nIf Karan wishes to start the business of providing services relating to interior decoration under the same firm name M/s Rajbeer & Sons, the sole proprietorship needs to be first converted into a partnership firm. Further, new GST registration under the new PAN is required to be obtained.\n\nIn such a case, the firm can provide services relating to interior decoration up to a value of Rs. 5 lakh ( $10 \\%$ of zero turnover of last year or Rs. 5 lakh, whichever is higher) to continue enjoying the benefit of composition scheme in financial year 2025-26.",
+          "chapter_number": "2",
+          "chapter_name": "CHARGE OF GST",
+          "unique_id": "2-T-3"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Section 158(1) lays down that the information obtained by a public servant from the record of any proceeding under the CGST Act is confidential and cannot be disclosed. Is there any exception to this rule? Discuss in brief. (MTP 4 Marks Sep'24, Aug'25,MP[3])",
+          "answer": "Yes, the confidential information can be disclosed by the public servant for certain specific purposes in terms of section 158(3) of the CGST Act, 2017. Such specific purposes are given in brief hereunder:\n\ni) For prosecution\n\nii) For carrying out the objects of the CGST Act\n\niii) For service of notice or recovery of demand\n\niv) For furnishing information to Court in a proceeding where Government is a party\n\nv) For audit of tax receipts or refunds\n\nvi) For inquiry into the conduct of a GST officer\n\nvii) For enabling levy, realization of any tax or duty\n\nviii) In lawful exercise of powers\n\nix) For enquiry into a charge of misconduct by any professional\n\nx) For data entry on automated system\n\nxi) For fulfilling the requirement under any other law and in public interest.",
+          "chapter_number": "24",
+          "chapter_name": "MISCELLANEOUS PROVISIONS",
+          "unique_id": "24-T-6"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "23",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Advance Ruling once issued cannot be held to be void ab-initio under any circumstances. Discuss the correctness of the statement by explaining relevant provisions. (RTP Nov'23, SM)",
+          "answer": "The said statement is incorrect. Section 104 of the CGST Act, 2017 states the circumstances under which the advance ruling would be considered as void and hence would lose its binding value.\n\nIf the Authorities (AAR and Appellate Authority) find that the advance ruling pronounced has been obtained by the applicant/appellant by fraud or suppression of material facts or misrepresentation of facts, it may, by\n\norder, declare such ruling to be void ab-initio.\n\nConsequently, all the provisions of the CGST Act shall apply to the applicant as if such advance ruling had never been made (but excluding the period when advance ruling was given and up to the period when the order declaring it to be void is issued).\n\nAn order declaring advance ruling to be void can be passed only after hearing the applicant/ appellant. A copy of the order so made shall be sent to the applicant, the concerned officers and the jurisdictional officer.",
+          "chapter_number": "23",
+          "chapter_name": "ADVANCE RULINGS",
+          "unique_id": "23-T-3"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "(b) Malhar Corporation, a partnership firm, registered under regular scheme of GST in Delhi. Following information has been provided regarding inward and outward transactions undertaken by Malhar Corporation in the month of June 2025:\n\n| Sr. No. | Particulars | Amount (`) |\n|---------|-------------|------------|\n| (i) | Services of sponsorship provided to Kaniksha Co. Pvt. Ltd | 12,50,000 |\n| (ii) | Received rent from Garima Industries, a registered person under composition scheme, against renting of office space in a commercial building. | 3,50,000 |\n| (iii) | Services provided by Delhi Development Authority (DDA) to Malhar Corporation. | 2,45,000 |\n| (iv) | Housekeeping and Civil Maintenance services provided to Municipal Corporation of Delhi (MCD) | 2,25,000 |\n| (v) | Received online money gaming services from Nitro Co., an online money gaming provider established in Australia. | 4,50,000 |\n\nAll figures are exclusive of GST, wherever applicable. All inward and outward supplies are to be treated as intra-State supplies in case required information is not provided.\n\nCompute the value of taxable supplies on which Malhar Corporation has to pay GST under Reverse Charge Mechanism (RCM) for the month of June 2025.",
+          "answer": "(b) Value of taxable supplies on which GST is payable under reverse charge by Malhar Corporation\n\n| Particulars | Value (`) |\n|-------------|-----------|\n| Tax on outward supplies of sponsorship is payable under reverse charge mechanism by body corporate recipient i.e., Kaniksha Co Pvt Ltd. Thus, supplier - Malhar Corporation will not pay tax under reverse charge. | Nil |\n| Tax on rent received from composition dealer is not payable under reverse charge but under forward charge by Malhar Corporation | Nil |\n| Services provided by DDA [Tax is not payable under reverse charge since services are not received from local authority as DDA is not a local authority.] | Nil |\n| Tax on housekeeping and civil maintenance services is not payable under reverse charge but under forward charge by Malhar Corporation | Nil |\n| Online money gaming [IGST is payable by supplier (Nitro Co.)] | Nil |\n\nTotal taxable value of supply on which tax is to be paid by Malhar Corporation under reverse charge | Nil",
+          "chapter_number": "21",
+          "chapter_name": "OFFENCES \\& PENALTIES AND ETHICAL ASPECTS UNDER GST",
+          "unique_id": "FILE-IDT-P1-Q4b"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "21",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "## Question 8 (SM)\n\nMr. X, an unregistered person under GST, purchases the goods supplied by Mr. Y who is a registered person without receiving a tax invoice from Mr. Y and thus helps in tax evasion by Mr. Y. A disciplinary action is taken against Mr. X and an adhoc penalty of Rs. 20,000 /- is imposed by passing an order without describing contravention for which penalty is going to be imposed and without mentioning the provisions under which penalty is going to be imposed. Should Mr. X proceed to pay for penalty or challenge the order passed by Department?",
+          "answer": "The levy of penalty is subject to a certain disciplinary regime which is based on jurisprudence, principles of natural justice and principles governing international trade and agreements. Such general discipline is enshrined in section 126. Accordingly-\n\n- no penalty is to be imposed without issue of a show cause notice and affording an opportunity of being heard to the person proceeded against to rebut the allegations levelled against him, the penalty is to depend on the totality of the facts and circumstances of the case, the penalty imposed is to be commensurate with the degree and severity of breach of the provisions of the law or the rules alleged,\n\n- the nature of the breach is to be specified clearly in the order imposing the penalty,\n\n- the provisions of the law under which the penalty has been imposed is to be specified. Since the order suffers from lack of clarity about nature of breach which has taken place and about applicable law under which penalty has been imposed, such order passed by the department should be challenged.",
+          "chapter_number": "21",
+          "chapter_name": "OFFENCES \\& PENALTIES AND ETHICAL ASPECTS UNDER GST",
+          "unique_id": "21-T-8"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Explain the liability of partners of a firm to pay tax as per Section 90 of the CGST Act. (PYP, 4 marks)",
+          "answer": "Section 90 of the CGST Act explains the liability of partners of firm to pay tax as under:-\n\nPartners of the firm jointly and severally liable to pay any tax, interest or penalty of the firm: Notwithstanding any contract to the contrary and any other law for the time being in force, where any firm is liable to pay any tax, interest or penalty under this Act, the firm and each of the partners of the firm shall, jointly and severally, be liable for such payment.\n\nRetiring partner liable to pay any tax, interest or penalty of the firm due up to the date of his retirement: Where any partner retires from the firm, he or the firm, shall intimate the date of retirement of the said partner to the Commissioner by a notice in that behalf in writing and such partner shall be liable to pay tax, interest or penalty due up to the date of his retirement whether determined or not, on that date.\n\nHowever, if no such intimation is given within 1 month from the date of retirement, the liability of such partner shall continue until the date on which such intimation is received by the Commissioner.",
+          "chapter_number": "20",
+          "chapter_name": "Liability to Pay Tax in certain cases",
+          "unique_id": "20-T-9"
+        }
+      ]
+    }
+  ]
+}

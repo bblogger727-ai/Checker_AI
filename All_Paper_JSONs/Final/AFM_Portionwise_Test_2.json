@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "subject_code": "AFM",
+    "subject_name": "Advanced Financial Management",
+    "paper_num": "Portionwise_2",
+    "total_marks_printed": 50,
+    "total_marks_in_paper": 50,
+    "section_a_marks": 0,
+    "section_b_marks": 50,
+    "two_section_format": false,
+    "note": "Portionwise Test: Attempt all 5 questions. Each question carries 10 marks (6 + 4 split).",
+    "blacklisted_from": [
+      "/Users/gaureshmantri/Documents/Secure PDF Extraction/Final/Generated_Papers/AFM/AFM_Portionwise_Test_1.json"
+    ],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)"
+    ]
+  },
+  "section_a": [],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "12",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Question 23 (PYP 6 Marks Nov'24)\n\nXY Ltd. is planning to expand its operations in view of growing demand for its products. For this purpose, it is considering to borrow an amount ofRs. 100 crores for a period of 3 months in the coming 6 months' time from now. The current rate of interest is $8 \\%$ per annum but due to inflation it may go up in 6 months' time.\n\nThe company wants to hedge itself against the likely increase in interest rate.\n\nThe company's Bankers quoted an FRA (Forward Rate Agreement) at $8.20 \\%$ per annum.\n\nYou are required to calculate due to FRA:\n\n(i) The actual interest rate if the Banker pays to XY Ltd. an amount ofRs. $9,78,952.52$\n\n(ii) The actual interest rate if XY Ltd. will pay to the Banker a sum of Rs. $9,80,872.98$",
+          "answer": "Final settlement amount shall be computed by using formula:\n\n$=\\frac{(\\mathrm{N})(\\mathrm{RR}-\\mathrm{FR})(\\mathrm{dtm} / \\mathrm{DY})}{[1+\\mathrm{RR}(\\mathrm{dtm} / \\mathrm{DY})]}$\n\nWhere,\n\n$\\mathrm{N}=$ the notional principal amount of the agreement;\n\nRR = Actual Reference Rate for the maturity specified by the contract prevailing on the contract settlement date;\n\nFR = Agreed-upon Forward Rate; and\n\ndtm = maturity period in days or months of the forward rate agreement DY = Total number of days or month in a year as per convention Accordingly,\n\ni. If Banker pays to XY Ltd. an amount of Rs. $9,78,952.52$ then actual interest shall be computed as follows:\n\n$$\n\\begin{aligned}\n& Rs. 9,78,952.52=\\frac{(Rs. 100 \\text { crore })(\\mathrm{RR}-0.082)(3 / 12)}{[1+\\mathrm{RR}(3 / 12)]} \\\\\n& \\mathrm{RR}=0.086\n\\end{aligned}\n$$\n\nThus, the actual interest rate happens to be $8.60 \\%$ on the settlement date.\n\nii. If XY Ltd. pays to Banker an amount of Rs. $9,80,872.98$ then actual interest shall be computed as follows:\n\nRs. $9,80,872.98=\\frac{(\\text { Rs. } 100 \\text { crore })(\\mathrm{RR}-0.082)(3 / 12)}{[1+\\mathrm{RR}(3 / 12)]}$\n\nRR $=0.078$\n\nThus, the actual interest rate happens to be $7.80 \\%$ on the settlement date.",
+          "chapter_number": "12",
+          "chapter_name": "INTEREST RATE RISK MANAGEMENT",
+          "unique_id": "12-T-23"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "A mutual fund made an issue of New Fund Offer (NFO) on 01/01/2021 of 10.00 Lakh Units of ₹ 10 each. No entry load was charged. It made the following investments:\n\n| Particulars | ₹ |\n|-------------|---|\n| 25,000 Equity Shares of XYZ Ltd. @ ₹ 100 each @ ₹ 320 | 80,00,000 |\n| 5% Government Securities | 4,00,000 |\n| 10% NCDs Unlisted | 5,00,000 |\n| 8% Listed Debentures | 10,00,000 |\n\nDuring the year, dividends of ₹ 8.00 lakhs were received on equity shares. Interest on all types of debt securities were received. On 31st December 2021 equity shares were appreciated by 15% while listed debentures were quoted at 20% premium. XYZ Ltd., on 15th December 2021 in its AGM declared the interim dividend of 10% and bonus shares at 1:10 with the record date of 28th December 2021.\n\n(i) Find out the NAV per unit as on 31st December given that the operating expenses paid during the year amounting to ₹ 3,00,000.\n\n(ii) Find out the NAV, if the MF had distributed a dividend of, ₹ 0.50 per unit during the year to the investors.",
+          "answer": "Solution:\n\nWorking Note 1 Closing Cash\n\n| | ₹ |\n|-------------------------------|---------|\n| Opening Cash (10,00,000 x 10 - 99,00,000) | 1,00,000 |\n| (+) Dividend Received | 8,00,000 |\n| Final Dividend | 2,00,000 |\n| Interim Dividend (25,000 x 100 x 10%) | 2,50,000 |\n| Interest received (20,600 + 50,800 + 80,000) | 1,50,000 |\n| (-) Expense Paid | 3,00,000 |\n| Closing Cash | 10,00,000 |\n\n(I) Calculation of NAV\n\n| | ₹ |\n|-------------------------------|---------|\n| Closing Cash (W.N.1) | 10,00,000 |\n| Equity [25,000 + (25,000 x 1/10) x (320 x 115%)] | 1,01,20,000 |\n| 5% Govt. Securities | 4,00,000 |\n| 10% NCD | 5,00,000 |\n| 8% Listed Debenture: 10,00,000 x 120% | 12,00,000 |\n| Total Assets | 1,32,20,000 |\n| ÷ No. of Units | 10,00,000 |\n| NAV | 13.22 |\n\n(II) If Mutual Fund distributed dividend 0.5 per unit\n\nNAV = (13.22 - 0.5) = 12.72\n\n(III) Annual Return\n\n(i) Return = (13.22 - 10) / 10 x 100 = 32.20%\n\n(ii) Return = (12.72 - 10) + 0.5 / 10 x 100 = 32.20%",
+          "chapter_number": "12",
+          "chapter_name": "INTEREST RATE RISK MANAGEMENT",
+          "unique_id": "IMG-AFM-P2-Q1b"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "12",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Mr. X on 01.07.2007, during the initial offer of some Mutual Fund invested in 10,000 units having face value of ₹ 10 for each unit. On 31.03.2008, the dividend paid by the M.F. was 10% and Mr. X found that his annualized yield was 153.33%. On 31.03.2009, 20% dividend was given. On 31.03.2010, Mr. X redeemed all his balance of 11,296.11 units when his annualized yield was 73.52%. What are the NAVs as on 31.03.2008, 31.3.2009 and 31.03.2010?",
+          "answer": "Solution:\n\nA.Y. = 153.33%\n\n| Date       | Units       | NAV Calculation |\n|------------|-------------|-----------------|\n| 01/07/2007 | 10,000 @ ₹10 = ₹1,00,000 | |\n| 31/03/2008 | 10,487.80   | |\n| 31/03/2009 | 11,296.11   | |\n\n31/3/2008\n\nAnnualized Yield = HPR x 12/n\n\n153.33 = HPR x 12/9\n\nHPR = 153.33 x 9/12 = 115%\n\nHPR = (Closing Value - Opening Value) / Opening Value\n\n115% = (x - 1,00,000) / 1,00,000\n\n1,15,000 = x - 1,00,000\n\nx = 2,15,000\n\nDividend Amount = ₹10,000\n\nPre Dividend Investment Value = ₹2,05,000\n\nNo. of units pre dividend = 10,000 Units\n\nNAV (31/3/2008) = 2,05,000 / 10,000 = 20.50\n\nAdditional units = 10,000 / 20.50 = 487.80 units\n\nTotal Units = 10,000 + 487.80 = 10,487.80\n\n31/3/2009\n\nDividend amount = (10,487.80 units x 10 x 20%) = 20,975\n\nAdditional units = (11,296.11 - 10,487.80) = 808.31 units\n\nNAV = 20,974 / 808.31 = 25.95\n\n31/3/2010\n\nAnnualized Yield = HPR x 12/n\n\n73.52 = HPR x 12/33\n\nHPR = 73.52 x 33/12 = 202.18%\n\n202.18% = (x - 1,00,000) / 1,00,000\n\nx = 3,02,180\n\nNAV = 3,02,180 / 11,296.11 = ₹26.75",
+          "chapter_number": "12",
+          "chapter_name": "INTEREST RATE RISK MANAGEMENT",
+          "unique_id": "IMG-AFM-P2-Q2a"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Explain briefly the financial measures that help in evaluation of performance of any Mutual Fund. (MTP 4 Marks, Apr'24,MP[7])",
+          "answer": "Financial Measures: - There are some financial measures that help in evaluation of performance of any Mutual Fund which are as follows:\n\n(a) Expense Ratio: - Discussed in earlier section, it ultimately impacts the return of a Mutual Fund Scheme.\n\n(b) Sharpe Ratio: - As discussed in the chapter on Portfolio Management, this ratio measures the Mutual Fund's performance measured against the total risk (both systematic and unsystematic) taken.\n\n(c) Treynor Ratio: - As discussed in the chapter on Portfolio Management, beta measures the volatility of return of a security vis-à-vis to the market, in mutual funds the Beta of a mutual fund measures volatility of a fund's return to return from its Benchmark. Treynor Ratio measures performance of a mutual fund against the systematic risk it has taken.\n\n(d) Sortino Ratio: - A variation of Sharpe Ratio that considers and uses downside deviation instead of total standard deviation in denominator.",
+          "chapter_number": "8",
+          "chapter_name": "MUTUAL FUNDS",
+          "unique_id": "8-T-1"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "6",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "## Question 21 (MTP 6 Marks, Mar'24, PYP 8 Marks, Jul'21,MP[3],MP[6])\n\nA trader is having in its portfolio shares worth Rs. 170 lakhs at current price and cash Rs. 30 lakhs. The beta of share portfolio is 1.6 .\n\nEvaluate:\n\n(i) Current portfolio beta\n\n(ii) Portfolio beta after 3 months if the trader on current date goes for long position on Rs. 200 lakhs Nifty futures\n\nand after 3 months the price of shares dropped by $3.2 \\%$.",
+          "answer": "(i) Current Portfolio Beta\n\n$$\n\\begin{array}{lll}\n\\text { Current Beta for share portfolio } & =1.6 \\\\\n\\text { Beta for cash } & =0 \\\\\n\\text { Current portfolio beta } & =170 / 200 \\times 1.6+0 \\times 30 / 200 \\quad=1.36\n\\end{array}\n$$\n\n(ii) Portfolio beta after 3 months:\n\n$$\n\\begin{aligned}\n& \\quad \\text { Beta for portfolio of shares }=\\frac{\\text { Change in value of portfolio of share }}{\\text { Change in value of market portfolio (Index) }} \\\\\n& 1.6=\\frac{0.032}{\\text { Change in value of market portfolio (Index) }} \\\\\n& \\text { Change in value of market portfolio (Index) }=(0.032 / 1.6) \\times 100=2 \\% \\\\\n& \\text { Position taken on } 100 \\text { lakh Nifty futures: Long } \\\\\n& \\text { Value of index after } 3 \\text { months }=Rs. 200 \\text { lakh } \\times(1.00-0.02) \\\\\n& =Rs. 196 \\text { lakh } \\\\\n& \\text { Mark - to - market paid }=Rs. 4 \\text { lakh } \\\\\n& \\text { Cash balance after payment of mark-to-market }=Rs. 26 \\text { lakh. } \\\\\n& \\text { Value of portfolio after } 3 \\text { months }=Rs. 170 \\text { lakh } \\times(1-0.032)+Rs. 26 \\text { lakh } \\\\\n& =Rs. 190.56 \\text { lakh } \\\\\n& \\text { Change in value of portfolio }=\\frac{200 \\text { lakh }-190.56 \\text { lakh }}{200 \\text { lakh }}=4.72 \\% \\\\\n& \\text { Portfolio beta }=0.0472 / 0.02=2.36\n\\end{aligned}\n$$",
+          "chapter_number": "6",
+          "chapter_name": "PORTFOLIO MANAGEMENT",
+          "unique_id": "6-T-21"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "On the basis of the following information:\n\n| Current dividend (Do) | $=$ | Rs.5 |\n| :--- | :---: | :---: |\n| Discount rate (k) | $=$ | $10.5 \\%$ |\n| Growth rate (g) | $=$ | $4 \\%$ |\n\n(i) Calculate the present value of stock of ABC Ltd.\n\n(ii) Evaluate whether the stock is overvalued if stock price is $Rs. 70, \\mathrm{ROE}=18 \\%$ and $\\mathrm{EPS}(\\mathrm{EO})=Rs. 4.50$ applying:\n\n(1) PE Multiple Approach and\n\n(2) Earning Growth Model (using discount rate of 10.5\\%).",
+          "answer": "(i) Present Value of the stock of ABC Ltd. is:-\n\n$$\nV O=\\frac{5(1.04)}{0.105-0.04}=80 \\%\n$$\n\n(ii) (A) Value of stock under the PE Multiple Approach\n\n| Particulars |  |\n| :--- | ---: |\n| Actual Stock Price | $Rs. 70.00$ |\n| Return on equity | $18 \\%$ |\n| EPS | $Rs. 4.50$ |\n| PE Multiple (1/Return on Equity) $=1 / 18 \\%$ | 5.56 |\n| Market Price per Share | $Rs. 25.02$ |\n\nSince, Actual Stock Price is higher, hence it is overvalued.\n\n(B) Value of the Stock under the Earnings Growth Model\n\n| Particulars |  |\n| :--- | ---: |\n| Actual Stock Price | $Rs. 70.00$ |\n| Return on equity | $18 \\%$ |\n| EPS | $Rs. 4.50$ |\n| Growth Rate | $4 \\%$ |\n| Market Price per Share $[\\mathrm{EPS} \\times(1+\\mathrm{g})]/(\\mathrm{Ke}-\\mathrm{g})$ | $Rs. 72$ |\n| $=Rs. 4.50 \\times 1.04 /(0.105-0.04)$ |  |\n\nSince, Actual Stock Price is lower, hence it is slightly undervalued.",
+          "chapter_number": "5",
+          "chapter_name": "Security Valuation",
+          "unique_id": "5-T-4"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "5",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Mr. A is thinking of buying shares at ₹ 500 each having face value of ₹ 100. He is expecting a bonus at the ratio of 1:5 during the fourth year. Annual expected dividend is 20% and the same rate is expected to be maintained on the expanded capital base. He intends to sell the shares at the end of 7 years at an expected price of ₹ 900 each. Incidental expenses for purchase and sale of shares are estimated to be 5% of the market price. He expects a minimum yield of 12% per annum. Should Mr. A buy the shares? If so, what maximum price should he pay for each share? Assume no tax on dividend income and capital gain.",
+          "answer": "Solution:\n\nNPV\n\n| Year | PVP (12%) | Amount | PV |\n|------|-----------|--------|----|\n| 1    | 0.893     | 20.00  | 17.86 |\n| 2    | 0.797     | 20.00  | 15.94 |\n| 3    | 0.712     | 20.00  | 14.24 |\n| 4    | 0.636     | 24.00  | 15.26 |\n| 5    | 0.567     | 24.00  | 13.61 |\n| 6    | 0.507     | 24.00  | 12.17 |\n| 7    | 0.452     | 1026.00| 463.60|\n\nPV of CF = ₹ 563.68\n\nNPV = ₹ 563.68 - 500 x 1.05\n= ₹ 38.68\n\nSince NPV is positive, hence share should be purchased.\n\nMaximum price = ₹ 563.68 / 1.05\n= ₹ 536.84",
+          "chapter_number": "5",
+          "chapter_name": "Security Valuation",
+          "unique_id": "IMG-AFM-P2-Q4a"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Question 12 (MTP 4 Marks, Mar'23, RTP Nov'19, PYP 4 Marks Nov'19, May'18, May'22)\n\n\"Securitisation is beneficial from the angle of various parties involved in it\". Explain.",
+          "answer": "The benefits of securitization can be viewed from the angle of various parties involved as follows:\n\n## (1) From the angle of originator\n\nOriginator (entity which sells assets collectively to Special Purpose Vehicle) achieves the following benefits from securitization.\n\n(i) Off - Balance Sheet Financing: When loan/receivables are securitized it releases a portion of capital tied up in these assets resulting in off Balance Sheet financing leading to improved liquidity position which helps in expanding the business of the company.\n\n(ii) More specialization in main business: By transferring the assets the entity could concentrate more on core business as servicing of loan is transferred to SPV. Further, in case of non- recourse arrangement even the burden of default is shifted.\n\n(iii) Helps to improve financial ratios: Especially in case of Financial Institutions and Banks, it helps to manage Capital -To-Weighted Asset Ratio effectively.\n\n(iv) Reduced borrowing Cost: Since securitized papers are rated due to credit enhancement even they can also be issued at reduced rate as of debts and hence the originator earns a spread, resulting in reduced cost of borrowings.\n\n(2) From the angle of investor\n\nFollowing benefits accrues to the investors of securitized securities.\n\n1. Diversification of Risk: Purchase of securities backed by different types of assets provides the diversification of portfolio resulting in reduction of risk.\n\n2. Regulatory requirement: Acquisition of asset backed belonging to a particular industry say micro industry helps banks to meet regulatory requirement of investment of fund in industry specific.\n\n3. Protection against default: In case of recourse arrangement if there is any default by any third party then originator shall make good the least amount. Moreover, there can be insurance arrangement for compensation for any such default.",
+          "chapter_number": "7",
+          "chapter_name": "Securitization",
+          "unique_id": "7-T-12"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "7",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "\"Besides the primary participant's other parties are also involved in the process of Securitization\". EXPLAIN.",
+          "answer": "Besides the primary participants other parties involved into the securitization process can be explained as follows:\n\n(i) Obligors: Actually, they are the main source of the whole securitization process. They are the parties who owe money to the firm and are assets in the Balance Sheet of Originator. The amount due from the obligor is transferred to SPV and hence they form the basis of securitization process and their credit standing is of paramount importance in the whole process.\n\n(ii) Rating Agency: Since the securitization is based on the pools of assets rather than the originators, the assets have to be assessed in terms of its credit quality and credit support available. Rating agency assesses the following:\n\n\n- Strength of the Cash Flow.\n\n- Mechanism to ensure timely payment of interest and principal repayment.\n\n- Credit quality of securities.\n\n- Liquidity support.\n\n- Strength of legal framework.\n\nAlthough rating agency is secondary to the process of securitization but it plays a vital role.\n\n(iii) Receiving and Paying agent (RPA): Also, called Servicer or Administrator, it collects the payment due from obligor(s) and passes it to SPV. It also follows up with defaulting borrower and if required initiate appropriate legal action against them. Generally, an originator or its affiliates acts as servicer.\n\n(iv) Agent or Trustee: Trustees are appointed to oversee that all parties to the deal perform in the true spirit of terms of agreement. Normally, it takes care of interest of investors who acquires the securities.\n\n(v) Credit Enhancer: Since investors in securitized instruments are directly exposed to performance of the underlying and sometime may have limited or no recourse to the originator, they seek additional comfort in the form of credit enhancement. In other words, they require credit rating of issued securities which also empowers marketability of the securities.\n\nOriginator itself or a third party say a bank may provide this additional context called Credit Enhancer. While the originator provides his comfort in the form of over collateralization or cash collateral, the third party provides it in form of letter of credit or surety bonds.\n\n(vi) Structurer: It brings together the originator, investors, credit enhancers and other parties to the deal of securitization. Normally, these are investment bankers also called arranger of the deal. It ensures that deal meets all legal, regulatory, accounting and tax laws requirements.",
+          "chapter_number": "7",
+          "chapter_name": "Securitization",
+          "unique_id": "7-T-15"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Question 29 (MTP 4 Marks Aug'25,RTP Jan'26)\n\nA hypothetical company ABC Ltd. issued a $\\mathbf{1 0} \\boldsymbol{\\%}$ Debenture (Face Value of Rs. $\\mathbf{1 0 0 0}$ ) of the duration of 10 years is currently trading at Rs. 850 per debenture. The bond is convertible into 50 equity shares being currently quoted at Rs. 17 per share.\n\nIf yield on equivalent comparable bond is $11.80 \\%$, then determine the spread of yield of the above bond from this comparable bond.\n\nThe relevant present value table is as follows.\n\n\n| Present Values | $\\mathbf{t}_{\\mathbf{1}}$ | $\\mathbf{t}_{\\mathbf{2}}$ | $\\mathrm{t}_{3}$ | $\\mathbf{t}_{\\mathbf{4}}$ | $\\mathbf{t}_{\\mathbf{5}}$ | $\\mathbf{t}_{\\mathbf{6}}$ | $\\mathbf{t}_{\\mathbf{7}}$ | $\\mathbf{t}_{\\mathbf{8}}$ | $\\mathbf{t}_{\\mathbf{9}}$ | $\\mathbf{t}_{\\mathbf{1 0}}$ |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| PVIF $_{0.11, \\mathrm{t}}$ | 0.901 | 0.812 | 0.731 | 0.659 | 0.593 | 0.535 | 0.482 | 0.434 | 0.391 | 0.352 |\n| PVIF $_{\\text {0.13 t }}$ | 0.885 | 0.783 | 0.693 | 0.613 | 0.543 | 0.480 | 0.425 | 0.376 | 0.333 | 0.295 |",
+          "answer": "Conversion Price $=Rs. 50 \\times 17=Rs. 850$\n\nIntrinsic Value = Rs. 850\n\nAccordingly the yield ( $r$ ) on the bond shall be :\n\nRs. 850 = Rs. $100 \\operatorname{PVAF}(r, 10)+$ Rs. $1000 \\operatorname{PVF}(r, 10)$\n\nLet us discount the cash flows by $11 \\%$\n\n$850=100 \\operatorname{PVAF}(11 \\%, 10)+1000 \\operatorname{PVF}(11 \\%, 10)$\n\n$850=100 \\times 5.890+1000 \\times 0.352=91$\n\nNow let us discount the cash flows by $13 \\%$\n\n$850=100 \\operatorname{PVAF}(13 \\%, 10)+1000 \\operatorname{PVF}(13 \\%, 10)$\n\n$850=100 \\times 5.426+1000 \\times 0.295$\n\n$=-12.40$\n\nAccordingly, IRR\n\n$11 \\%+\\frac{90.90}{90.90-(-12.40)} \\times(13 \\%-11 \\%)$\n\n$11 \\%+\\frac{90.90}{103.30} \\times(13 \\%-11 \\%)$\n\n= 12.76\\%\n\nThe spread from comparable bond $=12.76 \\%-11.80 \\%=0.96 \\%$",
+          "chapter_number": "5",
+          "chapter_name": "Security Valuation",
+          "unique_id": "5-T-29"
+        }
+      ]
+    }
+  ]
+}

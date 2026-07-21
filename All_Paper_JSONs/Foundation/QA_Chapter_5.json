@@ -1,0 +1,392 @@
+[
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 1,
+    "question": "How many different words can be formed with the letters of the word 'TRIANGL'?",
+    "options": {
+      "a": "8 !",
+      "b": "7 !",
+      "c": "6 !",
+      "d": "$2!\\times 6$ !"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 2,
+    "question": "In how many ways can the word 'STRANGE' be arranged so that the vowels never come together? (SM, MTP Oct'19)",
+    "options": {
+      "a": "$7!-6!\\times 2$ !",
+      "b": "$7!-6$ !",
+      "c": "${ }^{7} \\mathrm{P}_{6}$",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 3,
+    "question": "In how many ways of the word \u02cbMATHEMATICS' be arranged so that the vowels occur together? (SM, PYP Sep'25, MTP May'23, MTP Oct'18)",
+    "options": {
+      "a": "$11!\\div(2!)^{3}$",
+      "b": "$(8!\\times 4!) \\div(2!)^{3}$",
+      "c": "$12!\\div(2!)^{3}$",
+      "d": "None"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 4,
+    "question": "If ${ }^{n+3} \\mathrm{P}_{6} \\div{ }^{n+2} \\mathrm{P}_{4}=14$ the value of n is",
+    "options": {
+      "a": "8",
+      "b": "4",
+      "c": "5",
+      "d": "2"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 5,
+    "question": "How many four digits number can be formed by using $1,2, \\ldots \\ldots \\ldots . .7$ ?",
+    "options": {
+      "a": "${ }^{7} P_{4}$",
+      "b": "$\\quad{ }^{7} \\mathrm{P}_{3}$",
+      "c": "${ }^{7} \\mathrm{C}_{4}$",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 6,
+    "question": "In question No.(60) how many of them have ' $T$ ' and ' $E$ ' in the end places?",
+    "options": {
+      "a": "8 !",
+      "b": "7 !",
+      "c": "6 !",
+      "d": "$2!\\times 6$ !"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 7,
+    "question": "How many telephones connections may be allotted with 8 digits form the numbers 0,1,2 $\\\\_\\_\\_\\_\\$ 9 ?",
+    "options": {
+      "a": "$10^{8}$",
+      "b": "10 !",
+      "c": "${ }^{10} \\mathrm{C}_{8}$",
+      "d": "${ }^{10} \\mathrm{P}_{8}$"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 8,
+    "question": "In how many ways the word 'FAILURE' can be arranged so that the consonants occupy only the odd positions?",
+    "options": {
+      "a": "4 !",
+      "b": "$(4!)^{2}$",
+      "c": "$7!\\div 3!$",
+      "d": "None"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 9,
+    "question": "How many different arrangements can be made with the letters of the word \u02cbORIENTAL'?",
+    "options": {
+      "a": "6 !",
+      "b": "8 !",
+      "c": "4 !",
+      "d": "None"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 10,
+    "question": "How many six digits numbers can be formed with the digits $9,5,3,1,7,0$ ?",
+    "options": {
+      "a": "600",
+      "b": "720",
+      "c": "120",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 11,
+    "question": "In how many ways the word 'ARRANGE' be arranged such that the 2 ' R 's come together?",
+    "options": {
+      "a": "400",
+      "b": "440",
+      "c": "360",
+      "d": "None"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 12,
+    "question": "In how many ways can the word 'STRANGE' be arranged so that the vowels are never separated?",
+    "options": {
+      "a": "$6!\\times 2$ !",
+      "b": "7 !",
+      "c": "$7!\\div 2!$",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 13,
+    "question": "How many different words can be formed beginning with ' T ' of the word 'TRIANGLE'?",
+    "options": {
+      "a": "8 !",
+      "b": "7 !",
+      "c": "6 !",
+      "d": "$2!\\times 6$ !"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 14,
+    "question": "In how many ways can 4 Americans and 4 English men be seated at a round table so that no 2 Americans may be together? (MTP May'25)",
+    "options": {
+      "a": "$4!\\times 3!$",
+      "b": "${ }^{4} \\mathrm{P}_{4}$",
+      "c": "$3 \\times{ }^{4} P_{4}$",
+      "d": "${ }^{4} \\mathrm{C}_{4}$"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 15,
+    "question": "In how many ways can the letters of the word \u02cbARRANGE' be arranged?",
+    "options": {
+      "a": "1,200",
+      "b": "1,250",
+      "c": "1,260",
+      "d": "1,300"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 16,
+    "question": "In how many ways can a consonant and a vowel be chosen out of the letters of the word 'EQUATION'?",
+    "options": {
+      "a": "18",
+      "b": "15",
+      "c": "3",
+      "d": "None"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 17,
+    "question": "In how many ways can 5 people occupy 8 vacant chairs?",
+    "options": {
+      "a": "5,720",
+      "b": "6,720",
+      "c": "7,720",
+      "d": "None"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 18,
+    "question": "In how many ways can 3 boys and 4 girls be arranged in arowso that all the three boys are together?",
+    "options": {
+      "a": "$4!\\times 3$ !",
+      "b": "$5!\\times 3!$",
+      "c": "$7!$",
+      "d": "None"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 19,
+    "question": "The number of arrangements that can be made with the word 'ASSASSINATION' is",
+    "options": {
+      "a": "$13!\\div$\\left[3!\\times 4!\\times(2!)^{2}\\right]",
+      "b": "$13!\\div[3!\\times 4!\\times 2!]$",
+      "c": "13 !",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 20,
+    "question": "In question No. (60) how many of them will begin with ' $T$ ' and end with ' $E$ '?",
+    "options": {
+      "a": "8 !",
+      "b": "7 !",
+      "c": "6 !",
+      "d": "$2!\\times 6$ !"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 21,
+    "question": "In question No.(60) how many of them have arrangements that no two vowels are together?",
+    "options": {
+      "a": "$8!-4!\\times 5!$",
+      "b": "${ }^{6} \\mathrm{P}_{3} \\times 5$ !",
+      "c": "$2!\\times 5!\\times 3!$",
+      "d": "${ }^{4} \\mathrm{P}_{3} \\times 5$ !"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 22,
+    "question": "How many different arrangements can be made beginning with ' A ' and ending in ' N ' with the letters of the word \u02cbMONDAY'?",
+    "options": {
+      "a": "6 !",
+      "b": "8 !",
+      "c": "4 !",
+      "d": "None"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 23,
+    "question": "How many different words can be formed beginning with ' $E$ ' of the letters of the word 'TRIANGLE'?",
+    "options": {
+      "a": "8 !",
+      "b": "7 !",
+      "c": "6 !",
+      "d": "$2!\\times 6$ !"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 24,
+    "question": "If ${ }^{n-1} \\mathrm{P}_{3} \\div{ }^{n+1} \\mathrm{P}_{3}=\\frac{5}{12}$ the value of n is",
+    "options": {
+      "a": "8",
+      "b": "4",
+      "c": "5",
+      "d": "2"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 25,
+    "question": "How many four digits numbers can be formed by using $1,2, \\ldots . .7$ which are grater than 3400 ?",
+    "options": {
+      "a": "500",
+      "b": "550",
+      "c": "560",
+      "d": "None"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 26,
+    "question": "How many arrangements can be made with the letter of the word \u02cbMATHEMATICS'?",
+    "options": {
+      "a": "$11!\\div(2!)^{3}$",
+      "b": "$11!\\div(2!)^{2}$",
+      "c": "11 !",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 27,
+    "question": "The number of permutation of the word 'ACCOUNTANT' is",
+    "options": {
+      "a": "$10!\\div(2!)^{4}$",
+      "b": "$10!\\div(2!)^{3}$",
+      "c": "10 !",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 28,
+    "question": "The chief ministers of 17 states meet to discuss the hike in oil price at a round table. In how many ways they seat themselves if the Kerala and Bengal chief ministers choose to sit together?",
+    "options": {
+      "a": "$15!\\times 2!$",
+      "b": "$17!\\times 2$ !",
+      "c": "$16!\\times 2$ !",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 29,
+    "question": "In how many ways can a consonant and a vowel be chosen out of the letters of the word 'LOGARITHM'?",
+    "options": {
+      "a": "18",
+      "b": "15",
+      "c": "3",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 30,
+    "question": "3 persons go into a railway carriage having 8 seats. In how many ways they may occupy the seats?",
+    "options": {
+      "a": "${ }^{8} \\mathrm{P}_{3}$",
+      "b": "${ }^{8} \\mathrm{C}_{3}$",
+      "c": "${ }^{8} \\mathrm{C}_{5}$",
+      "d": "None"
+    },
+    "answer": "a"
+  }
+]

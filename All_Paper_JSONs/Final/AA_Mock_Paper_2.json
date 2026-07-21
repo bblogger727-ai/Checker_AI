@@ -1,0 +1,471 @@
+{
+  "meta": {
+    "subject_code": "AA",
+    "subject_name": "Advanced Auditing",
+    "paper_num": 2,
+    "total_marks_printed": 100,
+    "total_marks_in_paper": 114,
+    "section_a_marks": 30,
+    "section_b_marks": 84,
+    "note": "Section B: Q1 compulsory (14m). Attempt any 4 of Q2-Q6 (14m each).",
+    "blacklisted_from": [
+      "Generated_Papers/AA/AA_Mock_Paper_1.json"
+    ]
+  },
+  "section_a": [
+    {
+      "type": "case_study",
+      "chapter_number": "19.1",
+      "chapter_name": "PROFESSIONAL ETHICS AND LIABILITIES OF AUDITORS",
+      "case_text": "During the planning stage of audit of Mobile & Cell Limited, the statutory auditor of the company, ABC & Co, decided:\n\n1. To evaluate whether to use the work of internal audit function to gather sufficient and appropriate audit evidence for the purpose of expressing opinion on the financial statement of the company.\n\n2. To perform test counts on a sample basis for Inventory Balance which was material. Also, the audit team will inquire management to provide copies of management's completed physical inventory count which will assist them in performing subsequent procedures required to determine whether inventory records accurately reflect actual inventory count results.\n\n3. To perform substantive analytical procedures to gather sufficient and appropriate audit evidence for payroll cost. Audit team decided to recalculate the payroll cost by multiplying the total employees of the company with the average pay-out per employee.\n\n4. To perform substantive procedures over the direct expenses which were assessed as a material with respect to the financial statement as a whole. Moreover, the number of items/transactions in direct expense were huge and of were of non-homogenous nature. As a result, audit team decided to select some samples from each identified strata disaggregated to the lowest level based on their characteristics.\n\n5. The performance materiality for assessing any misstatement was fixed at ₹ 10,00,000 /-.\n\nDuring the audit phase the audit team identified that\n\nI. The internal audit function reports directly to the management and they do not have any direct communication with the those charged with governance or an officer with the appropriate authority. Also, all the findings of internal audit function are first reported to the management and then the management decides what to report to those charged with governance from the findings of internal audit function.\n\nII. Since last three years the company is making cash losses and is facing liquidity crisis. Moreover, there was a huge loan instalment due for repayment in next three months. Considering the company's liquidity profile, it was evident that company will default the upcoming loan instalment and the payment of interest there on. When inquired with the management as to how they will deal with this situation and how they will consider the impact of these events on management's assumption of going concern, the management contended that the company would raise more funds through issue of fresh equity in the primary market to manage the liquidity requirements.\n\nIII. Moreover, there was an ongoing litigation on Company and its Officers for misappropriation of loan funds. As a result, after analyzing the SEBI Listing Requirements, it was evident that company was not in position to issue fresh equity in the primary market.\n\nIV. In one of the direct tax litigations, the adjudicating authority issued an unfavorable order against the company because of which the company was now required to pay huge fines and interest to the\n\nTax Authority. The amount of fine and interest there on was material.\n\nV. The engagement manager identified that the total payroll costs booked for the period was ₹ 30,00,000 /- for total 150 employees employed throughout the year from the payroll records & register. Engagement manager was able to identify that the average pay-out per employee was ₹ 20,500 /-. Also, the independent expectation developed for the payroll cost was between ₹ 30,00,000 /- to ₹ 32,00,000 /- for the year.\n\nVI. The Audit team performed the testing of direct expense and following is the outcome:\n\n| Strata Name | Balance as per books | Total of sample value | No of Samples | Exception amount in samples | Reason for exception |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| Freight Expense | ₹ 5,00,000 | ₹ 1,00,000 | 10 | ₹ 25,000 | one invoice was incorrectly booked |\n| Loading Charges | ₹ 4,00,000 | ₹ 80,000 | 15 | ₹ 0 | NA |\n| Shipping Charges | ₹ 9,00,000 | ₹ 2,70,000 | 10 | ₹ 0 | NA |\n| Packaging Expense | ₹ 8,00,000 | ₹ 2,40,000 | 5 | ₹ 3,000 | No documents were available for the said samples |\n| Storing Expense | ₹ 12,00,000 | ₹ 1,20,000 | 10 | ₹ 8,000 | Warehouse charges were booked as storing expense. Wrong classification. |\n| Total | ₹ 38,00,000 | ₹ 8,10,000 | 50 | ₹ 36,000 | Projected misstatement was ₹ 1,68,889/-(36,000 / 8,10,000 x 38,00,000). |\n\nVII. Management allowed auditor to attend the physical inventory count, however, management did not allow audit team to perform any other procedure during the physical count. When inquired from management regarding the denial to the auditor from performing additional audit procedures along with attending the inventory count, the management explained that the inventory consists of very unstable chemicals and inflammable gases which require handling with skill and care. Any carelessness in handling the inventory can result in catastrophe. As a result, due to safety standards and policies, the management cannot allow the auditor to perform additional audit procedures.",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Auditor of the company decided to draw attention of the users of the audit report on the existence of the material uncertainty related to events that have casted significant doubts on the entity's ability to continue as going concern by disclosing the same in other matter paragraph. As an Engagement Quality Control Reviewer, guide the Auditor about the correct way of disclosing the existence of the material uncertainty related to events that have casted significant doubts on the entity's ability to continue as going concern when the management has not made appropriate disclosure of a material uncertainty in the financial statement. (Chapter 7.3 - SA 705- Modification in Opinion)",
+          "options": {
+            "a": "When the management has not made appropriate disclosure of a material uncertainty in the financial statement and there exists a material uncertainty related to events that have casted significant doubts on the entity's ability to continue as going concern then the auditor should disclose the same in \"Key Audit Matter\" section in Audit Report only. No other disclosure is required.",
+            "b": "Disclosure of the material uncertainty in the financial statement is the responsibility of the management and the auditor should not comment on the same.",
+            "c": "When the management has not made appropriate disclosure of a material uncertainty in the financial statement and there exists a material uncertainty related to events that have casted significant doubts on the entity's ability to continue as going concern then the auditor should express a qualified or adverse opinion and should mention in the Basis of Qualified / Adverse Opinion section of the Audit Report about existence of the material uncertainty.",
+            "d": "When the management has not made appropriate disclosure of a material uncertainty in the financial statement and there exists a material uncertainty related to events that have casted significant doubts on the entity's ability to continue as going concern then the auditor should express an unmodified opinion and should obtain the written representation about existence of the material uncertainty from management."
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": 1
+        },
+        {
+          "q_num": 2,
+          "question": "In view of current scenario, which of the following requirements as per SA 610 are required to be fulfilled by Statutory Auditors of the Company, prior to using the direct assistance of the Internal Audit Team? (Chapter 3.4 - SA 610- Using the work of an Internal Auditor)",
+          "options": {
+            "a": "Statutory Auditors should obtain written agreement from the management of the Company. that the internal audit team will be allowed to follow the statutory auditors' instructions.",
+            "b": "Statutory auditors should obtain written agreement from internal audit team that his team will keep the matters confidential.",
+            "c": "Both a & b.",
+            "d": "Statutory Auditors can use the direct assistance of the internal audit team after discussing the same with the management. No prior written agreement is required."
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": 2
+        },
+        {
+          "q_num": 3,
+          "question": "Considering the inherent limitation with respect to the inventory count, the audit team decided not to perform any other procedure or not to obtain any documentary evidence from management with respect to inventory. Guide the audit team in the current scenario by selecting the appropriate option from below: (Chapter 7.3 - SA 705- Modification in Opinion)",
+          "options": {
+            "a": "If the auditor has not obtained sufficient appropriate audit evidence as to a material financial statement assertion, the auditor shall not attempt to obtain further audit evidence.",
+            "b": "If the auditor has not obtained sufficient appropriate audit evidence as to a material financial statement assertion, the auditor shall attempt to obtain further audit evidence. If the auditor is unable to obtain sufficient appropriate audit evidence, the auditor shall express a qualified opinion or a disclaimer of opinion.",
+            "c": "In case where audit team is not able to obtain sufficient and appropriate audit evidence as to a material financial statement assertion, then the auditor should appoint management's expert and should try to obtain required evidence from such expert.",
+            "d": "In case where audit team is not able to obtain sufficient and appropriate audit evidence as to a material financial statement assertion, then the auditor should communicate to management and should obtain written representation from them."
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": 3
+        },
+        {
+          "q_num": 4,
+          "question": "Based on the recalculation performed by the audit team, the total payroll cost arrived for the period was ₹ 30,75,000 /. Analyze and guide the audit team with respect to the results obtained from the substantive analytical procedure by selecting the appropriate option from below: (Chapter 5.1 - SA 500- Audit Evidence)",
+          "options": {
+            "a": "The difference identified between the payroll costs derived through substantive analytical procedure and the expectation developed is material based on the materiality fixed by the audit team and hence it requires further investigation.",
+            "b": "The amount derived through substantive analytical procedure is not in congruence with the total amount of the payroll cost booked for the period. Hence the audit team should investigate the reasons for the difference between the amount derived and the actual cost booked.",
+            "c": "The total payroll cost arrived is well within the expectation developed and the difference between the amount recorded and the amount derived through substantive analytical procedure is not material. Hence, it does not require any further investigation.",
+            "d": "The difference identified between the amount derived through substantive analytical procedure and amount developed as an expectation is significant and the audit team should obtain appropriate written representation from management with respect to the completeness and accuracy of the amount derived through substantive analytical procedure."
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": 4
+        },
+        {
+          "q_num": 5,
+          "question": "Based on the above outcome of the direct expense testing the audit team decided to project the total misstatement on the entire balance considered for testing. As per the calculation performed, the projected misstatement was ₹ 1,68,889/-. Kindly analyse and guide the audit team with respect to the results obtained from the substantive testing by selecting the appropriate option from below: (Chapter 4.3 - SA 320 -Materiality in Planning & Performing an Audit)",
+          "options": {
+            "a": "The projected misstatement calculated is appropriate. Moreover, based on the performance\nmateriality and projected misstatement the auditor should modify his opinion.",
+            "b": "When a class of transactions or account balance has been divided into strata, then the misstatement is required to be projected for each stratum separately. Hence, the audit team's approach is incorrect with respect to the calculation of projected misstatement. The Audit team should recalculate the projected misstatement and then they should consider its impact on overall audit opinion based on the materiality.",
+            "c": "The audit team should have considered the exception of ₹ 8,000 /- twice while calculating the projected misstatement, as the error is regarding wrong classification and the same will affect two class of transactions or balances. Hence audit team should consider revising the projected misstatement and then they should consider its impact on overall audit opinion based on the materiality.",
+            "d": "Audit team has appropriately calculated the projected misstatement. However, before modifying the audit opinion the audit team should obtain written representation with respect to the completeness and accuracy of the direct expense balance which could serve as a sufficient and appropriate."
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": 5
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "19.1-CS-5"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "19.1",
+      "chapter_name": "PROFESSIONAL ETHICS AND LIABILITIES OF AUDITORS",
+      "case_text": "CA Paras is in the midst of conducting statutory audit for the year 2025-26 of \"Meto Chemicals Limited\", a listed company. He is collating information required for reporting under CARO, 2020 from management. Audit procedures as are necessary in the circumstances will be performed on the information so obtained. The company's revenue from sale of products is ₹ 15,000 crores. During the course of this exercise, he obtained the following information: -\n\n| Name of Statute | Nature of dues | Forum where the dispute is pending | Period to Which the amount relates | Amount involved (₹ in crore) | Amount unpaid (₹ in crore) | Other comments |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| Income-tax Act, 1961 | Income tax | CIT (Appeals) | AY 2021-22 | 50.00 | 50.00 |  |\n| Income-tax Act, 1961 | Income tax | ITAT | AY 2017-18 | 10.00 | 10.00 | Demand Stayed by ITAT pending completion of Hearing by the Tribunal |\n| EPF Act | PF contribution | Hon'ble High Court of Rajasthan | FY 2020-21 | 0.10 | 0.10 |  |\n| Municipal Corporation Act | Property tax | Hon'ble High Court of Rajasthan | FY 2018-19 | 0.15 | 0.15 |  |\n\n[A] The management has provided the following details of dues that have not been deposited on 31st March, 2026 on account of disputes: -\nThe company has already made a provision of ₹10 crore in its financial statements considering the likely outcome of ongoing matters under dispute at ITAT. However, no provision has been made in respect of income tax matters pending before CIT(Appeals), PF contribution matter and property tax matter pending before Hon'ble High Court.\n\n[B] The following information is available from financial statements / records of the company. (₹ in crore)\n\n| Non-Current assets | As at $31 / 03 / 26$ | As at $31 / 03 / 25$ |\n| :--- | :--- | :--- |\n| Property, Plant and Equipment | 3,500 | 4,000 |\n| Right-of-use assets | 750 | 700 |\n| Intangible assets | 42 | 40 |\n\nValues stated above are as per gross block.\nRight-of-use assets consist of leases where the company has obtained the right-of-use asset under lease agreement in accordance with Ind AS 116.\n[C] Meto Chemicals Limited produces goods for which the Central Government has specified maintenance of cost records. Besides, cost audit has also been mandated under section 148(2) of the Companies Act. The cost auditor has already examined cost records and issued the cost audit report.\n[D] During the course of audit, CA Paras has found that physical verification of inventories of the company has been conducted during the year by management. The following is a summary of inventory as per physical verification conducted by management vis-à-vis its books of account as at the year-end: -\n\n(Amount ₹ in crores)\n\n| Particulars | As per physical verification | As per books of account |\n| :--- | :--- | :--- |\n| Raw material | 1,000 | 1,020 |\n| Work-in-progress | 200 | 220 |\n| Finished goods | 2,000 | 2,290 |\n| Stores and spares | 150 | 120. |\n| Total | 3,350 | 3,650 |\n\n[E] During the course of audit, he is informed by management that two supervisory employees have been dismissed from service due to fraud of ₹ 25 lakh committed by them during the year 2025-26. The amount has also been subsequently recovered from them during the year itself.\n\nOn the basis of the abovementioned facts, you are required to answer the following MCQs:",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Select the correct statement relating to reporting of statutory dues which have not been deposited on account of disputes under clause 3(vii)(b) of CARO, 2020? (Chapter 7.8 - CARO)",
+          "options": {
+            "a": "Only matters relating to income tax pending before CIT (Appeals) and PF contribution matter pending before Hon'ble High Court need to be reported.",
+            "b": "Only Income tax matter pending before ITAT needs to be reported.",
+            "c": "All the four matters for which information has been provided in the fact pattern need to be reported.",
+            "d": "Income tax matter pending before CIT (Appeals), PF contribution matter and property tax matter pending before Hon'ble High Court need to be reported, matter pending with ITAT does not require reporting."
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": 6
+        },
+        {
+          "q_num": 2,
+          "question": "Identify the correct statement relating to reporting duties of the auditor under clause 3(i) of CARO, 2020 with regard to: (Chapter 7.8 - CARO)",
+          "options": {
+            "a": "It is the duty of the auditor to report whether company is maintaining proper records showing full particulars, including quantitative details and situation of Property, Plant and Equipment. Similarly, there is a duty to report on whether company is maintaining proper records showing full particulars of intangible assets. However, this duty does not extend to reporting on maintenance of records for Right-of-use assets. Further, auditor has to report on whether Property, Plant and Equipment have been physically verified by management at reasonable intervals. This duty to report on physical verification by management does not extend to Right-of-use assets.",
+            "b": "It is the duty of the auditor to report whether company is maintaining proper records showing full particulars, including quantitative details and situation of Property, Plant and Equipment. This duty also applies to reporting on maintenance of records for Right-of-use assets and intangible assets. Further, auditor has to report on whether Property, Plant and Equipment have been physically verified by management at reasonable intervals. This duty to report on physical verification by management also extends to Right-of-use assets.",
+            "c": "It is the duty of the auditor to report whether company is maintaining proper records showing full particulars, including quantitative details and situation of Property, Plant and Equipment. This duty does not extend to reporting on maintenance of records for Right-of-use assets and intangible assets. Further, auditor has to report on whether Property, Plant and Equipment have been physically verified by management at reasonable intervals. This duty to report on physical verification by management does not extend to Right-of-use assets.",
+            "d": "It is the duty of the auditor to report whether company is maintaining proper records showing full particulars, including quantitative details and situation of Property, Plant and Equipment. This duty also applies to reporting on maintenance of records for Right-of-use assets and intangible assets. Further, auditor has to report on whether Property, Plant and Equipment have been physically verified by management at reasonable intervals. However, this duty to report on physical verification by management does not extend to Right-of-use assets."
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": 7
+        },
+        {
+          "q_num": 3,
+          "question": "As regards cost records is concerned, which of the following statement is correct regarding reporting under clause 3(vi) of CARO, 2020? (Chapter 7.8 - CARO)",
+          "options": {
+            "a": "The auditor is required to report whether prescribed cost accounts and cost records have been so made and maintained.",
+            "b": "The auditor is not required to report on maintenance of cost accounts and cost records since cost auditor has already issued the cost audit report. In such situations, the auditor does not have any duty to report under CARO, 2020.",
+            "c": "The auditor is required to examine the cost audit report as well as take into account any qualifications therein and report them under clause $3(\\mathrm{vi})$ of CARO, 2020. However, his duty to report on maintenance of cost accounts and cost records does not exist anymore.",
+            "d": "The auditor has a duty to report on cost accounts (or cost statements) only. The clause does not require the auditor to comment on maintenance of cost records (e.g. cost records relating to materials, Labour, overheads) where specified by the Central Government."
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null,
+          "_serial": 8
+        },
+        {
+          "q_num": 4,
+          "question": "Considering the values of inventories arrived upon physical verification conducted by management vis -à-vis values reflected in its books of account, select the correct option for instance in the case study to be reported by the auditor on inventories under clause 3(ii)(a) of CARO, 2020? (Chapter 7.8 - CARO)",
+          "options": {
+            "a": "Differences in all classes of inventories (raw material, work-in-progress, finished goods and stores and spares) should be reported irrespective of the materiality and the auditor should also comment on whether they have been properly dealt with in the books of account.",
+            "b": "There is no instance to be reported in the given case since the difference between the total value of inventories as per books and physical verification is less than 10\\%.",
+            "c": "To report differences in the value of work-in-progress, finished goods and stores and spares since the difference in each class of inventory is 10\\% or more (based on value after adjustments). The auditor should also comment on whether they have been properly dealt with in the books of account.",
+            "d": "To report differences in the value of finished goods and stores and spares since the difference in each class of inventory is more than $10 \\%$ (based on value as per books of accounts). The auditor should also comment on whether they have been properly dealt with in the books of account."
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": 9
+        },
+        {
+          "q_num": 5,
+          "question": "Should the fraud described in para [E] of the case be reported by the auditor under clause 3(ix)(a) of CARO, 2020? (Chapter 7.8 - CARO)",
+          "options": {
+            "a": "There is no duty to report since the amount involved is less than ₹1 crore.",
+            "b": "It is a fraud on the company and the auditor should report the nature of fraud and amount involved. The duty to report the fraud under this clause is irrespective of the amount involved.",
+            "c": "The requirement to report the fraud does not apply in the current situation since the fraud was not discovered by the auditor.",
+            "d": "The requirement to report the fraud does not apply in the current situation since the amount has been fully recovered during the year from the employees who committed the fraud."
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": 10
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "19.1-CS-9"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "19.1",
+      "chapter_name": "PROFESSIONAL ETHICS AND LIABILITIES OF AUDITORS",
+      "case_text": "Rainbow Non-Bank Limited, a \"Non-Systemically Important Non-Deposit Taking Non-Banking Financial Company\", was operating appropriately till the start of the COVID-19 pandemic. Due to unforeseen conditions during the pandemic and after that, the operating revenue of the NBFC started decreasing. Following is the position of Net Owned Funds of the company during the last 4 financial years:\n\n| Financial Year | Net Owned Funds |\n| :--- | :--- |\n| FY22-23 | ₹ 12 crore |\n| FY23-24 | ₹ 5 crore |\n| FY24-25 | ₹ 3 crore |\n| FY25-26 | ₹ 2.5 crore |\n\nRainbow Non-Bank Limited appointed Tirthankara & Company as their statutory auditor for FY 2025-26.\n\nRainbow Non-Bank was involved in re-financing of accounts payables of other companies (i.e., paying to accounts payables on behalf of the company on the due date and allowing additional credit period by charging interest).\n\nTo test for understatement in existence or valuation of accounts payable, Mr. Abhinandan (Engagement Partner) decided to test recorded & refinanced accounts payables on a sample basis. He also decided to verify refinanced accounts payable against signed contracts. Mr. Abhinandan did not identify any misstatements. While performing audit procedures in the month of March 2026 itself, it was noticed by Mr. Abhinandan that Senior Sales Manager from Rainbow Non-Bank agreed to refinance the accounts payables of Opal Stones India Limited, but on the due date, he issued payment to his personal account instead of issuing payments to Accounts Payables of Opals Stones India Limited, the matter was flagged by him to audit committee and amount was subsequently recovered. Due to this Opal Stones had to pay an additional amount of ₹ 4 crore over and above amount of accounts payables of ₹ 25 crore embezzled by the Senior Sales Manager. As Opal Stones had to shell out extra funds due to above, it was proposing to file a suit against the company. However, negotiations were still going on between two companies to settle the matter. There was no disclosure in financial statements regarding these negotiations.\n\nNo other observation was identified by Mr. Abhinandan. He is considering to express an unmodified opinion in above situation. He has also approached EQCR to review working papers and documentation.",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "While reviewing working papers of Mr. Abhinandan, the Engagement Quality Control Reviewer (EQCR) identified that the audit procedure followed to test for understatement in existence or valuation of accounts payable refinanced is not relevant. However, Mr. Abhinandan did not understand the comments provided by his EQCR. Kindly guide Mr. Abhinandan with respect to the \"relevance of the audit procedure\" by selecting the appropriate option from below: (Chapter 1.2 - SA 220- Quality control for an audit of financial statements)",
+          "options": {
+            "a": "Relevance deals with the logical connection with, or bearing upon, the purpose of the audit procedure and, where appropriate, the assertion under consideration. In the current case, testing accounts payable by following stated audit procedure will be relevant for testing overstatement in existence or valuation of accounts payable and not their understatement.",
+            "b": "Relevance deals with the logical connection with, or bearing upon, the purpose of the audit procedure and, where appropriate, the assertion under consideration. In the current case, testing accounts payable will give comfort on completeness and valuation but not on existence.",
+            "c": "The relevance of the information to be used as audit evidence, and therefore of the audit evidence itself, is influenced by its source and its nature, and the circumstances under which it is obtained, including the controls over its preparation and maintenance where relevant.",
+            "d": "The relevance of audit evidence is increased when it is obtained from independent sources outside the entity."
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null,
+          "_serial": 11
+        },
+        {
+          "q_num": 2,
+          "question": "Whether the contention of management of Rare (P) Ltd is valid with respect to the disclosure of court case in the financial statements?",
+          "options": {
+            "a": "Yes, it is valid as per the applicable financial reporting framework.",
+            "b": "No, it is not valid as it does not provide sufficient information.",
+            "c": "Yes, as it meets the requirements of SA 560.",
+            "d": "No, it is invalid as it does not comply with SA 570."
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null,
+          "_serial": 12,
+          "correct_answer": "B"
+        },
+        {
+          "q_num": 3,
+          "question": "Regarding the issue involving the embezzlement by the Senior Sales Manager, what is the most appropriate compliance action for Mr. Abhinandan under the provisions of the Companies Act, 2013? Please select the most suitable option from the choices below: (Chapter 7.7 - Duties of Auditors)",
+          "options": {
+            "a": "As per section 92 of the Companies Act 2013, every auditor shall prepare a return in the prescribed form containing the particulars as they stood on the close of the financial year regarding penalty or punishment imposed on the company, its Directors or officers and details of compounding of offences and appeals made against such penalty or punishment.",
+            "b": "As per Section 143(12) of the Companies Act 2013 read with Rule 13, If an auditor of a company, in the course of the performance of his duties as statutory auditor, has reason to believe that an offence of fraud, which involves or is expected to involve individually an amount of rupees one crore or above, is being or has been committed against the company by its officers or employees, the auditor shall report the matter to the Central Government.",
+            "c": "As per Section $143(12)$ of the Companies Act 2013 read with Rule 13, If an auditor of a company, in the course of the performance of his duties as statutory auditor, has reason to believe that an offence of fraud, which involves or is expected to involve individually an amount of rupees ten crore or above, is being or has been committed against the company by its officers or employees, the auditor shall report the matter to the Central Government.",
+            "d": "As per section 92 of the Companies Act 2013, every auditor shall prepare a return in the prescribed form containing the particulars as they stood on the close of the financial year regarding penalty or punishment imposed on the company, its Directors or officers, which involves or is expected to involve individually an amount of rupees ten crore or above, and details of compounding of offences and appeals made against such penalty or punishment."
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": 13
+        },
+        {
+          "q_num": 4,
+          "question": "Considering the overall materiality of ₹ 2 crore, EQCR believes that Mr. Abhinandan should not issue an unmodified opinion. Mr. Abhinandan, however, argues that he has not identified any material misstatement. To guide Mr. Abhinandan appropriately, the following option is the most suitable: (Chapter 7.3 - SA 705- Modification in Opinion)",
+          "options": {
+            "a": "If the auditor has expressed an unmodified opinion on the financial statements, then the auditor shall describe in the Basis for Opinion section the reasons for any other matters of which the auditor is aware that would have required a modification to the opinion and the effects thereof.",
+            "b": "If there is a material misstatement in the financial statements that relate to the non- disclosure of information that should be disclosed, then the auditor shall discuss the non-disclosure with those charged with governance, and where the impact of non- disclosure is material but not pervasive, then the auditor should issue a qualified opinion.",
+            "c": "When evaluating the outcome of litigation, the Auditor should record in the audit report the interests and relationships of management that may create threats in the litigation and any applicable safeguards to save the company from outcomes of litigation, whether legal or not.",
+            "d": "If the auditor has expressed an unmodified opinion along with the \"Emphasis of Matter\" Paragraph, then the auditor shall describe in the \"Basis for Emphasis of Matter\" section the reasons for any other matters of which the auditor is aware that would have required a modification to the opinion and the effects thereof."
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": 14
+        },
+        {
+          "q_num": 5,
+          "question": "On noticing the issue, Mr. Abhinandan reported the fraud to Audit Committee within two days of his knowledge of the fraud, seeking their reply or observations within forty -five days. However, neither the audit committee nor management replied to the auditor till the 45th day. Kindly guide what the auditor is expected to do in the case when he has not received any reply from the audit committee or management. (Chapter 2.1 - SA 240- The Auditors Responsibility relating to Fraud)",
+          "options": {
+            "a": "In case the auditor fails to get any reply or observations from the Board or the Audit Committee within the stipulated period of forty-five days, he shall wait for the next 45 days, and he shall send a reminder to Audit Committee and Management to reply on the matter reported by him to them.",
+            "b": "In case the auditor fails to get any reply or observations from the Board or the Audit Committee within the stipulated period of forty-five days, he shall report the matter to shareholders and should seek their reply on observations within the next thirty days.",
+            "c": "In case the auditor fails to get any reply or observations from the Board or the Audit Committee within\nthe stipulated period of forty-five days, he shall forward his report to the Central Government along with a note containing the details of his report that was earlier forwarded to the Board or the Audit Committee for which he has not received any reply or observations.",
+            "d": "In case the auditor fails to get any reply or observations from the Board or the Audit Committee within the stipulated period of forty-five days, he shall forward his report to the CFO along with a note containing the details of his report that was earlier forwarded to the Board or the Audit Committee for which he has not received any reply or observations."
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": 15
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "19.1-CS-14"
+    }
+  ],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": true,
+      "total_marks": 14,
+      "chapter_number": "7",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Question 7 (MTP 4 Marks Mar'23 & Apr'23, PYP 4 Marks Dec'21)\n\nCA Subhadra is the statutory auditor of SATI Ltd. for the financial year 20X1-X2. In respect of loans and advances of Rs. 95 lakh given to Shripal Pvt. Ltd., the Company has not furnished any agreement to CA Subhadra and in absence of the same, he is unable to verify the terms of repayment, chargeability of interest and other terms.\n\nJustify the type of opinion which CA Subhadra should give in such situation. Also, Draft an appropriate Opinion paragraph and Basis of Opinion paragraph.",
+          "answer": "In the present case, with respect to loans and advances of Rs. 95 Lacs given to Shripal Pvt. Limited, the Company has not furnished any agreement to CA Subhadra. In the absence of such an agreement, CA Subhadra is unable to verify the terms of repayment, chargeability of interest and other terms. For an auditor, while verifying any loans and advances, one of the most important audit evidence is the loan agreement. Therefore, the absence of such document in the present case, tantamount to a material misstatement in the financial statements of the company. However, the inability of CA Subhadra to obtain such audit evidence is though material but not pervasive so as to require him to give a disclaimer of opinion.\n\nThus, in the present case, CA Subhadra should give a qualified opinion.\n\nThe relevant extract of the Qualified Opinion Paragraph and Basis for Qualified Opinion paragraph is as under:\n\n## Qualified Opinion\n\nIn our opinion and to the best of our information and according to the explanations given to us, except for the effects of the matter described in the Basis for Qualified Opinion section of our report, the financial statements of SATI Limited give a true and fair view in conformity with the accounting principles generally accepted in India, of the state of affairs of the Company as on 31.03.20X2 and profit/ loss for the year ended on that date.\n\n## Basis for Qualified Opinion\n\nThe Company is unable to furnish the loan agreement with respect to loans and advances of Rs. 95 Lacs given to Shripal Pvt. Limited. Consequently, in the absence of such an agreement, we are unable to verify the terms of repayment, chargeability of interest and other terms.",
+          "chapter_number": "7.1",
+          "chapter_name": "SA 700- FORMING AN OPINION AND REPORTING ON FINANCIAL STATEMENTS"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "M/s FG & Co., Chartered Accountants, have been appointed as statutory auditors of Z Ltd. for the F.Y.20X1X2. During the course of audit, while carrying out risk assessment procedures and related activities for accounting estimates, CA G the engagement partner, identified provision for warranty as an accounting estimate and considered it to be at significant risk. In accordance with SA 540, explain the matters that need to be evaluated by CA G specifically with respect to estimation uncertainty. (PYP 5 Marks Sep'25)",
+          "answer": "Matters that need to be evaluated with respect to estimation uncertainty as per SA 540: As per SA 540, \"Auditing Accounting Estimates, Including Fair Value Accounting Estimates & Related Disclosures\", matters that need to be evaluated by the auditor CA G specifically with respect to estimation uncertainty, for accounting estimates that give rise to significant risks, in addition to other substantive procedures performed to meet the requirements of SA 330, are as under:\n\n1. How management has: -\n\n(i) Considered alternative assumptions or outcomes,\n\n(ii) Why it has rejected them,\n\n(iii) How management has otherwise addressed estimation uncertainty in making the accounting estimate.\n\n2. Whether the significant assumptions used by management are reasonable.\n\n3. Where relevant to the reasonableness of the significant assumptions used by management or the appropriate application of the applicable financial reporting framework, management's intent to carry out specific courses of action and its ability to do so.",
+          "chapter_number": "3.6",
+          "chapter_name": "SA 540-AUDITING ACCOUNTING ESTIMATES,"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "## Question 1 (MTP 4 Marks Oct'22, MTP 4 Marks Apr'25)\n\nDifficult Books Limited is engaged in manufacturing of active pharmaceutical ingredients. Due to change in laws and regulations, every company engaged in manufacturing in active pharmaceutical ingredients would now require production capacity license which will restrict the production of companies. Management of the company assessed the impact of the change in law over the financial position of company and appropriately disclosed the same in the financial statement.\n\nAudit Team of the company evaluated management's disclosure and found it appropriate and sufficient. However, considering the said matter as most important and fundamental to users understanding regarding financial statement the audit team decided to disclose the same in Other Matter Paragraph.\n\nYou as an Engagement Partner are required to guide the Audit Team with respect to reporting of the said matter in Audit Report.",
+          "answer": "As per SA 706, \"Emphasis of Matter Paragraphs and Other Matter Paragraphs in the Independent Auditor's Report\" if the auditor considers it necessary to draw users' attention to a matter presented or disclosed in the financial statements that, in the auditor's judgment, is of such importance that it is fundamental to users' understanding of the financial statements, the auditor shall include an Emphasis of Matter paragraph in the auditor's report provided:\n\ni. The auditor would not be required to modify the opinion in accordance with SA 705 as a result of the matter; and\n\nii. When SA 701 applies, the matter has not been determined to be a key audit matter to be communicated in the auditor's report.\n\nIn the instant case, since Difficult Books Limited is engaged in manufacturing of active pharmaceutical ingredients, would now require production capacity license which will restrict the production of companies, due to change in laws and regulations. Management of the Difficult Books Limited assessed the impact of the change in law over the financial position of company and appropriately disclosed the same in the financial statement.\n\nAudit team of the Difficult Books Limited evaluated management's disclosure and found it appropriate and sufficient. However, considering the said matter as most important and fundamental to users understanding regarding financial statement the audit team decided to disclose the same.\n\nThe said matter is already disclosed and presented appropriately in financial statement and is of such importance that is fundamental to the users understanding of the financial statement and hence, it required to be disclosed under Emphasis of Matter paragraph. Therefore, decision of audit team to disclose the same in Other Matter Paragraph is not in order, it should be disclosed in Emphasis of Matter Paragraph.",
+          "chapter_number": "7.4",
+          "chapter_name": "SA 706- EMPHASIS OF MATTER PARAGRAPHS AND OTHER MATTER PARAGRAPHS IN THE INDEPENDENT AUDITOR'S REPORT"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "2",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "The audit report of Rare (P) Ltd for F.Y. 2023-24 was issued by SRM & Co. on 23rd July, 2024. However, a case was filed against Rare (P) Ltd on 9th August, 2024, with the Civil Court, with respect to an incident caused in its factory on 24th January, 2024, the future outcome of which may result into paying heavy penalty by Rare (P) Ltd, which was informed to Mr. Rishabh Pandey, the partner of SRM & Co. Mr. Rishabh discussed the said matter with the management, and it was determined to amend the financial statements for F.Y. 2023-24. Further, Mr. Rishabh inquired how the management intended to address the said matter in the financial statements to which he was told that the said matter was going to be disclosed as a \"Contingent Liability for a Court case\" to the foot note in the balance sheet with no additional disclosures. The management told Mr. Rishabh that such disclosure was enough as he would be further going to provide description of the said court case and its outcome in the \"Emphasis of Matter\" paragraph in his amended audit report. In the context of aforesaid case-scenario, please answer to the following questions: -\n(i) Whether Mr. Rishabh on behalf of SRM & Co., has properly adhered to his responsibilities in accordance with SA 560, on becoming aware of the court case filed against Rare (P) Ltd? (ii) Whether the contention of management of Rare (P) Ltd is valid with respect to the disclosure of court case in the financial statements?",
+          "answer": "(i) Mr. Rishabh has properly adhered to his responsibilities in accordance with SA 560, as he discussed the matter with management and inquired how they intended to address the issue in the financial statements. Given the circumstances, he should ensure that the financial statements reflect the potential impact of the court case adequately, which may require more than just a footnote disclosure. (ii) The contention of management of Rare (P) Ltd is not valid. The disclosure of the court case as a \"Contingent Liability\" without additional details does not meet the requirements of the applicable financial reporting framework. The management is responsible for ensuring that the financial statements present a true and fair view, which includes providing sufficient information regarding significant events that may affect the entity's financial position.",
+          "chapter_number": "6.1",
+          "chapter_name": "SA 560- SUBSEQUENT EVENTS",
+          "unique_id": "AA-OCR-P2_SA560"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Question 59 (MTP 4 Marks Mar'25)\n\nHitesh, a Chartered Accountant, applied for obtaining a Certificate of Practice. However, while filling out the application form, he intentionally did not fill the section requiring disclosure of any engagement in other occupations or businesses. Hitesh was actively involved in a business, making this non-disclosure a case of withholding crucial information that was explicitly sought by the Institute.\n\nAnalyse whether Hitesh's actions amount to professional misconduct as per the provision of the Chartered Accountants Act, 1949.",
+          "answer": "Disclosure of Information: As per Clause (2) of Part III of First Schedule to the Chartered Accountants Act, 1949 a member shall be held guilty if a Chartered Accountant, in practice or not, does not supply the information called for, or does not comply with the requirements asked for, by the Institute, Council or any of its Committees, Director (Discipline), Board of Discipline, Disciplinary Committee, Quality Review Board or the Appellate Authority;\n\nIn the given case, Hitesh, a Chartered Accountant while applying for a certificate of practice, did not fill in the columns which solicit information about his engagement in other occupation or business, while he was indeed engaged in a business. Details of engagement in business need to be disclosed while applying for the certificate of practice as was the information called for in the application, by the Institute.\n\nThus, Hitesh will be held guilty of professional misconduct under Clause (2) of Part III of First Schedule of the Chartered Accountants Act, 1949.",
+          "chapter_number": "19",
+          "chapter_name": "PROFESSIONAL ETHICS AND LIABILITIES OF AUDITORS"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "The office of C & AG of India is likely to undertake a performance audit for a block of years in a state of some selected social security pension schemes and scholarship schemes under DBT. What are likely to be objectives of such performance audit? Explain the meaning of \"audit criteria\" and also discuss how these can be determined in above case.",
+          "answer": "The likely objectives of performance audit to be conducted by office of C & AG of India of some selected social security pension schemes and scholarship schemes could be: -\n\n• Whether proper planning and process were in place to capture data of beneficiaries under above schemes\n\n• Whether necessary steps were taken for implementation of DBT like preventing delay in payments to the intended beneficiaries and pilferage and duplication\n\n• Whether the infrastructure, organization and management of DBT were adequate and effective.\n\n\"Audit criteria\" are standards used to determine whether a programme meets or exceeds expectations. It provides a context for understanding the results of the audit. Audit criteria are reasonable and attainable standards of performance against which economy, efficiency and effectiveness of programmes and activities can be assessed.\n\nIn the above situation, various documents issued by Government of India and state government like circulars, instructions, Standard operating procedure manuals, guidelines of schemes on identification and authentication of beneficiaries etc, general management and subject matter literature can be used to determine \"audit criteria\".",
+          "chapter_number": "15",
+          "chapter_name": "OVERVIEW OF AUDIT OF PUBLIC SECTOR UNDERTAKINGS",
+          "unique_id": "AA-OCR-P2_PSUAudit"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "7",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "M/s JPP & Associates have been appointed as auditors of ABC Ltd., an ISO certified listed Indian multinational Jewellery Company having headquarters at Mumbai for F.Y. 20X1-X2. The company has more than 100 showrooms in India and 60 showrooms across the globe. During the course of audit, from the matters communicated with those charged with governance the auditors determined certain matters as most significant in the audit of the financial statements of the current period which are related to the company's offence of money laundering against which Enforcement Directorate has enforced the stringent provisions of the Prevention of Money Laundering Act (PMLA). Public disclosure of this specific matter by the auditor is not precluded by authorities under PMLA since the same may not prejudice investigation which has already been officially completed and settled on 30th September 20X1. What would be the considerations of M/s JPP & Associates in determining the matter requiring significant attention in performing the audit? State the introductory language that JPP & Associates would use while communicating such matter in their audit report as per relevant Standard on Auditing. (PYP 5 Marks Nov'24)",
+          "answer": "Communicating Key Audit Matters in the Independent Auditor's Report: As per SA 701, \"Communicating Key Audit Matters in the Independent Auditor's Report\", the auditor shall determine, from the matters communicated with those charged with governance, those matters that required significant auditor attention in performing the audit. In making this determination, M/s JPP & Associates shall take into account the following:\n\n(i) Areas of higher assessed risk of material misstatement, or significant risks identified in accordance with SA 315\n\n(ii) Significant auditor judgments relating to areas in the financial statements that involved significant management judgment, including accounting estimates that have been identified as having high estimation uncertainty.\n\n(iii) The effect on the audit of significant events or transactions that occurred during the period.\n\nIn view of the above, the matter related to the company's offence of money laundering against which Enforcement Directorate has enforced the stringent provisions of the Prevention of Money Laundering Act (PMLA) is a key audit matter, and the same shall be communicated in the auditor's report KAM.\n\nThe introductory language that M/s JPP & Associates would use while communicating matters in this section of the auditor's report shall state that:\n\n(i) Key audit matters are those matters that, in the auditor's professional judgment, were of most significance in the audit of the financial statements [of the current period]; and.\n\n(ii) These matters were addressed in the context of the audit of the financial statements as a whole, and in forming the auditor's opinion thereon, and the auditor does not provide a separate opinion on these matters.",
+          "chapter_number": "7.1",
+          "chapter_name": "SA 700- FORMING AN OPINION AND REPORTING ON FINANCIAL STATEMENTS"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "## Question 83 (MTP 4 Marks Mar'25)\n\nCA Dhanush is the auditor of Jivi Limited having a turnover of more than 300 Crores. The audit fee for the year is fixed at Rs. $\\mathbf{2 . 2 5}$ crore. During the year, the company offers CA Dhanush an assignment of representation before Income- tax Appellate Tribunal for certain matter for remuneration of Rs. 2.85 crores. CA Dhanush accepted the assignment. Discuss action of CA Dhanush with reference to the provisions of the Chartered Accountants (Amendment) Act, 2006 and Schedules thereto.",
+          "answer": "As per the Council General Guidelines 2008, under Chapter IX on appointment as statutory auditor a member of the Institute in practice shall not accepts the appointment as a statutory auditor of a PSUs'/Govt company(ies)/Listed company(ies) and other public company(ies) having a turnover of Rs. 50 crores or more in a year and where he accepts any other work(s) or assignment(s) or service(s) in regard to same undertaking(s) on a remuneration which in total exceeds the fee payable for carrying out the statutory audit of the same undertaking. For this purpose, the other work/services include Management Consultancy and all other professional services permitted by Council excluding audit under any other statute, Certification work required to be done by the statutory auditor and any representation before an authority.\n\nIn the given case, the company offers CA Dhanush, the statutory auditor, an assignment of representation before Income Tax Appellate Tribunal for remuneration of Rs. 2.85 Crores which exceed the fees payable for audit.\n\nConclusion: In view of the above provision, it would not be misconduct on Dhanush's part if he accepts the assignment of representation before Income Tax Appellate Tribunal for remuneration of Rs. 2.85 crore since it is covered under exception.",
+          "chapter_number": "19",
+          "chapter_name": "PROFESSIONAL ETHICS AND LIABILITIES OF AUDITORS"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "## Question 1 (SM)\n\nDuring review of quarterly results of a company of which you are auditor, it is gathered on inquiries made that there has been a major fire in fabric processing plant of the company during the quarter. It has resulted in massive disruption in operations of the company. Worse still, machinery and inventories of plant were uninsured due to carelessness of concerned staff leading to substantial losses. The matter has been disclosed in interim financial information appropriately. Discuss, how you would proceed to deal with the same in review report?",
+          "answer": "Uninsured assets in a disaster are examples of events or conditions that, individually or collectively, may cast significant doubt about the going concern assumption. As a result of fire, there is massive disruption in operations of the company. Besides, the company would have to bear losses as its damaged assets are uninsured.\n\nIn accordance with SRE 2410, if, as a result of inquiries or other review procedures, a material uncertainty\n\nrelating to an event or condition comes to the auditor's attention that may cast significant doubt on the entity's ability to continue as a going concern, and adequate disclosure is made in the interim financial information, the auditor modifies review report by adding an emphasis of matter paragraph.\n\nTherefore, Emphasis of matter paragraph should be added in review report.",
+          "chapter_number": "10.2",
+          "chapter_name": "SRE 2410- REVIEW OF INTERIM FINANCIAL INFORMATION PERFORMED BY INDEPENDENT AUDITOR OF ENTITY"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "5",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "CA B was appointed as the auditor of ABC Limited for the financial year 2023-24. During the course of planning for the audit, CA B intends to apply the concept of materiality for the financial statements as a whole. Please guide him with respect to the factors that may affect the identification of an appropriate benchmark for this purpose.",
+          "answer": "Use of Benchmarks in Determining Materiality for the Financial Statements as a Whole: As per SA 320, determining materiality involves the exercise of professional judgment. A percentage is often applied to a chosen benchmark as a starting point in determining materiality for the financial statements as a whole. Factors that may affect the identification of an appropriate benchmark include the following:\n\n- The elements of the financial statements (for example, assets, liabilities, equity, revenue, expenses);\n- Whether there are items on which the attention of the users of the particular entity’s financial statements tends to be focused (for example, for the purpose of evaluating financial performance users may tend to focus on profit, revenue or net assets);\n- The nature of the entity, where the entity is at in its life cycle, and the industry and economic environment in which the entity operates;\n- The entity’s ownership structure and the way it is financed (for example, if an entity is financed solely by debt rather than equity, users may put more emphasis on assets, and claims on them, than on the entity’s earnings); and\n- The relative volatility of the benchmark.\n\nDetermining a percentage to be applied to a chosen benchmark involves the exercise of professional judgment. There is a relationship between the percentage and the chosen benchmark, such that a percentage applied to profit before tax from continuing operations will normally be higher than a percentage applied to total revenue.\n\nIn case if ABC Limited is engaged in manufacture and sale of air conditioners, and is having regular profits: CA B, the auditor may consider profit before tax/Earnings.\n\nIn case ABC Limited is engaged in the construction of large infrastructure projects and incurred losses in the previous two financial years, due to pandemic: CA B, the auditor may consider Revenue or Gross Profit as benchmarking.",
+          "chapter_number": "3.2",
+          "chapter_name": "AUDIT PLAN, AUDIT PROGRAMME & AUDIT STRATEGY (SA 320)",
+          "unique_id": "AA-OCR-P2_SA320"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "## Question 27 (PYP 4 Marks May'25)\n\nMetaverse is the emerging 3-D digital space that uses virtual reality, augmented reality, and other advanced internet technology to allow people to have lifelike personal and business experiences online. It represents a convergence of digital technology to combine and extend the reach and use of Cryptocurrency, Artificial Intelligence (AI), Augmented Reality (AR) and Virtual Reality (VR).\n\nState the key considerations for sustainable future of Metaverse.",
+          "answer": "## Considerations for sustainable future of the Metaverse:\n\n- Beyond cryptocurrencies, coins, and exchanges, players in the Metaverse will need to consider how to build digital monetary systems and apply economic principles to things like digital land.\n\n- Governance models will become ever more difficult to balance openness and user contribution with strategic direction and innovation.\n\n- Identity in the digital world has historically been different based on the platform utilized. The practical challenge of identity will also have to be considered in the Metaverse (e.g., KYC).\n\n- Synchronicity is the ability for aspects of the Metaverse to be multiplayer, simultaneous, and real-time. This includes transactions and actions happening in the Metaverse and are dependent on the infrastructure of digital economies, networking, and computing power required to operate a digital world.",
+          "chapter_number": "12",
+          "chapter_name": "DIGITAL AUDITING AND ASSURANCE"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "## Question 3 (MTP 4 Marks, Mar'24,MP[1])\n\nCTO Limited is engaged in the fintech business. It is a member of few prominent industry chambers and trade associations and has come under mandatory purview of Business Responsibility and Sustainability Reporting (BRSR) for year 20X1-X2.\n\nThe company had submitted inputs on draft Digital personal data protection bill to concerned Ministry during year 20X1-X2. It had also submitted to one of the industry chambers during the same year certain key inputs on leveraging India's digital public infrastructure for creating solutions by banks and fintechs together as its taskforce member on the subject. Considering the above, discuss how above information would likely be disclosed by company in \"Principle-wise performance disclosures\" as part of BRSR for year 20X1-X2? Whether information discussed above would require to be disclosed mandatorily?",
+          "answer": "The given case highlights that CTO Limited, engaged in Fintech business, is a member of Chamber of Commerce/associations. Such information needs to be disclosed under Principle 7 of Principle-wise Performance Disclosures.\n\nPrinciple 7 recognizes that businesses, when engaging in influencing public and regulatory policy, operate within the framework of statutory and legislative policies of the governing authority. Collective associations such as trade groups and industry chambers have to be utilized when moving ahead with policy advocacy and formulation. The information under each principle is to be disclosed under Essential indicators (mandatory disclosures) and Leadership indicators (optional disclosures). Information relating to membership of Chamber/associations is in the nature of Essential Indicators and requires mandatory disclosures.\n\nInformation relating to inputs provided by company to the Ministry on a legislative bill and inputs provided to one of the prominent chambers on leveraging India's digital public infrastructure for creating solutions by banks and Fintechs together as a taskforce member on the subject are in nature of leadership positions taken by the company. These are in the nature of Leadership Indicators and are optional disclosures.",
+          "chapter_number": "18",
+          "chapter_name": "EMERGING AREAS: SUSTAINABLE DEVELOPMENT GOALS (SDG) AND ENVIRONMENT, SOCIAL AND GOVERNANCE (ESG) ASSURANCE",
+          "or_question": {
+            "question": "As part of its Business Responsibility and Sustainability Reporting (BRSR) compliance, which principle is the company required to adhere to? This principle emphasizes engaging with and providing value to consumers responsibly and transparently. What are the key consumer protection aspects that Pink Ltd. should focus on under this principle of BRSR? (MTP 5 Marks Mar'25, RTP Sep'25)",
+            "answer": "Pink Ltd. shall adhere to Principle 9 of BRSR which focuses on Providing Value to the Consumers in a Responsible Manner.\n\nThe primary purpose of any business is to create or provide useful products and services to the customer in exchange of reasonable profits.\n\nThe core elements associated with the principle are:\n\ni) Entities should put in their efforts to reduce the negative impacts of their products and services on consumers, natural environment, and society at large.\n\nii) When conceptualizing, designing, and marketing their products, the organisation should not in any manner prevent the freedom of choice and fair competition.\n\niii) The entities should transparently and accurately disclose all kinds of adverse impacts to the user, planet, society, on the biodiversity from their products.\n\niv) When handling customer data, the right to privacy of the customer needs to be maintained.\n\nv) Entities should inform the customers on the safe and responsible ways of usage, reuse, recycling, and disposal of their products, and ways to eliminate over-consumption.\n\nvi) When advertising about their products, the organisations should ensure that misleading and confusing information is not exposed to the customers about their products or its usage.\n\nvii) Business enterprises should make available transparent and accessible grievance redressal and feedback management system for their customers to raise their voices or to seek clarifications.\n\nviii) Entities, when in the business of providing essential goods and services (e.g., Utilities), should enable universal access, including to those whose services have been discontinued for any reason, in a nondiscriminatory and responsible manner."
+          },
+          "unique_id": "18-T-3"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "8",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 8,
+          "internal_split": null,
+          "question": "Gold Opportunities Fund is in the business of Mutual fund and has prepared the financial statements for the F.Y. ended on 31st March 20X2. These financial statements have been audited by M/s SH & Co., Chartered Accountants, and the audit report issued is unqualified. The company has also prepared a scheme wise summary of its financial performance for the stakeholders. The management of Gold Opportunities Fund further engages M/s SH & Co. to perform an engagement to report on the abridged financial statements derived from the audited financial statements pursuant to SEBI regulations and in accordance with format prescribed by SEBI. Describe in detail the nature of procedures that would be performed by M/s SH & Co., under relevant Standard on Auditing to provide an opinion on the abridged financial statements. (PYP 5 Marks Sep'25)",
+          "answer": "Engagements to Report on Summary Financial Statements: As per SA 810, \"Engagements to Report on Summary Financial Statements\", nature of procedures to be performed by auditor M/s SH & Co. to provide opinion on the abridged financial statements are given below:\n\n(1) Evaluate whether the summary financial statements adequately disclose their summarised nature and identify the audited financial statements.\n\n(2) When summary financial statements are not accompanied by the audited financial statements, evaluate whether they describe clearly:\n\n(i) From whom or where the audited financial statements are available; or\n\n(ii) The law or regulation that specifies that the audited financial statements need not be made available to the intended users of the summary financial statements and establishes the criteria for the preparation of the summary financial statements.\n\n(3) Evaluate whether the summary financial statements adequately disclose the applied criteria.\n\n(4) Compare the summary financial statements with the related information in the audited financial statements to determine whether the summary financial statements agree with or can be re-calculated from the related information in the audited financial statements.\n\n(5) Evaluate whether the summary financial statements are prepared in accordance with the applied criteria.\n\n(6) Evaluate, in view of the purpose of the summary financial statements, whether the summary financial statements contain the information necessary, and are at an appropriate level of aggregation, so as not to be misleading in the circumstances.\n\n(7) Evaluate whether the audited financial statements are available to the intended users of the summary financial statements without undue difficulty, unless law or regulation provides that they need not be made available and establishes the criteria for the preparation of the summary financial statements as discussed already.",
+          "chapter_number": "8.3",
+          "chapter_name": "SA 810- ENGAGEMENTS TO REPORT ON SUMMARY FINANCIAL STATEMENTS",
+          "unique_id": "8.3-T-6"
+        },
+        {
+          "label": "b",
+          "marks": 6,
+          "internal_split": null,
+          "question": "FAB Limited is availing the services of Atiya Private Limited for its payroll operations. Payroll cost accounts for $63 \\%$ of total cost for FAB Limited. Atiya Limited has provided the type 2 report as specified under SA 402 for its description, design, and operating effectiveness of control. Atiya Private Limited has also outsourced a material part of payroll operation M/s RST & Associates in such a way that M/s RST & Associates is sub-service organization to FAB Limited. The Type 2 report which was provided by Atiya Private Limited was based on carve-out method as specified under SA 402. CA. Akram while reviewing the unmodified audit report drafted by his assistant found that, a reference has been made to the work done by the service auditor. CA. Akram hence asked his assistant to remove such reference and modify report accordingly. Comment whether CA. Akram is correct in removing the reference of the work done by service auditor? (MTP 4 Marks Mar'24, Apr'21, Nov'21, Sep'22,RTP Nov '20, MP[1])",
+          "answer": "Reporting by the User Auditor: As per SA 402, \"Audit Considerations Relating to an Entity Using a Service Organisation\", the user auditor shall modify the opinion in the user auditor's report in accordance with SA 705, \"Modifications to the Opinion in the Independent Auditor's Report\", if the user auditor is unable to obtain sufficient appropriate audit evidence regarding the services provided by the service organisation relevant to the audit of the user entity's financial statements. The user auditor shall not refer to the work of a service auditor in the user auditor's report containing an unmodified opinion unless required by law or regulation to do so. If such reference is required by law or regulation, the user auditor's report shall indicate that the reference does not diminish the user auditor's responsibility for the audit opinion. Thus, in view of the above, contention of CA. Akram in removing reference of the work done by service auditor is in order as in case of unmodified audit report, user auditor cannot refer to the work done by service auditor.",
+          "chapter_number": "2.5",
+          "chapter_name": "SA 402- AUDIT CONSIDERATIONS RELATING TO AN ENTITY USING A SERVICE ORGANIZATION"
+        }
+      ]
+    },
+    {
+      "q_main": 6,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "17",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "During the course of performing a forensic accounting engagement in relation to suspected fraud, which aspects CA J should take care of while undertaking the process of obtaining relevant evidence? (PYP 4 Marks May'25)",
+          "answer": "During the course of performing a forensic accounting engagement in relation to suspected fraud, while undertaking the process of obtaining relevant evidence, CA J should take care of the following aspects:\n\n1. Depending on the nature of the case, this may involve locating documents, economic information, assets, a person or company, another expert or proof of the occurrence of an event.\n\n2. In order to gather detailed evidence, the investigator must understand the specific type of fraud that has been carried out and how the fraud has been committed.\n\n3. The evidence should be sufficient to ultimately prove the identity of the fraudster(s), the mechanics of the fraud scheme, and the amount of financial loss suffered.\n\n4. It is important that the investigating team is skilled in collecting evidence that can be used in a court case within the stipulated time period, and in keeping a clear chain of custody until the evidence is presented in court.\n\n5. If any evidence is inconclusive or there are gaps in the chain of custody, then the evidence may be challenged in court, or even become inadmissible. Investigators must be alert to documents being falsified, damaged, or destroyed by the suspect(s).",
+          "chapter_number": "17",
+          "chapter_name": "DUE DILIGENCE, INVESTIGATION AND FORENSIC ACCOUNTING"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "## Question 21 (PYP 4 Marks Sep'25)\n\nBIL Limited is a company manufacturing premium shampoos since last decade. The company functions through various salesmen appointed across the country. The management of company came across the news that the salesmen in the central and western regions have exaggerated their sales through fictitious billings to achieve higher commission and to accommodate the sales volume achieved by one employee with other employees, who falls short of their target. The management of the company appointed you to investigate and unearth such type of fraud, if it is prevailing in their company. What procedures will be followed by you to investigate such type of fraud?",
+          "answer": "## Procedure to be followed to Investigate Commission Schemes Fraud:\n\n(1) Before proceeding to investigate frauds of the type aforementioned, the investigating accountant should ascertain the exact duties of the person concerned who is suspected to have committed a fraud, his relationship to the general routine of the office and the circumstances in which any known instances of defalcation have come to light.\n\n(2) Such an enquiry would give a clue to promising avenues of investigation. Greater the authority of the individual suspected of a fraud, wider would be the field which would have to be covered by the investigation.\n\n(3) At times, an accountant is called upon to investigate a suspected fraud, the details or the nature whereof is not known. In such a case, for localising the source of the fraud, the investigating accountant will have to study the financial and accounting structure of the organisation.\n\n(4) As a first step, he should examine the line of responsibility between the various members of the staff. He should have a look at the system of internal control in operation for spotting out the weaknesses, if any, that may exist in it.\n\n(5) Relying on the above study, he should direct his enquiry towards those aspects of the business where there has been excessive control in the hands of single person/employee, without any supervision by any other person/employee or, any other inherent weakness that may be in existence in the system.",
+          "chapter_number": "17",
+          "chapter_name": "DUE DILIGENCE, INVESTIGATION AND FORENSIC ACCOUNTING"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "## Question 1 (RTP May'23, MTP 5 Marks Aug'25)\n\nBOT Limited is enjoying cash credit facility sanctioned from Nariman Point, Mumbai branch of KNB Bank for ₹ $\\mathbf{2 5 0}$ crore. However, for practical considerations, various sub-limits have been fixed for the borrower company for operation at Solapur, Pune and Nashik branches of the same bank.\n\nThe manager of the Solapur branch notices that there are no credit transactions in sub - limit account being operated at the Solapur branch for more than 90 days as on 31st March,20X2.\n\nDiscuss the approach of CA. Muni, statutory branch auditor of Nariman Point branch, Mumbai of KNB Bank, in the matter of asset classification of the above borrower account. Also discuss considerations for classifying said account at the Solapur branch.",
+          "answer": "Sometimes, a customer is sanctioned a cash credit limit at one branch but is authorized to utilize such overall limit at several other branches also, for each of which a sub-limit is fixed.\n\nIn such a case, the determination of status of the account as NPA or otherwise should be determined at the limit-sanctioning branch with reference to the overall sanctioned limit/drawing power and not by each of the other branches where a sub-limit has been fixed.\n\nThe auditor of the limit-sanctioning branch should examine whether it receives particulars of all transactions in the account at sub-limit branches and whether status of the account has been determined considering the total position of operation of the account at all concerned branches. The standalone matter of no credit transactions for more than 90 days as on 31st March,20X2 at Solapur branch is irrelevant.\n\nHence, keeping in view above, CA. Muni should consider asset classification considering the total position of operation of the account at all concerned branches.\n\nRegarding sub-limit at branches, the classification adopted by the limit-sanctioning branch should be followed. Hence, the Solapur branch has to follow asset classification made by the limit-sanctioning branch.",
+          "chapter_number": "14.1",
+          "chapter_name": "SPECIAL FEATURES OF AUDIT OF BANKS",
+          "unique_id": "14.1-T-1"
+        }
+      ]
+    }
+  ]
+}

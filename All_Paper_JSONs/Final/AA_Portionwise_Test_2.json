@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "subject_code": "AA",
+    "subject_name": "Advanced Auditing",
+    "paper_num": "Portionwise_2",
+    "total_marks_printed": 50,
+    "total_marks_in_paper": 50,
+    "section_a_marks": 0,
+    "section_b_marks": 50,
+    "two_section_format": false,
+    "note": "Portionwise Test: Attempt all 5 questions. Each question carries 10 marks (6 + 4 split).",
+    "blacklisted_from": [
+      "/Users/gaureshmantri/Documents/Secure PDF Extraction/Final/Generated_Papers/AA/AA_Portionwise_Test_1.json"
+    ],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)"
+    ]
+  },
+  "section_a": [],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "12",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "What are the advantages and disadvantages of remote auditing? (MTP 5 Marks Oct'24,SM,MP[5])",
+          "answer": "Advantages and Disadvantages of Remote Audit:\n\n| ADVANTAGES | DISADVANTAGES |\n| :--- | :--- |\n| Cost and time effective: No travel time and travel costs involved. | Due to network issues, interviews and meetings can be interrupted. |\n| Comfort and flexibility to the audit team as they would be working from home environment, | Limited or no ability to visualize facility culture of the organization, and the body language of the auditees. Time zone issues could also affect the efficiency of remote audit session. |\n| Time required to gather evidence can spread over several weeks, instead of concentrated into a small period that takes personnel from their daily activities. | The opportunity to present doctored documents and to omit relevant information is increased. This may call for additional planning, some additional/different audit procedures, Security and confidentiality violation. |\n| Auditor can get first-hand evidence directly from the IT system as direct access may be provided. | Remote access to sensitive IT systems may not be allowed. Security aspects related to remote access and privacy needs to be assessed |\n| Widens the selection of auditors from global network of experts. | Cultural challenges for the auditor. Lack of knowledge for local laws and regulations could impact audit. Audit procedures like physical verification of assets and stock taking cannot be performed. |",
+          "chapter_number": "12",
+          "chapter_name": "DIGITAL AUDITING AND ASSURANCE",
+          "unique_id": "12-T-21"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "## Question 27 (PYP 4 Marks May'25)\n\nMetaverse is the emerging 3-D digital space that uses virtual reality, augmented reality, and other advanced internet technology to allow people to have lifelike personal and business experiences online. It represents a convergence of digital technology to combine and extend the reach and use of Cryptocurrency, Artificial Intelligence (AI), Augmented Reality (AR) and Virtual Reality (VR).\n\nState the key considerations for sustainable future of Metaverse.",
+          "answer": "## Considerations for sustainable future of the Metaverse:\n\n- Beyond cryptocurrencies, coins, and exchanges, players in the Metaverse will need to consider how to build digital monetary systems and apply economic principles to things like digital land.\n\n- Governance models will become ever more difficult to balance openness and user contribution with strategic direction and innovation.\n\n- Identity in the digital world has historically been different based on the platform utilized. The practical challenge of identity will also have to be considered in the Metaverse (e.g., KYC).\n\n- Synchronicity is the ability for aspects of the Metaverse to be multiplayer, simultaneous, and real-time. This includes transactions and actions happening in the Metaverse and are dependent on the infrastructure of digital economies, networking, and computing power required to operate a digital world.",
+          "chapter_number": "12",
+          "chapter_name": "DIGITAL AUDITING AND ASSURANCE",
+          "unique_id": "12-T-27"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "13",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "VPN Ltd. is a listed entity that prepares quarterly financial statements in accordance with Ind AS. The company has appointed Jack & Co., Chartered Accountants, as its statutory auditors. During Q2 of the Financial Year 2025-26, Jack & Co. undertake a review of VPN Ltd.'s interim financial information in accordance with SRE 2410. The auditor plans to obtain written representations from the management. The management has merely stated that the interim financial information is prepared and presented in accordance with the applicable financial reporting framework. As an engagement team member, you are required to specify areas that these written representations should cover for the review of interim financial information. (Sep'25)",
+          "answer": "Review of Interim Financial Information: As per SRE 2410, 'Review of Interim Financial Information Performed by the Independent Auditor of the Entity', specific areas that written representations should cover for the review of interim financial information are given below:\n\ni) The interim financial information is prepared and presented in accordance with the applicable financial reporting framework.\n\nii) It acknowledges its responsibility for the design and implementation of internal control to prevent and detect fraud and error.\n\niii) It believes the effect of those uncorrected misstatements aggregated by the auditor during the review are immaterial, both individually and in the aggregate, to the interim financial information taken as a whole. A summary of such items is included in or attached to the written representations.\n\niv) It has disclosed to the auditor all significant facts relating to any frauds or suspected frauds known to management that may have affected the entity.\n\nv) It has disclosed to the auditor the results of its assessment of the risks that the interim financial information may be materially misstated as a result of fraud.\n\nvi) It has disclosed to the auditor all known actual or possible non-compliance with laws and regulations whose effects are to be considered when preparing the interim financial information; and\n\nvii) It has disclosed to the auditor all significant events that have occurred subsequent to the balance sheet date and through to the date of the review report that may require adjustment to or disclosure in the interim financial information.",
+          "chapter_number": "13",
+          "chapter_name": "GROUP AUDITS",
+          "unique_id": "FILE-AA-P2-Q2a"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Consider that the audit report on financial statements issued by CA Madhur for above said company contains qualified opinion. Can he issue an unmodified opinion on summary financial statements derived from audited financial statements? Discuss. (SM)",
+          "answer": "If the auditor is satisfied that the summary financial statements are consistent, in all material respects, with or are a fair summary of the audited financial statements, in accordance with the applied criteria, he can issue an unmodified opinion.\n\nHowever, when auditor's report on audited financial statements contains a qualified opinion, the auditor's report on the summary financial statements shall, also contain following:\n\n(a) State that the auditor's report on the audited financial statements contains a qualified opinion\n\n(b) Describe:\n\ni. The basis for the qualified opinion on the audited financial statements, and that qualified opinion in the auditor's report on the audited financial statements; and\n\nii. The effect thereof on the summary financial statements, if any.\n\nHence, above points should be included by CA Madhur.",
+          "chapter_number": "8.3",
+          "chapter_name": "SA 810- ENGAGEMENTS TO REPORT ON SUMMARY FINANCIAL STATEMENTS",
+          "unique_id": "8.3-T-2"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "11",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Question 6 (RTP Nov'24)\n\nMr. Vineet, an auditor, has been approached by Qub Ltd. to examine the prospective financial information of the company. What factors should an auditor consider before accepting an engagement to examine prospective financial information, and under what conditions should the auditor decline or withdraw from such an engagement? Additionally, what steps should be taken to formalize the terms of the engagement?",
+          "answer": "Before accepting an engagement to examine prospective financial information, the auditor would consider, amongst other things:\n\n- The intended use of the information;\n\n- Whether the information will be for general or limited distribution;\n\n- The nature of the assumptions, that is, whether they are best estimates or hypothetical assumptions;\n\n- The elements to be included in the information; and\n\n- The period covered by the information.\n\nThe auditor should not accept, or should withdraw from, an engagement when the assumptions are clearly unrealistic or when the auditor believes that the prospective financial information will be inappropriate for its intended use. The auditor should consider the extent to which reliance on the entity's historical financial information is justified. To formalize the terms of the engagement, it is essential to agree on the terms with the client by sending an engagement letter, like in other engagements.",
+          "chapter_number": "11.1",
+          "chapter_name": "SRE 2410- REVIEW OF INTERIM FINANCIAL INFORMATION PERFORMED BY INDEPENDENT AUDITOR OF ENTITY",
+          "unique_id": "11.1-T-6"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "CA Tushar is engagement partner conducting audit of consolidated financial statements of a group which includes parent entity and its 3 subsidiaries. The standalone financial statements of its subsidiaries are audited by component auditors. He is considering accepting such appointment. What specific considerations have to be kept in mind by him before accepting appointment as principal auditor of the group? After acceptance, he is in quandary with regard to determination of materiality during audit of consolidated financial statements. What specific considerations have to be kept in mind while determining materiality during audit of above group? (MTP 5 Marks Oct'23)",
+          "answer": "SA 600 requires auditor should consider whether the auditor's own participation is sufficient to be able to act as the principal auditor. For this purpose, the auditor would consider: -\n\n(i) the materiality of the portion of the financial information which the principal auditor audits\n\n(ii) the principal auditor's degree of knowledge regarding the business of the components\n\n(iii) the risk of material misstatements in the financial information of the components audited by the other auditor and\n\n(iv) the performance of additional procedures as set out in SA 600 regarding the components audited by other auditor resulting in the principal auditor having significant participation in such audit.\n\nWith regard to determination of materiality during the audit of consolidated financial statements (CFS), the auditor should consider the following: -\n\n- The auditor is required to compute the materiality for the group as a whole. This materiality should be used to assess the appropriateness of the consolidation adjustments (i.e., permanent consolidation adjustments and current period consolidation adjustments) that are made by the management in the preparation of CFS.\n\n- The parent auditor can also use materiality computed on the group level to determine whether the component's financial statements are material to the group to determine whether they should scope in additional components and consider using the work of other auditors as applicable.\n\n- While considering the observations (for instance, modification and/or emphasis of matter/other matter in accordance with SA 705/706) of the component auditor in his report on the standalone financial statements, the parent auditor should comply with the requirements of SA 600 \"Using the Work of Another Auditor\".",
+          "chapter_number": "13",
+          "chapter_name": "GROUP AUDITS",
+          "unique_id": "13-T-2"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "13",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "CA P has been appointed to compile the financial information of X Limited. CA P is confused whether he should apply the same procedures which are required to be applied to conduct an audit or there are some other procedures to discharge the duties under such an engagement. Define the characteristics of Compilation Engagement. What should be the approach of CA P for performing the Engagement? [5M]",
+          "answer": "SRS 4410 deals with the practitioner's responsibilities when engaged to assist management with the preparation and presentation of historical financial information without obtaining any assurance on that information, and to report on the engagement in accordance with this SRS.\n\nIt applies to compilation engagements for historical financial information. Compilation engagements for financial information other than historical financial information, and compilation engagements for non-financial information can be performed under this Standard after necessary adaptation.\n\nWhat is a Compilation engagement?\nCompilation engagement is an engagement in which a practitioner applies accounting and financial reporting expertise to assist management in the preparation and presentation of financial information of an entity in accordance with an applicable financial reporting framework and issues a report. Management may request a professional accountant in public practice to assist with the preparation and presentation of financial information of an entity.\n\nA compilation engagement is not an assurance engagement. A compilation engagement does not require the practitioner to verify the accuracy or completeness of the information provided by management for the compilation, or otherwise to gather evidence to express an audit opinion or a review conclusion on the preparation of the financial information.\n\nPerforming the Engagement\n- The practitioner shall obtain an understanding of the following matters sufficient to be able to perform the compilation engagement:\n  - The entity's business and operations, including the entity's accounting system and accounting records and\n  - The applicable financial reporting framework, including its application in the entity's industry.\n- The practitioner shall compile the financial information using the records, documents, explanations and other information, including significant judgments, provided by management.\n- The practitioner shall discuss with management, or those charged with governance as appropriate, those significant judgments, for which the practitioner has provided assistance in the course of compiling the financial information.\n- Prior to completion of the compilation engagement, the practitioner shall read the compiled financial information in light of the practitioner's understanding of the entity's business and operations, and of the applicable financial reporting framework.\n- If, in the course of the compilation engagement, the practitioner becomes aware that the records, documents, explanations or other information, including significant judgments, provided by management for the compilation engagement are incomplete, inaccurate or otherwise unsatisfactory, the practitioner shall bring that to the attention of management and request the additional or corrected information.\n- If the practitioner is unable to complete the engagement because management has failed to provide records, documents, explanations or other information, including significant judgments, as requested, the practitioner shall withdraw from the engagement and inform management and those charged with governance of the reasons for withdrawing.\n- If withdrawal from the engagement is not possible, the practitioner shall determine the professional and legal responsibilities applicable in the circumstances.\n- The practitioner shall obtain an acknowledgement from management or those charged with governance, as appropriate, that they have taken responsibility for the final version of the compiled financial information.",
+          "chapter_number": "13",
+          "chapter_name": "GROUP AUDITS",
+          "unique_id": "FILE-AA-P2-Q4a"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "i) State the aspects you will consider during planning and performing the Engagement while evaluating the source from which the unadjusted financial information has been extracted. ii) As a practitioner you need to obtain evidence about the appropriateness of the pro forma adjustments. Explain what it includes.",
+          "answer": "i) As per SAE 3420, as a practitioner, while planning and performing the engagement, the following aspects must be evaluated regarding the source of the unadjusted financial information: • The practitioner shall obtain evidence about the appropriateness of the source from which the unadjusted financial information has been extracted. • If there is no audit or review report on the source from which the unadjusted financial information has been extracted, the practitioner shall perform procedures to be satisfied that the source is appropriate. • The practitioner shall determine whether the responsible party has appropriately extracted the unadjusted financial information from the source. • The practitioner shall obtain evidence about the appropriateness of the pro forma adjustments. ii) The practitioner shall obtain evidence about the appropriateness of the pro forma adjustments: In relation to unadjusted financial information, Pro forma adjustments include: (a) Adjustments to unadjusted financial information that illustrate the impact of a significant event or transaction as if the event had occurred or the transaction had been undertaken at an earlier date selected for purposes of the illustration and (b) Adjustments to unadjusted financial information that are necessary for the pro forma financial information to be compiled on a basis consistent with the applicable financial reporting framework of the reporting entity and its accounting policies under that framework.",
+          "chapter_number": "12",
+          "chapter_name": "DIGITAL AUDITING AND ASSURANCE",
+          "unique_id": "FILE-AA-P2-Q4b"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "13",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "CA H was appointed as a Statutory Auditor of MNL Limited, a listed company, which has three subsidiaries namely M Ltd., N Ltd., L Ltd. and also 15 branches across India. The Auditors are duly appointed for all the subsidiaries and branches. What should be the considerations of CA H regarding determination of materiality during the audit of consolidated financial statements? How he should deal in his report if there are observations (for instance modification and/or emphasis of matter paragraph in accordance with SA 705/706) made by component auditors? (MTP 5 Marks Sep'24,MP[4])",
+          "answer": "CA H should consider the requirement of SA 600, \"Using the Work of Another Auditor\", if he decides to use the work of another auditor in relation to the audit of consolidated financial statements and he should comply with the requirements of SA 600.\n\nIn carrying out the audit of the standalone financial statements, the computation of materiality for the purpose of issuing an opinion on the standalone financial statements of each component would be done componentwise on a standalone basis.\n\nHowever, with regard to determination of materiality during the audit of consolidated financial statements (CFS), the auditor should consider the following:\n\n(i) The auditor is required to compute the materiality for the group as a whole. This materiality should be used to assess the appropriateness of the consolidation adjustments (i.e. permanent consolidation adjustments and current period consolidation adjustments) that are made by the management in the preparation of CFS.\n\n(ii) The parent auditor can also use the materiality computed on the group level to determine whether the component's financial statements are material to the group to determine whether they should scope in additional components, and consider using the work of other auditors as applicable.\n\n(iii) The principal auditor also computes materiality for each component and communicates to the component auditor, if he believes is required for true and fair view on CFS.\n\n(iv) The principal auditor also obtains certain confirmations from component auditors like independence, code of ethics, certain information required for consolidation and disclosure requirements etc.\n\nHowever, while considering the observations (for instance modification and/or emphasis of matter in accordance with SA 705/706) of the component auditor in his report on the standalone financial statements, the principles of SA 600 need to be considered i.e. CA H (the parent auditor) should comply with the requirements of SA 600, \"Using the Work of Another Auditor\".",
+          "chapter_number": "13",
+          "chapter_name": "GROUP AUDITS",
+          "unique_id": "13-T-11"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "CA P is auditor of a company responsible for auditing complete set of financial statements. He intends to express adverse opinion on complete set of financial statements considering conclusions drawn by him during course of audit. He is also auditing trade receivables of company for the same period in a separate engagement. Can he express unmodified opinion in respect of trade receivables? If so, discuss those circumstances. (SM)",
+          "answer": "As per SA 805, \"Special Considerations—Audits of Single Financial Statements and Specific Elements, Accounts or Items of a Financial Statement\", if the auditor undertakes an engagement to report on a single financial statement or on a specific element of a financial statement in conjunction with an engagement to audit the entity's complete set of financial statements, the auditor shall express a separate opinion for each engagement.\n\nIf the auditor concludes that it is necessary to express an adverse opinion or disclaim an opinion on the entity's complete set of financial statements as a whole but, in the context of a separate audit of a specific element that is included in those financial statements, the auditor nevertheless considers it appropriate to express an unmodified opinion on that element, the auditor shall only do so if:\n\ni) The auditor is not prohibited by law or regulation from doing so;\n\nii) That opinion is expressed in an auditor's report that is not published together with the auditor's report containing the adverse opinion or disclaimer of opinion; and\n\niii) The specific element does not constitute a major portion of the entity's complete set of financial statements.\n\nConclusion\nConsidering the same, it can be concluded that CA P can give separate opinion on separate engagement i.e., adverse opinion for statutory audit and unmodified opinion for separate engagement provided the above conditions are satisfied.",
+          "chapter_number": "13",
+          "chapter_name": "GROUP AUDITS",
+          "unique_id": "FILE-AA-P2-Q5b"
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 from fastapi import APIRouter, UploadFile, File
 from app.services.pdf_processor import pdf_to_images
 from app.services.ocr_service import perform_ocr
+from app.services.ocr_cleaner import clean_ocr_text
 from app.services.answer_parser import parse_answers
 import os
 import json
@@ -28,7 +29,10 @@ async def upload_answer_pdf(file: UploadFile = File(...)):
     for idx, img in enumerate(images):
         print(f"OCR processing page {idx+1}/{total_pages}", flush=True)
 
-        text = perform_ocr(img)
+        raw_text = perform_ocr(img)
+        
+        # Post-process to clean strikethrough artifacts
+        text = clean_ocr_text(raw_text)
 
         page_data = {
             "page": idx + 1,
@@ -37,7 +41,7 @@ async def upload_answer_pdf(file: UploadFile = File(...)):
 
         extracted_text_pages.append(page_data)
 
-        # Save per-page text
+        # Save per-page text (cleaned)
         with open(f"{output_dir}/page_{idx+1:02d}.txt", "w", encoding="utf-8") as f:
             f.write(text)
 

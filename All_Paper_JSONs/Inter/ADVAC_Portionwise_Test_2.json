@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "subject_code": "ADVAC",
+    "subject_name": "Advanced Accounting",
+    "paper_num": "Portionwise_2",
+    "total_marks_printed": 50,
+    "total_marks_in_paper": 50,
+    "section_a_marks": 0,
+    "section_b_marks": 50,
+    "two_section_format": false,
+    "note": "Portionwise Test: Attempt all 5 questions. Each question carries 10 marks (6 + 4 split).",
+    "blacklisted_from": [],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)"
+    ]
+  },
+  "section_a": [],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "7",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "An earthquake destroyed a major warehouse of PQR Ltd. On 30.4.2026. The accounting year of the company ended on 31.3.2026. The accounts were approved on 30.6 .2026 . The loss from earthquake is estimated at Rs. \\( \\mathbf{2 5} \\) lakhs. State with reasons, whether the loss due to earthquake is an adjusting or non-adjusting event and how the fact of loss is to be disclosed by the company. (MTP 5 Marks Nov'21 & Apr'23, RTP Nov'19, SM)",
+          "answer": "AS 4 \"Contingencies and Events Occurring after the Balance Sheet Date\", states that adjustments to assets and liabilities are not appropriate for events occurring after the balance sheet date, if such events do not relate to conditions existing at the balance sheet date. The destruction of warehouse due to earthquake did not exist on the balance sheet date i.e. 31.3.2026. Therefore, loss occurred due to earthquake is not to be recognized in the financial year 2025-2026.\n\nHowever, according the standard, unusual changes affecting the existence or substratum of the enterprise after the balance sheet date may indicate a need to consider the use of fundamental accounting assumption of going concern in the preparation of the financial statements. As per the information given in the Question, the earthquake has caused major destruction; therefore, fundamental accounting assumption of going concern is called upon.\n\nHence, the fact of earthquake together with an estimated loss of Rs. 25 lakhs should be disclosed in the Report of the Directors for the financial year 2025-2026.",
+          "chapter_number": "7.1",
+          "chapter_name": "AS 4 CONTINGENCIES AND EVENTS OCCURRING AFTER THE BALANCE SHEET DATE",
+          "unique_id": "7.1-T-3"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Aksat International Limited has given a machinery on lease for 36 months, and its useful life is 60 months. Cost & fair market value of the machinery is Rs.5,00,000. The amount will be paid in 3 equal annual installments and the lessee will return the machinery to lessor at termination of lease. The unguaranteed residual value at the end of 3 years is $Rs. 50,000$. IRR of investment is $10 \\%$ and present value of annuity factor of $Rs. 1$ due at the end of 3 years at $10 \\%$ IRR is 2.4868 and present value of Rs. 1 due at the end of 3rd year at $10 \\%$ IRR is 0.7513. You are required to comment with reason whether the lease constitute finance lease or operating lease. If it is finance lease, calculate unearned finance income. (RTP May 19) (MTP 5 Marks Sep '23)",
+          "answer": "## Determination of Nature of Lease\n\nPresent value of unguaranteed residual value at the end of 3rd year $=Rs. 50,000 \\times 0.7513=Rs. 37,565$\n\nPresent value of lease payments $=Rs. 5,00,000-Rs. 37,565=Rs. 4,62,435$\n\nThe percentage of present value of lease payments to fair value of the equipment is\n\n$(Rs. 4,62,435 / Rs. 5,00,000) \\times 100=92.487 \\%$.\n\nSince lease payments substantially covers the major portion of the fair value; the lease constitutes finance lease.\n\nCalculation of Unearned Finance Income\n\nAnnual lease payment $=Rs. 4,62,435 / 2.4868=Rs. 1,85,956$ (approx.)\n\nGross investment in the lease $=$ Total minimum lease payments + unguaranteed residual value\n\n$=(Rs. 1,85,956 \\times 3)+Rs. 50,000$\n\n$=$ Rs. $5,57,868+$ Rs. $50,000=$ Rs. $6,07,868$\n\nUnearned finance income\n\n= Gross investment - Present value of minimum lease payments and unguaranteed residual value\n\n$=$ Rs. $6,07,868-$ Rs. $5,00,000=$ Rs. $1,07,868$",
+          "chapter_number": "5.5",
+          "chapter_name": "AS-19 LEASES",
+          "unique_id": "5.5-T-5"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "5",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Can interest be included in the cost of inventories? (RTP Jan'26)",
+          "answer": "Paragraph 6 of AS 16 states that \"Borrowing costs that are directly attributable to the acquisition, construction or production of a qualifying asset should be capitalised as part of the cost of that asset\". Paragraph 3 of AS 16 defines a qualifying asset as \"an asset that necessarily takes a substantial period of time to get ready for its intended use or sale\". Further, \"inventories that require a substantial period of time to bring them to a saleable condition\" are specifically included as an example of qualifying assets (paragraph 5).\n\nIn this context, it may be noted that ICAI has issued Accounting Standards Interpretation (ASI) 1, 'Substantial Period of Time', paragraphs 5 and 8 of which state as below:\n\n\"5. In case of inventories, substantial period of time is considered to be involved where time is the major factor in bringing about a change in the condition of inventories. For example, liquor is often required to be kept in store for more than twelve months for maturing.\"\n\n\"8. Paragraph 5 of AS 16 provides, inter alia, that \"inventories that are routinely manufactured or otherwise produced in large quantities on a repetitive basis over a short period of time, are not qualifying assets.\" Paragraph 12 of Accounting Standard (AS) 2, Valuation of Inventories, provides that \"Interest and other borrowing costs are usually considered as not relating to bringing the inventories to their present location and condition and are, therefore, usually not included in the cost of inventories\". It is only in exceptional cases, where time is a major factor in bringing about change in the condition of inventories that borrowing costs are included in the valuation of inventories.\n\nThus, interest costs should be included in the cost of inventories, which meet the definition of qualifying assets, in accordance with the provisions of AS 16.",
+          "chapter_number": "5.4",
+          "chapter_name": "AS 16 BORROWING COSTS",
+          "unique_id": "5.4-T-20"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Bansal Company Ltd. imported raw material worth US Dollars 12,000 on 15th January, 20XX when the exchange rate was Rs. 68 per US Dollar. The payment for the transaction was made on 5th May, 20XX when exchange rate was Rs. 64 per US Dollar. At the year end, 31 st March, 20 XX , the rate of exchange was Rs. 65 per US Dollar. The accountant of the company passed entry on 31 st March, 20 XX adjusting the cost of raw material consumed for the difference between Rs. 64 and Rs. 68 per US Dollar. Discuss whether this treatment is justified as per the provisions of AS-11 (Revised). (RTP Jan'25)",
+          "answer": "As per AS 11, 'The Effects of Changes in Foreign Exchange Rates', initial recognition of a foreign currency transaction is done in the reporting currency by applying the exchange rate at the date of the transaction. Accordingly, on 15th January, 20XX, the raw material purchased and its creditors will be recorded at US dollar $12,000 \\times Rs. 68=Rs. 8,16,000$.\n\nAlso, on balance sheet date such transaction is reported at closing rate of exchange, hence it will be valued at the closing rate i.e. Rs. 65 per US dollar (USD $12,000 \\times Rs. 65=Rs. 7,80,000$ ) at 31 st March, $20 \\times X$, irrespective of the payment made for the same subsequently at lower rate in the next financial year.\n\nThe difference of Rs. $3(65-68)$ per US dollar i.e. $Rs. 36,000$ (USD $12,000 \\times Rs. 3$ ) will be shown as an exchange gain in the profit and loss account for the year ended 31st March, 20XX and will not be adjusted against the cost of raw materials.\n\nIn the subsequent year on settlement date, the company would recognize or provide in the Profit and Loss account an exchange gain of Rs. 1 per US dollar, i.e. the difference from balance sheet date to the date of settlement between Rs. 65 and Rs. 64 per US dollar i.e. Rs. 12,000 . Hence, the accounting treatment adopted by the Accountant of the company is incorrect i.e. it is not in accordance with the provisions of AS 11.",
+          "chapter_number": "7.3",
+          "chapter_name": "AS 11 THE EFFECTS OF CHANGES IN FOREIGN EXCHANGE RATES",
+          "unique_id": "7.3-T-10"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "8",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "## Question 10 (PYP 5 Marks, Nov'20) (MTP 5 Marks Sep'23)\n\nRajendra undertook a contract $Rs. \\mathbf{2 0 , 0 0 , 0 0 0}$ on an arrangement that $80 \\%$ of the value of work done, as certified by the architect of the contract should be paid immediately and that the remaining $20 \\%$ be retained until the Contract was completed.\n\nIn Year 1, the amounts expended were Rs. $8,60,000$, the work was certified for Rs. $8,00,000$ and $80 \\%$ of this was paid as agreed. It was estimated that future expenditure to complete the Contract would be Rs. $10,00,000$.\n\nIn Year 2, the amounts expended were Rs. 4,75,000. Three-fourth of the work under contract was certified as done by December 31st and $80 \\%$ of this was received accordingly. It was estimated that future expenditure to complete the Contract would be Rs. $4,00,000$.\n\nIn Year 3, the amounts expended were Rs. $3,10,000$ and on June 30th, the whole Contract was completed. Show how Contract revenue would be recognized in the P \\& LA/c of Mr. Rajendra each year.",
+          "answer": "(a) Year 1\n\n\n| Actual expenditure | $8,60,000$ |\n| :--- | ---: |\n| Future estimated expenditure | $\\underline{10,00,000}$ |\n| Total Expenditure | $\\underline{18,60,000}$ |\n\n\n$\\%$ of work completed $=\\frac{8,60,000}{18,60,000} \\times 100=46.24 \\%$ (Rounded off)\n\nRevenue to be recognized $=20,00,000 \\times 46.24 \\%=(9,24,800)$\n\n\n## Year 2\n\n\n| Actual expenditure | $4,75,000$ |\n| :--- | ---: |\n| Future Expenditure | $4,00,000$ |\n| Expenditure incurred in year 1 | $8,60,000$ |\n\n\n17,35,000\n\n\\% of work completed\n\n$$\n\\begin{aligned}\n& =\\frac{4,75,000+8,60,000}{17,35,000}=76.95 \\%(\text { Rounded off }) \\\\\n& =20,00,000 \\times 76.95 \\% \\\\\n& =15,39,000\n\\end{aligned}\n$$\n\n\nLess: revenue recognized in Year $1=(9,24,800)$\n\nRevenue to be recognized in Year 1 = Rs. 6,14,200\n\n\n## Year 3\n\nWhole contract got completed therefore total contract value less revenue recognized up to year 2 will be amount of revenue to be recognized in year 3 i.e. $20,00,000-15,39,000(9,24,800+6,14,200)=Rs. 4,61,000$.\n\nNote: Calendar year has been considered as accounting year.",
+          "chapter_number": "8.1",
+          "chapter_name": "AS 7 \"CONSTRUCTION CONTRACTS\"",
+          "unique_id": "8.1-T-10"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "An airline is required by law to overhaul its aircraft once in every five years. The pacific Airlines which operate aircrafts does not provide any provision as required by law in its final accounts. You are required to comment on the validity of the treatment done by the company in line with the provisions of AS 29. (MTP 5 Marks Oct'19, Aug'18, Nov'21 & April '23)",
+          "answer": "A provision should be recognized only when an enterprise has a present obligation arising from a past event or obligation. In the given case, there is no present obligation but a future one, therefore no provision is recognized as per AS 29. The cost of overhauling aircraft is not recognized as a provision because it is a future obligation and the incurring of the expenditure depends on the company's decision to continue operating the aircrafts. Even a legal requirement to overhaul does not require the company to make a provision for the cost of overhaul because there is no present obligation to overhaul the aircrafts. Further, the enterprise can avoid the future expenditure by its future action, for example by selling the aircraft. However, an obligation might arise to pay fines or penalties under the legislation after completion of five years. Assessment of probability of incurring fines and penalties depends upon the provisions of the legislation and the stringency of the enforcement regime. A provision should be recognized for the best estimate of any fines and penalties if airline continues to operate aircrafts for more than five years.",
+          "chapter_number": "6.2",
+          "chapter_name": "AS-29 PROVISIONS, CONTINGENT LIABILITIES AND CONTINGENT ASSETS",
+          "unique_id": "6.2-T-1"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "9",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "## Question 8 (RTP Nov'19, Nov'22)\n\nSamrat Limited has set up its business in a designated backward area which entitles the company for subsidy of $25 \\%$ of the total investment from Government of India. The company has invested Rs. 80 crores in the eligible investments. The company is eligible for the subsidy and has received Rs. 20 crores from the government in February 2026. The company wants to recognize the said subsidy as its income to improve the bottom line of the company.\n\nDo you approve the action of the company in accordance with the Accounting Standard?",
+          "answer": "As per AS 12 \"Accounting for Government Grants\", where the government grants are in the nature of promoters' contribution, i.e., they are given with reference to the total investment in an undertaking or by way of contribution towards its total capital outlay (for example, Central Investment Subsidy Scheme) and no repayment is ordinarily expected in respect thereof, the grants are treated as capital reserve which can be neither distributed as dividend nor considered as deferred income. The subsidy received by Samrat Ltd. for setting up its business in a designated backward area will be treated as grant by the government in the nature of promoter's contribution as the grant is given with reference to the total investment in an undertaking i.e. subsidy is $25 \\%$ of the eligible investment and also no repayment is apparently expected in respect thereof. Since the subsidy received is neither in relation to specific fixed assets nor in relation to revenue. Thus, the company cannot recognize the said subsidy as income in its financial statements in the given case. It should be recognized\n\nas capital reserve which can be neither distributed as dividend nor considered as deferred income.",
+          "chapter_number": "9.1",
+          "chapter_name": "AS -12 ACCOUNTING FOR GOVERNMENT GRANTS",
+          "unique_id": "9.1-T-8"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Viva Ltd. received a specific grant of Rs. 30 lakhs for acquiring the plant of Rs. 150 lakhs during 2022-23 having useful life of 10 years. The grant received was credited to deferred income in the balance sheet and was not deducted from the cost of plant. During 2025-26, due to non-compliance of conditions laid down for the grant, the company had to refund the whole grant to the Government. Balance in the deferred income on that date was Rs. 21 lakhs and written down value of plant was Rs. 105 lakhs. What should be the treatment of the refund of the grant and the effect on cost of the fixed asset and the amount of depreciation to be charged during the year 2025-26 in profit and loss account? (MTP 5 Marks, Sep'22, May'20 & Mar'21, RTP May'19)",
+          "answer": "As per AS-12, 'Accounting for Government Grants', \"the amount refundable in respect of a grant related to specific fixed asset should be recorded by reducing the deferred income balance. To the extent the amount refundable exceeds any such deferred credit, the amount should be charged to profit and loss statement. In this case the grant refunded is $Rs. 30$ lakhs and balance in deferred income is $Rs. 21$ lakhs, $Rs. 9$ lakhs shall be charged to the profit and loss account for the year 2025-26. There will be no effect on the cost of the fixed asset and depreciation charged will be on the same basis as charged in the earlier years.",
+          "chapter_number": "9.1",
+          "chapter_name": "AS -12 ACCOUNTING FOR GOVERNMENT GRANTS",
+          "unique_id": "9.1-T-2"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "9",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Ram Ltd. purchased machinery for Rs. 80 lakhs (useful life 4 years and residual value Rs. 8 lakhs). Government grant received was Rs. 32 lakhs. The grant had to be refunded at the beginning of third year. Show the Journal Entry to be passed at the time of refund of grant and the value of the fixed assets in the third year and the amount of depreciation for remaining two years, if the grant had been credited to Deferred Grant A/C. (MTP 7 Marks Apr'21, Apr'19, Apr'22 & Oct'23, Aug'24, MP[3])",
+          "answer": "As per AS 12 'Accounting for Government Grants,' income from Deferred Grant Account is allocated to Profit and Loss account usually over the periods and in the proportions in which depreciation on related assets is charged. Accordingly, in the first two years (Rs. 32 lakhs $/ 4$ years) $=$ Rs. 8 lakhs $\times 2$ years $=$ Rs. 16 lakhs will be credited to Profit and Loss Account and Rs. 16 lakhs will be the balance of Deferred Grant Account after two years. Therefore, on refund of grant, following entry will be passed:\n\n|  |  | Rs. | Rs. |\n| :--- | :--- | :--- | :--- |\n| Deferred Grant A/c | Dr. | 16 lakhs |  |\n| Profit & Loss A/c | Dr. | 16 lakhs |  |\n| To Bank A/c |  |  | 32 lakhs |\n| (Being Government grant refunded) |  |  |  |\n\n1. Value of Fixed Assets after two years but before refund of grant\n\nFixed assets initially recorded in the books $=$ Rs. 80 lakhs\n\nDepreciation for each year $=($ Rs. 80 lakhs - Rs. 8 lakhs $) / 4$ years $=$ Rs. 18 lakhs per year\n\nBook value of fixed assets after two years $=$ Rs. 80 lakhs $-($ Rs .18 lakhs $\times 2$ years $)=$ Rs. 44 lakhs\n\n## 2. Value of Fixed Assets after refund of grant\n\nOn refund of grant the balance of deferred grant account will become nil. The fixed assets will continue to be shown in the books at Rs. 44 lakhs.\n\n## 3. Amount of depreciation for remaining two years\n\nDepreciation will continue to be charged at Rs. 18 lakhs per annum for the remaining two years.",
+          "chapter_number": "9.1",
+          "chapter_name": "AS -12 ACCOUNTING FOR GOVERNMENT GRANTS",
+          "unique_id": "9.1-T-9"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "How would you treat the following in the accounts in accordance with AS 12 'Government Grants'? (RTP Nov'20, May'20, MTP 5 Marks Oct'22, SM)\n\n(i) Rs. 35 Lakhs received from the Local Authority for providing Medical facilities to the employees.\n\n(ii) Rs. 100 Lakhs received as Subsidy from the Central Government for setting up a unit in a notified backward area.\n\n(iii) Rs. 10 Lakhs Grant received from the Central Government on installation of anti- pollution equipment.",
+          "answer": "(i) Rs. 35 lakhs received from the local authority for providing medical facilities to the employees is a grant received in the nature of revenue grant. Such grants are generally presented as a credit in the profit and loss statement, either separately or under a general heading such as 'Other Income'. Alternatively, Rs. 35 lakhs may be deducted in reporting the related expense i.e. employee benefit expenses.\n\n(ii) As per AS 12 'Accounting for Government Grants', where the government grants are in the nature of promoters' contribution, i.e. they are given with reference to the total investment in an undertaking or by way of contribution towards its total capital outlay and no repayment is ordinarily expected in respect thereof, the grants are treated as capital reserve which can be neither distributed as dividend nor considered as deferred income. In the given case, the subsidy received from the Central Government for setting up a unit in notified backward area is neither in relation to specific fixed asset nor in relation to revenue. Thus, amount of Rs. 100 lakhs should be credited to capital reserve.\n\n(iii) Rs. 10 lakhs grant received for installation anti-pollution equipment is a grant related to specific fixed asset. Two methods of presentation in financial statements of grants related to specific fixed assets are regarded as acceptable alternatives. Under first method, the grant is shown as a deduction from the gross value of the asset concerned in arriving at its book value. The grant is thus recognized in the profit and loss statement over the useful life of a depreciable asset by way of a reduced depreciation charge. Under the second method, grants related to depreciable assets are treated as deferred income which is recognised in the profit and loss statement on a systematic and rational basis over the useful life of the asset.\n\nThus, Rs. 10 lakhs may either be deducted from the cost of equipment or treated as deferred income to be recognized on a systematic basis in profit & Loss A/c over the useful life of equipment.",
+          "chapter_number": "9.1",
+          "chapter_name": "AS -12 ACCOUNTING FOR GOVERNMENT GRANTS",
+          "unique_id": "9.1-T-12"
+        }
+      ]
+    }
+  ]
+}

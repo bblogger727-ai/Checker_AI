@@ -1,0 +1,652 @@
+[
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 1,
+    "question": "If the sum of squares of the rank difference in mathematics and physics marks of 10 students is 22 , then the coefficient of rank correlation is: (MTP, Dec'23)",
+    "options": {
+      "a": "0.267",
+      "b": "0.867",
+      "c": "0.92",
+      "d": "None of these"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 2,
+    "question": "When $\\mathrm{p}=0.5$, the binomial distribution is (SM, MTP Mar'18, Jun'24, Nov'23 )",
+    "options": {
+      "a": "asymmetrical",
+      "b": "symmetrical",
+      "c": "Both",
+      "d": "None"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 18: Index Numbers",
+    "chapter_number": "18",
+    "q_num": 3,
+    "question": "From the following table by the method of relatives using Arithmetic mean the price Index number is\n\n\\begin{tabular}{|l|c|c|c|c|}\\hline Commodity & Wheat & Milk & Fish & Sugar \\\\\\hline Base Price & 5 & 8 & 25 & 6 \\\\\\hline Current Price & 7 & 10 & 32 & 12 \\\\\\hline \\end{tabular}",
+    "options": {
+      "a": "140.35",
+      "b": "148.25",
+      "c": "140.75",
+      "d": "None of these"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 4,
+    "question": "G.M of a set of $n$ observations is the $\\_\u007f\\_\u007f\\_\u007f\\_\u007f$ root of their product.",
+    "options": {
+      "a": "n/2 th",
+      "b": "(n+1)th",
+      "c": "Nth",
+      "d": "(n-1)th"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 10: Direction Sense Test",
+    "chapter_number": "10",
+    "q_num": 5,
+    "question": "A child walks 25 feet towards North, turns right and walks 40 feet, turns right again and walks 45 feet. He then turns left and walks 20 feet. He turns left again walks 20 feet. Finally, he turns to his left to walks another 20 feet. In which direction is the child from his starting point?(MTP Apr'19,SM)",
+    "options": {
+      "a": "North",
+      "b": "South",
+      "c": "West",
+      "d": "East"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 10: Direction Sense Test",
+    "chapter_number": "10",
+    "q_num": 6,
+    "question": "A man started walking West. He turned right, then right again and finally turned left. Towards which direction was he walking now?",
+    "options": {
+      "a": "North",
+      "b": "South",
+      "c": "West",
+      "d": "East"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 7,
+    "question": "A is B's brother. C is A's mother. D is C's father. F is A's son. How is B related to F's child?",
+    "options": {
+      "a": "Aunt",
+      "b": "Cousin",
+      "c": "Nephew",
+      "d": "Grandfather"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 8,
+    "question": "$\\\\_\\\\_\\\\$ of a set of observations is defined to be their sum, divided by the no. of observations.",
+    "options": {
+      "a": "H.M",
+      "b": "G.M",
+      "c": "A.M",
+      "d": "None"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 9,
+    "question": "In a gathering seven members are sitting in a row. ' $C$ ' is sitting left to ' $B$ ' but on the right to ' $D$ '. ' $A$ ' is sitting right to ' $B$ ', ' $F$; is sitting right to ' $E$ ' but left to ' $D$ '. ' $H$ ' is sitting left to ' $E$ '. Find the person sitting in the middle.",
+    "options": {
+      "a": "C",
+      "b": "D",
+      "c": "E",
+      "d": "F"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 10,
+    "question": "Frequencies are generally used as",
+    "options": {
+      "a": "Range",
+      "b": "Weights",
+      "c": "mean",
+      "d": "None"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 11,
+    "question": "There are eight books kept one over the other. Two books are on Organisation Behaviour, two books on TQM, three books on Industrial Relations and one book is on Economics. Counting from the top, the second, fifth and sixth books are on Industrial Relations. Two books on Industrial Relations are between two books on TQM. One book of Industrial Relations is between two books on Organizational Behaviour while the book above the book of Economics is a book of TQM. Which book is the last book from the top?",
+    "options": {
+      "a": "Economics",
+      "b": "TQM",
+      "c": "Industrial Relations",
+      "d": "Organizational Behaviour"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 10: Direction Sense Test",
+    "chapter_number": "10",
+    "q_num": 12,
+    "question": "A rat run 20 kms towards East and turns to right runs 10 kms and turns to right runs 9 kms and again turns to left runs 5 kms and then turns to left runs 12 kms and finally turns to left and runs 6 kms . Now what direction is the rat facing? (SM, MTP Oct'18)",
+    "options": {
+      "a": "East",
+      "b": "North",
+      "c": "West",
+      "d": "South"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 13,
+    "question": "G.M is less than H.M",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Both",
+      "d": "None"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 14,
+    "question": "If is a Binomial distribution mean $=20$, S.D. $=4$ then $n$ is equal to",
+    "options": {
+      "a": "80",
+      "b": "100",
+      "c": "90",
+      "d": "None"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 15: PROBABILITY",
+    "chapter_number": "15",
+    "q_num": 15,
+    "question": "In a class, there are 15 boys and 10 girls. Three students are selected at random. The probability that 1 girl and 2 boys are selected is (PYP May'25)",
+    "options": {
+      "a": "$\\frac{21}{46}$",
+      "b": "$\\frac{25}{17}$",
+      "c": "$\\frac{1}{50}$",
+      "d": "$\\frac{3}{25}$"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 13.2: SAMPLING",
+    "chapter_number": "13.2",
+    "q_num": 16,
+    "question": "The Law of Statistical Regularity says that (PYP May'25, SM)",
+    "options": {
+      "a": "Sample drawn from the population under discussion possesses the characteristics of the population",
+      "b": "A large sample drawn at random from the population would posses the characteristics of the population",
+      "c": "A large sample drawn at random from the population would possess the characteristics of the population on an average",
+      "d": "An optimum level of efficiency can be attained at a minimum cost."
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 17,
+    "question": "If average marks for a group of 30 girls is 80 , a group of boys is 70 and combined average is 76 , then how many boys are in the group ? (MTP Mar'22, Aug'25[2])",
+    "options": {
+      "a": "21",
+      "b": "20",
+      "c": "22",
+      "d": "19"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 18,
+    "question": "A is B's brother. C is A's mother, D is C's father. E is B's son. How is D related to E ?",
+    "options": {
+      "a": "Grandson",
+      "b": "Great Grandson",
+      "c": "Great Grandfather",
+      "d": "Grandfather"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 19,
+    "question": "An investigator collects information on salaries received by 1000 persons. From this collection, the data on women are extracted. Now the data is called $\\\\_\\\\\\\\_$ data. (PYP Sep'25)",
+    "options": {
+      "a": "Primary",
+      "b": "Secondary",
+      "c": "Census",
+      "d": "Ordinal"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 20,
+    "question": "A is D's brother. D is B's father. B and C are sisters. How is C related to A?",
+    "options": {
+      "a": "Cousin",
+      "b": "Niece",
+      "c": "Aunt",
+      "d": "Nephew"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 18: Index Numbers",
+    "chapter_number": "18",
+    "q_num": 21,
+    "question": "From the following data constructed the index number by Laspeyres's method $\\\\Sigma P_{1} Q_{1}=100, \\\\Sigma P_{0} Q_{1}=86$, $\\Sigma P_{0} Q_{0}=83, \\\\Sigma P_{1} Q_{0}=106$ (MTP Apr'23)",
+    "options": {
+      "a": "130.36",
+      "b": "131.51",
+      "c": "130.59",
+      "d": "127.71"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 22,
+    "question": "(34-36) A, B, C, D, E, F and G arc sitting in a straight line facing north, but not necessarily in the same order. There is only one person between F and C. E sits between A and D. There are only two people between E and G . F sits on the immediate left of A , who sits in the middle of the row. How many people are there between E and F (MTP May\u00b24, MP [1],[3])",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "4"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 10: Direction Sense Test",
+    "chapter_number": "10",
+    "q_num": 23,
+    "question": "A car travelling from south covers a distance of 8 kms , then turns right and runs another 9 kms and again turns to the right and was stopped. Which direction does it face now? (SM, MTP Mar'18, MTP Jun'24, MP [4])",
+    "options": {
+      "a": "South",
+      "b": "North",
+      "c": "West",
+      "d": "East"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 24,
+    "question": "Five boys are standing in a row facing East. Pavan is to the left of Tavan, Vipin and Chavan. Tavan, Vipin and Chavan are to the left of Nakul. Chavan is between Tavan and Vipin. If Vipin is fourth from the left, then how far is Tavan from the right?",
+    "options": {
+      "a": "First",
+      "b": "Second",
+      "c": "Third",
+      "d": "Fourth"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 15: PROBABILITY",
+    "chapter_number": "15",
+    "q_num": 25,
+    "question": "Probability mass function is always",
+    "options": {
+      "a": "0",
+      "b": "greater than 0",
+      "c": "greater than equal to 0",
+      "d": "less than 0"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 26,
+    "question": "If Arithmetic mean between two numbers is 5 and Geometric mean is 4 then what is the value of Harmonic mean? (MTP Apr'23, Mar'22, Mar'18, Jun'24,Aug'25[2], MP [4])",
+    "options": {
+      "a": "3.2",
+      "b": "3.4",
+      "c": "3.5",
+      "d": "3.6"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 27,
+    "question": "The most accurate mode of data presentation is: (MTP Apr'23)",
+    "options": {
+      "a": "Diagrammatic",
+      "b": "Tabulation",
+      "c": "Textual presentation",
+      "d": "None of these"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 28,
+    "question": "A is B's brother. C is A's mother. D is C's father. E is B's son. How is E related to A?",
+    "options": {
+      "a": "Cousin",
+      "b": "Nephew",
+      "c": "Uncle",
+      "d": "Grandson"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 29,
+    "question": "If the rank correlation co-efficient between marks in Management and Mathematics for a group of students is 0.6 and the sum of the squares of the difference in rank is 66 . Then what is the number of students in the group? (MTP Dec'24, MP [7])",
+    "options": {
+      "a": "9",
+      "b": "10",
+      "c": "11",
+      "d": "12"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 30,
+    "question": "If the coefficient of correlation between two variables is 0.8 then the percentage of variation unaccounted for is (MTP, Apr'21, May'20, Oct'21, Apr'19, Jan'25, April'25, MP [8])",
+    "options": {
+      "a": "$70 \\%$",
+      "b": "$30 \\%$",
+      "c": "$51 \\%$",
+      "d": "$36 \\%$"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 15: PROBABILITY",
+    "chapter_number": "15",
+    "q_num": 31,
+    "question": "If the probability of a horse $A$ winning a race is $1 / 6$ and the probability of a horse $B$ winning the same race is $1 / 4$ What is the probability that none of them will win (SM) (Same concept different figures PYP Sep'25)",
+    "options": {
+      "a": "$5 / 12$",
+      "b": "$7 / 12$",
+      "c": "$1 / 12$",
+      "d": "none"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 32,
+    "question": "If x is binomial variate with parameter 15 and $1 / 3$, what is mode of the distribution? (MTP Nov'23, Mar'21) (Same cocept different figures PYP Sep'25)",
+    "options": {
+      "a": "5 and 6",
+      "b": "5",
+      "c": "5.50",
+      "d": "6"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 33,
+    "question": "In tabular presentation of data, stub is (MTP April'25, MTP Mar'18, Jun'24, MP [4], MTP Apr'23, Aug'24, MP [6])",
+    "options": {
+      "a": "Left part of table which provides the description of rows",
+      "b": "Right part of the table providing the description of the row",
+      "c": "Left part of the table providing the description of columns",
+      "d": "Right part of the table provides a description of columns"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 18: Index Numbers",
+    "chapter_number": "18",
+    "q_num": 34,
+    "question": "Then index numbers from G. M. Method is:",
+    "options": {
+      "a": "181.66",
+      "b": "185.25",
+      "c": "181.75",
+      "d": "None of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 35,
+    "question": "Ogive for more than type and less than type distributions intersect at (MTP Apr'23,May'23, Jun'22)",
+    "options": {
+      "a": "Means",
+      "b": "Median",
+      "c": "Mode",
+      "d": "Origin"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 36,
+    "question": "There were 50 students in a class. 10 failed whose average marks were 2.5. The total marks of class were 281. Find the average marks of students who passed? (MTP Dec'23)",
+    "options": {
+      "a": "6.4",
+      "b": "25",
+      "c": "256",
+      "d": "86"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 37,
+    "question": "In a group of persons, average weight is 60 kg . If the average of males and females taken separately is 80 kg and 50 kg respectively, find the ratio of the number of males to that of females. (MTP Nov'22,Aug'25[1], MP [2])",
+    "options": {
+      "a": "$2: 3$",
+      "b": "$3: 2$",
+      "c": "$2: 1$",
+      "d": "$1: 2$"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 15: PROBABILITY",
+    "chapter_number": "15",
+    "q_num": 38,
+    "question": "When a die is tossed, the sample space is",
+    "options": {
+      "a": "$S=\\{1,2,3,4,5\\}$",
+      "b": "$\\mathrm{S}=\\{1,2,3,4\\}$",
+      "c": "$\\mathrm{S}=\\{1,2,3,4,5,6\\}$",
+      "d": "None"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 39,
+    "question": "If $2 x+5 y-9=0$ and $3 x-y-5=0$ are two regression equation, then find the value of mean of $x$ and mean of y . (RTP, Jan'26, MP [4])",
+    "options": {
+      "a": "2,1",
+      "b": "2,2",
+      "c": "1,2",
+      "d": "1,1"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 40,
+    "question": "If in a Binomial distribution mean $=20$, S.D. $=4$ then $p$ is equal to",
+    "options": {
+      "a": "$2 / 5$",
+      "b": "$3 / 5$",
+      "c": "$1 / 5$",
+      "d": "$4 / 5$"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 41,
+    "question": "The mode of the binomial distribution for which the mean is 4 variance 3 is equal to? (MTP Mar'22,Aug'25[2])",
+    "options": {
+      "a": "4",
+      "b": "4.5",
+      "c": "4.25",
+      "d": "4.1"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 42,
+    "question": "A suitable graph for representing the portioning of total into sub parts in statistics is: (MTP May\u201924, Nov '22, MP [3],[10])",
+    "options": {
+      "a": "A Pictograph",
+      "b": "A Pie Chart",
+      "c": "An Ogive",
+      "d": "A Histogram"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 43,
+    "question": "If $\\mathbf{5} \\boldsymbol{\\%}$ of the families in large population city do not use gas as a fuel, what will be the probability of selecting 10 families in a random sample of 100 families who do not use gas as a fuel? (PYP May'25)[Given that e5=0.0067]",
+    "options": {
+      "a": "0.038",
+      "b": "Zero",
+      "c": "0.018",
+      "d": "0.048"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 44,
+    "question": "To find the mode graphically",
+    "options": {
+      "a": "Ogive",
+      "b": "Frequency Polygon",
+      "c": "Histogram",
+      "d": "None may be used"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 15: PROBABILITY",
+    "chapter_number": "15",
+    "q_num": 45,
+    "question": "If events A and B are independent and $\\mathrm{P}(\\mathrm{A})=2 / 3, \\mathrm{P}(\\mathrm{B})=3 / 5$ then $\\mathrm{P}(\\mathrm{A}+\\mathrm{B})$ is equal to",
+    "options": {
+      "a": "$\\frac{13}{15}$",
+      "b": "$\\frac{6}{15}$",
+      "c": "$\\frac{1}{15}$",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 18: Index Numbers",
+    "chapter_number": "18",
+    "q_num": 46,
+    "question": "Cost of Living Index number (C. L. I.) is expressed in terms of :",
+    "options": {
+      "a": "\\left(\\frac{\\sum \\mathrm{P}_{\\mathrm{n}} \\mathrm{q}^{0}}{\\sum \\mathrm{P}^{0} \\mathrm{q}^{0}}\\right) \\times 100",
+      "b": "\\frac{\\sum P_{n} q_{n}}{\\sum \\mathrm{P}^{0} \\mathrm{q}^{0}}",
+      "c": "\\left(\\frac{\\sum \\mathrm{P}^{0} \\mathrm{q}_{n}}{\\sum \\mathrm{P}_{n} \\mathrm{q}_{n}}\\right) \\times 100",
+      "d": "None of these."
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 47,
+    "question": "Six persons $\\mathrm{A}, \\mathrm{B}, \\mathrm{C}, \\mathrm{D}, \\mathrm{E}$ and F are sitting in two rows with 3 persons in each row facing same side. C is sitting in the middle of first row. $B$ is sitting in the left of $C$. $E$ is also sitting in the middle. $A$ is sitting in the right of E . F is sitting in the right of C . Who is not sitting at one of the ends of any row? (PYP Sep'25)",
+    "options": {
+      "a": "A",
+      "b": "E",
+      "c": "D",
+      "d": "F"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 48,
+    "question": "A person purchases 5 rupees worth of eggs from 10 different markets. You are to find the average no. of eggs per rupee for all the markets taken together. What is the suitable form of average in this case?",
+    "options": {
+      "a": "A.M",
+      "b": "G.M",
+      "c": "H.M",
+      "d": "None"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 49,
+    "question": "The mode of continuous frequency distribution can be determined graphically from (PYP May'25)",
+    "options": {
+      "a": "By using Histogram",
+      "b": "By using frequency polygon",
+      "c": "By using ogive",
+      "d": "By using frequency curve"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 50,
+    "question": "For calculation of Speed \\& Velocity",
+    "options": {
+      "a": "G.M",
+      "b": "A.M",
+      "c": "H.M",
+      "d": "None is used"
+    },
+    "answer": "c"
+  }
+]

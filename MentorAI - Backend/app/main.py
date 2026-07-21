@@ -6,6 +6,8 @@ FastAPI application for tracking student progress and generating personalized re
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from starlette.middleware.base import BaseHTTPMiddleware
+from starlette.requests import Request
 
 from app.core.database import init_db
 
@@ -30,6 +32,15 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+class PrivateNetworkAccessMiddleware(BaseHTTPMiddleware):
+    async def dispatch(self, request: Request, call_next):
+        response = await call_next(request)
+        if request.method == "OPTIONS" and request.headers.get("Access-Control-Request-Private-Network"):
+            response.headers["Access-Control-Allow-Private-Network"] = "true"
+        return response
+
+app.add_middleware(PrivateNetworkAccessMiddleware)
 
 
 @app.on_event("startup")

@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "subject_code": "AUD",
+    "subject_name": "Auditing and Ethics",
+    "paper_num": "Portionwise_1",
+    "total_marks_printed": 50,
+    "total_marks_in_paper": 50,
+    "section_a_marks": 0,
+    "section_b_marks": 50,
+    "two_section_format": false,
+    "note": "Portionwise Test: Attempt all 5 questions. Each question carries 10 marks (6 + 4 split).",
+    "blacklisted_from": [],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)"
+    ]
+  },
+  "section_a": [],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "1",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": [
+            3,
+            3
+          ],
+          "question": "(i) XYZ Ltd., a manufacturing company based in India, operates multiple plants across the country and deals in complex machinery, which requires specialized maintenance and valuation expertise. XYZ Ltd. appointed CA Dhruv as Statutory auditor. During the audit, he observed that the management consistently applied the same method for valuation of inventory over the past few years, but this year, without proper disclosure, they switched to a different valuation method, which resulted in higher reported profits. Does such a matter fall within scope of audit? [RTP-May 25]  (3 Marks)\n\n(ii) CA Tina, the auditor of SKY Ltd., asks its finance and audit head to prepare audit strategy for conducting audit of SKY Ltd. CA Tina also insists him to draw detailed audit procedures. In response to the auditor’s request, the finance head of the company completes the audit strategy as well as audit procedures. Subsequently, the auditor realises that the effectiveness of the audit is compromised and it was his responsibility to prepare the overall audit strategy. Comment. [MTP-April 25]  (3 Marks)",
+          "answer": "(i) Ans.: Scope of Audit:\n\n- The purpose of an audit is to enhance the degree of confidence of intended users in the financial statements. The scope of audit of financial statements includes coverage of all aspects of entity, reliability and sufficiency of financial information and proper disclosure of financial information.\n\n- In the given situation, CA Dhruv observed that the management consistently applied the same method for valuation of inventory over the past few years, but this year, without proper disclosure, they switched to a different valuation method, which resulted in higher profits. Since proper disclosure of financial information is covered under the scope of audit, thus, the auditor should decide whether relevant information is properly disclosed in the financial statements. He should also keep in mind applicable statutory requirements in this regard.\n\n- The management responsible for preparation and presentation of financial statements makes many judgments in this process of preparing and presenting financial statements. For example, choosing accounting policies in relation to various accounting issues like choosing method of charging depreciation on fixed assets or choosing appropriate method for valuation of inventories.\n\n- The auditor evaluates selection and consistent application of accounting policies by management; whether such a selection is proper and whether such chosen policy has been applied consistently on a period-to-period basis.\n\nConclusion: It can be concluded that proper disclosure of financial information is well within scope of audit.\n\n(ii) Ans.: Audit Strategy and the Audit Plan:\n\n- The auditor shall establish an overall audit strategy that sets the scope, timing and direction of the audit, and that guides the development of the audit plan. The auditor plans what type of audit procedures are to be performed, their timing and how much work should be done taking into account sample size etc.\n\n- The overall audit strategy and the audit plan remain the auditor’s responsibility. It is the auditor who is responsible for establishing overall audit strategy and developing audit plan. However, auditor may discuss elements of planning with entity’s management without compromising effectiveness of audit.\n\n- In the given case, CA Tina, auditor of SKY Ltd. asks its finance and audit head to prepare audit strategy and to draw detailed audit procedures. On Auditor’s request, finance head completes the audit strategy as well as audit procedures.\n\nConclusion: In view of above, CA Tina should prepare overall audit strategy and detailed audit procedures. Therefore, approach of CA Tina was wrong.",
+          "chapter_number": "1",
+          "chapter_name": "Nature, Scope & Objectives of Auditing",
+          "unique_id": "IMG-AUD1-Q1a-dual"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "As a result of unexpected events, changes in conditions, or the audit evidence obtained from the results of audit procedures, the auditor may need to modify the overall audit strategy and audit plan. Explain",
+          "answer": "The auditor shall update and change the overall audit strategy and the audit plan as necessary during the course of the audit. As a result of unexpected events, changes in conditions, or the audit evidence obtained from the results of audit procedures, the auditor may need to modify the overall audit strategy and audit plan and thereby the resulting planned nature, timing and extent of further audit procedures, based on the revised consideration of assessed risks. This may be the case when information comes to the auditor’s attention that differs significantly from the information available when the auditor planned the audit procedures. For example, audit evidence obtained through the performance of substantive procedures may contradict the audit evidence obtained through tests of controls.\n\nExam Insights:  \nMany students state conclusions about the audit plan without proper reasoning. Always explain why each planned procedure is necessary to show clear understanding and application.",
+          "chapter_number": "2",
+          "chapter_name": "Audit Strategy, Audit Planning & Audit Programme",
+          "unique_id": "2-TP-29"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "4",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Narrate the audit procedures to be performed by an auditor in order to ascertain that the Raw materials and consumables are valued appropriately and as per generally accepted accounting policies and practices.",
+          "answer": "Audit procedures performed by an auditor in order to ascertain that raw material and consumables are valued appropriately in accordance with generally accepted accounting policies and practices are as under:\n1. Ascertain what elements of cost are included e.g. carriage inward, non-refundable duties etc.\n2. If standard costs are used, enquire into basis of standards; how these are compared with actual costs and how variances are analyzed and accounted for/ treated in accounting records.\n3. Test check cost prices used with purchase invoices received in the month(s) prior to counting.\n4. Follow up valuation of all damaged or obsolete inventories noted during observance of physical counting with a view to establishing a realistic net realizable value.\n\nExam insights: Many students focus on unrelated assertions instead of the actual audit procedures for valuing raw materials/consumables. Concentrate on verifying costing methods, comparing with market value, checking for obsolescence, and ensuring correct valuation in the accounts.",
+          "chapter_number": "4",
+          "chapter_name": "Audit Evidence - Specific Considerations for Selected Items",
+          "unique_id": "4-TP-3"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "KR & Associates, an auditor of FDP Ltd., observed that the company has implemented various internal controls addressing financial reporting, operational efficiency, and compliances during their preliminary evaluation. CA Karan suggests that all controls should be assessed to mitigate the risk of material misstatement in the financial statements, while CA Rajat is of the view that only those controls deemed relevant to the audit should be assessed based on professional judgment.\n\nComment, whether the auditor should assess all the internal controls or limit the assessment to only those considered relevant by the auditor during the audit. Also, discuss the factors influencing the auditor's judgment on the relevance of controls.",
+          "answer": "1) There is a direct relationship between an entity's objectives and the control it implements to provide reasonable assurance about their achievement.\n\n2) The entity's objectives, and therefore controls, relate to financial reporting, operations and compliance; however, not all of these objectives and controls are relevant to the auditor's risk assessment.\n\n3) Factors relevant to the auditor's judgment about whether a control is relevant to the audit may include such matters as the following:\n\na) Materiality.\nb) The significance of the related risk.\nc) The size of the entity.\nd) The nature of the entity's business, including its organisation and ownership characteristics.\ne) The diversity and complexity of the entity's operations. Applicable legal and regulatory requirements.\nf) The circumstances and the applicable component of internal control.\ng) The nature and complexity of the systems that are part of the entity's internal control, including the use of service organisations.\nh) Whether, and how, a specific control, individually or in combination with others, prevents, or detects and corrects, material misstatement.\n\n4) In the given case, CA Karan suggests that all controls should be assessed to mitigate the risk of material misstatement in the financial statements, while CA Rajat is of the view that only those controls deemed relevant to the audit should be assessed based on professional judgment. Based on the factors mentioned above, it can be concluded that the auditors should assess only those controls deemed relevant to mitigate the risk of material misstatement in FDP Ltd.'s financial statements.",
+          "chapter_number": "3",
+          "chapter_name": "Risk Assessment & Internal Control",
+          "unique_id": "IMG-AUD1-Q2b"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "3",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Z and Associates are the auditors of Realton Ltd., an export oriented unit, which specializes in manufacturing oil extraction plants. Since many complex processes are involved, they are digitizing their operations. They are restructuring their business models which are driven by technology. Since most of the operations of the company are automated, Z and Associates are planning to do Digital Audit. Explain the use of digital technology in the conduct of an audit.",
+          "answer": "Use of Digital Technology in the conduct of an audit: Entities are embracing digitization as part of their operations to keep pace with changing times. New technologies are helping companies revamp their operations and rethink the way business is conducted. Companies are restructuring their business models driven by technology. Automation is key to digitization.\n\nIn such a business environment, use of digital technology is being made by auditors right from planning to expression of final opinion.\n\n- Auditors are making use of artificial intelligence, data analytics and other latest technologies to help understand business processes in a better way.\n\n- By using such tools, auditors can conduct audits in a better way and devote more attention to areas requiring greater focus.\n\n- Digital audit is helping auditors to better identify risks making use of technology.\n\nExam insights: Many students describe general tech benefits instead of audit relevance. Focus on how digital tools help auditors--like improving data accuracy, enabling real-time analysis, and enhancing audit efficiency.",
+          "chapter_number": "3",
+          "chapter_name": "Risk Assessment & Internal Control",
+          "unique_id": "3-TP-74"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Understanding the entity and its automated environment involves understanding how IT department is organised, IT activities, the IT dependencies, relevant risks and controls. Explain stating the points that an auditor should consider to obtain an understanding of the company’s automated environment.",
+          "answer": "Understanding and Documenting Automated Environment: Understanding the entity and its automated environment involves understanding how IT department is organised, IT activities, the IT dependencies, relevant risks and controls. Given below are some of the points that an auditor should consider to obtain an understanding of the company’s automated environment\n\n- Information systems being used (one or more application systems and what they are)\n- their purpose (financial and non-financial)\n- Location of IT systems - local vs global\n- Architecture (desktop based, client-server, web application, cloud based)\n- Version (functions and risks could vary in different versions of same application)\n- Interfaces within systems (in case multiple systems exist)\n- In-house vs Packaged\n- Outsourced activities (IT maintenance and support)\n\nKey persons (CIO, CISO, Administrators)",
+          "chapter_number": "3",
+          "chapter_name": "Risk Assessment & Internal Control",
+          "unique_id": "3-TP-72"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "4",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Explain the aspects to be considered by an auditor when designing and performing substantive analytical procedures, either alone or in combination with test of details, as substantive procedures in accordance with SA 330.",
+          "answer": "Analytical procedures used as substantive tests: When designing and performing substantive analytical procedures, either alone or in combination with test of details as, substantive procedures in accordance with SA 330, the auditor shall:  \n(i) Determine the suitability of particular substantive analytical procedures for given assertions, taking account of the assessed risks of material misstatement and test of details, if any, for these assertions.  \n(ii) Evaluate the reliability of data from which the auditor's expectation of recorded amounts or ratios is developed, taking account of source, comparability, and nature and relevance of information available, and controls over preparation.  \n(iii) Develop an expectation of recorded amounts or ratios and evaluate whether the expectation is sufficiently precise to identify a misstatement that, individually or when aggregated with other misstatements, may cause the financial statements to be materially misstated.  \n(iv) Determine the amount of any difference of recorded amounts from expected values that is acceptable without further investigation.",
+          "chapter_number": "4",
+          "chapter_name": "Analytical Procedures",
+          "unique_id": "4-TP-7"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Explain the key differences between prospective financial information and historical financial information. How does this distinction impact the level of assurance provided in an assurance engagement on prospective financial information?",
+          "answer": "Difference between \"Historical financial information\" and \"Prospective financial information\": The \"Historical financial information\" relates to information expressed in financial terms of an entity about economic events, conditions or circumstances occurring in past periods. The \"Prospective financial information\" relates to financial information based on assumptions about occurrence of future events and possible actions by an entity. Therefore, historical financial information is rooted in past events which have already occurred whereas prospective financial information is related to future events.\n\nIn assurance reports involving prospective financial information, the practitioner obtains sufficient appropriate evidence to the effect that management’s assumptions on which the prospective financial information is based are not unreasonable, the prospective financial information is properly prepared on the basis of the assumptions and it is properly presented and all material assumptions are adequately disclosed. Prospective financial information relates to future events. While evidence may be available to support the assumptions on which the prospective financial information is based, such evidence is itself generally future-oriented. The auditor is, therefore, not in a position to express an opinion as to whether the results shown in the prospective financial information will be achieved.\n\nTherefore, in such assurance engagements, practitioner provides a report assuring that nothing has come to practitioner’s attention to suggest that these assumptions do not provide a reasonable basis for the projection. Hence, such type of assurance engagement provides only a \"moderate\" level of assurance.",
+          "chapter_number": "1",
+          "chapter_name": "Nature, Scope & Objectives of Auditing",
+          "unique_id": "1-TP-33"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "4",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "What is meant by sufficiency of Audit Evidence? Explain the factors affecting the auditor’s judgement as to the sufficiency of audit evidence.",
+          "answer": "Sufficiency is the measure of the quantity of audit evidence. The quantity of audit evidence needed is affected by the auditor’s assessment of the risks of misstatement (the higher the assessed risks, the more audit evidence is likely to be required) and also by the quality of such audit evidence (the higher the quality, the less may be required). Obtaining more audit evidence, however, may not compensate for its poor quality.\n\nFollowing are the factors affecting the auditor’s judgement as to the sufficiency of audit evidence:\n(i) Materiality: It may be defined as the significance of classes of transactions, account balances and presentation and disclosures to the users of the financial statements. Less evidence would be required in case assertions are less material to users of the financial statements. But on the other hand, if assertions are more material to the users of the financial statements, more evidence would be required.\n\n(ii) Risk of material misstatement: It may be defined as the risk that the financial statements are materially misstated prior to audit. This consists of two components described as follows at the assertion level:\n   ➢ Inherent risk--The susceptibility of an assertion to a misstatement that could be material before consideration of any related controls.\n   ➢ Control risk--The risk that a misstatement that could occur in an assertion that could be material will not be prevented or detected and corrected on a timely basis by the entity’s internal control.",
+          "chapter_number": "4",
+          "chapter_name": "Audit Evidence",
+          "unique_id": "4-TP-22"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "As part of the risk assessment procedure, an auditor is required to determine whether any of the identified risks are, in their professional judgment, significant risks. In making this determination, the auditor must consider several key factors. Explain the factors that an auditor should consider while determining whether an identified risk qualifies as a significant risk, as per the relevant standards on auditing. In exercising judgment as to which risks are significant risks, the auditor shall consider various factors. Explain.",
+          "answer": "Identification of Significant Risks: SA 315 \"Identifying and Assessing the Risk of Material Misstatement through understanding the Entity and its Environment\" defines ‘significant risk’ as an identified and assessed risk of material misstatement that, in the auditor’s judgment, requires special audit consideration.\n\nAs part of the risk assessment, the auditor shall determine whether any of the risks identified are, in the auditor’s judgment, a significant risk. In exercising this judgment, the auditor shall exclude the effects of identified controls related to the risk.\n\nIn exercising judgment as to which risks are significant risks, the auditor shall consider at least the following:\n\n(a) Whether the risk is a risk of fraud;\n\n(b) Whether the risk is related to recent significant economic, accounting, or other developments like changes in regulatory environment, etc., and, therefore, requires specific attention;\n\n(c) The complexity of transactions;\n\n(d) Whether the risk involves significant transactions with related parties;\n\n(e) The degree of subjectivity in the measurement of financial information related to the risk, especially those measurements involving a wide range of measurement uncertainty; and\n\n(f) Whether the risk involves significant transactions that are outside the normal course of business for the entity, or that otherwise appear to be unusual.\n\nExam Insights: Many students limit significant risks to fraud or related-party transactions and confuse them with types of audit risk. Include any risk requiring special audit attention, such as complex estimates or unusual transactions, and avoid defining other risk types.",
+          "chapter_number": "3",
+          "chapter_name": "Risk Assessment & Internal Control",
+          "unique_id": "3-TP-14"
+        }
+      ]
+    }
+  ]
+}

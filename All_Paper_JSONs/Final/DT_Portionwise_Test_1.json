@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "subject_code": "DT",
+    "subject_name": "Direct Tax",
+    "paper_num": "Portionwise_1",
+    "total_marks_printed": 50,
+    "total_marks_in_paper": 50,
+    "section_a_marks": 0,
+    "section_b_marks": 50,
+    "two_section_format": false,
+    "note": "Portionwise Test: Attempt all 5 questions. Each question carries 10 marks (6 + 4 split).",
+    "blacklisted_from": [],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)"
+    ]
+  },
+  "section_a": [],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "15",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Question 23 (SM)\n\nState with reasons whether return of income is to be filed in the following cases for the Assessment Year 2026-27:\n\n(i) Mr. X, a resident individual, aged 80 years, has a total income of Rs. $2,85,000$. He has claimed deduction of $Rs. 1,50,000$ under section 80 C . Long-term capital gains of $Rs. 80,000$ is not taxable by virtue of the exemption available upto specified threshold under section 112A. Assume that he has opted for the normal provisions of the Income-tax Act.\n\nWould your answer change if Mr. X has incurred Rs. 1,05,000 towards payment of electricity bills for F.Y. 202526?\n\n(ii) ABC , a partnership firm, has a loss of Rs. 10,000 during the previous year 2025-26.\n\n(iii) A registered association, eligible for exemption under section $\\mathbf{1 0} \\boldsymbol{(} \\mathbf{2 3 B}$ ), has income from house property of Rs. $6,60,000$.\n\n(iv) Mr. Y, aged 45 years, an employee of ABC (P) Ltd, draws a salary of Rs. $5,40,000$ (Computed) and has income from fixed deposits with bank of Rs. 10,000.",
+          "answer": "| S. No. | filing of return required? | Reason |\n| :--- | :--- | :--- |\n| (i) | No | As per the provisions of section 139(1), every person, whose total income without giving effect to the provisions of Chapter VI-A exceeds the maximum amount not chargeable to tax, is required to furnish the return of income for the relevant assessment year on or before the due date. The gross total income of Mr. X before giving effect to deduction of Rs. $1,50,000$ under section 80 C is Rs. $4,35,000$, which is less than the basic exemption limit of Rs. $5,00,000$ applicable to an individual aged 80 years or more. Therefore, $\text{Mr. X}$ need not furnish his return of income for the A.Y. 2026-27. Yes, the answer would change, since Mr. X has incurred expenditure of an amount exceeding Rs. 1 lakh towards the consumption of electricity and he is not liable to file return of income under section 139(1). In such a case, he would have to file his return for A.Y.2026-27 on or before the due date u/s 139(1). |\n| (ii) | Yes | As per section 139(1), it is mandatory for a firm to furnish its return of income or loss on or before the specified due date. Therefore, $\text{M/s ABC}$ has to furnish its return of loss for the A.Y. 2026-27 on or before the due date under section 139(1), even if it has incurred a loss. |\n| (iii) | Yes | As per section $139(4 \text{C})$, every institution referred to, inter alia, in section 10(23B), whose total income without giving effect to the provisions of section 10 exceeds the maximum amount not chargeable to tax, is required to furnish the return of income for the relevant assessment year on or before the due date $\text{u/s} 139(2)$. In the above case, the registered association has income from house property of Rs. $6,60,000$ before exemption under section 10, which exceeds the basic exemption limit of Rs. $4,00,000$. Therefore, it is under an obligation to furnish its return of income for the A.Y. 2026-27. |\n| (iv) | Yes | As per the provisions of section 139(1), every person, whose gross total income exceeds the maximum amount not chargeable to tax, is required to furnish the return of income for the relevant assessment year on or before the due date. Mr. Y's salary income is Rs. $5,40,000$. The gross total income of Mr . Y is Rs. $5,50,000$ (Rs. $5,40,000 +Rs. 10,000$ ) which exceeds the basic exemption limit of $Rs. 4,00,000$ applicable to an individual as per default regime of section 115BAC. Therefore, Mr. Y has to furnish his return of income for the A.Y. 2026-27.",
+          "chapter_number": "15",
+          "chapter_name": "ASSESSMENT PROCEDURE",
+          "unique_id": "15-T-23"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Who can file memorandum of cross-objections before the Income-tax Appellate Tribunal? What is the time limit? What is the fee for filing memorandum of cross objections? (SM)",
+          "answer": "Section 253(4) of the Income-tax Act, 1961 gives the respondent (assessee or the Assessing Officer), in every appeal filed before the Income-tax Appellate Tribunal, a right to file a memorandum of cross-objections against any order of the Joint Commissioner (Appeals) or the Commissioner (Appeals). This right of filing a memorandum of cross-objections is an independent right given to the respondent in an appeal and is in addition to the right of appeal which may or may not be exercised by the assessee or the Assessing Officer under section 253(1) or section 253(2). The memorandum of cross-objections has to be in the prescribed form and verified in the prescribed manner and has to be filed within 30 days of the receipt of notice of the appeal. The Tribunal is empowered to permit filing of memorandum of cross- objections after the expiry of the prescribed period if sufficient cause is shown. Such memorandum of cross-objections will be disposed of by the Appellate Tribunal as if it were an appeal presented within the time specified in section 253(3). There is no fee for filing a memorandum of cross-objections.",
+          "chapter_number": "16",
+          "chapter_name": "APPEALS \\& REVISIONS",
+          "unique_id": "16-T-7"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "7",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "X carrying on a business as sole proprietor, died on 31st March, 2026. On his death, the same business was continued by his legal heirs, by forming a firm. As on $31{ }^{\text {st }}$ March 2026, a determined business loss of Rs. 5 lakhs is to be carried forward under the Income-tax Act, 1961. Does the firm consisting of all legal heirs of Mr. X, get a right to have this loss adjusted against its current income? (PYP, 5 marks)",
+          "answer": "Section 78(2) provides that where a person carrying on any business or profession has been succeeded in such capacity by another person, otherwise than by inheritance, then, the successor is not entitled to carry forward and set-off the loss of the predecessor against his income. This implies that generally, set-off of business losses should be claimed by the same person who suffered the loss and the only exception to this provision is when the business passes on to another person by inheritance.\n\nThe facts of case given in the question are similar to the case CIT v. Madhukant M. Mehta (2001) 247 ITR 805, where the Supreme Court has held that if the business is succeeded by inheritance, the legal heirs are entitled to the benefit of carry forward of the loss of the predecessor. Even if the legal heirs constitute themselves as a partnership firm, the benefit of carry forward and set off of the loss of the predecessor would be available to the firm. In this case, the business of $X$ was continued by his legal heirs after his death by constituting a firm. Hence, the exception contained in section 78(2) along with the decision of the Apex Court discussed above, would apply in this case. Therefore, the firm is entitled to carry forward the business loss of Rs. 5 lakhs of X.",
+          "chapter_number": "7",
+          "chapter_name": "AGGREGATION OF INCOME, SET-OFF \\& CARRY FORWARD OF LOSSES",
+          "unique_id": "7-T-2"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "In the course of search on 25.03.2026, assets were seized. Examine the procedure laid down to deal with such seized assets under the Act. (SM)",
+          "answer": "Section 132B of the Income-tax Act, 1961 deals with the application of assets seized under section 132. Such assets will be first applied towards the existing liability under the Income- tax Act, 1961, etc. 'Existing liability', however, does not include advance tax payable. Further, the amount of liability determined on completion of assessment or reassessment or recomputation (including any penalty levied or interest payable in connection with such assessment) and in respect of which the assessee is in default or deemed to be in default, may be recovered out of such assets.\n\nWhere the nature and source of acquisition of such seized assets is explained to the satisfaction of the Assessing Officer, the amount of any existing liability mentioned above may be recovered out of such asset and the remaining portion, if any, of the asset may be released, with the prior approval of the Principal Chief Commissioner or Chief Commissioner or Principal Commissioner or Commissioner, as the case may be. The release must be made within 120 days from the date on which the last of the authorisations for search under section 132 or for requisition under section 132A was executed. The assets would be released to the person from whose custody they were seized.\n\nWhen the assets consist of solely of money, or partly of money and partly of other assets, the Assessing Officer may apply such money in the discharge of the liabilities referred to above and the assessee shall be discharged of such liability to the extent of the money so applied. However, the assets other than money may also be applied for the discharge of such liabilities if the complete recovery could not be made from the money seized or the money seized was not sufficient.",
+          "chapter_number": "14",
+          "chapter_name": "Income Tax Authorities",
+          "unique_id": "14-T-4"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "11",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Critically examine the following cases and discuss whether the provisions of General Anti-avoidance Rules (GAAR) can be invoked in these cases? (MTP 4 Marks March'24,Apr'23,Oct'22,MP[2])\n\n(i) Shiva Ltd., an Indian company has 2 manufacturing units, unit X in the Special Economic Zone (SEZ) and unit Y in non-SEZ. Manufacturing activities are carried out in unit Y while unit X only does the packaging of the goods manufactured by unit Y. In its books of accounts, it shows the manufacturing to be carried out in unit X and claims allowable deductions.\n\n(ii) Vishnu Ltd., an Indian company has 2 manufacturing units, unit M in the Special Economic Zone (SEZ) and unit N in non-SEZ. It transfers the goods manufactured by unit N to unit M at a price significantly lower than the market value of the goods and thus becomes eligible for higher deductions.",
+          "answer": "(i) In the present case, Shiva Ltd., an Indian company has 2 manufacturing units, unit X in the SEZ and unit Y in non-SEZ. Though unit $X$ only does the packaging of goods manufactured by unit $Y$, the company, in its books of account, shows the goods manufactured by unit Y as manufacture of goods by unit X to enjoy exemption under section 10AA. This is a case of misrepresentation of facts by showing manufacture of non-SEZ unit as manufacture of SEZ unit. Hence, this is an arrangement of tax evasion and not tax avoidance.\n\nTax evasion, being unlawful, can be dealt with directly by establishing correct facts. GAAR provisions need not be invoked in such a case.\n\n(ii) In this case, goods manufactured by unit N, a non-SEZ unit, being a non-eligible business, are transferred to unit M, a SEZ unit, being an eligible business, at a price significantly lower than the market value of the goods to claim higher deduction under section 10AA in respect of unit M.\n\nAs there is no misrepresentation of facts or false submissions, it is not a case of tax evasion. The company has tried to take advantage of tax provisions by diverting profits from non-SEZ unit to SEZ unit. However, this is not the intention of the legislation.\n\nSuch tax avoidance is specifically dealt with through the provisions contained in section 10AA(9), as per which provisions of section 80-IA(8) would get attracted in such a case. Further, if the aggregate of such transactions entered into in the relevant previous year exceed the threshold of Rs. 20 crore, domestic transfer pricing regulations under section 92BA would be attracted. Hence, the Revenue need not invoke GAAR in such a case, though GAAR and SAAR can co-exist as per clarification given in the CBDT Circular.",
+          "chapter_number": "11",
+          "chapter_name": "TAX PLANNING, TAX AVOIDANCE \\& TAX EVASION",
+          "unique_id": "11-T-11"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Question 5 (SM)\n\nAn assessee sustained a loss under the head \"Income from house property\" in the previous year relevant to the assessment year 2025-26, which could not be set off against income from any other head in that assessment year. The assessee did not furnish the return of loss within the time allowed under section 139(1) in respect of the relevant assessment year. However, the assessee filed the return within the time allowed under section 139(4). Can the assessee carry forward such loss for set off against income from house property of the assessment year 2026-27?",
+          "answer": "Section 139(3) stipulates that an assessee claiming carry forward of loss under the heads \"Profits and gains of business or profession\" or \"Capital gains\" should furnish the return of loss within the time stipulated under section 139(1). There is no reference to loss under the head \"Income from house property\" in section 139(3). The assessee, in the instant case, has filed the return showing loss from property within the time prescribed under section 139(4). The assessee is, therefore, entitled to carry forward such loss for set off against the income from house property of the subsequent assessment year.",
+          "chapter_number": "7",
+          "chapter_name": "AGGREGATION OF INCOME, SET-OFF \\& CARRY FORWARD OF LOSSES",
+          "unique_id": "7-T-5"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "2",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Examine with reasons, based on the provisions of the Act, as to chargeability of the following receipts to tax in the assessment year 2026-27:\n\n(i) Rent of Rs. 60,000 charged from tenants occupying houses constructed on the land situated in India and used for agricultural purposes. The tenants, working in the nearby industrial area, occupy these houses for their own residential purposes.\n\n(ii) Income of Rs. $\\mathbf{7 5 , 0 0 0}$ derived by Anand Nursery from the sale of seedlings grown without carrying out all the basic operations on land.\n\n(iii) Mr. Gaitonde, born and brought up in the State of Sikkim, had a net profit of Rs. $2,25,000$ from the business located in Sikkim and interest of $Rs. 55,000$ on the securities/ bonds issued by the Government of Rajasthan.",
+          "answer": "(i) As per section 10(1), agricultural income is exempt from tax. The meaning and scope of agricultural income is defined in section $2(1 \\mathrm{~A})$. According to Explanation 2 to section $2(1 \\mathrm{~A})$, any income derived from any building from the use of such building for any purpose (including letting for residential purposes or for the purpose of any business or profession) other than agriculture shall not be agricultural income. Therefore, the rent of Rs. 60,000 from letting out of houses constructed on agricultural land for residential purposes of industrial workers shall not be treated as agricultural income by virtue of Explanation 2 to section 2(1A). Hence, such income would be chargeable to tax.\n\n(ii) Explanation 3 to section $2(1 \\mathrm{~A})$ provides that the income derived from saplings or seedlings grown in a nursery shall be deemed to be agricultural income, whether or not the basic operations were carried out on land. Accordingly, the income of Rs. 75,000 derived by Anand Nursery from the sale of seedlings grown without carrying out all the basic operations on land shall be treated as agricultural income and exempt from tax under section 10(1).\n\n(iii) Section 10(26AAA) exempts the income which accrues or arises to a Sikkimese individual from any source in the State of Sikkim and the income by way of dividend or interest on securities. Therefore, the income of Mr. Gaitonde from a business located in Sikkim and interest income on the securities/bonds of Government of Rajasthan shall not be subject to tax.",
+          "chapter_number": "2",
+          "chapter_name": "Incomes which do not form part of Total Income",
+          "unique_id": "2-T-1"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Compute the income under the head \"Profits and gains of business or profession\" for the A.Y. 2026-27 of Isac Ltd assuming that the company does not opt for the provisions of section 115BAA.\n\n**Items debited to profit and loss account**\n1. Purchase price of raw material used for the purpose of in-house research and development\n2. Purchase price of asset used for in-house research and development\n   (a) Land\n   (b) Building\n3. Expenditure incurred on notified agricultural extension project\n4. Expenditure on notified skill development project:\n   (a) Purchase of Land\n   (b) Expenditure on training for skill development\n5. Expenditure incurred on advertisement in the souvenir published by a political party\n6. Expenditure incurred on issue of right shares\n7. Expenditure incurred on issue of debentures\n8. Penalty paid under GST Act\n9. Interest paid on loan taken from bank for payment of advance income-tax\n10. Provision for loss of subsidiary",
+          "answer": "**Computation of income under the head \"Profits and gains of business or profession\" for the A.Y. 2026-27**\n\n**Net profit as per profit and loss account**\nRs. 35,25,890\n\n**Add: Items debited to profit and loss account, but to be disallowed**\n1. Purchase price of raw material used for the purpose of in-house research and development - qualifies for 100% deduction as per section 35(2AB) - Rs. 11,80,000\n2. Purchase price of Land used in in-house research and development - being capital expenditure not allowable as deduction under section 35 - Rs. 5,00,000\n3. Purchase price of building used in-house research and development - being capital expenditure, not allowable as deduction under section 35(2) - Rs. 3,00,000\n4. Expenditure incurred on notified agricultural extension project - 100% deduction is allowed under section 35CCC - Rs. 25,50,000\n5. Expenditure incurred on notified skill development project - Purchase of Land - being capital expenditure not qualifying for deduction under section 35CCD - Rs. 40,00,000\n6. Expenditure incurred on training for skill development - 100% deduction is allowed under section 35CCD - Rs. 0\n7. Expenditure incurred on advertisement in the souvenir published by a political party - not allowed as deduction as per section 37(2B) - Rs. 75,000\n8. Expenditure incurred on issue of right shares - not allowed as these expenses is of capital nature - Rs. 80,000\n9. Expenditure incurred on issue of debentures - allowable - Rs. 50,000\n10. Penalty paid under GST Act - Not allowed as deduction - Rs. 35,000\n11. Interest paid on loan taken from bank for payment of advance income-tax - Not allowed as deduction - Rs. 60,000\n12. Provision for loss of subsidiary - Not allowed as deduction - Rs. 85,000\n\n**Total Income**\nProfit and gains from business = Rs. 48,30,890",
+          "chapter_number": "3",
+          "chapter_name": "PROFITS & GAINS FROM BUSINESS & PROFESSION",
+          "unique_id": "DT-OCR-PGBP_Institute_of_Chartered_Ac"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "16",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "## Question 11 (PYP 4 Marks Nov'22) (MTP 4 Marks March'24,MP[2])\n\nYour answer should cover Issue involved, Provision applicable, Analysis \\& Conclusion\n\nDuring the scrutiny assessment of Refresh Me Ltd., a company engaged in manufacture and distribution of packaged juices, the Assessing Officer increased the income passed an order of demand. Aggrieved by the order, the assessee filed an appeal to CIT(A), who confirmed the order of Assessing Officer. The assessee further appealed to Appellate Tribunal requesting for the stay of collection of tax, which the Tribunal provided initially for $\\mathbf{1 8 0}$ days on deposit of $\\mathbf{2 0 \\%}$ of the amount of tax by Refresh Me Ltd. Thereafter, the Bench was functioning intermittently and therefore, the disputed matter could not be disposed off. The company applied for extension of stay and was granted extension upto 365 days. The Appellate Tribunal did not dispose off the appeal before the time extended for collection of tax. The revenue served an order of demand citing the reason that the order of stay automatically gets vacated post the expiry of 365 days. The assessee seeks your opinion as to whether the contention of the revenue is justified.",
+          "answer": "## Answer 11\n\nIssue Involved: The issue under consideration is whether the stay order can be automatically vacated upon expiry of extended period of stay of 365 days, where the delay in disposing of the appeal is not attributable to the assessee.\n\nRelevant provision of law: The third proviso to section 254(2A) provides that where the appeal filed before the Appellate Tribunal is not disposed of within the period of stay or extended period of stay granted by the Tribunal, the order of stay shall stand vacated after the expiry of 365 days, even if the delay in disposing of the appeal is not attributable to the assessee.\n\n\n## 如\n\nAnalysis \\& Conclusion: This provision would result in the automatic vacation of a stay upon the expiry of 365 days, even if the Appellate Tribunal could not take up the appeal in time for no fault of the assessee. Thus, the vacation of stay in favour of the Department would ensue even if the Department is itself responsible for the delay in hearing the appeal. This will cause undue hardship to the assessee, even where he is not at fault. In this sense, the provision is arbitrary and disproportionate so far as the assessee is concerned. The contention of the revenue is not justified. Any order of stay shall stand vacated after the expiry of the period or periods mentioned in the section, only if the delay in disposing of the appeal is attributable to the assessee.\n\nNote - The facts given in the question are similar to the facts in DCIT v. Pepsi Foods Ltd (2021) 433 ITR 295, wherein the above issue came up before the Supreme Court. The above answer is based on the rationale of the Supreme Court ruling in that case.\n\nExam Insights: This is a case law based question requiring answer to be framed covering Issue involved, Provision applicable, Analysis and Conclusion. Many examinees were not able to present their answer in the required manner.",
+          "chapter_number": "16",
+          "chapter_name": "APPEALS \\& REVISIONS",
+          "unique_id": "16-T-11"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Question 2 (SM)\n\nMr. Rose, out of his own funds, had taken an FDR for Rs. $10,00,000$ bearing interest @ $10 \\%$ p.a. payable halfyearly in the name of his wife Lilly. The interest earned during the financial year 2025-26 of Rs. 1,00,000 was invested by Mrs. Lilly in the business of packed spices which resulted in a net profit of Rs. 55,000 for the year ended 31.03.2026. How shall the interest on FDR and income from business be taxed for the Assessment Year 2026-27?",
+          "answer": "Section 64(1)(iv) specifies that the income derived by the spouse of an assessee from the assets transferred directly or indirectly without adequate consideration or intention to live apart shall be clubbed with the income of the transferor. Therefore, the interest income of Rs. 1 lakh on the FDR of Rs. 10 lakhs for the F.Y.2025-26 shall be clubbed with the income of Mr. Rose.\n\nWhen Mrs. Lilly invested the interest income in a business and earned profits therefrom, such profits shall not be clubbed with the income of her husband but shall be taxable in her individual capacity. This is so because the income from the accretion of the transferred assets is not to be clubbed with the income of the transferor [CIT v. M. S. S. Rajan (2001) 252 ITR 126 (Mad)].",
+          "chapter_number": "6",
+          "chapter_name": "INCOME OF OTHER PERSONS INCLUDED IN ASSESSEE'S TOTAL INCOME",
+          "unique_id": "6-T-2"
+        }
+      ]
+    }
+  ]
+}

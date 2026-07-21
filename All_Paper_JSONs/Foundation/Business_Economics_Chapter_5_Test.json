@@ -1,0 +1,422 @@
+[
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME",
+    "section": "A",
+    "q_num": 14,
+    "question": "Mixed income of the self -employed means",
+    "options": {
+      "a": "Net profits received by self-employed people",
+      "b": "Outside wages received by self- employed people",
+      "c": "Combined factor payments which are not distinguishable,",
+      "d": "Wages due to non- economic activities"
+    },
+    "answer": "c",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME",
+    "section": "A",
+    "q_num": 15,
+    "question": "Which of the following is added to national income while calculating personal income?",
+    "options": {
+      "a": "Transfer payments to individuals",
+      "b": "Undistributed profits of corporate",
+      "c": "Transfer payments made to foreigners",
+      "d": "Mixed income of self employed"
+    },
+    "answer": "a",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME",
+    "section": "A",
+    "q_num": 17,
+    "question": "GDP Deflator is a price index used to convert",
+    "options": {
+      "a": "Nominal GDP to Real GDP",
+      "b": "Nominal GDP to National GDP",
+      "c": "Real GDP to National GDP",
+      "d": "Nominal GDP into percentage"
+    },
+    "answer": "a",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME",
+    "section": "A",
+    "q_num": 20,
+    "question": "If a country's Gross Domestic Product (GDP) is greater than its Gross National Product (GNP), it implies that the country:",
+    "options": {
+      "a": "Isanetexporter.",
+      "b": "Isanet importer.",
+      "c": "Hasatrade surplus",
+      "d": "Has trade deficit"
+    },
+    "answer": "d",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME",
+    "section": "A",
+    "q_num": 21,
+    "question": "Countries with higher saving rates may have higher equilibrium growth rates since:",
+    "options": {
+      "a": "People who save more also are more industrious",
+      "b": "Higher income allows for more savings",
+      "c": "A higher saving rate allows for more investment in human capital which ultimately enhances economic growth",
+      "d": "Having more capital equipment is more important than having better capital equipment"
+    },
+    "answer": "c",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME",
+    "section": "A",
+    "q_num": 22,
+    "question": "Assume you built a new house, bought a used car, and bought some government bonds. Which of the following is true?",
+    "options": {
+      "a": "consumption and government purchases went up since you bought a used car and government bonds",
+      "b": "consumption and investment went up since you bought a used car and government bonds",
+      "c": "investment and government purchases went up since you built a new house and bought government bonds",
+      "d": "investment went up since you built a new house"
+    },
+    "answer": "d",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME",
+    "section": "A",
+    "q_num": 23,
+    "question": "What is the formula for calculating Gross Domestic Product (GDP) using the expenditure approach?",
+    "options": {
+      "a": "GDP = Consumption + Investment + Government Spending",
+      "b": "GDP = Consumption + Investment + Government Spending + Net Exports",
+      "c": "GDP = Consumption + Investment",
+      "d": "GDP = Consumption + Net Exports"
+    },
+    "answer": "b",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME",
+    "section": "A",
+    "q_num": 25,
+    "question": "The industrial sector depends on the agricultural sector because:",
+    "options": {
+      "a": "The agricultural sector provides food and other products for the consumption purposes of industrial sector",
+      "b": "The agricultural sector provides raw materials for the development of agro-based industries of the economy",
+      "c": "The agricultural sector provides market for the industrial products",
+      "d": "All of the above"
+    },
+    "answer": "d",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME",
+    "section": "A",
+    "q_num": 27,
+    "question": "Which of the following is NOT an example of a transfer payment in the sense of the national income accounts?",
+    "options": {
+      "a": "Government family allowances",
+      "b": "Public unemployment insurance benefits",
+      "c": "Dividends paid by corporations to stockholders",
+      "d": "Disability pensions paid from the social insurance system"
+    },
+    "answer": "c",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME",
+    "section": "A",
+    "q_num": 28,
+    "question": "The difference between real and nominal GDP is.",
+    "options": {
+      "a": "Nominal GDP only accounts for citizens.",
+      "b": "Nominal GDP uses price-levels of some base year.",
+      "c": "Nominal GDP uses actual price-levels.",
+      "d": "Real GDP also includes services, whereas nominal GDP only takes goods into account."
+    },
+    "answer": "c",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME",
+    "section": "A",
+    "q_num": 48,
+    "question": "Calculate National Income from the following data: % in Crores [Consumption | 1000 [investment | 500 | [Government Purchases |_\u2014200 | exports | 200 | [imports | 00 |",
+    "options": {
+      "a": "1500",
+      "b": "1800",
+      "c": "600",
+      "d": "None of these"
+    },
+    "answer": "a",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME",
+    "section": "A",
+    "q_num": 53,
+    "question": "Which of the following is NOT included in the calculation of GDP using the expenditure approach?",
+    "options": {
+      "a": "Consumption expenditure",
+      "b": "Government purchases",
+      "c": "Business investment",
+      "d": "Transfer payments"
+    },
+    "answer": "d",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME",
+    "section": "A",
+    "q_num": 54,
+    "question": "Which organization is primarily responsible for compiling and publishing regional accounts data in India?",
+    "options": {
+      "a": "Reserve Bank of India (RBI)",
+      "b": "National Sample Survey Organization (NSSO)",
+      "c": "Central Statistical Office (CSO)",
+      "d": "Ministry of Finance"
+    },
+    "answer": "c",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME",
+    "section": "A",
+    "q_num": 57,
+    "question": "Savings represent",
+    "options": {
+      "a": "An injection to the circular flow of income",
+      "b": "A withdrawal into the circular flow",
+      "c": "Both an injection and a withdrawal",
+      "d": "None of the above."
+    },
+    "answer": "b",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME",
+    "section": "A",
+    "q_num": 59,
+    "question": "National Income accountants can avoid multiple counting by:",
+    "options": {
+      "a": "Including transfers in their calculation",
+      "b": "Only counting final goods",
+      "c": "Counting both intermediate and final good",
+      "d": "Only counting intermediate goods"
+    },
+    "answer": "b",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME",
+    "section": "A",
+    "q_num": 61,
+    "question": "Which of the following statements is true?",
+    "options": {
+      "a": "NDP is greater than GDP if prices are falling",
+      "b": "NDP is greater than GDP if prices are rising",
+      "c": "NDP can be greater than GDP but only if the economy is growing",
+      "d": "NDP cannot be greater than GDP"
+    },
+    "answer": "d",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME",
+    "section": "A",
+    "q_num": 63,
+    "question": "Find nominal GDP if real GDP = 450 and price index = 120",
+    "options": {
+      "a": "500",
+      "b": "450",
+      "c": "540",
+      "d": "None of these"
+    },
+    "answer": "c",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME",
+    "section": "A",
+    "q_num": 81,
+    "question": "Which of the following elements are considered for computing national income according to Expenditure Method?",
+    "options": {
+      "a": "Consumption Expenditure and Net Exports",
+      "b": "Consumption Expenditure; Investment Expenditure and Government Expenditure",
+      "c": "Consumption Expenditure and Investment Expenditure",
+      "d": "Consumption Expenditure; Investment Expenditure; Government Expenditure and Net Exports"
+    },
+    "answer": "d",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME",
+    "section": "A",
+    "q_num": 82,
+    "question": "Which one of the following is part of expenditure on transfer payments by government?",
+    "options": {
+      "a": "Unemployment benefit",
+      "b": "Old age pension",
+      "c": "Interest on public debt",
+      "d": "All the above"
+    },
+    "answer": "d",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME",
+    "section": "A",
+    "q_num": 87,
+    "question": "What is the relationship between Net Domestic Product (NDPMp) and Gross Domestic Product (GDPM,)?",
+    "options": {
+      "a": "NDPy, = GDPy, \u2014 Depreciation",
+      "b": "NDPy, = GDPy, MP + Depreciation",
+      "c": "GDP, = NDPy, MP \u2014 Depreciation",
+      "d": "None of these"
+    },
+    "answer": "a",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME",
+    "section": "A",
+    "q_num": 92,
+    "question": "Income received by household sector including non-profit institution serving household is called",
+    "options": {
+      "a": "Percapitaincome",
+      "b": "Personal income",
+      "c": "Nationalincome",
+      "d": "Disposal income"
+    },
+    "answer": "b",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME",
+    "section": "A",
+    "q_num": 98,
+    "question": "What is Real GDP if Nominal GDP is 1150 Units and GDP Deflator is 143.75?",
+    "options": {
+      "a": "800",
+      "b": "1,653.125",
+      "c": "12.5",
+      "d": "None of these"
+    },
+    "answer": "a",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME ACCOUNTING",
+    "section": "A",
+    "q_num": 104,
+    "question": "The reward to the entrepreneur for his contribution to the production of goods and services is called as",
+    "options": {
+      "a": "Corporate Tax",
+      "b": "Dividend",
+      "c": "Retained Earnings",
+      "d": "Profit"
+    },
+    "answer": "d",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME ACCOUNTING",
+    "section": "A",
+    "q_num": 132,
+    "question": "Which of the following organisation is responsible for the compilation of National accounts statistics?",
+    "options": {
+      "a": "Central Statistical Organisation (CSO)",
+      "b": "Directorate of Economics and Statistics (DES)",
+      "c": "Ministry of Finance of Central Government",
+      "d": "Reserve Bank of India (RBI)"
+    },
+    "answer": "a",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME ACCOUNTING",
+    "section": "A",
+    "q_num": 135,
+    "question": "Which of the following defines the Gross National Product (GNP) of a country under the concept of National Income? (PYP May\u201925)",
+    "options": {
+      "a": "Itis market value of all final economic goods & services produced within the domestic territory of a country including Net Factor Income from abroad.",
+      "b": "itis market value of all final economic goods & services produced within the domestic territory of a country excluding Net Factor Income from abroad.",
+      "c": "It is production cost of all final economic goods & services produced within the domestic territory including depreciation.",
+      "d": "It is production cost of all final economic goods & services produced within the domestic territory excluding depreciation."
+    },
+    "answer": "a",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME ACCOUNTING",
+    "section": "A",
+    "q_num": 171,
+    "question": "In which FY the nominal GDP and real GDP are the same?",
+    "options": {
+      "a": "FY 2021-22",
+      "b": "FY 2022-23",
+      "c": "FY 2020-21",
+      "d": "FY 2023-24"
+    },
+    "answer": "c",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME ACCOUNTING",
+    "section": "A",
+    "q_num": 173,
+    "question": "Calculate the consumption of fixed capital (depreciation) from the following data:",
+    "options": {
+      "a": "21,700 crores",
+      "b": "5,200 crores",
+      "c": "27,600 crores",
+      "d": "%2,600 crores"
+    },
+    "answer": "d",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME ACCOUNTING",
+    "section": "A",
+    "q_num": 174,
+    "question": "There are three different interlinked phases in a circular flow of income, namely:",
+    "options": {
+      "a": "Production, consumption and disposition",
+      "b": "Production, consumption and investment",
+      "c": "Production, disposition and distribution",
+      "d": "Production, expenditure and disposition"
+    },
+    "answer": "c",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 6.2: THE KEYNESIAN THEORY",
+    "section": "A",
+    "q_num": 97,
+    "question": "The maximum value of investment multiplier will be the infinity when the value of: (PYP Sep\u201925)",
+    "options": {
+      "a": "MPCis 1.",
+      "b": "MPCis -1.",
+      "c": "APCis1",
+      "d": "MPS is-1."
+    },
+    "answer": "a",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 6.2: THE KEYNESIAN THEORY",
+    "section": "A",
+    "q_num": 98,
+    "question": "If national income increases from % 500 crores to % 2,500 crores due to an increase in investment of 200 crores, what will be the value of the Marginal Propensity to Consume (MPC)? (PYP Sep\u201925)",
+    "options": {
+      "a": "0.90",
+      "b": "0.85",
+      "c": "0.75",
+      "d": "0.95"
+    },
+    "answer": "a",
+    "chapter_number": 5
+  }
+]

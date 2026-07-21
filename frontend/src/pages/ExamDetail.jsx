@@ -47,7 +47,7 @@ function ExamDetail() {
 
         setUploading(true);
         try {
-            await uploadStudentPaper(
+            const student = await uploadStudentPaper(
                 id,
                 uploadForm.studentName,
                 uploadForm.rollNumber,
@@ -55,7 +55,7 @@ function ExamDetail() {
             );
             setShowUpload(false);
             setUploadForm({ studentName: '', rollNumber: '', answerPdf: null });
-            loadData();
+            navigate(`/checked-paper/${student.id}`);
         } catch (err) {
             alert('Failed to upload: ' + (err.response?.data?.detail || err.message));
         } finally {
@@ -187,12 +187,20 @@ function ExamDetail() {
                                             </td>
                                             <td>
                                                 {student.status === 'completed' && (
-                                                    <button
-                                                        className="download-btn"
-                                                        onClick={() => handleDownloadPdf(student.id, student.student_name)}
-                                                    >
-                                                        📄 Download PDF
-                                                    </button>
+                                                    <div className="student-actions">
+                                                        <button
+                                                            className="download-btn"
+                                                            onClick={() => navigate(`/checked-paper/${student.id}`)}
+                                                        >
+                                                            View Downloads
+                                                        </button>
+                                                        <button
+                                                            className="report-btn"
+                                                            onClick={() => handleDownloadPdf(student.id, student.student_name)}
+                                                        >
+                                                            Result PDF
+                                                        </button>
+                                                    </div>
                                                 )}
                                             </td>
                                         </tr>

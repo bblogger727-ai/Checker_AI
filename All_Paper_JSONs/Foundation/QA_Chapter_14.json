@@ -1,0 +1,392 @@
+[
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 1,
+    "question": "The A.M of $1,3,5,6, x, 10$ is 6 . The value of $x$ is",
+    "options": {
+      "a": "10",
+      "b": "11",
+      "c": "12",
+      "d": "none"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 2,
+    "question": "The mean of the values of $1,2,3 \ndots \ndots \ndots . ., \text{n}$ with respective frequencies $\text{x}, 2 \text{x}, 3 \text{x}, \ndots \ndots . . \text{nx}$ is (MTP Oct'19, Dec'23, May'24, MP [3])",
+    "options": {
+      "a": "$\\frac{n+1}{2}$",
+      "b": "$\\frac{n}{2}$",
+      "c": "$\\frac{2 n+1}{3}$",
+      "d": "$\\frac{2 n+1}{6}$"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 3,
+    "question": "$\\_\\_\\_\\$ \\& $\\_\\_\\_\\$ are called ratio averages. (SM, MTP May'24, Oct '18)",
+    "options": {
+      "a": "H.M \\& G.M",
+      "b": "$H . M \\& A . M$",
+      "c": "$\\mathrm{A} . \\mathrm{M}$ \\& G.M",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 4,
+    "question": "$\\_\\_\\_\\$ is used when variability has also to be calculated.",
+    "options": {
+      "a": "A.M",
+      "b": "G.M",
+      "c": "H.M",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 5,
+    "question": "If $y=5 x-20 \\& \\bar{x}=30$, then the value of \\bar{y} is",
+    "options": {
+      "a": "130",
+      "b": "140",
+      "c": "30",
+      "d": "none"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 6,
+    "question": "For the following frequency distribution\n\n\\begin{tabular}{|l|c|c|c|c|c|c|}\n\\hline Class interval: & $\\mathbf{1 0 - 2 0}$ & $\\mathbf{2 0 - 3 0}$ & $\\mathbf{3 0 - 4 0}$ & $\\mathbf{4 0 - 5 0}$ & $\\mathbf{5 0 - 6 0}$ & $60-70$ \\\\\n\\hline Frequency: & 20 & 9 & 31 & 18 & 10 & 9 \\\\\n\\hline\n\\end{tabular} assumed mean can be taken as",
+    "options": {
+      "a": "55",
+      "b": "45",
+      "c": "35",
+      "d": "None"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 7,
+    "question": "A company's past 10 years average earnings is $\u20b9 40$ crores. To have the same average earning for 11 years including theses 10 years, how much earning must be made by the company in the eleventh year ? (MTP Dec'24, MP [7])",
+    "options": {
+      "a": "\u20b9 40 crores",
+      "b": "$\u20b9(40 \\times 10) / 11$ crores",
+      "c": "More than \u20b9 40 crores",
+      "d": "None of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 8,
+    "question": "The Harmonic mean H of two numbers is 4 and their arithmetic means A and the geometric mean G satisfy the equation $2 \\mathrm{~A}+\\mathrm{G}^{2}=27$, the numbers are (MTP Nov'23, Jul'24, MP [5])",
+    "options": {
+      "a": "$(1,3)$",
+      "b": "$(9,5)$",
+      "c": "$(6,3)$",
+      "d": "$(12,7)$"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 9,
+    "question": "G.M is useful in construction of index number.",
+    "options": {
+      "a": "true",
+      "b": "false",
+      "c": "both",
+      "d": "none"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 10,
+    "question": "$\\\\_\\\\_\\\\$ of a set of observations is defined to be their sum, divided by the no. of observations.",
+    "options": {
+      "a": "H.M",
+      "b": "G.M",
+      "c": "A.M",
+      "d": "None"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 11,
+    "question": "The total of a set of observations is equal to the product of their number of observations and the",
+    "options": {
+      "a": "A.M",
+      "b": "G.M",
+      "c": "H.M",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 12,
+    "question": "For calculation of Speed \\& Velocity",
+    "options": {
+      "a": "G.M",
+      "b": "A.M",
+      "c": "H.M",
+      "d": "None is used"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 13,
+    "question": "$\\_\\_\\_\\$ is a good substitute to a weighted average.",
+    "options": {
+      "a": "A.M",
+      "b": "G.M",
+      "c": "H.M",
+      "d": "None"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 14,
+    "question": "If the variables $x \\& z$ are so related that $z=a x+b$ for each $x=x_{i}$ where $a \\& b$ are constants, then $\\bar{z}=a \\bar{x}+$ b",
+    "options": {
+      "a": "true",
+      "b": "false",
+      "c": "both",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 15,
+    "question": "The mean weight of 15 students is 110 kg . The mean weight of 5 of them is 100 kg . and that of another five students is 125 kg ., then the mean weight of the remaining students is: (MTP Apr'24, Mar '22, Aug'25 [2], MP [1])",
+    "options": {
+      "a": "120",
+      "b": "105",
+      "c": "115",
+      "d": "None of these"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 16,
+    "question": "The mean of the 1st n natural no. is",
+    "options": {
+      "a": "$n / 2$",
+      "b": "$(n-1) / 2$",
+      "c": "$(\\mathrm{n}+1) / 2$",
+      "d": "none"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 17,
+    "question": "The data $1,2,4,8,16$ are in",
+    "options": {
+      "a": "Arithmetic progression",
+      "b": "Geometric progression",
+      "c": "Harmonic progression",
+      "d": "None"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 18,
+    "question": "An aeroplane flies from A to B at the rate of $500 \\mathrm{~km} /$ hour and comes back from B to A at the rate of 700 km/hour. The average speed of the aeroplane is (SM, MTP Nov'22, Mar'21, Oct'18, PYP May'25)",
+    "options": {
+      "a": "600 km . per hour",
+      "b": "583.33 km . per hour",
+      "c": "$100 \\sqrt{35} \\mathrm{~km}$. per hour",
+      "d": "620 km . per hour."
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 19,
+    "question": "The mean annual salary of all employees in a company is $\u20b9 25,000$. The mean salary of male and female employees is \u20b927,000 and \u20b917,000 respectively. Find the percentage of males and females employed by the company. (MTP Apr'23)",
+    "options": {
+      "a": "$60 \\%$ and $40 \\%$",
+      "b": "$70 \\%$ and $25 \\%$",
+      "c": "$70 \\%$ and $30 \\%$",
+      "d": "$80 \\%$ and $20 \\%$"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 20,
+    "question": "The average has relevance for",
+    "options": {
+      "a": "homogeneous population",
+      "b": "heterogeneous population",
+      "c": "both",
+      "d": "None"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 21,
+    "question": "Which of the following result hold for a set of distinct positive observations? (SM, MTP May'24, Mar'19, MP [3])",
+    "options": {
+      "a": "$\\mathrm{AM} \\geq \\mathrm{GM} \\geq \\mathrm{HM}$",
+      "b": "$\\mathrm{HM} \\geq \\mathrm{GM} \\geq \\mathrm{AM}$",
+      "c": "$\\mathrm{AM}>\\mathrm{GM}>\\mathrm{HM}$",
+      "d": "$\\mathrm{GM}>\\mathrm{AM}>\\mathrm{HM}$"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 22,
+    "question": "Which of the following statements is true? (SM) (RTP May'25, MTP Apr'21)",
+    "options": {
+      "a": "Usually mean is the best measure of central tendency",
+      "b": "Usually median is the best measure of central tendency",
+      "c": "Usually mode is the best measure of central tendency",
+      "d": "Normally GM is the best measure of central tendency"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 23,
+    "question": "\"The mean of the two samples can be combined\" $\\_\\_\\_\\_$ is the mathematical property of mean",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "both",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 24,
+    "question": "The mean salary of a group of 50 persons is \u20b9 5850 . Later on it is discovered that the salary of one has been wrongly taken as \u20b98000 instead of \u20b97800. The corrected mean salary is (MTP Nov'23, Jul'24, MP [5])",
+    "options": {
+      "a": "\u20b95,854",
+      "b": "$\u20b9 5,846$",
+      "c": "\u20b95,640",
+      "d": "none"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 25,
+    "question": "If the same amount is added to or subtracted from all the values, the mean shall increase or decrease by the $\\\\_\\\\_\\\\_ amount",
+    "options": {
+      "a": "big",
+      "b": "small",
+      "c": "same",
+      "d": "none"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 26,
+    "question": "The average discovers",
+    "options": {
+      "a": "uniformity in variability",
+      "b": "variability in uniformity of distribution",
+      "c": "both",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 27,
+    "question": "Mean of $\\mathbf{2 5 , 3 2 , 4 3 , 5 3 , 6 2 , 5 9 , 4 8 , 3 1 , 2 4 , 3 3}$ is",
+    "options": {
+      "a": "44",
+      "b": "43",
+      "c": "42",
+      "d": "41"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 28,
+    "question": "$\\_\\_\\_\\$ \\& $\\_\\_\\_\\$ cannot be calculated if any observation is zero.",
+    "options": {
+      "a": "G.M \\& A.M",
+      "b": "H.M \\& A.M",
+      "c": "H.M \\& G.M",
+      "d": "None"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 29,
+    "question": "$\\_\\_\\_\\_$ is used when sampling variability should be least.",
+    "options": {
+      "a": "Mode",
+      "b": "Median",
+      "c": "Mean",
+      "d": "None"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 30,
+    "question": "$\\\\_\\\\_\\\\$ has a limited use",
+    "options": {
+      "a": "A.M",
+      "b": "G.M",
+      "c": "H.M",
+      "d": "(b) and (c)"
+    },
+    "answer": "d"
+  }
+]

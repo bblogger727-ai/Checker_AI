@@ -1,0 +1,392 @@
+[
+  {
+    "chapter_name": "Chapter 7: SETS, RELATIONS,AND FUNCTIONS BASICS OF LIMITS \\& CONTINUITY FUNCTIONS",
+    "chapter_number": "7",
+    "q_num": 1,
+    "question": "If $U=\\{1,2, \\ldots 9\\}$ be the universal set $A=\\{1,2,3,4\\}$ and $B=\\{2,4,6,8\\}$ then the set $(A \\cap B)^{\\prime}$ is",
+    "options": {
+      "a": "$\\quad\\{1,2,3,4,6,8\\}$",
+      "b": "$\\{2,4\\}$",
+      "c": "$\\{5,6,7,8,9\\}$",
+      "d": "$\\{1,3,5,6,7,8,9\\}$"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 7: SETS, RELATIONS,AND FUNCTIONS BASICS OF LIMITS \\& CONTINUITY FUNCTIONS",
+    "chapter_number": "7",
+    "q_num": 2,
+    "question": "As per question No.(24) $A \\cup C$ is",
+    "options": {
+      "a": "$\\quad\\{a, b, c, d, e, f, m, n, o, p, q, r, s, t, u\\}$",
+      "b": "$\\{$ a, b, c, s, t, u $\\}$",
+      "c": "$\\{d, e, f, p, q, r\\}$",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 7: SETS, RELATIONS,AND FUNCTIONS BASICS OF LIMITS \\& CONTINUITY FUNCTIONS",
+    "chapter_number": "7",
+    "q_num": 3,
+    "question": "As per question No.(16) express the following sets in set notation: - (i) $\\{\\mathrm{x} \\mid \\mathrm{x}$ is a family with one set and income of less than $\u20b9 11000 /-\\}$ (ii) $\\{x \\mid x$ is a family with no set and income over $\u20b9 16000 /-\\}$",
+    "options": {
+      "a": "$(C \\cup D) \\cap B$",
+      "b": "$(A \\cup B)^{\\prime} \\cap(C \\cup D \\cup E)^{\\prime}$",
+      "c": "Both",
+      "d": "None"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 7: SETS, RELATIONS,AND FUNCTIONS BASICS OF LIMITS \\& CONTINUITY FUNCTIONS",
+    "chapter_number": "7",
+    "q_num": 4,
+    "question": "If $U=\\{1,2, \\ldots 9\\}$ be the universal set $A=\\{1,2,3,4\\}$ and $B=\\{2,4,6,8\\}$ then the set $A \\cap B$ is",
+    "options": {
+      "a": "$\\quad\\{1,2,3,4,6,8\\}$",
+      "b": "$\\{2,4\\}$",
+      "c": "$\\{5,6,7,8,9\\}$",
+      "d": "$\\{5,7,9\\}$"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 7: SETS, RELATIONS,AND FUNCTIONS BASICS OF LIMITS \\& CONTINUITY FUNCTIONS",
+    "chapter_number": "7",
+    "q_num": 5,
+    "question": "As per question No.(24) $B \\cup C$ is",
+    "options": {
+      "a": "$\\quad\\{a, e, i, o, u, m, n, p, q, r, s, t\\}$",
+      "b": "$\\{$ a, e, i, r, s, t$\\}$",
+      "c": "$\\{i, \\mathrm{o}, \\mathrm{u}, \\mathrm{p}, \\mathrm{q}, \\mathrm{r}\\}$",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 7: SETS, RELATIONS,AND FUNCTIONS BASICS OF LIMITS \\& CONTINUITY FUNCTIONS",
+    "chapter_number": "7",
+    "q_num": 6,
+    "question": "State whether the following sets are finite, infinite or empty: - (i) $X=\\{1,2,3, \\ldots .500\\}$ (ii) $Y=\\left\\{y: y=a^{2}\\right.$; $a$ is an integer $\\}$ (iii) $A=\\{x: x$ is a positive integer multiple of 2$\\}$ (iv) $B=\\{x: x$ is an integer which is a perfect root of $\\mathbf{2 6 < x < 3 5 \\}}$",
+    "options": {
+      "a": "finite infinite infinite empty",
+      "b": "infinite infinite finite empty",
+      "c": "infinite finite infinite empty",
+      "d": "none"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 7: SETS, RELATIONS,AND FUNCTIONS BASICS OF LIMITS \\& CONTINUITY FUNCTIONS",
+    "chapter_number": "7",
+    "q_num": 7,
+    "question": "As per question No.(24) $A \\cup B \\cup C$ is",
+    "options": {
+      "a": "$\\quad\\{a, b, c, d, e, f, i, o, u, m, n, p, q, r, s, t\\}$",
+      "b": "$\\{$ a, b, c, r, s, t$\\}$",
+      "c": "$\\quad\\{d, e, f, n, p, q\\}$",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 7: SETS, RELATIONS,AND FUNCTIONS BASICS OF LIMITS \\& CONTINUITY FUNCTIONS",
+    "chapter_number": "7",
+    "q_num": 8,
+    "question": "As per question No.(33) the set $(A \\cup B)^{\\prime}$ is",
+    "options": {
+      "a": "$\\quad\\{3,4,5,6\\}$",
+      "b": "$\\{3,7,9,5\\}$",
+      "c": "$\\{8,10,11,12,13\\}$",
+      "d": "None"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 7: SETS, RELATIONS,AND FUNCTIONS BASICS OF LIMITS \\& CONTINUITY FUNCTIONS",
+    "chapter_number": "7",
+    "q_num": 9,
+    "question": "A sample of income group of 1172 families was surveyed and noticed that for income groups < \u20b96000/-, $6000 /$ - to $\u20b9 10999 /-$, $\u20b9 11000 /-$, to $\u20b9 15999 /-$, $\u20b9 16000$ and above No. TV set is available to $70,50,20,50$ families one set is available to $152,308,114,46$ families and two or more sets are available to $10,174,84$, 94 families. If $A=\\{x \\mid x$ is a family owning two or more sets $\\}, B=\\{x \\mid x$ is a family with one set, $\\} C=\\{x \\mid x$ is a family with income less than $\u20b9 6000 /-\\}, D=\\{x|x|$ is a family with income $\u20b9 6000 /-$ to $\u20b9 10999 /-\\}, E=\\{x \\mid x$ is a family with income $\u20b9 11000$ /- to $\u20b9 15999 /$ - $\\}$, find the number of families in each of the following sets (i) C $\\cap B$ (ii) $A \\cup E$",
+    "options": {
+      "a": "152,580",
+      "b": "152,20",
+      "c": "152,50",
+      "d": "152,496"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 7: SETS, RELATIONS,AND FUNCTIONS BASICS OF LIMITS \\& CONTINUITY FUNCTIONS",
+    "chapter_number": "7",
+    "q_num": 10,
+    "question": "As per question No.(24) $\\mathrm{B} \\cap \\mathrm{C}$ is",
+    "options": {
+      "a": "$\\quad\\{\\mathrm{a}, \\mathrm{e}\\}$",
+      "b": "$\\{i, 0\\}$",
+      "c": "$\\{\\mathrm{o}, \\mathrm{u}\\}$",
+      "d": "None"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 7: SETS, RELATIONS,AND FUNCTIONS BASICS OF LIMITS \\& CONTINUITY FUNCTIONS",
+    "chapter_number": "7",
+    "q_num": 11,
+    "question": "If $U=\\{1,2, \\ldots 9\\}$ be the universal set $A=\\{1,2,3,4\\}$ and $B=\\{2,4,6,8\\}$ then the set $A \\cup B$ is",
+    "options": {
+      "a": "$\\quad\\{1,2,3,4,6,8\\}$",
+      "b": "$\\{2,4\\}$",
+      "c": "$\\{5,6,7,8,9\\}$",
+      "d": "$\\{5,7,9\\}$"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 7: SETS, RELATIONS,AND FUNCTIONS BASICS OF LIMITS \\& CONTINUITY FUNCTIONS",
+    "chapter_number": "7",
+    "q_num": 12,
+    "question": "If $\\mathrm{U}=\\{1,2, \\ldots 9\\}$ be the universal set $\\mathrm{A}=\\{1,2,3,4\\}$ and $\\mathrm{B}=\\{2,4,6,8\\}$ then the set $\\mathrm{A}^{\\prime}$ is",
+    "options": {
+      "a": "$\\quad\\{1,2,3,4,6,8\\}$",
+      "b": "$\\{2,4\\}$",
+      "c": "$\\{5,6,7,8,9\\}$",
+      "d": "$\\{5,7,9\\}$"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 7: SETS, RELATIONS,AND FUNCTIONS BASICS OF LIMITS \\& CONTINUITY FUNCTIONS",
+    "chapter_number": "7",
+    "q_num": 13,
+    "question": "If $A=\\{0,1\\}$ state which of the following statements are true: - (i) $\\{1\\} \\subset A$ (ii) $\\{1\\} \\in A$ (iii) $\\phi \\in A$ (iv) $0 \\in A$ (v) $1 \\subset A$ (vi) $\\{0\\} \\in A$ (vii) $\\phi \\subset A$",
+    "options": {
+      "a": "(i) (iv) and (vii) only are true",
+      "b": "(i) (iv) and (vi) only are true",
+      "c": "(ii) (iii) and (vi) only are true",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 7: SETS, RELATIONS,AND FUNCTIONS BASICS OF LIMITS \\& CONTINUITY FUNCTIONS",
+    "chapter_number": "7",
+    "q_num": 14,
+    "question": "As per question No.(24) $A \\cup(B-C)$ is",
+    "options": {
+      "a": "$\\quad\\{a, b, c, d, e, f, i\\}$",
+      "b": "$\\{a, b, c, d, e, f, o\\}$",
+      "c": "$\\quad\\{a, b, c, d, e, f, u\\}$",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 7: SETS, RELATIONS,AND FUNCTIONS BASICS OF LIMITS \\& CONTINUITY FUNCTIONS",
+    "chapter_number": "7",
+    "q_num": 15,
+    "question": "As per question No.(14) the set $(A \\cup B) \\cap(A \\cup C)$ is $\\_\\_\\_\\_$ .",
+    "options": {
+      "a": "$\\quad\\{3,4,6,12\\}$",
+      "b": "$\\{1,6,9,10\\}$",
+      "c": "$\\{2,5,6,11\\}$",
+      "d": "None"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 7: SETS, RELATIONS,AND FUNCTIONS BASICS OF LIMITS \\& CONTINUITY FUNCTIONS",
+    "chapter_number": "7",
+    "q_num": 16,
+    "question": "Let $\\mathrm{P}=(1,2, \\mathrm{x}), \\mathrm{Q}=(\\mathrm{a} \\times \\mathrm{y}), \\mathrm{R}=(\\mathrm{x}, \\mathrm{y}, \\mathrm{z})$ then $\\mathrm{P} \\times \\mathrm{Q}$ is",
+    "options": {
+      "a": "$\\quad\\{(1, a)(1, x)(1, y) ;(2, a)(2, x)(2, y) ;(x, a)(x, x)(x, y)\\}$",
+      "b": "$\\quad\\{(1, x) ;(1, y) ;(1, z) ;(2, x) ;(2, y) ;(2, z) ;(x, x)(x, y)(x, z)\\}$",
+      "c": "$\\quad\\{(a, x)(a, y)(a, z) ;(x, x)(x, y)(x, z) ;(y, x)(y, y)(y, z)\\}$",
+      "d": "$\\quad\\{(1, x)(1, y)(2, x)(2, y)(x, x)(x, y)\\}$"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 7: SETS, RELATIONS,AND FUNCTIONS BASICS OF LIMITS \\& CONTINUITY FUNCTIONS",
+    "chapter_number": "7",
+    "q_num": 17,
+    "question": "As per question No.(33) the set $\\mathrm{A}^{\\prime} \\cup \\mathrm{C}^{\\prime}$ is",
+    "options": {
+      "a": "$\\quad\\{8,10,11,12,13\\}$",
+      "b": "$\\{4,6,7, \\ldots .13\\}$",
+      "c": "$\\{3,4,5,7,8, \\ldots .13\\}$",
+      "d": "None"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 7: SETS, RELATIONS,AND FUNCTIONS BASICS OF LIMITS \\& CONTINUITY FUNCTIONS",
+    "chapter_number": "7",
+    "q_num": 18,
+    "question": "As per question No.(33) the set ( $\\left.\\mathrm{A}^{\\prime}\\right)^{\\prime}$ is",
+    "options": {
+      "a": "$\\quad\\{3,4,5,6\\}$",
+      "b": "$\\{3,7,9,5\\}$",
+      "c": "$\\{8,10,11,12,13\\}$",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 7: SETS, RELATIONS,AND FUNCTIONS BASICS OF LIMITS \\& CONTINUITY FUNCTIONS",
+    "chapter_number": "7",
+    "q_num": 19,
+    "question": "If $U=\\{1,2, \\ldots 9\\}$ be the universal set $A=\\{1,2,3,4\\}$ and $B=\\{2,4,6,8\\}$ then the set $(A \\cup B)^{\\prime}$ is",
+    "options": {
+      "a": "$\\quad\\{1,2,3,4,6,8\\}$",
+      "b": "$\\{2,4\\}$",
+      "c": "$\\{5,6,7,8,9\\}$",
+      "d": "$\\{5,7,9\\}$"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 7: SETS, RELATIONS,AND FUNCTIONS BASICS OF LIMITS \\& CONTINUITY FUNCTIONS",
+    "chapter_number": "7",
+    "q_num": 20,
+    "question": "If $A=\\{3,4,5,6\\} B=\\{3,7,9,5\\}$ and $C=\\{6,8,10,12,7\\}$ then $B^{\\prime}$ is (given that the universal set $U=\\{3,4, \\ldots .$., 11, 12, 13\\}",
+    "options": {
+      "a": "$\\{7,8, \\ldots .12,13\\}$",
+      "b": "$\\{4,6,8,10, \\ldots .13\\}$",
+      "c": "$\\{3,4,5,9,11,13\\}$",
+      "d": "None"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 7: SETS, RELATIONS,AND FUNCTIONS BASICS OF LIMITS \\& CONTINUITY FUNCTIONS",
+    "chapter_number": "7",
+    "q_num": 21,
+    "question": "If $\\mathrm{A}=\\{1,2, \\ldots 9\\}, \\mathrm{B}=\\{2,4,6,8\\} \\mathrm{C}=\\{1,3,5,7,9\\}, \\mathrm{D}=\\{3,4,5\\}$ and $\\mathrm{E}=\\{3,5\\}$ what is set S if it is also given that $\\mathrm{S} \\subset \\mathrm{D}$ and $\\mathrm{S} \\not \\subset \\mathrm{B}$",
+    "options": {
+      "a": "$\\{3,5\\}$",
+      "b": "$\\{2,4\\}$",
+      "c": "$\\{7,9\\}$",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 7: SETS, RELATIONS,AND FUNCTIONS BASICS OF LIMITS \\& CONTINUITY FUNCTIONS",
+    "chapter_number": "7",
+    "q_num": 22,
+    "question": "If $A=\\{a, b, c, d, e, f\\} B=\\{a, e, i, o, u\\}$ and $C=\\{m, n, o, p, q, r, s, t, u\\}$ then $A \\cup B$ is",
+    "options": {
+      "a": "$\\quad\\{a, b, c, d, e, f, i, o, u\\}$",
+      "b": "$\\{a, b, c, i, o, u\\}$",
+      "c": "$\\quad\\{\\mathrm{d}, \\mathrm{e}, \\mathrm{f}, \\mathrm{i}, \\mathrm{o}, \\mathrm{u}\\}$",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 7: SETS, RELATIONS,AND FUNCTIONS BASICS OF LIMITS \\& CONTINUITY FUNCTIONS",
+    "chapter_number": "7",
+    "q_num": 23,
+    "question": "As per question No.(24) A $\\cap B$ is",
+    "options": {
+      "a": "$\\{\\mathrm{a}, \\mathrm{e}\\}$",
+      "b": "$\\{i, 0\\}$",
+      "c": "$\\{0, \\mathrm{u}\\}$",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 7: SETS, RELATIONS,AND FUNCTIONS BASICS OF LIMITS \\& CONTINUITY FUNCTIONS",
+    "chapter_number": "7",
+    "q_num": 24,
+    "question": "As per question No.(33) the set $(A \\cap B)^{\\prime}$ is",
+    "options": {
+      "a": "$\\quad\\{8,10,11,12,13\\}$",
+      "b": "$\\{4,6,7, \\ldots .13\\}$",
+      "c": "$\\{3,4,5,7,8, \\ldots .13\\}$",
+      "d": "None"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 7: SETS, RELATIONS,AND FUNCTIONS BASICS OF LIMITS \\& CONTINUITY FUNCTIONS",
+    "chapter_number": "7",
+    "q_num": 25,
+    "question": "Let $A=\\{0\\}, B=\\{01\\}, C=\\phi, D=\\{\\phi\\}, E=\\{x \\mid x$ is a human being 300 years old $\\}, F=\\{x \\mid x \\in A$ and $x \\in B\\}$ state which of the following statements are true: - (i) $A \\subset B$ (ii) $B=F$ (iii) $C \\subset D$ (iv) $C=E$ (v) $A=F$ (vi) $F=1$ and (vii) $\\mathrm{E}=\\mathrm{C}=\\mathrm{D}$",
+    "options": {
+      "a": "(i) (iii) (iv) and (v) only are true",
+      "b": "(i) (ii) (iii) and (iv) are true",
+      "c": "(i) (ii) (iii) and (vi) only are true",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 7: SETS, RELATIONS,AND FUNCTIONS BASICS OF LIMITS \\& CONTINUITY FUNCTIONS",
+    "chapter_number": "7",
+    "q_num": 26,
+    "question": "If $A=\\{3,4,5,6\\} B=\\{3,7,9,5\\}$ and $C=\\{6,8,10,12,7\\}$ then $C^{\\prime}$ is given that the universal set $U=\\{3,4, \\ldots .$., 11, 12, 13\\}",
+    "options": {
+      "a": "$\\{7,8, \\ldots .12,13\\}$",
+      "b": "$\\{4,6,8,10, \\ldots .13\\}$",
+      "c": "$\\{3,4,5,9,11,13\\}$",
+      "d": "None"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 7: SETS, RELATIONS,AND FUNCTIONS BASICS OF LIMITS \\& CONTINUITY FUNCTIONS",
+    "chapter_number": "7",
+    "q_num": 27,
+    "question": "As per question No.(33) the set ( $\\mathrm{B}^{\\prime}$ )' is",
+    "options": {
+      "a": "$\\quad\\{3,4,5,6\\}$",
+      "b": "$\\{3,7,9,5\\}$",
+      "c": "$\\{8,10,11,12,13\\}$",
+      "d": "None"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 7: SETS, RELATIONS,AND FUNCTIONS BASICS OF LIMITS \\& CONTINUITY FUNCTIONS",
+    "chapter_number": "7",
+    "q_num": 28,
+    "question": "As per question No.(41) what is set S if it is also given that $\\mathrm{S} \\subset \\mathrm{B}$ and $\\mathrm{S} \\not \\subset \\mathrm{C}$",
+    "options": {
+      "a": "$\\{3,5\\}$",
+      "b": "$\\{2,4\\}$",
+      "c": "$\\{7,9\\}$",
+      "d": "None"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 7: SETS, RELATIONS,AND FUNCTIONS BASICS OF LIMITS \\& CONTINUITY FUNCTIONS",
+    "chapter_number": "7",
+    "q_num": 29,
+    "question": "As per question No. (16) find the number of families in each of the following sets: (i) $(A \\cup B)^{\\prime} \\cap E$ (ii) $(C \\cup D \\cup E) \\cap(A \\cup B)^{\\prime}$",
+    "options": {
+      "a": "20,50",
+      "b": "152,20",
+      "c": "152,50",
+      "d": "20,140"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 7: SETS, RELATIONS,AND FUNCTIONS BASICS OF LIMITS \\& CONTINUITY FUNCTIONS",
+    "chapter_number": "7",
+    "q_num": 30,
+    "question": "As per question No. (24) A - B is",
+    "options": {
+      "a": "$\\{b, c, d, f\\}$",
+      "b": "$\\{\\mathrm{a}, \\mathrm{e}, \\mathrm{i}, \\mathrm{o}$,",
+      "c": "$\\{m, n, p, q$,",
+      "d": "None"
+    },
+    "answer": "a"
+  }
+]

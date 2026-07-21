@@ -1,0 +1,93 @@
+[
+  {
+    "q_num": 8,
+    "question": "Pass journal entries for the following transactions in the books of Mr. Kapil:  \n(i)  Purchased goods from Sonu for \u20b9 1,50,000 at a trade discount of 10% plus CGST and SGST @ 6% each.  \n(ii) Sold goods to Mohit for \u20b9 50,000 and charged CGST and SGST @ 5% each. Out of the amount due 40% is received by cheque immediately.  \n(iii) Goods costing \u20b9 25,000 withdrawn for personal use. Such Goods were purchased by paying CGST and SGST @ 6% each.  \n(iv) Machinery purchased from M/s Bright Industries for \u20b9 2,00,000 plus CGST and SGST @ 9% each. Paid \u20b9 1,00,000 immediately by cheque and balance to be paid after two months.",
+    "answer": "| Date | Particulars | L.F. | Amount Dr. (\u20b9) | Amount Cr. (\u20b9) |\n|------|-------------|------|----------------|----------------|\n| (i) | Purchases A/c | Dr. | 1,35,000 | |\n| | Input CGST A/c | Dr. | 8,100 | |\n| | Input SGST A/c | Dr. | 8,100 | |\n| | To Sonu\u2019s A/c | | | 1,51,200 |\n| | (Being goods purchased from Sonu, trade discount 10%, CGST & SGST @ 6%) | | | |\n| (ii) | Bank A/c | Dr. | 22,000 | |\n| | Mohit\u2019s A/c | Dr. | 33,000 | |\n| | To Sales A/c | | | 50,000 |\n| | To Output CGST A/c | | | 2,500 |\n| | To Output SGST A/c | | | 2,500 |\n| | (Being goods sold to Mohit and 40% received by cheque) | | | |\n| (iii) | Drawings A/c | Dr. | 28,000 | |\n| | To Purchase A/c | | | 25,000 |\n| | To Input CGST A/c | | | 1,500 |\n| | To Input SGST A/c | | | 1,500 |\n| | (Being goods withdrawn for personal use) | | | |\n| (iv) | Machinery A/c | Dr. | 2,00,000 | |\n| | Input CGST A/c | Dr. | 18,000 | |\n| | Input SGST A/c | Dr. | 18,000 | |\n| | To Bank A/c | | | 1,00,000 |\n| | To Bright Industries | | | 1,36,000 |\n| | (Being machinery purchased, CGST & SGST @ 9% each) | | | |",
+    "chapter_number": "2.1",
+    "chapter_name": "Accounting Process",
+    "section": "Section A",
+    "category": "Theoretical & Practical",
+    "unique_id": "2.1-SectionA-TP-8",
+    "marks": 7,
+    "question_cleaned": "Pass journal entries for the following transactions in the books of Mr. Kapil:  \n(i)  Purchased goods from Sonu for \u20b9 1,50,000 at a trade discount of 10% plus CGST and SGST @ 6% each.  \n(ii) Sold goods to Mohit for \u20b9 50,000 and charged CGST and SGST @ 5% each. Out of the amount due 40% is received by cheque immediately.  \n(iii) Goods costing \u20b9 25,000 withdrawn for personal use. Such Goods were purchased by paying CGST and SGST @ 6% each.  \n(iv) Machinery purchased from M/s Bright Industries for \u20b9 2,00,000 plus CGST and SGST @ 9% each. Paid \u20b9 1,00,000 immediately by cheque and balance to be paid after two months.",
+    "mark_split": "2+2+1+2"
+  },
+  {
+    "q_num": 4,
+    "question": "Show the classification of the following Accounts under traditional and accounting equation approach:\n\n| a | Rent outstanding   | g | Capital            |\n|---|--------------------|---|--------------------|\n| b | Closing Inventory  | h | Sales Tax Payable  |\n| c | Sales              | i | Trade receivables  |\n| d | Bank Fixed Deposit | j | Depreciation       |\n| e | Cash               | k | Drawings           |\n| f | Bad Debts          |   |                    |",
+    "answer": "Nature of Account\n\n| Sr. No. | Title of Account     | Traditional Approach | Accounting Equation Approach |\n|---------|----------------------|----------------------|------------------------------|\n| a       | Rent Outstanding     | Personal             | Liability                    |\n| b       | Closing Inventory    | Real                 | Asset                        |\n| c       | Sales                | Nominal              | Revenue                      |\n| d       | Bank Fixed Deposit   | Personal             | Asset                        |\n| e       | Cash                 | Real                 | Asset                        |\n| f       | Bad Debts            | Nominal              | Expense                      |\n| g       | Capital              | Personal             | Capital                      |\n| h       | Sales Tax Payable    | Personal             | Liability                    |\n| i       | Trade receivables    | Personal             | Asset                        |\n| j       | Depreciation         | Nominal              | Expense                      |\n| k       | Drawings             | Personal             | Capital - Drawings           |",
+    "chapter_number": "2.1",
+    "chapter_name": "Accounting Process",
+    "section": "Section A",
+    "category": "Theoretical & Practical",
+    "unique_id": "2.1-SectionA-TP-4",
+    "marks": 6,
+    "question_cleaned": "Show the classification of the following Accounts under traditional and accounting equation approach:\n\n| a | Rent outstanding   | g | Capital            |\n|---|--------------------|---|--------------------|\n| b | Closing Inventory  | h | Sales Tax Payable  |\n| c | Sales              | i | Trade receivables  |\n| d | Bank Fixed Deposit | j | Depreciation       |\n| e | Cash               | k | Drawings           |\n| f | Bad Debts          |   |                    |",
+    "mark_split": ""
+  },
+  {
+    "q_num": 2,
+    "question": "Give journal entries to rectify the following errors located in the books of a trader after preparing the trial balance.\n\n(i) An amount of \u20b9 13,500 received on account of interest was credited to commission account.\n(ii) A sale of \u20b9 5,920 was posted from sales book to the debit of M/s Kamal traders at \u20b9 5,290.\n(iii) \u20b9 44,000 paid for purchase of Air conditioner for the personal use of proprietor debited to Machinery A/c.\n(iv) Goods returned by customer for \u20b9 20,000. The same have been taken into stock but no entry passed in the books of accounts.",
+    "answer": "| S. No. | Particulars | Debit (\u20b9) | Credit (\u20b9) |\n|--------|-------------|-----------|------------|\n| 1 | Commission A/c | 13,500 | |\n| | To Interest Received A/c | | 13,500 |\n| | (Being interest incorrectly credited to commission account now rectified) | | |\n| 2 | M/s Kamal Traders A/c | 630 | |\n| | To Suspense A/c | | 630 |\n| | (Being credit sale of \u20b9 5,920 posted as \u20b9 5,290 now rectified) | | |\n| 3 | Drawings A/c | 44,000 | |\n| | To Machinery A/c | | 44,000 |\n| | (Being purchase of air-conditioner for personal use wrongly debited to machinery) | | |\n| 4 | Return Inwards A/c | 20,000 | |\n| | To Debtors A/c | | 20,000 |\n| | (Being omission to record return of goods by customers) | | |",
+    "chapter_number": "2.6",
+    "chapter_name": "Accounting Process",
+    "section": "Section B",
+    "category": "Theoretical & Practical",
+    "unique_id": "2.6-SectionB-TP-2",
+    "marks": 5,
+    "question_cleaned": "Give journal entries to rectify the following errors located in the books of a trader after preparing the trial balance.\n\n(i) An amount of \u20b9 13,500 received on account of interest was credited to commission account.\n(ii) A sale of \u20b9 5,920 was posted from sales book to the debit of M/s Kamal traders at \u20b9 5,290.\n(iii) \u20b9 44,000 paid for purchase of Air conditioner for the personal use of proprietor debited to Machinery A/c.\n(iv) Goods returned by customer for \u20b9 20,000. The same have been taken into stock but no entry passed in the books of accounts.",
+    "mark_split": "1+1+1+2"
+  },
+  {
+    "q_num": 7,
+    "question": "Mr. Bhatt\u2019s trial balance as on 31st March, 2024 did not agree. The difference was put to a Suspense Account. During the next trading period, the following errors were discovered: (i)   The total of the Purchases Book of one page, \u20b9 5,615 was carried forward to the next page as \u20b9 6,551. (ii)  A sale of \u20b9 462 was entered in the Sales Book as \u20b9 642 and posted to the credit of the customer. (iii) A return to creditor, \u20b9 300 was entered in the Returns Inward Book; however, the creditor\u2019s account was correctly posted. (iv)  Cash received from Geet, \u20b9 895 was posted to debit of Meet. (v)   Goods worth \u20b9 1,400 were dispatched to a customer before the close of the year but no invoice was made out. (vi)  Goods worth \u20b9 1,600 were sent on sale or return basis to a customer and entered in the Sales Book at the close of the year, the customer still had the option to return the goods. The gross profit margin was 20% on Sale. (vii) \u20b9 500 due from Mr. Manas was omitted to be taken to the trial balance. (viii) Sale of goods to Mr. Deep for \u20b9 6,000 was omitted to be recorded. You are required to give journal entries to rectify the errors in a way so as to show the current year\u2019s profit or loss correctly.",
+    "answer": "| Particulars | L.F. | Dr. \u20b9 | Cr. \u20b9 |\n|-------------|------|-------|-------|\n| (i) Suspense Account | Dr. | 936 | |\n| To Profit and Loss Adjustment A/c | | | 936 |\n| (Correction of error by which Purchase Account was over debited last year) | | | |\n| (ii) Profit & Loss Adjustment A/c | Dr. | 180 | |\n| Customer\u2019s Account | Dr. | 1,104 | |\n| To Suspense Account | | | 1,284 |\n| (Correction of the entry by which (a) Sales A/c was over credited by \u20b9 180 (b) customer was credited by \u20b9642 instead of being debited by \u20b9 462) | | | |\n| (iii) Suspense Account | Dr. | 600 | |\n| To Profit & Loss Adjustment A/c | | | 600 |\n| (Correction of error by which Returns Inward Account was debited by \u20b9 300 instead of Returns Outwards Account being credited by \u20b9 300) | | | |\n| (iv) Suspense Account | Dr. | 1,790 | |\n| To Geet Account | | | 895 |\n| To Meet Account | | | 895 |\n| (Removal or wrong debit to Meet and giving credit to Geet from whom cash was received) | | | |\n| (v) Customer\u2019s Account | Dr. | 1,400 | |\n| To Profit & Loss Adjustment A/c | | | 1,400 |\n| (Rectification of the error arising from non-preparation of invoice for goods delivered) | | | |\n| (vi) Profit & Loss Adjustment A/c | Dr. | 1,600 | |\n| To Customer\u2019s Account | | | 1,600 |\n| (The Customer\u2019s A/c credited with goods not yet purchased by him) | | | |\n| (vii) Inventory A/C | Dr. | 1,280 | |\n| To Profit & Loss Adjustment A/c | | | 1,280 |\n| (Cost of goods debited to inventory and credited to Profit & Loss Adjustment A/c) | | | |\n| (viii) Trade receivable/ Manas\u2019s Account | Dr. | 500 | |\n| To Suspense Account | | | 500 |\n| (\u20b9500 due by Manas not taken into trial balance, now rectified) | | | |\n| (ix) Deep\u2019s account/Trade receivable | Dr. | 6,000 | |\n| To Profit & Loss Adjustment A/c | | | 6,000 |\n| (Sales to Deep omitted, now rectified) | | | |\n| (x) Profit & Loss Adjustment A/c | Dr. | 8,436 | |\n| To Bhatt\u2019s Capital Account | | | 8,436 |\n| (Transfer of the Profit & Loss Adjustment A/c balance to the Capital Account) | | | |",
+    "chapter_number": "2.6",
+    "chapter_name": "Accounting Process",
+    "section": "Section B",
+    "category": "Theoretical & Practical",
+    "unique_id": "2.6-SectionB-TP-7",
+    "marks": 4,
+    "question_cleaned": "Mr. Bhatt\u2019s trial balance as on 31st March, 2024 did not agree. The difference was put to a Suspense Account. During the next trading period, the following errors were discovered: (i)   The total of the Purchases Book of one page, \u20b9 5,615 was carried forward to the next page as \u20b9 6,551. (ii)  A sale of \u20b9 462 was entered in the Sales Book as \u20b9 642 and posted to the credit of the customer. (iii) A return to creditor, \u20b9 300 was entered in the Returns Inward Book; however, the creditor\u2019s account was correctly posted. (iv)  Cash received from Geet, \u20b9 895 was posted to debit of Meet. (v)   Goods worth \u20b9 1,400 were dispatched to a customer before the close of the year but no invoice was made out. (vi)  Goods worth \u20b9 1,600 were sent on sale or return basis to a customer and entered in the Sales Book at the close of the year, the customer still had the option to return the goods. The gross profit margin was 20% on Sale. (vii) \u20b9 500 due from Mr. Manas was omitted to be taken to the trial balance. (viii) Sale of goods to Mr. Deep for \u20b9 6,000 was omitted to be recorded. You are required to give journal entries to rectify the errors in a way so as to show the current year\u2019s profit or loss correctly.",
+    "mark_split": "1+1+1+1"
+  },
+  {
+    "q_num": 3,
+    "question": "Write short notes on the following: Objectives of preparing Trial Balance.",
+    "answer": "Objectives of preparing Trial Balance\nThe preparation of trial balance has the following objectives:\n1. Checking of the arithmetical accuracy of the accounting entries: Trial Balance enables one to establish whether the posting and other accounting processes have been carried out without committing arithmetical errors. In other words, the trial balance helps to establish the arithmetical accuracy of the books.\n2. Basis for preparation of financial statements: Trial Balance forms the basis for preparing financial statements such as the Income Statement and the Balance Sheet. The Trial Balance represents all transactions relating to different accounts in a summarized form for a particular period. In case, the Trial Balance is not prepared, it will be almost impossible to prepare the financial statements to know the profit or loss made by the business during a particular period or its financial position on a particular date.\n3. Summarized ledger: Trial Balance contains the ledger balances on a particular date. Thus, the entire ledger is summarized in the form of a Trial Balance. The position of a particular account can be judged simply by looking at the Trial Balance. The ledger may be seen only when details regarding the accounts are required.",
+    "chapter_number": "2.3",
+    "chapter_name": "Accounting Process",
+    "section": "Section A",
+    "category": "Theoretical & Practical",
+    "unique_id": "2.3-SectionA-TP-3",
+    "marks": 3,
+    "question_cleaned": "Write short notes on the following: Objectives of preparing Trial Balance.",
+    "mark_split": ""
+  },
+  {
+    "q_num": 5,
+    "question": "Show the effect of increase = (+), decrease = (-) and no change= (0) on the assets of the following transactions:  \na. Purchased office furniture, payment to be made next month.  \nb. Collected cash for repair services  \nc. Goods sold on credit.  \nd. Withdrawal of cash by the owner for personal use.  \ne. Hired an employee as sales manager of the north wing.  \nf. Returned goods worth \u20b9 50,000.  \ng. One of our debtor agreed to pay his dues to Mr. C who is a creditor of the company with the same amount being due to him.  \nh. Entered into an agreement with Mehta & Co. to purchase all raw materials from their company from next year. Also give reasons for your answers.",
+    "answer": "| Sr. No. | Increase (+) / Decrease (-) / No Change (0) in Assets | Reasons |\n|---------|------------------------------------------------------|---------|\n| (a)     | +                                                    | Furniture has been purchased making it an increase in assets and also it being purchased on credit it increases liability and there is no outflow of assets like cash or bank. |\n| (b)     | +                                                    | Cash has flowed in for services provided making it an increase in assets. |\n| (c)     | +                                                    | For goods sold, it is a decrease in inventory (assets) but correspondingly there is an increase in debtors. However, there will be a net increase in assets because goods sold on profit. Though if goods are sold at cost; it will result in no change whereas if sold at below cost; it will result in decrease in assets. |\n| (d)     | -                                                    | Here cash has been withdrawn from business resulting in decrease in assets and capital. |\n| (e)     | 0                                                    | Only hiring of employee has been done resulting in no change in assets. |\n| (f)     | -                                                    | Outflow of goods has resulted in decrease in assets while money owed to creditors reduce on the liability side. |\n| (g)     | -                                                    | Both assets and liabilities reduced by same amounts meaning a decrease in assets. |\n| (h)     | 0                                                    | Only a purchase agreement has been entered into with no transaction taking place yet. |",
+    "chapter_number": "2.1",
+    "chapter_name": "Accounting Process",
+    "section": "Section A",
+    "category": "Theoretical & Practical",
+    "unique_id": "2.1-SectionA-TP-5",
+    "marks": 3,
+    "question_cleaned": "Show the effect of increase = (+), decrease = (-) and no change= (0) on the assets of the following transactions:  \na. Purchased office furniture, payment to be made next month.  \nb. Collected cash for repair services  \nc. Goods sold on credit.  \nd. Withdrawal of cash by the owner for personal use.  \ne. Hired an employee as sales manager of the north wing.  \nf. Returned goods worth \u20b9 50,000.  \ng. One of our debtor agreed to pay his dues to Mr. C who is a creditor of the company with the same amount being due to him.  \nh. Entered into an agreement with Mehta & Co. to purchase all raw materials from their company from next year. Also give reasons for your answers.",
+    "mark_split": "3"
+  },
+  {
+    "q_num": 4,
+    "question": "What are the importance of Journal?",
+    "answer": "IMPORTANCE OF JOURNAL:\n1. Chronological Order: As transactions are recorded on chronological order, one can get complete\n   information about the business transactions on time basis.\n2. Narration: Entries recorded in the journal are supported by a note termed as narration, which is a precise\n   explanation of the transaction for the proper understanding of the entry. One can know the correctness of\n   the entry through these narrations.\n3. Basis of Posting: Journal forms the basis for posting the entries in the ledger. This eases the accountant in\ntheir work and reduces the chances of error.",
+    "chapter_number": "2.1",
+    "chapter_name": "BASIC ACCOUNTING PROCEDURES \u2013 JOURNAL ENTRIES",
+    "section": "Section B",
+    "category": "Theoretical & Practical",
+    "unique_id": "2.1-SectionB-TP-2",
+    "marks": 2,
+    "question_cleaned": "What are the importance of Journal?",
+    "mark_split": ""
+  }
+]

@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "subject_code": "FR",
+    "subject_name": "Financial Reporting",
+    "paper_num": "Portionwise_3",
+    "total_marks_printed": 50,
+    "total_marks_in_paper": 50,
+    "section_a_marks": 0,
+    "section_b_marks": 50,
+    "two_section_format": false,
+    "note": "Portionwise Test: Attempt all 5 questions. Each question carries 10 marks (6 + 4 split).",
+    "blacklisted_from": [
+      "Generated_Papers/FR/FR_Mock_Paper_1.json",
+      "Generated_Papers/FR/FR_Mock_Paper_2.json",
+      "Generated_Papers/FR/FR_Mock_Paper_3.json",
+      "Generated_Papers/FR/FR_Portionwise_Test_1.json",
+      "Generated_Papers/FR/FR_Portionwise_Test_2.json"
+    ],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)"
+    ]
+  },
+  "section_a": [],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "13",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 10,
+          "internal_split": null,
+          "question": "Illustration 52 – Chain Holding (Past Exam Nov’18, Nov’22) (MTP April’22)\nPrepare the consolidated Balance Sheet as on 31st March, 20X2 of a group of companies comprising P Limited, S Limited and SS Limited. Their balance sheets on that date are given below:\n\n| (₹ in lakhs) | P Ltd. | S Ltd. | SS Ltd. |\n|--------------|--------|--------|--------|\n| Assets       |        |        |        |\n| Non-Current Assets | | | |\n| Property, Plant and Equipment | 320 | 360 | 300 |\n| Investment: | | | |\n| 32 lakhs shares in S Ltd. | 340 | | |\n| 24 Lakhs shares in SS Ltd. | | 280 | |\n| Current Assets | | | |\n| Inventories | 220 | 70 | 50 |\n| Financial Assets | | | |\n| Trade Receivables | 260 | 100 | 220 |\n| Bills Receivable | 72 | - | 30 |\n| Cash in hand and at Bank | 228 | 40 | 40 |\n| Total Assets | 1440 | 850 | 640 |\n\nEquity and Liabilities\nShareholder's Equity\nShare capital (₹10 per Share) 600 400 320\nOther Equity\nReserves 180 100 80\nRetained earnings 160 50 60\nCurrent Liabilities\nFinancial Liabilities\nTrade Payables 470 230 180\nBills Payable\nP Ltd. - - -\nSS Ltd. - - -\nTotal Equity and Liabilities: 1440, 850, 640\n\nThe following additional information is available:\n(i) P Ltd. holds 80% shares in S Ltd. and S Ltd. holds 75% shares in SS Ltd. Their holdings were acquired on 30th September, 20X1.\n(ii) The business activities of all the companies are not seasonal in nature and therefore, it can be assumed that profits are earned evenly throughout the year.\n(iii) On 1st April, 20X1 the following balances stood in the books of S Limited and SS Limited.\n\n(₹ in lakhs)\nS Limited SS Limited\nReserves: 80, Retained earnings: 20\nSS Limited Reserves: 60, Retained earnings: 30",
+          "answer": "Solution:\nConsolidated Balance Sheet of the Group as on 31st March, 20X2\n\n| Particulars                        | Note No.   | (₹ in lakh) |\n|-----------------------------------|------------|-------------|\n| ASSETS                            |            |             |\n| Non-current assets                |            |             |\n| Property, plant and equipment     |      1     |         980 |\n| Current assets                    |            |             |\n| (a) Inventory                     |      2     |         338 |\n| (b) Financial assets              |            |             |\n| Trade receivables Bills receivable|      3     |         580 |\n| Cash and cash equivalents         |      4     |           2 |\n|                                   |      5     |         308 |\n| Total assets                      |            |       2,208 |\n\nEQUITY & LIABILITIES\nEquity attributable to owners of the parent\nShare capital                       -          -           -\nOther Equity                        -          -           -\nReserves (W.N.5)                    -          -         194 \nRetained Earnings (W.N.5)           -          -       \t179.8 \nCapital Reserve (W.N.3)             -          -         \t188 \nNon-controlling interests (W.N.4)   -          -           Nil \nTotal equity                        -          -       \t1,328 \nLIABILITIES                         -          -           -\nNon-current liabilities             -          -           Nil \nCurrent liabilities                 -          -           Nil \n(a) Financial Liabilities           -          -           Nil \n(i) Trade payables                  -          -         \t880 \nTotal liabilities                   -          -         \t880 \nTotal equity and liabilities        -          -       \t2,208",
+          "chapter_number": "13",
+          "chapter_name": "CONSOLIDATED AND SEPARATE FINANCIAL STATEMENTS OF GROUP ENTITIES",
+          "unique_id": "FILE-FR-P3-Q1-full"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "10.1",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Fisheries Ltd. practices pisciculture in sweet waters (ponds, tanks and dams). The fishing activity of Fisheries Ltd. in such sweet waters consists only of catching the fishes. Comment whether such fishing activity will be covered within the scope of Ind AS 41? (RTP May'23)",
+          "answer": "Paragraph 5 of Ind AS 41, defines agricultural activity as follows:\n\n\"Agricultural activity is the management by an entity of the biological transformation and harvest of biological assets for sale or for conversion into agricultural produce or into additional biological assets.\" For fishing to qualify as agricultural activity, it must satisfy both of the below mentioned conditions:\n\na) management of biological transformation of a biological asset; and\n\nb) harvesting of biological assets for sale or for conversion into agricultural produce or into additional biological assets.\n\nTherefore, when fishing involves managed activity to grow and procreate fishes in designated areas, such fishing is an agricultural activity as per the above definition. Managing the growth of fish for subsequent sale is an agricultural activity as per Ind AS 41.\n\nIn the aforementioned scenario, only fish harvesting is managed by Fisheries Ltd. Therefore, mere fish harvesting without management of biological transformation cannot be termed as an agricultural activity as per Ind AS 41.\n\nHence, fishing in sweet waters (pond, tanks and dams) where only fishing (harvesting) is carried out without any management of biological transformation is outside the scope of Ind AS 41.",
+          "chapter_number": "10.1",
+          "chapter_name": "IND AS 115: REVENUE FROM CONTRACTS WITH CUSTOMERS",
+          "unique_id": "10.1-T-2"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "An entity enters into a contract for the sale of Product A for Rs. 10,000. As part of the contract, the entity gives the customer a $40 \\%$ discount voucher for any future purchases up to Rs. 8,000 in the next 30 days. The entity intends to offer a $10 \\%$ discount on all sales during the next 30 days as part of a seasonal promotion. The $10 \\%$ discount cannot be used in addition to the $40 \\%$ discount voucher. The entity believes there is $75 \\%$ likelihood that a customer will redeem the voucher and on an average, a customer will purchase Rs. 5000 of additional products. You are Required to determine how many performance obligations does the entity have and their standalone selling price and allocated transaction price? (MTP 5 Marks, May'20, SM, PYP 4 Marks Nov'22) (Same concepts different figures PYP $\\mathbf{5}$ Marks May'24)",
+          "answer": "Since all customers will receive a $10 \\%$ discount on purchases during the next 30 days, the only additional discount that provides the customer with a material right is the incremental discount of $30 \\%$ on the products purchased. The entity accounts for the promise to provide the incremental discount as a separate performance obligation in the contract for the sale of Product A. The entity believes there is $75 \\%$ likelihood that a customer will redeem the voucher and, on an average, a customer will purchase Rs. 5000 of additional products. Consequently, the entity's estimated stand-alone selling price of the discount voucher is Rs. 1,125 (Rs. 5000 average purchase price of additional products $\\times 30 \\%$ incremental discount $\\times 75 \\%$ likelihood of exercising the option). The stand-alone selling prices of Product A and the discount voucher and the resulting allocation of the Rs. 10,000 transaction price are as follows:\n\n| Performance obligations | Stand-alone selling price |\n| :--- | ---: |\n| Product A | Rs. 10,000 |\n| Discount voucher | $\\underline{\\text { Rs. } 1,125}$ |\n| Total | $\\underline{\\text { Rs. } 11,125}$ |\n\n| Performance obligations |  | Allocated transaction price (to nearest Rs.) |\n| :--- | :--- | :--- |\n| Product A | (Rs. $10,000 \\div$ Rs. $11,125 \\times$ Rs. 10,000 ) | Rs. 8,989 |\n| Discount voucher | (Rs. $1,125 \\div$ Rs. $11,125 \\times$ Rs. 10,000 ) | Rs. 1,011 |\n| Total |  | Rs. 10,000 |\n\nThe entity allocates Rs. 8,989 to Product A and recognizes revenue for Product A when control transfers. The entity allocates Rs. 1,011 to the discount voucher and recognizes revenue for the voucher when the customer redeems it for goods or services or when it expires.",
+          "chapter_number": "9",
+          "chapter_name": "IND AS 115: REVENUE FROM CONTRACTS WITH CUSTOMERS",
+          "unique_id": "9-T-16"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "8.2",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "An entity which follows its financial year as per the calendar year grants 1,000 share appreciation rights (SARs) each to its 40 management employees as on 1st January 20X5. The SARs provide the employees with the right to receive cash equal to the appreciation in the share price since the grant date. All of the rights vest on 31st December 20X6 and they can be exercised during 20X7 and 20X8. Management estimates that, at grant date, the fair value of each SAR is ₹ 11 and it estimates that overall 10% of the employees will leave during the two-year period. The fair values of the SARs at each year end are shown below:\n\n| Year               | Fair value at year end |\n|--------------------|------------------------|\n| 31 December 20X5   | 12                     |\n| 31 December 20X6   | 13                     |\n| 31 December 20X7   | 8                      |\n| 31 December 20X8   | 12                     |\n\n10% of employees left before the end of 20X6. On 31st December 20X7 (when the intrinsic value of each SAR was ₹ 10), six employees exercised their options; and the remaining 30 employees exercised their options at the end of 20X8 (when the intrinsic value of each SAR was equal to the fair value of ₹ 12). How much expense and liability is to be recognized at the end of each year? Pass Journal entries.",
+          "answer": "The amount recognized as an expense in each year and as a liability at each year end is as follows:\n\n| Year               | Expense ₹ | Liability ₹ | Calculation of Liability          |\n|--------------------|-----------|-------------|-----------------------------------|\n| 31 December 20X5   | 2,16,000  | 2,16,000    | = 36 x 1,000 x 12 x 1/2           |\n| 31 December 20X6   | 72,000    | 2,88,000    | = 36 x 1,000 x (13 - previous)    |\n| 31 December 20X7   | 1,62,000* | 3,90,000    | = 36 x 1,000 x (8 - previous)     |\n| 31 December 20X8   | (30,000)**| -           | Liability extinguished            |\n\n* Expense comprises an increase in the liability of ₹102,000 and cash paid to those exercising their SARs of ₹60,000 (6 x 1,000 x 10).\n** Difference of opening liability (₹3,90,000) and actual liability paid [₹3,60,000 (30 x 1,000 x 12)] is recognised to Profit and loss ie ₹30,000.\n\nJournal Entries:\n\n31 December 20X5\n\n| Account                          | Dr. ₹   | Cr. ₹   |\n|----------------------------------|---------|---------|\n| Employee benefits expenses       | Dr.     |2,16,000 |\n| To Share based payment liability |         |2,16,000 |\n|(Fair value of the SAR recognized)|         |         |\n\n31 December 20X6\n\n| Account                          | Dr. ₹   | Cr. ₹   |\n|----------------------------------|---------|---------|\n| Employee benefits expenses       | Dr.     |72,000   |\n| To Share based payment liability |         |72,000   |\n|(Fair value of the SAR re-measured)|        |         |\n\n31 December 20X7\n\n| Account                          | Dr. ₹   | Cr. ₹   |\n|----------------------------------|---------|---------|\n| Employee benefits expenses       | Dr.     |1,62,000 |\n| To Share based payment liability |         |1,62,000 |\n|(Fair value of the SAR recognized)|         |         |\n\nShare based payment liability\n\n| Account                          | Dr. ₹   | Cr. ₹   |\n|----------------------------------|---------|---------|\n| Share based payment liability    | Dr.     |60,000   |\n| To Cash                          |         |60,000   |\n|(Settlement of SAR)               |         |         |\n\n31 December 20X8\n\nShare based payment liability\n\n| Account                          | Dr. ₹   | Cr. ₹   |\n|----------------------------------|---------|---------|\n| Share based payment liability    | Dr.     |30,000   |\n| To Employee benefits expenses    |         |30,000   |\n|(Fair value of the SAR recognized)|         |         |\n\nShare based payment liability\n\n| Account                          | Dr. ₹   | Cr. ₹   |\n|----------------------------------|---------|---------|\n| Share based payment liability    | Dr.     |3,60,000 |\n| To Cash                          |         |3,60,000 |\n|(Settlement of SAR)               |         |         |\n\nNote: Last two entries can be combined.",
+          "chapter_number": "8.2",
+          "chapter_name": "IND AS 33: EARNINGS PER SHARE",
+          "unique_id": "FILE-FR-P3-Q3a"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "## Question 3 (MTP 6 Marks, Apr'22, SM)\n\nTwo parties structure a joint arrangement in an incorporated entity i.e. Entity A in which each party has a $50 \\%$ ownership interest. The purpose of the arrangement is to manufacture materials required by the parties for their own, individual manufacturing processes. The arrangement ensures that the parties operate the facility that produces the materials to the quantity and quality specifications of the parties. The legal form of Entity A (an incorporated entity) through which the activities are conducted initially indicates that the assets and liabilities held in Entity A are the assets and liabilities of Entity A. The contractual arrangement between the parties does not specify that the parties have rights to the assets or obligations for the liabilities of Entity A. There are following other relevant facts and circumstances applicable in this case:\n\n- The parties agreed to purchase all the output produced by Entity A in a ratio of 50:50. Entity A cannot sell any of the output to third parties, unless this is approved by the two parties to the arrangement. Because the purpose of the arrangement is to provide the parties with output they require, such sales to third parties are expected to be uncommon and not material.\n\n- The price of the output sold to the parties is set by both parties at a level that is designed to cover the costs of production and administrative expenses incurred by Entity A. Based on this operating model, the arrangement is intended to operate at a break-even level.\n\nBased on the above fact pattern, determine whether the arrangement is a joint operation or a joint venture? Will your conclusion change in case Entity A sells all its output to third parties instead of its owners?",
+          "answer": "The legal form of Entity A and the terms of the contractual arrangement indicate that the arrangement is a joint venture. However, the other relevant facts and circumstances mentioned above indicates that:\n\n- the obligation of the parties to purchase all the output produced by Entity A reflects the exclusive dependence of Entity A upon the parties for the generation of cash flows and, thus, the parties have an obligation to fund the settlement of the liabilities of Entity A.\n\n- the fact that the parties have rights to all the output produced by Entity A means that the parties are consuming, and therefore have rights to, all the economic benefits of the assets of Entity A.\n\nThese facts and circumstances indicate that the arrangement is a joint operation.\n\nThe conclusion about the classification of the joint arrangement in these circumstances would not change if, instead of the parties using their share of the output themselves in a subsequent manufacturing process, the parties sold their share of the output to third parties.\n\nIf the parties changed the terms of the contractual arrangement so that the arrangement was able to sell output to third parties, this would result in Entity A assuming demand, inventory and credit risks. In that scenario, such a change in the facts and circumstances would require reassessment of the classification of the joint arrangement. Such facts and circumstances would indicate that the arrangement is a joint venture.",
+          "chapter_number": "13",
+          "chapter_name": "CONSOLIDATED AND SEPARATE FINANCIAL STATEMENTS OF GROUP ENTITIES",
+          "unique_id": "13-T-3"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "8.2",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "On 31st March, 20X1, Vanshika Ltd. granted options to its employees that gave them right to subscribe for equity shares in next 3 years at Rs. 112 per share. It also issued 2 lakhs warrants convertible into shares at Rs. 84.\n\nAs on 31st March, 20X2:\n\n| Options outstanding | $\textbf{1 , 4 0 , 0 0 0}$ |\n| :--- | :--- |\n| Profit after Tax, attributable to equity shareholders | Rs. $\textbf{9 1 , 2 0 , 0 0 0}$ |\n| Average market price of equity shares | Rs. $\textbf{1 4 0}$ |\n| Issued Equity share capital (Face value Rs. 10 each) | Rs. $50,00,000$ |\n\nThere were no grants, exercises or lapses of options during the year. Also, none of the warrants was converted into shares during the year.\n\nYou are required to calculate Basic and Diluted EPS as at 31st March, 20X2. (6 Marks)",
+          "answer": "## Calculation of Basic Earnings Per Share (EPS)\n\n|  | 20X1-20X2 |\n| :--- | ---: |\n| Profit after tax | $Rs. 91,20,000$ |\n| Number of shares $(Rs. 50,00,000 / Rs. 10$ per share $)$ | $5,00,000$ |\n| Basic EPS | $Rs. 18.24$ |\n\nCalculation of Diluted EPS\n\n| (i) Adjusted number of shares |  |\n| :--- | :--- |\n| a. Number of shares under options: |  |\n| Issued at full market price $[(1,40,000 \\times 112) / 140]=1,12,000$ |  |\n| Options issued at nil consideration (dilutive) ( $1,40,000-1,12,000$ ) | 28,000 |\n| b. Number of shares under warrants: |  |\n| Issued at full market price $[(2,00,000 \\times 84) / 140]=1,20,000$ |  |\n| Warrants issued at nil consideration (dilutive) (2,00,000 - 1,20,000) | 80,000 |\n| Number of dilutive shares under options and warrants | $\\underline{1,08,000}$ |\n| (ii) Calculation of Diluted EPS: |  |\n| Number of equity shares for basic EPS | 5,00,000 |\n| Number of dilutive shares under options and warrants | $\\underline{1,08,000}$ |\n| Adjusted number of shares (A) | $\\underline{6,08,000}$ |\n| Profit after tax (B) | Rs. 91,20,000 |\n| Diluted EPS (B/A) | Rs. 15 |",
+          "chapter_number": "8.2",
+          "chapter_name": "IND AS 33: EARNINGS PER SHARE",
+          "unique_id": "8.2-T-14"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Entity sells gym memberships for Rs. $\textbf{7 , 5 0 0}$ per year to 100 customers, with an option to renew at a discount in 2nd and 3rd years at Rs. 6,000 per year. Entity estimates an annual attrition rate of $50 \\%$ each year.\n\nDetermine the amount of revenue to be recognized in the first year and the amount of contract liability against the option given to the customer for renewing the membership at discount. (MTP 5 Marks Apr'22, SM)",
+          "answer": "Allocated price per unit (year) is calculated as follows:\n\nTotal estimated memberships is 175 members (Year $1=100$; Year $2=50$; Year $3=25$ ) 175\n\nTotal consideration is Rs. 12,00,000 $\textbackslash{(}100 \\times 7,500\\textbackslash{)}+(50 \\times 6,000)+(25 \\times 6,000)\\textbackslash{)}$\n\nAllocated price per membership is Rs. 6,857 approx. ( $12,00,000 / 175$ )\n\nBasis on above, it is to be noted that although entity has collected Rs. 7,500 but revenue can be recognized at Rs. 6,857 approx. per membership and remaining Rs. 643 should be recorded as contract liability against option given to customer for renewing their membership at discount.",
+          "chapter_number": "9",
+          "chapter_name": "IND AS 115: REVENUE FROM CONTRACTS WITH CUSTOMERS",
+          "unique_id": "9-T-12"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "9",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Lessee enters into a 10-year lease for 5,000 square metres of office space. The annual lease payments are ₹1,00,000 payable at the end of each year. The interest rate implicit in the lease cannot be readily determined. Lessee's incremental borrowing rate at the commencement date is 6% p.a. At the beginning of Year 7, Lessee and Lessor agree to amend the original lease by extending the contractual lease term by four years. The annual lease payments are unchanged (i.e., ₹1,00,000 payable at the end of each year from Year 7 to Year 14). Lessee's incremental borrowing rate at the beginning of Year 7 is 7% p.a. How should the said modification be accounted for? Pass the journal entry for the said modification.",
+          "answer": "Solution: At the effective date of the modification (at the beginning of Year 7), Lessee remeasures the lease liability based on: (a) An eight-year remaining lease term (b) Annual payments of ₹1,00,000 and (c) Lessee’s incremental borrowing rate of 7% p.a. The modified lease liability equals ₹5,97,100 (W.N.1). The lease liability immediately before the modification (including the recognition of the interest expense until the end of Year 6) is ₹3,46,355 (W.N.3). Lessee recognises the difference between the carrying amount of the modified lease liability and the carrying amount of the lease liability immediately before the modification (i.e., ₹2,50,745) (W.N. 4) as an adjustment to the ROU Asset.\n\nWorking Notes:\n\n1. Calculation of modified lease liability:\n\n| Year | Lease Payment (A) | Present value factor @ 7% (B) | Present value of lease payments (A*B=C) |\n|------|-------------------|-------------------------------|----------------------------------------|\n| 7    | 100,000           | 0.935                         | 93,500                                 |\n| 8    | 100,000           | 0.873                         | 87,300                                 |\n| 9    | 100,000           | 0.816                         | 81,600                                 |\n| 10   | 100,000           | 0.763                         | 76,300                                 |\n| 11   | 100,000           | 0.713                         | 71,300                                 |\n| 12   | 100,000           | 0.666                         | 66,600                                 |\n| 13   | 100,000           | 0.623                         | 62,300                                 |\n| 14   | 100,000           | 0.582                         | 58,200                                 |\n|      |                   |                               | **5,97,100**                           |\n\n2. Calculation of Lease liability as at commencement date:\n\n| Year | Lease Payment (A) | Present value factor @6% (B) | Present value of lease payments (A x B = C) |\n|------|-------------------|------------------------------|--------------------------------------------|\n| 1    | 100,000           | 0.943                        | **94,300**                                 |\n\n3. Calculation of Lease liability immediately before modification date:\n\n| Year | Opening liability (A) | Interest @6% (B) = [A x 6%] | Lease payments (C) | Closing liability (D) = [A+B-C] |\n|------|-----------------------|-----------------------------|--------------------|-------------------------------|\n| 1    | 7,35,900              | 44,154                      | 100,000            | **6,80,054**                  |\n| 2    | 6,80,054              | 40,803                      | 100,000            | **6,20,857**                  |\n| 3    | 6,20,857              | 37,251                      | 100,000            | **5,58,108**                  |\n| 4    | 5,58,108              | 33,486                      | 100,000            | **4,91,594**                  |\n| 5    | 4,91,594              | 29,496                      | 100,000            | **4,21,090**                  |\n| 6    | 4,21,090              | 25,265                      | 100,000            | **3,46,355**                  |\n\nLease liability as at modification date: **3,46,355**\n\n4. Adjustment to ROU asset:\n\nModified Lease liability: **5,97,100**\nOriginal Lease liability as at modification date: **(3,46,355)**\nAdjustment to ROU asset: **2,50,745**\n\nThe ROU asset will be increased by ₹2,50,745 on the date of modification.",
+          "chapter_number": "9",
+          "chapter_name": "IND AS 115: REVENUE FROM CONTRACTS WITH CUSTOMERS",
+          "unique_id": "FILE-FR-P3-Q5a"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "An entity opens a new factory and receives a government grant of Rs. 15,000 in respect of capital equipment costing Rs. $1,00,000$. It depreciates all plant and machinery at $20 \\%$ per annum on straight-line basis. Show the statement of profit and loss and balance sheet extracts in respect of the grant for first year under both the methods as per Ind AS 20. (MTP 6 Marks Mar'23,SM)",
+          "answer": "(a) When grant is treated as deferred income\n\nStatement of profit and loss - An extract\n\n|  | $Rs.$ |\n| :--- | ---: |\n| Depreciation $(Rs. 1,00,000 \\times 20 \\%)$ | $(20,000)$ |\n| Government grant credit (W.N.1) | 3,000 |\n\n\n\nBalance Sheet - An extract\n\n|  |  | Rs. |\n| :--- | :--- | :--- |\n| Non-current assets |  |  |\n| Property, plant and equipment | 1,00,000 |  |\n| Less: Accumulated depreciation | $(1,00,000 \\times 20 \\%)(20,000)$ | $\\underline{80,000}$ |\n|  |  | XX |\n| Non-current liabilities |  |  |\n| Government grant | [12,000-3,000 (current liability)] | 9,000 |\n\n\n\n| Current liabilities |  |  |\n| :--- | :--- | ---: |\n| Government grant | $(15,000 \\times 20 \\%)$ | 3,000 |\n|  |  | $\\underline{\\mathrm{XX}}$ |\n\n\n\n## Working Note:\n\n1. Government grants deferred income account\n\n|  | $Rs.$ |  | $Rs.$ |\n| :---: | ---: | :--- | ---: |\n| To Profit or loss $(15,000 \\times 20 \\%)$ | 3,000 | By Grant cash received | 15,000 |\n| To Balance c/f | $\\underline{12,000}$ |  |  |\n|  | $\\underline{15,000}$ |  | $\\underline{15,000}$ |\n\n(b) When grant is deducted from cost of the asset\n\nStatement of profit and loss - An extract\n\n|  | $Rs.$ |\n| :--- | :---: |\n| Depreciation $[(Rs. 1,00,000-15,000) \\times 20 \\%]$ | $(17,000)$ |\n\n\n\nBalance Sheet - An extract\n\n|  |  | $Rs.$ |\n| :--- | ---: | ---: |\n| Non-current assets |  |  |\n| Property, plant and equipment | $(1,00,000-15,000) 85,000$ |  |\n| Less: Accumulated depreciation | $(17,000)$ | 68,000 |",
+          "chapter_number": "10.2",
+          "chapter_name": "IND AS 20: ACCOUNTING FOR GOVERNMENT GRANTS AND DISCLOSURE OF GOVERNMENT ASSISSTANCE",
+          "unique_id": "10.2-T-4"
+        }
+      ]
+    }
+  ]
+}

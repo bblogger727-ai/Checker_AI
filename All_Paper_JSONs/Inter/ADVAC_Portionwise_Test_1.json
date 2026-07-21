@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "subject_code": "ADVAC",
+    "subject_name": "Advanced Accounting",
+    "paper_num": "Portionwise_1",
+    "total_marks_printed": 50,
+    "total_marks_in_paper": 50,
+    "section_a_marks": 0,
+    "section_b_marks": 50,
+    "two_section_format": false,
+    "note": "Portionwise Test: Attempt all 5 questions. Each question carries 10 marks (6 + 4 split).",
+    "blacklisted_from": [],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)"
+    ]
+  },
+  "section_a": [],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "3",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "As per the revised scheme effective from accounting periods commencing on or after April 1,2024, classify non-company entities for the purpose of applicability of Accounting Standards. Briefly explain the criteria for each category. (RTP Sep'25)",
+          "answer": "The revised scheme for applicability of Accounting Standards to Non-company entities shall come into effect in respect of accounting periods commencing on or after April 1, 2024, which is as under:\n\n1. For the purpose of applicability of Accounting Standards, Non-company entities are classified into two categories, viz., Micro, Small and Medium Sized Entities (MSMEs) and Large entities.\n\n2. Micro, Small and Medium Sized Entity (MSME) means, a non-company entity:\n\n(i) whose equity or debt securities are not listed or are not in the process of listing on any stock exchange, whether in India or outside India;\n\n(ii) which is not a bank, financial institution or an insurance company;\n\n(iii) whose turnover (excluding other income) does not exceed two hundred and fifty crore rupees in the immediately preceding accounting year;\n\n(iv) which does not have borrowings in excess of fifty crore rupees at any time during the immediately preceding accounting year; and\n\n(v) which is not a holding or subsidiary of an entity which is not a micro, small and medium-sized entity.\n\nExplanation.- For the purposes of this clause, a non-company entity shall qualify as a Micro, Small and Medium Sized entity, if the conditions mentioned therein are satisfied as at the end of the relevant accounting period. Large entity is a non-company entity that is not an MSME.\n\nThe terms 'Small and Medium Enterprise' and 'SME' used in Accounting Standards shall be read as 'Micro, Small and Medium size entity' and 'MSME', respectively. Further, the terms Level II, Level III and Level IV entities used in Accounting Standards shall be read as 'Micro, Small and Medium Sized Entity' and Level I entity shall be read as a 'Large' entity.",
+          "chapter_number": "3",
+          "chapter_name": "APPLICABILITY OF ACCOUNTING STANDARDS",
+          "unique_id": "3-T-5"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "In the books of Rani Ltd., closing inventory as on $\\mathbf{3 1 . 0 3 . 2 0 X X}$ amounts to \\boldsymbol{Rs.} \\mathbf{1 , 7 5 , 0 0 0}$ (valued based on FIFO method). The Company decides to change from FIFO method to weighted average method for ascertaining the costs of inventory from the year 20XX-XX. On the basis of weighted average method, closing inventory as on 31.03 .20 XX amounts to $Rs. 1,59,000$. Realizable value of the inventory as on 31.03 .20 XX amounts to Rs.2,07,000. Discuss disclosure requirements of change in accounting policy as per AS 1. (MTP 5 Marks Nov '21, Oct'18, RTP May 23, PYP 5 Marks Dec'21, SM)",
+          "answer": "As per AS 1 \"Disclosure of Accounting Policies\", any change in an accounting policy which has a material effect should be disclosed in the financial statements. The amount by which any item in the financial statements is affected by such change should also be disclosed to the extent ascertainable. Where such amount is not ascertainable, wholly or in part, the fact should be indicated. Thus Rani Ltd. should disclose the change in valuation method of inventory and its effect on financial statements. The company may disclose the change in accounting policy in the following manner:\n\n\"The company values its inventory at lower of cost and net realizable value. Since net realizable value of all items of inventory in the current year was greater than respective costs, the company valued its inventory at cost. In the present year i.e. 20 XX -XX, the company has changed to weighted average method, which better reflects the consumption pattern of inventory, for ascertaining inventory costs from the earlier practice of using FIFO for the purpose. The change in policy has reduced current profit and value of inventory by Rs.16,000 (1,75,000-1,59,000).\"",
+          "chapter_number": "4.1",
+          "chapter_name": "AS 1- DISCLOSURE OF ACCOUNTING POLICIES",
+          "unique_id": "4.1-T-2"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "2",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Explain in brief, the alternative measurement bases, for determining the value at which an element can be recognized in the Balance Sheet or Statement of Profit and Loss. (MTP 5 Marks, March '19 & April 19, March '21, Oct '23, RTP Nov 18)",
+          "answer": "The Framework for Recognition and Presentation of Financial statements recognizes four alternative measurement bases for the purpose of determining the value at which an element can be recognized in the balance sheet or statement of profit and loss. These bases are: (i)Historical Cost; (ii)Current cost (iii) Realizable (Settlement) Value and (iv) Present Value.\n\nA brief explanation of each measurement basis is as follows:\n\n1. Historical Cost: Historical cost means acquisition price. According to this, assets are recorded at an amount of cash or cash equivalent paid or the fair value of the asset at the time of acquisition. Liabilities are generally recorded at the amount of proceeds received in exchange for the obligation.\n\n2. Current Cost: Current cost gives an alternative measurement basis. Assets are carried out at the amount of cash or cash equivalent that would have to be paid if the same or an equivalent asset was acquired currently. Liabilities are carried at the undiscounted amount of cash or cash equivalents that would be required to settle the obligation currently.\n\n3. Realizable (Settlement) Value: As per realizable value, assets are carried at the amount of cash or cash equivalents that could currently be obtained by selling the assets in an orderly disposal. Liabilities are carried at their settlement values; i.e. the undiscounted amount of cash or cash equivalents paid to satisfy the liabilities in the normal course of business.\n\n4. Present Value: Under present value convention, assets are carried at present value of future net cash flows generated by the concerned assets in the normal course of business. Liabilities under this convention are carried at present value of future net cash flows that are expected to be required to settle the liability in the normal course of business.",
+          "chapter_number": "2",
+          "chapter_name": "FRAMEWORK FOR PREPARATION AND PRESENTATION OF FINANCIAL STATEMENTS",
+          "unique_id": "2-T-5"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "(MTP 5 Marks March '23, RTP Nov '20) (Same concept different figures RTP May'20, RTP Nov'18, SM)\n\n(i) On the basis of provisions of AS 18 'Related Party Disclosures': Identify the related parties in the following cases:\n\nX Limited holds $60 \\%$ shares of Y Limited\n\nY Limited holds 55\\% shares of W Limited\n\nZ Limited holds $35 \\%$ shares of W Limited\n\n(ii) Himalaya Limited sold goods for Rs. 40 Lakhs to Aravalli Limited during financial year ended on March 31, 20XX. The Managing Director of Himalaya Limited owns $80 \\%$ shares of Aravalli Limited. The sales were made to Aravalli Limited at normal selling prices followed by Himalaya Limited. The chief accountant of Himalaya Limited contends that these sales need not require a different treatment from the other sales made by the company and hence no disclosure is necessary as per AS 18. You are required to comment on this.",
+          "answer": "(i) X Ltd., Y Ltd. \\& W Ltd. are related to each other. Z Ltd. \\& W Ltd. are related to each other by virtue of associate relationship. However, neither X Ltd. or Y Ltd. is related to Z Ltd. and vice versa since neither control nor significant influence exists between them.\n\n(ii) Himalaya Ltd. and Aravalli Ltd are related parties since key management personnel of Himalaya Ltd. i.e. its managing director holds $80 \\%$ in Aravalli Ltd. and hence disclosure of transaction between them is required irrespective of whether the transaction was done at normal selling price. Hence the contention of Chief Accountant of Himalaya Ltd that these sales require no disclosure under related party Transactions, is wrong.",
+          "chapter_number": "4.4",
+          "chapter_name": "AS 18- RELATED PARTY DISCLOSURES",
+          "unique_id": "4.4-T-4"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "4",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Prepare a segmental report for publication in Diversifiers Ltd. from the following details of the company's three divisions and the head office:\n\n1) Forging Shop Division\n   Sales to Bright Bar Division 4,575\n   Other Domestic Sales 90\n   Export Sales 6,135\n\n2) Bright Bar Division\n   Sales to Fitting Division 45\n   Export Sales to Rwanda 300\n\n3) Fitting Division\n   Export Sales to Maldives 270\n\n| Particulars                      | Head Office \u20b9('000) | Forging Shop Division \u20b9('000) | Bright Bar Division \u20b9('000) | Fitting Division \u20b9('000) |\n|---------------------------------|---------------------|-------------------------------|-----------------------------|--------------------------|\n| Pre-tax operating result        |                     | 240                           | 30                          | (12)                     |\n| Head office cost reallocated    |                     | 72                            | 36                          | 36                       |\n| Interest costs                  |                     | 6                             | 8                           | 2                        |\n| Fixed assets                    | 75                  | 300                           | 60                          | 180                      |\n| Net current assets              | 72                  | 180                           | 60                          | 135                      |\n| Long-term liabilities           | 57                  | 30                            | 15                          |                          |",
+          "answer": "Diversifiers Ltd. Segmental Report\n\n| Particulars                        | Forging shop | Bright Bar | Fitting | Inter Segment Eliminations | Consolidated Total |\n|-----------------------------------|--------------|------------|---------|----------------------------|--------------------|\n| Segment Revenue                   |              |            |         |                            |                    |\n| Sales:                            |              |            |         |                            |                    |\n| Domestic                          | 90           | -          | -       | -                          | 90                 |\n| Export                            | 6,135        | 300        | 270     | -                          | 6,705              |\n| External Sales                    | 6,225        | 300        | 270     | -                          | 6,795              |\n| Inter-Segment Sales               | 4,575        | 45         | -       | 4,620                      | -                  |\n| Total Revenue                     | 10,800       | 345        | 270     | 4,620                      | 6,795              |\n| Segment Result (Given)            | 240          | 30         | (12)    |                            | 258                |\n| Head Office Expenses              |              |            |         |                            | (144)              |\n| Operating Profit                  |              |            |         |                            | 114                |\n| Interest Expense                  |              |            |         |                            | (16)               |\n| Profit Before Tax                 |              |            |         |                            | 98                 |\n| Information in Relation           |              |            |         |                            |                    |\n| to Assets and Liabilities:        |              |            |         |                            |                    |\n| Fixed Assets                      | 300          | 60         | 180     | -                          | 540                |\n| Net Current Assets                | 180          | 60         | 135     | -                          | 375                |\n| Segment assets                    | 480          | 120        | 315     | -                          | 915                |\n| Unallocated Corporate             |              |            |         |                            |                    |\n| Assets (75 + 72)                  | -            | -          | -       |                            | 147                |\n| Total assets                      |              |            |         |                            | 1,062              |\n| Segment liabilities               | 30           | 15         | 180     | -                          | 225                |\n| Unallocated corporate liabilities |              |            |         |                            | 57                 |\n| Total liabilities                 |              |            |         |                            | 282                |\n\nSales Revenue by Geographical Market\n\n|                      | Home Sales | Export forging division | Sales (by shop) | Export to Rwanda | Export to Maldives | Consolidated Total |\n|----------------------|------------|-------------------------|-----------------|------------------|--------------------|--------------------|\n| External sales       | 90         | 6,135                   | 300             | 270              |                    | 6,795              |",
+          "chapter_number": "4.1",
+          "chapter_name": "AS 1- DISCLOSURE OF ACCOUNTING POLICIES",
+          "unique_id": "IMG-ADVAC-Q3a"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "## Question 5 (PYP 4 Marks Jan'25)\n\nThe following information is provided for the year ended 31st March, 2026:\n\n(i) AX Limited holds $70 \\%$ shares of BX Limited\n\n(ii) BX Limited holds $30 \\%$ shares of CX Limited\n\n(iii) DX Limited holds $40 \\%$ shares of in CX Limited\n\n(iv) DX Limited holds $49 \\%$ shares in EX Limited\n\nYou are required to:\n\n(i) Identity the related parties for the reporting entities - AX Limited, CX Limited and EX Limited.\n\n(ii) If DX Limited would have sold its investment in EX Limited on 1st October, 2025, but goods were continued to be supplied by DX Limited to EX Limited throughout the year, will this scenario change your answer with respect to any of the reporting entity mentioned in point (i)?\n\nGive reasons for your answer as per AS 18.",
+          "answer": "(i)\n\n| Reporting entity | Related party |\n| :--- | :--- |\n| AX Limited | BX Limited (AX Limited controls BX Limited directly as holding company <br> CX Limited (AX Limited has significant influence in CX Limited indirectly through BX Limited) |\n| CX Limited | AX Limited (AX Limited has significant influence in CX Limited indirectly through BX Limited) <br> BX Limited (BX Limited has significant influence in CX Limited) <br> DX Limited (DX Limited holds 40\\% shares, means substantial interest of more than or equal to $20 \\%$, hence significant influence exists in this case) |\n| EX Limited | DX Limited (DX Limited holds 49\\% shares, means substantial interest of more than or equal to $20 \\%$, hence significant influence exists in this case) |\n\n(ii) No, DX would still be a related party of EX Limited EX Limited will report DX Limited as a related party as per AS 18. However, the transaction for the period in which the related party relationship exists will only be disclosed.\n\nExam insights: Students often mistakenly credit an expense account instead of the bank account when journalizing share buybacks. Always remember that buybacks involve a cash payment, so debit the equity accounts and credit bank to reflect the outflow correctly.",
+          "chapter_number": "4.4",
+          "chapter_name": "AS 18- RELATED PARTY DISCLOSURES",
+          "unique_id": "4.4-T-5"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "4",
+      "sub_questions": [
+        {
+          "label": "\u2014",
+          "marks": 10,
+          "internal_split": null,
+          "question": "Question 18\nFrom the following Balance Sheets and information, prepare Cash Flow Statement of Ryan Ltd. by Indirect method for the year ended 31st March, 20X1:\n\n| Particulars | Notes | 31st March 20X1 | 31st March 20X0 |\n|-------------|-------|-----------------|-----------------|\n| Equity and Liabilities | | | |\n| Shareholders' funds | | | |\n| A. Share capital | 1 | 6,00,000 | 7,00,000 |\n| B. Reserves and Surplus | 2 | 4,20,000 | 3,00,000 |\n| Non-current liabilities | | | |\n| Long term borrowings | 3 | 2,00,000 | - |\n| Current liabilities | | | |\n| A. Trade Payables | | 1,15,000 | 1,10,000 |\n| B. Other current liabilities | 4 | 30,000 | 80,000 |\n| C. Short term provision (provision for tax) | 5 | 95,000 | 60,000 |\n| Total | | 14,60,000 | 12,50,000 |\n| Assets | | | |\n| Non-current assets | | | |\n| A. Property, plant and Equipment | 5 | 9,15,000 | 7,00,000 |\n| B. Non-Current Investments | | 50,000 | 80,000 |\n| Current assets | | | |\n| A. Inventories | | 95,000 | 90,000 |\n| B. Trade receivables | | 2,50,000 | 2,25,000 |\n| C. Cash and Cash equivalents | | 50,000 | 90,000 |\n| D. Other Current assets | | 1,00,000 | 65,000 |\n| Total | | 14,60,000 | 12,50,000 |\n\nNotes to accounts:\n\n1. Share capital\n   - Equity share capital: 6,00,000 (31st March, 20X1), 5,00,000 (31st March, 20X0)\n   - 10% Redeemable Preference share capital: - (31st March, 20X1), 2,00,000 (31st March, 20X0)\n   - Total: 6,00,000 (31st March, 20X1), 7,00,000 (31st March, 20X0)\n\n2. Reserves and Surplus\n   - Capital redemption reserve: 1,00,000 (31st March, 20X1), - (31st March, 20X0)\n   - Capital reserve: 70,000 (31st March, 20X1), - (31st March, 20X0)\n   - General reserve: 1,50,000 (31st March, 20X1), 2,50,000 (31st March, 20X0)\n   - Profit and Loss account: 1,00,000 (31st March, 20X1), 50,000 (31st March, 20X0)\n   - Total: 4,20,000 (31st March, 20X1), 3,00,000 (31st March, 20X0)\n\n3. Long term borrowings\n   - 9% Debentures: 2,00,000 (31st March, 20X1), - (31st March, 20X0)\n\n4. Other current liabilities\n   - Dividend payable: - (31st March, 20X1), 60,000 (31st March, 20X0)\n   - Liabilities for expenses: 30,000 (31st March, 20X1), 20,000 (31st March, 20X0)\n   - Total: 30,000 (31st March, 20X1), 80,000 (31st March, 20X0)\n\n5. Property, plant and equipment\n   - Plant and machinery: 7,65,000 (31st March, 20X1), 5,00,000 (31st March, 20X0)\n   - Land and building: 1,50,000 (31st March, 20X1), 2,00,000 (31st March, 20X0)\n   - Net carrying value: 9,15,000 (31st March, 20X1), 7,00,000 (31st March, 20X0)\n\nAdditional Information:\n(i) A piece of land has been sold out for 1,50,000 (Cost = 1,20,000) and the balance land was revalued. Capital Reserve consisted of profit on revaluation of land.\n(ii) On 1st April, 20X0 a plant was sold for 90,000 (Original Cost = 70,000 and W.D.V. = 50,000) and Debentures worth 1 lakh were issued at par as part consideration for plant of 4.5 lakhs acquired.\n(iii) Part of the investments (Cost = 50,000) was sold for 70,000.\n(iv) Pre-acquisition dividend received 5,000 was adjusted against cost of investment.\n(v) Interim dividend was declared and paid @ 15% during the current year.\n(vi) Income-tax liability for the current year was estimated at 1,35,000.\n(vii) Depreciation @ 15% has been charged on Plant and Machinery but no depreciation has been charged on Building.",
+          "answer": "Cash Flow Statement of Ryan Limited For the year ended 31st March, 20X1\n\n| Particulars | Amount (\u20b9) |\n|-------------|------------|\n| Cash flow from operating activities Net Profit before taxation (W.N.1) | 2,75,000 |\n| Adjustment for | |\n| Depreciation (W.N.3) | 1,35,000 |\n| Profit on sale of land | (30,000) |\n| Profit on sale of plant (W.N.3) | (40,000) |\n| Profit on sale of investments (W.N.4) | (20,000) |\n| Interest on debentures (2,00,000 X 9%) | 18,000 |\n| Operating profit before working capital changes | 3,38,000 |\n| Increase in inventory | (5,000) |\n| Increase in trade receivables | (25,000) |\n| Increase in Other current assets (W.N.9) Increase in Trade payables | (35,000) |\n| Increase in liabilities for expenses | 5,000 |\n| Cash generated from operations | 10,000 |\n| Income taxes paid (W.N.8) | (1,00,000) |\n| Net cash generated from operating activities | 1,88,000 |\n| Cash flow from investing activities | |\n| Proceeds from sale of land (W.N.2) | 1,50,000 |\n| Proceeds from sale of plant (W.N.3) | 90,000 |\n| Proceeds from sale of investments (W.N.4) | 70,000 |\n| Purchase of plant (W.N.3) | (3,50,000) |\n| Purchase of investments (W.N.4) | (25,000) |\n| Pre-acquisition dividend received (W.N.4) | 5,000 |\n| Net cash used in investing activities | (60,000) |\n| Cash flow from financing activities | |\n| Proceeds from issue of equity shares (6,00,000 \u2013 5,00,000) | 1,00,000 |\n| Proceeds from issue of debentures (2,00,000 \u2013 1,00,000) | 1,00,000 |\n| Redemption of preference shares | (2,00,000) |\n| Dividends paid | (1,50,000) |\n| Interest paid on debentures | (18,000) |\n| Net cash used in financing activities | (1,68,000) |\n| Net decrease in cash and cash equivalents | (40,000) |\n| Cash and cash equivalents at the beginning of the year | 90,000 |\n| Cash and Cash equivalents at the end of the year | 50,000 |\n\nWorking Notes:\n\n1. Net profit before taxation\n   - Retained profit: 1,00,000\n   - Less: Balance as on 31.3.20X0: (50,000)\n   - Provision for taxation: 1,35,000\n   - Dividend: 90,000\n   - Total: 2,75,000\n\n2. Land and Building Account\n\n| Particulars | Amount (\u20b9) |\n|-------------|------------|\n| To Balance b/d | 2,00,000 |\n| To Profit and Loss A/c (Profit on sale) | 30,000 |\n| To Capital reserve (Revaluation profit) | 70,000 |\n| By Cash (Sale) | 1,50,000 |\n| By Balance c/d | 1,50,000 |\n| Total | 3,00,000 |\n\n3. Plant and Machinery Account\n\n| Particulars | Amount (\u20b9) |\n|-------------|------------|\n| To Balance b/d | 5,00,000 |\n| To Profit and loss account | 40,000 |\n| To Debentures | 1,00,000 |\n| To Bank | 3,50,000 |\n| By Cash (Sale) | 90,000 |\n| By Depreciation | 1,35,000 |\n| By Balance c/d | 7,65,000 |\n| Total | 9,90,000 |\n\n4. Investments Account\n\n| Particulars | Amount (\u20b9) |\n|-------------|------------|\n| To Balance b/d | 80,000 |\n| To Profit and loss account | 20,000 |\n| To Bank (Balancing figure) | 25,000 |\n| By Cash (Sale) | 70,000 |\n| By Dividend (Pre-acquisition) | 5,000 |\n| By Balance c/d | 50,000 |\n| Total | 1,25,000 |\n\n5. Capital Reserve Account\n\n| Particulars | Amount (\u20b9) |\n|-------------|------------|\n| To Balance c/d | 70,000 |\n| By Profit on revaluation of land | 70,000 |\n| Total | 70,000 |\n\n6. General Reserve Account\n\n| Particulars | Amount (\u20b9) |\n|-------------|------------|\n| To Capital redemption reserve | 1,00,000 |\n| To Balance c/d | 1,50,000 |\n| By Balance b/d | 2,50,000 |\n| Total | 2,50,000 |\n\n7. Dividend payable Account\n\n| Particulars | Amount (\u20b9) |\n|-------------|------------|\n| To Bank (Balancing figure) | 1,50,000 |\n| By Balance b/d | 60,000 |\n| By Profit and loss account | 90,000 |\n| Total | 1,50,000 |\n\n8. Provision for Taxation Account\n\n| Particulars | Amount (\u20b9) |\n|-------------|------------|\n| To Bank (Balancing figure) | 1,00,000 |\n| To Balance c/d | 95,000 |\n| By Balance b/d | 60,000 |\n| By Profit and loss account | 1,35,000 |\n| Total | 1,95,000 |\n\n9. Other Current Assets Account\n\n| Particulars | Amount (\u20b9) |\n|-------------|------------|\n| To Balance b/d | 65,000 |\n| To Bank (Balancing figure) | 35,000 |\n| By Balance c/d | 1,00,000 |\n| Total | 1,00,000 |",
+          "chapter_number": "4.2",
+          "chapter_name": "AS 3- CASH FLOW STATEMENT",
+          "unique_id": "IMG-ADVAC-Q4"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "1",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "While calculating diluted EPS, effect is given to all dilutive potential equity shares that were outstanding during the period.\u201d Explain this statement in the light of relevant AS. Also calculate the diluted EPS from the following information: Net Profit for the current year (After Tax) \u20b91,00,00,000 No. of Equity shares outstanding 10,00,000 No. of 10% Fully Convertible Debentures of \u20b9100 each 1,00,000 (Each Debentures is compulsorily & fully convertible into 10 equity shares) Debenture interest expense for the current year \u20b95,00,000 Assume applicable Income Tax rate @ 30%",
+          "answer": "As per AS 20 \u2018Earnings per Share\u2019, the net profit or loss for the period attributable to equity shareholders and the weighted average number of shares outstanding during the period should be adjusted for the effects of all dilutive potential equity shares for calculation of diluted earnings per share. Hence, \u201cin calculating diluted earnings per share, effect is given to all dilutive potential equity shares that were outstanding during the period.\u201d\n\nComputation of diluted earnings per share = Adjusted net profit for the current year / Weighted average number of equity shares\n\n| Adjusted net profit for the current year |\n|-----------------------------------------|\n| Net profit for the current year (after tax) | 1,00,00,000 |\n| Add: Interest expense for the current year | 5,00,000 |\n| Less: Tax relating to interest expense (30% of \u20b95,00,000) | (1,50,000) |\n| Adjusted net profit for the current year | 1,03,50,000 |\n\nWeighted average number of equity shares\n\nNumber of equity shares resulting from conversion of debentures\n\n1,00,000 x 10 = 10,00,000 Equity shares\n\nWeighted average number of equity shares used to compute diluted earnings per share\n\n= [(10,00,000 x 12) + (10,00,000 x 6)]/12 = 15,00,000 equity shares\n\nDiluted earnings per share = \u20b91,03,50,000 / 15,00,000 shares = \u20b96.90 per share\n\nNote: Interest on debentures for full year amounts to \u20b910,00,000 (i.e. 10% of \u20b91,00,00,000). However, interest expense amounting \u20b95,00,000 has been given in the question. It may be concluded that debentures have been issued at the mid of the year and interest has been provided for 6 months.",
+          "chapter_number": "1",
+          "chapter_name": "INTRODUCTION TO ACCOUNTING STANDARDS",
+          "unique_id": "IMG-ADVAC-Q5a"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Net profit for the current year \u20b91,00,00,000\nNet profit for the previous year \u20b950,00,000\nNo. of shares outstanding prior to rights issue 5,00,000\nShares Rights issue price \u20b920.00\nLast date to exercise rights 1st March 20X2\nRights issue is one new share for each five outstanding (i.e. 1,00,000 new shares)\nFair value of one equity share immediately prior to exercise of rights on 1st March 20X2 was \u20b922.00.\nCompute Basic Earnings Per Share.",
+          "answer": "Fair value of shares immediately prior to exercise of rights + Total amount received from exercise\nNumber of shares outstanding prior to exercise + Number of shares issued in the exercise\n\n(\u20b922.00\u00d75,00,000 shares) + (\u20b920.00 \u00d71,00,000 Shares)\n5,00,000 Shares +1,00,000 Shares\n\nTheoretical ex-rights fair value per share = \u20b921.67\n\nComputation of adjustment factor:\nFair value per share prior to exercise of rights \u20b9(22.00) = 1.015\nTheoretical ex-rights value per share \u20b9(21.67)\n\nComputation of earnings per share:\nEPS for the current year as originally reported: \u20b91,00,00,000/5,00,000 shares = \u20b920.00\nEPS for the current year restated for rights issue: \u20b91,00,00,000/ (5,00,000 shares x 1.015) = \u20b919.70",
+          "chapter_number": "3",
+          "chapter_name": "APPLICABILITY OF ACCOUNTING STANDARDS",
+          "unique_id": "IMG-ADVAC-Q5b"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "subject_code": "COST",
+    "subject_name": "Cost and Management Accounting",
+    "paper_num": "Portionwise_3",
+    "total_marks_printed": 50,
+    "total_marks_in_paper": 50,
+    "section_a_marks": 0,
+    "section_b_marks": 50,
+    "two_section_format": false,
+    "note": "Portionwise Test: Attempt all 5 questions. Each question carries 10 marks (6 + 4 split).",
+    "blacklisted_from": [],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)"
+    ]
+  },
+  "section_a": [],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "14",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "At budget activity of $80 \\%$ of total capacity, a company earns a $\\mathrm{P} / \\mathrm{V}$ ratio of $30 \\%$ and a profit of $15 \\%$ of total sales. Due to covid pandemic resulting in poor demand, the company has to reduce its selling price by $10 \\%$. The company was able to achieve a production and sales volume for the year equivalent to $50 \\%$ of total capacity. The sales value at this level was $Rs. 27,00,000$ at a reduced price of $Rs. 18$ per unit. Due to reduction in production, the actual variable cost went up by $5 \\%$ of the budget. You are required to: (i) PREPARE statement of profitability at budget and actual activity. (ii) FIND P/V ratio and BES (in Rs. and unit of the actual sales activity). (MTP 10 Marks, Marˋ22)",
+          "answer": "(i) Statement of profitability at budget and actual activity\n\n| Particulars | Budget (80\\%) | Actual (50\\%) |\n| :--- | :--- | :--- |\n| Units | 2,40,000 | 1,50,000 |\n| Sales (Rs.) (a) | 48,00,000 | 27,00,000 |\n| Variable cost (Rs.) (b) | 33,60,000 | 22,05,000 |\n| Contribution (Rs.) ( $\\mathrm{c}=\\mathrm{a}-\\mathrm{b}$ ) | 14,40,000 | 4,95,000 |\n| Fixed cost (Rs.) (d) | 7,20,000 | 7,20,000 |\n| Profit (Rs.) ( $\\mathrm{e}=\\mathrm{c}-\\mathrm{d}$ ) | 7,20,000 | (2,25,000) |\n\n(ii) Calculation of $\\mathrm{P} / \\mathrm{V}$ ratio and BES\n\n| P/V ratio | $=\\frac{\\text { Contribution }}{\\text { Sales }} \\times 100$ |  |\n| :--- | :--- | :--- |\n|  | $=\\frac{4,95,000}{27,00,000} \\times 100$ | = 18.33\\% |\n| Break Even Sales (in Rs.) | $=\\frac{\\text { Fixed Cost }}{\\frac{\\mathrm{p}}{\\mathrm{v}} \\text { Ratio }}$ |  |\n|  | $=\\frac{7,20,000}{18.33 \\%}$ | = Rs. 39,27,987 |\n| Break Even Sales (In Units) | $=\\frac{\\text { Fixed Cost }}{\\text { Contribution per unit }}$ |  |\n|  | $=\\frac{7,20,000}{3.3 *}$ | = 2,18,182 Units |\n| *Contribution per unit | $=\\frac{4,95,000}{1,50,000 \\text { units }}$ | = 3.3 per unit |",
+          "chapter_number": "14",
+          "chapter_name": "STANDARD COSTING",
+          "unique_id": "14-T-11"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "The ratio of variable cost to sales is $80 \\%$. The break-even point occurs at $65 \\%$ of the capacity sales. FIND the capacity sales when fixed costs are Rs. 65,000 . Also COMPUTE profit at $95 \\%$ of the capacity sales. (MP [3] 4 Marks)",
+          "answer": "Variable cost to sales $=80 \\%$\\n\\nContribution to sales $=20 \\%$\\n\\nOr P/V Ratio 20\\%\\n\\nWe know that: BES × P/V Ratio = Fixed Cost\\n\\nBES $\\times 0.20=Rs. 65,000$\\n\\nOr BES $=$ Rs. $3,25,000$\\n\\nIt is given that break-even occurs at $65 \\%$ capacity.\\n\\nTherefore, sales at $100 \\%$ capacity $=Rs. 3,25,000 / 0.65=Rs. 5,00,000$\\n\\n## Computation of profit at 95\\% Capacity\\n\\n| particulars | (Rs.) |\\n| :--- | :--- |\\n| $95 \\%$ of capacity sales (i.e. $Rs. 5,00,000 \\times 0.95$ ) $=$ | 4,75,000 |\\n| Less: Variable cost (i.e. $Rs. 4,75,000 \\times 0.80$ ) $=$ | $\\underline{3,80,000}$ |\\n| Contribution | 95,000 |\\n| Less: Fixed Cost | 65,000 |\\n| Profit | 30,000 |",
+          "chapter_number": "14",
+          "chapter_name": "STANDARD COSTING",
+          "unique_id": "14-T-4"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "15",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Question 17 (PYP 6 Marks Sep'24)\n\nSavi Limited is currently working at $80 \\%$ of its capacity level and furnished the following information for current period:\n\n## Production / Sales\n\nDirect Variable Cost\n\nFactory Overheads\n\nAdministrative Overheads (Fixed)\n\n## Sales Commission\n\nTransportation Expenses\n\n96,000 units\nRs. 20 per unit\nRs. 8,40,000\nRs. 20,60,000\n2\\% of Sales Value\nRs. 4,000 per truck (Loading Capacity 4,000 units)\n\nThe selling price of the product is $Rs. 120$ per unit and Factory Overheads are $80 \\%$ variable in nature.\n\nThe management of Savi Limited has come to know that there will be high fluctuations in the demand of the product in upcoming year and it would not be an easy task to predict the demand. Selling price per unit will not be affected by demand fluctuations.\n\nSavi Limited has decided to prepare a flexible budget for the product at \\mathbf{6 0} \\boldsymbol{\\%}, \\mathbf{8 0} \\boldsymbol{\\%}$ and \\mathbf{1 0 0} \\boldsymbol{\\%}$ capacity level.\n\nYou are required to prepare the Flexible Budget showing total cost of the product at each level.",
+          "answer": "Answer 17\n\n## Flexible Budget of Savi Ltd\n\n| Particulars | \\mathbf{6 0 \\%} | \\mathbf{8 0 \\%} | \\mathbf{1 0 0 \\%} |\n| :--- | ---: | ---: | ---: |\n| $(\\mathbf{7 2 , 0 0 0}$ units $)(Rs.)$ | $(\\mathbf{9 6 , 0 0 0}$ units $)(Rs.)$ | $(\\mathbf{1 , 2 0 , 0 0 0}$ units $)(Rs.)$ |  |\n| Sales | 120.00 | 120.00 | 120.00 |\n| Variable Costs: |  |  |  |\n| - Direct Variable Cost | 20.00 | 20.00 | 20.00 |\n| :--- | :--- | :--- | :--- |\n| - Variable Factory Overheads (WN1) | 7.00 | 7.00 | 7.00 |\n| - Sales Commission (2\\%) | 2.40 | 2.40 | 2.40 |\n| - Transportation Expenses | 1.00 | 1.00 | 1.00 |\n| Total Variable Cost (B) | 30.40 | 30.40 | 30.40 |\n| Contribution Per Unit (C) $=(\\mathbf{A}-\\mathbf{B})$ | 89.60 | 89.60 | 89.60 |\n| Total Contribution (D) | 64,51,200.00 | 86,01,600.00 | 1,07,52,000.00 |\n| Fixed Costs: |  |  |  |\n| - Administrative Overheads (100\\%) | 20,60,000.00 | 20,60,000.00 | 20,60,000.00 |\n| - Factory Overheads(20\\%) | 1,68,000.00 | 1,68,000.00 | 1,68,000.00 |\n| Total Fixed Costs (E) | 22,28,000.00 | 22,28,000.00 | 22,28,000.00 |\n| Profit (D-E) | 42,23,200.00 | 63,73,600.00 | 85,24,000.00 |\n| Total Cost | 44,16,800.00 | 51,46,400.00 | 58,76,000.00 |\n\n## WN1:\n\nVariable factory Overheads $=Rs. 8,40,000 \\times 80 \\%=Rs. 6,72,000$\n\nVariable factory Overheads per unit $=Rs. 6,72,000 / 96,000$ units $=Rs. 7$\n\nExam insights: In questions like this, students often forget that a flexible budget changes with activity - not just scales up or down. Always recalculate variable costs per unit and keep fixed costs locked in, no matter the output level.",
+          "chapter_number": "15",
+          "chapter_name": "STANDARD COSTING",
+          "unique_id": "15-T-17"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "## Question 16 (MTP 4 Marks Aug'25)\n\nPremier Industries has a small factory where 52 workers are employed on an average for 25 days a month and they work 8 hours per day. The normal down time is $15 \\%$. The firm has introduced standard costing for cost control. Its monthly budget for March, 20X1 shows that the budgeted variable and fixed overhead are Rs. $1,06,080$ and $Rs. 2,21,000$ respectively.\n\nThe firm reports the following details of actual performance for March,20X1, after the end of the month:\n\n\n| Actual hours worked | $8,100 \\mathrm{hrs}$. |\n| :--- | :--- |\n| Actual production expressed in standard hours | $8,800 \\mathrm{hrs}$. |\n| Actual Variable Overheads | Rs. 1,02,000 |\n| Actual Fixed Overheads | Rs. 2,00,000 |\n| You are required to CALCULATE: <br> (i) Variable Overhead Variances: <br> (a) Variable overhead expenditure variance. <br> (b) Variable overhead efficiency variance. |  | (a) Fixed overhead capacity variance.\n(b) Fixed overhead efficiency variance.",
+          "answer": "## Answer 16\n\n## Workings:\n\n## Calculation of budgeted hours\n\nBudgeted hours $=(52 \\times 25 \\times 8) \\times 85 \\%=8,840$ hours\n\n(i) Variable overheads variance\n\n(a) Variable overhead expenditure variance\n\n$$\n\\begin{aligned}\n& =\\text { Std. overhead for Actual hours - Actual variable Overhead } \\\\\n& =\\left(\\frac{Rs. 1,06,080}{8,840} \\times 8,100\\right)-Rs. 1,02,000=\\mathbf{4 8 0 0 ~ A}\n\\end{aligned}\n$$\n\n(b) Variable overhead efficiency variance\n\nStd. rate per hour × (Std. hours for actual production - Actual hours)\n\n$=\\frac{Rs. 1,06,080}{8,840}(8,800$ hours $-8,100$ hours $)=8400 \\mathrm{~F}$\n\n(ii) Fixed overhead variances\n\n(c) Fixed overhead capacity variance\n\n$=\\text{Std rate} \\times (\\text{Actual hours} - \\text{budgeted hours})\n=\\frac{Rs. 2,21,000}{8,840} \\times(8,100-8,840)=18,500 \\mathrm{~A}$\n\n(d) Fixed overhead efficiency variance\n\n$=\\text{Std rate} \\times (\\text{Std hours for actual production} - \\text{Actual hours})\n=\\frac{Rs. 2,21,000}{8,840} \\times(8,800-8,100)=\\mathbf{1 7 , 5 0 0 ~ F}$",
+          "chapter_number": "13",
+          "chapter_name": "STANDARD COSTING",
+          "unique_id": "13-T-16"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "13",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Discuss briefly some of the criticism which may be levelled against the Standard Costing System. (PYP 5 Marks, May'22)",
+          "answer": "## Criticism of Standard Costing\n\n(i) Variation in price: One of the chief problem faced in the operation of the standard costing system is the precise estimation of likely prices or rate to be paid. The variability of prices is so great that even actual prices are not necessarily adequately representative of cost. But the use of sophisticated forecasting techniques should be able to cover the price fluctuation to some extent. Besides this, the system provides for isolating uncontrollable variances arising from variations to be dealt with separately.\n\n(ii) Varying levels of output: If the standard level of output set for pre-determination of standard costs is not achieved, the standard costs are said to be not realised. However, the statement that the capacity utilisation cannot be precisely estimated for absorption of overheads may be true only in some industries of jobbing type. In vast majority of industries, use of forecasting techniques, market research, etc., help to estimate the output with reasonable accuracy and thus the variation is unlikely to be very large. Prime cost will not be affected by such variation and, moreover, variance analysis helps to measure the effects of idle time.\n\n(iii) Changing standard of technology: In case of industries that have frequent technological changes affecting the conditions of production, standard costing may not be suitable. This criticism does not affect the system of standard costing. Cost reduction and cost control is a cardinal feature of standard costing because standards once set do not always remain stable. They have to be revised.\n\n(iv) Attitude of technical people: Technical people are accustomed to think of standards as physical standards and, therefore, they will be misled by standard costs. Since technical people can be educated to adopt themselves to the system through orientation courses, it is not an insurmountable difficulty.\n\n(v) Mix of products: Standard costing presupposes a pre-determined combination of products both in variety and quantity. The mixture of materials used to manufacture the products may vary in the long run but since standard costs are set normally for a short period, such changes can be taken care of by revision of standards.\n\n(vi) Level of Performance: Standards may be either too strict or too liberal because they may be based on (a) theoretical maximum efficiency, (b) attainable good performance or (c) average past performance. To overcome this difficulty, the management should give thought to the selection of a suitable type of standard. The type of standard most effective in the control of costs is one which represents an attainable level of good performance.\n\n(vii) Standard costs cannot possibly reflect the true value in exchange: If previous historical costs are amended roughly to arrive at estimates for ad hoc purposes, they are not standard costs in the strict sense of the term and hence they cannot also reflect true value in exchange. In arriving at standard costs, however, the economic and technical factors, internal and external, are brought together and analysed to arrive at quantities and prices which reflect optimum operations. The resulting costs, therefore, become realistic measures of the sacrifices involved.\n\n(viii) Fixation of standards may be costly: It may require high order of skill and competency. Small concerns, therefore, feel difficulty in the operation of such system.\n\nExam Insights: Marks are lost when students just list criticisms without linking them to real-world flaws in standard costing - always tie each point to how it fails in practice, like ignoring market changes or demotivating staff.",
+          "chapter_number": "13",
+          "chapter_name": "STANDARD COSTING",
+          "unique_id": "13-T-3"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Explain the difference between fixed budget and flexible budget. Or Fixed Budget does not change with actual volume of activity achieved, however, Flexible Budget can be recasted on the basis of activity level to be achieved. DISCUSS other differences between these two type of budget classified based on their capacity. (MTP 5 Marks, Aug '18 & Apr'22, SM,MP[3],MP[8]) (RTP sep'25)",
+          "answer": "## Difference between Fixed and Flexible Budgets:\n\n| S. No. | Fixed Budget | Flexible Budget |\n| :---: | :---: | :---: |\n| 1. | It does not change with actual volume of activity <br> achieved. Thus it is known as rigid or inflexible budget | It can be re-casted on the basis of activity <br> level to be achieved. Thus it is not rigid. |\n| 2. | It operates on one level of activity and under one set of conditions. It assumes that there will be no change in the prevailing conditions, which is unrealistic. | It consists of various budgets for different levels of activity. |\n| 3. | Here as all costs like - fixed, variable and semivariable are related to only one level of activity so variance analysis does not give useful information. | Here analysis of variance provides useful information as each cost is analysed according to its behaviour. |\n| 4. | If the budgeted and actual activity levels differ significantly, then the aspects like cost ascertainment and price fixation do not give a correct picture. | Flexible budgeting at different levels of activity facilitates the ascertainment of cost, fixation of selling price and tendering of quotations. |\n| 5. | Comparison of actual performance with budgeted targets will be meaningless specially when there is a difference between the two activity levels. | It provides a meaningful basis of comparison of the actual performance with the budgeted targets. |",
+          "chapter_number": "15",
+          "chapter_name": "STANDARD COSTING",
+          "unique_id": "15-T-4"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "14",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Question 45 (PYP 6 Marks Sep'25)\n\nSM Limited is the manufacturer of the two products A & B. The following particulars are extracted from the records of the company:\n\n| Particulars | A | B |\n| :--- | :--- | :--- |\n| Maximum Capacity | 5,000 units | 3,500 units |\n| Selling price per unit | Rs. 1,000 | Rs. 1,500 |\n| Cost per unit: |  |  |\n| Raw Material @ Rs. 20 per kg | Rs. 200 | Rs. 400 |\n| Wages @ 10 per hour | Rs. 150 | Rs. 100 |\n| Direct Expenses | Rs. 200 | Rs. 300 |\n| Variable overhead | Rs. 80 | Rs. 120 |\n\nThe total fixed overhead for product A is Rs. $2,50,000$ and for product B is Rs. $3,50,000$.\n\nThe company manufactures both the products using the same grade of material. The company is facing a constraint of raw material which is available in limited quantity of $1,10,000 \\mathrm{kgs}$ only.\n\nRequired: Determine the optimum product mix, considering material as the limiting $f$ actor, to generate maximum profit and calculate the maximum profit.",
+          "answer": "| Particulars |  | A (Rs.) |  | B (Rs.) |\n| :--- | :--- | :--- | :--- | :--- |\n| Selling Price |  |  | 1,000 | 1,500 |\n| Less: Direct Materials |  |  | 200 | 400 |\n| Direct Labour |  |  | 150 | 100 |\n| Direct Expenses |  |  | 200 | 300 |\n| Variable Overheads |  |  | 80 | 120 |\n| Contribution per unit |  |  | 370 | 580 |\n| Raw Material required per unit |  |  | 10 kg | 20 kg |\n| Contribution per kg of raw material |  |  | 37 | 29 |\n| Rank | Gauresh \\| 8237317945 |  | I | II |\n\nCalculation of Product Mix:\n\n| Raw material available | $1,10,000 \\mathrm{~kg}$ |  |\n| :--- | :--- | :--- |\n| Product $\\mathrm{A}(5,000 \\times 10)$ | $50,000 \\mathrm{~kg}$ | 5,000 units |\n| Product $\\mathrm{B}(3,000 \\times 20)$ | $60,000 \\mathrm{~kg}$ | 3,000 units |\n\n\nStatement of Profit:\n\n| Particulars | A | B | Total |\n| :--- | :--- | :--- | :--- |\n| Units | 5,000 | 3,000 |  |\n| Total Contribution | 18,50,000 | 17,40,000 | 35,90,000 |\n| Fixed Cost | 2,50,000 | 3,50,000 | 6,00,000 |\n| Profit | 16,00,000 | 13,90,000 | 29,90,000 |",
+          "chapter_number": "14",
+          "chapter_name": "STANDARD COSTING",
+          "unique_id": "14-T-45"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "## Question 13 (PYP 4 Marks May '24)\n\nThe following data is available for Vivit Su Ltd. for the month of February 20XX:\n\n| Standard working hours | 8 hours per day of 6 days per week |\n| :--- | :--- |\n| No. of weeks in the month | 4 |\n| Maximum capacity | 150 employees |\n| Actual working | 125 employees |\n| Actual usage of Budgeted Capacity Ratio | 86\\% |\n| Efficiency Ratio | 110\\% |\n\nYou are required to calculate the following:\n\n(i) Actual Hours worked.\n\n(ii) Standard Hours for actual output.\n\n(iii) Activity Ratio.\n\n(iv) Standard Capacity Usage Ratio.",
+          "answer": "(i) Actual Hours worked\n\nActual Usage of Budgeted Capacity Ratio $=\\frac{\\text { Actual working Hours }}{\\text { budgeted Hours }} \\times 100$\n\n$86 \\%=($ Actual working hours $\\div$ Budgeted hours $) \\times 100$\n\nBudgeted hours $=125$ workers $\\times 8$ hours × 6 days $\\times 4$ weeks $=24,000$ hours\n\nActual hours $=24,000 \\times 86 \\%=20,640$ hours\n\n(ii) Standard hours for actual output\n\nEfficiency ratio $=\\frac{\\text { Standard Hrs }}{\\text { Actual Hrs }} \\times 100$\n\n$110 \\%=$ Standard hours $\\%$ Actual hours\n\nStandard hours $=20,640 \\times 110 \\%=22,704$ hours\n\n(iii)\n\n$$\n\\text { Activity ratio }=\\frac{\\text { Standard Hrs }}{\\text { Budgeted Hrs }} \\times 100=(22,704 \\div 24,000) \\times 100=94.6 \\% \n$$\n\n## (iv) Standard capacity usage ratio\n\n$=\\frac{\\text { Budgeted Hours }}{\\text { Max.possible hours in the budgeted period }} \\times 100$\n\n$=\\{24,000$ hours $\\div(150$ workers $\\times 8$ hours $\\times 6$ days $\\times 4$ weeks $)\\} \\times 100=(24,000 \\div 28,800) \\times 100=83.33 \\%$",
+          "chapter_number": "15",
+          "chapter_name": "STANDARD COSTING",
+          "unique_id": "15-T-13"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "14",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Question 20 (MTP 6 Marks Jul'25)\n\nApex Electronics Ltd. is a leading Indian manufacturer of smart home devices. Until now, the company has produced all device components in-house. However, due to a temporary shortage of skilled labour, the company is exploring the possibility of outsourcing the production of some key components for its flagship product: the Smart Speaker.\n\nThe components under consideration are:\n\n1. Voice Module\n2. Control Panel\n3. Power Adapter\n\nThe following data relates to the manufacturing of 5,000 units of each component:\n\n| Component | Voice Module | Control Panel | Power Adapter |\n| :--- | :--- | :--- | :--- |\n| Labour Hours per Unit | 1.2 | 2 | 3.5 |\n| Machine Hours per Unit | 0.8 | 0.6 | 0.3 |\n| Direct Labour (Rs.) | 1,500 | 2,000 | 1,200 |\n| Direct Material (Rs.) | 1,200 | 1,800 | 1,100 |\n| Variable Overhead (Rs.) | 700 | 900 | 600 |\n| Fixed Overhead (Rs.) | 600 | 750 | 550 |\n| Purchase Price fromSupplier (per unit) (Rs.) | 3,700 | 4,600 | 3,300 |\n\n[^1]Labour availability for the upcoming month is limited to $\\mathbf{4 , 0 0 0}$ hours.\n\nThe company must produce 4,000 units of each component in the next month. Required\n\nCALCULATE how many of each product should be made in-house and how many should be outsourced.",
+          "answer": "## Calculation of Relevant In-House Cost and saving:\n\n| Component | Voice Module | Control Panel | Power Adapter |\n| :--- | :--- | :--- | :--- |\n| Direct Labour (Rs.) | 1,500 | 2,000 | 1,200 |\n| Direct Material (Rs.) | 1,200 | 1,800 | 1,100 |\n| Variable Overhead (Rs.) | 700 | 900 | 600 |\n| Total In-House Cost (Rs.) | 3,400 | 4,700 | 2,900 |\n| Outsource Price (Rs.) | 3,700 | 4,600 | 3,300 |\n| Saving (Rs.) | 300 | (100) | 400 |\n| Labour Hours per Unit | 1.2 | 2 | 3.5 |\n| Savings per Labour hour(Rs.) | 250 | - | 114.29 |\n| Rank | I | - | 11 |\n\nNote: As the internal cost of making the control panel exceeds the external purchase price of buying, it would be beneficial to outsource their production entirely.\n\n## Allocate Labour Efficiently\n\nMake Voice Modules first:\n\nLabour needed per unit = 1.2 hours\n\nTo make all 4,000 units: 4,000 × 1.2 $=4,800$ hours (available 4,000 hours)\n\nMax units company can make $=4,000 \\div 1.2=3,333$ units\n\n| Component | Make In-House | Outsource |\n| :--- | ---: | ---: |\n| Voice Module | 3,333 units | 667 units |\n| Control Panel | 0 units | 4,000 units |\n| Power Adapter | 0 units | 4,000 units |",
+          "chapter_number": "14",
+          "chapter_name": "STANDARD COSTING",
+          "unique_id": "14-T-20"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "## Question 30 (MTP 10 Marks Apr'25)\n\nThe details corresponding to the manufacture of a product X is as follows:\n\nMaterials 20 units @ Rs. 3 per unit - Rs. 60\n\nWages 10 hours @ 16 per hour - Rs. 160\n\nProduction OH 10 hours @ 20 - Rs. 200\n\nActual Material cost amounts to Rs. $\\mathbf{2 5 , 7 4 0}$ and labour cost amounts to Rs. $\\mathbf{6 5 , 3 6 8}$.\n\nThe variances have been analysed and the following information is being made available:\n\n\n| 1. Material Price Variance | -1170 A |\n| :--- | :--- | :--- |\n| 2. Material Usage Variance | -750 F |\n| 3. Wages Rate Variance | -1352 F |\n| 4. Wages Efficiency | -800 A |\n| 5. POH Expenditure | -900 F |\n| 6. POH Volume Variance | -1400 F |\n\nFrom the above DETERMINE:\n\ni. Actual output in Units\n\nii. Actual price of material per unit\n\niii. Actual quantity of materials consumed\n\niv. Actual wage rate\n\nv. Actual hours worked and Standard Hours\n\nvi. Amount of overhead absorbed\n\nvii. Amount of Overhead incurred\n\nviii. Production Overhead capacity variance\n\nix. Production Overhead efficiency variance\n\nx. Budgeted output in units.",
+          "answer": "## Answer 30\n\nActual Cost of Material (Actual Quantity $\\times$ Actual Price) $=25,740$\n\nMaterial Cost Variance = Price Variance + Usage Variance\n\n$=1,170 \\mathrm{~A}+750 \\mathrm{~F}=420 \\mathrm{~A}$\n\nStandard Cost of Materials (Standard Quantity × Standard Price)\n\n= Actual cost ± Cost variance\n\n$=25,740-1170+750=25,320$\n\n$S Q \\times S P=25,320, S P=3$ per unit hence $S Q=8,440$\n\n$\\mathrm{AQ} \\times \\mathrm{SP}=(\\mathrm{SQ} \\times \\mathrm{SP})+$ Usage Variance $=25,320-750=24,570$\n\nHence AQ of Material $\\quad=\\mathbf{8 , 1 9 0}$\n\nAQxAP $=25,740$\n\nHence AP of Material = Rs. $\\mathbf{3 . 1 4 2}$\n\nActual Wages paid (AH x AR) $\\quad=65,368$\n\nWage cost variance = Wage efficiency variance + Wage rate variance $=1352 \\mathrm{~F}-800 \\mathrm{~A}=552 \\mathrm{~F}$\n\n$\\mathrm{SH} \\times \\mathrm{SR}$\n\n= Actual Wages paid ± Wage cost variance\n\n$=65,368+552=65,920$\n\nSH\n\n= 4,120 hours\n\n$\\mathrm{AH} \\times \\mathrm{SR}$\n\n$=\\mathrm{SH} \\times \\mathrm{SR} \\pm$ Efficiency variance $=66,720$\n\nAH thereon\n\n$=4,170$ hours\n\nAH x AR = 65,368\n\nAR $=15.676$\n\n$\\mathrm{SH} \\times \\mathrm{SR}($ Absorbed Overheads $)=4,120 \\times 20=82,400$\n\nActual Output\n\n$=4,120 / 10=412$ units\n\n\nOH Cost variance\n\nActual FOH\n\nBudgeted FOH\n\nBudgeted FOH\n\n$\\mathrm{BO} \\times \\mathrm{SR}=\\mathrm{BFOH}$\n\nBudgeted Units\n\n( $\\mathrm{SH} \\times \\mathrm{SR}-\\mathrm{AH} \\times \\mathrm{SR}$ )\n\nOH Efficiency Variance\n\n$\\mathrm{AH} \\times \\mathrm{SR}-\\mathrm{BFOH}$\n\nOH Capacity Variance\n\n$$\n\\begin{aligned}\n& =\\text { Volume Variance }+ \\text { Expenditure Variance } \\\\\n& =1,400 \\mathrm{~F}+900 \\mathrm{~F} \\\\\n& =2,300 \\mathrm{~F}\n\\end{aligned}\n$$\n\n$=82,400-2,300=80,100$\n\n= Actual FOH ± Expenditure Variance\n\n$=80,100+900=81,000$\n\n$=81,000 / 200=405$ units\n\n= 405 units\n\n$=82,400-(4,170 \\times 20)=1,000 \\mathrm{~A}$\n\n$=1,000 \\mathrm{~A}$\n\n$=83,400-81,000$\n\n$=2,400 \\mathrm{~F}$",
+          "chapter_number": "13",
+          "chapter_name": "STANDARD COSTING",
+          "unique_id": "13-T-30"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,472 @@
+{
+  "meta": {
+    "subject_code": "AA",
+    "subject_name": "Advanced Auditing",
+    "paper_num": 1,
+    "total_marks_printed": 100,
+    "total_marks_in_paper": 114,
+    "section_a_marks": 30,
+    "section_b_marks": 84,
+    "note": "Section B: Q1 compulsory (14m). Attempt any 4 of Q2-Q6 (14m each).",
+    "blacklisted_from": []
+  },
+  "section_a": [
+    {
+      "type": "case_study",
+      "chapter_number": "19.1",
+      "chapter_name": "PROFESSIONAL ETHICS AND LIABILITIES OF AUDITORS",
+      "case_text": "## CS 1 (MTP 8 Marks Apr'25 \\& Oct'21)\n\nChartered Accountant Firms - Tink \\& Co., Llyods \\& Co. and Manohar \\& Co. respectively, were appointed as the joint auditors for conducting the statutory audit for the financial year 20X1-X2 of Anitya Ltd.\n\nThey were having difference of opinion with regards to the following points:-\n\n\n| S No. | Reasons for Differences in Opinion |\n| :--- | :--- |\n| 1 | Manohar \\& Co. wanted to refer to the work of the auditor's expert, Mr. Tanmay in the audit report but the other joint auditors were not agreeing on the same as such reference was not relevant to an understanding in the final audit opinion and also it was not required by any statute. |\n| 2 | Certain misstatements affected information to be included in 'Management Discussion and Analysis' of Anitya Ltd.'s annual report but as they were lower than materiality set for the financial statements as a whole and so according to the Llyods \\& Co., there was no requirement to perform any audit procedures on the same but the other joint auditors were not agreeing on the same for the reason that the information may reasonably be expected to influence the economic decisions of the users of the financial statements. |\n| 3 | For a selected item, the joint auditors were not able to apply the designed audit procedures or suitable alternate procedures and Llyods \\& Co. wanted to treat that item as a misstatement in the case of test of controls as well as in the case of test of details but the other joint auditors were not agreeing on the said treatment. |\n| 4 | Manohar \\& Co. had determined for a particular account balance positive confirmation request was necessary to obtain sufficient and appropriate audit evidence but as it had not obtained such confirmation and alternate audit evidence would not have sufficed its requirements, Manohar \\& Co. wanted to determine its implications on the audit opinion but the other joint auditors were not agreeing on the same. |\n\nThe differences in opinion in the case of Tink \\& Co. and Llyods \\& Co. were resolved but there remained disagreement with the one of the opinions of Manohar \\& Co. due to which Manohar \\& Co. expressed its opinion in a separate audit report.\n\nFurther, Manohar \\& Co. resigned and filed the required statement with respect to its resignation with Anitya Ltd. as well as the Registrar, respectively.\n\nThe Board of Directors of Anitya Ltd. appointed Namo \\& Co. as a joint auditor in place of Manohar \\& Co. which was later approved by members in the general meeting of the company.\n\nNamo \\& Co. before getting appointed, as aforesaid, had :-\n\n(i) Communicated vide a registered post acknowledgment due to the previous joint auditor, Manohar \\& Co. but the said post was received back with the remarks \"Office Found Locked\".\n\n(ii) Ascertained that the requirements of Section 139 and Section 140 of the Companies Act, 2013, with the respect to its appointment had been duly complied with or not by Anitya Ltd.\n\nBased on the above facts, answer the following:\n\n1.Whether the opinion of Manohar \\& Co. for referring the work of the auditor's expert, Mr. Tanmay in the audit report, can be considered as valid? (Chapter 7.1 SA 700- Forming an Opinion)\n\n(a) No, as such reference was not relevant to an understanding in the final audit opinion and also it was not required by any law or regulation.\n\n(b) Yes, such a reference in the auditor's opinion was relevant to the understanding of the users of the financial statement.\n\n(c) No, as such reference was not required by any law or regulation.\n\n(d) Yes, if such reference was relevant to any 'key audit matter' as per SA 701 even though it was not required by any law or regulation.\n\nAns: (a)\n\n2. Whether the opinion of Llyods \\& Co. for treating the item as a misstatement in the case of test of controls as well in the case of test of details for which the joint auditors were not able to apply the designed audit procedures or suitable alternate procedures, can be considered as valid?\n\n(Chapter 5.1 SA 500- Audit Evidence)\n\n(a) No, as such item shall be as a misstatement only in the case of test of controls and for test of details such item shall be treated as a deviation.\n\n(b) Yes, as such item shall be treated as a misstatement in the case of test of controls and test of details.\n\n(c) No, as such item shall be treated as a deviation in the case of test of controls and test of details.\n\n(d) No, as such item shall be treated as a misstatement only in the case of test of details and for test of controls such item shall be treated as a deviation.\n\nAns: (d)\n\n3. Whether the insistence by Manohar \\& Co. for determining implications of not obtaining response to positive confirmation request on the audit opinion can be considered as valid?\n\n(Chapter 7.3 SA 705- Modification in Opinion)\n\n(a) No, because in such a case the auditor should have enquired the reasons for the same from the management in writing and included the same as a 'Key Audit Matter' as per SA 701\n\n(b) Yes, because in such a case the auditor should have determined implications for the audit and the auditor's opinion in accordance with SA 705.\n\n(c) No, because in such a case the auditor should have obtained and relied upon a written representation as per SA 580 in this regard.\n\n(d) No, because in such a case the auditor should have determined the need to include an 'Emphasis of matter' paragraph in the audit report as per SA 706 after considering the implications on the audit.\n\n## Ans: (b)\n\n4.Whether Namo \\& Co. would be considered to have satisfied the requirements of communicating with the previous auditor?(Chapter 3.1 SA 210- Understanding the Terms of Audit Engagement)\n\n(a) No, as the communication through registered post acknowledgment due could not be done, Namo \\& Co. should have tried an alternative form of communication as prescribed by the Council of the ICAI for the same.\n\n(b) Yes, as it would be deemed that such post was delivered.\n\n(c) No, because in such a case Namo \\& Co. should have informed the Council of the ICAI with respect to the non-delivery of post to the previous auditor along with the reasons for the same.\n\n(d) No, however, Namo \\& Co. can commence the audit of Anitya Ltd. but should try to satisfy the requirement of communicating with the previous auditor at least before signing of the audit report.\n\nAns: (b)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Whether the opinion of Manohar \\& Co. for referring the work of the auditor's expert, Mr. Tanmay in the audit report, can be considered as valid? (Chapter 7.1 SA 700- Forming an Opinion)",
+          "options": {
+            "a": "No, as such reference was not relevant to an understanding in the final audit opinion and also it was not required by any law or regulation.",
+            "b": "Yes, such a reference in the auditor's opinion was relevant to the understanding of the users of the financial statement.",
+            "c": "No, as such reference was not required by any law or regulation.",
+            "d": "Yes, if such reference was relevant to any 'key audit matter' as per SA 701 even though it was not required by any law or regulation."
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "Whether the opinion of Llyods \\& Co. for treating the item as a misstatement in the case of test of controls as well in the case of test of details for which the joint auditors were not able to apply the designed audit procedures or suitable alternate procedures, can be considered as valid? (Chapter 5.1 SA 500- Audit Evidence)",
+          "options": {
+            "a": "No, as such item shall be as a misstatement only in the case of test of controls and for test of details such item shall be treated as a deviation.",
+            "b": "Yes, as such item shall be treated as a misstatement in the case of test of controls and test of details.",
+            "c": "No, as such item shall be treated as a deviation in the case of test of controls and test of details.",
+            "d": "No, as such item shall be treated as a misstatement only in the case of test of details and for test of controls such item shall be treated as a deviation."
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "Whether the insistence by Manohar \\& Co. for determining implications of not obtaining response to positive confirmation request on the audit opinion can be considered as valid? (Chapter 7.3 SA 705- Modification in Opinion)",
+          "options": {
+            "a": "No, because in such a case the auditor should have enquired the reasons for the same from the management in writing and included the same as a 'Key Audit Matter' as per SA 701",
+            "b": "Yes, because in such a case the auditor should have determined implications for the audit and the auditor's opinion in accordance with SA 705.",
+            "c": "No, because in such a case the auditor should have obtained and relied upon a written representation as per SA 580 in this regard.",
+            "d": "No, because in such a case the auditor should have determined the need to include an 'Emphasis of matter' paragraph in the audit report as per SA 706 after considering the implications on the audit."
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null
+        },
+        {
+          "q_num": 4,
+          "question": "Whether Namo \\& Co. would be considered to have satisfied the requirements of communicating with the previous auditor?(Chapter 3.1 SA 210- Understanding the Terms of Audit Engagement)",
+          "options": {
+            "a": "No, as the communication through registered post acknowledgment due could not be done, Namo \\& Co. should have tried an alternative form of communication as prescribed by the Council of the ICAI for the same.",
+            "b": "Yes, as it would be deemed that such post was delivered.",
+            "c": "No, because in such a case Namo \\& Co. should have informed the Council of the ICAI with respect to the non-delivery of post to the previous auditor along with the reasons for the same.",
+            "d": "No, however, Namo \\& Co. can commence the audit of Anitya Ltd. but should try to satisfy the requirement of communicating with the previous auditor at least before signing of the audit report."
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null
+        }
+      ],
+      "mcq_count": 4,
+      "unique_id": "cs__19.1__4621888407058302719"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "19.1",
+      "chapter_name": "PROFESSIONAL ETHICS AND LIABILITIES OF AUDITORS",
+      "case_text": "## CS 2 <br> (MTP 10 Marks Mar'22)\n\nM/s Audit \\& Co. were appointed as internal auditors of M/s Manufacturing Limited, whose shares were held by Mr. F, Mrs. F, Mr. S \\& Ms. D in equal proportion.\n\nCA Senior and his articled assistant Mr. Junior were a part of the team which was looking after the above assignment. As a part of the work, Mr. Junior was required to take care of the P2P internal controls established to ensure the three-way match is properly functioning. Being new to internal audit, he asked from help from a fellow team member regarding the above matter.\n\nAfter completion of the audit, the firm submitted its report directly to the Board of Directors of the company. A copy of the same was also sent to the company's statutory auditors. The report had clearly mentioned that the existing internal audit system in the company was not commensurate with its size and nature of business. Following this, the company offered the assignment of Tax Audit to M/s Audit \\& Co. itself. All the partners were happy to accept the offer, except CA New, an ex-articled assistant and newly inducted partner of the firm. He was of the opinion that if the above offer was accepted, it would lead to professional misconduct under the Chartered Accountants Act. However, despite his advice, the firm went on to accept the offer.\n\nAfter the above incident, CA New resigned from the firm and started his own practice as a sole proprietor. Few days after the resignation of CA New, the following things happened:\n\n(i) M/s Audit \\& Co. had advertised the changes in partnership of the firm, by limiting the ad to a bare statement of facts and consideration given to the appropriateness of the area of distribution of the magazine.\n\n(ii) CA New issued a classified advertisement in the newsletter of the Institute, for seeking partnership. The ad contained his name, phone number and addresses of Social Networking sites. On the basis of the abovementioned facts, you are required to answer the following MCQs:\n\n\n## Multiple Choice Questions:\n\n\n1. Assuming yourself to be a fellow team member of Mr. Junior, explain him what is a three-way match internal control involved in P2P process. (Chapter 4.2 - Internal Control)\n\n(a) Matching of Purchase order, Sales order \\& Invoice raised to ensure all ordered quantity of intended goods have been invoiced and proper control over quantity of inventory is maintained.\n\n(b) Matching of Sales order, Goods delivery note \\& invoice to ensure all ordered quantity of intended goods have been delivered and invoiced accordingly.\n\n(c) Matching of Sales order, Invoice \\& Payment receipt details to ensure all ordered quantity of intended goods have been invoiced and payment for the same is received.\n\n(d) Matching of Purchase order, Goods receipt note \\& invoice to ensure all ordered quantity of intended goods have been received and invoiced accordingly.\n\n\n## Ans: (d)\n\n\n2. Assuming yourself to be the statutory auditors of the company, would you need to mention about the details in the internal audit under CARO 2020? If yes, under what clause should it be mentioned?\n\n\n## (Chapter 7.8 - CARO)\n\n(a) The above matter should be reported under clause (xiv) of CARO 2020\n\n(b) The above matter need not be reported under CARO, but it shall be reported under Emphasis of Matter Paragraph as per SA 706.\n\n(c) The above matter should be reported under clause (xviii) of CARO 2020\n\n(d) The above matter should be reported under clause (xv) of CARO 2020\n\n\n## Ans: (a)\n\n\n3. From the above information that $\\mathrm{M} / \\mathrm{s}$ Manufacturing Limited appointed an internal auditor, what could you infer about their Paid-up share capital, outstanding deposit \\& turnover? (Chapter 16 - Internal Audit)\n\n(a) Paid up share capital of $\\geq 40$ crore Outstanding deposits $>20$ crore; Turnover $\\geq 190$ crore\n\n(b) Paid up share capital of $\\geq 25$ crore Outstanding deposits $\\geq 25$ crore; Turnover $\\geq 100$ crore\n\n(c) Paid up share capital of $\\geq 50$ crore Outstanding deposits $\\geq 25$ crore; Turnover $\\geq 200$ crore\n\n(d) Paid up share capital of $\\geq 45$ crore Outstanding deposits $\\geq 15$ crore; Turnover $>100$ crore\n\n\nAns: (c)\n\n\n4. Will accepting the Tax Audit offer lead to professional misconduct? If yes, as per which clause? (Chapter 19 - Professional Ethics \\& Liabilities of Auditors)\n\n(a) No. There will be no professional misconduct on the firm, if it accepts the offer.\n\n(b) Yes. By accepting the offer, the firm will be guilty of professional misconduct as per clause 4 of Part I of Second Schedule read along with Council Guidelines.\n\n(c) Yes. By accepting the offer, the firm will be guilty of professional misconduct as per clause 12 of Part I of First Schedule.\n\n(d) Yes. By accepting the offer, the firm will be guilty of professional misconduct as per clause 2 of Part I of Second Schedule read along with Council guidelines.\n\n\n## Ans: (b)\n\n\n5. Comment on following incidents (i) \\& (ii) discussed in the scenario from the perspective of Professional Ethics as per the Chartered Accountants Act.\n\n(i) M/s Audit \\& Co. had advertised the changes in partnership of the firm, by limiting the ad to a bare statement of facts and consideration given to the appropriateness of the area of distribution of the magazine.\n\n(ii) CA New issued a classified advertisement in the newsletter of the Institute, for seeking partnership. The ad contained his name, phone number and addresses of Social Networking sites.\n\n\n## (Chapter 19 - Professional Ethics \\& Liabilities of Auditors)\n\n(a) Incident (ii) makes CA New guilty of professional misconduct, since he is advertising for seeking partnership.\n\n(b) Neither of the incidents violate any provisions of Chartered Accountants Act. Hence, there is no professional misconduct.\n\n(c) Incident (i) makes $\\mathrm{M} / \\mathrm{s}$ Audit \\& Co. firm guilty of professional misconduct, as the advertisement is published in newspaper other than that issued by the Institute.\n\n(d) Incident (ii) makes CA New guilty of professional misconduct, since he has provided the addresses of his social networking sites.\n\n\n## Ans: (b)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Assuming yourself to be a fellow team member of Mr. Junior, explain him what is a three-way match internal control involved in P2P process. (Chapter 4.2 - Internal Control)",
+          "options": {
+            "a": "Matching of Purchase order, Sales order \\& Invoice raised to ensure all ordered quantity of intended goods have been invoiced and proper control over quantity of inventory is maintained.",
+            "b": "Matching of Sales order, Goods delivery note \\& invoice to ensure all ordered quantity of intended goods have been delivered and invoiced accordingly.",
+            "c": "Matching of Sales order, Invoice \\& Payment receipt details to ensure all ordered quantity of intended goods have been invoiced and payment for the same is received.",
+            "d": "Matching of Purchase order, Goods receipt note \\& invoice to ensure all ordered quantity of intended goods have been received and invoiced accordingly."
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "Assuming yourself to be the statutory auditors of the company, would you need to mention about the details in the internal audit under CARO 2020? If yes, under what clause should it be mentioned? (Chapter 7.8 - CARO)",
+          "options": {
+            "a": "The above matter should be reported under clause (xiv) of CARO 2020",
+            "b": "The above matter need not be reported under CARO, but it shall be reported under Emphasis of Matter Paragraph as per SA 706.",
+            "c": "The above matter should be reported under clause (xviii) of CARO 2020",
+            "d": "The above matter should be reported under clause (xv) of CARO 2020"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "From the above information that $\\mathrm{M} / \\mathrm{s}$ Manufacturing Limited appointed an internal auditor, what could you infer about their Paid-up share capital, outstanding deposit \\& turnover? (Chapter 16 - Internal Audit)",
+          "options": {
+            "a": "Paid up share capital of $\\geq 40$ crore Outstanding deposits $>20$ crore; Turnover $\\geq 190$ crore",
+            "b": "Paid up share capital of $\\geq 25$ crore Outstanding deposits $\\geq 25$ crore; Turnover $\\geq 100$ crore",
+            "c": "Paid up share capital of $\\geq 50$ crore Outstanding deposits $\\geq 25$ crore; Turnover $\\geq 200$ crore",
+            "d": "Paid up share capital of $\\geq 45$ crore Outstanding deposits $\\geq 15$ crore; Turnover $>100$ crore"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null
+        },
+        {
+          "q_num": 4,
+          "question": "Will accepting the Tax Audit offer lead to professional misconduct? If yes, as per which clause? (Chapter 19 - Professional Ethics \\& Liabilities of Auditors)",
+          "options": {
+            "a": "No. There will be no professional misconduct on the firm, if it accepts the offer.",
+            "b": "Yes. By accepting the offer, the firm will be guilty of professional misconduct as per clause 4 of Part I of Second Schedule read along with Council Guidelines.",
+            "c": "Yes. By accepting the offer, the firm will be guilty of professional misconduct as per clause 12 of Part I of First Schedule.",
+            "d": "Yes. By accepting the offer, the firm will be guilty of professional misconduct as per clause 2 of Part I of Second Schedule read along with Council guidelines."
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null
+        },
+        {
+          "q_num": 5,
+          "question": "Comment on following incidents (i) \\& (ii) discussed in the scenario from the perspective of Professional Ethics as per the Chartered Accountants Act. (Chapter 19 - Professional Ethics \\& Liabilities of Auditors)",
+          "options": {
+            "a": "Incident (ii) makes CA New guilty of professional misconduct, since he is advertising for seeking partnership.",
+            "b": "Neither of the incidents violate any provisions of Chartered Accountants Act. Hence, there is no professional misconduct.",
+            "c": "Incident (i) makes $\\mathrm{M} / \\mathrm{s}$ Audit \\& Co. firm guilty of professional misconduct, as the advertisement is published in newspaper other than that issued by the Institute.",
+            "d": "Incident (ii) makes CA New guilty of professional misconduct, since he has provided the addresses of his social networking sites."
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "cs__19.1__-6667709338733039916"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "19.1",
+      "chapter_name": "PROFESSIONAL ETHICS AND LIABILITIES OF AUDITORS",
+      "case_text": "While preparing the financial statement for the year ended on 31 March 20X2, ABC Limited, a listed entity, provided the below information:\n\nExcerpt of Standalone Balance sheet of ABC Ltd as of 31 March 20X2(in ₹ Lakhs)\n\n| Particulars | Note No | As on 31.03.20X2 | As on 31.03.20X1 |\n\n| :--- | :--- | :--- | :--- |\n\n| Equity and Liabilities |  |  |  |\n\n| Current liabilities |  |  |  |\n\n| (a) Financial Liabilities |  |  |  |\n\n| (ii) Trade Payables: - | 10 |  |  |\n\n| (A) total outstanding dues of micro enterprises and small enterprises; and |  | 300 |  |\n\n| (B) total outstanding dues of creditors other than micro enterprises and small enterprises. |  | 210 |  |\n\n| (iii) Other financial liabilities (other than those specified in item (c) |  |  |  |\n\nNote 10: Ageing of Trade Payables\n\n| Particulars | Ageing of Trade Payables (₹ in Lakhs) |  |  |  |  |  |\n\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n\n| Ageing | Less than 3 Year | 3-5 Years | More than 5 Years | Total NonMSME Trade Payables | MSME Trade Payables | Total Trade Payables |\n\n| Undisputed | 100 | 50 | 30 | 180 | 160 | 340 |\n\n| Disputed | 10 | 20 | 0 | 30 | 40 | 70 |\n\n| Total | 110 | 70 | 30 | 210 | 200 | 410 |\n\n## Additional Information:\n\n1. Mr. A while performing the statutory audit of ABC Ltd identified that the total trade payables reported in the Balance Sheet as of 31 March $20 \\times 2$ and the amount reported in Note 10: Ageing of Trade Payables are different. Upon inquiry, management informed that the difference between both amounts is the Intercompany Trade Payables which is eliminated as part of consolidation Adjustment. Hence, there was no requirement to show intercompany Trade Payables in the ageing schedule. Mr. A accepted the explanation and did not perform any further procedures to validate the explanation.\n\n2. When Audit Committee inquired with Mr. A as to how they have verified and validated the segregation of the trade payables, Mr. A replied that they purely relied upon the management representation as there was no alternate procedure available to gather sufficient and appropriate audit evidence to validate the said information. Moreover, they informed the management that they have not qualified their audit opinion as they have relied in true faith upon management representation.\n\n3. While performing the audit procedure to validate the Trade Payables ageing, Mr. A identified that management has calculated the due date of trade payables from the end of 180 days from the date of transaction. Mr. A found it appropriate based on the conservative approach.\n\n4. Mr. A did not qualify his audit opinion on the financial statement prepared for the period ending on 31 March 20X2 on any grounds. Also, Mr. A specified that:\n\n\"The financial statements for the year ended on 31 March 20X2 give a true and fair view of the state of affairs of the company, comply with the accounting standards notified under section 133 and are in the form provided for the company in Schedule III of the Act\"\n\n5. While preparing the audit report Mr. A, provided the following information in Key Audit Matters.\n\n| Key Audit Matters | How our audit addressed KAM |\n\n| :--- | :--- |\n\n| While auditing the Trade Payables, the auditor identified that the trade payables balance includes ₹ 100 lakh payable to the intercompany which is aged more than 3 years. <br> Upon Inquiry with management, it was identified the same amount is not paid on account of a dispute with respect to commercial terms. <br> However, no such amount was outstanding as receivable in the accounts statement shared by | We have relied upon the assessment performed by the management with respect to the litigation and disputed Trade Payables Balance. <br> Moreover, the amount is not material and hence no further procedure other than obtaining management representation was performed on the said balance. |\n\n6. Other than the disputed trade payables disclosed, there were claims against the company which were not yet acknowledged as debt. The aggregate amount and exposure for such claims were ₹ 25 Lakh. As per an expert hired by the management, no amount is required to be provided in books of accounts as in all the claims there are high chances that the decision will be in favour of the company.\n\n7. Following were the materiality levels decided by the auditor for the current period's audit:\n\n- Overall Materiality: ₹ 50 Lakh;\n\n- Performance Materiality: 5 Lakh;\n\n- Materiality for Aggregate Uncorrected Misstatement: ₹ 1 Lakh.",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "In the given situation whether Mr. A will be held guilty of professional Misconduct.\n\n(Chapter 19 - Professional Ethics & Liabilities of Auditors)",
+          "options": {
+            "a": "Yes, Mr. A, is guilty of professional misconduct under Clause 7 of Part I of First Schedule.",
+            "b": "Yes, Mr. A, is guilty of professional misconduct under Clause 7 & 8 of Part I of First Schedule.",
+            "c": "Yes, Mr. A, is guilty of professional misconduct under Clause 7 & 8 of Part I of the Second Schedule.",
+            "d": "No, Mr. A is not guilty of professional misconduct as he has performed all the audit procedures appropriately."
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "Whether the reporting performed by Mr. A related to intercompany trade payables under the paragraph/section of Key Audit Matter in the audit report appropriate? Select from the below option to support your answer. (Chapter 7.2 - SA 701- Communicating Key Audit Matters)",
+          "options": {
+            "a": "Mr. A should have expressed an unmodified opinion if he was not able to gather appropriate & sufficient audit evidence to validate the disputed intercompany trade payables. As per SA 701, those matters that, in the auditor's professional judgment, were of most significance in the audit of the financial statements of the current period are Key Audit Matters. The auditor shall not communicate a matter in the Key Audit Matters section of the auditor's report when the auditor would be required to modify the opinion in accordance with SA 705 (Revised) as a result of the matter.",
+            "b": "Mr. A should have expressed a modified opinion if he was not able to gather appropriate & sufficient audit evidence to validate the disputed intercompany trade payables. As per SA 701, those matters that, in the auditor's professional judgment, were of most significance in the audit of the financial statements of the current period are Key Audit Matters. The auditor shall not communicate a matter in the Key Audit Matters section of the auditor's report when the auditor would be required to modify the opinion in accordance with SA 705 (Revised) as a result of the matter.",
+            "c": "Mr. A should have expressed an unmodified opinion if he was not able to gather appropriate & sufficient audit evidence to validate the disputed intercompany trade payables. As per SA 701, the auditor shall report the matter in Key Audit Matters in the auditor's report when the auditor concludes that, based on the audit evidence obtained, the financial statements as a whole are not free from material misstatement or the auditor is unable to obtain sufficient appropriate audit evidence to conclude that the financial statements as a whole are free from material misstatement.",
+            "d": "The auditor shall express an adverse opinion and report the said matter in Key Audit Matter Para when the auditor, having obtained sufficient appropriate audit evidence, concludes that misstatements, individually or in the aggregate, are both material and pervasive to the financial statements. In the current case, the auditor has appropriately disclosed the said matter in Key Audit Matter Paragraph."
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "As per the expert appointed by the Auditor, the exposure for the company can be $₹ 20$ lacs as in past in similar cases, the judgement was delivered against the company. However, the management of ABC Limited was of the view that when management has already hired an expert, then there is no need to hire another expert by the auditor. Seeking your advice, kindly guide the auditor by selecting the below option, and what next steps should perform. (Chapter 5.2 - SA 501- Audit Evidence- Specific Considerations for selected items)",
+          "options": {
+            "a": "The auditor shall design and perform audit procedures in order to identify litigation and claims involving the entity which may give rise to a risk of material misstatement. Also, if expertise in a field other than accounting or auditing is necessary to obtain sufficient appropriate audit evidence, the auditor shall determine whether to use the work of an auditor's expert. Hence auditor can appoint his expert to validate the assumption and estimate performed by the management's expert.",
+            "b": "The auditor shall rely upon the work performed by the management's expert. Management expert will be equivalent to the auditor's expert and hence no other expert is required to be appointed.",
+            "c": "The auditor shall not rely upon the management's expert unless he evaluates the adequacy of the expert's work for the auditor's purposes, including the relevance and reasonableness of that expert's findings or conclusions, and their consistency with other audit evidence. Although in the current case, there is no consonance between the management's expert's findings and other audit evidence, the auditor is still required to rely upon the findings of the management's expert.",
+            "d": "The auditor shall rely upon the management's expert without evaluating the adequacy of the expert's work for the auditor's purposes, including the relevance and reasonableness of that expert's findings or conclusions, and their consistency with other audit evidence. Hence auditor is required to rely upon the findings of management's expert in the current case."
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null
+        }
+      ],
+      "mcq_count": 3,
+      "unique_id": "cs__19.1__-8258290879412968116"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "19.1",
+      "chapter_name": "PROFESSIONAL ETHICS AND LIABILITIES OF AUDITORS",
+      "case_text": "Mr. K is a practicing-chartered accountant and also member of CPA Ireland. He handles only GST related work and tax audits for clients. Currently, he is having 19 companies for which he is handling the tax audit. At the beginning of the current Financial Year, he was approached by 40 new clients for tax audit assignments. He was reluctant to accept all the work as he feared breaching the permissible limit of handling clients. After consulting several friends of his, he finally decided to accept the work of just 2 big clients who approached him. Mr. J, (K's friend) a chartered accountant in practice and a member empaneled as insolvency professional was acting as the statutory auditor for a listed entity. The audit for the current Financial Year was completed but there was some difference of opinion between auditor and the management. As a result of this, the company did not send the notice for AGM to Mr. J. When enquired, it was said that the company is not obliged to send notices to the auditor and it's the responsibility of the auditor to be aware of the AGM. Having heard this, Mr. J went to his friend to clarify the above matter. As a result of this incident, the management had not paid a part of the agreed audit fees to Mr. J. In retaliation, Mr. J took lien over few documents pertaining to the company. Having come to know about this, Mr. K immediately informed his friend that his act would lead to professional misconduct.\n\nMr. K \\& his friend Mr. J decided to start a partnership firm. They completed all formalities and went ahead and printed their visiting card as follows:\n\n| Associates | M/s KJ \\& Associates |\n\n| :--- | :--- |\n\n| Mr. K, Chartered Accountant, | Mr. J, Chartered Accountant, |\n\n| CPA Ireland | Insolvency Professional |\n\n|  | Partner |\n\nThe firm had also received the following assignments:\n\n(i) Concurrent audit for T Bank Ltd.\n\n(ii) Statutory audit for BBT Bank Ltd. (it is to be noted that the bank was not sponsored by T Bank)\n\n(iii) Offer to act as settlor of ZZ Charitable Trust.\n\n(iv) Internal audit of PF Trust of Government Company Ltd.\n\n(v) Statutory Auditor of Government Company Ltd.",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "In the given case scenario, has Mr. K breached the maximum limit of clients. If yes, can he be held guilty of professional misconduct?",
+          "options": {
+            "a": "Yes. The ceiling on number of tax audits which can be accepted by a chartered accountant is 20 . In this given case, $\\mathrm{Mr} . \\mathrm{K}$ is already having 19 clients and has now accepted 2 more $(19+2=21)$. Also, he shall be held guilty of professional misconduct as per the Chartered Accountants Act, 1949.",
+            "b": "Yes. The ceiling on number of tax audits which can be accepted by a chartered accountant is 20 . In this given case, $\\mathrm{Mr} . \\mathrm{K}$ is already having 19 clients and has now accepted 2 more $(19+2=21)$. However, this shall not be considered as guilty of professional misconduct as per the Chartered Accountants Act, 1949.",
+            "c": "No. In the above case, the maximum ceiling is 25 in number (as per the latest decision taken by the ICAI council). The assignments (existing + new) handled by $\\mathrm{Mr} . \\mathrm{K}$ is well below the prescribed limit and hence there is no breach.",
+            "d": "No. In the above case, the maximum ceiling is 60 in number. The assignments (existing + new) handled by $\\mathrm{Mr} . \\mathrm{K}$ is well below the prescribed limit and hence there is no breach."
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "Will the retaliating act of Mr. J against the company make him guilty of professional misconduct?",
+          "options": {
+            "a": "No. The above act will not lead to professional misconduct. However, under section 147 of the Companies Act, 2013, Mr. J shall be punishable for exercising lien over the company's documents.",
+            "b": "No. The Chartered Accountants Act, 1949 is silent about the above situation and hence it will not lead to professional misconduct.",
+            "c": "Yes. As per the recent decision of Ethical Standards Board, a chartered accountant cannot exercise lien over client documents/ records for non-payment of his fees.",
+            "d": "Yes. As per Clause 7 of Part I of Second Schedule of Chartered Accountants Act, 1949, the above act of Mr. J will make him guilty of professional misconduct."
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "In the given case scenario, visiting cards printed by Mr. K \\& Mr. J, is there anything which may lead to professional misconduct? If so, under what provisions?",
+          "options": {
+            "a": "Mentioning 'CPA Ireland' \\& the term 'Insolvency Professional' by Mr. K \\& Mr. J respectively violates the provisions of clause 7 of part I of First schedule of the Chartered Accountants Act, 1949. Hence, both of them shall be held guilty of professional misconduct.",
+            "b": "There is no information contained in both the visiting cards, which leads to professional misconduct. All details mentioned are abiding the provisions of clause 7 of part I of First schedule of the Chartered Accountants Act, 1949.",
+            "c": "Mentioning 'CPA Ireland' by Mr. K violates the provisions of clause 6 \\& clause 7 of part I of First schedule of the Chartered Accountants Act, 1949. Hence, Mr. K shall be held guilty of professional misconduct. However, as far as Mr. J's card is concerned, nothing mentioned in it is against the provision of Chartered Accountants Act, 1949, so he shall not be held guilty of professional misconduct.",
+            "d": "Mentioning the term 'Insolvency Professional' by Mr. J violates the provisions of clause 7 of part I of First schedule of the Chartered Accountants Act, 1949. Hence, he shall be held guilty of professional misconduct. However, as far as Mr. K's card is concerned, nothing mentioned in it is against the provision of Chartered Accountants Act, 1949, so he shall not be held guilty of professional misconduct"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null
+        }
+      ],
+      "mcq_count": 3,
+      "unique_id": "cs__19.1__4524681499890647559"
+    }
+  ],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": true,
+      "total_marks": 14,
+      "chapter_number": "1",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "You are appointed as Statutory Auditor of Supreme Ltd. and are in the midst of conducting Annual Audit for the financial year ending on 31 ${ }^{\text {st }}$ March, 20X2. During the course of audit, you come across a situation involving recording of purchases amounting to ₹ 1.50 crores from a company incorporated on $18^{\text {th }}$ March, 20X2. Upon further inquiry, you discover that purchases have been booked at the instance of one of the directors. Further, despite this entry in books, no payment was made and there is lack of documentary or other evidence validating these purported purchases. How would you deal in the given situation? (RTP May '24)",
+          "answer": "SA 240, \"The Auditor's Responsibilities Relating to Fraud in an Audit of Financial Statements,\" emphasize that fraud can be perpetrated by management override of controls, such as the creation of fictitious journal entries, particularly towards the end of an accounting period, to manipulate operating results or achieve specific objectives. In the case of Supreme Ltd., where purchases of ₹1.50 crore were recorded at year-end without supporting evidence, it became apparent during the investigation that the company had entered fictitious journal entries to manipulate the operating results. Given this situation, the auditor would align their approach based on the impact of the misstatement resulting from such fictitious journal entries. If, due to fraud or suspected fraud, the auditor encounters exceptional circumstances that cast doubt on their ability to continue the audit, they must assess the professional and legal responsibilities applicable. This includes considering reporting obligations to those who appointed the auditor or, in some cases, to regulatory authorities. The appropriateness of withdrawal from the engagement is also a consideration, where legally permitted. Furthermore, the auditor is mandated to report in accordance with Section 143(12) of the Companies Act, 2013. According to Section 143(12) read with Rule 13 of Companies (Audit & Auditor's) Rules, 2014, if the auditor, during the performance of their duties, has reason to believe that an offence of fraud involving an amount of ₹1 crore or more has been committed by the company's officers or employees, reporting to the Central Government is required in the prescribed manner. Additionally, reporting obligations extend to Clause (xi) of Paragraph 3 of Companies (Auditor's Report) Order, 2020. The auditor is obligated to disclose whether any fraud by the company or against the company by its officers or employees has been observed or reported during the year. If affirmative, the nature and amount involved are to be indicated. This comprehensive reporting framework ensures transparency, adherence to legal requirements, and protection of stakeholders' interests in the face of potentially fraudulent activities.",
+          "chapter_number": "1.2",
+          "chapter_name": "SA 220- QUALITY CONTROL FOR AN AUDIT OF FINANCIAL STATEMENTS",
+          "unique_id": "1.2-T-1"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "## Question 2 (MTP 4 Marks Apr'24, RTP Nov'20,MP[2])\n\nBPMR and Associates, a renowned audit firm in the field of CA practice for the past three decades, was appointed to conduct the statutory audit of Rexlon Ltd., an unlisted company engaged in the business of paper manufacturing. The firm decided to commence the audit for the recently concluded financial year. After making significant progress in the audit, the auditors made the following observations:\n\nObservation 1: The management had disclosed in the financials that, during the year, one of the warehouses of the Company was affected due to a major flood. As a result of the same, the Company had incurred some losses. But the management was of the view that it was not material.\n\nObservation 2: Due to the flood, few records maintained by the Company with respect to a particular transaction was completely destroyed and there was no duplicate record maintained by the Company. However, those details were not pervasive, but material.\n\nYou are required to advise whether BPMR and Associates should report Observation 1 and 2 in its audit report? If so, under which heading should it be reported?",
+          "answer": "Observation 1 - The management had disclosed in the financials that, during the year, one of the warehouses of the Company was affected due to a major flood. As a result of the same, the Company had incurred some losses. But the management was of the view that it was not material. As per SA 706, \"Emphasis of Matter Paragraph \\& Other Matter Paragraph in the Independent Auditor's Report\", an Emphasis of Matter Paragraph refers to matter appropriately disclosed in the financials, that in the auditor's judgement is of such importance that it is fundamental to users' understanding of the financials. Hence, in this case, the auditor shall report about the consequences of the flood which affected the company's warehouse under Emphasis of Matter Paragraph.\n\nObservation 2 - Due to flood, few records maintained by the Company with respect to a particular transaction were destroyed and no duplicate records were maintained by the Company. However, those details were not pervasive, but material. As per SA 705, \"Modifications to the Opinion in the Independent Auditor's Report\", where the auditor is unable to obtain sufficient and appropriate audit evidence and where such matter is material but not pervasive, the auditor shall issue a Qualified opinion. Thus, in the given situation, on account of flood few records pertaining to particular transactions were completely destroyed and in the absence of duplicate records, the auditor was unable to obtain sufficient and appropriate audit evidence and those details were material but not pervasive. Therefore, in accordance with SA 705, the auditor is required to issue Qualified opinion.",
+          "chapter_number": "7.4",
+          "chapter_name": "SA 706- EMPHASIS OF MATTER PARAGRAPHS AND OTHER MATTER PARAGRAPHS IN THE INDEPENDENT AUDITOR'S REPORT"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "## Question 2 (MTP 4 Marks Apr'24, Mar'19 & Oct'18,MP[2])\n\nPine & Associates is the statutory auditor of BB Ltd., a listed company and started its operations 6 years ago. The fieldwork during the audit of the financial statements of the company for the year ended 31st March, 20X2 was completed on 1st May, 20X2. The auditor's report was dated $15^{\\text {th }}$ May, 20X2. During the documentation review of the engagement, it was observed that the engagement quality control review was completed on 18th May, 20X2. The engagement partner had completed his reviews in entirety by $12{ }^{\\text {th }}$ May, 20X2. Comment",
+          "answer": "As per SA 220, \"Quality Control for an Audit of Financial Statement\", the engagement partner shall take responsibility for reviews being performed in accordance with the firm's review policies and procedures. For audits of financial statements of listed entities, the engagement partner shall:\n\n- Determine that an engagement quality control reviewer has been appointed;\n\n- Discuss significant matters arising during the audit engagement, including those identified during the engagement quality control review, with the engagement quality control reviewer; and\n\n- Not date the auditor's report until the completion of the engagement quality control review.\n\nFurther, SA 700,\" Forming an Opinion and Reporting on Financial Statements\", requires the auditor's report to be dated not earlier than the date on which the auditor has obtained sufficient appropriate evidence on which to base the auditor's opinion on the financial statements. In cases of an audit of financial statements of listed entities where the engagement meets the criteria for an engagement quality control review, such a review assists the auditor in determining whether sufficient appropriate evidence has been obtained.\n\nConducting the engagement quality control review in a timely manner at appropriate stages during the engagement allows significant matters to be promptly resolved to the engagement quality control reviewer's satisfaction on or before the date of the auditor's report.\n\nIn this case, the audit of BB Ltd. for the year ending on 31st March 20X2 was conducted by Pine & Associates and was completed on 1st May, 20X2. Subsequently, the engagement partner reviewed the audit by 12th May, 20X2. The audit report issued by Pine and Associates was dated 15th May, 20X2. However, the engagement quality control review was finalized on 18th May, 20X2, which is later than the date of the audit report. In view of above, the date of auditors' report before the completion of the engagement quality control review, is not correct.",
+          "chapter_number": "1.2",
+          "chapter_name": "SA 220- QUALITY CONTROL FOR AN AUDIT OF FINANCIAL STATEMENTS"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "2",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "M/s Manidhari & Associates have been appointed as an auditor of JIN Limited, a multinational company dealing in spare parts. During the course of audit, CA Manidhari is facing many problems including the problem of not getting the desired information from the management. Accordingly, he decided to communicate with those charged with the governance about significant difficulties encountered during the audit. CA Manidhari seeks your guidance on matters which can be considered as significant difficulties as per SA 260. (RTP May 22)",
+          "answer": "As per SA 260, \"Communication with Those Charged with Governance\", significant difficulties encountered during the audit may include such matters as:\n\n(i) Significant delays by management, the unavailability of entity personnel, or an unwillingness by management to provide information necessary for the auditor to perform the auditor's procedures.\n\n(ii) An unreasonably brief time within which to complete the audit.\n\n(iii) Extensive unexpected effort required to obtain sufficient appropriate audit evidence.\n\n(iv) The unavailability of expected information.\n\n(v) Restrictions imposed on the auditor by management.\n\n(vi) Management's unwillingness to make or extend its assessment of the entity's ability to continue as a going concern when requested.\n\nIn some circumstances, such difficulties may constitute a scope limitation that leads to a modification of the auditor's opinion as per SA 705 (Revised), Modifications to the Opinion in the Independent Auditor's Report.",
+          "chapter_number": "2.3",
+          "chapter_name": "SA 260- COMMUNICATION WITH THOSE CHARGED WITH GOVERNANCE"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "## Question 11 (MTP 4 Marks Aug'25)\n\nROPE Ltd. is a manufacturing and trading Company of leather goods since last 12 years. You are the internal auditor of the company for the year 20X1-X2. In order to review internal controls of the company, you visited the departments and noticed:\n\n(i) The store manager, Mr. Abhishek, who is responsible for maintaining the inventory, also keeps the inventory records.\n\n(ii) The company's staff has been working in the same roles for over seven years without any rotation. The finance manager, Mr. Krishna, in particular, has never had his duties rotated since joining the company.\n\n(iii) The head of procurement, Mr. Sumit, has complete control over purchasing, receiving goods, and approving payments to suppliers. His actions are not reviewed by any other person in the company.\n\nDo you think that general conditions pertaining to the internal check system are violated in the given situation? Comment.",
+          "answer": "Yes, in the given situation general conditions pertaining to the internal check system are violated as follows:\n\n(i) Allowing Mr. Abhishek, the store manager, to maintain inventory records while also having custody of the inventory violates the principle that those with physical custody of assets should not have access to accounting records.\n\n(ii) The lack of staff rotation for over seven years violates the principle that staff duties should be rotated periodically to prevent any single person from performing the same function for too long.\n\n(iii) The head of procurement, Mr. Sumit, having complete control over the procurement process without oversight violates the principle that no single person should control any important aspect of the business operation.",
+          "chapter_number": "4.2",
+          "chapter_name": "INTERNAL CONTROL"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "## Question 15 (PYP 4 Marks Sep'25)\n\nLNG Corporation is a government-owned entity, is engaged in operating liquefied natural Gas. The organization recently underwent a compliance audit conducted by the Comptroller and Auditor General (C\\&AG) of India. The audit aimed to assess whether the PSU's financial transactions, procurement activities and operations complied with relevant laws, regulations and internal guidelines.\n\nIn context of the above, you are required to:\n\n(i) Explain the concept of compliance audit and its perspective.\n\n(ii) What shall be the concern of the auditor when undertaking compliance audit?",
+          "answer": "(i) Compliance Audit: Compliance Audit is the independent assessment of whether a given subject matter is in compliance with the applicable criteria. This audit is carried out by assessing whether activities, financial transactions and information comply in all material respects, with the regulatory and other rules which govern the audited entity.\n\nPerspective of Compliance Auditing: Compliance Auditing is part of a combined audit that may also include other aspects. Compliance auditing is generally conducted either-\n\n(1) in relation with the audit of financial statements, or\n\n(2) separately as individual compliance audits, or\n\n(3) in combination with performance auditing.\n\n(ii) Compliance auditing is concerned with:\n\n(1) Regularity - adherence of the subject matter to the formal criteria emanating from relevant laws, regulations and agreements applicable to the entity.\n\n(2) Propriety - observance of the general principles governing sound financial management and the ethical conduct of public officials.\n\nWhile regularity is emphasized in compliance auditing, propriety is equally pertinent in the public-sector context, in which there are certain expectations concerning financial management and the conduct of officials.",
+          "chapter_number": "15",
+          "chapter_name": "OVERVIEW OF AUDIT OF PUBLIC SECTOR UNDERTAKING"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "15",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "SPS & Associates, Chartered Accountants, are statutory auditors of Grec Limited for the last two years. Grec Limited is engaged in the manufacturing and marketing of pharmaceutical goods in India. During the year 2023-24, the company has diversified and commenced providing software solutions in \"e-commerce\" in India as well as in certain African countries. SPS & Associates, while carrying out the audit, noticed that the company has expanded its operations into a new segment as well as in a new country. SPS & Associates does not possess the necessary expertise and infrastructure to carry out the audit of these diversified business activities and accordingly wishes to withdraw from the engagement and client relationship. Discuss the issues that need to be addressed before deciding to withdraw.",
+          "answer": "As per SQC 1, \"Quality Control for Firms that Perform Audits and Reviews of Historical Financial Information, and Other Assurance and Related Services Engagements\", the firm should establish policies and procedures for the acceptance and continuance of client relationships and specific engagements, designed to provide it with reasonable assurance that it will undertake or continue relationships and engagements only where it is competent to perform the engagement and has the capabilities, time and resources to do so.\n\nIn the given case, SPS & Associates, Chartered Accountants, statutory auditors of Grec Limited for the last two years, came to know that the company has expanded its operations into a new segment as well as in new country. SPS & Associates does not possess the necessary expertise for the same, therefore, SPS & Associates wish to withdraw from the engagement and client relationship. Policies and procedures on withdrawal from an engagement or from both the engagement and the client relationship address issues that include the following:\n\n1. Discussing with the appropriate level of the client’s management and those charged with its governance regarding the appropriate action that the firm might take based on the relevant facts and circumstances.\n\n2. If the firm determines that it is appropriate to withdraw, discussing with the appropriate level of the client’s management and those charged with governance withdrawal from the engagement or from both the engagement and the client relationship, and the reasons for the withdrawal.\n\n3. Considering whether there is a professional, regulatory, or legal requirement for the firm to remain in place, or for the firm to report the withdrawal from the engagement, or from both the engagement and the client relationship, together with the reasons for the withdrawal, to regulatory authorities.\n\n4. Documenting significant issues, consultations, conclusions, and the basis for the conclusions.\n\nSPS & Associates should address the above issues before deciding to withdraw.",
+          "chapter_number": "1.2",
+          "chapter_name": "SA 220- QUALITY CONTROL FOR AN AUDIT OF FINANCIAL STATEMENTS",
+          "unique_id": "AA-OCR-P1_SQC1"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Mr. Sheetal, a Chartered Accountant during the course of audit of SS Ltd. came to know that the company has taken a loan of Rs. 12 lakh from Employees Provident Fund. The said loan was not reflected in the books of account. However, the auditor ignored this information in his report. Comment with reference to the Chartered Accountants Act, 1949, and Schedules thereto. (MTP 4 Marks, Oct'21, SM)",
+          "answer": "Failure to Disclose Material Facts: As per Clause (5) of Part I of Second Schedule to the Chartered Accountants Act, 1949, a chartered Accountant in practice will be held liable for misconduct if he fails to disclose a material fact known to him, which is not disclosed in the financial statements but disclosure of which is necessary to make the financial statements not misleading. In this case, Mr. Sheetal has come across information that a loan of Rs. 12 lakhs has been taken by the company from Employees Provident Fund. This is contravention of Rules and the said loan has not been reflected in the books of accounts. Further, this material fact has also to be disclosed in the financial statements. The very fact that Mr. Sheetal has failed to disclose this fact in his report, he is attracted by the provisions of professional misconduct under Clause (5) of Part I of Second Schedule to the Chartered Accountants Act, 1949.",
+          "chapter_number": "19",
+          "chapter_name": "PROFESSIONAL ETHICS AND LIABILITIES OF AUDITORS"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "## Question 2 (SM, MP[3] 4 Marks)\n\nCA. Tripti is conducting review of the quarterly financial information of a company of which she is also auditor. She believes that it is necessary to make a material adjustment to the quarterly financial information for it to be prepared, in all material respects, in accordance with the applicable financial reporting framework. She has communicated the matter to the CFO and audit committee. However, no response was received even after waiting for a reasonable time. What are the options available to her?",
+          "answer": "As per SRE 2410, \"Review of Interim Financial Information Performed by the Independent Auditor of the Entity\", when in the auditor's judgment, those charged with governance do not respond appropriately within a reasonable period, the auditor should consider:\n\n(a) Whether to modify the report or\n\n(b) The possibility of withdrawing from the engagement and\n\n(c) The possibility of resigning from the appointment to audit the annual financial statements.\n\nIn the given case, CA. Tripti who was conducting review of the quarterly financial information of a company, communicated the matter to the CFO and audit committee. However, no response was received even after waiting for a reasonable time. In such case, she has above mentioned options as per SRE 2410.",
+          "chapter_number": "10.2",
+          "chapter_name": "SRE 2410- REVIEW OF INTERIM FINANCIAL INFORMATION PERFORMED BY INDEPENDENT AUDITOR OF ENTITY"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "19",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "CA Ram, a practicing chartered accountant, is well known for his expertise in handling Goods and Services Tax (GST) cases at the GST Tribunal and he does not provide any assurance services. Given his long-standing reputation in the field, CA Ram is approached by DEF Limited to file an appeal in the Tribunal against a GST demand of Rs. 6 crore, which was imposed by the Commissioner (Appeals), and to represent DEF Limited in the matter. CA Ram offers to accept a fee of Rs. $3,50,000$ for filing the appeal and pleading at the GST Tribunal. Comment on the act of CA Ram in terms of the Chartered Accountant Act, 1949 and Schedules thereon. (MTP 4 Marks Oct'24,MP[5])",
+          "answer": "Under Section 2(2)(iv) of the Chartered Accountants Act, 1949, a member of the Institute shall be deemed \"to be in practice\" when individually or in partnership with Chartered Accountants in practice, he, in consideration of remuneration received or to be received renders such other services as, in the opinion of the Council, are or may be rendered by a Chartered Accountant in practice.\n\nPursuant to Section 2(2)(iv) of the Chartered Accountants Act, 1949, read with Regulation 191 of Chartered Accountants Regulations, 1988 a member shall be deemed to be in practice if he, in his professional capacity and neither in his personal capacity nor in his capacity as an employee, acts as representative for taxation matters.\n\nIn the given situation, CA Ram, a practicing Chartered Accountant, provides non-assurance services. He is approached by DEF Limited, a non-audit client, to file an appeal in GST Tribunal against GST Demand of Rs. 6 crore, which was imposed by the Commissioner (Appeals) and to plead on behalf of DEF Limited in the matter. CA Ram offers to accept the case and agrees to charge fees of Rs. $3,50,000$.\n\nTherefore, CA Ram is not guilty of professional misconduct.",
+          "chapter_number": "19",
+          "chapter_name": "PROFESSIONAL ETHICS AND LIABILITIES OF AUDITORS"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "## Question 2 (SM)\n\nYou are conducting a review of the financial statements of a company. It is gathered upon inquiry that there is a possibility of material misstatements in financial statements. Discuss, how you would proceed further in the matter under SRE 2400.",
+          "answer": "## Answer 2\n\nIf the practitioner becomes aware of matters that causes the practitioner to believe the financial statements may be materially misstated, the practitioner shall design and perform additional procedures sufficient to enable the practitioner to: -\n\na) Conclude that the matter(s) is not likely to cause the financial statements as a whole to be materially misstated or\n\nb) Determine that the matter(s) causes the financial statements as a whole to be materially misstated.\n\nAdditional procedures focus on obtaining sufficient appropriate evidence to enable the practitioner to form a conclusion on matters that the practitioner believes may cause the financial statements to be materially misstated. The procedures may be:\n\n- Additional inquiry or analytical procedures, for example, being performed in greater detail or being focused on the affected items (i.e., amounts or disclosures concerning the affected accounts or transactions as reflected in the financial statements); or\n\n- Other types of procedures, for example, substantive test of details or external confirmations.",
+          "chapter_number": "10.1",
+          "chapter_name": "SRE 2400- ENGAGEMENT TO REVIEW HISTORICAL FINANCIAL STATEMENTS"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Question 17 (PYP 4 Marks Sep'25)\n\nKLM Chemicals and Paints Ltd., a manufacturing company listed on the stock exchange, has committed to enhancing its Environmental, Social and Governance (ESG) transparency. Sustainability Reporting plays a crucial role in enhancing transparency and accountability regarding an entity's Environmental, Social and Governance (ESG) performance. The company wants to apply Sustainable development in its corporate policy. During the review of its sustainability practices, the management is keen to assess the safety of the products, its quality and labour relations.\n\nWhat should be addressed in the pillar envisaged above? Highlight the various key elements included in this Pillar.",
+          "answer": "Social Pillar: The ESG pillar highlighted here is the \"Social\" pillar which addresses the relationships the entity has and the reputation it fosters with people and institutions in the communities where you do business, and the value chain involved. It further includes labour relations, diversity, and inclusions.\n\nThe Social pillar includes the following elements as under:\n\n- Human Capital:\n\n- Labour Management\n\n- Health & Safety\n\n- Human Capital Development\n\n- Supply Chain Labour Standards\n\n- Product Liability:\n\n- Product Safety & Quality\n\n- Chemical Safety\n\n- Financial Product Safety\n\n- Privacy and Data Security\n\n- Responsible Investment\n\n- Stakeholders Opposition:\n\n- Controversial Sourcing\n\n- Social Opportunity:\n\n- Access to Communication\n\n- Access to Finance\n\n- Access to Health Care\n\nOpportunities in Nutrition & Health",
+          "chapter_number": "18",
+          "chapter_name": "EMERGING AREAS: SUSTAINABLE DEVELOPMENT GOALS (SDG) AND ENVIRONMENT, SOCIAL AND GOVERNANCE (ESG) ASSURANCE",
+          "unique_id": "18-T-17"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "7",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "## Question 1 (MTP 4 Marks Oct'22, MTP 4 Marks Apr'25)\n\nDifficult Books Limited is engaged in manufacturing of active pharmaceutical ingredients. Due to change in laws and regulations, every company engaged in manufacturing in active pharmaceutical ingredients would now require production capacity license which will restrict the production of companies. Management of the company assessed the impact of the change in law over the financial position of company and appropriately disclosed the same in the financial statement.\n\nAudit Team of the company evaluated management's disclosure and found it appropriate and sufficient. However, considering the said matter as most important and fundamental to users understanding regarding financial statement the audit team decided to disclose the same in Other Matter Paragraph.\n\nYou as an Engagement Partner are required to guide the Audit Team with respect to reporting of the said matter in Audit Report.",
+          "answer": "As per SA 706, \"Emphasis of Matter Paragraphs and Other Matter Paragraphs in the Independent Auditor's Report\" if the auditor considers it necessary to draw users' attention to a matter presented or disclosed in the financial statements that, in the auditor's judgment, is of such importance that it is fundamental to users' understanding of the financial statements, the auditor shall include an Emphasis of Matter paragraph in the auditor's report provided:\n\ni. The auditor would not be required to modify the opinion in accordance with SA 705 as a result of the matter; and\n\nii. When SA 701 applies, the matter has not been determined to be a key audit matter to be communicated in the auditor's report.\n\nIn the instant case, since Difficult Books Limited is engaged in manufacturing of active pharmaceutical ingredients, would now require production capacity license which will restrict the production of companies, due to change in laws and regulations. Management of the Difficult Books Limited assessed the impact of the change in law over the financial position of company and appropriately disclosed the same in the financial statement.\n\nAudit team of the Difficult Books Limited evaluated management's disclosure and found it appropriate and sufficient. However, considering the said matter as most important and fundamental to users understanding regarding financial statement the audit team decided to disclose the same.\n\nThe said matter is already disclosed and presented appropriately in financial statement and is of such importance that is fundamental to the users understanding of the financial statement and hence, it required to be disclosed under Emphasis of Matter paragraph. Therefore, decision of audit team to disclose the same in Other Matter Paragraph is not in order, it should be disclosed in Emphasis of Matter Paragraph.",
+          "chapter_number": "7.4",
+          "chapter_name": "SA 706- EMPHASIS OF MATTER PARAGRAPHS AND OTHER MATTER PARAGRAPHS IN THE INDEPENDENT AUDITOR'S REPORT"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "During the course of audit of PEC Limited, CA Guru has reason to believe that a fraud involving Rs. 75 lakhs has been committed in the company by its employees. Is CA Guru under statutory obligation to report the above matter to Central government by filing prescribed form on MCA Portal? How should he proceed to report above said matter? (MTP 5 Marks Oct'24,MP[5])",
+          "answer": "As per section 143(12) of the Companies Act, 2013 read with Rule 13 of the Companies (Audit and Auditors) Rules, 2014, if an auditor of a company in the course of the performance of his duties as auditor, has reason to believe that an offence of fraud, which involves or is expected to involve individually an amount of Rs. 1 crore or above, is being or has been committed in the company by its officers or employees, the auditor shall report the matter to the Central Government within such time and in such manner as prescribed.\n\nIn the given case, CA Guru has reason to believe that a fraud involving Rs. 75 lakhs has been committed in the company by its employees. Therefore, he is under no statutory obligation to report this matter to Central Government by filing prescribed Form (ADT-4) on MCA portal.\n\nIn case of a fraud involving lesser than the specified amount [i.e. less than Rs. 1 crore], the auditor shall report the matter to the audit committee constituted under section 177 or to the Board in other cases within such time and in such manner as prescribed. Besides, auditor has obligation to report matters pertaining to fraud under clause (xi) of paragraph 3 of CARO, 2020.",
+          "chapter_number": "2.1",
+          "chapter_name": "SA 220- QUALITY CONTROL FOR AN AUDIT OF FINANCIAL STATEMENTS"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "## Question 79 (PYP 4 Marks, Nov'22, SM)\n\nMt. P, a Chartered Accountant did not maintain books of account for his professional work on the ground that his income is assessed under Section 44ADA of the Income Tax Act, 1961. Comment with reference to the Chartered Accountants Act, 1949 and Schedules thereto.",
+          "answer": "## Answer 79\n\nMaintenance of Books of Account: As per the Council General Guidelines 2008, under Chapter 5 on maintenance of books of accounts, it is specified that if a chartered accountant in practice or the firm of Chartered Accountants of which he is a partner fails to maintain and keep in respect of his/its professional practice, proper books of account including the Cash Book and Ledger, he is deemed to be guilty of professional misconduct.\n\nAccordingly, it does not matter whether section 44ADA of the Income Tax Act, 1961 applies or not.\n\nConclusion: Hence, Mr. P is guilty of professional misconduct.",
+          "chapter_number": "19",
+          "chapter_name": "PROFESSIONAL ETHICS AND LIABILITIES OF AUDITORS",
+          "or_question": {
+            "question": "Question 41 (MTP 4 Marks, Apr'22)\n\nSanyam, a chartered accountant in practice is owner of three agriculture lands. He lost his father due to Covid Pandemic. After death of his father, he started carrying out agricultural activities. His neighbour Raja who is a farmer, filed a complaint against him to ICAI that being a member he is carrying out agricultural activities, therefore, he is liable for misconduct. You are required to examine the same with reference to the Chartered Accountants Act, 1949 and Schedules thereto.",
+            "answer": "Engaging into Agricultural Activity: As per Clause (11) of Part I of First Schedule of Chartered Accountants Act, 1949, a Chartered Accountant in practice is deemed to be guilty of professional misconduct if he engages in any business or occupation other than the profession of Chartered Accountant unless permitted by the Council so to engage.\n\nHowever, the Council has granted general permission to the members to engage in certain specific occupation. In respect of all other occupations specific permission of the Institute is necessary.\n\nIn this case, CA. Sanyam is owner of 3 agriculture lands, and he is carrying out agricultural activities which is covered under the general permission.\n\nTherefore, CA Sanyam is not guilty of professional misconduct under Clause (11) of Part I of First Schedule of Chartered Accountants Act, 1949 and complain of neighbor to the Institute is not correct."
+          }
+        }
+      ]
+    },
+    {
+      "q_main": 6,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "11",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "## Question 4 (MTP 5 Marks Sep'24, PYP 5 Marks, May'19, SM,MP[3],[4])\n\nYou are engaged by $\\mathrm{M} / \\mathrm{s}$ Active Ltd. to examine and report on prospective financial information which the management of the company has prepared for presentation at an Investor meet program organized by a State\n\nGovernment to attract investment in their state. The company in its vision document descripted various plans and proposals of the company with projected financial goals and means to achieve the same and various benefits accruing to the economic development of the State. What important matters will be considered by you while determining the nature, timing and extent of examination procedure to be applied in the review of the same?",
+          "answer": "Examination Procedures: As per SAE3400, \"The Examination of Prospective Financial Information\", when determining the nature, timing and extent of examination procedures, the auditor should consider matters such as:\n\n(i) The knowledge obtained during any previous engagements;\n\n(ii) Management's competence regarding the preparation of prospective financial information;\n\n(iii) the likelihood of material misstatement;\n\n(iv) the extent to which the prospective financial information is affected by the management's judgment;\n\n(v) the sources of information considered by the management for the purpose, their adequacy, reliability of the underlying data, including data derived from third parties, such as industry statistics, to support the assumptions;\n\n(vi) the stability of entity's business; and\n\n(vii) the engagement team's experience with the business and the industry in which the entity operates and with reporting on prospective financial information.",
+          "chapter_number": "11.1",
+          "chapter_name": "SRE 2410- REVIEW OF INTERIM FINANCIAL INFORMATION PERFORMED BY INDEPENDENT AUDITOR OF ENTITY",
+          "unique_id": "11.1-T-4"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "IT dependencies also arise due to \"system generated reports\" and \"interfaces\". How do such IT dependencies arise? Why is it important to identify IT dependencies to develop an effective and efficient audit approach?",
+          "answer": "IT dependencies arise when IT is used to initiate, authorize, record, process, or report transactions or other financial data for inclusion in the financial statements. System generated reports are the information generated by the IT systems. These reports are often used in an entity's execution of a manual control, including business performance reviews, or may be the source of entity information used by when selecting items for the testing, performing substantive tests of details or performing a substantive analytical procedure. For example, a vendor master report or customer aging report. Interfaces are programmed logic that transfer the data from one IT system to another. For example, an interface may be programmed to transfer data from a payroll subledger to the general ledger. In this manner, IT dependencies arise due to \"system generated reports\" and \"interfaces\". Identifying and documenting the entity's IT dependencies in a consistent, clear manner helps to identify the entity's reliance upon IT, understand how IT is integrated into the entity's business model, identify potential risks arising from the use of IT, identify related IT General Controls and enables us to develop an effective and efficient audit approach.",
+          "chapter_number": "12",
+          "chapter_name": "DIGITAL AUDITING AND ASSURANCE",
+          "unique_id": "AA-OCR-P1_DigitalAudit"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "In order to identify a particular company as Non-Banking Financial Company (NBFC), it will consider both assets and income pattern as evidenced from the audited balance sheet of the previous year to decide its principal business. The company will be treated as NBFC when (i) Financial assets of the company constitute more than 50 percent of the total assets (netted off by intangible assets) and (ii) Income from financial assets of the company constitutes more than 50 percent of the gross income. A company which fulfills both these criteria shall qualify as an NBFC and would require to be registered as NBFC by RBI. In the given case of Singh Ltd, its financial assets are ₹ 374 Crore i.e., (₹ 61.75 + ₹ 312.25) Total Assets (netted off by intangible assets) = ₹ 608 Crore Income from financial assets = ₹ 68 Crore Gross Income = ₹ 118.75 Crore From the above, it can be concluded that financial assets of Singh Ltd. constitute more than 50 per cent of the total assets (netted off by intangible assets) and income from financial assets of Singh Ltd. constitutes more than 50 per cent of the gross income. Hence, Singh Ltd. fulfills both the criteria to qualify as an NBFC. Thus Singh Ltd. can apply for registration under Section 45-IA of the Reserve Bank of India (Amendment) Act, 1997 in prescribed form along with the necessary documents.",
+          "answer": "Singh Ltd. qualifies as a Non-Banking Financial Company (NBFC) as it meets the criteria set forth by the Reserve Bank of India (RBI). The financial assets of Singh Ltd. constitute more than 50% of the total assets (₹ 374 Crore out of ₹ 608 Crore) and the income from financial assets (₹ 68 Crore) constitutes more than 50% of the gross income (₹ 118.75 Crore). Therefore, Singh Ltd. is eligible to apply for registration as an NBFC under Section 45-IA of the Reserve Bank of India (Amendment) Act, 1997, along with the necessary documentation.",
+          "chapter_number": "14.1",
+          "chapter_name": "SPECIAL FEATURES OF AUDIT OF BANKS",
+          "unique_id": "AA-OCR-P1_NBFCAudit"
+        }
+      ]
+    }
+  ]
+}

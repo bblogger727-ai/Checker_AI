@@ -6,12 +6,15 @@ FastAPI application with PostgreSQL for full debug storage.
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from starlette.middleware.base import BaseHTTPMiddleware
+from starlette.requests import Request
 
 from app.core.database import init_db
 
 # API Routers
 from app.api.exams import router as exams_router
 from app.api.students import router as students_router
+from app.api.pipelines import router as pipelines_router
 
 # Legacy routers (for backward compatibility / testing)
 from app.api.upload import router as upload_router
@@ -35,6 +38,15 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+class PrivateNetworkAccessMiddleware(BaseHTTPMiddleware):
+    async def dispatch(self, request: Request, call_next):
+        response = await call_next(request)
+        if request.method == "OPTIONS" and request.headers.get("Access-Control-Request-Private-Network"):
+            response.headers["Access-Control-Allow-Private-Network"] = "true"
+        return response
+
+app.add_middleware(PrivateNetworkAccessMiddleware)
 
 
 @app.on_event("startup")
@@ -65,6 +77,7 @@ def health():
 # Main API routes (with PostgreSQL)
 app.include_router(exams_router)
 app.include_router(students_router)
+app.include_router(pipelines_router)
 
 # Legacy routes (file-based, no auth)
 app.include_router(upload_router)

@@ -1,0 +1,435 @@
+{
+  "meta": {
+    "subject_code": "DT",
+    "subject_name": "Direct Tax",
+    "paper_num": 1,
+    "total_marks_printed": 100,
+    "total_marks_in_paper": 114,
+    "section_a_marks": 30,
+    "section_b_marks": 84,
+    "note": "Section B: Q1 compulsory (14m). Attempt any 4 of Q2-Q6 (14m each).",
+    "blacklisted_from": []
+  },
+  "section_a": [
+    {
+      "type": "case_study",
+      "chapter_number": "29",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "Mr. Hari (aged 42 years) is a resident Indian who is a salaried employee. His salary income (computed) for the P.Y.2025-26 is ₹ 17,50,000. His brother Mr. Rajesh (aged 45 years) is a resident Indian carrying on retail trade business in which he incurred a loss of ₹ 5,25,000 (computed) for the P.Y.2025-26. He also trades in Virtual Digital Assets. The details of assets transferred by Mr. Hari and Mr. Rajesh during the P.Y.2025-26 are given hereunder:\n\n| Particulars | Mr. Hari |  | Mr. Rajesh |  |\n| :--- | :--- | :--- | :--- | :--- |\n| Land and building |  | ₹ |  | ₹ |\n| Date of acquisition | 1.4.2024 |  |  |  |\n| Cost of acquisition |  | 20,00,000 |  |  |\n| Date of transfer | 28.2.2026 |  |  |  |\n| Expenses on transfer |  | 1,00,000 |  |  |\n| Sale consideration |  | 30,00,000 |  |  |\n| Virtual Digital Asset |  |  |  |  |\n| Number of units | 40 |  | 50 |  |\n| Date of acquisition | 1.4.2023 |  | 31.5.2023 |  |\n| Cost of acquisition (of 40 units/50 units, respectively) |  | 5,20,000 |  | 2,50,000 |\n| Date of transfer | 1.9.2025 |  | 1.3.2026 |  |\n| Expenses on transfer |  | 2,000 |  | 1,000 |\n| Sale consideration (of 40 units/50 units, respectively) |  | 4,90,000 |  | 3,50,000 |\n| FMV on the date of transfer (of 40 units/50 units, respectively) |  | 5,10,000 |  | 4,10,000 |\n| Person to whom transferred | Mr. Ganesh (who is engaged in the business of trading in foodgrains) |  | Mr. Vallish (who is engaged in the business of trading VDAs) |  |\n| Turnover of the transferee (Mr. Ganesh and Mr. Vallish) in the F.Y.2024-25 | ₹ 90 lakh |  | ₹ 15 lakh |  |\n| Turnover of the transferee (Mr. Ganesh and Mr. Vallish) in the F.Y.2025-26 | ₹ 110 lakh |  | ₹ 22 lakh |  |\n\nDuring the P.Y.2025-26, Mr. Hari has dividend income of ₹ 10 lakh from shares of Indian companies. He has paid interest of ₹ 4 lakh on loan borrowed for investment in shares. Both Mr. Hari and Mr. Rajesh have deposited ₹ 1,50,000 in PPF. Mr. Hari has interest on savings account of ₹ 22,000 while Mr. Rajesh has income from fixed deposits of ₹ 50,000.\n\nCII for F.Y.2025-26 - 376; F.Y. 2021-22 - 317 and F.Y.2022-23 - 331, FY 2023-24-348, FY 2024-25-363.\n\nOn the basis of the facts given above, choose the most appropriate answer to Q. 1 to Q. 6 below, based on the provisions of the Income-tax Act, 1961 -",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "What is the tax treatment of loss from transfer of virtual digital asset by Mr. Hari? (Chapter 12: Digital Taxation)",
+          "options": {
+            "a": "It is a long-term capital loss which cannot be set-off against capital gains on transfer of land and building; it has to be carried forward for set-off against long-term capital gains of the subsequent year.",
+            "b": "It is a short-term capital loss which can be set-off against capital gains on transfer of land and building.",
+            "c": "Such loss cannot be set-off against any other source of income in the P.Y.2025-26 but can be carried forward for set-off against income from transfer of virtual digital asset in the subsequent year",
+            "d": "Such loss can neither be set-off against any other source of income in the P.Y. 2025-26 nor can it be carried forward to the subsequent year for set-off against income from same source."
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "What is the income includible in the total income of Mr. Rajesh on account of transfer of virtual digital asset? (Chapter 12: Digital Taxation)",
+          "options": {
+            "a": "₹ 99,000",
+            "b": "₹ 1,00,000",
+            "c": "₹ 1,59,000",
+            "d": "₹ 1,60,000"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "What is the amount of tax deductible by Mr. Ganesh and Mr. Vallish under section 194S from consideration paid to Mr. Hari and Mr. Rajesh for transfer of virtual digital asset? (Chapter 12: Digital Taxation)",
+          "options": {
+            "a": "Nil, in both cases, since their turnover of P.Y.2023-24 does not exceed ₹ 100 lakhs",
+            "b": "₹ 4,900 and Nil, respectively. Tax is deductible by Ganesh since his turnover for P.Y.2023-24 exceeds ₹ 100 lakhs. No tax is deductible by Mr. Vallish since his turnover does not exceed ₹ 100 lakhs.",
+            "c": "₹ 5,100 and ₹ 4,100 , respectively. Tax is deductible@ 1 \\% of higher of actual consideration and fair market value of virtual digital assets.",
+            "d": "₹ 4,900 and ₹ 3,500 , respectively. Tax is deductible@ 1 \\% of sale consideration, since the same is in excess of the prescribed threshold limits."
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null
+        },
+        {
+          "q_num": 4,
+          "question": "What is the income includible in the total income of Mr. Ganesh and Mr. Vallish on receipt of virtual digital asset for inadequate consideration? (Chapter 12: Digital Taxation)",
+          "options": {
+            "a": "₹ 20,000 and Nil, respectively. In the hands of Mr. Vallish, taxability does not arise since the virtual digital asset is not a capital asset.",
+            "b": "Nil, in both cases.",
+            "c": "₹ 20,000 and ₹ 60,000 , respectively.",
+            "d": "Nil and ₹ 60,000 , respectively."
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null
+        },
+        {
+          "q_num": 5,
+          "question": "What is the total income (rounded off) of Mr. Hari for A.Y.2025-26 ? Assume that he has not opted for section 115BAC. (Chapter 9: Assessment of Various Entities)",
+          "options": {
+            "a": "₹ 32,23,670",
+            "b": "₹ 32,82,000",
+            "c": "₹ 33,02,000",
+            "d": "₹ 33,12,000"
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null
+        },
+        {
+          "q_num": 6,
+          "question": "What would be the tax payable (rounded off) by Mr. Rajesh for A.Y.2026-27? What is the amount of business loss, if any, to be carried forward to A.Y.2027-28? Assume that he has not opted for section 115BAC. (Chapter 7: Aggregation of Income, Set-off & carry forward of losses)",
+          "options": {
+            "a": "Tax payable Nil; business loss to be carried forward ₹ 3,75,000",
+            "b": "Tax payable ₹ 30,890 ; business loss to be carried forward ₹ 4,75,000",
+            "c": "Tax payable ₹ 27,700 ; business loss to be carried forward ₹ 4,75,000",
+            "d": "Tax payable ₹ 45,820 ; business loss to be carried forward ₹ 4,75,000"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null
+        }
+      ],
+      "mcq_count": 6,
+      "unique_id": "cs__29__8250657909454003333"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "29",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "The Assessing Officer, with prior approval of Chief Commissioner of Income-tax, surveyed the business premises of A Ltd., which was within his jurisdiction, at 9 p.m. on 1.6.2025 for the purpose of obtaining information which may be relevant to the proceedings under the Income-tax Act, 1961. The survey operations continued till 11 p.m. On 15.6.2025, the Assessing Officer entered the business premises of B Ltd. which was also within his jurisdiction at 8.30 p.m. for the purpose of collecting information which may be useful for the purposes of the Income-tax Act, 1961 and left the premises at 9.30 p.m. The business premises of A Ltd. is kept open for business every day between 10 a.m. and 10 p.m. and the business premises of B Ltd. is kept open for business every day between 9.30 a.m. to 9.30 p.m.\n\nIn both the above cases, the Assessing Officer impounded and retained in his custody for a period of 12 days (inclusive of holidays), books of account and other documents inspected by him, after recording reasons for doing so. The Assessing Officer, however, did not take specific permission from the Chief Commissioner for this action.\n\nOn the basis of the facts given above, choose the most appropriate answer to Q. 1 to Q. 4 below, based on the provisions of the Income-tax Act, 1961 -\n\n\n1. Is the action of the Assessing Officer in entering the business premises of A Ltd. at 9 p.m. and continuing survey operations till 11 p.m. valid? Also, is the action of the Assessing officer in entering the business premises of B Ltd. at $\\mathbf{8 . 3 0}$ p.m. valid? (Chapter 14: Chapter Income Tax Authorities)\n\n(a) Yes, the action of the Assessing Officer, in both cases, is valid.\n\n(b) No, the action is not valid in both cases, as the Assessing Officer cannot enter the premises of A Ltd. and B Ltd. after sunset.\n\n(c) No, the action is not valid in the case of A Ltd., as the survey operations continued beyond business hours. However, the action of the Assessing officer in the case of B Ltd. is valid.\n\n(d) The action of the Assessing Officer is valid in the case of A Ltd. but not in the case of B Ltd.\n\nAns: (a)\n\n2. Is the action of the Assessing Officer in impounding and retaining books of account and other documents of A Ltd. and B Ltd., after recording reasons for doing so, valid, where he had not taken specific permission from the Chief Commissioner for this action? (Chapter 14: Chapter Income Tax Authorities)\n\n(a) No, the action of the Assessing Officer is not valid in the case of both A Ltd. and B Ltd.\n\n(b) Yes, the action of the Assessing Officer is valid in the case of both A Ltd. and B Ltd.\n\n(c) The action of the Assessing Officer is valid in the case of A Ltd. but not in the case of B Ltd.\n\n(d) The action of the Assessing Officer is valid in the case of B Ltd. but not in case of A Ltd.\n\nAns: (c)\n\n3. Can the Assessing Officer issue notice u/s 148 to A Ltd. in August, 2025, in respect of A.Y.2022-23, A.Y.202324 and A.Y.2024-25, consequent to survey conducted in the business premises of A Ltd? (Chapter 15: Assessment Procedure)\n\n(a) No, since the survey conducted is itself not valid\n\n(b) Yes, he can do so; compliances stipulated u/s 148A are not necessary.\n\n(c) Yes, he can do so, after following the compliances stipulated $\\mathrm{u} / \\mathrm{s} 148 \\mathrm{~A}$.\n\n(d) Yes, he can do so with the prior approval of the specified authority u/s 151; other compliances stipulated u/s 148A are not necessary.\n\nAns: (c)\n\n4. Would the action of the Assessing Officer in entering the premises of A Ltd. at 9 p.m. and impounding and retaining books of account been valid if he had surveyed A Ltd. only for the purpose of verifying whether tax has been deducted/collected at source in accordance with the provisions of the Income-tax Act, 1961? (Chapter 14: Chapter Income Tax Authorities)\n\n(a) Yes, the action of the Assessing Officer in entering the premises and impounding and retaining books of account would be valid.\n\n(b) No, the action of the Assessing Officer in entering the premises at 9 p.m. and impounding and retaining books of account is not valid.\n\n(c) The action of the Assessing Officer in entering the premises at 9 p.m. is valid but not the action of impounding and retaining books of account.\n\n(d) The action of the Assessing Officer in entering the premises at 9 p.m. is valid but not the action of continuing the survey beyond 10 p.m.\n\nAns: (b)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Is the action of the Assessing Officer in entering the business premises of A Ltd. at 9 p.m. and continuing survey operations till 11 p.m. valid? Also, is the action of the Assessing officer in entering the business premises of B Ltd. at $\\mathbf{8 . 3 0}$ p.m. valid? (Chapter 14: Chapter Income Tax Authorities)",
+          "options": {
+            "a": "Yes, the action of the Assessing Officer, in both cases, is valid.",
+            "b": "No, the action is not valid in both cases, as the Assessing Officer cannot enter the premises of A Ltd. and B Ltd. after sunset.",
+            "c": "No, the action is not valid in the case of A Ltd., as the survey operations continued beyond business hours. However, the action of the Assessing officer in the case of B Ltd. is valid.",
+            "d": "The action of the Assessing Officer is valid in the case of A Ltd. but not in the case of B Ltd."
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "Is the action of the Assessing Officer in impounding and retaining books of account and other documents of A Ltd. and B Ltd., after recording reasons for doing so, valid, where he had not taken specific permission from the Chief Commissioner for this action? (Chapter 14: Chapter Income Tax Authorities)",
+          "options": {
+            "a": "No, the action of the Assessing Officer is not valid in the case of both A Ltd. and B Ltd.",
+            "b": "Yes, the action of the Assessing Officer is valid in the case of both A Ltd. and B Ltd.",
+            "c": "The action of the Assessing Officer is valid in the case of A Ltd. but not in the case of B Ltd.",
+            "d": "The action of the Assessing Officer is valid in the case of B Ltd. but not in case of A Ltd."
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "Can the Assessing Officer issue notice u/s 148 to A Ltd. in August, 2025, in respect of A.Y.2022-23, A.Y.202324 and A.Y.2024-25, consequent to survey conducted in the business premises of A Ltd? (Chapter 15: Assessment Procedure)",
+          "options": {
+            "a": "No, since the survey conducted is itself not valid",
+            "b": "Yes, he can do so; compliances stipulated u/s 148A are not necessary.",
+            "c": "Yes, he can do so, after following the compliances stipulated $\\mathrm{u} / \\mathrm{s} 148 \\mathrm{~A}$.",
+            "d": "Yes, he can do so with the prior approval of the specified authority u/s 151; other compliances stipulated u/s 148A are not necessary."
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null
+        },
+        {
+          "q_num": 4,
+          "question": "Would the action of the Assessing Officer in entering the premises of A Ltd. at 9 p.m. and impounding and retaining books of account been valid if he had surveyed A Ltd. only for the purpose of verifying whether tax has been deducted/collected at source in accordance with the provisions of the Income-tax Act, 1961? (Chapter 14: Chapter Income Tax Authorities)",
+          "options": {
+            "a": "Yes, the action of the Assessing Officer in entering the premises and impounding and retaining books of account would be valid.",
+            "b": "No, the action of the Assessing Officer in entering the premises at 9 p.m. and impounding and retaining books of account is not valid.",
+            "c": "The action of the Assessing Officer in entering the premises at 9 p.m. is valid but not the action of impounding and retaining books of account.",
+            "d": "The action of the Assessing Officer in entering the premises at 9 p.m. is valid but not the action of continuing the survey beyond 10 p.m."
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null
+        }
+      ],
+      "mcq_count": 4,
+      "unique_id": "cs__29__-29902779685458079"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "29",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "## CS 3 (MTP 10 Marks Oct '23)\n\n\nXYZ Ltd., a company engaged in the business of manufacture of leather, has disclosed a net profit of ₹ 33 lakhs for the year ended 31st March, 2026, after debiting the following items of expenditure:\n\n(i) Depreciation as per the Companies Act, 2013 ₹ 15,20,000.\n\n(ii) Interest paid in dollars to MNO Inc., a foreign company, without deduction of tax at source ₹ 1,50,000. Such tax was, however, deducted on 10.4.2026 and remitted on 7.5.2026.\n\n(iii) Expenditure on in-house scientific research and development:\n\n(a) Research equipments purchased ₹ $2,20,000$.\n\n(b) Remuneration paid to scientists ₹ 80,000 .\n\n(iv) Contribution to National Laboratory for scientific research ₹ 5,00,000\n\n\n## Additional information\n\n\nThe company purchased a new plant and machinery for ₹ $40,00,000$ on 2nd September, 2025 and put the same to use on 1st November, 2025. For this purpose, it borrowed ₹ $30,00,000$ on 1st September, 2025 and paid interest@10\\% p.a. The company also purchased a motor car on 2nd October, 2019, which was put to use on the same date. The WDV of such motor car and plant & machinery $(15 \\%)$ as on 1.4 .2025 is $₹ 3,43,000$ and $₹ 95,00,000$, respectively.\n\nFrom the information given above, choose the most appropriate answer to the following questions\n\n\n1. What would be the depreciation allowable $u / s 32$ in respect of block of plant and machinery $(15 \\%)$ and motor car for A.Y.2026-27? Assume that such motor car is the only asset in the block. (Chapter 3: Profits & Gains from Business & Profession)\n\n(a) ₹ $28,42,500$ and $₹ 75,862$, respectively\n\n(b) $₹ 17,28,750$ and $₹ 82,556$, respectively\n\n(c) ₹ $21,33,750$ and ₹ $1,02,900$, respectively\n\n(d) $₹ 21,25,000$ and $₹ 1,24,950$, respectively\n\n\nAns: (c)\n\n2. What is the quantum of disallowance, if any, attracted for non-deduction of tax at source on interest paid to MNO Inc. during the P.Y.2025-26? (Chapter 13: Deduction, Collection & Recovery of Tax)\n\n(a) Nil, since the tax was deducted and deposited on or before the due date of filing of return of income\n\n(b) ₹ 30,000\n\n(c) ₹ 45,000\n\n(d) ₹ $1,50,000$\n\n\nAns: (d)\n\n3. What would be the deduction allowable $\\mathrm{u} / \\mathrm{s} 35$, if the company opts for the special provisions under section 115BAA? (Chapter 3: Profits & Gains from Business & Profession)\n\n(a) Nil\n\n(b) $₹ 5,00,000$\n\n(c) ₹ $3,00,000$\n\n(d) ₹ $8,00,000$\n\n\nAns: (c)\n\n4. What would be the income under the head \"Profits and gains of business and profession\" of XYZ Ltd. for A.Y.2026-27, if the company does not opt for the special provisions under section 115BAA? (Chapter 3: Profits & Gains from Business & Profession)\n\n(a) ₹ $27,33,350$\n\n(b) ₹ $26,28,350$\n\n(c) ₹ $26,08,350$\n\n(d) ₹ 27,20,050\n\n\nAns: (c)\n\n5. What would be the income chargeable under the head \"Profits and gains of business and profession\" of XYZ Ltd. for A.Y.2026-27, if the company opts for the special provisions under section 115BAA? (Chapter 3: Profits & Gains from Business & Profession)\n\n(a) ₹ $38,13,350$\n\n(b) ₹ $35,13,350$\n\n(c) ₹ $36,38,350$\n\n(d) $₹ 35,17,100$\n\n\nAns: (b)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "What would be the depreciation allowable $u / s 32$ in respect of block of plant and machinery $(15 \\%)$ and motor car for A.Y.2026-27? Assume that such motor car is the only asset in the block. (Chapter 3: Profits & Gains from Business & Profession)",
+          "options": {
+            "a": "₹ $28,42,500$ and $₹ 75,862$, respectively",
+            "b": "$₹ 17,28,750$ and $₹ 82,556$, respectively",
+            "c": "₹ $21,33,750$ and ₹ $1,02,900$, respectively",
+            "d": "$₹ 21,25,000$ and $₹ 1,24,950$, respectively"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "What is the quantum of disallowance, if any, attracted for non-deduction of tax at source on interest paid to MNO Inc. during the P.Y.2025-26? (Chapter 13: Deduction, Collection & Recovery of Tax)",
+          "options": {
+            "a": "Nil, since the tax was deducted and deposited on or before the due date of filing of return of income",
+            "b": "₹ 30,000",
+            "c": "₹ 45,000",
+            "d": "₹ $1,50,000$"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "What would be the deduction allowable $\\mathrm{u} / \\mathrm{s} 35$, if the company opts for the special provisions under section 115BAA? (Chapter 3: Profits & Gains from Business & Profession)",
+          "options": {
+            "a": "Nil",
+            "b": "$₹ 5,00,000$",
+            "c": "₹ $3,00,000$",
+            "d": "₹ $8,00,000$"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null
+        },
+        {
+          "q_num": 4,
+          "question": "What would be the income under the head \"Profits and gains of business and profession\" of XYZ Ltd. for A.Y.2026-27, if the company does not opt for the special provisions under section 115BAA? (Chapter 3: Profits & Gains from Business & Profession)",
+          "options": {
+            "a": "₹ $27,33,350$",
+            "b": "₹ $26,28,350$",
+            "c": "₹ $26,08,350$",
+            "d": "₹ 27,20,050"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null
+        },
+        {
+          "q_num": 5,
+          "question": "What would be the income chargeable under the head \"Profits and gains of business and profession\" of XYZ Ltd. for A.Y.2026-27, if the company opts for the special provisions under section 115BAA? (Chapter 3: Profits & Gains from Business & Profession)",
+          "options": {
+            "a": "₹ $38,13,350$",
+            "b": "₹ $35,13,350$",
+            "c": "₹ $36,38,350$",
+            "d": "$₹ 35,17,100$"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "cs__29__-3221378426509147334"
+    }
+  ],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": true,
+      "total_marks": 14,
+      "chapter_number": "1",
+      "sub_questions": [
+        {
+          "label": "—",
+          "marks": 14,
+          "internal_split": null,
+          "question": "The Statement of Profit and Loss of Wivitsu Ltd., engaged in manufacturing activity for the year ended 31st March, 2026, exhibits a Net Profit of ₹ 180 lakhs after debiting/ crediting the following items:\n\n(a) Interest of ₹ 24 lakhs relating to F.Y.2025-26, which is settled by issuing 8\\% debentures of ₹ 100 each in August, 2026.\n\n(b) Income-tax assessment of A.Y.2024-25 was completed in September, 2025 with a tax demand of ₹ $5,80,000$ which included surcharge of $₹ 50,700$ and cess of $₹ 22,308$. The entire sum has been duly paid during the F.Y. 2025-26.\n\n(c) Provision for gratuity based on actuarial valuation ₹ 180 lakhs.\n\n(d) Expenditure incurred towards foreign travel of directors ₹ 6.5 lakhs to explore opening of a branch in a foreign country to market its products in the said foreign country.\n\n(e) Paid ₹ 82,000 for purchase of raw material on 26th January, 2026 by making payment in cash to a supplier in a single day.\n\n(f) Tax on non-monetary perquisite paid = 11,00,000\n\n(g) Incurred ₹ 4.6 lakhs on activities related to Corporate Social Responsibility as required under section 135 of Companies Act, 2013.\n\n(h) Sold a vacant land to its wholly owned subsidiary Petal (P) Ltd., Mumbai. The long-term capital gain of ₹ 18 lakhs is credited to the Statement of Profit and Loss.\n\n(i) Paid ₹ 2.2 lakhs to a university as donation to be used for research in social science approved under section 35(1)(iii). Out of this, ₹ 1.2 lakh was paid through net banking and balance by cash.\n\n(j) Interim dividend distributed during the year of ₹ 65 lakhs.\n\n(k) Contributed ₹ 60 lakhs towards employees' pension scheme notified by the Central Government u/s 80CCD calculated at $15 \\%$ of aggregate of salary and dearness allowance (forming part of retirement benefits) payable to employees as per the terms of employment.\n\n(I) Depreciation ₹ 36 lakhs.\n\n(m) ₹ 36 lakhs by way of dividend received from Knight Pte. of Singapore in which Wivitsu Ltd. has $28 \\%$ voting power.\n\n(n) Paid ₹ 6 lakhs as donation to a recognized political party by way of account payee crossed cheque.\n\nAdditional Information:\n\n(i) Normal depreciation as per Income-tax Act, 1961 - ₹ 62 lakhs.\n\n(ii) Additional depreciation as per Income-tax Act,1961- ₹ 24 lakhs\n\n(iii) Brought forward unabsorbed depreciation (out of normal depreciation) of A.Y. 2023-24 ₹ 14 lakhs.\n\n(iv) Actual gratuity paid during the year of ₹ 105 lakhs is debited to provision for gratuity account.\n\nYou are required to compute the total income and tax liability of Wivitsu Ltd. for A.Y. 2026-27 with brief reasons for the treatment of each item given above. Wivitsu Ltd. has opted to pay tax as per the provisions of section 115BAA.",
+          "answer": "Computation of Total Income of Wivitsu Ltd. for the A.Y.2026-27\n\n| Particulars | ₹ | ₹ |\n| :--- | :--- | :--- |\n| Income from Profits and gains of business or profession |  |  |\n| Profit as per Statement of Profit and Loss |  | 1,80,00,000 |\n| Add: Items debited but to be considered separately or to be disallowed |  |  |\n| (a) Term loan interest arrears settled by issuing $\n\\mathbf{8} \\boldsymbol{\\%}$ debentures | 24,00,000 |  |\n| As per Explanation 3C to section 43B, issue of debentures by which the interest liability is deferred to a future date shall not be deemed to have been actually paid. Since issue of debentures is not equivalent to discharge of interest on term loan, interest would be disallowed. Since ₹ 24 lakhs towards interest for F.Y. 2025-26 is debited to statement of profit and loss, the same has to be added back. |  |  |\n| (b) Tax demand of A.Y. 2024-25 ₹ 5,80,000 which includes surcharge and cess of ₹ 50,700 and ₹ 22,308, respectively | 5,80,000 |  |\n| As per Explanation 3 to section 40(a)(ii) the term 'tax' shall include any surcharge or cess, by whatever name called, on such tax. Therefore, both surcharge and cess partake the character of income-tax and hence, are liable for disallowance along with tax. Since tax of ₹ 5,80,000 including surcharge and cess is debited to Statement of Profit and Loss, the same has to be added back. |  |  |\n| (c) Provision for gratuity <br> Provision of ₹ 180 lakhs for gratuity based on actuarial valuation is not allowable as deduction as per section 40A(7). However, actual payment of gratuity of ₹ 105 lakhs is allowable as deduction. Hence, the difference has to be added back. | 75,00,000 |  |\n| (d) Expenses on foreign travel of directors <br> Expenses on foreign travel of directors for exploring opening of a branch in foreign country for marketing its products relates to the existing business of the company and is, therefore, eligible for deduction. Since the same has been debited to the Statement of Profit and Loss, no adjustment is required. | - |  |\n| (e) Cash payment for purchase of raw material in an amount exceeding ₹ 10,000 <br> Under section $40 \\mathrm{~A}(3)$, disallowance is attracted in respect of expenditure for which cash payment exceeding $₹ 10,000$ is made on a day to a person. Cash payment of ₹ 82,000 for purchase of raw material on $26{ }^{\\text {th }}$ January, 2026 is, therefore, liable for disallowance. | 82,000 |  |\n| (f) Tax on non-monetary perquisite paid is disallowed as per section 40(a)(v) | 11,00,000 |  |\n| (g) Expenditure on CSR Activities: <br> As per Explanation 2 to section 37(1), expenditure incurred on CSR activities is not deductible. Assuming that such expenditure is not deductible under sections 30 to 36 , the entire amount is liable for disallowance. Since ₹ 4.6 lakhs has been debited to Statement of Profit and Loss, the same has to be added back. | 4,60,000 |  |\n| :--- | :--- | :--- |\n| (i) Contribution to University for research in social science <br> As per section 35(1)(iii), contribution to university for research in social science is eligible for $100 \\%$ deduction. However, since Wivitsu Ltd. has opted for concessional tax regime under section 115BAA, deduction under section 35(1)(iii) is not allowable. Since ₹ 2.2 lakhs has been debited to Statement of Profit and Loss, the same has to be added back. | 2,20,000 |  |\n| (j) Interim dividend distributed <br> Interim dividend distributed is not allowable as deduction. Since the same has been debited to Statement of Profit and Loss, the said amount same has to be added back to arrive at business income. | 65,00,000 |  |\n| (k) Contribution towards employee's pension scheme in excess of $\n\\mathbf{1 4 \\%}$ of salary disallowed Contribution to the extent of 14\\% of salary (basic salary + dearness allowance, if it forms part of pay for retirement benefits) is allowable as deduction under section 36(1)(iva). In this case, 1\\%, which is in excess of $10 \\%$ i.e., $₹ 60,00,000 \\times 1 / 15$, would be disallowed. | 4,00,000 |  |\n| (I) Depreciation debited to the Statement of Profit and Loss | 36,00,000 |  |\n| (n) Donation to recognised political party <br> Donation to political party not allowable as deduction under section 37. | $\\underline{6,00,000}$ |  |\n|  |  | $\\underline{2,34,42,000}$ |\n|  |  | 4,14,42,000 |\n| Less: Items credited to Statement of Profit and Loss which are to be considered separately/ expenditure to be allowed |  |  |\n| (h) LTCG on sale of vacant land <br> Capital gains on transfer of capital assets are taxable under the head \"Capital Gains\". However, long term capital gain on sale of vacant land of ₹ 18 lakhs to wholly owned subsidiary is not liable to tax since it is not regarded as 'transfer'. Since the same is credited to the Statement of Profit and Loss, it has to be deducted while computing business income. | 18,00,000 |  |\n| (m) Dividend received from foreign company <br> Dividend received from foreign company is taxable under the head \"Income from other sources\". Since the said dividend has been credited to the Statement of Profit and Loss, the same has to be deducted while computing business income. | 36,00,000 |  |\n| AI(i) Depreciation as per Income-tax Act, 1961 | 62,00,000 |  |\n| AI(ii) Additional Depreciation as per Income-tax Act, 1961, not allowable as deduction, since company is opting for section 115BAA | Nil | 1,16,00,000 |\n|  |  | 2,98,42,000 |\n| Less: Brought forward unabsorbed depreciation <br> Unabsorbed depreciation out of normal depreciation is allowable as deduction though company has opted for section 115BAA, since such deprecation is not attributable to additional depreciation in respect of which deduction is not permissible u/s 115BAA. |  | 14,00,000 |\n|  |  | 2,84,42,000 |\n| Income from Other Sources |  |  |\n| Dividend received from foreign company |  | 36,00,000 |\n| Gross Total Income |  | 3,20,42,000 |\n| Less: Deductions under Chapter VI-A Deduction under section $\n\\mathbf{8 0 M}$ in respect of dividend distributed, restricted to the amount of dividend received from domestic/ foreign company is allowable though company has opted for section 115BAA. |  | 36,00,000 |\n| :--- | :--- | :--- |\n| Deduction under section $\n\\mathbf{8 0 G G B}$ in respect of donation to recognised political party not available since company has opted for section 115BAA. |  | Nil |\n| Total Income |  | 2,84,42,000 |\n| Computation of tax liability |  |  |\n| Income-tax on ₹ 2,84,42,000@ 22\\% (u/s 115BAA) |  | 62,57,240 |\n| Add: Surcharge@10\\% (irrespective of the total income) |  | 6,25,724 |\n|  |  | 68,82,964 |\n| Add: Health and Education Cess@4\\% |  | 2,75,319 |\n| Tax liability |  | 71,58,283 |\n| Tax liability (rounded off) |  | 71,58,280 |",
+          "chapter_number": "3",
+          "chapter_name": "PROFITS \\& GAINS FROM BUSINESS \\& PROFESSION",
+          "unique_id": "3-T-7"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "4",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "## Question 8 (PYP 4 Marks Sep'25)\n\nMr. Shivansh purchased 11,000 equity shares of Rs. 10 each of M/s ABC Ltd. on 08.03.2007 at a premium of Rs. 40 per share. On 07.10 .2025 , the Company buy-backs 1,000 equity shares held by Shivansh at a price of Rs. 550 per share.\n\nM/s ABC Ltd. distributed its assets to shareholders on its liquidation on 15.11.2025. Shivansh received Rs. 100 per share in cash and one plot of land in consideration of remaining 10,000 shares. The book value and fair market value of such land on 15.11 .2025 was Rs. 45 lakhs and Rs. 60 lakhs respectively. On this date, $\\mathrm{M} / \\mathrm{s} \\mathrm{ABC}$ Ltd. has equity share capital of $Rs. 10,00,000(1,00,000$ equity shares of $Rs. 10$ each) and accumulated profits of Rs. $80,00,000$.\n\nCost Inflation Index: 2025-26: 376, 2006-07: 122\n\nCompute income chargeable in respect of following in the hands of Mr. Shivansh assuming he has not opted tax regime $u / s$ 115BAC for the A.Y. 2026-27:\n\n(1) On buyback of 1,000 equity shares; and\n\n(2) Capital Gains chargeable on liquidation.",
+          "answer": "(i) Computation of income chargeable in the hands of Mr. Shivansh for A.Y. 2026-27\n\n\n|  |  | Amount (Rs.) |\n| :--- | :--- | :--- |\n| (1) On buyback of 1,000 equity M/s ABC shares by Ltd. |  |  |\n| Capital Gains |  |  |\n| Full Value of consideration | Nil |  |\n| Less: Cost of Acquisition [ $1000 \\mathrm{x} Rs. 50$ ] | 50,000 |  |\n| Long-term capital loss [can be set off against long term capital gain on liquidation of company] | 50,000 |  |\n| Income from Other Sources |  |  |\n\n| Dividend [1,000 x Rs. 550] <br> The sum paid by M/s ABC Ltd., a domestic company for purchase of its own shares would be treated as dividend and taxable under the head \"Income from Other Sources\" in the hands of Mr. Shivansh. No deduction for expenses would be available against such dividend income |  | 5,50,000 |\n\n| :--- | :--- | :--- |\n| (2) Capital gains chargeable on liquidation |  |  |\n| Capital Gains |  |  |\n| Full value of the consideration |  | 62,00,000 |\n| Cash (10,000 shares x Rs. 100 per share) | 10,00,000 |  |\n| Market value of land on the date of distribution | 60,00,000 |  |\n|  | 70,00,000 |  |\n| Less: Deemed Dividend [ $Rs. 8$ lakhs ( $Rs. 80$ lakhs/ 1 lakhs $\\times 10,000$ ), being the share of Mr. Shivansh in accumulated profits of Rs. 80 lakhs would be deemed as dividend] | 8,00,000 |  |\n| Less: Cost of acquisition [10,000 × Rs. 50 (Rs. 10+ Rs. 40)] |  | 5,00,000 |\n| Long-term capital gain |  | 57,00,000 |",
+          "chapter_number": "4",
+          "chapter_name": "Capital Gains"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Mr. Wiwitzu, a non-resident Indian (Age 45 years), subscribed unlisted equity shares of an Indian company in 2008-09 for Rs. $6,00,000$ using convertible foreign exchange. These shares were sold by him on 05.03.2026 for a consideration of Rs. $9,00,000$. Brokerage paid for sale of these shares is Rs. 15,000. Compute taxable capital gain of Mr. Wiwitzu for the Assessment Year 2026-27, assuming that he has invested in specified assets Rs. 3,50,000, before 31st March 2026. Cost inflation Index for Financial Year 2008-09 is 137 and for 2025-26 is 376. Ignore the effect of first proviso to section 48. (PYP 3 Marks Nov'23)",
+          "answer": "Computation of taxable capital gain of Mr. Wiwitzu for A.Y. 2026-27\n\n| Particulars | (Amount in Rs.) |\n| :--- | :--- |\n| Full Value of Consideration | 9,00,000 |\n| Less: Brokerage paid | 15,000 |\n| Net Consideration | 8,85,000 |\n| Less: Cost of Acquisition [Indexation benefit would not be available] | 6,00,000 |\n| Long-term capital gain [Since it was held for more than 24 months] | 2,85,000 |\n| Less: Exemption u/s 115F [ $3,50,000 \\times 2,85,000 / 8,85,000$ ] | 1,12,712 |\n| Taxable capital gains | 1,72,289 |\n\n\nNote - In the question, the information is missing whether the unlisted equity shares were purchased in convertible foreign exchange or not. The above solution is given assuming it is purchased in convertible foreign exchange in which case provisions of Chapter XII-A would be applicable to Mr. Wiwitzu and indexation benefit would not be available to him. However, if it is assumed that unlisted shares are not purchased in convertible foreign exchange, the indexation benefit under normal provisions of the Act would be available. In such case, capital gain/loss would be computed as follows:\n\n| Particulars <br> (Amount inRs.) |  |\n| :--- | :--- |\n| Full Value of Consideration | 9,00,000 |\n| Less: Brokerage paid | 15,000 |\n| Net Consideration | 8,85,000 |\n| Less: Cost of Acquisition | 6,00,000 |\n| Long-term capital loss [Since it held for more than 24 months] | (2,85,000) |",
+          "chapter_number": "4",
+          "chapter_name": "Capital Gains"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Compute the capital gains in the hands of Mr. Shyam for A.Y.2026-27. Also, compute the tax liability under section 112, assuming that the basic exemption limit has been fully exhausted against other income. \n\nCII for F.Y. 2001-02: 100; F.Y. 2008-09: 137; F.Y. 2015-16: 254; F.Y. 2025-26: 376\n\nMr. Shyam purchased a house property on February 15, 1979 for ₹ 3,24,000. In addition, he has also paid stamp duty @ $10 \\%$ on the stamp duty value of ₹ $3,50,000$. \n\nIn April, 2008, Mr. Shyam entered into an agreement with Mr. Mohan for sale of such property for ₹ 14,35,000 and received an amount of ₹ $1,11,000$ as advance. However, the sale consideration did not materialize and Mr. Shyam forfeited the advance. In May 2015, he again entered into an agreement for sale of said house for $₹ \\mathbf{2 0 , 2 5 , 0 0 0}$ to Ms. Deepshikha and received ₹ $1,51,000$ as advance. However, as Ms. Deepshikha did not pay the balance amount, Mr. Shyam forfeited the advance. In August, 2015, Mr. Shyam constructed the first floor by incurring a cost of ₹ $3,90,000$. \n\nOn November 15, 2025, Mr. Shyam entered into an agreement with Mr. Manish for sale of such house for ₹ $30,50,000$ and received an amount of ₹ $1,50,000$ as advance through an account payee cheque. Mr. Manish paid the balance entire sum and Mr. Shyam transferred the house to Mr. Manish on February 20, 2026. Mr. Shyam has paid the brokerage @1\\% of sale consideration to the broker. \n\nOn April 1, 2001, fair market value of the house property was ₹ $11,85,000$ and Stamp duty value was ₹ 10,70,000. Further, the Valuation as per Stamp duty Authority of such house on 15th November, 2025 was ₹ 39,00,000 and on 20th February, 2026 was ₹ 41,00,000.",
+          "answer": "Computation of Capital gains in the hands of Mr. Shyam for A.Y. 2026-27\n\n| Particulars | Amount (₹) | Amount (₹) |\n| :--- | :--- | :--- |\n| Actual sale consideration | 30,50,000 |  |\n| Valuation as per Stamp duty Authority on the date of agreement | 39,00,000 |  |\n| (Where the actual sale consideration is less than the value adopted by the Stamp Valuation Authority for the purpose of charging stamp duty, and such stamp duty value exceeds $110 \\%$ of the actual sale consideration then, the value adopted by the Stamp Valuation Authority shall be taken to be the full value of consideration as per section 50C. |  |  |\n| However, where the date of agreement is different from the date of registration, stamp duty value on the date of agreement can be considered, provided the whole or part of the consideration is received by way of account payee cheque/bank draft or by way of ECS through bank account or such other electronic mode as may be prescribed on or before the date of agreement. |  |  |\n| In the present case, since part of the payment is made by account payee cheque on the date of agreement, the stamp duty value on the date of agreement would be considered as full value of consideration) |  |  |\n| Deemed Full value of consideration [Since stamp duty value on the date of agreement exceeds 110\\% of the actual consideration, stamp duty value would be deemed as Full Value of Consideration] |  | 39,00,000 |\n| Less: Expenses on transfer (Brokerage @1\\% of ₹ 30,50,000) |  | 30,500 |\n| Net sale consideration |  | 38,69,500 |\n| Less: Cost of acquisition (Note 1) | 9,59,000 |  |\n| Less: Cost of improvement | 3,90,000 | 13,49,000 |\n| Long term capital gain |  | 25,20,500 |\n\n\nComputation of tax liability u/s 112\n\n| Particulars |  | Amount (₹) |\n| :--- | :--- | :--- |\n| On LTCG of ₹ $25,20,500 \\times 12.5 \\%$ |  | 3,15,063 |\n| Add: Health and Education cess @4\\% |  | $\\underline{12,603}$ |\n|  |  | 3,27,666 |\n| On LTCG with indexation benefit |  |  |\n| Net Sale consideration | 38,69,500 |  |\n| Less: Indexed cost of acquisition [ $₹ 9,59,000 \\times 376 / 100$ ] | 36,05,840 |  |\n| Less: Indexed cost of Improvement [ $₹ 3,90,000 \\times 376 / 254$ ] | $\\underline{5,77,323}$ |  |\n| Long-term capital loss | (3,13,663) |  |\n\n\nSince the computation results in a long term capital loss, if indexation benefit is given, the tax $\text{u} / \text{s} 112$ would be Nil.\n\n\n## Notes:\n\n(1) Computation of cost of acquisition\n\n| Particulars | Amount (₹) | Amount (₹) |\n| :--- | :--- | :--- |\n| Cost of acquisition, |  | 10,70,000 |\n| Being the higher of |  |  |\n| (i) Iower of Fair market value i.e., ₹ 11,85,000 and Stamp duty value i.e., ₹ 10,70,000, on April 1, 2001 | 10,70,000 |  |\n| (ii) Actual cost of acquisition $(₹ 3,24,000+₹ 35,000$, being stamp duty @ $10 \\%$ of ₹ $3,50,000$ ) | 3,59,000 |  |\n| Less: Advance money taken from Mr. Mohan and forfeited |  | 1,11,000 |\n| Cost of acquisition |  | 9,59,000 |\n\n\n(2)Where advance money has been received by the assessee, and retained by him, as a result of failure of the negotiations, section 51 will apply. The advance retained by the assessee will go to reduce the cost of acquisition. Accordingly, cost of acquisition after reducing the advance money forfeited would be ₹ $9,59,000$ [i.e. ₹ $10,70,000-₹ 1,11,000$ (being the advance money forfeited during the P.Y. 2008-09)]. However, where the advance money is forfeited during the previous year 2014-15 or thereafter, the amount forfeited would be taxable under the head \"Income from Other Sources\" and such amount will not be deducted from the cost of acquisition of such asset while calculating capital gains. Hence, ₹ $1,51,000$, being the advance received from Ms. Deepshikha and retained by him, would have been taxable under the head \"Income from other sources\" in the hands of Mr. Shyam in A.Y.2016-17.",
+          "chapter_number": "4",
+          "chapter_name": "Capital Gains",
+          "unique_id": "4-T-5"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "10",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 8,
+          "internal_split": null,
+          "question": "A public charitable trust engaged in \"Relief of Poor\" and registered under section 12AB, for the previous year ending 31.3.2026, derived gross income of Rs. 114.50 lacs, which consists of the following:\n\n| Particulars | Amount in Rs. |\n| :--- | :--- |\n| Income from properties held by trust | 1,10,00,000 |\n| Accrued Interest on FDR [FDR was made in financial year 2023-24 for investment under section 11(5) with regard to amount set apart in terms of Section 11(2)] | 4,50,000 |\n\nDuring the financial year, the trust applied a sum of Rs. 86 lacs towards charitable purposes, as per the objects of the trust, which includes:\n\n- Electricity bill amounting to Rs. 80,000 paid on 18.04 . 2025 pertaining to March 2025. The trust follows the mercantile system of accounting.\n\n- Amount of Rs. $4,72,000$ (including GST of Rs. 72,000 ) paid to M/s. XYZ and Co, an event management company, for advertising and organizing a fundraising programme at Delhi. The full amount of $Rs. 4,72,000$ was remitted to M/s. XYZ and Co through RTGS on 1.3.2026.\n\n- $Rs. 5,00,000$ paid to M/s Parivartan, another charitable trust having same objects, by way of donation (other than corpus donation).\n\nAdditional information\n\nThe trust received a sum of Rs. 8 lacs as corpus donation for constructing a playground for poor children in F.Y. 2024-25. It spent Rs. 8 lacs in F.Y. 2025-26 for constructing the same.\n\nYou are required to compute the total income of the Charitable trust for the A.Y. 2026-27. (PYP 8 Marks Sep'25)",
+          "answer": "Computation of total income of charitable trust for the A.Y.2026-27\n\n| Particulars | Rs. | Rs. |\n| :--- | :--- | :--- |\n| Income from properties held by trust | 1,10,00,000 |  |\n| Add: Accrued interest on FDR | 4,50,000 |  |\n|  |  | 1,14,50,000 |\n| Less: 15\\% of income eligible for being set apart without any condition |  | 17,17,500 |\n|  |  | 97,32,500 |\n| Less: Amount applied for charitable purposes |  |  |\n| - Electricity bill of Rs. 80,000 pertaining to March 2025 [Treated as application as payment is made in P.Y. 2025-26] | 80,000 |  |\n| - Payment to event management company [Rs. 1,20,000 (i.e. @ 30\\% of Rs. $4,00,000$ being the amount excluding GST of Rs. 72,000 ) is not considered as application on account of non-deduction of TDS. Accordingly, Rs. $3,52,000[Rs. 4,72,000-Rs. 1,20,000]$ would be allowed as application. | 3,52,000 |  |\n| - Donation to another charitable trust having same objects (other than corpus) [85\\% of amount contributed would be treated as application] | 4,25,000 |  |\n| - Other application $[Rs. 86$ lakhs - $Rs. 80,000-Rs. 4,72,000-Rs. 5,00,000]$ | 75,48,000 |  |\n| - Amount spent on construction of playground [Any application made from corpus donation, being exempt income shall not be treated as application of income] | Nil |  |\n|  |  | 84,05,000 |\n| Total Income of the trust |  | 13,27,500 |\n\n\n## Note - (Alternative Presentation)\n\nComputation of total income of charitable trust for the A.Y.2026-27\n\n| Particulars | Rs. | Rs. |\n| :--- | :--- | :--- |\n| Income from properties held by trust | 1,10,00,000 |  |\n| Add: Accrued interest on FDR | 4,50,000 |  |\n|  |  | 1,14,50,000 |\n| Less: 15\\% of income eligible for being set apart without any condition |  | 17,17,500 |\n|  |  | 97,32,500 |\n| Less: Amount applied for charitable purposes |  |  |\n| Total amount spent | 86,00,000 |  |\n| Less: Amount not considered as applied |  |  |\n| - Electricity bill of Rs. 80,000 pertaining to March 2025 [Treated as application as payment is made in P.Y. 2025-26, hence no adjustment is required] | Nil |  |\n| - Payment to event management company [Rs. 1,20,000 (i.e. @ 30\\% of Rs. $4,00,000$, being the amount excluding GST of Rs. 72,000 ) is not considered as application on account of non-deduction of TDS] | 1,20,000 |  |\n| - Donation to another charitable trust having same objects (other than corpus) [85\\% of amount contributed would be treated as application and balance 15\\% is not considered as application (15\\% of Rs. 5,00,000). | 75,000 |  |\n| Amount applied for charitable purposes |  | 84,05,000 |\n| - Amount spent on construction of playground [Any application made from corpus donation, being exempt income shall not be treated as application of income] |  | Nil |\n| Total Income of the trust |  | 13,27,500 |",
+          "chapter_number": "10",
+          "chapter_name": "ASSESSMENT OF TRUSTS AND INSTITUTIONS, POLITICAL PARTIES AND OTHER SPECIAL ENTITIES"
+        },
+        {
+          "label": "b",
+          "marks": 6,
+          "internal_split": null,
+          "question": "## Question 4 (MTP 6 Marks Oct'23, MTP Apr'25)\n\nMr. Pradeep, aged 48 years, a resident individual has furnished the following details of income earned during the previous year 2025-26:\n\nIndia\n\n(i) Income from a sole-proprietary business in Indore Rs. 80 lakhs.\n\n(ii) Share of profit from a partnership firm in Bhopal Rs. 20 lakhs.\n\n\nCountry G\n\n(iii) Agricultural Income (gross) from tea gardens of CGD 40000. Taxable @ $20 \\%$.\n\n(iv) Brought forward business loss of F.Y.2022-23 in Country G was CGD 5,200 which is not permitted to be set off against other income as per the laws of that country.\n\nCountry M\n\n(v) Dividend income (gross) of CMD 30,000. Taxable @10\\%.\n\n(vi) Rental Income of CMD 52,000 from house property. Taxable @15\\%. CMD 6,000 paid towards Municipal taxes in Country M. Municipal taxes are not allowed as deduction in Country M.\n\nOther Information\n\n- Mr. Pradeep has deposited $Rs. 1,50,000$ in public provident fund and paid medical insurance premium of Rs. $\\mathbf{2 8 , 0 0 0}$ by account payee cheque to insure the health of himself and his wife (aged $\\mathbf{4 8}$ years).\n\n- India has no DTAA with Country G and Country M.\n\nCompute total income and tax liability of Mr. Pradeep for the A.Y. 2026-27 after providing for deduction under section 91, assuming that $1 \\mathrm{CGD} / \\mathrm{CMD}=Rs. 70$. Mr. Pradeep is not opting for section 115BAC.",
+          "answer": "Computation of total income and tax liability of Mr. Pradeep for A.Y. 2026-27\n\n| Particulars | Rs. | Rs. |\n| :--- | :--- | :--- |\n| Income from house property |  |  |\n| Gross annual value2 of house property in Country M [ Rs. $52,000 \\times$ Rs. $70 /$ CMD] | 36,40,000 |  |\n| Less: Municipal taxes [ $Rs. 6,000 \\times Rs. 70 / C M D$ ] | 4,20,000 |  |\n| Net Annual value | 32,20,000 |  |\n| Less: Deduction @30\\% | 9,66,000 | 22,54,000 |\n| Profits and gains from business and profession |  |  |\n| Income from sole proprietary concern in India | 80,00,000 |  |\n| Share of profit from a partnership firm in India of Rs. 20 lakhs, is exempt under section 10(2A) | Nil |  |\n| Business profit | 80,00,000 |  |\n| Less: Business Loss3 in Country G (CGD $5200 \\mathrm{x} Rs. 70 / \\mathrm{CGD}$ ) | 3,64,000 |  |\n|  |  | 76,36,000 |\n| Income from Other Sources |  |  |\n| Agricultural income from tea gardens in Country G, is taxable in India (CGD $40000 \\times Rs. 70 /$ CGD) | 28,00,000 |  |\n| Dividend income from Country M (CMD $30000 \\times Rs. 70 /$ CGD) | 21,00,000 | 49,00,000 |\n| Gross Total Income |  | 1,47,90,000 |\n| Less: Deductions under Chapter VI-A |  |  |\n| Under section 80C [deposit in PPF] | 1,50,000 |  |\n| Under section 80D [Medi-claim premium paid Rs.28,000, restricted to | 25,000 | 1,75,000 |\n| Total Income |  | 1,46,15,000 |\n| Tax on total income |  |  |\n| Tax on Rs. 1,46,15,000 [(30\\% x Rs. 1,36,15,000) plus Rs. 1,12,500] |  | 41,97,000 |\n\n\n| Add: Surcharge@15\\%, since total income exceeds Rs. 1 crore but does not exceed Rs. 2 crore |  | 6,29,550 |\n| :--- | :--- | :--- |\n|  |  | 48,26,550 |\n| Add: HEC@4\\% |  | 1,93,062 |\n|  |  | 50,19,612 |\n| Average rate of tax in India [i.e., Rs. $50,19,612$ /Rs. $1,46,15,000 \\times 100$ ] | 34.3456\\% |  |\n| Rebate $\\mathrm{u} / \\mathrm{s} 91$ in respect of income in Country G |  |  |\n| Average rate of tax in Country G | 20\\% |  |\n| Doubly taxed income [ Rs. 28,00,000 - Rs. 3,64,000] | 24,36,000 |  |\n| Rebate under section 91 on Rs. 24,36,000 @ 20\\% (lower of average Indian tax rate and rate of tax in Country G) |  | 4,87,200 |\n| Rebate $\\mathrm{u} / \\mathrm{s} 91$ in respect of income in Country M |  |  |\n| Average rate of tax in Country M [CMD $3,000(30,000 \\times 10 \\%)+$ CMD $7800(52,000 \\times 15 \\%) /$ CMD $82,000] \\times 100$ | 13.1707\\% |  |\n| Doubly taxed income [ Rs. 22,54,000 + Rs. 21,00,000] |  |  |\n| Rebate under section 91 on Rs. 43,54,000 @13.1707\\% (lower of average Indian tax rate and rate of tax in Country G) |  | 5,73,452 |\n| Tax liability in India |  | 39,58,960 |",
+          "chapter_number": "22",
+          "chapter_name": "DOUBLE TAXATION RELIEF"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "13",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "M/s. LMN Travels is a Travel Agent engaged in sale of air tickets of AirGo and AirJet Airlines. It earns standard commission@ $5 \\%$ as well as supplementary commission. AirGo and AirJet have deducted tax at source under section 194H on the standard commission, which is a fixed percentage designated by the International Air Transport Association (IATA). However, they have not deducted tax on the supplementary commission, which is the additional amount LMN Travels charges over and above the net fare quoted by Air Go and AirJet and retained by LMN Travels as its own income.\n\nThe details of the amounts at which the tickets were sold are transmitted by LMN Travels to an organization known as the Billing and Settlement Plan (\"BSP\") which functions under the aegis of the IATA. This auxiliary amount charged on top of the net fare was portrayed on the BSP as a \"supplementary commission\" in the hands of LMN Travels. The contract between LMN Travels and the airlines stated that \"all monies\" received by LMN Travels were held as the property of the air carrier until they were recorded on the billing and settlement plan and properly gauged.\n\nAirGo and AirJet contended that tax is not deductible on supplementary commission which LMN Travels retains out of the sale proceeds of the air tickets, since there is no agency relationship between the airlines and LMN Travels and that the supplementary commission is not within the control of the airlines. Discuss the correctness of the above contention. (RTP Nov'23, SM & MTP Oct'21)",
+          "answer": "The issue under consideration in this case is whether TDS under section 194H is attracted in respect of both standard and supplementary commission paid by AirGo and AirJet Airlines to LMN Travels. This issue came up before the Supreme Court in Singapore Airlines Ltd / KLM Royal Dutch Airlines v. CIT / British Airways Plc v. CIT (TDS) (2022) 49 ITR 203.\n\nThe Supreme Court observed that section 194H does not distinguish between direct and indirect payments. Both standard commission and supplementary commission fall within the meaning of \"commission\" under clause (i) of the Explanation thereto.\n\nSection 194 H is to be read with section 182 of the Contract Act, 1872 . If a relationship between two parties as culled out from their intentions as manifested in the terms of the contract between them indicates the existence of a principal-agent relationship as defined under section 182 of the Contract Act, the definition of \"commission\" under section 194H stands attracted and the requirement to deduct tax at source arises.\n\nThe Apex Court noted that there was no transfer in terms of the title in the tickets and they remained the property of the airline company throughout the transaction. Every action taken by the travel agents is on behalf of the air carriers and the services they provide is with express prior authorization. Accordingly, the Apex Court concluded that the contract is one of agency that does not distinguish in terms of stages of the transaction involved in selling flight tickets. The accretion of the supplementary commission to the travel agents was an accessory to the actual principal-agent relationship. Notwithstanding the lack of control over the actual fare, the contract definitively stated that \"all monies\" received by the agent were held as the property of the air carrier until they were recorded on the billing and settlement plan and properly gauged. The billing and settlement plan also demarcated \"supplementary commission\" under a separate heading.\n\nHence, once the IATA made the payment of the accumulated amounts shown on the billing and settlement plan, it would be feasible for the assessees, being the airlines to deduct tax at source on this additional income earned by the agent. Applying the rationale of the Supreme Court ruling to the case on hand, the contention of AirGo and AirJet is not correct and they are required to deduct tax at source under section 194H on both the standard commission and supplementary commission paid to LMN Travels.",
+          "chapter_number": "13",
+          "chapter_name": "DEDUCTION, COLLECTION \\& RECOVERY OF TAX",
+          "unique_id": "13-T-14"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "## Question 24 (MTP 4 Marks Apr'25)\n\n\n(i) Laurus Labs Limited specializes in providing scientific research services to various non-resident clients, including Meta Inc. A key aspect of this arrangement is that Meta Inc. extends a guarantee for $12 \\%$ of Laurus Labs Limited's total loans. The primary consideration here is whether this financial guarantee constitutes an \"international transaction\" under the transfer pricing provisions of the Income-tax Act, 1961.\n\n(ii) Without prejudice to the answer to (i) above, if transfer pricing provisions are applicable and the Assessing Officer has made a primary adjustment of Rs. 310 lakhs to the transfer price for P.Y. 2023-24 through an order dated 01.04.2025, which has been accepted by Laurus Labs Limited, what are the statutory compliance requirements under the Income-tax Act, 1961? Furthermore, if the transaction is denominated in Indian Rupees and the adjusted amount is not repatriated as on 31.03.2026, what would be the tax implications for non-compliance. Given that the one year marginal cost of fund lending rate of State Bank of India as on 1.4.2025 is 9\\%.",
+          "answer": "(i) Provision of scientific research services falls within the scope of international transaction under section 92B. Laurus Labs Limited and Meta Inc. are deemed to be associated enterprises as per section 92A(2)(d), since Meta Inc. guarantees not less than 10\\% of the total borrowings of Laurus Labs Limited. Since there is an international transaction between associated enterprises, transfer pricing provisions are attracted in this case.\n\n(ii) Where the Assessing Officer has made a primary adjustment of Rs. 310 lakhs to the transfer price and the same has been accepted by Laurus Labs Limited, secondary adjustment has to be made in the books of account as per section 92CE, since the primary adjustment made by the Assessing Officer and accepted by Laurus Labs Limited exceeds Rs. 100 lakhs and the primary adjustment is in relation to P.Y.2023-24. The excess money determined based on the primary adjustment has to be repatriated to India within 90 days from the date of order, failing which the same would be deemed as an advance and interest would be attracted at the one-year marginal cost of fund lending rate of State Bank of India as on $1.4 .2025+3.25 \\%$, since the international transaction has been denominated in Indian Rupees. In this case, since the excess money has not been repatriated within 90 days, the same would be deemed to be an advance made by Laurus Labs Limited to Meta Inc. and interest would be attracted@12.25\\% ( $9 \\%+3.25 \\%$ ) from 1.4.2025, being the date of the order of the Assessing Officer. The interest would amount to Rs. 37.975 lakhs (i.e., 12.25 \\% of Rs. 310 lakhs) for the P.Y.2025-26.\n\n\nAlternatively, Laurus Labs Limited can opt to pay additional income- tax@20.9664\\% (tax@18\\% plus surcharge@12\\% plus cess@4\\%) on Rs. 310 lakhs, which would amount to Rs. 65 lakhs. In such a case, secondary adjustment is not required to be made.",
+          "chapter_number": "24",
+          "chapter_name": "TRANSFER PRICING"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Examine and compute the liability for deduction of tax at source, if any, in the cases stated hereunder, for the financial year ended 31st March, 2025:\n\n(i) On 20.6.2025, Mr. X, a resident, made three separate transactions for acquiring house property at Mumbai from Mr. Y for a consideration of ₹ 90 lakhs, an urban plot in Kolkata from Mr. C for a sum of ₹ 49,50,000 and rural agricultural land from Mr. D for a consideration of ₹ 60 lakhs. Stamp duty value of house property, plot and rural agricultural land is ₹ 95 lakhs, ₹ 48 lakhs and ₹ 65 lakhs, respectively. (SM, MTP 2 Marks Mar'23)\n\n(ii) On 17.6.2025, a commission of ₹ 50,000 was retained by the consignee 'ABC Packaging Ltd.' and not remitted to the consignor ' XYZ Developers', while remitting the sale consideration. Examine the obligation of the consignor to deduct tax at source. (SM, MTP 2 Marks Mar'23, Mar'18, Oct'21, PYP 2 Marks Jul'21)\n\n(iii) Raj (aged 35 years) is working with AB Ltd. He is entitled to a salary of ₹ 85,000 per month w.e.f. 1.4.2025. He has a house property which is self-occupied. He paid an interest of ₹ 1,95,000 on loan, during the previous year 2025-26. The loan was taken for construction of house. He has notified his employer AB Ltd. that there will be a loss of ₹ 1,95,000 in respect of this house property for financial year ended 31.3.2026. Raj declared that he has exercised option to shift out of default regime of section 115BAC.",
+          "answer": "Liability for deduction of tax at source\n\n|  | Reasoning | Amount of TDS (₹) |\n| :--- | :--- | :--- |\n| (i) | Since the consideration and stamp duty value for transfer of house property at Mumbai both are not less than ₹ 50 lakhs, Mr. X, being the transferee, is required to deduct tax @1\\% under section 194- IA on ₹ 95 lakhs, being higher of stamp duty value and the amount of consideration for transfer of property, at the time of credit to the transferor account or payment, whichever is earlier | 95,000 |\n|  | Mr. X is not required to deduct tax as source under section 194-IA from the consideration of ₹ 49,50,000 paid to Mr. C for transfer of urban plot, since the consideration and stamp duty value, both are less than ₹ 50 lakhs. | Nil |\n|  | Mr. X is also not required to deduct tax at source under section 194-IA for transfer of rural agricultural land, since the same is specifically excluded from the scope of immovable property for the purpose of tax deduction under section 194-IA. | Nil |\n|  | Note - Section 194-IA requires every transferee responsible for paying any sum as consideration for transfer of immovable property (land, other than agricultural land, or building or part of building) to deduct tax, at the rate of 1\\% of higher of consideration and stamp duty value, at the time of credit of such sum to the account of the resident transferor or at the time of payment of such consideration to the resident transferor, whichever is earlier. However, no tax is required to be deducted where the consideration for transfer of an immovable property and stamp duty value of such property, both are less than ₹ 50 lakhs. |  |\n| (ii) | Section 194H requires deduction of tax at source @ 2\\% from commission and brokerage payments to a resident. However, no tax is to be deducted at source where the amount of such payment does not exceed ₹ 20,000 . <br> In the given case, 'ABC Packaging Ltd.', the consignee, has not remitted the commission of ₹ 50,000 to the consignor 'XYZ Developers' while remitting the sales consideration. <br> Since the retention of commission by the consignee/agent amounts to constructive payment of the same to him by the consignor/principal, deduction of tax at source is required to be made from the amount of commission [CBDT Circular No. 619 dated 4/12/1991]. Therefore, XYZ Developers has to deduct tax at source on ₹ 50,000 at the rate of 2\\%. | 1,000 |\n| (iii) | Section 192 provides that tax is required to be deducted on the payment made as salaries. Tax is to be deducted on the estimated income at the rates specified under section 115BAC(1A) or at the average of income tax computed on the basis of the |  |  |\n|  | rates in force for the financial year in which payment is made in case employee submitted a declaration of opt out of the default regime under section 115BAC. The employee may declare details of his other incomes (including loss under the head \"Income from house property\" but not any other loss) to his employer. In this case, since Mr. Raj has submitted a declaration of opt out of section 115BAC and also notified his employer AB Ltd. of loss from self-occupied house property, the employer has to take the same into consideration for deduction of tax at source. |  |  |\n|  | Therefore, AB Ltd. is required to deduct tax at source on the salary of ₹ 85,000 per month paid to Mr. Raj, in the following manner: |  |  |\n|  | Income under the head salaries ( ₹ 85,000 \\times 12 ) | 10,20,000 |  |\n|  | Less: Standard deduction under section 16(ia) | 50,000 |  |\n|  |  | 9,70,000 |  |\n|  | Income under the head \"house property\" | (1,95,000) |  |\n|  | Gross total income | 7,75,000 |  |\n|  | Less: Deduction under Chapter VI-A | Nil |  |\n|  | Total Income | 7,75,000 |  |\n|  | Tax on ₹ 7,75,000 | 67,500 |  |\n|  | Add: Health and Education cess@4\\% | 2,700 |  |\n|  | Tax to be deducted at source | 70,200 | 70,200 |",
+          "chapter_number": "13",
+          "chapter_name": "DEDUCTION, COLLECTION \\& RECOVERY OF TAX",
+          "unique_id": "13-T-28"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "15",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Question 21 (PYP 4 Marks Sep'25)\n\nAnswer the following : Your answer should cover:\n\n- Issue involved\n\n- Provision applicable\n\n- Analysis and Conclusion\n\n(i) $\\mathrm{M} / \\mathrm{s}$. Rama Ltd. filed its return of income claiming deduction for bad debts. The return was processed $\\mathrm{u} / \\mathrm{s}$ 143(1)(a) of Income-tax Act, 1961. Thereafter, the Assessing Officer noticed that the assessee had wrongly claimed amounts of bad debts, he issued a notice u/s 154 after expiry of the time limit prescribed u/s 154(7). During the pendency of the proceedings initiated by notice $\\mathrm{u} / \\mathrm{s} 154$, the Assessing Officer issued a notice $\\mathrm{u} / \\mathrm{s} 148 \\mathrm{~A}(1)$ of the Act. It is contention of $\\mathrm{M} / \\mathrm{s}$. Rama Ltd that the notice issued $\\mathrm{u} / \\mathrm{s} 148 \\mathrm{~A}(1)$ is illegal.",
+          "answer": "Issue Involved: The issue under consideration is whether notice issued under section 148A during the pendency of the rectification proceedings initiated under section 154 is valid on the ground that the notice under section 154 was issued after the expiry of the time limit prescribed under section 154(7).\n\nProvision applicable: As per section 154(7), no amendment under section 154 shall be made after the expiry of four years from the end of the financial year in which the order sought to be amended was passed.\n\nAnalysis: In the absence of any specific order of withdrawal of the proceedings under section 154 on the ground that the same was beyond the period of limitation prescribed under section 154(7), the proceedings initiated under section 154 can be said to have been pending. During the pendency of the proceedings under section 154, it was not permissible on the part of the revenue to initiate the proceedings under section 148A.\n\nConclusion: In the present case, notice under section 148A was issued during the pendency of the proceedings under section 154. Thus, notice issued under section 148A is illegal.\n\nNote - The facts given in the question are similar to the facts in S.M. Overseas (P) Ltd. v. CIT (2023) 450 ITR 1/14 SCC 111 (SC). The above answer is based on the rationale of the Apex Court ruling in the said case. The said ruling is in respect of erstwhile section 148, however, the same can be applied in the case on hand.",
+          "chapter_number": "15",
+          "chapter_name": "ASSESSMENT PROCEDURE"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Question 1 (PYP 3 Marks May'25)\n\nUnder BEPS Action Plan 13, BEPS report recommends that countries adopt a standardized approach to transfer pricing documentation, wherein it mandates the three-tier structure of (i) Master File (ii) Local file and (iii) Country-by-Country report. What are the advantages of the three-tier structure mandated by BEPS Action Plan 13?",
+          "answer": "Advantages of the three-tier structure mandated by BEPS Action Plan 13:\n\n(a) Taxpayers will be required to articulate consistent transfer pricing positions;\n\n(b) Tax administrations would get useful information to assess transfer pricing risks;\n\nTax administrations would be able to make determinations about where their resources can most effectively be deployed, and, in the event audits are called for, provide information to commence and\n\nExam insights: Instead of specifying the advantages of BEPS Action Plan 13, many examinees merely explained the three-tier documentation structure.",
+          "chapter_number": "25",
+          "chapter_name": "FUNDAMENTALS OF BASE EROSION AND PROFIT SHIFTING",
+          "unique_id": "25-T-1"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "What do you understand by base erosion and profit shifting? Describe briefly its adverse effects. (MTP 6 Marks Oct'21, SM, PYP 4 Marks Jul'21)",
+          "answer": "Base Erosion and Profit Shifting (BEPS) refers to tax planning strategies that exploit gaps and mismatches in tax rules to make profits 'disappear' for tax purposes or to shift profits to locations where there is little or no real activity but the taxes are low, resulting in little or no overall corporate tax being paid.\n\n## Adverse Effects of BEPS:\n\n(1) Governments have to cope with less revenue and a higher cost to ensure compliance.\n\n(2) In developing countries, the lack of tax revenue leads to significant under-funding of public investment that could help foster economic growth.\n\n(3) BEPS undermines the integrity of the tax system, as reporting of low corporate taxes is considered to be unfair. When tax laws permit businesses to reduce their tax burden by shifting their income away from jurisdictions where income producing activities are conducted, other taxpayers, especially individual taxpayers in that jurisdiction bear a greater share of the burden. This gives rise to tax fairness issues on account of individuals having to bear a higher tax burden.\n\n(4) Enterprises that operate only in domestic markets, including family-owned businesses or new innovative businesses, may have difficulty competing with MNEs that have the ability to shift their profits across borders to avoid or reduce tax. Fair competition is harmed by the distortions induced by BEPS.",
+          "chapter_number": "25",
+          "chapter_name": "FUNDAMENTALS OF BASE EROSION AND PROFIT SHIFTING"
+        }
+      ]
+    },
+    {
+      "q_main": 6,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "20",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "## Question 1 (SM & MTP 4 Marks Oct'24)\n\nABC Ltd. is engaged in transportation of building material and transportation of goods to contractors. It made payment for hiring dumpers for this purpose. The company has not deducted tax at source on the ground that since the payment was for transportation of goods and not renting out machinery and equipment, such payments could not be termed as rent paid for use of machinery under section 194-I and hence, no tax was deductible at source.\n\nThe tax auditor is, however, of the view that the transactions being in the nature of contracts for shifting of goods from one place to another would be covered under works contracts, thereby attracting the provisions of section 194C. He relied upon the Gujarat High Court ruling in CIT (TDS) v. Shree Mahalaxmi Transport Co. (2011) 339 ITR 484.\n\nWhat is the reporting responsibility of the tax auditor in such a case and the consequent ethical implications? Examine.",
+          "answer": "In clause 34(a) of Form 3CD, the tax auditor is required to report whether the assessee is required to deduct or collect tax as per the provisions of Chapter XVII-B or Chapter XVII-BB, and if yes, to furnish the details mentioned thereunder. While answering the issue of applicability of the provisions of Chapter XVII-B and/or XVII-BB, a number of debatable issues may arise before the assessee as well as the tax auditor. The tax auditor may have a difference of opinion with regard to the applicability of the provisions of TDS/TCS on a particular payment. In such a case, the tax auditor has to report the difference of opinion appropriately as an observation in para 3 of Form 3CA. This requirement is contained in the Guidance Note on Tax Audit.\n\nAlso, in clause 21(b)(ii) of Form 3CD, the amount inadmissible under section 40(a)(ia) has to be mentioned. In case the tax auditor does not comply with the reporting requirements under these clauses and fails to mention the difference of opinion appropriately as an observation in para 3 of Form 3CA, clause (7) of Part I of the Second Schedule to the Chartered Accountants Act, 1949 for not exercising due diligence may be invoked.",
+          "chapter_number": "20",
+          "chapter_name": "TAX AUDIT AND ETHICAL COMPLIANCES"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "**Question:**\n\nMr. Piloo, an Indian citizen, left India permanently in January 2012 to settle abroad. Prior to his departure, he was a resident in India during the previous year 2009-10. During this period, he accumulated certain assets outside India, which he did not disclose in his return of income. In June 2025, the Joint Director of Income Tax (Investigation) discovered these undisclosed foreign assets, and a notice under the Black Money (Undisclosed Foreign Income and Assets) and Imposition of Tax Act, 2015 was served on Mr. Piloo in August 2025. As of the previous year 2025-26, Mr. Piloo is a non-resident in India.\n\nUpon receiving the notice, Mr. Piloo contended that the proceedings under the Black Money Act were barred by limitation, arguing that more than 10 years had elapsed since he was last assessed in India. He also raised concerns regarding the applicability of the Black Money Act to his case, given his non-resident status during the year the notice was served.\n\n**Question Instruction:**\n\n(a) Analyze the validity of Mr. Piloo's contention regarding the limitation period for initiating proceedings under the Black Money Act. \n\n(b) Discuss whether Mr. Piloo qualifies as an \"assessee\" under the Black Money Act, considering his residency status in the relevant years.\n\n(c) Compute the tax liability of Mr. Piloo under the Black Money Act for the undisclosed foreign assets, assuming the fair market value of the assets as on 01.04.2025 is available. Also, determine the penalty, if any, that Mr. Piloo would be liable to pay in addition to the tax.\n\n(d) Explain the method of valuation of Mr. Piloo's undisclosed foreign assets as per the Black Money (Undisclosed Foreign Income and Assets) and Imposition of Tax Rules, 2015.",
+          "answer": "The contention of the assessee that the proceedings under the Black Money law are barred by limitation is not tenable in law. The time limitation given in the Income-tax Act, 1961, will not apply for the purpose of Black Money law. There is no time limit for initiation of proceedings under the Black Money Law, therefore, proceedings can be initiated against Piloo, even though 10 years have elapsed from the last assessment year in which he was assessed in India.\n\nEvery assessee would be liable to tax @ 30\\% in respect of his undisclosed foreign income and asset of the previous year. Undisclosed foreign asset would be liable to tax in the previous year in which such asset comes to the notice of the Assessing Officer.\n\nSince Mr. Piloo left India permanently in January, 2012, he is a non-resident in India for the previous year 202526, the year in which the notice under the Black Money Act was served on him. However, he was resident in India during the previous year 2009-10, being the year in which he accumulated assets outside India which were not disclosed by him in the return of income.\n\nThe term \"assessee\" defined under section 2(2) of the Black Money Act, inter alia includes a person being a nonresident or not ordinarily resident in India within the meaning of section 6(6) of the Income-tax Act, 1961 in the relevant previous year, but who was resident in India in the previous year in which the undisclosed asset located outside India was acquired.\n\nAccordingly, Piloo who was resident in India in the P.Y.2009-10 would be an assessee under the Black Money Act, even though he is a non-resident for P.Y.2025-26.\n\nAccordingly, Piloo is liable to pay tax @ $30 \\%$ in respect of undisclosed foreign asset during the previous year 2025-26, the year in which such assets came to the notice of the Assessing Officer.\n\nThe relevant date for determination of the value of undisclosed assets would be the first day of April of the previous year in which the undisclosed asset located outside India comes to the notice of the Assessing Officer. The notice under the Black Money law was served in August, 2025 and the question states that it came to the notice of Joint Director of Income tax (Investigation) in June, 2025. Accordingly, the fair market value of the asset as on 01.04.2025 would be adopted.\n\nHe is also liable to pay penalty, in addition to tax, if any, payable by him, of a sum equal to three times the tax so computed.\n\nThe value of the undisclosed asset would be the fair market value of an asset (including financial interest in any entity) determined in the prescribed manner as laid down in Rule 3 of Black Money (Undisclosed Foreign Income and Assets) and Imposition of Tax Rules, 2015.\n\nThe value of residential apartments would be the higher of - (i) its cost of acquisition; and (ii) the price that the property shall ordinarily fetch if sold in the open market on the valuation date The value of bank deposits would be the sum of all the deposits made in the account with the bank since the date of opening of the account. However, where any deposit is made from the proceeds of any withdrawal from the account, such deposit shall not be taken into consideration while computing the value of the account.",
+          "chapter_number": "19",
+          "chapter_name": "PROVISIONS TO COUNTERACT UNETHICAL TAX",
+          "unique_id": "19-T-12"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "## Question 9 (MTP 4 Marks Jul'25)\n\nM/s GreenTech Innovations Pvt. Ltd., a resident Indian company, is planning to enter into a collaboration with a German firm for technology licensing. To understand the taxability of royalty payments under the India-Germany DTAA, it files an application for Advance Ruling before the Board for Advance Rulings in April 2026. However, it is later revealed that M/s GreenTech Innocations Pvt. Ltd. had already submitted a detailed note on the same transaction to its Assessing Officer in March 2026 as part of a suo moto disclosure during scrutiny proceedings for A.Y. 2025-26. The AO had not yet issued any order but had acknowledged the issue for further verification.\n\n1. In light of Section 245R(2) of the Income-tax Act, 1961, will the application for advance ruling filed by M/s GreenTech Innovations Pvt. Ltd. be allowed?\n\n2. What is the remedy available to an applicant who is aggrieved by the ruling of Board for Advance Rulings?",
+          "answer": "1. As per Section 245R, a resident assessee cannot pursue both the remedies, i.e., an appeal or revision before Income-tax Authority/Appellate Authority as well as an application for Advance Ruling to Board for Advance Rulings, in respect of an issue. The Board shall not allow an application where the question raised in the application is already pending before any income-tax authority, or Appellate Tribunal or any court.\n\n2. The applicant who is aggrieved by any ruling pronounced or order passed by the Board for Advance Rulings may appeal to the High Court against such ruling or order of the Board of Advance Rulings within 60 days from the date of communication of that ruling or order.",
+          "chapter_number": "23",
+          "chapter_name": "ADVANCE RULING",
+          "or_question": {
+            "question": "What is the remedy available to an applicant who is aggrieved by the ruling of Board for Advance Rulings? Also, state the time limit within which he should exercise this remedy. (SM, MTP 3 Marks Mar'23)",
+            "answer": "An applicant who is aggrieved by any ruling pronounced by the Board for Advance Rulings may appeal to the High Court against such ruling or order of the Board of Advance Rulings. He has to do so within sixty days from the date of the communication of that ruling, in the prescribed form and manner.\n\nHowever, where the High Court is satisfied, on an application made by the appellant in this behalf, that the appellant was prevented by sufficient cause from presenting the appeal within the 60 day period as specified above, it may grant further period of 30 days for filing such appeal."
+          }
+        }
+      ]
+    }
+  ]
+}

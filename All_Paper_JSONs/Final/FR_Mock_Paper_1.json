@@ -1,0 +1,456 @@
+{
+  "meta": {
+    "subject_code": "FR",
+    "subject_name": "Financial Reporting",
+    "paper_num": 1,
+    "total_marks_printed": 100,
+    "total_marks_in_paper": 114,
+    "section_a_marks": 30,
+    "section_b_marks": 84,
+    "note": "Section B: Q1 compulsory (14m). Attempt any 4 of Q2-Q6 (14m each).",
+    "blacklisted_from": []
+  },
+  "section_a": [
+    {
+      "type": "case_study",
+      "chapter_number": "17.1",
+      "chapter_name": "ACCOUNTING AND TECHNOLOGY",
+      "case_text": "## CS 4 (MTP 6 Marks Mar'24,MP[2])\n\n\nG Ltd. is a multi-national company and prepares and presents its financial statements following Indian Accounting Standards as its securities are listed on National Stock Exchange. G Ltd. has a number of business segments.\n\n(i) H Ltd. is one of the recently acquired Indian subsidiary of G Ltd. It has to adopt Ind AS for the first time as at 31st March, 20X4, with 1st April, 20X2 as the date of transition. As at 31st March, 20X2, the value of raw material inventories was incorrectly reported due to an error. The amounts are significant.\n\n(ii) G Ltd. is also engaged in software development. It enters into a contract with a customer to transfer a software license, perform an installation service and provide unspecified software updates and technical support (online and telephone) for a two-year period. G Ltd. sells the license, installation service and technical support separately. The installation service includes changing the web screen for each type of user (for example, marketing, inventory management and information technology). The installation service is routinely performed by other entities and does not significantly modify the software. The software remains functional without the updates and the technical support.\n\n(iii) G Ltd. sells a $20 \\\\%$ interest in a wholly owned subsidiary K Ltd. to outside investors for ₹ 100 lakh in cash. The carrying value of K Ltd.'s net assets is $₹ 300$ lakh, including goodwill of ₹ 65 lakh from the subsidiary's initial acquisition.\n\nAnalyze the transactions mentioned above and choose the most appropriate option in the below questions 1 to 3 in line with relevant Ind AS:\n\n\n1. With respect to H Ltd. state whether the error should be reported in the Ind AS financial statements and how to rectify it. (Chapter $\\mathbf{- 4 . 1}$ : Ind AS $\\mathbf{8}$ \"Accounting Policies, Changes in Accounting Estimates and Errors\")\n\n(a) H Ltd. shall report the impact of the error as a correction to Statement of Profit and Loss for the comparative period i.e., the year ended 31st March, 20X3.\n\n(b) The correction shall be reflected in a reconciliation as at the end of the first Ind AS reporting period i.e., as at 31st March, 20X3.\n\n(c) The impact of the correction is significant and it shall be amortized on a rational and systematic basis in the first two periods of Ind AS reporting i.e., years ended 31 st March, 20X3 and 31st March, 20X4.\n\n(d) The first Ind AS financial statements shall distinguish the correction of errors from changes in accounting policies and reported as part of the reconciliations as at $1^{\\text {st }}$ April, 20X2.\n\n\n## Ans:(d)\n\n\n2. How many performances obligations G Ltd. has, with respect to the contract with the customer to transfer software license? (Chapter 9: Ind AS 115 \"Revenue from Contracts with Customers\")\n\n(a) 4 performance obligations\n\n(b) 3 performance obligations\n\n(c) 2 performance obligations\n\n(d) 1 performance obligation\n\n\n## Ans:(a)\n\n\n3. What is the amount of gain on sale of interest in subsidiary K Ltd.? (Chapter 13: Consolidated and Separate Financial Statements of Group Entities)\n\n(a) ₹ 100 lakhs\n\n(b) ₹ 60 lakhs\n\n(c) ₹ 53 lakhs\n\n(d) ₹ 40 lakhs\n\n\nAns:(d)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "With respect to H Ltd. state whether the error should be reported in the Ind AS financial statements and how to rectify it. (Chapter $\\mathbf{- 4 . 1}$ : Ind AS $\\mathbf{8}$ \"Accounting Policies, Changes in Accounting Estimates and Errors\")",
+          "options": {
+            "a": "H Ltd. shall report the impact of the error as a correction to Statement of Profit and Loss for the comparative period i.e., the year ended 31st March, 20X3.",
+            "b": "The correction shall be reflected in a reconciliation as at the end of the first Ind AS reporting period i.e., as at 31st March, 20X3.",
+            "c": "The impact of the correction is significant and it shall be amortized on a rational and systematic basis in the first two periods of Ind AS reporting i.e., years ended 31 st March, 20X3 and 31st March, 20X4.",
+            "d": "The first Ind AS financial statements shall distinguish the correction of errors from changes in accounting policies and reported as part of the reconciliations as at $1^{\\text {st }}$ April, 20X2."
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "How many performances obligations G Ltd. has, with respect to the contract with the customer to transfer software license? (Chapter 9: Ind AS 115 \"Revenue from Contracts with Customers\")",
+          "options": {
+            "a": "4 performance obligations",
+            "b": "3 performance obligations",
+            "c": "2 performance obligations",
+            "d": "1 performance obligation"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "What is the amount of gain on sale of interest in subsidiary K Ltd.? (Chapter 13: Consolidated and Separate Financial Statements of Group Entities)",
+          "options": {
+            "a": "₹ 100 lakhs",
+            "b": "₹ 60 lakhs",
+            "c": "₹ 53 lakhs",
+            "d": "₹ 40 lakhs"
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null
+        }
+      ],
+      "mcq_count": 3,
+      "unique_id": "cs__17.1__4938405717039113349"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "17.1",
+      "chapter_name": "ACCOUNTING AND TECHNOLOGY",
+      "case_text": "## CS 6 <br> (MTP 8 Marks Apr'24,MP[3])\n\n\nABC Ltd. is a diversified business group operating in multiple business segments across different parts of the world. It maintains its books of accounts and publishes its annual financial statements under Indian Accounting Standards. The finance team has been working on closing the books of accounts and generating financial statements for the year ended 31st March 20X3 and are facing issues in the following transactions while finalization of financial statements:\n\ni) One of the businesses of ABC Ltd. is of manufacturing sugar and chemicals. The Company has taken a term loan for ₹ 5 crores from State Bank to buy certain plant and machinery during the year ended 31 March 20X2. The loan is repayable over a period of 5 years. The terms and conditions of the loan agreement requires the company to maintain a current ratio of $1.33: 1$ and debt-equity ratio of $1: 2$. If these loan covenants fall below this level, then the bank has a right to recall the entire loan.\n\nThe loan outstanding as on 31 March, 20X3 was ₹ 4.25 crores. The current ratio of ABC Ltd. was 1: 1 and debt equity ratio was $0.5: 2$. State Bank sent a notice on 5 April $20 \\times 3$ demanding repayment of loan, on account of breach of terms of the loan agreement. The financials were signed on 10 May, 20X3.\n\nOn receiving the notice, the CFO of ABC Ltd. negotiated with the bank and ensured to rectify the breach. As a result, on 25 April, 20X3, the Bank has agreed not to recall the loan and allowed the Company to achieve the contracted current and debt-equity ratio by $20 \\times 5$.\n\nii) ABC Ltd. has inventory of raw material Y of 10,000 units as at 31 March, $20 \\times 4$ with a carrying amount of ₹ 100 each. The current market value of that raw material is ₹ 95 each. ABC Ltd. will use the raw material to manufacture a component for a customer. The conversion cost for making the finished goods would be ₹ 130 each. ABC Ltd. estimates costs to completion and sale of ₹ 50 each and a selling price for the component is estimated to be $₹ 290$ each.\n\niii) ABC Ltd. sold a machinery Z for $₹ 900$ thousand to a new customer. To get into long term relationship with the customer, the terms of sale also include after sales service to be provided for next three years free of cost. The company also sells the sales service contract separately where the customer buys it after the initial warranty period at ₹ 100 thousand.\n\nAnalyze the transactions mentioned above and choose the most appropriate option in the below questions 1 to 4 in line with relevant Ind AS:\n\n\n1. How the long-term loan from State Bank has to be classified in the financials for the year ended 31 March 20X3 in case ABC Ltd. has not negotiated with the bank for rectification of breach?(Chapter 3.1: Ind AS 1 \"Presentation of Financial Statements\")\n\n(a) Other current liabilities\n\n(b) Current financial liability\n\n(c) Non- current financial liability\n\n(d) Other non-current liability\n\n\n## Ans:(b)\n\n\n2. After negotiation with State Bank, how the long-term loan has to be classified in the financials for the year ended 31 March 20X3? (Chapter 3.1: Ind AS 1 \"Presentation of Financial Statements\")\n\n(a) Other current liabilities\n\n(b) Current financial liability\n\n(c) Non- current financial liability\n\n(d) Other non-current liability\n\n\nAns:(b)\n\n3. At what value the raw material Y be measured in the books of ABC Ltd. as per applicable Ind AS ?\n\n(Chapter 5.1: Ind AS 2 \"Inventories\")\n\n(a) ₹ 950 thousand.\n\n(b) ₹ 1,100 thousand.\n\n(c) ₹ 1,000 thousand.\n\n(d) ₹ 1,600 thousand.\n\n\nAns:(c)\n\n4. How should the revenue be recognised in the books of account for the sale of machinery Z?(Chapter 9: Ind AS 115 \"Revenue from Contracts with Customers\")\n\n(a) ₹ 900 thousand is to be recognised as revenue in the year of sale.\n\n(b) ₹ 900 thousand is to be recognised at the end of three years after sale.\n\n(c) ₹ 900 thousand is to be recognised in the year of sale and ₹ 100 thousand to be spread over next three years.\n\n(d) ₹ 810 thousand is to be recognised in the year of sale and ₹ 90 thousand to be spread over next three years.\n\nAns:(d)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "How the long-term loan from State Bank has to be classified in the financials for the year ended 31 March 20X3 in case ABC Ltd. has not negotiated with the bank for rectification of breach?(Chapter 3.1: Ind AS 1 \"Presentation of Financial Statements\")\n\n(a) Other current liabilities\n\n(b) Current financial liability\n\n(c) Non- current financial liability\n\n(d) Other non-current liability",
+          "options": {
+            "a": "Other current liabilities",
+            "b": "Current financial liability",
+            "c": "Non- current financial liability",
+            "d": "Other non-current liability"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "After negotiation with State Bank, how the long-term loan has to be classified in the financials for the year ended 31 March 20X3? (Chapter 3.1: Ind AS 1 \"Presentation of Financial Statements\")\n\n(a) Other current liabilities\n\n(b) Current financial liability\n\n(c) Non- current financial liability\n\n(d) Other non-current liability",
+          "options": {
+            "a": "Other current liabilities",
+            "b": "Current financial liability",
+            "c": "Non- current financial liability",
+            "d": "Other non-current liability"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "At what value the raw material Y be measured in the books of ABC Ltd. as per applicable Ind AS ?\n\n(Chapter 5.1: Ind AS 2 \"Inventories\")\n\n(a) ₹ 950 thousand.\n\n(b) ₹ 1,100 thousand.\n\n(c) ₹ 1,000 thousand.\n\n(d) ₹ 1,600 thousand.",
+          "options": {
+            "a": "₹ 950 thousand.",
+            "b": "₹ 1,100 thousand.",
+            "c": "₹ 1,000 thousand.",
+            "d": "₹ 1,600 thousand."
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null
+        },
+        {
+          "q_num": 4,
+          "question": "How should the revenue be recognised in the books of account for the sale of machinery Z?(Chapter 9: Ind AS 115 \"Revenue from Contracts with Customers\")\n\n(a) ₹ 900 thousand is to be recognised as revenue in the year of sale.\n\n(b) ₹ 900 thousand is to be recognised at the end of three years after sale.\n\n(c) ₹ 900 thousand is to be recognised in the year of sale and ₹ 100 thousand to be spread over next three years.\n\n(d) ₹ 810 thousand is to be recognised in the year of sale and ₹ 90 thousand to be spread over next three years.",
+          "options": {
+            "a": "₹ 900 thousand is to be recognised as revenue in the year of sale.",
+            "b": "₹ 900 thousand is to be recognised at the end of three years after sale.",
+            "c": "₹ 900 thousand is to be recognised in the year of sale and ₹ 100 thousand to be spread over next three years.",
+            "d": "₹ 810 thousand is to be recognised in the year of sale and ₹ 90 thousand to be spread over next three years."
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null
+        }
+      ],
+      "mcq_count": 4,
+      "unique_id": "cs__17.1__-8770863250619416722"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "17.1",
+      "chapter_name": "ACCOUNTING AND TECHNOLOGY",
+      "case_text": "## CS 7 (MTP 8 Marks Apr'24,MP[3])\n\n\n\nDEF Ltd. is a globally diversified business conglomerate with operations spanning across various business sectors worldwide. The company adheres to Indian Accounting Standards for maintaining its financial records and annually releases its financial statements. As the finance team progresses towards finalizing the financial statements for the fiscal year ending on 31 March 20X3, the team is stuck up in the accounting of the following transactions:\n\n(i) On 1 June 20X2, DEF Ltd. decided to dispose of the business and current and non-current assets of one of its divisions related to specialty chemicals business which it had acquired several years ago. This disposal does not involve DEF Ltd. withdrawing from a particular market sector. The carrying values on 1 June 20X2 of the assets to be disposed of were as follows:\n\n\n| Particulars | ₹ in Million |\n| :--- | :--- |\n| Goodwill | 10.0 |\n| Property, Plant and Equipment | 20.0 |\n| Patents and trademarks | 8.0 |\n| Inventories | 15.0 |\n| Trade Receivables | 10.0 |\n\n\nNone of the assets of the business had suffered impairment as at 1 June 20X2. At that date the inventories and trade receivables of the business were already stated at no more than their recoverable amounts.\n\nDEF Ltd. offered the business for sale at a price of ₹ 46.5 million, which was considered to be reasonably achievable. DEF Ltd. estimated that the direct costs of selling the business would be $₹ 5,00,000$. These estimates have not changed since 1 June 20X2 and DEF Ltd. estimates that the business will be sold by 31 March 20X3 at the latest.\n\n(ii) The government provided DEF Ltd. with a grant of ₹ 21 million to assist it in the development of the factory. This grant was provided in two parts:\n\n(1) ₹ 6 million of the grant was a payment by the government as an inducement to DEF Ltd. to begin developing the factory. No conditions were attached to this part of the grant.\n\n(2) ₹ 15 million of the grant related to the construction of the factory at a cost of ₹ 60 million. The land was leased so the whole of the ₹ 60 million is depreciable over the estimated 40-year useful life of the factory.\n\nAnalyze the transactions mentioned above and choose the most appropriate option in the below questions 1 to 4 in line with relevant Ind AS:\n\n\n1. Compute the value of Specialty chemical division's Goodwill at the date of classification after remeasurement. (Chapter 5.7: Ind AS 105 \"Non-current Assets Held for Sale and Discontinued Operations\")\n\n(a) ₹ 7.3 million\n\n(b) ₹ 10 million\n\n(c) Nil\n\n(d) ₹ 8 million\n\n\nAns:(c)\n\n2. Calculate the closing balance of Specialty chemical division's asset - Property, Plant and Equipment at the period end. (Chapter 5.7: Ind AS 105 \"Non-current Assets Held for Sale and Discontinued Operations\")\n\n(a) ₹ 21 million\n\n(b) ₹ 17.36 million\n\n(c) ₹ 6 million\n\n(d) ₹ 15 million\n\n\n## Ans:(d)\n\n3. What would be the treatment for grant of ₹ 15 million related to the construction of the factory at a cost of ₹ 60 million? (Chapter 10.2: Ind AS 20 \"Accounting for Government Grants and Disclosure of Government Assistance\")\n\n(a) ₹ 15 million grant in respect of the plant and equipment should be recognized immediately in the income statement since the company is certain to build the factory.\n\n(b) Deduct the grant received from the cost of the asset and depreciate the net carrying value over its useful economic life.\n\n(c) Show the grant as a deferred credit and leave the initial carrying value of the property at ₹ 60 million. Thereafter the deferred credit would be released to the income statement at the end of 40th year.\n\n(d) 0.375 million is to be credited in 20X3-20X4 in the income statement over 40 year period as deferred grant income.\n\n\n## Ans:(b)\n\n4. What would be the treatment of grant of ₹ 6 million received from the government as an inducement to DEF Ltd. to begin developing the factory?(Chapter 10.2: Ind AS 20 \"Accounting for Government Grants and Disclosure of Government Assistance\")\n\n(a) Grant relating to an inducement to begin developing the factory can be recognized immediately in the Statement of Profit or Loss.\n\n(b) 0.15 million amount is to be credited each year in the income statement over 40-year period.\n\n(c) 1.2 million amount is to be credited each year in the income statement over 40-year period.\n\n(d) Net off the grant received against the cost of the asset and depreciate the net figure over its useful economic life.\n\nAns:(a)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Compute the value of Specialty chemical division's Goodwill at the date of classification after remeasurement. (Chapter 5.7: Ind AS 105 \"Non-current Assets Held for Sale and Discontinued Operations\")",
+          "options": {
+            "a": "₹ 7.3 million",
+            "b": "₹ 10 million",
+            "c": "Nil",
+            "d": "₹ 8 million"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "Calculate the closing balance of Specialty chemical division's asset - Property, Plant and Equipment at the period end. (Chapter 5.7: Ind AS 105 \"Non-current Assets Held for Sale and Discontinued Operations\")",
+          "options": {
+            "a": "₹ 21 million",
+            "b": "₹ 17.36 million",
+            "c": "₹ 6 million",
+            "d": "₹ 15 million"
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "What would be the treatment for grant of ₹ 15 million related to the construction of the factory at a cost of ₹ 60 million? (Chapter 10.2: Ind AS 20 \"Accounting for Government Grants and Disclosure of Government Assistance\")",
+          "options": {
+            "a": "₹ 15 million grant in respect of the plant and equipment should be recognized immediately in the income statement since the company is certain to build the factory.",
+            "b": "Deduct the grant received from the cost of the asset and depreciate the net carrying value over its useful economic life.",
+            "c": "Show the grant as a deferred credit and leave the initial carrying value of the property at ₹ 60 million. Thereafter the deferred credit would be released to the income statement at the end of 40th year.",
+            "d": "0.375 million is to be credited in 20X3-20X4 in the income statement over 40 year period as deferred grant income."
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null
+        },
+        {
+          "q_num": 4,
+          "question": "What would be the treatment of grant of ₹ 6 million received from the government as an inducement to DEF Ltd. to begin developing the factory?(Chapter 10.2: Ind AS 20 \"Accounting for Government Grants and Disclosure of Government Assistance\")",
+          "options": {
+            "a": "Grant relating to an inducement to begin developing the factory can be recognized immediately in the Statement of Profit or Loss.",
+            "b": "0.15 million amount is to be credited each year in the income statement over 40-year period.",
+            "c": "1.2 million amount is to be credited each year in the income statement over 40-year period.",
+            "d": "Net off the grant received against the cost of the asset and depreciate the net figure over its useful economic life."
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null
+        }
+      ],
+      "mcq_count": 4,
+      "unique_id": "cs__17.1__6337355783151186011"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "17.1",
+      "chapter_name": "ACCOUNTING AND TECHNOLOGY",
+      "case_text": "## CS 15 <br> (MTP 8 Marks Oct'24,MP[5])\n\n\n\nDEF Ltd. is a diversified business group operating in multiple business segments across different parts of the world with multiple subsidiaries. It maintains its books of accounts and publishes its annual financial statements under Indian Accounting Standards. The finance team has been working on closing the books of accounts and generating financial statements for the year ended 31st March 20X1 and are facing issues in the following transactions while finalization of financial statements:\n\ni)\n\n| Profit attributable to ordinary equity holders of the parent entity for year 20X1 | ₹ 1,200,000 |\n| :--- | :--- |\n| Weighted average number of ordinary shares outstanding during year 20X1 | 500,000 shares |\n| Average market price of one ordinary share during year 20X1 | ₹ 20.00 |\n| Weighted average number of shares under option during year 20X1 | 100,000 shares |\n| Exercise price for shares under option during year 20X1 | ₹ 15.00 |\n\n(ii) DEF Ltd. enters into a contract to buy 100 tonnes of cocoa beans at 1,000 per tonne for delivery in 12 months. On the settlement date, the market price for coca beans is 1,500 per tonne. The contract cannot be settled net incash and is entered for delivery of coca beans in line with DEF Ltd.'s expected purchase/ usage requirements.\n\n(iii) DEF Ltd. invests in compulsorily convertible preference shares (CCPS) issued by its subsidiary B Ltd. at ₹ 1,000 each ( $₹ 10$ face value $+₹ 990$ premium). Under the terms of the instrument, each CCPS is compulsorily convertible into one equity share of B Ltd at the end of 5 years. Such CCPS carry dividend @ $\\mathbf{1 2} \\boldsymbol{\\%}$ per annum, payable only when declared at the discretion of B Ltd.\n\nAnalyze the transactions mentioned above and choose the most appropriate option in the below questions\n\n1 to $\\mathbf{4}$ in line with relevant Ind AS:\n\n\n\n1. Based on the facts given in scenario (i), what will be basic EPS of the entity? (Ch - 8.2: Ind AS 33 \"Earnings per Share\")\n\n(a) 2.29\n\n(b) 2.40\n\n(c) 2.00\n\n(d) 1.77\n\n\n\nAns: (b)\n\n2. Based on the facts given in scenario (i), what will be diluted EPS of the entity? (Ch-8.2: Ind AS 33 \"Earnings per Share\")\n\n(a) 2.29\n\n(b) 2.40\n\n(c) 2.00\n\n(d) 1.77\n\n\n\nAns: (a)\n\n3. What is the nature of the contract entered into for coca beans? (Chapter 11: Accounting and Reporting of Financial Instruments)\n\n(a) Cash contract\n\n(b) Non- executory and derivative contract\n\n(c) Derivative contract\n\n(d) Executory and non-derivative contract\n\n\n\nAns: (d)\n\n4. What is the nature of the financial instrument mentioned in point (iii)? (Chapter 11: Accounting and Reporting of Financial Instruments)\n\n(a) Financial Asset\n\n(b) Financial Liability\n\n(c) Equity\n\n(d) Not a financial instrument\n\n\n\nAns: (c)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Based on the facts given in scenario (i), what will be basic EPS of the entity? (Ch - 8.2: Ind AS 33 \"Earnings per Share\")",
+          "options": {
+            "a": "2.29",
+            "b": "2.40",
+            "c": "2.00",
+            "d": "1.77"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "Based on the facts given in scenario (i), what will be diluted EPS of the entity? (Ch-8.2: Ind AS 33 \"Earnings per Share\")",
+          "options": {
+            "a": "2.29",
+            "b": "2.40",
+            "c": "2.00",
+            "d": "1.77"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "What is the nature of the contract entered into for coca beans? (Chapter 11: Accounting and Reporting of Financial Instruments)",
+          "options": {
+            "a": "Cash contract",
+            "b": "Non- executory and derivative contract",
+            "c": "Derivative contract",
+            "d": "Executory and non-derivative contract"
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null
+        },
+        {
+          "q_num": 4,
+          "question": "What is the nature of the financial instrument mentioned in point (iii)? (Chapter 11: Accounting and Reporting of Financial Instruments)",
+          "options": {
+            "a": "Financial Asset",
+            "b": "Financial Liability",
+            "c": "Equity",
+            "d": "Not a financial instrument"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null
+        }
+      ],
+      "mcq_count": 4,
+      "unique_id": "cs__17.1__8223340203707113857"
+    }
+  ],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": true,
+      "total_marks": 14,
+      "chapter_number": "12",
+      "sub_questions": [
+        {
+          "label": "—",
+          "marks": 14,
+          "internal_split": null,
+          "question": "Question 29 (PYP 14 Marks May'25)\n\nA Limited and B Limited are engaged in the manufacture of pharmaceuticals. On 1st June, 2025, A Limited acquired $15 \\%$ of equity shares of B Limited. On 1st October, 2025, A Limited obtains control of B Limited when it acquires a further $55 \\%$ of B Limited's shares, thereby resulting into a total holding of $70 \\%$. The fair value of the shares of B Limited was ₹ \\mathbf{4 0} per share as on that date. Prior to the acquisition of additional $55 \\%$ stake by A Limited on 1st October, 2025, the Balance Sheets of the two companies stood as under:\n\n(₹ in lakhs)\n\n| Particulars | A Ltd. | B Ltd. |\n| :--- | :--- | :--- |\n| Assets |  |  |\n| Non-Current Assets |  |  |\n| Property, Plant and Equipment | 600 | 400 |\n| Investments | 210 | - |\n| ( $6,00,000$ Shares of B Ltd. acquired on $1^{\\text {st }}$ June, 2024) |  |  |\n| Current Assets |  |  |\n| Inventories | 500 | 150 |\n| :--- | :--- | :--- |\n| Financial Assets |  |  |\n| Trade receivables | 450 | 300 |\n| Cash and cash equivalents | 400 | 100 |\n| Other Current Assets | 200 | 230 |\n| Non-current assets held for sale | - | 250 |\n| Total | $\\underline{2,360}$ | 1,430 |\n| Equity and Liabilities |  |  |\n| Equity |  |  |\n| Share Capital - Equity Shares of ₹ 100 each | 500 | - |\n| Share Capital - Equity Shares of ₹ 10 each | - | 400 |\n| Other Equity | 810 | 225 |\n| Non-Current Liabilities |  |  |\n| Financial Liabilities |  |  |\n| Long-term Borrowings | 250 | 200 |\n| Long-term Provisions | 50 | 70 |\n| Deferred Tax Liability | 40 | - |\n| Current Liabilities |  |  |\n| Financial Liabilities |  |  |\n| Short-term Borrowings | 400 | 285 |\n| Trade Payables | 310 | 250 |\n| Total | 2,360 | 1,430 |\n\nIn consideration of the additional stake acquired by A Limited on 1st October, 2025, it agreed to pay to each selling shareholder of B Limited a sum of ₹ 15 per share in cash and issue 1 Equity Share of ₹ 100 each of A Limited in lieu of 8 Equity Shares of ₹ 10 each held by the selling shareholder in B Limited. The fair value of the shares of A Limited as on 1st October, 2025 is ₹ 160 per share. In addition to the above:\n\n(a) A Limited agreed to pay an additional payment as consideration that is higher of ₹ 35 lakhs and $25 \\%$ of any excess profit in the first year, after acquisition over its profits in the preceding one year made by B Limited. This additional amount would be due after 2 years. B Limited has earned ₹ 10 lakhs profit in the preceding year and expects to earn another ₹ 20 lakhs. (b) A Limited also agreed to pay one of the promoter shareholders of B Limited a payment of ₹ 15 lakhs provided he stays with the company for two years after acquisition. (c) A Limited* had a certain equity settled share-based payment award (Original award) which was replaced by the new award issued by B Limited**. As per the original terms, the vesting period was 4 years and as of the acquisition date, the employees of B Limited have already served 2 years of service. As per the replaced award, the vesting period is reduced to one year (one year from the acquisition date). The fair value of the award on the acquisition date was as under:\n\n(i) Original Award: ₹ 5 lakhs\n\n(ii) Replacement Award: ₹ 8 lakhs\n\n(d) The fair value exercise resulted in the following:\n\n(i) The fair value of Property, Plant and Equipment and Inventory of B Limited as on $1^{\\text {st }}$ October, 2025 was ₹ 480 lakhs and ₹ 170 lakhs respectively. (ii) The carrying value of Non-Current Asset held for sale of ₹ 250 lakhs of B Limited represents its fair value less cost to sell in accordance with the relevant Ind AS. (iii) B Limited has developed and patented a new drug for Parkinson disease which has been approved for clinical use. The cost of developing the drug was ₹ 140 lakhs. Based on early assessment of its sales success, the valuer has estimated its market value at ₹ 200 lakhs. (iv) B Limited had a lawsuit for infringement of Trademark pending with a competitor who had made a claim of ₹ 50 lakhs. B Limited has disclosed the same as a contingent liability as it is not probable that the amount would be payable. Management reliably estimated the fair value of the liability to be 10 lakhs. Any sum which would be paid in respect of the lawsuit would be tax deductible. (e) The cost of capital of A Limited is 10\\%. The appropriate discount factor for ₹1 @ 10\\% payable at the end of $\\mathbf{1}^{\\text {st }}$ year is 0.91 and $\\mathbf{2}^{\\text {nd }}$ year is 0.83 . (f) The applicable tax rate for both the entities is $30 \\%$. Unless stated otherwise, all items have a fair value and tax base equal to their carrying amounts at the acquisition date. A Limited chooses to measure the Non- Controlling Interest in B Limited as per Proportionate Share of identifiable net assets method. You are required to prepare the opening Consolidated Balance Sheet of A Limited as on 1st October, 2025 as per the applicable Ind AS. Working Notes should form part of your answer.",
+          "answer": "Consolidated Balance Sheet of A Ltd. and its subsidiary B Ltd. as at $\\mathbf{1}^{\\text {st }}$ October, 2025\n\n|  | Notes No. | ₹ in lakhs |\n| :--- | :--- | :--- |\n| Assets |  |  |\n| Non-current assets |  |  |\n| Property, plant and equipment | 1 | 1,080.00 |\n| Goodwill | 2 | 461.95 |\n| Intangible assets (patents) |  | 200.00 |\n| Current assets |  |  |\n| Inventories | 3 | 670.00 |\n| Financial assets |  |  |\n| Cash and cash equivalents | 4 | 170.00 |\n| Trade receivables | 5 | 750.00 |\n| Other current assets | 6 | 430.00 |\n| Assets held for sale |  | 250.00 |\n| Total |  | 4,011.95 |\n| Equity and Liabilities |  |  |\n| Equity | 7 | 775.00 |\n| Other equity | 8 | 1007.50 |\n| Non-controlling interest (W.N.4) |  | 248.40 |\n| Non-current liabilities |  |  |\n| Financial liabilities |  |  |\n| Long-term borrowings | 9 | 450.00 |\n| Long-term provisions | 10 | 149.05 |\n| Deferred tax liabilities | 11 | 127.00 |\n| Current Liabilities |  |  |\n| Financial liabilities |  |  |\n| Short-term borrowings | 12 | 685.00 |\n| Trade payables | 13 | 560.00 |\n| Provision for lawsuit damages |  | 10.00 |\n| Total |  | 4,011.95 |\n\n## Notes to Accounts\n\n1. Property, Plant and Equipment ₹ in lakhs\n\n| Particulars |  |  |  |\n| :--- | ---: | ---: | ---: |\n| A Ltd. |  | 600.00 |  |\n| B Ltd. | 400.00 |  |  |\n| Add: Fair value gain | $\\underline{80.00}$ | $\\underline{480.00}$ | $1,080.00$ |\n\n₹ in lakhs\n\n2. Goodwill\n\n₹ in lakhs\n\n| Particulars |  |\n| :--- | :--- |\n| Goodwill on acquisition of B Ltd. (Refer W.N.5) | 461.95 |\n\n3. Inventories\n\n| Particulars |  |  |  |\n| :--- | ---: | ---: | ---: |\n| A Ltd. |  | 500.00 |  |\n| B Ltd. | 150.00 |  |  |\n| Add: Fair value given | $\\underline{20.00}$ | $\\underline{170.00}$ | 670.00 |\n\n| Particulars |  |  |  |\n| :--- | :--- | :--- | :--- |\n| A Ltd. | 400.00 |  |  |\n| Less: Paid to B Ltd.'s Shareholders | (330.00) | 70.00 |  |\n| B Ltd. |  | $\\underline{100.00}$ | 170.00 |\n\nNote: The additional consideration paid to promoter shareholder is contingent to him/her continuing in employment and hence this will be considered as employee compensation and will be recorded as post combination expense in the income statement by A Ltd. 5. Trade receivables ₹ in lakhs\n\n| Particulars |  |  |\n| :--- | ---: | ---: |\n| A Ltd. | 450.00 |  |\n| B Ltd. | $\\underline{300.00}$ | 750.00 |\n\n6. Other current assets ₹ in lakhs\n\n| Particulars |  |  |\n| :--- | ---: | ---: |\n| A Ltd. | 200.00 | 430.00 |\n| B Ltd. | $\\underline{230.00}$ |  |\n\n7. Equity ₹ in lakhs\n\n| Particulars |  |\n| :--- | :--- |\n| Equity Share Capital |  |\n| 7,75,000 Equity shares of ₹ 100 each | 775.00 |\n| (Out of the above, 2,75,000 Equity shares of ₹ 100 each allotted to shareholders of B Ltd for consideration other than cash) |  |\n\n8. Other equity ₹ in lakhs\n\n| Particulars |  |  |  |\n| :--- | :--- | :--- | :--- |\n| A. Retained earnings of A Ltd. | 810.00 |  |  |\n| Add: Gain on previously acquired shares of A Ltd. | $\\underline{30.00}$ | 840.00 |  |\n| B. Replacement award |  | 2.50 |  |\n| C. Security premium ( $2,75,000$ shares $x ₹ 60$ ) |  | 165.00 | 1007.50 |\n\n9. Long-term borrowings ₹ in lakhs\n\n| Particulars |  |  |\n| :--- | ---: | ---: |\n| A Ltd. | 250.00 |  |\n| B Ltd. | $\\underline{200.00}$ | 450.00 |\n\n10.Long term provisions ₹ in lakhs\n\n| Particulars |  |  |  |\n| :--- | ---: | ---: | ---: |\n| A Ltd. | 50.00 |  |  |\n| Add: Deferred consideration | $\\underline{29.05}$ | 79.05 |  |\n| B Ltd. |  | $\\underline{70.00}$ | 149.05 |\n\n11.Deferred tax liabilities ₹ in lakhs\n\n| Particulars |  |  |\n| :--- | :--- | :--- |\n| Deferred tax liability of A Ltd | 40.00 |  |\n| Deferred tax liability (W.N. 2) | $\\underline{87.00}$ | 127.00 |\n\n12.Short term borrowings ₹ in lakhs\n\n| Particulars |  |  |\n| :--- | ---: | ---: |\n| A Ltd. | 400.00 |  |\n| B Ltd. | $\\underline{285.00}$ | 685.00 |\n\n13.Trade payables ₹ in lakhs\n\n| Particulars |  |  |\n| :--- | ---: | ---: |\n| A Ltd. | 310.00 |  |\n| B Ltd. | $\\underline{250.00}$ | 560.00 |\n\n## Working Notes:\n\n1. Calculation of purchase consideration ₹ in lakhs\n\n| Investment in B Ltd. |  |  |  |\n| :--- | :--- | :--- | :--- |\n| Shares acquired |  |  |  |\n| On $1^{\\text {st }}$ June, 2024 | $15 \\%$ | $[(400 / 10) \\times 15 \\% \\times ₹ 40]$ | 240.00 |\n\n| On $1^{\\text {st }}$ October, 2024 | 55\\% |  |  |\n| :--- | :--- | :--- | :--- |\n| Own equity given |  | $(40 \\times 55 \\%) \\times 1 / 8 \\times ₹ 160$ | 440.00 |\n| Cash |  | $(40 \\times 55 \\%) \\times ₹ 15$ | 330.00 |\n| Contingent consideration |  | $(35 \\times 0.83)$ | 29.05 |\n| Replacement award |  | $(5 \\times 2 / 4)$ | 2.50 |\n|  |  |  | 1041.55 |\n\n2. Calculation of deferred tax on assets and liabilities acquired as part of the business combination\n\n| Item | ₹ in lakhs |  |  |  |  |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n|  | Book value | Fair value | Tax base | Taxable (deductible) temporary difference | Deferred tax assets (liability) @ 30\\% |\n| Property, plant and equipment | 400.00 | 480.00 | 400.00 | 80.00 | (24.00) |\n| Intangible assets |  | 200.00 | 0.00 | 200.00 | (60.00) |\n| Inventories | 150.00 | 170.00 | 150.00 | 20.00 | (6.00) |\n| Trade receivables | 300.00 | 300.00 | 300.00 | - | - |\n| Cash and cash equivalents | 100.00 | 100.00 | 100.00 | - | - |\n| Other current assets | 230.00 | 230.00 | 230.00 | - | - |\n| Non-current asset held for sale | 250.00 | 250.00 | 250.00 | - | - |\n| (A) | 1,430.00 | $\\underline{\\text { 1,730.00 }}$ | $\\underline{1,430.00}$ | 300.00 | (90.00) |\n| Trade payables | 250.00 | 250.00 | 250.00 | - | - |\n| Long-term provisions | 70.00 | 70.00 | 70.00 | - | - |\n| Short-term borrowings | 285.00 | 285.00 | 285.00 | - | - |\n| Contingent liability | - | 10.00 | 二 | (10.00) | $\\underline{3.00}$ |\n| (B) | $\\underline{605.00}$ | $\\underline{615.00}$ | $\\underline{605.00}$ | (10.00) | 3.00 |\n| Deferred tax liabilities (A-B) |  |  |  |  | (87.00) |\n\n3. Calculation of fair value of identifiable net assets acquired\n\n|  | ₹ in lakhs | ₹ in lakhs |\n| :--- | :--- | :--- |\n| Property, plant and equipment | 480.00 |  |\n| Intangible assets | 200.00 |  |\n| Inventories | 170.00 |  |\n| Trade receivables | 300.00 |  |\n| Cash and cash equivalents | 100.00 |  |\n| Non-current asset held for sale | 250.00 |  |\n| Other current assets | $\\underline{230.00}$ |  |\n| Total assets |  | 1,730.00 |\n| Less: Long-term borrowings | 200.00 |  |\n| Trade payables | 250.00 |  |\n| Long-term provisions | 70.00 |  |\n| Short-term borrowings | 285.00 |  |\n| Contingent liabilities | 10.00 |  |\n| Deferred tax liabilities | 7.00 |  |\n| Total liabilities |  | (902.00) |\n| Net identifiable assets |  | 828.00 |\n\n4. Calculation of NCl by proportionate share of identifiable net assets\n\nIdentifiable net assets of S Ltd. on $1^{\\text {st }}$ October, 2024 (Refer W.N.3) $=₹ 828.00$ lakhs NCI on $1^{\\text {st }}$ October, $2024=828.00$ lakhs $\\times 30 \\%=248.40$ lakhs\n\n5. Calculation of Goodwill\n\n| Particulars | ₹ in Lakhs |\n| :--- | ---: |\n| Fair Value of Net Identifiable Assets | 828.00 |\n| Less: NCI | (248.40) |\n|  | 579.60 |\n| Less: Purchase Consideration | (1041.55) |\n|  | Goodwill on $1^{\\text {st }}$ October, 2024 | 461.95 |\n| :--- | ---: |\n\n* PS: Read 'A Limited' as 'B Limited'. ${ }^{* *}$ PS: Read 'B Limited' as 'A Limited'.",
+          "chapter_number": "13",
+          "chapter_name": "CONSOLIDATED AND SEPARATE FINANCIAL STATEMENTS OF GROUP ENTITIES",
+          "unique_id": "13-T-29"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "11",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "State whether the following items meet the definition of Financial Asset or Financial Liability for an entity: (i) A bank advances an entity a five-year loan. The bank also provides the entity with an overdraft facility for a number of years. (ii) Entity A owns preference shares in Entity B. The preference shares entitle Entity A to dividends, but not to any voting rights. (iii) An entity has a present obligation in respect of income tax due for the prior year. (iv) In a lawsuit brought against an entity, a group of people is seeking compensation for damage to their health as a result of land contamination believed to be caused by waste from the entity's production process. It is unclear whether the entity is the source of the contamination since many entities operate in the same area and produce similar waste. (RTP May'23)",
+          "answer": "(i) The entity has two financial liabilities namely (a) the obligation to repay the five- year loan and (b) the obligation to repay the bank overdraft to the extent that it has borrowed using the overdraft facility. Both the loan and the overdraft result in contractual obligations for the entity to pay cash to the bank for the interest incurred and for the return of the principal.\n\n(ii) For Entity B: The preference shares may be equity instruments or financial liabilities of Entity B, depending on their terms and conditions.\n\nFor Entity A: Irrespective of Entity B's treatment, the preference shares are a financial asset because the investment satisfies the definition of a financial asset.\n\n(iii) An income tax liability is created as a result of statutory requirements imposed by the government. The rights and obligations are not created by a contract. Hence, the liability for income-tax dues is not a financial liability.\n\n(iv) The fact that a lawsuit may result in the payment of cash does not create a financial liability for the entity because there is no contract between the entity and the affected group. The entity will need to consider providing for the payment as per Ind AS 37 'Provisions, Contingent Liabilities and Contingent Assets'.",
+          "chapter_number": "11",
+          "chapter_name": "ACCOUNTING AND REPORTING OF FINANCIAL INSTRUMENTS"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Company A and Company B are in power business. Company A holds 25% of equity shares of Company B. On 1st November, Company A obtains control of Company B when it acquires a further 65% of Company B’s shares, thereby resulting in a total holding of 90%. The acquisition had the following features:\n\n♦ Consideration: Company A transfers cash of ₹ 59,00,000 and issues 1,00,000 shares on 1st November. The market price of Company A’s shares on the date of issue is ₹ 10 per share.\n\n♦ Contingent consideration: Company A agrees to pay additional consideration of ₹ 7,00,00,12000 if the cumulative profits of Company B exceed ₹ 70,00,000 over the next two years. At the acquisition date, it is not considered probable that the extra consideration will be paid. The fair value of the contingent consideration is determined to be ₹ 3,00,000 at the acquisition date.\n\n♦ Transaction costs: Company A pays acquisition-related costs of ₹ 1,00,000.\n\n♦ Non-controlling interests (NCI): The fair value of the NCI is determined to be ₹ 7,50,000 at the acquisition date based on market prices. Company A elects to measure non-controlling interest at fair value for this transaction.\n\n♦ Previously held non-controlling equity interest: Company A has owned 25% of the shares in Company B for several years. At 1st November, the investment is included in Company A’s consolidated balance sheets at ₹ 6,00,000, accounted for using the equity method; the fair value is ₹ 20,00,000.\n\nThe fair value of Company B’s net identifiable assets at 1st November is ₹ 60,00,000, determined in accordance with Ind AS 103.\n\nDetermine the accounting under acquisition method for the business combination by Company A.",
+          "answer": "Identify the acquirer\nIn this case, Company A has paid cash consideration to shareholders of Company B. Further, the shares issued to Company B pursuant to the acquisition do not transfer control of Company A to erstwhile shareholders of Company B. Therefore, Company A is the acquirer and Company B is the acquiree.\n\nDetermine acquisition date\nAs the control over the business of Company B is transferred to Company A on 1st November, that date is considered as the acquisition date.\n\nDetermine the purchase consideration\nThe purchase consideration in this case will comprise the following:\n\nCash consideration\n₹ 59,00,000\nEquity shares issued (1,00,000 x 10 i.e., at fair value)\n₹ 10,00,000\nContingent consideration (at fair value)\n₹ 3,00,000\nFair value of previously held interest\n₹ 20,00,000\n\nAs such, the total purchase consideration is ₹ 92,00,000.\n\nAcquisition cost incurred by and on behalf of the Company A for acquisition of Company B should be recognised in the Statement of profit and loss. As such, an amount of ₹ 1,00,000 should be recognised in Statement of profit and loss.\n\nDetermine fair value of identifiable assets and liabilities\nThe fair value of identifiable net assets is determined at ₹ 60,00,000.\n\nMeasure NCI\nThe management has decided to recognise the NCI at its fair value. As such, the NCI will be recognised at ₹ 7,50,000.\n\nRe-measure previously held interests in case business combination is achieved in stages\nIn this case, the control has been acquired in stages i.e., before acquisition to control, the Company A exercised significant influence over Company B. As such, the previously held interest should be measured at fair value and the difference between the fair value and the carrying amount as at the acquisition date should be recognised in Statement of Profit and Loss. As such, an amount of ₹ 14,00,000 (i.e., ₹ 20,00,000 less ₹ 6,00,000) will be recognised in Statement of profit and loss.\n\nDetermination of goodwill or gain on bargain purchase\nGoodwill should be calculated as follows:\n\nTotal consideration\n₹ 92,00,000\nRecognised amount of any non-controlling interest\n₹ 7,50,000\nLess: Fair value of Company B’s net identifiable assets\n(₹ 60,00,000)\nGoodwill\n₹ 39,50,000",
+          "chapter_number": "2",
+          "chapter_name": "IND AS 7: STATEMENT OF CASH FLOWS",
+          "unique_id": "FR-OCR-P1_CashFlow"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "## Question 11 (PYP 4 Marks May'25)\n\n## Discuss the limitations of general-purpose financial reporting.",
+          "answer": "Limitations of General-Purpose Financial Reporting:\n\n- General-purpose Financial Reporting does not and cannot provide all of the information that existing and potential investors, lenders and other creditors need. Those users need to consider pertinent information from other sources, for example, general economic conditions and expectations, political events and political climate, and industry and company outlooks;\n\n- General-purpose Financial Reporting is not designed to show the value of a reporting entity; but they provide information to help existing and potential investors, lenders and other creditors to estimate the value of the reporting entity; and\n\n- General-purpose Financial Reporting is not primarily directed to other parties, such as regulators and members of the public other than investors, lenders and other creditors.",
+          "chapter_number": "3.1",
+          "chapter_name": "IND AS 1: PRESENTATION OF FINANCIAL STATEMENTS"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "5",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Marine Transport Limited ordered 3 ships for its fleet on 1st April, 20X0. It pays a down payment of $25 \\%$ of the contract value of each of the ship out of long-term borrowings from a scheduled bank. The delivery has to commence from the financial year 20X7. On 1st March, 20X2, the ship builder informs that it has commenced production of one ship. There is no progress on other \\mathbf{2} ships. Marine Transport Limited prepares its financial statements on financial year basis.\n\nAdvise whether it is permissible for Marine Transport Limited to capitalise any borrowing costs for the financial year ended 31st March, 20X1 or 31st March, 20X2. (MTP 4 Marks Apr'25)",
+          "answer": "As per paragraph 5 of Ind AS 23, a qualifying asset is an asset that necessarily takes a substantial period of time to get ready for its intended use or sale.\n\nAs per paragraph 17 of Ind AS 23, an entity shall begin capitalising borrowing costs as part of the cost of a qualifying asset on the commencement date. The commencement date for capitalisation is the date when the entity first meets all of the following conditions:\n\n(a) It incurs expenditures for the asset.\n\n(b) It incurs borrowing costs.\n\n(c) It undertakes activities that are necessary to prepare the asset for its intended use or sale.\n\nThe ship is a qualifying asset as it takes substantial period of time for its construction. Thus, the related borrowing costs should be capitalised.\n\nMarine Transport Limited borrows funds and incurs expenditures in the form of down payment on 1st April, 20X0. Thus, condition (a) and (b) are met. However, condition (c) is met only on 1st March, 20X2, and that too only with respect to one ship. Thus, there is no capitalisation of borrowing costs during the financial year ended 31st March, 20X1. Even during the financial year ended 31st March, 20X2, borrowing costs relating to the 'one' ship whose construction had commenced from 1st March, 20X2 will be capitalised from 1st March, 20X2 to 31st March, 20X2. All other borrowing costs are expensed.",
+          "chapter_number": "5.3",
+          "chapter_name": "IND AS 10: EVENTS AFTER THE REPORTING PERIOD",
+          "unique_id": "5.3-T-1"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Following information pertains to an entity for the year ending $31^{\text {st }}$ March 20X1:\n\n| Net profit for the year | Rs. 12,00,000 |\n| :--- | :--- |\n| Weighted average number of equity shares outstanding during the year | 5,00,000 shares |\n| Average market price per share during the year | Rs.20 |\n| Weighted average number of shares under option during the year | 1,00,000 shares |\n| Exercise price per share under option during the year | Rs. 15 |\n\nCalculate basic and diluted earnings per share. (RTP Nov'21, SM)",
+          "answer": "Calculation of earnings per share\n\n|  | Earnings | Shares | Per share |\n| :--- | :--- | :--- | :--- |\n| Profit attributable to equity holders | Rs. 12,00,000 |  |  |\n| Weighted average shares outstanding during year 20X1 |  | 5,00,000 |  |\n| Basic earnings per share |  |  | Rs. 2.40 |\n| Weighted average number of shares under option |  | 100,000 |  |\n| Weighted average number of shares that would have been issued at average market price: $(1,00,000 \\times Rs. 15.00) \\div Rs. 20.00$ | Refer Note | $(75,000)$ |  |\n| Diluted earnings per share | Rs. 1,200,000 | 525,000 | ¥ 2.29 |\n\nNote: Earnings have not increased because the total number of shares has increased only by the number of shares $(25,000)$ deemed to have been issued for no consideration.",
+          "chapter_number": "8.2",
+          "chapter_name": "IND AS 33: EARNINGS PER SHARE"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "VIVI Ltd. has taken a loan of USD 20,000 on April 1 ${ }^{\text {st }}$, 20X1 for constructing a plant at an interest rate of $5 \\\\%$ per annum payable on annual basis. On April 1, 20X1, the exchange rate between the currencies i.e. USD vs Rupees was Rs. 45 per USD. The exchange rate on the reporting date i.e. March $31,20 \\times 2$ is Rs. 48 per USD. The corresponding amount could have been borrowed by VIVI Ltd. from State bank of India in local currency at an interest rate of $11 \\\\%$ per annum as on April 1, 20X1. Compute the borrowing cost to be capitalized for the construction of plant by VIVI Ltd. for the period ending 31st March, 20X2. (MTP 8 Marks, Apr'19 & Apr'22, SM)",
+          "answer": "In the above situation, the Borrowing cost needs to determine for interest cost on such foreign currency loan and eligible exchange loss difference if any.\n\n(a) Interest on Foreign currency loan for the period:\n\n$$\n\\text { USD } 20,000 \\times 5 \\% = \\text { USD } 1,000\n$$\n\n$$\n\\text { Converted in Rs.: USD } 1,000 \\times \\text { Rs. } 48 / \\mathrm{USD} = \\mathrm{Rs} .48,000\n$$\n\n(b) Interest that would have resulted if the loan was taken in Indian Currency:\n\n$$\n\\text { USD } 20,000 \\times \\text { Rs. } 45 / \\mathrm{USD} \\times 11 \\% = \\mathrm{R} 5.99,000\n$$\n\n(c) Difference between Interest on Foreign Currency borrowing and local Currency borrowing Rs.99,000-\n\n$$\n48,000 = \\text { Rs. } 51,000\n$$\n\nIncrease in liability due to change in exchange difference: USD $20,000 \\times(48-45) = \\mathrm{Rs} .60,000$\n\nHence, out of Exchange loss of Rs. 60,000 on principal amount of foreign currency loan, only exchange loss to the extent of Rs. 51,000 is considered as borrowing costs.\n\nTotal borrowing cost to be capitalized is as under:\n\n| Interest cost on borrowing | Rs. 48,000 |\n| :--- | :--- |\n| Exchange difference to the extent considered be an adjustment to Interest cost | Rs. 51,000 |\n|  | $\\underline{\\text { Rs. } 99,000}$ |\n\nThe exchange difference of Rs. 51,000 has been capitalized as borrowing cost and the remaining Rs. 9,000 will be expensed off in the Statement of Profit and loss.",
+          "chapter_number": "5.3",
+          "chapter_name": "IND AS 10: EVENTS AFTER THE REPORTING PERIOD",
+          "unique_id": "5.3-T-3"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "5",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Question 16 (MTP 4 Marks Apr'25)\n\nHeaven Ltd. had purchased a machinery on 1.4.2X01 for Rs. $30,00,000$, which is reflected in its books at written down value of $Rs. 17,50,000$ on $1.4 .2 \\times 06$. The company has estimated an upward revaluation of $10 \\%$ on 1.4.2X06 to arrive at the fair value of the asset. Heaven Ltd. availed the option given by Ind AS of transferring some of the surplus as the asset is used by an enterprise.\n\nOn 1.4.2X08, the machinery was revalued downward by $15 \\%$ and the company also re-estimated the machinery's remaining life to be 8 years. On $31.3 .2 \\times 10$ the machinery was sold for Rs. $9,35,000$. The company charges depreciation on straight line method.\n\nCompute depreciation each after upward and downward revaluation. Also compute amount transferred from revaluation reserve till 1.4.20X8.",
+          "answer": "| 1. Calculation of useful life of machinery on 1.4.2X01 |  |\n| :--- | :--- |\n| Depreciation charge in 5 years $=(30,00,000-17,50,000)$ | Rs. 12,50,000 |\n| Depreciation per year as per Straight Line method | 12,50,000/5 years = Rs. 2,50,000 |\n| Remaining useful life $=Rs. 17,50,000 / Rs. 2,50,000$ | 7 years |\n| Total useful life = 5 years + 7 years | 12 Years |\n| 2. Depreciation after upward revaluation as on 1.4.2X06 | Rs. |\n| Book value as on 1.4.2X06 | 17,50,000 |\n| Add: 10\\% upward revaluation | 1,75,000 |\n| Revalued amount | 19,25,000 |\n| Remaining useful life 7 years (Refer W.N.1) |  |\n| Depreciation on revalued amount $=19,25,000 / 7$ years | Rs. 2,75,000 Lakh |\n| 3.Depreciation after downward revaluation as on 1.4.2X08 | Rs. |\n| Book value as on 1.4.2X08 | 13,75,000 |\n| Less: 15\\% Downward revaluation | (2,06,250) |\n| Revalued amount | 11,68,750 |\n| Revised useful life 8 years |  |\n| Depreciation on revalued amount $=Rs. 11,68,750 / 8$ years | = Rs.1,46,094 |\n| 4.Amount transferred from revaluation reserve |  |\n| Revaluation reserve on 1.4.2X06 (A) | Rs. 1,75,000 |\n| Remaining useful life 7 years |  |\n| Amount transferred every year(1,75,000/7) | Rs.25,000 |\n| Amount transferred in 2 years $(25,000 \\times 2)$ (B) | Rs.50,000 |\n| Balance of revaluation reserve on 1.4.2X08 (A-B) | Rs.1,25,000 |\n| 5. Amount of downward revaluation to be charged to Profit and Loss Account |  |\n| Downward revaluation as on 1.4.2X08 (W.N.3) | Rs. 2,06,250 |\n| Less: Adjusted from Revaluation reserve (W.N.4) | (Rs. 1,25,000) |\n| Amount transferred to Profit and Loss Account | Rs.81,250 |",
+          "chapter_number": "5.2",
+          "chapter_name": "IND AS 10: EVENTS AFTER THE REPORTING PERIOD"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Viv Tsu Ltd. received a government grant of $10,00,000$ to defray expenses for environmental protection. Expected environmental costs to be incurred is $3,00,000$ per annum for the next 5 years. How should Viv Tsu Ltd. present such grant related to income in its financial statements? (RTP May'23,SM)",
+          "answer": "As per paragraph 29 of Ind AS 20 'Accounting for Government Grants and Disclosure of Government Assistance', grants related to income are presented as part of profit or loss, either separately or under a general heading such as 'Other income'. Alternatively, they are deducted in reporting the related expense.\n\nIn accordance with the above, presentation of grants related to income under both the methods would be as follows:\n\n## Method 1: Credit in the Statement of Profit and Loss\n\nThe entity can recognize the grant as income on a straight-line basis i.e., Rs. $2,00,000$ per year in the statement of profit and loss either separately or under the head \"Other Income\".\n\nThis method considered on the contention that it would be inappropriate to present income and expense items on a net basis and that separation of the grant from the expense would facilitate comparison with other expenses not affected by a grant.\n\n## Method 2: As a deduction in reporting the related expense\n\nSince the grant relates to environmental expenses incurred/to be incurred by the entity, it can present the grant by reducing the grant amount every year from the related expense i.e., environmental expense of $1,00,000$ (i.e., net expense Rs. $3,00,000-$ Rs. $2,00,000$ ).\n\nThis method is considered based on the contention that the expenses might well not have been incurred by the entity if the grant had not been available and presentation of the expense without offsetting the grant might therefore be misleading.\n\nThe Standard regards both the methods as acceptable for the presentation of grants related to income. However, method 2 may be more appropriate when the company can relate the grant to a specific expenditure.\n\nThe Standard also provides that disclosure of the grant may be necessary for a proper understanding of the financial statements. Disclosure of the effect of the grants on any item of income or expense which is required to be separately disclosed is usually appropriate.",
+          "chapter_number": "10.2",
+          "chapter_name": "IND AS 20: ACCOUNTING FOR GOVERNMENT GRANTS AND DISCLOSURE OF GOVERNMENT ASSISSTANCE"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Sun Ltd. acquired a software from Earth Ltd. in exchange for a telecommunication license. The telecommunication license is carried at ₹ 5,00,000 in the books of Sun Ltd. The Software is carried at ₹ 10,000 in the books of the Earth Ltd. which is not the fair value. Pass journal entries in the following situations in the books of Sun Ltd. and Earth Ltd.: 1) Fair value of software is ₹ 5,20,000 and fair value of telecommunication license is ₹ 5,00,000. 2) Fair value of software is not measurable. However, similar telecommunication license is transacted by another company at ₹ 4,90,000. 3) Neither fair value of software nor telecommunication license could be reliably measured.",
+          "answer": "1) Sun Ltd.  Software Dr. 500  To Telecommunication license 500  To Profit on Exchange Nil  Earth Ltd.  Telecommunication license Dr. 520  To Software 10  To Profit on Exchange 510  2) Sun Ltd.  Software Dr. 490  Loss on Exchange Dr. 10  To Telecommunication license 500  Note: The company may first recognize Impairment loss and then record an entry. The effect is the same as impairment loss will also be charged to Income Statement.  Earth Ltd.  Telecommunication license Dr. 490  To Software 10  To Profit on Exchange 480  3) Sun Ltd.  Software Dr. 500  To Telecommunication license 500  Earth Ltd.  Telecommunication license Dr. 10  To Software 10",
+          "chapter_number": "7",
+          "chapter_name": "IND AS 38: INTANGIBLE ASSETS",
+          "or_question": {
+            "question": "Question 4 (MTP 4 Marks Aug'25) <br> Entity Y and Entity Z execute a 12 -year lease of a railcar with the following terms on 1st January, 20X1: <br> - The lease commencement date is $\\mathbf{1}^{\\text {st }}$ February 20X1. <br> - Entity Y must pay Entity Z the first monthly rental payment of Rs. 10,000 upon execution of the lease. <br> - Entity Z will pay Entity Y Rs. 50,000 cash incentive to enter into the lease payable upon lease execution. <br> Entity Y incurred Rs. 1,000 of initial direct costs, which are payable on $1^{\\text {st }}$ February 20X1. Entity Y calculated the initial lease liability as the present value of the lease payments discounted using its incremental borrowing rate because the rate implicit in the lease could not be readily determined; the initial lease liability is Rs. $8,50,000$. <br> How would Lessee Company measure and record this lease?",
+            "answer": "| Answer 4 <br> Entity Y would calculate the right-of-use asset as follows: | Rs. |\n| :--- | :--- |\n| Initial measurement of lease liability | 8,50,000 |\n| Lease payments made to Entity Z at or before the commencement date | 10,000 |\n| Lease incentives received from Entity Z | $(50,000)$ |\n| Initial direct cost | $\\underline{1,000}$ |\n| Initial measurement of right-of-use asset | 8,11,000 |"
+          },
+          "unique_id": "FR-OCR-P1_INDAS38"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "9",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "## Question 15 (PYP 5 Marks May'25)\n\nHaSo Ltd. deals in manufacture of computer hardware and development of software applications. Discuss the revenue recognition of HaSo Ltd. as per Ind AS 115 in the following cases:\n\n(i) Mr. Grahak purchases a software application license from HaSo Ltd . for Rs. $\\mathbf{2 , 0 0 , 0 0 0}$. Under the agreement, HaSo Ltd. will provide updates or upgrades on a when-and-if-available basis. Mr. Grahak can choose whether to install them or not. HaSo Ltd. will undertake no other activities that will change the functionality of the software application license.\n\n(ii) HaSo Ltd. licenses the right to operate its exclusive store in Madurai to Franchisee Ltd. The store will bear HaSo Ltd. trade name and brand logo. Franchisee Ltd. will have the right to sell HaSo Ltd.'s products for next 5 years from the date of agreement. Franchisee Ltd. pays an all-inclusive up-front fixed fee on signing of the agreement. The franchise agreement requires HaSo Ltd . to maintain the brand through product improvements, marketing campaigns etc.",
+          "answer": "(i) Although the updates and upgrades will change the functionality of the software, they are not considered in determining the nature of the entity's promise in granting the license. The activities of HaSo Ltd . to provide updates or upgrades are not considered because they transfer a promised goods or service to Mr. Grahak i.e. updates or upgrades are distinct from the licence. Therefore, the software application license Rs. $2,00,000$ provides a right to use the IP that is satisfied at a point in time. Hence, Rs. $2,00,000$ will be recognised immediately in the income statement by HaSo Ltd ., on purchase of the software application license by Mr Grahak.\n\n(ii) The licence provides Franchisee Ltd. access to the IP as it exists at any point in time in the licence period. This is because:\n\n- HaSo Ltd. is required to maintain the brand, which will significantly affect the IP by affecting Franchisee Ltd.'s ability to obtain benefit from the brand;\n\n- Any action by HaSo Ltd. may have a direct positive or negative effect on Franchisee Ltd.; and\n\n- These activities do not transfer goods or service to Franchisee Ltd.\n\nTherefore, HaSo Ltd. recognizes the up-front fee over the 5 -year franchise period.",
+          "chapter_number": "9",
+          "chapter_name": "IND AS 115: REVENUE FROM CONTRACTS WITH CUSTOMERS"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "X Ltd. is the holding company of Y Ltd. X Ltd. is required to adopt Ind AS from April 1, 20X1. X Ltd. wants to avail the optional exemption of using the previous GAAP carrying values in respect of its property, plant and equipment whereas Y Ltd. wants to use fair value of its property, plant and equipment as its deemed cost on the date of transition. Examine whether X Ltd. can do so for its consolidated financial statements. Also, examine whether different entities in a group can use different basis for arriving at deemed cost for property, plant and equipment in their respective standalone financial statements.",
+          "answer": "Where there is no change in its functional currency on the date of transition to Ind AS, a first-time adopter to Ind AS may elect to continue with the carrying value of all of its property, plant and equipment as at the date of transition measured as per the previous GAAP and use that as its deemed cost at the date of transition after making necessary adjustments. If a first-time adopter chooses this option then the option of applying this on selective basis to some of the items of property, plant and equipment and using fair value for others is not available. Nothing prevents different entities within a group to choose different basis for arriving at deemed cost for the standalone financial statements. However, in Consolidated Financial Statements, the entire group should be treated as one reporting entity. Accordingly, it will not be permissible to use different basis for arriving at the deemed cost of property, plant and equipment on the date of transition by different entities of the group for the purpose of preparing Consolidated Financial Statements.",
+          "chapter_number": "13",
+          "chapter_name": "Ind AS 101 \"First-time Adoption of Ind AS\"",
+          "unique_id": "FR-OCR-P1_INDAS101"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Explain how enhancing qualitative characteristics can improve the usefulness of financial information. (PYP 4 Marks Nov'24,MP[6])",
+          "answer": "The usefulness of financial information is enhanced if it is comparable, verifiable, timely and understandable.\n\n1. Comparability: Information about a reporting entity is more useful if it can be compared with similar information about other entities and with similar information about the same entity for another period or another date. Comparability refers to the use of the same methods for the same items, and uniformity implies that like things must look alike and different things must look different.\n\n2. Verifiability: Verifiability means that different knowledgeable and independent observers could reach a consensus, although not necessarily complete agreement, that a particular depiction is a faithful representation.\n\n3. Timeliness: Timeliness means having information available to decision-makers in time to be capable of influencing their decisions. Generally, the older the information is the less useful it is. However, some information may continue to be timely long after the end of a reporting period because some users may need to identify and assess trends.\n\n4. Understandability: Classifying, characterising and presenting information clearly and concisely makes it understandable.\n\nEnhancing qualitative characteristics should be maximised to the extent possible. However, the enhancing qualitative characteristics, either individually or as a group, cannot make information useful if that information is irrelevant or does not provide a faithful representation of what it purports to represent.\n\nSometimes, one enhancing qualitative characteristic may have to be diminished to maximise another qualitative characteristic. For example, a temporary reduction in comparability as a result of prospectively applying a new Ind AS may be worthwhile to improve relevance or faithful representation in the longer term. Appropriate disclosures may partially compensate for non-comparability.",
+          "chapter_number": "2",
+          "chapter_name": "CONCEPTUAL FRAMEWORK FOR FINANCIAL REPORTING UNDER INDIAN ACCOUNTING STANDARDS (IND AS)"
+        }
+      ]
+    },
+    {
+      "q_main": 6,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "17",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "What are the steps involved to automate the process to determine whether it is appropriate to aggregate Segments 1 and 2 with reference to Ind AS 108 'Operating Segments'?",
+          "answer": "Following steps should be followed to automate the process to determine whether it is appropriate to aggregate Segments 1 and 2 with reference to Ind AS 108 'Operating Segments':\n\n1. Extract the relevant financial data related to Segments 1 and 2 from your accounting system.\n\n2. Ensure that the data includes segment-specific information such as revenue, expenses, assets, liabilities, and any other relevant metrics.\n\n3. Define the criteria for evaluating whether the segments should be aggregated.\n\n4. Consider factors such as the nature of the business activities, economic characteristics, customer base, pricing policies, and risks and returns associated with each segment.\n\n5. Utilize automated analysis tools or software capable of processing large volumes of financial data.\n\n6. Apply predefined algorithms or rules to evaluate the financial performance and characteristics of Segments 1 and 2 based on the defined criteria.\n\n7. Conduct a comparative analysis of the financial metrics and performance indicators between Segments 1 and 2.\n\n8. Based on the analysis and findings, evaluate whether it is appropriate to aggregate Segments 1 and 2.\n\n9. Document the rationale behind the decision, including the analysis results and supporting evidence.\n\n10. Use tools such as business intelligence software, data visualization platforms, or custom-built reporting modules to present the aggregated and segmented data in a meaningful way.",
+          "chapter_number": "17",
+          "chapter_name": "ACCOUNTING AND TECHNOLOGY"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "On 1st April 20X1, S Ltd. leased a machine over a 5 year period. The present value of lease liability is ₹ 120 Cr (discount rate of 8%) and is recognized as lease liability and corresponding Right of Use (RoU) Asset on the same date. The RoU Asset is depreciated under straight line method over the 5 years. The annual lease rentals are ₹ 30 Cr payable starting 31st March 20X2. The tax law permits tax deduction on the basis of payment of rent. Assuming tax rate of 30%, you are required to explain the deferred tax consequences for the above transaction for the year ended 31st March 20X2.",
+          "answer": "A temporary difference effectively arises between the value of the machine for accounting purposes and the amount of lease liability, since the rent payment is eligible for tax deduction. Tax base of the machine is nil as the amount is not eligible for deduction for tax purposes. Tax base of the lease liability is nil as it is measured at carrying amount less any future tax deductible amount. Recognition of deferred tax on 31st March 20X2: Carrying amount in balance sheet RoU Asset [120 Cr - 24 Cr (Depreciation)] ₹ 96.00 Dr. Lease Liability [120 Cr + 9.60 Cr (120 Cr x 8%) - 30 Cr] Net Amount ₹ 99.60 Cr Tax Base ₹ 3.60 Cr Temporary Difference (deductible) ₹ 0.00 Cr Deferred Tax asset to be recognized (₹ 3.60 Cr x 30%) ₹ 1.08 Cr.",
+          "chapter_number": "12",
+          "chapter_name": "IND AS 12: INCOME TAXES",
+          "unique_id": "FR-OCR-P1_INDAS12"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "## Question 4 (PYP 5 Marks, May'23)\n\nDiscuss the following situations as per Ind AS 10:\n\ni) The financial statements of a Company for the year 2021-2022 are approved by the management and were sent on $5^{\\text {th }}$ June, 2022 for review and approval to its supervisory board i.e., Board of Directors. The supervisory board approves the financial statements on $26{ }^{\\text {th }}$ June, 2022. The financial statements are then made available to shareholders on $4^{\\text {th }}$ July, 2022. The financial statements are approved by shareholders in their annual general meeting on $18^{\\text {th }}$ August, 2022 and then filed with Ministry of Corporate Affairs (MCA) on $19{ }^{\\text {th }}$ August, 2022. Determine \\& discuss the date on which financial statements were approved.\n\nii) A Company is in litigation with Income Tax Department with respect to allowability of certain exemptions for financial year 2018-2019. No provision for tax has been made for disallowances of exemptions as the company was under bonafide belief based on a legal opinion that it will succeed in litigation. On 21st April, 2023, the Hon'ble Supreme Court rejected the Company's claim. The Order is received on 30th April, 2023. The financial statements for the financial year 2022-2023 of the Company are yet to be approved. The earlier year's financial statements stands approved. Advise in financial statements of which financial year the impact of the Order of the Hon'ble Supreme Court should be recognized.\n\niii) Z Limited while preparing its financial statements on $\\mathbf{3 1}{ }^{\\text {st }}$ March, 2023 made a provision for doubtful debts @ $6 \\%$ on accounts receivables. In the last week of January, 2023, a debtor for Rs. 3 lakhs had suffered heavy loss due to fire; the loss was not covered by any insurance policy. Z Limited, considering the event of fire made a provision @ 60\\% of the amount receivables from that debtor apart from the general provision @ $6 \\%$ on remaining debtors. The same debtor was declared insolvent on 10th April, 2023. The financial statements have not yet been approved. You are required to suggest whether the company should provide for the full loss arising out of insolvency of the debtor in the financial statements for the year ended $31^{\\text {st }}$ March, 2023.\n\niv) D Limited acquired equity shares of another company on 1st March, 2023 at a cost of Rs. 28 lakhs. The fair market value of these shares on 31st March, 2023 was Rs. 35 lakhs and the company measured it at Rs. 35 lakhs (assume that it is classified as FVTOCI as per Ind AS 109 and change in fair value is transferred to 'fair value fluctuation reserve'). Due to market conditions subsequent to the reporting date, the value of investments drastically came down to Rs. 20 lakhs. The financial statements have not yet been approved. You are required to suggest whether D Limited should value the investments at Rs. 35 lakhs or Rs. 20 lakhs as on $31^{\\text {st }}$ March, 2023.\n\nv) Tanmay Limited was in negotiation with Varun Limited from $1^{\\text {st }}$ December, 2022 to acquire land for Rs. 5.00 crores. The negotiations were concluded in the first week of April 2023. The transaction was completed by last week of April, 2023. In which financial year, the purchase of land should be recognized?",
+          "answer": "i. As per Ind AS 10, in the case of a company, the financial statements will be treated as approved when board of directors approves the same. Hence in the given case, the financial statements are approved for issue on 26th June, 2022 (date of approval by the Board of Directors for issue of financial statements to the shareholders).\n\nii. An event after the reporting period is an adjusting event if it provides evidence of a condition existing at the end of the reporting period. Court order received after the reporting period (but before the financial statements are approved) provides evidence of the liability existing at the end of the reporting period. Therefore, the event will be considered as an adjusting event and, accordingly, the amount will be adjusted in financial statements for the financial year 2022-2023.\n\niii. In the instant case, the fire took place in January, 2023 (i.e. before the end of the reporting period). Therefore, the condition existed at the end of the reporting date though the debtor is declared insolvent after the reporting period. Accordingly, full provision for bad debt amounting to Rs. 3 lakhs should be made to cover the loss arising due to the bankruptcy of the debtor in the financial statements for the year ended 31st March, 2023.\n\niv. A decline in fair value of investments between the end of the reporting period and the date when the financial statements are approved for issue is a non-adjusting event. The decline in fair value does not normally relate to the condition of the investments at the end of the reporting period but reflects circumstances that have arisen subsequently. Therefore, D Limited should value the investments at Rs. 35 lakhs as on 31st March, 2023.\n\nv. As per Ind AS 10, an entity should adjust the financial statements for the events that occurred after the reporting period, but before the financial statements are approved for issue, if those events provide evidence of conditions that existed at the end of the reporting period. In this case, negotiations continued with Varun Limited to acquire land from 1st December, 2022 till first week of April, 2023. Since on the reporting date, the condition was only on proposal state and transaction was completed on 1st week of April 2023, the event will be considered as a non-adjusting event as per Ind AS 10. Purchase of land should be recognized in the financial year 2023-2024.\n\nHowever, the same may be disclosed in the Notes to Accounts for due information to the users of the financial statements.",
+          "chapter_number": "4.2",
+          "chapter_name": "IND AS 10: EVENTS AFTER THE REPORTING PERIOD",
+          "unique_id": "4.2-T-4"
+        }
+      ]
+    }
+  ]
+}

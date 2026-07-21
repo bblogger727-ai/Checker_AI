@@ -1,0 +1,200 @@
+[
+  {
+    "q_main": 1,
+    "is_compulsory": true,
+    "sub_questions": [
+      {
+        "label": "a",
+        "marks": 7,
+        "internal_split": null,
+        "question": "Explain clearly the doctrine of \u2018Indoor Management\u2019 as applicable in cases of companies registered under the Companies Act, 2013. Explain the circumstances in which an outsider dealing with the company cannot claim any relief on the ground of \u2018Indoor Management\u2019.",
+        "answer": "Doctrine of Indoor Management (the Companies Act, 2013): According to the \u201cdoctrine of indoor management\u201d the outsiders, dealing with the company though are supposed to have satisfied themselves regarding the competence of the company to enter into the proposed contracts are also entitled to assume that as far as the internal compliance to procedures and regulations by the company is concerned, everything has been done properly. They are bound to examine the registered documents of the company and ensure that the proposed dealing is not inconsistent therewith, but they are not bound to do more. They are fully entitled to presume regularity and compliance by the company with the internal procedures as required by the Memorandum and the Articles. This doctrine is a limitation of the doctrine of \u201cconstructive notice\u201d and popularly known as the rule laid down in the celebrated case of Royal British Bank v. Turquand. Thus, the doctrine of indoor management aims to protect outsiders against the company.\n\nThe above mentioned doctrine of Indoor Management or Turquand Rule has limitations of its own. That is to say, it is inapplicable to the following cases, namely:\n\n(a) Actual or constructive knowledge of irregularity: The rule does not protect any person when the person dealing with the company has notice, whether actual or constructive, of the irregularity.\n\nIn Howard vs. Patent Ivory Manufacturing Co. where the directors could not defend the issue of debentures to themselves because they should have known that the extent to which they were lending money to the company required the assent of the general meeting which they had not obtained.\n\nLikewise, in Morris v Kansseen, a director couldiot defend \u2018an allotment of shares to him as he participated in the meeting, which made the allotment. His appointment as a director also fell through because none of the directors appointed him was validly in office.\n\n(b) Suspicion of irregularity: The doctrine in no way, rewards those who behave negligently. Where the person dealing with the company is put upon an inquiry, for example, where the transaction is unusual or not in the ordinary course of business, it is the duty of the outsider to make the necessary enquiry.\n\nThe protection of the \u201cTurquand Rule\u201d is also not available where the circumstances surrounding the contract are suspicious and therefore invite inquiry. Suspicion should arise, for example, from the fact that an officer is purporting to act in matter, which is apparently outside the scope of his authority. Where, for example, as in the case of Anand Bihari Lal vs. Dinshaw & Co. the plaintiff accepted a transfer of a company\u2019s property from its accountant, the transfer was held void. The plaintiff could not have supposed, in absence of a power of attorney that the accountant had authority to effect transfer of the company\u2019s property.\n\nSimilarly, in the case of Haughton & Co. v. Nothard, Lowe & Wills Ltd. where a person holding directorship in two companies agreed to apply the money of one company in payment of the debt to other, the court said that it was something so unusual \u201cthat the plaintiff were put upon inquiry to ascertain whether the persons making the contract had any authority in fact to make it.\u201d Any other rule would \u201cplace limited companies without any sufficient reasons for so doing, at the mercy of any servant or agent who should purport to contract on their behalf.\u201d\n\n(c) Forgery: The doctrine of indoor management applies only to irregularities which might otherwise affect a transaction but it cannot apply to forgery which must be regarded as nullity.\n\nForgery may in circumstances exclude the \u2018Turquand Rule\u2019. The only clear illustration is found in the Ruben v Great Fingall Consolidated. In this case the plaintiff was the transferee of a share certificate issued under the seal of thedefendant\u2019s company. The company\u2019s secretary, who had affixed the seal of the company and forged the signature of the two directors, issued the certificate.\n\nThe plaintiff contended that whether the signature were genuine or forged was apart of the internal management, and therefore, the company should be estopped from denying genuineness of the document. But it was held, that the rule has never been extended to cover such a complete forgery.",
+        "chapter_number": "6",
+        "unique_id": "CH6-A-Q78"
+      },
+      {
+        "label": "b",
+        "marks": 7,
+        "internal_split": null,
+        "question": "Mr. R is an Indian citizen, and his stay in India during the immediately preceding financial year is for 130 days. He appoints Mr. S, a foreign citizen, as his nominee, who has stayed in India for 125 days during the immediately preceding financial year. Is Mr. R eligible to be incorporated as a One- Person Company (OPC)? If yes, can he give the name of Mr. S in the Memorandum of Association as his nominee? Justify your answers with relevant provisions of the Companies Act, 2013.",
+        "answer": "As per the provisions of the Companies Act, 2013, only a natural person who is an Indian citizen and resident in India (person who stayed in India for a period of not less than 120 days during immediately preceding financial year) \u2013 Shall be eligible to incorporate an OPC Shall be a nominee for the sole member. In the given case, Mr. R is an Indian citizen and his stay in India during the immediately preceding financial year is 130 days which is above the requirement of 120 days. Hence, Mr. R is eligible to incorporate an OPC. Also, even though Mr. S\u2019s name is mentioned in the Memorandum of Association as nominee and his stay in India during the immediately preceding financial year is more than 120 days, he is a foreign citizen and not an Indian citizen. Hence, S\u2019s name cannot be given as nominee in the memorandum.",
+        "chapter_number": "6",
+        "unique_id": "CH6-A-Q21"
+      },
+      {
+        "label": "c",
+        "marks": 6,
+        "internal_split": null,
+        "question": "Define Law and explain various sources of Law.",
+        "answer": "What is Law? Law is a set of obligations and duties imposed by the government for securing welfare and providing justice to society. India\u2019s legal framework reflects the social, political, economic, and cultural aspects of our vast and diversified country. Sources of Law The main sources of law in India are: (i) the Constitution, (ii) the Statutes or Laws made by Parliament and State Assemblies, (iii) Precedents or the Judicial Decisions of various Courts and in some cases, established Customs and Usages. The elected representatives of the people to the Parliament and to the Legislative Assemblies of various States make laws in the Parliament or in the State Assemblies. The Constitution of India, 1950 is the foremost law that deals with the framework within which our democratic system works, and our laws are made for the people, by the people. The Constitution also provides for and protects certain Fundamental Rights of citizens. It also lays down Fundamental duties as well as the powers and duties of Governments, both Central and State. The laws in India are interconnected with each other forming a hybrid legal system. The people who wrote the Constitution decided to divide the law-making power between the Central Government and the various State Governments. So, the Indian Constitution has three lists Viz., Central List, State List and Joint List. A matter would become the subject matter for Central Law or a State Law depending on the List.",
+        "chapter_number": "1",
+        "unique_id": "CH1-A-Q1"
+      }
+    ]
+  },
+  {
+    "q_main": 2,
+    "is_compulsory": false,
+    "sub_questions": [
+      {
+        "label": "a",
+        "marks": 7,
+        "internal_split": null,
+        "question": "\"The general rule is that an agreement made without consideration is void.\" State the exceptions of this general rule as per the Indian Contract Act, 1872?",
+        "answer": "An agreement made without consideration is void (Section 25 of the Indian Contract Act, 1872): In every valid contract, consideration is very important. A contract may only be enforceable when consideration is there. However, the Indian Contract Act contains certain exceptions to this rule. In the following cases, the agreement though made without consideration, will be valid and enforceable.\n\nExceptions:\n1. Natural Love and Affection: Conditions to be fulfilled under section 25(1)\n(i) It must be made out of natural love and affection between the parties.\n(ii) Parties must stand in near relationship to each other.\n(iii) It must be in writing.\n(iv) It must also be registered under the law.\nA written and registered agreement based on natural love and affection between the parties standing in near relation (e.g., husband and wife) to each other is enforceable even without consideration.\n\n2. Compensation for past voluntary services: A promise to compensate, wholly or in part, a person who has already voluntarily done something for the promisor, is enforceable under Section 25(2). In order that a promise to pay for the past voluntary services be binding, the following essential factors must exist:\n(i) The services should have been rendered voluntarily.\n(ii) The services must have been rendered for the promisor.\n(iii) The promisor must be in existence at the time when services were rendered.\n(iv) The promisor must have intended to compensate the promisee.\n\n3. Promise to pay time barred debt: Where a promise in writing signed by the person making it or by his authorised agent, is made to pay a debt barred by limitation it is valid without consideration [Section 25(3)].\n\n4. Agency: According to Section 185 of the Indian Contract Act, 1872, no consideration is necessary to create an agency.\n\n5. Completed gift: In case of completed gifts, the rule no consideration no contract does not apply. Explanation (1) to Section 25 states \u201cnothing in this section shall affect the validity as between the donor and donee, of any gift actually made.\u201d Thus, gifts do not require any consideration.\n\n6. Bailment: No consideration is required to affect the contract of bailment. Section 148 of the Indian Contract Act, 1872, defines bailment as the delivery of goods from one person to another for some purpose. This delivery is made upon a contract that post accomplishment of the purpose, the goods will either be returned or disposed of, according to the directions of the person delivering them. No consideration is required to affect a contract of bailment.\n\n7. Charity: If a promisee undertakes the liability on the promise of the person to contribute to charity, there the contract shall be valid. (Kadar Nath v. Gorie Mohammad)",
+        "chapter_number": "2",
+        "unique_id": "CH2_2-A-Q13"
+      },
+      {
+        "label": "b",
+        "marks": 7,
+        "internal_split": null,
+        "question": "With reference to provisions of the Negotiable Instruments Act, 1881, tell the instances where a person shall be deemed to have committed an offence for dishonour of cheque and what are the conditions to be complied with for not constituting such an offence?",
+        "answer": "According to Section 138 of the Negotiable Instruments Act, 1881, where any cheque drawn by a person on an account maintained by him with a banker\u2014\n- for payment of any amount of money\n- to another person from that account\n- for the discharge, in whole or in part, of any debt or other liability, [A cheque given as gift or donation, or as a security or in discharge of a mere moral obligation, or for an illegal consideration, would be outside the purview of this section]\nis returned by the bank unpaid,\neither because of the\u2014\n- amount of money standing to the credit of that account is insufficient to honor the cheque, or\n- that it exceeds the amount arranged to be paid from that account by an agreement made with that bank,\nsuch person shall be deemed to have committed an offence and shall, be punished with imprisonment for a term which may extend to two years, or with fine which may extend to twice the amount of the cheque, or with both.\nWhen section 138 shall not apply: unless the below given conditions are complied with\u2014\n(a) Cheque presented within validity period: The cheque has been presented to the bank within a period of three months from the date on which it is drawn or within the period of its validity, whichever is earlier.\n(b) Demand for the payment through the notice: the payee or the holder in due course of the cheque, as the case may be, makes a demand for the payment of the said amount of money by giving a notice, in writing, to the drawer of the cheque, within 30 days of the receipt of information by him from the bank regarding the return of the cheque as unpaid, and\n(c) Failure of drawer to make payment: the drawer of such cheque fails to make the payment of the said amount of money to the payee or, as the case may be, to the holder in due course of the cheque, within fifteen days of the receipt of the said notice.",
+        "chapter_number": "7",
+        "unique_id": "CH7-A-Q29"
+      },
+      {
+        "label": "c",
+        "marks": 6,
+        "internal_split": null,
+        "question": "Mr. Arun contracted to sell his swift car to Mr. Nikhil. Both missed to discuss the price of the said swift car. Later, Mr. Arun refused to sell his swift car to Mr. Nikhil on the ground that the agreement was void, being uncertain about the price. Does Mr. Nikhil have any right against Mr. Arun under the Sale of Goods Act, 1930?",
+        "answer": "As per the provisions of Section 2(10) of the Sale of Goods Act, 1930, price is the consideration for sale of goods and therefore is a requirement to make a contract of sale. Section 2(10) is to be read with Section 9 of the Sale of Goods Act, 1930. According to Section 9 of the Sale of Goods Act, 1930, the price in a contract of sale may be fixed by the contract or may be left to be fixed in a manner thereby agreed or may be determined by the course of dealing between the parties. Even though both the parties missed discussing the price of the car while making the contract, it will be a valid contract, rather than being uncertain and void; the buyer shall pay a reasonable price in this situation. In the given case, Mr. Arun and Mr. Nikhil have entered into a contract for the sale of a swift car, but they did not fix the price of the same. Mr. Arun refused to sell the car to Mr. Nikhil on this ground. Mr. Nikhil can legally demand the car from Mr. Arun and Mr. Arun can recover a reasonable price for the car from Mr. Nikhil.",
+        "chapter_number": "3",
+        "unique_id": "CH3_1-A-Q16"
+      }
+    ]
+  },
+  {
+    "q_main": 3,
+    "is_compulsory": false,
+    "sub_questions": [
+      {
+        "label": "a",
+        "marks": 7,
+        "internal_split": null,
+        "question": "\u201cAn agency may be terminated by act of parties or by operation of law.\u201d Explain this statement and discuss the circumstances under which an agency stands terminated. (RTP Jan\u201926)",
+        "answer": "Termination of agency [Section 201 of the Indian Contract Act, 1872]: Termination of agency means putting an end to the legal relationship between principal and agent. Section 201 provides for the following modes of termination: (a) Revocation: An agency may be terminated by the principal revoking the authority of the agent. Principal may revoke the authority given to his agent at any time before the authority has been exercised so as to bind the principal [Section 203]. However, the principal cannot revoke the authority given to his agent after the authority has been partly exercised so far as regards acts and obligations as arise for acts already done in the agency. [Section 204] Compensation for revocation by principal [Section 205]: If there is premature revocation of agency without sufficient cause, the principal must compensate the agent, for such revocation. Notice of revocation [Section 206]: When the principal, having justification to do so, revokes the authority, he must give reasonable notice of such revocation to the agent, otherwise, he can be liable to pay compensation for any damage caused to the agent (Section 206). Revocation and renunciation may be expressed or implied [Section 207]: Revocation of agency may be expressed or implied in the conduct of the principal. (b) Renunciation by agent [Section 206]: An agent may renounce the business of agency in the same manner in which the principal has the right of revocation. In the first place, if the agency is for a fixed period, the agent would have to compensate the principal for any premature renunciation without sufficient cause. [Section 205] Secondly, a reasonable notice of renunciation is necessary. Length of notice (time period of notice) is to be determined by the same principles which apply to revocation by the principal. If the agent renounces without proper notice, he shall have to make good any damage thereby resulting to the principal. [Section 206] (c) Completion of business: An agency is automatically and by operation of law terminated when its business is completed. Thus, for example, the authority of an agent appointed to sell goods ceases to be exercisable when the sale is completed. (d) Death or insanity: An agency is determined automatically on the death or insanity of the principal or the agent. Winding up of a company or dissolution of partnership has the same effect. Act done by agent before death would remain binding. (e) Principal\u2019s insolvency: An agency ends on the principal being adjudicated insolvent. (f) On expiry of time: Where an agent has been appointed for a fixed term, the expiration of the term puts an end to the agency, whether the purpose of agency has been accomplished or not. An agency comes to an automatic end on expiry of its term.",
+        "chapter_number": "2",
+        "unique_id": "CH2_9-A-Q18"
+      },
+      {
+        "label": "b",
+        "marks": 7,
+        "internal_split": null,
+        "question": "Mr. A (transferor) transfer his share in a partnership firm to Mr. B (transferee). Mr. B is not entitled for few rights and privileges as Mr. A (transferor) is entitled therefor. Discuss in brief the points for which Mr. B is not entitled during continuance of partnership?",
+        "answer": "As per Section 29 of Indian Partnership Act, 1932, a transfer by a partner of his interest in the firm, either absolute or by mortgage, or by the creation by him of a charge on such interest, does not entitle the transferee, during the continuance of the firm, to interfere in the conduct of business, or to require accounts, or to inspect the books of the firm, but entitles the transferee only to receive the share of profits of the transferring partner, and the transferee shall accept the account of profits agreed to by the partners. In the given case during the continuance of partnership, such transferee Mr. B is not entitled: (a) to interfere with the conduct of the business, (b) to require accounts, (c) to inspect books of the firm. However, Mr. B is only entitled to receive the share of the profits of the transferring partner and he is bound to accept the profits as agreed to by the partners, i.e. he cannot challenge the accounts.",
+        "chapter_number": "4",
+        "unique_id": "CH4_2-A-Q17"
+      },
+      {
+        "label": "c",
+        "marks": 6,
+        "internal_split": "2+2+1+1",
+        "question": "A LLP is a new form of legal business entity with limited liability. It's an alternative corporate business vehicle that only gives the benefits of limited liability at low compliance cost but allows its partners the flexibility of organizing their internal structure as a traditional partnership. Keeping in view of above, define the following characteristics of LLP. (i) Body Corporate (ii) Mutual Agency (iii) Foreign LLPs (iv) Artificial legal person",
+        "answer": "Body corporate: Section 2(1)(d) of the LLP Act, 2008 provides that a LLP is a body corporate formed and incorporated under this Act and is a legal entity separate from that of its partners and shall have perpetual succession. Therefore, any change in the partners of a LLP shall not affect the existence, rights or liabilities of the LLP. Section 3 of LLP Act, 2008, provides that a LLP is a body corporate formed and incorporated under this Act and is a legal entity separate from that of its partners. Mutual Agency: No partner is liable on account of the independent or un-authorized actions of other partners, thus individual partners are shielded from joint liability created by another partner\u2019s wrongful business decisions or misconduct. In other words, all partners will be the agents of the LLP alone. No one partner can bind the other partner by his acts. Foreign LLPs: Section 2(1)(m) defines foreign limited liability partnership \u201cas a limited liability partnership formed, incorporated, or registered outside India which established as place of business within India\u201d. Foreign LLP can become a partner in an Indian LLP. Artificial Legal Person: A LLP is an artificial legal person because it is created by a legal process and is clothed with all rights of an individual. It can do everything which any natural person can do, except of course, that it cannot be sent to jail, cannot take an oath, cannot marry or get divorce nor can it practice a learned profession like CA or Medicine. A LLP is invisible, intangible, immortal (it can be dissolved by law alone) but not fictitious because it really exists.",
+        "chapter_number": "5",
+        "unique_id": "CH5-A-Q3"
+      }
+    ]
+  },
+  {
+    "q_main": 4,
+    "is_compulsory": false,
+    "sub_questions": [
+      {
+        "label": "a",
+        "marks": 7,
+        "internal_split": null,
+        "question": "\u201cLiquidated damage is a genuine pre-estimate of compensation of damages for certain anticipated breach of contract whereas Penalty on the other hand is an extravagant amount stipulated and is clearly unconscionable and has no comparison to the loss suffered by the parties\u201d. Explain.",
+        "answer": "Liquidated damage is a genuine pre-estimate of compensation of damages for certain anticipated breach of contract. This estimate is agreed to between parties to avoid at a later date detailed calculation and the necessity to convince outside parties.\n\nPenalty on the other hand is an extravagant amount stipulated and is clearly unconscionable and has no comparison to the loss suffered by the parties.\n\nIn terms of Section 74 of the Act \u201cwhere a contract has been broken, if a sum is named in the contract as the amount to be paid in case of such breach, or if the contract contains any other stipulation by way of penalty, the party complaining of the breach is entitled, whether or not actual damages or loss is proved to have been caused thereby, to receive from the other party who has broken the contract, a reasonable compensation not exceeding the amount so named, or as the case may be the penalty stipulated for.\n\nExplanation to Section 74\n\nA stipulation for increased interest from the date of default may be a stipulation by way of penalty.\n\nIn terms of Section 74, courts are empowered to reduce the sum payable on breach whether it is \u2018penalty\u2019 or \u201cliquidated damages\u201d provided the sum appears to be unreasonably high.\n\nSri ChunniLal vs. Mehta & Sons Ltd (Supreme Court)\n\nSupreme Court laid down the ratio that the aggrieved party should not be allowed to claim a sum greater than what is specific in the written agreement. But even then, the court has powers to reduce the amount if it considers it reasonable to reduce.",
+        "chapter_number": "2",
+        "unique_id": "CH2_5-A-Q12"
+      },
+      {
+        "label": "b",
+        "marks": 7,
+        "internal_split": null,
+        "question": "A and B operate a textile merchant business in partnership. Mr. A finances the business and is a sleeping partner. In the regular course of business, B acquires certain fabric goods belonging to C. However, B is aware that these goods are stolen property. Despite this knowledge, B proceeds to purchase and sell some of these stolen goods. Moreover, B records proceeds from these sales in the firm\u2019s books. Now, A wants to avoid the liability towards C, on the grounds of misconduct by B. In the light of the provisions of the Indian Partnership Act, 1932 discuss the liability of A and B towards C.",
+        "answer": "According to Section 25 of the Indian Partnership Act, 1932, every partner is jointly and severally liable for all acts of the firm done while he is a partner. As per section 26, the firm is liable to the same extent as the partner for any wrongful act or omission of a partner while acting: (a) in the ordinary course of the business of the firm, or (b) with the authority of the partners. Section 27 provides that the firm is liable if a partner, acting within the scope of his apparent authority, receives money or property from a third party and misapplies it, or if the firm in the course of its business receives money or property and the same is misapplied while it is in the custody of the firm. In the instant case, both A and B are liable to C for the wrongful acts committed by B. A cannot avoid liability merely on the grounds of being a sleeping partner.",
+        "chapter_number": "4",
+        "unique_id": "CH4_2-A-Q16"
+      },
+      {
+        "label": "c",
+        "marks": 6,
+        "internal_split": null,
+        "question": "Certain goods were sold by sample by J to K, who in turn sold the same goods by sample to L and by sample sold the same goods to M. M found that the goods were not according to the sample and rejected the goods and gave a notice to L. L sued K and sued J. Can M reject the goods? Also advise K and L as per the provisions of the Sale of Goods Act, 1930.",
+        "answer": "As per the provisions of Sub-Section (2) of Section 17 of the Sale of Goods Act, 1930, in a contract of sale by sample, there is an implied condition that:\n(a) the bulk shall correspond with the sample in quality;\n(b) the buyer shall have a reasonable opportunity of comparing the bulk with the sample.\nIn this case, M received the goods by sample from L but since the goods were not according to the sample, M can reject the goods and can sue L.\nWith regard to K and L, L can recover damages from K and K can recover damages from J. But, for both K and L, it will not be treated as a breach of implied condition as to sample as they have accepted and sold the goods according to Section 13(2) of the Sale of Goods Act, 1930.",
+        "chapter_number": "3",
+        "unique_id": "CH3_2-A-Q9"
+      }
+    ]
+  },
+  {
+    "q_main": 5,
+    "is_compulsory": false,
+    "sub_questions": [
+      {
+        "label": "a",
+        "marks": 7,
+        "internal_split": null,
+        "question": "What is Quasi Contract? Elaborate the cases which are deemed as Quasi Contract.",
+        "answer": "Quasi Contracts: Under certain special circumstances, obligation resembling those created by a contract are imposed by law although the parties have never entered into a contract. Such obligations imposed by law are referred to as \u2018Quasi-contracts\u2019. Such a contract resembles with a contract so far as result or effect is concerned but it has little or no affinity with a contract in respect of mode of creation. These contracts are based on the doctrine that a person shall not be allowed to enrich himself unjustly at the expense of another.\n\nThe following are the cases which are deemed as Quasi Contract:\n\n(a) Claim for necessaries supplied to persons incapable of contracting (Section 68 of the Indian Contract Act, 1872): If a person, incapable of entering into a contract, or anyone whom he is legally bound to support, is supplied by another person with necessaries suited to his condition in life, the person who has furnished such supplies is entitled to be reimbursed from the property of such incapable person.\n\nTo establish his claim, the supplier must prove not only that the goods were supplied to the person who was minor or a lunatic but also that they were suitable to his actual requirements at the time of the sale and delivery.\n\n(b) Payment by an interested person (Section 69): A person who is interested in the payment of money which another is bound by law to pay, and who therefore pays it, is entitled to be reimbursed by the other.\n\n(c) Obligation of person enjoying benefits of non-gratuitous act (Section 70): In term of section 70 of the Act \u201cwhere a person lawfully does anything for another person or delivers anything to him not intending to do so gratuitously and such other person enjoys the benefit thereof, the latter is bound to pay compensation to the former in respect of, or to restore, the thing so done or delivered\u201d.\n\n(d) Responsibility of finder of goods (Section 71): \u2018A person who finds goods belonging to another and takes them into his custody is subject to same responsibility as if he were a bailee\u2019. Thus, a finder of lost goods has:\n\n(i) to take proper care of the property as man of ordinary prudence would take\n(ii) no right to appropriate the goods and\n(iii) to restore the goods if the owner is found.\n\n(e) Money paid by mistake or under coercion (Section 72): \u201cA person to whom money has been paid or anything delivered by mistake or under coercion, must repay or return it\u201d.",
+        "chapter_number": "2",
+        "unique_id": "CH2_6-A-Q6"
+      },
+      {
+        "label": "b",
+        "marks": 7,
+        "internal_split": null,
+        "question": "Shyam, Mohan and Keshav were partners in M/s Nandal Gokulwale and Company. They mutually decided that Shyam will take the responsibility to sell the goods, Mohan will do the purchase of goods for firm and Keshav will look after the accounts and banking department. No one will interfere in other\u2019s department. Once, when Shyam and Keshav were out of town, Mohan got the information that the price of their good is going down sharply due to some government policy which would result in heavy loss to firm if goods not sold immediately. He tried to contact Shyam who has authority to sell the goods. When Mohan couldn\u2019t contact to Shyam, he sold all goods at some reduced price to save the firm from heavy loss. Thereafter, Shyam and Keshav denied accepting the loss due to sale of goods at reduced price as it\u2019s only Shyam who has express authority to sell the goods. Discuss the consequences under the provisions of the Indian Partnership Act, 1932.",
+        "answer": "According to Section 20 of Indian Partnership Act, 1932, the partners in a firm may, by contract between the partners, extend or restrict the implied authority of any partner. Notwithstanding any such restriction, any act done by a partner on behalf of the firm which falls within his implied authority binds the firm, unless the person with whom he is dealing knows of the restriction or does not know or believe that partner to be a partner.  \nFurther, according to Section 21, a partner has authority, in an emergency to do all such acts for the purpose of protecting the firm from loss as would be done by a person of ordinary prudence, in his own case, acting under similar circumstances, and such acts bind the firm.  \nOn the basis of provisions and facts provided in the question, though Shyam was expressly authorised to sell the goods, Mohan sold the goods at some loss. It was very much clear that Mohan has done what a person of ordinary prudence does in an emergency to protect the firm from heavy loss. Hence, this sale will bind the firm.",
+        "chapter_number": "4",
+        "unique_id": "CH4_2-A-Q13"
+      },
+      {
+        "label": "c",
+        "marks": 6,
+        "internal_split": null,
+        "question": "Explain the legal provisions regarding the eligibility of persons to become partners in a Limited Liability Partnership (LLP) under the LLP Act, 2008. What are the consequences if LLP carries on business with less than the minimum number of partners as prescribed?",
+        "answer": "Partners (Section 5 of the LLP Act, 2008): Any individual or body corporate may be a partner in a LLP. However, an individual shall not be capable of becoming a partner of a LLP, if\u2014 (a) he has been found to be of unsound mind by a Court of competent jurisdiction and the finding is in force; (b) he is an undischarged insolvent; or (c) he has applied to be adjudicated as an insolvent and his application is pending. Minimum number of partners (Section 6): i. Every LLP shall have at least two partners. ii. If at any time the number of partners of a LLP is reduced below two and the LLP carries on business for more than six months while the number is so reduced, the person, who is the only partner of the LLP during the time that it carries on business after those six months and has the knowledge of the fact that it is carrying on business with him alone, shall be liable personally for the obligations of the LLP incurred during that period.",
+        "chapter_number": "5",
+        "unique_id": "CH5-A-Q5"
+      }
+    ]
+  },
+  {
+    "q_main": 6,
+    "is_compulsory": false,
+    "sub_questions": [
+      {
+        "label": "a",
+        "marks": 7,
+        "internal_split": null,
+        "question": "Ram Bilas Yadav is a farmer. Anna Chips Company approached him and entered in a contract to supply 100 quintals of potatoes which to be grown in the fields belonging to Ram Bilas Yadav @ \u20b91000/- per quintal. Anna Chips Company made the payment of price but delivery to be made after six months. Before the time of delivery, the whole crop of potatoes was destroyed due to flood. Anna Chips Company demanded the payment of price which is already made by it. Ram Bilas Yadav denied returning the price by saying that contract of sale was already entered and hence crop belongs to Anna Chips Company. Hence loss of crop must be borne by it. Referring to the provisions of the Sale of Goods Act, 1930, whether Anna Chips Company recover amount from Ram Bilas Yadav?",
+        "answer": "As per Section 4(3) of the Sale of Goods Act, 1930, where under a contract of sale, the property in the goods is transferred from the seller to the buyer, the contract is called a sale, but where the transfer of the property in the goods is to take place at a future time or subject to some condition thereafter to be fulfilled, the contract is called an agreement to sell and as per Section 4(4), an agreement to sell becomes a sale when the time elapses or the conditions are fulfilled subject to which the property in the goods is to be transferred. Further Section 2(6) defines \u201cfuture goods\u201d means goods to be manufactured or produced or acquired by the seller after making of the contract of sale. In the instant case, on the basis of above provisions and facts, it can be said that there was an agreement to sell between Ram Bilas Yadav and Anna Chips Company because the goods under agreement was future goods. Even the payment was made by Anna Chips Company, the property in goods can be transferred only after the goods is ascertained. As the goods was not ascertained, property is not passed to buyer. Hence, Ram Bilas Yadav must return the price to Anna Chips Company.",
+        "chapter_number": "3",
+        "unique_id": "CH3_1-A-Q7"
+      },
+      {
+        "label": "b",
+        "marks": 7,
+        "internal_split": null,
+        "question": "Whether Ram would be held liable for dishonour of cheque? Whether Rohan was justified in considering this as an offence under Section 138 of the Negotiable Instruments Act, 1881.",
+        "answer": "According to section 138 of the Negotiable Instruments Act, 1881, where any cheque drawn by a person on an account maintained by him with a banker \u2014 for payment of any amount of money to another person from that account for the discharge, in whole or in part, of any debt or other liability, [A cheque given as gift or donation, or as a security or in discharge of a mere moral obligation, or for an illegal consideration, would be outside the purview of this section] is returned by the bank unpaid, either because of the \u2014 amount of money standing to the credit of that account is insufficient to honor the cheque, or that it exceeds the amount arranged to be paid from that account by an agreement made with that bank, such person shall be deemed to have committed an offence and shall, be punished with imprisonment for a term which may extend to two years, or with fine which may extend to twice the amount of the cheque, or with both. In the given question, Rohan received a cheque from Ram, for ` 51,000 as a gift for his marriage. In terms of section 138, cheque given as a gift does not fall within this section. Hence, Ram would not be held liable for dishonour of cheque. The explanation to the section provides that for the purpose of section 138 only a legally enforceable debt or other liability is to be taken into consideration. The cheque of ` 51,000 was issued in the nature of a gift and not as a part of the payment for the balance amount of car. Hence, Rohan was not justified in considering the dishonour of cheque, an offence under section 138 of the Negotiable Instruments Act, 1881.",
+        "chapter_number": "7",
+        "unique_id": ""
+      },
+      {
+        "label": "c",
+        "marks": 6,
+        "internal_split": null,
+        "question": "A Company registered under Section 8 of the Companies Act, 2013, has been consistently making profits for the past 5 years after a major change in the management structure. Few members contended that they are entitled to receive dividends. Can the company distribute dividend? If yes, what is the maximum percentage of dividend that can be distributed as per provisions of the Companies Act, 2013? Also, to discuss this along with other regular matters, the company kept a general meeting by giving only 14 days\u2019 notice. Is this valid?",
+        "answer": "A company registered under Section 8 of the Companies Act, 2013 is prohibited from the payment of any dividends to its members. Hence in the given case, the contention of the members to distribute dividend from the profits earned is wrong. Also, Section 8 company is allowed to call a general meeting by giving 14 days instead of 21 days.",
+        "chapter_number": "6",
+        "unique_id": "CH6-A-Q46"
+      }
+    ]
+  }
+]

@@ -1,5 +1,30 @@
 from app.core.openai_client import client
+import re
 
+
+def parse_ocr_to_pages(ocr_text: str) -> list:
+    """
+    Parse raw OCR text output into a list of page dictionaries.
+    Expected format: === Page N === followed by page content.
+    """
+    pages = []
+    # Split by page markers
+    pattern = r'=== Page (\d+) ==='
+    parts = re.split(pattern, ocr_text)
+    
+    # parts will be: ['', '1', 'page1_content', '2', 'page2_content', ...]
+    for i in range(1, len(parts), 2):
+        if i + 1 < len(parts):
+            page_num = int(parts[i])
+            page_text = parts[i + 1].strip()
+            # Remove markdown code fences if present
+            page_text = re.sub(r'^```\n?|```$', '', page_text, flags=re.MULTILINE).strip()
+            pages.append({
+                "page": page_num,
+                "text": page_text
+            })
+    
+    return pages
 
 def parse_answers(raw_pages: list) -> dict:
     combined_text = "\n\n".join(

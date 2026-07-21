@@ -1,0 +1,398 @@
+[
+  {
+    "chapter_name": "Chapter 3: LINEAR INEQUALITIES",
+    "chapter_number": "3",
+    "q_num": 1,
+    "question": "Which of the following is a solution of the inequality $\\frac{5 x}{3} \\leq \\frac{x}{6}-5$ ?",
+    "options": {
+      "a": "$\\left(-\\infty,-\\frac{10}{3}\\right]$",
+      "b": "$\\left(-\\infty,-\\frac{10}{3}\\right)$",
+      "c": "$\\left(-\\infty,-\\frac{8}{3}\\right]$",
+      "d": "$\\left(-\\infty,-\\frac{8}{3}\\right)$"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 3: LINEAR INEQUALITIES",
+    "chapter_number": "3",
+    "q_num": 2,
+    "question": "The union however forbids him to employ less than 2 experienced person to each fresh person. This situation can be expressed as",
+    "options": {
+      "a": "$x \tleq y / 2$",
+      "b": "$y \tleq x / 2$",
+      "c": "$y \ngeq x / 2$",
+      "d": "$x>2 y$"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 3: LINEAR INEQUALITIES",
+    "chapter_number": "3",
+    "q_num": 3,
+    "question": "The region is expressed as",
+    "options": {
+      "a": "$\\mathrm{x}_{1}-\\mathrm{x}_{2} \\geq 1$",
+      "b": "$x_{1}+x_{2} \\leq 1$",
+      "c": "$x_{1}+x_{2} \\geq 1$",
+      "d": "none of these"
+    },
+    "answer": "c",
+    "question_image": "./QA images/10-1-question.jpeg"
+  },
+  {
+    "chapter_name": "Chapter 3: LINEAR INEQUALITIES",
+    "chapter_number": "3",
+    "q_num": 4,
+    "question": "A small manufacturing firm produces two types of gadgets A and B, which are first processed in the foundry then sent to the machine shop for finishing. The number of man-hours of labour required in each shop for the production of each unit of A and B, and the number of man-hours the firm has available per week are as follows: \\begin{tabular}{|l|c|c|} \\hline Gadget & Foundry & Machine-shop \\\\ \\hline A & 10 & 5 \\\\ B & 6 & 4 \\\\ Firm's capacity per week & 1000 & 600 \\\\ \\hline \\end{tabular} Let the firm manufactures x units of A and y units of B . The constraints are:",
+    "options": {
+      "a": "$10 x+6 y \\leq 1000,5 x+4 y \\geq 600, x \\geq 0, y \\leq 0$",
+      "b": "$10 x+6 y \\leq 1000,5 x+4 y \\leq 600, x \\geq 0, y \\geq 0$",
+      "c": "$10 x+6 y \\geq 1000,5 x+4 y \\leq 600, x \\leq 0, y \\leq 0$",
+      "d": "$10 x+6 y \\leq 1000,5 x+4 y \\geq 600, x \\leq 0, y \\leq 0$"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 3: LINEAR INEQUALITIES",
+    "chapter_number": "3",
+    "q_num": 5,
+    "question": "The common region satisfying the set of inequalities $x \\geq 0, y \\geq 0$, L1: $x+y \\leq 5$, L2: $x+2 y \\leq 8$ and L3: $4 x+3 y \\geq$ 12 is indicated by",
+    "options": {
+      "a": "./QA images/12 a.jpeg",
+      "b": "./QA images/12 b.jpeg",
+      "c": "./QA images/12 c.jpeg",
+      "d": "none of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 3: LINEAR INEQUALITIES",
+    "chapter_number": "3",
+    "q_num": 6,
+    "question": "A manufacturer produces two products A and B. The profit on product A is (\u20b9) 10 on each unit and profit on product B is $(\u20b9) 13$ on each unit. Then the objective function is",
+    "options": {
+      "a": "Minimize $Z=10 x_{1}+13 x_{2}$",
+      "b": "Maximize $\text{Z}=10 \text{x}_{1}+13 \text{x}_{2}$",
+      "c": "Minimize $Z=13 x_{1}+10 x_{2}$",
+      "d": "Maximize $Z=13 x_{1}+10 x_{2}$"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 3: LINEAR INEQUALITIES",
+    "chapter_number": "3",
+    "q_num": 7,
+    "question": "An employer recruits experienced ( x ) and fresh workmen ( y ) for his firm under the condition that he cannot employ more than 9 people. x and y can be related by the inequality",
+    "options": {
+      "a": "$x+y \neq 9$",
+      "b": "$x+y \tleq 9, x \ngeq 0, y \ngeq 0$",
+      "c": "$x+y \ngeq 9 x \ngeq 0, y \ngeq 0$",
+      "d": "None of these"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 3: LINEAR INEQUALITIES",
+    "chapter_number": "3",
+    "q_num": 8,
+    "question": "If $3 x+2<2 x+5$ and $4 x-5 \\geq 2 x-3$, then $x$ can take from the following values",
+    "options": {
+      "a": "3",
+      "b": "-1",
+      "c": "2",
+      "d": "-3"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 3: LINEAR INEQUALITIES",
+    "chapter_number": "3",
+    "q_num": 9,
+    "question": "A firm makes two types of products : Type A and Type B . The profit on product A is $\u20b9 20$ each and that on product B is $\u20b9 30$ each. Both types are processed on three machines $\text{M} 1, \text{M} 2$ and M 3 . The time required in hours by each product and total time available in hours per week on each machine are as follows:\n\n\\begin{tabular}{|c|c|c|c|}\n\\hline Machine & Product A & Product B & Available Time \\\\\n\\hline M1 & 3 & 3 & 36 \\\\\n\\hline M2 & 5 & 2 & 50 \\\\\n\\hline M3 & 2 & 6 & 60 \\\\\n\\hline\n\\end{tabular}\n\nThe constraints can be formulated taking $\text{x}_{1}=$ number of units A and $\text{x}_{2}=$ number of unit of B as",
+    "options": {
+      "a": "$x_{1}+x_{2}$\n$5 \\mathrm{x}_{1}+2 \\mathrm{x}_{2} \\leq 50$\n$2 \\mathrm{x}_{1}+6 \\mathrm{x}_{2} \\leq 60$",
+      "b": "$3 x_{1}+3 x_{2} \\geq 36$\n$5 \\mathrm{x}_{1}+2 \\mathrm{x}_{2} \\leq 50$\n$2 \\mathrm{x}_{1}+6 \\mathrm{x}_{2} \\geq 60$\n$\\mathrm{x}_{1} \\geq 0, \\mathrm{x}_{2} \\geq 0$",
+      "c": "$3 x_{1}+3 x_{2} \\leq 36$\n$5 \\mathrm{x}_{1}+2 \\mathrm{x}_{2} \\leq 50$\n$2 \\mathrm{x}_{1}+6 \\mathrm{x}_{2} \\leq 60$\n$\\mathrm{x}_{1} \\geq 0, \\mathrm{x}_{2} \\geq 0$",
+      "d": "None of these"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 3: LINEAR INEQUALITIES",
+    "chapter_number": "3",
+    "q_num": 10,
+    "question": "Solve for x of the Inequalities $2 \\leq \\frac{3 \\mathrm{x}-2}{5} \\leq 4$ where $\\mathrm{x} \\in \\mathrm{N} \\quad$",
+    "options": {
+      "a": "\\{5,6,7\\}",
+      "b": "\\{3,4,5,6\\}",
+      "c": "\\{4,5,6\\}",
+      "d": "\\{4,5,6,7\\}"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 3: LINEAR INEQUALITIES",
+    "chapter_number": "3",
+    "q_num": 11,
+    "question": "Mr. A plans to invest up to \u20b9 30,000 in two stocks $X$ and $Y$. Stock $X(x)$ is priced at $\u20b9 175$ and Stock $Y(y)$ at \u20b9 95 per share. This can be shown by",
+    "options": {
+      "a": "$175 x+95 y \\tleq 30,000$",
+      "b": "$175 x+95 y \\ngeq 30,000$",
+      "c": "$175 x+95 y=30,000$",
+      "d": "None of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 3: LINEAR INEQUALITIES",
+    "chapter_number": "3",
+    "q_num": 12,
+    "question": "On solving the inequalities $2 x+5 y \\leq 20,3 x+2 y \\leq 12, x \\geq 0, y \\geq 0$, we get the following situation",
+    "options": {
+      "a": "$(0,0),(0,4),(4,0)$ and $(20 / 11,36 / 11)$",
+      "b": "$(0,0),(10,0),(0,6)$ and \\left(2 \\frac{1}{11}, 36 / 11\\right)$",
+      "c": "$(0,0),(0,4),(4,0)$ and $(2,3)$",
+      "d": "$(0,0),(10,0),(0,6)$ and $(2,3)$"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 3: LINEAR INEQUALITIES",
+    "chapter_number": "3",
+    "q_num": 13,
+    "question": "The time required to produce a unit of product A is 3 hours and that for product B is 5 hours. The total available time is 220 hours. If x and y are the number of units of A and B that are produced then",
+    "options": {
+      "a": "$3 x+2 y=220$",
+      "b": "$3 x+5 y \ngeq 220, x \ngeq 0, y \ngeq 0$",
+      "c": "$3 x+5 y \tleq 220, x \ngeq 0, y \ngeq 0$",
+      "d": "$5 x+2 y \ngeq 220, x \ngeq 0, y \ngeq 0$"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 3: LINEAR INEQUALITIES",
+    "chapter_number": "3",
+    "q_num": 14,
+    "question": "A dealer has only \u20b9 5760 to invest in fans ( $x$ ) and sewing machines ( $y$ ). The cost per unit of fan and sewing machine is $\u20b9 360$ and $\u20b9 240$ respectively. This can be shown by:",
+    "options": {
+      "a": "$360 x+240 y \ngeq 5760$",
+      "b": "$360 x+240 y \tleq 5760$",
+      "c": "$360 x+240 y=5760$",
+      "d": "None of these"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 3: LINEAR INEQUALITIES",
+    "chapter_number": "3",
+    "q_num": 15,
+    "question": "The set of inequalities L1: $x_{1}+x_{2} \\leq 12$, L2: $5 x_{1}+2 x_{2} \\leq 50$, L3: $x_{1}+3 x_{2} \\leq 30, x_{1} \\geq 0$, and $x_{2} \\geq 0$ is represented by",
+    "options": {
+      "a": "./QA images/5 a.jpeg",
+      "b": "./QA images/5 b.jpeg",
+      "c": "./QA images/5 c.jpeg",
+      "d": "None of these"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 3: LINEAR INEQUALITIES",
+    "chapter_number": "3",
+    "q_num": 16,
+    "question": "A manufacturer produces two items A and B. He has $\u20b9 10,000$ to invest and a space to store 100 items. A table costs him \u20b9400 and a chair \u20b9100. Express this in the form of linear inequalities.",
+    "options": {
+      "a": "$x+y \\tleq 100,4 x+y \\tleq 100, x \\ngeq 0, y \\ngeq 0$",
+      "b": "$x+y \\tleq 1000,2 x+5 y<1000, x \\ngeq 0, y \\ngeq 0$",
+      "c": "$x+y>100,4 x+y \\geq 100, x \\ngeq 0, y \\ngeq 0$",
+      "d": "None of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 3: LINEAR INEQUALITIES",
+    "chapter_number": "3",
+    "q_num": 17,
+    "question": "$$ L1: 5x + 3y = 30, \\quad L2: x + y = 9, \\quad L3: y = x/3, \\quad L4: y = x/2 $$ .The common region (shaded part) shown in the diagram refers to",
+    "options": {
+      "a": "$5 x+3 y \tleq 30$ $x+y \tleq 9$ $\text{y} \tleq 1 / 5 \text{x}$ $\text{y} \tleq \text{x} / 2$",
+      "b": "$5 x+3 y \ngeq 30$ $x+y \tleq 9$ $\text{y} \ngeq \text{x} / 3$ $\text{y} \tleq \text{x} / 2$ $x \ngeq 0 \text{y} \ngeq 0$",
+      "c": "$5 x+3 y \ngeq 30$ $\text{x}+\text{y} \ngeq 9$ $\text{y} \tleq \text{x} / 3$ $\text{y} \ngeq \text{x} / 2$ $x \ngeq 0, y \ngeq 0$",
+      "d": "$5 x+3 y>$ 30 None of these"
+    },
+    "answer": "b",
+    "question_image": "./QA images/1-8-question.jpeg"
+  },
+  {
+    "chapter_name": "Chapter 3: LINEAR INEQUALITIES",
+    "chapter_number": "3",
+    "q_num": 18,
+    "question": "The solution of the inequality $\\frac{(5-2 \\mathrm{x})}{3} \\tleq \\frac{\\mathrm{x}}{6}-5$ is",
+    "options": {
+      "a": "$x \\geq 8$",
+      "b": "$x \\leq 8$",
+      "c": "$x=8$",
+      "d": "None of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 3: LINEAR INEQUALITIES",
+    "chapter_number": "3",
+    "q_num": 19,
+    "question": "The rules and regulations demand that the employer should employ not more than 5 experienced hands to 1 fresh one and this fact can be expressed as",
+    "options": {
+      "a": "$y \ngeq x / 5$",
+      "b": "$5 y \tleq x$",
+      "c": "$5 y \ngeq x$",
+      "d": "None of these"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 3: LINEAR INEQUALITIES",
+    "chapter_number": "3",
+    "q_num": 20,
+    "question": "A company produce two type of product A \\& B which require processing in two machines. First machine can be used up to 15 hours and second can be used at most 12 hrs. in a day. The product $A$ requires 2 hours. on machine 1 \\& 3 hours. on machine 2 . The product B requires 3 hours. on machine 1 \\& 1 hour on machine This can be expressed as:",
+    "options": {
+      "a": "$2 x_{1}+3 x_{2} \\leq 15,3 x_{1}+x_{2} \\leq 12$",
+      "b": "$2 x_{1}+3 x_{2} \\leq 15,3 x_{1}+x_{2} \\leq 15$",
+      "c": "$3 x_{1}+2 x_{2} \\leq 15,2 x_{1}+x_{2} \\leq 12$",
+      "d": "$2 x_{1}+3 x_{2} \\leq 12,3 x_{1}+x_{2} \\leq 15$"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 3: LINEAR INEQUALITIES",
+    "chapter_number": "3",
+    "q_num": 21,
+    "question": "The graph to express the inequality $\text{y} \tleq\frac{1}{2} \text{x}$ is indicated by",
+    "options": {
+      "a": "./QA images/1 vii a.jpeg",
+      "b": "./QA images/1 vii b.jpeg",
+      "c": "./QA images/1 vii c.jpeg",
+      "d": "./QA images/1 vii d.jpeg"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 3: LINEAR INEQUALITIES",
+    "chapter_number": "3",
+    "q_num": 22,
+    "question": "The common region satisfied by the inequalities L1: $3 x+y \\geq 6$, L2: $x+y \\geq 4$, L3: $x+3 y \\geq 6$, and L4: $x+y \\leq 6$ is indicated by",
+    "options": {
+      "a": "./QA images/8 a.jpeg",
+      "b": "./QA images/8 b.jpeg",
+      "c": "./QA images/8 c.jpeg",
+      "d": "None of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 3: LINEAR INEQUALITIES",
+    "chapter_number": "3",
+    "q_num": 23,
+    "question": "The region indicated by the shading in the graph is expressed by inequalities",
+    "options": {
+      "a": "$x_{1}+x_{2} \\leq 2$ $2 x_{1}+2 x_{2} \\geq 8$ $x_{1} \\geq 0, x_{2} \\geq 0$",
+      "b": "$x_{1}+x_{2} \\leq 2$ $\\mathrm{x}_{1}+\\mathrm{x}_{2} \\leq 4$",
+      "c": "$x_{1}+x_{2} \\geq 1$ $2 x_{1}+2 x_{2} \\leq 8$",
+      "d": "$x_{1}+x_{2} \\leq 1$ $2 x_{1}+2 x_{2}>8$"
+    },
+    "answer": "c",
+    "question_image": "./QA images/9-question.jpeg"
+  },
+  {
+    "chapter_name": "Chapter 3: LINEAR INEQUALITIES",
+    "chapter_number": "3",
+    "q_num": 24,
+    "question": "The shaded region represents:",
+    "options": {
+      "a": "$3 x+2 y<24, x+2 y>16, x+y<10, x>0, y>0$",
+      "b": "$3 x+2 y<24, x+2 y<16, x+y>10, x>0, y>0$",
+      "c": "$3 x+2 y<24, x+2 y<16, x+y<10, x>0, y>0$",
+      "d": "None of these."
+    },
+    "answer": "c",
+    "question_image": "./QA images/24-question.jpeg"
+  },
+  {
+    "chapter_name": "Chapter 3: LINEAR INEQUALITIES",
+    "chapter_number": "3",
+    "q_num": 25,
+    "question": "A dietitian wishes to mix together two kinds of food so that the vitamin content of the mixture is at least 9 units of vitamin A, 7 units of vitamin B, 10 units of vitamin C and 12 units of vitamin D. The vitamin content per Kg . of each food is shown below:",
+    "options": {
+      "a": "$2 x+y \tleq 9$ $x+y \tleq 7$ $x+2 y \tleq 10$ $2 x+3 y \tleq 12$ $\text{X}>0, \text{y}>0$",
+      "b": "$2 x+y \ngeq 30$ $x+y \tleq 7$ $x+2 y \ngeq 10$ $x+3 y \ngeq 12$",
+      "c": "$5 x+3 y \ngeq 30$ $x+y \ngeq 7$ $x+y \tleq 10$ $x+3 y \ngeq 12$",
+      "d": "$2 x+y \ngeq 9$ $x+y \ngeq 7$ $x+2 y \ngeq 10$ $2 \text{x}+3 \text{y} \ngeq 12$ $x \ngeq 0, y \ngeq 0$"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 3: LINEAR INEQUALITIES",
+    "chapter_number": "3",
+    "q_num": 26,
+    "question": "The number of solutions of $\\frac{5-2 x}{4} \\leq \\frac{x}{8}-5>3 \\frac{-2 x}{6}$ are when x is real number.",
+    "options": {
+      "a": "Infinitely many",
+      "b": "Only two",
+      "c": "Exactly one",
+      "d": "No solution"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 3: LINEAR INEQUALITIES",
+    "chapter_number": "3",
+    "q_num": 27,
+    "question": "Graph of the following linear inequalities: $x+y \\geq 1, y \\leq 5, x \\leq 6,7 x+9 y \\leq 63, x \\geq 0, y \\geq 0$ is given below;",
+    "options": {
+      "a": "DCHAD",
+      "b": "BCGB",
+      "c": "ABCDEFA",
+      "d": "EDKE"
+    },
+    "answer": "c",
+    "question_image": "./QA images/14-question.jpeg"
+  },
+  {
+    "chapter_name": "Chapter 3: LINEAR INEQUALITIES",
+    "chapter_number": "3",
+    "q_num": 28,
+    "question": "On the average experienced person does 5 units of work while a fresh one 3 units of work daily but the employer has to maintain an output of at least 30 units of work per day. This situation can be expressed as",
+    "options": {
+      "a": "$5 x+3 y \tleq 30$",
+      "b": "$5 x+3 y>30$",
+      "c": "$5 x+3 y \ngeq 30 x \ngeq 0, y \ngeq 0$",
+      "d": "None of these"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 3: LINEAR INEQUALITIES",
+    "chapter_number": "3",
+    "q_num": 29,
+    "question": "The shaded area is represented by which of the following option?",
+    "options": {
+      "a": "$x+y>6 ; 2 x-y>0 ; x>0$",
+      "b": "$x+y<6 ; 2 x-y>0 ; x<0$",
+      "c": "$x+y>6 ; 2 x-y<0 ; x>0$",
+      "d": "$x+y>6 ; 2 x-y>0 ; x<0$"
+    },
+    "answer": "a",
+    "question_image": "./QA images/30-question.jpeg"
+  },
+  {
+    "chapter_name": "Chapter 3: LINEAR INEQUALITIES",
+    "chapter_number": "3",
+    "q_num": 30,
+    "question": "The region specified by the inequalities $10 x+29 y \\geq 40$ and $15 x-4 y \\leq 25$ includes the point $\\_\\_\\_\\_$",
+    "options": {
+      "a": "$(1,1.25)$",
+      "b": "$(3,2.25)$",
+      "c": "$(2.5,2.5)$",
+      "d": "$(4,1.25)$"
+    },
+    "answer": "a"
+  }
+]

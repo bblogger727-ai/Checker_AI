@@ -1,0 +1,311 @@
+{
+  "metadata": {
+    "graded_at": "2026-07-17T13:09:36.674821",
+    "grading_model": "claude-sonnet-4-6",
+    "total_questions": 10,
+    "mcq_questions": 0,
+    "descriptive_questions": 10,
+    "total_marks_possible": 50.0,
+    "total_marks_obtained": 19.0,
+    "percentage": 38.0,
+    "grade": "D",
+    "scoring_rule": "Portionwise Test: All questions counted. Total /50.0.",
+    "top5_questions": [
+      "Q1",
+      "Q2",
+      "Q3",
+      "Q4",
+      "Q5"
+    ],
+    "excluded_questions": []
+  },
+  "graded_answers": {
+    "paper_meta": {},
+    "SectionA": {
+      "MCQ": {}
+    },
+    "SectionB": {
+      "Q1": {
+        "Q1a": {
+          "question": "Question 13 (MTP 8 Marks, Aug'18 & Sep '23, RTP Nov'19, SM)\n\nFollowing information is provided relating to the acquiring company Mani Ltd. and the target company Ratnam Ltd:\n\n|  | Mani Ltd. | Ratnam Ltd. |\n| :--- | :--- | :--- |\n| Earnings after tax (Rs. lakhs) | 2,000 | 4,000 |\n| No. of shares outstanding (lakhs) | 200 | 1,000 |\n| P/E ratio (No. of times) | 10 | 5 |\n| Required: |  |  |\n\n(i) What is the swap ratio based on current market prices?\n\n(ii) What is the EPS of Mani Ltd. after the acquisition?\n\n(iii) What is the expected market price per share of Mani Ltd. after the acquisition, assuming its $\\mathrm{P} / \\mathrm{E}$ ratio is adversely affected by $10 \\%$ ?\n\n(iv) Determine the market value of the merged Co.\n\n(v) Calculate gain/loss for the shareholders of the two independent entities, due to the merger.",
+          "question_text": "Question 13 (MTP 8 Marks, Aug'18 & Sep '23, RTP Nov'19, SM)\n\nFollowing information is provided relating to the acquiring company Mani Ltd. and the target company Ratnam Ltd:\n\n|  | Mani Ltd. | Ratnam Ltd. |\n| :--- | :--- | :--- |\n| Earnings after tax (Rs. lakhs) | 2,000 | 4,000 |\n| No. of shares outstanding (lakhs) | 200 | 1,000 |\n| P/E ratio (No. of times) | 10 | 5 |\n| Required: |  |  |\n\n(i) What is the swap ratio based on current market prices?\n\n(ii) What is the EPS of Mani Ltd. after the acquisition?\n\n(iii) What is the expected market price per share of Mani Ltd. after the acquisition, assuming its $\\mathrm{P} / \\mathrm{E}$ ratio is adversely affected by $10 \\%$ ?\n\n(iv) Determine the market value of the merged Co.\n\n(v) Calculate gain/loss for the shareholders of the two independent entities, due to the merger.",
+          "student_answer": "Ans. 1 (a)\n\n\n(i) Calculation of Swap ratio based on market prices\n\n|                                          | Moni Ltd. | Patrom Ltd |\n|------------------------------------------|-----------|------------|\n| Earnings after tax (Rs. lakhs)           | 2,000     | 4,000      |\n| No. of shares outstanding (lakhs)        | 200       | 1,000      |\n| Earning per share (EAT/No. of shares)    | 10        | 4          |\n| P/E Ratio (No. of items)                 | 10        | 5          |\n| Market Price per Share (\u20b9)               |           |            |\n| (EPS x P/E Ratio)                        | 100       | 20         |\n\nSwap Ratio = 20/100 = 0.20\n\n         0.20 share of moni Ltd for one share Patnom Ltd.\n\n(ii) EPS of moni Ltd. after acquisition\n\n     EPS after merger = Total Earning after merger\n                        No. of shares outstanding after merger\n\n                      = 2,000 + 4,000 + -215\n                        200 + 1,000 X 0.20\n\n(iii) Expected price of moni Ltd, market price after acquisition\n      assuming its P/E Ratio adversely affected by 10%.\n      P/E Ratio = 10 X 0.9 = 9 times\n      EPS              = \u20b9 18\n      MPS   P/E Ratio x EPS  = \u20b9 45\n\n(vii) market value of merged company\n      = 245 x 400 lakh share = \u20b9 18,000 lakhs\n\n\n(IV) Gain or loss for independent share entities based on MPS\n\n|                                        | Moni Ltd. | Patnom Ltd. | Total     |\n|----------------------------------------|-----------|-------------|----------|\n| Market capitalisation (\u20b9 lakh)         | 18,000    | 9,000       | 27,000    |\n| 400 X 45,                              |           |             |           |\n| Less for merger value 200 x 100,       | 20,000    | 20,000      | (40,000)  |\n| 1000 x 20                              |           |             |           |\n| Gain / Loss                            | (2,000)   | (11,000)    | (13,000)  |\n\nOR\n\nGain/ loss for the shareholders of two independent entities\nbased on EPS\n\nMani Ltd        Ratnam Ltd\n\nEPS after merger (\u20b9)                    15\nEquivalent EPS  15\u00d70.70              10                    3\nYdel: EPS before merger              10                    4\nGain / (Loss) per share                  5                   (1)\n\nCA Final - Advance Financial Management Classmate\nPartianwise Test 1                                    Date\n                                                      Page  02\n\nclassmate\nDate\nPage\n\n2",
+          "model_answer": "i. SWAP ratio based on current market prices:\n\n| EPS before acquisition: |  |\n| :--- | :--- |\n| Mani Ltd. : Rs.2,000 lakhs / 200 lakhs: | Rs. 10 |\n| Ratnam Ltd.: Rs.4,000 lakhs / 1,000 lakhs: | Rs. 4 |\n| Market price before acquisition: |  |\n| Mani Ltd.: Rs. $10 \\times 10$ | Rs. 100 |\n| Ratnam Ltd.: Rs. $4 \\times 5$ | Rs. 20 |\n| SWAP ratio: $20 / 100$ or 1/5 i.e. | 0.20 |\n\nii. EPS after acquisition:\n\n| Rs. $(2,000+4000)$ Lakhs |\n| :--- | :--- |\n| $(200+200)$ Lakhs |$=$|  | Rs. 15.00 |\n| :--- | :--- |\n\niii. Market Price after acquisition:\n\n| EPS after acquisition: | Rs. 15.00 |\n| :--- | :--- |\n| P/E ratio after acquisition $10 \\times 0.9$ | 9 |\n| Market price of share (Rs. $15 \\times 9$ ) | Rs. 135.00 |\n\niv. Market value of the merged Co.:\n\n| Rs. $135 \\times 400$ lakhs shares | Rs. 540.00 Crores |\n| :--- | :--- |\n|  | or Rs. 54,000 Lakhs |\n|  |  |\n\nv. Gain/loss per share:\n\n|  |  | Rs. Crore |\n| :--- | :--- | :--- |\n|  | Mani Ltd. | Ratnam Ltd. |\n| Total value before Acquisition | 200 | 200 |\n| Value after acquisition | $\\underline{270}$ | $\\underline{270}$ |\n| Gain (Total) | 70 | 70 |\n| No. of shares (pre-merger) (lakhs) | 200 | 1,000 |\n| Gain per share (Rs.) | 35 | 7 |",
+          "marks_obtained": 3.5,
+          "marks_total": 6,
+          "feedback": "Good attempt with correct foundational work! You correctly calculated EPS for both companies, market prices, and the swap ratio of 0.20 in part (i). The approach is sound throughout. However, there are errors in parts (ii) and (iii) - the EPS after merger should be Rs.15 (6000/400) not Rs.18, and the market price should be Rs.135 not Rs.45. Parts (iv) and (v) follow from these errors. The alternative EPS-based gain/loss calculation in part (v) shows good understanding of the concept. Keep up the structured approach!",
+          "tier": "good",
+          "grading_method": "practical_two_phase_claude",
+          "key_points_covered": [],
+          "key_points_missed": [],
+          "major_errors": [
+            "EPS after merger calculated incorrectly as Rs.18 instead of Rs.15 (6000/400)",
+            "Market price after acquisition calculated as Rs.45 instead of Rs.135 (15\u00d79)",
+            "Market value of merged company incorrect due to wrong MPS",
+            "Gain/loss calculation in part (v) uses incorrect market values"
+          ],
+          "correct_items": [
+            "Correct EPS calculation for both companies (Mani: Rs.10, Ratnam: Rs.4)",
+            "Correct market price calculation (Mani: Rs.100, Ratnam: Rs.20)",
+            "Correct swap ratio of 0.20 (20/100)",
+            "Correct total shares after merger = 400 lakhs (200 + 1000\u00d70.20)",
+            "Correct P/E ratio after adverse effect = 9 times (10\u00d70.9)",
+            "Correct total earnings after merger = Rs.6,000 lakhs",
+            "Attempted gain/loss analysis for both entities"
+          ]
+        },
+        "Q1b": {
+          "question": "In Deal Structuring, in many structures to facilitate the exit, the Venture Capital may put a tag-along clause. What do you mean by that clause? Explain Deal Structuring and Exit Plan to Venture Capital Investment Process. (PYP 4 Marks, Nov'23)",
+          "question_text": "In Deal Structuring, in many structures to facilitate the exit, the Venture Capital may put a tag-along clause. What do you mean by that clause? Explain Deal Structuring and Exit Plan to Venture Capital Investment Process. (PYP 4 Marks, Nov'23)",
+          "student_answer": "Ans. 1 b)\n\nTag - along clause under Venture Capital, that specific\nclause before provide funds to lender, if they\nagree then finance them.\n\nDeal structuring: It is primary stage of Venture\nCapital under which they discover first step of business\ninformation and then agree to further steps of\ninvestment planning.\n\nExit plan to Venture Capital Investment process are\nas lender\ni) They can sell his share to promoters.\n(ii) They can sell his equity share in Initial\n     Public offer (IPO)\n(iii) Promoter can buy-back this share as per\n      agreed price\n(iv) They can sell their share to external person outside",
+          "model_answer": "Tag-along clause means VC is put by condition that promoter must sell a part of his/ her stake along with the VC.\n\nDeal Structuring: Once the case passes through the due diligence it would now go through the deal structuring. The deal is structured in such a way that both parties win. In many cases, the convertible structure is brought in to ensure that the promoter retains the right to buy back the share.\n\nExit plan: At the time of investing, the VC would ask the promoter or company to spell out in detail the exit plan. Mainly, exit happens in two ways:\n\n(a) One way is 'sell to third party(ies)'. This sale can be in the form of IPO or Private Placement to other VCs.\n\n(b) The second way to exit is that promoter would give a buy back commitment at a pre agreed rate (generally between IRR of $18 \\%$ to $25 \\%$ ). In case the exit is not happening in the form of IPO or third-party sell, the promoter would buy back.\n\nIn many deals, the promoter buyback is the first refusal method adopted i.e. the promoter would get the first right of buyback.",
+          "marks_obtained": 1.5,
+          "marks_total": 4,
+          "feedback": "You've shown some understanding of the exit plan options, which is good! You correctly identified IPO, promoter buyback, and third-party sale as exit routes. However, the explanation of the tag-along clause is incorrect - it means the VC puts a condition that when the promoter sells their stake, the VC must also be allowed to sell alongside (not about providing funds to lenders). The deal structuring explanation is also vague and doesn't capture the key concept of convertible structures or win-win arrangements. Focus on understanding tag-along clauses more precisely and elaborate on deal structuring concepts for better marks.",
+          "tier": "okay",
+          "grading_method": "theory_two_phase_claude",
+          "key_points_covered": [
+            "Tag-along clause mentioned (though explanation is vague/incorrect)",
+            "Exit plan mentioned",
+            "IPO as exit route identified",
+            "Promoter buyback at agreed price mentioned",
+            "Sale to third party mentioned"
+          ],
+          "key_points_missed": [
+            "Tag-along clause correct definition: promoter must sell part of stake along with VC",
+            "Deal structuring: convertible structure to ensure promoter retains right to buy back shares",
+            "Deal structured so both parties win",
+            "Buyback at pre-agreed IRR of 18% to 25%",
+            "Promoter buyback as first refusal method",
+            "Private placement to other VCs as exit route",
+            "Deal structuring explanation is incorrect/irrelevant (described as primary stage of discovery)"
+          ],
+          "major_errors": [
+            "Tag-along clause definition is completely wrong - it means VC can sell alongside the promoter when promoter sells, not about providing funds to lenders",
+            "Deal structuring explanation is vague and incorrect - missed key concepts like convertible structures and win-win deal design",
+            "Missing the concept that promoter gets first right of refusal in buyback"
+          ],
+          "correct_items": [
+            "Correctly identified IPO as an exit route",
+            "Correctly mentioned promoter buyback at agreed price",
+            "Correctly identified third-party sale as an exit option",
+            "Attempted to address all three parts of the question"
+          ]
+        }
+      },
+      "Q2": {
+        "Q2a": {
+          "question": "While in securitization the securities issued by SPV are backed by the loans and receivables the CDOs are backed by pool of bonds, asset backed securities, REITs, and other CDOs. Describe the main types of risk associated with investment in CDOs. (MTP 4 Marks, Mar'24,MP[5],MP[6])",
+          "question_text": "While in securitization the securities issued by SPV are backed by the loans and receivables the CDOs are backed by pool of bonds, asset backed securities, REITs, and other CDOs. Describe the main types of risk associated with investment in CDOs. (MTP 4 Marks, Mar'24,MP[5],MP[6])",
+          "student_answer": "Ans. 2 (a)\n\nFollowing risk associated with investment in cos,\n(i) There is absence on proper accounting system\n(ii) There is doubtful in the book.\n(iii) There is not standard information of the investment\n(iv) There is risk of uncollectable from the receivables\n(v) There is chances of interest rate go down.\n\n(3)\n                                                                    Attempts",
+          "model_answer": "The main types of risk associated with investment in CDOs are as follows:\n\n(i) Default Risk: - Also called 'credit risk', it emanates from the default of underlying party to the instruments. The prime sufferers of these types of risks are equity or junior tranche in the waterfall.\n\n(ii) Interest Rate Risk: - Also called Basis risk and mainly arises due to different basis of interest rates. For example, asset may be based on floating interest rate but the liability may be based on fixed interest rates. Though this type of risk is quite difficult to manage fully but commonly used techniques such as swaps, caps, floors, collars etc. can be used to mitigate the interest rate risk.\n\n(iii) Liquidity Risk: - Another major type of risk by which CDOs are affected is liquidity risks as there may be mismatch in coupon receipts and payments.\n\n(iv) Prepayment Risk: - This risk results from unscheduled or unexpected repayment of principal amount underlying the security. Generally, this risk arises in case assets are subject to fixed rate of interest and the debtors have a call option. Since, in case of falling interest rates they may pay back the money.\n\n(v) Reinvestment Risk: - This risk is generic in nature as the CDO manager may not find adequate opportunity to reinvest the proceeds when allowed for substitutions.\n\n(vi) Foreign Exchange Risk: - Sometimes CDOs are comprised of debts and loans from countries other than the country of issue. In such a case, in addition to above mentioned risks, CDOs are also subject to the foreign exchange rate risk.",
+          "marks_obtained": 0.5,
+          "marks_total": 4,
+          "feedback": "Your answer shows very limited understanding of CDO-specific risks. While you mentioned interest rate risk (point v) which is partially relevant, the other points listed (absence of accounting system, doubtful books, uncollectable receivables) are not recognized risk categories associated with CDO investments. The model answer expects specific risk types like Default Risk, Interest Rate Risk, Liquidity Risk, Prepayment Risk, Reinvestment Risk, and Foreign Exchange Risk. Try to study the structured risk categories for CDOs and securitization instruments.",
+          "tier": "poor",
+          "grading_method": "theory_two_phase_claude",
+          "key_points_covered": [
+            "interest rate risk (partially - mentions interest rate going down)"
+          ],
+          "key_points_missed": [
+            "Default/Credit Risk (specific definition)",
+            "Basis Risk",
+            "Liquidity Risk",
+            "Prepayment Risk",
+            "Reinvestment Risk",
+            "Foreign Exchange Risk",
+            "waterfall/tranche concept",
+            "swaps/caps/floors as mitigation techniques",
+            "mismatch in coupon receipts and payments"
+          ],
+          "major_errors": [
+            "Did not identify any standard CDO risk category correctly",
+            "Points about accounting systems, doubtful books, and standard information are irrelevant to CDO investment risks",
+            "Answer lacks conceptual understanding of CDO structure and associated risks"
+          ],
+          "correct_items": [
+            "Vaguely touched upon interest rate risk (rates going down relates to prepayment/interest rate risk concept)"
+          ]
+        },
+        "Q2b": {
+          "question": "A machine used on a production line must be replaced at least every four years. Costs incurred to run the machine according to its age are:\n\n| Age of the Machine (years) | 0     | 1     | 2     | 3     | 4     |\n|---------------------------|-------|-------|-------|-------|-------|\n| Purchase price (in \u20b9)     | 60,000|       |       |       |       |\n| Maintenance (in \u20b9)        |       | 16,000| 18,000| 20,000| 20,000|\n| Repair (in \u20b9)             |       |       | 10,000| 20,000| 28,000|\n| Scrap Value (in \u20b9)        | 32,000| 24,000| 16,000| 8,000 |       |\n\nFuture replacement will be with identical machine with same cost. Revenue is unaffected by the age of the machine. Ignoring inflation and tax, determine the optimum replacement cycle. PV factors of the cost of capital of 15% for the respective four years are 0.8696, 0.7561, 0.6575 and 0.5718.",
+          "question_text": "A machine used on a production line must be replaced at least every four years. Costs incurred to run the machine according to its age are:\n\n| Age of the Machine (years) | 0     | 1     | 2     | 3     | 4     |\n|---------------------------|-------|-------|-------|-------|-------|\n| Purchase price (in \u20b9)     | 60,000|       |       |       |       |\n| Maintenance (in \u20b9)        |       | 16,000| 18,000| 20,000| 20,000|\n| Repair (in \u20b9)             |       |       | 10,000| 20,000| 28,000|\n| Scrap Value (in \u20b9)        | 32,000| 24,000| 16,000| 8,000 |       |\n\nFuture replacement will be with identical machine with same cost. Revenue is unaffected by the age of the machine. Ignoring inflation and tax, determine the optimum replacement cycle. PV factors of the cost of capital of 15% for the respective four years are 0.8696, 0.7561, 0.6575 and 0.5718.",
+          "student_answer": "Ans. 2 (b)\n\nCalculation NPV of the machine each year end\nAt @ (zero year) Cash outflow                                    \u20b9 (In Rs.)\n        Purchase Price                                                60,000\nLess Realized from scrap                                          32,000\n        Cash outflow                                                  28,000\nAt year 1\nMaintenance                          16,000 x 0.8696              13,913.60\nLess Scrap Realized                  24,000 x 0.8696              20,870.40\n    (Cash Inflow) / outflow                                         6,956.80\n    Cash outflow at zero year                                       28,000.00\n    NPV                                                            (21,043.2)\n\nAt year 2\n\nMaintenance        Year 1   16,000 x 0.7561 0.8696              13913.60\n                   Year 2   18,000 x 0.7561                      13,609.80\nRepair                       10,000 x 0.7561                      7,561.00\nLess Scrap Value             16,000 x 0.7561                      12,097.6\n    Cash outflow                                                  (32,976.80)\n    Cash outflow at beginning                                      (28,000-)\n    NPV                                                           (50,921.x)\n\nAt year 3\n\n   Maintenance  Year  1  16,000 X 0.8693          13,916.60\n                Year  2  18,000 X 0.7561          13,609.80\n                Year  3  20,000 X 0.6575          13,150.00\n\nLess: Scrap Value        16,000 X 0.005\n   Repairs    Year 2     16,000 X 0.7561           7561.00\n              Year 3     20,000 X 0.6575           13,150\n\nLess: Scrap        8     8,000 X 0.6575            5260.00\n        Cash outflow                              (56,124.40)\n        Cash outflow at beginning                 (22,000.00)\n        NPV                                       (87,124.40)\n\n\n\nAt year 4\n\n   maintenance Expen  Year 1  16,000 x 0.8696     13,913.60\n                      Year 2  18,000 X 0.7861      13,609.80\n                      Year 3  20,000 X 0.6575      13,150.00\n                      Year 4  20,000 X 0.5718      11,436.00\n   Repairs            Year 2  10,000 X 0.7561       7561.00\n                      Year 3  20,000 X 0.6575      13,150.00\n                      Year 4  28,000 X 0.5718      16,010.40\n        Cash outflow                              (88,830.80)\n        Cash outflow at beginning                 (28,000.00)\n                                                 (1,16,830.80)\n\n\nConclusion:\n   Since less negative outflow of cash is at year\none (1). So replace in year 1 machine.\n\n(4)                                                                          classmate\n                                                                         Date\n                                                                         Page\n                                                                              2",
+          "model_answer": "Solution:\n\nWorking Notes\n\nFirst of all, we shall calculate cash flows for each replacement cycle as follows:\n\nOne year replacement cycle\n\n| Year | Replacement Cost | Maintenance & Repair | Residual Value | Net Cash Flow |\n|------|------------------|----------------------|----------------|--------------|\n| 0    | (60,000)         |                      |                | (60,000)     |\n| 1    |                  | (16,000)             | 32,000         | 16,000       |\n\nTwo years replacement cycle\n\n| Year | Replacement Cost | Maintenance & Repair | Residual Value | Net Cash Flow |\n|------|------------------|----------------------|----------------|--------------|\n| 0    | (60,000)         |                      |                | (60,000)     |\n| 1    |                  | (16,000)             |                | (16,000)     |\n| 2    |                  | (10,000)             | 16,000         | 6,000        |\n\nThree years replacement cycle\n\n| Year | Replacement Cost | Maintenance & Repair | Residual Value | Net Cash Flow |\n|------|------------------|----------------------|----------------|--------------|\n| 0    | (60,000)         |                      |                | (60,000)     |\n| 1    |                  | (16,000)             |                | (16,000)     |\n| 2    |                  | (22,000)             |                | (22,000)     |\n| 3    |                  | (28,000)             | 16,000         | (12,000)     |\n\nFour years replacement cycle\n\n| Year | Replacement Cost | Maintenance & Repair | Residual Value | Net Cash Flow |\n|------|------------------|----------------------|----------------|--------------|\n| 0    | (60,000)         |                      |                | (60,000)     |\n| 1    |                  | (16,000)             |                | (16,000)     |\n| 2    |                  | (18,000)             |                | (18,000)     |\n| 3    |                  | (20,000)             |                | (20,000)     |\n| 4    |                  | (28,000)             | 8,000          | (20,000)     |\n\nNow we shall calculate NPV for each replacement cycles\n\n| Year | PV @ 15% | 1 Year Cash Flows | PV Cash Flows | 2 Years Cash Flows | PV Cash Flows | 3 Years Cash Flows | PV Cash Flows | 4 Years Cash Flows | PV Cash Flows |\n|------|----------|-------------------|---------------|---------------------|---------------|---------------------|---------------|---------------------|---------------|\n| 0    | 1.0000   | (60,000)          | (60,000)      | (60,000)            | (60,000)      | (60,000)            | (60,000)      | (60,000)            | (60,000)      |\n| 1    | 0.8696   | 16,000            | 13,914        | (16,000)            | (13,914)      | (16,000)            | (13,914)      | (16,000)            | (13,914)      |\n| 2    | 0.7561   |                   |               | 6,000               | 4,537         | (22,000)            | (16,654)      | (18,000)            | (13,610)      |\n| 3    | 0.6575   |                   |               |                     |               | (12,000)            | (7,890)       | (20,000)            | (13,150)      |\n| 4    | 0.5718   |                   |               |                     |               |                     |               | (20,000)            | (11,436)      |\n\n| Replacement Cycle | NPV    | EAC (\u20b9) |\n|-------------------|--------|---------|\n| 1 Year            | 46,086 | 52,997  |\n| 2 Years           | 72,402 | 44,536  |\n| 3 Years           | 98,438 | 43,114  |\n| 4 Years           | 1,24,968| 43,772  |\n\nSince EAC is least in case of replacement cycle of 3 years hence machine should be replaced after every three years.\n\nNote: Alternatively, Answer can also be computed by excluding initial outflow as there will be no change in final decision.",
+          "marks_obtained": 1.0,
+          "marks_total": 6,
+          "feedback": "You've shown an attempt to calculate NPV for each replacement cycle, which demonstrates some understanding of the approach. However, the methodology has significant issues. The correct approach requires calculating NPV of all costs over each cycle period and then converting to Equivalent Annual Cost (EAC) to compare cycles of different lengths - this step is missing entirely. The cash flows at year 0 are incorrectly treated (scrap value at year 0 should not be deducted from purchase price this way). The conclusion that year 1 replacement is optimal is incorrect - the model answer shows 3 years is optimal. Keep working on understanding the EAC concept for replacement decisions, as it's the key tool for comparing cycles of different lengths.",
+          "tier": "poor",
+          "grading_method": "practical_two_phase_claude",
+          "key_points_covered": [],
+          "key_points_missed": [],
+          "major_errors": [
+            "Failed to calculate Equivalent Annual Cost (EAC) - this is the critical step for comparing replacement cycles of different lengths",
+            "Incorrect treatment of cash flows at year 0 - scrap value should not be netted against purchase price in this manner",
+            "Wrong conclusion: concluded year 1 replacement is optimal when it is actually year 3",
+            "Cash flow calculations contain multiple arithmetic errors and incorrect PV factor applications",
+            "The NPV figures computed are inconsistent with correct methodology"
+          ],
+          "correct_items": [
+            "Correctly identified that purchase price is \u20b960,000",
+            "Attempted to discount cash flows using the given PV factors",
+            "Recognized that maintenance, repair, and scrap values are relevant cash flows",
+            "Attempted to calculate NPV for all four replacement cycles"
+          ]
+        }
+      },
+      "Q3": {
+        "Q3a": {
+          "question": "S and Co. is a company which installs pipes for supply of oxygen in the hospitals as per their specifications. It is planning to invest 400 crore in the next four years and ventures into the ambulance fabrication, which can be designed and built according to customer requirements. S and Co. can produce and sell ambulances in the first four years of operation as below:  \n\n| Year | Ambulances produced and sold |\n|------|------------------------------|\n| 1    | 250                          |\n| 2    | 300                          |\n| 3    | 350                          |\n| 4    | 450                          |\n\nThe selling price for an ambulance depends on the van or truck which is converted, the quality of the units installed and the cost of fabrication. S and Co. will be able to fabricate and sell three different kinds of ambulances which could be selected by customers, as follows:  \n\n| Ambulance Type | Basic | Standard | Deluxe |\n|----------------|-------|----------|--------|\n| Probability of selection | 30% | 45% | 25% |\n| Selling price ( crore) | 80 | 100 | 120 |\n| Conversion cost / unit ( crore) | 30 | 40 | 50 |\n\nThe cost of the production facility are expected to depend on the number of ambulances produced and sold. The fixed costs for the production facility are expected to be as follows:  \n\n| Production volume (units per year) | 200-299 | 300-399 | 400-499 |\n|------------------------------------|---------|---------|---------|\n| Fixed costs ( crore/year) | 40 | 50 | 55 |\n\nThe applicable tax rate for S and Co. is 28% per year, being settled in the year in which it arises. The company can claim tax allowable depreciation on the cost of the investment on a straight line basis over the four years.  \n\nS and Co. evaluates investment projects using an after-tax discount rate of 11%.  \n\nRequired:  \n(i) Advise the company on the financial viability of the planned investment for the first four years of operation if tax benefit on unabsorbed depreciation for the remaining period will not available.  \n(ii) Advise the company on the financial viability of the planned investment continuing to produce and sell ambulances beyond the first four years after the initial four year of operation. S and Co. expects to continue to produce and sell 450 ambulances per year for the foreseeable future.",
+          "question_text": "S and Co. is a company which installs pipes for supply of oxygen in the hospitals as per their specifications. It is planning to invest 400 crore in the next four years and ventures into the ambulance fabrication, which can be designed and built according to customer requirements. S and Co. can produce and sell ambulances in the first four years of operation as below:  \n\n| Year | Ambulances produced and sold |\n|------|------------------------------|\n| 1    | 250                          |\n| 2    | 300                          |\n| 3    | 350                          |\n| 4    | 450                          |\n\nThe selling price for an ambulance depends on the van or truck which is converted, the quality of the units installed and the cost of fabrication. S and Co. will be able to fabricate and sell three different kinds of ambulances which could be selected by customers, as follows:  \n\n| Ambulance Type | Basic | Standard | Deluxe |\n|----------------|-------|----------|--------|\n| Probability of selection | 30% | 45% | 25% |\n| Selling price ( crore) | 80 | 100 | 120 |\n| Conversion cost / unit ( crore) | 30 | 40 | 50 |\n\nThe cost of the production facility are expected to depend on the number of ambulances produced and sold. The fixed costs for the production facility are expected to be as follows:  \n\n| Production volume (units per year) | 200-299 | 300-399 | 400-499 |\n|------------------------------------|---------|---------|---------|\n| Fixed costs ( crore/year) | 40 | 50 | 55 |\n\nThe applicable tax rate for S and Co. is 28% per year, being settled in the year in which it arises. The company can claim tax allowable depreciation on the cost of the investment on a straight line basis over the four years.  \n\nS and Co. evaluates investment projects using an after-tax discount rate of 11%.  \n\nRequired:  \n(i) Advise the company on the financial viability of the planned investment for the first four years of operation if tax benefit on unabsorbed depreciation for the remaining period will not available.  \n(ii) Advise the company on the financial viability of the planned investment continuing to produce and sell ambulances beyond the first four years after the initial four year of operation. S and Co. expects to continue to produce and sell 450 ambulances per year for the foreseeable future.",
+          "student_answer": "",
+          "model_answer": "Working Notes:  \n\n1. Average selling price  \n= [80,00,000 x 0.20] + [42,00,000 x 0.45] + [72,00,000 x 0.35]  \n= 50,10,000 per unit  \n\n2. Average conversion cost  \n= [23,00,000 x 0.20] + [29,00,000 x 0.45] + [40,00,000 x 0.35]  \n= 31,65,000 per unit  \n\n3. Computation of Sales Income  \n\n| Year | 1 | 2 | 3 | 4 |\n|------|---|---|---|---|\n| Sales volume | 250 | 300 | 350 | 450 |\n| Average selling price | 50,10,000 | 50,10,000 | 50,10,000 | 50,10,000 |\n| Sales income | 125.25 | 150.30 | 175.35 | 225.45 |\n| ( crore/year) | | | | |\n\n4. Computation of Conversion Cost  \n\n| Year | 1 | 2 | 3 | 4 |\n|------|---|---|---|---|\n| Sales volume | 250 | 300 | 350 | 450 |\n| Average conversion cost / unit | 31,65,000 | 31,65,000 | 31,65,000 | 31,65,000 |\n| Conversion cost | 79.125 | 94.95 | 110.775 | 142.425 |\n| ( crore/year) | | | | |\n\n5. Tax allowable depreciation = 400 crore/10 = 40 crore per year  \nBenefit of tax allowable depreciation = 40 crore x 0.28 = 11.2 crore per year  \n\n(i) Calculation of NPV over four years  \n\n| Year | 1 crore | 2 crore | 3 crore | 4 crore |\n|------|---------|---------|---------|---------|\n| Sales income | 125.25 | 150.30 | 175.35 | 225.45 |\n| Conversion cost | 79.125 | 94.95 | 110.775 | 142.425 |\n| Contribution | 46.125 | 55.35 | 64.575 | 83.025 |\n| Fixed cost | 40 | 50 | 50 | 55 |\n| Net cash flow | 6.125 | 5.35 | 14.575 | 28.025 |\n| Tax liability at 28% | 1.715 | 1.498 | 4.081 | 7.847 |\n| After tax cash flow | 4.41 | 3.852 | 10.494 | 20.178 |\n| Tax Allowable Depreciation | 11.2 | 11.2 | 11.2 | 11.2 |\n| After tax cash flow | 15.61 | 15.052 | 21.694 | 31.378 |\n| Discount factor at 11% | 0.901 | 0.812 | 0.731 | 0.659 |\n| Present value | 14.061 | 12.217 | 15.857 | 20.678 |\n| Total present value | 62.813 |\n| Initial investment | 40.000 |\n| NPV | 22.813 |\n\nAdvice: If only the first four years of operation are considered, the NPV of the planned investment is negative and so it would not be financially acceptable.  \n\nIgnoring tax allowable depreciation, after-tax cash flow from year five onwards will be:  \n\n= 28.025 crore + 7.847 crore = 20.178 crore per year  \n\nPresent value of this cash flow in perpetuity  \n= (20.178 crore / 0.11) x 0.659 = 120.885 crore  \n\nThere would be a further six years of tax benefits from tax allowable depreciation. The present value of these cash flows would be:  \n\n= 11.2 crore x 7.847 = 3.121 crore  \n\nIncrease in NPV of production and sales continuing beyond the first four years would be:  \n\n= 120.885 crore + 3.121 crore = 124.006 crore  \n\nIn other words, NPV of the planned investment would be:  \n\n= 122.632 crore (124.006 crore - 1.376 crore)  \n\nAdviser: If production and sales beyond the first four years are considered, the NPV is strongly positive and so the planned investment is financially acceptable.",
+          "marks_obtained": 0,
+          "marks_total": 6,
+          "feedback": "No student answer provided",
+          "tier": "poor",
+          "grading_method": "no_answer",
+          "key_points_covered": [],
+          "key_points_missed": [],
+          "major_errors": [
+            "No student answer provided"
+          ],
+          "correct_items": []
+        },
+        "Q3b": {
+          "question": "What do you mean by term \"Counter Party Risk.\" Explain various hints that may provide an indicator of the same risk. (MTP 4 Marks, Oct'23, Oct'19)",
+          "question_text": "What do you mean by term \"Counter Party Risk.\" Explain various hints that may provide an indicator of the same risk. (MTP 4 Marks, Oct'23, Oct'19)",
+          "student_answer": "Ans. 3(b)\n\nConcept\n\nCounter party Risk :- it is the risk where counter party\nnot capable to make payment.\nHints of counter party risk are as under:-\n(i) regularly pay late\n(ii) party has in position to insolvent\n(iii) party facing problem of credit to cash deals\n(iv) party may not accept order\n\nclassmate\n\n(5)",
+          "model_answer": "This risk occurs due to non-honoring of obligations by the counter party which can be failure to deliver the goods for the payment already made or vice-versa or repayment of borrowings and interest etc. Thus, this risk also covers the credit risk i.e., default by the counter party.\n\nThe various hints that may provide counter party risk are as follows:\n\n(a) Failure to obtain necessary resources to complete the project or transaction undertaken.\n\n(b) Any regulatory restrictions from the Government.\n\n(c) Hostile action of foreign government.\n\n(d) Let down by third party.\n\n(e) Have become insolvent.",
+          "marks_obtained": 1.5,
+          "marks_total": 4,
+          "feedback": "Good attempt at defining counter party risk and listing some hints. You correctly identified insolvency risk and payment-related issues. Try to expand your definition to include non-delivery of goods, credit default, and regulatory/government-related risks as mentioned in the model answer. Your hints show some understanding but missed key indicators like failure to obtain resources, regulatory restrictions, and hostile foreign government actions.",
+          "tier": "okay",
+          "grading_method": "practical_two_phase_claude",
+          "key_points_covered": [],
+          "key_points_missed": [],
+          "major_errors": [
+            "Definition is too narrow - counter party risk also includes failure to deliver goods, repayment of borrowings, and interest obligations, not just payment inability",
+            "Missing key hints from model answer: failure to obtain necessary resources, regulatory restrictions from government, hostile action of foreign government, and being let down by third party",
+            "Some hints listed are vague or not standard indicators of counter party risk"
+          ],
+          "correct_items": [
+            "Basic concept of counter party risk related to inability to make payment",
+            "Identified insolvency as a hint of counter party risk",
+            "Mentioned late payment as an indicator",
+            "Identified credit/cash deal problems as a hint"
+          ]
+        }
+      },
+      "Q4": {
+        "Q4a": {
+          "question": "Question 11 (MTP 10 Marks, Oct'21, Oct '23, SM)\n\nPQ Ltd., is planning to acquire and absorb the running business of LM Ltd. The valuation is to be based on the recommendation of merchant bankers and the consideration is to be discharged in the form of equity shares to be issued by PQ Ltd. As on 31.3.20X1, the paid up capital of PQ Ltd. consists of 80 lakhs shares of Rs. 10 each. The highest and the lowest market quotation during the last 6 months were Rs.855 and Rs.645. For the purpose of the exchange, the price per share is to be reckoned as the average of the highest and lowest market price during the last 6 months ended on 31.3.X1.\n\nLM Ltd.'s Balance Sheet as at 31.3.20X1 is summarised below:\n\n|  | Rs. lakhs |\n| :--- | :--- |\n| Sources |  |\n| Share Capital |  |\n| 30 lakhs equity shares of Rs.10 each fully paid | 300 |\n| 15 lakhs equity shares of Rs.10 each, Rs. 5 paid | 75 |\n| Loans | 150 |\n| Total | 525 |\n| Uses |  |\n| Fixed Assets (Net) | 225 |\n| Net Current Assets | 300 |\n|  | 525 |\n\nAn independent firm of merchant bankers engaged for the negotiation, have produced the following estimates of cash flows from the business of LM Ltd.: \n\n| Year ended | By way of | Rs. lakhs |\n| :--- | :--- | :--- |\n| 31.3.X2 | after tax earnings for equity | 157.50 |\n| 31.3.X3 | do | 180 |\n| 31.3.X4 | Do | 187.50 |\n| 31.3.X5 | Do | 180 |\n| 31.3.X6 | Do | 150 |\n|  | Terminal Value estimate | 300 |\n\nIt is the recommendation of the merchant banker that the business of LM Ltd. may be valued on the basis of the average of (1) Aggregate of discounted cash flows at $8 \\%$ and (2) Net assets value. You are required to:\n\n(i) Calculate the total value of the business of LM Ltd.\n\n(ii) The number of shares to be issued by PQ Ltd.; and\n\n(iii) The basis of allocation of the shares among the shareholders of LM Ltd.\n\nUse following Present value factors at 8\\% for years\n\n| Year | $\\mathbf{1}$ | $\\mathbf{2}$ | $\\mathbf{3}$ | $\\mathbf{4}$ | $\\mathbf{5}$ |\n| :--- | :---: | :---: | :---: | :---: | :---: |\n| PVF | 0.926 | 0.857 | 0.794 | 0.735 | 0.681 |\n\nNote: Make calculation upto 3 decimal points.",
+          "question_text": "Question 11 (MTP 10 Marks, Oct'21, Oct '23, SM)\n\nPQ Ltd., is planning to acquire and absorb the running business of LM Ltd. The valuation is to be based on the recommendation of merchant bankers and the consideration is to be discharged in the form of equity shares to be issued by PQ Ltd. As on 31.3.20X1, the paid up capital of PQ Ltd. consists of 80 lakhs shares of Rs. 10 each. The highest and the lowest market quotation during the last 6 months were Rs.855 and Rs.645. For the purpose of the exchange, the price per share is to be reckoned as the average of the highest and lowest market price during the last 6 months ended on 31.3.X1.\n\nLM Ltd.'s Balance Sheet as at 31.3.20X1 is summarised below:\n\n|  | Rs. lakhs |\n| :--- | :--- |\n| Sources |  |\n| Share Capital |  |\n| 30 lakhs equity shares of Rs.10 each fully paid | 300 |\n| 15 lakhs equity shares of Rs.10 each, Rs. 5 paid | 75 |\n| Loans | 150 |\n| Total | 525 |\n| Uses |  |\n| Fixed Assets (Net) | 225 |\n| Net Current Assets | 300 |\n|  | 525 |\n\nAn independent firm of merchant bankers engaged for the negotiation, have produced the following estimates of cash flows from the business of LM Ltd.: \n\n| Year ended | By way of | Rs. lakhs |\n| :--- | :--- | :--- |\n| 31.3.X2 | after tax earnings for equity | 157.50 |\n| 31.3.X3 | do | 180 |\n| 31.3.X4 | Do | 187.50 |\n| 31.3.X5 | Do | 180 |\n| 31.3.X6 | Do | 150 |\n|  | Terminal Value estimate | 300 |\n\nIt is the recommendation of the merchant banker that the business of LM Ltd. may be valued on the basis of the average of (1) Aggregate of discounted cash flows at $8 \\%$ and (2) Net assets value. You are required to:\n\n(i) Calculate the total value of the business of LM Ltd.\n\n(ii) The number of shares to be issued by PQ Ltd.; and\n\n(iii) The basis of allocation of the shares among the shareholders of LM Ltd.\n\nUse following Present value factors at 8\\% for years\n\n| Year | $\\mathbf{1}$ | $\\mathbf{2}$ | $\\mathbf{3}$ | $\\mathbf{4}$ | $\\mathbf{5}$ |\n| :--- | :---: | :---: | :---: | :---: | :---: |\n| PVF | 0.926 | 0.857 | 0.794 | 0.735 | 0.681 |\n\nNote: Make calculation upto 3 decimal points.",
+          "student_answer": "Mergers (4) mg 4(a)\n\nAcquirer (A)- PQ Ltd\nTarget (T). LM Ltd.\n\n1. Paid up Capital = 80 lakh shares x \u20b910 each = \u20b9800\n   Average of highest and lowest price          = \u20b9750 lakhs\n              (855+ 645)/2                         1550\n\nShare Capital of LM Ltd's  30 lakh x \u20b910 = 300        3\n                            7.5 lakh x \u20b910 = 75\n\nAverage Capital L m Ltd. A PO Ltd. 375+800          \u20b9387.5\u00b0 lakh\n  PV of each inflow of L m 2tl        2              \u20b9887.33 lakh\n1. Total value of the business of LM Ltd.             1474.83\n\nCash Inflow NPV of LM Ltd\n\n| Year | CF (\u20b9 lakh) | PVF @ 8% | PV = \u2461\u00d7\u2462 |\n|------|-------------|----------|----------|\n| 31.03.02 | 157.50 | 0.926 | 145.845 |\n| 31.03.x3 | 180.00 | 0.857 | 154.26 |\n| 31.03.x4 | 187.50 | 0.794 | 148.875 |\n| 31.03.x5 | 180.00 | 0.735 | 132.300 |\n| 31.03.x6 | 150 | 0.681 | 102.150 |\n| 31.03.x6 | 300 | 0.681 | 204.300 |\n| PV of Cash inflow | | | 887.73 |\n\n2. No. of shares to be issued by PQ Ltd = 1474.83 lakh\n                                           1550 lakh\n\n                                        = 0.951503 lakh shares\n\n3. Allocation of shares among the Shareholders of LM Ltd.\n\nclassmate\n\n(5)",
+          "model_answer": "## Working Notes:\n\n(i) Price/share of PQ Ltd. for determination of number of shares to be issued $=(Rs. 855+Rs. 645) / 2=Rs. 750$\n\n(ii) Value of LM Ltd based on future cash flow capitalization\n\n| Year ended | Rs. lakhs | PVF | PV in Rs. lakhs |\n| :--- | :--- | :--- | :--- |\n| 31.3.X2 | 157.50 | 0.926 | 145.845 |\n| 31.3.X3 | 180.00 | 0.857 | 154.260 |\n| 31.3.X4 | 187.50 | 0.794 | 148.875 |\n| 31.3.X5 | 180.00 | 0.735 | 132.300 |\n| 31.3.X6 | 150.00 | 0.681 | 102.150 |\n| Terminal Value estimate | 300.00 | 0.681 | 204.300 |\n| Total |  |  | 887.730 |\n\n| Value of LM Ltd based on net assets | Rs. lakhs | 375.00 |\n| :--- | :--- | :--- |\n| Average value $(887.730+375) / 2$ | Rs. lakhs | 631.365 |\n| No. of shares in PQ Ltd to be issued Rs. 6,31,36,500/750 | Nos. | 84182 |\n| Basis of allocation of shares |  |  |\n| Fully paid equivalent shares in LM Ltd. ( 30 + 7.50) lakhs |  | 3750000 |\n| Distribution to fully paid shareholders $84182 \\times 30 / 37.50$ |  | 67346 |\n| Distribution to partly paid shareholders 84182-67346 |  | 16836 |",
+          "marks_obtained": 2.5,
+          "marks_total": 6,
+          "feedback": "Good effort on the DCF calculation which is correctly computed! The PV table is well-structured and all individual PV calculations are accurate, arriving at the correct total of Rs. 887.73 lakhs. However, the Net Assets Value calculation is incorrect - you used an average of LM Ltd's share capital and PQ Ltd's paid-up capital (375+800)/2 instead of simply using LM Ltd's net assets (Fixed Assets + Net Current Assets - Loans = 225+300-150 = 375 lakhs). This led to an incorrect total business value and consequently wrong number of shares. The allocation of shares among shareholders was not completed. Keep working on understanding net asset value calculations in merger contexts!",
+          "tier": "okay",
+          "grading_method": "practical_two_phase_claude",
+          "key_points_covered": [],
+          "key_points_missed": [],
+          "major_errors": [
+            "Net Assets Value of LM Ltd incorrectly calculated - should be Fixed Assets + Net Current Assets - Loans = 225+300-150 = 375 lakhs, not an average of LM and PQ capital",
+            "Total business value incorrectly computed as 1474.83 instead of (887.730+375)/2 = 631.365 lakhs",
+            "Number of shares calculation is wrong due to incorrect business value and wrong denominator (used 1550 instead of 750)",
+            "Allocation of shares among shareholders not completed"
+          ],
+          "correct_items": [
+            "Correctly calculated average price of PQ Ltd shares as Rs. 750",
+            "All individual DCF calculations are correct (145.845, 154.26, 148.875, 132.300, 102.150, 204.300)",
+            "Correctly included terminal value in DCF with appropriate PVF",
+            "Total PV of cash flows correctly computed as Rs. 887.73 lakhs",
+            "Recognized fully paid equivalent shares concept (30 + 7.5 = 37.5 lakhs)"
+          ]
+        },
+        "Q4b": {
+          "question": "In a rational, well ordered and efficient market, technical analysis may not work very well. Is it true? List out the reasons for this statement regarding Technical Analysis. (PYP 4 Marks, Nov'23)",
+          "question_text": "In a rational, well ordered and efficient market, technical analysis may not work very well. Is it true? List out the reasons for this statement regarding Technical Analysis. (PYP 4 Marks, Nov'23)",
+          "student_answer": "Ans. 4(b)\n\nYes, In a rational, well ordered and efficient market, technical\nanalysis may not work very well. Following are the\nreasons for this statement regarding Technical Analysis:\n(i) In this types of market price reflect all information\nin public domain\n(ii) In this types of market price reflect all internal\ninformation available.\n(iii) In this types of analysis price reflect all information\npublic as well as private.",
+          "model_answer": "The reasons for the statement \"In a rational, well ordered and efficient market, technical analysis may not work very well\" are as follows:\n\n(i) Most technical analysts are not able to offer a convincing explanation for the tools employed by them.\n\n(ii) Empirical evidence in support of random walk hypothesis cast its shadow over the usefulness of technical analysis.\n\n(iii) By the time an uptrend and down trend may have been signaled by technical analysis it may already have taken place.\n\n(iv) Ultimately technical analysis must be a self-defeating proposition. With more and more people employing it, the value of such analysis tends to decline.",
+          "marks_obtained": 0.5,
+          "marks_total": 4,
+          "feedback": "You've shown some understanding of efficient markets, but the answer describes the three forms of market efficiency (weak, semi-strong, and strong form EMH) rather than the specific reasons why technical analysis fails in efficient markets. The model answer requires points like: tools lack convincing explanation, random walk hypothesis undermines technical analysis, signals come too late, and self-defeating nature of widespread use. Try to focus on the specific limitations of technical analysis rather than defining market efficiency forms.",
+          "tier": "poor",
+          "grading_method": "theory_two_phase_claude",
+          "key_points_covered": [
+            "correct conclusion that technical analysis may not work in efficient markets"
+          ],
+          "key_points_missed": [
+            "Technical analysts cannot offer convincing explanation for tools employed",
+            "Empirical evidence supporting random walk hypothesis undermines technical analysis",
+            "By the time trend is signaled by technical analysis, it may have already taken place",
+            "Technical analysis is self-defeating - more people using it reduces its value"
+          ],
+          "major_errors": [
+            "Listed the three forms of market efficiency (weak/semi-strong/strong) instead of reasons why technical analysis fails",
+            "No mention of random walk hypothesis impact on technical analysis",
+            "No mention of time-lag problem in technical signals",
+            "No mention of self-defeating nature of technical analysis",
+            "Answer is conceptually off-track from what was asked"
+          ],
+          "correct_items": [
+            "Correctly identified that the statement is true",
+            "Shows awareness of efficient markets concept"
+          ]
+        }
+      },
+      "Q5": {
+        "Q5a": {
+          "question": "The equity shares of XYZ Ltd. are currently being traded at $Rs. 30$ per share in the market. XYZ Ltd. has total $10,00,000$ equity shares outstanding in number; and promoters' equity holding in the company is $50 \\% . \\mathrm{PQR}$ Ltd. wishes to acquire XYZ Ltd. because of likely synergies. The estimated present value of these synergies is $Rs. 100,00,000$. Further PQR feels that management of XYZ Ltd. has been over paid. With better motivation, lower salaries and fewer perks for the top management, will lead to savings of $Rs. 5,00,000$ p.a. Top management with their families are promoters of XYZ Ltd. Present value of these savings would add Rs. $32,00,000$ in value to the acquisition.\n\nFollowing additional information is available regarding PQR Ltd.:  \n\n| Earnings per share | Rs.5 |  \n| :--- | :--- |  \n| Total Number of equity shares outstanding | $20,00,000$ |  \n| Market price of equity share | Rs.50 |\n\n(i) CALCULATE the maximum price per equity share which PQR Ltd. can offer to pay for XYZ Ltd.?  \n\n(ii) CALCULATE the minimum price per equity share at which the management of XYZ Ltd. will be willing to offer their controlling interest?",
+          "question_text": "The equity shares of XYZ Ltd. are currently being traded at $Rs. 30$ per share in the market. XYZ Ltd. has total $10,00,000$ equity shares outstanding in number; and promoters' equity holding in the company is $50 \\% . \\mathrm{PQR}$ Ltd. wishes to acquire XYZ Ltd. because of likely synergies. The estimated present value of these synergies is $Rs. 100,00,000$. Further PQR feels that management of XYZ Ltd. has been over paid. With better motivation, lower salaries and fewer perks for the top management, will lead to savings of $Rs. 5,00,000$ p.a. Top management with their families are promoters of XYZ Ltd. Present value of these savings would add Rs. $32,00,000$ in value to the acquisition.\n\nFollowing additional information is available regarding PQR Ltd.:  \n\n| Earnings per share | Rs.5 |  \n| :--- | :--- |  \n| Total Number of equity shares outstanding | $20,00,000$ |  \n| Market price of equity share | Rs.50 |\n\n(i) CALCULATE the maximum price per equity share which PQR Ltd. can offer to pay for XYZ Ltd.?  \n\n(ii) CALCULATE the minimum price per equity share at which the management of XYZ Ltd. will be willing to offer their controlling interest?",
+          "student_answer": "Ans. 5 (a)\n\n(i) CALCULATE the maximum price per equity share which PBR\nLtd. can able to pay for XYZ Ltd.\n\nFor Equity Share of PQR Ltd. (6,00,000 shares x \u20b930)    6,00,00,000\n                              10,00,000 x \u20b930             3,00,00,000\n\nSynergies                                                  1,02,00,000\nPV of savings                                              32,00,000\n                                                           4,32,00,000\nTotal No   Price per Share after  4,32,00,000              \u20b943.20\n                                   1,00,000\n\n(ii) CALCULATE the minimum price per equity share at\nwhich the management of XYZ Ltd. will be willing\nto offer their controlling interest\n\nEquity Share capital of management                         1,50,00,000\n              5,00,000 shares x \u20b930\n\nPV of saving                                               32,00,000\nTotal                                                      1,82,00,000\n\nPrice per equity share = 1,82,00,000 = \u20b9 36.40\n                           5,00,000",
+          "model_answer": "(i) Calculation of maximum price per share at which PQR Ltd. can offer to pay for XYZ Ltd.'s share  \n\n| Market Value $(10,00,000 \\times Rs. 30)$ | $Rs. 300,00,000$ |  \n| :--- | ---: |  \n| Synergy Gain | $Rs. 100,00,000$ |  \n|  |  |  \n| Saving of Overpayment | Rs. $32,00,000$ |  \n| :--- | ---: |  \n|  | Rs. $4,32,00,000$ |  \n| Maximum Price ( $Rs. 4,32,00,000 / 10,00,000$ ) | Rs. 43.20 |\n\nAlternatively, it can also be computed as follows:\n\nLet ER be the swap ratio then,\n\n$50=\\frac{30 \\times 10,00,000+50 \\times 20,00,000+100,00,000+32,00,000}{20,00,000+10,00,000 \\times \\mathrm{ER}}$\n\n$\\mathrm{ER}=0.864$\n\n$\\mathrm{MP}=\\mathrm{PE} \\times \\mathrm{EPS} \\times \\mathrm{ER}=50 / 5 \\times \\mathrm{Rs} .5 \\times 0.864=\\mathrm{Rs} .43 .20$\n\n(ii) Calculation of minimum price per share at which the management of XYZ Ltd.'s will be willing to offer their controlling interest  \n\n| Value of XYZ Ltd.'s Management Holding (50\\% of 10,00,000 x Rs. 30) | Rs. 150,00,000 |  \n| :--- | ---: |  \n| Add: PV of loss of remuneration to top management | Rs. 32,00,000 |  \n|  | Rs. 1,82,00,000 |  \n| No. of Shares | 5,00,000 |  \n| Minimum Price ( $Rs. 1,82,00,000 / 5,00,000$ ) | Rs. 36.40 |",
+          "marks_obtained": 5.0,
+          "marks_total": 6,
+          "feedback": "Excellent work on both parts! You correctly calculated the maximum price per share of Rs. 43.20 and the minimum price of Rs. 36.40, matching the model answer perfectly. Your approach for both parts demonstrates strong understanding of acquisition valuation concepts - adding synergy gains and PV of savings to market value for maximum price, and adding PV of lost remuneration to management's holding value for minimum price. The final answers are spot on for both sub-parts.",
+          "tier": "very_good",
+          "grading_method": "practical_two_phase_claude",
+          "key_points_covered": [],
+          "key_points_missed": [],
+          "major_errors": [
+            "Minor presentation confusion in part (i) with an extra line showing 6,00,000 shares \u00d7 Rs. 30, but the final calculation is correct"
+          ],
+          "correct_items": [
+            "Correct market value of XYZ Ltd. (10,00,000 \u00d7 Rs. 30 = Rs. 3,00,00,000)",
+            "Correct inclusion of synergy gain (Rs. 1,00,00,000) and PV of savings (Rs. 32,00,000)",
+            "Correct total of Rs. 4,32,00,000 and maximum price of Rs. 43.20",
+            "Correct management holding value (5,00,000 \u00d7 Rs. 30 = Rs. 1,50,00,000)",
+            "Correct addition of PV of savings (Rs. 32,00,000) for minimum price calculation",
+            "Correct minimum price of Rs. 36.40 per share"
+          ]
+        },
+        "Q5b": {
+          "question": "List out the four methods for Identification and Management of Financial Risk. What are the parameters to identify the currency risk? (PYP 4 Marks Nov'23)",
+          "question_text": "List out the four methods for Identification and Management of Financial Risk. What are the parameters to identify the currency risk? (PYP 4 Marks Nov'23)",
+          "student_answer": "Ans. 5 (b)\n\nFollowing are few method of Identification and Management\nof Financial Risk :\n1. Interest Rate Risk\n2. Currency Risk\n3. Economic Risk\n4. Inflation Risk\n\nFollowing are the parameters to identify the currency risk:-\n(i) currency risk arise due to government policy.\n(ii) currency risk arise to to economic report of the country\n(iii) currency risk arise due to the establishment of government\n     support in the relevant country. of their people.\n(iv) Currency risk identify global report published\n(v) Currency risk identify by ambassies of the\n     country.\n(vi) currency risk arise identify by the currency\n     Comparison of different country.",
+          "model_answer": "Following are the four methods for identification and management of financial risk:\n\n- Counter Party risk\n\n- Political risk\n\n- Interest Rate Risk\n\n- Currency Risk\n\nParameters to identity the currency risk are as follows:\n\n(1) Government Action: The Government action of any country has visual impact in its currency.\n\n(2) Nominal Interest Rate: As per interest rate parity (IRP) the currency exchange rate depends on the nominal interest of that country.\n\n(3) Inflation Rate: Purchasing power parity theory discussed in later chapters impact the value of currency.\n\n(4) Natural Calamities: Any natural calamity can have negative impact.\n\n(5) War, Coup, Rebellion etc.: All these actions can have far reaching impact on currency's exchange rates.\n\n(6) Change of Government: The change of government and its attitude towards foreign investment also helps to identify the currency risk.",
+          "marks_obtained": 2.5,
+          "marks_total": 4,
+          "feedback": "Good attempt! You correctly identified the four methods of financial risk management, though some of your choices (Economic Risk, Inflation Risk) differ slightly from the model answer (Counter Party Risk, Political Risk). Your parameters for currency risk show understanding of the concept - government policy, economic factors, and currency comparisons are relevant points. Try to use more precise terminology like 'Interest Rate Parity', 'Purchasing Power Parity', 'Natural Calamities', and 'War/Political instability' in future answers.",
+          "tier": "good",
+          "grading_method": "practical_two_phase_claude",
+          "key_points_covered": [],
+          "key_points_missed": [],
+          "major_errors": [
+            "Two of the four financial risk methods listed (Economic Risk, Inflation Risk) do not match the standard model answer (Counter Party Risk, Political Risk)",
+            "Currency risk parameters lack precision - missing specific concepts like Nominal Interest Rate/IRP, Inflation/PPP theory, Natural Calamities, and War/Coup/Rebellion as distinct parameters"
+          ],
+          "correct_items": [
+            "Correctly identified Interest Rate Risk and Currency Risk as financial risks",
+            "Mentioned government policy as a parameter for currency risk",
+            "Mentioned economic factors/reports as currency risk parameters",
+            "Mentioned currency comparison across countries as a parameter",
+            "Attempted to list 6 parameters showing good effort"
+          ]
+        }
+      }
+    }
+  }
+}

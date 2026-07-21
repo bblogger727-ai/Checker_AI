@@ -1,0 +1,422 @@
+[
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 10,
+    "question": "To economists, the main difference between the short run and the long run is that:",
+    "options": {
+      "a": "In the short run all inputs are fixed, while in the long run all inputs are variable.",
+      "b": "In the short run the firm varies all of its inputs to find the least-cost combination of inputs.",
+      "c": "In the short run, at least one of the firm\u2019s input levels is fixed.",
+      "d": "In the long run, the firm is making a constrained decision about how to use existing plant and equipment efficiently."
+    },
+    "answer": "c",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 27,
+    "question": "The law of variable proportions is drawn under all of the assumptions mentioned below except the assumption that:",
+    "options": {
+      "a": "The technology is changing.",
+      "b": "There must be some inputs whose quantity is kept fixed.",
+      "c": "We consider only physical inputs and not economically profitability in monetary terms.",
+      "d": "The technology is given and stable."
+    },
+    "answer": "a",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 19,
+    "question": "The positively sloped (i.e. rising) part of the long run average total cost curve is due to which of the following?",
+    "options": {
+      "a": "Diseconomies of scale.",
+      "b": "Increasing returns.",
+      "c": "The firm being able to take advantage of large-scale production techniques as it expands its output.",
+      "d": "The increase in productivity that results from specialization."
+    },
+    "answer": "a",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 9,
+    "question": "The marginal, average, and total product curves encountered by the firm producing in the short run exhibit all of the following relationships except:",
+    "options": {
+      "a": "When totals product is rising, average and marginal product may be either rising or falling.",
+      "b": "When marginal product is negative, total product and average product are falling.",
+      "c": "When average product is at a maximum, marginal product equals average product, and total product is rising.",
+      "d": "When marginal product is at a maximum, average product equals marginal product, and total product is rising."
+    },
+    "answer": "d",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 3,
+    "question": "Which of the following is not a characteristic of land?",
+    "options": {
+      "a": "Its supply for the economy is limited.",
+      "b": "It is immobile.",
+      "c": "Its usefulness depends on human efforts.",
+      "d": "It is produced by our forefathers."
+    },
+    "answer": "d",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 4,
+    "question": "Which of the following statements is true?",
+    "options": {
+      "a": "Accumulation of capital depends solely on income of individuals.",
+      "b": "Savings can be influenced by government policies.",
+      "c": "External economies go with size and internal economies with location.",
+      "d": "The supply curve of labour is an upward slopping curve."
+    },
+    "answer": "b",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 62,
+    "question": "The law of diminishing returns:",
+    "options": {
+      "a": "States that beyond some level of a variable input, the average product of that variable input begins to increase steadily.",
+      "b": "Assumes that there is technological improvement over time.",
+      "c": "States that beyond some level of a variable input, the marginal product of that variable begins to decrease steadily.",
+      "d": "Informs a firm whether or not to use a factor input."
+    },
+    "answer": "c",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 61,
+    "question": "The firm\u2019s output is at a short run maximum at a labour input of:",
+    "options": {
+      "a": "6",
+      "b": "10",
+      "c": "12",
+      "d": "2"
+    },
+    "answer": "b",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 36,
+    "question": "Which of the following statements is true?",
+    "options": {
+      "a": "After the inflection point of the production function, a greater use of the variable input induces a reduction in the marginal product.",
+      "b": "Before reaching the inevitable point of decreasing marginal returns, the quantity of output obtained can increase at an increasing rate.",
+      "c": "The first stage corresponds to the range in which the AP is increasing as a result of utilizing increasing quantities of variable inputs.",
+      "d": "All the above."
+    },
+    "answer": "d",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 46,
+    "question": "Which one of the following is an external economies of scale in long run?",
+    "options": {
+      "a": "Risk bearing economies",
+      "b": "Financial economies",
+      "c": "Development of skill labour",
+      "d": "None of the above"
+    },
+    "answer": "c",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 45,
+    "question": "The most important function of an entrepreneur is to",
+    "options": {
+      "a": "Innovate",
+      "b": "Bear the sense of responsibility",
+      "c": "Finance",
+      "d": "Earn profit"
+    },
+    "answer": "a",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 73,
+    "question": "When marginal product is negative, then total product is: (MTP April\u201919)",
+    "options": {
+      "a": "Maximum",
+      "b": "Decreasing",
+      "c": "Constant",
+      "d": "None of the above"
+    },
+    "answer": "b",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 66,
+    "question": "When is average product at its maximum point? (MTP Mar\u201919)",
+    "options": {
+      "a": "When AP intersects MP",
+      "b": "When AP intersects TP",
+      "c": "When MP is highest",
+      "d": "At the point of inflexion"
+    },
+    "answer": "a",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 38,
+    "question": "Suppose the first four units of a variable input generate corresponding total outputs of 200, 350, 450, 500. The marginal product of the third unit of input is:",
+    "options": {
+      "a": "50",
+      "b": "100",
+      "c": "150",
+      "d": "200"
+    },
+    "answer": "b",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 72,
+    "question": "Which is an implicit cost of production (MTP April\u201919, Jul\u201924,MP[5])",
+    "options": {
+      "a": "Wages of the labour",
+      "b": "Charges for electricity",
+      "c": "Interest on owned money capital",
+      "d": "Payment for raw material"
+    },
+    "answer": "c",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 78,
+    "question": "Capital intensive techniques would get chosen in a (MTP May\u201920)",
+    "options": {
+      "a": "Labour surplus economy where the relative price of capital is lower.",
+      "b": "Capital surplus economy where the relative price of capital is lower.",
+      "c": "Developed economy where technology is better.",
+      "d": "Developing economy where technology is poor."
+    },
+    "answer": "b",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 87,
+    "question": "Production function in short run is called:",
+    "options": {
+      "a": "Production possibility frontier",
+      "b": "Return to Scale",
+      "c": "Laws of variable",
+      "d": "None of these"
+    },
+    "answer": "c",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 41,
+    "question": "Use the following diagram to answer the question given below it. The marginal physical product of the third unit of labour is___, the MP. of the labour is Negative",
+    "options": {
+      "a": "Six; fourth",
+      "b": "Six; third",
+      "c": "Six; fifth",
+      "d": "Six; sixth"
+    },
+    "answer": "d",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 93,
+    "question": "When a = 3/5 and B = 2/5 the return to scale for Cobb Douglas Production function are:",
+    "options": {
+      "a": "Increasing",
+      "b": "Decreasing",
+      "c": "Constant",
+      "d": "First decreasing and then increasing"
+    },
+    "answer": "c",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 82,
+    "question": "The slope of isoquant is:",
+    "options": {
+      "a": "Upward to the left",
+      "b": "Downward to the right",
+      "c": "Downward to the left wens",
+      "d": "Upward to the right"
+    },
+    "answer": "b",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 95,
+    "question": "Short run production function is explained by:",
+    "options": {
+      "a": "Returns to scale",
+      "b": "Law of variable proportion",
+      "c": "Law of demand",
+      "d": "None of these"
+    },
+    "answer": "b",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 89,
+    "question": "lsoquant in the relevant range are:",
+    "options": {
+      "a": "Convex to the Origin",
+      "b": "Negatively Sloped",
+      "c": "Cannot cross",
+      "d": "All of the Above"
+    },
+    "answer": "d",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 107,
+    "question": "The law of diminishing returns only applies in cases where",
+    "options": {
+      "a": "There is increasing scarcity of factors of production",
+      "b": "The price of extra unit of a factor is increasing",
+      "c": "There is at least one fixed factor of production",
+      "d": "Capital is a variable input"
+    },
+    "answer": "c",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 126,
+    "question": "At the Point of Inflexion:",
+    "options": {
+      "a": "Total Product is maximum",
+      "b": "Average Product is maximum",
+      "c": "Marginal Product is maximum",
+      "d": "Marginal Product is zero"
+    },
+    "answer": "c",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 170,
+    "question": "In the third of three stages of Production:",
+    "options": {
+      "a": "The marginal Product curve had a positive slope",
+      "b": "The marginal product curve lies completely below the average product curve",
+      "c": "The Total Product Increases",
+      "d": "None of these"
+    },
+    "answer": "b",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 91,
+    "question": "Production is the organized activity of transforming resource into finished products in the form of goods and services and the objective of production is to satisfy the demand of such transformed resources:",
+    "options": {
+      "a": "Jamed Bates and J.R Parteinson",
+      "b": "Malthus",
+      "c": "Walras",
+      "d": "Lipsey"
+    },
+    "answer": "a",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 46,
+    "question": "Which one of the following is an external economies of scale in long run?",
+    "options": {
+      "a": "Risk bearing economies",
+      "b": "Financial economies",
+      "c": "Development of skill labour",
+      "d": "None of the above"
+    },
+    "answer": "c",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 100,
+    "question": "Isoquant are also called:",
+    "options": {
+      "a": "Equal product curves",
+      "b": "Production Indifference curves",
+      "c": "ISO product curves",
+      "d": "All of the above"
+    },
+    "answer": "d",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 68,
+    "question": "Capital is a : (MTP April\u201919)",
+    "options": {
+      "a": "Stock concept",
+      "b": "Flow Concept",
+      "c": "Both (a) and (b)",
+      "d": "None of the above"
+    },
+    "answer": "a",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 33,
+    "question": "In the short run, the firm's product curves show that",
+    "options": {
+      "a": "Total product begins to decrease when average product begins to decrease but continues to increase at a decreasing rate.",
+      "b": "When the marginal product curve cuts the average product curve from below, the average product is equal to marginal product.",
+      "c": "In stage two, total product increases at a diminishing rate and reaches maximum at the end of this stage.",
+      "d": "Marginal product is zero when total product is maximum."
+    },
+    "answer": "d",
+    "chapter_number": 3
+  }
+]

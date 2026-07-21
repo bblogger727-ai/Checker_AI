@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "subject_code": "DT",
+    "subject_name": "Direct Tax",
+    "paper_num": "Portionwise_3",
+    "total_marks_printed": 50,
+    "total_marks_in_paper": 50,
+    "section_a_marks": 0,
+    "section_b_marks": 50,
+    "two_section_format": false,
+    "note": "Portionwise Test: Attempt all 5 questions. Each question carries 10 marks (6 + 4 split).",
+    "blacklisted_from": [
+      "/Users/gaureshmantri/Documents/Secure PDF Extraction/Final/Generated_Papers/DT/DT_Portionwise_Test_1.json",
+      "/Users/gaureshmantri/Documents/Secure PDF Extraction/Final/Generated_Papers/DT/DT_Portionwise_Test_2.json"
+    ],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)"
+    ]
+  },
+  "section_a": [],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "25",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Explain the nexus approach recommended by OECD in BEPS Action Plan 5 which has been adopted in the Income-tax Act, 1961. (MTP 6 Marks Sep'24, Mar'22, SM,MP[4])",
+          "answer": "In India, the Finance Act, 2016 has introduced a concessional taxation regime for royalty income from patents for the purpose of promoting indigenous research and development and making India a global hub for research and development. The purpose of the concessional taxation regime is to encourage entities to retain and commercialise existing patents and for developing new innovative patented products. Further, this beneficial taxation regime will incentivise entities to locate the high-value jobs associated with the development, manufacture and exploitation of patents in India.\n\nThe nexus approach has been recommended by the OECD under BEPS Action Plan 5. This approach requires attribution and taxation of income arising from exploitation of Intellectual property (IP) in the jurisdiction where substantial research and development (R & D) activities are undertaken instead of the jurisdiction of legal ownership. Accordingly, section 115BBF has been inserted in the Income-tax Act, 1961 to provide that where the total income of the eligible assessee (being a person resident in India who is the true and first inventor of the invention and whose name is entered in the patent register as the patentee in accordance with the Patents Act, 1970 and includes every such person, being the true and the first inventor of the invention, where more than one person is registered as patentee under Patents Act, 1970 in respect of that patent) includes any income by way of royalty in respect of a patent developed and registered in India, then such royalty shall be taxable at the rate of $10 \\%$ (plus applicable surcharge and cess). For this purpose, developed means at least $75 \\%$ of the expenditure should be incurred in India by the eligible assessee for any invention in respect of which patent is granted under the Patents Act, 1970.",
+          "chapter_number": "25",
+          "chapter_name": "FUNDAMENTALS OF BASE EROSION AND PROFIT SHIFTING",
+          "unique_id": "25-T-8"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "## Question 24 (MTP 4 Marks Apr'25)\n\n\n(i) Laurus Labs Limited specializes in providing scientific research services to various non-resident clients, including Meta Inc. A key aspect of this arrangement is that Meta Inc. extends a guarantee for $12 \\%$ of Laurus Labs Limited's total loans. The primary consideration here is whether this financial guarantee constitutes an \"international transaction\" under the transfer pricing provisions of the Income-tax Act, 1961.\n\n(ii) Without prejudice to the answer to (i) above, if transfer pricing provisions are applicable and the Assessing Officer has made a primary adjustment of Rs. 310 lakhs to the transfer price for P.Y. 2023-24 through an order dated 01.04.2025, which has been accepted by Laurus Labs Limited, what are the statutory compliance requirements under the Income-tax Act, 1961? Furthermore, if the transaction is denominated in Indian Rupees and the adjusted amount is not repatriated as on 31.03.2026, what would be the tax implications for non-compliance. Given that the one year marginal cost of fund lending rate of State Bank of India as on 1.4.2025 is 9\\%.",
+          "answer": "(i) Provision of scientific research services falls within the scope of international transaction under section 92B. Laurus Labs Limited and Meta Inc. are deemed to be associated enterprises as per section 92A(2)(d), since Meta Inc. guarantees not less than 10\\% of the total borrowings of Laurus Labs Limited. Since there is an international transaction between associated enterprises, transfer pricing provisions are attracted in this case.\n\n(ii) Where the Assessing Officer has made a primary adjustment of Rs. 310 lakhs to the transfer price and the same has been accepted by Laurus Labs Limited, secondary adjustment has to be made in the books of account as per section 92CE, since the primary adjustment made by the Assessing Officer and accepted by Laurus Labs Limited exceeds Rs. 100 lakhs and the primary adjustment is in relation to P.Y.2023-24. The excess money determined based on the primary adjustment has to be repatriated to India within 90 days from the date of order, failing which the same would be deemed as an advance and interest would be attracted at the one-year marginal cost of fund lending rate of State Bank of India as on $1.4 .2025+3.25 \\%$, since the international transaction has been denominated in Indian Rupees. In this case, since the excess money has not been repatriated within 90 days, the same would be deemed to be an advance made by Laurus Labs Limited to Meta Inc. and interest would be attracted@12.25\\% ( $9 \\%+3.25 \\%$ ) from 1.4.2025, being the date of the order of the Assessing Officer. The interest would amount to Rs. 37.975 lakhs (i.e., 12.25 \\% of Rs. 310 lakhs) for the P.Y.2025-26.\n\n\nAlternatively, Laurus Labs Limited can opt to pay additional income- tax@20.9664\\% (tax@18\\% plus surcharge@12\\% plus cess@4\\%) on Rs. 310 lakhs, which would amount to Rs. 65 lakhs. In such a case, secondary adjustment is not required to be made.",
+          "chapter_number": "24",
+          "chapter_name": "TRANSFER PRICING",
+          "unique_id": "24-T-24"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "24",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Question 28 (PYP 6 Marks Sep'25)\n\nABC Ltd., an Indian company engaged in producing electrical equipment, during the financial year 2025-26, paid interest of Rs. 95 lakhs to James Inc. (a non-resident associated enterprise) on loan borrowed from it. On 01-04-2025, ABC Ltd. also borrowed Rs. 5 crores from Jorge Plc. at the interest rate of $10 \\%$ per annum. Jorge Plc. is a foreign company in which ABC Ltd. holds $\\mathbf{2 0} \\boldsymbol{\\%}$ voting power. James Inc. deposited Rs. 2 crores with Jorge Plc. According to ABC Ltd, since the interest paid to non-resident associated enterprise does not exceed Rs. 1 crore in the F.Y. 2025-26, the provisions of section 94B are not applicable in its case. As per the opinion of the tax auditor, the interest of Rs. 20 lakhs (i.e., $10 \\%$ of Rs. 2 crore) also has to be considered for the purpose of section 94B. ABC Ltd. contended that James Inc. has not deposited a corresponding and matching amount of Rs. 5 crores with Jorge Plc. and hence, the provisions of section 94B will not be attracted in this case. Examine the reporting requirement, if any, of the tax auditor in this case.",
+          "answer": "Section 94B provides that where the debt is issued by a lender which is not associated but an associated enterprise either provides an implicit or explicit guarantee to such lender or deposits a corresponding and matching amount of funds with the lender, such debt shall be deemed to have been issued by an associated enterprise.\n\nIn this case, the debt issued by Jorge Plc. is Rs. 5 crores and the deposit made by the associated enterprise; James Inc. with Jorge Plc. is Rs. 2 crores. Since the deposit is not of a matching amount, ABC Ltd. contends that provisions of section 94B will not be attracted in respect of interest payable by it to Jorge Plc. The tax auditor is of the opinion that interest on $Rs. 2$ crores amounting to $Rs. 20$ lakhs will have to be considered for the purpose of section 94B.\n\nAccordingly, the interest payable/paid by ABC Ltd. to non-resident associated enterprises during the year would be Rs. 115 lakhs and hence, the provisions of section 94B would be attracted, since the same exceeds the threshold of Rs. 1 crore. This appears to be the legislative intent, since otherwise it is possible to escape the application of this provision even by depositing a marginally lower amount than the loan taken.\n\nClause 30B(a) of Form 3CD requires the tax auditor to state whether the assessee has incurred expenditure during the previous year by way of interest or of similar nature exceeding ˋ 1 crore as referred to in section 94B(1).\n\nAs per the Guidance Note on Tax Audit, the tax auditor may have a difference of opinion with regard to the particulars furnished by the assessee. These differences are to be reported in para 3 of Form No. 3CA or para 5 of Form 3CB.\n\nIf there is any difference in the opinion of the tax auditor and that of the assessee in respect of any information furnished in Form No. 3CD by the assessee, the tax auditor may consider stating both the viewpoints and also the relevant information related to matter in order to enable the tax authority to take a decision in the matter. Therefore, the tax auditor has to report the difference of opinion appropriately as an observation in para 3 of Form No. 3CA or para 5 of Form No. 3CB as the case may be.\n\nAccordingly, in this case, the tax auditor may state both the viewpoints in Clause 30B as well as report the difference of opinion appropriately as an observation in Form 3CA to enable the tax authority to take a decision in the matter.",
+          "chapter_number": "24",
+          "chapter_name": "TRANSFER PRICING",
+          "unique_id": "24-T-28"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Briefly explain the purpose of the Multilateral Instrument (MLI) under the BEPS Project. How does it help in modifying existing bilateral tax treaties? (MTP 3 Marks Jul'25)",
+          "answer": "The Multilateral Instrument (MLI) was developed under Action 15 of the OECD-G20 BEPS Project to address Base Erosion and Profit Shifting (BEPS) by modifying existing bilateral tax treaties in a synchronized and efficient manner. Its primary purpose is to implement treaty-related anti-abuse measures-such as preventing treaty shopping, artificial avoidance of permanent establishment (PE), and hybrid mismatch arrangements-without the need for renegotiating each treaty separately.\n\nThe MLI applies to Covered Tax Agreements (CTAs), which are bilateral treaties notified by both parties. It does not replace existing treaties but modifies their application using the lex posterior (later in time) principle, meaning the newer rule prevails. This allows consistent implementation of BEPS measures across multiple treaties while respecting each country's policy choices through options, alternatives, and reservations.",
+          "chapter_number": "25",
+          "chapter_name": "FUNDAMENTALS OF BASE EROSION AND PROFIT SHIFTING",
+          "unique_id": "25-T-2"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "25",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "What do you understand by base erosion and profit shifting? Describe briefly its adverse effects. (MTP 6 Marks Oct'21, SM, PYP 4 Marks Jul'21)",
+          "answer": "Base Erosion and Profit Shifting (BEPS) refers to tax planning strategies that exploit gaps and mismatches in tax rules to make profits 'disappear' for tax purposes or to shift profits to locations where there is little or no real activity but the taxes are low, resulting in little or no overall corporate tax being paid.\n\n## Adverse Effects of BEPS:\n\n(1) Governments have to cope with less revenue and a higher cost to ensure compliance.\n\n(2) In developing countries, the lack of tax revenue leads to significant under-funding of public investment that could help foster economic growth.\n\n(3) BEPS undermines the integrity of the tax system, as reporting of low corporate taxes is considered to be unfair. When tax laws permit businesses to reduce their tax burden by shifting their income away from jurisdictions where income producing activities are conducted, other taxpayers, especially individual taxpayers in that jurisdiction bear a greater share of the burden. This gives rise to tax fairness issues on account of individuals having to bear a higher tax burden.\n\n(4) Enterprises that operate only in domestic markets, including family-owned businesses or new innovative businesses, may have difficulty competing with MNEs that have the ability to shift their profits across borders to avoid or reduce tax. Fair competition is harmed by the distortions induced by BEPS.",
+          "chapter_number": "25",
+          "chapter_name": "FUNDAMENTALS OF BASE EROSION AND PROFIT SHIFTING",
+          "unique_id": "25-T-4"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Compute the total income and tax payable in India by Mr. Narayan, an individual resident in India, aged 25 years for the Assessment Year 2026-27 from the following information furnished by him for the year ended 31.3.2026: Mr. Narayan earned royalty income of Rs. 18 lakhs from SIP Inc. of Country X, for writing articles in journals and newspapers for the year ended 31.03 . 2026 . However, he received only $Rs. 13.60$ lakhs during the previous year 2024-25 and the balance is outstanding as on 31.03.2026. He maintains cash system of accounting for royalty income. He also earned a rental income of Rs. 3.60 lakhs (gross) from a house situated in Country X. Municipal taxes paid in respect of the house amounted to $Rs. 12,000$ which is not allowed as deduction in Country X. No DTAA exist between India and Country X. In Country X, all incomes are charged to tax @ $15 \\%$. He further earned Rs. 5.50 lakhs during the year, as dividend from M Ltd., an Indian company. On 1.04.2025, he took an educational loan from bank for his son who was pursuing MBA. Annual repayment of loan and interest amounted to Rs. $\\mathbf{1 . 4 0}$ lakhs and Rs. $\\mathbf{0 . 3 6}$ lakhs, respectively. Assume that Mr. Narayan does not opt for section 115BAC. (MTP 6 Marks Mar'22, Oct'24) (Same concepts different chapters PYP 6 Marks Jul'21)",
+          "answer": "Computation of total income of Mr. Narayan for A.Y.2026-27\n\n| Particulars | Rs. | Rs. |\n| :--- | :--- | :--- |\n| Income from House Property |  |  |\n| Rental income from property in Country X3 | 3,60,000 |  |\n| Less: Municipal taxes paid | 12,000 |  |\n|  | 3,48,000 |  |\n| Less: Deduction u/s 24(a) @30\\% | 1,04,400 | 2,43,600 |\n| Profits and gains from business or profession |  |  |\n| Royalty ${ }^{4}$ from Country X for writing article in journals [only the amount which is received during the previous year is includible, since he maintains cash system of accounting] |  | 13,60,000 |\n| Income from Other Sources |  |  |\n| Dividend from M Ltd. an Indian company |  | 5,50,000 |\n| Gross Total Income |  | 21,53,600 |\n| Less: Deduction under Chapter VI-A $\\mathrm{U} / \\mathrm{s}$ 80E - deduction in respect of interest on educational loan for his son | 36,000 |  |\n| $\\mathrm{U} / \\mathrm{s} 80 \\mathrm{QQB}-$ No deduction is allowable since royalty income is for writing articles in journals and newspapers and not for writing books |  | 36,000 |\n| Total Income |  | 21,17,600 |\n\nComputation of tax liability of Mr. Narayan for A.Y.2026-27\n\n| Particulars |  | Rs. |\n| :--- | :--- | :--- |\n| Tax on total income [30\\% of Rs. 11,17,600 + Rs. 1,12,500,] |  | 4,47,780 |\n| Add: Health and education cess @4\\% |  | 17,911 |\n| Less: Relief under section 91 - |  | 4,65,691 |\n| Average rate of tax in India [[i.e., Rs. 4,65,691/21,17,600 x 100] | 21.991\\% |  |\n| Average rate of tax in Country X | 15\\% |  |\n| Doubly Taxed income [Rental income of Rs. 2,43,600 + royalty income of Rs. 13,60,000] | 16,03,600 |  |\n| Deduction under section 91 on Rs. 16,03,600 @ 15\\%, being lower average Indian tax rate and foreign tax rate. |  | 2,40,540 |\n| Tax Payable |  | 2,25,151 |\n| Tax Payable (rounded off) |  | 2,25,150 |",
+          "chapter_number": "22",
+          "chapter_name": "DOUBLE TAXATION RELIEF",
+          "unique_id": "22-T-7"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "23",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "A Non-resident Foreign Company entered into contracts with several Indian Companies for installation of mobile telephone system and made an application to the Board of Advance Rulings, for advance ruling in relation to the tax liability arising out of such transaction. One of the above said Indian Companies also made an application to its Assessing Officer for determination of a question of law with regard to payments to be made to the said Foreign Company. The Board of Advance Rulings rejected the application of the Foreign Company on the ground that the question raised is pending before an Income Tax Authority. Is the rejection of the application of the Foreign Company justified in law? (PYP 4 Marks May'24)",
+          "answer": "As per section 245R, the Board for Advance Rulings (BAR), after examining the application and the records called for, may either allow or reject an application. However, the Board shall not allow an application where the question raised in the application is already pending before any income-tax authority, or Appellate Tribunal or any court.\n\nIn the present case, the question raised by a non-resident foreign company with respect to tax liability on income arising from installation of mobile telephone system is already pending before the Assessing Officer on account of application made by one of the Indian Companies for determination of question of law with regard to the payments made to the said foreign company.\n\nSince such question is already pending before the Income-tax Authority, the rejection of application of the foreign company by the BAR is justified in law.\n\nHowever, as per the Explanatory Memorandum to the Finance Bill, 2020 (See Note below) the BAR shall not allow the application only if the question raised is already pending in the applicant's case before any income tax authority.\n\nAccordingly, based on this view, the rejection of application by the BAR is not justified in law, since the question raised in the application made by the foreign company is pending before the Assessing Officer in the case of one of the Indian Companies, and not in the applicant's case.",
+          "chapter_number": "23",
+          "chapter_name": "ADVANCE RULING",
+          "unique_id": "23-T-13"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "## Question 2 (PYP 4 Marks Nov'22)\n\nThe jurisdictional Assessing Officer of Mr. Albert, a non-resident, wants to treat the following persons as his agent in India for AY 2026-27 as per the provisions of section 163 of the Income-tax Act, 1961. You are required to discuss the validity of the Assessing Officer's claims.\n\n(i) Mr. Albert owned a residential house in Goa, India. During the financial year 2025-26, he sold the house to Mr. D'Souza, another non-resident. AO wants to treat Mr. D'Souza as an agent of Mr. Albert.\n\n(ii) Mr. Albert employed Mr. Rakesh, a resident of India, to work for him on 1.4.2024. Mr. Rakesh left India to be employed by Mr. Albert on 1.4.2025.",
+          "answer": "As per section 163, an agent, in relation to a non-resident person, inter alia includes\n\n- any person in India who is employed by or on behalf of the non-resident or\n\n- any person (whether resident or non-resident) who has acquired a capital asset in India by means of a transfer from the non-resident.\n\n(i) Since Mr. D'Souza acquired residential house in Goa from Mr. Albert, the jurisdictional Assessing Officer can treat Mr. D'Souza as an agent of Mr. Albert even though Mr. D'Souza is a non-resident.\n\n(ii) Mr. Rakesh was employed by Mr. Albert on 1.4.2024. He left India on 1.4.2025 to be employed by Mr. Albert. Since he is not in India during the P.Y. 2025-26, the jurisdictional Assessing Officer cannot treat him as an agent of Mr. Albert for the P.Y. 2025-26.",
+          "chapter_number": "21",
+          "chapter_name": "NON-RESIDENT TAXATION",
+          "unique_id": "21-T-2"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "24",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Examine with reasons whether the two enterprises referred to in the independent situations given below can be deemed to be associated enterprises under the Indian transfer pricing regulations:\n\n(i) PQR Inc, a US company having its place of effective management also in the USA, has advanced a loan equivalent to Rs. 170 crores to Mahanadi Ltd., an Indian company on 10-4-2025. The total book value of assets of Mahanadi Ltd. is Rs. 300 crores. The market value of the assets, however, is Rs. 320 crores. Mahanadi Ltd. repaid Rs. 30 crores before 31-3-2026.\n\n(ii) Queenland plc., a French company having its place of effective management also in the France, has the power to appoint 3 of the directors of Godavari Ltd, an Indian company, whose total number of directors in the Board is 8.\n\n(iii) Total value of raw materials and consumables of Saraswati Ltd., an Indian company, is Rs. 900 crores. Of this, supplies to the tune of Rs. 830 crores are by Zoel GmbH, a German company having its place of effective management in Germany, at prices and terms decided by the German company.",
+          "answer": "(i) PQR Inc, a foreign company, has advanced loan of Rs. 170 crores to Mahanadi Ltd., an Indian company, which amounts to $56.67 \\%$ of book value of assets of Mahanadi Ltd. Since the loan advanced by PQR Inc. is $51 \\%$ or more of the book value of assets of Mahanadi Ltd., PQR Inc. and Mahanadi Ltd. are deemed to be associated enterprises under the Indian transfer pricing regulations.\n\nThe deeming provisions would be attracted even if there is a repayment of loan during the same previous year which brings down the said percentage below $51 \\%$.\n\n(ii) Queenland plc, a foreign company has the power to appoint 37.50\\% (3 out of 8) of the directors of an Indian company, Godavari Ltd.\n\nTwo enterprises would be deemed to be associated enterprises if more than half of the board of directors of one enterprise are appointed by the other enterprise.\n\nIn this case, since Queenland plc has the power to appoint only 37.50 (which is less than half) of the directors of an Indian company, Godavari Ltd., Queenland plc and Godavari Ltd. are not deemed to be associated enterprises.\n\n(iii) Since Zoel GmbH, a German company, supplies $92.22 \\%$ of the raw materials and consumables required by Saraswati Ltd., an Indian company, which is more than the specified threshold of $90 \\%$; and the prices and terms of supply are decided by the German company, the two companies are deemed to be associated enterprises.",
+          "chapter_number": "24",
+          "chapter_name": "TRANSFER PRICING",
+          "unique_id": "24-T-3"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "A foreign national hockey player who is a non-resident in India, Mr. Robert Jonson, won Rs. 45 lakhs by competing in hockey competitions in India. In addition, he received Rs. 10,000 for writing an article about hockey for an Indian sports magazine. He earned about Rs. 69,100 in lottery winnings (net). With reference to the provisions of the Income-tax Act, 1961, you are required to- (I) Examine whether the above income are subject to deduction of tax at source. (II) Decide whether it is necessary for him to file his return of income for A.Y. 2026-27. (MTP 3 Marks Mar'25)",
+          "answer": "(i) Yes, the above income are subject to deduction of tax at source.\n\nIncome referred to in section 115BBA (i.e., Participation in hockey tournaments in India and Contribution of an article relating to the sport of hockey in a sports magazine in India) is subject to deduction of tax at source@20% under section 194E.\n\nIncome referred to in section 115BB (i.e., winnings from lotteries) is subject to deduction of tax at source@30% under section 194B.\n\nSince Mr. Mr. Robert Jonson, is a non-resident, the amount of tax to be deducted calculated at the prescribed rates mentioned above, would be increased by health and education cess@4%.\n\n(ii) Section 115BBA provides that if the total income of the non-resident sportsman or non-resident entertainer comprises of only income referred to in that section and tax deductible at source has been fully deducted, it shall not be necessary for him to file his return of income.\n\nIn this case, although Mr. Robert Jonson is a non-resident sportsman, he has winnings from lotteries as well. Therefore, he cannot avail the benefit of exemption from filing of return of income as contained in section 115BBA. Hence, he has to file his return of income for A.Y. 2026-27.",
+          "chapter_number": "21",
+          "chapter_name": "NON-RESIDENT TAXATION",
+          "unique_id": "21-T-3"
+        }
+      ]
+    }
+  ]
+}

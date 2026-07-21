@@ -1,0 +1,392 @@
+[
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 1,
+    "question": "Solving equation $\\mathrm{z}^{10}-33 \\mathrm{z}^{5}+32=0$ the following values of z are obtained",
+    "options": {
+      "a": "1,2",
+      "b": "2,3",
+      "c": "2,4",
+      "d": "1, 2, 3"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 2,
+    "question": "$\\frac{2 x+5}{10}+\\frac{3 x+10}{15}=5$, then value of x",
+    "options": {
+      "a": "10.58",
+      "b": "9.58",
+      "c": "9.5",
+      "d": "None of these"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 3,
+    "question": "If $\\frac{x-a^{2}-b^{2}}{c^{2}}+\\frac{c^{2}}{x+a^{2}-b^{2}}=2$ the value of $X$ is",
+    "options": {
+      "a": "$a^{2}+b^{2}+c^{2}$",
+      "b": "$-\\mathrm{a}^{2}-\\mathrm{b}^{2}-\\mathrm{c}^{2}$",
+      "c": "$\\frac{1}{a^{2}+b^{2}+c^{2}}$",
+      "d": "$\\frac{1}{a^{2}+b^{2}+c^{2}}$"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 4,
+    "question": "The age of a person is 8 years more than thrice the age of the sum of his two grandsons who were twins. After 8 years his age will be 10 years more than twice the sum of the ages of his grandsons. Then the age of the person when the twins were born is:",
+    "options": {
+      "a": "86 years",
+      "b": "73 years",
+      "c": "68 years",
+      "d": "63 years"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 5,
+    "question": "A box contains \u20b9 56 in the form of coins of one rupee, 50 paise and 25 paise. The number of 50 paise coin is double the number of 25 paise coins and four times the numbers of one rupee coins. The numbers of 50 paise coins in the box is",
+    "options": {
+      "a": "64",
+      "b": "32",
+      "c": "16",
+      "d": "14"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 6,
+    "question": "The point of intersection between the lines $3 \text{x}+4 \text{y}=7$ and $4 \text{x}-\text{y}=3$ lie in the",
+    "options": {
+      "a": "$1^{\text {st }}$ quadrant.",
+      "b": "$2^{\text {nd }}$ quadrant.",
+      "c": "$3^{\text {rd }}$ quadrant.",
+      "d": "$4^{\text {th }}$ quadrant."
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 7,
+    "question": "Solving equation $2\\left(x-\\frac{1}{x}\\right)^{2}-5\\left(x+\\frac{1}{x}+2\\right)+18=0$ we get roots as under",
+    "options": {
+      "a": "0",
+      "b": "1",
+      "c": "-1",
+      "d": "$2, \\frac{1}{2}$"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 8,
+    "question": "Solving equation $\\mathrm{x}+\\sqrt{\\mathrm{x}}=\\frac{6}{25}$ the value of x works out to",
+    "options": {
+      "a": "$\\frac{1}{5}$",
+      "b": "$\\frac{2}{5}$",
+      "c": "$\\frac{1}{25}$",
+      "d": "$\\frac{2}{25}$"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 9,
+    "question": "Solving equation $\\left(x-\\frac{1}{x}\\right)^{2}-6\\left(x+\\frac{1}{x}\\right)+12=0$ we got roots as follows",
+    "options": {
+      "a": "0",
+      "b": "1",
+      "c": "-1",
+      "d": "None"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 10,
+    "question": "Solving equation $\\frac{6 x+2}{4}+\\frac{2 x^{2}-1}{2 x^{2}+2}=\\frac{10 x-1}{4 x}$ we get roots as",
+    "options": {
+      "a": "$\\pm 1$",
+      "b": "+1",
+      "c": "-1",
+      "d": "0"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 11,
+    "question": "Solving equation $z^{2}-6 z+9=4 \\sqrt{z^{2}-6 z+6}$ following roots are obtained",
+    "options": {
+      "a": "$3+2 \\sqrt{3}, 3-2 \\sqrt{3}$",
+      "b": "5,1",
+      "c": "All the above",
+      "d": "None"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 12,
+    "question": "Solving equation $(2 x+1)(2 x+3)(x-1)(x-2)=150$ the roots available are",
+    "options": {
+      "a": "$\\frac{1 \\pm \\sqrt{129}}{4}$",
+      "b": "$\\frac{7}{2},-3$",
+      "c": "$-\\frac{7}{2}, 3$",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 13,
+    "question": "If $\\frac{x-b c}{d+c}+\\frac{x-c a}{c+a}+\\frac{x-a b}{a+b}=a+b+c$ the value of $x$ is",
+    "options": {
+      "a": "$\\mathrm{a}^{2}+\\mathrm{b}^{2}+\\mathrm{c}^{2}$",
+      "b": "$a(a+b+c)$",
+      "c": "$(a+b)(b+c)$",
+      "d": "$a b+b c+c a$"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 14,
+    "question": "Solving equation $(1+x)^{2 / 3}+(1-x)^{2 / 3}=4\\left(1-x^{2}\\right)^{1 / 3}$ are, values of $x$",
+    "options": {
+      "a": "$\\frac{5}{\\sqrt{3}}$",
+      "b": "$-\\frac{5}{\\sqrt{3}}$",
+      "c": "$\\pm \\frac{5}{3 \\sqrt{3}}$",
+      "d": "$\\pm \\frac{15}{\\sqrt{3}}$"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 15,
+    "question": "Solving equation $\\left(x-\\frac{1}{x}\\right)^{2}-10\\left(x-\\frac{1}{x}\\right)+24=0$ we got roots as follows",
+    "options": {
+      "a": "0",
+      "b": "1",
+      "c": "-1",
+      "d": "$(2 \\pm \\sqrt{5}),(3 \\pm \\sqrt{10})$"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 16,
+    "question": "Puru gets on the elevator at the 11th floor of a building and rides up at the rate of 57 floors per minute. At the same time, Ishu gets on an elevator at the $51^{\boldsymbol{\text{st}}}$ floor of the same building and rides down at the rate of 63 floors per minute. If they continue travelling at these rates, then at which floor will their paths cross?",
+    "options": {
+      "a": "17",
+      "b": "19",
+      "c": "27",
+      "d": "30"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 17,
+    "question": "Solving equation $3 x^{2}-14 x+16=0$ we get roots as",
+    "options": {
+      "a": "$\\pm 1$",
+      "b": "2 and $\\frac{8}{3}$",
+      "c": "0",
+      "d": "None"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 18,
+    "question": "If $\\frac{x+2}{x-2}-\\frac{x-2}{x+2}=\\frac{x-1}{x+3}-\\frac{x+3}{x-3}$ then the values of $x$ are",
+    "options": {
+      "a": "$0, \\pm \\sqrt{6}$",
+      "b": "$0, \\pm \\sqrt{3}$",
+      "c": "$0, \\pm 2 \\sqrt{3}$",
+      "d": "None"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 19,
+    "question": "Solving equation $3 x^{2}-14 x+8=0$ we get roots as",
+    "options": {
+      "a": "$\\pm 4$",
+      "b": "$\\pm 2$",
+      "c": "$4, \\frac{2}{3}$",
+      "d": "None"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 20,
+    "question": "Solving equation $\\sqrt{y^{2}+4 y-21}+\\sqrt{y^{2}-y-6}=\\sqrt{6 y^{2}-5 y-39}$ following roots are obtained",
+    "options": {
+      "a": "$2,3,5 / 3$",
+      "b": "$2,3,-5 / 3$",
+      "c": "$-2,-3,5 / 3$",
+      "d": "$-2,-3,-5 / 3$"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 21,
+    "question": "Solving equation $\\frac{\\mathrm{x}+\\sqrt{12 \\mathrm{p}-\\mathrm{x}}}{\\mathrm{x}-\\sqrt{12 \\mathrm{p}-\\mathrm{x}}}=\\frac{\\sqrt{\\mathrm{p}+1}}{\\sqrt{\\mathrm{p}-1}}$ following roots are obtained",
+    "options": {
+      "a": "$3 p$",
+      "b": "Both $3 p$ and $-4 p$",
+      "c": "Only $-4 p$",
+      "d": "$-3 p, 4 p$"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 22,
+    "question": "The wages of 8 men and 6 boys amount to Rs. 33. If 4 men earn Rs. 4.50 more than 5 boys determine the wages of each man and boy.",
+    "options": {
+      "a": "(Rs. 1.50, Rs. 3 )",
+      "b": "(Rs. 3, Rs. 1.50)",
+      "c": "(Rs. $2.50, \text{Rs} .2$ )",
+      "d": "(Rs. 2, Rs. 2.50)"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 23,
+    "question": "The cost prices of 3 pens and 4 bags are \u20b9324. and 4 pens and 3 bags is \u20b9257, then cost price of 1 pen is equal to",
+    "options": {
+      "a": "\u20b96",
+      "b": "\u20b98",
+      "c": "$\u20b9 50$",
+      "d": "$\u20b9 75$"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 24,
+    "question": "If $\\frac{x}{b}+\\frac{b}{x}=\\frac{a}{b}+\\frac{b}{a}$ the roots of the equation are",
+    "options": {
+      "a": "$a, b^{2} / a$",
+      "b": "$a^{2}, b / a^{2}$",
+      "c": "$a^{2}, b^{2} / a$",
+      "d": "a, b\u00b2"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 25,
+    "question": "When $\\sqrt{2 z+1}+\\sqrt{3 z+4}=7$ the value of $z$ is given by",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "4"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 26,
+    "question": "4 tables and 3 chairs together cost $\u20b9 2,250$ and 3 tables and 4 chairs cost $\u20b9 1950$. Find the cost of 2 chairs and I table.",
+    "options": {
+      "a": "\u20b9550",
+      "b": "\u20b9 1005",
+      "c": "\u20b9 750",
+      "d": "None of these"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 27,
+    "question": "Solving equation $\\sqrt{x^{2}-9 x+18}+\\sqrt{x^{2}+2 x-15}=\\sqrt{x^{2}-4 x+3}$ following roots are obtained",
+    "options": {
+      "a": "$3, \\frac{2 \\pm 2 \\sqrt{91}}{3}$",
+      "b": "$\\frac{2 \\pm \\sqrt{94}}{3}$",
+      "c": "$4,-\\frac{8}{3}$",
+      "d": "$3,4-\\frac{8}{3}$"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 28,
+    "question": "Solving equation $6 x^{4}+11 x^{3}-9 x^{2}-11 x+6=0$ following roots are obtained",
+    "options": {
+      "a": "$\\frac{1}{2},-2, \\frac{-1 \\pm \\sqrt{37}}{6}$",
+      "b": "$-\\frac{1}{2}, 2, \\frac{-1 \\pm \\sqrt{37}}{6}$",
+      "c": "$\\frac{1}{2},-2, \\frac{5}{6}, \\frac{-7}{6}$",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 29,
+    "question": "Solving equation $(2 x+3)(2 x+5)(x-1)(x-2)=30$ the roots available are",
+    "options": {
+      "a": "$0, \\frac{1}{2}, \\frac{11}{4}, \\frac{9}{4}$",
+      "b": "$0,-\\frac{1}{2}, \\frac{-1 \\pm \\sqrt{105}}{4}$",
+      "c": "$0,-\\frac{1}{2},-\\frac{11}{4},-\\frac{9}{4}$",
+      "d": "None"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 30,
+    "question": "Solving equation $x^{2}-24 x+135=0$ are, value(s) of $x$",
+    "options": {
+      "a": "9,6",
+      "b": "9,15",
+      "c": "15,6",
+      "d": "None"
+    },
+    "answer": "b"
+  }
+]

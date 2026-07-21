@@ -1,0 +1,316 @@
+{
+  "source_pdf": "pipeline_jobs/18e9c75e3d554e5bab8931888c931759/student_answersheet.pdf",
+  "output_pdf": "pipeline_jobs/18e9c75e3d554e5bab8931888c931759/checked_copy.pdf",
+  "grading_json": "pipeline_jobs/18e9c75e3d554e5bab8931888c931759/grading_final.json",
+  "aligned_json": "pipeline_jobs/18e9c75e3d554e5bab8931888c931759/aligned_answers.json",
+  "generated_at": "2026-07-17T14:09:13.147199",
+  "grand_total": {
+    "obtained": 19.0,
+    "total": 50.0,
+    "page": 1,
+    "x": 277.20000000000005,
+    "y": 730.25,
+    "y_frac": 0.07796717171717171,
+    "scale": 0.9406175771971497
+  },
+  "questions": {
+    "SectionB__Q1a": {
+      "section": "SectionB",
+      "q_id": "Q1a",
+      "q_num": "1a",
+      "marks_obtained": 3.5,
+      "marks_total": 6.0,
+      "stamp": {
+        "page": 1,
+        "x": 41.27189421762281,
+        "y": 423.00000000000006,
+        "scale": 0.9406175771971497
+      },
+      "feedback": {
+        "text": "Verify calculations for EPS and market price before finalizing answers",
+        "page": 1,
+        "x": 74.0,
+        "y": 58.32706613521771,
+        "font_size": 10,
+        "scale": 0.9406175771971497
+      },
+      "ticks_crosses": [
+        {
+          "page": 1,
+          "x": 373.0276307175283,
+          "y": 255.99894962103153,
+          "action": "tick",
+          "size": 69.7408349492065
+        },
+        {
+          "page": 1,
+          "x": 236.07008921866836,
+          "y": 146.96775076322052,
+          "action": "tick",
+          "size": 64.84523030342417
+        },
+        {
+          "page": 2,
+          "x": 330.8201457666746,
+          "y": 672.2093769363194,
+          "action": "cross",
+          "size": 62.906145156481145
+        },
+        {
+          "page": 2,
+          "x": 307.003498348513,
+          "y": 326.91679169038593,
+          "action": "tick",
+          "size": 65.2105739400131
+        }
+      ]
+    },
+    "SectionB__Q1b": {
+      "section": "SectionB",
+      "q_id": "Q1b",
+      "q_num": "1b",
+      "marks_obtained": 1.5,
+      "marks_total": 4.0,
+      "stamp": {
+        "page": 2,
+        "x": 36.86460384255217,
+        "y": 143.99999999999997,
+        "scale": 0.9406175771971497
+      },
+      "feedback": {
+        "text": "Clarify tag-along clause and expand on deal structuring concepts",
+        "page": 2,
+        "x": 38.016,
+        "y": 266.0,
+        "font_size": 10,
+        "scale": 0.9406175771971497
+      },
+      "ticks_crosses": [
+        {
+          "page": 2,
+          "x": 90.86692253368014,
+          "y": 456.3017133946709,
+          "action": "tick",
+          "size": 66.72429725843872
+        },
+        {
+          "page": 2,
+          "x": 181.61476830547946,
+          "y": 561.6397593936755,
+          "action": "cross",
+          "size": 54.342290421221236
+        }
+      ]
+    },
+    "SectionB__Q2a": {
+      "section": "SectionB",
+      "q_id": "Q2a",
+      "q_num": "2a",
+      "marks_obtained": 0.5,
+      "marks_total": 4.0,
+      "stamp": {
+        "page": 3,
+        "x": 39.446597767031335,
+        "y": 474.0,
+        "scale": 0.9406175771971497
+      },
+      "feedback": {
+        "text": "• Failed to identify key CDO risk categories  \n• Included irrelevant points about accounting issues  \n• Lacked understanding of CDO structure and risks",
+        "page": 3,
+        "x": 19.312,
+        "y": 266.5,
+        "font_size": 10,
+        "scale": 0.9406175771971497
+      },
+      "ticks_crosses": []
+    },
+    "SectionB__Q2b": {
+      "section": "SectionB",
+      "q_id": "Q2b",
+      "q_num": "2b",
+      "marks_obtained": 1.0,
+      "marks_total": 6.0,
+      "stamp": {
+        "page": 3,
+        "x": 38.820973829294935,
+        "y": 185.3,
+        "scale": 0.9406175771971497
+      },
+      "feedback": {
+        "text": "• Did not calculate Equivalent Annual Cost (EAC)  \n• Incorrectly treated cash flows at year 0  \n• Concluded wrong optimal replacement cycle length",
+        "page": 3,
+        "x": 19.312,
+        "y": 276.55237838366867,
+        "font_size": 10,
+        "scale": 0.9406175771971497
+      },
+      "ticks_crosses": [
+        {
+          "page": 4,
+          "x": 239.32357434090406,
+          "y": 414.20877756605665,
+          "action": "cross",
+          "size": 60.321541479046495
+        }
+      ]
+    },
+    "SectionB__Q4a": {
+      "section": "SectionB",
+      "q_id": "Q4a",
+      "q_num": "4a",
+      "marks_obtained": 2.5,
+      "marks_total": 6.0,
+      "stamp": {
+        "page": 5,
+        "x": 39.219488175311575,
+        "y": 642.0,
+        "scale": 0.9406175771971497
+      },
+      "feedback": {
+        "text": "Use correct net asset values for accurate calculations and share allocation",
+        "page": 5,
+        "x": 23.600000000000023,
+        "y": 204.1667223090033,
+        "font_size": 10,
+        "scale": 0.9406175771971497
+      },
+      "ticks_crosses": [
+        {
+          "page": 5,
+          "x": 276.0246437620294,
+          "y": 465.8075485689168,
+          "action": "tick",
+          "size": 67.91385728836158
+        },
+        {
+          "page": 5,
+          "x": 270.5737599528147,
+          "y": 353.1339013685517,
+          "action": "cross",
+          "size": 59.92419550827344
+        },
+        {
+          "page": 5,
+          "x": 299.3626288798742,
+          "y": 254.2990863365111,
+          "action": "cross",
+          "size": 58.38445690006478
+        }
+      ]
+    },
+    "SectionB__Q4b": {
+      "section": "SectionB",
+      "q_id": "Q4b",
+      "q_num": "4b",
+      "marks_obtained": 0.5,
+      "marks_total": 4.0,
+      "stamp": {
+        "page": 6,
+        "x": 48.47215865387059,
+        "y": 639.0,
+        "scale": 0.9406175771971497
+      },
+      "feedback": {
+        "text": "• Focused on forms of market efficiency instead of limitations  \n• Ignored random walk hypothesis's effect on technical analysis  \n• Did not address time-lag and self-defeating issues",
+        "page": 6,
+        "x": 23.831999999999997,
+        "y": 359.0,
+        "font_size": 10,
+        "scale": 0.9406175771971497
+      },
+      "ticks_crosses": [
+        {
+          "page": 6,
+          "x": 281.85093663570626,
+          "y": 442.6471141790457,
+          "action": "tick",
+          "size": 65.52001490195242
+        }
+      ]
+    },
+    "SectionB__Q5a": {
+      "section": "SectionB",
+      "q_id": "Q5a",
+      "q_num": "5a",
+      "marks_obtained": 5.0,
+      "marks_total": 6.0,
+      "stamp": {
+        "page": 6,
+        "x": 47.51754814419647,
+        "y": 127.30000000000001,
+        "scale": 0.9406175771971497
+      },
+      "feedback": {
+        "text": "Remove unnecessary calculations for clearer presentation in part (i)",
+        "page": 6,
+        "x": 47.663999999999994,
+        "y": 208.50000000000003,
+        "font_size": 10,
+        "scale": 0.9406175771971497
+      },
+      "ticks_crosses": [
+        {
+          "page": 6,
+          "x": 293.9397951487869,
+          "y": 158.23856685000948,
+          "action": "tick",
+          "size": 71.38931300377993
+        }
+      ]
+    },
+    "SectionB__Q3a": {
+      "section": "SectionB",
+      "q_id": "Q3a",
+      "q_num": "3a",
+      "marks_obtained": 0,
+      "marks_total": 6.0,
+      "stamp": null,
+      "feedback": null,
+      "ticks_crosses": []
+    },
+    "SectionB__Q3b": {
+      "section": "SectionB",
+      "q_id": "Q3b",
+      "q_num": "3b",
+      "marks_obtained": 1.5,
+      "marks_total": 4.0,
+      "stamp": {
+        "page": 7,
+        "x": 39.55746780940861,
+        "y": 211.00000000000003,
+        "scale": 0.9406175771971497
+      },
+      "feedback": {
+        "text": "Broaden your definition and include additional key risks and indicators",
+        "page": 7,
+        "x": 40.016,
+        "y": 574.0,
+        "font_size": 10,
+        "scale": 0.9406175771971497
+      },
+      "ticks_crosses": []
+    },
+    "SectionB__Q5b": {
+      "section": "SectionB",
+      "q_id": "Q5b",
+      "q_num": "5b",
+      "marks_obtained": 2.5,
+      "marks_total": 4.0,
+      "stamp": {
+        "page": 7,
+        "x": 41.11288989155364,
+        "y": 492.8,
+        "scale": 0.9406175771971497
+      },
+      "feedback": {
+        "text": "Align risk methods with the model answer and use precise terminology",
+        "page": 7,
+        "x": 82.19999999999999,
+        "y": 346.828042286897,
+        "font_size": 10,
+        "scale": 0.9406175771971497
+      },
+      "ticks_crosses": []
+    }
+  }
+}

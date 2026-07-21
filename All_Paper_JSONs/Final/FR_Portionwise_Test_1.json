@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "subject_code": "FR",
+    "subject_name": "Financial Reporting",
+    "paper_num": "Portionwise_1",
+    "total_marks_printed": 50,
+    "total_marks_in_paper": 50,
+    "section_a_marks": 0,
+    "section_b_marks": 50,
+    "two_section_format": false,
+    "note": "Portionwise Test: Attempt all 5 questions. Each question carries 10 marks (6 + 4 split).",
+    "blacklisted_from": [
+      "Generated_Papers/FR/FR_Mock_Paper_1.json",
+      "Generated_Papers/FR/FR_Mock_Paper_2.json",
+      "Generated_Papers/FR/FR_Mock_Paper_3.json"
+    ],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)"
+    ]
+  },
+  "section_a": [],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "7.2",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "An Indian entity, whose functional currency is rupees, purchases USD dominated bond at its fair value of USD 1,000. The bond carries stated interest @ 4.7% p.a. on its face value. The said interest is received at the year end. The bond has maturity period of 5 years and is redeemable at its face value of USD 1,250. The fair value of the bond at the end of year 1 is USD 1,060. The exchange rate on the date of transaction and at the end of year 1 are USD $1=$ Rs. 40 and USD $1=$ Rs. 45, respectively. The weighted average exchange rate for the year is 1 USD = Rs. 42. The entity has determined that it is holding the bond as part of an investment portfolio whose objective is met both by holding the asset to collect contractual cash flows and selling the asset. The purchased USD bond is to be classified under the FVTOCI category. The bond results in effective interest rate (EIR) of $10 % p.a. Calculate gain or loss to be recognised in Profit & Loss and Other Comprehensive Income for year 1. Also pass journal entry to recognise gain or loss on above. (Round off the figures to nearest rupees) (RTP Nov'20, MTP 6 Marks Oct'22 & MTP Mar'24,MP[2])",
+          "answer": "Computation of amounts to be recognized in the P&L and OCI:\n\n| Particulars | USD | Exchange rate | Rs. |\n| :--- | :--- | :--- | :--- |\n| Cost of the bond | 1,000 | 40 | 40,000 |\n| Interest accrued @ 10% p.a. | 100 | 42 | 4,200 |\n| Interest received (USD 1,250 x 4.7%) | (59) | 45 | $(2,655)$ |\n| Amortized cost at year-end | 1,041 | 45 | 46,845 |\n| Fair value at year end | 1,060 | 45 | 47,700 |\n| Interest income to be recognized in P& L |  |  | 4,200 |\n| Exchange gain on the principal amount [1,000 ×(45-40)] |  |  | 5,000 |\n| Exchange gain on interest accrual [ $100 ×(45-42)$ ] |  |  | 300 |\n| Total exchange gain/loss to be recognized in P&L |  |  | 5,300 |\n| Fair value gain to be recognized in OCI [45x(1,060-1,041)] |  |  | 855 |\n\n\n## Journal entry to recognize gain/loss\n\n| Bond (Rs. 47,700- Rs. 40,000) | Dr. | 7,700 |  |\n| :--- | :--- | :--- | :--- |\n| Bank (Interest received) | Dr. | 2,655 |  |\n| To Interest Income (P & L) |  |  | 4,200 |\n| To Exchange gain (P & L) |  |  | 5,300 |\n| To OCI (fair value gain) |  |  | 855 |",
+          "chapter_number": "7.2",
+          "chapter_name": "IND AS 37: PROVISIONS, CONTINGENT LIABILITIES AND CONTINGENT ASSETS",
+          "unique_id": "7.2-T-6"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Question 10 (PYP 4 Marks May'25)\n\nHero Ltd. reported a profit before tax of Rs. 8 lakhs for the third quarter ending 31st December 20X2. On enquiry, you observe the following:\n\n(i) Dividend income of Rs. 8 lakhs received during the quarter has been recognized to the extent of Rs. 2 lakhs only.\n\n(ii) 60\\% of sales promotion expenses of Rs.30 lakhs incurred in the third quarter has been deferred to the fourth quarter as the sales in fourth quarter are expected to be high.\n\n(iii) Rs. 4 lakhs extraordinary gain received in third quarter was allocated equally to the third and fourth quarter.\n\n(iv) Cumulative loss of Rs. 30 lakhs resulting from change in method of inventory valuation was recognized in the third quarter. Out of this loss, Rs. 10 lakhs relate to previous quarters.\n\n(v) Sale of investment in the first quarter resulted in a gain of Rs. 40 lakhs. The company had apportioned this equally to the four quarters.\n\nYou are required to discuss the treatment of the above observations and ascertain the adjusted profit /loss before tax for the third quarter.",
+          "answer": "As per para 37 and para 39 of Ind AS 34 \"Interim Financial Reporting\", seasonal or occasional revenue and cost within a financial year should not be anticipated or deferred as of interim date if it would not be appropriate to anticipate or defer the same at the end of the entity's financial year. Therefore, dividend income, extraordinary gain, and gain on sale of investment received during $3^{\\text {rd }}$ quarter should be recognised in the $3^{\\text {rd }}$ quarter only.\n\nSimilarly, sales promotion expenses incurred in the $3^{\\text {rd }}$ quarter should also be charged in the $3^{\\text {rd }}$ quarter only. Further, as per the standard, if there is change in the accounting policy within the current financial year, then such a change should be applied retrospectively by restating the financial statements of prior interim periods of the current financial year.\n\nThe change in the method of inventory valuation is a change in the accounting policy. Therefore, the prior interim periods' financial statements should be restated by applying the change in the method of valuation retrospectively.\n\nAccordingly, the adjusted profit before tax for the $3^{\\text {rd }}$ quarter will be as follows:\n\nStatement showing Adjusted Profit Before Tax for the Third Quarter ending $31{ }^{\\text {st }}$ December, 20X2\n\n\n|  | (Rs. in lakhs) |\n| :--- | :--- |\n| Profit before tax (as reported) | 8 |\n| Add: Dividend income Rs. (8-2) lakhs | 6 |\n| Extraordinary gain Rs. (4-2) lakhs | 2 |\n| Cumulative loss due to change in the method of inventory valuation should be applied retrospectively | $\\underline{10}$ |\n|  | 26 |\n| Less: Sales promotion expenses (60\\% of Rs. 30 lakhs) | (18) |\n| Gain on sale of investment (occasional gain should not be deferred) | (10) |\n| Adjusted Profit before tax for the third quarter | (2) |",
+          "chapter_number": "3.2",
+          "chapter_name": "IND AS 34: INTERIM FINANCIAL REPORTING",
+          "unique_id": "3.2-T-10"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "12",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "XYZ Ltd. offers a six-month warranty on its small to medium sized equipment, which can be put to use by the customer with no installation support. The warranty comes with the equipment and the customer cannot purchase it separately. This equipment is typically sold at a gross margin of 40%. XYZ Ltd. has made a provision of ₹ 30,000 during the year ended 31st March, 20X2, which is approximately 1% of its gross margin on the sale of these equipment. Based on past experience, it is expected that 1% of equipment sold have been returned as faulty within the warranty period. Faulty equipment returned to XYZ Ltd. during the warranty period are scrapped and the sale value is fully refunded to the customer.\n\nAssuming that sales occurred evenly during the year, how should XYZ Ltd. evaluate whether any additional warranty provision is required on equipment sold in the past as at 31st March, 20X2? Had the warranty period been 2 years instead of six months, what additional criteria would XYZ Ltd. need to consider?",
+          "answer": "Calculation of additional warranty provisions:\n\nWarranty claim covers 1% of gross margin, whereas customers are refunded the full selling price. As the goods are scrapped it is assumed XYZ Ltd has no potential for re-imbursement from its supplier regarding the faulty goods.\n\nA calculation of warranty provision is set out below:\n\n1% of annual gross margin is ₹ 30,000 therefore 100% of annual gross margin must be ₹ 30,00,000. Since gross margin is 40%, sales should be ₹ 75,00,000. As provide in the question that the sales are evenly spread during the year and given the six month warranty, half of the sales occurred in the second half of the year is still covered within the warranty period as follows.\n\n| % age | Annual sales | Product under warranty at 31st March, 20X2 | Percentage expected to be returned | Warranty provision |\n|-------|--------------|-------------------------------------------|-----------------------------------|--------------------|\n|       | ₹            | ₹                                         | ₹                                 | ₹                  |\n| Gross margin | 40%          | 30,00,000                             |                                   |                    |\n| Selling price | 100%         | 75,00,000                             | 37,50,000                         | 1%                 |\n\nThe warranty provision should therefore be increased by ₹ 7,500 (₹ 37,500 – ₹ 30,000). As the provision is expected to be used in the next 6 months no discounting is required.\n\nIf the warranty period is 2 years:\n\nSince the outstanding period of warranties is 6 months (i.e. less than a year), no discounting is required. However, if a longer warranty period is to be given, the entity will have to take into account the effect of the time value of money. The amount of provision shall be the present value of the expenditures expected to be required to settle the warranty obligation. (Refer Para 45 of Ind AS 37)\n\nThe discount rate shall be a pre-tax rate that reflects current market assessments of the time value of money and the risks specific to the liability. The discount rate shall not reflect risks for which future cash flow estimates have been adjusted. (Refer Para 47 of Ind AS 37)\n\n| % age | Annual sales | Product under warranty at 31st March, 20X2 | Percentage expected to be returned | Warranty provision |\n|-------|--------------|-------------------------------------------|-----------------------------------|--------------------|\n|       | ₹            | ₹                                         | ₹                                 | ₹                  |\n| Gross margin | 40%          | 30,00,000                             |                                   |                    |\n| Selling price | 100%         | 75,00,000                             |                                  |                    |\n\nThe warranty provision should therefore be increased by ₹ 45,000 (₹ 75,000 – ₹ 30,000). Further discounting of provision would be required.",
+          "chapter_number": "12",
+          "chapter_name": "Ind AS 103 \"Business Combinations\"",
+          "unique_id": "FILE-FR-P1-Q2a"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "While preparing an opening balance sheet on the date of transition, an entity is required to:\n\n(a) recognise all assets and liabilities whose recognition is required by Ind AS;\n\n(b) reclassify items that it recognised in accordance with previous GAAP as one type of asset, liability or component of equity, but are a different type of asset, liability or component of equity in accordance with Ind AS; and\n\n(c) apply Ind AS in measuring all recognised assets and liabilities.\n\nGive 2 examples for each of the above categories. (MTP 5 Marks, Sep'22, RTP Nov'21)",
+          "answer": "The examples of the items that an entity may need to recognise, derecognise, remeasure, reclassify on the date of transition are as under:\n\n(a) recognise all assets and liabilities whose recognition is required by Ind AS:\n\n(i) customer related intangible assets if an entity elects to restate business combinations\n\n(ii) share-based payment transactions with non-employees\n\n(b) reclassify items that it recognised in accordance with previous GAAP as one type of asset, liability or component of equity, but is a different type of asset, liability or component of equity in accordance with Ind AS:\n\n(i) redeemable preference shares that would have earlier been classified as equity;\n\n(ii) non-controlling interests which would have been earlier classified outside equity; and\n\n(c) apply Ind ASs in measuring all recognised assets and liabilities:\n\n(i) discounting of long-term provisions\n\n(ii) measurement of deferred income taxes for all temporary differences instead of timing differences.",
+          "chapter_number": "14",
+          "chapter_name": "Ind AS 101 \"First-time Adoption of Indian Accounting Standards\"",
+          "unique_id": "14-T-2"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "11",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Question 27 (MTP 10 Marks Sep'24,MP[4])\n\nXYZ Ltd. is a company incorporated in India. It provides $Rs. 10,00,000$ interest free loan to its wholly owned Indian subsidiary, ABC Ltd. There are no transaction costs. State how the loan be accounted for, in the separate financial statements of XYZ Ltd., individual financial statements of ABC Ltd. and consolidated financial statements of the group when the loan is repayable after 3 years. The current market rate of interest for similar loan is 10\\% p.a. for both holding and subsidiary.",
+          "answer": "Ind AS 109 requires that financial assets and liabilities are recognized on initial recognition at its fair value, as adjusted for the transaction cost. In accordance with Ind AS 113 Fair Value Measurement, the fair value of a financial liability with a demand feature (e.g., a demand deposit) is not less than the amount payable on demand, discounted from the first date that the amount could be required to be paid.\n\nBoth parent and subsidiary recognize financial asset and liability, respectively, at fair value on initial recognition. The difference between the loan amount and its fair value is treated as an equity contribution to the subsidiary.\n\nThis represents a further investment by the parent in the subsidiary.\n\nAccounting in the books of XYZ Ltd (Parent)\n\n| Particulars |  | Amount | Amount |\n| :--- | :--- | :--- | :--- |\n| On the date of loan |  |  |  |\n| Loan to ABC Ltd (Subsidiary) | Dr. | 7,51,315 |  |\n| Deemed Investment (Capital Contribution) in ABC Ltd. | Dr. | 2,48,685 |  |\n| To Bank (Being the loan is given to ABC Ltd and recognised at fair value) |  |  | 10,00,000 |\n| Accrual of Interest income |  |  |  |\n| Loan to ABC Ltd | Dr. | 75,131 |  |\n| To Interest income (Being interest income accrued) - Year 1 |  |  | 75,131 |\n| Loan to ABC Ltd | Dr. | 82,645 |  |\n| To Interest income (Being interest income accrued) - Year 2 |  |  | 82,645 |\n| Loan to ABC Ltd | Dr. | 90,909 |  |\n| To Interest income (Being interest income accrued) - Year 3 |  |  | 90,909 |\n| On repayment of loan |  |  |  |\n| Bank | Dr. | 10,00,000 |  |\n| To Loan to ABC Ltd (Subsidiary) |  |  | 10,00,000 |\n\n\nAccounting in the books of ABC Ltd (Subsidiary)\n\n| Particulars |  | Amount | Amount |\n| :--- | :--- | :--- | :--- |\n| On the date of loan |  |  |  |\n| Bank | Dr. | 10,00,000 |  |\n| To Loan from XYZ Ltd (Payable) |  |  | 751,315 |\n| To Equity (Deemed Capital Contribution from XYZ Ltd) (Being the loan taken from XYZ Ltd. and recognised at Fair value) |  |  | 2,48,685 |\n| Accrual of Interest Interest expense | Dr. | 75,131 |  |\n| To Loan from XYZ Ltd (Payable) (Being interest expense recognised) -Year 1 |  |  | 75,131 |\n| Interest expense | Dr. | 82,645 |  |\n| To Loan from XYZ Ltd (Payable) (Being interest expense recognised)-Year 2 |  |  | 82,645 |\n| Interest expense | Dr. | 90,909 |  |\n| To Loan from XYZ Ltd (Payable) (Being interest expense recognised)-Year 3 |  |  | 90,909 |\n| On repayment of loan Loan from XYZ Ltd (Payable) | Dr. | 10,00,000 |  |\n| To Bank |  |  | 10,00,000 |\n\n\nWorking Notes:\n\n| 1 | Computation of Present value of loan |  |\n| :--- | :--- | :--- |\n|  | Rate | 10\\% |\n|  | Amount of Loan | 10,00,000 |\n|  | Year | 3 |\n|  | Present Value | 7,51,315 |\n| 2 | Computation of interest for Year I |  |\n|  | Present Value | 7,51,315 |\n|  | Rate | 10\\% |\n|  | Period of interest - for 1 year | 1 |\n|  | Closing value at the end of year 1 | 8,26,446 |\n|  | Interest for 1st year | 75,131 |\n\n\n| 3 | Computation of interest for Year 2 |  |\n| :--- | :--- | :--- |\n|  | Value of loan as at the beginning of Year 2 | 8,26,446 |\n|  | Rate | 10\\% |\n|  | Period of interest - for 2nd year | 1 |\n|  | Closing value at the end of year 2 | 9,09,091 |\n|  | Interest for 2nd year | 82,645 |\n| 4 | Computation of interest for Year 3 |  |\n| :--- | :--- | :--- |\n|  | Value of loan as at the beginning of Year 3 | 9,09,091 |\n|  | Rate | 10\\% |\n|  | Period of interest - for 3rd year | 1 |\n|  | Closing value at the end of year 3 | 10,00,000 |\n|  | Interest for 3rd year | 90,909 |",
+          "chapter_number": "11",
+          "chapter_name": "ACCOUNTING AND REPORTING OF FINANCIAL INSTRUMENTS",
+          "unique_id": "11-T-27"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "An asset is sold in 2 different active markets at different prices. An entity enters into transactions in both markets and can access the price in those markets for the asset at the measurement date.\n\nIn Market A:\nThe price that would be received is ₹26, transaction costs in that market are ₹3 and the costs to transport the asset to that market are ₹2.\n\nIn Market B:\nThe price that would be received is ₹25, transaction costs in that market are ₹1 and the costs to transport the asset to that market are ₹2.\n\nYou are required to calculate:\n(i) The fair value of the asset, if market A is the principal market, and\n(ii) The fair value of the asset, if none of the markets is principal market.",
+          "answer": "(i) If Market A is the principal market\n\nIf Market A is the principal market for the asset (i.e., the market with the greatest volume and level of activity for the asset), the fair value of the asset would be measured using the price that would be received in that market, after taking into account transport costs.\n\nFair Value will be\n\n|   | ₹ |\n|---|---|\n| Price receivable | 26 |\n| Less: Transportation cost | (2) |\n| Fair value of the asset | 24 |\n\n(ii) If neither of the market is the principal market\n\nIf neither of the market is the principal market for the asset, the fair value of the asset would be measured using the price in the most advantageous market. The most advantageous market is the market that maximises the amount that would be received to sell the asset, after taking into account transaction costs and transport costs (i.e., the net amount that would be received in the respective markets).\n\n|   | Market A | Market B |\n|---|---|---|\n| Price receivable | 26 | 25 |\n| Less: Transaction cost | (3) | (1) |\n| Less: Transportation cost | (2) | (2) |\n| Fair value of the asset | 21 | 22 |\n\nSince the entity would maximise the net amount that would be received for the asset in Market B i.e. ₹22, the fair value of the asset would be measured using the price in Market B.\n\nFair value\n\n|   | ₹ |\n|---|---|\n| Price receivable | 25 |\n| Less: Transportation cost | (2) |\n| Fair value of the asset | 23 |",
+          "chapter_number": "3.3",
+          "chapter_name": "IND AS 7: STATEMENT OF CASH FLOWS",
+          "unique_id": "FILE-FR-P1-Q3b"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "0",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "As at 31st March 20X2, Natasha Ltd. carried trade receivables of Rs.280 crores in its balance sheet. At that date, Natasha Ltd. entered into a factoring agreement with Samantha Ltd., a financial institution, according to which it transferred the trade receivables in exchange for an immediate cash payment of Rs.250 crores. As per the factoring agreement, any shortfall between the amount collected and Rs.250 crores will be reimbursed by Natasha Ltd. to Samantha Ltd. Once the trade receivables have been collected, any amounts above Rs.250 crores, less interest on this amount, will be repaid to Natasha Ltd. The directors of Natasha Ltd. are of the opinion that the trade receivables should be derecognized. You are required to explain the appropriate accounting treatment of this transaction in the financial statements for the year ending 31st March 20X2, and also evaluate this transaction in the context of the Conceptual Framework.",
+          "answer": "Trade Receivables fall within the ambit of financial assets under Ind AS 109, Financial Instruments. Thus, the issue in question is whether the factoring arrangement entered into with Samantha Ltd. requires Natasha Ltd. to derecognize the trade receivables from its financial statements.\n\nAs per Para 3.2.3, 3.2.4, 3.2.5 and 3.2.6 of Ind AS 109, Financial Instruments, an entity shall derecognize a financial asset when, and only when:\n\n(a) the contractual rights to the cash flows from the financial asset expire, or  \n(b) it transfers the financial asset or substantially all the risks and rewards of ownership of the financial asset to another party.\n\nIn the given case, since the trade receivables are appearing in the Balance Sheet of Natasha Ltd. as at 31st March 20X2 and are expected to be collected, the contractual rights to the cash flows have not expired.\n\nAs far as the transfer of the risks and rewards of ownership is concerned, the factoring arrangement needs to be viewed in its substance, rather than its legal form. Natasha Ltd. has transferred the receivables to Samantha Ltd. for cash of Rs.250 crores, and yet, it remains liable for making good any shortfall between Rs.250 crores and the amount collected by Samantha Ltd. Thus, in substance, Natasha Ltd. is effectively liable for the entire Rs.250 crores, although the shortfall would not be such an amount. Accordingly, Natasha Ltd. retains the credit risk despite the factoring arrangement entered.\n\nIt is also explicitly stated in the agreement that Samantha Ltd. would be liable to pay to Natasha Ltd. any amount collected more than Rs.250 crores, after retaining an amount towards interest. Thus, Natasha Ltd. retains the potential rewards of full settlement.\n\nA perusal of the above clearly shows that substantially all the risks and rewards continue to remain with Samantha Ltd., and hence, the trade receivables should continue to appear in the Balance Sheet of Natasha Ltd. The immediate payment (i.e. consideration as per the factoring agreement) of Rs.250 crores by Samantha Ltd. to Natasha Ltd. should be regarded as a financial liability, and be shown as such by Natasha Ltd. in its Balance Sheet.",
+          "chapter_number": "0",
+          "chapter_name": "CONCEPTUAL FRAMEWORK FOR FINANCIAL REPORTING",
+          "unique_id": "FR-OCR-P3_ConceptualFW"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "X Ltd. has identified 4 operating segments for which revenue data is given below:\n\n| Segment   | External Revenue (₹) | Internal Revenue (₹) | Total (₹) |\n|-----------|----------------------|----------------------|-----------|\n| Segment A | 30,00,000            | Nil                  | 30,00,000 |\n| Segment B | 6,50,000             | Nil                  | 6,50,000  |\n| Segment C | 8,50,000             | 1,00,000             | 9,50,000  |\n| Segment D | 5,00,000             | 49,00,000            | 54,00,000 |\n| Total Revenue | 50,00,000        | 50,00,000            | 1,00,00,000|\n\nAdditional information:\nSegment C is a new business unit and management expect this segment to make a significant contribution to external revenue in coming years.\n\nWhich of the segments would be reportable under the criteria identified in Ind AS 108?",
+          "answer": "Solution:\n\nThreshold amount is ₹ 10,00,000 (₹ 1,00,00,000 x 10%).\n\nSegment A exceeds the quantitative threshold (₹ 30,00,000 > ₹ 10,00,000) and hence reportable segment.\n\nSegment D exceeds the quantitative threshold (₹ 54,00,000 > ₹ 10,00,000) and hence reportable segment.\n\nSegment B & C do not meet the quantitative threshold amount and may not be classified as reportable segment.\n\nHowever, the total external revenue generated by these two segments A & D represent only 70% (₹ 35,00,000/50,00,000 x 100) of the entity's total external revenue. If the total external revenue reported by operating segments constitutes less than 75% of the entity total external revenue, additional operating segments should be identified as reportable segments until at least 75% of the revenue is included in reportable segments.\n\nIn case of X Ltd., it is given that Segment C is a new business unit and management expect this segment to make a significant contribution to external revenue in coming years. In accordance with the requirement of Ind AS 108, X Ltd. designates this start-up segment C as a reportable segment, making the total external revenue attributable to reportable segments 87% (₹ 43,50,000/50,00,000 x 100) of total entity revenues.\n\nIn this situation, Segments A, C and D will be reportable segments and Segment B will be shown as other segment.\n\nAlternatively, segment B can be considered as a reportable segment as well as it meets the definition of operating segment. If Segment B is considered as reportable segment:\n\nExternal revenue reported: ₹ 30,00,000 + ₹ 6,50,000 + ₹ 5,00,000 = ₹ 41,50,000\n\n% of Total External Revenue = ₹ 41,50,000 / ₹ 50,00,000 = 83%\n\nAccordingly, Segments A, B and D will be reportable segments and Segment C will be shown as other segment.",
+          "chapter_number": "17",
+          "chapter_name": "ACCOUNTING AND TECHNOLOGY",
+          "unique_id": "FILE-FR-P1-Q4b"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "3.2",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "ABC Ltd. changed its method adopted for inventory valuation in the year 20X2-20X3. Prior to the change, inventory was valued using the first in first out method (FIFO). However, it was felt that in order to match current practice and to make the financial statements more relevant and reliable, a weighted average valuation model would be more appropriate. The effect of the change in the method of valuation of inventory was as follows: • 31st March, 20X1 - Increase of ₹ 10 million • 31st March, 20X2 - Increase of ₹ 15 million • 31st March, 20X3 - Increase of ₹ 20 million Profit or loss under the FIFO valuation model are as follows:\n\n|                  | 20X2-20X3 | 20X1-20X2 |\n|------------------|-----------|-----------|\n| Revenue          | 324       | 296       |\n| Cost of goods sold | (173)     | (164)     |\n| Gross profit     | 151       | 132       |\n| Expenses         | (83)      | (74)      |\n| Profit           | 68        | 58        |\n\nRetained earnings at 31st March, 20X1 were ₹ 423 million\n\nPresent the change in accounting policy in the profit or loss and produce an extract of the statement of changes in equity in accordance with Ind AS 8",
+          "answer": "Profit or loss under weighted average valuation method is as follows:\n\n|                  | 20X2-20X3 | 20X1-20X2 (Restated) |\n|------------------|-----------|----------------------|\n| Revenue          | 324       | 296                  |\n| Cost of goods sold | (168)     | (159)                |\n| Gross profit     | 156       | 137                  |\n| Expenses         | (83)      | (74)                 |\n| Profit           | 73        | 63                   |\n\nStatement of changes in Equity (extract)\n\n|                           | Retained earnings | Retained earnings (Original) |\n|---------------------------|-------------------|------------------------------|\n| At 1st April, 20X1        | 423               | 423                          |\n| Change in inventory valuation policy | -10               | -                            |\n| At 1st April, 20X1 (Restated) | 433               | -                            |\n| Profit for the year 20X1-20X2 | 63                | 58                           |\n| At 31st March, 20X2       | 496               | 481                          |\n| Profit for the 20X2-20X3   | 73                | 68                           |\n| At 31st March, 20X3       | 569               | 549                          |",
+          "chapter_number": "3.2",
+          "chapter_name": "IND AS 34: INTERIM FINANCIAL REPORTING",
+          "unique_id": "FILE-FR-P1-Q5a"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Question 5 (MTP 4 Marks Mar'25)\n\nABC Inc., incorporated in a foreign country has a net worth of Rs.700 crores. It has two Indian subsidiaries X Ltd. whose net worth as on 31st March 2014 is Rs. 600 crores and Y Ltd. whose net worth is $Rs. 150$ crores. Whether X Ltd. and Y Ltd. would be required to follow Ind AS from the accounting period commencing on or after 1st April 2016 on the basis of their own net worth or on the basis of the net worth of ABC Inc.?",
+          "answer": "As per Rule 4(1)(ii)(a) of the Companies (Indian Accounting Standards) Rules, 2015, X Ltd. having net worth of Rs. 600 crores at the end of the financial year 2015-2016, would be required to prepare its financial statements for the accounting periods commencing from 1st April, 2016, as per the Companies (Indian Accounting Standards) Rules, 2015. While Y Ltd. having net worth of Rs. 150 crores in the year 2015-2016, would be required to prepare its financial statements as per the Companies (Accounting Standards) Rules, 2006.\n\nSince, the foreign company ABC Inc., is not a company incorporated under the Companies Act, 2013 or the earlier Companies Act, 1956, it is not required to prepare its financial statements as per the Companies (Indian Accounting Standards) Rules, 2015. As the foreign company is not required to prepare financial statements based on Ind AS, the net worth of foreign company ABC Inc. would not be the basis for deciding whether Indian Subsidiary X Ltd. and Y Ltd. are required to prepare financial statements based on Ind AS.",
+          "chapter_number": "1",
+          "chapter_name": "INTRODUCTION TO INDIAN ACCOUNTING STANDARDS",
+          "unique_id": "1-T-5"
+        }
+      ]
+    }
+  ]
+}

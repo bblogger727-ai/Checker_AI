@@ -1,0 +1,465 @@
+{
+  "meta": {
+    "subject_code": "FR",
+    "subject_name": "Financial Reporting",
+    "paper_num": 3,
+    "total_marks_printed": 100,
+    "total_marks_in_paper": 114,
+    "section_a_marks": 30,
+    "section_b_marks": 84,
+    "note": "Section B: Q1 compulsory (14m). Attempt any 4 of Q2-Q6 (14m each).",
+    "blacklisted_from": [
+      "Generated_Papers/FR/FR_Mock_Paper_1.json",
+      "Generated_Papers/FR/FR_Mock_Paper_2.json"
+    ]
+  },
+  "section_a": [
+    {
+      "type": "case_study",
+      "chapter_number": "17.1",
+      "chapter_name": "ACCOUNTING AND TECHNOLOGY",
+      "case_text": "## CS 1 (RTP May'24, Sep'25)\n\nFA Ltd. is a company which manufactures aircraft parts and engines and sells them to large multinational companies like Boeing and Airbus Industries. Following are the details of some of the transactions entered into by the company:\n\ni. On 1st April 20X2, the company began the construction of a new production line in its aircraft parts manufacturing shed.\n\n\nCosts relating to the production line are as follows:\n\n| Details | Amount ₹ |\n| :--- | :--- |\n| Costs of the basic materials (list price ₹ 12.5 lakhs less 20\\% trade discount) | 10.00 |\n| Recoverable goods and services tax incurred but not included in the purchase cost | 1.00 |\n| Employment costs of the construction staff for three months till 30th June 20X2 | 1.20 |\n| Other overheads directly related to the construction | 0.90 |\n| Payments to external advisors relating to the construction | 0.50 |\n| Expected dismantling and restoration costs | 2.00 |\n\n\nThe production line took two months to make ready for use and was brought into use on 31st May 20X2.\n\nThe other overheads were incurred during the two-month period ended on $31^{\\text {st }}$ May 20X2. They included an abnormal cost of ₹ 0.3 lakhs caused by a major electrical fault.\n\nThe production line is expected to have a useful economic life of eight years. After 8 years, FA Ltd. is legally required to dismantle the plant in a specified manner and restore its location to an acceptable standard. The amount of ₹ 2 lakhs included in the cost estimates is the amount that is expected to be incurred at the end of the useful life of the production line. The appropriate discount rate is $5 \\%$. The present value of ₹ 1 payable in 8 years at a discount rate of $5 \\%$ is approximately $₹ 0.68$.\n\nFour years after being brought into use, the production line will require a major overhaul to ensure that it generates economic benefits for the second half of its useful life. The estimated cost of the overhaul, at current prices, is ₹ 3 lakhs.\n\nNo impairment of the plant had occurred by 31st March 20X3.\n\nii. During the year ended 31st March 20X3, FA Ltd. provided consultancy services to a customer regarding the installation of a new production system related to aircraft parts. The system has caused the customer considerable problems, so the customer has taken legal action against the Company for the loss of profits that has arisen as a result of the problems with the system. The customer has claimed damages to the tune of ₹ 1.6 lakhs. The legal department of FA Ltd. considers that there is a $25 \\%$ chance the claim can be successfully defended. The legal department further stated that they are reasonably confident the Company is covered by insurance against these types of loss. The accountant feels nothing needs to be provided for this claim as the Company is suitably covered against any possible losses.\n\niii. FA Ltd. has an associate company, Flynet Limited. Following are the information of Flynet Limited for the year ended 31st March 20X3:\n\n\n| Particulars | ₹ in lakhs |\n| :--- | :--- |\n| Net Income after taxes | 120 |\n| Decrease in accounts receivables | 20 |\n| Depreciation | 25 |\n| Increase in inventory | 10 |\n| Increase in accounts payable | 7 |\n| Decrease in wages payable | 5 |\n| Tax charge for the year (deferred tax liabilities) | 15 |\n| Profit from sale of land | 2 |\n\n\nOn the basis of the facts given above, chose the most appropriate answer to Questions 1 to 5 below based on the relevant Indian Accounting Standards (Ind AS).\n\n\n1. Which of the following items need to be capitalized in determining the cost of Production Line?(Chapter 5.2 Ind AS 16 \"Property, Plant and Equipment\")\n\n(a) Abnormal cost of ₹ 0.3 lakhs\n\n(b) Recoverable GST of ₹ 1 lakhs\n\n(c) Initial estimate of the costs of dismantling and removing the item and restoration of site of ₹ 2 lakhs\n\n(d) Initial estimate of the costs of dismantling and removing the item and restoration of site of ₹ 1.36 lakhs\n\n## Ans:(d)\n\n\n2. Calculate the company's associate Flynet Ltd.'s cash flow from operations. (Chapter 3.3 Ind AS 7 \"Statement of Cash Flows\")\n\n(a) ₹ 158 lakhs\n\n(b) ₹ 170 lakhs\n\n(c) ₹ 174 lakhs\n\n(d) None of the above\n\n## Ans:(b)\n\n\n3. What accounting treatment should be done in FA Ltd.'s books for the year ending 31st March 20X3, as the customer has taken legal action against the Company on the loss of profits that has arisen as a result of the problems with the system?(Chapter 6.2 Ind AS 37 \"Provisions, Contingent Liabilities and Contingent Assets\")\n\n(a) Nothing needs to be provided for claim instituted by the customer as the Company is suitably covered against any possible losses.\n\n(b) Provision of ₹ 1.6 lakhs should be recognised with a corresponding charge to profit or loss.\n\n(c) Provision of ₹ 0.4 lakhs as per best possible outcome should be recognised with a corresponding charge to profit or loss.\n\n(d) Contingent Liability would be disclosed in the 31st March 20X3 financial statements. Charge to profit or loss if any would be recognised in the period when the claim is settled.\n\n## Ans:(b)\n\n\n4. Compute the total amount to be charged to the Statement of Profit and Loss with respect to Production Line for the year ending 31st March 20X3 and the balance of Provision for Dismantling Cost carried to Balance Sheet. (Chapter 5.2 Ind AS 16 \"Property, Plant and Equipment\")\n\n(a) ₹ 1.70 lakhs; ₹ 1.36 lakhs\n\n(b) ₹ 1.42 lakhs; ₹ 1.70 lakhs\n\n(c) ₹ 1.76 lakhs; ₹ 1.42 lakhs\n\n(d) ₹ 1.42 lakhs; ₹ 1.76 lakhs\n\n## Ans:(c)\n\n\n5. Compute the cost of the production Line to be capitalized initially on 31st May, 20X2. (Chapter 5.2 Ind AS 16 \"Property, Plant and Equipment\")\n\n(a) ₹ 13.26 lakhs\n\n(b) ₹ 14.60 lakhs\n\n(c) ₹ 13.96 lakhs\n\n(d) ₹ 15.76 lakhs\n\n\nAns:(a)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Which of the following items need to be capitalized in determining the cost of Production Line?(Chapter 5.2 Ind AS 16 \"Property, Plant and Equipment\")\n\n(a) Abnormal cost of ₹ 0.3 lakhs\n\n(b) Recoverable GST of ₹ 1 lakhs\n\n(c) Initial estimate of the costs of dismantling and removing the item and restoration of site of ₹ 2 lakhs\n\n(d) Initial estimate of the costs of dismantling and removing the item and restoration of site of ₹ 1.36 lakhs",
+          "options": {
+            "a": "Abnormal cost of ₹ 0.3 lakhs",
+            "b": "Recoverable GST of ₹ 1 lakhs",
+            "c": "Initial estimate of the costs of dismantling and removing the item and restoration of site of ₹ 2 lakhs",
+            "d": "Initial estimate of the costs of dismantling and removing the item and restoration of site of ₹ 1.36 lakhs"
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null,
+          "_serial": 1
+        },
+        {
+          "q_num": 2,
+          "question": "Calculate the company's associate Flynet Ltd.'s cash flow from operations. (Chapter 3.3 Ind AS 7 \"Statement of Cash Flows\")\n\n(a) ₹ 158 lakhs\n\n(b) ₹ 170 lakhs\n\n(c) ₹ 174 lakhs\n\n(d) None of the above",
+          "options": {
+            "a": "₹ 158 lakhs",
+            "b": "₹ 170 lakhs",
+            "c": "₹ 174 lakhs",
+            "d": "None of the above"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": 2
+        },
+        {
+          "q_num": 3,
+          "question": "What accounting treatment should be done in FA Ltd.'s books for the year ending 31st March 20X3, as the customer has taken legal action against the Company on the loss of profits that has arisen as a result of the problems with the system?(Chapter 6.2 Ind AS 37 \"Provisions, Contingent Liabilities and Contingent Assets\")\n\n(a) Nothing needs to be provided for claim instituted by the customer as the Company is suitably covered against any possible losses.\n\n(b) Provision of ₹ 1.6 lakhs should be recognised with a corresponding charge to profit or loss.\n\n(c) Provision of ₹ 0.4 lakhs as per best possible outcome should be recognised with a corresponding charge to profit or loss.\n\n(d) Contingent Liability would be disclosed in the 31st March 20X3 financial statements. Charge to profit or loss if any would be recognised in the period when the claim is settled.",
+          "options": {
+            "a": "Nothing needs to be provided for claim instituted by the customer as the Company is suitably covered against any possible losses.",
+            "b": "Provision of ₹ 1.6 lakhs should be recognised with a corresponding charge to profit or loss.",
+            "c": "Provision of ₹ 0.4 lakhs as per best possible outcome should be recognised with a corresponding charge to profit or loss.",
+            "d": "Contingent Liability would be disclosed in the 31st March 20X3 financial statements. Charge to profit or loss if any would be recognised in the period when the claim is settled."
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": 3
+        },
+        {
+          "q_num": 4,
+          "question": "Compute the total amount to be charged to the Statement of Profit and Loss with respect to Production Line for the year ending 31st March 20X3 and the balance of Provision for Dismantling Cost carried to Balance Sheet. (Chapter 5.2 Ind AS 16 \"Property, Plant and Equipment\")\n\n(a) ₹ 1.70 lakhs; ₹ 1.36 lakhs\n\n(b) ₹ 1.42 lakhs; ₹ 1.70 lakhs\n\n(c) ₹ 1.76 lakhs; ₹ 1.42 lakhs\n\n(d) ₹ 1.42 lakhs; ₹ 1.76 lakhs",
+          "options": {
+            "a": "₹ 1.70 lakhs; ₹ 1.36 lakhs",
+            "b": "₹ 1.42 lakhs; ₹ 1.70 lakhs",
+            "c": "₹ 1.76 lakhs; ₹ 1.42 lakhs",
+            "d": "₹ 1.42 lakhs; ₹ 1.76 lakhs"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": 4
+        },
+        {
+          "q_num": 5,
+          "question": "Compute the cost of the production Line to be capitalized initially on 31st May, 20X2. (Chapter 5.2 Ind AS 16 \"Property, Plant and Equipment\")\n\n(a) ₹ 13.26 lakhs\n\n(b) ₹ 14.60 lakhs\n\n(c) ₹ 13.96 lakhs\n\n(d) ₹ 15.76 lakhs",
+          "options": {
+            "a": "₹ 13.26 lakhs",
+            "b": "₹ 14.60 lakhs",
+            "c": "₹ 13.96 lakhs",
+            "d": "₹ 15.76 lakhs"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null,
+          "_serial": 5
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "17.1-CS-1"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "17.1",
+      "chapter_name": "ACCOUNTING AND TECHNOLOGY",
+      "case_text": "A Ltd. is a diversified business group operating in multiple business segments across different parts of the world. It maintains its books of accounts and publishes its annual consolidated financial statements under Indian Accounting Standards.\n\nThe central finance team has been working on closing the books of accounts and generating consolidated financial statements for the year ended 31st March 20X3. You are the Finance Controller and your assistants want your views on following transactions for finalization of financial statements:\n\n(i) B Ltd., one of the subsidiaries of A Ltd., reported net income of ₹ 25 lakhs, which equals the company's comprehensive income. The company has no outstanding debt. Following is the information from the comprehensive balance sheet (₹ in lakhs) related to cash flows:\n\n\n| Extract of Balance Sheet | 31.03.20X2 | 31.03.20X3 |\n| :--- | :--- | :--- |\n| Equity share capital | 100 | 100 |\n| Further issue of equity shares | 100 | 140 |\n| Retained earnings | 100 | 115 |\n| Total shareholders' equity | 300 | 357 |\n\n\n(ii) A Limited also operates in the travel industry and incurs costs unevenly through the financial year. Advertising costs of ₹ 40 lakhs were incurred on 1st July 20X2, and staff bonuses are paid at year- end based on sales. Staff bonuses are expected to be around ₹ 400 lakhs for the year; of that a sum of ₹ 60 lakhs would relate to the period ending 30th September 20X2.\n\n(iii) An item of equipment X was acquired by A Ltd. on 1st April 20X1 for ₹ 1,00,000 having an estimated useful life of 10 years, with a residual value of zero. The asset is depreciated on a straight -line basis. The asset was revalued to ₹ $1,04,000$ on 31st March 20X3.\n\n(iv) A Ltd. has spent $₹ 15,00,000$ in developing a new product during the year ended 31 st March, 20X3. The development costs incurred were recognised as an intangible asset as per Ind AS 38. For the purposes of computing the taxable income, these expenses are allowable in full in the year of incurring the expenses. At the year end, the Company recognised an impairment loss of ₹ 75,000 against the intangible asset.\n\n(v) The company has issued preference shares that are redeemable at the option of the holder. Three months before the end of the year, it was probable that the holders would require redemption.\n\nAnalyze the transactions mentioned above and choose the most appropriate option in the below questions 1 to 5 in line with relevant Ind AS:\n\n\n1. What cashflow should B Ltd. report, as financing activity in the statement of cash flows?(Chapter -3.3 Unit 3: Ind AS 7 \"Statement of Cash Flows\")\n\n(a) Issuance of equity shares ₹ 240 million; dividends paid ₹ 10 million\n\n(b) Issuance of equity shares ₹ 100 million; dividends paid ₹ 10 million\n\n(c) Issuance of equity shares ₹ 140 million; dividends paid ₹ 10 million\n\n(d) Issuance of equity shares ₹ 40 million; dividends paid ₹ 10 million\n\n\nAns:(d)\n\n2. With respect to point (ii), what costs should be included in the entity's financial report for the quarter ended 30th September 20X3? (Chapter - $\\mathbf{3 . 2}$ Unit 2: Ind AS 34 \"Interim Financial Reporting\")\n\n(a) Advertising costs ₹ 40 lacs; staff bonuses ₹ 100 lacs\n\n(b) Advertising costs ₹ 10 lacs; staff bonuses ₹ 100 lacs\n\n(c) Advertising costs ₹ 10 lacs: staff bonuses ₹ 60 lacs\n\n(d) Advertising costs ₹ 40 lacs; staff bonuses ₹ 60 lacs\n\n\nAns:(d)\n\n3. What will be the annual depreciation charge on equipment $X$ for years 3 to 10 and the amount of the revaluation surplus that can be transferred to retained earnings annually?(Chapter - 5.2 Unit 2: Ind AS $\\mathbf{1 6}$ \"Property, Plant and Equipment\")\n\n(a) Annual depreciation charge will be $₹ 10,000$ and an annual transfer of $₹ 3,000$ can be made from revaluation surplus to retained earnings.\n\n(b) Annual depreciation charge will be ₹ 10,000 , however, annual transfer from revaluation surplus to retained earnings is not permitted.\n\n(c) Annual depreciation charge will be $₹ 13,000$ and an annual transfer of $₹ 3,000$ may be made from revaluation surplus to retained earnings.\n\n(d) Annual depreciation charge will be ₹ 13,000 , however, annual transfer from revaluation surplus to retained earnings is not permitted.\n\n\n## Ans:(c)\n\n4. With respect to point (iii), What is the tax base of the intangible asset?(Chapter -5.5 Unit 5 : Ind AS 38 \"Intangible Assets\")\n\n(a) ₹ $15,00,000$\n\n(b) ₹ 75,000\n\n(c) $₹ 14,25,000$\n\n(d) $₹ 0$\n\n\nAns:(d)\n\n5. Which one of the following is the appropriate classification for the annual payment of ₹ 12,000 to preference shareholders at year-end? (Chapter 11: Accounting and Reporting of Financial Instruments)\n\n(a) Dividend ₹ 12,000\n\n(b) Interest expense ₹ 12,000\n\n(c) Dividend ₹ 3,000 , interest expense ₹ 9,000\n\n(d) Dividend ₹ 9,000 , interest expense ₹ 3,000\n\n\nAns:(b)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "What cashflow should B Ltd. report, as financing activity in the statement of cash flows?(Chapter -3.3 Unit 3: Ind AS 7 \"Statement of Cash Flows\")",
+          "options": {
+            "a": "Issuance of equity shares ₹ 240 million; dividends paid ₹ 10 million",
+            "b": "Issuance of equity shares ₹ 100 million; dividends paid ₹ 10 million",
+            "c": "Issuance of equity shares ₹ 140 million; dividends paid ₹ 10 million",
+            "d": "Issuance of equity shares ₹ 40 million; dividends paid ₹ 10 million"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null,
+          "_serial": 6
+        },
+        {
+          "q_num": 2,
+          "question": "With respect to point (ii), what costs should be included in the entity's financial report for the quarter ended 30th September 20X3? (Chapter - $\\mathbf{3 . 2}$ Unit 2: Ind AS 34 \"Interim Financial Reporting\")",
+          "options": {
+            "a": "Advertising costs ₹ 40 lacs; staff bonuses ₹ 100 lacs",
+            "b": "Advertising costs ₹ 10 lacs; staff bonuses ₹ 100 lacs",
+            "c": "Advertising costs ₹ 10 lacs: staff bonuses ₹ 60 lacs",
+            "d": "Advertising costs ₹ 40 lacs; staff bonuses ₹ 60 lacs"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null,
+          "_serial": 7
+        },
+        {
+          "q_num": 3,
+          "question": "What will be the annual depreciation charge on equipment $X$ for years 3 to 10 and the amount of the revaluation surplus that can be transferred to retained earnings annually?(Chapter - 5.2 Unit 2: Ind AS $\\mathbf{1 6}$ \"Property, Plant and Equipment\")",
+          "options": {
+            "a": "Annual depreciation charge will be $₹ 10,000$ and an annual transfer of $₹ 3,000$ can be made from revaluation surplus to retained earnings.",
+            "b": "Annual depreciation charge will be ₹ 10,000 , however, annual transfer from revaluation surplus to retained earnings is not permitted.",
+            "c": "Annual depreciation charge will be $₹ 13,000$ and an annual transfer of $₹ 3,000$ may be made from revaluation surplus to retained earnings.",
+            "d": "Annual depreciation charge will be ₹ 13,000 , however, annual transfer from revaluation surplus to retained earnings is not permitted."
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": 8
+        },
+        {
+          "q_num": 4,
+          "question": "With respect to point (iii), What is the tax base of the intangible asset?(Chapter -5.5 Unit 5 : Ind AS 38 \"Intangible Assets\")",
+          "options": {
+            "a": "₹ $15,00,000$",
+            "b": "₹ 75,000",
+            "c": "$₹ 14,25,000$",
+            "d": "$₹ 0$"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null,
+          "_serial": 9
+        },
+        {
+          "q_num": 5,
+          "question": "Which one of the following is the appropriate classification for the annual payment of ₹ 12,000 to preference shareholders at year-end? (Chapter 11: Accounting and Reporting of Financial Instruments)",
+          "options": {
+            "a": "Dividend ₹ 12,000",
+            "b": "Interest expense ₹ 12,000",
+            "c": "Dividend ₹ 3,000 , interest expense ₹ 9,000",
+            "d": "Dividend ₹ 9,000 , interest expense ₹ 3,000"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": 10
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "17.1-CS-5"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "17.1",
+      "chapter_name": "ACCOUNTING AND TECHNOLOGY",
+      "case_text": "## CS 30 <br> (PYP 10 Marks May'25)\n\n\nSavita Limited, a public listed company, is engaged in various types of manufacturing and retail activities. It is also engaged in the real estate business. You are provided with the following information:\n\n(i) Savita Limited had the following closing stock of raw material as on 31.03.2026:\n\n\n| Item | Quantity (No.) | Cost(₹ per pc) | Estimated Selling Price <br> (₹ per pc) | Selling Cost <br> (₹ per pc) |\n| :--- | ---: | ---: | ---: | ---: |\n| Wooden Boards | 1000 | 88 | 110 | 5 |\n| Iron rods | 300 | 458 | 495 | 46 |\n\n\n(ii) On 1st June, 2023, Savita Ltd. purchased land at Kota for ₹ 1,45,60,000 whose future use was not determined. It remained vacant for more than two years. On 30th September, 2025, the fair value of the property was ₹ $1,60,80,000$ and on the same date Savita Ltd. began to convert the property into twenty separate flats of equal size which it intended to sell in the ordinary course of its business. Savita Ltd. spent a total of $₹ 1,82,68,000$ on this conversion project till 31 st March, 2026. The project was incomplete as on 31st March, 2026, and it was estimated that Savita Ltd. need to spend further ₹ $94,00,000$ to complete the project, after which each flat could be sold for ₹ 20,00,000.\n\n(iii) Savita Ltd. developed a new drug that was in the final phase of clinical trials. Beta Ltd. had an equity investment in Savita Ltd.'s shares. Beta Ltd. determined that the shares had a readily determinable fair value and accounted for the investment at fair value through profit and loss. On 31st March, 2026, the drug approval authority notified Savita Ltd.'s management that the drug was not approved. Savita Ltd.'s share closed at ₹ 112 on 31st March, 2026. Savita Ltd. issued a press release after markets closed on 31st March, 2026 announcing the failed clinical trial. Savita Ltd.'s share opened on the next working day at ₹ 85.\n\n(iv) Omega Ltd. is one of the associate companies of Savita Ltd. Omega Ltd. provided you with the following information for the year ended 31st March, 2026:\n\n\n| Particulars | ₹ Crores |\n| :--- | :--- |\n| Net Profit after taxes | 93.4 |\n| Decrease in accounts receivables | 42.5 |\n| Depreciation | 24.9 |\n| Increase in inventory | 31.3 |\n| Increase in accounts payable | 12.7 |\n| Decrease in wages payable | 5.7 |\n| Increase in deferred tax asset | 1.5 |\n| Tax paid | 21.8 |\n| Profit from sale of land | 3.4 |\n| Sale of land | 85.2 |\n\n\nOn the basis of the information provided above, you are required to choose the most appropriate answer to the below mentioned questions 1 to 5 in line with the relevant Ind AS.\n\n1. The value of closing inventory of raw material as on 31st March 2026 is:( Chapter 5.1: Ind AS 2 \"Inventories\")\n\n(a) ₹ $2,22,700$\n\n(b) ₹ $2,39,700$\n\n(c) ₹ $2,25,400$\n\n(d) ₹ $2,41,500$\n\n\nAns: (a)\n\n2. What is the classification of land at Kota as on 31st March 2025? (Chapter 5.6: Ind AS 40 \"Investment Property\")\n\n(a) Property, Plant \\& Equipment\n\n(b) Investment Property\n\n(c) Inventory\n\n(d) Not required to be disclosed in Books\n\n\nAns: (b)\n\n3. Compute the value of flats to be disclosed in the financial statements for the year ended 31st March, 2026. (Chapter 5.2: Ind AS 16 \"Property, Plant and Equipment\")\n\n(a) ₹ $3,43,48,000$\n\n(b) ₹ $3,28,28,000$\n\n(c) ₹ $3,06,00,000$\n\n(d) ₹ $4,22,28,000$\n\n\nAns: (c)\n\n4. Assertion (I): Beta Ltd. will record the share at ₹ 85 and disclose the investment as Level 2 measurement as per Ind AS 113 as on 31st March 2026.\n\nReason (II): Level 2 inputs are quoted prices (unadjusted) in active markets for identical assets or\nliabilities that the entity can access at the measurement date. (Chapter 4.3: Ind AS 113 \"Fair Value Measurement\")\n\n(a) Both (I) \\& (II) are true and (II) is the correct explanation of (I).\n\n(b) Both (I) \\& (II) are true but (II) is not the correct explanation of (I).\n\n(c) (I) is true but (II) is false.\n\n(d) (I) is false but (II) is true.\n\n\nAns: (c)\n\n5. Omega Ltd.'s cash flow from Operations for financial year 2025-2026 is:( Chapter 3.3: \"Statement of Cash Flows\")\n\n(a) ₹ 135.0 Crores\n\n(b) ₹ 216.8 Crores\n\n(c) ₹ 131.6 Crores\n\n(d) ₹ 109.8 Crores\n\n\nAns: (c)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "The value of closing inventory of raw material as on 31st March 2026 is:( Chapter 5.1: Ind AS 2 \"Inventories\")",
+          "options": {
+            "a": "₹ $2,22,700$",
+            "b": "₹ $2,39,700$",
+            "c": "₹ $2,25,400$",
+            "d": "₹ $2,41,500$"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "_serial": 11
+        },
+        {
+          "q_num": 2,
+          "question": "What is the classification of land at Kota as on 31st March 2025? (Chapter 5.6: Ind AS 40 \"Investment Property\")",
+          "options": {
+            "a": "Property, Plant \\& Equipment",
+            "b": "Investment Property",
+            "c": "Inventory",
+            "d": "Not required to be disclosed in Books"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": 12
+        },
+        {
+          "q_num": 3,
+          "question": "Compute the value of flats to be disclosed in the financial statements for the year ended 31st March, 2026. (Chapter 5.2: Ind AS 16 \"Property, Plant and Equipment\")",
+          "options": {
+            "a": "₹ $3,43,48,000$",
+            "b": "₹ $3,28,28,000$",
+            "c": "₹ $3,06,00,000$",
+            "d": "₹ $4,22,28,000$"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": 13
+        },
+        {
+          "q_num": 4,
+          "question": "Assertion (I): Beta Ltd. will record the share at ₹ 85 and disclose the investment as Level 2 measurement as per Ind AS 113 as on 31st March 2026.\nReason (II): Level 2 inputs are quoted prices (unadjusted) in active markets for identical assets or\nliabilities that the entity can access at the measurement date. (Chapter 4.3: Ind AS 113 \"Fair Value Measurement\")",
+          "options": {
+            "a": "Both (I) \\& (II) are true and (II) is the correct explanation of (I).",
+            "b": "Both (I) \\& (II) are true but (II) is not the correct explanation of (I).",
+            "c": "(I) is true but (II) is false.",
+            "d": "(I) is false but (II) is true."
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": 14
+        },
+        {
+          "q_num": 5,
+          "question": "Omega Ltd.'s cash flow from Operations for financial year 2025-2026 is:( Chapter 3.3: \"Statement of Cash Flows\")",
+          "options": {
+            "a": "₹ 135.0 Crores",
+            "b": "₹ 216.8 Crores",
+            "c": "₹ 131.6 Crores",
+            "d": "₹ 109.8 Crores"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": 15
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "17.1-CS-30"
+    }
+  ],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": true,
+      "total_marks": 14,
+      "chapter_number": "12",
+      "sub_questions": [
+        {
+          "label": "—",
+          "marks": 14,
+          "internal_split": null,
+          "question": "Question 12 (PYP 14 Marks, Dec'21, MTP 14 Marks Mar'23)\n\nSun Limited and Moon Limited amalgamated from 1st April, 20X1. A new company Sunmoon Limited with shares of Rs. 10 each was formed to take over the businesses of the existing companies.\n\nSummarised Balance Sheet as on 31st March, 20X1\n\n| Particulars | Note No. | Sun Limited (Rs.) | Moon Limited (Rs.) |\n| :--- | :--- | :--- | :--- |\n| ASSETS |  |  |  |\n| Non-current assets |  |  |  |\n| Property, plant and equipment |  | 1,70,00,000 | 1,50,00,000 |\n| Financial assets |  |  |  |\n| Investment |  | 21,00,000 | 11,00,000 |\n| Current assets |  |  |  |\n| Inventory |  | 25,00,000 | 55,00,000 |\n| Financial assets |  |  |  |\n| Trade receivables |  | 36,00,000 | 80,00,000 |\n| Cash and cash equivalent |  | 9,00,000 | 8,00,000 |\n| Total |  | 2,61,00,000 | 3,04,00,000 |\n| EQUITY AND LIABILITIES |  |  |  |\n| Equity |  |  |  |\n| Equity share capital (FV Rs. 10 each) | 1 | 1,20,00,000 | 1,40,00,000 |\n| Other equity |  | 61,00,000 | 54,00,000 |\n| Liabilities |  |  |  |\n| Non-current liabilities |  |  |  |\n| Financial liabilities |  |  |  |\n| Borrowings (12\\% Debentures) |  | 60,00,000 | 80,00,000 |\n| Current liabilities |  |  |  |\n| Financial liabilities |  |  |  |\n| Trade payables |  | 20,00,000 | 30,00,000 |\n| Total |  | 2,61,00,000 | 3,04,00,000 |\n\n\nNotes to Accounts:\n\n|  | Sun Limited Rs. | Moon Limited Rs. |\n| :--- | :--- | :--- |\n| Other equity |  |  |\n| General reserve | 30,00,000 | 40,00,000 |\n| Profit & Loss | 20,00,000 | 10,00,000 |\n| Investment allowance reserve | 10,00,000 | 2,00,000 |\n| Export profit reserve | 1,00,000 | 2,00,000 |\n|  | 61,00,000 | 54,00,000 |\n\n\nSunmoon Limited issued requisite number of shares to discharge the claims of the equity shareholders of the transferor companies. Also, the new debentures were issued in exchange of the old series of both the companies.\n\nCompute purchase consideration and advice discharge thereof by preparing a note and draft the Balance Sheet of Sunmoon Limited assuming that Sun Limited and Moon Limited are not under common control and management of larger entity out of Sun Limited and Moon Limited will take over the control of the entity Sunmoon Limited.\n\nThe fair value of net assets as at 31st March, 20X1 of Sun Limited and Moon Limited are as follows:\n\n| Assets | Sun Limited $Rs.$ | Moon Limited $Rs.$ |\n| :--- | ---: | ---: |\n| Property, Plant and Equipment | $1,90,00,000$ | $1,70,00,000$ |\n| Inventory | $26,00,000$ | $58,00,000$ |\n| Fair value of the Business | $2,20,00,000$ | $2,80,00,000$ |",
+          "answer": "1. Determination of larger entity out of Sun Ltd. and Moon Ltd.\n\nThe management of a larger entity (out of Sun Limited and Moon Limited) will take the control of the Sunmoon Ltd. Since, here Sun Ltd. and Moon Ltd. are not under common control and hence accounting prescribed under Ind AS 103 for business combination will be applied. As per the accounting guidance provided in Ind AS 103, sometimes the legal acquirer may not be the accounting acquirer. In the given scenario although Sunmoon Ltd. is issuing the shares but management of a larger entity out of Sun Ltd. and Moon Ltd. will have control of Sunmoon Ltd.\n\nThis can be determined by the following table:\n\n|  |  |  | (Rs.) |\n| :--- | :--- | :--- | :--- |\n|  |  | Sun Ltd. | (Rs.) |\n| Fair Value | A | 2,20,00,000 | 2,80,00,000 |\n| Value per share | B | 10 | 10 |\n| Number of shares | $A / B=C$ | 22,00,000 | 28,00,000 |\n| Total number of shares in Sunmoon Ltd. will be $50,00,000$ shares (22,00,000 + 28,00,000) |  |  |  |\n| Thus, \\% held by each company in Sunmoon Ltd. | $[(\\mathrm{C} / 50,00,000) \\times 100]$ | 44\\% | 56\\% |\n\n\nNote: It is a case of Reverse Acquisition. Since post-merger, Moon Ltd. is bigger in size which is a clear indicator that Moon Ltd. will have control of Sunmoon Ltd. and will be considered as an accounting acquirer. Accordingly, Moon Ltd.'s assets and liabilities will be recorded at historical cost in the merged financial statements.\n\n\n2. Computation of Purchase Consideration and the manner in which it will be discharged\n\nNumber of shares to be issued by Moon Ltd. to Sun Ltd. to maintain the same percentage i.e. $56 \\%$ Since $14,00,000$ shares of Moon Ltd. (given in the balance sheet) represent $56 \\%$, the total number of shares would be $25,00,000$ shares $(14,00,000$ shares $/ 56 \\%)$.\n\nThis implies Moon Ltd. would need to issue $11,00,000$ shares $(25,00,000-14,00,000)$ to Sun Ltd. Purchase Consideration $=11,00,000$ shares $x Rs. 20$ per share (i.e. $2,80,00,000 / 14,00,000$ shares) $=Rs. 2,20,00,000$.\n\n\n3. Balance Sheet of Sunmoon Ltd. as on 1.4.20X1\n\n| ASSETS | Note No. | Amount Rs. |\n| :--- | :--- | :--- |\n| Non-current assets |  |  |\n| Property, Plant and Equipment (1,90,00,000 + 1,50,00,000) |  | 3,40,00,000 |\n| Goodwill (Refer Working Note) |  | 18,00,000 |\n| Financial assets |  |  |\n| Investment (21,00,000 + 11,00,000) |  | 32,00,000 |\n| Current assets |  |  |\n| Inventory ( $26,00,000+55,00,000$ ) |  | 81,00,000 |\n| Financial assets |  |  |\n| Trade receivables ( $36,00,000+80,00,000$ ) |  | 1,16,00,000 |\n| Cash and Cash equivalent ( $9,00,000+8,00,000$ ) |  | 17,00,000 |\n|  |  | $\\underline{6,04,00,000}$ |\n| EQUITY AND LIABILITIES |  |  |\n| Equity |  |  |\n| Equity share capital (of face value of Rs. 10 each) | 1 | 2,50,00,000 |\n| :--- | :--- | :--- |\n| Other equity | 2 | 1,64,00,000 |\n| Liabilities |  |  |\n| Non-current liabilities |  |  |\n| Financial liabilities |  |  |\n| Borrowings (12\\% Debentures)(60,00,000 + 80,00,000) | 3 | 1,40,00,000 |\n| Current liabilities |  |  |\n| Financial liabilities |  |  |\n| Trade payables (20,00,000 + 30,00,000) |  | 50,00,000 |\n|  |  | $\\underline{6,04,00,000}$ |\n\n\n## Notes to Accounts\n\n|  |  | (Rs.) | (Rs.) |\n| :--- | :--- | :--- | :--- |\n| 1. | Share Capital |  |  |\n|  | 25,00,000 Equity Shares of Rs. 10 each (14,00,000 to Moon Ltd. and $11,00,000$ as computed above, to Sun Ltd.) |  | 2,50,00,000 |\n| 2. | Other Equity |  |  |\n|  | General reserve of Moon Ltd. | 40,00,000 |  |\n|  | Profit and loss of Moon Ltd. | 10,00,000 |  |\n|  | Export profit reserve of Moon Ltd. | 2,00,000 |  |\n|  | Investment allowance reserve of Moon Ltd. | 2,00,000 |  |\n|  | Security premium (11,00,000 shares $\\mathrm{x} Rs. 10$ ) | $\\underline{1,10,00,000}$ | 1,64,00,000 |\n| 3. | Long Term Borrowings |  |  |\n|  | 12\\% Debentures |  | 1,40,00,000 |\n\n\n## Working Note:\n\nComputation of Goodwill\n\n| Assets: | ![](https://cdn.mathpix.com/cropped/853341ad-3577-419a-92e2-37f7ae5420f3-25.jpg?height=87&width=829&top_left_y=2353&top_left_x=1444) |  | Rs. |\n| :--- | :--- | :--- | :--- |\n| Property, plant and equipment |  |  | 1,90,00,000 |\n| Investment |  |  | 21,00,000 |\n| Inventory |  |  | 26,00,000 |\n| Trade receivables |  |  | 36,00,000 |\n| Cash & cash equivalent |  |  | 9,00,000 |\n| Total assets |  |  | 2,82,00,000 |\n| Less: Liabilities: |  |  |  |\n| Borrowings (12\\% Debentures) |  |  | (60,00,000) |\n| Trade payables |  |  | (20,00,000) |\n| Net assets | A |  | 2,02,00,000 |\n| Purchase consideration | B |  | $\\underline{2,20,00,000}$ |\n| Goodwill | (B-A) |  | 18,00,000 |",
+          "chapter_number": "12",
+          "chapter_name": "Ind AS 103 \"Business Combinations\""
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "11",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "## Question 11 (PYP 5 Marks, May'23)\n\nVivi Limited, which is a fully owned subsidiary company of Strong Limited approached Strong Limited for an interest free loan for mitigation of its financial difficulties. Strong Limited provided the loan to Vivi Limited on the following terms & conditions\n\n| Nature of loan | Interest Free |\n| :--- | :--- |\n| Amount of loan | Rs. 60,00,000 |\n| Date of disbursement of loan | 1st April, 2023 |\n| Loan period | 3 years |\n| Loan repayable by Vivi Ltd. | On 31st March, 2026 |\n| Market rate of interest for similar loan | 8% (both for holding and subsidiary) per annum |\n| P.V. factor of Rs. 1 at the end of 3rd year at 8% per annum is | 0.7938 |\n\nAssuming that there are no transaction costs, you are required to pass necessary accounting entries in the books of Weak Limited for all the three years.",
+          "answer": "## Answer 11\n\nAccounting in the books of Vivi Ltd (Subsidiary)\n\n| Date | Particulars | Amount | Amount |\n| :---: | :--- | :---: | :---: |\n|  | On the date of loan |  |  |\n| 1.4.2023 | Bank A/c Dr. | 60,00,000 |  |\n|  | To Loan from Strong Ltd. (Payable) |  | 47,62,800 |\n|  | To Equity (Deemed capital contribution from ABC Ltd.) (Being the loan taken from Strong Ltd. recognised at fair value) |  | 12,37,200 |\n| 31.3.2025 | At the end of Year 1 |  |  |\n|  | Interest expense (Finance cost) Dr. | 3,81,024 |  |\n|  | To Loan from Strong Ltd. (Payable) (Being interest expense recognised) |  | 3,81,024 |\n| 31.3.2025 | At the end of Year 2 |  |  |\n|  | Interest expense (Finance cost) Dr. | 4,11,506 |  |\n|  | To Loan from Strong Ltd. (Payable) (Being interest expense recognised) |  | 4,11,506 |\n| 31.3.2026 | At the end of Year 3 |  |  |\n|  | Interest expense (Finance cost) Dr. | 4,44,670* |  |\n|  | To Loan from Strong Ltd. (Payable) (Being interest expense recognised) |  | 4,44,670 |\n| 31.3.2026 | On repayment of loan |  |  |\n|  | Loan from Strong Ltd. (Payable) Dr. | 60,00,000 |  |\n|  | To Bank A/c (Being loan repaid by Weak Ltd.) |  | 60,00,000 |\n\n## Working Notes:\n\n1. Present Value of Loan $=Rs. 60,00,000 \\times 0.7938=Rs. 47,62,800$\n\n2. Amortisation table for computation of interest:\n\n| Year end | Opening balance (1) | Interest @ 8% (2) | Repayment (3) | Closing balance (1) + (2) - (3) |\n| :--- | :--- | :--- | :--- | :--- |\n| 1 | 47,62,800.00 | 3,81,024.00 | - | 51,43,824.00 |\n| 2 | 51,43,824.00 | 4,11,506.00 | - | 55,55,330.00 |\n| 3 | 55,55,330.00 | 4,44,670.00* | 60,00,000.00 | - |",
+          "chapter_number": "11",
+          "chapter_name": "ACCOUNTING AND REPORTING OF FINANCIAL INSTRUMENTS",
+          "unique_id": "11-T-11"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "As at 31st March 20X2, Natasha Ltd. carried trade receivables of ₹280 crores in its balance sheet. At that date, Natasha Ltd. entered into a factoring agreement with Samantha Ltd., a financial institution, according to which it transferred the trade receivables in exchange for an immediate cash payment of ₹250 crores. As per the factoring agreement, any shortfall between the amount collected and ₹250 crores will be reimbursed by Natasha Ltd. to Samantha Ltd. Once the trade receivables have been collected, any amounts above ₹250 crores, less interest on this amount, will be repaid to Natasha Ltd. The directors of Natasha Ltd. are of the opinion that the trade receivables should be derecognized. You are required to explain the appropriate accounting treatment of this transaction in the financial statements for the year ending 31st March 20X2, and also evaluate this transaction in the context of the Conceptual Framework.",
+          "answer": "Trade Receivables fall within the ambit of financial assets under Ind AS 109, Financial Instruments. Thus, the issue in question is whether the factoring arrangement entered into with Samantha Ltd. requires Natasha Ltd. to derecognize the trade receivables from its financial statements.\n\nAs per Para 3.2.3, 3.2.4, 3.2.5 and 3.2.6 of Ind AS 109, Financial Instruments, an entity shall derecognize a financial asset when, and only when:\n\n(a) the contractual rights to the cash flows from the financial asset expire, or  \n(b) it transfers the financial asset or substantially all the risks and rewards of ownership of the financial asset to another party.\n\nIn the given case, since the trade receivables are appearing in the Balance Sheet of Natasha Ltd. as at 31st March 20X2 and are expected to be collected, the contractual rights to the cash flows have not expired.\n\nAs far as the transfer of the risks and rewards of ownership is concerned, the factoring arrangement needs to be viewed in its substance, rather than its legal form. Natasha Ltd. has transferred the receivables to Samantha Ltd. for cash of ₹250 crores, and yet, it remains liable for making good any shortfall between ₹250 crores and the amount collected by Samantha Ltd. Thus, in substance, Natasha Ltd. is effectively liable for the entire ₹250 crores, although the shortfall would not be such an amount. Accordingly, Natasha Ltd. retains the credit risk despite the factoring arrangement entered.\n\nIt is also explicitly stated in the agreement that Samantha Ltd. would be liable to pay to Natasha Ltd. any amount collected more than ₹250 crores, after retaining an amount towards interest. Thus, Natasha Ltd. retains the potential rewards of full settlement.\n\nA perusal of the above clearly shows that substantially all the risks and rewards continue to remain with Samantha Ltd., and hence, the trade receivables should continue to appear in the Balance Sheet of Natasha Ltd. The immediate payment (i.e. consideration as per the factoring agreement) of ₹250 crores by Samantha Ltd. to Natasha Ltd. should be regarded as a financial liability, and be shown as such by Natasha Ltd. in its Balance Sheet.",
+          "chapter_number": "0",
+          "chapter_name": "CONCEPTUAL FRAMEWORK FOR FINANCIAL REPORTING",
+          "unique_id": "FR-OCR-P3_ConceptualFW"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "In the year 20X1-20X2, one land was sold for Rs. 5 crore and another land purchased for Rs. 3 crore by XYZ Limited. Company reported Cash Flow on a Net Basis in Cash Flow Statement i.e. Rs. 2 crore in Investing Activity as Cash receipt from Sale of Land. Advise whether treatment given as above is correct or not as per the provisions of Ind AS 7. Also, calculate the cash from operations by indirect method from the following information:\n\nOperating Statement of XYZ Limited for the year ended 31 ${ }^{\\text {st }}$ March, 20X2\n\n| Particulars | Rs. |\n| :--- | :--- |\n| Sales | 20,00,000 |\n| Less: Cost of goods sold | (14,00,000) |\n| Administration & selling overheads | (2,20,000) |\n| Depreciation | $(28,000)$ |\n| Interest paid | $(12,000)$ |\n| Loss on sale of asset | $(8,000)$ |\n| Profit before tax | 3,32,000 |\n| Less: Tax | (1,20,000) |\n| Profit after tax | 2,12,000 |\n\nBalance Sheet as on 31st March\n\n|  | 20X2 (Rs.) | 20X1 (Rs.) |\n| :--- | :--- | :--- |\n| Assets |  |  |\n| Non-current assets |  |  |\n| Property, plant and equipment | 3,00,000 | 2,60,000 |\n| Investment | 48,000 | 40,000 |\n| Current assets |  |  |\n| Inventories | 48,000 | 52,000 |\n| Trade receivables | 40,000 | 28,000 |\n| Cash and cash equivalents | 24,000 | 20,000 |\n| Total | 4,60,000 | 4,00,000 |\n| Equity and liabilities |  |  |\n| Shareholders' funds | 2,40,000 | 2,00,000 |\n| Non-current Liabilities | 1,32,000 | 1,40,000 |\n| Current liabilities |  |  |\n| Trade payables | 48,000 | 32,000 |\n| :---: | ---: | ---: |\n| Expenses payables | 40,000 | 28,000 |\n| Total | $4,60,000$ | $4,00,000$ |",
+          "answer": "(i) Correct treatment of cash flow:\n\nIf nothing is specifically mentioned, then as per Ind AS 7, the cash flows will be presented on gross basis. Gross basis means the receipts would be shown separately and the payments will be shown separately. Accordingly, in the year 20X1-20X2, while presenting the information, entity will show separately cash outflow from investing activity of Rs. 3 crore for purchase of land and cash inflow from investing activity of Rs. 5 crore from sale of land.\n\n(ii) Cash flow from Operations by Indirect Method\n\n|  | Rs. |\n| :--- | :--- |\n| Profit After Tax | 2,12,000 |\n| Add back / (Less): Depreciation | 28,000 |\n| Interest paid | 12,000 |\n| Loss on sale of an asset | $\\underline{8,000}$ |\n|  | 2,60,000 |\n| Adjustments for changes in inventory and operating receivables and payables |  |\n| Decrease in inventory | 4,000 |\n| Increase in trade receivables | $(12,000)$ |\n| Increase in trade payables | 16,000 |\n| Increase in expenses payables | 12,000 |\n| Net cash generated from operating activity | $\\underline{2,80,000}$ |",
+          "chapter_number": "3.3",
+          "chapter_name": "IND AS 7: STATEMENT OF CASH FLOWS"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "6",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "A post-employment medical plan reimburses 10 percent of an employee's post- employment medical costs if the employee leaves after more than ten and less than twenty years of service and 50 per cent of those costs if the employee leaves after twenty or more years of service. Determine how will the benefit be attributed to the years of service. (MTP 4 Marks Mar'25)",
+          "answer": "1. Service in later years will lead to a materially higher level of benefit than in earlier year. So, for employees expected to leave after 20 or more years, the entity should attribute benefit on a straight-line basis under Para 71. Service beyond 20 years will lead to no material amount of further benefits. So, the benefit attributed to each of the first 20 years will be $2.5 \\%$ of the Present Value of the Expected Medical Costs ( $50 \\% \\div 20$ years).\n\n2. For employees expected to leave between 10 and 20 years, the benefit attributed to each of the first 10 years is $1 \\%(10 \\% \\div 10$ years) of the Present Value of the expected medical costs. For these employees, no benefit is attributed to service between the end of the tenth year and the estimated date of leaving.\n\n3. For employees expected to leave within ten years, no benefit is attributed.\n\n4. The Current Service Cost in each year reflects the probability that the employee may not complete the necessary period of service to earn part or all of the benefits.",
+          "chapter_number": "6.1",
+          "chapter_name": "IND AS 19: EMPLOYEE BENEFITS",
+          "unique_id": "6.1-T-1"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "On 1st June, 20X1, entity X plans to sell a group of assets and liabilities, which is classified as a disposal group. On 31st July, 20X1, the Board of Directors approves and becomes committed to the plan to sell the manufacturing unit by entering into a firm purchase commitment with entity Y. However, since the manufacturing unit is regulated, the approval from the regulator is needed for sale. The approval from the regulator is customary and highly probable to be received by 30th November, 20X1 and the sale is expected to be completed by 31st March, 20X2. Entity X follows December year end.\n\nThe assets and liabilities attributable to this manufacturing unit are as under:\n\nParticulars                     | Carrying value as on 31st December, 20X0 | Carrying value as on 31st July, 20X1\n---------------------------------|-------------------------------------------|-------------------------------------\nGoodwill                         | 500                                       | 500\nPlant and Machinery              | 1,000                                     | 900\nBuilding                         | 2,000                                     | 1,850\nDebtors                          | 850                                       | 1,050\nInventory                        | 700                                       | 400\nCreditors                        | (300)                                     | (250)\nLoans                            | (2,000)                                   | (1,850)\n---------------------------------|-------------------------------------------|-------------------------------------\nTotal                            | 2,750                                     | 2,600\n\nThe fair value of the manufacturing unit as on 31st December, 20X1 is ₹ 2,000 and as on 31st July, 20X1 is ₹ 1,850. The disposal group is not sold at the period end, 31st December. The fair value as on 31st December, 20X1 is lower than the carrying value of the disposal group as on that date.\n\nRequired:\n1. Assess whether the manufacturing unit can be classified as held for sale and reasons there for. If yes, then at which date?\n2. Measure the manufacturing unit at the end of the year.",
+          "answer": "The manufacturing unit can be classified as held for sale due to the following reasons:\n\n(a) The disposal group is available for immediate sale and in its present condition. The regulatory approval is customary and it is expected to be received in one year. The date at which the disposal group must be classified as held for sale is 31st July, 20X1, i.e., the date at which management becomes committed to the plan.\n\n(b) The sale is highly probable as the appropriate level of management i.e., board of directors in this case have approved the plan.\n\n(c) A firm purchase agreement has been entered with the buyer.\n\n(d) The sale is expected to be complete by 31st March, 20X2, i.e., within one year from the date of classification.\n\nMeasurement of the manufacturing unit as on the date of classification as held for sale:\n\nStep 1: Immediately before the initial classification of the asset (or disposal group) as held for sale, the carrying amounts of the asset (or all the assets and liabilities in the group) shall be measured in accordance with applicable Ind AS.\n\nThis has been done and the carrying value of the disposal group as on 31st July, 20X1 is determined at ₹ 2,600. The difference between the carrying value as on 31st December, 20X0 and 31st July, 20X1 is accounted for as per the relevant Ind AS.\n\nStep 2: An entity shall measure a non-current asset (or disposal group) classified as held for sale at the lower of its carrying amount and fair value less costs to sell.\n\nThe fair value less cost to sell of the disposal group as on 31st July, 20X1 is ₹ 1,750 (i.e., 1,850 - 100). This is lower than the carrying value of ₹ 2,600. Thus, an impairment loss needs to be recognised and allocated first towards goodwill and thereafter pro-rata between non-current assets of the disposal group which are within the scope of Ind AS 105 based on their carrying value.\n\nThus, the assets will be measured as under:\n\nParticulars                     | Carrying value - 31st July, 20X1 | Impairment | Carrying value as per Ind AS 105 - 31st July, 20X1\n---------------------------------|-----------------------------------|------------|-------------------------------------\nGoodwill                         | 500                               | (500)     | 0\nPlant and Machinery              | 900                               | (115)     | 785\nBuilding                         | 1,850                             | (235)     | 1,615\nDebtors                          | 1,050                             | -        | 1,050\nInventory                        | 400                               | -        | 400\nCreditors                        | (250)                             | -        | (250)\nLoans                            | (1,850)                           | -        | (1,850)\n---------------------------------|-----------------------------------|------------|-------------------------------------\nTotal                            | 2,600                             | (850)     | 1,750",
+          "chapter_number": "12",
+          "chapter_name": "IND AS 12: INCOME TAXES",
+          "unique_id": "FR-OCR-P3_INDAS12"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Following information pertains to an entity for the year ending $31^{\text {st }}$ March 20X1:\n\n| Net profit for the year | Rs. 12,00,000 |\n| :--- | :--- |\n| Weighted average number of equity shares outstanding during the year | 5,00,000 shares |\n| Average market price per share during the year | Rs.20 |\n| Weighted average number of shares under option during the year | 1,00,000 shares |\n| Exercise price per share under option during the year | Rs. 15 |\n\nCalculate basic and diluted earnings per share. (RTP Nov'21, SM)",
+          "answer": "Calculation of earnings per share\n\n|  | Earnings | Shares | Per share |\n| :--- | :--- | :--- | :--- |\n| Profit attributable to equity holders | Rs. 12,00,000 |  |  |\n| Weighted average shares outstanding during year 20X1 |  | 5,00,000 |  |\n| Basic earnings per share |  |  | Rs. 2.40 |\n| Weighted average number of shares under option |  | 100,000 |  |\n| Weighted average number of shares that would have been issued at average market price: $(1,00,000 \\times Rs. 15.00) \\div Rs. 20.00$ | Refer Note | $(75,000)$ |  |\n| Diluted earnings per share | Rs. 1,200,000 | 525,000 | ¥ 2.29 |\n\nNote: Earnings have not increased because the total number of shares has increased only by the number of shares $(25,000)$ deemed to have been issued for no consideration.",
+          "chapter_number": "8.2",
+          "chapter_name": "IND AS 33: EARNINGS PER SHARE"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "6",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "A Ltd.'s profit before tax according to Ind AS for Year 20X1-20X2 is ₹ 100 thousand and taxable profit for year 20X1-20X2 is ₹ 104 thousand. The difference between these amounts arose as follows:\n\n1. On 1st February, 20X2, it acquired a machine for ₹ 120 thousand. Depreciation is charged on the machine on a monthly basis for accounting purpose. Under the tax law, the machine will be depreciated for 6 months. The machine's useful life is 10 years according to Ind AS as well as for tax purposes.\n\n2. In the year 20X1-20X2, expenses of ₹ 8 thousand were incurred for charitable donations. These are not deductible for tax purposes.\n\nPrepare necessary entries as at 31st March 20X2, taking current and deferred tax into account. The tax rate is 25%. Also prepare the tax reconciliation in absolute numbers as well as the tax rate reconciliation.",
+          "answer": "Current tax= Taxable profit x Tax rate = ₹ 104 thousand x 25% = ₹ 26 thousand.\n\nComputation of Taxable Profit:\n\n| Description                                   | ₹ in thousand |\n|-----------------------------------------------|----------------|\n| Accounting profit                             | 100            |\n| Add: Donation not deductible                  | 8              |\n| Less: Excess Depreciation (6-2)              | (4)            |\n| Total Taxable profit                          | 104            |\n\nProfit & loss A/c                             | Dr. 26        |\n| To Current Tax                               | 26             |\n\nDeferred tax:\n\nMachine's carrying amount according to Ind AS is ₹ 118 thousand (₹ 120 thousand - ₹ 2 thousand)\n\nMachine's carrying amount for taxation purpose = ₹ 114 thousand (₹ 120 thousand - ₹ 6 thousand)\n\nDeferred Tax Liability = ₹ 4 thousand x 25%\n\n| Description                                   | ₹ in thousand |\n|-----------------------------------------------|----------------|\n| Profit & loss A/c                             | Dr. 1         |\n| To Deferred Tax Liability                     | 1              |\n\nTax reconciliation in absolute numbers:\n\n| Description                                   | ₹ in thousand |\n|-----------------------------------------------|----------------|\n| Profit before tax according to Ind AS        | 100            |\n| Applicable tax rate @ 25%                     | 25             |\n| Expenses not deductible for tax purposes (₹ 8 thousand x 25%) | 2              |\n| Tax expense (Current and deferred)           | 27             |\n\nTax rate reconciliation:\n\n| Description                                   | ₹ in thousand |\n|-----------------------------------------------|----------------|\n| Applicable tax rate                           | 25%            |\n| Expenses not deductible for tax purposes      | 2%             |\n| Average effective tax rate                    | 27%            |",
+          "chapter_number": "14",
+          "chapter_name": "IND AS 105: NON-CURRENT ASSETS HELD FOR SALE",
+          "unique_id": "FR-OCR-P3_INDAS105"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "An entity opens a new factory and receives a government grant of Rs. 15,000 in respect of capital equipment costing Rs. $1,00,000$. It depreciates all plant and machinery at $20 \\%$ per annum on straight-line basis. Show the statement of profit and loss and balance sheet extracts in respect of the grant for first year under both the methods as per Ind AS 20. (MTP 6 Marks Mar'23,SM)",
+          "answer": "(a) When grant is treated as deferred income\n\nStatement of profit and loss - An extract\n\n|  | $Rs.$ |\n| :--- | ---: |\n| Depreciation $(Rs. 1,00,000 \\times 20 \\%)$ | $(20,000)$ |\n| Government grant credit (W.N.1) | 3,000 |\n\n\n\nBalance Sheet - An extract\n\n|  |  | Rs. |\n| :--- | :--- | :--- |\n| Non-current assets |  |  |\n| Property, plant and equipment | 1,00,000 |  |\n| Less: Accumulated depreciation | $(1,00,000 \\times 20 \\%)(20,000)$ | $\\underline{80,000}$ |\n|  |  | XX |\n| Non-current liabilities |  |  |\n| Government grant | [12,000-3,000 (current liability)] | 9,000 |\n\n\n\n| Current liabilities |  |  |\n| :--- | :--- | ---: |\n| Government grant | $(15,000 \\times 20 \\%)$ | 3,000 |\n|  |  | $\\underline{\\mathrm{XX}}$ |\n\n\n\n## Working Note:\n\n1. Government grants deferred income account\n\n|  | $Rs.$ |  | $Rs.$ |\n| :---: | ---: | :--- | ---: |\n| To Profit or loss $(15,000 \\times 20 \\%)$ | 3,000 | By Grant cash received | 15,000 |\n| To Balance c/f | $\\underline{12,000}$ |  |  |\n|  | $\\underline{15,000}$ |  | $\\underline{15,000}$ |\n\n(b) When grant is deducted from cost of the asset\n\nStatement of profit and loss - An extract\n\n|  | $Rs.$ |\n| :--- | :---: |\n| Depreciation $[(Rs. 1,00,000-15,000) \\times 20 \\%]$ | $(17,000)$ |\n\n\n\nBalance Sheet - An extract\n\n|  |  | $Rs.$ |\n| :--- | ---: | ---: |\n| Non-current assets |  |  |\n| Property, plant and equipment | $(1,00,000-15,000) 85,000$ |  |\n| Less: Accumulated depreciation | $(17,000)$ | 68,000 |",
+          "chapter_number": "10.2",
+          "chapter_name": "IND AS 20: ACCOUNTING FOR GOVERNMENT GRANTS AND DISCLOSURE OF GOVERNMENT ASSISSTANCE"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Under new legislation, an entity is required to fit smoke filters to its factories by 30th September, 20X1. The entity has not fitted the smoke filters. It is assumed that a reliable estimate can be made of any outflows expected. Determine whether any provision is required to be made by the entity on (a) At 31st March, 20X1, the end of the reporting period (b) At 31st March, 20X2, the end of the reporting period. (MTP 4 Marks Oct'24,MP[5])",
+          "answer": "(a) At $31^{\text {st }}$ March, 20X1, the end of the reporting period\n\nPresent obligation as a result of a past obligating event - There is no obligation because there is no obligating event either for the costs of fitting smoke filters or for fines under the legislation.\n\nConclusion - No provision is recognised for the cost of fitting the smoke filters.\n\n(b) At $31^{\text {st }}$ March, 20X2, the end of the reporting period\n\nPresent obligation as a result of a past obligating event - There is still no obligation for the costs of fitting smoke filters because no obligating event has occurred (the fitting of the filters). However, an obligation might arise to pay fines or penalties under the legislation because the obligating event has occurred (the non-compliant operation of the factory).\n\nAn outflow of resources embodying economic benefits in settlement - Assessment of probability of incurring fines and penalties by non-compliant operation depends on the details of the legislation and the stringency of the enforcement regime.\n\nConclusion - No provision is recognised for the costs of fitting smoke filters. However, a provision is recognised for the best estimate of any fines and penalties that are more likely than not to be imposed.",
+          "chapter_number": "6.2",
+          "chapter_name": "IND AS 37: PROVISIONS, CONTINGENT LIABILITIES AND CONTINGENT ASSETS"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "9",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "## Question 15 (PYP 5 Marks May'25)\n\nHaSo Ltd. deals in manufacture of computer hardware and development of software applications. Discuss the revenue recognition of HaSo Ltd. as per Ind AS 115 in the following cases:\n\n(i) Mr. Grahak purchases a software application license from HaSo Ltd . for Rs. $\\mathbf{2 , 0 0 , 0 0 0}$. Under the agreement, HaSo Ltd. will provide updates or upgrades on a when-and-if-available basis. Mr. Grahak can choose whether to install them or not. HaSo Ltd. will undertake no other activities that will change the functionality of the software application license.\n\n(ii) HaSo Ltd. licenses the right to operate its exclusive store in Madurai to Franchisee Ltd. The store will bear HaSo Ltd. trade name and brand logo. Franchisee Ltd. will have the right to sell HaSo Ltd.'s products for next 5 years from the date of agreement. Franchisee Ltd. pays an all-inclusive up-front fixed fee on signing of the agreement. The franchise agreement requires HaSo Ltd . to maintain the brand through product improvements, marketing campaigns etc.",
+          "answer": "(i) Although the updates and upgrades will change the functionality of the software, they are not considered in determining the nature of the entity's promise in granting the license. The activities of HaSo Ltd . to provide updates or upgrades are not considered because they transfer a promised goods or service to Mr. Grahak i.e. updates or upgrades are distinct from the licence. Therefore, the software application license Rs. $2,00,000$ provides a right to use the IP that is satisfied at a point in time. Hence, Rs. $2,00,000$ will be recognised immediately in the income statement by HaSo Ltd ., on purchase of the software application license by Mr Grahak.\n\n(ii) The licence provides Franchisee Ltd. access to the IP as it exists at any point in time in the licence period. This is because:\n\n- HaSo Ltd. is required to maintain the brand, which will significantly affect the IP by affecting Franchisee Ltd.'s ability to obtain benefit from the brand;\n\n- Any action by HaSo Ltd. may have a direct positive or negative effect on Franchisee Ltd.; and\n\n- These activities do not transfer goods or service to Franchisee Ltd.\n\nTherefore, HaSo Ltd. recognizes the up-front fee over the 5 -year franchise period.",
+          "chapter_number": "9",
+          "chapter_name": "IND AS 115: REVENUE FROM CONTRACTS WITH CUSTOMERS",
+          "unique_id": "9-T-15"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "X Ltd. is a first-time adopter of Ind AS. The date of transition is 1st April, 20X1. It has given 300 stock options to its employees. Out of these, 100 options have vested on 30th November, 20X0 and the remaining 200 will vest on 30th November, 20X1. What are the options available to X Ltd. at the date of transition? (MTP 5 Marks, Apr'24, SM,MP[3])",
+          "answer": "Ind AS 101 provides that a first-time adopter is encouraged, but not required, to apply Ind AS 102 on 'Sharebased Payment' to equity instruments that vested before the date of transition to Ind AS. However, if a first-time adopter elects to apply Ind AS 102 to such equity instruments, it may do so only if the entity has disclosed publicly the fair value of those equity instruments, determined at the measurement date, as defined in Ind AS 102.\n\nHaving regard to the above, $X L t d$. has the following options:\n\n- For 100 options that vested before the date of transition:\n\n(a) To apply Ind AS 102 and account for the same accordingly, provided it has disclosed publicly the fair value of those equity instruments, determined at the measurement date, as defined in Ind AS 102.\n\n(b) Not to apply Ind AS 102.\n\nHowever, for all grants of equity instruments to which Ind AS 102 has not been applied, i.e., equity instruments vested but not settled before date of transition to Ind AS, X Ltd. would still need to disclose the information.\n\n- For 200 options that will vest after the date of transition: X Ltd. will need to account for the same as per Ind AS 102.",
+          "chapter_number": "14",
+          "chapter_name": "Ind AS 101 \"First-time Adoption of Indian Accounting Standards\""
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "X Ltd. has identified the following business components.\n\n| Segment  | Revenue (₹) | Profit (₹) | Assets (₹) |\n|----------|--------------|------------|-------------|\n| Pharma   | 97,00,000    | 20,00,000  | 55,00,000   |\n| FMCG     | Nil          | 4,00,000   | 25,00,000   |\n| Ayurveda | 3,00,000     | 2,00,000   | 4,00,000    |\n| Others   | 8,00,000     | 5,50,000   | 6,00,000    |\n| Total for the entity | 1,08,00,000 | 30,00,000 | 90,00,000 |\n\nWhich of the segments would be reportable as per the criteria prescribed in Ind AS 108?",
+          "answer": "Quantitative thresholds are calculated below:\n\n| Segments | % segment sales to total sales | % segment profit to total profits | % segment assets to total assets |\n|----------|-------------------------------|---------------------------------|---------------------------------|\n| Pharma   | 63.40                         | 66.67                           | 61.11                           |\n| FMCG     | 2.61                          | 8.33                            | 27.78                           |\n| Ayurveda | 1.96                          | 6.67                            | 4.44                            |\n| Others   | 32.03                         | 18.33                           | 6.67                            |\n\nSegment Pharma would be separately reportable since they meet all three size criteria, though any one criteria is required. FMCG segment does not satisfy the revenue and profit test but does satisfy the asset test. So it would be separately reportable. Ayurveda segment does not meet any threshold. It may not be classified as a reportable segment.",
+          "chapter_number": "15",
+          "chapter_name": "IND AS 108: OPERATING SEGMENTS",
+          "unique_id": "FR-OCR-P3_OperatingSegs"
+        }
+      ]
+    },
+    {
+      "q_main": 6,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "17",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Company Z is engaged in the business of importing oil seeds for further processing as well as trading purposes. It enters into the following types of contracts as on 1st October 20X1:\n\n| Particulars | Contract 1 | Contract 2 | Contract 3 |\n|-------------|-------------|-------------|-------------|\n| Nature of Contract | Import of oil seeds from a foreign supplier | Purchase of oil seeds from a domestic producer / supplier | Contract to sell oil seeds on the commodity exchange |\n| Quantity and rate | 100 MT at USD 400 per MT to be delivered as on 31st March 20X2 | 50 MT at ₹30,000 per MT to be delivered as on 31st January 20X2 | 50 MT at USD 450 per MT, maturing as on 15th January 20X2 |\n| Net settlement clause included in the contract | Yes | Yes | Yes |\n| Net settlement in practice for similar contracts | There have also been several instances of the oil seeds being sold prior to or shortly after taking delivery. These instances of net settlement constitute approximately 30 per cent of the value of total import contracts. | Yes - company Z has net settled some of the domestic purchase contracts. However, these instances constitute only 1 per cent of the total domestic purchase contracts in value. The remaining contracts are settled by taking delivery of oil seeds which are used for further processing. | Yes - these contracts are required to be net settled with the exchange on the maturity date. Company Z enters into these types of derivative contracts to hedge the risks on its domestic oil seeds purchase contracts.\n\nCompany Z wants to determine if the contracts entered into for purchase and sale of oil seeds are derivatives within the scope of Ind AS 109 or are executory contracts outside the scope of Ind AS 109. Though Company Z is using an ERP accounting package it is not properly configured to provide the required reports for above said decision making. Therefore, Company Z requires your advice on whether such process of determining the nature of contracts is possible through use of external sources of technology.",
+          "answer": "Yes, it is possible by extracting the data from the accounting package or by connecting to the database of the accounting package.\n\nFor example, the same can be done by connecting the spreadsheet with database through ODBC connectivity or by extracting the data from accounting package into a spreadsheet. In case the data is being extracted from accounting package, the following steps may be followed:\n\n1. Identify the relevant data fields in the accounting package that contain the contract information, such as contract particulars, quantities, rates, and settlement details.\n2. Export the required data from the accounting package in a compatible format (e.g., CSV, Excel, or other supported formats).\n3. Open the exported data in Microsoft Excel.\n4. Clean the data by removing any unnecessary or irrelevant columns and rows.\n5. Ensure that the data is properly formatted and aligned for further analysis.\n6. Define the rules or criteria for categorizing the contracts as derivative or executory based on the requirements of Ind AS 109.\n7. Establish conditions using Excel formulas or logical functions to evaluate the contract data.\n8. Apply the defined rules or criteria to the contract data using Excel formulas or logical functions.\n9. Use functions such as IF, AND, OR, or VLOOKUP to evaluate the conditions and determine the nature of each contract.\n10. Create additional columns in Excel to categorize the contracts based on the analysis results.\n11. Assign appropriate labels or values to indicate whether a contract is a derivative or an executory contract.",
+          "chapter_number": "17",
+          "chapter_name": "ACCOUNTING AND TECHNOLOGY",
+          "unique_id": "FR-OCR-P3_AccTech"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "MS Ltd. has acquired a heavy machinery at a cost of Rs. $\\mathbf{1 , 0 0 , 0 0 , 0 0 0}$ (with no breakdown of the component parts). The estimated useful life is 10 years. At the end of the sixth year, one of the major components, the turbine requires replacement, as further maintenance is uneconomical. The remainder of the machine is perfect and is expected to last for the next four years. The cost of a new turbine is Rs. $\\mathbf{4 5 , 0 0 , 0 0 0}$. Advise a per Ind AS whether the cost of the new turbine be recognized as an asset, and, if so, what treatment should be used. Also calculate the revised carrying amount of the machinery? Consider the discount rate of $5 \\%$ per annum. (MTP 8 Marks, Mar'18, 7 Marks, Oct'23, SM)",
+          "answer": "The new turbine will produce economic benefits to MS Ltd., and the cost is measurable. Hence, the item should be recognized as an asset. The original invoice for the machine did not specify the cost of the turbine; however, the cost of the replacement (Rs. 45,00,000) can be used as an indication (usually by discounting) of the likely cost, six years previously.\n\nIf an appropriate discount rate is $5 \\%$ per annum, Rs. $45,00,000$ discounted back six years amounts to Rs. $33,57,900$ [Rs. 45,00,000 / (1.05)6], i.e., the approximate cost of turbine before 6 years.\n\nThe current carrying amount of the turbine which is required to be replaced of Rs. $13,43,160$ would be derecognized from the books of account, (i.e., Original Cost Rs. $33,57,900$ as reduced by accumulated depreciation for past 6 years Rs. 20,14,740, assuming depreciation is charged on straight-line basis.)\n\nThe cost of the new turbine, Rs. $45,00,000$ would be added to the cost of machine, resulting in a revision of carrying amount of machine to Rs. $71,56,840$. (i.e., Rs. $40,00,000 *-\\operatorname{Rs} .13,43,160+\\operatorname{Rs} .45,00,000$ ).\n\n*Original cost of machine Rs. $1,00,00,000$ reduced by accumulated depreciation (t ill the end of 6 years) Rs. 60,00,000.",
+          "chapter_number": "5.2",
+          "chapter_name": "IND AS 10: EVENTS AFTER THE REPORTING PERIOD"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "While preparing the financial statements for the year ended 31st March, 20X2, Gama Ltd. observed two issues in the previous year Ind AS financial statements (i.e. 31st March, 20X1) which are as follows:\n\n## Issue 1:\n\nThe company had presented certain material liabilities as non-current in its financial statements as on 31st March, 20X1. While preparing annual financial statements for the year ended 31st March, 20X2, management discovers that these liabilities should have been classified as current. The management intends to restate the comparative amounts for the prior period i.e. as at 31st March, 20X1.\n\nIssue 2:\n\nThe company had charged off certain expenses as finance costs in the year ended 31st March, 20X1. While preparing annual financial statements for the year ended 31st March, 20X2, it discovered that these expenses should have been classified as other expenses instead of finance costs. The error occurred because the management inadvertently misinterpreted certain facts. The entity intends to restate the comparative amounts for the prior period in which the error occurred i.e. year ended 31st March, 20X1.\n\nYou are required to analyze the above issues and give your recommendation as to their treatment in preparation of the financial statements for the financial year 20X1-20X2. (4 Marks)",
+          "answer": "As per paragraph 41 of Ind AS 8, errors can arise in respect of the recognition, measurement, presentation or disclosure of elements of financial statements. Financial statements do not comply with Ind AS if they contain either material errors or immaterial errors made intentionally to achieve a particular presentation of an entity's financial position, financial performance or cash flows.\n\n## Issue 1\n\nIn accordance with the guidance provided above, the reclassification of liabilities from non-current to current would be considered as correction of an error under Ind AS 8. Accordingly, in the financial statements for the year ended 31st March 20X2, the comparative amounts as at 31st March 20X1 would be restated to reflect the correct classification.\n\n## Issue 2\n\nThe reclassification of expenses from finance costs to other expenses would be considered as correction of an error under Ind AS 8. Accordingly, in the financial statements for the year ended 31st March 20X2, the comparative amounts for the year ended 31st March 20X1 would be restated to reflect the correct classification. In the given case, the retrospective restatement of relevant items in statement of profit and loss has no effect on the information in the balance sheet at the beginning of the preceding period (1st April 20X0). Therefore, the entity is not required to present a third balance sheet.",
+          "chapter_number": "4.1",
+          "chapter_name": "IND AS 8: ACCOUNTING POLICIES, CHANGES IN ACCOUNTING ESTIMATES AND ERRORS",
+          "or_question": {
+            "question": "Question 5 (MTP 4 Marks Mar'25, Aug'25)\n\nABC Ltd. acquired $\\mathbf{5} \\boldsymbol{\\%}$ equity shares of XYZ Ltd. for Rs. 10 crores in the year 20X1-20X2. The company is in process of preparing the financial statements for the year $20 \\times 2-20 \\times 3$ and is assessing the fair value at subsequent measurement of the investment made in XYZ Ltd. Based on the observable input, ABC Ltd. identified a similar nature of transaction in which PQR Ltd. acquired $20 \\%$ equity shares in XYZ Ltd. for Rs. 60 crores. The price of such transaction was determined on the basis of Comparable Companies Method (CCM)- Enterprise Value (EV) / EBITDA which was 8 . For the current year, the EBITDA of XYZ Ltd. is Rs. 40 crores. At the time of acquisition, the valuation was determined after considering $5 \\%$ of liquidity discount and $5 \\%$ of non-controlling stake discount. What will be the fair value of ABC Ltd.'s investment in XYZ Ltd. as on the balance sheet date?",
+            "answer": "Determination of Enterprise Value of XYZ Ltd.\n\n| Particulars | $Rs.$ in crore |\n| :--- | ---: |\n| EBITDA as on the measurement date | 40 |\n| EV/EBITDA multiple as on the date of valuation | 8 |\n| Enterprise value of XYZ Ltd. | 320 |\n\n\n\nDetermination of subsequent measurement of XYZ Ltd.\n\n| Particulars | Rs. in crore |\n| :--- | :--- |\n| Enterprise Value of XYZ Ltd. | 320 |\n| ABC Ltd.'s share based on percentage of holding (5\\% of 320) | 16 |\n| Less: Liquidity discount & non-controlling stake discount (5\\%+5\\%=10\\%) | (1.6) |\n| Fair value of ABC Ltd.'s investment in XYZ Ltd. | 14.4 |"
+          },
+          "unique_id": "4.1-T-2"
+        }
+      ]
+    }
+  ]
+}

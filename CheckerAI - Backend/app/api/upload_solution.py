@@ -42,6 +42,13 @@ async def upload_solution_pdf(file: UploadFile = File(...)):
 
     print(f"[Solution Upload] Schema saved to {schema_path}", flush=True)
 
+    # Save extracted text (needed for model answer generation)
+    os.makedirs("extracted_solutions", exist_ok=True)
+    text_path = f"extracted_solutions/solution_text_{timestamp}.txt"
+    with open(text_path, "w", encoding="utf-8") as f:
+        f.write(solution_text)
+    print(f"[Solution Upload] Extracted text saved to {text_path}", flush=True)
+
     # Cleanup
     os.remove(temp_path)
 
@@ -50,5 +57,6 @@ async def upload_solution_pdf(file: UploadFile = File(...)):
     return {
         "status": "success",
         "schema_saved_to": schema_path,
+        "solution_text_saved_to": text_path,
         "schema_preview": schema
     }

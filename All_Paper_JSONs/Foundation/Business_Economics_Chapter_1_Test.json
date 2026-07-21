@@ -1,0 +1,422 @@
+[
+  {
+    "chapter": "CHAPTER 1.1: INTRODUCTION",
+    "section": "A",
+    "q_num": 7,
+    "question": "An example of \u2018positive\u2019 economic analysis would be:",
+    "options": {
+      "a": "An analysis of the relationship between the price of food and the quantity purchased",
+      "b": "Determining how much income each person should be guaranteed.",
+      "c": "Determining the \u2018fair\u2019 price for food.",
+      "d": "Deciding how to distribute the output of the economy."
+    },
+    "answer": "a",
+    "chapter_number": 1
+  },
+  {
+    "chapter": "CHAPTER 1.1: INTRODUCTION",
+    "section": "A",
+    "q_num": 9,
+    "question": "Which of the following does not suggest a macro approach for India?",
+    "options": {
+      "a": "Determining the GNP of India.",
+      "b": "Finding the causes of failure of ABC Ltd.",
+      "c": "Identifying the causes of inflation in India.",
+      "d": "Analyse the causes of failure of industry in providing large scale employment"
+    },
+    "answer": "b",
+    "chapter_number": 1
+  },
+  {
+    "chapter": "CHAPTER 1.1: INTRODUCTION",
+    "section": "A",
+    "q_num": 12,
+    "question": "The branch of economic theory that deals with the problem of allocation of resources is-",
+    "options": {
+      "a": "Micro-Economic theory.",
+      "b": "Macro-economic theory.",
+      "c": "Econometrics",
+      "d": "None of the above."
+    },
+    "answer": "a",
+    "chapter_number": 1
+  },
+  {
+    "chapter": "CHAPTER 1.1: INTRODUCTION",
+    "section": "A",
+    "q_num": 13,
+    "question": "Which of the following is not the subject matter of Business Economics?",
+    "options": {
+      "a": "Should our firm be in this business?",
+      "b": "How much should be produced and at price should be kept?",
+      "c": "How will the product be placed in the market?",
+      "d": "How should we decrease unemployment in the economy?"
+    },
+    "answer": "d",
+    "chapter_number": 1
+  },
+  {
+    "chapter": "CHAPTER 1.1: INTRODUCTION",
+    "section": "A",
+    "q_num": 14,
+    "question": "Which of the following is a normative economic statement?",
+    "options": {
+      "a": "Unemployment rate decreases with industrialization",
+      "b": "Economics is a social science that studies human behaviour.",
+      "c": "The minimum wage should be raised to 200/- per day",
+      "d": "India spends a huge amount of money on national defence."
+    },
+    "answer": "c",
+    "chapter_number": 1
+  },
+  {
+    "chapter": "CHAPTER 1: INTRODUCTION",
+    "section": "A",
+    "q_num": 16,
+    "question": "The difference between positive and normative Economics is:",
+    "options": {
+      "a": "Positive Economics explains the performance of the economy while normative Economics finds out the reasons for poor performance.",
+      "b": "Positive Economics describes the facts of the economy while normative Economics involves evaluating whether some of these are good or bad for the welfare of the people.",
+      "c": "Normative Economics describes the facts of the economy while positive Economics involves evaluating whether some of these are good or bad for the welfare of the people.",
+      "d": "Positive Economics prescribes while normative Economics describes."
+    },
+    "answer": "b",
+    "chapter_number": 1
+  },
+  {
+    "chapter": "CHAPTER 1: INTRODUCTION",
+    "section": "A",
+    "q_num": 23,
+    "question": "Macro Economics is the study of .",
+    "options": {
+      "a": "all aspects of scarcity.",
+      "b": "the national economy and the global economy as a whole.",
+      "c": "big businesses.",
+      "d": "the decisions of individual businesses and people."
+    },
+    "answer": "b",
+    "chapter_number": 1
+  },
+  {
+    "chapter": "CHAPTER 1: INTRODUCTION",
+    "section": "A",
+    "q_num": 25,
+    "question": "The managerial economics \u2014",
+    "options": {
+      "a": "Is Applied Economics that fills the gap between economic theory and business practice",
+      "b": "Is just a theory concept",
+      "c": "Trains managers how to behave in recession",
+      "d": "Provides the tools which explain various concepts"
+    },
+    "answer": "a",
+    "chapter_number": 1
+  },
+  {
+    "chapter": "CHAPTER 1: INTRODUCTION",
+    "section": "A",
+    "q_num": 29,
+    "question": "When we study why saving rates are high or low, we are studying:",
+    "options": {
+      "a": "Macro Economics",
+      "b": "Microeconomics",
+      "c": "Econometrics",
+      "d": "Both (a) and (b)"
+    },
+    "answer": "a",
+    "chapter_number": 1
+  },
+  {
+    "chapter": "CHAPTER 1: INTRODUCTION",
+    "section": "A",
+    "q_num": 37,
+    "question": "We mainly study the following in Micro Economics:",
+    "options": {
+      "a": "Location of a Industry",
+      "b": "Study of firms",
+      "c": "Factor pricing",
+      "d": "All of the above"
+    },
+    "answer": "d",
+    "chapter_number": 1
+  },
+  {
+    "chapter": "CHAPTER 1: INTRODUCTION",
+    "section": "A",
+    "q_num": 39,
+    "question": "When we are studying how a producer fixes the price of his products we are studying",
+    "options": {
+      "a": "Macro Economics",
+      "b": "Micro Economics",
+      "c": "Both Micro and Macro Economics",
+      "d": "None of the above"
+    },
+    "answer": "b",
+    "chapter_number": 1
+  },
+  {
+    "chapter": "CHAPTER 1: INTRODUCTION",
+    "section": "A",
+    "q_num": 41,
+    "question": "Which of the following statements would you consider to be a normative one?",
+    "options": {
+      "a": "Faster economic growth should result if an economy has a higher level of investment.",
+      "b": "Changing the level of interest rates is a better way of managing the economy than using taxation and government expenditure.",
+      "c": "Higher levels of unemployment will lead to higher levels of inflation.",
+      "d": "The average level of growth in the economy was faster in the 1990s than the 1980s."
+    },
+    "answer": "b",
+    "chapter_number": 1
+  },
+  {
+    "chapter": "CHAPTER 1: INTRODUCTION",
+    "section": "A",
+    "q_num": 52,
+    "question": "Allocation of resources is dealt in:",
+    "options": {
+      "a": "Macro-Economic",
+      "b": "Micro Economics",
+      "c": "Public Finance",
+      "d": "None of these"
+    },
+    "answer": "b",
+    "chapter_number": 1
+  },
+  {
+    "chapter": "CHAPTER 1: INTRODUCTION",
+    "section": "A",
+    "q_num": 66,
+    "question": "Which of the following are within the scope of business economies?",
+    "options": {
+      "a": "Capital Budgeting",
+      "b": "Risk Analysis",
+      "c": "Business cycles",
+      "d": "All of the Above"
+    },
+    "answer": "d",
+    "chapter_number": 1
+  },
+  {
+    "chapter": "CHAPTER 1: INTRODUCTION",
+    "section": "A",
+    "q_num": 70,
+    "question": "Which of the following matters is/are fundamentally connected to economic analysis?",
+    "options": {
+      "a": "Economic prosperity",
+      "b": "Higher standard of living",
+      "c": "Changes in price of a commodity",
+      "d": "All of the above"
+    },
+    "answer": "d",
+    "chapter_number": 1
+  },
+  {
+    "chapter": "CHAPTER 1: INTRODUCTION",
+    "section": "A",
+    "q_num": 87,
+    "question": "Which of the following is NOT covered under Macro Economics?",
+    "options": {
+      "a": "Balance of Payment",
+      "b": "The overall level of savings and investment",
+      "c": "The level of employment",
+      "d": "Behaviour of Firms"
+    },
+    "answer": "d",
+    "chapter_number": 1
+  },
+  {
+    "chapter": "CHAPTER 1: INTRODUCTION",
+    "section": "A",
+    "q_num": 88,
+    "question": "An ice cream company is planning to expand its business. Before making decisions, it studies various economic factors, such as consumer preferences, pricing strategies, employee wages and the ideal location for its outlets. Which level of the economy does the company analyze for expansion?",
+    "options": {
+      "a": "Macro Economy",
+      "b": "Micro Economy",
+      "c": "International Economy",
+      "d": "National Economy"
+    },
+    "answer": "b",
+    "chapter_number": 1
+  },
+  {
+    "chapter": "CHAPTER 1: INTRODUCTION",
+    "section": "A",
+    "q_num": 89,
+    "question": "Sarah runs a lemonade stall, her decision-making process involves assessing the demand for her lemonade, pricing strategies, and maximizing her profit within the limited scope of her small business. Which level of the economy does Sarah's lemonade stall represent?",
+    "options": {
+      "a": "Macro Economy",
+      "b": "Global Economy",
+      "c": "Micro Economy",
+      "d": "National Economy"
+    },
+    "answer": "c",
+    "chapter_number": 1
+  },
+  {
+    "chapter": "CHAPTER 1.2: BASIC PROBLEM OF AN ECONOMY",
+    "section": "A",
+    "q_num": 8,
+    "question": "Profit motive is a merit of",
+    "options": {
+      "a": "Socialism",
+      "b": "Capitalism",
+      "c": "Mixed economy",
+      "d": "None of the above"
+    },
+    "answer": "b",
+    "chapter_number": 1
+  },
+  {
+    "chapter": "CHAPTER 1.2: BASIC PROBLEM OF AN ECONOMY",
+    "section": "A",
+    "q_num": 9,
+    "question": "is also called as command economy",
+    "options": {
+      "a": "Socialist",
+      "b": "Capitalist",
+      "c": "Mixed economy",
+      "d": "None of the above"
+    },
+    "answer": "a",
+    "chapter_number": 1
+  },
+  {
+    "chapter": "CHAPTER 1.2: BASIC PROBLEM OF AN ECONOMY",
+    "section": "A",
+    "q_num": 23,
+    "question": "Which of these country is a purely socialist economy?",
+    "options": {
+      "a": "USSR",
+      "b": "China",
+      "c": "Vietnam",
+      "d": "None of these"
+    },
+    "answer": "d",
+    "chapter_number": 1
+  },
+  {
+    "chapter": "CHAPTER 1.2: BASIC PROBLEM OF AN ECONOMY",
+    "section": "A",
+    "q_num": 24,
+    "question": "The problem what to produce relates to:",
+    "options": {
+      "a": "choice of goods and services",
+      "b": "distribution of Income",
+      "c": "choice of technique",
+      "d": "market value of goods and services"
+    },
+    "answer": "a",
+    "chapter_number": 1
+  },
+  {
+    "chapter": "CHAPTER 1.2: BASIC PROBLEM OF AN ECONOMY",
+    "section": "A",
+    "q_num": 37,
+    "question": "What are the Central Problem of an economy:",
+    "options": {
+      "a": "What to Produce",
+      "b": "What provisions are to be made for economic growth?",
+      "c": "How to Produce",
+      "d": "All the above"
+    },
+    "answer": "d",
+    "chapter_number": 1
+  },
+  {
+    "chapter": "CHAPTER 1.2: BASIC PROBLEM OF AN ECONOMY & ROLE OF PRICE MECHANISM",
+    "section": "A",
+    "q_num": 44,
+    "question": "Which of the following is not a merit of socialist economy?",
+    "options": {
+      "a": "It provides equal access to health care and education",
+      "b": "Workers are no longer exploited because they own the means of production",
+      "c": "Profits are not spread equitably among all workers according to their individual contributions.",
+      "d": "Natural resources are preserved for the good of the whole."
+    },
+    "answer": "c",
+    "chapter_number": 1
+  },
+  {
+    "chapter": "CHAPTER 1.2: BASIC PROBLEM OF AN ECONOMY & ROLE OF PRICE MECHANISM",
+    "section": "A",
+    "q_num": 48,
+    "question": "Which of the following statements is/are correct about mixed economic system?",
+    "options": {
+      "a": "Mixed economic system depends on both markets and governments for allocation of resources",
+      "b": "Mixed economy is not always a golden path between capitalism and socialism.",
+      "c": "It is very difficult to maintain a proper balance between private and public sectors.",
+      "d": "All of the above"
+    },
+    "answer": "d",
+    "chapter_number": 1
+  },
+  {
+    "chapter": "CHAPTER 1.2: BASIC PROBLEM OF AN ECONOMY & ROLE OF PRICE MECHANISM",
+    "section": "A",
+    "q_num": 53,
+    "question": "In a mixed economy resources are used as a result of:",
+    "options": {
+      "a": "The decisions of consumers",
+      "b": "The decisions of firms only",
+      "c": "The decisions of consumers and firms",
+      "d": "The decisions of consumers and firms and government"
+    },
+    "answer": "d",
+    "chapter_number": 1
+  },
+  {
+    "chapter": "CHAPTER 1.2: BASIC PROBLEM OF AN ECONOMY & ROLE OF PRICE MECHANISM",
+    "section": "A",
+    "q_num": 55,
+    "question": "Disguised unemployment is common in:",
+    "options": {
+      "a": "Agricultural sector",
+      "b": "Industrial sector",
+      "c": "Service sector",
+      "d": "None of these"
+    },
+    "answer": "a",
+    "chapter_number": 1
+  },
+  {
+    "chapter": "CHAPTER 1.2: BASIC PROBLEM OF AN ECONOMY",
+    "section": "A",
+    "q_num": 57,
+    "question": "The major cause of unemployment in India is:",
+    "options": {
+      "a": "Underdevelopment",
+      "b": "defective manpower planning",
+      "c": "rapid population growth",
+      "d": "all of the above"
+    },
+    "answer": "d",
+    "chapter_number": 1
+  },
+  {
+    "chapter": "CHAPTER 1.2: BASIC PROBLEM OF AN ECONOMY",
+    "section": "A",
+    "q_num": 58,
+    "question": "Which of the following is not a merit of Capitalist Economy?",
+    "options": {
+      "a": "Faster economic growth",
+      "b": "Collective ownership",
+      "c": "High degree of operative efficiency",
+      "d": "Incentives for innovation and technological progress"
+    },
+    "answer": "b",
+    "chapter_number": 1
+  },
+  {
+    "chapter": "CHAPTER 1.2: BASIC PROBLEM OF AN ECONOMY",
+    "section": "A",
+    "q_num": 59,
+    "question": "An economy exists on which of the following two facts?",
+    "options": {
+      "a": "Human wants are limited and the resources are unlimited.",
+      "b": "Human wants are limited and the resources are scarce.",
+      "c": "Human wants as well as resources are unlimited.",
+      "d": "Human wants are unlimited but the resources are relatively scarce."
+    },
+    "answer": "d",
+    "chapter_number": 1
+  }
+]

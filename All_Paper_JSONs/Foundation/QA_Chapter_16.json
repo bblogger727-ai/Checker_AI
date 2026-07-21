@@ -1,0 +1,392 @@
+[
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 1,
+    "question": "In Binomial distribution parameters are",
+    "options": {
+      "a": "n and q",
+      "b": "n and p",
+      "c": "p and q",
+      "d": "none"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 2,
+    "question": "In Binomial distribution if mean $=20$ S.D. $=4$ then $q$ is equal to",
+    "options": {
+      "a": "$2 / 5$",
+      "b": "$3 / 8$",
+      "c": "$1 / 5$",
+      "d": "$4 / 5$"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 3,
+    "question": "If in Binomial distribution $\\mathrm{np}=9$ and $\\mathrm{npq}=2.25$ then q is equal to",
+    "options": {
+      "a": "0.25",
+      "b": "0.75",
+      "c": "1",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 4,
+    "question": "The curve of $\\_\u007f\\_\u007f\\_\u007f$ distribution has single peak",
+    "options": {
+      "a": "Poisson",
+      "b": "Binomial",
+      "c": "Normal",
+      "d": "None"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 5,
+    "question": "A die is thrown 100 times if getting an even number is considered a success then the variance number of success. (MTP July 24)",
+    "options": {
+      "a": "50",
+      "b": "25",
+      "c": "10",
+      "d": "100"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 6,
+    "question": "In Poisson Distribution, probability of success is very close to",
+    "options": {
+      "a": "1",
+      "b": "-1",
+      "c": "0",
+      "d": "None"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 7,
+    "question": "When the number of trials is large and probability of success is small then we use the distribution",
+    "options": {
+      "a": "Normal",
+      "b": "Poisson",
+      "c": "Binomial",
+      "d": "None"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 8,
+    "question": "Probability density function is always",
+    "options": {
+      "a": "greater than 0",
+      "b": "greater than equal to 0",
+      "c": "less than 0",
+      "d": "less than equal to 0"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 9,
+    "question": "For the Poisson distribution:(MTP May'23)",
+    "options": {
+      "a": "Events are independent of each other",
+      "b": "Average rate (events per time period) is constant",
+      "c": "Two events cannot occur simultaneously",
+      "d": "All of the above"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 10,
+    "question": "$\\_\\_\\_\\$ distribution is sometimes known as the \"distribution of rare events\".",
+    "options": {
+      "a": "Poisson",
+      "b": "Normal",
+      "c": "Binomial",
+      "d": "none"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 11,
+    "question": "When ' p ' is larger than 0.5 , the binomial distribution is (SM, MTP Nov'23, Jul'24, SM, MP [4], [5])",
+    "options": {
+      "a": "Asymmetrical",
+      "b": "Symmetrical",
+      "c": "Both",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 12,
+    "question": "A manufacturer, who produces medicine bottles, finds that $0.1 \\%$ of the bottles are defective. The bottles are packed in boxes containing 500 bottles. A drug manufacturer buys 100 boxes from the producer of bottles. Using Poisson distribution, find how many boxes will contains at least two defectives: [Given: $e^{-05}=0.6065$ ] (MTP Dec'24, May'25, MP [7])",
+    "options": {
+      "a": "7",
+      "b": "13",
+      "c": "9",
+      "d": "11"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 13,
+    "question": "The mode of the binomial distribution for which the mean is 4 variance 3 is equal to? (MTP Mar'22,Aug'25[2])",
+    "options": {
+      "a": "4",
+      "b": "4.5",
+      "c": "4.25",
+      "d": "4.1"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 14,
+    "question": "The mean and variance are equal for which of the following: (MTP May'23)",
+    "options": {
+      "a": "Poisson Distribution",
+      "b": "Normal Distribution",
+      "c": "Gaussian Distribution",
+      "d": "None of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 15,
+    "question": "For continuous events $\\_\\_\\_\\_$ distribution is used.",
+    "options": {
+      "a": "Normal",
+      "b": "Poisson",
+      "c": "Binomial",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 16,
+    "question": "Examine the validity of the following: Mean and standard deviation of a binomial distribution are 10 and 4 respective: (MTP Nov'22, Mar'18,Aug'25[1], MP[2])",
+    "options": {
+      "a": "Not valid",
+      "b": "Valid",
+      "c": "Both [a] and [b]",
+      "d": "Neither [a] nor [b]"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 17,
+    "question": "Find the probability of a success for the binomial distribution satisfying the following relation4 $P(x=4)=P (\\mathrm{x}=2)$ and having the parameter n as six. (MTP May'20, Jan'25, April'25)",
+    "options": {
+      "a": "$1 / 3$",
+      "b": "$1 / 2$",
+      "c": "$1 / 5$",
+      "d": "$1 / 8$"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 18,
+    "question": "$\\_\u007f\\_\u007f\\_\u007f$ distribution has a greater spread than Normal distribution curve",
+    "options": {
+      "a": "t",
+      "b": "Binomial",
+      "c": "Poisson",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 19,
+    "question": "Name f of the distribution which has Mean $=$ Variance (MTP Jun'22, Mar'18, Jun'24, MP [4], Mar'22, Oct'21,Aug'25[2]))",
+    "options": {
+      "a": "Binomial",
+      "b": "Poisson",
+      "c": "Normal",
+      "d": "(a) and (b)"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 20,
+    "question": "For a Poisson variate $\\mathrm{x}, \\mathrm{P}(\\mathrm{x}=1)=\\mathrm{P}(\\mathrm{x}=2)$, what is the mean of x ?(MTP Nov'22, Oct $^{\\prime} 21$, Oct $^{\\prime} 20$, Jun'22, Aug'25[1], MP [2], [9])",
+    "options": {
+      "a": "1",
+      "b": "$3 / 2$",
+      "c": "2",
+      "d": "$5 / 2$"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 21,
+    "question": "The number of accidents in a year attributed to taxi drivers in a locality follows Poisson distribution with average $\\mathbf{2}$. Out of 500 taxi drivers of that area, what is the number of drivers with at least 3 accidents in a year? (Given that $e=2.718$ ) (MP [9])",
+    "options": {
+      "a": "162",
+      "b": "180",
+      "c": "201",
+      "d": "190"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 22,
+    "question": "The mean of Poisson distribution is 4. The probability of two-successes in(MTP July 24, MP [5])",
+    "options": {
+      "a": "$8 / \text{e}^{4}$",
+      "b": "$4 / \text{e}^{4}$",
+      "c": "$16 / \text{e}^{4}$",
+      "d": "$8 / \text{e}^{2}$"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 23,
+    "question": "In Binomial distribution standard deviation is equal to (SM, MTP Oct'20, MTP Dec'23, Apr'23, RTP Sep'24)",
+    "options": {
+      "a": "$\\sqrt{n p}$",
+      "b": "$(\\mathrm{np})^{2}$",
+      "c": "$\\sqrt{\\mathrm{np}} \\mathrm{q}$",
+      "d": "$(n p q)^{2}$"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 24,
+    "question": "Probability function is known as",
+    "options": {
+      "a": "frequency function",
+      "b": "continuous function",
+      "c": "discrete function",
+      "d": "none"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 25,
+    "question": "Poisson distribution is a $\\_\\_\\_\\_$ probability distribution.",
+    "options": {
+      "a": "discrete",
+      "b": "continuous",
+      "c": "both",
+      "d": "none"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 26,
+    "question": "The probability than a man aged $\\mathbf{4 5}$ years will die within a year is $\\mathbf{0 . 0 1 2}$. What is the probability that of 10 men, at least 9 will reach their 46 th birthday? [Given: $e^{-0-12}=0.88692$ ] (MTP Dec'23, Dec'24, MP [7])",
+    "options": {
+      "a": "0.0935",
+      "b": "0.9934",
+      "c": "0.9335",
+      "d": "0.9555"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 27,
+    "question": "When $\\mathrm{p}=0.5$, the binomial distribution is (SM, MTP Mar'18, Jun'24, Nov'23 )",
+    "options": {
+      "a": "asymmetrical",
+      "b": "symmetrical",
+      "c": "Both",
+      "d": "None"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 28,
+    "question": "A random variable $x$ follows Binomial distribution with mean 2 and variance 1.2. then the value of $n$ is (SM, MTP Apr'24, Nov'23, Jul'24, MP [1], MP [5])",
+    "options": {
+      "a": "8",
+      "b": "2",
+      "c": "5",
+      "d": "None"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 29,
+    "question": "If x is binomial variate with parameter 15 and $1 / 3$, what is mode of the distribution? (MTP Nov'23, Mar'21) (Same cocept different figures PYP Sep'25)",
+    "options": {
+      "a": "5 and 6",
+      "b": "5",
+      "c": "5.50",
+      "d": "6"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 30,
+    "question": "If in a Binomial distribution mean $=20$, S.D. $=4$ then $p$ is equal to",
+    "options": {
+      "a": "$2 / 5$",
+      "b": "$3 / 5$",
+      "c": "$1 / 5$",
+      "d": "$4 / 5$"
+    },
+    "answer": "c"
+  }
+]

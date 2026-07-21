@@ -1,0 +1,451 @@
+{
+  "meta": {
+    "subject_code": "DT",
+    "subject_name": "Direct Tax",
+    "paper_num": 3,
+    "total_marks_printed": 100,
+    "total_marks_in_paper": 114,
+    "section_a_marks": 30,
+    "section_b_marks": 84,
+    "note": "Section B: Q1 compulsory (14m). Attempt any 4 of Q2-Q6 (14m each).",
+    "blacklisted_from": [
+      "Generated_Papers/DT/DT_Mock_Paper_1.json",
+      "Generated_Papers/DT/DT_Mock_Paper_2.json"
+    ]
+  },
+  "section_a": [
+    {
+      "type": "case_study",
+      "chapter_number": "29",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "The following details pertain to Mr. Sahil and his best friend Mr. Akhil:\n\nMr. Sahil\n\n| Particulars | Amount (₹) |\n| :--- | :--- |\n| Amount remitted to his elder son Aarav, who is pursuing two- year MBA Program from Columbia University, USA <br> - Out of own savings through HDFC Bank, an authorized dealer under Liberalized Remittance Scheme (LRS) of the RBI <br> - towards tuition fees on 5.7.2025 <br> - to meet day to day expenses | 3,50,000 |\n| - 10.5.2025 | 4,20,000 |\n| - 29.9.2025 | 90,000 |\n| - 01.1.2026 | 1,35,000 |\n| :--- | :--- |\n| - Through Axis Bank, an authorized dealer under Liberalized Remittance Scheme (LRS) out of |  |\n| - loan (towards tuition fees) on |  |\n| - 11.10.2025 | 3,50,000 |\n| - 10.01.2026 | 3,50,000 |\n| - Own savings (to meet day to day expenses) on 1.7.2025 | 1,50,000 |\n| To complete the formalities of admission, Mr. Sahil visited the USA from 10.4.2025 to 13.4.2025 for which he purchased a tour package from M/s Gate 2 Travel, a foreign tour operator and remits money under LRS on 5.4.2025. International travel tickets and hotel accommodation are included in the said package. | 5,20,000 |\n\nMr. Sahil has furnished undertakings containing the details of earlier remittances to HDFC bank and Axis bank. He has also furnished his PAN to the authorized dealers and to the seller of overseas tour program package.Mr. Akhil, an Indian citizen got a job offer from M/s Wellbeing Inc., a Dubai- based company of AED $\\mathbf{1 0 , 5 0 0}$ per month. He left for Dubai on 29.3.2025 and joined M/s Wellbeing Inc. on 1st April 2025. He returned to India on 15.12.2025 on leaves for 15 days. On 23.12.2025, he went on 7 days tour to Bali with his wife and son. Thereafter, he directly went to Dubai with his wife and son. On 16.12.2025, he purchased a tour package for Bali from Make Your Trip, an Indian tour operator for which he paid ₹ 7,50,000 towards flight tickets and hotel accommodation. During F.Y. 2025-26, he has business income of ₹ 4,20,000 from a retail shop in India and interest on fixed deposit and savings account with Canara Bank of ₹ 1,20,000 and ₹ 8,000, respectively.\n\nHe is not liable to pay any tax in Dubai. Assume 1 AED = ₹ 23.\n\nFrom the information given above, choose the most appropriate answer to Q. 1 to Q. 6:",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Is HDFC Bank required to collect tax at source on the amount remitted by Mr. Sahil? If so, what is the amount of tax to be collected? (Chapter13: Deduction, Collection \\& Recovery of Tax)",
+          "options": {
+            "a": "Yes; TCS of ₹2,000 on 29.9.2025 and TCS of ₹27,000 on 1.1.2026",
+            "b": "Yes; TCS of ₹ 500 on 29.9.2025 and TCS of ₹ 27,000 on 1.1.2026",
+            "c": "Yes; TCS of ₹500 on 29.9.2025 and TCS of ₹6,750 on 1.1.2026",
+            "d": "No tax is required to be collected at source since receipts do notexceed ₹7 lakh"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": 1
+        },
+        {
+          "q_num": 2,
+          "question": "Is Axis Bank required to collect tax at source on the amount remitted by Mr. Sahil? If so, what is the amount of tax to be collected? (Chapter 13: Deduction, Collection \\& Recovery of Tax)",
+          "options": {
+            "a": "Yes; TCS of ₹7,500 on 1.7.2025; TCS of ₹1,750 on 11.10.2025 andTCS of ₹1,750 on 10.1.2026",
+            "b": "Yes; TCS of ₹ 17,500 on 11.10 .2025 and TCS of ₹ 17,500 on 10.1.2026",
+            "c": "Yes; TCS of ₹ 1,750 on 11.10.2025 and TCS of ₹ 1,750 on 10.1.2026",
+            "d": "No tax is required to be collected at source, on the remittances for education and for other purposes since each receipt does not exceed ₹ 7 lakh."
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": 2
+        },
+        {
+          "q_num": 3,
+          "question": "Is tax required to be collected at source on the amount remitted for tour package to USA by Mr. Sahil? If so, what is the amount of tax to be collected? (Chapter 13: Deduction, Collection \\& Recovery of Tax)",
+          "options": {
+            "a": "Yes; TCS of ₹26,000",
+            "b": "Yes; TCS of ₹1,04,000",
+            "c": "No tax is required to be collected at source, since tour package is purchased from a foreign tour operator",
+            "d": "No tax is required to be collected at source, since receipt does not exceed ₹7 lakh"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null,
+          "_serial": 3
+        },
+        {
+          "q_num": 4,
+          "question": "Does Make Your Trip require to collect tax at source on the amount received for tour package to Bali from Mr. Akhil? If so, what is the amount of tax to be collected? (Chapter 13: Deduction, Collection \\& Recovery of Tax)",
+          "options": {
+            "a": "Yes; ₹2,500 is required to be collected at source",
+            "b": "Yes; ₹37,500 is required to be collected at source",
+            "c": "Yes; ₹45,000 is required to be collected at source",
+            "d": "No tax is required to be collected at source"
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null,
+          "_serial": 4
+        },
+        {
+          "q_num": 5,
+          "question": "What is the total income of Mr. Akhil for the A.Y. 2026-27? Assume he has shifted out of the default tax regime u/s 115BAC. (chapter 1: Basic Concepts)",
+          "options": {
+            "a": "$₹ 33,88,000$",
+            "b": "$₹ 5,48,000$",
+            "c": "$₹ 33,96,000$",
+            "d": "$₹ 5,40,000$"
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null,
+          "_serial": 5
+        },
+        {
+          "q_num": 6,
+          "question": "What would be the amount of the tax payable/refundable (computed in the most beneficial manner) to Mr. Akhil for the A.Y. 2026-27? (chapter 1: Basic Concepts)",
+          "options": {
+            "a": "Tax payable ₹21,320",
+            "b": "Tax payable ₹ 7,696",
+            "c": "Tax payable 7,280",
+            "d": "Tax Refundable ₹ 45,000"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": 6
+        }
+      ],
+      "mcq_count": 6,
+      "unique_id": "29-CS-10"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "29",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "An investment fund (Investment Fund X) incorporated in India in the form of a LLP has 35 unit holders each holding 2 units.\n\nThe particulars of income of Investment Fund $X$ for the P.Y.2025-26 is as follows:\n\n(i) Business income - ₹ 14 lakh;\n\n(ii) Long-term capital gains - ₹ 21 lakhs; and\n\n(iii) Income from other sources - ₹ 7 lakhs.\n\nAnother investment fund (Investment Fund Y ) incorporated in India in the form of a company has 50 unit holders each holding 4 units. All unit holders have held the units for a period of more than a year.\n\nThe particulars of income of Investment Fund Y for the P.Y.2025-26 is as follows:\n\n(i) Business loss - (₹ 10 lakh);\n\n(ii) Long-term capital losses - (₹ 20 lakhs); and\n\n(iii) Income from other sources - ₹ 6 lakhs.\n\nFrom the information given above, choose the most appropriate answer to MCQ. 1 to 4 below:\n\nDelta Limited has three Units - Alpha, Beta and Gamma. It transferred its Unit Gamma to Epsilon Limited by way of slump sale on 1st April, 2025. The Balance Sheet of Delta Limited as on that date is given below:\n\n| Liabilities | ₹ (in lakhs) | Assets | ₹ (in lakhs) |\n| :--- | :--- | :--- | :--- |\n| Paid up capital | 2,550 | Fixed Assets: |  |\n| Reserve \\& Surplus | 930 | Unit Alpha | 225 |\n|  |  | Unit Beta | 225 |\n| Liabilities: |  | Unit Gamma | 825 |\n| Unit Alpha | 60 | Other Assets: |  |\n| Unit Beta | 165 | Unit Alpha | 780 |\n| Unit Gamma | 135 | Unit Beta | 1,200 |\n|  |  | Unit Gamma | 585 |\n| Total | 3,840 | Total | 3,840 |\n\nAdditional information:\n\n(i) Lump sum consideration on transfer of Unit Gamma is ₹ 1,320 lakhs.\n\n(ii) Fixed assets of Unit Gamma include land which was purchased at ₹ 90 lakhs in March, 2024 and revalued at ₹ 135 lakhs as on March 31, 2025. The stamp duty value of land on that date was ₹ 130 lakhs.\n\n(iii) Other fixed assets represent plant and machinery and furniture, which are reflected at ₹ 690 lakhs (i.e., ₹ 825 lakhs less value of land) which represents written down value of those assets as per books. The written down value of these assets $\\mathrm{u} / \\mathrm{s} 43(6)$ of the Income-tax Act, 1961 is ₹ 615 lakhs.\n\n(iv) Other assets do not include jewellery, artistic work, shares and securities.\n\n(v) Liabilities represent ascertained liabilities and does not include provision for taxation or proposed dividend.\n\n(vi) Unit Gamma was set up by Delta Limited in March, 2024.\n\n(vii) Assume that the turnover of Delta Ltd. for F.Y. 2023-24 is ₹ 1295 lakhs and Delta Ltd. has not opted for section 115BAA.\n\n(viii) Book profit of Delta Ltd. computed as per section 115JB is ₹ 400 lakhs",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "With respect to income of Investment Fund X for the P.Y.2025-26 - (2 Marks)",
+          "options": {
+            "a": "$₹ 42$ lakhs is taxable in the hands of the investment fund",
+            "b": "₹ $1,20,000$ is taxable in the hands of each unit holder",
+            "c": "₹ 21 lakh is taxable in the hands of the investment fund; $₹ 60,000$ is taxable in the hands of each unit holder",
+            "d": "₹ 14 lakh is taxable in the hands of the investment fund; ₹ 80,000 is taxable in the hands of each unit holder"
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null,
+          "_serial": 7
+        },
+        {
+          "q_num": 2,
+          "question": "What is the applicable rate of tax on the component(s) of income of Investment Fund $X$ for the P.Y.2025$\\mathbf{2 6}$ in the hands of Investment Fund X? (2 Marks)",
+          "options": {
+            "a": "The entire income of ₹ 42 lakhs is taxable@30\\% (plus cess@4\\%)",
+            "b": "N.A., since Investment Fund $X$ enjoys pass through status for all its income components",
+            "c": "Long-term capital gains is taxable@20\\% (plus cess@4\\%) and other income@30\\% (plus cess@4\\%)",
+            "d": "Business income of ₹ 14 lakhs is taxable@30\\% (plus cess@4\\%)"
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null,
+          "_serial": 8
+        },
+        {
+          "q_num": 3,
+          "question": "With respect to income of Investment Fund Y for the P.Y.2025-26- ( 2 Marks)",
+          "options": {
+            "a": "Income of ₹ 6 lakhs from other sources is taxable in the hands of the investment fund and losses of ₹ 30 lakh can be carried forward by the investment fund",
+            "b": "Losses of ₹ 24 lakh, arrived at after set-off of business loss against income from other sources, can be carried forward by the investment fund",
+            "c": "Business loss of ₹ 4 lakh can be carried forward by the investment fund; capital loss of ₹ 40,000 can be carried forward by each unit holder",
+            "d": "Business loss of ₹ 10 lakh can be carried forward by the investment fund; Income of ₹ 12,000 from other sources is taxable in the hands of each unit holder and long-term capital loss of ₹ 40,000 can be carried forward by each unit holder"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": 9
+        },
+        {
+          "q_num": 4,
+          "question": "If, in the P.Y.2026-27, Investment Fund Y has business income of 15 lakh and long-term capital gains of ₹ $\\mathbf{2 5 ~ l a k h s , ~ t h e n , ~ i t s ~ t o t a l ~ i n c o m e ~ f o r ~ A . Y . 2 0 2 7 - 2 8 ~ w o u l d ~ b e ~ - ~ ( 2 ~ M a r k s ) ~}$",
+          "options": {
+            "a": "₹ 5 lakh",
+            "b": "₹ 10 lakh",
+            "c": "₹ 11 lakh",
+            "d": "₹ 36 lakh"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": 10
+        },
+        {
+          "q_num": 5,
+          "question": "For computing capital gains on slump sale of Unit Gamma, what would be the deemed cost of acquisition and improvement for the purposes of section 48 and 49 and the resultant capital gains? (Chapter 4: Capital Gains)",
+          "options": {
+            "a": "₹ 1275 lakhs and ₹ 45 lakhs, respectively",
+            "b": "₹ 1230 lakhs and ₹ 40 lakhs, respectively",
+            "c": "₹ 1155 lakhs and ₹ 115 lakhs, respectively",
+            "d": "₹ 1155 lakhs and ₹ 165 lakhs, respectively"
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null,
+          "_serial": 11
+        },
+        {
+          "q_num": 6,
+          "question": "What is the tax liability on capital gain arising on slump sale of Unit Gamma? (Chapter 4: Capital Gains)",
+          "options": {
+            "a": "₹ $55,08,360$",
+            "b": "₹ $45,90,300$",
+            "c": "₹ $57,65,760$",
+            "d": "₹ $48,04,800$"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": 12
+        },
+        {
+          "q_num": 7,
+          "question": "If Unit Gamma was set up on March, 2011 instead of March, 2023, and the sale consideration is ₹ 3000 lakhs instead of ₹ 1320 lakhs, what would be the capital gains arising to Delta Ltd. on slump sale and the resultant tax liability? The CII of F.Y.2009-10 is 148 and F.Y.2025-26 is 376 . Assume that there is no change in any other information given in the case scenario. (Chapter 4: Capital Gains)",
+          "options": {
+            "a": "₹ 416.86 lakhs and ₹ 92.78 lakhs, respectively",
+            "b": "₹ 416.86 lakhs and ₹ 97.11 lakhs, respectively",
+            "c": "₹ 1845 lakhs and ₹ 268.632 lakhs, respectively",
+            "d": "₹ 1845 lakhs and ₹ 256.639 .5 lakhs, respectively"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": 13
+        },
+        {
+          "q_num": 8,
+          "question": "What would be the minimum alternate tax computed under section 115JB for A.Y.2025-26, if Delta Ltd. is located in an IFSC and derives its income solely in convertible foreign exchange? (Chapter 9: Assessment of Various Entities)",
+          "options": {
+            "a": "₹ $66,76,800$",
+            "b": "₹ $62,40,000$",
+            "c": "₹ $40,06,080$",
+            "d": "₹ $37,44,000$"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": 14
+        },
+        {
+          "q_num": 9,
+          "question": "If Delta Ltd. is a company, being a unit of an IFSC, deriving income solely in convertible foreign exchange and has distributed dividend of ₹ 200 lakhs in the P.Y.2025-26, what would be the tax implications in the hands of Delta Ltd. and shareholders? (Chapter 9: Assessment of Various Entities)",
+          "options": {
+            "a": "No distribution tax in the hands of Delta Ltd. and no income-tax in the hands of the shareholders in respect of dividend so distributed",
+            "b": "Delta Ltd. is liable to pay distribution tax; income is exempt in the hands of shareholders",
+            "c": "No distribution tax in the hands of Delta Ltd.; shareholders liable to tax on dividend income",
+            "d": "No distribution tax in the hands of Delta Ltd.; shareholders liable to tax on aggregate dividend income in excess of ₹ 10 lakh"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null,
+          "_serial": 15
+        }
+      ],
+      "mcq_count": 9,
+      "unique_id": "29-CS-15"
+    }
+  ],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": true,
+      "total_marks": 14,
+      "chapter_number": "1",
+      "sub_questions": [
+        {
+          "label": "—",
+          "marks": 14,
+          "internal_split": null,
+          "question": "Isac Limited is a company engaged in the business of biotechnology. The net profit of the company for the financial year ended 31.03.2026 is Rs. 35,25,890 after debiting the following items:\n\n| S. No. | Particulars | Rs. |\n| :--- | :--- | ---: |\n| 1. | Purchase price of raw material used for the purpose of in-house research and development | 11,80,000 |\n| 2. | Purchase price of asset used for in-house research and development | |\n|  | (a) Land | 5,00,000 |\n|  | (b) Building | 3,00,000 |\n| 3. | Expenditure incurred on notified agricultural extension project | 25,50,000 |\n| 4. | Expenditure on notified skill development project: | |\n|  | (a) Purchase of Land | 40,00,000 |\n|  | (b) Expenditure on training for skill development | 32,50,000 |\n| 5. | Expenditure incurred on advertisement in the souvenir published by a political party | 75,000 |\n| 6. | Expenditure incurred on issue of right shares | 80,000 |\n| 7. | Expenditure incurred on issue of debentures | 50,000 |\n| 8. | Penalty paid under GST Act | 35,000 |\n| 9. | Interest paid on loan taken from bank for payment of advance income-tax | 60,000 |\n| 10. | Provision for loss of subsidiary | 85,000 |\n\nCompute the income under the head \"Profits and gains of business or profession\" for the A.Y. 2026-27 of Isac Ltd assuming that the company does not opt for the provisions of section 115BAA.",
+          "answer": "Computation of income under the head \"Profits and gains of business or profession\" for the A.Y. 2026-27\n\n| Particulars | Rs. | Rs. |\n| :--- | ---: | ---: |\n| Net profit as per profit and loss account | | 35,25,890 |\n| **Add: Items debited to P&L account, but to be disallowed** | | |\n| Purchase price of raw material used for in-house R&D - qualifies for 100% deduction u/s 35(2AB) | - | |\n| Purchase price of Land used in in-house R&D - capital expenditure not allowable u/s 35 | 5,00,000 | |\n| Purchase price of Building used in in-house R&D - 100% allowable as deduction u/s 35(1)(iv) r.w. 35(2) | - | |\n| Expenditure on notified agricultural extension project - 100% deduction u/s 35CCC | - | |\n| Expenditure on notified skill development project - Purchase of Land - capital expenditure not qualifying u/s 35CCD | 40,00,000 | |\n| Expenditure on training for skill development - 100% deduction u/s 35CCD | - | |\n| Advertisement in souvenir of political party - not allowed u/s 37(2B) | 75,000 | |\n| Expenditure on issue of right shares - capital in nature, not allowable | 80,000 | |\n| Expenditure on issue of debentures - allowable | - | |\n| Penalty paid under GST Act - not allowed | 35,000 | |\n| Interest paid on loan for advance income-tax - not for business purposes | 60,000 | |\n| Provision for loss of subsidiary - not allowed | 85,000 | 48,35,000 |\n| **Profit and gains from business** | | **83,60,890** |\n\nNote: The expenditure incurred on advertisement in the souvenir published by a political party is disallowed as per section 37(2B) while computing income under the head PGBP, but the same would be allowed as deduction under section 80GGB from the gross total income of the company.",
+          "chapter_number": "3",
+          "chapter_name": "PROFITS & GAINS FROM BUSINESS & PROFESSION",
+          "unique_id": "DT-OCR-PGBP_Institute_of_Chartered_Ac"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "4",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "M/s Sriram Enterprises, a proprietorship having 2 units. Unit 1 is transferred on 1.4.2025 by way of slump sale for a total consideration of ₹ 14 lakhs. Unit 1 was started in the year 2005-06. The expenses incurred for this transfer were ₹ 38,000. Balance Sheet as on 31.3.2025 is as under:\n\nLiabilities\n\n| Particulars | Total (₹) |\n| --- | --- |\n| Own Capital | 17,00,000 |\n| Revaluation Reserve (for land of unit 1) | 5,00,000 |\n| Bank loan (70% for unit 1) | 4,00,000 |\n| Trade creditors (25% for unit 1) | 3,50,000 |\n| **Total** | **29,50,000** |\n\nAssets\n\n| Particulars | Unit 1 (₹) | Unit 2 (₹) | Total (₹) |\n| --- | --- | --- | --- |\n| Land | 13,00,000 | 3,00,000 | 16,00,000 |\n| Machinery | 4,00,000 | 2,00,000 | 6,00,000 |\n| Debtors | 2,00,000 | 1,40,000 | 3,40,000 |\n| Patents | 2,50,000 | 1,60,000 | 4,10,000 |\n| **Total** | **21,50,000** | **8,00,000** | **29,50,000** |\n\nOther information:\n\n(i) Revaluation reserve is created by revising upward the value of the land of Unit 1. The stamp duty value on 1.4.2025 is ₹ 10 lakhs.\n\n(ii) No individual value of any asset is considered in the transfer deed.\n\n(iii) Patents were acquired on 1.7.2023 on which no depreciation has been charged.\n\n(iv) The value of machinery represents the written down value as per the Income-tax Act, 1961.\n\nCompute the capital gain for the assessment year 2026-27.",
+          "answer": "**Computation of capital gains on slump sale of Unit 1**\n\n| Particulars | ₹ |\n| --- | --- |\n| Full value of consideration [Fair market value on 1.4.2025] | 14,82,500 |\n| Less: Expenses on sale | 38,000 |\n| **Net sale consideration** | **14,44,500** |\n| Less: Net worth (See Note 1 below) | 11,73,125 |\n| **Long-term capital gain** | **2,71,375** |\n\n**Notes:**\n1. **Computation of Full value of consideration**\n\n| Particulars | ₹ |\n| --- | --- |\n| Fair market value of the capital assets transferred by way of slump sale:\nLand, being an immovable property (stamp duty value on 1.4.2025, being the date of slump sale) | 10,00,000 |\n| Machinery [Book value as appearing in the books of accounts] | 4,00,000 |\n| Debtors [Book value as appearing in the books of accounts] | 2,00,000 |\n| Patents [Book value as appearing in the books of accounts] | 2,50,000 |\n| **Total** | **18,50,000** |\n| Less: Liabilities of Unit 1 (₹ 29,50,000 - ₹ 1,20,000 - ₹ 2,62,500) | 25,67,500 |\n| Excluding:\n(i) Own Capital | 17,00,000 |\n|(ii) Revaluation reserve | 5,00,000 |\n| **Full value of consideration [Higher of FMV1 or FMV2]** | **14,82,500** |\n\n2. **Computation of net worth of Unit 1 of Akash Enterprises**\n\n| Particulars | ₹ |\n| --- | --- |\n| Land (excluding ₹ 5 lakhs on account of revaluation) | 8,00,000 |\n| Machinery | 4,00,000 |\n| Debtors | 2,00,000 |\n| Patents | 2,50,000 |\n| **Total assets** | **15,40,625** |\n| Less: Creditors (₹ 3,50,000 x 25%) | 87,500 |\n| Bank Loan (₹ 4,00,000 x 70%) | 2,80,000 |\n| **Net worth** | **11,73,125** |\n\n3. **Written down value of patents as on 1.4.2025**\n\n| Value of patents as on 1.7.2023 | ₹ 2,50,000 |\n| Less: Depreciation @ 25% for Financial Year 2023-24 | 62,500 |\n| WDV as on 1.4.2025 | 1,87,500 |\n| Less: Depreciation for Financial Year 2024-25 | 46,875 |\n| WDV as on 1.4.2025 | 1,40,625 |\n\n4. Since the Unit is held for more than 36 months, capital gain arising would be long-term capital gain.",
+          "chapter_number": "4",
+          "chapter_name": "Capital Gains",
+          "unique_id": "DT-OCR-CG_ICAI_Study_Material"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Question 5 (SM)\n\nAn assessee sustained a loss under the head \"Income from house property\" in the previous year relevant to the assessment year 2025-26, which could not be set off against income from any other head in that assessment year. The assessee did not furnish the return of loss within the time allowed under section 139(1) in respect of the relevant assessment year. However, the assessee filed the return within the time allowed under section 139(4). Can the assessee carry forward such loss for set off against income from house property of the assessment year 2026-27?",
+          "answer": "Section 139(3) stipulates that an assessee claiming carry forward of loss under the heads \"Profits and gains of business or profession\" or \"Capital gains\" should furnish the return of loss within the time stipulated under section 139(1). There is no reference to loss under the head \"Income from house property\" in section 139(3). The assessee, in the instant case, has filed the return showing loss from property within the time prescribed under section 139(4). The assessee is, therefore, entitled to carry forward such loss for set off against the income from house property of the subsequent assessment year.",
+          "chapter_number": "7",
+          "chapter_name": "AGGREGATION OF INCOME, SET-OFF \\& CARRY FORWARD OF LOSSES"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "## Question 7 (SM, MTP 4 Marks Apr'21, Oct'20, Mar'19)\n\nAtlant Italy, a company incorporated in France, was engaged in manufacture, trade and supply equipment and services for GSM Cellular Radio Telephones Systems. It supplied hardware and software to various entities in India. Software licensed by assessee embodied the process which is required to control and manage the specific set of activities involved in the business use of its customers, and also made available to its customers, who used it to carry out their business activities. The Assessing Officer contended that the consideration for supply of software embedded in hardware is 'royalty' under section 9(1)(vi).\n\nExamine the correctness of the action of the Assessing Officer assuming that the software that was loaded on the hardware and embedded in the system does not have any independent existence.",
+          "answer": "The issue under consideration in this case is whether consideration for supply of software embedded in hardware would tantamount to 'royalty' for attracting deemed accrual of income under section 9(1)(vi).\n\nAs per section $9(1)($ vi), income by way of royalty payable by a person who is a resident in India would be deemed to accrue or arise in India. However, where it is payable for the transfer of any right or the use of any property or information or for the utilization of services for the purposes of a business or profession carried on by such person outside India or for the purposes of making or earning any income from any source outside India, the amount payable by way royalty would not be deemed to accrue or arise in India, in the hands of non-resident.\n\nFor this purpose, 'royalty' includes transfer of all or any right for use or right to use a computer software irrespective of the medium through which such right is transferred.\n\nThe facts of the case are similar to the facts in CIT v. Alcatel Lucent Canada (2015) 372 ITR 476, wherein the above issue came up before the Delhi High Court. The Court observed that the software supply is an integral part of GSM mobile telephone system and is used by the cellular operators for providing cellular services to its customers. Where payment is made for hardware in which the software is embedded and the software does not have independent functional existence, no amount could be attributed as 'royalty' for software in terms of section 9(1)(vi).\n\nIn this case, since the software that was loaded on the hardware and embedded in the system does not have any independent existence, there could not be any independent use of such software. Therefore, the rationale of the Delhi High Court ruling can be applied to the case on hand. Accordingly, the action of the Assessing Officer in treating the consideration for supply of software embedded in hardware as royalty under section $9(1)(\text{vi})$ is not correct.",
+          "chapter_number": "21",
+          "chapter_name": "NON-RESIDENT TAXATION"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "10",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "An electoral trust approved by the CBDT is not liable to income-tax in respect of voluntary contribution received and other income - Examine the correctness of the statement. (SM)",
+          "answer": "Section 13B provides exemption in respect of voluntary contribution received by an electoral trust approved by the CBDT in accordance with the scheme to be made by the Central Government.\n\nVoluntary contribution received by an electoral trust would be treated as its income under section 2(24), but shall be exempt under section 13B if the trust distributes to a registered political party during the year, $95 \\%$ of the aggregate donations received by it during the year along with surplus brought forward from any earlier years. Another condition for availing the benefit under this section is that the electoral trust should function in accordance with the rules framed by the Central Government.\n\nIt may be noted that the exemption under section 13 B will be available only in respect of voluntary contribution received by an electoral trust. The exemption cannot be claimed in respect of any other income of the electoral trust. Therefore, the given statement is not correct.",
+          "chapter_number": "10",
+          "chapter_name": "ASSESSMENT OF TRUSTS AND INSTITUTIONS, POLITICAL PARTIES AND OTHER SPECIAL ENTITIES"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Following are the particulars of income earned by Mr. Wivit Su, a resident Indian aged 56 years in India and from Country P for the assessment year 2026-2027\n\n| Income from India | Amount in Rs. |\n| :--- | :--- |\n| Income from Profession in India | 10,75,000 |\n| Interest on Fixed Deposit with XYZ Bank | 95,000 |\n| Interest on Savings Bank Account | 47,000 |\n| Income from Country P |  |\n| Rate of Tax is 16\\% |  |\n| Agricultural Income in Country P (Gross) | 65,000 |\n| Royalty Income form literary book from Country P | 4,50,000 |\n| Expenses incurred for earning royalty | 35,000 |\n| Dividend from a company incorporated in Country P | 1,59,000 |\n| Rent from a house situated in Country P (Gross) | 1,92,000 |\n| Municipal Tax paid in respect of the above house | 9,500 |\n| (not allowed as deduction in Country P) |  |\n\nYou are required to compute the total income and net tax liability of Mr. Wivit Su in India for the assessment year 2026-27 assuming that India has not entered into double taxation avoidance agreement with Country P. Assume that Mr. Wivit Su pays tax under the default tax regime under section 115BAC. (PYP 6 Marks May'24, MP[5])",
+          "answer": "Computation of total income and net tax liability of Mr. Wivit Su for A.Y.2026-27 under the default tax regime\n\n| Particulars | Rs. | Rs. |\n| :--- | :--- | :--- |\n| Income from house property |  |  |\n| Gross Annual Value4 of property in Country ' P ' | 1,92,000 |  |\n| Less: Municipal taxes paid in Country ' P ' | 9,500 |  |\n| Net Annual Value | 1,82,500 |  |\n| Less: Deduction under section 24-30\\% of NAV | 54,750 |  |\n|  |  | 1,27,750 |\n| Profits and Gains of Business or Profession |  |  |\n| Income from profession in India | 10,75,000 |  |\n| Royalty income from literary book from Country ' P ' (after deducting expenses of Rs. 35,000) | 4,15,000 |  |\n|  |  | 14,90,000 |\n| Income from Other Sources |  |  |\n| Interest on Fixed deposit with XYZ Bank | 95,000 |  |\n| Interest on savings bank account | 47,000 |  |\n| Agriculture income in Country ' P ' | 65,000 |  |\n| Dividend from a company incorporated in Country ' P ' | 1,59,000 |  |\n|  |  | 3,66,000 |\n| Gross Total Income |  | 19,83,750 |\n| Less: Deductions under Chapter VI-A [Notavailable under default tax regime] |  | Nil |\n| Total Income |  | 19,83,750 |\n| Tax liability on Rs.19,83,750 |  |  |\n| Tax on total income |  | 196750 |\n| Add: Health and Education cess@4\\% |  | 7876 |\n|  |  | 204620 |\n| Less: Deduction u/s 91 (See Working Note below) |  | (79090) |\n| Net Tax Liability |  | 125530 |\n| Net Tax Liability (Rounded off) |  | 125530 |\n\nWorking Note: Calculation of deduction under section 91\n\n| Particulars | Rs. |\n| :--- | :--- |\n| Doubly Taxed Income - Country P |  |\n| Income from house property | 1,27,750 |\n| Royalty Income [Rs.4,50,000 - Rs.35,000 (Expenses)] | 4,15,000 |\n| Agricultural income | 65,000 |\n| Dividend | 1,59,000 |\n| Rate of tax in Country P = 16\\% | 7,66,750 |\n| Indian rate of tax $=204620 / 19,83,750 \\times 100=10.315 \\%$ |  |\n| Lower of the above $=10.315 \\%$ |  |\n| Deduction u/s 91 [10.315\\% × Rs. 7,66,750] | 79090 |",
+          "chapter_number": "22",
+          "chapter_name": "DOUBLE TAXATION RELIEF"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Question 16 (SM, MTP 4 Marks Apr'23 & Nov'21, Sep'24, Apr'25, Oct 19,MP[4])\n\nA public charitable trust registered under section 12AB, for the previous year ending 31.3.2026, derived gross income of Rs. 21 lakhs, which consists of the following:\n\n|  | (Rs. in Lacs) |\n| :--- | :---: |\n| (a) | Income from properties held by trust (net) |\n| (b) | Income (net) from business (incidental to main objects) |\n| (c) | Voluntary contributions from public |\n\nThe trust applied a sum of Rs. 11.60 lacs towards charitable purposes during the year which includes repayment of loan taken for construction of orphanageRs. 3.60 lacs. The entire expenditure incurred on construction of orphanage was allowed as application of income in the P.Y. 2020-21. Determine the taxable income of the trust for the assessment year 2026-27.",
+          "answer": "Computation of taxable income of public charitable trust\n\n|  | Particulars | Rs. |\n| :--- | :--- | :--- |\n| (i) | Income from property held under trust (net) | 10,00,000 |\n| (ii) | Income (net) from business (incidental to main objects) | 4,00,000 |\n| (iii) | Voluntary contributions from public | 7,00,000 |\n|  | Voluntary contribution made with a specific direction towards corpus are alone to be excluded under section 11(1)(d). In this case, there is no such direction and hence, included. |  |\n|  |  | 21,00,000 |\n\n\n| Less: 15% of the income eligible for retention / accumulation without any conditions | 3,15,000 |\n| :--- | :--- |\n| Less: Amount applied for the objects of the trust | 17,85,000 |\n| (i) Amount spent for charitable purposes (Rs. $11,60,000-Rs. 3,60,000$ ) | 8,00,000 |\n| (ii) Repayment of loan for construction of orphan home (See Note below) | - |\n| Taxable Income | 9,85,000 |\n\nNote - As per Explanation 4(ii) to section 11(1), any application for charitable or religious purposes, from any loan or borrowing in the concerned year, shall not be treated as application of income for charitable or religious purposes. However, the amount not so treated as application, shall be treated as application in the year in which the loan is repaid. The Fourth proviso to Explanation 4(ii) to section 11(1) clarifies that this provision will, however, not apply where application is from loan or borrowing made on or before 31.3.2022.\n\nSince the amount spent on construction of orphanage was allowed as deduction in the P.Y. 2020-21, repayment of loan taken for such purposes will not be allowed as application as it would tantamount to double deduction.",
+          "chapter_number": "10",
+          "chapter_name": "ASSESSMENT OF TRUSTS AND INSTITUTIONS, POLITICAL PARTIES AND OTHER SPECIAL ENTITIES"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "13",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Examine whether TDS provisions would be attracted in the following cases, and if so, under which section. Also, specify the rate of TDS applicable in each case. Assume that all payments are made to residents. Note: For TDS applicability, consider that TDS under section 194M is applicable if an individual's/business's turnover does not exceed 1 crore.\\n\\n1. Mr. Ganesh, an individual carrying on retail business\\n   - Nature of payment: Contract Payment for repair of residential house\\n   - Aggregate of payments made in the F.Y.2025-26: ₹ 5 lakhs\\n\\n2. Mr. Rajesh, a wholesale trader whose turnover was ₹ 95 lakhs in P.Y. 2024-25.\\n   - Nature of payment: Contract Payment for reconstruction of residential house\\n   - Aggregate of payments made in the F.Y.2025-26: ₹ 55 lakhs\\n\\n3. Mr. Satish, a salaried individual\\n   - Nature of payment: Payment of brokerage for buying a residential house in March, 2026\\n   - Aggregate of payments made in the F.Y.2025-26: ₹ 51 lakhs\\n\\n4. Mr. Dheeraj, a pensioner\\n   - Nature of payment: Contract payment for reconstruction of residential house\\n   - Aggregate of payments made in the F.Y.2025-26: ₹ 48 lakhs",
+          "answer": "1. Mr. Ganesh, an individual carrying on retail business:\n   - TDS under section 194C is not attracted since the payment is for personal purpose. TDS under section 194M is not attracted as aggregate of payments in the P.Y.2025-26 does not exceed ₹ 5 lakhs.\n\n2. Mr. Rajesh, a wholesale trader whose turnover was ₹ 95 lakhs in P.Y. 2024-25:\n   - Yes, under section 194J @2%, since the aggregate of payments (i.e., ₹ 55 lakhs) exceeds ₹ 30 lakhs. Since, his turnover from business does exceed ₹ 1 crore in the P.Y.2024-25.\n\n3. Mr. Satish, a salaried individual:\n   - Yes, under section 194M@2%, since the payment of ₹ 51 lakhs made in March 2026 exceeds the threshold of ₹ 50 lakhs. Since Mr. Satish is a salaried individual, the provisions of section 194M are not applicable in this case.\n\n4. Mr. Dheeraj, a pensioner:\n   - TDS provisions under section 194M are also not applicable since Mr. Dheeraj is a pensioner and the aggregate of payments made in the F.Y.2025-26 does not exceed the threshold of ₹ 50 lakhs.",
+          "chapter_number": "13",
+          "chapter_name": "DEDUCTION, COLLECTION & RECOVERY OF TAX",
+          "unique_id": "DT-OCR-TDS_Institute_of_Chartered_Acc"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Beta Ltd. is an Indian Company in which Robert Inc. (a company incorporated in Country E), holds $30 \\%$ shareholding and voting power during the financial year 2025-26.\n\nDuring the financial year 2025-26, the Beta Ltd. supplied 700 pieces of computers to Robert Inc. @ USD 1100 per piece. The price of computer supplied to other un-related parties in Country E is @USD 1400 per piece. The Transfer Pricing Officer while determining of arm's length price of 700 pieces of computers sold to Robert Inc. adopted the price charged for computer supplied to un-related parties as Internal uncontrolled comparable transaction and proposed adjustment to total income.\n\nConsidering above facts, you are required to answer the following questions:\n\n(i) Would Beta Ltd. and Robert Inc. be treated as associate enterprises for the purpose of transfer pricing? If yes, why?\n\n(ii) What are the options available to Beta Ltd., if it accepts enhancement to total income made on account of determination of Arm's length price by the Transfer Pricing Officer? (PYP 6 Marks Sep'25)",
+          "answer": "(i) Beta Ltd., an Indian company and Robert Inc., a company incorporated in Country E are deemed to be associated enterprise as per section 92A(2), since Robert Inc. holds more than 26\\% of voting power i.e., $30 \\%$ in Beta Ltd.\n\n(ii) If Beta Ltd. accepts the enhancement to total income made on account of determination of Arm's length price by the TPO, it has to make a secondary adjustment under section 92CE if the primary adjustment exceeds Rs. 1 crore.\n\nIn the present case, the primary adjustment would be USD 2,10,000 (700 pieces of computers x USD 300 (USD 1400 - USD 1100) which exceeds Rs. 1 crore.\n\nAccordingly, the excess money i.e., USD 2,10,000 available with Robert Inc. has to be repatriated to India within 90 days of the date of the order of the Assessing Officer.\n\nIn case of non-repatriation, USD 2,10,000 would be deemed as an advance made by the Beta Ltd. to its associated enterprise, Robert Inc.\n\nInterest would be calculated on such advance at the rate of six-month LIBOR as on 30th September of the relevant previous year $+3 \\%$, since the international transaction is denominated in foreign currency.\n\nAlternatively, Beta Ltd. can opt to pay additional income-tax @ 20.9664\\% (tax @18\\% plus surcharge @12\\% plus cess@4\\%).\n\nIn such case, Beta Ltd. will not be required to make the secondary adjustment and compute interest up to the payment of tax from such date.",
+          "chapter_number": "24",
+          "chapter_name": "TRANSFER PRICING"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Under what sections and at what rates is Seal India Pvt. Ltd. required to deduct tax at source on the commissions and incentives paid to Mr. Prakash according to the Income Tax Act?",
+          "answer": "$\text{M} / \text{s}$ Seal India Pvt. Ltd. is required to deduct tax at source on commission paid to Mr. Prakash under section 194 H @ $2 \\\\%$ being sum exceeding $Rs. 20,000$.\n\nReimbursement of expenses of Rs. 1 lakh for booking air tickets for Mr. Prakash and his family other incentive of Rs. 60,000 and laptop of Rs. 60,000 for achieving sale target is benefit or perquisite arising to Mr. Prakash from his business or the exercise of his profession, being sum exceeding Rs. 20,000 . Accordingly, $\text{M} / \text{s}$ Seal India Pvt. Ltd. is required to deduct tax at source under section 194R @ 10\\%.\n\nTax to be deducted under section $194 \text{H}=2 \\\\%$ on $Rs. 1,75,000+2 \\\\%$ on $Rs. 1,60,000=Rs. 6700$\n\nTax to be deducted under section $194 \text{R}=10 \\\\%$ on Rs. $1,00,000$ (Air tickets) + Rs. 60,000 (other incentive) + Rs. 60,000 (laptop) $=Rs. 22,000$\n\nNote - Since commission and incentives are given to a commission agent for achieving sale target, it is possible to take a view that TDS is deducted at source $\text{u} / \text{s} 194 \text{H}$ on the entire amount of commission or other incentives (including laptop). Accordingly, tax deducted at source under section 194 H would be as follows:\n\n$=2 \\\\%$ on Rs. $4,95,000=Rs. 9900$",
+          "chapter_number": "13",
+          "chapter_name": "DEDUCTION, COLLECTION \\& RECOVERY OF TAX",
+          "or_question": {
+            "question": "Question 32 (PYP 4 Marks Nov'24,MP[6]) M/s SBE Cellular Limited, a domestic company, had entered into franchisee agreement with various distributors for sale of its prepaid connections. Under these agreements, they sold startup kits and recharge vouchers at discounted prices to distributors, who in turn sold them to customers. The Assessing Officer while going through the TDS return filed by the company found that the company had paid commission on startup kits and recharge vouchers to 10 parties herein called \"Franchisees\" and though the company had deducted TDS on commission and deposited the same during the period from April 2025 to July 2025, such deduction of tax at source however was discontinued by the company treating such payment to the franchisee not as commission but discount which was outside the ambit of TDS under section 194 H . The revenue contended that the company should deduct tax under section 194H on the amounts which, as per Revenue, is a commission payable to an agent by the company under the franchise agreement between the company and the franchisees. However, as per M/s SBL Cellular Limited, neither are they paying a commission or brokerage to the franchisees/distributors, nor the franchisees/distributors are their agents. In the light of the latest Supreme Court rulings, discuss whether the contention of Revenue is correct or not?",
+            "answer": "The obligation to deduct tax at source in terms of section 194H arises when the legal relationship of principal and agent is established. Agency is a triangular relationship between the principal, agent and the third party. The legal position of a distributor is generally regarded as different from that of an agent.\n\nSection 194H fixes the liability to deduct tax at source on the 'person responsible to pay' and the liability to deduct tax at source arises when the income is credited or paid by the person responsible for paying. However, deduction of tax at source in terms of section 194H is not to be extended and widened in ambit to apply to true/genuine business transactions, where the assessee is not the person responsible for paying or crediting income.\n\nIn the present case, $\text{M} / \text{s}$ SBL Cellular Limited, being an assessee,\n\n- neither pays nor credits\n\n- any income to the person with whom he has contracted.\n\n$\text{M} / \text{s}$ SBL Cellular Limited is not privy to the transactions between distributors/franchisees and third parties. It is, therefore, impossible for M/s SBL Cellular Limited to deduct tax at source and comply with section 194H, on the difference between the total/sum consideration received by the distributors/franchisees from third parties and the amount paid by the distributors/franchisees to them.\n\nThus, in the case on hand, section 194 H is not applicable in the hands of $\text{M} / \text{s}$ SBL Cellular Limited and it would not be under a legal obligation to deduct tax at source on the income/profit component in the payments received by the distributors/franchisees from the third parties/customers.\n\nAccordingly, the contention of the Revenue that company should deduct tax under section 194H is not correct."
+          }
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "15",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "In respect of insolvency proceedings initiated against D Ltd., Mr. Prateek was appointed as \"Official Assignee\", You are required to advise him as to whether he will be treated as Representative Assessee in this regard and what will be his status and his liability with respect to other procedures under the Incometax Act, 1961. (PYP 4 Marks May '22)",
+          "answer": "CBDT Circular No. 4/2019, dated 28.1.2019 has clarified that since Official Assignee does not receive the income or manage the property on behalf of the debtor, he cannot be considered as a 'Representative Assessee' of the debtor under the Act while computing the tax-liability arising from the estate of the debtor. Therefore, Mr. Prateek appointed as \"Official Assignee\" in respect of insolvency proceedings initiated against D Ltd. will not be treated as representative assessee.\n\nAs property of the insolvent is vested with the Official Assignees as per specific provisions of the Act/Law regulating functioning of the Official Assignees, they have to be treated as a 'juristic entity' for purposes of the Income-tax Act.\n\nFor purpose of discharge of tax-liability under the Act, the status of Official Assignee is that of an 'artificial juridical person' as prescribed in section 2(31)(vii), not being one of the 'persons' falling in section 2(31)(i) to (vi).\n\nTherefore, Official Assignee is required to file income-tax return electronically in the ITR Form applicable to 'artificial juridical person' separately for each of the estate of the insolvent, D Ltd., in this case, and the income shall be taxed as per the rates applicable in a particular year to an 'artificial juridical person'.\n\nIn view of the above position, Official Assignees would have to obtain a separate PAN for each of the estate of the insolvent.",
+          "chapter_number": "15",
+          "chapter_name": "ASSESSMENT PROCEDURE"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "In addition to allocating the taxing rights and elimination of double taxation, there are various other important considerations while entering into tax treaty. Elucidate. (SM MP[2])",
+          "answer": "In addition to allocating the taxing rights and elimination of double taxation, there are various other important considerations while entering into a tax treaty, as mentioned below:\n\n- Ensuring non-discrimination between residents and non-residents\n\n- Resolution of disputes arising on account of different interpretation of tax treaty by the treaty partner.\n\n- Providing assistance in the collection of the fair and legitimate share of tax.\n\nFurther, in addition to above, there are some other principles which must be considered by countries in their tax system -\n\n(i) Equity and fairness: Same income earned by different taxpayers must be taxed at the same rate regardless of the source of income.\n\n(ii) Neutrality and efficiency: Neutrality factor provides that economic processes should not be affected by external factors such as taxation. Neutrality is two-fold.\n\n(a) Capital export neutrality and\n\n(b) Capital import neutrality (CIN).\n\nCapital export neutrality (CEN) provides that business decision must not be affected by tax factors between the country of residence and the target country; whereas CIN provides that the level of tax imposed on nonresidents as well as the residents must be similar.\n\n(iii) Promotion of mutual economic relation, trade and investment: In some cases, it is observed that avoidance of double taxation is not the only objective. The other objective may be to give impetus to a country's overall economic growth and development.",
+          "chapter_number": "26",
+          "chapter_name": "APPLICATION \\& INTERPRETATION OF TAX TREATIES"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Explain the term \"Exchange of information\" as per Article 26 of Model Tax Conventions under OECD Model and UN Model and explain importance of Article 26. (PYP 4 Marks May'24 , MP[5])",
+          "answer": "In order to complete tax cases, a country may require certain information which may be available with the treaty partner.\n\nArticle 26 provides for the information which may be exchanged and the manner in which such a request has to be made.\n\nThe OECD and UN Model Conventions are similar with respect to this Article.\n\n## Importance of Article 26:\n\n- facilitates effective exchange of information between Contracting States.\n\n- curtails cross-border tax evasion and avoidance, curtails the capital flight that is often accomplished through tax evasion & avoidance.",
+          "chapter_number": "27",
+          "chapter_name": "OVERVIEW OF MODEL TAX CONVENTIONS"
+        }
+      ]
+    },
+    {
+      "q_main": 6,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "20",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "7. The Income-tax department collected documents from ABC Bank which revealed that M/s. Alpha Travels and Consultancy Services (Alpha Travels) had remitted substantial amounts abroad. The documents collected include Form 15CB issued by the chartered accountant, list of passengers, copy of their passports, date of travel and invoice raised by the foreign party. On enquiring from the passengers and verifying their passports, it is found that they did not travel abroad during the dates mentioned in the documents. Further, the passengers denied any sort of transactions with Alpha Travels. The department, therefore, concluded that the amounts were remitted abroad on the basis of false invoices and for wrong reasons, leading to FEMA violations and that the Form 15CB issued by the chartered accountant facilitated such violations. During the nine-month period in question, the chartered accountant had issued 120 certificates in Form 15CB approximately involving remittances of ₹ 30 crores in favour of Alpha Travels. The chartered accountant submitted that he had issued Form 15CB based on invoices produced by the company and verifying the KYC documents of the signatory to the invoices. He however, failed to bring on record the invoices. He further submitted that since he was not the statutory auditor of the company, he did not examine the books of account before issue of Form 15CB or conduct due diligence of its business activities. He had charged ₹ 3,000 per certificate. Mostly, the fees was collected in cash. Some part of the fee was credited to his bank account. Examine the ethical implications in this case.",
+          "answer": "Form 15CB is a certificate of an accountant wherein he certifies that he has examined the agreement between the remitter and the beneficiary requiring such remittance as well as the relevant documents and books of account required for ascertaining the nature of remittance and for determining the rate of deduction of tax at source. The chartered accountant certifying the form undertakes to have verified the agreement between the remitter and the beneficiary as well as the relevant documents and books of account to ascertain the nature of remittance and determine the rate of TDS. In this case, however, the chartered accountant mentioned that he had only verified KYC of signatory to invoice and the invoices thereof. He had not only failed to justify as to how verification of invoices was considered as sufficient compliance for certifying the forms but also failed to bring on record the said invoices. Thus, he failed to provide any basis on which he relied for issuing Form 15CB certificates to the company. On account of such failure, clauses (7) and (8) of Part I of the Second Schedule to the Chartered Accountants Act, 1949 for failure to exercise due diligence in discharging his professional responsibilities and failure to obtain sufficient information may be invoked.",
+          "chapter_number": "20",
+          "chapter_name": "TAX AUDIT AND ETHICAL COMPLIANCES",
+          "unique_id": "DT-OCR-Ethics_ICAI_Study_Material"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Mr. Rohit, an Indian citizen, returned to India in March 2014 to assume the role of CEO at ABC (P) Ltd., an Indian company. He served in this capacity from 1st April 2014 to 31st March 2021. Prior to this, from May 2001 to February 2014 he was working with Red Inc, in the USA. In April 2021, he went to the USA to rejoin Red Inc. and permanently settled there. Mr. Rohit visits India every year only for 1 month during his stay in USA. It was found that when he was CEO of ABC (P) Ltd., he accumulated undisclosed income/wealth such as (i) shares of listed companies in USA acquired on 10th December, 2013; (ii) acquired one apartment in London on 20th April 2016 and (iii) established a leather goods manufacturing factory in Malaysia on 15th April 2021. He also earned income by taking commission from various foreign buyers located outside India during the period between April 2014 to March 2021. The above undisclosed assets came to the notice of Assessing Officer in April 2024, and he issued notice under the Black Money Act, 2015 in July, 2024. Is the notice issued by the Assessing Officer under the Black Money Act, 2015 on Mr. Rohit tenable in law? (RTP May'24) (MTP 4 Marks Mar'25)",
+          "answer": "## Validity of notice issued under Black Money Act, 2015\n\nEvery assessee would be liable to tax@30% in respect of his undisclosed foreign income and asset of the previous year. Undisclosed foreign asset would be liable to tax in the previous year in which such asset comes to the notice of the Assessing Officer.\n\nSection 2(2) of the Black Money (Undisclosed Foreign Income and Assets) and Imposition of Tax Act, 2015 defines \"assessee\" to include a person being -\n\n(a) a resident in India within the meaning of section 6 of the Income-tax Act, 1961 in the previous year; or\n\n(b) a non-resident or not ordinarily resident in India within the meaning of section 6(6) of the Income-tax Act, 1961 in the previous year but who was resident in India either in the previous year to which the income referred to in section 4 relates; or in the previous year in which the undisclosed asset located outside India was acquired.\n\nMr. Rohit is non-resident for the P.Y. 2024-25 (the previous year in which notice is issued by the Assessing Officer), since he returned to the USA in April 2021 and visited every year only for 1 month. He was also a non-resident for the P.Y. 2013-14, when he acquired shares of listed companies in USA and P.Y. 2021-22, when he established a leather goods manufacturing factory in Malaysia, since he was in India only during the previous years from P.Y. 2014-15 to P.Y. 2020-21. However, he was resident in India in the P.Y. 2016-17, when he acquired one apartment in London.\n\nAccordingly, the issue of notice on Mr. Rohit under section 10 of the Black Money Act, 2015, is tenable in law, in respect of apartment in London since he was resident in the previous year 2016-17 when the property was acquired.\n\nHowever, notice issued in respect of shares of listed companies in USA acquired in the P.Y.2013-14 and leather goods manufacturing factory established in Malaysia in the P.Y.2021-22 is not tenable in law, since Mr. Rohit was non-resident in the previous years in which undisclosed assets were acquired and also in the previous year in which it comes to the notice of Assessing Officer.\n\nAs regards commission earned from various foreign buyers located outside India, notice can be issued to the extent the same relates to P.Y.2015-16 to P.Y.2020-21. Undisclosed foreign income relating to the period prior to P.Y.2015-16 does not fall within the scope of Black Money Law, which is effective only from A.Y.2016-17.",
+          "chapter_number": "19",
+          "chapter_name": "PROVISIONS TO COUNTERACT UNETHICAL TAX"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Question 14 (PYP 4 Marks Nov'24)\n\nLDR\n\nM/s. ABC Limited, an Indian company makes an application to Board of Advance rulings in relation to the tax liability of $\text{M}/\text{s}$. Pinicer Inc, a non-resident arising out of a transaction which is proposed to be undertaken by ABC Limited with M/s. Pinicer Inc. The value of transactions entered into between both the parties is ₹ 250 crores.\n\nAs per section 245Q, how many copies of application need to be filed by the applicant with the Board and what would be the amount of fees to be accompanied with the application.\n\nWhat is the remedy available to an applicant if the Board rejects its application? Also, state the time limit within which the applicant should exercise this remedy.",
+          "answer": "As per section 245 N (a) clause(ii), Advance ruling means a determination by the Authority in relation to the tax liability of a non-resident arising out of a transaction which has been undertaken or is proposed to be undertaken by a resident applicant with such non-resident.\n\nSection $245 \text{Q}(1)$ provides that an applicant desirous of obtaining an advance ruling may make an application stating the question on which the advance ruling is sought in the prescribed form and in the prescribed manner. As per section $245 Q(2)$, the application of advance ruling needs to be made in quadruplicate (refer note below) by the applicant i.e., M/s ABC Ltd.\n\nSince the value of transaction between $\text{M}/\text{s} \text{ABC}$ Ltd and $\text{M}/\text{s}$ Pinicer Inc., in respect of which ruling is sought, exceeds ₹ 100 crores but does not exceed ₹ 300 crores, fees of ₹ 5 lakhs to be accompanied with the application. As per section $245 \text{~W}(1)$, an applicant who is aggrieved by any order passed by the Board for Advance Rulings or the Assessing Officer, on the directions of the Principal Commissioner or Commissioner, may appeal to the High Court against such ruling or order of the Board of Advance Rulings.\n\nHe has to do so within sixty days from the date of the communication of that ruling or order. However, where the High Court is satisfied that the appellant was prevented by sufficient cause from presenting the appeal within the 60 days period, it may grant further period of 30 days for filing such appeal.\n\nNote - Rule 44E(1) provides that an application for obtaining an advance ruling under sub-section (1) of section 245Q shall be made in prescribed forms and shall be verified in the manner indicated therein. Rule 44E(2) prescribes that the application referred to in sub-rule (1), the verification appended thereto, the annexures to the said application and the statements and documents accompanying the annexures, shall be signed or digitally signed by a particular person and furnished through his/its registered e-mail address.\n\nSince reference to the word \"quadruplicate\" still contained in the section $245 Q(2)$ though rule prescribe to furnish application through e-mail. The main solution is given based on provisions contained in section $245 Q(2)$. However, alternate solution that \"the application of advance ruling needs to be made by the applicant i.e., $\text{M}/\text{s}$ ABC Ltd. through its registered e--mail\" is also possible in line with Rule 44E.",
+          "chapter_number": "23",
+          "chapter_name": "ADVANCE RULING",
+          "unique_id": "23-T-14"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "q_main": 1,
+    "is_compulsory": true,
+    "sub_questions": [
+      {
+        "label": "a",
+        "marks": 12,
+        "internal_split": null,
+        "question": "Explain, in brief, the basic considerations for distinguishing between capital and revenue expenditures?",
+        "answer": "The distinction between capital and revenue expenditure is fundamental to the preparation of accurate financial statements. Capital expenditure is incurred to acquire or improve a long-term asset, while revenue expenditure is incurred for the day-to-day running of the business. \n\nThe following are the core considerations used to distinguish between the two:\n\n1. **Nature of the Business**: An item classified as capital for one business might be revenue for another. For example, a furniture dealer purchasing chairs is incurring revenue expenditure (stock-in-trade), whereas a textile mill purchasing chairs for its office is incurring capital expenditure (fixed asset).\n\n2. **Recurring vs. Non-Recurring**: Revenue expenditure is typically recurring in nature (e.g., salaries, electricity, rent) as it is required for continuous operations. Capital expenditure is generally non-recurring and provides benefits across multiple accounting periods.\n\n3. **Purpose and Result of the Expenditure**: This is the most critical test. If the expenditure is incurred to maintain the existing capacity of an asset (like routine repairs or oiling), it is revenue. However, if it increases the earning capacity, productive efficiency, or life of the asset (like adding a new wing to a building or upgrading a machine to higher RPM), it is capital.\n\n4. **Benefit Period**: If the benefit of the expenditure is exhausted within the current accounting year (e.g., consumption of raw materials), it is revenue. If the benefit extends over several years (e.g., purchase of a delivery van), it is capital.\n\n5. **Materiality of the Amount**: Although not a strict legal rule, the size of the amount often influences the classification. For instance, a small stapler costing ₹50 has a long life (capital in nature) but is often charged as a revenue expense (stationery) because the amount is too small to justify the effort of capitalization and depreciation tracking.\n\n6. **Effect on Revenue and Profit**: Revenue expenditure is debited to the Trading and P&L Account, reducing the current year's profit. Capital expenditure is capitalized in the Balance Sheet and its cost is gradually allocated as depreciation, affecting the profits of multiple years.",
+        "chapter_number": "1",
+        "unique_id": "1.3-SectionB-TP-6"
+      }
+    ]
+  },
+  {
+    "q_main": 2,
+    "is_compulsory": false,
+    "sub_questions": [
+      {
+        "label": "a",
+        "marks": 10,
+        "internal_split": null,
+        "question": "The Trial Balance of Mr. Sarvesh Kumar as on 31st March,20X2 did not tally and the difference was posted to Suspense Account. On a scrutiny of the books; the following errors were detected:  (i)   The total of Sales Returns Book for January 20X2 has been casted short by \u20b9 1,000.  (ii)  Freight paid for installation of a Machine \u20b9 6,500 was posted to the Freight Account as \u20b9 5,600.  (iii) Goods of the value of \u20b9 2,500 returned by a customer were entered in the Sales day Book and posted therefrom to the credit of his account.  (iv)  \u20b9 18,000 paid for purchase of old Motorcycle for personal use of Mr. Sarvesh Kumar was debited to conveyance account.  (v)   A purchase of \u20b9 6,700 had been posted to creditor\u2019s account as \u20b9 6,000.  (vi)  Receipt of cash \u20b9 5,000 from Mr. Avinash was posted to the debit of his account.  (vii) A cheque for \u20b9 2,500 received form Mr. Alok had been dishonoured and was posted to the debit of Mr. Ashok.  (viii) Sale of \u20b9 8,500 to Mr. Deepak was recorded in the sales book correctly but while posting in ledger credited to his account.  (ix)  The total of \u201cDiscount Allowed\u201d column in the cash for the month of December 20X1 amounting to \u20b9 3,800 was not posted.  (x)   Sale of old office table for \u20b9 2,200 treated as sale of goods. You are required to pass necessary journal entries with narrations to rectify the above errors.",
+        "answer": "Journal Entries in the Books of Mr. Sarvesh Kumar\n\n| Particulars | L.F. | Amount Dr. (₹) | Amount Cr. (₹) |\n|------------------------------------------|------|----------------|----------------|\n| Returns Inward / Sales Return A/c Dr. | | 1,000 | |\n| To Suspense A/c | | | 1,000 |\n| (Being sales return recorded) | | | |\n| Machinery A/c Dr. | | 6,500 | |\n| To Freight A/c | | | 5,600 |\n| To Suspense A/c | | | 900 |\n| (Freight on machinery capitalised) | | | |\n| Returns Inward / Sales Return A/c Dr. | | 2,500 | |\n| Sales A/c Dr. | | 2,500 | |\n| To Suspense A/c | | | 5,000 |\n| (Rectification of sales return error) | | | |\n| Drawings A/c Dr. | | 18,000 | |\n| To Conveyance A/c | | | 18,000 |\n| (Motorcycle wrongly debited corrected) | | | |\n| Suspense A/c Dr. | | 700 | |\n| To Creditors A/c | | | 700 |\n| (Creditor undercast corrected) | | | |\n| Suspense A/c Dr. | | 10,000 | |\n| To Mr. Avinash\u2019s A/c | | | 10,000 |\n| (Cash wrongly posted corrected) | | | |\n| Mr. Alok\u2019s A/c Dr. | | 2,500 | |\n| To Ashok\u2019s A/c | | | 2,500 |\n| (Dishonoured cheque correction) | | | |\n| Deepak A/c Dr. | | 17,000 | |\n| To Suspense A/c | | | 17,000 |\n| (Wrong credit rectified) | | | |\n| Discount A/c Dr. | | 3,800 | |\n| To Suspense A/c | | | 3,800 |\n| (Discount posting corrected) | | | |\n| Sales A/c Dr. | | 2,200 | |\n| To Furniture A/c | | | 2,200 |\n| (Furniture sale wrongly recorded corrected) | | | |",
+        "chapter_number": "2",
+        "unique_id": "2.6-SectionB-TP-10"
+      }
+    ]
+  },
+  {
+    "q_main": 3,
+    "is_compulsory": false,
+    "sub_questions": [
+      {
+        "label": "a",
+        "marks": 8,
+        "question": "Discuss the expenses directly attributable to the cost of property, plant and equipment. Also, the expenses that do not form a part of cost of cost of asset.",
+        "answer": "Cost of Property, Plant and Equipment comprises:\n(a) its purchase price, including non-refundable import duties and purchase taxes, after deducting trade discounts and rebates.\n(b) any cost directly attributable to bring the asset to the location and condition necessary for it to be capable of operating in a manner intended by the enterprise.\n(c) the initial estimate of the costs of dismantling, removing, the item and restoring the site on which an asset is located.\n\nExamples of directly attributable costs are:\n(a) cost of employee benefits arising directly from acquisition or construction of an item of property, plant and equipment.\n(b) cost of site preparation\n(c) initial delivery and handling costs\n(d) installation and assembly costs\n(e) cost of testing whether the asset is functioning properly, after deducting the net proceeds from selling the items produced while testing (such as samples produced while testing)\n(f) professional fees e.g. engineers hired for helping in installation of a machine\n\nThus, all the expenses which are necessary for the asset to bring it in condition and location of desired use will become part of cost of the asset. However, following expenses should not become part of cost of asset:\n(a) costs of opening new facility or business, such as inauguration costs;\n(b) cost of introducing new product or service (for example cost of advertisement or promotional activities).\n(c) cost of conducting business in a new location or with a new class of customer (including cost of staff training); and\n(d) administration and other general overhead costs.",
+        "chapter_number": "5",
+        "unique_id": "5-SectionB-TP-5",
+        "internal_split": null
+      }
+    ]
+  },
+  {
+    "q_main": 4,
+    "is_compulsory": false,
+    "sub_questions": [
+      {
+        "label": "a",
+        "marks": 10,
+        "question": "The Receipts and Payments Account of Vandana Sports Club for the year ended 31st March, 20X2 are as follows:\n\nReceipts and Payments Account\n\n| Receipts                      | Amount (\u20b9) | Payment                      | Amount (\u20b9) |\n|-------------------------------|------------|------------------------------|------------|\n| To Balance b/d                |            | By Salaries                  | 1,55,000   |\n| Cash in hand                  | 5,200      | By Rent Electricity          | 69,750     |\n| Cash at Bank                  | 35,500     | By Library Books             | 10,500     |\n| To Subscriptions              | 2,95,000   | By Newspaper Magazines       | 16,600     |\n| To Entrance fees              | 50,000     | By Sports Equipment          | 28,500     |\n| To Miscellaneous Income       | 19,850     | By Sundry Expenses           | 71,050     |\n| To Interest on Investments    | 8,000      | By Balance c/d               |            |\n|                               |            | Cash in hand                 | 8,750      |\n|                               |            | Cash at Bank                 | 53,400     |\n|                               | 4,13,550   |                              | 4,13,550   |\n\nDetails of other assets and liabilities are furnished as follows:\n\n| Particulars                        | 31st March 20X1 (\u20b9) | 31st March 20X2 (\u20b9) |\n|------------------------------------|---------------------|---------------------|\n| Salaries Outstanding               | 10,200              | 12,400              |\n| Outstanding Rent & Electricity     | 6,500               | 7,600               |\n| Investment (8% Govt. Bonds)        | 1,00,000            | 1,00,000            |\n| Interest Accrued on Bonds          | 2,000               | 2,000               |\n| Subscription receivable            | 18,700              | 20,600              |\n| Subscription received in advance   | 7,000               | 8,400               |\n| Furniture                          | 65,500              |                     |\n| Sports Equipment                   | 41,500              |                     |\n| Library Books                      | 22,000              |                     |\n\nThe closing values of furniture and sports equipment are to be determined after charging depreciation at 10% and 15% respectively inclusive of additions, if any during the year. The Club\u2019s library books are revalued at the end of every year and the value at the end of 31st March, 20X2 was \u20b9 30,000. 60% of the Entrance fee is to be capitalized.\nYou are required to prepare:\n(i) Income and Expenditure Account for the year ended 31st March, 20X2\n(ii) Balance Sheet as on 31st March, 20X2",
+        "answer": "In the books of Vandana Sports Club\nIncome and Expenditure Account for the year ending 31st March, 20X2\n\n| Expenditure | Amount (₹) | Income | Amount (₹) |\n|------------------------------|------------|-----------------------------|------------|\n| To Salaries (W.N.2) | 1,57,200 | By Subscription (W.N.2) | 2,95,500 |\n| To Rent & Electricity (W.N.2) | 70,850 | By Interest on Investments | 8,000 |\n| To Magazines & Newspapers | 16,600 | By Misc. Income | 19,850 |\n| To Sundry Expenses | 71,050 | By Entrance Fees | 20,000 |\n| To Depreciation (Furniture) | 6,550 | | |\n| To Depreciation (Sports Equipment) | 10,500 | | |\n| To Depreciation (Library Books) | 2,500 | | |\n| To Excess of Income over Expenditure | 8,100 | | |\n| Total | 3,43,350 | Total | 3,43,350 |\n\nBalance Sheet as on 31st March, 20X2\n\n| Liabilities | Amount (₹) | Assets | Amount (₹) |\n|------------------------------------|------------|-------------------------------|------------|\n| Capital Fund (Opening) | 2,66,700 | Furniture (65,500 - 6,550) | 58,950 |\n| Add: Excess of Income over Expenditure | 8,100 | Sports Equipment (41,500 + 28,500 - 10,500) | 59,500 |\n| Add: Entrance Fees (60%) | 30,000 | Library Books (22,000 + 10,500 - 2,500) | 30,000 |\n| Capital Fund (Total) | 3,04,800 | Investments (8% Bonds) | 1,00,000 |\n| Subscription received in advance | 8,400 | Cash in Hand | 8,750 |\n| Outstanding Salaries | 12,400 | Bank Balance | 53,400 |\n| Outstanding Rent & Electricity | 7,600 | Subscription Receivable | 20,600 |\n| | | Interest Accrued on Bonds | 2,000 |\n| Total | 3,33,200 | Total | 3,33,200 |\n\nWorking Notes\n\n| Particulars |\n|------------------------------|\n| 1. Balance Sheet as on 31st March, 20X1 (for Capital Fund calculation) |\n| 2. Expenses Calculations |\n| 3. Depreciation Calculations |\n| 4. Subscription Calculations |\n| 5. Entrance Fees Calculations |",
+        "chapter_number": "8",
+        "unique_id": "8-SectionB-TP-1",
+        "internal_split": null
+      }
+    ]
+  },
+  {
+    "q_main": 5,
+    "is_compulsory": false,
+    "sub_questions": [
+      {
+        "label": "a",
+        "marks": 6,
+        "question": "Mr. A runs a business of readymade garments. He closes the books of accounts on 31st March. The Balance Sheet as on 31st March, 20X1 was as follows:\n\n| Liabilities       | \u20b9      | Assets         | \u20b9      |\n|-------------------|--------|----------------|--------|\n| A\u2019s capital a/c   | 4,04,000 | Furniture     | 40,000 |\n| Creditors         | 82,000  | Stock         | 2,80,000 |\n|                   |         | Debtors       | 1,00,000 |\n|                   |         | Cash in hand  | 28,000  |\n|                   |         | Cash at bank  | 38,000  |\n|                   | 4,86,000|               | 4,86,000|\n\nYou are furnished with the following information:\n(1) Sales for 20X1-X2 were 20% higher than previous year (Total sales 20X0-X1 were \u20b9 5,00,000).\n(2) 20% sales were cash sales. Payments for all purchases by cheques.\n(3) Credit customers pay by cheques only.\n(4) Depreciation on furniture @ 10% p.a.\n(5) Bank deposits made at month-end after expenses.\n\nBalances on 31st March, 20X2:\nStock: 1,60,000, Debtors: 1,20,000, Creditors: 1,46,000.\nCashier absconded with cash. Prepare Trading, P&L A/c and Balance Sheet.",
+        "answer": "Trading and Profit & Loss Account for the year ended 31st March, 20X2\n\n| Particulars | \u20b9 | Particulars | \u20b9 |\n|-------------|---|-------------|---|\n| To Opening stock | 2,80,000 | By Sales | 6,00,000 |\n| To Purchases | 3,64,000 | By Closing stock | 1,60,000 |\n| To Gross profit | 1,16,000 | | |\n| | 7,60,000 | | 7,60,000 |\n| To Salary | 24,000 | By Gross profit | 1,16,000 |\n| To Rent | 16,000 | | |\n| To Office expenses | 14,400 | | |\n| To Loss of cash (defalcation) | 23,600 | | |\n| To Depreciation | 4,000 | | |\n| To Net Profit | 34,000 | | |\n| | 1,16,000 | | 1,16,000 |\n\nBalance Sheet as on 31st March, 20X2\n\n| Liabilities | \u20b9 | Assets | \u20b9 |\n|-------------|---|--------|---|\n| Capital (Op) | 4,04,000 | Furniture (Net) | 36,000 |\n| Add: Net Profit | 34,000 | Stock | 1,60,000 |\n| Less: Drawings | (6,000) | Debtors | 1,20,000 |\n| Creditors | 1,46,000 | Bank | 2,62,000 |\n| | 5,78,000 | | 5,78,000 |",
+        "chapter_number": "9",
+        "unique_id": "9-SectionA-TP-1",
+        "internal_split": null
+      }
+    ]
+  },
+  {
+    "q_main": 6,
+    "is_compulsory": false,
+    "sub_questions": [
+      {
+        "label": "a",
+        "marks": 4,
+        "question": "What are the core differences between the Single Entry System and the Double Entry System?",
+        "answer": "The following are the core differences:\n1. **Recording**: Double entry records both aspects (debit/credit) of every transaction, while single entry may record only one aspect (usually cash or personal accounts) or skip recording entirely.\n2. **Type of Accounts**: Double entry maintains real, personal, and nominal accounts. Single entry generally maintains only personal and cash accounts.\n3. **Trial Balance**: A trial balance can be prepared in double entry to check arithmetical accuracy; this is not possible in a pure single entry system.\n4. **Profit/Loss**: In double entry, profit is accurately determined via the Trading and P&L account. In single entry, profit is usually estimated through a Statement of Affairs or conversion method.\n5. **Reliability**: Double entry is systematic and globally accepted (Mandatory for companies), whereas single entry is unsystematic and used only by small traders.",
+        "chapter_number": "9",
+        "unique_id": "9-Theory-4M-1",
+        "internal_split": null
+      }
+    ]
+  }
+]

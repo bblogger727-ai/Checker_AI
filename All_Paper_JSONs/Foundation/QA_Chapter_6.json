@@ -1,0 +1,392 @@
+[
+  {
+    "chapter_name": "Chapter 6: Sequence and Series - Arithmetic and Geometric",
+    "chapter_number": "6",
+    "q_num": 1,
+    "question": "If $a, b, c$ are in A.P. then the value of $\\left(a^{3}+4 b^{3}+c^{3}\\right) /\\left[b\\left(a^{2}+c^{2}\\right)\\right]$ is",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "None"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 6: Sequence and Series - Arithmetic and Geometric",
+    "chapter_number": "6",
+    "q_num": 2,
+    "question": "The sum of $n$ terms of $2,4,6,8 \\ldots .$ is",
+    "options": {
+      "a": "$n(n+1)$",
+      "b": "$(n / 2)(n+1)$",
+      "c": "$n(n-1)$",
+      "d": "$(n / 2)(n-1)$"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 6: Sequence and Series - Arithmetic and Geometric",
+    "chapter_number": "6",
+    "q_num": 3,
+    "question": "The three numbers in A.P. whose sum is 18 and product is 192 are $\\_\\_\\_\\_$.",
+    "options": {
+      "a": "$4,6,8$",
+      "b": "$-4,-6,-8$",
+      "c": "$8,6,4$",
+      "d": "Both (a) \\& (c)"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 6: Sequence and Series - Arithmetic and Geometric",
+    "chapter_number": "6",
+    "q_num": 4,
+    "question": "If $a, b, c$ are the $p^{\\text {th }}, q^{\\text {th }}$ and $r^{\\text {th }}$ terms of a G.P. respectively the value of $a^{q-r} \\cdot b^{r-p} \\cdot c^{p-q}$ is $\\_\\_\\_$ .",
+    "options": {
+      "a": "0",
+      "b": "1",
+      "c": "-1",
+      "d": "None"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 6: Sequence and Series - Arithmetic and Geometric",
+    "chapter_number": "6",
+    "q_num": 5,
+    "question": "The sum of first $n$ natural number is $\\_\\_\\_$ .",
+    "options": {
+      "a": "$(\\mathrm{n} / 2)(\\mathrm{n}+1)$",
+      "b": "$(\\mathrm{n} / 6)(\\mathrm{n}+1)(2 \\mathrm{n}+1)$",
+      "c": "$[(\\mathrm{n} / 2)(\\mathrm{n}+1)]^{2}$",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 6: Sequence and Series - Arithmetic and Geometric",
+    "chapter_number": "6",
+    "q_num": 6,
+    "question": "Find three numbers in A.P. whose sum is 6 and the sum of their cubes is 216.",
+    "options": {
+      "a": "$-2,2,6$",
+      "b": "$-1,1,3$",
+      "c": "$1,3,5$",
+      "d": "1, 4, 7"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 6: Sequence and Series - Arithmetic and Geometric",
+    "chapter_number": "6",
+    "q_num": 7,
+    "question": "If $s_{n}$ the sum of first $n$ terms in a series is given by $2 n^{2}+3 n$ the series is in $\text{_____}$ .",
+    "options": {
+      "a": "A.P.",
+      "b": "G.P.",
+      "c": "H.P.",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 6: Sequence and Series - Arithmetic and Geometric",
+    "chapter_number": "6",
+    "q_num": 8,
+    "question": "If the $p^{\text {th }}$ term of an A.P. is $q$ and the $q^{\text {th }}$ term is $p$ the value of the $r^{\text {th }}$ term is $\text{_____}$ . (SM, MTP Apr'24, MP [1])",
+    "options": {
+      "a": "$p-q-r$",
+      "b": "$p+q-r$",
+      "c": "$p+q+r$",
+      "d": "None"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 6: Sequence and Series - Arithmetic and Geometric",
+    "chapter_number": "6",
+    "q_num": 9,
+    "question": "If $a, b, c$ be the sums of $p, q, r$ terms respectively of an A.P. the value of $(a / p)(q-r)+(b / q)(r-p)+ (c / r)(p-q)$ is $\text{_____}$ .",
+    "options": {
+      "a": "0",
+      "b": "1",
+      "c": "-1",
+      "d": "none"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 6: Sequence and Series - Arithmetic and Geometric",
+    "chapter_number": "6",
+    "q_num": 10,
+    "question": "The sum of $n$ terms of the series $1^{2}+\\left(1^{2}+2^{2}\\right)+\\left(1^{2}+2^{2}+3^{2}\\right)+\\ldots \\ldots$ is",
+    "options": {
+      "a": "$(\\mathrm{n} / 12)(\\mathrm{n}+1)^{2}(\\mathrm{n}+2)$",
+      "b": "$(n / 12)(n-1)^{2}(n+2)$",
+      "c": "$(\\mathrm{n} / 12)\\left(\\mathrm{n}^{2}-1\\right)(\\mathrm{n}+2)$",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 6: Sequence and Series - Arithmetic and Geometric",
+    "chapter_number": "6",
+    "q_num": 11,
+    "question": "If fourth term of A.P. series is zero, then what is the ratio of twenty-fifth term to eleventh term ? (MP [9])",
+    "options": {
+      "a": "5",
+      "b": "4",
+      "c": "3",
+      "d": "2"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 6: Sequence and Series - Arithmetic and Geometric",
+    "chapter_number": "6",
+    "q_num": 12,
+    "question": "The sum of $p$ terms of an A.P. is $q$ and the sum of $q$ terms is $p$. The sum of $p+q$ terms is $\\_\\_\\_$ .",
+    "options": {
+      "a": "$-(p+q)$",
+      "b": "$p+q$",
+      "c": "$(p-q)^{2}$",
+      "d": "$\\mathrm{p}^{2}-\\mathrm{q}^{2}$"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 6: Sequence and Series - Arithmetic and Geometric",
+    "chapter_number": "6",
+    "q_num": 13,
+    "question": "The sum of $n$ terms of $1^{2}, 3^{2}, 5^{2}, 7^{2}, \\ldots \\ldots \\ldots$.is",
+    "options": {
+      "a": "$(n / 3)\\left(4 n^{2}-1\\right)$",
+      "b": "$(n / 2)\\left(4 n^{2}-1\\right)$",
+      "c": "$(\\mathrm{n} / 3)\\left(4 \\mathrm{n}^{2}+1\\right)$",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 6: Sequence and Series - Arithmetic and Geometric",
+    "chapter_number": "6",
+    "q_num": 14,
+    "question": "If the third term of a G.P. is the square of the first and the fifth term is 64 the series would be $\\_\\_\\_$ .",
+    "options": {
+      "a": "$4+8+16+32+\\ldots$.",
+      "b": "$4-8+16-32+\\ldots$.",
+      "c": "Both",
+      "d": "None"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 6: Sequence and Series - Arithmetic and Geometric",
+    "chapter_number": "6",
+    "q_num": 15,
+    "question": "Find three numbers in A.P. whose sum is 6 and the product is -24",
+    "options": {
+      "a": "$-2,2,6$",
+      "b": "$-1,1,3$",
+      "c": "$1,3,5$",
+      "d": "1, 4, 7"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 6: Sequence and Series - Arithmetic and Geometric",
+    "chapter_number": "6",
+    "q_num": 16,
+    "question": "The first, second and seventh term of an AP. are in G.P. and the common difference is 2 , the 2 nd term of A.P. is: (MTP Apr'24,MP [1])",
+    "options": {
+      "a": "$5 / 2$",
+      "b": "2",
+      "c": "$3 / 2$",
+      "d": "$1 / 2$"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 6: Sequence and Series - Arithmetic and Geometric",
+    "chapter_number": "6",
+    "q_num": 17,
+    "question": "The three numbers in A.P., whose sum is 27 and the sum of their squares is 341, are $\\_\\_\\_\\_$.",
+    "options": {
+      "a": "$2,9,16$",
+      "b": "$16,9,2$",
+      "c": "both (a) and (b)",
+      "d": "$-2,-9,-16$"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 6: Sequence and Series - Arithmetic and Geometric",
+    "chapter_number": "6",
+    "q_num": 18,
+    "question": "The sum of $n$ terms of $1,(1+2),(1+2+3)$ $\\_\\_\\_\\_$ is",
+    "options": {
+      "a": "(n/3)(n+1)(n-2)",
+      "b": "(n/3)(n+1)(n+2)",
+      "c": "$n(n+1)(n+2)$",
+      "d": "None"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 6: Sequence and Series - Arithmetic and Geometric",
+    "chapter_number": "6",
+    "q_num": 19,
+    "question": "If the $n$ terms of two A.P.s are in the ratio $(3 n+4):(n+4)$ the fourth term is $\\_\\_\\_\\_$.",
+    "options": {
+      "a": "2",
+      "b": "3",
+      "c": "4",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 6: Sequence and Series - Arithmetic and Geometric",
+    "chapter_number": "6",
+    "q_num": 20,
+    "question": "The sum of $n$ terms of $a+b, 2 a, 3 a-b, \\ldots .$ is",
+    "options": {
+      "a": "$n(a-b)+2 b$",
+      "b": "$n(a+b)$",
+      "c": "both the above",
+      "d": "None"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 6: Sequence and Series - Arithmetic and Geometric",
+    "chapter_number": "6",
+    "q_num": 21,
+    "question": "If $(b+c-a) / a,(c+a-b) / b,(a+b-c) / c$ are in A.P. then $a, b, c$ are in $\text{_____}$ .",
+    "options": {
+      "a": "A.P.",
+      "b": "G.P.",
+      "c": "H.P.",
+      "d": "None"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 6: Sequence and Series - Arithmetic and Geometric",
+    "chapter_number": "6",
+    "q_num": 22,
+    "question": "If the sum of 'terms of an Arithmetic Progression is $2 \\mathbf{n}^{\\mathbf{2}}$, the fifth term is. (MTP Nov'21) (RTP Jan'25)",
+    "options": {
+      "a": "20",
+      "b": "50",
+      "c": "18",
+      "d": "25"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 6: Sequence and Series - Arithmetic and Geometric",
+    "chapter_number": "6",
+    "q_num": 23,
+    "question": "Divide 12.50 into five parts in A.P. such that the first part and the last part are in the ratio of $2: 3$",
+    "options": {
+      "a": "$2,2.25,2.5,2.75,3$",
+      "b": "$-2,-2.25,-2.5,-2.75,-3$",
+      "c": "$4,4.5,5,5.5,6$",
+      "d": "$-4,-4.5,-5,-5.5,-6$"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 6: Sequence and Series - Arithmetic and Geometric",
+    "chapter_number": "6",
+    "q_num": 24,
+    "question": "If 8th term of an AP is 15, the Sum of the 15 its term is (MTP Mar'18, Jun'24, MP [3])",
+    "options": {
+      "a": "15",
+      "b": "0",
+      "c": "225",
+      "d": "$225 / 2$"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 6: Sequence and Series - Arithmetic and Geometric",
+    "chapter_number": "6",
+    "q_num": 25,
+    "question": "The four numbers in A.P., whose sum is 24 and their product is 945 , are $\\_\\_\\_\\_$.",
+    "options": {
+      "a": "$3,5,7,9$",
+      "b": "$2,4,6,8$",
+      "c": "$5,9,13,17$",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 6: Sequence and Series - Arithmetic and Geometric",
+    "chapter_number": "6",
+    "q_num": 26,
+    "question": "The sum of all natural numbers from 100 to 300 , which are divisible by 4 and 5 , is $\\_\\_\\_$ . (SM, MTP Nov'22, MP [10])",
+    "options": {
+      "a": "10,200",
+      "b": "30,000",
+      "c": "8,200",
+      "d": "2,200"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 6: Sequence and Series - Arithmetic and Geometric",
+    "chapter_number": "6",
+    "q_num": 27,
+    "question": "If $\\mathrm{a}, \\mathrm{b}, \\mathrm{c}$ are in A.P. then $(\\mathrm{a} / \\mathrm{bc})(\\mathrm{b}+\\mathrm{c}),(\\mathrm{b} / \\mathrm{ca})(\\mathrm{c}+\text{a}),(\\mathrm{c} / \\mathrm{ab})(\\mathrm{a}+\text{b})$ are in $\text{_____}$ .",
+    "options": {
+      "a": "A.P.",
+      "b": "G.P.",
+      "c": "H.P.",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 6: Sequence and Series - Arithmetic and Geometric",
+    "chapter_number": "6",
+    "q_num": 28,
+    "question": "Find the number which should be added to the sum of any number of terms of the A.P. 3, 5, 7, 9, $11 \\ldots . .$. resulting in a perfect square.",
+    "options": {
+      "a": "-1",
+      "b": "0",
+      "c": "1",
+      "d": "None"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 6: Sequence and Series - Arithmetic and Geometric",
+    "chapter_number": "6",
+    "q_num": 29,
+    "question": "The sum of $n$ terms of the series $1^{2}+3^{2}+5^{2}+\\ldots \\ldots \\ldots$ is",
+    "options": {
+      "a": "$\\frac{n}{3}\\left(4 n^{2}-1\\right)$",
+      "b": "$\\mathrm{n}^{2}\\left(2 \\mathrm{n}^{2}+1\\right)$",
+      "c": "$n(2 n-1)$",
+      "d": "$n(2 n+1)$"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 6: Sequence and Series - Arithmetic and Geometric",
+    "chapter_number": "6",
+    "q_num": 30,
+    "question": "The sum of all natural numbers from 100 and 300, which are divisible by 4 , is $\\_\\_\\_$ .",
+    "options": {
+      "a": "10,200",
+      "b": "30,000",
+      "c": "8,200",
+      "d": "2,200"
+    },
+    "answer": "a"
+  }
+]

@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "subject_code": "AFM",
+    "subject_name": "Advanced Financial Management",
+    "paper_num": "Portionwise_3",
+    "total_marks_printed": 50,
+    "total_marks_in_paper": 50,
+    "section_a_marks": 0,
+    "section_b_marks": 50,
+    "two_section_format": false,
+    "note": "Portionwise Test: Attempt all 5 questions. Each question carries 10 marks (6 + 4 split).",
+    "blacklisted_from": [
+      "/Users/gaureshmantri/Documents/Secure PDF Extraction/Final/Generated_Papers/AFM/AFM_Portionwise_Test_1.json",
+      "/Users/gaureshmantri/Documents/Secure PDF Extraction/Final/Generated_Papers/AFM/AFM_Portionwise_Test_2.json"
+    ],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)"
+    ]
+  },
+  "section_a": [],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "10",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "(MTP 6 Marks Apr'22, Mar'19, RTP May'21, May'19, PYP 6 Marks May'23, SM,MP[2],MP[8]) EFD Ltd. is an export business house. The company prepares invoice in customers' currency. Its debtors of US$. 10,000,000 is due on April 1,20X1.\n\nMarket information as at January 1, 20X1 is:\n\n| Exchange rates US$/INR |  | Currency Futures US$/INR |  |\n| :--- | :--- | :--- | :--- |\n| Spot | 0.016667 | Contract size: Rs. 24,816,975 |  |\n| 1-month forward | 0.016529 | 1-month | 0.016519 |\n| 3-months forward | 0.016129 | 3-month | 0.016118 |\n|  | Initial Margin | Interest rates in India |  |\n| 1-Month | Rs. 17,500 | 6.5% |  |\n| 3-Months | Rs. 22,500 | 7% |  |\n\nOn April 1, 20X1 the spot rate US$/INR is 0.016136 and currency future rate is 0.016134 . RECOMMEND which of the following methods would be most advantageous to EFD Ltd?\n\n(i) Using forward contract\n\n(ii) Using currency futures\n\n(iii) Not hedging the currency",
+          "answer": "| Receipts using a forward contract $=\\$ 10,000,000 / 0.016129$ | = Rs. 620,001,240 |\n| :--- | :--- |\n| Receipts using currency futures |  |\n| The number of contracts needed is ( $\\$ 10,000,000 / 0.016118$ )/24,816,975 | $=25$ |\n| Initial margin payable is 25 contracts x Rs. 22,500 | = Rs. 5,62,500 |\n| On April 1,2015 Close at 0.016134 |  |\n| Receipts = US$10,000,000/0.016136 | = Rs. 619,732,276 |\n| Variation Margin = |  |\n| $[(0.016134-0.016118) \\times 25 \\times 24,816,975 /-] / 0.016136$ |  |\n| OR $(0.000016 \\times 25 \\times 24,816,975) / .016136=9926.79 / 0.016136$ | = Rs. 615,195 |\n| Less: Interest Cost - $Rs. 5,62,500 \\times 0.07 \\times 3 / 12$ | = Rs. 9,844 |\n| Net Receipts | Rs. 620,337,627 |\n| Receipts under different methods of hedging |  |\n| Forward contract | Rs. 620,001,240 |\n| Futures | Rs. 620,337,627 |\n| No hedge (US$ 10,000,000/0.016136) | Rs. 619,732,276 |\n\nRecommendation: Since the highest Cash Flow is in case of Future Option hence it would be the most advantageous option would have been to hedge with futures.",
+          "chapter_number": "10",
+          "chapter_name": "Foreign Exchange Exposure & Risk Management",
+          "unique_id": "10-T-31"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "What are Foreign Currency Convertible Bonds? What are their advantages? (PYP 4 Marks May'22)",
+          "answer": "A type of convertible bond issued in a currency different than the issuer's domestic currency. In other words, the money being raised by the issuing company is in the form of a foreign currency. A convertible bond is a mix between a debt and equity instrument. It acts like a bond by making regular coupon and principal payments, but these bonds also give the bondholder the option to convert the bond into stock.\n\n## Advantages of FCCBs\n\n(i) The convertible bond gives the investor the flexibility to convert the bond into equity at a price or redeem the bond at the end of a specified period, normally three years if the price of the share has not met his expectations.\n\n(ii) Companies prefer bonds as it leads to delayed dilution of equity and allows company to avoid any current dilution in earnings per share that a further issuance of equity would cause.\n\n(iii) FCCBs are easily marketable as investors enjoys option of conversion into equity if resulting to capital appreciation. Further investor is assured of a minimum fixed interest earnings.",
+          "chapter_number": "11",
+          "chapter_name": "International Financial Management",
+          "unique_id": "11-T-3"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "9",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Question 18 (MP [5] 6 Marks) An Indian exporting firm, Rohit and Bros., would be covering itself against a likely depreciation of pound sterling. The following data is given: Receivables of Rohit and Bros : $£ 500,000$ Spot rate : Rs. 56.00/£ Payment date : 3-months 3 months interest rate: India: 12 per cent per annum : UK: 5 per cent per annum What should the exporter do?",
+          "answer": "The only thing lefts Rohit and Bros to cover the risk in the money market. The following steps are required to be taken: (i) Borrow pound sterling for 3 -months. The borrowing has to be such that at the end of three months, the amount becomes $£ 500,000$. Say, the amount borrowed is $£ \\mathrm{x}$. Therefore $x\\left[1+0.05 \\times \\frac{3}{12}\\right]=500,000$ or $X=£ 493,827$ (ii) Convert the borrowed sum into rupees at the spot rate. This gives: $£ 493,827 \\times Rs. 56=Rs. 27,654,312$ (iii) The sum thus obtained is placed in the money market at 12 per cent to obtain at the end of 3 -months: $$ S=Rs. 27,654,312 \\times\\left[1+0.12 \\times \\frac{3}{12}\\right]=Rs. 28,483,941 $$ (iv) The sum of $£ 500,000$ received from the client at the end of 3 - months is used to refund the loan taken earlier. From the calculations. It is clear that the money market operation has resulted into a net gain of Rs. 483,941 (Rs. $28,483,941-Rs. 500,000 \\times 56$ ). If pound sterling has depreciated in the meantime. The gain would be even bigger.",
+          "chapter_number": "9",
+          "chapter_name": "Derivative Analysis and Valuation",
+          "unique_id": "9-T-18"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Briefly explain Asset and Liability Management (ALM). (PYP 4 Marks, Nov'22)",
+          "answer": "Asset-Liability Management (ALM) is one of the important tools of risk management in commercial banks of India. Indian banking industry is exposed to a number of risks prevailing in the market such as market risk, financial risk, interest rate risk etc. The net income of the banks is very sensitive to these factors or risks. ALM is a comprehensive and dynamic framework for measuring, monitoring and managing the market risk of a bank. It is the management of structure of Balance Sheet (liabilities and assets) in such a way that the net earnings from interest are maximized within the overall risk preference (present and future) of the institutions. The ALM functions extend to liquidly risk management, management of market risk, trading risk management, funding and capital planning and profit planning and growth projection.\n\nBanks and other financial institutions provide services which expose them to various kinds of risks like credit risk, interest risk, and liquidity risk. Asset liability management is an approach that provides institutions with protection that makes such risk acceptable. Asset-liability management models enable institutions to measure and monitor risk, and provide suitable strategies for their management.\n\nIt is therefore appropriate for institutions (banks, finance companies, leasing companies, insurance companies, and others) to focus on asset-liability management when they face financial risks of different types. Asset-liability management includes not only a formalization of this understanding, but also a way to quantify and manage these risks.\n\nIn a sense, the various aspects of balance sheet management deal with planning as well as direction and control of the levels, changes and mixes of assets, liabilities, and capital.",
+          "chapter_number": "12",
+          "chapter_name": "INTEREST RATE RISK MANAGEMENT",
+          "unique_id": "12-T-4"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "10",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Mr. Dayal is interested in purchasing equity shares of ABC Ltd. which are currently selling at ₹ 600 each. He expects that price of share may go upto ₹ 780 or may go down to ₹ 480 in three months. The chances of occurring such variations are 60% and 40% respectively. A call option on the shares of ABC Ltd. can be exercised at the end of three months with a strike price of ₹ 630.\n\n(i) What combination of share and option should Mr. Dayal select if he wants a perfect hedge?\n(ii) What should be the value of option today (the risk free rate is 10% p.a.)?\n(iii) What is the expected rate of return on the option?",
+          "answer": "(i) Combination of Shares & Options\n\nDelta of Call\n\nDelta = (Cu - Cd) / (us - dn)\nDelta = (150 - 0) / (₹ 780 - ₹ 480) = 0.5\n\nWrite a Call Option & buy 0.5 share today for perfect hedge.\n\n(ii) Cash Flow\n\n| Price = ₹ 780 | |\n| --- | --- |\n| Call Option Exercised | (150) |\n| Sell Shares (₹ 780 x 0.5) | 390 |\n| Cash Inflows | 240 |\n\n| Price = ₹ 480 | |\n| --- | --- |\n| Call Option Lapsed | 0 |\n| Sell Shares (₹ 480 x 0.5) | 240 |\n| Cash Inflows | 240 |\n\nPresent Value Cash Inflow = 240 / 1.025 = 234.15\n\nValue of Call = 0.5 x 600 - 234.15 = ₹ 65.85\n\n(iii) Cost of option = 65.85\n\nExpected Profit = (150 x 0.6) + (0 x 0.5) = ₹ 90\n\nExpected Rate of Return = (90 - 65.85) / 65.85 x 100 = 36.67%",
+          "chapter_number": "10",
+          "chapter_name": "Foreign Exchange Exposure & Risk Management",
+          "unique_id": "IMG-AFM-P3-Q3a"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "What do you mean by Credit Default Swap (CDS)? Who are the parties involved in CDS? (MP [4] 4 Marks)",
+          "answer": "It is a combination of following 3 words:\n\nCredit: Loan given\n\nDefault: Non payment\n\nSwap: Exchange of Liability or Risk\n\nAccordingly, CDS can be defined as an insurance (not in stricter sense) against the risk of default on a debt which may be debentures, bonds etc.\n\nUnder this arrangement, one party (called buyer) needing protection against the default pays a periodic premium to another party (called seller), who in turn assumes the default risk. Hence, in case default takes place then there will be settlement and in case no default takes place no cash flow will accrue to the buyer alike option contract and agreement is terminated. Although it resembles the options but since element of choice is not there it more resembles the swap arrangements.\n\nAmount of premium mainly depends on the price of underlying and especially when the credit risk is more.\n\nParties to CDS In a CDS at least three parties are involved which are as follows:\n\nThe initial borrowers- It is also called a 'reference entity', which are owing a loan or bond obligation.\n\nBuyer- It is also called 'investor' i.e. the buyer of protection. The buyer will make regular payment to the seller for the protection from default or credit event of reference entity.\n\nSeller- It is also called 'writer' of the CDS and makes payment to buyer in the event of credit event of reference entity. It receives a regular pay off from the buyer of CDS.",
+          "chapter_number": "9",
+          "chapter_name": "Derivative Analysis and Valuation",
+          "unique_id": "9-T-8"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "9",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Calculate the justified price of 3 months ABC futures, if share of ABC (FV Rs. 10) quotes at Rs. 450 on NSE and the one month borrowing rate is given as 12 percent per annum and the expected annual dividend is 20 percent, payable before expiry. Also demonstrate is there any arbitrage opportunities if the three months Futures Price quotes at Rs. 470 . (MTP 8 Marks, Sep'23, SM)",
+          "answer": "(i) Future Price $=$ Spot + cost of carry - Dividend $\text{F}=450+450 \times(0.12 \times 0.25)^{\text{†}}-0.20^{**} \times 10=461.50$\n\n** Entire $20 \text{ \textpercent}$ dividend is payable before expiry, which is Rs. 2 .\n\n† Alternatively monthly compounding can also be used.\n\nThus, we can see that justified futures price is Rs. 461.50 which is quoted at Rs. 470 in the exchange.\n\n## (ii) Analysis of Arbitrage Opportunities:\n\nSince, Fair value of Futures is less than Actual Futures Price it is advised to sell it and buying stock in the cash market.\n\n## Step I\n\nArbitrageur will buy ABC Stock at Rs. 450 by borrowing at $12 \text{ \textpercent}$ for 3 months. Therefore, his outflows will be:\n\n| Cost of Stock | 450.00 |\n| :--- | :---: |\n| Add: Interest @ $12 \text{ \textpercent}$ for 3 months i.e. 0.25 years $(450 \times 0.12 \times 0.25)$ | $\text{ \textunderline{13.50}}$ |\n| Total Outflows (A) | $\text{ \textunderline{463.50}}$ |\n\n## Step II\n\nArbitrageur will settle futures at Rs. 470 . Meanwhile he would receive dividend for his stock.\n\nHence his inflows are\n\n| Sale proceeds of futures | 470.00 |\n| :--- | :---: |\n| Dividend | $\text{ \textunderline{2.00}}$ |\n| Total inflows (B) | $\text{ \textunderline{472.00}}$ |\n\nInflow - Outflow = Profit earned by Arbitrageur\n\n$=Rs. 472.00-Rs. 463.50=Rs. 8.50$",
+          "chapter_number": "9",
+          "chapter_name": "Derivative Analysis and Valuation",
+          "unique_id": "9-T-30"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Explain the reasons why conventional methods are not usefully deployed when valuing companies in distress? (RTP Jan'26)",
+          "answer": "Conventional methods are not usefully deployed when valuing companies in distress as:\n\n- Discounted cashflow valuation method required terminal value calculation which is based upon an infinite life and ever-growing cashflows. However, the assumption of perpetuity of cash flows may not be relevant in case of distressed firm because of negative cash flows.\n\n- A distressed firm generally has negative and declining revenues hence expects to lose money for some more time in the future. For such firms, estimating cash flows is difficult, since there is a high risk of bankruptcy. For firms expected to fail, DCF does not work very well, since DCF values a firm as a going concern - even if the firm is expected to survive, projections have to be made until the cash flows turn positive, else the DCF would yield a negative value for equity or firm.\n\n- Discount rates used in conventional methods reflect companies which are operationally as well as financially sound. They have to be adjusted for the probabilities of failures of the companies to be used in case of distressed companies.",
+          "chapter_number": "13",
+          "chapter_name": "BUSINESS VALUATION",
+          "unique_id": "13-T-1"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "12",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "## Question 22 (MTP 6 Marks Oct 21, Jul'25, RTP Nov'19, Nov'20)\n\nTwo companies TSU Ltd. and VIV Ltd. approach the DEF Bank for FRA (Forward Rate Agreement). Both companies want to borrow a sum of Rs.100 crores after 2 years for a period of 1 year. Bank has calculated Yield Curve of both companies as follows:\n\n\n| Year | VIV Ltd. | TSU Ltd. |\n| :---: | :---: | :---: |\n| 1 | 3.86 | 4.12 |\n| 2 | 4.20 | 5.48 |\n| 3 | 4.48 | 5.78 |\n\n## Required:\n\n(i) Identify at least one reason for difference in the Yield Curve for the companies.\n\n(ii) Calculate the rate of interest DEF Bank would quote under 2 V3 FRA, using the company's yield information as quoted above.\n\n(iii) Suppose bank offers Interest Rate Guarantee for a premium of $0.1 \\%$ of the amount of loan, calculate the interest payable by VIV Ltd. if interest rate in 2 years turns out to be\n\n(1) $4.50 \\%$\n\n(2) $5.50 \\%$",
+          "answer": "(i) The difference in yield curve may due to the lower credit rating of TSU Ltd. compared to VIV Ltd.\n\n(ii) DEF Bank will fix interest rate for 2 V 3 FRA after 2 years as follows:\n\nVIV Ltd.\n\n$\\(1+r)(1+0.0420)^{2}=(1+0.0448)^{3}$\n\n$\\(1+r)(1.0420)^{2}=(1.0448)^{3}$\n\nR = 5.04\\%  \nBank will quote $5.04 \\%$ for a 2V3 FRA.\n\nTSU Ltd.\n\n$\\(1+r)(1+0.0548)^{2}=(1+0.0578)^{3}$\n\n$\\(1+r)(1.0548)^{2}=(1.0578)^{3}$\n\nR = 6.38\\%  \nBank will quote $6.38 \\%$ for a 2V3 FRA.\n\n(iii) Interest payable by VIV Ltd. under two scenarios will be computed as follows:\n\n\n|  |  | 4.50\\% - Allow to Lapse | 5.50\\%- Exercise |\n| :--- | :--- | :--- | :--- |\n| Interest | Rs. 100 crores X 4.50\\% | Rs. 4.50 crores | - |\n|  | Rs. 100 crores X 5.04\\%* | - | Rs. 5.04 crores |\n| Premium (Cost of Option) | Rs. 100 crores X 0.1\\% | Rs. 0.10 crores | Rs. 0.10 crores |\n|  |  | 4.60 crores | 5.14 crores |\n\n* Since after 2 years 1 year interest rate turned out to be $5.50 \\%$, it will be beneficial for VIV Ltd. to exercise its option.",
+          "chapter_number": "12",
+          "chapter_name": "INTEREST RATE RISK MANAGEMENT",
+          "unique_id": "12-T-22"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Compute EVA of X Ltd. with the help of following information:\n\n| Profit and Loss Statement | Rs. lac | Balance Sheet | Rs. lac |\n| :--- | :--- | :--- | :--- |\n| Revenue | 1500 | PPE | 1500 |\n| Direct Costs | -585 | Current Assets | 450 |\n| Selling, General & Admin. Exp. (SGA) | -300 |  | 1950 |\n| EBIT | 615 | Equity | 1050 |\n| Interest | -15 | Reserves | 150 |\n| EBT | 600 | Non-Current Borrowings | 150 |\n| Tax Expense @30% | -180 | Current Liabilities & Provisions | 600 |\n| EAT | 420 |  | 1950 |\n\nAssume that Bad Debts provision of Rs. 30 Lac is included in the SGA, and same amount is reduced from the trade receivables in current assets.\n\nAlso assume that the pre-tax Cost of Debt is $12 \\%$ and Equity shareholder's expected return is $10 \\%$.\n\nNote: Make calculation in Rs. lac and round off up to 2 decimal points. (RTP Nov'24)",
+          "answer": "## Working Notes:\n\n## (a) Computation of NOPAT\n\n|  | Rs. Lac |\n| :--- | ---: |\n| EBIT | 615.00 |\n| Less: Taxes | -184.50 |\n| Add: Non-Cash Expenses | 30.00 |\n| NOPAT | 460.50 |\n\n(b) Computation of Invested Capital:\n\n|  | Rs. Lac |\n| :--- | ---: |\n| Total Assets | 1950 |\n| Less: Non Interest bearing liabilities | -600 |\n|  | 1350 |\n| Add: Non Cash adjustment | 30 |\n\n| Invested Capital | 1380 |\n| :--- | :--- |\n\nNote: It is assumed that the current liabilities also include the 180 of tax liability.\n\n## (c) Computation the WACC\n\nWACC = Cost of equity + Cost of debt\n\n$$\n\\begin{aligned}\n& =(1200 / 1350 * 10 \\%) + [150 / 1350 * 12 \\%(1-0.30)] \\\\\n& =8.89 \\% + 0.933 \\%=9.82 \\% \n\\end{aligned}\n$$\n\n(d) Capital Charge $=$ Invested Capital ${ }^{*}$ WACC\n\n$=Rs. 1380 \\mathrm{lac} * 9.82 \\%=Rs. 135.52 \\mathrm{lac}$\n\nThe formula for computing Economic Value Added: EVA = Adjusted NOPAT - Capital Charge.\n\nAccordingly, EVA of $X$ Ltd. is $=Rs. 460.50$ lac $-Rs. 135.52$ lac $=Rs. 324.98$ lac",
+          "chapter_number": "13",
+          "chapter_name": "BUSINESS VALUATION",
+          "unique_id": "13-T-12"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+=== Page 1 ===
+CA Final - Advance Financial Management Classmate
+Partianwise Test 1                                    Date
+                                                      Page  02
+
+                    Ans. 1 (a)
+
+
+(i) Calculation of Swap ratio based on market prices
+
+|                                          | Moni Ltd. | Patrom Ltd |
+|------------------------------------------|-----------|------------|
+| Earnings after tax (Rs. lakhs)           | 2,000     | 4,000      |
+| No. of shares outstanding (lakhs)        | 200       | 1,000      |
+| Earning per share (EAT/No. of shares)    | 10        | 4          |
+| P/E Ratio (No. of items)                 | 10        | 5          |
+| Market Price per Share (₹)               |           |            |
+| (EPS x P/E Ratio)                        | 100       | 20         |
+
+Swap Ratio = 20/100 = 0.20
+
+         0.20 share of moni Ltd for one share Patnom Ltd.
+
+(ii) EPS of moni Ltd. after acquisition
+
+     EPS after merger = Total Earning after merger
+                        No. of shares outstanding after merger
+
+                      = 2,000 + 4,000 + -215
+                        200 + 1,000 X 0.20
+
+(iii) Expected price of moni Ltd, market price after acquisition
+      assuming its P/E Ratio adversely affected by 10%.
+      P/E Ratio = 10 X 0.9 = 9 times
+      EPS              = ₹ 18
+      MPS   P/E Ratio x EPS  = ₹ 45
+
+(vii) market value of merged company
+      = 245 x 400 lakh share = ₹ 18,000 lakhs
+
+
+(IV) Gain or loss for independent share entities based on MPS
+
+|                                        | Moni Ltd. | Patnom Ltd. | Total     |
+|----------------------------------------|-----------|-------------|-----------|
+| Market capitalisation (₹ lakh)         | 18,000    | 9,000       | 27,000    |
+| 400 X 45,                              |           |             |           |
+| Less for merger value 200 x 100,       | 20,000    | 20,000      | (40,000)  |
+| 1000 x 20                              |           |             |           |
+| Gain / Loss                            | (2,000)   | (11,000)    | (13,000)  |
+
+=== Page 2 ===
+classmate
+Date
+Page
+
+2
+
+OR
+
+Gain/ loss for the shareholders of two independent entities
+based on EPS
+
+Mani Ltd        Ratnam Ltd
+
+EPS after merger (₹)                    15
+Equivalent EPS  15×0.70              10                    3
+Ydel: EPS before merger              10                    4
+Gain / (Loss) per share                  5                   (1)
+
+
+
+Ans. 1 b)
+
+Tag - along clause under Venture Capital, that specific
+clause before provide funds to lender, if they
+agree then finance them.
+
+Deal structuring: It is primary stage of Venture
+Capital under which they discover first step of business
+information and then agree to further steps of
+investment planning.
+
+Exit plan to Venture Capital Investment process are
+as lender
+i) They can sell his share to promoters.
+(ii) They can sell his equity share in Initial
+     Public offer (IPO)
+(iii) Promoter can buy-back this share as per
+      agreed price
+(iv) They can sell their share to external person outside
+
+=== Page 3 ===
+(3)
+                                                                    Attempts
+
+        Ans. 2 (a)
+
+Following risk associated with investment in cos,
+(i) There is absence on proper accounting system
+(ii) There is doubtful in the book.
+(iii) There is not standard information of the investment
+(iv) There is risk of uncollectable from the receivables
+(v) There is chances of interest rate go down.
+
+        Ans. 2 (b)
+
+Calculation NPV of the machine each year end
+At @ (zero year) Cash outflow                                    ₹ (In Rs.)
+        Purchase Price                                                60,000
+Less Realized from scrap                                          32,000
+        Cash outflow                                                  28,000
+At year 1
+Maintenance                          16,000 x 0.8696              13,913.60
+Less Scrap Realized                  24,000 x 0.8696              20,870.40
+    (Cash Inflow) / outflow                                         6,956.80
+    Cash outflow at zero year                                       28,000.00
+    NPV                                                            (21,043.2)
+
+At year 2
+
+Maintenance        Year 1   16,000 x 0.7561 0.8696              13913.60
+                   Year 2   18,000 x 0.7561                      13,609.80
+Repair                       10,000 x 0.7561                      7,561.00
+Less Scrap Value             16,000 x 0.7561                      12,097.6
+    Cash outflow                                                  (32,976.80)
+    Cash outflow at beginning                                      (28,000-)
+    NPV                                                           (50,921.x)
+
+=== Page 4 ===
+(4)                                                                          classmate
+                                                                         Date
+                                                                         Page
+                                                                              2
+
+At year 3
+
+   Maintenance  Year  1  16,000 X 0.8693          13,916.60
+                Year  2  18,000 X 0.7561          13,609.80
+                Year  3  20,000 X 0.6575          13,150.00
+
+Less: Scrap Value        16,000 X 0.005
+   Repairs    Year 2     16,000 X 0.7561           7561.00
+              Year 3     20,000 X 0.6575           13,150
+
+Less: Scrap        8     8,000 X 0.6575            5260.00
+        Cash outflow                              (56,124.40)
+        Cash outflow at beginning                 (22,000.00)
+        NPV                                       (87,124.40)
+
+
+
+At year 4
+
+   maintenance Expen  Year 1  16,000 x 0.8696     13,913.60
+                      Year 2  18,000 X 0.7861      13,609.80
+                      Year 3  20,000 X 0.6575      13,150.00
+                      Year 4  20,000 X 0.5718      11,436.00
+   Repairs            Year 2  10,000 X 0.7561       7561.00
+                      Year 3  20,000 X 0.6575      13,150.00
+                      Year 4  28,000 X 0.5718      16,010.40
+        Cash outflow                              (88,830.80)
+        Cash outflow at beginning                 (28,000.00)
+                                                 (1,16,830.80)
+
+
+Conclusion:
+   Since less negative outflow of cash is at year
+one (1). So replace in year 1 machine.
+
+=== Page 5 ===
+classmate
+
+(5)
+
+Mergers (4) mg 4(a)
+
+Acquirer (A)- PQ Ltd
+Target (T). LM Ltd.
+
+1. Paid up Capital = 80 lakh shares x ₹10 each = ₹800
+   Average of highest and lowest price          = ₹750 lakhs
+              (855+ 645)/2                         1550
+
+Share Capital of LM Ltd's  30 lakh x ₹10 = 300        3
+                            7.5 lakh x ₹10 = 75
+
+Average Capital L m Ltd. A PO Ltd. 375+800          ₹387.5° lakh
+  PV of each inflow of L m 2tl        2              ₹887.33 lakh
+1. Total value of the business of LM Ltd.             1474.83
+
+Cash Inflow NPV of LM Ltd
+
+| Year | CF (₹ lakh) | PVF @ 8% | PV = ②×③ |
+|------|-------------|----------|-----------|
+| 31.03.02 | 157.50 | 0.926 | 145.845 |
+| 31.03.x3 | 180.00 | 0.857 | 154.26 |
+| 31.03.x4 | 187.50 | 0.794 | 148.875 |
+| 31.03.x5 | 180.00 | 0.735 | 132.300 |
+| 31.03.x6 | 150 | 0.681 | 102.150 |
+| 31.03.x6 | 300 | 0.681 | 204.300 |
+| PV of Cash inflow | | | 887.73 |
+
+2. No. of shares to be issued by PQ Ltd = 1474.83 lakh
+                                           1550 lakh
+
+                                        = 0.951503 lakh shares
+
+3. Allocation of shares among the Shareholders of LM Ltd.
+
+=== Page 6 ===
+Ans. 4(b)
+
+Yes, In a rational, well ordered and efficient market, technical
+analysis may not work very well. Following are the
+reasons for this statement regarding Technical Analysis:
+(i) In this types of market price reflect all information
+in public domain
+(ii) In this types of market price reflect all internal
+information available.
+(iii) In this types of analysis price reflect all information
+public as well as private.
+
+Ans. 5 (a)
+
+(i) CALCULATE the maximum price per equity share which PBR
+Ltd. can able to pay for XYZ Ltd.
+
+For Equity Share of PQR Ltd. (6,00,000 shares x ₹30)    6,00,00,000
+                              10,00,000 x ₹30             3,00,00,000
+
+Synergies                                                  1,02,00,000
+PV of savings                                              32,00,000
+                                                           4,32,00,000
+Total No   Price per Share after  4,32,00,000              ₹43.20
+                                   1,00,000
+
+(ii) CALCULATE the minimum price per equity share at
+which the management of XYZ Ltd. will be willing
+to offer their controlling interest
+
+Equity Share capital of management                         1,50,00,000
+              5,00,000 shares x ₹30
+
+PV of saving                                               32,00,000
+Total                                                      1,82,00,000
+
+Price per equity share = 1,82,00,000 = ₹ 36.40
+                           5,00,000
+
+=== Page 7 ===
+classmate
+
+(5)
+
+Ans. 5 (b)
+
+Following are few method of Identification and Management
+of Financial Risk :
+1. Interest Rate Risk
+2. Currency Risk
+3. Economic Risk
+4. Inflation Risk
+
+Following are the parameters to identify the currency risk:-
+(i) currency risk arise due to government policy.
+(ii) currency risk arise to to economic report of the country
+(iii) currency risk arise due to the establishment of government
+     support in the relevant country. of their people.
+(iv) Currency risk identify global report published
+(v) Currency risk identify by ambassies of the
+     country.
+(vi) currency risk arise identify by the currency
+     Comparison of different country.
+
+
+Ans. 3(a)
+
+
+
+
+Ans. 3(b)
+
+Concept
+
+Counter party Risk :- it is the risk where counter party
+not capable to make payment.
+Hints of counter party risk are as under:-
+(i) regularly pay late
+(ii) party has in position to insolvent
+(iii) party facing problem of credit to cash deals
+(iv) party may not accept order

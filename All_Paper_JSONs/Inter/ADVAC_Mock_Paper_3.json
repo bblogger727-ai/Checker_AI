@@ -1,0 +1,422 @@
+{
+  "meta": {
+    "subject_code": "ADVAC",
+    "subject_name": "Advanced Accounting",
+    "paper_num": 3,
+    "total_marks_printed": 100,
+    "total_marks_in_paper": 114,
+    "section_a_marks": 30,
+    "section_b_marks": 84,
+    "note": "Section A: 15 MCQs @ 2 marks each (Case Study based). Section B: Q1 compulsory (14m). Attempt any 4 of Q2–Q6 (14m each).",
+    "blacklisted_from": [
+      "Generated_Papers/ADVAC/ADVAC_Mock_Paper_1.json",
+      "Generated_Papers/ADVAC/ADVAC_Mock_Paper_2.json"
+    ],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)",
+      "1(c)"
+    ]
+  },
+  "section_a": [
+    {
+      "type": "case_study",
+      "chapter_number": "16",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "## CS 1 (MTP 8 Marks Mar'24,MP[1])\n\nSEAS Ltd., the \"Company\", is in the business of tours and travels. It sells holiday packages to the customers.\n\nThe Company negotiates upfront with the Airlines for specified number of seats in flight. The Company agrees to buy a specific number of tickets and pay for those tickets regardless of whether it is able to resell all of those in package.\n\nThe rate paid by the Company for each ticket purchased is negotiated and agreed in advance. The Company also assists the customers in resolving complaints with the service provided by airlines. However, each airline is responsible for fulfilling obligations associated with the ticket, including remedies to a customer for dissatisfaction with the service.\n\nThe Company bought a forward contract for three months of US$ 1,00,000 on 1 March 20XX at 1 US$ $=$ INR 83.10 when exchange rate was US $1=$ INR 83.02 . On 31 March 20 XX , when the Company closed its books, exchange rate was US$ 1=INR 83.15. On 1 April 20XX, the Company decided for premature settlement of the contract due to some exceptional circumstances.\n\nThe Company is evaluating below mentioned schemes:\n\ni. Introduction of a formal retirement gratuity scheme by an employer in place of ad hoc ex - gratia payments to employees on retirement.\n\nii. Management decided to pay pension to those employees who have retired after completing 5 years of service in the organization. Such employees will get pension of ₹ \\mathbf{2 0 , 0 0 0} per month. Earlier there was no such scheme of pension in the organization.\n\nSEAS Ltd. has a subsidiary, ADI Ltd., which is in the business of construction having turnover of ₹ 200 crores. SEAS Ltd. and ADI Ltd. hold \\mathbf{9} \\boldsymbol{\\%} and \\mathbf{2 3} \\boldsymbol{\\%} respectively in an associate company, ASOC Ltd. Both SEAS Ltd. and ADI Ltd. prepare consolidated financial statements as per Accounting Standards notified under the companies (Accounting Standards) Rules, 2006.\n\n1. What would be the basis of revenue recognition for SEAS Ltd. as per the requirements of Accounting Standards? (Chapter - AS 9- Revenue Recognition)\n\n(a) Gross basis.\n\n(b) Net basis.\n\n(c) Depends on the accounting policy of the Company.\n\n(d) Indian GAAP allows a choice to the Company to recognize revenue on gross basis or net basis.\n\n## Ans:(a)\n\n2. Please suggest accounting treatment of forward contract for the year ended 31 March 20 XX as per Accounting Standard 11. (Chapter - AS 11- The Effects of Changes in Foreign Exchange rates)\n\n(a) MTM (marked to market value) of contract will be recorded on 31 March 20 XX .\n\n(b) MTM (marked to market value) of contract will be computed as at 31 March 20 XX and only if there is loss, it will be recorded during the year ended 31 March 20XX.\n\n(c) No accounting will be done during the year ended 31 March 20XX.\n\n(d) Premium on contract will be amortized over the life of the contract.\n\n## Ans:(d)\n\n3. You are requested to advise the Company in respect of the accounting requirements of above schemes related to employee benefits as to which one of those schemes should be considered as a change in accounting policy during the year. (Chapter - AS 5- Net Profit or Loss for the period, Prior period items \\& Changes in Accounting policies)\n\n(a) 1 - Change in accounting policy. 2 - Change in accounting policy.\n\n(b) 1- Not a change in accounting policy. 2 - Change in accounting policy.\n\n(c) 1 - Not a change in accounting policy. 2 - Not a change in accounting policy.\n\n(d) 1-Change in accounting policy. 2 - Not a change in accounting policy.\n\n## Ans:(c)\n\n4. Please comment regarding consolidation requirements for SEAS Ltd. and ADI Ltd. using the below mentioned options as to which one should be correct. (Chapter -AS 21- Consolidated Financial Statement)\n\n(a) ADI Ltd. would be using equity method of accounting for $23 \\%$ in ASOC Ltd. SEAS Ltd. would consolidate ADI Ltd. and consequently automatically equity account $23 \\%$ and separately account for the balance $9 \\%$ as per AS 13.\n\n(b) ADI Ltd. would account for $23 \\%$ in ASOC Ltd. as per AS 13. SEAS Ltd. would consolidate ADI Ltd. and consequently automatically account $23 \\%$ and separately account for the balance $9 \\%$.\n\n(c) ADI Ltd. would account for $23 \\%$ share in ASOC Ltd using equity method of accounting. SEAS Ltd. would consolidate ADI Ltd. and consequently, automatically account for ASOC Ltd $23 \\%$ share and separately account for $9 \\%$ share in ASOC Ltd. using equity method of accounting in consolidated financial statements.\n\n(d) ADI Ltd. would account for $23 \\%$ in ASOC Ltd. as per AS 13. SEAS Ltd. would consolidate ADI Ltd. and using equity method of accounting $23 \\%$ in ASOC Ltd. and separately account for the balance $9 \\%$ as per AS 13.\n\nAns:(c)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "What would be the basis of revenue recognition for SEAS Ltd. as per the requirements of Accounting Standards? (Chapter - AS 9- Revenue Recognition)",
+          "options": {
+            "a": "Gross basis.",
+            "b": "Net basis.",
+            "c": "Depends on the accounting policy of the Company.",
+            "d": "Indian GAAP allows a choice to the Company to recognize revenue on gross basis or net basis."
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "Please suggest accounting treatment of forward contract for the year ended 31 March 20 XX as per Accounting Standard 11. (Chapter - AS 11- The Effects of Changes in Foreign Exchange rates)",
+          "options": {
+            "a": "MTM (marked to market value) of contract will be recorded on 31 March 20 XX .",
+            "b": "MTM (marked to market value) of contract will be computed as at 31 March 20 XX and only if there is loss, it will be recorded during the year ended 31 March 20XX.",
+            "c": "No accounting will be done during the year ended 31 March 20XX.",
+            "d": "Premium on contract will be amortized over the life of the contract."
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "You are requested to advise the Company in respect of the accounting requirements of above schemes related to employee benefits as to which one of those schemes should be considered as a change in accounting policy during the year. (Chapter - AS 5- Net Profit or Loss for the period, Prior period items \\& Changes in Accounting policies)",
+          "options": {
+            "a": "1 - Change in accounting policy. 2 - Change in accounting policy.",
+            "b": "1- Not a change in accounting policy. 2 - Change in accounting policy.",
+            "c": "1 - Not a change in accounting policy. 2 - Not a change in accounting policy.",
+            "d": "1-Change in accounting policy. 2 - Not a change in accounting policy."
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null
+        },
+        {
+          "q_num": 4,
+          "question": "Please comment regarding consolidation requirements for SEAS Ltd. and ADI Ltd. using the below mentioned options as to which one should be correct. (Chapter -AS 21- Consolidated Financial Statement)",
+          "options": {
+            "a": "ADI Ltd. would be using equity method of accounting for $23 \\%$ in ASOC Ltd. SEAS Ltd. would consolidate ADI Ltd. and consequently automatically equity account $23 \\%$ and separately account for the balance $9 \\%$ as per AS 13.",
+            "b": "ADI Ltd. would account for $23 \\%$ in ASOC Ltd. as per AS 13. SEAS Ltd. would consolidate ADI Ltd. and consequently automatically account $23 \\%$ and separately account for the balance $9 \\%$.",
+            "c": "ADI Ltd. would account for $23 \\%$ share in ASOC Ltd using equity method of accounting. SEAS Ltd. would consolidate ADI Ltd. and consequently, automatically account for ASOC Ltd $23 \\%$ share and separately account for $9 \\%$ share in ASOC Ltd. using equity method of accounting in consolidated financial statements.",
+            "d": "ADI Ltd. would account for $23 \\%$ in ASOC Ltd. as per AS 13. SEAS Ltd. would consolidate ADI Ltd. and using equity method of accounting $23 \\%$ in ASOC Ltd. and separately account for the balance $9 \\%$ as per AS 13."
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null
+        }
+      ],
+      "mcq_count": 4,
+      "unique_id": "cs__16__-6093011609889550305"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "16",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "On 1st April, 20X1, Shubham Limited purchased some land for ₹ 30 lakhs for the purpose of constructing a new factory. This cost of 30 lakhs included legal cost of ₹ 2 lakhs incurred for the purpose of acquisition of this land. Construction work could start on 1st May, 20X1 and Shubham Limited provides you the details of the following costs incurred in relation to its construction:\n\n|  | ₹ |\n| :--- | :--- |\n| Preparation and levelling of the land | 80,000 |\n| Employment costs of the construction workers (per month) | 29,000 |\n| Purchase of materials for the construction | 21,24,000 |\n| Cost of relocating employees to new factory for work | 60,000 |\n| Costs of inauguration ceremony on 1st January, 20X2 | 80,000 |\n| Overhead costs incurred directly on the construction of the factory (per month) | 25,000 |\n| General overhead costs allocated to construction project by the Manager is ₹ 30,000. However, as per company's normal overhead allocation policy, it should be $₹ 24,000$. The auditor of the company has support documentation for the cost of ₹ $\\mathbf{1 5 , 0 0 0}$ only and raised objection for the balance amount. |  |\n\nThe construction of the factory was completed on 31st December, 20X1 and production could begin on 1st February, 20X2. The overall useful life of the factory building was estimated at 40 years from the date of completion. However, it was estimated that the roof will need to be replaced 20 years after the date of completion and that the cost of replacing the roof at current prices would be $25 \\%$ of the total cost of the building.\n\nThe construction of the factory was partly financed by a loan of ₹ 28 lakhs borrowed on 1st April, 20X1. The loan was taken at an annual rate of interest of $9 \\%$. During the period when the loan proceeds had been fully utilized to finance the construction, Shubham Limited received investment income of ₹ $\\mathbf{2 5 , 0 0 0}$ on the temporary investment of the proceeds.\n\nYou are required to assume that all of the net finance costs to be allocated to the cost of factory (not land) and interest cost to be capitalized based on nine months' period. [4 MCQs of 2 Marks each: Total 8 Marks] Based on the information given in the above scenario, answer the following multiple-choice questions:\n\n\n1. Which of the following cost (incurred directly on construction) will be capitalized to the cost of factory building? (Chapter - AS 10-Property, Plant \\& Equipment)\n\n(a) $₹ 2,00,000$ incurred as legal cost\n\n(b) ₹ 60,000 - costs of relocating employees\n\n(c) ₹ 80,000 costs of inauguration ceremony\n\n(d) ₹ 24,000 - allocated general overhead cost\n\n\nAns:(a)\n\n2. What amount of employment cost of construction workers will be capitalized to the cost of factory building? (Chapter - AS 10-Property, Plant \\& Equipment)\n\n(a) ₹ $2,90,000$\n\n(b) ₹ $3,48,000$\n\n(c) ₹ $2,32,000$\n\n(d) ₹ 29,000\n\n\nAns:(c)\n\n3. What is the amount of net borrowing cost capitalized to the cost of the factory?\n\n(Chapter - AS 16-Borrowing Costs)\n\n(a) ₹ $1,89,000$\n\n(b) ₹ $1,68,000$\n\n(c) ₹ $1,44,000$\n\n(d) ₹ $1,64,000$\n\n\nAns:(d)\n\n4. What will be the carrying amount (i.e. value after charging depreciation) of the factory in the Balance Sheet of Shubham Limited as at 31st March, 20X2? (Chapter - AS 10-Property, Plant \\& Equipment)\n\n(a) ₹ $30,00,000$\n\n(b) ₹ $57,78,125$\n\n(c) ₹ $27,78,125$\n\n(d) ₹ $58,00,000$\n\n\nAns:(b)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Which of the following cost (incurred directly on construction) will be capitalized to the cost of factory building? (Chapter - AS 10-Property, Plant \\& Equipment)\n\n(a) $₹ 2,00,000$ incurred as legal cost\n\n(b) ₹ 60,000 - costs of relocating employees\n\n(c) ₹ 80,000 costs of inauguration ceremony\n\n(d) ₹ 24,000 - allocated general overhead cost",
+          "options": {
+            "a": "$₹ 2,00,000$ incurred as legal cost",
+            "b": "₹ 60,000 - costs of relocating employees",
+            "c": "₹ 80,000 costs of inauguration ceremony",
+            "d": "₹ 24,000 - allocated general overhead cost"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "What amount of employment cost of construction workers will be capitalized to the cost of factory building? (Chapter - AS 10-Property, Plant \\& Equipment)\n\n(a) ₹ $2,90,000$\n\n(b) ₹ $3,48,000$\n\n(c) ₹ $2,32,000$\n\n(d) ₹ 29,000",
+          "options": {
+            "a": "₹ $2,90,000$",
+            "b": "₹ $3,48,000$",
+            "c": "₹ $2,32,000$",
+            "d": "₹ 29,000"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "What is the amount of net borrowing cost capitalized to the cost of the factory?\n\n(Chapter - AS 16-Borrowing Costs)\n\n(a) ₹ $1,89,000$\n\n(b) ₹ $1,68,000$\n\n(c) ₹ $1,44,000$\n\n(d) ₹ $1,64,000$",
+          "options": {
+            "a": "₹ $1,89,000$",
+            "b": "₹ $1,68,000$",
+            "c": "₹ $1,44,000$",
+            "d": "₹ $1,64,000$"
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null
+        },
+        {
+          "q_num": 4,
+          "question": "What will be the carrying amount (i.e. value after charging depreciation) of the factory in the Balance Sheet of Shubham Limited as at 31st March, 20X2? (Chapter - AS 10-Property, Plant \\& Equipment)\n\n(a) ₹ $30,00,000$\n\n(b) ₹ $57,78,125$\n\n(c) ₹ $27,78,125$\n\n(d) ₹ $58,00,000$",
+          "options": {
+            "a": "₹ $30,00,000$",
+            "b": "₹ $57,78,125$",
+            "c": "₹ $27,78,125$",
+            "d": "₹ $58,00,000$"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null
+        }
+      ],
+      "mcq_count": 4,
+      "unique_id": "cs__16__-1254828175732224958"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "16",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "## CS 6 (MTP 6 Marks Apr'24,MP[2]) (Chapter 12: Buyback of Securities)\n\nKumar Ltd., a privately-held company, operates in the manufacturing industry. Founded in 2008, the company has steadily grown its operations and established a strong presence in the market. As of 31st March, 20XX, the company's capital structure reflects a blend of equity and debt financing.\n\nCapital Structure Overview:\n\n\n- Equity Share Capital: The company has a total of ₹ $30,00,000$ invested in equity shares, each valued at ₹ 10 and fully paid.\n\n- Reserves \\& Surplus: Kumar Ltd. has accumulated reserves and surplus totaling ₹49,00,000, comprising contributions from various sources including General Reserve ( $₹ 32,50,000$ ), Security Premium Account ( ₹ $6,00,000$ ), Profit \\& Loss Account (₹ $4,30,000$ ), and Revaluation Reserve ( $₹ 6,20,000$ ).\n\n- Loan Funds: The company has acquired loan funds amounting to ₹ $\\mathbf{4 2 , 0 0 , 0 0 0}$ to support its operational and growth initiatives.\n\nBuy-Back Decision:\n\nConsidering its financial position and market conditions, Kumar Ltd. has decided to initiate a share buy-back program. The company intends to repurchase its shares at a price of ₹30 per share.\n\nIn accordance with financial regulations and internal policies, Kumar Ltd. aims to assess the maximum number of shares it can repurchase while maintaining a prudent debt-equity ratio. By utilizing the Debt Equity Ratio Test, the company seeks to strike a balance between its equity base and debt obligations.\n\nBased on the above information, answer the following questions.\n\n\n1. What is the minimum equity Kumar Ltd. needs to maintain after buy-back, according to the Debt Equity Ratio Test?\n\n(a) ₹ $12,95,000$\n\n(b) ₹ $21,00,000$\n\n(c) ₹ $32,50,000$\n\n(d) $₹ 6,00,000$\n\n\nAns: (b)\n\n2. What is the maximum permitted buy-back of equity for Kumar Ltd.?\n\n(a) ₹ $38,85,000$\n\n(b) ₹ $42,00,000$\n\n(c) ₹ $12,95,000$\n\n(d) ₹ $59,85,000$\n\n\nAns: (a)\n\n3. How many shares of Kumar Ltd. can be bought back at ₹ 30 per share according to the Debt Equity Ratio Test?\n\n(a) 43,000\n\n(b) $1,29,500$\n\n(c) $2,00,000$\n\n(d) 78,000\n\n\nAns: (b)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "What is the minimum equity Kumar Ltd. needs to maintain after buy-back, according to the Debt Equity Ratio Test?",
+          "options": {
+            "a": "₹ $12,95,000$",
+            "b": "₹ $21,00,000$",
+            "c": "₹ $32,50,000$",
+            "d": "$₹ 6,00,000$"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "What is the maximum permitted buy-back of equity for Kumar Ltd.?",
+          "options": {
+            "a": "₹ $38,85,000$",
+            "b": "₹ $42,00,000$",
+            "c": "₹ $12,95,000$",
+            "d": "₹ $59,85,000$"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "How many shares of Kumar Ltd. can be bought back at ₹ 30 per share according to the Debt Equity Ratio Test?",
+          "options": {
+            "a": "43,000",
+            "b": "$1,29,500$",
+            "c": "$2,00,000$",
+            "d": "78,000"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null
+        }
+      ],
+      "mcq_count": 3,
+      "unique_id": "cs__16__853899709835887804"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "16",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "## CS 9 (MTP 8Marks July'24,MP[4]) (Chapter 4.2 AS 3- Cash Flow Statement)\n\nAxis limited is a manufacturing company. It purchased a machinery costing ₹ 10 Lakhs in April 20 XX . It paid ₹ 4 lakhs upfront and paid the remaining $₹ 6,00,000$ as deferred payment by paying instalment of $₹ 1,05,000$ for the next 6 months. During the year, the Company sold a land which was classified as its 'property, plant and equipment' for ₹ $25,00,000$ and paid ₹ $1,00,000$ as income tax as long term capital gain on such sale. During the year, the Company also received income tax refund along with interest.\n\n1. As per the requirements of AS 3, 'Cash Flow Statements', how the amount for purchase of machinery should be presented:\n\n(a) ₹ 10 lakhs as 'Cash flows from Investing Activities' and ₹ 30,000 will simply be booked in profit and loss with no presentation if Cash Flow Statement.\n\n(b) ₹ 10.30 lakhs as 'Cash flows from Investing Activities' as entire amount is spend on purchase of machinery.\n\n(c) ₹ 10 lakhs as ‘Cash flows from Investing Activities’ and ₹ 30,000 as ‘Cash flows from Financing Activities'.\n\n(d) ₹ 10.30 lakhs as 'Cash flows from Financing Activities' as the machinery has been purchased on finance.\n\nAns: (c)\n\n2. At what amount, the machinery should be recognised in the financial statements:\n\n(a) $₹ 4,00,000$\n\n(b) ₹ $10,30,000$\n\n(c) ₹ $6,00,000$\n\n(d) ₹ $10,00,000$\n\n\nAns:(d)\n\n3. How should the income tax paid on sale of land should be disclosed in the Cash Flows Statement\n\n(a) Cash flows from Operating Activities\n\n(b) Cash flows from Investing Activities\n\n(c) Cash flows from Financing Activities\n\nGauresh । (d)3No disclosure in Cash Flow Statement\n\n\n## Ans:(b)\n\n4. How should the interest on income tax refunds should be disclosed in the Cash Flows Statement:\n\n(a) Cash flows from Operating Activities\n\n(b) Cash flows from Investing Activities\n\n(c) Cash flows from Financing Activities\n\n(d) No disclosure in Cash Flow Statement\n\n\nAns: (b)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "As per the requirements of AS 3, 'Cash Flow Statements', how the amount for purchase of machinery should be presented:",
+          "options": {
+            "a": "₹ 10 lakhs as 'Cash flows from Investing Activities' and ₹ 30,000 will simply be booked in profit and loss with no presentation if Cash Flow Statement.",
+            "b": "₹ 10.30 lakhs as 'Cash flows from Investing Activities' as entire amount is spend on purchase of machinery.",
+            "c": "₹ 10 lakhs as ‘Cash flows from Investing Activities’ and ₹ 30,000 as ‘Cash flows from Financing Activities'.",
+            "d": "₹ 10.30 lakhs as 'Cash flows from Financing Activities' as the machinery has been purchased on finance."
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "At what amount, the machinery should be recognised in the financial statements:",
+          "options": {
+            "a": "$₹ 4,00,000$",
+            "b": "₹ $10,30,000$",
+            "c": "₹ $6,00,000$",
+            "d": "₹ $10,00,000$"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "How should the income tax paid on sale of land should be disclosed in the Cash Flows Statement",
+          "options": {
+            "a": "Cash flows from Operating Activities",
+            "b": "Cash flows from Investing Activities",
+            "c": "Cash flows from Financing Activities",
+            "d": "No disclosure in Cash Flow Statement"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null
+        },
+        {
+          "q_num": 4,
+          "question": "How should the interest on income tax refunds should be disclosed in the Cash Flows Statement:",
+          "options": {
+            "a": "Cash flows from Operating Activities",
+            "b": "Cash flows from Investing Activities",
+            "c": "Cash flows from Financing Activities",
+            "d": "No disclosure in Cash Flow Statement"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null
+        }
+      ],
+      "mcq_count": 4,
+      "unique_id": "cs__16__4142163563667606920"
+    }
+  ],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": true,
+      "total_marks": 14,
+      "chapter_number": "5",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Question 7 (MTP 5 Marks Nov'21 & April 23)\n\nABC Limited has started construction of an asset on 1st December, 2025, which continues till 31st March, 2026 (and is expected to go beyond a year). The entity has not taken any specific borrowings to finance the construction of the asset but has incurred finance costs on its general borrowings during the construction period. The directly attributable expenditure at the beginning of the month on this asset was Rs. 10 lakh in December 2025 and Rs. 4 lakh in each of the months of January to March 2026. At the beginning of the year, the entity had taken Inter Corporate Deposits of Rs. 20 lakh at 9% rate of interest and had an overdraft of Rs. 4 lakh, which increased to Rs. 8 lakh on 1st March, 2026. Interest was paid on the overdraft at 10% until 1st January, 2026 and then the rate was increased to 12%. You are required to calculate the annual capitalization rate for computation of borrowing cost in accordance with AS 16 'Borrowing Costs'.",
+          "answer": "Calculation of capitalization rate on borrowings other than specific borrowings\n\n| Nature of general borrowings | Period of Outstanding balance | Amount of loan(Rs.) | Rate of interest p.a. | Weighted average amount of Interest (Rs.) |\n| :--- | :--- | :--- | :--- | :--- |\n|  | a | b | c | d=[(b × c) ×(a / 12)] |\n| 9% Debentures | 12 months | 20,00,000 | 9% | 1,80,000 |\n| Bank overdraft | 9 months | 4,00,000 | 10% | 30,000 |\n|  | 2 months | 4,00,000 | 12% | 8,000 |\n|  | 1 month | 8,00,000 | 12% | 8,000 |\n|  |  | 36,00,000 |  | 2,26,000 |\n\nWeighted average cost of borrowings\n\n$=(20,00,000 ×(12 / 12))+(4,00,000 ×(11 / 12))+(8,00,000 ×(1 / 12))=24,33,334$\n\nCapitalisation rate $=[(Weighted average amount of interest / Weighted average of general borrowings) × 100]$\n\n$=[(2,26,000 / 24,33,334) × 100]=9.29 %$ p.a.",
+          "chapter_number": "5.4",
+          "chapter_name": "AS 16 BORROWING COSTS",
+          "unique_id": "5.4-T-7"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "On the basis of information given below, find the value of inventory (by periodic inventory method) as per AS 2, to be considered while preparing the Balance Sheet as on 31st March, 20XX on weighted Average Basis.\n\n## Details of Purchases:\n\n| Date of purchase | Unit(Nos.) | Purchase cost per unit (Rs.) |\n| :--- | :--- | :--- |\n| 01-03-20XX | 20 | 108 |\n| 08-03-20XX | 15 | 107 |\n| 17-03-20XX | 30 | 109 |\n| 25-03-20XX | 15 | 107 |\n\n\n| Date of Issue | Unit(Nos.) |\n| :--- | :--- |\n| 03-03-20XX | 10 |\n| 12-03-20XX | 20 |\n| 18-03-20XX | 10 |\n| 24-03-20XX | 20 |\n\nNet realizable value of inventory as on 31st March, 20XX is Rs. 107.75 per unit. You are required to compute the value of Inventory as per AS 2. (MTP 5 Marks March '19, March '18, RTP May'22)",
+          "answer": "Net Realizable Value of Inventory as on $31^{\\text {st }}$ March, $20 \\mathrm{XX}=Rs. 107.75 \\times 20$ units $=Rs. 2,155$\n\n## Value of inventory as per Weighted Average basis.\n\n| Total units purchased and total cost |  |\n| :--- | :--- |\n| 01.03.20XX | $Rs. 108 \\times 20$ units $=Rs. 2160$ |\n| 08.3.20XX | $Rs. 107 \\times 15$ units $=Rs. 1605$ |\n| 17.03.20XX | $Rs. 109 \\times 30$ units $=Rs. 3270$ |\n| 25.03.20XX | $Rs. 107 \\times 15$ units = Rs. 1605 |\n| Total | 80 units = Rs.8640 |\n| Weighted Average Cost | $=$ Rs. $8640 / 80$ units = Rs. 108 |\n| Total cost | $=Rs. 108 \\times 20$ units = Rs. 2,160 |\n\nValue of inventory to be considered while preparing Balance Sheet as on 31st March, 20XX is, Cost or Net Realizable value whichever is lower i.e. Rs. 2,155 .",
+          "chapter_number": "5.1",
+          "chapter_name": "AS-2 VALUATION OF INVENTORY",
+          "unique_id": "5.1-T-9"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Mehta ltd. has undertaken bridge construction contract wherein, bridge will be constructed in 3 years. The details of the contracts are as follows:\n\n(i) Initial contract revenue ₹ 900 crore  \n(ii) Initial contract cost ₹ 800 crore  \n\n| Years | I | II | III |\n|-------|---|----|-----|\n| ₹ in crore | ₹ in crore | ₹ in crore |\n| Estimated contract cost | 805 | - | - |\n| Increase in contract revenue | - | 20 | - |\n| Estimated additional increase cost | - | 15 | - |\n| Contract cost incurred upto | 161 | 584 | 820 |\n\nAt the end of year II, cost incurred includes ₹ 10 crore, for material stored at the sites to be used in year III to complete the project.\n\nState the amount of revenue, expenses and profit to be recognized in the Statement of Profit and Loss in these three years.",
+          "answer": "```\nStatement showing analysis of the contract details\n(₹ in crore) \n\n|                          | Year I | Year II | Year III |\n|--------------------------|--------|---------|----------|\n| (a) Initial revenue agreed| 900    | 900     | 900      |\n| (b) Increase in contract revenue | -      | 20      | 20       |\n| (c) Total Contract Value  | 900    | 920     | 920      |\n| (d) Contract cost incurred upto the date of reporting | 161    | 574     | 820      |\n```\n\n```\n(e) Estimated cost to complete                     644                246                -\n(f) Total estimated contract                        805                820(805+15)      820\n(g) Stage of Completion                             20%                70%               100%\n[(d/f) x 100)]                                   (161/805 x 100)   (574/820 x 100)   (820/820 x 100)\n\n* Note: 10 crore, for material stored at the sites to be used in its 1st year. i.e. in IInd year it is already included so it will be deducted in III year only.\n\nStatement showing amount of revenue, expenses and profit to be recognized in the Statement of Profit and Loss in three years\n(₹ in crore)\n\n| Year                | Upto reporting date | Recognised in the prior year | Recognized in the current year |\n|---------------------|---------------------|------------------------------|---------------------------------|\n| Year I              |                     |                              |                                 |\n| Revenue (900 x 20/100) | 180                 |                              | 180                             |\n| Expenses            | 161                 | –                            | 161                             |\n| Profit              | –19                 |                              | –19                             |\n| Year II             |                     |                              |                                 |\n| Revenue (920 x 70/100) | 644                 | 180                          | 464                             |\n| Expenses (820 x 70/100) | 574                 | 161                          | 413                             |\n| Profit              | 70                  |                              | 51                              |\n| Year III            |                     |                              |                                 |\n| Revenue             | 920                 | 644                          | 276                             |\n| Expenses            | 820                 | 720                          | 30                              |\n```",
+          "chapter_number": "10",
+          "chapter_name": "ACCOUNTING STANDARDS (PRACTICAL)",
+          "unique_id": "BQ-9"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "1",
+      "sub_questions": [
+        {
+          "label": "—",
+          "marks": 14,
+          "internal_split": null,
+          "question": "The following are the summarised Balance Sheets of Dark Limited as at 31st March, 2025 and 31st March, 2024:\n\n| Particulars                     | 31st March, 2025 | 31st March, 2024 |\n|----------------------------------|------------------|------------------|\n| Equity and Liabilities           |                  |                  |\n| Share Capital                    | ₹ 10,00,000      | ₹ 10,00,000      |\n| Reserves and Surplus             | ₹ 5,00,000       | ₹ 4,00,000       |\n| Long-term Borrowings             | ₹ 15,00,000      | ₹ 12,00,000      |\n| Current Liabilities              | ₹ 8,00,000       | ₹ 6,00,000       |\n| Total Equity and Liabilities     | ₹ 38,00,000      | ₹ 32,00,000      |\n\n| Assets                           |                  |                  |\n| Non-current Assets               |                  |                  |\n| Property, Plant and Equipment     | ₹ 20,00,000      | ₹ 15,00,000      |\n| Intangible Assets                | ₹ 3,00,000       | ₹ 2,00,000       |\n| Current Assets                   | ₹ 15,00,000      | ₹ 15,00,000      |\n| Total Assets                     | ₹ 38,00,000      | ₹ 32,00,000      |\n\n```\n| Particulars                        | 31st March, 2025 ₹ in Lakhs | 31st March, 2024 ₹ in Lakhs |\n|------------------------------------|------------------------------|------------------------------|\n| Equity and Liabilities             |                              |                              |\n| Equity Share Capital               | 250.00                       | 195.00                       |\n| Profit & Loss Account              | 15.00                        | 10.00                        |\n| 8% Debentures                     | 50.00                        | 40.00                        |\n| Trade Payables                     | 75.00                        | 82.00                        |\n| Unpaid Interest on Debentures      | 2.00                         | ---                          |\n| Provision for Taxation             | 8.00                         | 5.00                         |\n|                                    | 400.00                       | 332.00                       |\n| Assets                             |                              |                              |\n| Property, Plant & Equipment        | 255.00                       | 205.00                       |\n| Goodwill                           | 6.00                         | 8.00                         |\n| Inventories                        | 28.00                        | 42.00                        |\n| Trade Receivables                  | 52.00                        | 50.00                        |\n| Cash & Cash Equivalents           | -59.00                       | 27.00                        |\n|                                    | 400.00                       | 332.00                       |\n\nOther Information:\nDividend paid during the year 2024-25 is ₹ 3,00,000,\n- Depreciation charged during the year 2024-25 is ₹ 20,00,000.\nFresh debentures were issued on 1st April, 2024.\n\nYou are required to prepare the Cash Flow Statement for the year ended 31st March, 2025 using Indirect Method.\n```",
+          "answer": "```\nCash Flow statement of Dark Limited for the year ended 31st March 2025\n\n| Particulars                                         | ₹ in Lakhs | ₹ in Lakhs |\n|----------------------------------------------------|------------|------------|\n| Net Cash Flow from Operating Activities             |            |            |\n| Closing Net Profit                                  | 15.00      |            |\n| Less: Opening Net Profit                            | (10.00)    |            |\n| Add: Dividend Paid                                  | 3.00       |            |\n| Provision for Tax                                   | 8.00       |            |\n| Interest on Debentures                              | 4.00       |            |\n| Amortization of Goodwill                            | 2.00       |            |\n| Net Profit before Taxation and extraordinary items  | 22.00      |            |\n| Depreciation                                       | 20.00      |            |\n| Operating Profit before working capital changes     | 42.00      |            |\n| Decrease in Trade Payable                           | (7.00)     |            |\n| Decrease in Inventories                             | 14.00      |            |\n| Increase in Trade Receivables                       | (2.00)     |            |\n| Changes in working capital                          | 5.00       |            |\n| Cash generated from Operations                       | 47.00      |            |\n```\n\n```\nLess: Tax paid                                      (5.00)\nNet cash from Operating Activities                   42.00\nCash Flow from Investing Activities\nPurchase of Fixed Assets                            (70.00)\nNet Cash used in Investing Activities               (70.00)\nCash Flow from Financing Activities\nIssue of Shares                                     55.00\nIssue of Debentures                                 10.00\nDividend Paid                                       (3.00)\nInterest Paid                                       (2.00)\nNet Cash from Financing Activities                   60.00\nNet Increase in Cash and Cash Equivalents          32.00\nCash and Cash Equivalents as on 31.03.2024        27.00\nCash and Cash Equivalents as on 31.03.2025        59.00\n```",
+          "chapter_number": "8",
+          "chapter_name": "CASH FLOW STATEMENTS",
+          "unique_id": "BQ-10"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "12",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Question 21 (PYP 7 Marks Sep'24,MP[8])\n\nAerodots Ltd. has the following capital structure as on 31.03.20XX :\n\n\n| Particulars | Amount (Rs. in thousands) |\n| :--- | :--- |\n| Equity Share Capital (shares of Rs. 10 each) | 600 |\n| Reserves: |  |\n| General Reserve | 540 |\n| Securities Premium | 200 |\n| Profit & Loss | 100 |\n| Revaluation Reserve | 30 |\n| Investment Allowance Reserve (Statutory Reserve) | 75 |\n| Infrastructure Development Reserve | 25 |\n| Loan Funds | 2000 |\n\nOn 1st April, 20XX the company wants to buy back 14,000 equity shares of Rs. 10 each at Rs. 30 per Equity share. You are required to calculate maximum permissible number of equity shares that can be bought back. Buy Back of shares is duly authorized by its articles and necessary resolution has been passed by the company.",
+          "answer": "Statement determining the maximum number of shares to be bought back\n\n(in thousands)\n\n\n| Particulars | Number of shares |\n| :--- | :--- |\n| Shares Outstanding Test (W.N.1) | 15 |\n| Resources Test (W.N.2) | 12 |\n| Debt Equity Ratio Test (W.N.3) | 11 |\n| Maximum number of shares that can be bought back [least of the above] | 11 |\n\nThus, the lowest being 11,000 shares, the company cannot buy back 14,000 shares.\n\n## Working Notes:\n\n## 1. Shares Outstanding Test\n\n\n| Particulars | (Shares in thousands) |\n| :--- | ---: |\n| Number of shares outstanding | 60 |\n| $25 \\%$ of the shares outstanding | 15 |\n\n## 2. Resources Test\n\n\n| Particulars | Rs. (in thousands) |\n| :--- | :--- |\n| Paid up capital | 600 |\n| Free reserves (540 + 200 +100) | $\\underline{840}$ |\n| Shareholders' funds | $\\underline{1,440}$ |\n| 25\\% of Shareholders fund | 360 |\n| Buy-back price per share | Rs. 30 |\n| Number of shares that can be bought back | 12,000 shares |\n\n3. Debt Equity Ratio Test: Loans cannot be in excess of twice the Equity Funds post Buy-Back\n\n\n| Particulars |  | Rs. in thousands |\n| :--- | :--- | :--- |\n| (a) | Loan funds | 2,000 |\n| (b) | Minimum equity to be maintained after buy-back in the ratio of 2:1 (Rs.) (a/2) | 1,000 |\n| (c) | Present equity shareholders fund (Rs.) | 1,440 |\n| (d) | Future equity shareholders fund (Rs.) (see W.N.4) (1,440-110) | 1,330 |\n| (e) | Maximum permitted buy-back of Equity (Rs.) [(d) - (b)] | 330 |\n| (f) | Maximum number of shares that can be bought back @ Rs. 30 per share | 11,000 shares |\n\n4. Amount transferred to CRR and maximum equity to be bought back will be calculated by simultaneous equation method. Suppose amount transferred to CRR account is ' $x$ ' and maximum permitted buy-back of equity is ' $y$ ' Then\n\nEquation 1: (Present Equity- Transfer to CRR)- Minimum Equity to be maintained $=$ Maximum Permitted Buy-Back\n\n$$\n\\begin{align*}\n& =(1,440-x)-1,000=y \\\\\n& =440-x=y \\tag{1}\n\\end{align*}\n$$\n\nEquation 2: Maximum Permitted Buy-Back X Nominal Value Per Share/Offer Price Per Share $\text{y} / 30 \\times 10=\\text{x}$\n\nor\n\n$3 \\text{x}=\\text{y} \\quad$ (2)\nby solving the above two equations we get\n\n$x=Rs. 110$ thousands $\\, y=Rs. 330$ thousands\n\nAlternatively, Maximum number of shares from debt equity ratio test may be worked out as follows:\n\nBuy-back price + Face value of equity shares Rs. $30+Rs. 10=Rs. 40$\n\nExcess of equity fund over the minimum equity to be maintained $1440-1000=440$ thousands\n\nNumber of Shares that can be bought back $=440 / 40$ thousands $=11$ thousands.",
+          "chapter_number": "12",
+          "chapter_name": "BUY-BACK OF SECURITIES",
+          "unique_id": "12-T-21"
+        },
+        {
+          "label": "b",
+          "marks": 8,
+          "internal_split": null,
+          "question": "Question 15 (MTP 8 Marks Apr'22, Apr'21)\n\nDM Delhi has a branch in London which is an integral foreign operation of DM. At the end of the year 31st March, 2026, the branch furnishes the following trial balance in U.K. Pound:\n\n| Particulars | £ | £ |\n| :--- | :--- | :--- |\n|  | Dr. | Cr. |\n| Property, Plant \\& Equipment (Acquired on $1^{\\text {st }}$ April, 2022) | 24,000 |  |\n| Stock as on 1 ${ }^{\\text {st }}$ April, 2025 | 11,200 |  |\n| Goods from head Office | 64,000 |  |\n| Expenses | 4,800 |  |\n| Debtors | 4,800 |  |\n| Creditors |  | 3,200 |\n| Cash at bank | 1,200 |  |\n| Head Office Account |  | 22,800 |\n| Purchases | 12,000 |  |\n| Sales |  | 96,000 |\n|  | 1,22,000 | 1,22,000 |\n\nIn head office books, the branch account stood as shown below:\n\nLondon Branch A/c\n\n| Particulars | Amount ₹ | Particulars | Amount ₹ |\n| :--- | :--- | :--- | :--- |\n| To Balance b/d | 20,10,000 | By Bank A/c | 52,16,000 |\n| To Goods sent to branch | 49,26,000 | By Balance c/d | 17,20,000 |\n|  | 69,36,000 |  | 69,36,000 |\n\nThe following further information is given:\n\n(a) Property, Plant \\& Equipment are to be depreciated @ $\\mathbf{1 0} \\boldsymbol{\\%}$ p.a. on WDV.\n\n(b) On 31 ${ }^{\\text {st }}$ March, 2026:\n\n| Expenses outstanding | - | $£ 400$ |\n| :--- | :--- | ---: |\n| Prepaid expenses | - | $£ 200$ |\n| Closing stock | - | $£ 8,000$ |\n\n(c) Rate of Exchange:\n\n| $1^{\\text {st }}$ April,2022 | ₹ 70 to € 1 |\n| :--- | ---: |\n| $1^{\\text {st }}$ April,2025 | ₹ 76 to € 1 |\n| $31^{\\text {st }}$ March, 2026 | ₹ 77 to € 1 |\n| Average | ₹ 75 to € 1 |\n\nYou are required to prepare: (1) Trial balance, incorporating adjustments of outstanding and prepaid expenses, converting U.K. pound into Indian rupees; and (2) Trading and profit and loss account for the year ended 31st March, 2026 of London branch as would appear in the books of Delhi head office of DM.",
+          "answer": "Answer 15\n\nTrial Balance of London Branch as on 31 ${ }^{\\text {st }}$ March, 2026\n\n| Particulars | U.K. Pound | Rate Per U.K. Pound | Dr. (₹) | Cr. (₹) |\n| :--- | :--- | :--- | :--- | :--- |\n| Property, Plant \\& Equipment | 24,000 | 70 | 16,80,000 |  |\n| Stock (as on $1^{\\text {st }}$ April, 2025) | 11,200 | 76 | 8,51,200 |  |\n| Goods from Head Office | Gaure64,0003 | $7945-$ | 49,26,000 |  |\n| Sales | 96,000 | 75 |  | 72,00,000 |\n| Purchases | 12,000 | 75 | 9,00,000 |  |\n| Expenses (4,800 + 400-200) | 5,000 | 75 | 3,75,000 |  |\n| Debtors | 4,800 | 77 | 3,69,600 |  |\n| Creditors | 3,200 | 77 |  | 2,46,400 |\n| Outstanding Expenses | 400 | 77 |  | 30,800 |\n| Prepaid expenses | 200 | 77 | 15,400 |  |\n| Cash at Bank | 1,200 | 77 | 92,400 |  |\n| Head office Account |  | - |  | 17,20,000 |\n| Difference in Exchange |  |  |  | 12,400 |\n|  |  |  | 92,09,600 | 92,09,600 |\n\n\nClosing stock will be $(8,000 \\times 77)=₹ 6,16,000$\n\nTrading and Profit \\& Loss A/c for the year ended 31 ${ }^{\\text {st }}$ March, 2026\n\n| Particulars | Amount | Particulars | Amount |\n| :--- | :--- | :--- | :--- |\n|  | (₹) |  | (₹) |\n| To Opening Stock | 8,51,200 | By Sales | 72,00,000 |\n| To Purchases | 9,00,000 | By Closing Stock | 6,16,000 |\n| To Goods from H.O. | 49,26,000 |  |  |\n| To Gross Profit | 11,38,800 |  |  |\n|  | 78,16,000 |  | 78,16,000 |\n| To Expenses | 3,75,000 | By Gross Profit | 11,38,800 |\n| To Depreciation | 1,68,000 | By Profit due to Exchange difference | 12,400 |\n| To Net Profit | 6,08,200 |  |  |\n|  | 11,51,200 |  | 11,51,200 |\n\n\nWorking Note: Since London Branch is an integral foreign operation. Hence, (1) Property, Plant \\& Equipment (cost and depreciation) are translated using the exchange rate at the date of purchase of the assets. (2)\n\nExchange difference arising on translation of the financial statement is charged to Profit and Loss Account.",
+          "chapter_number": "15",
+          "chapter_name": "ACCOUNTING FOR BRANCHES INCLUDING FOREIGN BRANCHES",
+          "unique_id": "15-T-15"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "1",
+      "sub_questions": [
+        {
+          "label": "—",
+          "marks": 14,
+          "internal_split": null,
+          "question": "## Question 18 (PYP 14 Marks Sep'24,MP[8])\n\nThe following are the summarized Balance Sheets of Well Ltd. and Nice Ltd. as at 31st March, 20XX :\n\n|  |  | Particulars | Notes | Nice Ltd. (Rs. in '000) | Well Ltd. (Rs. in '000) |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n|  |  | Equity and Liabilities |  |  |  |\n| 1. |  | Shareholder's funds |  |  |  |\n|  | a. | Share capital | 1 | 41,000 | 14,300 |\n|  | b. | Reserves and Surplus | 2 | 19,500 | $(7,350)$ |\n| 2. |  | Non-current liabilities |  |  |  |\n|  | a. | Long-term borrowings | 3 | 20,500 | 5,425 |\n| 3. |  | Current Liabilities |  |  |  |\n|  | a. | Trade Payables |  | 15,740 | 4,850 |\n|  | b. | Short-term Borrowings |  | - | 1,975 |\n|  |  | Total |  | 96,740 | 19,200 |\n|  |  | Assets |  |  |  |\n| 1. |  | Non-current Assets |  |  |  |\n|  | a. | Property, plant, and equipment | 4 | 62,550 | 16,380 |\n|  | b. | Non-current Investments |  | 22,500 | - |\n| 2. |  | Current assets |  |  |  |\n|  | a. | Inventories |  | 300 | 870 |\n|  | b. | Trade Receivables |  | 6,590 | 1,950 |\n|  | c. | Cash and Cash equivalents |  | 4,800 | - |\n|  |  | Total |  | 96,740 | 19,200 |\n\nNotes to Accounts\n\n|  |  | Nice Ltd. (Rs. in '000) | Well Ltd. (Rs. in '000) |\n| :--- | :--- | :--- | :--- |\n| 1. | Share Capital |  |  |\n|  | Equity Share Capital |  |  |\n|  | Issued, subscribed & paid up capital |  |  |\n|  | Equity Shares of Rs. 100 each | 31,500 | 12,500 |\n|  | Preference Share Capital |  |  |\n|  | Issued, subscribed & paid up capital |  |  |\n|  | 9% Preference Shares of Rs. 100 each | 9,500 |  |\n|  | 10% Preference Shares of Rs.100 each | - | 1,800 |\n|  | Total | 41,000 | 14,300 |\n| 2. | Reserves and Surplus |  |  |\n|  | Balance of Profit and Loss A/c | 19,500 | $(7,350)$ |\n| 3. | Long-term borrowings |  |  |\n|  | $9 \\%$ Debentures of Rs. 100 each | 11,200 |  |\n| :--- | :--- | ---: | ---: |\n|  | $10 \\%$ Debentures of Rs. 100 each |  | 900 |\n|  | Loan from Banks | 9,300 | 4,525 |\n|  |  | 20,500 | 5,425 |\n\nDetails of Trade receivables and Trade payables are as under :\n\n|  |  | Nice Ltd. (Rs. in '000) | Well Ltd. (Rs. in '000) |\n| :--- | :--- | :--- | :--- |\n| 1. | Trade receivables |  |  |\n|  | Debtors | 6,200 | 1,800 |\n| 2. | Bills Receivables | $\\underline{390}$ | 150 |\n|  |  | 6,590 | 1,950 |\n|  | Trade payables |  |  |\n|  | Creditors | 14,750 | 4,400 |\n|  | Bills Payables | 990 | 450 |\n|  |  | 15,740 | 4,850 |\n\nOn 31.03.20XX, Nice Ltd. absorbs the business of Well Ltd. on the following terms:\n\n- For every five equity shares held by the equity shareholders of Well Ltd., they receive three equity shares of Nice Ltd. issued at a premium of Rs. 20 per share.\n\n- The $\\mathbf{1 0} \\boldsymbol{\\%}$ debenture-holders of Well Ltd. were to be allotted such $\\mathbf{9 \\%}$ debentures in Nice Ltd. as would bring the same amount of interest.\n\n- $\\mathbf{1 0} \\boldsymbol{\\%}$ Preference Shareholders of Well Ltd. are to be paid at $\\mathbf{1 0} \\boldsymbol{\\%}$ discount by issue of $\\mathbf{9} \\boldsymbol{\\%}$ Preference Shares at par in Nice Ltd.\n\n- Banks agreed to waive off the loan of Rs. 270 thousand of Well Ltd.\n\n- Expenses of Liquidation of Well Ltd. are to be reimbursed by Nice Ltd. Rs. 55 thousand.\n\n- Inventory of Well Ltd. is taken over at $10 \\%$ more than their book value by Nice Ltd.\n\n- Debtors of Nice Ltd. include Rs. $\\mathbf{2 1 5}$ thousand receivables from Well Ltd.\n\n- Property, Plant, and Equipment of Well Ltd. are revalued at $\\mathbf{2 0} \\boldsymbol{\\%}$ above their book value.\n\n- The remaining Assets and Liabilities of Well Ltd. are taken over at book value by Nice Ltd.\n\nYou are required to :\n\n1. Record Journal Entries in the books of Nice Ltd.\n\n2. Prepare Balance Sheet of Nice Ltd. after absorption as at $\\mathbf{3 1}$ March, 20XX.\n\nJournal Entries in the Books of Nice Ltd.",
+          "answer": "Answer 18\n\n|  |  | Dr. Rs. in ‘000 | Cr. Rs. in ‘000 |\n| :--- | :--- | :--- | :--- |\n| Business Purchase Account | Dr. | 10,620 |  |\n| To Liquidator of Well Ltd. |  |  | 10,620 |\n| (Consideration payable for the business taken over from Well Ltd.) |  |  |  |\n| Property, Plant and Equipment (120\\% of Rs. 16,380) | Dr. | 19,656 |  |\n| Inventory (110\\% of Rs. 870) | Dr. | 957 |  |\n| Trade receivables | Dr. | 1,950 |  |\n| Goodwill A/c (Balancing figure) | Dr. | 137 |  |\n| To Trade payables |  |  | 4,850 |\n| To Debenture Holders Account |  |  | 1,000 |\n| To Loan from bank (4,525-270) |  |  | 4,255 |\n| To Short term borrowings |  |  | 1,975 |\n| To Business Purchase Account |  |  | 10,620 |\n| (Incorporation of various assets and liabilities taken over from Well Ltd. at agreed values and difference of net assets and purchase consideration debited to Goodwill A/c) |  |  |  |\n| Liquidator of Well Ltd. | Dr. | 10,620 |  |\n| To Equity Share Capital $(75,000 \\times 100)$ |  |  | 7,500 |\n| To 9\\% Preference Share Capital |  |  | 1,620 |\n| To Securities premium $(7,5000 \\times 20)$ |  |  | 1,500 |\n| (Discharge of consideration for Well Ltd.'s business) |  |  |  |\n| Debenture holders A/c | Dr. | 1,000 |  |\n| To 9\\% Debentures A/c (Being 9\\% debentures issued to 10\\% debenture holders) |  |  | 1,000 |\n| Sundry Creditors of Well Ltd. | Dr. | 215 |  |\n| To Sundry Debtors of Nice Ltd. |  |  | 215 |\n| (Cancellation of mutual owing) |  |  |  |\n| Goodwill | Dr. | 55 |  |\n| To Bank |  |  | 55 |\n| (Being liquidation expenses reimbursed to Well Ltd.) |  |  |  |\n\nWorking Note:\n\n| Working Note: |  |  |\n| :--- | :--- | :--- |\n| The purchase consideration will be: |  |  |\n|  | Rs. | Form |\n| Preference shareholders: $16,200 \\times 100$ | 16,20,000 | 9\\% Pref. shares |\n| Equity shareholders: $\\quad 1,25,000 \\times 3 / 5 \\times 120$ | $\\underline{90,00,000}$ | Equity shares |\n|  |  | $\\underline{1,06,20,000}$ |\n| 10 \\% Preference shares |  | 18,00,000 |\n| Less: 10\\% discount |  | $\\underline{1,80,000}$ |\n|  |  | $\\underline{16,20,000}$ |\n\nDebenture calculation\n\n|  |  | Interest |\n| :--- | :--- | ---: |\n| $10 \\%$ Debenture | $9,00,000$ | 90,000 |\n| Therefore $9 \\%$ debentures | $90,000 / 9 \\%=10,00,000$ |  |\n\nBalance Sheet of Nice Ltd. (After absorption) as at $\\mathbf{3 1}{ }^{\\text {st }}$ March 20XX\n\n|  |  | Particulars |  | Notes | Rs. in '000 |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n|  | I | Equity and Liabilities Gauresh \\|823/31/945 |  |  |  |\n| 1 |  | Shareholders' funds |  |  |  |\n|  | (a) | Share capital |  | 1 | 50,120 |\n|  | (b) | Reserves and Surplus |  | 2 | 21,000 |\n| 2 |  | Non-current liabilities |  |  |  |\n|  | (a) | Long-term borrowings |  | 3 | 25,755 |\n| 3 |  | Current liabilities |  |  |  |\n|  | (a) | Trade payables |  | 4 | 20,375 |\n|  | (b) | Short term borrowing |  |  | 1,975 |\n|  |  |  | Total |  | 1,19,225 |\n|  | II | Assets |  |  |  |\n| 1 |  | Non-current assets |  |  |  |\n|  | (a) | Property, Plant and Equipment and Intangibles |  | 5 |  |\n|  |  | (i) Property, plant and equipment |  |  | 82,206 |\n|  |  | (ii) Intangible assets |  |  | 192 |\n|  | (b) | Non-current investments |  |  | 22,500 |\n| 2 |  | Current assets |  |  |  |\n|  | (a) | Inventories |  | 6 | 1,257 |\n|  | (b) | Trade receivables |  | 7 | 8,325 |\n|  | (c) | Cash and Cash equivalents |  | 8 | 4,745 |\n|  |  |  | Total |  | 1,19,225 |\n\nNotes to accounts\n\n| $\\mathbf{1}$ | Share Capital |  | Rs. in '000 |\n| :--- | :--- | :--- | :--- |\n|  | Equity share capital |  |  |\n|  | Issued, subscribed and paid up |  |  |\n\n|  | 3,90,000 Equity shares of Rs. 100 each (out of above 75,000 shares are issued for consideration other than cash) |  | 39,000 |\n| :--- | :--- | :--- | :--- |\n|  | Preference Shares |  |  |\n|  | Issued, subscribed and paid up |  |  |\n|  | 1,11,200 9\\% Preference Shares of Rs. 100 each ( $9,500+1,620$ ) |  | 11,120 |\n|  | (out of above 16,200 shares are issued for consideration other than cash) |  | 50,120 |\n| 2 | Reserves and Surplus |  |  |\n|  | Securities premium | 1,500 |  |\n|  | Reserves and surplus | $\\underline{19,500}$ | 21,000 |\n| 3 | Long-term borrowings |  |  |\n|  | 9 \\% Debentures $(11,200+1,000)$ | 12,200 |  |\n|  | Loan from bank $(9,300+4255)$ | $\\underline{13,555}$ | $\\underline{25,755}$ |\n| 4 | Trade Payable |  |  |\n|  | Nice Limited | 15,740 |  |\n|  | Well Limited | $\\underline{4,850}$ |  |\n|  |  | 20,590 |  |\n|  | Less: Inter Company holdings | (215) | 20,375 |\n| 5 | Property, Plant and Equipment and Intangibles |  |  |\n|  | Property, Plant and Equipment | 62,550 |  |\n|  | Acquired during the year | $\\underline{19,656}$ | 82,206 |\n|  | Intangibles |  |  |\n|  | Goodwill (137+55) |  | 192 |\n| 6 | Inventories | 300 |  |\n|  | Acquired during the year | $\\underline{957}$ | 1,257 |\n| 7 | Trade receivables | 6,590 |  |\n|  | Acquired during the year $(1,585+150)$ | $\\underline{\\text { 1,735 }}$ | 8,325 |\n| 8 | Cash and Cash Equivalents |  |  |\n|  | Nice Limited | 4,800 |  |\n|  | Less: Expenses on liquidation | (55) | 4,745 |\n\nExam insights: Many students miscalculate goodwill and pass wrong journal entries for debenture conversion, using original instead of revised figures. Always update debenture numbers before recording the takeover and preparing the post-amalgamation balance sheet.",
+          "chapter_number": "13",
+          "chapter_name": "AMALGAMATION OF COMPANIES",
+          "unique_id": "13-T-18"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "6",
+      "sub_questions": [
+        {
+          "label": "—",
+          "marks": 14,
+          "internal_split": null,
+          "question": "GB Limited acquired 80% of equity shares of TB Limited on 1st April, 2018 at a cost of ₹ 58,00,000 when TB Limited had an Equity share capital of ₹ 50,00,000 and Reserves and Surplus of ₹ 4,64,000.\n\nThe following information is provided:\n\n| Year     | Profit /(Loss) of TB Limited (₹) |\n|----------|----------------------------------|\n| 2018-19  | (14,50,000)                      |\n| 2019-20  | (23,20,000)                      |\n| 2020-21  | (29,00,000)                      |\n| 2021-22  | (6,96,000)                       |\n| 2022-23  | 1,90,000                         |\n| 2023-24  | 6,80,000                         |\n| 2024-25  | 12,70,000                        |\n\nYou are required to calculate the minority interests and const of control at the end of each year for the purpose of consolidation. (14 Marks)",
+          "answer": "| Year                          | Profit / (Loss) | Minority Interest (20%) | Additional Consolidated P & L (Dr.) Cr. | Minority's Share of losses borne by A Ltd. | Cost of Control  | ₹        | Balance     |\n|-------------------------------|------------------|-------------------------|------------------------------------------|--------------------------------------------|------------------|----------|-------------|\n| At the time of acquisition in 2018 | 10,92,800 (W.N.) | -                       |                                          |                                            |                  |          |             |\n| 2018-19                       | (14,50,000)      | (2.90,000)             | (11,60,000)                             |                                            |                  | 14,28,800 | (W.N.)     |\n| Balance                       | 8,02,800         | (4.64,000)             | (18,56,000)                             |                                            |                  | 14,28,800 |             |\n| 2019-20                       | (23,20,000)      | 3,38,800               | (5,80,000)                              | (23,20,000)                                |                  | 14,28,800 |             |\n| Balance                       | (29,00,000)      | (2,41,200)             | (2,41,200)                              | 2,41,200                                   |                  | 2,41,200  | 2,41,200   |\n| Loss of minority borne by Holding Co. | Nil          | (25,61,200)            |                                          |                                            |                  |          |             |\n\n```\n2021-22          (6,96,000)    (1,39,200)    (5,56,800)    14,28,800\nLoss of\nminority         1,39,200      (1,39,200)    1,39,200      3,80,40\nborne by\nHolding Co.     0\n\nBalance\n2022-23          1,90,000      Nil           (6,96,000)    14,28,800\nProfit share\nof minority      (38,000)      38,000        (38,000)      3,42,40\nadjusted\nagainst\nlosses of\nminority\nabsorbed by\nHolding Co.     0\n\nBalance\n2023-24          6,80,000      Nil           1,90,000\nProfit share\nof minority      (1,36,000)    1,36,000      5,44,000      (1,36,000)    2,06,40\nadjusted\nagainst\nlosses of\nminority\nabsorbed by\nHolding Co.     0\n\nBalance\n2024-25          12,70,000     6,80,000      10,16,000     (2,06,400)    Nil\n                 (2,06,400)    2,06,400\nBalance          47,600        12,22,400\n\nWorking Note:\nCalculation of Minority interest and Cost of control on 1.4.2018\n\nShare of Holding Co.    Minority Interest\n100%                    80%            20%\n(₹)                     (₹)            (₹)\nShare Capital           50,00,000      40,00,000      10,00,000\nReserve                 4,64,000       3,71,200       92,800\n                       43,71,200      10,92,800\n```\n\n```\n| Less: Cost of investment |          |\n|--------------------------|----------|\n|                          | (58.00.000) |\n| Goodwill                 | 14,28,800 |\n```",
+          "chapter_number": "6",
+          "chapter_name": "CONSOLIDATED FINANCIAL STATEMENTS",
+          "unique_id": "BQ-12"
+        }
+      ]
+    },
+    {
+      "q_main": 6,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "4",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Explain the concept of 'weighted average number of equity shares outstanding during the period'. Also compute, based on AS 20, the weighted average number of equity shares in the following case:\n\n|  |  | No. of shares |\n| :--- | :--- | :--- |\n| 1st April, 2025 | Balance of equity shares | 7,20,000 |\n| 31st August, 2025 | Equity shares issued for cash | 2,40,000 |\n| 1st February, 2026 | Equity shares bought back | 1,20,000 |\n| 31st March, 2026 | Balance of equity shares | 8,40,000 |\n\nWeighted average number of equity shares:\n\n| 7,20,000 * 5/12 | = 3,00,000 |\n| 9,60,000 * 5/12 | = 4,00,000 |\n| 8,40,000 * 2/12 | = 1,40,000 |\n| Total | = 8,40,000 |",
+          "answer": "As per AS 20, \"Earnings Per Share\", the weighted average number of equity shares outstanding during the period reflects the fact that the amount of shareholders' capital may have varied during the period as a result of a larger or less number of shares outstanding at any time. For the purpose of calculating basic earnings per share, the number of equity shares should be the weighted average number of equity shares outstanding during the period.\n\nWeighted average number of equity shares:\n\n| $7,20,000 \\times 5 / 12$ |  |\n| :--- | :--- |\n| $9,60,000 \\times 5 / 12$ | $=3,00,000$ shares |\n| $8,40,000 \\times 2 / 12$ | $=4,00,000$ shares |\n|  |  |\n|  | $=1,40,000$ shares |",
+          "chapter_number": "4.5",
+          "chapter_name": "AS 18- RELATED PARTY DISCLOSURES",
+          "unique_id": "4.5-T-2",
+          "or_question": {
+            "question": "How will you disclose following items while preparing Cash Flow Statement of Gagan Ltd. as per AS-3 for the year ended 31st March, 2026?\n\n| (i) | 10\\% Debentures issued: | As on 01-04-2025 Rs. 1,10,000 |\n| :--- | :--- | :--- |\n|  |  | As on 31-03-2026 Rs. 77,000 |\n| (ii) | Debentures were redeemed at 5\\% premium at the end of the year. Premium was charged to the Profit \\& Loss Account for the year. |  |\n| (iii) | Unpaid Interest on Debentures | As on 01-04-2025 Rs. 275 |\n|  |  | As on 31-03-2026 Rs. 1,175 |\n| (iv) | Debtors of Rs. 36,000 were written off against the Provision for Doubtful Debts A/c during the year. |  |\n| (v) | 10\\% Bonds (Investments): | As on 01-04-2025 Rs. 3,50,000 |\n|  |  | As on 31-03-2026 Rs. 3,50,000 |\n| (vi) | Accrued Interest on Investments: | As on 31-03-2026 Rs. 10,500 |",
+            "answer": "Cash Flow Statement of Gagan Ltd. for the year ended March 31, 2026\n\n| A | Cash Flow from Operating Activities |  |\n| :--- | :--- | :--- |\n|  | Net Profit as per Profit \\& Loss A/c | -------- |\n|  | Add: Premium on Redemption of Debentures | 1,650 |\n|  | Add: Interest on 10\\% Debentures | 11,000 |\n|  | Less: Interest on 10\\% Investments | $(35,000)$ |\n| B | Cash Flow from Investing Activities |  |\n|  | Interest on Investments [35,000-10,500] | 24,500 |\n| C | Cash Flow from Financing Activities |  |\n|  | Interest on Debentures paid [11,000-(1,175-275)] | $(10,100)$ |\n|  | Redemption of Debentures [(1,10,000-77,000) at 5\\% premium] | $(34,650)$ |\n\nNote: Debtors written off against provision for doubtful debts does not require any further adjustment in Cash Flow Statement."
+          }
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Question 3 (PYP 6 Marks Sep'24,MP[8])\n\nThe following scheme of reconstruction has been approved for Equity shareholders and Debenture holders of TP Ltd.\n\n(i) The Equity shareholders to receive in lieu of their present holding of 1,50,000 shares of Rs. 10 each, the following :\n\n(1) For Rs. 50,000 , equivalent cash\n\n(2) For Rs.9,00,000, 10\\% debentures issued at premium of 20\\% (Face value of debenture is Rs. 100 each)\n\n(3) For balance Rs. $5,50,000$, Equity shareholders agreed to accept 50,000 equity shares of Rs. 10 each in full settlement.\n\n(ii) $8 \\%$ Debenture Rs. $5,00,000$.\n\nDebenture holders agreed to accept Freehold property (Book value Rs. $3,50,000$ ) at a valuation of Rs. 4,45,000 in full settlement of their claim. Pass necessary Journal Entries in the Books of TP Ltd. for the above reconstruction. Narration for Journal entries is not required to be given.",
+          "answer": "Journal Entries\n\n|  |  | Rs. | Rs. |\n| :--- | :--- | :--- | :--- |\n| Equity Share Capital (old) A/c | Dr. | 15,00,000 |  |\n| To Equity Share Capital (Rs. 10) A/c |  |  | 5,00,000 |\n| To Cash A/c |  |  | 50,000 |\n| To 10\\% Debentures A/c |  |  | 7,50,000 |\n| To Securities premium |  |  | 1,50,000 |\n| To Capital Reduction/Reconstruction A/c |  |  | 50,000 |\n| (Being new equity shares, 8\\% Debentures issued, cash of Rs. 50,000 and the balance transferred to Reconstruction account as per the Scheme) |  |  |  |\n| 8\\% Debentures A/c | Dr. | 5,00,000 |  |\n| To Freehold Property A/c |  |  | 4,45,000 |\n| To Capital Reduction/Reconstruction A/c |  |  | 55,000 |\n| (Being the debenture holders claim settled partly and foregone partly as per reconstruction scheme) |  |  |  |\n| Capital Reduction/Reconstruction A/c To Capital Reserves A/c (Being balance in capital reduction account transferred to Capital Reserves A/c) | Dr. | 1,05,000 | 1,05,000 |",
+          "chapter_number": "14",
+          "chapter_name": "ACCOUNTING FOR RECONSTRUCTION OF COMPANIES",
+          "unique_id": "14-T-3"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Pass necessary Journal entries in the books of an independent Branch of a Company, wherever required, to rectify or adjust the following: (i) Branch incurred travelling expenses of Rs. 4,000 on behalf of other Branches, but not recorded in the books of Branch. (ii) Goods dispatched by the Head office amounting to $Rs. 8,000$, but not received by the Branch till date of reconciliation. The Goods have been received subsequently. (iii) Provision for doubtful debts, whose accounts are kept by the Head Office, not provided earlier for Rs. 2,000. (iv) Branch paid Rs. 2,000 as salary to a Head Office Manager, but the amount paid has been debited by the Branch to Salaries Account. (MTP 4 Marks Apr'23, Nov'21)",
+          "answer": "Journal Entries in Books of Branch\n\n|  |  |  | Amount in Rs. |  |\n| :--- | :--- | :--- | :--- | :--- |\n|  |  |  | Dr. | Cr. |\n| (i) | Head Office Account | Dr. | 4,000 |  |\n|  | To Cash Account (Being expenditure incurred on account of other branch, now recorded in books) |  |  | 4,000 |\n| (ii) | Goods -in- transit Account | Dr. | 8,000 |  |\n|  | To Head Office Account (Being goods sent by Head Office still in-transit) |  |  | 8,000 |\n| (iii) | Provision for Doubtful Debts A/c | Dr. | 2,000 |  |\n|  | To Head Office Account (Being the provision for doubtful debts not provided earlier, now provided for) |  |  | 2,000 |\n\n\n| (iv) | Head Office Account | Dr. | 2,000 |  |\n| :--- | :--- | :--- | ---: | ---: |\n|  | To Salaries Account <br> (Being rectification of salary paid on behalf of Head Office) |  |  | 2,000 |",
+          "chapter_number": "15",
+          "chapter_name": "ACCOUNTING FOR BRANCHES INCLUDING FOREIGN BRANCHES",
+          "unique_id": "15-T-7"
+        }
+      ]
+    }
+  ]
+}

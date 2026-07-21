@@ -57,3 +57,18 @@ htmlcov/
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Data and output folders
+*Backend/grading_results/
+*Backend/pipeline_output/
+*Backend/pipeline_temp*/
+*Backend/poc_results/
+*Backend/uploads/
+
+# Specific data files
+*Backend/student_marks.json
+*student_marks.json
+mapped_coordinates.json
+
+pipeline_output*/
+CA_Feedback_Pipeline/

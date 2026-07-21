@@ -1,0 +1,223 @@
+=== Page 1 ===
+15-7-26                                GST-TEST 1                          Page No.  1
+                                                                                Date 15  7  26
+
+                              [Question 1 (a)]
+
+(i) As per Section 13, the time of supply of services
+    is under forward charge is:
+
+  * Date of issue of invoice or date of receipt
+    of payment whichever is earlier, if the
+    invoice was issued within 30 days from date of
+    supply of service
+
+                                    or
+
+  * Date of provision of service or date of receipt
+    of payment whichever is earlier, if the
+    invoice was not issued within 30 days from
+    date of supply of service.
+
+In this case, provisions of Section 13 will not
+apply since GPT & Co has not issued an
+invoice or entered payment in its books of
+accounts. The date of supply of service is also
+not available. Therefore time of supply will be
+date on which recipient of service shows the
+payment in his books of accounts.
+
+Therefore time of supply will be 4th April, date
+on which Apartment Owners' Association showed
+payment in their books of accounts
+
+=== Page 2 ===
+(ii) As per Section 12, time of supply of a registered
+person making outward supply of goods
+is:
+
+* Date of issue of invoice or
+* Date on which invoice ought to be
+have been issued.
+
+In the case of continious supply of goods,
+where successive statements of accounts or
+successive payments are made, the time of
+supply will be the date of issue of
+invoice or for each statement of accounts
+or for each such successive payments.
+In this case
+invoice will be issued on date of
+payments of Rs 2 lakhs made on July 5,
+August 5 & September 5.
+
+Therefore time of supply will be July 5th,
+August 5th & September 5th respectively.
+
+[Question 1(b)]
+↑
+Following records are not required to be
+maintained by Ms Sky as composition taxable
+person:
+
+(i) Stock of goods
+
+=== Page 3 ===
+* Accounts of stock of goods received &
+   supplied by him
+* Accounts will include a opening balance,
+  supply, receipt, goods lost or stolen, disposed
+  of by way of gift or free samples, destroyed,
+  written off etc and closing balance of stock
+  which includes raw material, work in progress &
+  finished goods.
+
+(ii) Details of tax
+  * Accounts, containing details of tax payable
+   (including payable under reverse charge)
+   tax paid, tax collected, input tax credit
+   available, input tax credit availed. It will
+   also include a register of tax invoices, debit
+   notes & credit notes, delivery challan etc.
+
+                    [Question 5(b)]
+
+(i) → Supply of water cooler from Malhotra Bros
+    to Mr Sonu will be supply since it is made
+    for a consideration in the course or furtherance
+    of business
+
+→ Supply of water cooler from Mr Sonu to the
+   temple:
+   Donation received by charitable organisations will
+   be considered as consideration only when there
+   is 'quid pro quo' i.e something in return.
+   There should be no obligation on the part of
+
+=== Page 4 ===
+Page No.
+Date
+
+the recipient to do anything for such
+donation.
+However, if the charitable organisation
+displays the name of the donor in its
+premises as an expression of gratitude and
+public recognition of the donor's act of
+philanthropy and is not any advertising or
+promotion of donor's business, it will not
+be considered as supply under GST law.
+
+Therefore, donation of water cooler by Sonu
+to the temple does not have 'quid pro quo'
+and will not be treated as supply under GST
+law.
+
+| Question 5(a) |
+Calculation of Input tax credit available
+with A Ltd for month of December:
+
+| # | Particulars | ₹ |
+|---|---|---|
+| 1) | Goods used for constructing additional floor of office building (ITC on goods used for construction of immovable property on his own account is blocked, even if it is in course or furtherance of business, assuming such cost of construction is capitalized) | NIL |
+| 2) | Goods given as free samples | NIL |
+
+=== Page 5 ===
+(ITC on goods disposed off by way of
+ free samples is blocked)
+
+3) Trucks used for transportation                    11,000
+   of inputs in the factory.
+(ITC on motor vehicles used for transport
+   of goods is allowed)
+
+4) Inputs used in trial runs                              9850
+(Since they are used in the course or
+   furtherance of business, it will be
+   allowed)
+
+5) Confectionary items for consumption of          NIL
+   employees working in the factory
+(ITC on food & beverages is blocked
+   unless it is same line of
+   business or an element of taxable
+   composite or mixed supply. Also, ITC on
+   goods/services used for personal
+   consumption is blocked)
+
+6) Cement used for making foundation &             8050
+   structural support to plant & Machinery
+(ITC on goods used for construction of
+   a plant & machinery is allowed.)
+
+         Total eligible ITC                               28,900
+
+=== Page 6 ===
+[Question 4(a)]
+Question is incomplete.
+
+
+[Question 4(b)]
+
+1) In the case of banking & financial services
+place of supply will be location of the
+receipient as per the records of the supplier.
+However, if location of receipient is not given
+the place of supply will be location of
+the supplier of such services.
+
+In this case, since Kanika's location is not in
+the bank's record, the place of supply will
+be the location of the bank.
+
+Therefore place of supply is Jodhpur, Rajasthan
+
+2) Where the goods supplied are to be
+installed and assembled at site, place
+of supply will be the location of such
+installation or assembly.
+
+Therefore place of supply is Tamil Nadu.
+
+[Question # 3 (b)]
+Question is incomplete
+
+=== Page 7 ===
+[Question 3(a)]
+In case of any omission, or mistake, made in
+the eway bill, such eway bill cannot be
+edited or modified, once generated. The only
+option will be cancellation of such eway bill
+within 24 hours of generation of such eway bill
+and generation of a new eway bill with
+the correct details.
+However, such eway bill can be updated if the
+mistake was of vehicle number.
+
+Therefore Mr X cannot edit or modify the eway
+bill once it has been generated. He will have
+to cancel such eway bill within 24 hours of such
+generation and issue a new eway bill.
+
+[Question 2(b)]
+As per the provisions of Section 22, a supplies
+is liable to obtain registration if his aggregate
+& turnover exceeds the threshold limit i.e
+₹10 lakhs for special category states, being
+Manipur, Mizoram, Tripura & Nagaland & ₹20 lakhs
+for the rest of the states. for supply of services.
+However, services provided by a business
+facilitator to a banking company in a taxable
+territory & in the rural area branch is exempt.
+
+In this case, Dharun is engaged exclusively in supply
+of exempt services.
+
+=== Page 8 ===
+Therefore even though, his aggregate turnover
+is exceeding the threshold limit,
+he is not liable to obtain registration.
+
+Thus advice given by the tax consultant is
+partially correct, regarding Dharun not
+being liable to registration.

@@ -1,0 +1,15 @@
+@@ -369,6 +392,14 @@
+                 q["ticks_crosses"] = tc_corr
+                 print(f"  ✓ {mkey}: full replacement of ticks/crosses ({len(tc_corr)} items)")
+ 
++        if "marks_page" in corr:
++            new_page = int(corr["marks_page"])
++            if "stamp" in q and q["stamp"]:
++                q["stamp"]["page"] = new_page
++            if "feedback" in q and q["feedback"]:
++                q["feedback"]["page"] = new_page
++            print(f"  📄 {mkey}: moved marks/feedback to page {new_page}")
++
+     # Save back
+     with open(manifest_path, "w", encoding="utf-8") as f:
+         json.dump(manifest, f, indent=2, ensure_ascii=False)

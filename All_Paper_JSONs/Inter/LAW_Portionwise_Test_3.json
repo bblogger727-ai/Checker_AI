@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "subject_code": "LAW",
+    "subject_name": "Corporate and Other Laws",
+    "paper_num": "Portionwise_3",
+    "total_marks_printed": 50,
+    "total_marks_in_paper": 50,
+    "section_a_marks": 0,
+    "section_b_marks": 50,
+    "two_section_format": false,
+    "note": "Portionwise Test: Attempt all 5 questions. Each question carries 10 marks (6 + 4 split).",
+    "blacklisted_from": [],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)"
+    ]
+  },
+  "section_a": [],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "15",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Explain the meaning of the followings terms as defined under the Foreign Exchange Management Act, 1999: (i) authorized person (MTP 2 Marks Dec'24, MP[7])",
+          "answer": "According to section 2(c) of the Foreign Exchange Management Act, 1999, Authorised person means an authorised dealer, money changer, off- shore banking unit or any other person for the time being authorised under section 10(1) to deal in foreign exchange or foreign securities.",
+          "chapter_number": "15",
+          "chapter_name": "THE FOREIGN EXCHANGE MANAGEMENT ACT, 1999",
+          "unique_id": "15-T-1"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Explain the meaning of term 'currency' as per the provisions of the Foreign Exchange Management Act, 1999. (MTP 2 Marks July'24, Dec'24,MP[4],[7])",
+          "answer": "According to section 2(h) of the Foreign Exchange Management Act, 1999, 'Currency' includes all currency notes, postal notes, postal orders, money orders, cheques, drafts, travelers' cheques, letters of credit, bills of exchange, and promissory notes.",
+          "chapter_number": "15",
+          "chapter_name": "THE FOREIGN EXCHANGE MANAGEMENT ACT, 1999",
+          "unique_id": "15-T-2"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "14",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "What is the meaning and legal significance of the principle \"generalia specialibus non derogant\"? Explain with an example. (RTP May'25) (PYP 4 Marks May'24,MP[3])",
+          "answer": "The principle \"generalia specialibus non derogant\" means that when a general law and a specific law address the same subject matter, the specific law prevails. This ensures that specialized laws designed for particular situations are not overridden by broader, more general provisions.\n\nExample:\n\n1. General Law: \"All contracts must be in writing to be legally enforceable.\"\n\n2. Specific Law: \"An oral contract for the sale of goods under Rs. 5000 is legally valid.\"\n\nHere, the general rule states that all contracts must be in writing. However, the specific rule creates an exception for oral contracts involving goods under Rs.5000. According to the principle of \"generalia specialibus non derogant\", the specific rule will prevail in cases involving small-value goods, making oral agreements enforceable despite the broader general rule. This principle helps maintain legal clarity by ensuring that specialized provisions are applied without being overridden by more general laws.",
+          "chapter_number": "14",
+          "chapter_name": "INTERPRETATION OF STATUTES",
+          "unique_id": "14-T-12"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Mr. Pravesh, an Indian following purposes: U.S. $10,000 for remittance towards hiring charges of transponders. Advise him whether he can get Foreign Exchange, as per the provisions of the Foreign Exchange Management Act, 1999. (MTP 4 Marks Mar'24, SM)",
+          "answer": "Under section 5 of the Foreign Exchange Management Act, 1999, and Rules relating thereto, some current account transactions require prior approval of the Central Government, some others require the prior approval of the Reserve Bank of India, some are freely permitted transactions and some others are prohibited transactions.\n\nThis is a current account transaction, where Pravesh is required to take approval of the Central Government for drawal of foreign exchange for remittance of hire charges of transponders.\n\nIn all the cases, where remittance of Foreign Exchange is allowed, either by general or specific permission, the remitter has to obtain the Foreign Exchange from an Authorised Person as defined in Section 2(c).",
+          "chapter_number": "15",
+          "chapter_name": "THE FOREIGN EXCHANGE MANAGEMENT ACT, 1999",
+          "unique_id": "15-T-20"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "14",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "What is External Aid to interpretation? Explain how the Dictionary definitions are the External Aids to Interpretations? (PYP 3 Marks Jan 21, MTP 3 Marks Sep '23, Aug'25)",
+          "answer": "External aids are the factors that help in interpreting/construing an Act and have been given the convenient nomenclature of 'External Aids to Interpretation'. Apart from the statute itself there are many matters which may be taken into account when the statute is ambiguous. These matters are called external aids.\n\nDictionary Definitions: Dictionary Definitions is one of the External Aids to interpretation. First we have to refer to the Act in question to find out if any particular word or expression is defined in it. Where we find that a word is not defined in the Act itself, we may refer to dictionaries to find out the general sense in which that word is commonly understood. However, in selecting one out of the several meanings of a word, we must always take into consideration the context in which it is used in the Act. It is the fundamental rule that the meanings of words and expressions used in an Act must take their colour from the context in which they appear. Further, judicial decisions laying down the meaning of words in construing statutes in 'pari materia' will have greater weight than the meaning furnished by dictionaries. However, for technical terms reference may be made to technical dictionaries.",
+          "chapter_number": "14",
+          "chapter_name": "INTERPRETATION OF STATUTES",
+          "unique_id": "14-T-38"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Mitali Diamonds Limited is a company engaged in the business of cutting, polishing and trading of diamonds in and outside India. The company exports the diamonds to USA. For the last five financial years, the foreign exchange earned by the company in exporting diamonds is as under:\n\nFY 2025-26 USD 1,25,000\n\nFY 2024-25 USD 1,10,000\n\nFY 2023-24 USD 95,000\n\nFY 2022-23 USD 98,000\n\nFY 2021-22 USD 93,000\n\nThe company wants to give donation of USD 10,000 to an institution situated in USA which provides technical support and training in the field of cutting and polishing of raw diamonds. This will help the company in guiding its own employees, posted in USA to get the requisite training.\n\nReferring to the provisions of the Foreign Exchange Management Act, 1999, state whether the company can give donation to such institution in USA? (PYP 4 Marks Sep'24,MP[8])",
+          "answer": "As per Schedule III to the Foreign Exchange Management Act, 1999, remittances by persons other than individuals shall require prior approval of the Reserve Bank of India, for donations exceeding 1% of their foreign exchange earnings during the previous three financial years or USD 5,000,000, whichever is less, for:\n\na. Creation of Chairs in reputed Educational Institutes,\nb. Contribution to Funds (not being an investment fund) promoted by Educational Institutes; and\nc. Contribution to a Technical Institution or Body or Association in the field of activity of the Donor Company. In the given question, Mitali Diamonds Limited can donate lower of USD $3,300[1 % of $(1,25,000+1,10,000 +95,000)$ ] or USD 5,000,000.\n\nThus, Mitali Diamonds Limited can give a donation of USD 3,300 without RBI approval and for USD 10,000 it shall require prior approval of the Reserve Bank of India to the said institution as this institution is a Technical Institution or Body or Association in the field of activity of the Donor Company.\n\nExam insights: Students often skip the exact Schedule III threshold and then mis-compute the donation limit. Always compare both caps-1% of average forex earnings and USD 50,00,000-and apply the lower figure before deciding how much can be remitted without RBI approval.",
+          "chapter_number": "15",
+          "chapter_name": "THE FOREIGN EXCHANGE MANAGEMENT ACT, 1999",
+          "unique_id": "15-T-30"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "14",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "What does the principle of \"reading the statute as a whole\" imply in the interpretation of statutes? Explain with the help of an example. (RTP May '24, Nov'18 MTP 4 Marks Apr'24,MP[2])",
+          "answer": "It is the elementary principle that construction of a statute is to be made of all its parts taken together and not of one part only. The deed must be read as a whole in order to ascertain the true meaning of its several clauses, and the words of each clause should be so interpreted as to bring them into harmony with other provisions - if that interpretation does no violence to the meaning of which they are naturally susceptible. And the same approach would apply with equal force with regard to Acts and Rules passed by the legislature.\n\nOne of the safest guides to the construction of sweeping general words is to examine other words of like import in the same enactment or instrument to see what limitations must be imposed on them. If we find that a number of such expressions have to be subjected to limitations and qualifications and that such limitations and qualifications are of the same nature, that circumstance forms a strong argument for subjecting the expression in dispute to a similar limitation and qualification.\n\nExample: If one section of an Act requires 'notice' should be given, then a verbal notice would generally be sufficient. But, if another section provides that 'notice' should be 'served' on the person or 'left' with him, or in a particular manner or place, then it would obviously indicate that a written notice was intended.",
+          "chapter_number": "14",
+          "chapter_name": "INTERPRETATION OF STATUTES",
+          "unique_id": "14-T-35"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Whether the plea given by the road-lines of double-jeopardy be accepted by the court? Discuss based on underlying principle and concepts referring the provisions of the General Clauses Act, 1897. (PYP 4 Marks Sep'25)",
+          "answer": "As per section 26 of the General Clauses Act, 1897, where an act or omission constitutes an offence under two or more enactments, then the offender shall be liable to be prosecuted and punished under either or any of those enactments but shall not be punished twice for the same offence.\n\nAs per Article 20(2) of the Constitution, no person shall be prosecuted and punished for the same offence more than once.\n\nThe combined reading of provisions of section 26 of the General Clauses Act, 1897 and Article 20(2) of the Constitution apply only when the two offences which form the subject of prosecution is the same, i.e., the ingredients which constitute the two offences are the same. If the offences under the two enactments are distinct and not identical, none of these provisions will apply.\n\nIn the given question, the local police charged Jumbo Road Lines Limited for overloading the truck under the Motor Vehicles Act, 1988. The Highway Authority filed another suit for damage of public property (iron girders installed on roadside), under the Prevention of Damage to Public Property Act, 1984. As the offences under the two enactments are distinct and not identical, hence the plea given by the road lines of double jeopardy cannot be accepted by the Court.",
+          "chapter_number": "13",
+          "chapter_name": "THE GENERAL CLAUSES ACT, 1897",
+          "unique_id": "13-T-52"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "13",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Examine the validity of the following statements with reference to the General Clauses Act, 1897: Board of Directors of Sabarwal Construction Private Limited authorised by passing resolution in board meeting Mr. Munim to appoint five employees for accounts department of company. Mr. Munim appointed five employees including Mr. Rupal who was relative of one of the director of company. After one month, Mr. Munim observed that Mr. Rupal was not performing his duties honestly. Mr. Munim issued the order of dismissal of Mr. Rupal with proper reasons. Mr. Rupal filed a petition in the court that his dismissal order is not valid as Board of Directors had authorised Mr. Munim only for appointment of employees not for dismissal. Whether is Mr. Rupal correct with his words? (MTP 4 Marks April 22, PYP 2 Marks Mayś24,MP[3])",
+          "answer": "As per the provisions of section 16 of the General Clauses Act, 1897, the authority having for the time being power to make the appointment shall also have power to suspend or dismiss any person appointed whether by itself or any other authority in exercise of that power.\n\nMr. Munim was appointed in board meeting of Sabarwal Construction Private Limited to appoint five employees for accounts department of company. Mr. Munim appointed five employees. After one month, he issued the order of dismissal to one of those five employees. That employee filed an application in the court challenging the validity of dismissal order with the words that Mr. Munim was authorised only for appointment of employees not for dismissal.\n\nOn the basis of above provisions and facts of the case, Mr. Rupal was not correct with his words because as per the General Clauses Act, 1897, power to appoint includes power to suspend or dismiss. Hence, Mr. Munim has power to dismiss Mr. Rupal.",
+          "chapter_number": "13",
+          "chapter_name": "THE GENERAL CLAUSES ACT, 1897",
+          "unique_id": "13-T-45"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "State what do you understand by the term 'document' as per the General Clauses Act, 1897? Discuss which of the following will be treated as a document: (i) Power of Attorney (ii) Cheque (PYP 4 Marks Jan'25)",
+          "answer": "According to section 3(18) of the General Clauses Act, 1897, 'Document' shall include:\n\n- any matter written, expressed or described upon any substance;\n- by means of letters, figures or marks or by more than one of those means;\n- which is intended to be used or which may be used, for the purpose or recording that matter.\n\nFor example, books, file, painting, inscription and even computer files are all documents. However, it does not include Indian Currency Notes.\n\n## (i) Power of Attorney\n\nIt is a written legal instrument by which a person (the principal) authorizes another person (the agent) to act on their behalf. It meets the criteria of a document as it is written or expressed, contains information describing the authority granted and is intended to record and communicate the legal relationship.\n\n## (ii) Cheque\n\nA cheque is a negotiable instrument that directs a bank to pay a specified sum of money from the drawer's account to the payee. It qualifies as a document because it is written or printed, records details such as the amount, date, and parties involved and serves as evidence of a financial transaction.\n\nHence, both a Power of Attorney and a Cheque fall within the definition of a \"document\" within the meaning of Section 3(18) of the General Clauses Act, 1897. They are tangible representations of written information intended for legal or transactional purposes.\n\nExam insights: Students often give a vague definition of \"document\" and then declare that a cheque or power of attorney qualifies without showing why. Always link your example back to the Act's test any matter recorded on a material medium counts-so you prove how the item fits the definition.",
+          "chapter_number": "13",
+          "chapter_name": "THE GENERAL CLAUSES ACT, 1897",
+          "unique_id": "13-T-4"
+        }
+      ]
+    }
+  ]
+}

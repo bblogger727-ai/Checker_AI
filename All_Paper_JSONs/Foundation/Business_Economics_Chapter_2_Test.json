@@ -1,0 +1,422 @@
+[
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND",
+    "section": "A",
+    "q_num": 7,
+    "question": "Identify the factor which generally keeps the price-elasticity of demand for a good low:",
+    "options": {
+      "a": "Variety of uses for that good.",
+      "b": "Very low price of a commodity",
+      "c": "Close substitutes for that good.",
+      "d": "High proportion of the consumer\u2019s income spent on it."
+    },
+    "answer": "b",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND",
+    "section": "A",
+    "q_num": 15,
+    "question": "If the price of Pepsi decreases relative to the price of Coke and 7-UP, the demand for:",
+    "options": {
+      "a": "Coke will decrease.",
+      "b": "7-Up will decrease.",
+      "c": "Coke and 7-UP will increase.",
+      "d": "Coke and 7-Up will decrease."
+    },
+    "answer": "d",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND & ELASTICITY",
+    "section": "A",
+    "q_num": 18,
+    "question": "If the quantity demanded of mutton increases by 5% when the price of chicken increases by 20%, the cross-price elasticity of demand between mutton and chicken is",
+    "options": {
+      "a": "-0.25",
+      "b": "0.25",
+      "c": "-4",
+      "d": "4"
+    },
+    "answer": "b",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND & ELASTICITY",
+    "section": "A",
+    "q_num": 21,
+    "question": "Suppose the price of movies seen at a theatre rises from % 120 per person to \u00a5 200 per person. The theatre manager observes that the rise in price causes attendance at a given movie to fall from 300 persons to 200 persons. What is the price elasticity of demand for movies? (Use Arc Elasticity Method)",
+    "options": {
+      "a": "0.5",
+      "b": "0.8",
+      "c": "1.0",
+      "d": "1.2"
+    },
+    "answer": "b",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND & ELASTICITY OF DEMAND",
+    "section": "A",
+    "q_num": 31,
+    "question": "Demand for a good will tend to be more inelastic if it exhibits which of the following characteristics?",
+    "options": {
+      "a": "The good has many substitutes.",
+      "b": "The good is a luxury (as opposed to a necessity).",
+      "c": "The good is a small part of the consumer's income.",
+      "d": "There is a great deal of time for the consumer to adjust to the change in prices."
+    },
+    "answer": "c",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND & ELASTICITY OF DEMAND",
+    "section": "A",
+    "q_num": 32,
+    "question": "Suppose a consumer\u2019s income increases from % 30,000 to % 36,000. As a result, the consumer increases her purchases of compact discs (CDs) from 25 CDs to 30 CDs. What is the consumer\u2019s income elasticity of demand for CDs? (Use Arc Elasticity Method)",
+    "options": {
+      "a": "0.5",
+      "b": "1.0",
+      "c": "1.5",
+      "d": "2.0"
+    },
+    "answer": "b",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND & ELASTICITY OF DEMAND",
+    "section": "A",
+    "q_num": 34,
+    "question": "For a normal good with a downward sloping demand curve:",
+    "options": {
+      "a": "The price elasticity of demand is negative; the income elasticity of demand is negative.",
+      "b": "The price elasticity of demand is positive; the income elasticity of demand is negative.",
+      "c": "The price elasticity of demand is positive; the income elasticity of demand is positive.",
+      "d": "The price elasticity of demand is negative; the income elasticity of demand is positive."
+    },
+    "answer": "d",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND & ELASTICITY OF DEMAND",
+    "section": "A",
+    "q_num": 37,
+    "question": "As income increases, the consumer will go in for superior goods and consequently the demand for inferior goods will fall. This means inferior goods have",
+    "options": {
+      "a": "Income elasticity of demand less than one",
+      "b": "Negative income elasticity of demand",
+      "c": "Zero income elasticity of demand",
+      "d": "Unitary income elasticity of demand"
+    },
+    "answer": "b",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND & ELASTICITY",
+    "section": "A",
+    "q_num": 40,
+    "question": "A good which cannot be consumed more than once is known as (SM, MTP Oct\u201919)",
+    "options": {
+      "a": "Durable good",
+      "b": "Non- durable good",
+      "c": "Producer good",
+      "d": "None of the above"
+    },
+    "answer": "b",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND & ELASTICITY",
+    "section": "A",
+    "q_num": 43,
+    "question": "The price of tomatoes increases and people buy tomato puree. You infer that tomato puree and tomatoes are",
+    "options": {
+      "a": "Normal goods",
+      "b": "Complements",
+      "c": "Substitutes",
+      "d": "Inferior goods"
+    },
+    "answer": "c",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND & ELASTICITY",
+    "section": "A",
+    "q_num": 44,
+    "question": "Chicken and fish are substitutes. If the price of chicken increases, the demand for fish will (SM, MTP Oct\u201920)",
+    "options": {
+      "a": "Increase or decrease but the demand curve for chicken will not change",
+      "b": "Increase and the demand curve for fish will shift rightwards.",
+      "c": "Not change but there will be a movement along the demand curve for fish.",
+      "d": "Decrease and the demand curve for fish will shift leftwards."
+    },
+    "answer": "b",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND & ELASTICITY",
+    "section": "A",
+    "q_num": 45,
+    "question": "Potato chips and popcorn are substitutes. A rise in the price of potato chips will the demand for popcorn and the quantity of popcorn sold will",
+    "options": {
+      "a": "Increase; increase",
+      "b": "Increase; decrease",
+      "c": "Decrease; decrease",
+      "d": "Decrease; increase"
+    },
+    "answer": "a",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND & ELASTICITY",
+    "section": "A",
+    "q_num": 46,
+    "question": "If the price of orange Juice increases, the demand for apple Juice will : (SM, MTP May\u201920)",
+    "options": {
+      "a": "Increase because they are substitutes",
+      "b": "Decrease because they are substitutes",
+      "c": "Remain the same because real income is increased",
+      "d": "Decrease as real income decreases"
+    },
+    "answer": "a",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND & ELASTICITY OF DEMAND",
+    "section": "A",
+    "q_num": 52,
+    "question": "In Economics, when demand for a commodity increases with a fall in its price it is known as:",
+    "options": {
+      "a": "Contraction of demand",
+      "b": "Expansion of demand",
+      "c": "No change in demand",
+      "d": "None of the above"
+    },
+    "answer": "b",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND & ELASTICITY OF DEMAND",
+    "section": "A",
+    "q_num": 53,
+    "question": "A decrease in the demand for cameras, other things remaining the same will",
+    "options": {
+      "a": "Increase the number of cameras bought",
+      "b": "Decrease the price but increase the number of cameras bought",
+      "c": "Decrease in quantity of camera demanded",
+      "d": "Decrease the price and decrease in the number of cameras bought"
+    },
+    "answer": "d",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND & ELASTICITY OF DEMAND",
+    "section": "A",
+    "q_num": 56,
+    "question": "The price of a commodity decreases from % 6 to % 4 and the quantity demanded of the good increases from 10 units to 15 units. Find the coefficient of price elasticity.",
+    "options": {
+      "a": "1.5",
+      "b": "2.5",
+      "c": "-1.5",
+      "d": "0.5"
+    },
+    "answer": "a",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND & ELASTICITY",
+    "section": "A",
+    "q_num": 65,
+    "question": "Suppose the income elasticity of education in private school in India is 3.6. What does this indicate:",
+    "options": {
+      "a": "Private school education is highly wanted by rich",
+      "b": "Private school education is a necessity.",
+      "c": "Private school education is a luxury.",
+      "d": "We should have more private schools"
+    },
+    "answer": "c",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND & ELASTICITY OF DEMAND",
+    "section": "A",
+    "q_num": 72,
+    "question": "The average income of residents of two cities A and B and the corresponding change in demand for two goods is given in the following table. Which of the following statements is true?",
+    "options": {
+      "a": "Both goods are normal goods in both cities A and B",
+      "b": "Good X is a normal good in both cities; good Y is an inferior good in city A",
+      "c": "Good X is a normal good in both cities; good Y is an inferior good in city B",
+      "d": "Need more information to make an accurate comment"
+    },
+    "answer": "b",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND & ELASTICITY OF DEMAND",
+    "section": "A",
+    "q_num": 77,
+    "question": "If demand for a good is elastic, an increase in its price will cause total expenditure of the consumer of the good to:",
+    "options": {
+      "a": "Increase",
+      "b": "Decrease",
+      "c": "Remain the same",
+      "d": "None of the above"
+    },
+    "answer": "b",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND & ELASTICITY OF DEMAND",
+    "section": "A",
+    "q_num": 79,
+    "question": "Identify the factor which generally keeps the price-elasticity of a demand for a good high.",
+    "options": {
+      "a": "Its very high price",
+      "b": "Its very low price",
+      "c": "Large number of substitutes",
+      "d": "None of the above"
+    },
+    "answer": "c",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND & ELASTICITY",
+    "section": "A",
+    "q_num": 83,
+    "question": "If increasing air fares increases revenues and decreasing them decreases revenues, then the demand for air travel has a price elasticity of:",
+    "options": {
+      "a": "Zero",
+      "b": "Greater than zero but less than one",
+      "c": "One",
+      "d": "Greater than one"
+    },
+    "answer": "b",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND & ELASTICITY",
+    "section": "A",
+    "q_num": 87,
+    "question": "If an increase in the price of blue jeans leads to an increase in the demand for tennis shoes, then blue jeans and tennis shoes are:",
+    "options": {
+      "a": "Complements.",
+      "b": "Inferior goods",
+      "c": "Normal goods.",
+      "d": "Substitutes."
+    },
+    "answer": "d",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND & ELASTICITY OF DEMAND",
+    "section": "A",
+    "q_num": 92,
+    "question": "What can be said about the price elasticity of demand for pen?",
+    "options": {
+      "a": "It is perfectly elastic",
+      "b": "It is elastic",
+      "c": "It is perfectly inelastic",
+      "d": "It is inelastic"
+    },
+    "answer": "b",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND & ELASTICITY",
+    "section": "A",
+    "q_num": 106,
+    "question": "The horizontal demand curve parallel to x-axis implies that the elasticity of demand is (MTP April\u201919)",
+    "options": {
+      "a": "Zero",
+      "b": "Infinite",
+      "c": "Equal to one",
+      "d": "Greater than zero but less than infinity"
+    },
+    "answer": "b",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND & ELASTICITY",
+    "section": "A",
+    "q_num": 108,
+    "question": "If the proportion of income spent on a goods decrease as income rises then income elasticity, is: (MTP April\u201919)",
+    "options": {
+      "a": "Greater than one",
+      "b": "Less than one",
+      "c": "One",
+      "d": "Zero"
+    },
+    "answer": "b",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND & ELASTICITY",
+    "section": "A",
+    "q_num": 110,
+    "question": "Normal goods have: (MTP April\u201919)",
+    "options": {
+      "a": "Positive income elasticity",
+      "b": "Negative income elasticity",
+      "c": "Fluctuating income elasticity",
+      "d": "Zero income elasticity"
+    },
+    "answer": "a",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND & ELASTICITY",
+    "section": "A",
+    "q_num": 120,
+    "question": "Demand for pepsi is elastic because- (MTP Oct\u201919)",
+    "options": {
+      "a": "Its falls under luxuries",
+      "b": "Its consumption can be postponed",
+      "c": "Its substitutes are available in the market",
+      "d": "It is a multiple use product"
+    },
+    "answer": "c",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND",
+    "section": "A",
+    "q_num": 127,
+    "question": "If as a result of 20 percent fall in the ticket fares the demand for watching movie in the cinema hall increases by 10 percent, then price elasticity is (MTP Oct\u201920)",
+    "options": {
+      "a": "Zero",
+      "b": "Greater than zero but less than one",
+      "c": "One",
+      "d": "Greater than one"
+    },
+    "answer": "b",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND",
+    "section": "A",
+    "q_num": 156,
+    "question": "Methods of demand forecasting are:",
+    "options": {
+      "a": "Survey of Buyer\u2019s intension",
+      "b": "Collective opinion Method",
+      "c": "Both (a) and (b)",
+      "d": "None of these"
+    },
+    "answer": "c",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND",
+    "section": "A",
+    "q_num": 203,
+    "question": "Which is the statistical method of demand forecasting:",
+    "options": {
+      "a": "Trend Projection Method",
+      "b": "Expert Opinion Method",
+      "c": "Collective opinion method",
+      "d": "None of these"
+    },
+    "answer": "a",
+    "chapter_number": 2
+  }
+]

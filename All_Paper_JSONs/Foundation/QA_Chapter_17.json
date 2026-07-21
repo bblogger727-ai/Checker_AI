@@ -1,0 +1,392 @@
+[
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 1,
+    "question": "Correlation coefficient $r$ lie between the regression coefficients $\textbf{b}_{\textbf{y x}}$ and $\textbf{b}_{\textbf{x y}}$",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Both",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 2,
+    "question": "In case 'Years of education and income' $\\_\\_\\_$",
+    "options": {
+      "a": "positive correlation",
+      "b": "negative correlation",
+      "c": "no correlation",
+      "d": "none"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 3,
+    "question": "Neither $y$ nor $x$ can be estimated by a linear function of the other variable when $r$ is equal to",
+    "options": {
+      "a": "+1",
+      "b": "-1",
+      "c": "0",
+      "d": "none"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 4,
+    "question": "If $r=0.8$, then coefficient of determination $\\_\\_\\_\\_$ shall be (RTP, Jan'26)",
+    "options": {
+      "a": "0.64",
+      "b": "0.40",
+      "c": "0.60",
+      "d": "0.80"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 5,
+    "question": "The minimum value of correlation coefficient is",
+    "options": {
+      "a": "0",
+      "b": "-2",
+      "c": "1",
+      "d": "-1"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 6,
+    "question": "For calculation of correlation coefficient, a change of origin is",
+    "options": {
+      "a": "not possible",
+      "b": "possible",
+      "c": "both",
+      "d": "none"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 7,
+    "question": "In rank correlation coefficient the association need not be linear.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Both",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 8,
+    "question": "The regression equations $Y=a+b X$ and $X=a+b Y$ are based on the method of",
+    "options": {
+      "a": "greatest squares",
+      "b": "least squares",
+      "c": "both",
+      "d": "none"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 9,
+    "question": "If the values of $y$ are not affected by changes in the values of $x$, the variables are said to be",
+    "options": {
+      "a": "correlated",
+      "b": "uncorrelated",
+      "c": "both",
+      "d": "zero"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 10,
+    "question": "\"Demand for goods and their prices under normal times \" $\\_\u007f\\_\u007f\\_$ Correlation is",
+    "options": {
+      "a": "positive",
+      "b": "negative",
+      "c": "zero",
+      "d": "none"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 11,
+    "question": "The more scattered the points are around a straight line in a scattered diagram the $\\,\\_\\_\\_\\_$ is the correlation coefficient.",
+    "options": {
+      "a": "zero",
+      "b": "more",
+      "c": "less",
+      "d": "none"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 12,
+    "question": "When $\\mathrm{r}=0$ then $\\operatorname{cov}(\\mathrm{x}, \\mathrm{y})$ is equal to (SM, MTP Oct'20, RTP Jan'26)",
+    "options": {
+      "a": "+1",
+      "b": "-1",
+      "c": "0",
+      "d": "none"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 13,
+    "question": "Two variables X and Y are related as $4 \text{ x}+3 \text{ y}=7$ then correlation between x and y is (MTP Dec'24, MP [7])",
+    "options": {
+      "a": "Perfect positive",
+      "b": "Perfect negative",
+      "c": "Zero",
+      "d": "None of these"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 14,
+    "question": "Correlation coefficient can be found out by",
+    "options": {
+      "a": "Scatter Diagram",
+      "b": "Rank Method",
+      "c": "both",
+      "d": "none."
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 15,
+    "question": "The relation $\\mathrm{r}_{\\mathrm{xy}}=\\operatorname{cov}(\\mathrm{x}, \\mathrm{y}) / \\sigma_{x} . \\sigma_{y}$ is",
+    "options": {
+      "a": "true",
+      "b": "false",
+      "c": "both",
+      "d": "none"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 16,
+    "question": "Karl Pearson's coefficient is defined from",
+    "options": {
+      "a": "ungrouped data",
+      "b": "grouped data",
+      "c": "both",
+      "d": "none."
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 17,
+    "question": "If $\\mathrm{r}=0.6$ then the coefficient of non-determination is $\\_\\_\\_\\_$ (MTP, Apr'24, Mar'19, Mar'21, Nov'23, Jul'24, Jan'25, April'25, PYP May'25, MP [1],[5],[8])",
+    "options": {
+      "a": "0.4",
+      "b": "-0.6",
+      "c": "0.36",
+      "d": "0.64"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 18,
+    "question": "In calculating the Karl Pearson's coefficient of correlation, it is necessary that the data should be of numerical measurements. The statement is",
+    "options": {
+      "a": "valid",
+      "b": "not valid",
+      "c": "both",
+      "d": "none"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 19,
+    "question": "If the amount of change in one variable tends to bear a constant ratio to the amount of change in the other variable, then correlation is said to be",
+    "options": {
+      "a": "non linear",
+      "b": "linear",
+      "c": "both",
+      "d": "none"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 20,
+    "question": "Correlation coefficient is $\\_\\_\\_\\_$ of the units of measurement. (SM, MTP, May'24, Oct '18, Mar '18, Jun'24, MP [3], MP [4])",
+    "options": {
+      "a": "dependent",
+      "b": "independent",
+      "c": "both",
+      "d": "none"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 21,
+    "question": "Covariance may be positive, negative or zero. (SM, MTP, Mar'22, Mar'21, Nov'22, Mar'19, Aug'25[2],[10])",
+    "options": {
+      "a": "true",
+      "b": "false",
+      "c": "both",
+      "d": "none"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 22,
+    "question": "If the pattern of points (or dots) on the scatter diagram shows a linear path diagonally across the graph paper from the bottom left- hand corner to the top right, correlation will be",
+    "options": {
+      "a": "negative",
+      "b": "zero",
+      "c": "positive",
+      "d": "none"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 23,
+    "question": "Simple correlation is called",
+    "options": {
+      "a": "linear correlation",
+      "b": "nonlinear correlation",
+      "c": "both",
+      "d": "none"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 24,
+    "question": "\"Unemployment index and the purchasing power of the common man \" $\\_\u007f\\_\u007f\\_$ Correlation is",
+    "options": {
+      "a": "positive",
+      "b": "negative",
+      "c": "zero",
+      "d": "none"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 25,
+    "question": "If correlation co-efficient r between x and y is 0.5 then r between x and -y is (MTP 1 Mark, Nov'22, Aug'25[1], MP [2])",
+    "options": {
+      "a": "1",
+      "b": "0.5",
+      "c": "-0.5",
+      "d": "0"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 26,
+    "question": "In case 'The ages of husbands and wives' $\\_\\_\\_\\_$ correlation is",
+    "options": {
+      "a": "positive",
+      "b": "negative",
+      "c": "zero",
+      "d": "none"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 27,
+    "question": "$\\_\\,\\_\\_\\_\\_$ is a relative measure of association between two or more variables.",
+    "options": {
+      "a": "Coefficient of correlation",
+      "b": "Coefficient of regression",
+      "c": "both",
+      "d": "none"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 28,
+    "question": "If for two variable $x$ and $y$, the covariance, variance of $x$ and variance of $y$ are 40,16 and 256 respectively, what is the value of the correlation coefficient? (MTP, Mar'18, May'20, May' 24, Oct'18 Jan'25, Jun'24, April'25, MP [3],[4],[8])",
+    "options": {
+      "a": "0.01",
+      "b": "0.625",
+      "c": "0.4",
+      "d": "0.5"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 29,
+    "question": "The square of coefficient of correlation ' $r$ ' is called the coefficient of",
+    "options": {
+      "a": "determination",
+      "b": "regression",
+      "c": "both",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 30,
+    "question": "The coefficient of determination is defined by the formula",
+    "options": {
+      "a": "$r^{2}=1-\frac{\text { unexplained Variance }}{\text { Total Variance }}$",
+      "b": "$r^{2}=\frac{\text { explained Variance }}{\text { Total Variance }}$",
+      "c": "Both",
+      "d": "none"
+    },
+    "answer": "c"
+  }
+]

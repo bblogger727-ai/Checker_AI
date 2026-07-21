@@ -1,0 +1,200 @@
+[
+  {
+    "q_main": 1,
+    "is_compulsory": true,
+    "sub_questions": [
+      {
+        "label": "a",
+        "marks": 7,
+        "internal_split": "3+4",
+        "question": "(i) According to the Indian Contract Act 1872, the meaning of agreement must be certain and not vague or indefinite. If the meaning of agreement is not certain, the agreement is not enforceable by law.\nIn the instant case, Mr. Ayush is being principal in Modern Public School ordered 2000 packs of biscuits to Yograj Biscuit Company for the purpose of distribution on Republic Day among students. He also gave the token money but did not specify the category of biscuits. Yograj Biscuit Company did not supply the biscuits on the due date and Mr. Ayush filed the suit for compensation.\nOn the basis of above provisions and facts, it can be said that the agreement was not enforceable for want of certainty of meaning as Mr. Ayush did not specify the category of biscuits. Hence, Yograj Biscuit Company is not liable to pay any compensation to Mr. Ayush.\n\n(j) State whether there is any contract in following cases:\n(a) A engages B to do certain work and remuneration to be paid as fixed by C.\n(b) A and B promise to pay for the studies of their maid\u2019s son.\n(c) A takes a seat in public bus.\n(d) A, a chartered accountant promises to help his friend to file his return.",
+        "answer": "(i) According to the Indian Contract Act 1872, the meaning of agreement must be certain and not vague or indefinite. If the meaning of agreement is not certain, the agreement is not enforceable by law.\nIn the instant case, Mr. Ayush is being principal in Modern Public School ordered 2000 packs of biscuits to Yograj Biscuit Company for the purpose of distribution on Republic Day among students. He also gave the token money but did not specify the category of biscuits. Yograj Biscuit Company did not supply the biscuits on the due date and Mr. Ayush filed the suit for compensation.\nOn the basis of above provisions and facts, it can be said that the agreement was not enforceable for want of certainty of meaning as Mr. Ayush did not specify the category of biscuits. Hence, Yograj Biscuit Company is not liable to pay any compensation to Mr. Ayush.\n\n(j) (a) It is a valid express contract\n(b) It is not a contract as it is a social agreement\n(c) It is an implied contract. A is bound to pay for the bus fare.\n(d) It is a social agreement without any intention to create a legal relationship.",
+        "chapter_number": "2",
+        "unique_id": "CH2_1-A-Q4, CH2_1-A-Q2"
+      },
+      {
+        "label": "b",
+        "marks": 7,
+        "internal_split": null,
+        "question": "Do you agree that a company is an artificial person? Elucidate. Also explain how the authorization by M/s Beeta Limited, a company incorporated under the Companies Act, 2013 can be made in case it does not have a common seal.",
+        "answer": "Yes, I agree that a company is an Artificial Person.  A Company incorporated under the provisions of the Companies Act, 2013 is an artificial person as it is created by a process other than natural birth. It is legal or judicial as it is created by law.  Further, the Company being a separate legal entity can own property, have banking account, raise loans, incur liabilities and enter into contracts. Even members can contract with company, acquire right against it or incur liability to it. It can sue and be sued in its own name. It can do everything which any natural person can do except be sent to jail, take an oath, marry or practice a learned profession. Hence, it is a legal person in its own sense.  As the Company is an artificial person, it can act only through some human agency, viz., directors. The directors can control affairs of the company but they are not the \u201cagents\u201d of the members of the company. The directors can either on their own or through the common seal, if any, of the company can authenticate its formal acts.  Further, the Company being an artificial person has perpetual succession and it continues to exist until it is legally dissolved. The members of a company may come and go but the company will go on forever.  However, the Company being an artificial person cannot have citizenship, lack of physical action and corporate veil can be lifted.  Thus, a company is an artificial legal person.  Authorization by a Company not having a Common Seal:  In case a company does not have a common seal, the authorization shall be made by two directors or by a director and the Company Secretary, wherever the Company has appointed a Company Secretary. Hence, M/s Beeta Limited can do the authorization as mentioned in the above manner.",
+        "chapter_number": "6",
+        "unique_id": "CH6-A-Q7"
+      },
+      {
+        "label": "c",
+        "marks": 6,
+        "internal_split": null,
+        "question": "Mr. Vikas a businessman has been fighting a long-drawn litigation with Mr. Neeraj an industrialist. To support his legal campaign, he enlists the services of Mr. Manoj a Judicial officer stating that the amount of \u20b910 lakhs would be paid to him if he does not take up the brief of Mr. Neeraj.  Mr. Manoj agrees but, at the end of the litigation Mr. Vikas refuses to pay to Mr. Manoj. Decide whether Mr. Manoj can recover the amount promised by Mr. Vikas under the provisions of the Indian Contract Act, 1872?",
+        "answer": "The problem as asked in the question is based on Section 10 of the Indian Contract Act, 1872. This Section says that all agreements are contracts if they are made by the free consent of the parties competent to contract, for a lawful consideration and with a lawful object and are not expressly declared to be void. Further, Section 23 states that every agreement of which the object is unlawful is void.  Accordingly, one of the essential elements of a valid contract in the light of said provision is that the agreement entered into must not be which the law declares to be either illegal or void. An illegal agreement is an agreement expressly or impliedly prohibited by law. A void agreement is one without any legal effects. The given instance is a case of interference with the course of justice and results as opposed to public policy. This can also be called an agreement in restraint of legal proceedings. This agreement restricts one\u2019s right to enforce his legal rights. Such an agreement has been expressly declared to be void under section 68 of the Indian Contract Act. Hence, Mr. Manoj in the given case cannot recover the amount of \u20b9 10 lakh promised by Mr. Vikas because it is a void agreement and cannot be enforced by law.",
+        "chapter_number": "2",
+        "unique_id": "CH2_3-A-Q31"
+      }
+    ]
+  },
+  {
+    "q_main": 2,
+    "is_compulsory": false,
+    "sub_questions": [
+      {
+        "label": "a",
+        "marks": 7,
+        "internal_split": null,
+        "question": "Mukesh is running a grocery store in Delhi. He sells his grocery business, including goodwill worth \u000010,00,000 to Rohit for a sum of \u000010,00,000. After the sale of goodwill, Mukesh made an agreement with Mukesh. As per this agreement, Mukesh cannot open another grocery store (similar kind of business) in the whole of India for next ten years. However, Mukesh opens another store in the same city two months later. What are the rights available with Rohit regarding the restriction imposed on Mukesh with reference to Indian Contract Act, 1872?",
+        "answer": "According to Section 27 of the Indian Contract Act, 1872, any agreement that restrains a person from carrying on a lawful trade, profession or business is a void agreement. However, there are certain exceptions to this rule. One of the statutory exceptions includes sale of Goodwill. The restraint as to sale of goodwill would be a valid restraint provided -  (i) Where the restraint is to refrain from carrying on a similar business,  (ii) The restraint should be within the specified local limits,  (iii) The restraint should be not to carry on the similar business after sale of goodwill to the buyer for a price,  (iv) The restriction should be reasonable. Reasonableness of restriction will depend upon number of factors as considered by court.  In the given case, Mukesh has sold the goodwill and there is restraint for not carrying on the same business of grocery store. However, the restriction imposed on Mukesh is unreasonable as he cannot carry similar business in whole of India for next 10 years. The restriction on restraint to similar kind of trade should be reasonable to make it a valid agreement. Hence, Rohit cannot take any legal action against Mukesh as the restriction is unreasonable as per Section 27 of Indian Contract Act, 1872. Hence, the agreement made between in restraint of trade between Mukesh and Rohit is void agreement.",
+        "chapter_number": "2",
+        "unique_id": "CH2_3-A-Q29"
+      },
+      {
+        "label": "b",
+        "marks": 7,
+        "internal_split": "4+3",
+        "question": "In the Flower Fans Private Limited, there are only 5 members. All of them go in a boat on a pleasure trip into an open sea. The boat capsizes and all of them died being drowned. Explain with reference to the provisions of Companies Act, 2013: (i) Is Flower Fans Private Limited no longer in existence? (ii) Further it is correct to say that a company being an artificial person cannot own property and cannot sue or be sued?",
+        "answer": "(i) **Perpetual Succession** \u2013 A company on incorporation becomes a separate legal entity. It is an artificial legal person and have perpetual succession which means even if all the members of a company die, the company still continues to exist. It has permanent existence.  The existence of a company is independent of the lives of its members. It has a perpetual succession. In this problem, the company will continue as a legal entity. The company's existence is in no way affected by the death of all its members.  (ii) The statement given is incorrect. A company is an artificial person as it is created by a process other than natural birth. It is legal or judicial as it is created by law. It is a person since it is clothed with all the rights of an individual. Further, the company being a separate legal entity can own property, have banking account, raise loans, incur liabilities and enter into contracts. Even members can contract with company, acquire right against it or incur liability to it. It can sue and be sued in its own name. It can do everything which any natural person can do except be sent to jail, take an oath, marry or practice a learned profession. Hence, it is a legal person in its own sense.",
+        "chapter_number": "6",
+        "unique_id": "CH6-A-Q5"
+      },
+      {
+        "label": "c",
+        "marks": 6,
+        "internal_split": null,
+        "question": "Ram wants to incorporate a company in which he will be the only member. According to provisions of the Companies Act, 2013, what type of company can be incorporated? What are the salient features of this type of company?",
+        "answer": "Section 2(62) of the Companies Act, 2013 defines one person company (OPC) as a company which has only one person as a member. Ram wants to incorporate a company in which he will be the only member. Hence, he can incorporate an One person company. According to section 3(1)(c) of the Companies Act, 2013, OPC is a private limited company with the minimum paid up share capital as may be prescribed and having one member. OPC (One Person Company) \u2013 salient features \u2022 Only one person as member. \u2022 Minimum paid up capital \u2013 no limit prescribed. \u2022 The memorandum of OPC shall indicate the name of the other person, who shall, in the event of the subscriber\u2019s death or his incapacity to contract, become the member of the company. \u2022 The other person whose name is given in the memorandum shall give his prior written consent in prescribed form and the same shall be filed with Registrar of companies at the time of incorporation. \u2022 Such other person may be given the right to withdraw his consent. \u2022 The member of OPC may at any time change the name of such other person by giving notice to the company and the company shall intimate the same to the Registrar. \u2022 Any such change in the name of the person shall not be deemed to be an alteration of the memorandum. \u2022 Only a natural person who is an Indian citizen whether resident in India or otherwise and has stayed in India for a period of not less than 120 days during the immediately preceding financial year. \u2022 shall be eligible to incorporate an OPC; \u2022 shall be a nominee for the sole member of an OPC. \u2022 No person shall be eligible to incorporate more than one OPC or become nominee in more than one such company. \u2022 No minor shall become member or nominee of the OPC or can hold share with beneficial interest. \u2022 Such Company cannot be incorporated or converted into a company under section 8 of the Act. Though it may be converted to private or public companies in certain cases. \u2022 Such Company cannot carry out Non-Banking Financial Investment activities including investment in securities of any body-corporate. \u2022 If One Person Company or any officer of such company contravenes the provisions, they shall be punishable with fine which may extend to ten thousand rupees and with a further fine which may extend to one thousand rupees for every day after the first during which such contravention continues. Here the member can be the sole member-cum-director.",
+        "chapter_number": "6",
+        "unique_id": "CH6-A-Q24"
+      }
+    ]
+  },
+  {
+    "q_main": 3,
+    "is_compulsory": false,
+    "sub_questions": [
+      {
+        "label": "a",
+        "marks": 7,
+        "internal_split": null,
+        "question": "With reference to provisions of the Negotiable Instruments Act, 1881, tell the instances where a person shall be deemed to have committed an offence for dishonour of cheque and what are the conditions to be complied with for not constituting such an offence?",
+        "answer": "According to Section 138 of the Negotiable Instruments Act, 1881, where any cheque drawn by a person on an account maintained by him with a banker\u2014\n- for payment of any amount of money\n- to another person from that account\n- for the discharge, in whole or in part, of any debt or other liability, [A cheque given as gift or donation, or as a security or in discharge of a mere moral obligation, or for an illegal consideration, would be outside the purview of this section]\nis returned by the bank unpaid,\neither because of the\u2014\n- amount of money standing to the credit of that account is insufficient to honor the cheque, or\n- that it exceeds the amount arranged to be paid from that account by an agreement made with that bank,\nsuch person shall be deemed to have committed an offence and shall, be punished with imprisonment for a term which may extend to two years, or with fine which may extend to twice the amount of the cheque, or with both.\nWhen section 138 shall not apply: unless the below given conditions are complied with\u2014\n(a) Cheque presented within validity period: The cheque has been presented to the bank within a period of three months from the date on which it is drawn or within the period of its validity, whichever is earlier.\n(b) Demand for the payment through the notice: the payee or the holder in due course of the cheque, as the case may be, makes a demand for the payment of the said amount of money by giving a notice, in writing, to the drawer of the cheque, within 30 days of the receipt of information by him from the bank regarding the return of the cheque as unpaid, and\n(c) Failure of drawer to make payment: the drawer of such cheque fails to make the payment of the said amount of money to the payee or, as the case may be, to the holder in due course of the cheque, within fifteen days of the receipt of the said notice.",
+        "chapter_number": "7",
+        "unique_id": "CH7-A-Q29"
+      },
+      {
+        "label": "b",
+        "marks": 7,
+        "internal_split": null,
+        "question": "Rajnikant agrees to sell some specific goods coming on a ship name \u201cTitanic\u201d to Chiranjivi which will be delivered on arrival of \u201cTitanic\u201d. The ship arrived at the port but goods were not found on the ship. Chiranjivi had to procure the goods from open market at higher price. Afterwards, Chiranjivi sued Rajnikant for recovery of extra payment he made for goods. State with reasons, whether Rajnikant is liable to compensate Chiranjivi under the provisions of the Sale of Goods Act, 1930?",
+        "answer": "Section 6(2) of the Sale of Goods Act, 1930 provides the acquisition of goods which depends upon uncertain contingency are called \u2018Contingent Goods\u2019. Contingent goods also operate as \u2018an agreement to sell\u2019 and not a \u2018sale\u2019 so far as the question of passing of property to the buyer is concerned. In other words, like the future goods, in the case of contingent goods also, the property does not pass to the buyer at the time of making the contract. In the instant case, there was an agreement between Rajnikant and Chiranjivi to sell some specific goods coming on a ship name \u201cTitanic\u201d by Rajnikant to Chiranjivi which will be delivered on arrival of \u201cTitanic\u201d. On the arrival of ship, it was found that the goods were not on it. Chiranjivi procured the goods from open market at higher price, and he sued Rajnikant for recovery of extra payment he made for goods. On the basis of above provisions and facts, it is clear that goods under the agreement were contingent goods and the agreement between Rajnikant and Chiranjivi was \u2018an agreement to sell\u2019 and not a \u2018sale\u2019. The property in goods will be passed only after arrival of goods. As there was no \u2018Sale\u2019 between them, Chiranji cannot recover extra payment he made for goods.",
+        "chapter_number": "3",
+        "unique_id": "CH3_1-A-Q11"
+      },
+      {
+        "label": "c",
+        "marks": 6,
+        "internal_split": null,
+        "question": "What is the significance of the Supreme Court and High Court in the Indian judiciary?",
+        "answer": "i. Supreme Court The Supreme Court is the apex body of the judiciary. It was established on 26th January 1950. The Chief Justice of India is the highest authority appointed under Article 126. The principal bench of the Supreme Court consists of seven members including the Chief Justice of India. Presently, the number has increased to 34 including the Chief Justice of India due to the rise in the number of cases and workload. An individual can seek relief in the Supreme Court by filing a writ petition under Article 32. ii. High Court The highest court of appeal in each state and union territory is the High Court. Article 214 of the Indian Constitution states that there must be a High Court in each state. The High Court has appellant, original jurisdiction, and Supervisory jurisdiction. However, Article 227 of the Indian Constitution limits a High Court\u2019s supervisory power. In India, there are twenty-five High Courts, one for each state and union territory, and one for each state and union territory. Six states share a single High Court. An individual can seek remedies against violation of fundamental rights in High Court by filing a writ under Article 226.",
+        "chapter_number": "1",
+        "unique_id": "CH1-A-Q11"
+      }
+    ]
+  },
+  {
+    "q_main": 4,
+    "is_compulsory": false,
+    "sub_questions": [
+      {
+        "label": "a",
+        "marks": 7,
+        "internal_split": null,
+        "question": "Distinguish between a \u2018Condition\u2019 and a \u2018Warranty\u2019 in a contract of sale. When shall a \u2018breach of condition\u2019 be treated as \u2018breach of warranty\u2019 under the provisions of the Sale of Goods Act, 1930? Explain.",
+        "answer": "Difference between Condition and Warranty\n(i) A condition is a stipulation essential to the main purpose of the contract whereas a warranty is a stipulation collateral to the main purpose of the contract.\n(ii) Breach of condition gives rise to a right to treat the contract as repudiated whereas in case of breach of warranty, the aggrieved party can claim damage only.\n(iii) Breach of condition may be treated as breach of warranty whereas a breach of warranty cannot be treated as breach of condition.\nAccording to Section 13 of the Sale of Goods Act, 1930 a breach of condition may be treated as breach of warranty in following circumstances:\n(i) Where a contract of sale is subject to any condition to be fulfilled by the seller, the buyer may waive the condition,\n(ii) Where the buyer elects to treat the breach of condition as breach of a warranty.\n(iii) Where the contract of sale is non-severable and the buyer has accepted the whole goods or any part thereof.\nWhere the fulfilment of any condition or warranty is excused by law by reason of impossibility or otherwise.",
+        "chapter_number": "3",
+        "unique_id": "CH3_2-A-Q2"
+      },
+      {
+        "label": "b",
+        "marks": 7,
+        "internal_split": null,
+        "question": "Define partnership and name the essential elements for the existence of a partnership as per the Indian Partnership Act, 1932. Explain any two such elements in detail.",
+        "answer": "Definition of Partnership: \"Partnership\" is the relation between persons who have agreed to share the profits of a business carried on by all or any of them acting for all. (Section 4 of the Indian Partnership Act, 1932) The definition of the partnership contains the following five elements which must co-exist before a partnership can come into existence: 1. Association of two or more persons 2. Agreement 3. Agreement to share Profits 4. Business carried on by all or any of them acting for all 5. Business carried on by all or any of them acting for all: The business must be carried on by all the partners or by anyone or more of the partners acting for all. This is the cardinal principle of the partnership Law. In other words, there should be a binding contract of mutual agency between the partners. An act of one partner in the course of the business of the firm is in fact an act of all partners. Each partner carrying on the business in the principal as well as the agent for all the other partners. He is an agent in so far as he can bind the other partners by his acts and he is a principal to the extent that he is bound by the act of other partners. It may be noted that the true test of partnership is mutual agency rather than sharing of profits. If the element of mutual agency is absent, then there will be no partnership. 4. AGREEMENT TO SHARE PROFITS: The sharing of profits is an essential feature of partnership. There can be no partnership where only one of the partners is entitled to the whole of the profits of the business. Partners must agree to share the profits in any manner they choose. 5. BUSINESS CARRIED ON BY ALL OR ANY OF THEM ACTING FOR ALL: The business must be carried on by all the partners or by anyone or more of the partners acting for all. This is the cardinal principle of the partnership Law. In other words, there should be a binding contract of mutual agency between the partners.",
+        "chapter_number": "4",
+        "unique_id": "CH4_1-A-Q5"
+      },
+      {
+        "label": "c",
+        "marks": 6,
+        "internal_split": "3+3",
+        "question": "(i) Explain the essential requirement for forming LLP.\n\n(j) Rama executes a promissory note in the following form, 'I promise to pay a sum of \u20b9 10,000 after three months'. Decide whether the promissory note is a valid promissory note.",
+        "answer": "(i) The essential requirement for forming LLP is carrying on a lawful business with a view to earn profit. Thus, LLP cannot be formed for charitable or non-economic purpose. In the instant case, Raju and Anil cannot form LLP to run a charitable school which provides free education to the poor children. In view of above it is suggested to them that they can form a section 8 company for this purpose.\n\n(j) The promissory note is an unconditional promise in writing. In the above question the amount is certain but the date and name of payee is missing, thus making it a bearer instrument. As per Reserve Bank of India Act, 1934, a promissory note cannot be made payable to bearer - whether on demand or after certain days. Hence, the instrument is illegal as per Reserve Bank of India Act, 1934 and cannot be legally enforced.",
+        "chapter_number": "5 / 7",
+        "unique_id": "CH5-A-Q10, CH7-A-Q3"
+      }
+    ]
+  },
+  {
+    "q_main": 5,
+    "is_compulsory": false,
+    "sub_questions": [
+      {
+        "label": "a",
+        "marks": 7,
+        "internal_split": "4+3",
+        "question": "Explain with reference to the Indian Contract Act, 1872: (i) When a contract is said to be induced by \"undue influence\". (ii) When a party is deemed to be in a position to dominate the will of another.",
+        "answer": "(i) Undue influence (Section 16): According to section 16 of the Indian Contract Act, 1872, \u201cA contract is said to be induced by \u2018undue influence\u2019 where the relations subsisting between the parties are such that one of the parties is in a position to dominate the will of the other and he uses that position to obtain an unfair advantage over the other\u201d. (ii) Position to dominate the will: Relation between the parties exist in such a manner that one of them is in a position to dominate the will of the other. A person is deemed to be in such position in the following circumstances: (a) Real and apparent authority: Where a person holds a real authority over the other as in the case of master and servant, doctor and patient and etc. (b) Fiduciary relationship: Where relation of trust and confidence exists between the parties to a contract. Such type of relationship wide, creditor and debtor, etc. (c) Mental distress: An undue influence can be used against a person to get his consent on a contract where the mental capacity of the person is temporarily or permanently affected by the reason of mental or bodily distress, illness or old age. (d) Unconscionable bargains: Where one of the parties to a contract is in a position to dominate the will of the other and the contract is apparently unconscionable i.e., unfair, it is presumed by law that consent must have been obtained by undue influence. Unconscionable bargains are witnessed mostly in money-lending transactions and in gifts.",
+        "chapter_number": "2",
+        "unique_id": "CH2_3-A-Q12"
+      },
+      {
+        "label": "b",
+        "marks": 7,
+        "internal_split": null,
+        "question": "Explain the term \u201cDelivery and its forms\u201d under the Sale of Goods Act, 1930.",
+        "answer": "Answer 3\nDelivery - its forms: Delivery means voluntary transfer of possession from one person to another [Section 2(2) of the Sale of Goods Act, 1930]. As a general rule, delivery of goods may be done by anything, which has the effect of putting the goods in the possession of the buyer, or any person authorized to hold them on his behalf.\nForms of delivery: Following are the kinds of delivery for transfer of possession:\n(i) Actual delivery: When the goods are physically delivered to the buyer. Actual delivery takes place when the seller transfers the physical possession of the goods to the buyer or to a third person authorised to hold goods on behalf of the buyer. This is the most common method of delivery.\n(ii) Constructive delivery: When it is effected without any change in the custody or actual possession of the thing as in the case of delivery by attornment (acknowledgement). Constructive delivery takes place when a person in possession of the goods belonging to the seller acknowledges to the buyer that he holds the goods on buyer\u2019s behalf.\n(iii) Symbolic delivery: When there is a delivery of a thing in token of a transfer of something else, i.e., delivery of goods in the course of transit may be made by handing over documents of title to goods, like bill of lading or railway receipt or delivery orders or the key of a warehouse containing the goods is handed over to buyer. Where actual delivery is not possible, there may be delivery of the means of getting possession of the goods.",
+        "chapter_number": "3",
+        "unique_id": "CH3_1-A-Q3"
+      },
+      {
+        "label": "c",
+        "marks": 6,
+        "internal_split": null,
+        "question": "What is the difference between partnership and co-ownership as per the Indian Partnership Act, 1932?",
+        "answer": "Partnership Vs. Co-Ownership or joint ownership i.e. the relation which subsists between persons who own property jointly or in common.\nPartnership always arises out of a contract, express or implied. Co-ownership may arise either from agreement or by the operation of law, such as by inheritance.\n\n2. Implied agency: A partner is the agent of the other partners. A co-owner is not the agent of other co-owners.\n\n3. Nature of interest: There is community of interest which means that profits and losses must have to be shared. Co-ownership does not necessarily involve sharing of profits and losses.\n\n4. Transfer of interest: A share in the partnership is transferred only by the consent of other partners. A co-owner may transfer his interest or rights in the property without the consent of other co-owners.",
+        "chapter_number": "4",
+        "unique_id": "CH4_1-A-Q10"
+      }
+    ]
+  },
+  {
+    "q_main": 6,
+    "is_compulsory": false,
+    "sub_questions": [
+      {
+        "label": "a",
+        "marks": 7,
+        "internal_split": null,
+        "question": "Anjali purchased various cosmetic products worth \u20b9 15,000 during the last week from Sushil, a shopkeeper, on credit of one month. After a fortnight, she makes out a blank promissory note, signed it and delivered to Sushil who further endorsed it to Manish for the payment of his dues. Manish, who is holder in due course, filled up the due amount of \u20b9 17,000 from Sushil and on maturity presented it to Anjali for payment but she refused to pay because the amount filled up is more than the agreed amount of \u20b9 15,000. It is to be noted that the amount of \u20b9 17,000 is covered by the stamp affixed on it. Referring to the provisions of the Negotiable Instruments Act, 1881 decide, whether Anjali is liable to honour the promissory note to Manish for \u20b9 17,000?",
+        "answer": "Section 20 of the Negotiable Instruments Act, 1881 reads as \u201cWhere one person signs and delivers to another a paper stamped in accordance with the law relating to negotiable instruments then in force in India, and either wholly blank or having written thereon an incomplete negotiable instrument, he thereby gives prima facie authority to the holder thereof to make or complete, as the case may be, upon it a negotiable instrument, for any amount specified therein and not exceeding the amount covered by the stamp. The person so signing shall be liable upon such instrument, in the capacity in which he signed the same, to any holder in due course for such amount. Provided that no person other than a holder in due course shall recover from the person delivering the instrument anything in excess of the amount intended by him to be paid thereunder\u201d.\nIn the instant case, Anjali is not liable to honour the promissory note to Manish for \u20b9 17000. She is liable only for \u20b9 15000.",
+        "chapter_number": "7",
+        "unique_id": "CH7-A-Q10"
+      },
+      {
+        "label": "b",
+        "marks": 7,
+        "internal_split": null,
+        "question": "What are the rights of partners with respect to conduct of the business of a firm as prescribed under the Indian Partnership Act, 1932?",
+        "answer": "Conduct of the Business (Section 12 of the Indian Partnership Act, 1932): Subject to contract between the partners-\n(a) every partner has a right to take part in the conduct of the business;\n(b) every partner is bound to attend diligently to his duties in the conduct of the business;\n(c) any difference arising as to ordinary matters connected with the business may be decided by majority of the partners, and every partner shall have the right to express his opinion before the matter is decided, but no change may be made in the nature of the business without the consent of all partners; and\n(d) every partner has a right to have access to and to inspect and copy any of the books of the firm.\n(e) in the event of the death of a partner, his heirs or legal representatives or their duly authorized agents shall have a right of access to and to inspect and copy any of the books of the firm.",
+        "chapter_number": "4",
+        "unique_id": "CH4_2-A-Q1"
+      },
+      {
+        "label": "c",
+        "marks": 6,
+        "internal_split": null,
+        "question": "Explain the advantages of the LLP form of business. How does its legal structure make it a flexible and preferable business model for entrepreneurs? Also, discuss the legal capacities an LLP acquires upon registration.",
+        "answer": "Advantages of LLP form: LLP form is a form of business model which:\na. is organized and operates on the basis of an agreement\nb. provides flexibility without imposing detailed legal and procedural requirements.\nc. Easy to form\nd. All partners enjoy limited liability\ne. Flexible capital structure\nf. Easy to dissolve\nEffect of registration: On registration, a LLP shall, by its name, be capable of\na. Suing and being sued;\nb. acquiring, owning, holding and developing or disposing of property, whether movable or immovable, tangible or intangible;\nc. having a common seal, if it decides to have one; and\nd. doing and suffering such other acts and things as bodies corporate may lawfully do and suffer.",
+        "chapter_number": "5",
+        "unique_id": "CH5-A-Q11"
+      }
+    ]
+  }
+]

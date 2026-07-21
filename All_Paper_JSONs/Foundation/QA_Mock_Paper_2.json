@@ -1,0 +1,1303 @@
+[
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 1,
+    "question": "The derivative of $y=\\sqrt{x+1}$ is",
+    "options": {
+      "a": "$1 / \\sqrt{\\mathrm{x}+1}$",
+      "b": "$-1 / \\sqrt{x+1}$",
+      "c": "$1 / 2 \\sqrt{x+1}$",
+      "d": "None of these"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 2,
+    "question": "The curve obtained by joining the points, whose $x$ - coordinates are the upper limits of the class- intervals and y coordinates are corresponding cumulative frequencies is called (MTP Oct'21, SM, PYP May'25)",
+    "options": {
+      "a": "Ogive",
+      "b": "Histogram",
+      "c": "Frequency Polygon",
+      "d": "Frequency Curve"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 3,
+    "question": "Logarithm of G.M is the $\\_\\_\\_\\_$ of logarithms of the different values.",
+    "options": {
+      "a": "weighted mean",
+      "b": "simple mean",
+      "c": "both",
+      "d": "None"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 4,
+    "question": "Appu retires at 60 years receiving a pension of 14,400 a year paid in half-yearly installments for rest of his life after reckoning his life expectation to be 13 years and that interest at $4 \\%$ p.a. is payable half-yearly. What single sum is equivalent to his pension?",
+    "options": {
+      "a": "$1,45,000$",
+      "b": "$1,44,900$",
+      "c": "$1,44,800$",
+      "d": "$1,44,700$"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 5,
+    "question": "The Scrap value of machine valued at $\\mathrm{Rs}, 10,00,000$ after 15 years of depreciation is $10 \\%$ per annum.",
+    "options": {
+      "a": "\u20b9 215891.13",
+      "b": "\u20b9 205891.13",
+      "c": "\u20b9 225891.13",
+      "d": "None"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 6,
+    "question": "When data are classified according to one criterion, then it is called $\\\\_\\\\\\\\_$ classification (MTP Nov'23)",
+    "options": {
+      "a": "Quantitative",
+      "b": "qualitative",
+      "c": "Simple",
+      "d": "factored"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 7,
+    "question": "A certain sum of money was put at S.I. for 2.5 years at a certain rate of S.I. p.a. Had it been put at $4 \\%$ higher rate, it would have fetched \u20b9 500 more. Find the sum of money.",
+    "options": {
+      "a": "\u20b9 4,000",
+      "b": "$\u20b9 5,000$",
+      "c": "$\u20b9 6,000$",
+      "d": "None"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 7: SETS, RELATIONS,AND FUNCTIONS BASICS OF LIMITS \\& CONTINUITY FUNCTIONS",
+    "chapter_number": "7",
+    "q_num": 8,
+    "question": "If $A=\\{a, b, c\\}, B=\\{a, b\\}, C=\\{a, b, d\\}, D=\\{c, d\\}$ and $E=\\{d\\}$ state which of the following statements are correct: - (i) $B \\subset A$ (ii) $D \\neq C$ (iii) $C \\supset E$ (iv) $D \\subset E$ (v) $D \\subset B$ (vi) $D=A$ (vii) $B \\not \\subset C$ (viii) $E \\subset A$ (ix) $E \\not \\subset B$ (x) a $\\in A$ (xi) $a \\subset A$ (xii) $\\{a\\} \\in A$ (xiii) $\\{a\\} \\subset A$",
+    "options": {
+      "a": "(i) (ii) (iii) (ix) (x) (xiii) only are correct",
+      "b": "(ii) (iii) (iv) (x) (xii) (xiii) only are correct",
+      "c": "(i) (ii) (iv) (ix) (xi) (xiii) only are correct",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 9,
+    "question": "Data are said to be $\\\\_\\\\\\\\_$ if the investigator himself is responsible for the collection of data. (MTP May'24, Nov'22, Jun'22, Aug'24, MP [3],[5],[10])",
+    "options": {
+      "a": "Primary Data",
+      "b": "Secondary Data",
+      "c": "Mixed of Primary and Secondary Data",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 7: SETS, RELATIONS,AND FUNCTIONS BASICS OF LIMITS \\& CONTINUITY FUNCTIONS",
+    "chapter_number": "7",
+    "q_num": 10,
+    "question": "Comment on the correctness or otherwise of the following statements: - (i) $\\{\\mathrm{a}, \\mathrm{b}, \\mathrm{c}\\}=\\{\\mathrm{c}, \\mathrm{b}, \\mathrm{a}\\}$ (ii) $\\{\\mathrm{a}, \\mathrm{c}, \\mathrm{a}, \\mathrm{d}$, $\\mathrm{c}, \\mathrm{d}\\} \\subset\\{\\mathrm{a}, \\mathrm{c}, \\mathrm{d}\\}$ (iii) $\\{\\mathrm{b}\\} \\in\\{\\{\\mathrm{b}\\}\\}$ (iv) $\\{\\mathrm{b}\\} \\subset\\{\\{\\mathrm{b}\\}\\}$ and $\\phi \\subset\\{\\{\\mathrm{b}\\}\\}$.",
+    "options": {
+      "a": "Only (iv) is incorrect",
+      "b": "(i) (ii) are incorrect",
+      "c": "(ii) (iii) are incorrect",
+      "d": "All are incorrect"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 11,
+    "question": "If $\\mathrm{y}=\\mathrm{x}(\\mathrm{x}-1)(\\mathrm{x}-2)$ then $\\frac{\\mathrm{dy}}{\\mathrm{dx}}$ is (SM, MTP Apr'23)",
+    "options": {
+      "a": "$3 x^{2}-6 x+2$",
+      "b": "$-6 x+2$",
+      "c": "$3 x^{2}+2$",
+      "d": "None of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 12,
+    "question": "The average wages of a group of unexperienced labours is $\u20b9 1000$ and that of a group of experienced labours is $\u20b9 1,500$. If the combined wage is $\u20b9 1200$, then what is the percentage of experienced labours? (MTP Dec'23)",
+    "options": {
+      "a": "$60 \\%$",
+      "b": "$40 \\%$",
+      "c": "$50 \\%$",
+      "d": "North of these"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 6: Sequence and Series - Arithmetic and Geometric",
+    "chapter_number": "6",
+    "q_num": 13,
+    "question": "The sum of natural numbers upto 200 excluding those divisible by 5 is $\text{_____}$ .",
+    "options": {
+      "a": "20,100",
+      "b": "4,100",
+      "c": "16,000",
+      "d": "None"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 15: PROBABILITY",
+    "chapter_number": "15",
+    "q_num": 14,
+    "question": "When the number of cases favorable to the event $A$ is none then $P(A)$ is equal to",
+    "options": {
+      "a": "1",
+      "b": "0",
+      "c": "$\\frac{1}{2}$",
+      "d": "none"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 10: Direction Sense Test",
+    "chapter_number": "10",
+    "q_num": 15,
+    "question": "A man is facing East, then he turns left and goes 10 m , then turns right and goes 5 meters then goes 5 meters to the South and from there 5 meters to West. In which direction is be from his original place? (SM, MTP Oct'18, Mar'19, Apr'19, Dec'24, MP [7])",
+    "options": {
+      "a": "East",
+      "b": "West",
+      "c": "North",
+      "d": "South"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 16,
+    "question": "The present value of $\u20b9 10,000$ due in 2 years at $5 \\%$ p.a. compound interest when the interest is paid on yearly basis is \u20b9 $\\_\\_\\_$ .",
+    "options": {
+      "a": "9,070",
+      "b": "9,000",
+      "c": "9,061",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 3: LINEAR INEQUALITIES",
+    "chapter_number": "3",
+    "q_num": 17,
+    "question": "A dietitian wishes to mix together two kinds of food so that the vitamin content of the mixture is at least 9 units of vitamin A, 7 units of vitamin B, 10 units of vitamin C and 12 units of vitamin D. The vitamin content per Kg . of each food is shown below:",
+    "options": {
+      "a": "$2 x+y \tleq 9$ $x+y \tleq 7$ $x+2 y \tleq 10$ $2 x+3 y \tleq 12$ $\text{X}>0, \text{y}>0$",
+      "b": "$2 x+y \ngeq 30$ $x+y \tleq 7$ $x+2 y \ngeq 10$ $x+3 y \ngeq 12$",
+      "c": "$5 x+3 y \ngeq 30$ $x+y \ngeq 7$ $x+y \tleq 10$ $x+3 y \ngeq 12$",
+      "d": "$2 x+y \ngeq 9$ $x+y \ngeq 7$ $x+2 y \ngeq 10$ $2 \text{x}+3 \text{y} \ngeq 12$ $x \ngeq 0, y \ngeq 0$"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 18,
+    "question": "The sum of two numbers is 75 and their difference is 20 . Find the difference of their squares",
+    "options": {
+      "a": "1500",
+      "b": "1600",
+      "c": "1550",
+      "d": "None of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 19,
+    "question": "In how many ways 5 Sanskrit 3 English and 3 Hindi books be arranged keeping the books of the same language together?",
+    "options": {
+      "a": "$5!\\times 3!\\times 3!\\times 3!$",
+      "b": "$5!\\times 3!\\times 3!$",
+      "c": "${ }^{5} \\mathrm{P}_{3}$",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 20,
+    "question": "There are five different houses, $A$ to $E$, in a row. $A$ is to the right of $B$ and $E$ is to the left of $C$ and right of $A$, B is to the right of D. Which of the houses is in the middle? (SM, MTP Aug'18, Mar'18, Jun'18 Jun'24, MP [4])",
+    "options": {
+      "a": "A",
+      "b": "B",
+      "c": "C",
+      "d": "D"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 21,
+    "question": "Six persons $\\mathrm{M}, \\mathrm{N}, \\mathrm{O}, \\mathrm{P}, \\mathrm{Q}$ and R are sitting in two rows with three persons in each row. Both the row are in front of each other. Q is not at the end of any row. P is second the left of $\\mathrm{R} . \\mathrm{O}$ is the neighbour of Q and diagonally opposite to $\\mathrm{P} . \\mathrm{N}$ is the neighbour of R . Who is in fronts N ? (SM, MTP Jul'24, MP [2], [5])",
+    "options": {
+      "a": "R",
+      "b": "Q",
+      "c": "P",
+      "d": "M"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 22,
+    "question": "A is B's brother. C is A's mother. D is C's father. F is A's son. How is F related to D.",
+    "options": {
+      "a": "Son",
+      "b": "Grandson",
+      "c": "Great-grandson",
+      "d": "Grand-daughter"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 23,
+    "question": "Histogram is used for finding: (MTP Jun'22, Mar'22, July'24, Sep'24, MP [5])",
+    "options": {
+      "a": "Mode",
+      "b": "Mean",
+      "c": "First Quartile",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 24,
+    "question": "If high values of one tend to low values of the other, they are said to be (SM, MTP Dec'24, MP [7])",
+    "options": {
+      "a": "negatively correlated",
+      "b": "inversely correlated",
+      "c": "both",
+      "d": "none"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 25,
+    "question": "If the coefficient of correlation between two variables is -0.9 , then the coefficient of determination is (MTP, Mar'22, Oct'20, Aug'25[2]) (RTP Sep'24, Sep'25)",
+    "options": {
+      "a": "0.9",
+      "b": "0.81",
+      "c": "0.1",
+      "d": "0.91"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 9: NUMBER SERIES, CODING DECODING AND ODD MAN OUT SERIES",
+    "chapter_number": "9",
+    "q_num": 26,
+    "question": "6, 11, 21, ?, 56, 81",
+    "options": {
+      "a": "42",
+      "b": "36",
+      "c": "91",
+      "d": "51"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 27,
+    "question": "Simple \\& weighted average are equal only when all the weights are equal.",
+    "options": {
+      "a": "True",
+      "b": "false",
+      "c": "both",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 28,
+    "question": "An Ogive is a graphical representation of: (MTP Nov'22, MP [10])",
+    "options": {
+      "a": "Cumulative Frequency distribution",
+      "b": "Ungrouped Data",
+      "c": "A frequency distribution",
+      "d": "None of the above"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 29,
+    "question": "How long will it take for a principal to double if money is worth $\\mathbf{1 2} \\boldsymbol{\\%}$ compounded monthly?",
+    "options": {
+      "a": "4.25 years",
+      "b": "5.81 years",
+      "c": "6 years",
+      "d": "None of these"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 30,
+    "question": "The gradient of the curve $y=2 x^{3}-5 x^{2}-3 x$ at $x=0$ is",
+    "options": {
+      "a": "3",
+      "b": "-3",
+      "c": "$1 / 3$",
+      "d": "none of these"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 15: PROBABILITY",
+    "chapter_number": "15",
+    "q_num": 31,
+    "question": "If one of outcomes cannot be expected to occur in preference to the other in an experiment the events are",
+    "options": {
+      "a": "simple events",
+      "b": "compound events",
+      "c": "favorable events",
+      "d": "equally likely events"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 9: NUMBER SERIES, CODING DECODING AND ODD MAN OUT SERIES",
+    "chapter_number": "9",
+    "q_num": 32,
+    "question": "$6,11,21,36,56$ ?",
+    "options": {
+      "a": "42",
+      "b": "51",
+      "c": "81",
+      "d": "91"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 33,
+    "question": "In Binomial Distribution ' $n$ ' means",
+    "options": {
+      "a": "Number of trials of the experiment",
+      "b": "the probability of getting success",
+      "c": "Number of success",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 34,
+    "question": "Seven persons namely $\\mathrm{H}, \\mathrm{I}, \\mathrm{J}, \\mathrm{K}, \\mathrm{M}, \\mathrm{N}, \\mathrm{O}$ are sitting in a straight line facing North direction. Total three number of persons are sitting between H and N . Total two number of persons sit between H and $\\mathrm{O} . \\mathrm{M}$ is not an immediate neighbour of H or N . I sits third to the right of M . I and H both are not an immediate neighbour. $\\mathbf{M}$ is also not an immediate neighbour of J . Who is sitting between H and M ? (PYP May'25)",
+    "options": {
+      "a": "J",
+      "b": "O",
+      "c": "1",
+      "d": "K"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 35,
+    "question": "G.M of a set of $n$ observations is the $\\_\u007f\\_\u007f\\_\u007f\\_\u007f$ root of their product.",
+    "options": {
+      "a": "n/2 th",
+      "b": "(n+1)th",
+      "c": "Nth",
+      "d": "(n-1)th"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 36,
+    "question": "The difference between compound interest and simple interest on an amount of \u20b915,000 for $\\mathbf{2}$ years is \u20b996. What is the rate of interest per Annam?",
+    "options": {
+      "a": "$9 \\%$",
+      "b": "$8 \\%$",
+      "c": "$11 \\%$",
+      "d": "$10 \\%$"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 37,
+    "question": "Details are shown by $\\\\_\\\\\\\\_$",
+    "options": {
+      "a": "Charts",
+      "b": "Tabular presentation",
+      "c": "Both",
+      "d": "None"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 6: Sequence and Series - Arithmetic and Geometric",
+    "chapter_number": "6",
+    "q_num": 38,
+    "question": "If $a, b, c$ are in A.P. as well as in G.P. then -",
+    "options": {
+      "a": "They are also in H.P. (Harmonic Progression)",
+      "b": "Their reciprocals are in A.P.",
+      "c": "Both (a) and (b) are true",
+      "d": "Both (a) and (b) are false"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 39,
+    "question": "A dealer provides you Maruti Car \\& Van in 2 body patterns and 5 different colours. How many choices are open to you?",
+    "options": {
+      "a": "2",
+      "b": "7",
+      "c": "20",
+      "d": "10"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 3: LINEAR INEQUALITIES",
+    "chapter_number": "3",
+    "q_num": 40,
+    "question": "$$ L1: 5x + 3y = 30, \\quad L2: x + y = 9, \\quad L3: y = x/3, \\quad L4: y = x/2 $$ .The common region (shaded part) shown in the diagram refers to",
+    "options": {
+      "a": "$5 x+3 y \tleq 30$ $x+y \tleq 9$ $\text{y} \tleq 1 / 5 \text{x}$ $\text{y} \tleq \text{x} / 2$",
+      "b": "$5 x+3 y \ngeq 30$ $x+y \tleq 9$ $\text{y} \ngeq \text{x} / 3$ $\text{y} \tleq \text{x} / 2$ $x \ngeq 0 \text{y} \ngeq 0$",
+      "c": "$5 x+3 y \ngeq 30$ $\text{x}+\text{y} \ngeq 9$ $\text{y} \tleq \text{x} / 3$ $\text{y} \ngeq \text{x} / 2$ $x \ngeq 0, y \ngeq 0$",
+      "d": "$5 x+3 y>$ 30 None of these"
+    },
+    "answer": "b",
+    "question_image": "./QA images/1-8-question.jpeg"
+  },
+  {
+    "chapter_name": "Chapter 6: Sequence and Series - Arithmetic and Geometric",
+    "chapter_number": "6",
+    "q_num": 41,
+    "question": "If $a, b, c$ be respectively $p^{\text {th }}, q^{\text {th }}$ and $r^{\text {th }}$ terms of an A.P. the value of $a(q-r)+b(r-p)+c(p(p-q)$ is",
+    "options": {
+      "a": "0",
+      "b": "1",
+      "c": "-1",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 42,
+    "question": "A is B's brother. C is A's mother, D is C's father. E is B's son. How is D related to E ?",
+    "options": {
+      "a": "Grandson",
+      "b": "Great Grandson",
+      "c": "Great Grandfather",
+      "d": "Grandfather"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 43,
+    "question": "\u20b9 $1,25,000$ is borrowed at compound interest at the rate of $2 \\%$ for the 1 st year, $3 \\%$ for the second year and 4\\% for the 3rd year. Find the amount to be paid after 3 years.",
+    "options": {
+      "a": "\u20b9 $1,25,678$",
+      "b": "\u20b9 $1,36,587$",
+      "c": "\u20b9 $1,63,578$",
+      "d": "\u20b9 $1,36,578$"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 7: SETS, RELATIONS,AND FUNCTIONS BASICS OF LIMITS \\& CONTINUITY FUNCTIONS",
+    "chapter_number": "7",
+    "q_num": 44,
+    "question": "Rewrite the following sets in a set builder form: - $A=\\{a, e, i, 0, u\\} B=\\{1,2,3,4 \\ldots\\}$. $C is a set of integers$ between -15 and 15.",
+    "options": {
+      "a": "$\\mathrm{A}=\\{\\mathrm{x}: \\mathrm{x}$ is a consonant $\\}, \\mathrm{B}=\\{\\mathrm{x}: \\mathrm{x}$ is an irrational number $\\}, \\mathrm{C}=\\{\\mathrm{x}:-15<\\mathrm{x}<15 \\mathrm{x}$ is a fraction $\\}$",
+      "b": "$A=\\{x: x$ is a vowel $\\}, B=\\{x: x$ is a natural number $\\}, C=\\{x:-15<x<15 \\wedge \\mid x$ is a whole number $\\}$",
+      "c": "$\\mathrm{A}=\\{\\mathrm{x}: \\mathrm{x}$ is a vowel $\\}, \\mathrm{B}=\\{\\mathrm{x}: \\mathrm{x}$ is a natural number $\\}, \\mathrm{C}=\\mid\\{\\mathrm{x}:-15|<\\mathrm{x}|<15$ is a whole number $\\}$",
+      "d": "None"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 18: Index Numbers",
+    "chapter_number": "18",
+    "q_num": 45,
+    "question": "If $\\sum \\mathrm{P}_{\\mathrm{o}} \\mathrm{q}_{\\mathrm{o}}=3500, \\sum \\mathrm{P}_{\\mathrm{n}} \\mathrm{q}_{\\mathrm{o}}=3850$, then the Cost of living Index (C.L.I.) for 1950 w.r. to base 1960 is (SM) (Same concept different figures PYP Sep'25)",
+    "options": {
+      "a": "110",
+      "b": "90",
+      "c": "100",
+      "d": "None Of These"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 46,
+    "question": "In how many years a sum of money trebles at $\\mathbf{5} \\boldsymbol{\\%}$ p.a. compound interest payable on half- yearly basis?",
+    "options": {
+      "a": "18 years 7 months",
+      "b": "18 years 6 months",
+      "c": "18 years 8 months",
+      "d": "22 years 3 months"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 47,
+    "question": "The average of marks obtained by 120 students in a certain examination is 35 . If the average marks of passed students is 39 and that of the failed students is 15; what is the number of students who passed in the examination? (MTP May'24, MP [3])",
+    "options": {
+      "a": "100",
+      "b": "150",
+      "c": "200",
+      "d": "None of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 48,
+    "question": "Six persons $\\mathrm{A}, \\mathrm{B}, \\mathrm{C}, \\mathrm{D}, \\mathrm{E}$ and F are sitting in two rows three in each row. a. $E$ is not at the end of any row b. D is second to the left of F c. C , the neighbour of E , is sitting diagonally opposite to D d. $B$ is the neighbour of $F$. Which of the following are in one of the two rows?",
+    "options": {
+      "a": "D, B and F",
+      "b": "$\\mathrm{C}, \\mathrm{E}$ and B",
+      "c": "A, E and F",
+      "d": "F, B and C"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 49,
+    "question": "Theoretical distribution is a",
+    "options": {
+      "a": "Random distribution",
+      "b": "Standard distribution",
+      "c": "Probability distribution",
+      "d": "none"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 1: Ratio, Proportion, Indices and Logarithms",
+    "chapter_number": "1",
+    "q_num": 50,
+    "question": "Reena and Shaloo are partner in a business. Reena invests \u20b9 $\textbf{3 5 , 0 0 0}$ for 8 months and Shaloo invests \u20b9 $\textbf{4 2 , 0 0 0}$ for 10 months. Out of a profit of \u20b9 31,570 , Reena's share is:",
+    "options": {
+      "a": "\u20b9 9471",
+      "b": "\u20b9 12628",
+      "c": "\u20b918040",
+      "d": "\u20b9 18942"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 1: Ratio, Proportion, Indices and Logarithms",
+    "chapter_number": "1",
+    "q_num": 51,
+    "question": "A, B, C enter a partnership investing $\u20b9 35,000$, $\u20b9 45,000$ and $\u20b9 55,000$ respectively. The respective shares of A, B,C in an annual profit of \u20b9 40,500 are:",
+    "options": {
+      "a": "\u20b9 10,500 \u20b9 13,500 , \u20b9 16,500",
+      "b": "\u20b9 11,500 \u20b9 13,000 \u20b9 16,000",
+      "c": "\u20b9 11,500 \u20b9 14,000 \u20b9 15,500",
+      "d": "$\u20b9 11,500$ \u20b9 12,500 \u20b9 16,500"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 52,
+    "question": "There are 6 routes for journey from station A to station B. In how many ways you may go from A to B and return if for returning you make a choice of any of the routes?",
+    "options": {
+      "a": "6",
+      "b": "12",
+      "c": "36",
+      "d": "30"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 18: Index Numbers",
+    "chapter_number": "18",
+    "q_num": 53,
+    "question": "The number of tests of Adequacy in Index numbers: (MTP Apr'24, Mar'18, Jun'24, Jun'22, Nov'22, Oct'20, MP [1], [4], [10])",
+    "options": {
+      "a": "2",
+      "b": "3",
+      "c": "4",
+      "d": "5"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 54,
+    "question": "For a $(m \\times n)$ classification of bivariate data, the maximum number of conditional distributions is (MTP May'24, RTP Jan'26, MP [3])",
+    "options": {
+      "a": "q",
+      "b": "$p+q$",
+      "c": "pq",
+      "d": "$p$"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 9: NUMBER SERIES, CODING DECODING AND ODD MAN OUT SERIES",
+    "chapter_number": "9",
+    "q_num": 55,
+    "question": "$2,15,41,80,132$ ?",
+    "options": {
+      "a": "184",
+      "b": "144",
+      "c": "186",
+      "d": "197"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 56,
+    "question": "The graphical representation of a cumulative frequency distribution is called $\\\\_\\\\_\\$ (SM) (MTP Dec'24, Mar'21, MP [7], MTP Aug 24, MP [6])",
+    "options": {
+      "a": "Histogram",
+      "b": "Ogive",
+      "c": "Both",
+      "d": "None"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 57,
+    "question": "Alibaba borrows \u20b9 6 lakhs Housing Loan at $6 \\%$ repayable in 20 annual installments commencing at the end of the first year. How much annual payment is necessary.",
+    "options": {
+      "a": "\u20b9 52,420",
+      "b": "\u20b9 52,419",
+      "c": "\u20b9 52,310",
+      "d": "\u20b9 52,320"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 58,
+    "question": "If $\\mathrm{xy}=1$ then $\\mathrm{y}^{2}+\\mathrm{dy} / \\mathrm{dx}$ is equal to (SM, MTP Mar'22, Aug'25[2])",
+    "options": {
+      "a": "1",
+      "b": "0",
+      "c": "-1",
+      "d": "None of these"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 59,
+    "question": "Age of Applicants for life insurance and the premium of insurance - correlation is",
+    "options": {
+      "a": "positive",
+      "b": "negative",
+      "c": "zero",
+      "d": "none"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 10: Direction Sense Test",
+    "chapter_number": "10",
+    "q_num": 60,
+    "question": "From her home Prerna wishes to go to school. From home she goes towards North and then turns left and then turns right, and finally she turns left and reaches school. In which direction her school is situated with respect to her home? (SM, MTP Nov'22, Apr'19,Aug'25[1], SM, MP [2])",
+    "options": {
+      "a": "South-East",
+      "b": "North-East",
+      "c": "South-West",
+      "d": "North-West"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 15: PROBABILITY",
+    "chapter_number": "15",
+    "q_num": 61,
+    "question": "All possible outcomes of a random experiment forms the",
+    "options": {
+      "a": "events",
+      "b": "sample space",
+      "c": "both",
+      "d": "none"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 62,
+    "question": "If there are two groups containing 30 and 20 observations and having 50 and 60 as arithmetic means, then the combined arithmetic mean is (SM, RTP Sep'25)",
+    "options": {
+      "a": "55",
+      "b": "56",
+      "c": "54",
+      "d": "52"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 1: Ratio, Proportion, Indices and Logarithms",
+    "chapter_number": "1",
+    "q_num": 63,
+    "question": "Kanchan started a business investing \u20b9 9000 . After five months, Sameer joined with a capital of \u20b9 8000 . If at the end of the year, they earn a profit of \u20b9 6970 , then what will be the share of Sameer in the profit?",
+    "options": {
+      "a": "\u20b9 1883.78",
+      "b": "\u20b9 2380",
+      "c": "\u20b9 3690",
+      "d": "\u20b9 3864"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 64,
+    "question": "Find the variance of binomial distribution with $\\mathrm{n}=10, \\mathrm{p}=0.3$ (MTP May'24, MP [3])",
+    "options": {
+      "a": "2.1",
+      "b": "3",
+      "c": "7",
+      "d": "None of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 9: NUMBER SERIES, CODING DECODING AND ODD MAN OUT SERIES",
+    "chapter_number": "9",
+    "q_num": 65,
+    "question": "11, 13, 17, 19, 23, 25, 29 ? (MTP Apr'21, Oct'20, Apr'24, SM)",
+    "options": {
+      "a": "33",
+      "b": "27",
+      "c": "31",
+      "d": "49"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 66,
+    "question": "As per question No.(1) if you decided to take the same route you may do it in $\\\\_\\_\\_\\_\\$ number of ways.",
+    "options": {
+      "a": "6",
+      "b": "12",
+      "c": "36",
+      "d": "30"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 67,
+    "question": "For a given set of positive observations H.M is less than G.M",
+    "options": {
+      "a": "true",
+      "b": "false",
+      "c": "both",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 68,
+    "question": "The mean salary for a group of 40 female workers is 5200 per month and that for a group of 60 male workers is \u20b9 6800 per month. What is the combined salary? (MTP Apr'24, Apr'21, May'25, MP [1])",
+    "options": {
+      "a": "\u20b9 6160",
+      "b": "\u20b9 6280",
+      "c": "\u20b9 6890",
+      "d": "\u20b9 6920"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 69,
+    "question": "When the data are classified in respect of successive time points, they are known as $\\_\\_\\_\\_$ . (MTP May'25)",
+    "options": {
+      "a": "Chronological data",
+      "b": "Geographical data",
+      "c": "Ordinal data",
+      "d": "Cordinal data"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 9: NUMBER SERIES, CODING DECODING AND ODD MAN OUT SERIES",
+    "chapter_number": "9",
+    "q_num": 70,
+    "question": "6, 17, 39, ?, 116",
+    "options": {
+      "a": "72",
+      "b": "75",
+      "c": "85",
+      "d": "80"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 71,
+    "question": "When high values of one variable are associated with high values of the other \\& low values of one variable are associated with low values of another, then they are said to be (SM, PYP Sep'25)",
+    "options": {
+      "a": "positively correlated",
+      "b": "directly correlated",
+      "c": "both",
+      "d": "none"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 72,
+    "question": "A reads a book and find the name of the author familiar. The author ' $B$ ' is the paternal uncle of $C$. $C$ is the daughter of A. How is B related to A? (MTP Apr'19, SM)",
+    "options": {
+      "a": "Brother",
+      "b": "Sister",
+      "c": "Father",
+      "d": "Uncle"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 73,
+    "question": "A sum of money doubles itself at compound interest in 10 years. In how many years will it become eight times?",
+    "options": {
+      "a": "10",
+      "b": "30",
+      "c": "40",
+      "d": "35"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 74,
+    "question": "As per question No.(1) if you decided not to take the same route you may do it in $\\\\_\\_\\_\\_\\$ number of ways.",
+    "options": {
+      "a": "6",
+      "b": "12",
+      "c": "36",
+      "d": "30"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 75,
+    "question": "A machine worth $\u20b9 4,90,740$ is depreciated at $15 \\%$ on its opening value each year. When its value would reduce to \u20b9 2,00,000?",
+    "options": {
+      "a": "4 years 6 months",
+      "b": "4 years 7 months",
+      "c": "4 years 5 months",
+      "d": "5 years 7 months approximately"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 18: Index Numbers",
+    "chapter_number": "18",
+    "q_num": 76,
+    "question": "From the data given below\n\n\\begin{tabular}{|c|c|c|}\n\\hline Commodity & Price Relative & Weight \\\\\n\\hline A & 125 & 5 \\\\\n\\hline B & 67 & 2 \\\\\n\\hline C & 250 & 3 \\\\\n\\hline\n\\end{tabular}\n\nThen the suitable index number is",
+    "options": {
+      "a": "150.9",
+      "b": "155.8",
+      "c": "145.8",
+      "d": "None of these."
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 15: PROBABILITY",
+    "chapter_number": "15",
+    "q_num": 77,
+    "question": "A card is drawn from a well-shuffled pack of playing cards. The probability that it is a spade is",
+    "options": {
+      "a": "$\\frac{1}{13}$",
+      "b": "$\\frac{1}{4}$",
+      "c": "$\\frac{3}{13}$",
+      "d": "none"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 78,
+    "question": "A, B, C, D, E and F are sitting around a round table. A is between E and F, E is opposite to D, and C is not in either of the neighbouring seats of E . Who is opposite to B ? (MTP Dec'23, Mar '24, Dec'24, MP [1],[7])",
+    "options": {
+      "a": "C",
+      "b": "D",
+      "c": "F",
+      "d": "None of these"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 17: CORRELATION AND REGRESSION",
+    "chapter_number": "17",
+    "q_num": 79,
+    "question": "A coefficient near +1 indicates tendency for the larger values of one variable to be associated with the larger values of the other.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Both",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 9: NUMBER SERIES, CODING DECODING AND ODD MAN OUT SERIES",
+    "chapter_number": "9",
+    "q_num": 80,
+    "question": "120, 99, ?, 63, 48, 35",
+    "options": {
+      "a": "80",
+      "b": "36",
+      "c": "45",
+      "d": "40"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 15: PROBABILITY",
+    "chapter_number": "15",
+    "q_num": 81,
+    "question": "If two events cannot occur simultaneously in the same trial then they are (SM, MTP May'24, Nov'22, MP [1],[3],[10])",
+    "options": {
+      "a": "mutually exclusive events",
+      "b": "simple events",
+      "c": "favorable events",
+      "d": "none"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 82,
+    "question": "When a coin is tossed 10 times then we use",
+    "options": {
+      "a": "Normal Distribution",
+      "b": "Poisson Distribution",
+      "c": "Binomial Distribution",
+      "d": "None"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 16: THEORETICAL DISTRIBUTIONS",
+    "chapter_number": "16",
+    "q_num": 83,
+    "question": "Variance of Binomial distribution is",
+    "options": {
+      "a": "$n p q$",
+      "b": "$n p$",
+      "c": "Both",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 84,
+    "question": "If P is the husband of Q and R is the mother of S and Q . What is R to P ? (SM, MTP Nov'22, Aug'18, MP [10])",
+    "options": {
+      "a": "Mother",
+      "b": "Sister",
+      "c": "Aunt",
+      "d": "Mother-in-law"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 12: BLOOD RELATIONS",
+    "chapter_number": "12",
+    "q_num": 85,
+    "question": "A is B's brother. C is A's mother. D is C's father. E is B's son. How is E related to A?",
+    "options": {
+      "a": "Cousin",
+      "b": "Nephew",
+      "c": "Uncle",
+      "d": "Grandson"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 86,
+    "question": "If the A.M. and G.M. for two numbers are 6.50 and 6 respectively then the two numbers are (SM, MTP May'25, PYP May'25)",
+    "options": {
+      "a": "6 and 7",
+      "b": "9 and 4",
+      "c": "10 and 3",
+      "d": "8 and 5"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 87,
+    "question": "The value of $y$ of fraction $\\frac{x}{y}$ exceed with $x$ by 5 and if 3 be added to both the fraction become $\\frac{3}{4}$. Find the fraction,",
+    "options": {
+      "a": "$\\frac{12}{17}$",
+      "b": "$\\frac{13}{17}$",
+      "c": "$-\\frac{1}{3}$",
+      "d": "None of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 88,
+    "question": "A man wants to cut three lengths from a single piece of board of length 91 cm . The Second length is to be 3 cm longer than the shortest and third length is to be twice as the shortest. What is the possible length for the shortest piece?",
+    "options": {
+      "a": "22",
+      "b": "20",
+      "c": "15",
+      "d": "18"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 89,
+    "question": "Six persons $\text{A}, \text{B}, \text{C}, \text{D}, \text{E}$ and F are sitting in a circle facing the centre. A is facing D . C is left of A and right of $E$. $D$ is between $B$ and $E$. $F$ is right of $A$. Which one of the following statements is incorrect? (PYP Sep'25)",
+    "options": {
+      "a": "F and C are neighbors.",
+      "b": "F is between A and B.",
+      "c": "F and A are neighbors.",
+      "d": "$B$ is left of $D$."
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 90,
+    "question": "In tabular presentation of data, stub is (MTP April'25, MTP Mar'18, Jun'24, MP [4], MTP Apr'23, Aug'24, MP [6])",
+    "options": {
+      "a": "Left part of table which provides the description of rows",
+      "b": "Right part of the table providing the description of the row",
+      "c": "Left part of the table providing the description of columns",
+      "d": "Right part of the table provides a description of columns"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 1: Ratio, Proportion, Indices and Logarithms",
+    "chapter_number": "1",
+    "q_num": 91,
+    "question": "Simran Started a software business by investing \u20b950,000. After six months, Nanda joined her with capital of \u20b9 80,000 . After three years, they earned a profit of \u20b9 24,500 . What was Simran's share in the profit?",
+    "options": {
+      "a": "\u20b99423",
+      "b": "$\u20b9 10500$",
+      "c": "\u20b912,500",
+      "d": "\u20b914,000"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 92,
+    "question": "A number consists of two digits. The digits in tens place is 3 times the digit in the unit's place. If 54 is subtracted from the digits are reversed. The number is",
+    "options": {
+      "a": "39",
+      "b": "92",
+      "c": "93",
+      "d": "94"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 10: Direction Sense Test",
+    "chapter_number": "10",
+    "q_num": 93,
+    "question": "A man starts from a point, walks 4 miles towards north and turns left and walks 6 miles, turns right and walks for 3 miles and again turns right and walks 4 miles and takes rest for 30 minutes. He gets up and walks straight 2 miles in the same direction and turns right and walks one mile. What is the direction he is facing?",
+    "options": {
+      "a": "North",
+      "b": "South",
+      "c": "South-East",
+      "d": "West"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 3: LINEAR INEQUALITIES",
+    "chapter_number": "3",
+    "q_num": 94,
+    "question": "The union however forbids him to employ less than 2 experienced person to each fresh person. This situation can be expressed as",
+    "options": {
+      "a": "$x \tleq y / 2$",
+      "b": "$y \tleq x / 2$",
+      "c": "$y \ngeq x / 2$",
+      "d": "$x>2 y$"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 10: Direction Sense Test",
+    "chapter_number": "10",
+    "q_num": 95,
+    "question": "A driver left his village and drove North for 20 kms , after which he stopped for breakfast. Then he turned left and drove another 30 kms, when he stopped for lunch. After some rest, he again turned left and drove 20 kms before stopping for evening tea. Once more he turned left and drove 30 kms to reach the town where he had supper. After evening tea in which direction did he drive? (SM, MTP Mar'19)",
+    "options": {
+      "a": "West",
+      "b": "East",
+      "c": "North",
+      "d": "South"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 14.1: Measures of Central Tendency",
+    "chapter_number": "14.1",
+    "q_num": 96,
+    "question": "In a group of persons, average weight is 60 kg . If the average of males and females taken separately is 80 kg and 50 kg respectively, find the ratio of the number of males to that of females. (MTP Nov'22,Aug'25[1], MP [2])",
+    "options": {
+      "a": "$2: 3$",
+      "b": "$3: 2$",
+      "c": "$2: 1$",
+      "d": "$1: 2$"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 10: Direction Sense Test",
+    "chapter_number": "10",
+    "q_num": 97,
+    "question": "Mohan Starts from Point A and walks 1 km towards south, turns left and walks 1 km . Then he turns left again and walks 1 km . Now he is facing. (SM, MTP Aug'18,Mar'18, Jun'24, MP [4])",
+    "options": {
+      "a": "East",
+      "b": "West",
+      "c": "North",
+      "d": "South-West"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 7: SETS, RELATIONS,AND FUNCTIONS BASICS OF LIMITS \\& CONTINUITY FUNCTIONS",
+    "chapter_number": "7",
+    "q_num": 98,
+    "question": "$\\mathrm{fV}=\\{0,1,2, \\ldots 9\\}, \\mathrm{X}=\\{0,2,4,6,8\\}, \\mathrm{Y}=\\{3,5,7\\}$ and $\\mathrm{Z}=\\{37\\}$ then $y \\cup \\mathrm{Z},(\\mathrm{V} \\cup \\mathrm{Y}) \\cap \\mathrm{X},(\\mathrm{X} \\cup \\mathrm{Z}) \\cup \\mathrm{V}$ are respectively:",
+    "options": {
+      "a": "$\\quad\\{3,5,7\\},\\{0,2,4,6,8\\},\\{0,1,2, \\ldots 9\\}$",
+      "b": "$\\{2,4,6\\},\\{0,2,4,6,8\\},\\{0,1,2, \\ldots 9\\}$",
+      "c": "$\\quad\\{2,4,6\\},\\{0,1,2, \\ldots 9\\},\\{0,2,4,6,8\\}$",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 18: Index Numbers",
+    "chapter_number": "18",
+    "q_num": 99,
+    "question": "If now the prices of all the commodities in a place have been decreased by $35 \\%$ over the base period prices, then the index number of prices for the place is now (index number of prices of base period = 100)",
+    "options": {
+      "a": "100",
+      "b": "135",
+      "c": "65",
+      "d": "None of These"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 100,
+    "question": "The present value of \u20b9 10,000 due in 2 years at $5 \\%$ p.a. compound interest when the interest is paid on halfyearly basis is \u20b9 $\\_\\_\\_$ .",
+    "options": {
+      "a": "9,070",
+      "b": "9,069",
+      "c": "9,061",
+      "d": "9,071"
+    },
+    "answer": "c"
+  }
+]

@@ -1,0 +1,392 @@
+[
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 1,
+    "question": "A representative value of the class interval for the calculation of mean, standard deviation, mean deviation etc. is",
+    "options": {
+      "a": "class interval",
+      "b": "class limit",
+      "c": "class mark",
+      "d": "none"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 2,
+    "question": "Classes with zero frequencies are called",
+    "options": {
+      "a": "nil class",
+      "b": "empty class",
+      "c": "class",
+      "d": "none"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 3,
+    "question": "A student marks in five subjects $\text{S}_1, \text{~S}_2, \text{~S}_3, \text{~S}_4$ and S 5 are $86,79,90,88$ and 89 . If we need to draw a pie chart to represent these marks, what will be central angle for S3. (MTP Nov'23)",
+    "options": {
+      "a": "$103.2^{\\circ}$",
+      "b": "$75^{\\circ}$",
+      "c": "$105.6^{\\circ}$",
+      "d": "$94.8^{\\circ}$"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 4,
+    "question": "The following set of data cannot be presented in a table (MTP July 24, MP [5])",
+    "options": {
+      "a": "The heights of students described in centimeters",
+      "b": "The weights of candidates expressed in kilograms",
+      "c": "The amount of rainfall opined as \"medium\", \"average\", \"heavy\", etc.",
+      "d": "The number of bills per day cleared by an auditor in a month"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 5,
+    "question": "The distribution of profits of a company follows: (MTP Nov'22,Aug'25[1], MP [2])",
+    "options": {
+      "a": "J-shaped frequency curve",
+      "b": "U-shaped frequency curve",
+      "c": "Bell-shaped frequency curve",
+      "d": "Any of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 6,
+    "question": "When all classes have equal width, the heights of the rectangles in Histogram will be numerically equal to the",
+    "options": {
+      "a": "class frequencies",
+      "b": "class boundaries",
+      "c": "both",
+      "d": "none of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 7,
+    "question": "The most common form of diagrammatic representation of a grouped frequency distribution is",
+    "options": {
+      "a": "Ogive",
+      "b": "Histogram",
+      "c": "Frequency Polygon",
+      "d": "None"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 8,
+    "question": "(Class frequency)/ (Width of the class) is defined as $\\_\u007f\\_\u007f\\_\u007f$",
+    "options": {
+      "a": "Frequency density",
+      "b": "Frequency distribution",
+      "c": "Both",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 9,
+    "question": "Ogive for more than type and less than type distributions intersect at (MTP Apr'23,May'23, Jun'22)",
+    "options": {
+      "a": "Means",
+      "b": "Median",
+      "c": "Mode",
+      "d": "Origin"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 10,
+    "question": "An approximate idea of the shape of frequency curve is given by $\\_\u007f\\_\u007f\\_\u007f\\_$",
+    "options": {
+      "a": "Ogive",
+      "b": "Frequency Polygon",
+      "c": "Both",
+      "d": "None"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 11,
+    "question": "An investigator collects information on salaries received by 1000 persons. From this collection, the data on women are extracted. Now the data is called $\\\\_\\\\\\\\_$ data. (PYP Sep'25)",
+    "options": {
+      "a": "Primary",
+      "b": "Secondary",
+      "c": "Census",
+      "d": "Ordinal"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 12,
+    "question": "Tally marks determine $\\_\u007f\\_\u007f\\_\u007f$",
+    "options": {
+      "a": "class width",
+      "b": "class boundary",
+      "c": "class limit",
+      "d": "class frequency"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 13,
+    "question": "To find the number of observations less than any given value",
+    "options": {
+      "a": "Single frequency distribution",
+      "b": "Grouped frequency distribution",
+      "c": "Cumulative frequency distribution",
+      "d": "None is used."
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 14,
+    "question": "Cumulative Frequency Distribution is a $\\_\u007f\\_\u007f\\_\u007f$",
+    "options": {
+      "a": "Graph",
+      "b": "Frequency",
+      "c": "Statistical Table",
+      "d": "distribution"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 15,
+    "question": "A frequency curve which starts with a minimum frequency and then gradually reaches its maximum frequency at the other extremity is known as (PYP May'25)",
+    "options": {
+      "a": "Bell shaped curve",
+      "b": "Mixed curve",
+      "c": "U-shaped curve",
+      "d": "J-shaped curve"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 16,
+    "question": "Graph is a $\\_\u007f\\_\u007f\\_\u007f\\_$",
+    "options": {
+      "a": "Line diagram",
+      "b": "Bar diagram",
+      "c": "Pie diagram",
+      "d": "Pictogram"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 17,
+    "question": "In Histogram, if the classes are of unequal width, then the heights of the rectangles must be proportional to the frequency densities.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Both",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 18,
+    "question": "The distribution of commuters coming to a Metro station from early morning hours to peak morning hours follows which type of frequency curve? (MP [9])",
+    "options": {
+      "a": "Bell shaped curve",
+      "b": "J-shaped curve",
+      "c": "U-shaped curve",
+      "d": "Mixed curve"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 19,
+    "question": "Ogive is a $\\_\u007f\\_\u007f\\_\u007f\\_$",
+    "options": {
+      "a": "Line diagram",
+      "b": "Bar diagram",
+      "c": "Both",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 20,
+    "question": "To find the mode graphically",
+    "options": {
+      "a": "Ogive",
+      "b": "Frequency Polygon",
+      "c": "Histogram",
+      "d": "None may be used"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 21,
+    "question": "The number of types of cumulative frequency is",
+    "options": {
+      "a": "one",
+      "b": "two",
+      "c": "three",
+      "d": "four"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 22,
+    "question": "In a graphical representation of data, the largest numerical value is 25 the smallest numerical value is 4 . If classes desired are 4 then which class interval is (MTP Nov'23, Jul'24, MP [5])",
+    "options": {
+      "a": "45",
+      "b": "5",
+      "c": "20",
+      "d": "7.5"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 23,
+    "question": "Cost of sugar in a month under the heads raw Materials, labour, direct production and others were 12,20, 35 and 23 units respectively. What is the difference between the central angles for the largest and smallest components of the cost of sugar? (MTP Nov'22, Mar'22,Aug'25[1], RTP Sep'24)",
+    "options": {
+      "a": "$72^{\\circ}$",
+      "b": "$48^{\\circ}$",
+      "c": "$56^{\\circ}$",
+      "d": "$92^{\\circ}$"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 24,
+    "question": "Vertical bar chart may appear somewhat alike",
+    "options": {
+      "a": "Histogram",
+      "b": "Frequency Polygon",
+      "c": "Both",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 25,
+    "question": "$\\_\u007f\\_\u007f\\_\u007f\\_$ Series is continuous. (MTP Nov'22, MP [10])",
+    "options": {
+      "a": "Open ended",
+      "b": "Exclusive",
+      "c": "Close ended",
+      "d": "Unequal Class Intervals"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 26,
+    "question": "The relationship between two variables are shown in $\\_\u007f\\_\u007f\\_\u007f\\_$",
+    "options": {
+      "a": "Pictogram",
+      "b": "Histogram",
+      "c": "Bar diagram",
+      "d": "Line diagram"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 27,
+    "question": "An Ogive can be prepared in $\\\\_\\\\_\\$ different ways. (SM, MTP May'24, RTP, Jan'26 MP [3])",
+    "options": {
+      "a": "2",
+      "b": "3",
+      "c": "4",
+      "d": "none of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 28,
+    "question": "When all classes have a common width",
+    "options": {
+      "a": "Pie Chart",
+      "b": "Frequency Polygon",
+      "c": "Both",
+      "d": "None is used."
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 29,
+    "question": "The number of observations falling within a class is called",
+    "options": {
+      "a": "Density",
+      "b": "frequency",
+      "c": "both",
+      "d": "none"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 13.1: STATISTICAL DESCRIPTION OF DATA",
+    "chapter_number": "13.1",
+    "q_num": 30,
+    "question": "100 students are classified into male/female and graduate/non-graduate classes. This data classification is (MTP Dec'23)",
+    "options": {
+      "a": "Cardinal data",
+      "b": "Ordinal data",
+      "c": "Spatial Series data",
+      "d": "Temporal data"
+    },
+    "answer": "b"
+  }
+]

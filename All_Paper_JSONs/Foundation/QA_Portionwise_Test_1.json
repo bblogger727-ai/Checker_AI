@@ -1,0 +1,653 @@
+[
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 1,
+    "question": "Find future value of annuity of \u20b91000 made annually for seven years at interest rate $16 \\%$ compounded annually. [Given that $(1.16)^{7}=2.8262$ ]",
+    "options": {
+      "a": "\u20b911413.75",
+      "b": "\u20b911000.35",
+      "c": "$\u20b9 8756$",
+      "d": "\u20b99892.34"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 2,
+    "question": "Mr. A invested \u20b9 $x$ in an organization, it amounts to \u20b9 $\u20b9 150$ at $\\mathbf{5 \\%}$ p.a. S.I. and to \u20b9 $\u20b9 \\mathbf{1 0 0}$ at $\\mathbf{3 \\%}$ p.a. S.I. Then the value of x is",
+    "options": {
+      "a": "\u20b970",
+      "b": "\u20b9 40",
+      "c": "$\u20b9 25$",
+      "d": "None of these"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 3,
+    "question": "How many 4 digits numbers greater than 7000 can be formed out of the digits $3,5,7,8,9$ ?",
+    "options": {
+      "a": "24",
+      "b": "48",
+      "c": "72",
+      "d": "50"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 3: LINEAR INEQUALITIES",
+    "chapter_number": "3",
+    "q_num": 4,
+    "question": "A small manufacturing firm produces two types of gadgets A and B, which are first processed in the foundry then sent to the machine shop for finishing. The number of man-hours of labour required in each shop for the production of each unit of A and B, and the number of man-hours the firm has available per week are as follows: \\begin{tabular}{|l|c|c|} \\hline Gadget & Foundry & Machine-shop \\\\ \\hline A & 10 & 5 \\\\ B & 6 & 4 \\\\ Firm's capacity per week & 1000 & 600 \\\\ \\hline \\end{tabular} Let the firm manufactures x units of A and y units of B . The constraints are:",
+    "options": {
+      "a": "$10 x+6 y \\leq 1000,5 x+4 y \\geq 600, x \\geq 0, y \\leq 0$",
+      "b": "$10 x+6 y \\leq 1000,5 x+4 y \\leq 600, x \\geq 0, y \\geq 0$",
+      "c": "$10 x+6 y \\geq 1000,5 x+4 y \\leq 600, x \\leq 0, y \\leq 0$",
+      "d": "$10 x+6 y \\leq 1000,5 x+4 y \\geq 600, x \\leq 0, y \\leq 0$"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 5,
+    "question": "If \u20b9 58 is divided among 150 children such that each girl and each boy gets 25 p and 50 p respectively. Then how many girls are there?",
+    "options": {
+      "a": "52",
+      "b": "54",
+      "c": "68",
+      "d": "62"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 9: NUMBER SERIES, CODING DECODING AND ODD MAN OUT SERIES",
+    "chapter_number": "9",
+    "q_num": 6,
+    "question": "4, 9, 25, 49, ?, 169, 289, 361",
+    "options": {
+      "a": "120",
+      "b": "121",
+      "c": "122",
+      "d": "164"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 7,
+    "question": "What is the present value of (\u20b9) 80,000 to be required after 10 years if the interest rate be $6 \\%$ ? (Given that $\\boldsymbol{(} \\mathbf{1 . 0 6})^{\\mathbf{1 0}} \\boldsymbol{=} \\mathbf{1 . 7 9 0 8}$ )",
+    "options": {
+      "a": "(\u20b9) $6,4998.7$",
+      "b": "(\u20b9) $4,4672.8$",
+      "c": "(\u20b9) $5,8673.2$",
+      "d": "(\u20b9) $1,7908.6$"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 8,
+    "question": "If $\\log (x / y)=x+y, \\frac{d y}{d x}$ may be found to be",
+    "options": {
+      "a": "$\\frac{y(1-x)}{x(1+y)}$",
+      "b": "$\\frac{y}{x}$",
+      "c": "$\\frac{1-x}{1+y}$",
+      "d": "None of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 9,
+    "question": "Find the present value of an annuity of \u20b9 1,000 payable at the end of each year for 10 years. If rate of interest is $6 \\%$ compounding per annum. (given $(1.06)^{-10}=0.5584$ ):",
+    "options": {
+      "a": "\u20b9 7,360",
+      "b": "\u20b98,360",
+      "c": "\u20b9 12,000",
+      "d": "None of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 10,
+    "question": "Arslan invested \u20b9 10,000 at $8 \\%$ per annum compound quarterly, then the value of the investment after 2 years is [given $(1.02)^{8}=1.171659$ ]",
+    "options": {
+      "a": "$\u20b9 11,716.59$",
+      "b": "$\u20b9 10,716.59$",
+      "c": "$\u20b9 117.1659$",
+      "d": "None of the above"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 11,
+    "question": "3 persons go into a railway carriage having 8 seats. In how many ways they may occupy the seats?",
+    "options": {
+      "a": "${ }^{8} \\mathrm{P}_{3}$",
+      "b": "${ }^{8} \\mathrm{C}_{3}$",
+      "c": "${ }^{8} \\mathrm{C}_{5}$",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 9: NUMBER SERIES, CODING DECODING AND ODD MAN OUT SERIES",
+    "chapter_number": "9",
+    "q_num": 12,
+    "question": "$10,100,200,310$ ?",
+    "options": {
+      "a": "400",
+      "b": "410",
+      "c": "420",
+      "d": "430"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 7: SETS, RELATIONS,AND FUNCTIONS BASICS OF LIMITS \\& CONTINUITY FUNCTIONS",
+    "chapter_number": "7",
+    "q_num": 13,
+    "question": "Let Z be the universal set for two sets - A and B . If $\\mathrm{n}(\\mathrm{A})=300, \\mathrm{n}(\\mathrm{B})=400$ and $\\mathrm{n}(\\mathrm{A} \\cap \\mathrm{B})=200$, then $\\mathrm{n}\\left(\\mathrm{A}^{\\prime} \\cap\\right. \\mathrm{B}^{\\prime}$ ) is equal to 400 provided $\\mathrm{n}(\\mathrm{Z})$ is equal to (MTP Nov'21, RTP Jan'25)",
+    "options": {
+      "a": "900",
+      "b": "800",
+      "c": "700",
+      "d": "600"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 14,
+    "question": "Mr. X makes a deposit of \u20b9 12,000 in a bank where the amount doubles at compound interest in 5 years, then what will be the total amount he will have after twenty years?",
+    "options": {
+      "a": "\u20b996,000",
+      "b": "\u20b9 $1,20,000$",
+      "c": "\u20b9 $1,24,000$",
+      "d": "\u20b9 $1,92,000$"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 15,
+    "question": "If $\\mathrm{xy}=1$ then $\\mathrm{y}^{2}+\\mathrm{dy} / \\mathrm{dx}$ is equal to (SM, MTP Mar'22, Aug'25[2])",
+    "options": {
+      "a": "1",
+      "b": "0",
+      "c": "-1",
+      "d": "None of these"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 16,
+    "question": "The cost prices of 3 pens and 4 bags are \u20b9324. and 4 pens and 3 bags is \u20b9257, then cost price of 1 pen is equal to",
+    "options": {
+      "a": "\u20b96",
+      "b": "\u20b98",
+      "c": "$\u20b9 50$",
+      "d": "$\u20b9 75$"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 6: Sequence and Series - Arithmetic and Geometric",
+    "chapter_number": "6",
+    "q_num": 17,
+    "question": "The three numbers in A.P. whose sum is 18 and product is 192 are $\\_\\_\\_\\_$.",
+    "options": {
+      "a": "$4,6,8$",
+      "b": "$-4,-6,-8$",
+      "c": "$8,6,4$",
+      "d": "Both (a) \\& (c)"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 6: Sequence and Series - Arithmetic and Geometric",
+    "chapter_number": "6",
+    "q_num": 18,
+    "question": "The sum of all natural numbers from 100 to 300 excluding those, which are divisible by 4 , is $\\_\\_\\_$ .",
+    "options": {
+      "a": "10,200",
+      "b": "30,000",
+      "c": "8,200",
+      "d": "2,200"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 3: LINEAR INEQUALITIES",
+    "chapter_number": "3",
+    "q_num": 19,
+    "question": "$$ L1: 5x + 3y = 30, \\quad L2: x + y = 9, \\quad L3: y = x/3, \\quad L4: y = x/2 $$ .The common region (shaded part) shown in the diagram refers to",
+    "options": {
+      "a": "$5 x+3 y \tleq 30$ $x+y \tleq 9$ $\text{y} \tleq 1 / 5 \text{x}$ $\text{y} \tleq \text{x} / 2$",
+      "b": "$5 x+3 y \ngeq 30$ $x+y \tleq 9$ $\text{y} \ngeq \text{x} / 3$ $\text{y} \tleq \text{x} / 2$ $x \ngeq 0 \text{y} \ngeq 0$",
+      "c": "$5 x+3 y \ngeq 30$ $\text{x}+\text{y} \ngeq 9$ $\text{y} \tleq \text{x} / 3$ $\text{y} \ngeq \text{x} / 2$ $x \ngeq 0, y \ngeq 0$",
+      "d": "$5 x+3 y>$ 30 None of these"
+    },
+    "answer": "b",
+    "question_image": "./QA images/1-8-question.jpeg"
+  },
+  {
+    "chapter_name": "Chapter 7: SETS, RELATIONS,AND FUNCTIONS BASICS OF LIMITS \\& CONTINUITY FUNCTIONS",
+    "chapter_number": "7",
+    "q_num": 20,
+    "question": "Which of the following relations is transitive but not reflexive for the set $\\mathrm{S}=\\{3,4,6\\}$ ? (PYP May'25)",
+    "options": {
+      "a": "$\\quad R=\\{(3,4),(4,6),(3,6)\\}$",
+      "b": "$\\mathrm{R}=\\{(1,2),(1,3),(1,4)\\}$",
+      "c": "$\\quad R=\\{(3,3),(4,4),(6,6)\\}$",
+      "d": "$R=\\{(3,4),(4,3)\\}$"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 9: NUMBER SERIES, CODING DECODING AND ODD MAN OUT SERIES",
+    "chapter_number": "9",
+    "q_num": 21,
+    "question": "$4832,5840,6848,7856$ ?",
+    "options": {
+      "a": "8864",
+      "b": "8815",
+      "c": "8846",
+      "d": "8887"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 22,
+    "question": "In how many ways can $\\mathbf{9}$ letters be posted in $\\mathbf{4}$ letter boxes?",
+    "options": {
+      "a": "$4^{9}$",
+      "b": "$4^{5}$",
+      "c": "${ }^{9} \\mathrm{P}_{4}$",
+      "d": "${ }^{9} \\mathrm{C}_{4}$"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 23,
+    "question": "A company establishes a sinking fund to provide for the payment of \u20b9 $2,00,000$ debt maturing in 20 years. Contributions to the fund are to be made at the end of every year. Find the amount of each annual deposit if interest is $5 \\%$ per annum:",
+    "options": {
+      "a": "\u20b96,142",
+      "b": "\u20b9 6,049",
+      "c": "$\u20b9 6,052$",
+      "d": "\u20b9 6,159"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 24,
+    "question": "Given $e^{-x y}-4 x y=0, \\frac{d y}{d x}$ can be proved to be",
+    "options": {
+      "a": "$-y / x$",
+      "b": "$y / x$",
+      "c": "$x / y$",
+      "d": "none of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 6: Sequence and Series - Arithmetic and Geometric",
+    "chapter_number": "6",
+    "q_num": 25,
+    "question": "The first and the last term of an AP are -4 and 146. The sum of the terms is 7171 . The number of terms is (MTP May'20, Jan'25, Nov'22, MP[2],[8])",
+    "options": {
+      "a": "101",
+      "b": "100",
+      "c": "99",
+      "d": "None of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 1: Ratio, Proportion, Indices and Logarithms",
+    "chapter_number": "1",
+    "q_num": 26,
+    "question": "A and $B$ can do a work in 8 days, $B$ and $C$ can do the same work in 12 days . $A, B$ and $C$ together can finish it in 6 days. A and C together will do it in :",
+    "options": {
+      "a": "4 days",
+      "b": "6 days",
+      "c": "8 days",
+      "d": "12 days"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 27,
+    "question": "If $\u20b9 10,000$ is invested at $8 \\%$ per annum, then compounded quarterly. Then value of investment after 2 years is",
+    "options": {
+      "a": "\u20b911,716.59",
+      "b": "\u20b910,716.59",
+      "c": "$\u20b9 12,715.59$",
+      "d": "None of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 28,
+    "question": "Find how many five-letter words can be formed out of the word \"LOGARITHMS\" (the words may not convey any meaning)",
+    "options": {
+      "a": "${ }^{10} \\mathrm{P}_{5}$",
+      "b": "${ }^{10} \\mathrm{C}_{5}$",
+      "c": "${ }^{9} \\mathrm{C}_{4}$",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 29,
+    "question": "For a certain commodity the demand equation giving \" $y$ \" units for a price \" $p$ \" in rupees per unit is $y=100 (10-p)$. The supply equation giving the supply $z$ units for a price \" $p$ \" in rupees per unit is $z=75(p-3)$. The market price is such at which demand equals supply. Find the market price and quantity that will be bought and sold.",
+    "options": {
+      "a": "\u20b97;300 units",
+      "b": "\u20b98;400 units",
+      "c": "$\u20b9 5 ; 200$ units",
+      "d": "None"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 30,
+    "question": "if $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{a^{2}}=1, \\frac{d y}{d x}$ can be expressed as",
+    "options": {
+      "a": "$\\frac{x}{y}$",
+      "b": "$\\frac{\\mathrm{x}}{\\sqrt{\\mathrm{x}^{2}-\\mathrm{a}^{2}}}$",
+      "c": "$\\frac{1}{\\sqrt{\\frac{x^{2}}{a^{2}}-1}}$",
+      "d": "None of these"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 31,
+    "question": "A certain sum of money was put at S.I. for 2.5 years at a certain rate of S.I. p.a. Had it been put at $4 \\%$ higher rate, it would have fetched \u20b9 500 more. Find the sum of money.",
+    "options": {
+      "a": "\u20b9 4,000",
+      "b": "$\u20b9 5,000$",
+      "c": "$\u20b9 6,000$",
+      "d": "None"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 8.1: DIFFERENTIAL CALCULUS",
+    "chapter_number": "8.1",
+    "q_num": 32,
+    "question": "If $\\mathrm{y}=\\mathrm{x}(\\mathrm{x}-1)(\\mathrm{x}-2)$ then $\\frac{\\mathrm{dy}}{\\mathrm{dx}}$ is (SM, MTP Apr'23)",
+    "options": {
+      "a": "$3 x^{2}-6 x+2$",
+      "b": "$-6 x+2$",
+      "c": "$3 x^{2}+2$",
+      "d": "None of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 9: NUMBER SERIES, CODING DECODING AND ODD MAN OUT SERIES",
+    "chapter_number": "9",
+    "q_num": 33,
+    "question": "$10,100,200,310,430$ ?",
+    "options": {
+      "a": "560",
+      "b": "540",
+      "c": "550",
+      "d": "590"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 7: SETS, RELATIONS,AND FUNCTIONS BASICS OF LIMITS \\& CONTINUITY FUNCTIONS",
+    "chapter_number": "7",
+    "q_num": 34,
+    "question": "The number of proper subset of the set $\\{3,4,5,6,7\\}$ is (MTP Nov'22, Mar'18, Jun'24, MP [4],[10])",
+    "options": {
+      "a": "32",
+      "b": "31",
+      "c": "30",
+      "d": "25"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 5: BASIC CONCEPTS OF PERMUTATION \\& COMBINATION",
+    "chapter_number": "5",
+    "q_num": 35,
+    "question": "A dealer provides you Maruti Car \\& Van in 2 body patterns and 5 different colours. How many choices are open to you?",
+    "options": {
+      "a": "2",
+      "b": "7",
+      "c": "20",
+      "d": "10"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 36,
+    "question": "Find the present value of an ordinary annuity of 8 quarterly payments of \u20b9500 each, the rate of interest being $8 \\%$ p.a. compound quarterly",
+    "options": {
+      "a": "4275.00",
+      "b": "4725.00",
+      "c": "3662.50",
+      "d": "3266.50"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 37,
+    "question": "The compound interest of $\u20b9 4,900$ is $\u20b9 1661$ for 2 years at a certain rate of interest, compounded annually. What is the rate of interest per annum in percentage?",
+    "options": {
+      "a": "19.71",
+      "b": "17.71",
+      "c": "13.71",
+      "d": "15.71"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 7: SETS, RELATIONS,AND FUNCTIONS BASICS OF LIMITS \\& CONTINUITY FUNCTIONS",
+    "chapter_number": "7",
+    "q_num": 38,
+    "question": "For a relation $\\mathrm{R}, \\mathrm{aRb}$ represents that a is related to b . If for $\\mathrm{all} \\mathrm{a}, \\mathrm{b}, \\mathrm{c}, \\mathrm{aRb}$ and bRc gives that aRc , then the relation is $\\_\\_\\_\\_$ . (PYP Sep'25)",
+    "options": {
+      "a": "Reflexive",
+      "b": "Symmetric",
+      "c": "Transitive",
+      "d": "Asymmetric"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 39,
+    "question": "In $\\_\\_\\_\\_$ receipts / payments takes place forever.",
+    "options": {
+      "a": "Annuity",
+      "b": "Perpetuity",
+      "c": "Annuity regular",
+      "d": "Annuity due"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 40,
+    "question": "A person desires to create a fund to be invested at $\\mathbf{1 0} \\boldsymbol{\\%} \\mathbf{~ C l}$ per annum to provide for a prize of \u20b9 $\\mathbf{3 0 0}$ every year. Using $\\mathrm{V}=\\mathrm{a} / \\mathrm{I}$ find V and V will be",
+    "options": {
+      "a": "\u20b9 2,000",
+      "b": "\u20b9 2,500",
+      "c": "$\u20b9 3,000$",
+      "d": "None of these"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 6: Sequence and Series - Arithmetic and Geometric",
+    "chapter_number": "6",
+    "q_num": 41,
+    "question": "The sum of natural numbers upto 200 excluding those divisible by 5 is $\text{_____}$ .",
+    "options": {
+      "a": "20,100",
+      "b": "4,100",
+      "c": "16,000",
+      "d": "None"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 42,
+    "question": "Madhu takes a loan of \u20b950,000 from ABC Bank LTD. The rate of interest is $10 \\%$ per annum. The first installment will be paid at the end of five year. Determine the amount (in \u20b9) of equal instalments, if Madhu wishes to repay the amount in five years.",
+    "options": {
+      "a": "\u20b919,510",
+      "b": "\u20b919,430",
+      "c": "\u20b919,310",
+      "d": "\u20b916,630"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 1: Ratio, Proportion, Indices and Logarithms",
+    "chapter_number": "1",
+    "q_num": 43,
+    "question": "A, B and C enter into partnership by investing in the ratio of 3:2:4. After one year, B invests another $\u20b9 2,70,000$ and C , at the end of 2 years, also invests \u20b92,70,000. At the end of three years, profits are shared in the ratio of $3: 4: 5$. Find the initial investment of each.",
+    "options": {
+      "a": "$2,70,000: 1,80,000 ; 3,60,000$",
+      "b": "$2,70,000: 1,50,000 ; 3,60,000$",
+      "c": "$2,50,000: 1,80,000 ; 3,60,000$",
+      "d": "$2,70,000: 1,80,000 ; 3,00,000$"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 44,
+    "question": "Solve for $\text{x} ; \text{y}$ and $\text{z} . \frac{\text{xy}}{\text{y}-\text{x}}=210, \frac{\text{xz}}{\text{z}-\text{x}}=140, \frac{\text{yz}}{\text{y}+\text{z}}=140$",
+    "options": {
+      "a": "105;210;420",
+      "b": "100; 205;400",
+      "c": "$95 ; 215 ; 395$",
+      "d": "None of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 2: Equations",
+    "chapter_number": "2",
+    "q_num": 45,
+    "question": "The wages of 8 men and 6 boys amount to Rs. 33. If 4 men earn Rs. 4.50 more than 5 boys determine the wages of each man and boy.",
+    "options": {
+      "a": "(Rs. 1.50, Rs. 3 )",
+      "b": "(Rs. 3, Rs. 1.50)",
+      "c": "(Rs. $2.50, \text{Rs} .2$ )",
+      "d": "(Rs. 2, Rs. 2.50)"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 1: Ratio, Proportion, Indices and Logarithms",
+    "chapter_number": "1",
+    "q_num": 46,
+    "question": "The students in three classes are in the ratio $2: 3: 5$. If 40 students are increased in each class the ratio changes to $4: 5: 7$. Originally the total number of students was",
+    "options": {
+      "a": "180",
+      "b": "400",
+      "c": "100",
+      "d": "200"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 9: NUMBER SERIES, CODING DECODING AND ODD MAN OUT SERIES",
+    "chapter_number": "9",
+    "q_num": 47,
+    "question": "1, 1, 4, 8 , 9, ? , 16, 64",
+    "options": {
+      "a": "27",
+      "b": "28",
+      "c": "32",
+      "d": "40"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 48,
+    "question": "Mr. A invested (\u20b9) 20,000 in a bank at the rate of $4.5 \\%$ p.a. He received $(\u20b9) 27,500$ after end of term. Find out the period?",
+    "options": {
+      "a": "4.50 years",
+      "b": "8.34 years",
+      "c": "6.50 years",
+      "d": "8.10 years"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 9: NUMBER SERIES, CODING DECODING AND ODD MAN OUT SERIES",
+    "chapter_number": "9",
+    "q_num": 49,
+    "question": "$6,12,21,33$ ?",
+    "options": {
+      "a": "33",
+      "b": "38",
+      "c": "40",
+      "d": "48"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 4: MATHEMATICS OF FINANCE",
+    "chapter_number": "4",
+    "q_num": 50,
+    "question": "Sachin deposited $\u20b9 1,00,000$ in his bank for 2 years at simple interest of $6 \\%$. How much interest would be he earns? How much final value of deposit",
+    "options": {
+      "a": "\u20b96,000, Rs, $1,06,000$",
+      "b": "\u20b915,000, \u20b91,15,000",
+      "c": "\u20b911,600, \u20b91,11,600",
+      "d": "\u20b91,2000, \u20b91,12,000"
+    },
+    "answer": "d"
+  }
+]

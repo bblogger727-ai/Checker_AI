@@ -1,0 +1,489 @@
+{
+  "meta": {
+    "subject_code": "LAW",
+    "subject_name": "Corporate and Other Laws",
+    "paper_num": 1,
+    "total_marks_printed": 100,
+    "total_marks_in_paper": 114,
+    "section_a_marks": 30,
+    "section_b_marks": 84,
+    "note": "Section A: 15 MCQs @ 2 marks each (Case Study based). Section B: Q1 compulsory (14m). Attempt any 4 of Q2–Q6 (14m each).",
+    "blacklisted_from": [],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)",
+      "1(c)"
+    ]
+  },
+  "section_a": [
+    {
+      "type": "case_study",
+      "chapter_number": "16",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "## CS 1 (MTP 6 Marks Oct'22) (Chapter 2 Incorporation of Company \\& Matters Incidental There to)\n\nJai and Veeru, two friends, formed a private limited company as Basanti Taanga Private Limited and got it registered on 10th January, 2018. The registered office of the company was situated at Kolkata, West Bengal. The company had an authorised share capital of ₹ 50 lacs divided into 5 lacs equity shares of ₹ 10/- each. The issued, subscribed and paid-up share capital of the company was of 30 lacs divided into 3 lacs equity shares of ₹ 10 each. The company was engaged in supplying various motor parts to the vehicles companies. 'Basanti' was a registered Trade mark of Basanti Motorwala Private Limited of Mumbai since 15th January, 2016 under the Trade Marks Act, 1999. This company was also engaged in manufacturing and supplying various auto parts to the vehicles companies.\n\nBasanti Motorwala Private Ltd. of Mumbai came to know on 20th January, 2022 about Basanti Taanga Private Limited of Kolkata who was using identical name and mark. Being a registered proprietor of a trade mark, Basanti Motorwala Private Ltd. filed an objection with an appropriate authority under Companies Act, 2013 on 15th March, 2022 that the name Basanti Taanga Private Limited or the mark the company was using is found to be identical with or too nearly resembles to the registered trade mark of Basanti Motorwala Private Ltd. and as such the appropriate authority should direct Basanti Taanga Private Limited to change its name. The appropriate authority after going through all the details rejected the application of Basanti Motorwala Private Ltd.\n\nThereafter on 14th July, 2020, Basanti Motorwala Private Ltd. requested Basanti Taanga Private Limited to change its name and Basanti Taanga Private Limited accepted the same in good relationship. Basanti Taanga Private Limited complied with all the formalities under Companies Act, 2013 such as passing of all necessary resolutions, taking approval from appropriate authority?, filing of documents with the Registrar of Companies etc. The name of the company Basanti Taanga Private Limited was changed to Jai Veeru Private Limited. A fresh certificate of incorporation was issued to the company by the Registrar after being satisfied with the name change application of the company. Subsequent to the issuance of the new incorporation certificate, steps were taken up to incorporate the new name in all copies of the Memorandum of Association, Articles of Association and other documents of the company.\n\n1. In the above case scenario, what can be the most evident reason for the appropriate authority to reject the application of Basanti Motorwala Private Ltd?\n\n(a) The appropriate authority rejected the application on the basis that the names of both the companies are different- Basanti Motorwala Private Ltd and Basanti Taanga Private Limited.\n\n(b) The appropriate authority rejected the application as Basanti Motorwala Private Ltd (owner of the registered mark) should had filed the objection within three years of the registration of company with identical name.\n\n(c) The appropriate authority could have rejected the application on the basis that both the companies are located in different cities and thus can use almost similar names.\n\n(d) The appropriate authority could have rejected the application on the basis that both the companies have different years of incorporation and both are located in different cities.\n\n## Ans:(b)\n\n2. In the above case scenario, what ought to have been the time limit within which Basanti Motorwala Private Ltd, should have filed the objection for wrong name:\n\n(a) On or before 9th January, 2021\n\n(b) On or before 9th January, 2022\n\n(c) On or before 9th January, 2023\n\n(d) They can file the objection at any time\n\n## Ans:(a)\n\n3. According to above case, a fresh certificate of incorporation was issued to the company by the Registrar after being satisfied with the name change application of the company. Which of the following statements is correct in this context?\n\n(a) The change in name of the company is said to be complete and effective from the date of passing of resolution in the general meeting of members.\n\n(b) The change in name of the company is said to be complete and effective from the date of issue of fresh certificate of incorporation by the Registrar.\n\n(c) The change in name of the company is said to be complete and effective from the date on which documents were filed with the Registrar.\n\n(d) The change in name of the company is said to be complete and effective from the date of the order of Ministry of Corporate Affairs approving the change of name.\n\nAns:(b)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "In the above case scenario, what can be the most evident reason for the appropriate authority to reject the application of Basanti Motorwala Private Ltd?",
+          "options": {
+            "a": "The appropriate authority rejected the application on the basis that the names of both the companies are different- Basanti Motorwala Private Ltd and Basanti Taanga Private Limited.",
+            "b": "The appropriate authority rejected the application as Basanti Motorwala Private Ltd (owner of the registered mark) should had filed the objection within three years of the registration of company with identical name.",
+            "c": "The appropriate authority could have rejected the application on the basis that both the companies are located in different cities and thus can use almost similar names.",
+            "d": "The appropriate authority could have rejected the application on the basis that both the companies have different years of incorporation and both are located in different cities."
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "In the above case scenario, what ought to have been the time limit within which Basanti Motorwala Private Ltd, should have filed the objection for wrong name:",
+          "options": {
+            "a": "On or before 9th January, 2021",
+            "b": "On or before 9th January, 2022",
+            "c": "On or before 9th January, 2023",
+            "d": "They can file the objection at any time"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "According to above case, a fresh certificate of incorporation was issued to the company by the Registrar after being satisfied with the name change application of the company. Which of the following statements is correct in this context?",
+          "options": {
+            "a": "The change in name of the company is said to be complete and effective from the date of passing of resolution in the general meeting of members.",
+            "b": "The change in name of the company is said to be complete and effective from the date of issue of fresh certificate of incorporation by the Registrar.",
+            "c": "The change in name of the company is said to be complete and effective from the date on which documents were filed with the Registrar.",
+            "d": "The change in name of the company is said to be complete and effective from the date of the order of Ministry of Corporate Affairs approving the change of name."
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null
+        }
+      ],
+      "mcq_count": 3,
+      "unique_id": "cs__16__5723885136653181456"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "16",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "## CS 5 (MTP 6 Marks April 23) (Chapter 8 Declaration \\& Payment of Dividend)\n\n\nWaste Papers Ltd. is company engaged in the business of collecting waste papers and old newspapers and manufacture from these wastes the corrugated boxes which are used in packing of the products by various suppliers. The company is earning good profit margin and paying dividend consistently, which can be seen by the following information:\n\n\n₹ in Lakh)\n\n| Year | Payment of dividend | B237317 aid-up share capital | Free Reserves |\n| :--- | :--- | :--- | :--- |\n| 2015-16 to 2020-21 | 10 | 100 | 45 |\n| 2021-22 | 15 | 100 | 60 |\n| 2022-23 | 20 | 100 | 75 |\n| 2023-24 | 22 | 100 | 95 |\n| 2024-25 | 24 | 100 | 120 |\n\n\nDuring the year 2025-26, the company's business was severally affected due to low demand of the corrugated boxes on account of recession situation (slow- down of economy) prevailing all over the country. The company showed a loss of ₹ 20 lakh in the annual accounts.\n\nHowever, the company wants to maintain its image of consistently dividend paying company and for this year also, it also wants to declare dividend. The company have accumulated free reserves in its hand and want to declare dividend @ 26\\% (since there is increasing trend of $\\mathbf{2} \\boldsymbol{\\%}$ from the preceding years).\n\nDuring the year 2025-26, Somesh, a shareholder of the company died due to cardiac arrest. He was having 10,000 shares in his D-mat account in which he has made nomination in favour of his son Romesh. When Romesh applied for transmission of the shares, his sister Sanjana, objected and filed a case in the court that she also has right in the property of her father and mere making of nomination do not dilute the rights of the legal heirs to claim share in the property. The matter is sub-judice in the court of law awaiting decision.\n\nThe company has business dealing with Mahesh Kumar, who is also a shareholder of the company. The company has supplied some goods to Mahesh Kumar worth ₹ 10,000 , but he was not making payment to the company. The company while making payment of the dividend to Mahesh Kumar deducted the due amount, and as a result, nothing was payable to Mahesh Kumar towards the dividend. Mahesh Kumar threated to take action against the company.\n\nBased on the above facts, answer the following MCQs\n\n\n1. Whether Waste Papers Ltd, who suffered losses in year 2025-26, can make payment of dividend to the shareholders:\n\n(a) In case of losses, the company can't pay dividend\n\n(b) Company may pay dividend out of profits of previous years (which are free reserves), subject to the fulfilment of conditions prescribed for declaration of dividend when there is inadequacy of profits in a\nparticular year\n\n(c) Company may dividend out of Asset Revaluation Reserve Account\n\n(d) Company may dividend without any restriction as it has enough amount in its Free reserves\n\n\nAns: (b)\n\n2. Romesh (son of the deceased) made a complaint, that even after declaration of dividend, the company has not posted the dividend warrant at the address given in his transmission form. Which is the most correct statement in this regard:\n\n(a) The company is not liable to pay dividend to a deceased person\n\n(b) The company is not liable to pay dividend to the legal heirs of the deceased person\n\n(c) The company should deposit the dividend in the court, where the matter is under consideration\n\n(d) The company is not liable where there is a dispute regarding the right to receive the dividend.\n\n\nAns: (d)\n\n3. In the given case, the amount due to be recovered from Mahesh Kumar was deducted by the company and nothing was now payable to him on account of dividend. Is the action of the company right:\n\n(a) No, payment of dividend is a separate matter and should not be clubbed with any other matter\n\n(b) Yes, Mahesh Kumar can take action against the company for not paying any dividend to him\n\n(c) The company can adjust the any sum, due to it, from the shareholder\n\n(d) The company should take into confidence and consent of Mahesh Kumar's family members to adjust its dues\n\nAns: (c)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Whether Waste Papers Ltd, who suffered losses in year 2025-26, can make payment of dividend to the shareholders:",
+          "options": {
+            "a": "In case of losses, the company can't pay dividend",
+            "b": "Company may pay dividend out of profits of previous years (which are free reserves), subject to the fulfilment of conditions prescribed for declaration of dividend when there is inadequacy of profits in a particular year",
+            "c": "Company may dividend out of Asset Revaluation Reserve Account",
+            "d": "Company may dividend without any restriction as it has enough amount in its Free reserves"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "Romesh (son of the deceased) made a complaint, that even after declaration of dividend, the company has not posted the dividend warrant at the address given in his transmission form. Which is the most correct statement in this regard:",
+          "options": {
+            "a": "The company is not liable to pay dividend to a deceased person",
+            "b": "The company is not liable to pay dividend to the legal heirs of the deceased person",
+            "c": "The company should deposit the dividend in the court, where the matter is under consideration",
+            "d": "The company is not liable where there is a dispute regarding the right to receive the dividend."
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "In the given case, the amount due to be recovered from Mahesh Kumar was deducted by the company and nothing was now payable to him on account of dividend. Is the action of the company right:",
+          "options": {
+            "a": "No, payment of dividend is a separate matter and should not be clubbed with any other matter",
+            "b": "Yes, Mahesh Kumar can take action against the company for not paying any dividend to him",
+            "c": "The company can adjust the any sum, due to it, from the shareholder",
+            "d": "The company should take into confidence and consent of Mahesh Kumar's family members to adjust its dues"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null
+        }
+      ],
+      "mcq_count": 3,
+      "unique_id": "cs__16__-5531821978672778413"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "16",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "## CS 6 (RTP May '22 \\& SM) (Chapter 8 Declaration \\& Payment of Dividend)\n\nPerfect Tyres and Rubbers Ltd. is a listed entity engaged in the business of manufacturing of tyres and tubes for Light and Heavy Commercial Vehicles. During the financial year 2025-26, the company has declared interim dividend of $5 \\%$ on the equity shares in its Board meeting held on 17th October, 2025, out of the profits earned during the first quarter of FY 2025-26. Further, the Board of Directors of the company after reviewing results of the fourth quarter of FY 2025-26 again recommended for second Interim Dividend @ 5\\% on 25th April, 2026. The Board of Directors of the company approved the financial result for the FY 2025-26 in its meeting held on 5th August, 2026, and recommended a final dividend of $15 \\%$ (including the interim dividends paid earlier) in this board meeting. The general meeting of the shareholders was convened on 31st August, 2026. The shareholders of the company demanded that since interim dividend @ $10 \\%(5 \\%+5 \\%)$ was declared by the company, so the final dividend should not be less than $20 \\%$ (including the interim dividends). When the Company Secretary emphasised that final dividend cannot exceed, what the Board of Directors have recommended in their board meeting, some of the shareholders boycotted the meeting and moved out of the meeting hall, in protest of the company's decision. However, the agenda for declaration of the dividend was passed unanimously by rest of the shareholders present in the meeting hall, fulfilling the criteria of requirement of quorum, as per the provisions of the Companies Act, 2013.\n\nAfter approval of the shareholders, the dividend amount was paid to the shareholders, however dividend to some of the shareholders could not be paid within the prescribed period for variety of reasons. The company transferred the unpaid dividend amount to a separate bank account on 15th October, 2026.\n\nThe details of the unpaid dividend amount for the previous year's lying in the unpaid dividend account is as under:\n\n\n| S. No. | Dividend pertaining to the FY | Date of declaration of Dividend | Date when the amount was transferred to Unpaid dividend Account | Amount lying in the Unpaid Dividend Account (₹ in lakhs) |\n| :--- | :--- | :--- | :--- | :--- |\n| 1 | 2025-26 | 31.08.2026 | 15.10.2026 | 92.50 |\n| 2 | 2024-25 | 25.08.2025 | 28.09.2025 | 85.14 |\n| 3 | 2023-24 | 20.08.2024 | 22.09.2024 | 80.00 |\n| 4 | 2022-23 | 05.09.2023 | 07.10.2023 | 75.25 |\n| 5 | 2021-22 | 01.09.2022 | 04.10.2022 | 45.15 |\n| 6 | 2020-21 | 07.09.2021 | 09.10.2021 | 35.26 |\n| 7 | 2019-20 | 05.05.2020 | 08.06.2020 | 15.10 |\n| 8. | 2018-19 | 06.06.2019 | 08.07.2019 | 07.25 |\n\nSustram, one of the investors who is holding 1000 shares in physical form, by visiting web- site of the company, came to know that company had declared the dividends in some previous years, but have not been paid to him. This happened due to the fact the company was not having his current address and bank account details. Sustram approached the company, along with all the supporting evidence to his claim and demanded the dividend amount.\n\nThe company after being satisfied, paid all the dividend amount pertaining to the FY 2019-20 to FY 2025-26. However, for FY 2018-19, the company informed that since the amount of dividend has been transferred to Investor Education and Protection Fund, it cannot be taken back now. Aggrieved from this, Sustram threatened the company officials to take appropriate legal action.\n\nBased on the above facts, answer the following MCQs:\n\n\n1. When the shareholders demanded for increase in the rate of dividend, but since the shareholders cannot increase the rate of dividend what the Board of Directors have recommended, some of them walked out of the meeting hall. What shall be the consequences of it:\n\n(a) If, even after boycott, quorum is present, all the time during the course of general meeting and they have approved with majority, the rate recommended by the Board shall be treated as approved.\n\n(b) Members present at the beginning of the meeting shall remain present all the time during the general meeting, to approve any agenda, else it will be treated as nullified.\n\n(c) The approval of the dividend is an ordinary business resolution of the company, so if some of the members have boycotted the meeting, it will have no effect, even if the quorum is not present.\n\n(d) The recommendation of the Board of Directors of the company relating to the rate of dividend shall stands withdrawn.\n\n\n## Ans:(a)\n\n2. At which date, the unpaid dividend not claimed by the shareholders, shall be transferred to a separate bank account, in the above case:\n\n(a) On 5th August, 2026 (the date of Meeting of Board)\n\n(b) On 31st August, 2026 (the date of Meeting of Shareholders)\n\n(c) On 30th September, 2026 (the date, after 30 days from the meeting of shareholders)\n\n(d) Latest by 7th October, 2026 (within seven days from the date of expiry of 30 days)\n\nAns: (d)\n\n3. The company transferred the amount of unpaid dividend to a separate bank account on 15th October, 2026. What is the interest liability on the part of the company?\n\n(a) No liability.\n\n(b) Interest @ 10\\% p.a. on so much of the amount as has not been transferred to the Unpaid Dividend Account.\n\n(c) Interest @ 12\\% p.a. on so much of the amount as has not been transferred to the Unpaid Dividend Account.\n\n(d) Interest @ 15\\% p.a. on so much of the amount as has not been transferred to the Unpaid Dividend Account.\n\n\n## Ans:(c)\n\n4. In the given case, when and how much amount, the company shall transfer the funds to the Investor Education and Protection Fund:\n\n(a) Four years after 01.09.2022; Rs 45.15 lakh\n\n(b) Five years after 07.09.2021; Rs 35.26 lakh\n\n(c) Six years after 05.05.2020 ₹ 15.10 lakh\n\n(d) Seven years after 08.07.2019: ₹ 07.25 lakh\n\n\nAns: (d)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "When the shareholders demanded for increase in the rate of dividend, but since the shareholders cannot increase the rate of dividend what the Board of Directors have recommended, some of them walked out of the meeting hall. What shall be the consequences of it:",
+          "options": {
+            "a": "If, even after boycott, quorum is present, all the time during the course of general meeting and they have approved with majority, the rate recommended by the Board shall be treated as approved.",
+            "b": "Members present at the beginning of the meeting shall remain present all the time during the general meeting, to approve any agenda, else it will be treated as nullified.",
+            "c": "The approval of the dividend is an ordinary business resolution of the company, so if some of the members have boycotted the meeting, it will have no effect, even if the quorum is not present.",
+            "d": "The recommendation of the Board of Directors of the company relating to the rate of dividend shall stands withdrawn."
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "At which date, the unpaid dividend not claimed by the shareholders, shall be transferred to a separate bank account, in the above case:",
+          "options": {
+            "a": "On 5th August, 2026 (the date of Meeting of Board)",
+            "b": "On 31st August, 2026 (the date of Meeting of Shareholders)",
+            "c": "On 30th September, 2026 (the date, after 30 days from the meeting of shareholders)",
+            "d": "Latest by 7th October, 2026 (within seven days from the date of expiry of 30 days)"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "The company transferred the amount of unpaid dividend to a separate bank account on 15th October, 2026. What is the interest liability on the part of the company?",
+          "options": {
+            "a": "No liability.",
+            "b": "Interest @ 10\\% p.a. on so much of the amount as has not been transferred to the Unpaid Dividend Account.",
+            "c": "Interest @ 12\\% p.a. on so much of the amount as has not been transferred to the Unpaid Dividend Account.",
+            "d": "Interest @ 15\\% p.a. on so much of the amount as has not been transferred to the Unpaid Dividend Account."
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null
+        },
+        {
+          "q_num": 4,
+          "question": "In the given case, when and how much amount, the company shall transfer the funds to the Investor Education and Protection Fund:",
+          "options": {
+            "a": "Four years after 01.09.2022; Rs 45.15 lakh",
+            "b": "Five years after 07.09.2021; Rs 35.26 lakh",
+            "c": "Six years after 05.05.2020 ₹ 15.10 lakh",
+            "d": "Seven years after 08.07.2019: ₹ 07.25 lakh"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null
+        }
+      ],
+      "mcq_count": 4,
+      "unique_id": "cs__16__-1257721334689437985"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "16",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "## CS 9 (MTP 10 Marks July'24 \\& SM,MP[4]) (Chapter 9 Accounts of Companies)\n\nGlobalTech Pvt. Ltd., a technology giant with operations in software development, hardware manufacturing, and IT consulting, has recorded significant financial growth over the past few years. For the financial year 2025-26, the company reported the following financial metrics:\n\n- Net worth: ₹ 520 crore\n\n- Turnover: ₹ 1,050 crore\n\n- Net profit: ₹ 4.5 crore\n\nIn the financial year 2024-2024, GlobalTech Pvt. Ltd. had a net worth of ₹ 480 crore, a turnover of ₹ 1,020 crore, and a net profit of ₹ 4 crore. The company has a subsidiary, Tech Subs Ltd., and a foreign subsidiary, GlobalTech International, which has a branch office in India.\n\nGlobalTech Pvt. Ltd. spent ₹ 1.2 crore on various CSR activities during the financial year 2025-26. However, ₹ 30 lakh remained unspent and was transferred to the Unspent Corporate Social Responsibility Account as per section 135(6) of the Companies Act, 2013.\n\nThe company's board comprises members from different parts of the country and they ensure that the administrative overheads do not exceed the prescribed limit of total CSR expenditure.\n\nThe company held its annual general meeting on 20th August, 2026 and filed the annual return in compliance with the provisions of the Companies Act, 2013.\n\nOn the basis of above facts and by applying applicable provisions of the Companies Act, 2013 and the applicable Rules therein, choose the correct answer (one out of four) of the following Multiple Choice Questions given herein under: -\n\n1. Based on the financial metrics of GlobalTech Pvt. Ltd., is the company required to constitute a Corporate Social Responsibility (CSR) Committee for the financial year 2025-2026?\n\n(a) Yes, because its net worth exceeds ₹ 500 crore.\n\n(b) No, because it has not met the required net profit criteria.\n\n(c) Yes, because its turnover exceeds ₹ 1,000 crore.\n\n(d) No, because its net profit is less than ₹ 5 crore.\n\nAns: (c)\n\n2. Given that GlobalTech Pvt. Ltd. has $₹ 30$ lakh in its Unspent Corporate Social Responsibility Account, which of the following statements is true?\n\n(a) The company is not required to constitute a CSR Committee if it has unspent CSR funds.\n\n(b) The company must constitute a CSR Committee in Financial year 2026-2027, as it has balance in Unspent CSR account.\n\n(c) The company can use the unspent funds for any other business activity.\n\n(d) The company must transfer the unspent amount to the Prime Minister's National Relief Fund.\n\nAns: (b)\n\n3. If GlobalTech Pvt. Ltd. had an average net profit of ₹ 5 crore over the past three immediately preceding financial years, what is the minimum amount it must spend on CSR activities in the financial year 20262027?\n\n(a) ₹ 5 lakh\n\n(b) ₹ 10 lakh\n\n(c) ₹ 20 lakh\n\n(d) ₹ 30 lakh\n\nAns: (b)\n\n4. GlobalTech Pvt. Ltd. must ensure that the administrative overheads do not exceed a certain percentage of the total CSR expenditure. What is this percentage?\n\n(a) $2 \\%$\n\n(b) $5 \\%$\n\n(c) $10 \\%$\n\n(d) $15 \\%$\n\nAns: (b)\n\n5. What is the latest date by which GlobalTech Pvt. Ltd. must it file its annual return with the Registrar of Companies (RoC)?\n\n(a) 10th September 2026\n\n(b) 15th September 2026\n\n(c) 10th October 2026\n\n(d) 19th October 2026\n\nAns: (d)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Based on the financial metrics of GlobalTech Pvt. Ltd., is the company required to constitute a Corporate Social Responsibility (CSR) Committee for the financial year 2025-2026?",
+          "options": {
+            "a": "Yes, because its net worth exceeds ₹ 500 crore.",
+            "b": "No, because it has not met the required net profit criteria.",
+            "c": "Yes, because its turnover exceeds ₹ 1,000 crore.",
+            "d": "No, because its net profit is less than ₹ 5 crore."
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "Given that GlobalTech Pvt. Ltd. has $₹ 30$ lakh in its Unspent Corporate Social Responsibility Account, which of the following statements is true?",
+          "options": {
+            "a": "The company is not required to constitute a CSR Committee if it has unspent CSR funds.",
+            "b": "The company must constitute a CSR Committee in Financial year 2026-2027, as it has balance in Unspent CSR account.",
+            "c": "The company can use the unspent funds for any other business activity.",
+            "d": "The company must transfer the unspent amount to the Prime Minister's National Relief Fund."
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "If GlobalTech Pvt. Ltd. had an average net profit of ₹ 5 crore over the past three immediately preceding financial years, what is the minimum amount it must spend on CSR activities in the financial year 20262027?",
+          "options": {
+            "a": "₹ 5 lakh",
+            "b": "₹ 10 lakh",
+            "c": "₹ 20 lakh",
+            "d": "₹ 30 lakh"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null
+        },
+        {
+          "q_num": 4,
+          "question": "GlobalTech Pvt. Ltd. must ensure that the administrative overheads do not exceed a certain percentage of the total CSR expenditure. What is this percentage?",
+          "options": {
+            "a": "$2 \\%$",
+            "b": "$5 \\%$",
+            "c": "$10 \\%$",
+            "d": "$15 \\%$"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null
+        },
+        {
+          "q_num": 5,
+          "question": "What is the latest date by which GlobalTech Pvt. Ltd. must it file its annual return with the Registrar of Companies (RoC)?",
+          "options": {
+            "a": "10th September 2026",
+            "b": "15th September 2026",
+            "c": "10th October 2026",
+            "d": "19th October 2026"
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "cs__16__-2443978110299490810"
+    }
+  ],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": true,
+      "total_marks": 14,
+      "chapter_number": "8",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Saras Ventures Ltd., a public limited company incorporated under the Companies Act, 2013, has a Board comprising seven directors. A group of shareholders holding 1.2% of the total voting power has expressed their intent to remove Mr. Jain, one of the current directors, in an upcoming Annual General Meeting scheduled to be held on 25th August, 2025. The shareholders have sent a special notice on 1st August 2025.",
+          "answer": "According to section 115 of the Companies Act, 2013, where, by any provision contained in this Act or in the Articles of a company, special notice is required of any resolution, notice of the intention to move such a resolution shall be given to the company by such number of members holding not less than one percent of total voting power or holding shares on which such aggregate sum not exceeding five lakh rupees, as may be prescribed, has been paid up and the company shall immediately after receipt of such notice, give its members notice of the resolution, in such manner as may be prescribed. As per Rule 23(1) of Companies (Management & Administration) Rules, 2014, the notice shall be given by the members to the company not earlier than three months but at least fourteen days before the date of the meeting at which the resolution is to be moved, exclusive of the day on which the notice is given and the day of the meeting.\n2. Special notice was received by the company on 1st August 2025 with the proposal for removal at the scheduled AGM on 25th August 2025. The period between special notice date (1st August) and AGM date (25th August) is 24 days (excluding 1st August and 25th August = 23 days). Since the Special notice is to be given at least 14 days before the AGM. Conditions of special notice: The shareholders sending the special notice must hold not less than 1% of the total voting power. As the group holds only 1.2% (which is more than 1%), the special notice is VALID, satisfying the threshold requirement. Hence, the special notice from shareholders regarding removal of Mr. Jain is valid.",
+          "chapter_number": "6",
+          "chapter_name": "MEETINGS OF BOARD AND ITS POWERS",
+          "unique_id": "BQ-1"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "PRT Ltd. is an eligible public company. The following details are available from its audited balance sheet as on 31st March 2024: • Paid-up Share Capital: ₹20 crore • Free Reserves: ₹8 crore • Securities Premium Account: ₹2 crore The company is planning to accept deposits of ₹3 crore from its members and ₹2 crore from persons other than members. Advise the company on whether it can accept these deposits as per the relevant provisions of the Companies Act, 2013.",
+          "answer": "As per section 76 read with Rule 3 of the Companies (Acceptance of Deposits) Rules, 2014, an eligible company is permitted to accept deposits subject to certain limits:\n• From its Members: The amount of such deposit together with outstanding deposits from the members as on the date of acceptance or renewal should not exceed ten percent of the aggregate of the paid-up share capital, free reserves and securities premium account.\n• From Persons other than its Members: The amount of such deposits together with the amount of outstanding deposits (excluding deposits from members) as on the date of acceptance or renewal should not exceed twenty-five percent of the aggregate of the paid-up share capital, free reserves and securities premium account.\n\nHere’s the extracted text from the table in markdown format:\n\n```markdown\n| Category         | Maximum Limit               | Exiting deposits | Proposed deposits | Maximum further permissible deposits still allowable |\n|------------------|-----------------------------|------------------|------------------|-----------------------------------------------------|\n| From Members     | 10% of ₹ 30 crore = ₹ 3 crore | ₹ 2 crore        | ₹ 3 crore        | ₹ 1 crore                                           |\n```\n\nHere’s the extracted text from the table in markdown format:\n\n```markdown\n| From Public | 25% of ₹ 30 crore = ₹ 7.5 crore | ₹ 5 crore | ₹ 2 crore | ₹ 2.5 crore |\n|-------------|----------------------------------|-----------|-----------|-------------|\n```\n\nAnd the additional text below the table:\n\n```markdown\nIn view of the above, the company's proposal to accept ₹ 3 crore from members is incorrect & ₹ 2 crore from persons other than members (general public) is correct.\n```",
+          "chapter_number": "5",
+          "chapter_name": "ACCEPTANCE OF DEPOSITS BY COMPANIES",
+          "unique_id": "BQ-2"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Skynex Ltd., incorporated in India in 2024, is engaged in the manufacture of lithium batteries for two-wheeler. The company markets its products domestically and exports to Mexico. During the financial year 2025, the company engaged in the following transaction: Commission paid to the agent in Mexico for the sale of the company's commercial plot in India to the tune of USD 50,000 against the inward remittance of USD 9,50,000 from Exchange Earners Foreign Currency (EEFC) Account. Examine whether the above transaction is exempt from the approval of the RBI, with reference to the relevant provisions of FEMA, 1999.\nBob, a Director at Skynex Ltd., along with his wife, major son and father, purchased a property in Mexico, holding equal shares in the property. They collectively remitted USD 1,000,000 during the financial year. Bob confirmed that all family members complied with the applicable terms and conditions, and the amount sent is within the limit prescribed for remitting funds to Mexico.\nExamine whether Bob and his family members can remit USD 1,000,000 to Mexico in a single financial year without requiring any approval.",
+          "answer": "(i) As per Schedule III to the Foreign Exchange Management (Current Account Transactions) Rules, 2000, the following remittances by persons other than individuals shall require prior approval of the Reserve Bank of India. Commission per transaction to agents abroad for sale of residential flats or commercial plots in India exceeding USD 25,000 or five percent of the inward remittance whichever is more.\nIf any remittance is made for the transactions listed in Schedule II and Schedule III from Exchange Earners' Foreign Currency (EEFC) account, then also no approval is required. However, in case of the abovementioned commission if exceeding the prescribed limits, approval is required even if payment is from EEFC account. The maximum amount that can be paid without RBI approval is USD 47,500 (5% of USD 9,50,000) or USD 25,000 whichever is higher. Since, the amount of commission is USD 50,000, which is more than the limit of USD 47,500, approval is required.\n(ii) Under the Liberalised Remittance Scheme (LRS), all resident individuals, including minors, are allowed to freely remit up to USD 250,000 per financial year (April–March) for any permissible current or capital account transaction or a combination of both. Clubbing is not permitted by other family members for capital account transactions such as opening a bank account/investment/ purchase of property, if they are not the co-owners/co-partners of the overseas bank account/investment/property. In the given question, since, Mr. Bob, his wife, major son and his father are holding equal shares in the property, clubbing is permitted and thus, the family members can remit USD 1,000,000 (implies USD 250,000 per member) to Mexico in a single financial year without requiring any approval.",
+          "chapter_number": "15",
+          "chapter_name": "THE FOREIGN EXCHANGE MANAGEMENT ACT, 1999",
+          "unique_id": "BQ-3"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "3",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "John Pvt Ltd. is an unlisted company incorporated in the year 2012. The company have share capital of rupees fifty crores. The company has decided to issue sweat equity shares to its directors and employees. The company decided to issue 10% sweat equity shares (which in total will add up to 30% of its paid up equity shares), with a locking period of five years, as it is a start-up company. Explain the provision for issue of sweat equity shares by a start-up company, with reference to the provision of the Company Act, 2013.",
+          "answer": "Sweat Equity Shares is governed by Section 54 of the Companies Act, 2013 and Rule 8 of Companies (Share capital and debentures) Rules, 2014. According to Section 54 the company can issue sweat equity shares to its director and permanent employees of the company. According to rule 8 (4) proviso, a start up company, as defined by Ministry of Commerce and industry Government of India, may issue sweat equity share not exceeding 50% of its paid up share capital up to 10 years from the date of its in incorporation or registration. According to Rule 8(5), the sweat equity shares issued to directors or employees shall be locked in/non-transferable for a period of 3 years from the date of allotment and the fact that the share certificates are under lock-in too. Hence, in the above case the company can issue sweat equity shares by passing special resolution at its general meeting. The company as a startup company is right in issue of 10% sweat equity share as it is overall within the limit of 50% of its paid-up share capital. But the lock in period of the shares is limited to maximum three years period from the date of allotment.",
+          "chapter_number": "4",
+          "chapter_name": "SHARE CAPITAL AND DEBENTURES",
+          "unique_id": "BQ-15"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Comment quoting relevant provisions of the Companies Act, 2013, whether the following amounts received by a company will be considered as deposits or not: (i) Rs. 2,00,000 received by Yash Limited from its employee Mr. A, who draws an annual salary of Rs. 1,50,000, as a non-interest-bearing security deposit under a contract of employment. (ii) Textile Traders Limited received a loan of Rs. 30,00,000 from R who is one of its directors. (MTP 4 Marks April'22,MP[2])",
+          "answer": "Rule 2 (1) (c) of the Companies (Acceptance of Deposit) Rules, 2014 states various amounts received by a company which will not be considered as deposits. In terms of this Rule the answers to the given situations shall be as under: (i) In terms of Rule 2 (1)(c)(x), any amount received from an employee of the company not exceeding his annual salary under a contract of employment with the company in the nature of non-interest bearing security deposit, shall not be treated as deposit. Rs. 2,00,000 received by Yash Limited from its employee Mr. A, who draws an annual salary of Rs. 1,50,000, as a non-interest bearing security deposit under a contract of employment will be considered as deposit in terms of sub-clause (x) of Rule 2(1)(c), for the amount received is more than his annual salary of Rs. 1,50,000. (ii) In terms of Rule 2 (1)(c)(viii), any amount received from a person who is director of the company at the time of giving loan to the company shall not be treated as deposit if such director furnishes to the company at the time of giving money, a written declaration to the effect that the amount is not being given out of funds acquired by him by borrowing or accepting loans or deposits from others and further, the company shall disclose the details of money so accepted in the Board's report. In the given case, Rs. 30,00,000 received as a loan by Textile Traders Limited from R (a director) shall not be treated as deposit, if he was a director at the time of giving such loan and had furnished to the company at time of giving money, a written declaration to the effect that the amount was not being given out of funds acquired by him by borrowing or accepting loans or deposits from others and in addition, the company had disclosed the details of money so accepted in the appropriate Board's report.",
+          "chapter_number": "5",
+          "chapter_name": "ACCEPTANCE OF DEPOSITS BY COMPANIES",
+          "unique_id": "5-T-3"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Mrs. Neelu Chandra was director in Laddoo Sweets Private Limited. Once while dealing with supplier of raw materials for company, she agreed to get some secret commission from supplier for making the deal. Afterwards, on finding the facts, the company has filed the suit against Mrs. Neelu Chandra. She contended that section 166 of the Companies Act, 2013, provides \"A director of a company shall not achieve or attempt to achieve any undue gain or advantage either to himself or to his relatives, partners, or associates and if such director is found guilty of making any undue gain, he shall be liable to pay an amount equal to that gain to the company.\" She contended that section 166 is applicable to male director only, she being female will not be liable. In the light of the provisions of the General Clauses Act, 1897, decide whether she is bound by the provisions of section 166 of the Companies Act, 2013? (RTP Nov '23)",
+          "answer": "By virtue of provisions of section 13 of the General Clauses Act, 1897, in all Central Acts or Regulations, unless there is anything repugnant in the subject or context, words importing the masculine gender shall be taken to include females.\n\nMrs. Neelu Chandra, director in Laddoo Sweets Private Limited, made an undue gain in the form of commission (from supplier for making the deal) in dealing for Laddoo Sweets Private Limited but she denied accepting the liability by saying that the language of section 166 provides penalty only for male directors not for females.\n\nOn the basis of provisions of the General Clauses Act, 1897 and facts of the case, the provisions of section 166 of the Companies Act, 2013, are not only applicable to males but also to females. Therefore, Mrs. Neelu Chandra is bound to comply by section 166 of the Companies Act, 2013.",
+          "chapter_number": "13",
+          "chapter_name": "THE GENERAL CLAUSES ACT, 1897",
+          "unique_id": "13-T-41"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "3",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Wiwitsu Limited proposes to issue series of debentures frequently within a period of one year to raise the funds without undergoing the complicated exercise of issuing the prospectus every time of issuing a new series of debentures. Examine the feasibility of the proposal of Wiwitsu Limited having taken into account the concept of deemed prospectus dealt with under the provisions of the Companies Act, 2013. (MTP 3 Marks March '22, PYP 3 Marks July'21)",
+          "answer": "Information Memorandum together with Shelf Prospectus is deemed Prospectus. The expression \"shelf prospectus\" means a prospectus in respect of which the securities or class of securities included therein are issued for subscription in one or more issues over a certain period without the issue of a further prospectus. [Explanation to Section 31]\n\nAny class or classes of companies, as the Securities and Exchange Board may provide by regulations in this behalf, may file a shelf prospectus with the Registrar at the stage-\n\n(i) of the first offer of securities included therein which shall indicate a period not exceeding one year as the period of validity of such prospectus which shall commence from the date of opening of the first offer of securities under that prospectus, and\n\n(ii) in respect of a second or subsequent offer of such securities issued during the period of validity of that prospectus,\n\nNo further prospectus is required for issue of securities. [ Sub-section (1)]\n\nHence, the proposal of Wiwitsu Limited to take into account the concept of deemed prospectus is correct.",
+          "chapter_number": "3",
+          "chapter_name": "PROSPECTUS AND ALLOTMENT OF SECURITIES",
+          "unique_id": "3-T-6"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Discuss the following in the light of the provisions of the Companies Act, 2013:\nMr. Prem and his wife, Mrs. Archna jointly hold shares of ABC Limited in a dematerialised (Demat) account. In such circumstances, which of the joint holders is entitled to exercise the voting right through the e-voting facility?\nThe Annual General Meeting of the company is scheduled to be convened on 10th September, 2025. Determine the duration of the remote e-voting period and specify the time at which such e-voting shall conclude.",
+          "answer": "(i) Joint shareholders must concur in voting unless the articles provide to the contrary. The voting in case of joint shareholders is done in the order of seniority, which is determined on the basis of the order in which their names appear in the register of members/ shareholders. The joint- holders have a right to instruct the company as to the order in which their names are to appear in the register. As per Rule 21 of the Companies (Management and Administration) Rules, 2014, the Scrutinizers shall arrange for Polling papers and distribute them to the members and proxies present at the meeting; in case of joint shareholders, the polling paper shall be given to the first named holder or in his absence to the joint holder attending the meeting as appearing in the chronological order in the folio. Thus, in the given case, ‘Mr. Prem’ or his wife ‘Mrs. Archna’, whosoever names appear first in chronological order in the register of members/shareholders shall be entitled to vote.\n(ii) Time period for e-voting: The facility for remote e-voting shall remain open for not less than three days and shall close at 5.00 p.m. on the date preceding the date of the general meeting. Thus, if the Annual General Meeting is going to be held on 10th September 2025, the facility for remote e-voting shall open on 7th September 2025 and close at 5.00 p.m. on 9th September 2025.",
+          "chapter_number": "7",
+          "chapter_name": "MANAGEMENT & ADMINISTRATION",
+          "unique_id": "BQ-12"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "What are the differences between interpretation and construction in the legal context, and how do these two concepts relate to each other as per Interpretation of Statute? (MTP 4 Marks Dec'24,MP[3],MP[7])",
+          "answer": "The two terms- 'Interpretation' and 'Construction', are used interchangeably to denote a process adopted by the courts to ascertain the meaning of the legislature from the words with which it is expressed, these two terms have different connotations.\n\nInterpretation is the art of ascertaining the meaning of words and the true sense in which the author intended that they should be understood.\n\nThus, where the Court adheres to the plain meaning of the language used by the legislature, it would be 'interpretation' of the words, but where the meaning is not plain, the court has to decide whether the wording was meant to cover the situation before the court. Here, the court would be resorting to 'construction'. Conclusions drawn by means of construction are within the spirit though not necessarily within the letter of the law.\n\nIn practice construction includes interpretation and the terms are frequently used synonymously.",
+          "chapter_number": "14",
+          "chapter_name": "INTERPRETATION OF STATUTES",
+          "unique_id": "14-T-4"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "9",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Determine whether Kesar Limited, with an outstanding loan from bank exceeding 100 crore rupees (specifically Rs. 102 crore on 3rd March 2025 during the preceding financial year 2024-25), is required to appoint an Internal Auditor during the financial year 2025-2026.",
+          "answer": "According to the Companies (Accounts) Rules, 2014, every unlisted public company having:\n\n(A) paid up share capital of Rs. 50 crore rupees or more during the preceding financial year; or\n\n(B) turnover of Rs. 200 crore rupees or more during the preceding financial year; or\n\n(C) outstanding loans or borrowings from banks or public financial institutions exceeding Rs. 100 crore rupees or more at any point of time during the preceding financial year; or\n\n(D) outstanding deposits of 25 crore rupees or more at any point of time during the preceding financial year; shall be required to appoint an internal auditor which may be either an individual or a partnership firm or a corporate body.\n\nIn the given question, Kesar Limited has outstanding loan from bank exceeding 100 crore rupees i.e., Rs. 102 crore on 3rd March 2025 (i.e. during the preceding financial year 2024-25). Hence, it is required to appoint Internal Auditor during the year 2025-26.",
+          "chapter_number": "9",
+          "chapter_name": "DECLARATION AND PAYMENT OF DIVIDEND",
+          "unique_id": "9-T-29"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Raman, Sita and Mohan are partners in an LLP firm RSM & Co. engaged in consultancy services. As per the LLP agreement, profits and losses are shared equally. Raman, requiring funds for personal purposes, transfers 40% of his share of profits to his friend Arjun. After the transfer, Arjun claims that: (a) (b) He is entitled to participate in the management of RSM & Co. Since Raman has transferred part of his rights, he is deemed to be disassociated as a partner of the LLP. You are required to advise, with reference to the Limited Liability Partnership Act, 2008: (i) (ii) Whether Raman’s partial transfer of rights will lead to disassociation or dissolution of the LLP. Whether Arjun is entitled to participate in the management of RSM & Co.",
+          "answer": "As per section 42 of the Limited Liability Partnership Act, 2008, (1) (2) (3) The rights of a partner to a share of the profits and losses of the limited liability partnership and to receive distributions in accordance with the limited liability partnership agreement are transferable either wholly or in part. The transfer of any right by any partner pursuant to sub-section (1) does not by itself cause the disassociation of the partner or a dissolution and winding up of the limited liability partnership. The transfer of right pursuant to this section does not, by itself, entitle the transferee or assignee to participate in the management or conduct of the activities of the limited liability partnership, or access information concerning the transactions of the limited liability partnership. In the given question, Raman has transferred 40% of his share of profits in RSM & Co. to his friend Arjun. In view of the above provisions and facts of the question:\n(i) 17 Transfer of rights does not by itself cause the disassociation of the partner or a dissolution and winding up of the limited liability\npartnership. Hence, Raman’s partial transfer of rights will not lead to disassociation or dissolution of the LLP.\n(ii) Transfer of right pursuant does not, by itself, entitle the transferee or assignee to participate in the management in the activities of the limited liability partnership. Hence, Arjun is not entitled to participate in the management of RSM & Co.",
+          "chapter_number": "11",
+          "chapter_name": "LIMITED LIABILITY PARTNERSHIP ACT, 2008",
+          "unique_id": "BQ-13"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Vivit Limited has entered into a contract with Su Limited. You are invited to read and interpret the document of contract. What rules of interpretation of deeds and documents would you apply while doing so? (MTP 3 Marks April'22, SM)",
+          "answer": "The rules regarding interpretation of deeds and documents are as follows: First and the foremost point that has to be borne in mind is that one has to find out what reasonable man, who has taken care to inform himself of the surrounding circumstances of a deed or a document, and of its scope and intendments, would understand by the words used in that deed or document. It is inexpedient to construe the terms of one deed by reference to the terms of another. Further, it is well established that the same word cannot have two different meanings in the same documents, unless the context compels the adoption of such a rule. The Golden Rule is to ascertain the intention of the parties of the instrument after considering all the words in the documents/deed concerned in their ordinary, natural sense. For this purpose, the relevant portions of the document have to be considered as a whole. The circumstances in which the particular words have been used have also to be taken into account. Very often, the status and training of the parties using the words have also to be taken into account as the same words maybe used by an ordinary person in one sense and by a trained person or a specialist in quite another sense and a special sense. It has also to be considered that very many words are used in more than one sense. It may happen that the same word understood in one sense will give effect to all the clauses in the deed while taken in another sense might render one or more of the clauses ineffective. In such a case the word should be understood in the former and not in the latter sense. It may also happen that there is a conflict between two or more clauses of the same documents. An effect must be made to resolve the conflict by interpreting the clauses so that all the clauses are given effect. If, however, it is not possible to give effect of all of them, then it is the earlier clause that will override the latter one.",
+          "chapter_number": "14",
+          "chapter_name": "INTERPRETATION OF STATUTES",
+          "unique_id": "14-T-40"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "8",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Referring to the provisions of the Companies Act, 2013, examine the validity of the following: The Board of Directors of VIVITZU Tractors Limited proposes to declare dividend at the rate of $20oldsymbol{\text{\textperthousand}}$ to the equity shareholders, despite the fact that the company has defaulted in repayment of public deposits accepted before the commencement of this Act. (SM)",
+          "answer": "Section 123(6) of the Companies Act, 2013, specifically provides that a company which fails to comply with the provisions of section 73 (Prohibition of acceptance of deposits from public) and section 74 (Repayment of deposits, etc., accepted before the commencement of this Act) shall not, so long as such failure continues, declare any dividend on its equity shares.\n\nIn the given instance, the Board of Directors of VIVITZU Tractors Limited proposes to declare dividend at the rate of $20oldsymbol{\text{\textperthousand}}$ to the equity shareholders, in spite of the fact that the company has defaulted in repayment of public deposits accepted before the commencement of the Companies Act, 2013. Hence, according to the above provision, declaration of dividend by the VIVITZU Tractors Limited is not valid.",
+          "chapter_number": "8",
+          "chapter_name": "DECLARATION AND PAYMENT OF DIVIDEND",
+          "unique_id": "8-T-6"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "NS & Associates LLP was formed in the year 2020 and it was engaged in the business of manufacturing of plastic parts for automobiles. It constituted of Mr. Naveen and Mr. Suresh as designated partners who were responsible for obtaining contracts from various automobile manufacturers across the country for supply of spare parts for vehicles. In the year 2021 an investigation was ordered by the Tribunal against the LLP in connection with a financial fraud worth ` 50,25,000. Mr. J one the Accounts Manager and employee of the LLP was accused by the complainant, as one of the perpetrators to the fraud. The Tribunal levied a penalty of ` 1,25,000 to be paid by Mr. J on his conviction. Mr. J approached the Tribunal and provided vital information about the other black sheep involved in the fraud thus aiding in the investigation process. The Tribunal is considering of providing some relief in the penal action taken against him, while the LLP is planning to suspend Mr. J from service for this act. Considering the provisions of Limited Liability Partnership Act, 2008:\nDecide whether the Tribunal can waive off or reduce the penalty imposed by it on Mr. J?\nCan the LLP suspend Mr. J from service for commission of the act, of revealing the name of the other accused involved in the fraud?",
+          "answer": "Section 31 of the Limited Liability Partnership Act, 2008 provides that: (1) The Court or Tribunal may reduce or waive any penalty leviable against any partner or employee of a LLP, if it is satisfied that: - such partner or employee of an LLP has provided useful information during investigation of such LLP; or when any information given by any partner or - when any information given by any partner or employee (whether or not during investigation) leads to LLP or any partner or employee of such LLP being convicted under this Act or any other Act. On the basis of the above provisions, the question can be answered as under:\nWhether the Tribunal can waive off or reduce the penalty imposed by it on Mr. J? Yes, the Tribunal has the power to waive or reduce the penalty of ` 1,25,000 being imposed on Mr. J as he has provided useful information that is helpful towards investigations in the case of fraud by the LLP.\nCan the LLP suspend Mr. J?\nSection 31(2) of the LLP Act, 2008 further provides that: No partner or employee of any limited liability partnership may be discharged, demoted, suspended, threatened, harassed or in any other manner discriminated against the terms and conditions of his limited liability partnership or employment merely because of his providing information or causing information to be provided pursuant to sub-section (1). Hence, Mr. J cannot be suspended from the job by the LLP on the grounds of having provided vital information regarding the fraud to the Tribunal.",
+          "chapter_number": "11",
+          "chapter_name": "LIMITED LIABILITY PARTNERSHIP ACT, 2008",
+          "unique_id": "BQ-16"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Jumbo Road lines Ltd. is a public limited company engaged in business of inter-state goods transportation. The company owns a fleet of more than ten heavy-duty trucks which have the capacity to transport up-to 1000 tons of goods in one consignment as per the registration. The transportation company received an order to transport 1000 tons of goods particularly plastic parts of automobiles to be loaded from a production facility in Surat, Gujarat and offloaded in an automobile factory in Pune, Maharashtra. The driver loaded the heavy-duty truck to its maximum capacity. On its way to Pune, the driver further loaded 100 tons of other goods from a local trader who lured him for some extra payment. The driver on his way with his overloaded truck rammed into a road divider causing damage to the public property. The local traffic police charged Jumbo Road lines Ltd. for overloading the truck under the Motor-Vehicles Act, 1988 and filed a suit against the transport company. Further the Highway Authority filed another suit against the company under the Prevention of Damage to Public Property Act, 1984 for damaging the dividers and iron girders installed on the road-sides. The Jumbo Road lines Ltd. opposed the suits on the plea of double-jeopardy and double punishment for the same act under two different legislations. Whether the plea given by the road-lines of double-jeopardy be accepted by the court? Discuss based on underlying principle and concepts referring the provisions of the General Clauses Act, 1897.",
+          "answer": "As per section 26 of the General Clauses Act, 1897, where an act or omission constitutes an offence under two or more enactments, then the offender shall be liable to be prosecuted and punished under either or any of those enactments but shall not be punished twice for the same offence. As per Article 20(2) of the Constitution, no person shall be prosecuted and punished for the same offence more than once.\nThe combined reading of provisions of section 26 of the General Clauses Act, 1897 and Article 20(2) of the Constitution apply only when the two offences which form the subject of prosecution is the same, i.e., the ingredients which constitute the two offences are the same. If the offences under the two enactments are distinct and not identical, none of these provisions will apply. In the given question, the local police charged Jumbo Road Lines Limited for overloading the truck under the Motor Vehicles Act, 1988. The Highway Authority filed another suit for damage of public property (iron girders installed on roadside), under the Prevention of Damage to Public Property Act, 1984. As the offences under the two enactments are distinct and not identical, hence the plea given by the road lines of double jeopardy cannot be accepted by the Court.",
+          "chapter_number": "13",
+          "chapter_name": "THE GENERAL CLAUSES ACT, 1897",
+          "unique_id": "BQ-17"
+        }
+      ]
+    },
+    {
+      "q_main": 6,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "7",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "In a general meeting of a company, the shareholders passed a special resolution regarding some special matters. There were 30 members present in the meeting. Out of which 15 voted in favour of the resolution, 6 voted against it and 5 votes were found invalid. The remaining 4 members abstained from voting. The chairman of the meeting declared the resolution as passed. With reference to provisions of the Companies Act, 2013 examine the validity of chairman's declaration. (MTP 5 Marks Mar'25)",
+          "answer": "According to section 114 of the Companies Act, 2013, a resolution shall be a special resolution when the votes cast in favour of the resolution, whether on a show of hands, or electronically or on a poll, as the case may be, by members who, being entitled so to do, vote in person or by proxy or by postal ballot, are required to be not less than three times the number of the votes, if any, cast against the resolution by members so entitled and voting.\n\nThus, in terms of the requisite majority, votes cast in favour have to be compared with votes cast against the resolution. Abstentions or invalid votes, if any, are not to be taken into account.\n\nAccordingly, in the given problem, the votes cast in favour (15) being not more than 3 times of the votes cast against (6), therefore the decision of the chairman is not in order.",
+          "chapter_number": "7",
+          "chapter_name": "MANAGEMENT \\& ADMINISTRATION",
+          "unique_id": "7-T-46"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "| Sr. No. | Particulars | Balances as on 31-03-2023 as per Audited Financial Statement (Rs. in crore) | Balances as on 30-09-2025 (Provisional Rs. in crore) |\n| :--- | :--- | :--- | :--- |\n| 1. | Net Worth | 100.00 | 100.00 |\n| 2. | Turnover | 500.00 | 1000.00 |\n| 3. | Net Profit | 1.00 | 5.00 |\n\nExplaining the provisions of the Companies Act, 2013, you are requested to examine whether Pacific Limited is required to constitute 'Corporate Social Responsibility Committee' (CSR Committee) during the second half of the financial year 2025-26.",
+          "answer": "According to section 135(1) of the Companies Act, 2013, every company having net worth of rupees five hundred crore or more, or turnover of rupees one thousand crore or more or a net profit of rupees five crore or more during the immediately preceding financial year shall constitute a Corporate Social Responsibility Committee of the Board consisting of three or more directors, out of which at least one director shall be an independent director. In the given question, the company does not fulfil any of the given criteria (net worth/ turnover/ net profit) for the immediately preceding financial year (i.e., 1.4 .2024 to 31.3 .2025 ). Hence, Pacific Limited is not required to constitute Corporate Social Responsibility Committee for the financial year 2025-26.",
+          "chapter_number": "9",
+          "chapter_name": "DECLARATION AND PAYMENT OF DIVIDEND",
+          "unique_id": "9-T-18"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Murari Lal, a person resident outside India, has invested in four residential immovable properties under construction in Kolkata. Each property is negotiated at ` 2 crore, with the companies owned by builders. This amount is to be paid in two instalments as 60% on immediate basis on booking and the balance on possession of the properties. The above transaction is done by the companies owned by builders through two brokers from USA on commission basis. Mr. Murari Lal as per the terms and conditions remitted 60% of the amount of all four immovable properties directly to the company. Answer the following explaining the provisions of the Foreign Exchange Management Act (FEMA), 1999: (i) Whether investment by Mr. Murari Lal and payment of commission on this transaction is permissible? (ii) How much maximum amount of commission can be paid to each broker without RBI approval?",
+          "answer": "The investment in immovable properties in India by Mr. Murari Lal, a resident outside India, is a Capital Account Transaction which is permissible as per Schedule II of the Foreign Exchange Management (Permissible Capital Account Transactions) Regulations, 2000 which permits Acquisition and Transfer of Immovable Property in India by a Person Resident Outside India.\nAccording to Schedule III to Foreign Exchange Management (Current Account Transactions) Rules, 2000, remittances by persons other than individuals shall require prior approval of the Reserve Bank of India if Commission, per transaction, to agents abroad for sale of residential flats or commercial plots in India exceeds USD 25,000 or five percent of the inward remittance whichever is more. As per the facts of the question and mentioned provisions, the following are the answers to the questions asked: (i) Yes, the investment by Mr. Murari Lal and payment of commission on this transaction is permissible. (ii) Calculation of maximum commission that can be paid without the approval of RBI. The maximum amount of commission that can be paid to each broker for each transaction, without RBI approval is, more of- USD 25,000 or ` 6 lakh [i.e. 5% of (60% of 2 crore)]. Thus, ` 6,00,000 can be paid to each broker as commission without taking any prior approval of the RBI.",
+          "chapter_number": "15",
+          "chapter_name": "THE FOREIGN EXCHANGE MANAGEMENT ACT, 1999",
+          "unique_id": "BQ-14",
+          "or_question": {
+            "question": "Determine the residential status of Ms. Milap for the financial years 2024-25 and 2025-26 under Section 2(v) of FEMA 1999. (MTP 6 Marks, Sep '22)",
+            "answer": "As per Section 2(v) of the Foreign Exchange Management Act, 1999, \"Person Resident in India\" means: a person residing in India for more than 182 days during the course of the preceding financial year but does not include- (A) a person who has gone out of India or who stays outside India, in either case- (a) for or on taking up employment outside India, or (b) for carrying on outside India a business or vocation outside India, or (c) for any other purpose, in such circumstances as would indicate his intention to stay outside India for an uncertain period; (B) a person who has come to or stays in India, in either case, otherwise than: (a) for or on taking up employment in India, or (b) for carrying on in India a business or vocation in India, or (c) for any other purpose, in such circumstances as would indicate his intention to stay in India for an uncertain period; In line with the above definition, Residential status of Milap for the financial years will be as follows: (i) For FY 2024-2025: As in the preceding year 2023-2024, Milap resided for 182 days which is not in compliance with the requirement of number of days of her stay (for more than 182 days). Here, residential status of Milap is a Person resident outside India. For FY 2025-2026: In the preceding year 2024-2025, Milap has not resided in India as she went to UK on 1st April 2024 and returned on 1st July 2025. In this case also, the residential status of Milap is a person resident outside India."
+          }
+        }
+      ]
+    }
+  ]
+}

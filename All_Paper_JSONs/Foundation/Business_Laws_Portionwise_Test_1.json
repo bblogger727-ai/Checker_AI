@@ -1,0 +1,92 @@
+[
+  {
+    "q_num": 1,
+    "marks": 4,
+    "question": "Akash purchased 100 Kgs of wheat from Bhaskar at \u20b980 per kg. Bhaskar says that wheat is in his warehouse in the custody of Kishore, the warehouse keeper. Kishore confirmed to Akash that he can take the delivery of wheat from him and till then he is holding wheat on Akash's behalf. Before Akash picks the goods from warehouse, the whole wheat in the warehouse has flowed in flood. Now Akash wants his price on the contention that no delivery has been done by seller. Whether Akash is right with his views under the Sale of Goods Act, 1930.",
+    "answer": "As per the provisions of the Sale of Goods Act, 1930 there are three modes of delivery,\n(i) Actual delivery,\n(ii) Constructive delivery and\n(iii) Symbolic delivery.\nWhen delivery is affected without any change in the custody or actual possession of the things, it is called constructive delivery or delivery by acknowledgement. Constructive delivery takes place when a person in possession of goods belonging to the seller acknowledges to the buyer that he is holding the goods on buyer\u2019s behalf.\nOn the basis of the above provisions and facts, it is clear that possession of the wheat has been transferred through constructive delivery. Hence, Akash is not right. He cannot claim the price back.",
+    "chapter": "FORMATION OF THE CONTRACT OF SALE",
+    "chapter_number": "3.1",
+    "unique_id": "CH3_1-A-Q2"
+  },
+  {
+    "q_num": 2,
+    "marks": 6,
+    "question": "Mr. Ayush is the principal in Modern Public School. For this purpose, he contracted with Yograj Biscuit Company. Mr. Ayush visited the workshop of Yograj Biscuit Company and was very much satisfied with the quality of biscuits. He also found that a large number of varieties of biscuits are manufactured in the workshop. He ordered 2000 packs of biscuits and gave the token money but did not specify the category of biscuits, he needed. Yograj Biscuit Company did not supply the biscuits on the due date. Mr. Ayush filed the suit against Yograj Biscuit Company for compensation. State with reasons, whether Yograj Biscuit Company is liable under Indian Contract Act, 1872?",
+    "answer": "According to the Indian Contract Act 1872, the meaning of agreement must be certain and not vague or indefinite. If the meaning of agreement is not certain, the agreement is not enforceable by law.\nIn the instant case, Mr. Ayush is being principal in Modern Public School ordered 2000 packs of biscuits to Yograj Biscuit Company for the purpose of distribution on Republic Day among students. He also gave the token money but did not specify the category of biscuits. Yograj Biscuit Company did not supply the biscuits on the due date and Mr. Ayush filed the suit for compensation.\nOn the basis of above provisions and facts, it can be said that the agreement was not enforceable for want of certainty of meaning as Mr. Ayush did not specify the category of biscuits. Hence, Yograj Biscuit Company is not liable to pay any compensation to Mr. Ayush.",
+    "chapter": "NATURE OF CONTRACTS",
+    "chapter_number": "2.1",
+    "unique_id": "CH2_1-A-Q5"
+  },
+  {
+    "q_num": 3,
+    "marks": 7,
+    "question": "Explain the following statements in the light of provisions of Indian Contract Act, 1872: (i) \"Agreements made out of love and affection are valid agreements.\" (ii) \"Promise to pay a time barred debt cannot be enforced.\"",
+    "answer": "(i) Agreements made out of love and affection are valid agreements: A written and registered agreement based on natural love and affection between the parties standing in near relation (e.g., husband and wife) to each other is enforceable even without consideration. The various conditions to be fulfilled as per Section 25(1) of the Indian Contract Act, 1872: (A) It must be made out of natural love and affection between the parties. (B) Parties must stand in near relationship to each other. (C) It must be in writing. (D) It must also be registered under the law. Hence, the agreements made out of love and affection, without consideration, shall be valid, if the above conditions are fulfilled. (ii) Promise to pay a time barred debt cannot be enforced: According to Section 25(3) of the Indian Contract Act, 1872, where a promise in writing signed by the person making it or by his authorised agent, is made to pay a debt barred by limitation is valid without consideration. Hence, this statement is correct. Note: The above statement can be correct also on the basis of the \u201cDischarge of Contract by Lapse of time\u201d as per Limitation Act, 1963, and accordingly it can be mentioned that contract should be performed within a specified period as prescribed by the Limitation Act, 1963 and if no action is taken by the promisee within the specified period of limitation, he is deprived of remedy at law.",
+    "chapter": "CONSIDERATION",
+    "chapter_number": "2.2",
+    "unique_id": "CH2_2-A-Q11"
+  },
+  {
+    "q_num": 4,
+    "marks": 7,
+    "question": "As per the general rule, \"Stranger to a contract cannot file a suit in case of breach of contract\". Comment and explain the exceptions to this rule as per the provisions of the Indian Contract Act, 1872.",
+    "answer": "Under the Indian Contract Act, 1872, the consideration for an agreement may proceed from a third party; but the third party cannot sue on contract. Only a person who is party to a contract can sue on it. The aforesaid rule, that stranger to a contract cannot sue is known as a \u201cdoctrine of privity of contract\u201d, is however, subject to certain exceptions. In other words, even a stranger to a contract may enforce a claim in the following cases:  (1) In the case of trust, a beneficiary can enforce his right under the trust, though he was not a party to the contract between the settler and the trustee.  (2) In the case of a family settlement, if the terms of the settlement are reduced into writing, the members of family who originally had not been parties to the settlement, may enforce the agreement.  (3) In the case of certain marriage contracts/arrangements, a provision may be made for the benefit of a person, who may file a suit though he is not a party to the agreement.  (4) In the case of assignment of a contract, when the benefit under a contract has been assigned, the assignee can enforce the contract but such assignment should not involve any personal skill.  (5) Acknowledgement or estoppel \u2014 Where the promisor by his conduct acknowledges himself as an agent of the third party, it would result into a binding obligation towards third party.  (6) In the case of covenant running with the land, the person who purchases land with notice that the owner of land is bound by certain duties affecting land, the covenant affecting the land may be enforced by the successor of the seller.  (7) Contracts entered into through an agent: the principal can enforce the contracts entered by his agent where the agent has acted within the scope of his authority and in the name of the principal.",
+    "chapter": "CONSIDERATION",
+    "chapter_number": "2.2",
+    "unique_id": "CH2_2-A-Q6"
+  },
+  {
+    "q_num": 5,
+    "marks": 6,
+    "question": "State the difference between Sale and Agreement to sell.",
+    "answer": "The differences between Sale and Agreement to sell are as follows:\nBasis of difference\t                     Sale\t                                   Agreement to sell\nTransfer of property\t                     The property in the goods passes to the buyer immediately.\tProperty in the goods passes to the buyer on future date or on fulfilment of some condition.\nNature of contract\t                     It is an executed contract i.e. contract for which consideration has been paid.\tIt is an executory contract i.e. contract for which consideration is to be paid at a future date.\nRemedies for breach\t                     The seller can sue the buyer for the price of the goods because of the passing of the property therein to the buyer.\tThe aggrieved party can sue for damages only and not for the price, unless the price was payable at a stated date.\nLiability of parties\t                     A subsequent loss or destruction of the goods is the liability of the buyer.\tSuch loss or destruction is the liability of the seller.\nBurden of risk\t                     Risk of loss is that of buyer since risk follows ownership.\tRisk of loss is that of seller.\nNature of rights\t                     Creates Jus in rem means right against the whole world.\tCreates Jus in personam means rights against a particular party to the contract.\nRight of resale\t                     The seller cannot resell the goods.\tThe seller may sell the goods since ownership is with the seller.\nIn case of insolvency of seller\t                     The official assignee will not be able to take over the goods but will recover the price from the buyer.\tThe official assignee will acquire control over the goods but the price will not be recoverable.",
+    "chapter": "FORMATION OF THE CONTRACT OF SALE",
+    "chapter_number": "3.1",
+    "unique_id": "CH3_1-A-Q8"
+  },
+  {
+    "q_num": 6,
+    "marks": 5,
+    "question": "State which of the following agreements are valid contract under the Indian Contract Act, 1872?\n(a) A, who owns two cars is selling red car to B. B thinks he is purchasing the black car.\n(b) A threatened to shoot B if B does not lend him \u20b92,00,000 and B agreed to it.\n(c) A agrees to sell his house to B against 100 kgs of cocaine (drugs).\n(d) A ask B if he wants to buy his bike for \u20b950,000. B agrees to buy bike.\n(e) Mr. X agrees to write a book with a publisher. But after few days, X dies in an accident.",
+    "answer": "(a) A, who owns two cars is selling red car to B. B thinks he is purchasing the black car. \nThere is no consensus ad idem and hence not a valid contract.\n(b) A threatened to shoot B if B does not lend him \u20b92,00,000 and B agreed to it. \nHere the agreement is entered into under coercion and hence not a valid contract.\n(c) A agrees to sell his house to B against 100 kgs of cocaine (drugs). Such agreement is illegal as the consideration is unlawful.\n(d) A ask B if he wants to buy his bike for \u20b950,000. B agrees to buy bike. It is agreement which is enforceable by law. Hence, it is a valid contract.\n(e) Mr. X agrees to write a book with a publisher. But after few days, X dies in an accident. \nHere the contract becomes void due to the impossibility of performance of the contract.",
+    "chapter": "NATURE OF CONTRACTS",
+    "chapter_number": "2.1",
+    "unique_id": "CH2_1-A-Q3"
+  },
+  {
+    "q_num": 7,
+    "marks": 7,
+    "question": "Ms. Preeti owned a motor car which she handed over to Mr. Joshi on sale or return basis. After a week, Mr. Joshi pledged the motor car to Mr. Ganesh. Ms. Preeti now claims back the motor car from Mr. Ganesh. Will she succeed? Referring to the provisions of the Sale of Goods Act, 1930, decide and examine what recourse is available to Ms. Preeti.",
+    "answer": "As per the provisions of section 24 of the Sale of Goods Act, 1930, when goods are delivered to the buyer on approval or \u201con sale or return\u201d or other similar terms, the property therein passes to the buyer- (a) when the buyer signifies his approval or acceptance to the seller or does any other act adopting the transaction; (b) if he does not signify his approval or acceptance to the seller but retains the goods without giving notice of rejection, then, if a time has been fixed for the return of the goods, on the expiration of such time, and, if no time has been fixed, on the expiration of a reasonable time; or (c) he does something to the good which is equivalent to accepting the goods e.g. he pledges or sells the goods. Referring to the above provision, we can analyse the situation given in the question. Since, Mr. Joshi, who had taken delivery of the Motor car on Sale or Return basis and pledged the motor car to Mr. Ganesh, has attracted the third condition that he has done something to the good which is equivalent to accepting the goods e.g. he pledges or sells the goods. Therefore, the property therein (Motor car) passes to Mr. Joshi. Now in this situation, Ms. Preeti cannot claim back her Motor Car from Mr. Ganesh, but she can claim the price of the motor car from Mr. Joshi only.",
+    "chapter": "TRANSFER OF OWNERSHIP & DELIVERY OF GOODS",
+    "chapter_number": "3.3",
+    "unique_id": "CH3_3-A-Q8"
+  },
+  {
+    "q_num": 8,
+    "marks": 7,
+    "question": "Define Misrepresentation and Fraud. Explain the difference between Fraud and Misrepresentation as per the Indian Contract Act, 1872.",
+    "answer": "Definition of Fraud under Section 17 of the Indian Contract Act, 1872: \u2018Fraud\u2019 means and includes any of the following acts committed by a party to a contract, or with his connivance, or by his agent, with an intent to deceive another party thereto or his agent, or to induce him to enter into the contract: (1) the suggestion, as a fact, of that which is not true, by one who does not believe it to be true; (2) the active concealment of a fact by one having knowledge or belief of the fact; (3) a promise made without any intention of performing it; (4) any other act fitted to deceive; (5) any such act or omission as the law specially declares to be fraudulent. According to Section 18, there is misrepresentation: (1) Statement of fact, which is false, would constitute misrepresentation if the maker believes it to be true but which is not justified by the information he possesses; (2) When there is a breach of duty by a person without any intention to deceive which brings an advantage to him; (3) When a party causes, even though done innocently, the other party to the agreement to make a mistake as to the subject matter. Distinction between fraud and misrepresentation: Basis of difference          Fraud                       Misrepresentation Intention                       To deceive the other party by hiding the truth.  There is no such intention to deceive the other party.",
+    "chapter": "OTHER ESSENTIAL ELEMENTS OF A CONTRACT",
+    "chapter_number": "2.3",
+    "unique_id": "CH2_3-A-Q18"
+  },
+  {
+    "q_num": 9,
+    "marks": 6,
+    "question": "Mr. Nikhil has decided to get interior work for his new office. For this purpose, he entered into a contract with M/s Sherry Fine Interiors. It was agreed that M/s Sherry Fine Interiors will complete the interior work latest by 31st January, 2023. On 31st January, 2023, Mr. Nikhil observed that only 20% to 30% work has been completed. He decided to cancel the contract with M/s Sherry Fine Interiors. On cancellation of the contract, M/s Sherry Fine Interiors filed a suit against Mr. Nikhil for recovery of the cost which it has incurred on the interior work. Mr. Nikhil argued that M/s Sherry Fine Interiors did not complete the work within the time as per contract and further the work done till 31st January, 2023 by M/s Sherry Fine Interiors was of no use for him as he has to appoint a new interior designer. Explain, whether Mr. Nikhil is liable to pay the cost of work done by M/s Sherry Fine Interiors under the provisions of Indian Contract Act, 1872?",
+    "answer": "Section 2(i) of Indian Contract Act, 1872 provides that an agreement which is enforceable by law at the option of one or more parties thereto, but not at the option of the other or others is a voidable contract. Further, when a party to a contract promise to perform a work within a specified time, could not perform with in that time, the contract is voidable at the option of the promisee. If promisee has received any benefit, he must return to promisor.\n\nIn the given problem, the contract is voidable at the option of Mr. Nikhil as work is not completed within the time agreed in the contract. Further, Mr. Nikhil is not liable to pay the cost incurred by M/s Sherry Fine Interiors as that cost did not provide any benefit to him and he has to appoint a new interior designer.",
+    "chapter": "NATURE OF CONTRACTS",
+    "chapter_number": "2.1",
+    "unique_id": "CH2_1-A-Q10"
+  },
+  {
+    "q_num": 10,
+    "marks": 5,
+    "question": "Explain the key responsibilities and organizational structure of the Ministry of Corporate Affairs (MCA). Highlight the legislative acts it administers and the role of the ICLS cadre.",
+    "answer": "Ministry of Corporate Affairs (MCA) a. MCA is an Indian Government Ministry. b. It is primarily concerned with administration of the Companies Act 2013, the Companies Act 1956, the Limited Liability Partnership Act, 2008, and the Insolvency and Bankruptcy Code, 2016. c. It is responsible mainly for the regulation of Indian enterprises in the industrial and services sector. d. The Ministry is mostly run by civil servants of the ICLS cadre. e. These officers are elected through the Civil Services Examination conducted by Union Public Service Commission. f. The highest post, Director General of Corporate Affairs (DGCoA), is fixed at Apex Scale for the ICLS.",
+    "chapter": "INDIAN REGULATORY FRAMEWORK",
+    "chapter_number": 1,
+    "unique_id": "CH1-A-Q6"
+  }
+]

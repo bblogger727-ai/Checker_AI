@@ -1,0 +1,507 @@
+{
+  "meta": {
+    "subject_code": "LAW",
+    "subject_name": "Corporate and Other Laws",
+    "paper_num": 3,
+    "total_marks_printed": 100,
+    "total_marks_in_paper": 114,
+    "section_a_marks": 30,
+    "section_b_marks": 84,
+    "note": "Section A: 15 MCQs @ 2 marks each (Case Study based). Section B: Q1 compulsory (14m). Attempt any 4 of Q2–Q6 (14m each).",
+    "blacklisted_from": [
+      "Generated_Papers/LAW/LAW_Mock_Paper_1.json",
+      "Generated_Papers/LAW/LAW_Mock_Paper_2.json"
+    ],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)",
+      "1(c)"
+    ]
+  },
+  "section_a": [
+    {
+      "type": "case_study",
+      "chapter_number": "16",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "## CS 8 <br> (RTP Nov 23)(Chapter 9 Accounts of Companies)\n\nBharat Sanskar Limited having its registered office at Haridwar, is a listed public company. It is registered with an authorised share capital of ₹ 300 crore divided into 30 crore equity shares of ₹ 10/- each. The paidup share capital of the company is ₹ 200 crore divided into 20 crore equity shares of ₹ 10/- each. The company is very renowned in manufacturing and supplying devotional items such as high-quality worship materials, fragrances, various types of decorative goods, idols etc.\n\nThe Board of Directors of the company constituted of Sagar as the Managing Director and Hari, Rahi, Sansar & Nabh as directors of the company. In the company Raju was holding the post of Company Secretary, Sonu designated as Chief Financial Officer and Moti as Assistant Accountant. The company prepared its Financial\n\nStatement for the year 2025-26, the Board of Directors approved the same and it was signed by the concerned authorities and thereafter submitted to the auditors on 10th May, 2026 for their report. The turnover of the company was ₹ 100 crore during the year 2025-26. The auditor's report was duly received and the annual accounts with Board's report and all necessary annexures were ready on 15th July 2026 after complying with all the formalities as per company law.\n\nThe Board Meeting was called on 25th July, 2026 and the Annual General Meeting was fixed on 20th August, 2026. At the Annual General Meeting the Financial Statement along with all annexures was duly received and adopted by the members present. However, the company could not file copies of financial statement along with all the documents annexed to the financial statement adopted at the Annual General Meeting, with the Registrar.\n\nIt is also informed that in April, 2026, the company had destroyed all the books of account together with relevant vouchers up to financial year ending on 31st March, 2021.\n\nOn the basis of above facts and by applying applicable provisions of the Companies Act, 2013 and the applicable Rules therein, choose the correct answer (one out of four) of the following queries given herein under: -\n\n\n1. The Companies Act, 2013 provides that the financial statement should be approved by the Board of Directors, signed by the prescribed authorities and submitted to the auditors for their report. Accordingly, the financial statements of Bharat Sanskar Limited shall be signed by:\n\n(a) Sagar, Raju and Sonu\n\n(b) Sansar, Hari, Raju and Sonu\n\n(c) Sagar, Sansar, Raju and Moti\n\n(d) Sagar, Sansar, Raju and Sonu\n\n\nAns: (d)\n\n2. As per provisions of company law, the Board's report with annexures thereto of the above company is required to be duly signed by -\n\n(a) Sagar only\n\n(b) Sagar and Hari\n\n(c) Sagar and Raju\n\n(d) Sagar and Sonu\n\n\nAns: (b)\n\n3. In the above case scenario, the company failed to file copies of financial statement along with all the documents annexed to the financial statement adopted at the Annual General Meeting with the Registrar. In this context, which of the following statements is correct?\n\n(a) Sagar, Raju and Sonu shall be liable to a penalty.\n\n(b) The company, Sagar and Raju shall be liable to a penalty.\n\n(c) The company, Sagar and Sonu shall be liable to a penalty.\n\n(d) Sagar, Raju and Sonu shall be liable to a penalty.\n\n\nAns: (c)\n\n4. As per provisions of the Companies Act, 2013, the act of the company in destruction of all books of account together with relevant vouchers was not correct because -\n\n(a) The books of accounts etc. relating to a period not less than 6 preceding financial years are required to be kept in good order.\n\n(b) The books of accounts etc. relating to a period not less than 8 preceding financial years are required to be kept in good order.\n\n(c) The books of accounts etc. relating to a period not less than 10 preceding financial years are required to be kept in good order.\n\n(d) The books of accounts etc. relating to a period not less than 12 preceding financial years are required to be kept in good order.\n\nAns: (b)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "The Companies Act, 2013 provides that the financial statement should be approved by the Board of Directors, signed by the prescribed authorities and submitted to the auditors for their report. Accordingly, the financial statements of Bharat Sanskar Limited shall be signed by:",
+          "options": {
+            "a": "Sagar, Raju and Sonu",
+            "b": "Sansar, Hari, Raju and Sonu",
+            "c": "Sagar, Sansar, Raju and Moti",
+            "d": "Sagar, Sansar, Raju and Sonu"
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null,
+          "_serial": 1
+        },
+        {
+          "q_num": 2,
+          "question": "As per provisions of company law, the Board's report with annexures thereto of the above company is required to be duly signed by -",
+          "options": {
+            "a": "Sagar only",
+            "b": "Sagar and Hari",
+            "c": "Sagar and Raju",
+            "d": "Sagar and Sonu"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": 2
+        },
+        {
+          "q_num": 3,
+          "question": "In the above case scenario, the company failed to file copies of financial statement along with all the documents annexed to the financial statement adopted at the Annual General Meeting with the Registrar. In this context, which of the following statements is correct?",
+          "options": {
+            "a": "Sagar, Raju and Sonu shall be liable to a penalty.",
+            "b": "The company, Sagar and Raju shall be liable to a penalty.",
+            "c": "The company, Sagar and Sonu shall be liable to a penalty.",
+            "d": "Sagar, Raju and Sonu shall be liable to a penalty."
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": 3
+        },
+        {
+          "q_num": 4,
+          "question": "As per provisions of the Companies Act, 2013, the act of the company in destruction of all books of account together with relevant vouchers was not correct because -",
+          "options": {
+            "a": "The books of accounts etc. relating to a period not less than 6 preceding financial years are required to be kept in good order.",
+            "b": "The books of accounts etc. relating to a period not less than 8 preceding financial years are required to be kept in good order.",
+            "c": "The books of accounts etc. relating to a period not less than 10 preceding financial years are required to be kept in good order.",
+            "d": "The books of accounts etc. relating to a period not less than 12 preceding financial years are required to be kept in good order."
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": 4
+        }
+      ],
+      "mcq_count": 4,
+      "unique_id": "16-CS-8"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "16",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "Sudeep and Ankit are very fast friend since long. They decided to run a service unit which will provide \"Financial and Investment Consultancy Services\". For this purpose they formed a limited liability partnership under the name M/s Etharkkum Advisors LLP on 17th April 2023. For this purpose, they prepared a Limited Liability Partnership Deed of which one of the clauses provides that a new partner may be admitted in the LLP with capital contribution which may be in kind or cash. Further new partner is also required to deposit the agreed amount of capital contribution within six months from the date of his admission.\n\nAfter some time, office of the firm was destroyed due to an earthquake and the LLP was in urgent need of an office premises and some funds for some renovation work.\n\nIt is also informed that M/s Etharkkum Advisors LLP approached Manoj on 1st January 2026 to join the firm as third partner. Manoj was out of India for the period from 1st September 2024 to 23rd December 2025. He agreed to join the LLP and also agreed to contribute his office premises at Sanjay Place, Palwal and funds of ₹ $5,00,000$ as Capital Contribution in the firm. Manoj joined the firm on 25th January 2026 as limited liability partner. The above said office premises was purchased by Manoj five years ago for ₹ 25,00,000 but the fair market value of this office on 25th January 2026 was ₹ $32,25,000$ and on 1st January 2026 was ₹ $30,00,000$. Manoj has provided his office to the firm with effect from his admission and promised to deposit the agreed amount of ₹ $5,00,000$ within six months as provided in the partnership deed. Before Manoj could deposit the amount with the firm, it was dissolved. Manoj denied to deposit the amount with the contention that he is liable only upto the amount contributed in the firm on the date of dissolution. A creditor of the firm sued Manoj to deposit the said amount so that the firm may pay off his liability.\n\nOn the basis of above facts and by applying applicable provisions of the Limited Liability Partnership Act, 2008 and the applicable Rules therein, choose the correct answer (one out of four) of the following: -\n\n1. Whether Manoj could be considered as resident or not as per the Limited Liability Act, 2008? (Chapter $\n\\mathbf{1 2}$ The Limited Liability Partnership Act, 2008)\n\n(a) Manoj could not be considered resident in India as he was not in India for 182 days in preceding one year\n\n(b) Manoj could not be considered resident in India as he was not in India for 120 days in preceding one year i.e. only for 33 days from 24th December 2025 to 25th January 2026\n\n(c) Manoj could not be considered as he was not in India for 182 days during the financial year\n\n(d) Manoj will be considered as resident in India as he was in India for 120 days during the financial year (2024-2025)\n\nAns: (d)\n\n2. What would be the worth of Capital Contribution by Manoj? (Chapter $\n\\mathbf{1 2}$ The Limited Liability Partnership Act, 2008)\n\n(a) ₹ 25,00,000\n\n(b) ₹ $32,25,000$\n\n(c) ₹ $37,25,000$\n\n(d) ₹ $35,00,000$\n\n\nAns: (c)\n\n3. Whether Manoj will be liable to contribute ₹ $5,00,000$ after dissolution of the firm? (Chapter 12 The Limited Liability Partnership Act, 2008)\n\n(a) Yes, because a partner is personally liable for the deficiency arising at the time of dissolution of LLP.\n\n(b) No, because a partner is never personally liable for the deficiency arose at the time of dissolution of LLP.\n\n(c) Yes, the partner is under obligation to contribute money also to LLP as per the agreement.\n\n(d) No, because a partner is personally liable only upto the amount contributed to the LLP on the date of dissolution of LLP.\n\nAns: (c)\n\n4. Finload Limited wants to raise funds for its upcoming project. Accordingly, it has issued private placement offer letters for issuing equity shares to 57 persons, of which six are qualified institutional buyers and remaining are individuals.\n\nChoose the correct statement as per the provisions of the Companies Act, 2013: (Chapter 3 Prospectus and Allotment of Securities)\n\n(a) Finload Limited company is a public limited company hence it can not issue shares through private placement.\n\n(b) Since, Finload Limited has made an offer or invitation to more than the prescribed number of persons, it shall be deemed to be an offer to the public and accordingly, it shall be governed by the provisions relating to prospectus.\n\n(c) Finload Limited has made an offer or invitation to less than the prescribed number of persons as qualified institutional buyers are not counted to calculate the prescribed limit.\n\n(d) Finload Limited cannot issue shares to qualified institutional buyers, as under private placement shares cannot be issued to qualified institutional buyers.\n\nAns: (b)\n\n5. Company X , a leading automobile manufacturer, has invested in Company Y , a start-up specializing in electric vehicle technology. Company X holds a $\n\\mathbf{2 5} \boldsymbol{\\%}$ stake in Company Y and actively participates in its strategic decisions. Based on the provisions of the Companies Act 2013 regarding associate companies, which of the following statements is correct? (Chapter 1 Preliminary)\n\n(a) Company X 's investment in Company Y does not qualify as an associate company because Company $X$ does not have control of at least $50 \\%$ of the total voting power.\n\n(b) Company Y qualifies as an associate company of Company X since Company X holds a $25 \\%$ stake in Company Y and actively participates in its strategic decisions.\n\n(c) Company Y cannot be considered an associate company of Company X because it is a start-up and does not meet the minimum criteria for significant influence.\n\n(d) Company X's investment in Company Y falls under the category of joint venture and does not qualify as an associate company according to the Companies Act 2013.\n\nAns: (b)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Whether Manoj could be considered as resident or not as per the Limited Liability Act, 2008? (Chapter $\n\\mathbf{1 2}$ The Limited Liability Partnership Act, 2008)",
+          "options": {
+            "a": "Manoj could not be considered resident in India as he was not in India for 182 days in preceding one year",
+            "b": "Manoj could not be considered resident in India as he was not in India for 120 days in preceding one year i.e. only for 33 days from 24th December 2025 to 25th January 2026",
+            "c": "Manoj could not be considered as he was not in India for 182 days during the financial year",
+            "d": "Manoj will be considered as resident in India as he was in India for 120 days during the financial year (2024-2025)"
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null,
+          "_serial": 5
+        },
+        {
+          "q_num": 2,
+          "question": "What would be the worth of Capital Contribution by Manoj? (Chapter $\n\\mathbf{1 2}$ The Limited Liability Partnership Act, 2008)",
+          "options": {
+            "a": "₹ 25,00,000",
+            "b": "₹ $32,25,000$",
+            "c": "₹ $37,25,000$",
+            "d": "₹ $35,00,000$"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": 6
+        },
+        {
+          "q_num": 3,
+          "question": "Whether Manoj will be liable to contribute ₹ $5,00,000$ after dissolution of the firm? (Chapter 12 The Limited Liability Partnership Act, 2008)",
+          "options": {
+            "a": "Yes, because a partner is personally liable for the deficiency arising at the time of dissolution of LLP.",
+            "b": "No, because a partner is never personally liable for the deficiency arose at the time of dissolution of LLP.",
+            "c": "Yes, the partner is under obligation to contribute money also to LLP as per the agreement.",
+            "d": "No, because a partner is personally liable only upto the amount contributed to the LLP on the date of dissolution of LLP."
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": 7
+        },
+        {
+          "q_num": 4,
+          "question": "Finload Limited wants to raise funds for its upcoming project. Accordingly, it has issued private placement offer letters for issuing equity shares to 57 persons, of which six are qualified institutional buyers and remaining are individuals. Choose the correct statement as per the provisions of the Companies Act, 2013: (Chapter 3 Prospectus and Allotment of Securities)",
+          "options": {
+            "a": "Finload Limited company is a public limited company hence it can not issue shares through private placement.",
+            "b": "Since, Finload Limited has made an offer or invitation to more than the prescribed number of persons, it shall be deemed to be an offer to the public and accordingly, it shall be governed by the provisions relating to prospectus.",
+            "c": "Finload Limited has made an offer or invitation to less than the prescribed number of persons as qualified institutional buyers are not counted to calculate the prescribed limit.",
+            "d": "Finload Limited cannot issue shares to qualified institutional buyers, as under private placement shares cannot be issued to qualified institutional buyers."
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": 8
+        },
+        {
+          "q_num": 5,
+          "question": "Company X , a leading automobile manufacturer, has invested in Company Y , a start-up specializing in electric vehicle technology. Company X holds a $\n\\mathbf{2 5} \boldsymbol{\\%}$ stake in Company Y and actively participates in its strategic decisions. Based on the provisions of the Companies Act 2013 regarding associate companies, which of the following statements is correct? (Chapter 1 Preliminary)",
+          "options": {
+            "a": "Company X 's investment in Company Y does not qualify as an associate company because Company $X$ does not have control of at least $50 \\%$ of the total voting power.",
+            "b": "Company Y qualifies as an associate company of Company X since Company X holds a $25 \\%$ stake in Company Y and actively participates in its strategic decisions.",
+            "c": "Company Y cannot be considered an associate company of Company X because it is a start-up and does not meet the minimum criteria for significant influence.",
+            "d": "Company X's investment in Company Y falls under the category of joint venture and does not qualify as an associate company according to the Companies Act 2013."
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": 9
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "16-CS-14"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "16",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "Tejas Infra Limited was incorporated by Tejasvi Singh and his wife Meenakshi along with seven other family members in the year 2001 with an aim to undertake infrastructure projects relating to transportation in the country. The company had successfully completed construction of roads and canals in Delhi, UP and Chandigarh and rose to become one of the prominent construction companies in India.\n\nThe Registered Office of the company is situated in Cohnaught Place, New Delhi with a capital base of ₹100 crore divided into ten crore equity shares of ₹10 each. The company has eight directors of which three are independent directors. In the year 2019, the company got new projects from the State Government of Punjab to build four flyovers and underpasses in different cities of Punjab.\n\nIn order to increase its capital base, Tejas Infra Limited decided to issue 1,00,000 preference shares of ₹100 each to the existing shareholders. For this, purpose it was decided to increase the Authorised Capital by $₹ 500,00,000$ divided into $5,00,000$ shares of $₹ 100$ each.\n\nThe projects went off well and the turnover rose to the tune of ₹3600 crore in the immediately preceding financial year 2024-25. The net worth of the company stood at ₹550 crore.\n\nAs they crossed the threshold limit in the immediately preceding financial year 2024-25, a Board level Committee headed by one of the independent directors, namely, Paritosh was constituted to allocate budget, review the progress and provide guidance on various Corporate Social Responsibility (CSR) and sustainability initiatives. It was decided to spend the requisite amount towards skill development, vocational training, provision of safe drinking water facility, etc. Lokesh, one of the directors, is also a member of this Corporate Social Responsibility Committee. He is in favour of Janta Andolan Manch, a political party. This party is quite prominent in undertaking social work. As per his advice, the Board by a unanimous resolution resolved to contribute $₹ 5,00,000$ to the said political party i.e. Janta Andolan Manch and to treat such contribution as part of CSR activity.",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "From the case scenario, it is evident that Tejas Infra Limited decided to issue 1,00,000 preference shares of ₹ 100 each to the existing shareholders. From the options given below choose the one which indicates the maximum period which is permitted to the company for redemption of preference shares. (Chapter 4 Share Capital and Debentures)",
+          "options": {
+            "a": "Tejas Infra Limited being involved in infrastructural activities is permitted to specify maximum period of thirty-five years for redemption of preference shares subject to the condition that it shall redeem minimum 20% of preference shares per year commencing from 31st year onwards or earlier, on proportionate basis at the option of preference shareholders.",
+            "b": "Tejas Infra Limited being involved in infrastructural activities is permitted to specify maximum period of thirty-five years for redemption of preference shares subject to the condition that it shall redeem minimum 10% of preference shares per year commencing from 26th year onwards or earlier, on proportionate basis at the option of preference shareholders.",
+            "c": "Tejas Infra Limited being involved in infrastructural activities is permitted to specify maximum period of thirty years for redemption of preference shares subject to the condition that it shall redeem minimum $10 %$ of preference shares per year commencing from 21st year onwards or earlier, on proportionate basis, at the option of preference shareholders.",
+            "d": "Tejas Infra Limited being involved in infrastructural activities is permitted to specify maximum period of thirty years for redemption of preference shares subject to the condition that it shall redeem minimum $20 %$ of preference shares per year commencing from 26th year onwards or earlier, on proportionate basis, at the option of preference shareholders."
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": 10
+        },
+        {
+          "q_num": 2,
+          "question": "The case scenario states that the turnover of Tejas Infra Limited rose to the tune of ₹ 3600 crore and net worth of the company stood at ₹ 550 crore in the immediately preceding financial year 2024-25 which required formation of CSR Committee. What is the third criterion which if crossed shall also require that a CSR Committee be formed. Choose the correct option from those stated below: (Chapter 9 Accounts of Companies)",
+          "options": {
+            "a": "The third criterion which also requires formation of CSR Committee is that the company has net profit of ₹ two crore or more in the immediately preceding financial year.",
+            "b": "The third criterion which also requires formation of CSR Committee is that the company has net profit of ₹ three crore or more in the immediately preceding financial year.",
+            "c": "The third criterion which also requires formation of CSR Committee is that the company has net profit of ₹ five crore or more in the immediately preceding financial year.",
+            "d": "The third criterion which also requires formation of CSR Committee is that the company has net profit of ₹ six crore or more in the immediately preceding financial year."
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": 11
+        },
+        {
+          "q_num": 3,
+          "question": "According to the legal provisions, it is mandatory to redeem preference shares at the stipulated time. Keeping in view the above case scenario, which source is required to be used by Tejas Infra Limited for the redemption of outstanding preference shares (Chapter 4 Share Capital and Debentures)",
+          "options": {
+            "a": "Tejas Infra Limited is required to redeem preference shares out of the profits which would otherwise be available for dividend.",
+            "b": "Tejas Infra Limited is required to redeem preference shares out of the proceeds of a fresh issue of shares made for the purposes of such redemption.",
+            "c": "Both (a) and (b).",
+            "d": "Tejas Infra Limited is required to redeem preference shares out of its Capital Redemption Reserve."
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": 12
+        },
+        {
+          "q_num": 4,
+          "question": "While constituting a CSR Committee, how many minimum directors are required to be appointed by Tejas Infra Limited: (Chapter 9 Accounts of Companies)",
+          "options": {
+            "a": "CSR Committee formed by Tejas Infra Limited shall have minimum two directors.",
+            "b": "CSR Committee formed by Tejas Infra Limited shall have minimum three directors of which at least one director shall be an independent director.",
+            "c": "CSR Committee formed by Tejas Infra Limited shall have minimum four directors of which at least one director shall be an independent director.",
+            "d": "CSR Committee formed by Tejas Infra Limited shall have minimum four directors of which at least two directors shall be independent director."
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": 13
+        }
+      ],
+      "mcq_count": 4,
+      "unique_id": "16-CS-15"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "16",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "## CS 51 <br> (PYP 4 Marks May'25)\n\n\nRohit and Anushka after passing out the CA examination, incorporated an LLP to work as the practicing Chartered Accountant. Rohit and Anushka were also titled as designated partners. After sometime, Rohit got an opportunity to provide consultancy services on an ongoing basis to a company based in Singapore. Rohit remained in India for 90 days during the Financial Year 2025-26. The LLP continues its operations from India with Anushka whereas Rohit participates in decision making remotely.\n\nBased on the facts given in the above case and by applying the relevant provisions of the LLP Act, 2008 and the applicable rules therein, choose the correct answer of the following MCQs\n\n\n1. As per the LLP Act, 2008, the term resident in India means a person who has stayed in India for a period of: (chapter:12 The Limited Liability Partnership Act, 2008)\n\n(a) not less than one hundred and twenty days during the financial year\n\n(b) not less than sixty days during the financial year\n\n(c) not less than one hundred days during preceding one year\n\n(d) not less than ninety days during preceding one year\n\n\n## Ans: (a)\n\n\n2. As per the LLP Act, 2008, whether above LLP fulfills the requirements of designated partner? (chapter:12 The Limited Liability Partnership Act, 2008)\n\n(a) No, as both of the designated partners Rohit and Anushka should be resident in India\n\n(b) No, as both of the designated partners should be non-resident\n\n(c) Yes, as Rohit is a resident of India as defined under the LLP Act, 2008\n\n(d) Yes, as at least one of the designated partners should be resident in India and Anushka is a resident of India\n\nAns: (d)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "As per the LLP Act, 2008, the term resident in India means a person who has stayed in India for a period of: (chapter:12 The Limited Liability Partnership Act, 2008)",
+          "options": {
+            "a": "not less than one hundred and twenty days during the financial year",
+            "b": "not less than sixty days during the financial year",
+            "c": "not less than one hundred days during preceding one year",
+            "d": "not less than ninety days during preceding one year"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null,
+          "_serial": 14
+        },
+        {
+          "q_num": 2,
+          "question": "As per the LLP Act, 2008, whether above LLP fulfills the requirements of designated partner? (chapter:12 The Limited Liability Partnership Act, 2008)",
+          "options": {
+            "a": "No, as both of the designated partners Rohit and Anushka should be resident in India",
+            "b": "No, as both of the designated partners should be non-resident",
+            "c": "Yes, as Rohit is a resident of India as defined under the LLP Act, 2008",
+            "d": "Yes, as at least one of the designated partners should be resident in India and Anushka is a resident of India"
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null,
+          "_serial": 15
+        }
+      ],
+      "mcq_count": 2,
+      "unique_id": "16-CS-51"
+    }
+  ],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": true,
+      "total_marks": 14,
+      "chapter_number": "2",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Silk Segment Private Ltd. (SSPL) is a wholly owned subsidiary of Silk Block Ltd. (SBL) a listed public limited company. The Board of Directors of Silk Segment Private Ltd. have collectively decided upon the proposal to grant loans of ` 15,00,000 and ` 20,00,000 to Mr. Sohan and Ms. Subarna respectively for the purchase of fully paid-up shares in Silk Segment Private Ltd. Mr. Sohan is the Deputy Marketing Manager of Silk Segment Private Ltd. with a monthly salary of ` 1,00,000; whereas Ms. Subarna, a qualified Chartered Accountant, is the Chief Financial Officer of Silk Segment Private Ltd. with a monthly salary of ` 2,00,000. In view of provisions of the Companies Act, 2013, decide: (i) Whether the proposed loans to Mr. Sohan as well as Ms. Subarna can be disbursed by the company keeping in view that Silk Segment is a private limited company? Whether the answer would be different in case only 25% shares of SSPL are held by SBL?",
+          "answer": "According to section 2(71) of the Companies Act, 2013, (the Act) a Public Company means a company which— (a) is not a Private Company; and (b) has a minimum paid-up share capital as may be prescribed: Provided that, a company which is a subsidiary of a company, not being a private company, shall be deemed to be a public company for the purposes of this Act even where such subsidiary company continues to be a private company in its Articles. As per section 2(51) of the Act, Key Managerial Personnel (KMP), in relation to a company, includes the Chief Financial Officer. According to section 67(2) of the Companies Act, 2013, Public Company shall not give any financial assistance:\n1. Whether directly or indirectly and whether by means of a loan, guarantee, the provision of security or otherwise.\n2. For the purpose of, or in connection with, a purchase or subscription made or to be made, by any person of or for any shares in the company or in its holding company. As per section 67(3) of the Act, a company may provide the financial assistance, in case of lending money by a company to its employees (other than its directors or key managerial personnel), not exceeding six-month salary of the employees to enable them to buy or,\nsubscribe fully paid shares in the company or its holding company and to hold them by way of beneficial ownership. In the given question, Silk Segment Private Ltd. (SSPL) is a wholly owned subsidiary of Silk Block Ltd. (SBL). Thus, SSPL will also be deemed as a public company [by virtue of Section 2(71)]. Hence, considering the above provisions we can answer the following to the questions asked: (i) Mr. Sohan is the Deputy Marketing Manager of SSPL; hence loan may be provided to him upto the limit of his 6 months’ salary i.e. ` 6,00,000. Thus, proposal to grant loan of ` 15,00,000 to Mr. Sohan for purchase of shares in SBL is not valid. Ms. Subarna is a KMP (being the Chief Financial Officer of SSPL), hence, proposal to grant loan to her for purchase of shares in SBL is not valid. (ii) Section 67 of the Act shall not apply to private companies in whose share capital no other body corporate has invested any money. In case where Silk Block Ltd. (SBL) held only 25% shares of Silk Segment Private Ltd. (SSPL), the latter would not be termed as a subsidiary of the former and hence would not be a deemed public company. It will still be regarded as a private limited company. Further, SBL is holding shares in SSPL, thus SSPL will not fall in the exempted class of private companies and accordingly, the provision of section 67(3) of the Companies Act, 2013 shall apply. In view of the above provisions, the answer would remain the same in case only 25% shares of SSPL are held by SBL.",
+          "chapter_number": "11",
+          "chapter_name": "LIMITED LIABILITY PARTNERSHIP ACT, 2008",
+          "unique_id": "BQ-7"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "MNO limited has the following equity share capital –\n| Class      | Description                                           | Amount      |\n|------------|-------------------------------------------------------|-------------|\n| Class-1    | Equity Share Capital – 3,00,000 equity shares of ₹ 10 each. <br> (1 voting right for every 1 share) | ₹ 30,00,000 |\n| Class-2    | Equity share Capital – 50,000 equity shares of ₹ 10 each. <br> (1 voting right for every 5 shares) | ₹ 5,00,000  |\nAt the time of issue, the company had fulfilled all the conditions related to the issue of equity share capital. The company wants to vary the voting rights of class 2 equity share capital– 1 voting right for every 5 shares to 1 voting right for every 10 shares. The Company’s Memorandum and Articles of Association have given the company the power to make the variation. The holders of 40,000 equity shares have their consent in writing for this variation. Out of dissenting shareholders, the holders of 4,500 equity shares want to apply to the Tribunal against the company’s action. Examine, with reference to the relevant provisions of the Companies Act, 2013-\nWhether a company can change the rights of its shareholders?\nWhether the dissenting shareholders can apply to the Tribunal?",
+          "answer": "Section 48 of the Companies Act, 2013, allows the variation of shareholders’ rights, if three conditions have been met. First - There should be a provision in the memorandum or articles of the company entitling it to vary such class rights, in absence of same; the terms of issue of the shares of that class not prohibiting such a variation.\nSecond - The holders of at-least 75% of the issued shares of that class must have given their consent in writing or pass a special resolution sanctioning the variation at a separate class meeting. Proviso to sub-section 1, provides if variation by one class of shareholders affects the rights of any other class of shareholders, the consent of threefourths of such other class of shareholders shall also be obtained and the provisions of this section shall apply to such variation. Third – Where the holders of not less than10 per cent of the issued shares of a class did not consent to such variation or vote in favour of the special resolution for the variation, they may apply to the Tribunal to have the variation cancelled and where any such application is made the variation shall not have effect unless and until it is confirmed by the Tribunal.\nIn the given question, 40,000 equity shareholders of Class 2 have given their consent in writing for the variation. Since, 80% (40,000/ 50,000) of the shareholders have given the consent, the company can change the rights of Class 2 shareholders provided such change in the rights of Class 2 shareholders is not affecting the rights of any other class of shareholders i.e. Class 1 shareholders in this case.\nTotal number of dissenting shareholders= 50,000- 40,000= 10,000. Minimum number of shareholders who may apply to the Tribunal and then variation shall not take effect unless and until it is confirmed by the Tribunal= 10% of 50,000=5,000. In the given question, since less than 5,000 (here 4,500) shareholders are intending to apply to Tribunal, hence, they cannot apply.",
+          "chapter_number": "4",
+          "chapter_name": "SHARE CAPITAL AND DEBENTURES",
+          "unique_id": "BQ-8"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Question 19 (PYP 4 Marks Sep'25) - Heavy Loaders Ltd. is a public limited company incorporated in India and engaged in the manufacture of loader vehicles used for commercial construction purposes. It is planning to expand its business outside India and hence has come in contact with Mr. Fred, an American citizen working as an agent of companies planning to secure business in USA. Mr. Fred has informed the directors of Heavy Loaders Ltd. that another Indian company engaged in the commercial construction business has a requirement of 25 loader vehicles for its wholly owned American subsidiary company. Heavy Loaders Ltd. supplied the required loader vehicles with an invoice value of USD 350,000 in exchange of allotment of equity capital of the same worth in the American company. Mr. Fred has asked for an export agent commission of 15% of the invoice value of goods supplied from Heavy Loaders Ltd. to which Heavy Loaders Ltd. has refused the payment on grounds that maximum commission that can be paid can be 10% of the invoice value of goods supplied. Considering the provisions of the Foreign Exchange Management Act, 1999 decide: (i) Whether the above transaction of supplying machines in exchange of equity investments can be treated as 'export' keeping in mind the absence of monetary factor in the transaction? (ii) Whether the rate of export agent commission demanded by Mr. Fred be paid or confined to only 10% of the invoice value of goods supplied?",
+          "answer": "(i) According to section 2(I) of the Foreign Exchange Management Act, 1999, 'Export', with its grammatical variations and cognate expressions means: (1) the taking out of India to a place outside India any goods. (2) provision of services from India to any person outside India. In the given question, Heavy Loaders Ltd., an Indian company, supplied loader vehicles with an invoice value of USD 350,000 in consideration for the allotment of equity shares in an American Company, which is a wholly owned subsidiary of an Indian Company. Since, the transaction involves 'the taking out of India to a place outside India the loader vehicles', the transaction will be treated as 'export'. (ii) As per Schedule I of the Foreign Exchange Management (Current Account Transactions) Rules, 2000, drawl of foreign exchange is prohibited for Payment of commission on exports made towards equity investment in Joint Ventures/ Wholly Owned Subsidiaries abroad of Indian companies. Hence, the payment of any commission by Heavy Loaders Ltd. to Mr. Fred is prohibited in the given situation.",
+          "chapter_number": "15",
+          "chapter_name": "THE FOREIGN EXCHANGE MANAGEMENT ACT, 1999",
+          "unique_id": "15-T-19"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "3",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Spark Services Limited issued a prospectus inviting public offer of securities on 18th June, 2024. The prospectus mentioned that Mr. T is one of the Directors of the Company. Mr. T is a famous social worker who helps in educating the poor children in Rajasthan. The prospectus also mentioned that a certain percentage of funds raised will be utilized towards that community service. Mr. C was impressed by these statements and subscribed to the shares of the company. He was allotted 1000 shares of the company. He subsequently sold 250 shares to Mr. D. On 15th December, 2024, he came to know that Mr. T was not a director and the company never had any intention of doing community service. Mr. C and Mr. D want to rescind the contract. Referring to the provisions of the Companies Act, 2013, examine whether Mr. C and Mr. D can rescind the contract.",
+          "answer": "As per Section 34 of the Companies Act, 2013, where a prospectus, issued, circulated or distributed, includes any statement which is untrue or misleading in form or context in which it is included or where any inclusion or omission of any matter is likely to mislead, every person who authorizes the issue of such prospectus shall be liable under section 447 of the Companies Act, 2013. Right of Recission A person who has purchased shares from the company on the basis of the prospectus containing untrue and misleading statement of material facts is entitled to apply to the court for the rescission of the contract, under the relevant provisions of the Indian Contract Act 1872. Exceptions - When right of rescission is not available? As per the Contract Act, 1872, right to rescind allotment of shares will not be available to the subsequent purchasers of shares from the market. In the given question, Mr. C subscribed to 1,000 shares of Spark Services Limited (on the basis of a prospectus which provided false statements related to Mr. T being one of the directors and that the company intended to utilize certain raised funds towards community service). Mr. D purchased 250 shares from Mr. C (i.e. he did not purchase shares on the basis of the prospectus containing untrue and misleading statement). In the light of the above provisions Mr. C can rescind the contract as he purchased shares on the basis of the false statements in prospectus. However, Mr. D cannot rescind the contract.",
+          "chapter_number": "3",
+          "chapter_name": "PROSPECTUS AND ALLOTMENT OF SECURITIES",
+          "unique_id": "BQ-9"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Enumerate the amounts which when received by a company in the ordinary course of business are not to be considered as deposits. (MTP 4 Marks March '23, SM)",
+          "answer": "According to Rule 2 (1) (c) (xii) of the Companies (Acceptance of Deposits) Rules, 2014, following amounts if received by a company in the course of, or for the purposes of, the business of the company, shall not be considered as deposits:\n\n(a) any amount received as an advance for the supply of goods or provision of services accounted for in any manner whatsoever to be appropriated within a period of three hundred and sixty-five days from the date of acceptance of such advance:\n\nHowever, in case any advance is subject matter of any legal proceedings before any court of law, the time limit of three hundred and sixty-five days shall not apply.\n\n(b) any amount received as advance in connection with consideration for an immovable property under an agreement or arrangement. However, such advance is required to be adjusted against such property in accordance with the terms of agreement or arrangement;\n\n(c) any amount received as security deposit for the performance of the contract for supply of goods or provision of services;\n\nd) any amount received as advance under long term projects for supply of capital goods except those covered under item (b) above;\n\n(e) any amount received as an advance towards consideration for providing future services in the form of a warranty or maintenance contract as per written agreement or arrangement, if the period for providing such services does not exceed the period prevalent as per common business practice or five years, from the date of acceptance of such service whichever is less;\n\n(f) any amount received as an advance and as allowed by any sectoral regulator or in accordance with directions of Central or State Government;\n\ng) any amount received as an advance for subscription towards publication, whether in print or in electronic to be adjusted against receipt of such publications;\n\nHowever, if the amount received under items (a), (b) and (d) above becomes refundable (with or without interest) due to the reasons that the company accepting the money does not have necessary permission or approval, wherever required, to deal in the goods or properties or services for which the money is taken, then the amount received shall be deemed to be a deposit under these rules.\n\nFurther, for the purposes of this sub-clause the amount shall be deemed to be deposits on the expiry of fifteen days from the date it became due for refund.",
+          "chapter_number": "5",
+          "chapter_name": "ACCEPTANCE OF DEPOSITS BY COMPANIES",
+          "unique_id": "5-T-1"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Explain various provisions applicable to rules or bye-laws being made after previous publications as enumerated in Section-23 of the General Clauses Act, 1897. (MTP 4 Marks Aug'24,MP[5],PYP 4 Marks Sep'25)",
+          "answer": "Provisions applicable to making of rules or bye-laws after previous publications [Section 23 of the General Clauses Act, 1897]:\n\nWhere, by any Central Act or Regulation, a power to make rules or bye- laws is expressed to be given subject to the condition of the rules or bye-laws being made after previous publication, then the following provisions shall apply, namely: -\n\n(1) Publish of proposed draft rules/ bye- laws: The authority having power to make the rules or bye-laws shall, before making them, publish a draft of the proposed rules or bye-laws for the information of persons likely to be affected thereby;\n\n(2) To publish in the prescribed manner: The publication shall be made in such manner as that authority deems to be sufficient, or, if the condition with respect to previous publication so requires, in such manner as the Government concerned prescribes;\n\n(3) Notice annexed with the published draft: There shall be published with the draft a notice specifying a date on or after which the draft will be taken into consideration;\n\n(4) Consideration on suggestions/objections received from other authorities: The authority having power to make the rules or bye- laws, and, where the rules or bye-laws are to be made with the sanction, approval or concurrence of another authority, that authority also shall consider any objection or suggestion which may be received by the authority having power to make the rules or bye-laws from any person with respect to the draft before the date so specified;\n\n(5) Notified in the official gazette: The publication in the Official Gazette of a rule or bye-law purporting to have been made in exercise of a power to make rules or bye-laws after previous publication shall be conclusive proof that the rule or bye-laws have been duly made.",
+          "chapter_number": "13",
+          "chapter_name": "THE GENERAL CLAUSES ACT, 1897",
+          "unique_id": "13-T-48"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "3",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Examine the validity of the following statement with reference to the provisions of the Companies Act, 2013. \"The Articles of Association of X Limited contain a provision that the underwriting commission may be paid up to $4 \\%$ of the issue price of the shares. However, the Board of Directors have decided to pay the underwriting commission of $5 \\%$ to Deal \\& Co., the underwriters.\" (SM)",
+          "answer": "Section 40 (6) of the Companies Act 2013, provides that a company may pay commission to any person in connection with the subscription to its securities, subject to the conditions prescribed under the Companies (Prospectus and Allotment of Securities) Rules, 2014. Rule 13 states that the rate of commission paid or agreed to be paid shall not exceed, in case of shares, five percent $(5 \\%)$ of the price at which the shares are issued or a rate authorised by the articles, whichever is less.\n\nIn the given problem, the articles of X Ltd. have prescribed 4\\% underwriting commission but the directors decided to pay $5 \\%$ underwriting commission.\n\nTherefore, the decision of the Board of Directors to pay $5 \\%$ underwriting commission to the underwriters (i.e. Deal \\& Co.) is invalid.",
+          "chapter_number": "3",
+          "chapter_name": "PROSPECTUS AND ALLOTMENT OF SECURITIES",
+          "unique_id": "3-T-15"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Adhar Ltd. and Mittal Ltd. both took loans from different banks and provided security against them. Adhar Ltd. mortgaged its factory building and machinery, while Mittal Ltd. pledged its stock-in-trade, raw materials, and accounts receivable. Specify the type of charges created in both cases. Justify your answer in light with the relevant provisions under the Companies Act, 2013. Also, analyze what would happen if both companies fail to repay their loans.",
+          "answer": "A charge may be either fixed or floating. A ‘Fixed Charge’ is a charge on specific assets of the borrowing company. These assets are of permanent nature like land and building, machinery, office premises, etc. Further, these assets are identified at the time of creation of charge. A fixed charge is usually created by way of mortgage or by deposit of title deeds. When a charge is created on such assets, the charge remains ‘fixed’ and the borrowing company is not permitted to sell such assets during the period of charge though it may use them. Assets under fixed charge can be sold only with the permission or consent of the charge-holder. Floating Charge A ‘Floating Charge’ is created on assets or a class of assets which are of fluctuating or changing in nature- like raw material, stock-in-trade, debtors, etc. It is a charge upon assets both present and future. The assets under floating charge keep on changing because the borrowing company is permitted to use them for trading or producing final goods for sale. In the given scenario, following nature of charges are created w.r.t the following companies:\n1. Fixed Charge (Adhar Ltd.): The company mortgaged its factory building and machinery, which are permanent, identifiable assets. Since these assets do not change frequently, the bank created a fixed charge over them. The company cannot sell these assets without the bank’s approval during the loan tenure. In case the company fails to repay the loan, the bank can take possession of the factory and machinery to recover its dues.\n2. Floating Charge (Mittal Ltd.): The company pledged stock-in-trade, raw materials, and accounts receivable, which are changing in nature.The bank created a floating charge, allowing Mittal Ltd. to use, sell, and replenish these assets in the normal course of business. In case if the company repays the loan, the floating charge automatically ceases. However, if the company fails to repay, the floating charge crystallizes, meaning:\nThe bank converts the floating charge into a fixed charge.\nMittal Ltd. loses control over its assets.\nThe bank can seize and sell the assets to recover its loan amount. Hence in the above case, Adhar Ltd., loan is secured by a fixed charge, limiting its ability to dispose of the secured assets where as in the case of Mittal Ltd., loan is secured by a floating charge, allowing normal business operations unless a default occurs. If both companies default, the bank can take control of the respective assets and sell them to recover the loans.",
+          "chapter_number": "3",
+          "chapter_name": "PROSPECTUS AND ALLOTMENT OF SECURITIES",
+          "unique_id": "BQ-10"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "When can the Preamble be used as an aid to interpretation of a statute? (MTP 4 Marks Mar'25) (MTP 4 Marks July'24, MP[4])",
+          "answer": "While the Preamble can be used to know the aims and objects of the legislation it cannot be used to control or qualify the precise and unambiguous language of an enactment. The preamble is the key to the mind of the maker of the law, but it cannot override in order to enlarge or restrict the enacting provision of the Act. A provision contained in the Act cannot be considered as invalid because they do not accord with the preamble, which is only a brief summary of legislative objectives behind the Act, and if there is any conflict between the preamble and any provision of an Act, the provision prevails.\n\nThe preamble merely affords help in the matter of construction if there is any ambiguity. Where the language of the Act is clear, the court is bound to give it effect.\n\nSituation 1: Where there is any ambiguity in the words of an enactment the assistance of the preamble may be taken to resolve the conflict.\n\nSituation 2: Where the words of an enactment appear to be too general in scope or application then courts may resort to the preamble to determine the scope or limited application for which the words are meant.",
+          "chapter_number": "14",
+          "chapter_name": "INTERPRETATION OF STATUTES",
+          "unique_id": "14-T-25"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "9",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "With reference to the relevant provisions of the Companies Act, 2013, examine and advise whether New Sales Pvt. Limited is permitted to revise its financial statements for the financial year 2022-23. (PYP 3 Marks Sep'24, RTP Sep'25, Jan'26 MP[8])",
+          "answer": "As per section 131 of the Companies Act, 2013, if it appears to the directors of a company that: a. the financial statement of the company does not comply with the provisions of section 129; or b. the report of the Board does not comply with the provisions of section 134 they may prepare revised financial statement or board's report in respect of any of the 3 preceding financial years after obtaining the approval of the Tribunal on an application made by the company within fourteen days of the decision taken by the Board. A certified copy of the order of the Tribunal shall be filed with the Registrar of Companies within 30 days of the date of receipt of the certified copy. In the question given, Mr. Shyam has advised the Board of New Sales Pvt. Limited to revise the financial statements for the year 2022-23. The Board of Directors can do so as the said financial statements are pertaining to not later than three preceding financial years (from 2025-2026) and by obtaining the approval of the Tribunal within fourteen days of the decision taken by the Board. Exam insights: Students often miss linking voluntary revision of financial statements to Tribunal approval under section 131. Always mention that Board's revision requires Tribunal sanction to secure full marks.",
+          "chapter_number": "9",
+          "chapter_name": "DECLARATION AND PAYMENT OF DIVIDEND",
+          "unique_id": "9-T-13"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Describe the legal requirements as to the reservation of a name as per relevant provisions under the Limited Liability Partnership Act, 2008. (RTP sep'25)",
+          "answer": "Under section 16 of the Limited Liability Partnership (LLP) Act, 2008, a person may apply to the Registrar for the reservation of a name in either of the following circumstances:\n\n(a) As the name of a proposed LLP, or\n\n(b) As the name to which an existing LLP proposes to change its name.\n\nThe application must be made in the prescribed form and manner along with the prescribed fee.\n\nUpon receiving such an application, the Registrar may, if satisfied that the name is not one liable to be rejected under section 15(2) of the LLP Act, reserve the name for a period of three months from the date of intimation by the Registrar.\n\nAs per section 15(2), no LLP shall be registered by a name which, in the opinion of the Central Government is-\n\n(a) undesirable; or\n\n(b) identical or too nearly resembles to that of any other LLP or a company or a registered trademark of any other person under the Trademarks Act, 1999.",
+          "chapter_number": "12",
+          "chapter_name": "AUDIT \\& AUDITORS",
+          "unique_id": "12-T-15"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "A clause that begins with the words 'notwithstanding anything contained' is a clause, that has the effect of making the provision prevail over others. It can operate at four levels. Explain any two of them. (PYP 4 Marks Nov'23)",
+          "answer": "A clause that begins with the words 'notwithstanding anything contained' is called a non-obstante clause. Unlike the 'subject to' clause, the notwithstanding clause has the effect of making the provision prevail over others. When this term is used then the clause will prevail over the other provision(s) mentioned therein. (K. Parasurammaiah Vs. Pakari Lakshman AIR 1965 AP 220)\n\nA notwithstanding clause can operate at four levels.\n\n| S. No. | Clause | Effect |\n| :--- | :--- | :--- |\n| 1. | Notwithstanding anything contained in another section or sub- section of that statute. | The clause will override such other section(s) / sub-section(s) |\n| 2. | Notwithstanding anything contained in a statute. | The clause will override the entire enactment. |\n| 3. | Notwithstanding anything contained in specific section(s) or sub-section(s) or all the provisions contained in another statute. | The clause will prevail over the other enactment. |\n| 4. | Notwithstanding anything contained in any other law for the time being in force. | The clause will override all other laws. |",
+          "chapter_number": "14",
+          "chapter_name": "INTERPRETATION OF STATUTES",
+          "unique_id": "14-T-11"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "8",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Green Ltd., a power generating company, attracted numerous investors due to its strong growth potential. Mr. Arju, one of the investor purchased a significant number of shares in Green Ltd., expecting regular returns in the form of dividends. Over the years, Green Ltd. performed well and consistently declared dividends. However, in 2023-2024, despite reporting profits, the board of directors decided not to distribute dividends, citing the need to reinvest earnings for future expansion. Seeing this, Mr. Arju argued that as a shareholder, he had an absolute right to receive dividends. He believed that since the company was in profitable state, dividends should be mandatorily distributed. He raised his concerns at the Annual General Meeting (AGM), questioning the board’s decision. Looking at the given scenario, assess the argument of Mr. Arju in the light and support of the relevant legislation.",
+          "answer": "Section 2(35) of the Companies Act, 2013, defines the term “dividend” as any distribution of profits by a company to its shareholders, whether in cash or in kind, out of free reserves available for the purpose. The above statement implies that shareholders do not have an inherent or guaranteed right to receive dividends from a company. The decision to declare dividends lies with the board of directors, subject to shareholder approval and legal provisions under the Companies Act, 2013. The board of directors has the authority to recommend dividends. If they believe distributing dividends is not in the best interest of the company, they may choose not to declare them, even if the company has sufficient profits. Shareholders cannot force the company to declare dividends. A company can declare dividends only out of: a. Current year’s profits after providing for depreciation.\nb. Previous years profits transferred to reserves. c. Money provided by the government (in case of guaranteed companies). Before declaring a dividend, the company must set aside a specified percentage of profits in reserves if required. Shareholders can approve the dividend recommended by the board at the Annual General Meeting (AGM), but they cannot demand a higher dividend. The board may declare an interim dividend before the final accounts are prepared if they find it appropriate. If dividends remain unpaid for 30 days, the company must transfer them to a separate Unpaid Dividend Account. Thereby, the distribution of dividends is subject to multiple considerations, including the company’s profitability, legal compliance, and the board’s discretion. The Companies Act, 2013, ensures that dividends are declared in a financially responsible manner, protecting both the company and its investors. Since shareholders cannot demand dividends as a matter of right, it is evident that dividends are not an absolute right but a discretionary benefit provided when the company deems it appropriate. Validity of the Argument: As per the stated facts, Mr. Arju argued that as a shareholder, he had an absolute right to receive dividends. He believed that since the company was in profitable state, dividends should be mandatorily distributed. His expectation of dividends was based on his investment, but the law does not guarantee an absolute right to dividends. The board has the authority to withhold dividends if it deems reinvestment necessary for the company’s long-term growth. Therefore, while shareholders have a reasonable expectation of returns, they do not possess an unconditional entitlement to dividends. Therefore, the argument of Mr. Arju is invalid in the light of the legal provision given in section 123 of the Companies Act, 2013.",
+          "chapter_number": "8",
+          "chapter_name": "DECLARATION AND PAYMENT OF DIVIDEND",
+          "unique_id": "BQ-11"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Define the term 'Small limited liability partnership' as per the provisions of the Limited Liability Partnership Act, 2008. (MTP 5 Marks July'24, Dec'24,MP[4],MP[7])",
+          "answer": "According to section 2(1)(ta) of the Limited Liability Partnership Act, 2008, small limited liability partnership means a limited liability partnership:\n\n(i) the contribution of which, does not exceed twenty-five lakh rupees or such higher amount, not exceeding five crore rupees, as may be prescribed; and\n\n(ii) the turnover of which, as per the Statement of Accounts and Solvency for the immediately preceding financial year, does not exceed forty lakh rupees or such higher amount, not exceeding fifty crore rupees, as may be prescribed; or\n\n(iii) which meets such other requirements as may be prescribed and fulfils such terms and conditions as may be prescribed.",
+          "chapter_number": "12",
+          "chapter_name": "AUDIT \\& AUDITORS",
+          "unique_id": "12-T-1"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Question 56 (PYP 4 Marks Nov '22) - Mr. A (landlord) staying in Delhi, rented his flat of Bengaluru to Mr. B (tenant) for Rs.20,000 per month to be paid annually. An agreement was made between them that during the tenancy period, if A requires his flat to be vacated, one-month prior notice is to be given to Mr. B. After eight months a notice was sent by Mr. A to Mr. B to vacate his flat by registered post which was refused to be accepted by Mrs. C (wife of Mr. B) and Mr. B denied to vacate the flat on ground of nongreceipt of notice. Examine, as per the General Clauses Act, 1897, whether the notice is tenable?",
+          "answer": "According to Section 27 of the General Clauses Act, 1897, where any legislation or regulation requires any document to be served by post, then unless a different intention appears, the service shall be deemed to be affected by:\n\n(i) Properly addressing\n\n(ii) Pre-paying, and\n\n(iii) Posting by registered post.\n\nCase Laws\n\n(i) In Smt. Vandana Gulati Vs. Gurmeet Singh alias Mangal Singh, AIR 2013 All 69, it was held that where notice sent by registered post to person concerned at proper address is deemed to be served upon him in due course unless contrary is proved.\n\n(ii) In Jagdish Singh Vs. Nathu Singh, AIR 1992 SC 1604, it was held that where a notice is sent by the landlord by registered post and the same is returned by the tenant with an endorsement of refusal, it will be presumed that the notice has been served.\n\nIn other words, Endorsement 'not claimed/not met' is sufficient to prove deemed service of notice.\n\nIn the given question, Mr. A has served the notice to Mr. B by registered post which was refused to be accepted by Mrs. C (wife of Mr. B). However, Mr. B cannot deny to vacate the flat on ground of nonreceipt of notice, since Mrs. C had refused to accept the notice served by Mr. A through registered post. Hence, the notice served by Mr. A is tenable provided one- month prior notice given to Mr. B.",
+          "chapter_number": "13",
+          "chapter_name": "THE GENERAL CLAUSES ACT, 1897",
+          "unique_id": "13-T-56",
+          "or_question": {
+            "question": "Examine the validity of the following statements with reference to the General Clauses Act, 1897: Board of Directors of Sabarwal Construction Private Limited authorised by passing resolution in board meeting Mr. Munim to appoint five employees for accounts department of company. Mr. Munim appointed five employees including Mr. Rupal who was relative of one of the director of company. After one month, Mr. Munim observed that Mr. Rupal was not performing his duties honestly. Mr. Munim issued the order of dismissal of Mr. Rupal with proper reasons. Mr. Rupal filed a petition in the court that his dismissal order is not valid as Board of Directors had authorised Mr. Munim only for appointment of employees not for dismissal. Whether is Mr. Rupal correct with his words? (MTP 4 Marks April 22, PYP 2 Marks Mayś24,MP[3])",
+            "answer": "As per the provisions of section 16 of the General Clauses Act, 1897, the authority having for the time being power to make the appointment shall also have power to suspend or dismiss any person appointed whether by itself or any other authority in exercise of that power.\n\nMr. Munim was appointed in board meeting of Sabarwal Construction Private Limited to appoint five employees for accounts department of company. Mr. Munim appointed five employees. After one month, he issued the order of dismissal to one of those five employees. That employee filed an application in the court challenging the validity of dismissal order with the words that Mr. Munim was authorised only for appointment of employees not for dismissal.\n\nOn the basis of above provisions and facts of the case, Mr. Rupal was not correct with his words because as per the General Clauses Act, 1897, power to appoint includes power to suspend or dismiss. Hence, Mr. Munim has power to dismiss Mr. Rupal."
+          }
+        }
+      ]
+    },
+    {
+      "q_main": 6,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "5",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Define the term 'deposit' under the provisions of the Companies Act, 2013 and comment with relevant provisions that the following amount received by a company will be considered as deposit or not; (i) Rs 5,00,000 raised by Rishi Ltd. through issue of non-convertible debenture not constituting a charge on the assets of the company and listed on a recognized stock exchange as per applicable regulations made by Securities and Exchange Board of India. (ii) Rs 2,00,000 received from Mr. T, an employee of the company who is drawing annual salary of Rs 1,50,000 under a contract of employment with the company in the nature of non-interest bearing security deposit. (iii) Amount of Rs 3,00,000 received by a private company from a relative of a Director, declared by the depositor as out of gift received from his mother. (PYP 6 Marks Nov'19 & May '23, SM)",
+          "answer": "Deposit: According to section 2 (31) of the Companies Act, 2013, the term 'deposit' includes any receipt of money by way of deposit or loan or in any other form, by a company, but does not include such categories of amount as prescribed in the Rule 2 (1) (c) of the Companies (Acceptance of deposit) Rules, 2014, in consultation with the Reserve bank of India.\n\nAmounts received by the company will not be considered as deposit: In terms of Rule 2 (1) (c) of the Companies (Acceptance of deposit) Rules, 2014, following shall be the answers-\n\n(i) In the first case, where Rs 5,00,000 raised by the Rishi Ltd. through issue of non-convertible debenture not constituting a charge on the assets of the company and listed on recognised stock exchange as per the applicable regulations made by the SEBI, will not be considered as deposit in terms of sub-clause (ixa) of the said rule.\n\n(ii) In the second case, Rs 2,00,000 was received from Mr. T, an employee of the company drawing annual salary of Rs 1,50,000 under a contract of employment with the company in the nature of non-interest bearing security deposit. This amount received by company from employee, Mr. T will be considered as deposit in terms of sub-clause ( x ) of the said rule, as amount received is more than his annual salary under a contract of employment with the company in the nature of non-interest bearing security deposit.\n\n(iii) In the third case, amount of Rs 3,00,000 received by a private company from a relative of a Director, declaring details of the amounts so deposited as out of gift received from his mother. This amount received by the private Company will not be considered as deposit in terms of sub-clause (viii) of the said rule. Here as per the requirement, the relative of the director of the private company, from whom money is received, furnished the declaration in writing to the effect that the amount is given out of gift received from his mother and not being given out of funds acquired by him by borrowing or accepting loans or deposits from others.",
+          "chapter_number": "5",
+          "chapter_name": "ACCEPTANCE OF DEPOSITS BY COMPANIES",
+          "unique_id": "5-T-8"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "On what basis did Vineet, the Chief Compliance Officer, arrive at this conclusion that the company attracts the provisions of section 135 of the Companies Act, 2013? The turnover of the company was Rs. 700 crore, and the net worth was Rs. 510 crore.",
+          "answer": "According to section 135 of the Companies Act, 2013, every company having net worth of rupees five hundred crore or more, or turnover of rupees one thousand crore or more or a net profit of rupees five crore or more during the immediately preceding financial year shall constitute a Corporate Social Responsibility Committee of the Board consisting of three or more directors, out of which at least one director shall be an independent director: \"Net worth\" [As per section 2(57)] means the aggregate value of the paid-up share capital and all reserves created out of the profits, securities premium account and debit or credit balance of the profit and loss account, after deducting the aggregate value of the accumulated losses, deferred expenditure and miscellaneous expenditure not written off, as per the audited balance sheet, but does not include reserves created out of revaluation of assets, write-back of depreciation and amalgamation.\n\n| Particulars | Amount (Rs. in crore) |\n| :--- | :--- |\n| Paid up share capital | 200 |\n| Free Reserves created out of profits | 200 |\n| Securities Premium Account | 70 |\n| Credit balance of Profit & Loss account | 60 |\n| Miscellaneous expenditure not written off | (20) |\n| Net Worth | 510 |\n\nAs the Net worth of the company is more than Rs. 510 crore (i.e more than Rs. 500 crore), hence the company has attracted the provisions of section 135 of the Companies Act, 2013.",
+          "chapter_number": "9",
+          "chapter_name": "DECLARATION AND PAYMENT OF DIVIDEND",
+          "unique_id": "9-T-19"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Explain the rules relating to the remittances made by persons other than individuals requiring approval of RBI as provided in Schedule III to the Foreign Exchange Management (Current Account Transactions) Rules, 2000 issued under the Foreign Exchange Management Act, 1999 in respect of the following: (i) Commission to the agents abroad for sale of residential flats or commercial plots in India. (ii) Remittances for consultancy services procured from outside India. (iii) Remittances by way of reimbursement of pre-incorporation expenses. (PYP 4 Marks May'24)",
+          "answer": "The following remittances by persons other than individuals shall require prior approval of the Reserve Bank of India as provided under FEMA, 1999 read with Schedule III of the FEM (Current Account Transactions) Rules, 2000:\n\n(i) Commission, per transaction, to agents abroad for sale of residential flats or commercial plots in India exceeding USD 25,000 or five percent of the inward remittance whichever is more.\n\n(ii) Remittances exceeding USD 10,000,000 per project for any consultancy services in respect of infrastructure projects and USD 1,000,000 per project, for other consultancy services procured from outside India. Explanation-For the purposes of this sub-paragraph, the expression \"infrastructure' shall mean as defined in explanation to para 1(iv)(A)(a) of Schedule I of FEMA Notification 3/2000-RB, dated the May 3, 2000.\n\n(iii) Remittances exceeding five per cent of investment brought into India or USD 100,000 whichever is higher, by an entity in India by way of reimbursement of pre-incorporation expenses.",
+          "chapter_number": "15",
+          "chapter_name": "THE FOREIGN EXCHANGE MANAGEMENT ACT, 1999",
+          "unique_id": "15-T-29"
+        }
+      ]
+    }
+  ]
+}

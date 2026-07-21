@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "subject_code": "FM",
+    "subject_name": "Financial Management",
+    "paper_num": "Portionwise_1",
+    "total_marks_printed": 50,
+    "total_marks_in_paper": 50,
+    "section_a_marks": 0,
+    "section_b_marks": 50,
+    "two_section_format": false,
+    "note": "Portionwise Test: Attempt all 5 questions. Each question carries 10 marks (6 + 4 split).",
+    "blacklisted_from": [],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)"
+    ]
+  },
+  "section_a": [],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "2",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "What is debt securitization? EXPLAIN the basics of debt securitization process. (MTP 4 Marks, Oct'19, Mar'23, Mar'25, RTP May '19, May '20, May'23, Nov'23, PYP 4 Marks, May '19)",
+          "answer": "Debt Securitization: It is a method of recycling of funds. It is especially beneficial to financial intermediaries to support the lending volumes. Assets generating steady cash flows are packaged together and against this asset pool, market securities can be issued, e.g. housing finance, auto loans, and credit card receivables.\n\n## Process of Debt Securitization\n\n(i) The origination function - A borrower seeks a loan from a finance company, bank, HDFC. The credit worthiness of borrower is evaluated and contract is entered into with repayment schedule structured over the life of the loan.\n\n(ii) The pooling function - Similar loans on receivables are clubbed together to create an underlying pool of assets. The pool is transferred in favor of Special Purpose Vehicle (SPV), which acts as a trustee for investors.\n\n(iii) The securitization function - SPV will structure and issue securities on the basis of asset pool. The securities carry a coupon and expected maturity which can be asset-based/mortgage based. These are generally sold to investors through merchant bankers. Investors are - pension funds, mutual funds, insurance funds. The process of securitization is generally without recourse i.e. investors bear the credit risk and issuer is under an obligation to pay to investors only if the cash flows are received by him from the collateral. The benefits to the originator are that assets are shifted off the balance sheet, thus giving the originator recourse to offbalance sheet funding.",
+          "chapter_number": "2",
+          "chapter_name": "TYPES OF FINANCING",
+          "unique_id": "2-T-28"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Is there any difference between crowd funding and peer to peer lending? EXPLAIN briefly. (MTP 4 Marks Aug'25)",
+          "answer": "## Difference between Crowd funding and Peer-to-Peer (P2P) lending\n\nCrowd funding: In simple terms, crowdfunding means raising money for an individual or organisation from a group of people to fund a project, typically via internet (social media and crowdfunding websites). It generally involves collecting funds from family, friends, strangers, corporates and many more in exchange of equity\n\n(known as Equity funding), loans (known as P2P lending) or nothing at all (i.e. donation). This source of funding also helps start-up to substantiate demand for their product before entering into production.\n\nPeer-to-Peer (P2P) lending: It is that category of crowdfunding where lenders match with the borrowers in order to provide unsecured loans through online platform. The fund raised are paid back by the borrowers with interest, though this kind of lending involves certain risk of defaults (just as the banks bear in the case of conventional method of lending). Anyone interested in investing money under P2P lending can visit the P2P lending platforms and choose amongst borrowers considering risk & returns. Some of the platforms offering P2P lending are i2iFunding, Lendbox, Faircent, Rupee Circle, etc.\n\nHence, we can say that the crowd funding is a broader concept and P2P lending is basically a part of crowd funding.",
+          "chapter_number": "2",
+          "chapter_name": "TYPES OF FINANCING",
+          "unique_id": "2-T-34"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "3",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Question 13 (MTP 8 Marks, Apr'24, MP[2])\n\nVivi Ltd is a listed company and has presented the below abridged financial statements below.\n\n| Statement of Profit and Loss | Rs. | Rs. |\n| :--- | :--- | :--- |\n| Sales |  | 1,25,00,000 |\n| Cost of goods sold |  | (76,40,000) |\n| Gross Profit |  | 48,60,000 |\n| Less: Operating Expenses |  |  |\n| Administrative Expenses | 13,20,000 |  |\n| Selling and Distribution Expenses | 15,90,000 | (29,10,000) |\n| Operating Profit |  | 19,50,000 |\n| Add: Non Operating Income |  | 3,28,000 |\n| Less: Non Operating Expenses |  | (1,27,000) |\n| Profit before Interest and taxes |  | 21,51,000 |\n| Less: Interest |  | (4,39,000) |\n| Profit before tax |  | 17,12,000 |\n| Less: Taxes |  | (4,28,000) |\n| Profit after Tax |  | 12,84,000 |\n\n\n\nBalance Sheet\n\n| Sources of Funds |  | Rs. | Rs. |\n| :--- | :--- | :--- | :--- |\n| Owned Funds |  |  |  |\n| Equity Share Capital |  | 30,00,000 |  |\n| Reserves and Surplus |  | 18,00,000 | 48,00,000 |\n| Borrowed Funds | Gautesh 18232817945 |  |  |\n| Secured Loan |  | 10,00,000 |  |\n| Unsecured Loan |  | 4,30,000 | 14,30,000 |\n| Total Funds Raised |  |  | 62,30,000 |\n| Application of Funds |  |  |  |\n| Non-Current Assets |  |  |  |\n| Building |  | 7,50,000 |  |\n| Machinery |  | 2,30,000 |  |\n| Furniture |  | 7,60,000 |  |\n| Intangible Assets |  | 50,000 | 17,90,000 |\n| Current Assets |  |  |  |\n| Inventory |  | 38,60,000 |  |\n| Receivables |  | 39,97,000 |  |\n| ST investments |  | 3,00,000 |  |\n| Cash and Bank |  | 2,30,000 | 83,87,000 |\n| Less: Current Liabilities |  |  |  |\n| Creditors |  | 25,67,000 |  |\n| ST loans |  | 13,80,000 | (39,47,000) |\n| Total Funds Employed |  |  | 62,30,000 |\n\n\n\nThe company has set certain standards for the upcoming year financial status.\n\nAll the ratios are based on closing figures in financial statements.\n\n| Equity SC to Reserves= | 1 |  |\n| :--- | :--- | :--- |\n| Net Profit Ratio= | 15\\% |  |\n| Gross Profit Ratio= | 50\\% |  |\n| Long Term Debt to Equity= | 0.5 |  |\n| Debtor Turnover= | 100 | Days |\n| Creditor Turnover (based on COGS)= | 100 | Days |\n| Inventory= | 70\\% | of Opening inventory |\n\nCash Balance is assumed to remain same for next year\n\nYou are required to -\n\n(1) CALCULATE inventory turnover ratio in days for current year\n\n(2) CALCULATE receivables turnover ratio in days for current year\n\n(3) CALCULATE the projected receivables, inventory, payables and long-term debt",
+          "answer": "Inventory Turnover $\\frac{\\text { Inventory }}{\\text { COGS }} \\times 365=\\frac{38,60,000 \\times 365}{76,40,000}=184.41$ days $=185$ days (apx)\n\nReceivables Turnover $=\\frac{\\text { Receivables }}{\\text { Sales }} \\times 365=\\frac{39,97,000 \\times 365}{1,25,00,000}=116.71=117$ days $(\\mathrm{apx})$\n\nEquity to Reserves $=1$\n\nReserves $=1 \\times 30,00,000=30,00,000$\n\nProjected profit $=30,00,000-18,00,000=12,00,000$\n\nNet Profit Margin = 15\\%\n\n$12,00,000 /$ Sales $=0.15$\n\nSales $=80,00,000$\n\nGross Profit $=80,00,000 \\times 50 \\%=40,00,000$\n\nCOGS $=80,00,000-40,00,000=40,00,000$\n\n$$\n\\begin{aligned}\n\\text { Projected Debtors Turnover }=100 \\text { days } & =\\frac{\\text { Closing Receivables }}{\\text { Sales }} \\times 365 \\\\\n100 & =\\frac{\\text { Closing Receivables }}{80,00,000} \\times 365 \\\\\n\\text { Closing Receivables } & =\\frac{80,00,000 \\times 100}{365}=21,91,781\n\\end{aligned}\n$$\n\nProjected Closing Inventory $=70 \\%$ of opening inventory $=70 \\%$ of $38,60,000=27,02,000$\n\nProjected Creditor Turnover $=100$ days $=\\frac{\\text { Closing Creditors }}{\\text { COGS }} \\times 365$\n\nClosing Creditors $=\\frac{\\text { COGS }}{365} \\times 100=\\frac{40,00,000}{365} \\times 100=10,95,890$\n\nEquity Share Capital + Reserves $=30,00,000+30,00,000=60,00,000$\n\nLong Term Debt to Equity $=0.5 \\frac{L T D}{60,00,000}=0.5$\n\nLong Term Debt $=0.5 \\times 60,00,000$\n\nGauresh | 8237317945\n\nLong Term Debt $=30,00,000$",
+          "chapter_number": "3",
+          "chapter_name": "FINANCIAL ANALYSIS AND PLANNING - RATIO ANALYSIS",
+          "unique_id": "3-T-13"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Discuss the limitations of financial ratios. (MTP 4 Marks, Apr'22, SM)",
+          "answer": "The limitations of financial ratios are listed below:\n\n(i) Diversified product lines: Many businesses operate a large number of divisions in quite different industries. In such cases ratios calculated on the basis of aggregate data cannot be used for inter-firm comparisons.\n\n(ii) Financial data are badly distorted by inflation: Historical cost values may be substantially different from true values. Such distortions of financial data are also carried in the financial ratios.\n\n(iii) Seasonal factors: It may also influence financial data.\n\nExample: A company deals in cotton garments. It keeps a high inventory during October - January every year. For the rest of the year its inventory level becomes just 1/4th of the seasonal inventory level.\n\nSo, the liquidity ratios and inventory ratios will produce biased picture. Yearend picture may not be the average picture of the business. Sometimes it is suggested to take monthly average inventory data instead of year end data to eliminate seasonal factors. But for external users it is difficult to get monthly inventory figures. (Even in some cases monthly inventory figures may not be available).\n\n(iv) To give a good shape to the popularly used financial ratios (like current ratio, debt- equity ratios, etc.): The business may make some year-end adjustments. Such window dressing can change the character of financial ratios which would be different had there been no such change.\n\n(v) Differences in accounting policies and accounting period: It can make the accounting data of two firms non-comparable as also the accounting ratios.\n\n(vi) No standard set of ratios against which a firm's ratios can be compared: Sometimes a firm's ratios are compared with the industry average. But if a firm desires to be above the average, then industry average becomes a low standard. On the other hand, for a below average firm, industry averages become too high a standard to achieve.\n\n(vii) Difficulty to generalize whether a particular ratio is good or bad: For example, a low current ratio may be said 'bad' from the point of view of low liquidity, but a high current ratio may not be 'good' as this may result from inefficient working capital management.\n\n(viii) Financial ratios are inter-related, not independent: Viewed in isolation one ratio may highlight efficiency. But when considered as a set of ratios they may speak differently. Such interdependence among the ratios can be taken care of through multivariate analysis.",
+          "chapter_number": "3",
+          "chapter_name": "FINANCIAL ANALYSIS AND PLANNING - RATIO ANALYSIS",
+          "unique_id": "3-T-1"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "2",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "EXPLAIN the difference between Financial Lease and Operating Lease.",
+          "answer": "Difference between Financial Lease and Operating Lease\n\n| Financial Lease |  | Operating Lease |\n| :--- | :--- | :--- |\n| 1. | The risk and reward incident to ownership are passed on to the lessee. The lessor only remains the legal owner of the asset. | The lessee is only provided the use of the asset for a certain time. Risk incident to ownership belong wholly to the lessor. |\n| 2. | The lessee bears the risk of obsolescence. | The lessor bears the risk of obsolescence. |\n| 3. | The lessor is interested in his rentals and not in the asset. He must get his principal back along with interest. Therefore, the lease is non- cancellable by either party. | As the lessor does not have difficulty in leasing the same asset to other willing lessor, the lease is kept cancelable by the lessor. |\n| 4. | The lessor enters into the transaction only as financier. He does not bear the cost of repairs, maintenance or operations. | Usually, the lessor bears cost of repairs, maintenance or operations. |\n| 5. | The lease is usually full payout, that is, the single lease repays the cost of the asset together with the interest. | The lease is usually non-payout, since the lessor expects to lease the same asset over and over again to several users. |",
+          "chapter_number": "2",
+          "chapter_name": "TYPES OF FINANCING",
+          "unique_id": "2-T-36"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "## Question 24 (MTP 4 Marks July'24, MP[4])\n\n## Briefly EXPLAIN the following -\n\n(i) Fully Hedged Bonds\n\n(ii) Medium Term Notes\n\n(iii) Floating Rate Notes\n\n(iv) Euro Commercial Papers",
+          "answer": "## Answer 24\n\n(i) Fully Hedged Bonds: In foreign bonds, the risk of currency fluctuations exists. Fully hedged bonds eliminate the risk by selling in forward markets the entire stream of principal and interest payments.\n\n(ii) Medium Term Notes (MTN): Certain issuers need frequent financing through the Bond route including that of the Euro bond. However, it may be costly and ineffective to go in for frequent issues. Instead, investors can follow the MTN programme. Under this programme, several lots of bonds can be issued, all having different features e.g. different coupon rates, different currencies etc. The timing of each lot can be decided keeping in mind the future market opportunities. The entire documentation and various regulatory approvals can be taken at one point of time. ${ }^{17945}$\n\n(iii) Floating Rate Notes (FRN): These are issued up to seven years maturity. Interest rates are adjusted to reflect the prevailing exchange rates. They provide cheaper money than foreign loans.\n\n(iv) Euro Commercial Papers (ECP): ECPs are short term money market instruments. They have maturity period of less than one year. They are usually designated in US Dollars.",
+          "chapter_number": "2",
+          "chapter_name": "TYPES OF FINANCING",
+          "unique_id": "2-T-24"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "4",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Question 16 (PYP 6 Marks, Nov'22)\n\nMR Ltd. is having the following capital structure, which is considered to be optimum as on 31.03.20X2.\n\n| Equity share capital ( 50,000 shares) | $Rs. 8,00,000$ |\n| :--- | ---: |\n| $12 \\%$ Pref. share capital | $Rs. 50,000$ |\n| $15 \\%$ Debentures | $Rs. 1,50,000$ |\n|  | $Rs. 10,00,000$ |\n\nThe earnings per share (EPS) of the company were Rs. 2.50 in 2021 and the expected growth in equity dividend is $10 \\%$ per year. The next year's dividend per share (DPS) is $50 \\%$ of EPS of the year 20X1. The current market price per share (MPS) is Rs. $\\mathbf{2 5 . 0 0}$. The $\\mathbf{1 5} \\boldsymbol{\\%}$ new debentures can be issued by the company. The company's debentures are currently selling at Rs. 96 per debenture. The new 12\\% Pref. share can be sold at a net price of Rs. 91.50 (face value Rs. 100 each). The applicable tax rate is $30 \\%$.\n\nYou are required to calculate\n\n(a) After tax cost of\n\n(i) New debt,\n\n(ii) New pref. share capital and\n\n(iii) Equity shares assuming that new equity shares come from retained earnings.\n\n(b) Marginal cost of capital,\n\nHow much can be spent for capital investment before sale of new equity shares assuming that retained earnings for next year investment is 50\\% of 20X1?",
+          "answer": "(a)\n\n(i) After tax Cost of new Debt:\n\n$$\nK_{d}=\text{I} \\frac{(1-t)}{P_{1}}=15 \\frac{(1-0.3)}{96}=0.1094 \\text { (or) } 10.94 \\% \n$$\n\n(ii) After tax cost of new Preferences share Capital:\n\n$$\nK_{p}=\\left(\\frac{P D}{P_{o}}\\right)=\\left(\\frac{12}{91.5}\\right) \\quad=0.1311 \\text { (or) } 13.11 \\% \n$$\n\n(iii) After tax cost of Equity shares:\n\n$$\nK_{e}=\\left(\\frac{D_{1}}{P_{o}}\\right)+\\mathrm{g}=\\left[\\frac{(2.50 \\times 50 \\%)}{25}\\right]+0.10=0.15 \\text { (or) } 15 \\% \n$$\n\n(b) Marginal Cost of Capital\n\n| Type of capital | Proportions | Specific cost | Product |\n| :--- | :--- | :--- | :--- |\n| Equity Shares | 0.80 | 0.15 | 0.12 |\n| Preference Shares | 0.05 | 0.1311 | 0.0066 |\n| Debentures | 0.15 | 0.1094 | 0.0164 |\n| ∴ Marginal cost of capital |  |  | 0.1430 |\n\n(c) Amount that can be spend for capital investment\n\nRetained earnings $=50 \\%$ of EPS × No. of outstanding Equity shares\n\n$$\n\\begin{aligned}\n& =1.25 \\times 50,000 \\\\\n& =Rs. 62,500\n\\end{aligned}\n$$\n\nProportion of equity (Retained earnings here) capital is 80\\% of total capital.\n\nTherefore, Rs. 62,500 is $80 \\%$ of total capital.\n∴ Amount of Capital Investment $=\\frac{62,500}{0.80}=Rs. 78,125$",
+          "chapter_number": "4",
+          "chapter_name": "COST OF CAPITAL",
+          "unique_id": "4-T-16"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Question 15 (PYP 5 Marks, Nov'22)\n\nThe following is the extract of the Balance Sheet of M/s KD Ltd.:  \n\n| Particulars | Amount (Rs.) |\n| :--- | :--- |\n| Ordinary shares (Face Value Rs. 10/- per share) | 5,00,000 |\n| Share Premium | 1,00,000 |\n| Retained Profits | 6,00,000 |\n| 8\\% Preference Shares (Face Value Rs. 25/- per share) | 4,00,000 |\n| 12\\% Debentures (Face value Rs. 100/- each) | 6,00,000 |\n|  | 22,00,000 |\n\nThe ordinary shares are currently priced at Rs. 39 ex-dividend and preference share is priced at Rs. 18 cumdividend. The debentures are selling at 120 percent ex-interest. The applicable tax rate to KD Ltd. is 30 percent. KD Ltd.'s cost of equity has been estimated at 19 percent. Calculate the WACC (weighted average cost of capital) of KD Ltd. on the basis of market value.",
+          "answer": "## Computation of WACC on the basis of market value\n\nW.N. 1\n\nCum-dividend price of Preference shares = Rs. 18\n\nLess: Dividend $(8 / 100) \\times 25$ = Rs.2\n\n∴ Market Price of Preference shares = Rs. 16\n\n$K_{p}=\\frac{2}{16}=0.125$ (or) $12.5 \\%$\n\nNo. Of preference shares $=\\left(\\frac{4,00,000}{25}\\right)=16,000$\n\nW.N. 2\n\nMarket price of Debentures $=\\left(\\frac{120}{100}\\right) \\times 100=Rs. 120$\n\n$$\nK_{d}=\\left[\\frac{12(1-0.3)}{120}\\right]=0.07 \\text { (or) } 7 \\% \n$$\n\nNo. of Debentures $=\\left(\\frac{6,00,000}{100}\\right)=6,000$\n\nW.N. 3\n\nMarket price of Equity Shares $=Rs. 39$\n\n$k_{e}$ (given) $=19 \\%$ or 0.19\n\nNo. of Equity Shares $=\\frac{5,00,000}{10}=50,000$\n\n| Sources | Market Value (Rs.) | Nos. | Total Market value (Rs.) | Weight | Cost of Capital | Product |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| Equity Shares | 39 | 50,000 | 19,50,000 | 0.6664 | 0.19 | 0.1266 |\n| Preference Shares | 16 | 16,000 | 2,56,000 | 0.0875 | 0.125 | 0.0109 |\n| Debentures | 120 | 6,000 | 7,20,000 | 0.2461 | 0.07 | 0.0172 |\n|  |  | Gauresh \\| | 3237317945 |  | WACC = | 0.1547 |\n\nWACC $=0.1547$ or 15.47\\%",
+          "chapter_number": "4",
+          "chapter_name": "COST OF CAPITAL",
+          "unique_id": "4-T-15"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "3",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "## Question 35 (PYP 5 Marks Sep'25)\n\nDiwan Limited has outlined its financial projections for the fiscal year 2025-26. The company plans to utilize total assets amounting to Rs. $50,00,000$, with $35 \\%$ of assets financed through debt at interest rate of $10.50 \\%$ per annum. Projected sales revenue is $Rs. 55,00,000$. Direct costs are estimated at $Rs. 30,00,000$ and other operating expenses are estimated at $Rs. 4,80,000$. The applicable tax rate is $33 \\%$\n\nYou are required to calculate:\n\n(i) Profit After Tax (PAT)\n\n(ii) Net profit margin (After tax)\n\n(iii) Return on Assets (After tax)\n\n(iv) Asset turnover ratio\n\n(v) Return on Equity",
+          "answer": "## Answer 35\n\n## (i) Income Statement\n\n| Particulars | (Rs.) |\n| :--- | :--- |\n| Sales | 55,00,000 |\n| Less: Direct Cost | 30,00,000 |\n| Gross Profit | 25,00,000 |\n| Less: Operating Expenses | 4,80,000 |\n| EBIT | 20,20,000 |\n| Less: Interest $(50,00,000 \\times 35 \\% \\times 10.5 \\%)$ | 1,83,750 |\n| Profit Before Tax | 18,36,250 |\n| Less: Tax @ 33\\% | 6,05,963 |\n| Profit After Tax | 12,30,287 |\n\n(ii) Net Profit Margin after tax $=\\frac{\\text { Net Profit after taxes }}{\\text { Sales }}= \\frac{12,30,287}{55,00,000}=22.37 \\%$\n\nOR $=\\frac{\\operatorname{EBIT}(1-\\mathrm{t})}{\\text { Sales }}=\\frac{20,20,000(1-0.33)}{55,00,000}=24.61 \\%$\n\n$$\n\\begin{aligned}\n\\text { (iii) Return on Assets (ROA) } & =\\frac{\\operatorname{EBIT}(1-t)}{\\text { Average total assets }} \\\\\n& =\\frac{20,20,000(1-0.33)}{50,00,000}=27.07 \\%\\\n\\end{aligned}\n$$\n\n(iv) Asset turnover $=\\frac{\\text { Sales }}{\\text { Assets }}=\\frac{55,00,000}{50,00,000}=1.1$ times\n\n(v) Return On equity $=\\frac{\\text { NetProfit after taxes }}{\\text { Owners' equity }}=\\frac{Rs. 12,30,287}{65 \\% \\text { of } Rs. 50,00,000}=\\frac{12,30,287}{32,50,000}=37.85 \\%$",
+          "chapter_number": "3",
+          "chapter_name": "FINANCIAL ANALYSIS AND PLANNING - RATIO ANALYSIS",
+          "unique_id": "3-T-35"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Question 12 (MP[8] 4 Marks)\n\nFollowing information are available for Navya Ltd. along with various ratios relevant to the particular industry it belongs to. APPRAISE your comments on strength and weakness of Navya Ltd. comparing its ratios with the given industry norms.\n\nNavya Ltd. Balance Sheet as at 31.3.20XX\n\n| Liabilities | (Rs.) | Assets | (Rs.) |\n| :--- | :--- | :--- | :--- |\n| Equity Share Capital | 48,00,000 | Fixed Assets | 24,20,000 |\n| 10\\% Debentures | 9,20,000 | Cash | 8,80,000 |\n| Sundry Creditors | 6,60,000 | Sundry debtors | 11,00,000 |\n| Bills Payable | 8,80,000 | Stock | 33,00,000 |\n| Other current Liabilities | 4,40,000 |  | - |\n| Total | 77,00,000 | Total | 77,00,000 |\n\n\nStatement of Profitability For the year ending 31.3.20XX\n\n| Particulars | (Rs.) | (Rs.) |\n| :--- | :--- | :--- |\n| Sales |  | 1,10,00,000 |\n| Less: Cost of goods sold: |  |  |\n| Material | 41,80,000 |  |\n| Wages | 26,40,000 |  |\n| Factory Overhead | 12,98,000 | 81,18,000 |\n| Gross Profit |  | 28,82,000 |\n| Less: Selling and Distribution Cost | 11,00,000 |  |\n| Administrative Cost | 12,28,000 | 23,28,000 |\n| Earnings before Interest and Taxes |  | 5,54,000 |\n| Less: Interest Charges |  | 92,000 |\n| Earning before Tax |  | 4,62,000 |\n| Less: Taxes @ 50\\% |  | 2,31,000 |\n| Net Profit (PAT) |  | 2,31,000 |\n\n\nIndustry Norms\n\n| Ratios |  | Norm |\n| :--- | :--- | :--- |\n| Current Ratio |  | 2.5 |\n| Receivables Turnover Ratio |  | 8.0 |\n| Inventory Turnover Ratio (based on Sales) |  | 9.0 |\n| Total Assets Turnover Ratio |  | 2.0 |\n| Net Profit Ratio |  | 3.5\\% |\n| Return on Total Assets (on EBIT) |  | 7.0\\% |\n| Return on Net worth (Based on Net profit) |  | 10.5\\% |\n| Total Debt/Total Assets |  | 60.0\\% |",
+          "answer": "| Ratios | Navya Ltd. | Industry Norms |\n| :--- | :--- | :--- |\n| 1. Current Ratio $=\\frac{\\text { Current Assets }}{\\text { Current Liabilities }}$ | $\\frac{Rs. 52,80,000}{Rs. 19,80,000}=2.67$ | 2.50 |\n| 2. Receivable Turnover Ratio $=\\frac{\\text { Sales }}{\\text { Debtors }}$ | $\\frac{Rs. 1,10,00,000}{Rs. 11,00,000}=10.0$ | 8.00 |\n| 3. Inventory turnover ratio $=\\frac{\\text { Sales }}{\\text { Stock }}$ | $\\frac{Rs. 1,10,00,000}{Rs. 33,00,000}=3.33$ | 9.00 |\n| 4. Total Asset Turnover ratio $=\\frac{\\text { Sales }}{\\text { Total Assets }}$ | $\\frac{Rs. 1,10,00,000}{Rs. 77,00,000}=1.43$ | 2.00 |\n| 5. Net Profit Ratio $=\\frac{\\text { Net Profit }}{\\text { Sales }}$ | $\\frac{Rs. 2,31,000}{Rs. 1,10,00,000}=2.10 \\%$ | 3.50\\% |\n| 6. Return on Total Asset $=\\frac{\\text { EBIT }}{\\text { Total Asset }}$ | $\\frac{Rs. 5,54,000}{Rs. 77,00,000}=7.19 \\%$ | 7\\% |\n| 7. Return on Net worth $=\\frac{\\text { Net Profit }}{\\text { Net } \\text { Worth }}$ | $\\frac{Rs. 2,31,000}{Rs. 48,00,000}=4.81 \\%$ | 10.5\\% |\n| 8. Total Debt | $\\frac{\\text { Rs. } 29,00,000}{\\text { Rs. } 77,00,000}=37.66 \\%$ | 60\\% |\n\n\n## Comments:\n\n1. The position of Navya Ltd. is better than the industry norm with respect to Current Ratio and Receivables Turnover Ratio.\n\n2. However, the Inventory turnover ratio and Total Asset Turnover ratio is poor comparing to industry norm indicating that company is inefficient to utilize its inventory and assets.\n\n3. The firm also has its net profit ratio and return on net worth ratio much lower than the industry norm.\n\n4. Total debt to total assets ratio is lower that the industry standard which suggests that the firm is less levered by debt and more by equity resulting in less risky company.",
+          "chapter_number": "3",
+          "chapter_name": "FINANCIAL ANALYSIS AND PLANNING - RATIO ANALYSIS",
+          "unique_id": "3-T-12"
+        }
+      ]
+    }
+  ]
+}

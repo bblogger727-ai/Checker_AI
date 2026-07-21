@@ -1,0 +1,1402 @@
+[
+  {
+    "chapter": "CHAPTER 3.2: THEORY OF COST",
+    "section": "A",
+    "q_num": 1,
+    "question": "In the table marginal cost per unit that corresponds to 40 units of production is",
+    "options": {
+      "a": "Rs. 44",
+      "b": "Rs. 170",
+      "c": "Rs. 352",
+      "d": "Rs. 1760"
+    },
+    "answer": "c",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 7.1: FISCAL FUNCTION",
+    "section": "A",
+    "q_num": 2,
+    "question": "Which of the following government is/are entrusted with the responsibility of providing public utility services such as water supply and sanitation, local roads, electricity, etc.?",
+    "options": {
+      "a": "Central Government",
+      "b": "State Government",
+      "c": "Local Self-government (Municipalities and Panchayats)",
+      "d": "All the above"
+    },
+    "answer": "c",
+    "chapter_number": 7
+  },
+  {
+    "chapter": "CHAPTER 10: INDIAN ECONOMY",
+    "section": "B",
+    "q_num": 3,
+    "question": "The strategy of agricultural development in India before green revolution was \u2014",
+    "options": {
+      "a": "High yielding varieties of seeds and chemical fertilizers to boost productivity",
+      "b": "Institutional reforms such as land reforms",
+      "c": "Technological up gradation of agriculture",
+      "d": "All the above"
+    },
+    "answer": "b",
+    "chapter_number": 10
+  },
+  {
+    "chapter": "CHAPTER 9.2: THE INSTRUMENTS OF TRADE POLICY",
+    "section": "A",
+    "q_num": 4,
+    "question": "What is the primary purpose of an import quota?",
+    "options": {
+      "a": "To encourage domestic production.",
+      "b": "To reduce government spending.",
+      "c": "To limit the quantity of imports.",
+      "d": "To increase the trade deficit."
+    },
+    "answer": "c",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 4.1: MEANING AND TYPES OF MARKET",
+    "section": "A",
+    "q_num": 5,
+    "question": "Which is the first order condition for the profit of a firm to be maximum?",
+    "options": {
+      "a": "AC=MR",
+      "b": "MC=MR",
+      "c": "MR=AR",
+      "d": "AC=AR"
+    },
+    "answer": "b",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME",
+    "section": "A",
+    "q_num": 6,
+    "question": "In the preparation of State Income estimates, certain activities cut across State boundaries and thus their economic contribution cannot be assigned to any one State directly. These sectors of the economy are known as",
+    "options": {
+      "a": "Super regional sectors",
+      "b": "Supra regional sectors",
+      "c": "State balancing sectors",
+      "d": "Regional sectors"
+    },
+    "answer": "b",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME",
+    "section": "A",
+    "q_num": 7,
+    "question": "Gross value method is employed in India:",
+    "options": {
+      "a": "To avoid double counting.",
+      "b": "To avoid the impact of inflation.",
+      "c": "To capture the consumption levels.",
+      "d": "To calculate the exports."
+    },
+    "answer": "a",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 1.1: INTRODUCTION",
+    "section": "A",
+    "q_num": 8,
+    "question": "In Economics, we use the term scarcity to mean",
+    "options": {
+      "a": "Absolute scarcity and lack of resources in less developed countries.",
+      "b": "Relative scarcity i.e. scarcity in relation to the wants of the society.",
+      "c": "Scarcity during times of business failure and natural calamities.",
+      "d": "Scarcity caused on account of excessive consumption by the rich."
+    },
+    "answer": "b",
+    "chapter_number": 1
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME",
+    "section": "A",
+    "q_num": 9,
+    "question": "Gross investment refers to:",
+    "options": {
+      "a": "Private investment minus public investment.",
+      "b": "Net investment plus replacement investment.",
+      "c": "Net investment after it has been \"inflated\" for changes in the price level.",
+      "d": "Net investment plus net exports."
+    },
+    "answer": "b",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND & ELASTICITY",
+    "section": "A",
+    "q_num": 10,
+    "question": "Point elasticity is useful for which of the following situations?",
+    "options": {
+      "a": "The bookstore is considering doubling the price of notebooks.",
+      "b": "A restaurant is considering lowering the price of its most expensive dishes by 50 percent.",
+      "c": "An auto producer is interested in determining the response of consumers to the price of cars being lowered by % 100.",
+      "d": "A local theater is considering a small increase in ticket prices."
+    },
+    "answer": "c",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 9.2: THE INSTRUMENTS OF TRADE POLICY",
+    "section": "A",
+    "q_num": 11,
+    "question": "The process of selling of the products at a price less than on going price in the market is known as:",
+    "options": {
+      "a": "Quota",
+      "b": "Tariff",
+      "c": "Subsidies",
+      "d": "Dumping"
+    },
+    "answer": "d",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 12,
+    "question": "In the production of wheat, all of the following are variable factors that are used by the farmer except:",
+    "options": {
+      "a": "The seed and fertilizer used when the crop is planted.",
+      "b": "The field that has been cleared of trees and in which the crop is planted.",
+      "c": "the tractor used by the farmer in planting and cultivating not only wheat but also corn and Barley.",
+      "d": "The number of hours that the farmer spends in cultivating the wheat fields."
+    },
+    "answer": "b",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND & ELASTICITY",
+    "section": "A",
+    "q_num": 13,
+    "question": "A decrease in price will result in an increase in total revenue if:",
+    "options": {
+      "a": "The percentage change in quantity demanded in less than the percentage change in price.",
+      "b": "The percentage change in quantity demanded is greater than the percentage change in price.",
+      "c": "Demand is inelastic.",
+      "d": "The consumer is operating along a linear demand curve at a point at which the price is very low and the quantity demanded is very high."
+    },
+    "answer": "b",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME",
+    "section": "A",
+    "q_num": 14,
+    "question": "For a person to keep his real income steady at a certain level from one year to the next, his nominal income must:",
+    "options": {
+      "a": "Stay the same as the price index rises",
+      "b": "Rise as fast as the price index",
+      "c": "Fall if the price index rises",
+      "d": "Rise if the price index falls"
+    },
+    "answer": "b",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND & ELASTICITY",
+    "section": "A",
+    "q_num": 15,
+    "question": "An increase in price will result in an increase in total revenue if:",
+    "options": {
+      "a": "The percentage change in quantity demanded is less than the percentage change in price.",
+      "b": "The percentage change in quantity demanded is greater than the percentage change in price.",
+      "c": "Demand is elastic.",
+      "d": "The consumer is operating along a linear demand curve at a point at which the price is very high and the quantity demanded is very low."
+    },
+    "answer": "a",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND & ELASTICITY",
+    "section": "A",
+    "q_num": 16,
+    "question": "Suppose a department store has a sale on its silverware. If the price of a plate-setting is reduced from % 300 to = 200 and the quantity demanded increases from 3,000 plate-settings to 5,000 plate-settings, what is the price elasticity of demand for silverware? (Use Arc Elasticity Method)",
+    "options": {
+      "a": "0.8",
+      "b": "1.0",
+      "c": "1.25",
+      "d": "1.50"
+    },
+    "answer": "c",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME",
+    "section": "A",
+    "q_num": 17,
+    "question": "The difference between gross domestic investment and net domestic investment is equal to:",
+    "options": {
+      "a": "Unwanted inventory changes",
+      "b": "The difference between NDP and national income",
+      "c": "The difference between GDP and NDP",
+      "d": "None of the above"
+    },
+    "answer": "c",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 4.2: DETERMINATION OF PRICES & OUTPUT",
+    "section": "A",
+    "q_num": 18,
+    "question": "The kinked demand curve model of oligopoly assumes that:",
+    "options": {
+      "a": "Response to a price increase is less than the response to a price decrease",
+      "b": "Response to a price increase is more than the response to a price decrease",
+      "c": "Elasticity of demand is constant regardless of whether price increases or decreases",
+      "d": "Elasticity of demand is perfectly elastic if price increases and perfectly inelastic if price decreases"
+    },
+    "answer": "b",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 19,
+    "question": "Which of the following is considered production in Economics? (SM, MTP Oct\u201918)",
+    "options": {
+      "a": "Tilling of soil.",
+      "b": "Singing a song before friends.",
+      "c": "Preventing a child from falling into a manhole on the road.",
+      "d": "Painting a picture for pleasure."
+    },
+    "answer": "a",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND & ELASTICITY",
+    "section": "A",
+    "q_num": 20,
+    "question": "When the numerical value of cross elasticity between two goods is very high, it means",
+    "options": {
+      "a": "The goods are perfect complements and therefore have to be used together",
+      "b": "The goods are perfect substitutes and can be used with ease in place of one another",
+      "c": "There is a high degree of substitutability between the two goods",
+      "d": "The goods are neutral and therefore cannot be considered as substitutes"
+    },
+    "answer": "c",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 8.1: THE CONCEPT OF MONEY DEMAND",
+    "section": "A",
+    "q_num": 21,
+    "question": "Which function of money is also known by the name of \"Unit of Account\"?",
+    "options": {
+      "a": "Medium of exchange",
+      "b": "Standard of deferred Payments",
+      "c": "Measure of value",
+      "d": "Store of value"
+    },
+    "answer": "c",
+    "chapter_number": 8
+  },
+  {
+    "chapter": "CHAPTER 7.1: FISCAL FUNCTION",
+    "section": "A",
+    "q_num": 22,
+    "question": "As per the supreme court verdict in May 2022",
+    "options": {
+      "a": "The union has greater powers than the states for enacting GST laws",
+      "b": "The union and state legislatures have \u201cequal, simultaneous powers \u201cto make laws on Goods and Services Tax",
+      "c": "The union legislature\u2019s enactments will prevail in case of a conflict between those of union and states",
+      "d": "The state legislatures can make rules only with the permission of central government"
+    },
+    "answer": "c",
+    "chapter_number": 7
+  },
+  {
+    "chapter": "CHAPTER 4.1: MEANING AND TYPES OF MARKET",
+    "section": "A",
+    "q_num": 23,
+    "question": "Product differentiation is a key feature of:",
+    "options": {
+      "a": "Perfect competition",
+      "b": "Oligopoly",
+      "c": "Monopoly",
+      "d": "Monopolistic competition"
+    },
+    "answer": "d",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 6.2: THE KEYNESIAN THEORY",
+    "section": "A",
+    "q_num": 24,
+    "question": "As regards \u201cCircular Flow in a Two Sector Economy\u201d, refer to the flow of the actual goods or Services while refer to the payment for the Services (wages) or consumption payments.",
+    "options": {
+      "a": "Real Flows, Money Flows",
+      "b": "Money Flows, Real Flows",
+      "c": "Real Flows, Circular Flows",
+      "d": "Circular Flows, Money Flows."
+    },
+    "answer": "a",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 25,
+    "question": "The negatively-sloped (i.e. falling) part of the long-run average total cost curve is due to which of the following?",
+    "options": {
+      "a": "Diseconomies of scale.",
+      "b": "Diminishing returns.",
+      "c": "The difficulties encountered in coordinating the many activities of a large firm.",
+      "d": "The increase in productivity that results from specialization."
+    },
+    "answer": "d",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 10: INDIAN ECONOMY",
+    "section": "B",
+    "q_num": 26,
+    "question": "Which of the following best describes the pre-British Indian economy? (PYP May\u201925)",
+    "options": {
+      "a": "Dependent on imports for goods",
+      "b": "Self-sufficient villages and cities which were centers of commerce",
+      "c": "Focus on industrial production",
+      "d": "Dominated by foreign trade"
+    },
+    "answer": "b",
+    "chapter_number": 10
+  },
+  {
+    "chapter": "CHAPTER 4.1: MEANING AND TYPES OF MARKET",
+    "section": "A",
+    "q_num": 27,
+    "question": "Product differentiation is the most important feature of:",
+    "options": {
+      "a": "Monopolistic Competition",
+      "b": "Monopoly",
+      "c": "Oligopoly",
+      "d": "Perfect Competition"
+    },
+    "answer": "a",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 7.1: FISCAL FUNCTION",
+    "section": "A",
+    "q_num": 28,
+    "question": "Read the following statements: 1. The market-generated allocation of resources is usually imperfect and leads to inefficient allocation of resources in the economy 2. Market failures can at all times be corrected through government intervention 3. Public goods will not be produced in sufficient quantities in a market economy of the three statements above:",
+    "options": {
+      "a": "1,2 and3 are correct",
+      "b": "1 and 3 are correct",
+      "c": "2and3are correct",
+      "d": "3 alone is correct"
+    },
+    "answer": "b",
+    "chapter_number": 7
+  },
+  {
+    "chapter": "CHAPTER 7.1: FISCAL FUNCTION",
+    "section": "A",
+    "q_num": 29,
+    "question": "Which of the following is NOT a function of public finance?",
+    "options": {
+      "a": "Allocation of resources for public goods",
+      "b": "Income redistribution to achieve social equity",
+      "c": "Providing tax relief to corporates to boost economic growth",
+      "d": "Stabilization of the economy through fiscal measures"
+    },
+    "answer": "c",
+    "chapter_number": 7
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME",
+    "section": "A",
+    "q_num": 30,
+    "question": "Which one is a component of profit?",
+    "options": {
+      "a": "Dividend",
+      "b": "Undistributed Profit",
+      "c": "Corporate Profit Tax",
+      "d": "All of these"
+    },
+    "answer": "d",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 4.1: MEANING AND TYPES OF MARKET",
+    "section": "A",
+    "q_num": 31,
+    "question": "Assume that when price is \u00a3 20, the quantity demanded is 9 units, and when price is \u00a3 49 the quantity demanded is 10 units. Based on this information, what is the marginal revenue resulting from an increase in output from 9 units to 10 units.",
+    "options": {
+      "a": "\u00a3 20",
+      "b": "\u00a3 19",
+      "c": "\u00a3 10",
+      "d": "\u00a3 32"
+    },
+    "answer": "c",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 7.1: FISCAL FUNCTION",
+    "section": "A",
+    "q_num": 32,
+    "question": "In terms of fiscal federalism, introduced by Musgrave, functions should be the responsibility of Central Government and State government & local govt. should be responsible for, .",
+    "options": {
+      "a": "Allocation of resources, Economic Stabilization",
+      "b": "Economic Stabilization & in-come distribution, allocation of resources",
+      "c": "Stabilization & allocation, income distribution",
+      "d": "None of these"
+    },
+    "answer": "b",
+    "chapter_number": 7
+  },
+  {
+    "chapter": "CHAPTER 4.1: MEANING AND TYPES OF MARKET",
+    "section": "A",
+    "q_num": 33,
+    "question": "Total revenue =",
+    "options": {
+      "a": "Price x quantity",
+      "b": "Price x income",
+      "c": "Income x quantity",
+      "d": "None of the above"
+    },
+    "answer": "a",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 4.1: MEANING AND TYPES OF MARKET",
+    "section": "A",
+    "q_num": 34,
+    "question": "When e > 1 then MR is",
+    "options": {
+      "a": "Zero",
+      "b": "Negative",
+      "c": "Positive",
+      "d": "One"
+    },
+    "answer": "c",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 35,
+    "question": "If decreasing returns to scale are present, then if all inputs are increased by 10% then:",
+    "options": {
+      "a": "Output will also decrease by 10%.",
+      "b": "Output will increase by 10%.",
+      "c": "Output will increase by less than 10%.",
+      "d": "Output will increase by more than 10%."
+    },
+    "answer": "c",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 8.1: THE CONCEPT OF MONEY DEMAND",
+    "section": "A",
+    "q_num": 36,
+    "question": "The nominal demand for money rises if",
+    "options": {
+      "a": "The opportunity costs of money holdings \u2014 i.e. bonds and stock returns, rs and re, respectively- decline and vice versa",
+      "b": "The opportunity costs of money holdings \u2014 i.e. bonds and stock returns, rs and re, respectively- rises and vice versa",
+      "c": "The opportunity costs of money holdings \u2014 i.e. bonds and stock returns, rs and re, respectively remain constant",
+      "d": "b) and c) above"
+    },
+    "answer": "a",
+    "chapter_number": 8
+  },
+  {
+    "chapter": "CHAPTER 4.1: MEANING AND TYPES OF MARKET",
+    "section": "A",
+    "q_num": 37,
+    "question": "Marginal revenue will be negative if elasticity of demand is",
+    "options": {
+      "a": "Less than one",
+      "b": "More than one",
+      "c": "Equal to one",
+      "d": "Equal to Zero"
+    },
+    "answer": "a",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 10: INDIAN ECONOMY",
+    "section": "B",
+    "q_num": 38,
+    "question": "Nationalization means:",
+    "options": {
+      "a": "Selling of government stake to private sector",
+      "b": "Selling of government companies to private sector",
+      "c": "Government purchasing 26% shares in private companies",
+      "d": "Taking of full control and management from Private Sector by the Government"
+    },
+    "answer": "d",
+    "chapter_number": 10
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND",
+    "section": "A",
+    "q_num": 39,
+    "question": "All but one of the following are assumed to remain the same while drawing an individual\u2019s demand curve for a commodity. Which one is it?",
+    "options": {
+      "a": "The preference of the individual.",
+      "b": "His monetary income.",
+      "c": "Price of the commodity",
+      "d": "Price of related goods."
+    },
+    "answer": "c",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 10: INDIAN ECONOMY",
+    "section": "B",
+    "q_num": 40,
+    "question": "In terms of Ease of Doing Business in 2020 India ranks (MTP May\u201925, May\u201924,MP[3])",
+    "options": {
+      "a": "63",
+      "b": "77",
+      "c": "45",
+      "d": "None of the above"
+    },
+    "answer": "a",
+    "chapter_number": 10
+  },
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 41,
+    "question": "The production process described below exhibits.",
+    "options": {
+      "a": "Constant marginal product of labour.",
+      "b": "Diminishing marginal product of labour.",
+      "c": "Increasing return to scale.",
+      "d": "Increasing marginal product of labour."
+    },
+    "answer": "b",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 5: BUSINESS CYCLES",
+    "section": "A",
+    "q_num": 42,
+    "question": "A variable that tends to move later than aggregate economic activity is called",
+    "options": {
+      "a": "A leading variable.",
+      "b": "A coincident variable.",
+      "c": "A lagging variable.",
+      "d": "A cyclical variable."
+    },
+    "answer": "c",
+    "chapter_number": 6
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND & ELASTICITY",
+    "section": "A",
+    "q_num": 43,
+    "question": "Suppose the price of movies seen at a theatre rises from % 120 per person to \u00a3 200 per person. The theatre manager observes that the rise in price causes attendance at a given movie to fall from 300 persons to 200 persons. What is the price elasticity of demand for movies? (Use Arc Elasticity Method)",
+    "options": {
+      "a": "0.5",
+      "b": "0.8",
+      "c": "1.0",
+      "d": "1.2"
+    },
+    "answer": "b",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 9.1: THEORIES OF INTERNATIONAL TRADE",
+    "section": "A",
+    "q_num": 44,
+    "question": "Which of the following is not one of the features of New Trade Theory by Paul Krugman?",
+    "options": {
+      "a": "Countries which trade in similar goods are natural trade partners",
+      "b": "It is based on labour theory of value",
+      "c": "Network effect as means of engaging in international trade",
+      "d": "It focuses more on economies of scale"
+    },
+    "answer": "b",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 9.2: THE INSTRUMENTS OF TRADE POLICY",
+    "section": "A",
+    "q_num": 45,
+    "question": "What is the purpose of a voluntary export restraint (VER)?",
+    "options": {
+      "a": "To limit the quantity of exports.",
+      "b": "To encourage foreign producers to export more",
+      "c": "To reduce the cost of imports.",
+      "d": "To comply with international trade agreements."
+    },
+    "answer": "a",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 1.1: INTRODUCTION",
+    "section": "A",
+    "q_num": 46,
+    "question": "Ram: My corn harvest this year is poor. Krishan: Don\u2019t worry. Price increases will compensate for the fall in quantity supplied. Vinod: Climate affects crop yields. Some years are bad, others are good. Madhu: The Government ought to guarantee that our income will not fall. In this conversation, the normative statement is made by \u2014",
+    "options": {
+      "a": "Ram",
+      "b": "Krishan.",
+      "c": "Vinod",
+      "d": "Madhu"
+    },
+    "answer": "d",
+    "chapter_number": 1
+  },
+  {
+    "chapter": "CHAPTER 10: INDIAN ECONOMY",
+    "section": "B",
+    "q_num": 47,
+    "question": "The post-independence economic policy was rooted in -",
+    "options": {
+      "a": "A capitalist mode of production with heavy industrialization",
+      "b": "Social and economic redistribution and industrialization directed by the state",
+      "c": "Social and economic redistribution through private sector initiatives",
+      "d": "Industrialization led by private entrepreneurs and redistribution by state"
+    },
+    "answer": "b",
+    "chapter_number": 10
+  },
+  {
+    "chapter": "CHAPTER 7.1: FISCAL FUNCTION",
+    "section": "A",
+    "q_num": 48,
+    "question": "The percentage of share of states in central taxes for the period 2021-26 recommended by the Fifteenth Finance Commission is",
+    "options": {
+      "a": "38 percent",
+      "b": "41 percent",
+      "c": "42 percent",
+      "d": "The commission has not submitted"
+    },
+    "answer": "b",
+    "chapter_number": 7
+  },
+  {
+    "chapter": "CHAPTER 8.1: THE CONCEPT OF MONEY DEMAND",
+    "section": "A",
+    "q_num": 49,
+    "question": "In Tobin's portfolio approach, the demand function for money as an asset slopes downwards, where horizontal axis shows and vertical axis shows .",
+    "options": {
+      "a": "Demand for money, rate of interest",
+      "b": "Rate of interest, demand for money",
+      "c": "Supply for money, rate of Interest",
+      "d": "Demand for money, supply for Money"
+    },
+    "answer": "a",
+    "chapter_number": 8
+  },
+  {
+    "chapter": "CHAPTER 10: INDIAN ECONOMY",
+    "section": "B",
+    "q_num": 50,
+    "question": "The new economic policy of 1991 manifest in -",
+    "options": {
+      "a": "State led industrialization and import substitution",
+      "b": "\u2018Rethinking the role of markets versus the state",
+      "c": "Emphasized the role of good governance",
+      "d": "Bringing about reduction in poverty and redistributive justice"
+    },
+    "answer": "b",
+    "chapter_number": 10
+  },
+  {
+    "chapter": "CHAPTER 4.1: MEANING AND TYPES OF MARKET",
+    "section": "A",
+    "q_num": 51,
+    "question": "When e < 1 then MR is",
+    "options": {
+      "a": "Negative",
+      "b": "Zero",
+      "c": "Positive",
+      "d": "One"
+    },
+    "answer": "a",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 4.1: MEANING AND TYPES OF MARKET",
+    "section": "A",
+    "q_num": 52,
+    "question": "AR is also known as:",
+    "options": {
+      "a": "Price",
+      "b": "Income",
+      "c": "Revenue",
+      "d": "None of the above"
+    },
+    "answer": "a",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 7.1: FISCAL FUNCTION",
+    "section": "A",
+    "q_num": 53,
+    "question": "Fiscal federalism primarily deals with:",
+    "options": {
+      "a": "Distribution of financial resources among different levels of government",
+      "b": "Distribution of power between Legislature and Executive",
+      "c": "Relationship between Judiciary and Legislature",
+      "d": "Conduct of elections in a federal country"
+    },
+    "answer": "a",
+    "chapter_number": 7
+  },
+  {
+    "chapter": "CHAPTER 4.1: MEANING AND TYPES OF MARKET",
+    "section": "A",
+    "q_num": 54,
+    "question": "The average revenue of second unit is",
+    "options": {
+      "a": "40",
+      "b": "45",
+      "c": "20",
+      "d": "30"
+    },
+    "answer": "d",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 7.1: FISCAL FUNCTION",
+    "section": "A",
+    "q_num": 55,
+    "question": "Providing social sector services such as health and education is",
+    "options": {
+      "a": "the responsibility of the central government",
+      "b": "the responsibility of the respective state governments",
+      "c": "the responsibility of local administrative bodies",
+      "d": "none of the above"
+    },
+    "answer": "b",
+    "chapter_number": 7
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND & ELASTICITY",
+    "section": "A",
+    "q_num": 56,
+    "question": "If the local pizzeria raises the price of a medium pizza from % 60 to % 100 and quantity demanded falls from 700 pizzas a night to 100 pizzas a night, the price elasticity of demand for pizzas is : (Use Arc Elasticity Method)",
+    "options": {
+      "a": ".67",
+      "b": "1.5",
+      "c": "2.0",
+      "d": "3.0"
+    },
+    "answer": "d",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME",
+    "section": "A",
+    "q_num": 57,
+    "question": "Value added refers to:",
+    "options": {
+      "a": "Any increase in GDP that has been adjusted for adverse environmental effects.",
+      "b": "The excess of gross investment over net investment.",
+      "c": "The difference between the value of a firm's output and the value of the inputs it has purchased from others.",
+      "d": "The portion of any increase in GDP that is caused by inflation as opposed to an increase in real output."
+    },
+    "answer": "c",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME",
+    "section": "A",
+    "q_num": 58,
+    "question": "Which of the following is a final good or service?",
+    "options": {
+      "a": "Diesel fuel bought for a delivery truck",
+      "b": "Fertilizer purchased by a farm supplier",
+      "c": "A haircut",
+      "d": "Chevrolet windows purchased by a general Motors assembly plant"
+    },
+    "answer": "c",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 4.1: MEANING AND TYPES OF MARKET",
+    "section": "A",
+    "q_num": 59,
+    "question": "It is assumed in economic theory that",
+    "options": {
+      "a": "Decision making within the firm is usually undertaken by managers, but never by the owners.",
+      "b": "The ultimate goal of the firm is to maximise profits, regardless of firm size or type of business organisation.",
+      "c": "as the firm\u2019s size increases, so do its goals.",
+      "d": "The basic decision making unit of any firm is its owners."
+    },
+    "answer": "b",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 8.1: THE CONCEPT OF MONEY DEMAND",
+    "section": "A",
+    "q_num": 60,
+    "question": "The quantity demanded of money rises:",
+    "options": {
+      "a": "As the repo rate increases",
+      "b": "As the repo rate falls",
+      "c": "As the supply of money falls",
+      "d": "As the number of banks rises"
+    },
+    "answer": "b",
+    "chapter_number": 8
+  },
+  {
+    "chapter": "CHAPTER 8.1: THE CONCEPT OF MONEY DEMAND",
+    "section": "A",
+    "q_num": 61,
+    "question": "Which of the following is true with regards to Liquidity Trap?",
+    "options": {
+      "a": "Speculative Demand is parallel to X-Axis.",
+      "b": "Desire to hold bond is infinity.",
+      "c": "Ineffective Monetary Policy",
+      "d": "Botha&c"
+    },
+    "answer": "d",
+    "chapter_number": 8
+  },
+  {
+    "chapter": "CHAPTER 4.1: MEANING AND TYPES OF MARKET",
+    "section": "A",
+    "q_num": 62,
+    "question": "Suppose that a sole proprietorship is earning total revenues of \u00a3 1,00,000 and is incurring explicit costs of \u00a3 75,000. If the owner could work for another company for \u00a3 30,000 a year, we would conclude that:",
+    "options": {
+      "a": "The firm is incurring an economic loss.",
+      "b": "Implicit costs are \u00a3 25,000.",
+      "c": "The total economic costs are \u00a3 1,00,000.",
+      "d": "The individual is earning an economic profit of \u00a3 25,000."
+    },
+    "answer": "a",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 4.1: MEANING AND TYPES OF MARKET",
+    "section": "A",
+    "q_num": 63,
+    "question": "\u2018Time\u2019 element in market was conceived by:",
+    "options": {
+      "a": "Alfred Marshall",
+      "b": "Pigou",
+      "c": "Allen",
+      "d": "None of these"
+    },
+    "answer": "a",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 8.1: THE CONCEPT OF MONEY DEMAND",
+    "section": "A",
+    "q_num": 64,
+    "question": "According to James Tobin's theory, an individual's behaviour shows risk aversion, which means they prefer risk to at a given rate of return. Risk",
+    "options": {
+      "a": "Less, more",
+      "b": "More, less",
+      "c": "Less, positive",
+      "d": "More, negative"
+    },
+    "answer": "a",
+    "chapter_number": 8
+  },
+  {
+    "chapter": "CHAPTER 4.1: MEANING AND TYPES OF MARKET",
+    "section": "A",
+    "q_num": 65,
+    "question": "Foreign Exchange market is an example of",
+    "options": {
+      "a": "Perfect competition",
+      "b": "Oligopoly",
+      "c": "Monopoly",
+      "d": "Monopolistic competition"
+    },
+    "answer": "a",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 10: INDIAN ECONOMY",
+    "section": "B",
+    "q_num": 66,
+    "question": "SEBI was given statutory recognition in:",
+    "options": {
+      "a": "1985",
+      "b": "1990",
+      "c": "1992",
+      "d": "None of these"
+    },
+    "answer": "c",
+    "chapter_number": 10
+  },
+  {
+    "chapter": "CHAPTER 10: INDIAN ECONOMY",
+    "section": "B",
+    "q_num": 67,
+    "question": "What is the expansion of the term NITI in NITI Aayog?",
+    "options": {
+      "a": "National Institution for Transforming India?",
+      "b": "National Institution for Total Improvement",
+      "c": "National Institution for Technological Improvement",
+      "d": "None of these"
+    },
+    "answer": "a",
+    "chapter_number": 10
+  },
+  {
+    "chapter": "CHAPTER 9.3: TRADE NEGOTIATIONS",
+    "section": "A",
+    "q_num": 68,
+    "question": "\u2018Bound tariff\u2019 refers to",
+    "options": {
+      "a": "Clubbing of tariffs of different commodities into one common measure",
+      "b": "The lower limit of the tariff below which a nation cannot be taxing its imports",
+      "c": "The upper limit on the tariff that a country can levy on a particular good, according to its commitments under the gatt and wto.",
+      "d": "The limit within which the country\u2019s export duty should fall so that there are cheaper exports"
+    },
+    "answer": "c",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 1.1: INTRODUCTION",
+    "section": "A",
+    "q_num": 69,
+    "question": "In a free market economy the allocation of resources is determined by",
+    "options": {
+      "a": "voting done by consumers.",
+      "b": "a central planning authority.",
+      "c": "consumer preferences.",
+      "d": "the level of profits of firms."
+    },
+    "answer": "c",
+    "chapter_number": 1
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME",
+    "section": "A",
+    "q_num": 70,
+    "question": "Consider the following information: What is the value of NDP at Factor Cost?",
+    "options": {
+      "a": "7,300 crore",
+      "b": "8,400 crore",
+      "c": "8,700 crore",
+      "d": "16,400 crore"
+    },
+    "answer": "a",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 5: BUSINESS CYCLES",
+    "section": "A",
+    "q_num": 71,
+    "question": "Peaks and troughs of the business cycle are known collectively as",
+    "options": {
+      "a": "Volatility.",
+      "b": "Turning points.",
+      "c": "Equilibrium points.",
+      "d": "Real business cycle events."
+    },
+    "answer": "b",
+    "chapter_number": 6
+  },
+  {
+    "chapter": "CHAPTER 9.1: THEORIES OF INTERNATIONAL TRADE",
+    "section": "A",
+    "q_num": 72,
+    "question": "The theory of absolute advantage states that a",
+    "options": {
+      "a": "National wealth and power are best served by increasing exports and decreasing imports",
+      "b": "Nations can increase their economic well-being by specializing in the production of goods they produce more efficiently than anyone else.",
+      "c": "That the value or price of a commodity depends exclusively on the amount of labour going into its production and therefore factor prices will be the same",
+      "d": "differences in absolute advantage explains differences in factor endowments in different countries"
+    },
+    "answer": "b",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 10: INDIAN ECONOMY",
+    "section": "B",
+    "q_num": 73,
+    "question": "Agrarian reforms in Agriculture brought:",
+    "options": {
+      "a": "Institutional reforms",
+      "b": "Technical reforms",
+      "c": "Land reforms",
+      "d": "All the three mentioned"
+    },
+    "answer": "d",
+    "chapter_number": 10
+  },
+  {
+    "chapter": "CHAPTER 9.5: INTERNATIONAL CAPITAL MOVEMENTS",
+    "section": "B",
+    "q_num": 74,
+    "question": "Foreign Portfolio Investment (FPI) involves:",
+    "options": {
+      "a": "Investment in tangible assets in a foreign country",
+      "b": "Investment in financial assets such as stocks and bonds of foreign companies",
+      "c": "Establishing subsidiaries or acquiring stakes in foreign companies",
+      "d": "Long-term commitment to a foreign market"
+    },
+    "answer": "b",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 7.1: FISCAL FUNCTIONS: A CENTRE & STATE FINANCE",
+    "section": "A",
+    "q_num": 75,
+    "question": "Macroeconomic stabilization may be achieved through (SM) (MTP Dec\u001924,MP[7])",
+    "options": {
+      "a": "Free market economy",
+      "b": "Fiscal policy",
+      "c": "Monetary policy",
+      "d": "(b) and (c) above"
+    },
+    "answer": "b",
+    "chapter_number": 7
+  },
+  {
+    "chapter": "CHAPTER 8.1: THE CONCEPT OF MONEY DEMAND",
+    "section": "A",
+    "q_num": 76,
+    "question": "considered demand for money is as an application of a more general theory of demand for capital assets.",
+    "options": {
+      "a": "Baumol",
+      "b": "James Tobin",
+      "c": "JM Keynes",
+      "d": "Milton Friedman"
+    },
+    "answer": "d",
+    "chapter_number": 8
+  },
+  {
+    "chapter": "CHAPTER 1.1: INTRODUCTION",
+    "section": "A",
+    "q_num": 77,
+    "question": "A study of how increases in the corporate income tax rate will affect the national unemployment rate is an example of \u2014",
+    "options": {
+      "a": "Macro-Economics.",
+      "b": "Descriptive Economics.",
+      "c": "Micro-economics.",
+      "d": "Normative economics."
+    },
+    "answer": "a",
+    "chapter_number": 1
+  },
+  {
+    "chapter": "CHAPTER 10: INDIAN ECONOMY",
+    "section": "B",
+    "q_num": 78,
+    "question": "The Industrial Policy Resolution (1948) aimed at -",
+    "options": {
+      "a": "Market oriented economic reforms and opening up of economy",
+      "b": "A shift from state led industrialization to private sector led industrialisation",
+      "c": "An expanded role for the public sector and licensing to the private sector",
+      "d": "An expanded role of private sector a limited role of public sector"
+    },
+    "answer": "c",
+    "chapter_number": 10
+  },
+  {
+    "chapter": "CHAPTER 8.1: THE CONCEPT OF MONEY DEMAND",
+    "section": "A",
+    "q_num": 79,
+    "question": "Among the following identified by Friedman, which one is not one of the four determinants of demand for money?",
+    "options": {
+      "a": "Average return on five asset classes",
+      "b": "Price level in the economy",
+      "c": "Inflation Rate",
+      "d": "Forex Trade"
+    },
+    "answer": "d",
+    "chapter_number": 8
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME",
+    "section": "A",
+    "q_num": 80,
+    "question": "Transfer payments are:",
+    "options": {
+      "a": "Excluded when calculating GDP because they only reflect inflation.",
+      "b": "Excluded when calculating GDP because they do not reflect current production.",
+      "c": "Included when calculating GDP because they are a category of investment spending.",
+      "d": "Included when calculating GDP because they increase the spending of recipients."
+    },
+    "answer": "b",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND & ELASTICITY",
+    "section": "A",
+    "q_num": 81,
+    "question": "Suppose the demand for meals at a medium-priced restaurant is elastic. If the management of the restaurant is considering raising prices, it can expect a relatively:",
+    "options": {
+      "a": "Large fall in quantity demanded.",
+      "b": "Large fall in demand.",
+      "c": "Small fall in quantity demanded.",
+      "d": "Small fall in demand."
+    },
+    "answer": "a",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 5: BUSINESS CYCLES",
+    "section": "A",
+    "q_num": 82,
+    "question": "According to trade cycles occur due to onset of innovations.",
+    "options": {
+      "a": "Hawtrey",
+      "b": "Adam Smith",
+      "c": "JM Keynes",
+      "d": "Schumpeter"
+    },
+    "answer": "d",
+    "chapter_number": 6
+  },
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 83,
+    "question": "What is a production function?",
+    "options": {
+      "a": "Technical relationship between physical inputs and physical output.",
+      "b": "Relationship between fixed factors of production and variable factors of production.",
+      "c": "Relationship between a factor of production and the utility created by it.",
+      "d": "Relationship between quantity of output produced and time taken to produce the output."
+    },
+    "answer": "a",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 5: BUSINESS CYCLES",
+    "section": "A",
+    "q_num": 84,
+    "question": "Which of the following is the external cause of Business Cycles?",
+    "options": {
+      "a": "Fluctuations in Effective Demand",
+      "b": "Fluctuations in Investment",
+      "c": "Variations in government spending",
+      "d": "War"
+    },
+    "answer": "d",
+    "chapter_number": 6
+  },
+  {
+    "chapter": "CHAPTER 5: BUSINESS CYCLES",
+    "section": "A",
+    "q_num": 85,
+    "question": "If demand for goods and services is more than their supply, the resultant inflation is :",
+    "options": {
+      "a": "Cost push inflation.",
+      "b": "Stagflation",
+      "c": "Deflation.",
+      "d": "Demand pull inflation."
+    },
+    "answer": "d",
+    "chapter_number": 6
+  },
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 86,
+    "question": "What is the average product of the first three hours of labour?",
+    "options": {
+      "a": "60",
+      "b": "80",
+      "c": "100",
+      "d": "240"
+    },
+    "answer": "b",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 7.1: FISCAL FUNCTION",
+    "section": "A",
+    "q_num": 87,
+    "question": "Fiscal federalism in India is maintained by?",
+    "options": {
+      "a": "Central Government",
+      "b": "State Government",
+      "c": "RBI",
+      "d": "Finance Commission"
+    },
+    "answer": "d",
+    "chapter_number": 7
+  },
+  {
+    "chapter": "CHAPTER 8.1: THE CONCEPT OF MONEY DEMAND",
+    "section": "A",
+    "q_num": 88,
+    "question": "The Cambridge approach to quantity theory is also known as",
+    "options": {
+      "a": "Cash balance approach",
+      "b": "Fisher\u2019s theory of money",
+      "c": "Classical approach",
+      "d": "Keynesian Approach"
+    },
+    "answer": "a",
+    "chapter_number": 8
+  },
+  {
+    "chapter": "CHAPTER 8.1: THE CONCEPT OF MONEY DEMAND",
+    "section": "A",
+    "q_num": 89,
+    "question": "The decision about how much of one's given stock of wealth should be held in the form of money rather than as other assets (like bonds)is calf\u00e9'd'as | \u00b0",
+    "options": {
+      "a": "Demand for money",
+      "b": "Decision for money",
+      "c": "Supply of money",
+      "d": "None of above"
+    },
+    "answer": "a",
+    "chapter_number": 8
+  },
+  {
+    "chapter": "CHAPTER 9.2: THE INSTRUMENTS OF TRADE POLICY",
+    "section": "A",
+    "q_num": 90,
+    "question": "Dumping refers to:",
+    "options": {
+      "a": "Reducing tariffs",
+      "b": "Sale of goods abroad at a lower price, below their cost and price in their home market",
+      "c": "Buying goods at low prices abroad and selling at higher prices locally",
+      "d": "None of these"
+    },
+    "answer": "b",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 2.1: LAW OF DEMAND & ELASTICITY",
+    "section": "A",
+    "q_num": 91,
+    "question": "If electricity demand is inelastic, and electricity charges increase, which of the following is likely to occur?",
+    "options": {
+      "a": "Quantity demanded will fall by a relatively large amount.",
+      "b": "Quantity demanded will fall by a relatively small amount.",
+      "c": "Quantity demanded will rise in the short run, but fall in the long run.",
+      "d": "Quantity demanded will fall in the short run, but rise in the long run."
+    },
+    "answer": "b",
+    "chapter_number": 2
+  },
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 92,
+    "question": "What is the marginal product of the third hour of labour?",
+    "options": {
+      "a": "60",
+      "b": "80",
+      "c": "100",
+      "d": "240"
+    },
+    "answer": "a",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 9.2: THE INSTRUMENTS OF TRADE POLICY",
+    "section": "A",
+    "q_num": 93,
+    "question": "Which of the following is an outcome of tariff?",
+    "options": {
+      "a": "Create obstacles to trade and increase the volume of imports and exports",
+      "b": "Domestic consumers enjoy consumer surplus because consumers must now pay only a lower price for the good",
+      "c": "Discourage domestic consumers from consuming imported foreign goods and encourage consumption of domestically produced import substitutes",
+      "d": "Increase government revenues of the importing country by more than value of the total tariff it charges"
+    },
+    "answer": "c",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 9.3: TRADE NEGOTIATIONS",
+    "section": "A",
+    "q_num": 94,
+    "question": "The most controversial topic in the yet to conclude Doha Agenda is",
+    "options": {
+      "a": "Trade in manufactured goods",
+      "b": "Trade in intellectual property rights-based goods",
+      "c": "Trade in agricultural goods",
+      "d": "Market access to goods from developed countries"
+    },
+    "answer": "c",
+    "chapter_number": 9
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME",
+    "section": "A",
+    "q_num": 95,
+    "question": "If the GDP gap is positive, then:",
+    "options": {
+      "a": "The inflation rate is falling",
+      "b": "Actual GDP is greater than potential GDP",
+      "c": "Potential GDP is greater than actual GDP",
+      "d": "The unemployment rate is rising"
+    },
+    "answer": "b",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 1.1: INTRODUCTION",
+    "section": "A",
+    "q_num": 96,
+    "question": "Which of the following statements is/are correct regarding business economics?",
+    "options": {
+      "a": "Business economics attempts to indicate how business policies are firmly rooted in economic principles.",
+      "b": "Business economics uses micro economic analysis of the business unit and macro economic analysis of business environment.",
+      "c": "Business economics takes a pragmatic approach towards facilitating an integration between economic theory and business practices.",
+      "d": "All the above."
+    },
+    "answer": "d",
+    "chapter_number": 1
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME",
+    "section": "A",
+    "q_num": 97,
+    "question": "GDP includes:",
+    "options": {
+      "a": "Neither intermediate nor final goods.",
+      "b": "Both intermediate and final goods.",
+      "c": "Intermediate, but not final, goods.",
+      "d": "Final, but not intermediate, goods."
+    },
+    "answer": "d",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 3.1: THEORY OF PRODUCTION",
+    "section": "A",
+    "q_num": 98,
+    "question": "The production function is a relationship between a given combination of inputs and:",
+    "options": {
+      "a": "Another combination that yields the same output.",
+      "b": "The highest resulting output.",
+      "c": "The increase in output generated by one-unit increase in one output.",
+      "d": "All levels of output that can be generated by those inputs."
+    },
+    "answer": "b",
+    "chapter_number": 3
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME",
+    "section": "A",
+    "q_num": 99,
+    "question": "The amount of after-tax income received by households is measured by:",
+    "options": {
+      "a": "Discretionary income.",
+      "b": "National income.",
+      "c": "Disposable income.",
+      "d": "Personal income."
+    },
+    "answer": "c",
+    "chapter_number": 5
+  },
+  {
+    "chapter": "CHAPTER 6.1: NATIONAL INCOME",
+    "section": "A",
+    "q_num": 100,
+    "question": "GDP at Market Prices is INR 200 Cr. and Net Income from Abroad is INR 100 Cr., then what will be the value of GNP at Market Prices?",
+    "options": {
+      "a": "INR 100 Cr.",
+      "b": "INR 400 Cr.",
+      "c": "INR 300 Cr.",
+      "d": "INR 500 Cr."
+    },
+    "answer": "c",
+    "chapter_number": 5
+  }
+]

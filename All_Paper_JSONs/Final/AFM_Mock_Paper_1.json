@@ -1,0 +1,458 @@
+{
+  "meta": {
+    "subject_code": "AFM",
+    "subject_name": "Advanced Financial Management",
+    "paper_num": 1,
+    "total_marks_printed": 100,
+    "total_marks_in_paper": 114,
+    "section_a_marks": 30,
+    "section_b_marks": 84,
+    "note": "Section B: Q1 compulsory (14m). Attempt any 4 of Q2-Q6 (14m each).",
+    "blacklisted_from": []
+  },
+  "section_a": [
+    {
+      "type": "case_study",
+      "chapter_number": "15",
+      "chapter_name": "STARTUP FINANCE",
+      "case_text": "## CS 1 (RTP May'24,Jan'26,MP[1]) (Chapter 7- Securitization)\n\nGrow More Ltd. an NBFC is in the need of funds and hence it sold its receivables to MAC Financial Corporation (MFC) for ₹ 100 million. MFC created a trust for this purpose called General Investment Trust (GIT) through which it issued securities carrying a different level of risk and return to the investors. Further, this structure also permits the GIT to reinvest surplus funds for short term as per their requirement.\n\nMFC also appointed a third party, Safeguard Pvt. Ltd. (SPL) to collect the payment due from obligor(s) and passes it to GIT. It will also follow up with defaulting obligor and if required initiate appropriate legal action against them.\n\nBased on above scenario, answer the following questions:\n\n\n1. The securitized instrument issued for ₹ $\\mathbf{1 0 0}$ million by the GIT falls under category of $\\_\\_\\_\\_$\n\n(a) Pass Through certificate (PTCs)\n\n(b) Pay Through Security (PTS)\n\n(c) Stripped Security\n\n(d) Debt Fund.\n\n\n## Ans:(b)\n\n\n2. In the above scenario, the Originator is $\\_\\_\\_\\_$\n\n(a) Grow More Ltd.\n\n(b) MAC Financial Corporation (MFC)\n\n(c) General Investment Trust (GIT)\n\n(d) Safeguard Pvt. Ltd.\n\n\n## Ans:(b)\n\n\n3. In the above scenario, the General Investment Trust (GIT) is a/an\n\n(a) Obligor\n\n(b) Originator\n\n(c) Special Purpose Vehicle (SPV)\n\n(d) Receiving and Paying Agent (RPA)\n\n\n## Ans:(c)\n\n\n4. In the above scenario, the Safeguard Pvt. Ltd. (SPL) is a/an $\\_\\_\\_\\_$\n\n(a) Obligor\n\n(b) Originator\n\n(c) Special Purpose Vehicle (SPV)\n\n(d) Receiving and Paying Agent (RPA)\n\n\n## Ans:(d)\n\n\n5. Which of the following statement holds true?\n\n(a) When Yield to Maturity in market rises, prices of Principle Only (PO) Securities tend to rise.\n\n(b) When Yield to Maturity in market rises, prices of Principle Only (PO) Securities tend to fall.\n\n(c) When Yield to Maturity in market falls, prices of Principle Only (PO) Securities tend to fall.\n\n(d) When Yield to Maturity in market falls, prices of Principle Only (PO) Securities remain the same.\n\n\nAns:(b)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "The securitized instrument issued for ₹ $\\mathbf{1 0 0}$ million by the GIT falls under category of $\\_\\_\\_\\_$",
+          "options": {
+            "a": "Pass Through certificate (PTCs)",
+            "b": "Pay Through Security (PTS)",
+            "c": "Stripped Security",
+            "d": "Debt Fund."
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "In the above scenario, the Originator is $\\_\\_\\_\\_$",
+          "options": {
+            "a": "Grow More Ltd.",
+            "b": "MAC Financial Corporation (MFC)",
+            "c": "General Investment Trust (GIT)",
+            "d": "Safeguard Pvt. Ltd."
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "In the above scenario, the General Investment Trust (GIT) is a/an",
+          "options": {
+            "a": "Obligor",
+            "b": "Originator",
+            "c": "Special Purpose Vehicle (SPV)",
+            "d": "Receiving and Paying Agent (RPA)"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null
+        },
+        {
+          "q_num": 4,
+          "question": "In the above scenario, the Safeguard Pvt. Ltd. (SPL) is a/an $\\_\\_\\_\\_$",
+          "options": {
+            "a": "Obligor",
+            "b": "Originator",
+            "c": "Special Purpose Vehicle (SPV)",
+            "d": "Receiving and Paying Agent (RPA)"
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null
+        },
+        {
+          "q_num": 5,
+          "question": "Which of the following statement holds true?",
+          "options": {
+            "a": "When Yield to Maturity in market rises, prices of Principle Only (PO) Securities tend to rise.",
+            "b": "When Yield to Maturity in market rises, prices of Principle Only (PO) Securities tend to fall.",
+            "c": "When Yield to Maturity in market falls, prices of Principle Only (PO) Securities tend to fall.",
+            "d": "When Yield to Maturity in market falls, prices of Principle Only (PO) Securities remain the same."
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "cs__15__-6842518178187115281"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "15",
+      "chapter_name": "STARTUP FINANCE",
+      "case_text": "## CS 6\n\n(MTP 8 Marks Mar'24,MP[6],MP[7]) (Chapter 14: Mergers, Acquisitions and Corporate Restructuring)\n\nAES Ltd. wants to acquire DNF Ltd. and has offered a swap ratio of 1:2 ( 0.5 shares for every one share of DNF Ltd.). Following information is provided:\n\n\n|  | AES Ltd. | DNF Ltd. |\n| :--- | :--- | :--- |\n| Profit after tax | ₹ 36,00,000 | ₹ 7,20,000 |\n| Equity shares outstanding (Nos.) | 12,00,000 | 3,60,000 |\n| PE Ratio | 10 times | 7 times |\n| Market price per share | ₹ 30 | ₹ 14 |\n\nOn the basis of above information, choose the most appropriate answer to the following questions:\n\n\n1. The number of equity shares to be issued by AES Ltd. for acquisition of DNF Ltd. would be $\\_\\_\\_\\_$\n\n(a) $1,68,000$\n\n(b) $1,80,000$\n\n(c) $2,40,000$\n\n(d) $3,00,000$\n\n\nAns: (b)\n\n2. The EPS of AES Ltd. after the acquisition would be $\\_\\_\\_\\_$\n\n(a) ₹ 2\n\n(b) ₹ 3\n\n(c) ₹ 3.13\n\n(d) ₹ 4.00\n\n\nAns: (c)\n\n3. The equivalent earnings per share of DNF Ltd. would be $\\_\\_\\_\\_$\n\n(a) ₹ 1\n\n(b) ₹ 1.50\n\n(c) ₹ 1.57\n\n(d) ₹ 2.00\n\n\nAns: (c)\n\n4. If AES Ltd. PE multiple remains unchanged then its expected market price per share after the acquisition would be $\\_\\_\\_\\_$\n\n(a) ₹ 14\n\n(b) ₹ 30\n\n(c) ₹ 31.30\n\n(d) ₹ 40.00\n\n\nAns: (c)\n\n5. If AES Ltd. PE multiple remains unchanged then, the market value of the merged firm would be $\\_\\_\\_\\_$\n\n(a) ₹ $4,14,00,000$\n\n(b) ₹ $4,88,28,000$\n\n(c) ₹ $3,75,60,000$\n\n(d) ₹ $4,31,94,000$\n\n\nAns: (d)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "The number of equity shares to be issued by AES Ltd. for acquisition of DNF Ltd. would be $\\_\\_\\_\\_$",
+          "options": {
+            "a": "$1,68,000$",
+            "b": "$1,80,000$",
+            "c": "$2,40,000$",
+            "d": "$3,00,000$"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "The EPS of AES Ltd. after the acquisition would be $\\_\\_\\_\\_$",
+          "options": {
+            "a": "₹ 2",
+            "b": "₹ 3",
+            "c": "₹ 3.13",
+            "d": "₹ 4.00"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "The equivalent earnings per share of DNF Ltd. would be $\\_\\_\\_\\_$",
+          "options": {
+            "a": "₹ 1",
+            "b": "₹ 1.50",
+            "c": "₹ 1.57",
+            "d": "₹ 2.00"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null
+        },
+        {
+          "q_num": 4,
+          "question": "If AES Ltd. PE multiple remains unchanged then its expected market price per share after the acquisition would be $\\_\\_\\_\\_$",
+          "options": {
+            "a": "₹ 14",
+            "b": "₹ 30",
+            "c": "₹ 31.30",
+            "d": "₹ 40.00"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null
+        },
+        {
+          "q_num": 5,
+          "question": "If AES Ltd. PE multiple remains unchanged then, the market value of the merged firm would be $\\_\\_\\_\\_$",
+          "options": {
+            "a": "₹ $4,14,00,000$",
+            "b": "₹ $4,88,28,000$",
+            "c": "₹ $3,75,60,000$",
+            "d": "₹ $4,31,94,000$"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "cs__15__-7190991372406890263"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "15",
+      "chapter_name": "STARTUP FINANCE",
+      "case_text": "## CS 16 <br> (MTP 10 Marks Sep'24,MP[5],MP[8]) (Chapter 8: Mutual Funds)\n\n\nThe Asset Management Company of the mutual fund (MF) has declared a dividend of 9.98\\% on the units under the dividend reinvestment plan for the year ended 31st March 20X1. The investors are issued additional units for the dividend at the rate of closing Net Asset Value (NAV) for the year as per the conditions of the scheme. The closing NAV was ₹ 24.95 as on 31st March 20X1. An investor Mr. X who is having 20,800 units at the yearend has made an investment in the units before the declaration of the dividend at the rate of opening NAV plus an entry load of ₹ 0.04 . The NAV has appreciated by $25 \\%$ during the year. Assume the face value of the unit as ₹ \\mathbf{1 0 . 0 0}.\n\nBased on above Case Scenario, answer the following questions:\n\n\n1. The Opening NAV of the Asset Management Company shall be ₹\\_\n\n(a) ₹ 20.24\n\n(b) ₹ 19.96\n\n(c) ₹ 18.75\n\n(d) ₹ 17.65\n\n\nAns: (b)\n\n2. The Number of the units purchased shall be ₹\\_\n\n(a) 18750\n\n(b) 17500\n\n(c) 20450\n\n(d) 20000\n\n\nAns: (d)\n\n3. Original amount of the investment shall be ₹\\_\n\n(a) ₹ $4,00,000$\n\n(b) ₹ $6,50,000$\n\n(c) ₹ $3,55,000$\n\n(d) ₹ $5,65,000$\n\n\n## Ans: (a)\n\n4. Which of the following statement about Expense ratio is/ are incorrect:\n\n(i) It is the percentage of income that were spent to run a mutual fund.\n\n(ii) It includes advisory fees, travel costs, registrar fees, custodian fees, etc.\n\n(iii) It includes Brokerage costs for trading of Portfolio.\n\n(iv) High Expense Ratio can seriously undermine the performance of a mutual fund scheme.\n\n(a) (i), (ii), (iii)\n\n(b) (i), (iii)\n\n(c) only (iii)\n\n(d) only (i)\n\n\nAns: (c)\n\n5. Which of the following performance measure uses only the Standard Deviation of negative/downside returns (downside deviation) instead of total Standard Deviation while measuring risk-adjusted return of a Mutual Fund?\n\n(a) Expense Ratio\n\n(b) Sharpe Ratio\n\n(c) Treynor Ratio\n\n(d) Sortino Ratio\n\n\nAns: (d)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "The Opening NAV of the Asset Management Company shall be ₹\\_",
+          "options": {
+            "a": "₹ 20.24",
+            "b": "₹ 19.96",
+            "c": "₹ 18.75",
+            "d": "₹ 17.65"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "The Number of the units purchased shall be ₹\\_",
+          "options": {
+            "a": "18750",
+            "b": "17500",
+            "c": "20450",
+            "d": "20000"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "Original amount of the investment shall be ₹\\_",
+          "options": {
+            "a": "₹ $4,00,000$",
+            "b": "₹ $6,50,000$",
+            "c": "₹ $3,55,000$",
+            "d": "₹ $5,65,000$"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null
+        },
+        {
+          "q_num": 4,
+          "question": "Which of the following statement about Expense ratio is/ are incorrect:\n\n(i) It is the percentage of income that were spent to run a mutual fund.\n\n(ii) It includes advisory fees, travel costs, registrar fees, custodian fees, etc.\n\n(iii) It includes Brokerage costs for trading of Portfolio.\n\n(iv) High Expense Ratio can seriously undermine the performance of a mutual fund scheme.",
+          "options": {
+            "a": "(i), (ii), (iii)",
+            "b": "(i), (iii)",
+            "c": "only (iii)",
+            "d": "only (i)"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null
+        },
+        {
+          "q_num": 5,
+          "question": "Which of the following performance measure uses only the Standard Deviation of negative/downside returns (downside deviation) instead of total Standard Deviation while measuring risk-adjusted return of a Mutual Fund?",
+          "options": {
+            "a": "Expense Ratio",
+            "b": "Sharpe Ratio",
+            "c": "Treynor Ratio",
+            "d": "Sortino Ratio"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "cs__15__-8013728036400005819"
+    }
+  ],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": true,
+      "total_marks": 14,
+      "chapter_number": "13",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Wiwitsu Ltd.'s current financial year's income statement reports its net income as Rs. 15,00,000. Wiwitsu's marginal tax rate is $40 \\%$ and its interest expense for the year was Rs. $15,00,000$. The company has Rs. $1,00,00,000$ of invested capital, of which $60 \\%$ is debt. In addition, Wiwitsu Ltd. tries to maintain a Weighted Average Cost of Capital (WACC) of \\mathbf{1 2 . 6 \\%}. (i) Calculate the operating income or EBIT earned by Wiwitsu Ltd. in the current year. (ii) Calculate the Wiwitsu Ltd.'s Economic Value Added (EVA) for the current year? (iii) Wiwitsu Ltd. has $2,50,000$ equity shares outstanding. According to the EVA you calculated in (ii), Evaluate how much can Wiwitsu pay in dividend per share before the value of the company would start to decrease? If Wiwitsu does not pay any dividends, Evaluate what would you expect to happen to the value of the company?",
+          "answer": "(i) Taxable income $=$ Net Income $/(\n\\mathbf{1 - 0 . 4 0})$\n\nor, Taxable income $=$ Rs. $15,00,000 /(1-0.40)=$ Rs. $25,00,000$\n\nAgain, taxable income = EBIT - Interest\n\nor, EBIT = Taxable Income + Interest\n\n$=$ Rs. $25,00,000+$ Rs $15,00,000=$ Rs \\cdot 40,00,000$\n\n(ii) $\\mathrm{EVA}=\\mathrm{EBIT}(\\mathbf{1}-\\mathrm{T})-(\\text{WACC Invested capital})$\n\n$=Rs. 40,00,000 (1-0.40) - (0.126 Rs. 1,00,00,000)$\n\n$=$ Rs. $24,00,000-$ Rs. $12,60,000=$ Rs. $11,40,000$\n\n(iii) EVA Dividend = Rs. 11,40,000/2,50,000=Rs. 4.56\n\nIf Wiwitsu Ltd. does not pay a dividend, we would expect the value of the firm to increase because it will achieve higher growth, hence a higher level of EBIT. If EBIT is higher, then all else equal, the value of the firm will increase.",
+          "chapter_number": "13",
+          "chapter_name": "BUSINESS VALUATION",
+          "unique_id": "13-T-7"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "ABC Ltd. of UK has exported goods worth Can $5,00,000 receivable in 6 months. The exporter wants to hedge the receipt in the forward market. The following information is available:\n\n| Spot Exchange Rate | Can $\\mathbf{2 . 5 / £}$ |\n| :--- | :--- |\n| Interest Rate in UK | $12 \\%$ |\n| Interest Rate In Canada | $15 \\%$ |\n\nThe forward rates truly reflect the interest rates differential. Find out the gain/loss to UK exporter if Can $ spot rates (i) declines 2\\%, (ii) gains 4\\% or (iii) remains unchanged over next 6 months.",
+          "answer": "Forward Rate $=\\frac{2.50(1+0.075)}{(1+0.060)}=$ Can $\\$ 2.535 / £$\n\n(i) If spot rate decline by $2 \\%$\n\nSpot Rate $=$ Can $\\$ 2.50 \\times 1.02=$ Can $\\$ 2.55 / £$\n\n|  | $£$ |\n| :--- | ---: |\n| $£$ receipt as per Forward Rate $($ Can $\\$ 5,00,000 /$ Can $\\$ 2.535)$ | $1,97,239$ |\n| $£$ receipt as per Spot Rate $($ Can $\\$ 5,00,000 /$ Can $\\$ 2.55)$ | $1,96,078$ |\n| Gain due to forward contract | 1,161 |\n\n(ii) If spot rate gains by $4 \\%$\n\nSpot Rate $=$ Can$\\$ $2.50 \\times 0.96=$ Can $\\$ 2.40 / £$\n\n|  | $£$ |\n| :--- | :--- |\n| $£$ receipt as per Forward Rate (Can $\\$ 5,00,000 /$ Can $\\$ 2.535$ ) | $1,97,239$ |\n| $£$ receipt as per Spot Rate $($ Can $\\$ 5,00,000 /$ Can $\\$ 2.40)$ | $2,08,333$ |\n| Loss due to forward contract | 11,094 |\n\n(iii) If spot rate remains unchanged\n\n|  | £ |\n| :--- | :--- |\n| £ receipt as per Forward Rate (Can $\\$ 5,00,000/ Can$\\$ 2.535) | 1,97,239 |\n| £ receipt as per Spot Rate (Can $\\$ 5,00,000/ Can$\\$ 2.50) | 2,00,000 |\n| Loss due to forward contract | 2,761 |",
+          "chapter_number": "10",
+          "chapter_name": "Foreign Exchange Exposure & Risk Management",
+          "unique_id": "10-T-48"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Explain the purposes for trading in Futures. (MP [1] 4 Marks)",
+          "answer": "Trading in futures is for two purposes namely:\n\n(a) Speculation and\n\n(b) Hedging\n\n(a) Speculation - For simplicity we will assume that one contract $=100$ units and the margin requirement is $20 \\%$ of the value of contract entered. Brokerage and transaction costs are not taken into account.\n\n(b) Hedging - Hedging is the practice of taking a position in one market to offset and balance against the risk adopted by assuming a position in a contrary or opposing market or investment. In simple language, hedging is used to reduce any substantial losses/gains suffered by an individual or an organization. To hedge, the investor takes a stock future position exactly opposite to the stock position. That way, any losses on the stock position will be offset by gains on the future position.",
+          "chapter_number": "9",
+          "chapter_name": "Derivative Analysis and Valuation",
+          "unique_id": "9-T-1"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "5",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "On the basis of the following information:\n\n| Current dividend (Do) | Rs.5 |\n| :--- | :---: |\n| Discount rate (k) | $10.5 \\%$ |\n| Growth rate (g) | $4 \\%$ |\n\n(i) Calculate the present value of stock of ABC Ltd.\n\n(ii) Evaluate whether the stock is overvalued if stock price is $Rs. 70, \\mathrm{ROE}=18 \\%$ and $\\mathrm{EPS}(\\mathrm{EO})=Rs. 4.50$ applying:\n\n(1) PE Multiple Approach and\n\n(2) Earning Growth Model (using discount rate of 10.5\\%).",
+          "answer": "(i) Present Value of the stock of ABC Ltd. is:-\n\n$$\nV O=\\frac{5(1.04)}{0.105-0.04}=80 \\%\n$$\n\n(ii) (A) Value of stock under the PE Multiple Approach\n\n| Particulars |  |\n| :--- | ---: |\n| Actual Stock Price | $Rs. 70.00$ |\n| Return on equity | $18 \\%$ |\n| EPS | $Rs. 4.50$ |\n| PE Multiple (1/Return on Equity) $=1 / 18 \\%$ | 5.56 |\n| Market Price per Share | $Rs. 25.02$ |\n\nSince, Actual Stock Price is higher, hence it is overvalued.\n\n(B) Value of the Stock under the Earnings Growth Model\n\n| Particulars |  |\n| :--- | ---: |\n| Actual Stock Price | $Rs. 70.00$ |\n| Return on equity | $18 \\%$ |\n| EPS | $Rs. 4.50$ |\n| Growth Rate | $4 \\%$ |\n| Market Price per Share $[\\mathrm{EPS} \\times(1+\\mathrm{g})]/(\\mathrm{Ke}-\\mathrm{g})$ | $Rs. 72$ |\n| $=Rs. 4.50 \\times 1.04 /(0.105-0.04)$ |  |\n\nSince, Actual Stock Price is lower, hence it is slightly undervalued.",
+          "chapter_number": "5",
+          "chapter_name": "Security Valuation",
+          "unique_id": "5-T-4"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "## Question 8 (MTP 4 Marks Mar'25)\n\nThere is a privately held company $\\mathbf{X ~} \\mathbf{P v t}$. Ltd that is operating into the retail space, and is now scouting for angel investors. The details pertinent to valuing $X$ Pvt. Ltd are as follows The company has achieved break even this year and has an EBITDA of Rs. 90 crore. The unleveraged beta based on the industry in which it operates is 1.8 , and the average debt to equity ratio is hovering at $40: 60$. The rate of return provided by risk free liquid bonds is $5 \\%$. The EV is to be taken at a multiple of 5 on EBITDA. The accountant has informed that the EBITDA of Rs. 90 crore includes an extraordinary gain of Rs. 10 crore for the year, and a potential write off of preliminary sales promotion costs of Rs. 20 crore are still pending. The internal assessment of rate of market return for the industry is $11 \\%$. The FCFs for the next 3 years are as follows:\n\n(Rs. crore)\n\n|  | Y1 | Y2 | Y3 |\n| :--- | :---: | :---: | :---: |\n| Future Cash flows | 100 | 120 | 150 |\n\nThe pre-tax cost of debt is $8.40 \\%$. Assume a tax regime of $30 \\%$.\n\nWhat is the potential value to be placed on X Pvt. Ltd?\n\nNote: While PV Factors values to be rounded off to $\\mathbf{3}$ decimal points the other calculations to be rounded off to 2 decimal points.",
+          "answer": "## Answer 8\n\nThe levered beta of the company will be $\\left.1.8\\left[1+(1-0.3)^{*} 40 / 60\\right)\\right] \\quad=2.64$\n\nThe adjusted EBITDA would be Rs. 90 crore - Rs. 10 crore - Rs. 20 crore = Rs. 60 crore\n\nThe EV will be multiple of 5 on the 60 obtained above $\\quad=Rs. 300$ crore\n\nThe Cost of equity in accordance with CAPM = $\\mathrm{Rf}+\\beta(\\mathrm{Rm}-\\mathrm{Rf})$\n\n$=5 \\%+2.64(11 \\%-5 \\%) \\quad=20.84 \\%$\n\nThe WACC = Cost of Equity + Cost of Debt\n\n$=20.84(60 / 100)+8.40(40 / 100) \\quad=15.864$\n\nFinally, the future cash flows can be discounted at the WACC obtained above as under -\n\n|  | Y1 | Y2 | Y3 |\n| :--- | :--- | :--- | :--- |\n| Future Cash flows (Rs. crore) | 100 | 120 | 150 |\n| Discount factor (Rs. crore) | 0.863 | 0.745 | 0.643 |\n| PVs of cash flows (Rs. crore) | 86.30 | 89.40 | 96.45 |\n| Value of Firm (Rs. crore) |  |  | 272.15 |",
+          "chapter_number": "13",
+          "chapter_name": "BUSINESS VALUATION"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Why do traditional lenders like banks hesitate to finance startup? List out what alternative financing options are available to entrepreneurs? (MTP 4 Marks Mar'25)",
+          "answer": "Traditional lenders like banks etc. are not interested in a startup business. The reason is that when you are just starting out, you're not at the point yet where a conservative lender or investor can rely on security of your assets or be able to forecast cashflows to secure their investments or estimate your repayment capacity with certainty. So that leaves one with the option of selling some assets, borrowing against one's home, asking loved ones i.e. family and friends for loans etc. But that involves a lot of risk, including the risk of bankruptcy and strained relationships with friends and family.\n\nHere are some of the sources for funding a startup:\n\n(i) Personal financing\n\n(ii) Personal credit lines\n\n(iii) Family and friends\n\n(iv) Peer-to-peer lending\n\n(v) Crowdfunding",
+          "chapter_number": "15",
+          "chapter_name": "STARTUP FINANCE"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "9",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "A trader is having in its portfolio shares worth ₹ 85 lakhs at current price and cash ₹ 15 lakhs. The beta of share portfolio is 1.6. After 3 months the price of shares dropped by 3.2%. Determine: (i) Current portfolio beta (ii) Portfolio beta after 3 months if the trader on current date goes for long position on ₹ 100 lakhs Nifty futures.",
+          "answer": "Current Beta for share portfolio = 1.6\nBeta for cash = 0\nCurrent portfolio beta = 0.85 x 1.6 + 0 x 0.15 = 1.36\n\nPortfolio beta after 3 months:\nBeta for portfolio of shares = Change in value of portfolio of share / Change in value of market portfolio (Index)\n1.6 = Change in value of market portfolio (Index)\n\nChange in value of market portfolio (Index) = (0.032 / 1.6) x 100 = 2%\nPosition taken on 100 lakh Nifty futures : Long\nValue of index after 3 months = ₹ 100 lakh x (1.00 - 0.02)\n= ₹ 98 lakh\nMark-to-market paid = ₹ 2 lakh\nCash balance after payment of mark-to-market = ₹ 13 lakh\nValue of portfolio after 3 months = ₹ 85 lakh x (1 - 0.032) + ₹ 13 lakh\n= ₹ 95.28 lakh\nChange in value of portfolio = ₹ 100 lakh - ₹ 95.28 lakh\n= ₹ 4.72%\n\nPortfolio beta = 0.0472/0.02 = 2.36",
+          "chapter_number": "9",
+          "chapter_name": "Derivative Analysis and Valuation",
+          "unique_id": "AFM-OCR-P1_Derivatives"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "M/s. Parker & Co. is contemplating to borrow an amount of ₹60 crores for a Period of 3 months in the coming 6 month's time from now. The current rate of interest is 9% p.a., but it may go up in 6 month’s time. The company wants to hedge itself against the likely increase in interest rate.\n\nThe Company's Bankers quoted an FRA (Forward Rate Agreement) at 9.30% p.a.\n\nWhat will be the Final settlement amount, if the actual rate of interest after 6 months happens to be (i) 9.60% p.a. and (ii) 8.80% p.a.?",
+          "answer": "Final settlement amount shall be computed by using formula:\n\n\\[ \\text{Final Settlement Amount} = \\frac{(N)(RR - FR)(dtm/DY)}{[1 + RR(dt/DY)]} \\]\n\nWhere,\n- N = the notional principal amount of the agreement;\n- RR = Reference Rate for the maturity specified by the contract prevailing on the contract settlement date;\n- FR = Agreed-upon Forward Rate; and\n- dtm = maturity of the forward rate, specified in days (FRA Days)\n- DY = Day count basis applicable to money market transactions which could be 360 or 365 days.\n\nAccordingly,\n\nIf actual rate of interest after 6 months happens to be 9.60%\n\n\\[ = \\frac{(₹60\\text{ crore})(0.096 - 0.093)(3/12)}{[1 + 0.096(3/12)]} \\]\n\\[ = \\frac{(₹60\\text{ crore})(0.003)(0.25)}{[1 + 0.024]} \\]\n\\[ = \\frac{(₹60\\text{ crore})(0.00075)}{1.024} \\]\n\\[ = ₹4,39,453.13 \\]\n\nIf actual rate of interest after 6 months happens to be 8.80%\n\n\\[ = \\frac{(₹60\\text{ crore})(0.088 - 0.093)(3/12)}{[1 + 0.088(3/12)]} \\]\n\\[ = \\frac{(₹60\\text{ crore})(-0.005)(0.25)}{[1 + 0.022]} \\]\n\\[ = \\frac{(₹60\\text{ crore})(-0.00125)}{1.022} \\]\n\\[ = ₹7,33,855.19 \\]\n\nThus Parker & Co. will pay banker a sum of ₹7,33,855.19 or ₹7,33,855.",
+          "chapter_number": "12",
+          "chapter_name": "INTEREST RATE RISK MANAGEMENT",
+          "unique_id": "AFM-OCR-P1_IRRM"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "## Question 8 (PYP 4 Marks May'25)\n\nMr. PK imports raw materials from China, processes them in India and manufactures finished goods which are then sold in the American market. In this transaction what types of risk faced by Mr. PK?",
+          "answer": "In this transaction, possible types of risks are:\n\n(i) Currency Risk (Exchange Rate Risk): Since raw materials imported from China and finished goods sold in the USA, fluctuation in exchange rates between Yuan, Indian rupee and US Dollar could impact cost and revenue.\n\n(ii) Political and Trade Risk: Changes in trade policies, tariffs, or political instability in China, India, or the U.S. may affect the cost and availability of raw materials or access to markets.\n\n(iii) Market Risk: The demand for the finished products in the US may fluctuate, affecting sales and profitability.\n\n(iv) Regulatory Risk - Mr. PK must comply with various regulations in each country, including import/export laws, quality standards, and customs regulations.",
+          "chapter_number": "2",
+          "chapter_name": "RISK MANAGEMENT"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "6",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 8,
+          "internal_split": null,
+          "question": "Question 32 (MTP 8 Marks, Oct'19 & Sep '23, May'20, RTP May'18, PYP 8 Marks Nov'23, SM)\n\nExpected returns on two stocks for particular market returns are given in the following table:\n\n\n| Market Return | Aggressive | Defensive |\n| :---: | :---: | :---: |\n| $\\mathbf{7} \\%$ | $\\mathbf{4} \\%$ | $\\mathbf{9} \\%$ |\n| $\\mathbf{2 5 \\%}$ | $\\mathbf{4 0 \\%}$ | $\\mathbf{1 8 \\%}$ |\n\nYou are required to calculate:\n\n(i) The Betas of the two stocks.\n\n(ii) Expected return of each stock, if the market return is equally likely to be $\\mathbf{7 \\%}$ or $\\mathbf{2 5 \\%}$.\n\n(iii) The Security Market Line (SML), if the risk free rate is $7.5 \\%$ and market return is equally likely to be $7 \\%$ or $25 \\%$.\n\n(iv) The Alphas of the two stocks.",
+          "answer": "(i) The Betas of two stocks:\n\nAggressive stock - $40 \\%-4 \\% / 25 \\%-7 \\%=2$\n\nDefensive stock - $18 \\%-9 \\% / 25 \\%-7 \\%=0.50$\n\nAlternatively, it can also be solved by using the Characteristic Line Relationship as follows: $R_{S}=\\alpha+\\beta R_{m}$\n\nWhere,\n\n$\\alpha=$ Alpha $\\beta=$ Beta\n\nRm=Market Return\n\nFor Aggressive Stock\n\n$4 \\%=\\alpha+\\beta(7 \\%)$\n\n$40 \\%=\\alpha+\\beta(25 \\%)$\n\n$36 \\%=\\beta(18 \\%)$\n\n$\\beta=2$\n\nFor Defensive Stock\n\n$9 \\%=\\alpha+\\beta(7 \\%)$\n\n$18 \\%=\\alpha+\\beta(25 \\%)$\n\n$9 \\%=\\beta(18 \\%)$\n\n$\\beta=0.50$\n\n(ii) Expected returns of the two stocks:-\n\nAggressive stock - $0.5 \\times 4 \\%+0.5 \\times 40 \\%=22 \\%$\n\nDefensive stock - $0.5 \\times 9 \\%+0.5 \\times 18 \\%=13.5 \\%$\n\n(iii) Expected return of market portfolio $=0.5 \\times 7 \\%+0.5 \\% \\times 25 \\%=16 \\%$\n\n∴ Market risk prem. $=16 \\%-7.5 \\%=8.5 \\%$\n\n∴ SML is, required return $=7.5 \\%+\\beta \\mathrm{i} 8.5 \\%$\n\n(iv) $\\mathrm{R}_{\\mathrm{S}}=\\alpha+\\beta \\mathrm{R}_{\\mathrm{M}}$\n\nFor Aggressive Stock\n\n$$\n\\begin{aligned}\n& 22 \\%=\\alpha_{A}+2(16 \\%) \\\\\n& \\alpha A=-10 \\%\n\\end{aligned}\n$$\n\nFor Defensive Stock\n\n$$\n\\begin{aligned}\n& 13.5 \\%=\\alpha_{D}+0.50(16 \\%) \\\\\n& \\alpha_{D}=5.5 \\%\n\\end{aligned}\n$$",
+          "chapter_number": "6",
+          "chapter_name": "PORTFOLIO MANAGEMENT",
+          "unique_id": "6-T-32"
+        },
+        {
+          "label": "b",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Question 13 (MTP 8 Marks Mar'23, PYP 8 Marks Jul'21, SM)\n\nMr. K has invested in three Mutual fund schemes as per details below:\n\n|  | Scheme A | Scheme B | Scheme C |\n| :--- | :--- | :--- | :--- |\n| Date of Investment | 01-12-20X1 | 01-01-20X2 | 01-03-20X2 |\n| Amount of Investment | Rs. 5,00,000 | Rs. 10,00,000 | Rs. 5,00,000 |\n| Net Asset Value at entry date | Rs. 10.50 | Rs. 10.00 | Rs. 10.00 |\n| Dividend received up to 31-03-20X2 | Rs. 9,500 | Rs. 15,000 | Rs. 5,000 |\n| NAV as at 31-3-20X2 | Rs. 10.40 | Rs. 10.10 | Rs. 9.80 |\n\nYou are required to calculate the effective yield on per annum basis in respect of each of the three schemes to Mr. K upto 31-03-20X2, taking the year consisting of 365 days. Provide a brief comment on the course of action he should take for future period. (Calculation should be upto three decimal places)",
+          "answer": "Calculation of effective yield on per annum basis in respect of three mutual fund schemes to Mr. K up to 31-03-20X2:\n\n| Particulars | Scheme A | Scheme B | Scheme C |\n| :--- | :--- | :--- | :--- |\n| (a) Investments | Rs. 5,00,000 | Rs. 10,00,000 | Rs. 5,00,000 |\n| (b) Opening NAV | Rs. 10.50 | Rs. 10.00 | Rs. 10.00 |\n| (c) No. of units (a/b) | 47,619.048 | 1,00,000 | 50,000 |\n| (d) Unit NAV on 31-3-2019 | Rs. 10.40 | Rs. 10.10 | Rs. 9.80 |\n| (e) Total NAV on 31-3-2019 $(\\mathrm{c} \\times \\mathrm{d})$ | Rs. 4,95,238.099 | Rs. 10,10,000 | Rs. 4,90,000 |\n| (f) Increase / Decrease of NAV (e - a) | (Rs.4,761.901) | Rs. 10,000 | (Rs. 10,000) |\n| (g) Dividend Received | Rs. 9,500 | Rs. 15,000 | Rs. 5,000 |\n| (h) Total yield ( $\\mathrm{f}+\\mathrm{g}$ ) | Rs. 4,738.099 | Rs. 25,000 | (Rs.5,000) |\n| (i) Number of Days | 121 | 90 | 31 |\n| (j) Effective yield p.a. ( $\\mathrm{h} / \\mathrm{a} \\times 365 / \\mathrm{i} \\times 100$ ) | 2.859% | 10.139% | (-) 11.774% |\n\nComments: Since the Effective Yield in Scheme C is negative and that of Scheme A is much lower than Scheme B, it is advised that Mr. K should redeem the investments in Scheme A and Scheme C and the proceeds should be invested in Scheme B in the next period.",
+          "chapter_number": "8",
+          "chapter_name": "MUTUAL FUNDS"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "11",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "What are Foreign Currency Convertible Bonds? What are their advantages? (PYP 4 Marks May'22)",
+          "answer": "A type of convertible bond issued in a currency different than the issuer's domestic currency. In other words, the money being raised by the issuing company is in the form of a foreign currency. A convertible bond is a mix between a debt and equity instrument. It acts like a bond by making regular coupon and principal payments, but these bonds also give the bondholder the option to convert the bond into stock.\n\n## Advantages of FCCBs\n\n(i) The convertible bond gives the investor the flexibility to convert the bond into equity at a price or redeem the bond at the end of a specified period, normally three years if the price of the share has not met his expectations.\n\n(ii) Companies prefer bonds as it leads to delayed dilution of equity and allows company to avoid any current dilution in earnings per share that a further issuance of equity would cause.\n\n(iii) FCCBs are easily marketable as investors enjoys option of conversion into equity if resulting to capital appreciation. Further investor is assured of a minimum fixed interest earnings.",
+          "chapter_number": "11",
+          "chapter_name": "International Financial Management"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "ABC Ltd. is considering a project in US, which will involve an initial investment of US $ 1,10,00,000. The project will have 5 years of life. Current spot exchange rate is ₹ 48 per US $. The risk free rate in US is 8% and the same in India is 12%. Cash inflow from the project is as follows:\n\n| Year | Cash inflow |\n|------|-------------|\n| 1    | US $ 20,00,000 |\n| 2    | US $ 25,00,000 |\n| 3    | US $ 30,00,000 |\n| 4    | US $ 40,00,000 |\n| 5    | US $ 50,00,000 |\n\nCalculate the NPV of the project using foreign currency approach. Required rate of return on this project is 14%.",
+          "answer": "(1 + 0.12) (1 + Risk Premium) = (1 + 0.14)\nOr, 1 + Risk Premium = 1.14/1.12 = 1.0179\nTherefore, Risk adjusted dollar rate is = 1.0179 x 1.08 - 1 = 0.099\n\nCalculation of NPV\n\nYear   Cash flow (Million)  US$   PV Factor at 9.9%   P.V. 1      2.00                 0.910                 1.820\n2      2.50                 0.828                 2.070\n3      3.00                 0.753                 2.259\n4      4.00                 0.686                 2.744\n5      5.00                 0.624                 3.120\n\nLess: Investment\nNPV = 12.013 - 11.000 = 1.013\n\nTherefore, Rupee NPV of the project is = ₹ (48 x 1.013) Million = ₹ 48.624 Million",
+          "chapter_number": "11",
+          "chapter_name": "International Financial Management",
+          "unique_id": "AFM-OCR-P1_IFM"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "A machine used on a production line must be replaced at least every four years. Costs incurred to run the machine according to its age are:\n\n| Age of the Machine (years) | 0      | 1      | 2      | 3      | 4      |\n|----------------------------|--------|--------|--------|--------|--------|\n| Purchase price (in ₹)     | 60,000 | 60,000 | 60,000 | 60,000 | 60,000 |\n| Maintenance (in ₹)        | 16,000 | 18,000 | 20,000 | 20,000 |\n| Repair (in ₹)             | 0      | 4,000  | 8,000  | 16,000 |\n| Scrap Value (in ₹)        | 32,000 | 24,000 | 16,000 | 8,000  |\n\nFuture replacement will be with identical machine with same cost. Revenue is unaffected by the age of the machine. Ignoring inflation and tax, determine the optimum replacement cycle. PV factors of the cost of capital of 15% for the respective four years are 0.8696, 0.7561, 0.6575 and 0.5718.",
+          "answer": "Now we shall calculate NPV for each replacement cycle:\n\n| Year | PVF@15% | Cash Flows | PV         |\n|------|---------|------------|------------|\n| 0    | 1       | -60,000    | -60,000    |\n| 1    | 0.8696  | -16,000    | -13,913.6  |\n| 2    | 0.7561  | 2,000      | 1,512.2    |\n| 3    | 0.6575  | -12,000    | -7,890     |\n| 4    | 0.5718  | -28,000    | -16,013.6  |\n|      |         |            |            |\n| NPV  |         |            | -46,086    |\n\nFor 2 Years Replacement Cycle:\n\n| Year | PVF@15% | Cash Flows | PV         |\n|------|---------|------------|------------|\n| 0    | 1       | -60,000    | -60,000    |\n| 1    | 0.8696  | -16,000    | -13,913.6  |\n| 2    | 0.7561  | -22,000    | -16,634.2  |\n| 3    | 0.6575  | 24,000     | 15,780     |\n|      |         |            |            |\n| NPV  |         |            | -72,402    |\n\nFor 3 Years Replacement Cycle:\n\n| Year | PVF@15% | Cash Flows | PV         |\n|------|---------|------------|------------|\n| 0    | 1       | -60,000    | -60,000    |\n| 1    | 0.8696  | -16,000    | -13,913.6  |\n| 2    | 0.7561  | -22,000    | -16,634.2  |\n| 3    | 0.6575  | -28,000    | -18,390     |\n| 4    | 0.5718  | 16,000     | 9,148.8    |\n|      |         |            |            |\n| NPV  |         |            | -98,438    |\n\nFor 4 Years Replacement Cycle:\n\n| Year | PVF@15% | Cash Flows | PV         |\n|------|---------|------------|------------|\n| 0    | 1       | -60,000    | -60,000    |\n| 1    | 0.8696  | -16,000    | -13,913.6  |\n| 2    | 0.7561  | -22,000    | -16,634.2  |\n| 3    | 0.6575  | -28,000    | -18,390     |\n| 4    | 0.5718  | 8,000      | 4,574.4    |\n|      |         |            |            |\n| NPV  |         |            | -1,24,968  |\n\nReplacement Cycles:\n\n| Replacement Cycles | EAC (₹) |\n|--------------------|---------|\n| 1 Year             | 52,997  |\n| 2 Years            | 44,536  |\n| 3 Years            | 43,114  |\n| 4 Years            | 43,772  |\n\nSince EAC is least in case of replacement cycle of 3 years hence machine should be replaced after three years.",
+          "chapter_number": "3",
+          "chapter_name": "ADVANCED CAPITAL BUDGETING DECISIONS",
+          "unique_id": "AFM-OCR-P1_AdvCapBudget"
+        }
+      ]
+    },
+    {
+      "q_main": 6,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "14",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Question 6 (SM, MTP 8 Marks Mar'22) The CEO of a company thinks that shareholders always look for EPS. Therefore, he considers maximization of EPS as his company's objective. His company's current Net Profits are Rs. 80.00 lakhs and P/E multiple is 10.5. He wants to buy another firm which has current income of Rs. 15.75 lakhs & P/E multiple of 10. What is the maximum exchange ratio which the CEO should offer so that he could keep EPS at the current level, given that the current market price of both the acquirer and the target company are Rs. 42 and Rs. 105 respectively? If the CEO borrows funds at $15 \\%$ and buys out Target Company by paying cash, how much cash should he offer to maintain his EPS? Assume tax rate of $30 \\%$.",
+          "answer": "I.\n\n|  | Acquirer Company | Target Company |\n| :--- | :--- | :--- |\n| Net Profit | Rs. 80 lakhs | Rs. 15.75 lakhs |\n| PE Multiple | 10.50 | 10.00 |\n| Market Capitalization | Rs. 840 lakhs | Rs. 157.50 lakhs |\n| Market Price | Rs. 42 | Rs. 105 |\n| No. of Shares | 20 lakhs | 1.50 lakhs |\n| EPS | Rs. 4 | Rs. 10.50 |\n\nMaximum Exchange Ratio 4 : 10.50 or 1 : 2.625\n\nThus, for every one share of Target Company 2.625 shares of Acquirer Company.\n\nII. Let x lakhs be the amount paid by Acquirer company to Target Company. Then to maintain same EPS i.e.\n\n$$\n\\begin{aligned}\n& =\\frac{(80 \\text { lakhs }+15.75 \\text { lakhs })-0.70 \\mathrm{X} 15 \\% \\times \\mathrm{x}}{20 \\text { lakhs }}=4=\\frac{95.75-0.105 x}{20}=4 \\\\\n& x=Rs. 150 \\text { lakhs }\n\\end{aligned}\n$$\n\nThus, Rs. 150 lakhs shall be offered in cash to Target Company to maintain same EPS.",
+          "chapter_number": "14",
+          "chapter_name": "MERGERS, ACQUISITIONS AND CORPORATE RESTRUCTURING",
+          "unique_id": "14-T-6"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Calculate the justified price of 3 months ABC futures, if share of ABC (FV Rs. 10) quotes at Rs. 450 on NSE and the one month borrowing rate is given as 12 percent per annum and the expected annual dividend is 20 percent, payable before expiry. Also demonstrate is there any arbitrage opportunities if the three months Futures Price quotes at Rs. 470 . (MTP 8 Marks, Sep'23, SM)",
+          "answer": "(i) Future Price $=$ Spot + cost of carry - Dividend $\text{F}=450+450 \times(0.12 \times 0.25)^{\text{†}}-0.20^{**} \times 10=461.50$\n\n** Entire $20 \text{ \textpercent}$ dividend is payable before expiry, which is Rs. 2 .\n\n† Alternatively monthly compounding can also be used.\n\nThus, we can see that justified futures price is Rs. 461.50 which is quoted at Rs. 470 in the exchange.\n\n## (ii) Analysis of Arbitrage Opportunities:\n\nSince, Fair value of Futures is less than Actual Futures Price it is advised to sell it and buying stock in the cash market.\n\n## Step I\n\nArbitrageur will buy ABC Stock at Rs. 450 by borrowing at $12 \text{ \textpercent}$ for 3 months. Therefore, his outflows will be:\n\n| Cost of Stock | 450.00 |\n| :--- | :---: |\n| Add: Interest @ $12 \text{ \textpercent}$ for 3 months i.e. 0.25 years $(450 \times 0.12 \times 0.25)$ | $\text{ \textunderline{13.50}}$ |\n| Total Outflows (A) | $\text{ \textunderline{463.50}}$ |\n\n## Step II\n\nArbitrageur will settle futures at Rs. 470 . Meanwhile he would receive dividend for his stock.\n\nHence his inflows are\n\n| Sale proceeds of futures | 470.00 |\n| :--- | :---: |\n| Dividend | $\text{ \textunderline{2.00}}$ |\n| Total inflows (B) | $\text{ \textunderline{472.00}}$ |\n\nInflow - Outflow = Profit earned by Arbitrageur\n\n$=Rs. 472.00-Rs. 463.50=Rs. 8.50$",
+          "chapter_number": "9",
+          "chapter_name": "Derivative Analysis and Valuation",
+          "unique_id": "9-T-30"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Different participants are required for the success of the securitisation process. Discuss their roles. (MTP 4 Marks, Mar'23)",
+          "answer": "## Role of various participants in the process of securitization is as follows:\n\n(a) Originator: It is the initiator of deal or can be termed as securitizer. It is an entity which sells the assets lying in its books and receives the funds generated through the sale of such assets.\n\n(b) Special Purpose Vehicle: Since issuer originator transfers all rights in assets to SPV, it holds the legal title of these assets. It is created especially for the purpose of securitization only and normally could be in form of a company, a firm, a society or a trust.\n\n(c) The Investors: Investors are the buyers of securitized papers which may be an individual, an institutional investor such as mutual funds, provident funds, insurance companies, mutual funds, Financial Institutions etc.\n\n(d) Obligors: The amount due from the obligor is transferred to SPV and hence they form the basis of securitization process and their credit standing is of paramount importance in the whole process.\n\n(e) Rating Agency: Since the securitization is based on the pools of assets rather than the originators, the assets have to be assessed in terms of its credit quality and credit support available.\n\n(f) Receiving and Paying agent (RPA): Also, called Servicer or Administrator, it collects the payment due from obligor(s) and passes it to SPV. It also follow up with defaulting borrower and if required initiate appropriate legal action against them. Generally, an originator or its affiliates acts as servicer.\n\ng) Agent or Trustee: Trustees are appointed to oversee that all parties to the deal perform in the true spirit of terms of agreement. Normally, it takes care of interest of investors who acquires the securities.\n\n(h) Credit Enhancer: Since investors in securitized instruments are directly exposed to performance of the underlying and sometime may have limited or no recourse to the originator, they seek additional comfort in the form of credit enhancement.\n\n(i) Structurer: It brings together the originator, investors, credit enhancers and other parties to the deal of securitization. Normally, these are investment bankers also called arranger of the deal. It ensures that deal meets all legal, regulatory, accounting and tax laws requirements.",
+          "chapter_number": "7",
+          "chapter_name": "Securitization",
+          "or_question": {
+            "question": "Tokenization to some extent resembles the process of Securitization. Explain the term \"Tokenization\" and also illustrate the similarities between Tokenization and Securitization. (MTP 4 Marks, Mar'24, PYP 4 Marks May'24, May'25, MP[4], MP[6], MP[7])",
+            "answer": "Tokenization is a process of converting tangible and intangible assets into block chain tokens. Digitally representing anything has recently acquired a lot of traction. It can be effective in conventional industries like real estate, artwork etc. Tokenization and Securitization\n\nSince tokenization of illiquid assets attempts to convert illiquid assets into a product that is liquid and tradable and hence to some extent it resembles the process of Securitization. Hence, following are some similarities between Tokenization and Securitization:\n\n(i) Liquidity: - First and foremost both Securitization and Tokenization inject liquidity in the market for the assets which are otherwise illiquid assets.\n\n(ii) Diversification:- Both help investors to diversify their portfolio thus managing risk and optimizing returns.\n\n(iii) Trading: - Both are tradable hence helps to generate wealth.\n\n(iv) New Opportunities:- Both provide opportunities for financial institutions and related agencies to earn income through collection of fees."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,477 @@
+{
+  "meta": {
+    "subject_code": "AFM",
+    "subject_name": "Advanced Financial Management",
+    "paper_num": 2,
+    "total_marks_printed": 100,
+    "total_marks_in_paper": 114,
+    "section_a_marks": 30,
+    "section_b_marks": 84,
+    "note": "Section B: Q1 compulsory (14m). Attempt any 4 of Q2-Q6 (14m each).",
+    "blacklisted_from": [
+      "Generated_Papers/AFM/AFM_Mock_Paper_1.json"
+    ]
+  },
+  "section_a": [
+    {
+      "type": "case_study",
+      "chapter_number": "15",
+      "chapter_name": "STARTUP FINANCE",
+      "case_text": "## CS 4 <br> (MTP 8 Marks Mar'24,MP[3],MP[6]) (Chapter 5: Security Valuation)\n\nWAVELENGTH Ltd. is planning to expand its business and therefore raising fund by issuing a convertible bond of ₹ 10 crore. An investor \"Mr. X\" is interested to invest in the bond of WAVELENGTH Ltd. Mr. X has following data related to the convertible bond.\n\nThe data given below relates to a convertible bond:\n\n\n| Face value | ₹ 250 |\n| :--- | :--- |\n| Coupon rate | 12\\% |\n| No. of shares per bond | 20 |\n| Market price of share | ₹ 12 |\n| Straight value of bond | ₹ 235 |\n| Market price of convertible | ₹ 265 |\n| bond Maturity | 5 Years |\n\nYou, being an expert of the matter, are required to answer his questions. Select the most appropriate alternative:\n\n1. The percentage of downside risk of the bond is approximately _____\n\n(a) $10.42 \\%$\n\n(b) $6.38 \\%$\n\n(c) $2.13 \\%$\n\n(d) $12.77 \\%$\n\n\nAns: (d)\n\n2. The conversion premium in percentage term of the bond is _____\n\n(a) $12.77 \\%$\n\n(b) $10.42 \\%$\n\n(c) $2.18 \\%$\n\n(d) $13.45 \\%$\n\n\n## Ans: (b)\n\n3. The conversion parity price of the stock is _____\n\n(a) ₹ 11.75\n\n(b) ₹ 12.00\n\n(c) ₹ 13.25\n\n(d) ₹ 12.50\n\n\nAns: (c)\n\n4. If he wants a yield of $15 \\%$ the maximum price he should be ready to pay for is _____\n\n(a) 217.41\n\n(b) 224.81\n\n(c) 240.00\n\n(d) 232.32\n\n\nAns: (b)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "The percentage of downside risk of the bond is approximately _____",
+          "options": {
+            "a": "$10.42 \\%$",
+            "b": "$6.38 \\%$",
+            "c": "$2.13 \\%$",
+            "d": "$12.77 \\%$"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null,
+          "_serial": 1
+        },
+        {
+          "q_num": 2,
+          "question": "The conversion premium in percentage term of the bond is _____",
+          "options": {
+            "a": "$12.77 \\%$",
+            "b": "$10.42 \\%$",
+            "c": "$2.18 \\%$",
+            "d": "$13.45 \\%$"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": 2
+        },
+        {
+          "q_num": 3,
+          "question": "The conversion parity price of the stock is _____",
+          "options": {
+            "a": "₹ 11.75",
+            "b": "₹ 12.00",
+            "c": "₹ 13.25",
+            "d": "₹ 12.50"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": 3
+        },
+        {
+          "q_num": 4,
+          "question": "If he wants a yield of $15 \\%$ the maximum price he should be ready to pay for is _____",
+          "options": {
+            "a": "217.41",
+            "b": "224.81",
+            "c": "240.00",
+            "d": "232.32"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": 4
+        }
+      ],
+      "mcq_count": 4,
+      "unique_id": "15-CS-4"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "15",
+      "chapter_name": "STARTUP FINANCE",
+      "case_text": "During one business meeting at XYZ Ltd., one of the members pointed out that while evaluating the performance of any company one should not only see its Operating Income but should also analyse its Capital structure as well. Weighted Average Cost of Capital changes on the basis of capital structure keeping all other factors unchanged.\n\nHe presented data relating to 3 companies Alpha Ltd., Beta Ltd. and Gama Ltd. whose operating Income are equal, but their capital structure is different.\n\nThe following information relating to these 3 companies is as follows:\n\n\n(in ₹ 000)\n\n|  | Alpha Ltd. | Beta Ltd. | Gama Ltd. |\n| :--- | :--- | :--- | :--- |\n| Total invested capital | 20,00,000 | 20,00,000 | 20,00,000 |\n| Debt/Assets ratio | 0.8 | 0.5 | 0.2 |\n| Shares outstanding | 61,000 | 83,000 | 1,00,000 |\n| Pre tax Cost of Debt | 16% | 13% | 15% |\n| Cost of Equity | 26% | 22% | 20% |\n| Operating income (EBIT) | 5,00,000 | 5,00,000 | 5,00,000 |\n\nThe Tax rate is uniform $35 \\%$ in all cases. The industry PE ratio is 11 X .\n\nBased on above case scenario, choose the most appropriate answer of the following:\n\n\n1. The weighted average cost of capital of Alpha Ltd. shall approximately be _____\n\n(a) $13.520 \\%$\n\n(b) $15.225 \\%$\n\n(c) $17.950 \\%$\n\n(d) $18.000 \\%$\n\n\nAns:(a)\n\n2. The Economic Valued Added (EVA) for Beta Ltd. is _____\n\n(a) ₹ 54600 Thousand\n\n(b) ₹ 20500 Thousand\n\n(c) (-) ₹ 34000 Thousand\n\n(d) ₹ 21500 Thousand\n\n\nAns:(b)\n\n3. The price per share of Gama Ltd. shall be _____\n\n(a) ₹ 28.60\n\n(b) ₹ 31.90\n\n(c) ₹ 31.46\n\n(d) ₹ 29.45\n\n\nAns:(c)\n\n4. The estimated market capitalization for Alpha Ltd. is _____\n\n(a) ₹ $26,47,700$ Thousand\n\n(b) ₹ $31,46,000$ Thousand\n\n(c) ₹ $17,44,600$ Thousand\n\n(d) ₹ $23,73,800$ Thousand\n\n\nAns:(c)\n\n5. Earnings per share of Beta Ltd. is _____\n\n(a) ₹ 2.60\n\n(b) ₹ 2.90\n\n(c) ₹ 2.86\n\n(d) ₹ 2.15\n\n\nAns:(b)\n\n6. The Economic Valued Added (EVA) for Alpha Ltd. is _____\n\n(a) ₹ 54,600 Thousand\n\n(b) ₹ 20,500 Thousand\n\n(c) (-) ₹ 34,000 Thousand\n\n(d) ₹ 21,500 Thousand\n\n\nAns: (a)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "The weighted average cost of capital of Alpha Ltd. shall approximately be _____",
+          "options": {
+            "a": "$13.520 \\%$",
+            "b": "$15.225 \\%$",
+            "c": "$17.950 \\%$",
+            "d": "$18.000 \\%$"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null,
+          "_serial": 5
+        },
+        {
+          "q_num": 2,
+          "question": "The Economic Valued Added (EVA) for Beta Ltd. is _____",
+          "options": {
+            "a": "₹ 54600 Thousand",
+            "b": "₹ 20500 Thousand",
+            "c": "(-) ₹ 34000 Thousand",
+            "d": "₹ 21500 Thousand"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": 6
+        },
+        {
+          "q_num": 3,
+          "question": "The price per share of Gama Ltd. shall be _____",
+          "options": {
+            "a": "₹ 28.60",
+            "b": "₹ 31.90",
+            "c": "₹ 31.46",
+            "d": "₹ 29.45"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": 7
+        },
+        {
+          "q_num": 4,
+          "question": "The estimated market capitalization for Alpha Ltd. is _____",
+          "options": {
+            "a": "₹ $26,47,700$ Thousand",
+            "b": "₹ $31,46,000$ Thousand",
+            "c": "₹ $17,44,600$ Thousand",
+            "d": "₹ $23,73,800$ Thousand"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": 8
+        },
+        {
+          "q_num": 5,
+          "question": "Earnings per share of Beta Ltd. is _____",
+          "options": {
+            "a": "₹ 2.60",
+            "b": "₹ 2.90",
+            "c": "₹ 2.86",
+            "d": "₹ 2.15"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": 9
+        },
+        {
+          "q_num": 6,
+          "question": "The Economic Valued Added (EVA) for Alpha Ltd. is _____",
+          "options": {
+            "a": "₹ 54,600 Thousand",
+            "b": "₹ 20,500 Thousand",
+            "c": "(-) ₹ 34,000 Thousand",
+            "d": "₹ 21,500 Thousand"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null,
+          "_serial": 10
+        }
+      ],
+      "mcq_count": 6,
+      "unique_id": "15-CS-7"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "15",
+      "chapter_name": "STARTUP FINANCE",
+      "case_text": "## CS 8\n\n(MTP 10 Marks Apr'24,MP[7]) (Chapter 10: Foreign Exchange Exposure and Risk Management)\n\nOn 1 October 20X2 Mr. X an exporter enters into a forward contract with a BNP Bank to sell US$ 1,00,000 on 31 December 20X2 at $₹ 85.40 / \\$$. However, due to the request of the importer, Mr. X received the amount on 28 November 20 X2. Mr. X requested the bank the take delivery of the remittance on 30 November 20 X2 i.e., before due date. The inter-banking rates on $\\mathbf{2 8}$ November 20X2 was as follows:\n\n\n| Spot          | One Month Premium |\n|---------------|-------------------|\n| ₹ 85.22/85.27 | 10/15             |\n\nNote: (1) Consider 365 days in a year.\n\n(2) Prevailing Prime Lending Rate is $12 \\%$\n\nBased on above case scenario, choose the most appropriate answer of the following:\n\n1. The bank may accept the request of customer of delivery before due date of forward contract provided the customer is ready to bear the loss if any consisting of. _____\n\n(a) Swap Difference\n\n(b) Interest on Outlay of Fund\n\n(c) Swap Difference Plus Interest on Outlay of Fund\n\n(d) Fixed Charges Plus Swap Difference and Interest on Outlay of Fund\n\nAns:(d)\n\n2. In case of early delivery bank shall charge interest on outlay of fund at a rate not less than _____\n\n(a) $8 \\%$\n\n(b) $10 \\%$\n\n(c) $12 \\%$\n\n(d) $18 \\%$\n\n## Ans:(c)\n\n3. Swap Difference for US $\\$ 1,00,000$ is _____\n\n(a) ₹ 5,000\n\n(b) ₹ 20,000\n\n(c) ₹ 18,000\n\n(d) ₹ 8,000\n\n## Ans:(b)\n\n4. Interest on outlay of funds shall be approximately _____\n\n(a) ₹ 92 payable by $X$\n\n(b) ₹ 183 payable by X\n\n(c) ₹ 183 payable by Bank\n\n(d) ₹ 122 payable by Bank\n\n## Ans:(b)\n\n5. Net inflow to $\\mathrm{Mr} . \\mathrm{X}$ is approximately _____\n\n(a) ₹ $85,42,183$\n\n(b) ₹ $85,20,000$\n\n(c) ₹ $85,19,817$\n\n(d) ₹ $85,40,000$\n\nAns:(c)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "The bank may accept the request of customer of delivery before due date of forward contract provided the customer is ready to bear the loss if any consisting of. _____",
+          "options": {
+            "a": "Swap Difference",
+            "b": "Interest on Outlay of Fund",
+            "c": "Swap Difference Plus Interest on Outlay of Fund",
+            "d": "Fixed Charges Plus Swap Difference and Interest on Outlay of Fund"
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null,
+          "_serial": 11
+        },
+        {
+          "q_num": 2,
+          "question": "In case of early delivery bank shall charge interest on outlay of fund at a rate not less than _____",
+          "options": {
+            "a": "$8 \\%$",
+            "b": "$10 \\%$",
+            "c": "$12 \\%$",
+            "d": "$18 \\%$"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": 12
+        },
+        {
+          "q_num": 3,
+          "question": "Swap Difference for US $\\$ 1,00,000$ is _____",
+          "options": {
+            "a": "₹ 5,000",
+            "b": "₹ 20,000",
+            "c": "₹ 18,000",
+            "d": "₹ 8,000"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": 13
+        },
+        {
+          "q_num": 4,
+          "question": "Interest on outlay of funds shall be approximately _____",
+          "options": {
+            "a": "₹ 92 payable by $X$",
+            "b": "₹ 183 payable by X",
+            "c": "₹ 183 payable by Bank",
+            "d": "₹ 122 payable by Bank"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": 14
+        },
+        {
+          "q_num": 5,
+          "question": "Net inflow to $\\mathrm{Mr} . \\mathrm{X}$ is approximately _____",
+          "options": {
+            "a": "₹ $85,42,183$",
+            "b": "₹ $85,20,000$",
+            "c": "₹ $85,19,817$",
+            "d": "₹ $85,40,000$"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": 15
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "15-CS-8"
+    }
+  ],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": true,
+      "total_marks": 14,
+      "chapter_number": "11/12",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "From the following information, compute the effective rate of interest per annum as well as the total cost of funds to Nirmal Ltd., which is planning a Commercial Paper (CP) issue:\n\n- Issue Price of CP ₹ 4,87,750\n- Face Value ₹ 5,00,000\n- Maturity Period 3 Months\n\nIssue Expenses:\n- Brokerage 0.15% for 3 months\n- Rating Charges 0.55% p.a.\n- Stamp Duty 0.20% for 3 months",
+          "answer": "Nominal Interest or Bond Equivalent Yield = [(F - P) / P] × (12 / M) × 100\nWhere\nF = Face Value\nP = Issue Price\n\n= [5,00,000 - 4,87,750] / 4,87,750 × (12 / 3) × 100  \n= 0.025115 × 4 × 100 = 10.046 = 10.05% p.a.\n\nEffective interest rate = [1 + 0.1005 / 4]⁴ - 1 = 10.435% p.a.\n\nCost of Funds to the Company\n- Effective Interest 10.435%\n- Brokerage (0.150 × 4) 0.60%\n- Rating Charge 0.55%\n- Stamp duty (0.20 × 4) 0.80%\n\nTotal Cost = 10.435% + 0.60% + 0.55% + 0.80% = 12.385%",
+          "chapter_number": "5",
+          "chapter_name": "Security Valuation",
+          "unique_id": "AFM-OCR-P2_SecurityValuation"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "XP Pharma Ltd., has acquired an export order for ₹ 10 million for formulations from a European company. The Company has also planned to import bulk drugs worth ₹ 5 million from a company in UK. The proceeds of exports will be realized in 3 months from now and the payments for imports will be due after 6 months from now. The invoicing of these exports and imports can be done in any currency i.e. Dollar, Euro or Pounds sterling at company's choice. The following market quotes are available.\n\n| Currency | Spot Rate | Annualised Premium |\n|----------|-----------|--------------------|\n| ₹/$     | 87.10/87.20 | $ - 7%            |\n| ₹/Euro  | 101.15/101.20 | Euro - 6%       |\n| ₹/Pound | 116.65/116.75 | Pound - 5%      |\n\nAdvise XP Pharma Ltd. in which currency invoicing for both import and export should be opted for. (Exchange Rate including calculations should be upto two decimal places).",
+          "answer": "1. **Proceeds of Exports in INR = ₹ 10 Million**\n   - Position of Inflow under three currencies will be as follows:\n\n   | Currency | Invoice at Spot Rate | Expected Rate after 3-months | Conversion in INR after 3-months |\n   |----------|-----------------------|-------------------------------|-----------------------------------|\n   | $        | ₹ 100,00,000/₹ 87.10 | ₹ 87.10 (1 + 0.07/4) = ₹ 88.62 | ₹ 88.62 x ₹ 1,14,810.56 = ₹ 1,01,74,511.83 |\n   | €        | ₹ 100,00,000/₹ 101.15 | ₹ 101.15 (1 + 0.06/4) = ₹ 102.67 | ₹ 102.67 x ₹ 98,863.07 = ₹ 1,01,50,271.40 |\n   | £        | ₹ 100,00,000/₹ 116.65 | ₹ 116.65 (1 + 0.05/4) = ₹ 118.11 | ₹ 118.11 x ₹ 85,726.53 = ₹ 1,01,25,160.46 |\n\n2. **Payment of Import in INR = ₹ 5 Million**\n   - Position of outflow under three currencies will be as follows:\n\n   | Currency | Invoice at Spot Rate | Expected Rate after 6-months | Conversion in INR after 6-months |\n   |----------|-----------------------|-------------------------------|-----------------------------------|\n   | $        | ₹ 50,00,000/₹ 87.20 | ₹ 87.20 (1 + 0.07/2) = ₹ 90.25 | ₹ 90.25 x ₹ 57,339.45 = ₹ 51,74,885.36 |\n   | €        | ₹ 50,00,000/₹ 101.20 | ₹ 101.20 (1 + 0.06/2) = ₹ 104.24 | ₹ 104.24 x ₹ 49,407.11 = ₹ 51,50,197.15 |\n   | £        | ₹ 50,00,000/₹ 116.75 | ₹ 116.75 (1 + 0.05/2) = ₹ 119.67 | ₹ 119.67 x ₹ 42,826.55 = ₹ 51,25,053.24 |\n\n**Advice:** Since cash inflow is highest (₹ 1,01,74,511.83) in case of $ hence invoicing for Export should be in $. However, cash outflow is least (₹ 51,25,053.24) in case of £ the invoicing for import should be in £.",
+          "chapter_number": "10",
+          "chapter_name": "Foreign Exchange Exposure & Risk Management",
+          "unique_id": "AFM-OCR-P2_Forex"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Question 6 (MTP 4 Marks Apr'24, Sep'23, PYP 4 Marks, Nov'23,MP[1],MP[7])\n\nExplain the term Corporate Level Strategy and what are the three basic questions it answers?\n\nOr\n\nWhat do you mean by Corporate Level Strategy. Also explain three basic questions Corporate Level Strategy should be able to answer.",
+          "answer": "Corporate level strategy fundamentally is concerned with selection of businesses in which a company should compete and with the development and coordination of that portfolio of businesses. Corporate level strategy should be able to answer three basic questions:\n\n(1) Suitability: Whether the strategy would work for the accomplishment of common objective of the company.\n\n(2) Feasibility: Determines the kind and number of resources required to formulate and implement the strategy.\n\n(3) Acceptability: It is concerned with the stakeholders' satisfaction and can be financial and non-financial.",
+          "chapter_number": "1",
+          "chapter_name": "FINANCIAL POLICY AND CORPORATE STRATEGY"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "6",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "SS Company is considering the replacement of its existing machine with a new machine. The Purchase price of the new machine is ₹ 26 Lakhs and its expected Life is 8 years. The company follows straight-line method of depreciation on the original investment (scrap value is not considered for the purpose of depreciation). The other expenses to be incurred for the New Machine are as under:\n\n(i) Installation Charges ₹ 9,000\n(ii) Fees paid to the consultant for his advice to buy New Machine ₹ 6,000\n(iii) Additional Working Capital required ₹ 17,000. (will be released after 8 years)\n\nThe written down value of the existing machine is ₹ 76,000, its Cash Salvage Value is ₹ 12,500. The dismantling of this machine would cost ₹ 4,500. The Annual Earnings (before tax but after depreciation) from the New Machine would amount to ₹ 3,15,000. Income tax rate is 35%. The Company's required Rate of Return is 13%. You are required to advise on the viability of the proposal.",
+          "answer": "Computation of Annual Depreciation\n\n| Particulars                                   | ₹         |\n|-----------------------------------------------|-----------|\n| Purchase Price                               | 26,00,000 |\n| Add: 1. Installation Charges                  | 9,000     |\n| 2. Fees Paid to Consultant for Advice        | 6,000     |\n| Total Cost of New Machine                    | 26,15,000 |\n| Useful Life                                  | 8 Years   |\n| Annual Depreciation (Total Cost/No. of Years)| 3,26,875  |\n\nComputation of Annual Cash Savings\n\n| Particulars                                   | ₹         |\n|-----------------------------------------------|-----------|\n| Annual Earnings                               | 3,15,000  |\n| Less: Tax @35%                               | 1,10,250  |\n\nThe Annual Cash Savings after Tax = ₹ 2,04,750\n\nAdd: Depreciation on New Machine = ₹ 3,26,875\n\nAnnual Cash Savings = ₹ 5,31,625\n\nTax effect on sale of Old Machine\n\n| Particulars                                   | ₹         |\n|-----------------------------------------------|-----------|\n| Proceeds of Sale                             | 12,500    |\n| Less: Cost of Removal                        | 4,500     |\n| Net Proceeds                                 | 8,000     |\n| Less: WDV                                   | 76,000    |\n| Net Loss due to Sale                         | 68,000    |\n| Tax savings due to Loss on Sale @35%        | 23,800    |\n| Total Cash Inflow due to Sale (₹ 8,000 + ₹ 23,800) | 31,800    |\n\nComputation of Net Present Value\n\n| Particulars                                   | Period | Cash Flow (₹) | PVF @13% | PV (₹)     |\n|-----------------------------------------------|--------|----------------|----------|------------|\n| (a) Annual Cash inflow after Tax             | 1-8    | 5,31,625       | 4.800    | 25,51,800  |\n| (b) Net Salvage Value of Existing Machine    | 0      | 31,800         | 1.000    | 31,800     |\n| (c) Working Capital Realized                  | 8      | 17,000         | 0.376    | 6,392      |\n| Present Value of Cash Inflows                 |        |                |          | 25,89,992  |\n| Less: 1. Initial Investment                   |        | 26,15,100     | 1.000    | 26,15,100  |\n| Less: 2. Initial Working Capital              |        | 17,000         | 1.000    | 17,000     |\n| NPV of the Proposal                           |        |                |          | (42,008)   |\n\nDecision: Since NPV of the project is negative it is not viable.",
+          "chapter_number": "3",
+          "chapter_name": "ADVANCED CAPITAL BUDGETING DECISIONS",
+          "unique_id": "AFM-OCR-P2_AdvCapBudget"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "A dealer quotes 'All-in-cost' for a generic swap at $6 \\%$ against six-month LIBOR flat. If the notional principal amount of swap is Rs. 8,00,000:\n\n(i) Calculate semi-annual fixed payment.\n\n(ii) Find the first floating rate payment for (i) above if the six-month period from the effective date of swap to the settlement date comprises 181 days and that the corresponding LIBOR was $5 \\%$ on the effective date of swap.\n\n(iii) In (ii) above, if the settlement is on 'Net' basis, how much the fixed rate payer would pay to the floating rate payer? Generic swap is based on 30/360 days basis.\n\n(MTP 4 Marks March '21, Mar'24, PYP 8 Marks July'21, Nov'18, SM, RTP May '23,MP[2],MP[4],MP[6])",
+          "answer": "(i) Semi-annual fixed payment\n\n$$\n\\begin{aligned}\n& =(\\mathrm{N})(\\mathrm{AIC})(\\text { Period }) \\\\\n& \\text { Where } \\mathrm{N}=\\text { Notional Princip } \\\\\n& \\mathrm{AIC}=\\mathrm{All} \\text {-in-cost }=6 \\%=0.06 \\\\\n& =8,00,000 \\times 0.06\\left(\\frac{180}{360}\\right) \\\\\n& =8,00,000 \\times 0.06(0.5) \\\\\n& =\\text { Rs. } 24,000\n\\end{aligned}\n$$\n\n(ii) Floating Rate Payment\n\n$$\n\\begin{aligned}\n& \\text { N(LIBOR)}\\left(\\frac{d t}{360}\\right) \\\\\n& =8,00,000 \\times 0.05 \\times \\frac{181}{360} \\\\\n& =\\text { Rs. } 20,111 \\text { or Rs. } 20,120\n\\end{aligned}\n$$\n\n(iii) Net Amount\n\n$$\n\\begin{aligned}\n& =\\text { (i) - (ii) } \\\\\n& =\\text { Rs. } 24,000-\\text { Rs. } 20,111=\\text { Rs. } 3,889 \\\\\n& \\text { Or }=\\text { Rs. } 24,000-\\text { Rs. } 20,120=\\text { Rs. } 3,880\n\\end{aligned}\n$$",
+          "chapter_number": "12",
+          "chapter_name": "INTEREST RATE RISK MANAGEMENT",
+          "unique_id": "12-T-13"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "What are the key factors that influence corporate-level strategy decisions? (MTP 4 Marks Apr²5)",
+          "answer": "Corporate level strategy fundamentally is concerned with selection of businesses in which a company should compete and with the development and coordination of that portfolio of businesses.\n\nThe key factors that influence corporate-level strategy decisions\n\n(i) Suitability: Whether the strategy would work for the accomplishment of common objective of the company.\n\n(ii) Feasibility: Determines the kind and number of resources required to formulate and implement the strategy.\n\n(iii) Acceptability: It is concerned with the stakeholders' satisfaction and can be financial and non-financial.",
+          "chapter_number": "1",
+          "chapter_name": "FINANCIAL POLICY AND CORPORATE STRATEGY",
+          "unique_id": "1-T-1"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "10",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Explain briefly the financial measures that help in evaluation of performance of any Mutual Fund. (MTP 4 Marks, Apr'24,MP[7])",
+          "answer": "Financial Measures: - There are some financial measures that help in evaluation of performance of any Mutual Fund which are as follows:\n\n(a) Expense Ratio: - Discussed in earlier section, it ultimately impacts the return of a Mutual Fund Scheme.\n\n(b) Sharpe Ratio: - As discussed in the chapter on Portfolio Management, this ratio measures the Mutual Fund's performance measured against the total risk (both systematic and unsystematic) taken.\n\n(c) Treynor Ratio: - As discussed in the chapter on Portfolio Management, beta measures the volatility of return of a security vis-à-vis to the market, in mutual funds the Beta of a mutual fund measures volatility of a fund's return to return from its Benchmark. Treynor Ratio measures performance of a mutual fund against the systematic risk it has taken.\n\n(d) Sortino Ratio: - A variation of Sharpe Ratio that considers and uses downside deviation instead of total standard deviation in denominator.",
+          "chapter_number": "8",
+          "chapter_name": "MUTUAL FUNDS",
+          "unique_id": "8-T-1"
+        },
+        {
+          "label": "b",
+          "marks": 8,
+          "internal_split": null,
+          "question": "JKL Ltd., an Indian company has an export exposure of JPY 10,000,000 receivable December 31, 2022. Japanese Yen (JPY) is not directly quoted against Indian Rupee.\n\nThe current spot rates are:\n\n| INR/US $ | $=$ ₹ 82.22 |\n| :---: | :--- |\n| JPY/US $ | $=$ JPY 132.34 |\n\nIt is estimated that Japanese Yen will depreciate to 154 against US $ and Indian Rupee to depreciate to ₹ 85 against US $.\n\nForward rates as on date for 31st December 2022 are as follows:\n\n| INR/US $ | $=$ ₹86.50 |\n| :---: | :--- |\n| JPY/US$ | $=$ JPY 140.35 |\n\n## Required:\n\n(i) Evaluate the expected loss based on estimated rates if the hedging is not done.\n\n(ii) Justify the decision to take forward cover even if actual rates on December 31, 2022 happens to be as follows:\n\n| INR/US $ | $=₹ 86.25$ |\n| :---: | :--- |\n| JPY/US$ | $=$ JPY 140.85 |\n\nNote: Make calculation of ¥ rate in ₹ up to 4 decimal points.",
+          "answer": "Since the direct quote for $¥$ and $₹$ is not available it will be calculated by cross exchange rate as follows:\n\n₹/$ × $/$¥ = ₹/¥\n\n$82.22 / 132.34=0.6213$\n\nSpot rate on date of export $1 ¥=₹ 0.6213$\n\nEstimated Rate of $¥$ for Dec.31, 2022 = ₹0.5519 (₹85/¥ 154)\n\nForward Rate of $¥$ for Dec.31, $2022=$ ₹ 0.6163 (₹86.50/ ¥ 140.35)\n\n(i) The expected loss without hedging\n\n| Value of export at the time of export(₹0.6213 × ¥ 10,000,000) | $₹ 62,13,000$ |\n| :--- | ---: |\n| Expected payment to be received on $31^{\text {st }}$ Dec. 2022 as per estimated rates <br> (₹ 0.5519 × ¥ 10,000,000) | $₹ 55,19,000$ |\n| Loss | $₹ 6,94,000$ |\n\n(ii) (a) Hedging of loss under Forward Cover\n\n| Value of export at the time of export(₹0.6213x ¥ 10,000,000) | $₹ 62,13,000$ |\n| :--- | ---: |\n| Payment expected to be received underForward Cover $(₹ 0.6163 × ¥ 10,000,000)$ | $₹ 61,63,000$ |\n| Loss | $₹ 50,000$ |\n\nThus, by taking forward cover loss is reduced to ₹ 50,000 from ₹ $6,94,000$\n\n(b) Actual Rate of $¥$ on December $2022=₹ 0.6124$ (₹ 86.25/¥ 140.85)\n\n| Value of export at the time of export(₹0.6213x ¥ 10,000,000) | $₹ 62,13,000$ |\n| :--- | :---: |\n| Payment to be received on $31^{\text {st }}$ Dec. 2022 asper actual rate $(₹ 0.6124 × ¥ 10,000,000)$ | $₹ 61,24,000$ |\n| Loss | $₹ 89,000$ |\n\n\nFrom the above solution, we can find that net loss in actual situation is ₹ 89,000 while net loss when taken Forward Cover is only ₹ 50,000. Hence, the decision to take Forward Cover is justified even if the actual rate happens to be as prescribed.",
+          "chapter_number": "8",
+          "chapter_name": "MUTUAL FUNDS",
+          "unique_id": ""
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "12",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "A Inc. and B Inc. intend to borrow $200,000 and ¥200,000 respectively for a time horizon of one year. The prevalent interest rates are as follows:\n\n| Company | ¥ Loan | $ Loan |\n|---------|--------|--------|\n| A Inc. | 5%     | 9%     |\n| B Inc. | 8%     | 10%    |\n\nThe prevalent exchange rate is $1 = ¥120. They entered into a currency swap under which it is agreed that B Inc. will pay A Inc. @ 1% over the ¥ Loan interest rate which the latter will have to pay as a result of the agreed currency swap whereas A Inc. will reimburse interest to B Inc only to the extent of 9%. Keeping the exchange rate invariant, quantify the opportunity gain or loss component of the ultimate outcome, resulting from the designed currency swap.",
+          "answer": "Opportunity gain of A Inc under currency swap\n\n| Receipt | Payment | Net |\n|---------|---------|-----|\n| Interest to be remitted to B. Inc in $ 2,00,000 x 9% = $18,000 | $21,60,000 | - |\n| Converted into ($18,000 x ¥120) | ¥14,40,000 | - |\n| Interest payable on ¥ loan | - | ¥12,00,000 |\n| Net Payment | ¥14,40,000 | ¥33,60,000 |\n| $ equivalent paid ¥19,20,000 x (1/¥120) | $16,000 | - |\n| Interest payable without swap in $ | $18,000 | - |\n| Opportunity gain in $ | $2,000 | - |\n\nOpportunity gain of B Inc under currency swap\n\n| Receipt | Payment | Net |\n|---------|---------|-----|\n| Interest to be remitted to A. Inc in ($ 2,00,000 x 6%) | $12,000 | - |\n| Interest to be received from A. Inc in ¥ converted into $ = $21,600,000/¥120 | $18,000 | - |\n| Interest payable on $ loan@10% | - | $20,000 |\n| Net Payment | $14,000 | $32,000 |\n| $ equivalent paid $14,000 x ¥120 | $16,800 | - |\n| Interest payable without swap in ¥ ($2,00,000 X 120 x 8%) | $19,200 | - |\n| Opportunity gain in ¥ | ¥2,400 | - |",
+          "chapter_number": "12",
+          "chapter_name": "INTEREST RATE RISK MANAGEMENT",
+          "unique_id": "AFM-OCR-P2_IRRM"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Investing in Stock Futures differs from investing in Equity Options in several ways. Explain. (MTP 4 Marks, Mar'23)",
+          "answer": "Investing in stock futures differs from investing in equity options contracts in several ways:\n\n- Nature: In options, the buyer of the options has the right but not the obligation to purchase or sell the stock. However while going in for a long futures position, the investor is obligated to square off his position at or before the expiry date of the futures contract.\n\n- Movement of the Market: Options traders use a mathematical factor, the delta that measures the relationship between the options premium and the price of the underlying stock. At times, an options contract's value may fluctuate independently of the stock price. In contrast, the future contract will much more closely follow the movement of the underlying stock.\n\n- The Price of Investing: When an options investor takes a long position, he or she pays a premium for the contract. The premium is often called a sunk cost. At expiration, unless the options contract is in the money, the contract is worthless and the investor has lost the entire premium. Stock future contracts require an initial margin deposit and a specific maintenance level of cash for mark to market margin.",
+          "chapter_number": "9",
+          "chapter_name": "Derivative Analysis and Valuation"
+        },
+        {
+          "label": "c",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Ramesh wants to invest in stock market. He has got the following information about individual securities:\n\n| Security | Expected Return | Beta | σ²_ci |\n|----------|----------------|------|-------|\n| A        | 15             | 1.5  | 40    |\n| B        | 12             | 2    | 20    |\n| C        | 10             | 2.5  | 30    |\n| D        | 09             | 1    | 10    |\n| E        | 08             | 1.2  | 20    |\n| F        | 14             | 1.5  | 30    |\n\nMarket index variance is 10 percent and the risk free rate of return is 7%. What should be the optimum portfolio assuming no short sales?",
+          "answer": "To determine the optimum portfolio, we will use the Capital Asset Pricing Model (CAPM) and the formula for the weights of the securities in the portfolio.\n\n1. Calculate the excess return for each security:\n   - R_i - R_f\n   - Where R_f = 7%\n\n| Security | Expected Return (R_i) | R_i - R_f |\n|----------|-----------------------|-----------|\n| A        | 15                    | 8         |\n| B        | 12                    | 5         |\n| C        | 10                    | 3         |\n| D        | 09                    | 2         |\n| E        | 08                    | 1         |\n| F        | 14                    | 7         |\n\n2. Calculate the weights using the formula:\n   - Z_i = β_i / σ²_i\n   - Calculate Z for each security:\n\n| Security | Beta (β_i) | σ²_ci | Z_i   |\n|----------|------------|-------|-------|\n| A        | 1.5        | 40    | 0.0375|\n| B        | 2          | 20    | 0.1   |\n| C        | 2.5        | 30    | 0.0833|\n| D        | 1          | 10    | 0.1   |\n| E        | 1.2        | 20    | 0.06  |\n| F        | 1.5        | 30    | 0.05  |\n\n3. Calculate the total Z:\n   - Total Z = 0.0375 + 0.1 + 0.0833 + 0.1 + 0.06 + 0.05 = 0.43\n\n4. Calculate the weights (X_i) for each security:\n   - X_i = Z_i / Total Z\n\n| Security | Z_i   | Weight (X_i) |\n|----------|-------|---------------|\n| A        | 0.0375| 0.0872        |\n| B        | 0.1   | 0.2326        |\n| C        | 0.0833| 0.1930        |\n| D        | 0.1   | 0.2326        |\n| E        | 0.06  | 0.1395        |\n| F        | 0.05  | 0.1163        |\n\n5. The optimum portfolio weights are:\n   - A: 8.72%\n   - B: 23.26%\n   - C: 19.30%\n   - D: 23.26%\n   - E: 13.95%\n   - F: 11.63%",
+          "chapter_number": "6",
+          "chapter_name": "PORTFOLIO MANAGEMENT",
+          "unique_id": "AFM-OCR-P2_PortfolioMgmt"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "13",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "H Ltd. agrees to buy over the business of B Ltd. effective 1st April, 20X2. The summarized Balance Sheets of H Ltd. and B Ltd. as on 31st March 20X2 are as follows:\n\nBalance sheet as at 31st March, 20X2 (In Crores of Rupees)\n\n|  | H. Ltd | B. Ltd. |\n| :--- | :--- | :--- |\n| Liabilities: |  |  |\n| Paid up Share Capital |  |  |\n| - Equity Shares of Rs.100 each | 350.00 |  |\n| - Equity Shares of Rs.10 each |  | 6.50 |\n| Reserve & Surplus | 950.00 | 25.00 |\n| Total | 1,300.00 | 31.50 |\n| Assets: |  |  |\n| Net Fixed Assets | 220.00 | 0.50 |\n| Net Current Assets | 1,020.00 | 29.00 |\n| Deferred Tax Assets | 60.00 | 2.00 |\n| Total | 1,300.00 | 31.50 |\n\nH Ltd. proposes to buy out B Ltd. and the following information is provided to you as part of the scheme of buying:\n\n(1) The weighted average post tax maintainable profits of H Ltd. and B Ltd. for the last 4 years are Rs. 300 crores and Rs. 10 crores respectively.\n\n(2) Both the companies envisage a capitalization rate of $8 \\%$.\n\n(3) H Ltd. has a contingent liability of Rs. 300 crores as on 31st March, 20X2.\n\n(4) H Ltd. to issue shares of Rs. 100 each to the shareholders of B Ltd. in terms of the exchange ratio as arrived on a Fair Value basis. (Please consider weights of 1 and 3 for the value of shares arrived on Net Asset basis and Earnings capitalization method respectively for both H Ltd. and B Ltd.)\n\nYou are required to arrive at the value of the shares of both H Ltd. and B Ltd. under:\n\n(i) Net Asset Value Method\n\n(ii) Earnings Capitalisation Method\n\n(iii) Exchange ratio of shares of H Ltd. to be issued to the shareholders of B Ltd. on a Fair value basis (taking into consideration the assumption mentioned in point 4 above.)",
+          "answer": "(i) Net asset value\n\n| H Ltd. | $\\frac{\\text { Rs. } 1300 \\text { Crores }- \\text { Rs. } 300 \\text { Crores }}{3.50 \\text { Crores }}=$ Rs. 285.71 |\n| :--- | :---: |\n| B Ltd. | $\\frac{\\text { Rs. } 31.50 \\text { Crores }}{0.65 \\text { Crores }}=$ Rs. 48.46 |\n\n(ii) Earning capitalization value\n\n| H Ltd. | $\\frac{\\text { Rs. } 300 \\text { Crores } / 0.08}{3.50 \\text { Crores }}=$ Rs. $1071.43^{*}$ |\n| :--- | :---: |\n| B Ltd. | $\\frac{\\text { Rs. } 10 \\text { Crores } / 0.08}{0.65 \\text { Crores }}=$ Rs. 192.31 |\n\n* Alternatively, Contingent Liability can also be deducted from this Valuation.\n\n(iii) Fair value\n\n| H Ltd. | $\\frac{R s .285 .71 X 1+R s .1071 .43 X 3}{4}=R s .875$ |\n| :--- | :---: |\n| B Ltd. | $\\frac{R s .48 .46 X 1+R s .192 .31 X 3}{4}=R s .156 .3475$ |\n\nExchange ratio Rs.156.3475/ Rs.875 = 0.1787\n\nH Ltd should issue its 0.1787 share for each share of B Ltd.\n\nNote: In above solution it has been assumed that the contingent liability will materialize at its full amount.",
+          "chapter_number": "13",
+          "chapter_name": "BUSINESS VALUATION",
+          "unique_id": "13-T-6"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Question 31 (PYP 4 Marks Sep'25)\n\nMr. DK has 1,000 units of AM Mutual Fund. NAV of it is Rs. 17.50 per unit and Rs. 18.90 per unit at the beginning and at the end of the year respectively. The Mutual Fund has given two options:\n\nOption I: Pay Rs. $\\mathbf{1 . 5 0}$ per unit as dividend and Rs. $\\mathbf{1 . 2 0}$ per unit as a capital gain, or\n\nOption II: Reinvest these distributions at an average NAV of Rs. 17.30 per unit.\n\nYou are required to compute the holding period return percentage for both the options and select which option is preferable.\n\nCalculation up to $\\mathbf{2}$ decimal points.",
+          "answer": "(i) Returns for the year\n\n| (All changes on a Per -Unit Basis) |  | (Rs.) |\n| :--- | :--- | :--- |\n| Change in Price | Rs. 18.90 - Rs. 17.50 = | 1.40 |\n| Dividends received |  | 1.50 |\n| Capital gains distribution |  | $\\underline{1.20}$ |\n| Total reward |  | $\\underline{4.10}$ |\n| Holding period reward: | $\\frac{4.10}{17.50} \\times 100=23.43 \\%$ |  |\n\n(Rs.)\n\nAlternative Solution\n\n| Opening Asset Value: <br> Price paid at the year beginning ( $1000 \\times Rs. 17.50$ ) |  | 17,500 |\n| :--- | :--- | :--- |\n| Closing Fund Assets: |  |  |\n| NAV on Closing date |  | 18,900 |\n| Dividend Payable |  | 1,500 |\n| Capital Gain Distribution 1000 units $\\mathrm{x} Rs. 1.20$ |  | 1,200 |\n| Total |  | 21,600 |\n\n\nReturn $=$ (Closing Fund Assets - Opening Asset Value)/Opening Asset Value\n\n$=[(Rs. 21,600-Rs. 17,500) / Rs. 17,500] \\times 100=23.43 \\%$\n\n(ii) Distribution Reinvested at an average NAV of Rs. 17.30\n\nDistribution reinvested = Dividend Rs. 1,500 + Capital Gain Rs. 1,200 = Rs. 2,700\n\nAdditional Units (Distribution/ Average NAV) Rs. 2,700/ Rs. 17.30 = 156.07 units\n\nTotal no. of units $=1,000+156.07=1,156.07$ units\n\nTotal NAV on closing date $=(1,156.07$ units $x$ Rs. 18.90$)=$ Rs. $21,849.72$\n\nPrice paid at the year beginning $(1000 \\times Rs. 17.50)=Rs. 17,500$\n\nReturn $=(Rs. 21,849.72-Rs. 17,500) / Rs. 17,500=0.2486$ or $24.86 \\%$\n\nNote: Alternatively above computation can also be done based on per unit basis.\n\nConclusion: Since the holding period reward is more in terms of percentage in option-two i.e., reinvestment of distributions at an average NAV of Rs. 17.30 per unit, this option is preferable.",
+          "chapter_number": "8",
+          "chapter_name": "MUTUAL FUNDS",
+          "unique_id": "8-T-31"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "## Question 8 (PYP 4 Marks May'25)\n\nMr. PK imports raw materials from China, processes them in India and manufactures finished goods which are then sold in the American market. In this transaction what types of risk faced by Mr. PK?",
+          "answer": "In this transaction, possible types of risks are:\n\n(i) Currency Risk (Exchange Rate Risk): Since raw materials imported from China and finished goods sold in the USA, fluctuation in exchange rates between Yuan, Indian rupee and US Dollar could impact cost and revenue.\n\n(ii) Political and Trade Risk: Changes in trade policies, tariffs, or political instability in China, India, or the U.S. may affect the cost and availability of raw materials or access to markets.\n\n(iii) Market Risk: The demand for the finished products in the US may fluctuate, affecting sales and profitability.\n\n(iv) Regulatory Risk - Mr. PK must comply with various regulations in each country, including import/export laws, quality standards, and customs regulations.",
+          "chapter_number": "2",
+          "chapter_name": "RISK MANAGEMENT",
+          "or_question": {
+            "question": "While in securitization the securities issued by SPV are backed by the loans and receivables the CDOs are backed by pool of bonds, asset backed securities, REITs, and other CDOs. Describe the main types of risk associated with investment in CDOs. (MTP 4 Marks, Mar'24,MP[5],MP[6])",
+            "answer": "The main types of risk associated with investment in CDOs are as follows:\n\n(i) Default Risk: - Also called 'credit risk', it emanates from the default of underlying party to the instruments. The prime sufferers of these types of risks are equity or junior tranche in the waterfall.\n\n(ii) Interest Rate Risk: - Also called Basis risk and mainly arises due to different basis of interest rates. For example, asset may be based on floating interest rate but the liability may be based on fixed interest rates. Though this type of risk is quite difficult to manage fully but commonly used techniques such as swaps, caps, floors, collars etc. can be used to mitigate the interest rate risk.\n\n(iii) Liquidity Risk: - Another major type of risk by which CDOs are affected is liquidity risks as there may be mismatch in coupon receipts and payments.\n\n(iv) Prepayment Risk: - This risk results from unscheduled or unexpected repayment of principal amount underlying the security. Generally, this risk arises in case assets are subject to fixed rate of interest and the debtors have a call option. Since, in case of falling interest rates they may pay back the money.\n\n(v) Reinvestment Risk: - This risk is generic in nature as the CDO manager may not find adequate opportunity to reinvest the proceeds when allowed for substitutions.\n\n(vi) Foreign Exchange Risk: - Sometimes CDOs are comprised of debts and loans from countries other than the country of issue. In such a case, in addition to above mentioned risks, CDOs are also subject to the foreign exchange rate risk."
+          }
+        }
+      ]
+    },
+    {
+      "q_main": 6,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "14",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "T Ltd., a listed company on stock exchange, currently has 84% promoter holding i.e. 126 Lakh shares. Profit after Tax is ₹ 9.60 Crores. Free Float market capitalization is ₹ 38.40 Crores. As per SEBI guidelines promoters have to restrict their holding to 75% to avoid delisting from the stock exchange. Board of Directors has decided not to delist the share but to comply with the SEBI guidelines by issuing bonus shares to minority shareholders while maintaining the same P/E Ratio. You are required to calculate: (i) P/E Ratio (ii) Bonus Ratio (iii) Market price of share after Bonus issue (iv) Post bonus Free Float Market Capitalization.",
+          "answer": "(i) EPS (PAT/No. of Shares) = ₹ 9.60 crores / 150 Lakh = ₹ 6.40 per share\nP/E Ratio (₹160/₹6.40) = 25\n\n(ii) No. of Bonus Shares to be issued:\nPromoters holding 84% = 126 Lakh shares\nShares remain the same, but holding % to be taken as 75%\nHence Total shares = 126 Lakh / 75% = 168 Lakh\nShares of Minority = 168 Lakh - 126 Lakh = 42 Lakh\nBonus 18 Lakh for 24 Lakh / 3 bonus for 4 held / 0.75 shares for 1 share\n\n(iii) Market price before & after Bonus:\nBefore Bonus = ₹160 per share\nAfter Bonus\nNew EPS = ₹ 9.60 crores / 168 Lakh = ₹ 5.71\nNew Market Price = (25 * ₹ 5.71) = ₹ 142.75\n\n(iv) Free Float Capitalization is\n₹ 142.75 * 42 lacs = ₹ 59.9550 crores",
+          "chapter_number": "13",
+          "chapter_name": "BUSINESS VALUATION",
+          "unique_id": "AFM-OCR-P2_BusinessValuation"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "On January 28, 20X2, an importer customer requested a Bank to remit Singapore Dollar (SGD) 2,500,000 under an irrevocable Letter of Credit (LC). However, due to unavoidable factors, the Bank could affect the remittances only on February 4, 20X2. The inter-bank market rates were as follows:\n\n|  |  | January 28, 20X2 | February 4, 20X2 |\n| :--- | :--- | :---: | :---: |\n| US$ 1 | $=$ | Rs. $80.91 / 80.97$ | Rs. $80.85 / 80.90$ |\n| GBP £ 1 | $=$ | US$ 1.7765/1.7775 | US$ 1.7840/1.7850 |\n| GBP £ 1 | $=$ | SGD 2.1380/2.1390 | SGD 2.1575/2.1590 |\n\nThe Bank wishes to retain an exchange margin of $0.125 \\%$ on Rs./ SGD.\n\n## Required:\n\nEstimate how much does the customer stand to gain or lose due to the delay?\n\n(Note: Calculate the rate in multiples of 0.0001)",
+          "answer": "To consider sell rate for the bank:\n\n| US $ | = Rs. 80.97 |\n| :--- | :--- |\n| Pound 1 | US$ 1.7775 |\n| Pound 1 | = SGD 3.1380 |\n| Therefore, SGD 1 | $=\\frac{\\text { Rs.80.97* } 1.7775}{\\text { SGD } 2.1380}$ |\n| SGD 1 | = Rs. 67.3172 |\n| Add: Exchange margin (0.125\\%) | = Rs. 0.0841 |\n|  | = Rs.67.4013 |\n| On February 4, 20X2 the rates are |  |\n| US $ | = Rs. 80.90 |\n| Pound 1 | = US$ 1.7850 |\n| Pound 1 | = SGD 2.1575 |\n\n| Therefore, SGD 1 | $=\\frac{\\mathrm{Rs} .80 .90^{*} 1.7850}{\\mathrm{SGD} 2.1575}$ |\n| :--- | :--- |\n| SGD 1 | $=Rs. 66.9323$ |\n| Add: Exchange margin $(0.125 \\%)$ | $=Rs. 0.0837$ |\n|  | $=Rs. 67.0160$ |\n\nHence, Gain to the importer\n\n$=$ SGD 25,00,000 (Rs. $67.4013-$ Rs. 67.0160 ) = Rs. 9,63,250",
+          "chapter_number": "10",
+          "chapter_name": "Foreign Exchange Exposure & Risk Management",
+          "unique_id": "10-T-19"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Why do traditional lenders like banks hesitate to finance startup? List out what alternative financing options are available to entrepreneurs?",
+          "answer": "Traditional lenders like banks etc. are not interested in a startup business. The reason is that when you are just starting out, you're not at the point yet where a conservative lender or investor can rely on security of your assets or be able to forecast cashflows to secure their investments or estimate your repayment capacity with certainty. So that leaves one with the option of selling some assets, borrowing against one's home, asking loved ones i.e. family and friends for loans etc. But that involves a lot of risk, including the risk of bankruptcy and strained relationships with friends and family.\n\nHere are some of the sources for funding a startup:\n\n(i) Personal financing\n\n(ii) Personal credit lines\n\n(iii) Family and friends\n\n(iv) Peer-to-peer lending\n\n(v) Crowdfunding",
+          "chapter_number": "15",
+          "chapter_name": "STARTUP FINANCE"
+        }
+      ]
+    }
+  ]
+}

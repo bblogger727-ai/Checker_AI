@@ -1,0 +1,392 @@
+[
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 1,
+    "question": "Five students are standing in a circle. Abhinav is between Alok and Ankur. Apurva is on the left of Abhishek. Alok is on the left of Apurva. Who is sitting next to Abhinav on his right? (MTP Apr'23, Nov'22,Aug'25[1], MP [2])",
+    "options": {
+      "a": "Apurva",
+      "b": "Ankur",
+      "c": "Abhishek",
+      "d": "Alok"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 2,
+    "question": "Which of the following pairs of people are sitting at the extreme ends?(MTP Mar'22,Aug'25[2])",
+    "options": {
+      "a": "QV",
+      "b": "PR",
+      "c": "TP",
+      "d": "ST"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 3,
+    "question": "Who is at the immediate left of C? (MTP Nov'22, Aug'25[1])",
+    "options": {
+      "a": "A",
+      "b": "E",
+      "c": "Either E or A",
+      "d": "Cannot be determined"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 4,
+    "question": "Five children are sitting in a row. $S$ is sitting next to $P$ but not $T$. $K$ is sitting next to $R$, who is sitting on the extreme left and T is not sitting next to K. Who is/are adjacent to S? (SM, MTP Nov'21)",
+    "options": {
+      "a": "K and P",
+      "b": "R and P",
+      "c": "Only P",
+      "d": "P and T"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 5,
+    "question": "P, Q, R S and T are seated in a line facing west. R is sitting at north end and S is sitting at south end. T is neighbor of R and $\text{Q} . \text{P}$ and Q are seated together, then who is sitting the middle? (MTP Apr'23)",
+    "options": {
+      "a": "P",
+      "b": "Q",
+      "c": "R",
+      "d": "S"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 6,
+    "question": "Who is sitting at the seventh place counting from left?",
+    "options": {
+      "a": "H",
+      "b": "C",
+      "c": "J",
+      "d": "Either H or C"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 7,
+    "question": "Who is sitting second left of $D$ ?",
+    "options": {
+      "a": "G",
+      "b": "F",
+      "c": "E",
+      "d": "J"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 8,
+    "question": "Shyam, Sathish, Amar and Pavan are playing cards. Amar is to the right of Sathish, who is to the right of Shyam. Who is to the right of Amar? (MTP Nov'23)",
+    "options": {
+      "a": "Sathish",
+      "b": "Amar",
+      "c": "Pavan",
+      "d": "Shyam"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 9,
+    "question": "Who among the following sit at the extreme ends on the row? (MTP May'24, MP [3])",
+    "options": {
+      "a": "D, F",
+      "b": "G, C",
+      "c": "B, C",
+      "d": "None of these"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 10,
+    "question": "Who among the following sits to the immediate right of D (MTP May'24, MP [3])",
+    "options": {
+      "a": "G",
+      "b": "E",
+      "c": "F",
+      "d": "$B$"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 11,
+    "question": "Who is sitting left of A(MTP Mar'22,Aug'25[2])",
+    "options": {
+      "a": "F",
+      "b": "E",
+      "c": "C",
+      "d": "D"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 12,
+    "question": "Who is sitting to the left of S?(MTP Mar'22, Aug'25[2])",
+    "options": {
+      "a": "Q",
+      "b": "U",
+      "c": "T",
+      "d": "R"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 13,
+    "question": "Which of the following is sitting to the left of D? (MTP Nov'22, May'23, Jun'24, Mar'18,Aug'25[1])",
+    "options": {
+      "a": "F",
+      "b": "C",
+      "c": "E",
+      "d": "A"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 14,
+    "question": "Which of the following statement is not correct? (MTP May'23, Mar'21)",
+    "options": {
+      "a": "D and A are sitting opposite to each other",
+      "b": "C is third to the right of D",
+      "c": "$E$ is sitting $F$ and $D$",
+      "d": "$A$ is sitting $C$ and $F$"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 15,
+    "question": "If G and A interchange their positions, then who become the immediate neighbours of E ?",
+    "options": {
+      "a": "G and F",
+      "b": "Only F",
+      "c": "Only A",
+      "d": "J and H"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 16,
+    "question": "Six persons $A, B, C, D, E$ and $F$ are standing in a circle. $B$ is between $D$ and $C . A$ is between $E$ and $C . F$ is to the right of D.Who is between A and F? (MTP Nov'22 MP [10])",
+    "options": {
+      "a": "B",
+      "b": "C",
+      "c": "D",
+      "d": "E"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 17,
+    "question": "Six persons $\text{A}, \text{B}, \text{C}, \text{D}, \text{E}$ and F are sitting in two rows with three persons in each row. Both rows are in front of each other. $\text{E}$ is not at the end of the any row and $\text{D}$ is second left to the $\text{F}, \text{C}$ is neighbour of $\text{E}$ and diagonally opposite to $D$. If $B$ is neighbour $F$ who is in front of $C$ then who is sitting diagonally to $F$ ? (MTP Apr'23)",
+    "options": {
+      "a": "C",
+      "b": "E",
+      "c": "A",
+      "d": "D"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 18,
+    "question": "Eight friends $\text{A}, \text{B}, \text{C}, \text{D}, \text{E}, \text{F}, \text{G}$ and H are sitting in a circle facing the Centre, B is sitting between G and D . $H$ is third to the left of $B$ and second to the right of $A$. $C$ is sitting between $A$ and $G$ and $B$ and $E$ are not sitting opposite to each other. Who is third to the left of D? (MTP May'23, Mar'21)",
+    "options": {
+      "a": "F",
+      "b": "E",
+      "c": "A",
+      "d": "Cannot be determined"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 19,
+    "question": "Five persons are standing in a line. One of the two persons at the extreme ends is a professor and the other a businessman. An advocate is standing to the right of a student. An author is to the left of the businessman. The student is standing between the professor and the advocate. Counting from the left, the advocate is at which place? (MTP Dec'23, Nov '22, MP [10])",
+    "options": {
+      "a": "$1^{\text {st }}$",
+      "b": "$2^{\text {nd }}$",
+      "c": "$3^{\text {rd }}$",
+      "d": "$5^{\text {th }}$"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 20,
+    "question": "$\text{A}, \text{P}, \text{R}, \text{X}, \text{S}$ and Z are sitting in a row. S and Z are in the centre. A and P are at the ends. R is sitting to the left of A. Who is to the right of P? (MTP Nov'23, Nov'22, MP [2],[10])",
+    "options": {
+      "a": "A",
+      "b": "X",
+      "c": "S",
+      "d": "$Z$"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 21,
+    "question": "Who amongst the following sits third to the right of $C$ ?",
+    "options": {
+      "a": "B",
+      "b": "F",
+      "c": "A",
+      "d": "$E$"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 22,
+    "question": "Who amongst the following sits exactly in the middle of the persons who sit fifth from the left and the person who sit sixth from the right?",
+    "options": {
+      "a": "C",
+      "b": "H",
+      "c": "E",
+      "d": "F"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 23,
+    "question": "Five senior citizens are living in a multi-storeyed building. Mr. Muan lives in a flat above Mr. Ashokan, Mr. Lokesh in a flat below Mr. Gaurav, Mr. Ashokan lives in a flat above Mr. Gaurav and Mr. Rakesh lives in a flat below Mr. Lokesh. Who lives in the topmost flat?",
+    "options": {
+      "a": "Mr. Lokesh",
+      "b": "Mr. Gaurav",
+      "c": "Mr. Muan",
+      "d": "Mr. Rakesh"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 24,
+    "question": "Who are immediate neighbours of I ?",
+    "options": {
+      "a": "BC",
+      "b": "BH",
+      "c": "AH",
+      "d": "Cannot be determined"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 25,
+    "question": "There are four children $P, Q, R, S$ sitting in a row. $P$ occupies seat next to $Q$ but not next to $R$. If $R$ is not sitting next to S? Who is occupying seat next to adjacent to S. (MTP Nov'22, MP [2],[10])",
+    "options": {
+      "a": "Q",
+      "b": "P",
+      "c": "P and Q",
+      "d": "None of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 26,
+    "question": "How many persons are seated between A and E ?",
+    "options": {
+      "a": "one",
+      "b": "two",
+      "c": "three",
+      "d": "four"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 27,
+    "question": "Which of the following represents persons seated at the two extreme ends of the line?",
+    "options": {
+      "a": "$C, D$",
+      "b": "$A, B$",
+      "c": "B,G",
+      "d": "$D, H$"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 28,
+    "question": "Five persons are sitting on a bench to be photo graphed, S is to the left of N and to the right of B . M is to the right of $\\mathrm{N} . \\mathrm{R}$ is between N and M . Who is sitting immediate right to R . (MTP Nov'22, Mar'22,Aug'25[1][2])",
+    "options": {
+      "a": "B",
+      "b": "N",
+      "c": "M",
+      "d": "S"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 29,
+    "question": "Who is immediate neighbour of B ?(MTP Mar'22,Aug'25[2], MTP May'24, MP [3])",
+    "options": {
+      "a": "G and H",
+      "b": "E and F",
+      "c": "A and B",
+      "d": "F and H"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 11: SEATING ARRANGEMENTS",
+    "chapter_number": "11",
+    "q_num": 30,
+    "question": "Six friends $\text{A}, \text{B}, \text{C}, \text{D}, \text{E}$ and F are sitting in a row facing towards North. C is sitting between A and E . D is not at the end. B is sitting at immediate right of E . F is not at the right end but D is sitting at 3rd left of E . How many persons are there to the right of D?(MTP Nov'22, May'23, May'20,Aug'25[1] RTP Jan'25, MP [4])",
+    "options": {
+      "a": "One",
+      "b": "Two",
+      "c": "Three",
+      "d": "Four"
+    },
+    "answer": "d"
+  }
+]

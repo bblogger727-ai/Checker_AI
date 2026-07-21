@@ -5,12 +5,10 @@
  */
 
 import axios from 'axios';
-
-const isProduction = !window.location.port || window.location.port === '80';
-const API_BASE = isProduction ? '' : 'http://localhost:8002';
+import { MENTOR_API_BASE } from './config';
 
 const api = axios.create({
-    baseURL: API_BASE,
+    baseURL: MENTOR_API_BASE,
     headers: { 'Content-Type': 'application/json' },
 });
 

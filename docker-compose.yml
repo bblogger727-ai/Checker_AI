@@ -32,6 +32,7 @@ services:
     volumes:
       - checker_uploads:/app/uploads
       - checker_data:/app/data
+      - "./All Paper Jsons:/All_Paper_JSONs"
     ports:
       - "8000:8000"
     depends_on:

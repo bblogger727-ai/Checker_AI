@@ -1,0 +1,81 @@
+[
+  {
+    "q_num": 4,
+    "question": "Weak, Able and Lazy are in Partnership sharing profits and losses in the ratio of 2:1:1. It is agreed that interest on capital will be allowed @ 10% per annum and interest on drawings will be charged @ 8 % per annum. (No interest will be charged/allowed on Current Accounts). The following are the particulars of the Capital and Drawings Accounts of the partners:\n\n|                  | Weak  | Able  | Lazy  |\n|------------------|-------|-------|-------|\n|                  | \u20b9     | \u20b9     | \u20b9     |\n| Capital (1.1.20X2) | 75,000 | 40,000 | 30,000 |\n| Current Account (1.1.20X2) | 10,000 | 5,000  | (Dr.) 5,000 |\n| Drawings         | 15,000 | 10,000 | 10,000 |\n\nThe draft accounts for 20X2 showed a net profit of \u20b9 60,000 before taking into account interest on capitals and drawings and subject to following rectification of errors:\n(a) Life Insurance premium of Weak amounting to \u20b9 750 paid by the firm on 30th June, 20X2 has been charged to Miscellaneous Expenditure A/c.\n(b) Repairs of Machinery amounting to \u20b9 10,000 has been debited to Plant Account and depreciation thereon charged @ 20%.\n(c) Travelling expenses of \u20b9 3,000 of Able for a pleasure trip to U.K. paid by the firm on 30th June, 20X2 has been debited to Travelling Expenses Account.\nYou are required to prepare the Profit and Loss Appropriation Account, Current Accounts of partners Weak, Able and Lazy for the year ended 31st December, 20X2.",
+    "answer": "**Weak, Able & Lazy Profit and Loss Appropriation Account for the year ended 31st December, 20X2**\n\n| Particulars | \u20b9 | Particulars | \u20b9 |\n|-------------|---|-------------|---|\n| To Interest on Capital: | | By Net Profit (Adjusted) | 55,750 |\n| Weak | 7,500 | By Interest on Drawings: | |\n| Able | 4,000 | Weak | 630 |\n| Lazy | 3,000 | Able | 520 |\n| | | Lazy | 400 |\n| | 14,500 | | 1,550 |\n| To Partner\u2019s Current A/cs | | | |\n| (Share of Profit): | | | |\n| Weak | 21,400 | | |\n| Able | 10,700 | | |\n| Lazy | 10,700 | | |\n| | 42,800 | | |\n| | **57,300** | | **57,300** |\n\n**Working Notes:**\n\n(i) **Adjusted Profit**\n\n| Particulars | \u20b9 | \u20b9 |\n|-------------|---|---|\n| Net Profit as per Profit & Loss A/c | | 60,000 |\n| Add: Drawings by Weak (Life Insurance) | | 750 |\n| Add: Drawings by Able (Pleasure Trip) | 3,000 | 63,750 |\n| Less: Repairs to Machinery wrongly capitalised | (10,000) | |\n| Add: Depreciation wrongly charged @ 20% | 2,000 | (8,000) |\n| **Adjusted Net Profit** | | **55,750** |\n\n(ii) **Interest on Drawings:**\n\n| Particulars | Weak | Able | Lazy |\n|-------------|------|------|------|\n| Drawings | 15,000 | 10,000 | 10,000 |\n| Add: Rectification adjustments | 750 | 3,000 | - |\n| **Total Drawings** | **15,750** | **13,000** | **10,000** |\n| Interest @ 8% p.a. for 6 months | 630 | 520 | 400 |\n\n**Partners\u2019 Current Accounts**\n\n| Date | Particulars | Weak | Able | Lazy | Date | Particulars | Weak | Able | Lazy |\n|------|-------------|------|------|------|------|-------------|------|------|------|\n| | To Balance b/d | - | - | 5,000 | | By Balance b/d | 10,000 | 5,000 | - |\n| | To Drawings | 15,000 | 10,000 | 10,000 | | By Int. on Capital | 7,500 | 4,000 | 3,000 |\n| | To Insurance | 750 | - | - | | By Share of Profit | 21,400 | 10,700 | 10,700 |\n| | To Trip Exp. | - | 3,000 | - | | By Balance c/d | - | - | 1,700 |\n| | To Int. on Drw | 630 | 520 | 400 | | | | | |\n| | To Balance c/d | 22,520 | 6,180 | - | | | | | |\n| | | **38,900** | **19,700** | **15,400** | | | **38,900** | **19,700** | **15,400** |",
+    "chapter_number": "10.1",
+    "chapter_name": "Introduction to Partnership Accounts",
+    "section": "Section A",
+    "category": "Theoretical & Practical",
+    "unique_id": "10.1-SectionA-TP-4",
+    "marks": 7
+  },
+  {
+    "q_num": 6,
+    "question": "Mr. X gives the following particulars in respect of business carried on by him:\n| Particulars                                                                 | Amount (\u20b9)  |\n|----------------------------------------------------------------------------|-------------|\n| Capital Invested in business                                               | 9,00,000    |\n| Market rate of interest on investment                                      | 8%          |\n| Rate of risk return on capital invested in business                        | 3%          |\n| Remuneration per annum from alternative employment of proprietor if he was not engaged in business | 36,000      |\n\nThe business earned profits of \u20b9 2,40,000, \u20b9 2,16,000 and \u20b9 3,00,000 in the years 2023, 2024 and 2026 respectively but made a loss of \u20b9 36,000 in the year 2025.\nCompute the value of Goodwill on the basis of 6 years' purchase of super profits of the business, calculated on the basis of average profit of last four years.",
+    "answer": "**Computation of Goodwill of Mr. X**\n\n| Particulars | \u20b9 |\n|-------------|---|\n| Profit 2023 | 2,40,000 |\n| Profit 2024 | 2,16,000 |\n| Profit 2026 | 3,00,000 |\n| **Total Profit** | **7,56,000** |\n| Less: Loss 2025 | (36,000) |\n| **Total for 4 years** | **7,20,000** |\n| Average Profits (\u20b9 7,20,000 / 4) | 1,80,000 |\n| Less: Remuneration for the proprietor | (36,000) |\n| **Average maintainable Profit** | **1,44,000** |\n| Less: Normal Profit (11% on \u20b9 9,00,000) | (99,000) |\n| **Super Profit** | **45,000** |\n| **Goodwill (\u20b9 45,000 \u00d7 6 years purchase)** | **2,70,000** |",
+    "chapter_number": "10.2",
+    "chapter_name": "Treatment of Goodwill in Partnership Accounts",
+    "section": "Section B",
+    "category": "Theoretical & Practical",
+    "unique_id": "10.2-SectionB-TP-6",
+    "marks": 6
+  },
+  {
+    "q_num": 2,
+    "question": "Distinguish between fixed capital and fluctuating capital.",
+    "answer": "In fixed capital method, generally initial capital contributions by the partners are credited to partners\u2019 capital accounts and all subsequent transactions and events are dealt with through current accounts, Unless a decision is taken to change it, initial capital account balance is not changed.\nIn fluctuating capital method, no current account is maintained. All such transactions and events are passed through capital accounts. Naturally, capital account balance of the partners fluctuates every time. So in fixed capital method a fixed capital balance is maintained over a period of time while in fluctuating capital method capital account balances fluctuate all the time.",
+    "chapter_number": "10.1",
+    "chapter_name": "Introduction to Partnership Accounts",
+    "section": "Section A",
+    "category": "Theoretical & Practical",
+    "unique_id": "10.1-SectionA-TP-2",
+    "marks": 5
+  },
+  {
+    "q_num": 3,
+    "question": "What are the liabilities of designated partners in case of LLP.",
+    "answer": "As per LLP Act, unless expressly provided otherwise in this Act, a designated partner should be-\n(a) responsible for the doing of all acts, matters, and things as are required to be done by the limited liability\n    partnership in respect of compliance of the provisions of this Act including filing of any document, return,\n    statement, and the like report pursuant to the provisions of this Act and as may be specified in the limited\n    liability partnership agreement; and.\n(b) liable to all penalties imposed on the limited liability partnership for any contravention of those provisions.",
+    "chapter_number": "10.1",
+    "chapter_name": "Introduction to Partnership Accounts",
+    "section": "Section A",
+    "category": "Theoretical & Practical",
+    "unique_id": "10.1-SectionA-TP-3",
+    "marks": 4
+  },
+  {
+    "q_num": 2,
+    "question": "Explain Accounting treatment of goodwill in case of change in profit sharing ratio. Distinguish between Super profit basis and Capitalisation Basis.",
+    "answer": "Super Profit Basis: In case of average profit basis, goodwill is calculated on the basis of average profit multiplied by certain number of years.\nSuper Profit = Actual Profit - Normal Profit\nActual Profit is average profit and Normal Profit = Normal rate of Return (NRR)\nCapitalization Basis: Under this basis, value of whole business is determined applying normal rate of return. If such value (arrived at by applying normal rate of return) is higher than the capital employed in the business, then the difference is goodwill.",
+    "chapter_number": "10.2",
+    "chapter_name": "Treatment of Goodwill in Partnership Accounts",
+    "section": "Section A",
+    "category": "Theoretical & Practical",
+    "unique_id": "10.2-SectionA-TP-2",
+    "marks": 3
+  },
+  {
+    "q_num": 1,
+    "question": "Write short notes on the following: Liability of LLP and its Partners.",
+    "answer": "Extent of Liability of LLP and its partners Every partner of an LLP for the purpose of its business is an agent of the LLP but is not an agent of other partners. Obligations of LLP are solely its obligations and liabilities of LLP are to be met out of properties of LLP. The partners of an LLP in the normal course of business are not liable for the debts of the LLP. The LLP is liable if a partner of LLP is liable to any person as a result of wrongful or omission on his part in the course of business of the LLP or with his authority. However, a partner will be liable for his own wrongful acts or commissions, but will not be liable for the wrongful acts or commissions of other partners of the LLP. Thus, a partner may be called to pay the liability of an LLP under exceptional circumstances. If an LLP or any of its partners act with the intent to defraud creditors of the LLP or any other person or for any fraudulent purpose, then the liability of the LLP and the concerned partners is unlimited. However, where the fraudulent act is carried out by a partner, the LLP is not liable if it is established by the LLP that the act was without the knowledge or authority of the LLP. Where the business is carried out with fraudulent intent or for fraudulent purpose, every person who was knowingly a party is punishable with imprisonment and fine.",
+    "chapter_number": "10.1",
+    "chapter_name": "Introduction to Partnership Accounts",
+    "section": "Section B",
+    "category": "Theoretical & Practical",
+    "unique_id": "10.1-SectionB-TP-1",
+    "marks": 3
+  },
+  {
+    "q_num": 1,
+    "question": "Write short notes on the following:  Tangible Assets vs. Intangible Assets.",
+    "answer": "Distinction between Tangible and Intangible Assets\n\n| Tangible Assets                                                                 | Intangible Assets                                                                 |\n|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|\n| Tangible Assets are assets that have a physical substance i.e., they can be seen and touched, held for use in the production or supply of goods or services, for rental to others, or for administrative purposes. | Intangible Assets are identifiable assets that do NOT have a physical substance, held for use in the production or supply of goods or services, for rental to others, or for administrative purposes. |\n| Tangible Assets have a finite life based on expected usage.                     | Intangible Assets have a finite life based on contractual terms. In some cases, intangible assets could also have an indefinite life e.g. purchased goodwill. |\n| Useful life is based on expected usage, with no presumption laid down for the same. | Useful life of Intangible Assets is presumed not to exceed 10 years unless evidence exists to the contrary. |\n| Tangible Assets are depreciated over the useful life. In other words, writing off the value of tangible assets on an annual basis is known as depreciation. | Intangible Assets are amortised over the useful life. In other words, writing off the value of intangible assets on an annual basis is known as amortisation. |\n| Examples include Property, Machinery, Vehicles etc.                             | Examples include software, streaming rights, landing rights, trademarks, patents etc. |",
+    "chapter_number": "10.2",
+    "chapter_name": "Treatment of Goodwill in Partnership Accounts",
+    "section": "Section B",
+    "category": "Theoretical & Practical",
+    "unique_id": "10.2-SectionB-TP-1",
+    "marks": 2,
+    "question_cleaned": "Write short notes on the following:  Tangible Assets vs. Intangible Assets.",
+    "mark_split": ""
+  }
+]

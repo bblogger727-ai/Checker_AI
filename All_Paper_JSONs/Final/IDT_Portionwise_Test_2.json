@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "subject_code": "IDT",
+    "subject_name": "Indirect Tax",
+    "paper_num": "Portionwise_2",
+    "total_marks_printed": 50,
+    "total_marks_in_paper": 50,
+    "section_a_marks": 0,
+    "section_b_marks": 50,
+    "two_section_format": false,
+    "note": "Portionwise Test: Attempt all 5 questions. Each question carries 10 marks (6 + 4 split).",
+    "blacklisted_from": [
+      "/Users/gaureshmantri/Documents/Secure PDF Extraction/Final/Generated_Papers/IDT/IDT_Portionwise_Test_1.json"
+    ],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)"
+    ]
+  },
+  "section_a": [],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "18",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Describe the powers that can be exercised by an officer during a valid search.",
+          "answer": "An officer carrying out a search has the power to search for and seize goods (which are liable to confiscation) and documents, books or things (relevant for any proceedings under the CGST Act) from the premises searched. During search, the officer has the power to break open the door of the premises authorized to be searched if access to the same is denied. Similarly, while carrying out search within the premises, he can break open any almirah or box if access to such almirah or box is denied and in which any goods, account, registers or documents are suspected to be concealed. He can also seal the premises if access to it denied. In case where it is not practicable to seize any such goods, the officer can issue an order restricting the owner of the goods to not remove / part / deal with the goods except with his prior permission. The officer can also dispose of goods seized which are specified by the Government in a notification having regard to the nature of such goods.",
+          "chapter_number": "18",
+          "chapter_name": "INSPECTION, SEARCH SEIZURE AND ARREST",
+          "unique_id": "18-T-2"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Mr. Goldy, a Chartered Accountant, being a partner in GST registered firm orders a gaming software for his son Mr. Tony from a company located in USA. He makes the payment for the same from his personal bank account. Examine whether the transaction will be liable to GST. If yes, in whose hands the tax liability will arise? (MTP 5 Marks April'24, SM,MP[2])",
+          "answer": "The supply of gaming software is in the nature of OIDAR service. The transaction is for personal consumption of Mr. Goldy and the payment has also been made from the personal bank account of Mr. Goldy and not from the bank account of his GST registered firm. Therefore, being an unregistered person receiving OIDAR service in taxable territory, Mr. Goldy is a non-taxable online recipient. Services received from a provider of service located in a non- taxable territory by an individual in relation to any purpose other than commerce, industry or any other business or profession is exempt from IGST. However, such exemption is not available in case of OIDAR services. Therefore, being an OIDAR service provided by a supplier located outside India and received by a non-taxable online recipient, the same is liable to GST. Tax on service supplied by any person located in a non-taxable territory to any person other than non-taxable online recipient is payable by the recipient of such service under reverse charge. Therefore, tax on OIDAR services provided by the company located in USA to Mr Goldy, a nontaxable online recipient, will be payable by such company under forward charge.",
+          "chapter_number": "14",
+          "chapter_name": "IMPORT \\& EXPORT UNDER GST",
+          "unique_id": "14-T-4"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "12",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Question 4 (PYP 5 Marks May'24,MP[5])\n\nRajwada Operators Limited (ROL) is registered under GST in the State of Karnataka as an Electronic Commerce Operator (ECO). It owns and operates a web portal which supplies various goods and services on behalf of various sellers/service providers to its ultimate customers. Details of supplies undertaken through ROL in the month of October 20XX are as under:\n\n(i) Sale of goods worth Rs. 1,47,500/- (including GST) by A Ltd., registered supplier of Rajasthan to B Ltd., Gujarat. Also, goods worth taxable value of Rs. 1,40,000/- sold by A Ltd., Rajasthan to B Ltd., Gujarat in the month of September 20XX were returned back in the month of October 20XX.\n\n(ii) Value of services provided from 21.10.25 to 30.10.25 by way of transportation of passengers by motor vehicles by X Ltd., registered under GST in Karnataka to Z Ltd., registered under GST in Karnataka amounting to $Rs. 5,50,000$ /- (it includes $Rs. 1,50,000$ /- against transportation services provided by omnibus).\n\n(iii) Miss Zara of Mumbai books a room for $\textbf{3}$ days and $\textbf{2}$ nights in Raj Niwas Palace, Jodhpur, Rajasthan through Maharaja Resorts Ltd. (MRL), also an ECO registered under GST in Karnataka. MRL is integrated with ROL who has an agreement with Raj Niwas Palace. Raj Niwas Palace is registered under GST in Rajasthan and raises an invoice for $Rs. 1,50,000$ /- to Miss Zara and receives $Rs. 1,45,000$ /- from ROL for the same.\n\nAll the figures given above are exclusive of GST except wherever specified separately. Assume rate of CGST and SGST to be $9 \\%$ each and IGST to be $18 \\%$ on all inward and outward supplies of goods and services. Compute the amount of TCS to be collected by ROL for the month of October 20XX.\n\nWorking notes should form part of your answer.",
+          "answer": "(i) ROL is liable to collect tax at source under section 52 of the CGST Act, 2017 @ $0.5 \\%$ under IGST of the net value of inter-State taxable supplies of goods (Value of taxable supplies made less value of supplies returned) made through it by the electronic commerce operator (ECO)- A Ltd.\n\nNet value of taxable supplies $=Rs. 1,25,000$ (Rs. $1,47,500 \\times 100 / 118$ ) - Rs. $1,40,000=\\mathrm{Nil} /$ (Negative Value) Thus, TCS to be collected is Nil.\n\n(ii) ROL is liable to collect TCS, since the tax on services, by way of transportation of passengers by an omnibus provided by a company through ECO, is not payable by ECO, under section $9(5)$ of the CGST Act, 2017. $=Rs. 1,50,000 \\times 0.25 \\%=Rs. 375$ each under CGST and SGST\n\nROL is not required to collect TCS on transportation of passenger services by other motor vehicles supplied through it worth Rs. $4,00,000$ as tax on the same is payable by ROL itself under section $9(5)$ of the CGST Act, 2017.\n\n(iii) ROL, being supplier side ECO is liable to collect TCS @ 0.25\\% under CGST and $0.25 \\%$ under SGST of the net value of intra-State taxable supplies of accommodation services made through it by Raj Niwas Palace. $=Rs. 1,50,000 \\times 0.25 \\%=Rs. 375$ each under CGST and SGST",
+          "chapter_number": "12",
+          "chapter_name": "Electronic Commerce Transaction Under GST",
+          "unique_id": "12-T-4"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "## Question 12 (SM, MTP 5 Marks Oct '22, Mar'21 & Nov'21, RTP May'19)\n\nPower Electricals Ltd., a registered supplier of air-conditioners, is required to send from Mumbai (Maharashtra), a consignment of parts of air-conditioner to be replaced under warranty at various client locations in Gujarat. The value of consignment declared in delivery challan accompanying the goods is Rs. 70,000. Power Electricals Ltd. claims that since movement of goods to Gujarat is caused due to reasons other than supply, e-way bill is not mandatorily required to be generated in this case.\n\nYou are required to examine the technical veracity of the claim made by Power Electricals Ltd.",
+          "answer": "The goods to be moved to another State for replacement under warranty is not a 'supply'. However, rule 138(1), inter alia, stipulates that every registered person who causes movement of goods of consignment value exceeding Rs. 50,000 :\n\n(i) in relation to a supply; or\n\n(ii) for reasons other than supply; or\n\n(iii) due to inward supply from an unregistered person,\n\nshall, generate an electronic-way bill (E-way Bill) before commencement of such movement.\n\nCBIC vide FAQs on E-way Bill has also clarified that even if the movement of goods is caused due to reasons others than supply [including replacement of goods under warranty], e-way bill is required to be issued.\n\nThus, in the given case, since the consignment value exceeds Rs. 50,000 , e-way bill is required to be mandatorily generated. Therefore, the claim of Power Electricals Ltd. that e-way bill is not mandatorily required to be generated as the movement of goods is caused due to reasons other than supply, is not correct.",
+          "chapter_number": "10",
+          "chapter_name": "Accounts & Records, E-way Bill",
+          "unique_id": "10-T-12"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "19",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "(1) Rajul has been issued a show cause notice (SCN) for reasons other than fraud on 31.12.2029 under section 74A(1) of the CGST Act, 2017, regarding short payment of tax for the period from 01.07.2024 to 31.12.2024. He has an opportunity for a personal hearing on 15.01.2030. Advise Rajul on the written submissions for his reply to the show cause notice.\n\n(2) If in the above question, the SCN is issued on 31.01.2029, Rajul contends that the show cause notice is time-barred. Examine the technical veracity of Rajul's contention, considering section 74A(2), which requires such notice to be issued within 42 months from the due date for filing the annual return for the financial year to which the tax period relates.",
+          "answer": "1. The written submissions in reply to SCN issued to Rajul are as follows:-\n\n(i) The show cause notice (SCN) issued for normal period of limitation $\text{u} / \text{s} 74 \text{~A}(1)$ of CGST Act, 2017 is not sustainable.\n\n(ii) As per section 74A(2), such notice shall be issued within 42 months (i.e. 3 years \\& 6 months) from the due date for furnishing of annual return for the financial year to which such amount relates to. As per section 44 , the due date of filing annual return for a financial year is 31 st December following the end of such financial year.\n\n(iii) The SCN has been issued for the period between 01.07.2024 to 31.12.2024 which falls in the financial year (FY) 2024-25. The due date for furnishing annual return for FY 2024-25 is 31.12.2025. Thus, the SCN $\text{u} / \text{s}$ 74A(1) ought to have been issued latest by 30.06.2029.\n\n(iv) Since the notice has been issued after 30.06.2029, the entire proceeding is barred by limitation and deemed to be concluded u/s 75(10).\n\n2. The contention of Rajul is not valid in law as the $\text{SCN} \text{u} / \text{s} 74 \text{~A}(1)$ ought to have been issued latest by 30.06.29. Since in given case, the notice has been issued on 31.01.2029, notice is not time-barred.",
+          "chapter_number": "19",
+          "chapter_name": "Demands & Recovery",
+          "unique_id": "19-T-10"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Discuss the provisions relating to issue of an invoice/document in the following circumstances: (i) Advance payment is received against a supply, but subsequently no supplies are made. (ii) Goods are sent on approval for sale or return and are removed before the supply takes place. (iii) Miss Dhanvi provides continuous supply of services to her client, where the due date of payment for such services is not ascertainable. No advance has been received in this behalf. (MTP 5 Marks Apr'22, SM)",
+          "answer": "(i) As per section $31(3)(\text{e})$ of the CGST Act, 2017, where advance payment is received against a supply for which receipt voucher has been issued, but subsequently no supplies are made and no tax invoice is issued in pursuance thereof, a refund voucher may be issued to the person who had made the advance payment.\n\n(ii) As per section 31(7) of the CGST Act, 2017, where the goods are sent on approval for sale or return and are removed before the supply takes place, the invoice shall be issued before or at the time of supply or 6 months from the date of removal, whichever is earlier.\n\n(iii) As per section 31 (5)(b) of the CGST Act, 2017, in case of continuous supply of services, where the due date of payment is not ascertainable from the contract, the invoice shall be issued before or at the time when the supplier of service receives the payment.",
+          "chapter_number": "9",
+          "chapter_name": "TAX INVOICE, CREDIT \\& DEBIT NOTES",
+          "unique_id": "9-T-3"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "14",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Elaborate the difference between zero rated supplies and exempt supplies. (MTP 6 Marks Apr'23, RTP Nov'22)",
+          "answer": "The difference between zero rated supplies and exempted supplies is as follows:\n\n| Exempted Supplies | Zero rated supplies |\n| :--- | :--- |\n| Exempt supply means supply of any goods or | Zero-rated supply means (i) export of goods |\n| services or both which attracts nil rate of tax or | and/or services or (ii) supply of goods and/or |\n| which may be wholly exempt from tax and includes | services to SEZ unit/SEZ developer. |\n| non-taxable supply. |  |\n| No tax is payable on the outward exempted supplies, however, the input supplies used for making exempt supplies are to be taxed | No tax is payable on the outward supplies; Input supplies are also to be tax free (by way of refund of ITC) |\n| Credit of input tax needs to be reversed, if taken. No ITC is allowed on the exempted supplies. | Credit of input tax may be availed for making zerorated supplies, even if such supply is an exempt supply. ITC is allowed on zero rated supplies. |\n| Value of exempt supplies, for apportionment of ITC, shall include supplies on which the recipient is liable to pay tax on reverse charge basis, transactions in securities, sale of land and, subject to clause (b) of paragraph 5 of Schedule II, sale of building. | Value of zero-rated supplies shall be added along with the taxable supplies for apportionment of ITC. |\n| Any person engaged exclusively in the business of supplying goods or services or both that are not liable to tax or wholly exempt from tax under the CGST or IGST Act shall not be liable to registration. | A person exclusively making zero rated supplies needs to register as refund of unutilized ITC or IGST paid shall have to be claimed. |\n| A registered person supplying exempted goods and/or services shall issue, instead of a tax invoice, a bill of supply. | Normal tax invoice shall be issued. |",
+          "chapter_number": "14",
+          "chapter_name": "IMPORT \\& EXPORT UNDER GST",
+          "unique_id": "14-T-5"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Moti Weavers, at Pune, Maharashtra is a registered input service distributor and intends to distribute ITC for the month of March. The following are the details available for such distribution:\n\n| Branch | Turnover of the last quarter (Rs.) | ITC specifically attributable to the branch (Rs.) |\n| :--- | :--- | :--- |\n| Ganganagar Branch (Rajasthan) | 10,00,000 | IGST - Rs. 12,000 CGST - Rs. 3,000 SGST - Rs. 3,000 |\n| Madhugiri Branch (Karnataka) | 5,00,000 | Nil |\n| Kosala Branch (UP) | 15,00,000 | Nil |\n| Mumbai Branch (Maharashtra) | 20,00,000 | IGST - Rs. 1,50,000 CGST- Rs. 15,000 <br> SGST- Rs. 15,000 |\n\nITC available on input services used commonly for all branches is as under:\n\nCGST - Rs.60,000 SGST Rs.60,000 IGST - Rs.1,20,000\n\nITC (IGST) of Rs. 10,000 pertaining to March (last year) was inadvertently not distributed. Whether the same can be considered for distribution in March this year?\n\nMadhugiri, Karnataka branch uses input services to manufacture exempted products. Turnover excludes duties & taxes payable to Central and State Government.\n\nDetermine the manner of input tax distribution. (MTP 5 Marks April'24, SM,MP[2])",
+          "answer": "(i) Total GST credit (CGST+ SGST + IGST) of Rs. 18,000 specifically attributable to Ganganagar Branch, Rajasthan will be distributed as IGST credit of Rs. 18,000 only to Ganganagar Branch, Rajasthan [Since recipient and input service distributor (ISD) are located in different states].\n\n(ii) IGST credit of Rs. $1,50,000$, CGST credit of Rs. 15,000 and SGST credit of Rs. 15,000 specifically attributable to Mumbai Branch, Maharashtra will be distributed as IGST credit of Rs. $1,50,000$, CGST credit of Rs. 15,000 and SGST credit of Rs. 15,000 respectively, only to Mumbai Branch, Maharashtra [Since recipient is located in the same State in which ISD is located].\n\n(iii) CGST credit of Rs. 60,000 , SGST credit of Rs. 60,000 and IGST credit of Rs. $1,20,000$ have to be distributed among the three branches and Mumbai Branch, Maharashtra in proportion of their turnover of the last quarter.\n\n- Ganganagar Branch, Rajasthan will get: $Rs. 48,000$ [ Rs. $2,40,000 \\times(Rs. 10,00,000 / Rs. 50,00,000)$ ] as IGST credit.\n\n- Madhugiri Branch, Karnataka will get: $Rs. 24,000[Rs. 2,40,000 \\times(Rs. 5,00,000 / Rs. 50,00,000)]$ as IGST credit.\n\n- The credit attributable to a recipient is distributed even if such recipient is making exempt supplies.\n\n- Kosala Branch, UP will get: Rs. 72,000 [Rs. $2,40,000 \\quad x$ (Rs. $15,00,000$ / Rs. $50,00,000$ )] as IGST credit.\n\n- Mumbai Branch, Maharashtra will get:\n\nRs. 24,000 [Rs. $60,000 \\times$ (Rs. $20,00,000$ / Rs. $50,00,000$ )] as CGST credit, Rs. 24,000 [Rs. $60,000 \\times$ ( Rs. $20,00,000$ / Rs. $50,00,000$ )] as SGST credit and Rs. 48,000 [Rs. $1,20,000 \\times$ ( Rs. $20,00,000$ / Rs. $50,00,000$ )] as IGST credit.\n\n(iv) ITC of Rs. 10,000 of March (last year) cannot be distributed in March this year as ITC available for distribution in a month is to be distributed in the same month.",
+          "chapter_number": "7",
+          "chapter_name": "INPUT TAX CREDIT",
+          "unique_id": "7-T-14"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "18",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Discuss the power of the officer under GST law of access to business premises under section 71 of the CGST Act, 2017. (MTP 4 Marks Oct'24, Sep'22, Mar'18, Oct'22, SM,MP[4])",
+          "answer": "Any officer under this Act, authorised by the proper officer not below the rank of Joint Commissioner, shall have access to any place of business of a registered person to inspect books of account, documents, computers, computer programs, computer software whether installed in a computer or otherwise and such other things as he may require and which may be available at such place, for the purposes of carrying out any audit, scrutiny, verification and checks as may be necessary to safeguard the interest of revenue. Every person in charge of place referred above shall, on demand, make available to the officer so authorised or the audit party deputed by the proper officer or a cost accountant or chartered accountant nominated under section 66 of the CGST Act, 2017- (i) such records as prepared or maintained by the registered person and declared to the proper officer in such manner as may be prescribed; (ii) trial balance or its equivalent; (iii) statements of annual financial accounts, duly audited, wherever required; (iv) cost audit report, if any, under section 148 of the Companies Act, 2013 (18 of 2013); (v) the income-tax audit report, if any, under section 44AB of the income-tax Act, 1961 (43 of 1961); and (vi) any other relevant record, for the scrutiny by the officer or audit party or the chartered accountant or cost accountant within a period not exceeding fifteen working days from the day when such demand is made, or such further period as may be allowed by the said officer or the audit party or the chartered accountant or cost accountant.",
+          "chapter_number": "18",
+          "chapter_name": "INSPECTION, SEARCH SEIZURE AND ARREST",
+          "unique_id": "18-T-10"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Question 2 (SM)\n\n'Separate LUT is to be furnished for every export supply.'\n\nWith reference to the provisions of the GST law, examine the veracity or otherwise of the statement.",
+          "answer": "No, the statement is not correct.\n\nThe LUT remains valid for the whole financial year and there is no need to furnish separate LUT for each export supply. However, in case goods are not exported within the time limit specified in rule 96A(1) of the CGST Rules and the registered person fails to pay the amount mentioned in the said sub rule, the facility of export under LUT will be deemed to have been withdrawn. However, if the amount mentioned in the said sub-rule is paid subsequently, the facility of export under LUT shall be restored. As a result, exports, during the period from when the facility to export under LUT is withdrawn till the time the same is restored, shall be either on payment of the applicable IGST or under bond with bank guarantee.\n\nRule $96 \\mathrm{~A}(1)$ provides inter alia that an exporter of goods has to execute the bond or LUT prior to export, binding himself to pay the tax due along with interest @ 18\\% within 15 days after the expiry of 3 months, or such further period as may be allowed by the Commissioner, from the date of issue of the invoice for export, if the goods are not exported out of India.",
+          "chapter_number": "14",
+          "chapter_name": "IMPORT \\& EXPORT UNDER GST",
+          "unique_id": "14-T-2"
+        }
+      ]
+    }
+  ]
+}

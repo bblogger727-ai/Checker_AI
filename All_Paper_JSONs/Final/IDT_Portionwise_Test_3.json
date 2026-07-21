@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "subject_code": "IDT",
+    "subject_name": "Indirect Tax",
+    "paper_num": "Portionwise_3",
+    "total_marks_printed": 50,
+    "total_marks_in_paper": 50,
+    "section_a_marks": 0,
+    "section_b_marks": 50,
+    "two_section_format": false,
+    "note": "Portionwise Test: Attempt all 5 questions. Each question carries 10 marks (6 + 4 split).",
+    "blacklisted_from": [
+      "/Users/gaureshmantri/Documents/Secure PDF Extraction/Final/Generated_Papers/IDT/IDT_Portionwise_Test_1.json",
+      "/Users/gaureshmantri/Documents/Secure PDF Extraction/Final/Generated_Papers/IDT/IDT_Portionwise_Test_2.json"
+    ],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)"
+    ]
+  },
+  "section_a": [],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "25",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Shivansh Ltd. imported a machine from Germany for Rs. 180 lakh during the month of March 2024 on payment of all duties of customs. Due to some technical manufacturing defect the machine was exported (sent back) to supplier for repairs in October 2024. The machine was re-imported without any re-manufacturing or reprocessing in August 2025 after repairs. Since the machine was under warranty period, the repairs were carried out free of cost. However, the fair cost of repairs carried out (excluding cost of material Rs. 10 lakh) would have been Rs. 5 lakh. Actual insurance and freight charges (to and from) were Rs. 5 lakh (Rs. 2.50 lakh each side). The ownership of machinery has not been changed during the period. You are required to advice Shivansh Ltd. on the concessions (if any) available for importation of the machinery after repairs, also state the conditions to be satisfied for availing such concession. Also compute the customs duty and integrated tax payable (if any) on the re-import of the machine after repairs. The rate of basic customs duty is $15 \\%$ and integrated tax is $12 \\%$. Ignore Agriculture infrastructure and development cess. (RTP May '24, May'23, PYP 5 Marks Jan'21)",
+          "answer": "As per Notification No. 45/2017 Cus. dated 30.06.2017, duty payable on re-importation of goods which had been exported for repairs abroad is the duty of customs which would be leviable if the value of re-imported goods after repairs were made up of the fair cost of repairs carried out including cost of materials used in repairs (whether such costs are actually incurred or not), insurance and freight charges, both ways. However, following conditions need to be satisfied for availing this concession:\n\n(a) goods must be re-imported within 5 years, extendable by further 2 years, after their exportation;\n\n(b) exported goods and the re-imported goods must be the same;\n\n(c) ownership of the goods should not change.\n\nSince all the conditions specified above are fulfilled in the given case, the customs duty payable on reimported goods will be computed as under:\n\n| Particulars | $Rs.$ |\n| :--- | ---: |\n| Value of goods re-imported after exports [Cost of materials Rs. 10 lakh + fair cost of repairs | $20,00,000$ |\n| Rs. 5 lakh + actual insurance and freight Rs. 5 lakhs] |  |\n| :--- | :--- |\n| Add: Basic customs duty @ 15\\% (A) | 3,00,000 |\n| Add: Social Welfare Surcharge @ 10\\% on Rs. 3,00,000 (B) | 30,000 |\n| Value for computing integrated tax | 23,30,000 |\n| Integrated tax @ 12\\% (Rs. $23,30,000 \\times 12 \\%$ ) - (C) | 2,79,600 |\n| Customs duty and integrated tax payable [(A)+(B)+(C)] | 6,09,600 |",
+          "chapter_number": "25",
+          "chapter_name": "LEVY OF EXEMPTIONS UNDER CUSTOMS DUTY",
+          "unique_id": "25-T-15"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "## Question 7 (MTP 4 Marks Sep'24, PYP 5 Marks Nov'22,MP[3]) <br> What are the exceptions provided under sub-section (2) of section 27 of the Customs Act, 1962 in which refund of duty and interest may be paid to the applicant?",
+          "answer": "The amount of duty and interest found refundable is to be paid to the applicant only in following situations:\n\na) if the importer or the exporter, as the case may be, has not passed on the incidence of such duty and interest to any other person.\n\nb) if imports were made by an individual for his personal use.\n\nc) if amount found refundable relates to export duty paid on goods which has returned to exporter as specified in section 26 of the Customers act, 1962\n\nd) if amount relates to drawback of duty payable.\n\ne) if the duty or interest was borne by a notified class of applicants.\n\nf) if excess duty paid by the importer before order permitting clearance of goods for home consumption is made where such excess payment of duty is evident from the bill of entry in the case of self-assessed bill of entry.\n\ng) if excess duty paid by the importer before an order permitting clearance of goods for home consumption is made where the duty actually payable is reflected in the reassessed bill of entry in the case of reassessment.\n\nh) if the buyer has not passed on the incidence of such duty and interest to any other person.",
+          "chapter_number": "31",
+          "chapter_name": "REFUND",
+          "unique_id": "31-T-7"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "32",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Discuss the key similarities and differences between Advance Authorization and DFIA (Duty Free Import Authorization) schemes. (SM, MTP 5 Marks Mar'18, Apr'25, PYP 5 Marks May'22)",
+          "answer": "In both DFIA and Advance Authorization schemes, import of inputs, oil and catalyst which are consumed/ utilized in the process of production of export product are permitted without payment of customs duty. Validity period for both the schemes is 12 months from the date of issue.\n\nKey differences between DFIA and Advance Authorization schemes are as follows -\n\n(i) 'Advance Authorization' is not transferable. DFIA is transferable after export obligation is fulfilled.\n\n(ii) Advance Authorization scheme requires $15 \\%$ value addition, while in case of DFIA, minimum $20 \\%$ value addition is required.\n\n(iii) Advance Authorization and / or material imported under Advance Authorization is subject to 'Actual User' condition. No DFIA shall be issued for an input which is subject to pre-import condition or where SION prescribes 'Actual User' condition or certain other specified inputs with pre import condition.\n\n(iv) DFIA cannot be issued where SION (Standard Input Output Norms) prescribes actual user condition [as the material is transferable after fulfilment of export obligation]. Advance Authorization can be issued even if SION for that product is not fixed. DFIA can be issued only if SION has been fixed for that product to be exported.\n\nDuty Free Import Authorization shall be exempted only from payment of Basic Customs Duty (BCD). Drawback as per rate determined and fixed by Customs authority shall be available for duty paid inputs, whether imported or indigenous, used in the export product. Imports under Advance Authorization are exempted from payment of Basic Customs duty, Additional Customs duty, Education cess, Anti- dumping duty, Countervailing duty, Safeguard duty and Transition Product Specific Safeguard duty, wherever applicable.\n\nHowever, specified deemed exports are not exempted from payment of applicable anti-dumping duty, countervailing duty, safeguard duty and transition product specific safeguard duty, if any. Imports under Advance Authorization for physical as well as deemed exports are also exempt from whole of the Integrated Tax and Compensation Cess.",
+          "chapter_number": "32",
+          "chapter_name": "FOREIGN TRADE POLICY",
+          "unique_id": "32-T-12"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "What is the purpose of including General Rules of Interpretation of First Schedule in Customs Tariff? Do they form part of the Tariff Schedule? Explain the Akin Rule of interpretation. (SM)",
+          "answer": "The Customs Tariff has a set of six General Rules for Interpretation of the First Schedule and three General Explanatory Notes. The six General Rules of Interpretation and three General Explanatory Notes are integral part of the Tariff Schedule. The purpose of their inclusion in Customs Tariff is to standardize the manner in which the nomenclature in the schedule is to be interpreted so as to reduce classification disputes.\n\nRule 4 of the Rules of Interpretation is called as akin rule. This rule lays down that goods which cannot be classified in accordance with rules 1,2 and 3 of the Rules of Interpretation shall be classified under the heading appropriate to the goods to which they are most akin. In other words, akin rule' is a residual rule which is to be applied when classification is not possible by applying any of the earlier rules. It is a rule of last resort.",
+          "chapter_number": "27",
+          "chapter_name": "CLASSIFICATION OF IMPORTED \\& EXPORTED",
+          "unique_id": "27-T-4"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "27",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Explain rule 3 of the rules for Interpretation of the Customs Tariff. (SM)",
+          "answer": "The application of this rule arises when the goods consists of more than one material or substance.\n\nWhen by application of rule 2(b) or for any other reason, goods are, prima facie, classifiable under two or more headings, classification shall be effected as follows:\n\nRule 3(a) - Specific over general\n\n(i) The heading which provides the most specific description shall be preferred to headings providing a more general description.\n\n(ii) However, when two or more headings each refer to part only of the materials or substances contained in mixed or composite goods or to part only of the items in a set up for retail sale, those headings are to be regarded as equally specific in relation to those goods, even if one of them gives a more complete or precise description of the goods.\n\nRule 3(b) - Essential character principle:\n\nMixtures, composite goods consisting of different materials or made up of different components, and goods put up in sets for retail sale, which cannot be classified with reference to (a), shall be classified as if they consisted of material which gives them their essential character, in so far as this criterion is applicable.\n\nRule 3(c) - Latter the better:\n\nWhen goods cannot be classified by reference to (a) or (b), they shall be classified under the heading which occurs last in numerical order among those which equally merit consideration.",
+          "chapter_number": "27",
+          "chapter_name": "CLASSIFICATION OF IMPORTED \\& EXPORTED",
+          "unique_id": "27-T-8"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Question 7 (PYP 5 Marks May'22)\n\n\"The laptop supplied along with software loaded on hard disk drive has to be classified as laptop and valuation has to be made as one unit. The classification also has to be determined accordingly.\" Examine this statement with reference to classification and valuation of laptop under Customs Act, 1962 read with relevant rules and relevant judicial pronouncement, if any.",
+          "answer": "Operating Software preloaded in the laptop forms an integral part of the laptop.\n\nIn a judicial pronouncement by Supreme Court ${ }^{10}$, the Question as to whether the laptop supplied along with the software loaded on hard disk drive is to be classified as laptop has been Answered in affirmative.\n\nThe Court observed that a laptop cannot work without operating system like windows. Therefore, the laptop along with software has to be classified as laptop and for valuation also, the laptop along with software has to be classified as one unit / laptop.\n\nHence, the statement is correct.\n\n${ }^{10}$ vide CC v. Hewlett Packard India Sales (P) Ltd. 2007 (215) E.L.T. 484 (S.C.)",
+          "chapter_number": "27",
+          "chapter_name": "CLASSIFICATION OF IMPORTED \\& EXPORTED",
+          "unique_id": "27-T-7"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "29",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Section 26A of the Customs Act, 1962 provides for refund of import duty paid if goods are found defective or are not as per specifications. Discuss the conditions governing such refund in brief.",
+          "answer": "The section stipulates the following cases in which the refund shall be paid to the person by whom or on whose behalf such duty was paid:\n\n(i) the goods are found to be defective or otherwise not in conformity with the specification agreed upon between the importer and the supplier of goods;\n\nHowever, the goods should have not been worked, repaired or used after importation except where such use was indispensable to discover the defects or non-conformity with the specifications;\n\n(ii) the goods are identified to the satisfaction of Assistant/Deputy Commissioner of Customs as the goods which were imported;\n\n(iii) the importer does not claim drawback under any other provision of this Act; and\n\n(iv) the goods are exported or\n\nthe importer relinquishes his title to the goods and abandons them to customs or\n\nsuch goods are destroyed/rendered commercially valueless in the presence of proper officer in prescribed manner within 30 days from the date on which the order of clearance of imported goods for home consumption is made by the proper officer. This period of 30 days can be extended up to 3 months on sufficient cause.\n\n(v) An application for refund of duty shall be made before the expiry of 6 months from the relevant date in prescribed form and manner.\n\n(vi) Imported goods should not be such regarding which an offence appears to have been committed under this Act or any other law.\n\n(vii) Imported goods should not be perishable goods and goods which have exceeded their shelf life or their recommended storage before use period.",
+          "chapter_number": "29",
+          "chapter_name": "Importation, Exportation and of Goods",
+          "unique_id": "FILE-IDT-P3-Q4a"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Write a note on \"Project Imports\" under the Customs Tariff Act, 1975. (SM)",
+          "answer": "Project Imports are the imports of machinery, instruments, and apparatus etc., falling under different classifications, required for initial set up of a unit or for substantial expansion of an existing unit.\n\nHeavy customs duty on imported machinery for projects make the initial project cost very high and project may become unviable. Hence, concept of 'project import' is introduced to bring machinery etc. required for initial setup or substantial exemption at concessional customs duty.\n\nIn a project several different items are required, each of which is importable at different rates of customs duties. Thus, this simple method is adopted, as otherwise, classifying each machinery and its parts in different heads and valuing them would have been cumbersome and would have delayed clearances, which would cause demurrages. Further, individual exemption notification will apply even for items grouped under the said heading of the customs tariff liable to duty at the project rate as per recent Supreme Court judgement.\n\nThe items eligible for project import are specified in Heading 9801 of the Customs Tariff Act, 1975.\n\nThe spare parts, raw material and consumables stores upto 10% of the value of goods can be imported.\n\nFew of the eligible projects are:\n\n(i) Industrial plant\n\n(ii) Irrigation project\n\n(iii) Power project\n\n(iv) Mining project\n\n(v) Oil & mineral exploration project\n\n(vi) Other projects as notified by the Central Government",
+          "chapter_number": "27",
+          "chapter_name": "CLASSIFICATION OF IMPORTED \\& EXPORTED",
+          "unique_id": "27-T-5"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "26",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "With reference to the Customs Tariff Act, 1975, discuss the validity of the imposition of customs duties in the following cases: -\n\n(a) Both countervailing duty and anti-dumping duty have been imposed on an article to compensate for the same situation of dumping.\n\n(b) Countervailing duty has been levied on an article for the reason that the same is exempt from duty borne by a like article when meant for consumption in the country of origin.\n\n(c) Definitive anti-dumping duty has been levied on articles imported from a member country of World Trade Organization as a determination has been made in the prescribed manner that import of such article into India threatens material injury to the indigenous industry.\n\n(SM, MTP 5 Marks Mar'21, Oct'21)",
+          "answer": "(a) Not valid. As per section 9B of the Customs Tariff Act, 1975, no article shall be subjected to both countervailing and anti-dumping duties to compensate for the same situation of dumping or export subsidization.\n\n(b) Not valid. As per section 9B of the Customs Tariff Act, 1975, countervailing or anti-dumping duties shall not be levied by reasons of exemption of such articles from duties or taxes borne by the like articles when meant for consumption in the country of origin or exportation or by reasons of refund of such duties or taxes.\n\n(c) Valid. As per section 9B of the Customs Tariff Act, 1975, no definitive countervailing duty or anti-dumping duty shall be levied on the import into India of any article from a member country of the World Trade Organisation or from a country with whom Government of India has a most favored nation agreement, unless a determination has been made in the prescribed manner that import of such article into India causes or threatens material injury to any established industry in India or materially retards the establishment of any industry in India.",
+          "chapter_number": "26",
+          "chapter_name": "TYPES OF DUTY",
+          "unique_id": "26-T-9"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "## Question 6 (PYP 5 Marks Jan'21)\n\nPrecise Finishing Ltd. imported consignment of graphic design system and one electronic flat knitting machine. The graphic design system is a computer system required to design the artwork which shall be knitted by the flat knitting machine. Graphic design system is not an integral part of electronic flat knitting machine.\n\nIn exercise of the powers conferred by sub-section (1) of section 25 of the Customs Act, an exemption had been granted in respect of electronic flat knitting machine and falling within Chapter 85 of the First Schedule to the Customs Tariff Act, 1975. The exemption does not include any specific mention of accessories to the machine. Precise Finishing Ltd. has claimed exemption of the said notification in respect of Graphic Design System also as accessory of Flat Knitting Machine.\n\nThe Customs Department rejected the importer's claim for exemption on Graphic Design System. Examine whether the Department's action is sustainable in law.",
+          "answer": "The graphic design system is not an integral part of the electronic flat knitting machine. It is an accessory to the machine.\n\nHence, electronic flat knitting machine and graphic design system cannot be treated as one single unit and should be classified and assessed separately.\n\nIn the given case, the exemption had been granted under the customs law specifically in respect of the electronic flat knitting machine falling under Chapter 85 of the First Schedule to the Customs Tariff Act, 1975 and not to its accessory - the graphic design system.\n\nTherefore, the benefit of the exemption notification available in respect of the electronic flat knitting machine will not be available to graphic design system. The Department's action is sustainable in law.",
+          "chapter_number": "27",
+          "chapter_name": "CLASSIFICATION OF IMPORTED \\& EXPORTED",
+          "unique_id": "27-T-6"
+        }
+      ]
+    }
+  ]
+}

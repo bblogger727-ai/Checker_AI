@@ -1,0 +1,422 @@
+[
+  {
+    "chapter": "CHAPTER 4.1: MEANING AND TYPES OF MARKET",
+    "section": "A",
+    "q_num": 2,
+    "question": "Assume that when price is \u00a5 20, the quantity demanded is 15 units, and when price is 18, the quantity demanded is 16 units. Based on this information, what is the marginal revenue resulting from an increase in output from 15 units to 16 units?",
+    "options": {
+      "a": "\u00a5 18",
+      "b": "\u00a5 16",
+      "c": "-\u00a5 12",
+      "d": "\u00a5 28"
+    },
+    "answer": "c",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 4.1: MEANING AND TYPES OF MARKET",
+    "section": "A",
+    "q_num": 3,
+    "question": "Suppose a firm is producing a level of output such that MR > MC, what should be firm do to maximize its profits?",
+    "options": {
+      "a": "The firm should do nothing.",
+      "b": "The firm should hire less labour.",
+      "c": "The firm should increase price.",
+      "d": "The firm should increase output."
+    },
+    "answer": "d",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 4.1: MEANING AND TYPES OF MARKET",
+    "section": "A",
+    "q_num": 4,
+    "question": "Marginal Revenue is equal to:",
+    "options": {
+      "a": "The change in price divided by the change in output.",
+      "b": "The change in quantity divided by the change in price.",
+      "c": "The change in P x Q due to a one unit change in output.",
+      "d": "Price, but only if the firm is a price searcher."
+    },
+    "answer": "c",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 4.1: MEANING AND TYPES OF MARKET",
+    "section": "A",
+    "q_num": 10,
+    "question": "Average revenue curve is also known as:",
+    "options": {
+      "a": "Profit Curve",
+      "b": "Demand Curve",
+      "c": "Average Cost Curve",
+      "d": "Indifference Curve"
+    },
+    "answer": "b",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 4.1: MEANING AND TYPES OF MARKET",
+    "section": "A",
+    "q_num": 25,
+    "question": "Marginal revenue can be defined as the change in total revenue resulting from the:",
+    "options": {
+      "a": "Purchase of an additional unit of a commodity",
+      "b": "Sales of an additional unit of a commodity",
+      "c": "Sale of subsequent units of a product",
+      "d": "None of the above"
+    },
+    "answer": "b",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 4.1: MEANING AND TYPES OF MARKET",
+    "section": "A",
+    "q_num": 30,
+    "question": "Generally, perishable goods like butter, eggs, milk, vegetables etc., will have",
+    "options": {
+      "a": "Regional market",
+      "b": "Local market",
+      "c": "National market",
+      "d": "None of the above"
+    },
+    "answer": "b",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 4.1: MEANING AND TYPES OF MARKET",
+    "section": "A",
+    "q_num": 40,
+    "question": "Conditions for equilibrium of a firm are:",
+    "options": {
+      "a": "MR=MC",
+      "b": "MC should cut MR from below.",
+      "c": "MR=AR and MC should cut MR from below.",
+      "d": "MR=MC and MC should have a positive slope."
+    },
+    "answer": "d",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 4.1: MEANING AND TYPES OF MARKET",
+    "section": "A",
+    "q_num": 42,
+    "question": "Shares traded in the stock market depict characteristics close to__.",
+    "options": {
+      "a": "Perfect competition",
+      "b": "Oligopoly",
+      "c": "Monopolistic Competition",
+      "d": "Monopoly"
+    },
+    "answer": "a",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 4.1: MEANING AND TYPES OF MARKET",
+    "section": "A",
+    "q_num": 43,
+    "question": "The sale of branded articles is common in a situation of",
+    "options": {
+      "a": "Excess capacity",
+      "b": "Monopolistic competition",
+      "c": "Monopoly",
+      "d": "Pure competition"
+    },
+    "answer": "b",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 4.1: MEANING AND TYPES OF MARKET",
+    "section": "A",
+    "q_num": 45,
+    "question": "The AR curve and industry demand curve are same:",
+    "options": {
+      "a": "In the case of monopoly",
+      "b": "In the case of oligopoly",
+      "c": "In the case of perfect competition",
+      "d": "None of the above"
+    },
+    "answer": "a",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 4.1: MEANING AND TYPES OF MARKET",
+    "section": "A",
+    "q_num": 46,
+    "question": "If a seller realizes Rs. 10,000 after selling 100 units and Rs. 14,000 after selling 120 units. What is the marginal revenue here?",
+    "options": {
+      "a": "Rs. 400",
+      "b": "Rs. 450",
+      "c": "Rs. 200",
+      "d": "Rs. 100"
+    },
+    "answer": "c",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 4.1: MEANING AND TYPES OF MARKET",
+    "section": "A",
+    "q_num": 48,
+    "question": "A condition needed for a perfectly competitive industry to exist is that:",
+    "options": {
+      "a": "Buyers are able to influence the price of the commodity",
+      "b": "Any units of commodity are considered by buyers to be different",
+      "c": "Buyer discriminates in their purchases based on non-price factors.",
+      "d": "There are no obstacles to the free mobility of resources."
+    },
+    "answer": "d",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 4.1: MEANING AND TYPES OF MARKET",
+    "section": "A",
+    "q_num": 67,
+    "question": "In economics, generally the classification of the markets is made on the basis of",
+    "options": {
+      "a": "Time",
+      "b": "Geographic area",
+      "c": "Both (a) and (b)",
+      "d": "None of these"
+    },
+    "answer": "c",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 4.1: MEANING AND TYPES OF MARKET",
+    "section": "A",
+    "q_num": 82,
+    "question": "Which of the following is not a feature of perfect competition market? (PYP May\u201925)",
+    "options": {
+      "a": "Very large number of sellers",
+      "b": "Homogeneous products",
+      "c": "Inelastic demand",
+      "d": "Firms are price takers"
+    },
+    "answer": "c",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 4.1: MEANING AND TYPES OF MARKET",
+    "section": "A",
+    "q_num": 84,
+    "question": "Which type of markets allocates productive resources to producers and helps ensure that those resources are used efficiently? (PYP May\u201925)",
+    "options": {
+      "a": "Product markets",
+      "b": "Factor markets",
+      "c": "Local Markets",
+      "d": "Retail markets"
+    },
+    "answer": "b",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 4.1: MEANING AND TYPES OF MARKET",
+    "section": "A",
+    "q_num": 85,
+    "question": "The firm will be making maximum profits by expanding output to the level where: (PYP May\u201925)",
+    "options": {
+      "a": "Marginal revenue is greater than marginal cost",
+      "b": "Marginal revenue is equal to marginal cost",
+      "c": "Marginal revenue is less than marginal cost",
+      "d": "Marginal revenue is equal to average cost"
+    },
+    "answer": "b",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 4.1: MEANING AND TYPES OF MARKET",
+    "section": "A",
+    "q_num": 86,
+    "question": "If Marginal Revenue (MR) for Unit 1 is 10, for Unit 2 is 5, and for Unit 3 is 3 then what will be the amount of Total Revenue (TR)? (MP[9])",
+    "options": {
+      "a": "215",
+      "b": "%10",
+      "c": "%8",
+      "d": "%18"
+    },
+    "answer": "d",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 4.1: MEANING AND TYPES OF MARKET",
+    "section": "A",
+    "q_num": 87,
+    "question": "Which market covers a wider area such as a few adjacent cities, parts of states, or a cluster of states ? (MP[9])",
+    "options": {
+      "a": "Regional Market",
+      "b": "National Market",
+      "c": "International Market",
+      "d": "Local Market"
+    },
+    "answer": "a",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 4.1: MEANING AND TYPES OF MARKET",
+    "section": "A",
+    "q_num": 90,
+    "question": "Talcum powder market is an example of which of the following market ? (MP [9])",
+    "options": {
+      "a": "Perfect competition",
+      "b": "Monopolistic competition",
+      "c": "Oligopoly",
+      "d": "Monopoly"
+    },
+    "answer": "b",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 4.2: DETERMINATION OF PRICES & PRICE OUTPUT DETERMINATION UNDER DIFFERENT MARKET FORMS",
+    "section": "A",
+    "q_num": 11,
+    "question": "Discriminating monopoly implies that the monopolist charges different prices for his commodity:",
+    "options": {
+      "a": "From different groups of consumers",
+      "b": "For different uses",
+      "c": "At different places",
+      "d": "Any of the above."
+    },
+    "answer": "d",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 4.2: DETERMINATION OF PRICES & PRICE OUTPUT DETERMINATION UNDER DIFFERENT MARKET FORMS",
+    "section": "A",
+    "q_num": 12,
+    "question": "In the context of oligopoly, the kinked demand hypothesis is designed to explain",
+    "options": {
+      "a": "Price and output determination",
+      "b": "Price rigidity",
+      "c": "Price leadership",
+      "d": "Collusion among rivals."
+    },
+    "answer": "b",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 4.2: DETERMINATION OF PRICES & OUTPUT",
+    "section": "A",
+    "q_num": 31,
+    "question": "Pure oligopoly is based on the products",
+    "options": {
+      "a": "differentiated",
+      "b": "homogeneous",
+      "c": "unrelated",
+      "d": "none of the above"
+    },
+    "answer": "b",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 4.2: DETERMINATION OF PRICES & OUTPUT",
+    "section": "A",
+    "q_num": 33,
+    "question": "When the products are sold through a centralized body, oligopoly is known as",
+    "options": {
+      "a": "organized oligopoly",
+      "b": "partial oligopoly",
+      "c": "competitive oligopoly",
+      "d": "syndicated oligopoly"
+    },
+    "answer": "d",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 4.2: DETERMINATION OF PRICES & OUTPUT",
+    "section": "A",
+    "q_num": 55,
+    "question": "When the monopolist divides the consumers into separate submarkets and charges different prices in different sub-markets it is known as",
+    "options": {
+      "a": "First degree of price discrimination",
+      "b": "Second degree of price discrimination",
+      "c": "Third degree of price discrimination",
+      "d": "None of the above"
+    },
+    "answer": "c",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 4.2: DETERMINATION OF PRICES & PRICE OUTPUT DETERMINATION",
+    "section": "A",
+    "q_num": 63,
+    "question": "When the perfectly competitive firm and industry are in long run equilibrium then:",
+    "options": {
+      "a": "P=MR=SAC=LAC",
+      "b": "D=MR=SMC=LMC",
+      "c": "P=MR = Lowest point on the LAC curve",
+      "d": "All of the above"
+    },
+    "answer": "d",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 4.2: DETERMINATION OF PRICES & PRICE OUTPUT DETERMINATION",
+    "section": "A",
+    "q_num": 83,
+    "question": "Price Discrimination cannot be implemented?",
+    "options": {
+      "a": "When there is perfect competition in the market.",
+      "b": "Elasticity of demand must be different in both the market.",
+      "c": "Two or more market which can be separated and can be kept separate.",
+      "d": "All the above"
+    },
+    "answer": "a",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 4.2: DETERMINATION OF PRICES & PRICE OUTPUT DETERMINATION",
+    "section": "A",
+    "q_num": 191,
+    "question": "\u2018A few big sellers\u2019 is a characteristic of: (MTP May\u201923, Dec\u201923, Aug\u201924,MP[6]) (a) Perfect Competition (b) Monopolistic Competition (c) Oligopoly (d) None of the above",
+    "options": {
+      "a": "Perfect Competition",
+      "b": "Monopolistic Competition",
+      "c": "Oligopoly",
+      "d": "None of the above"
+    },
+    "answer": "c",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 4.2: DETERMINATION OF PRICES & PRICE OUTPUT DETERMINATION",
+    "section": "A",
+    "q_num": 240,
+    "question": "The oligopoly market in which few firms come to a common understanding with each other in fixing price or output or both is called: (PYP May\u201925)",
+    "options": {
+      "a": "Pure Oligopoly",
+      "b": "Collusive Oligopoly",
+      "c": "Partial Oligopoly",
+      "d": "Syndicated Oligopoly"
+    },
+    "answer": "b",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 4.2: DETERMINATION OF PRICES & PRICE OUTPUT DETERMINATION",
+    "section": "A",
+    "q_num": 247,
+    "question": "Three major smartphone manufacturers, Alpha Tech, Beta Mobile, and Gamma Gadgets, dominate the smartphone market. These companies are in constant competition for market share and innovation. Which type of the market structure has been described in this scenario? (MP [9])",
+    "options": {
+      "a": "Monopoly",
+      "b": "Oligopoly",
+      "c": "Perfect Competition",
+      "d": "Monopolistic Competition"
+    },
+    "answer": "b",
+    "chapter_number": 4
+  },
+  {
+    "chapter": "CHAPTER 4.2: DETERMINATION OF PRICES & PRICE OUTPUT DETERMINATION",
+    "section": "A",
+    "q_num": 253,
+    "question": "A competitive firm should shut down if:",
+    "options": {
+      "a": "Its total revenues are less than the total cost.",
+      "b": "Its total revenues are less than the marginal revenues.",
+      "c": "Its total revenues are less than the average variable cost.",
+      "d": "Its total revenues are less than the fixed cost."
+    },
+    "answer": "c",
+    "chapter_number": 4
+  }
+]

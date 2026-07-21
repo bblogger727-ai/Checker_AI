@@ -1,0 +1,463 @@
+{
+  "meta": {
+    "subject_code": "DT",
+    "subject_name": "Direct Tax",
+    "paper_num": 2,
+    "total_marks_printed": 100,
+    "total_marks_in_paper": 114,
+    "section_a_marks": 30,
+    "section_b_marks": 84,
+    "note": "Section B: Q1 compulsory (14m). Attempt any 4 of Q2-Q6 (14m each).",
+    "blacklisted_from": [
+      "Generated_Papers/DT/DT_Mock_Paper_1.json"
+    ]
+  },
+  "section_a": [
+    {
+      "type": "case_study",
+      "chapter_number": "29",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "## CS 1 <br> (MTP 10 Marks March'22) (Chapter 9: Assessment of Various Entities)\n\n\nYatra Ltd. is an Indian company set up on 1.10.2025 for printing of books. On the same date, it installed new plant and machinery for ₹ 2 crore and put the same to use immediately. It employed 220 new employees on the said date @ ₹ $\\mathbf{2 4 , 0 0 0}$ per month per employee. Their emoluments were paid by way of account payee cheque and all of them participate in recognized provident fund.\n\nShiva Ltd. is an Indian company engaged in the business of generation of electricity. The company was set up on 1.4.2024 and on that date, it had employed 500 new employees, all of whom participate in recognized provident fund. The emoluments of these employees were paid by ECS through bank account @ ₹ 17,000 per employee per month for 160 employees @ ₹ 21,000 per employee per month for 120 employees and @ ₹ $\\mathbf{2 6 , 0 0 0}$ per employee per month for 220 employees. It exercises option for depreciation on written down value method on block of assets. On 1.10.2025, the company installed new plant and machinery of ₹ 9 crore and put the same to use immediately. The company has received dividend of ₹ 60 lakhs from other domestic companies during the P.Y.2025-26. Shiva Ltd. distributed dividend of ₹ 72 lakhs for the P.Y.2025-26 in July 2026.\n\n\nThe gross total income for A.Y. 2026-27 computed under the special provisions of the Income-tax Act, 1961 is ₹ 7.20 crore of Shiva Ltd. and ₹ 1.30 crore of Yatra Ltd. Based on the facts of the above case scenario, choose the most appropriate answer to Q. 1 to Q. 5 below:\n\n\n1. Which of the following statements is correct with respect to concessional tax regime under the Incometax Act, 1961?\n\n(i) Both Shiva Ltd. and Yatra Ltd. are eligible to opt for concessional tax regime under section 115BAB.\n\n(ii) Both Shiva Ltd. and Yatra Ltd. are not eligible to opt for concessional tax regime under section 115BAB.\n\n(iii) Both Shiva Ltd. and Yatra Ltd. are eligible to opt for section 115BAA\n\n(iv) Yatra Ltd. is eligible to opt for section 115BAB but Shiva Ltd. is not eligible for 115BAB.\n\n(v) Both Shiva Ltd. and Yatra Ltd. are not eligible to opt for concessional tax regime under section 115BAA.\n\n\nChoose the correct option:\n\n(a) (i) \\& (iii)\n\n(b) (ii) \\& (iii)\n\n(c) (ii) \\& (v)\n\n(d) (iii) \\& (iv)\n\n\nAns: (b)\n\n2. If Shiva Ltd. and Yatra Ltd. opted for concessional tax regimes, can they claim deduction under section 80JJAA? If yes, what would be the amount of deduction available while computing total income for the A.Y. 2025-26?\n\n(a) Yes, both can claim deduction under section 80JJAA; ₹ $1,88,64,000$ allowable as deduction to Shiva Ltd. and $₹ 95,04,000$ allowable as deduction to Yatra Ltd.\n\n(b) No deduction under section 80JJAA allowable to Shiva Ltd. and ₹ $95,04,000$ allowable as deduction to Yatra Ltd.\n\n(c) Yes, ₹ $1,88,64,000$ allowable as deduction under section 80JJAA to Shiva Ltd. and no deduction is allowable to Yatra Ltd.\n\n(d) No, they can not claim deduction under section 80JJAA, since they both are opting for concessional tax regimes.\n\n\n## Ans: (c)\n\n\n3. What would be the total income and tax liability of Shiva Ltd. for the A.Y. 2026-27, if it opts for concessional tax regime?\n\n(a) ₹ $4,71,36,000$ and ₹ $1,15,39,650$\n\n(b) ₹ $5,31,36,000$ and ₹ $1,33,73,270$\n\n(c) ₹ $6,60,00,000$ and ₹ $1,66,10,880$\n\n(d) ₹ $4,71,36,000$ and ₹ $1,18,63,190$\n\n\nAns: (d)\n\n4. What would be the tax liability of Yatra Ltd. for the A.Y. 2026-27, if it opts for concessional tax regime?\n\n(a) ₹ $32,71,840$\n\n(b) ₹ 22,30,800\n\n(c) ₹ $5,99,910$\n\n(d) ₹ $8,79,870$\n\n\nAns: (a)\n\n5. What would be the total income Shiva Ltd. and Yatra Ltd. for the A.Y. 2026-27, computed as per the normal provisions of the Income-tax Act, 1961?\n\n(a) ₹ $2,91,36,000$ and ₹ $90,00,000$\n\n(b) $₹ 4,71,36,000$ and $₹ 1,30,00,000$\n\n(c) ₹ $5,40,00,000$ and Nil\n\n(d) ₹ $4,80,00,000$ and ₹ $90,00,000$\n\n\nAns: (a)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Which of the following statements is correct with respect to concessional tax regime under the Incometax Act, 1961?\n\n(i) Both Shiva Ltd. and Yatra Ltd. are eligible to opt for concessional tax regime under section 115BAB.\n\n(ii) Both Shiva Ltd. and Yatra Ltd. are not eligible to opt for concessional tax regime under section 115BAB.\n\n(iii) Both Shiva Ltd. and Yatra Ltd. are eligible to opt for section 115BAA\n\n(iv) Yatra Ltd. is eligible to opt for section 115BAB but Shiva Ltd. is not eligible for 115BAB.\n\n(v) Both Shiva Ltd. and Yatra Ltd. are not eligible to opt for concessional tax regime under section 115BAA.\n\n\nChoose the correct option:",
+          "options": {
+            "a": "(i) \\& (iii)",
+            "b": "(ii) \\& (iii)",
+            "c": "(ii) \\& (v)",
+            "d": "(iii) \\& (iv)"
+          },
+          "correct_option": "b",
+          "answer": "(ii) \\& (iii)",
+          "verdict": null,
+          "_serial": 1
+        },
+        {
+          "q_num": 2,
+          "question": "If Shiva Ltd. and Yatra Ltd. opted for concessional tax regimes, can they claim deduction under section 80JJAA? If yes, what would be the amount of deduction available while computing total income for the A.Y. 2025-26?\n\n(a) Yes, both can claim deduction under section 80JJAA; ₹ $1,88,64,000$ allowable as deduction to Shiva Ltd. and $₹ 95,04,000$ allowable as deduction to Yatra Ltd.\n\n(b) No deduction under section 80JJAA allowable to Shiva Ltd. and ₹ $95,04,000$ allowable as deduction to Yatra Ltd.\n\n(c) Yes, ₹ $1,88,64,000$ allowable as deduction under section 80JJAA to Shiva Ltd. and no deduction is allowable to Yatra Ltd.\n\n(d) No, they can not claim deduction under section 80JJAA, since they both are opting for concessional tax regimes.",
+          "options": {
+            "a": "Yes, both can claim deduction under section 80JJAA; ₹ $1,88,64,000$ allowable as deduction to Shiva Ltd. and $₹ 95,04,000$ allowable as deduction to Yatra Ltd.",
+            "b": "No deduction under section 80JJAA allowable to Shiva Ltd. and ₹ $95,04,000$ allowable as deduction to Yatra Ltd.",
+            "c": "Yes, ₹ $1,88,64,000$ allowable as deduction under section 80JJAA to Shiva Ltd. and no deduction is allowable to Yatra Ltd.",
+            "d": "No, they can not claim deduction under section 80JJAA, since they both are opting for concessional tax regimes."
+          },
+          "correct_option": "c",
+          "answer": "Yes, ₹ $1,88,64,000$ allowable as deduction under section 80JJAA to Shiva Ltd. and no deduction is allowable to Yatra Ltd.",
+          "verdict": null,
+          "_serial": 2
+        },
+        {
+          "q_num": 3,
+          "question": "What would be the total income and tax liability of Shiva Ltd. for the A.Y. 2026-27, if it opts for concessional tax regime?",
+          "options": {
+            "a": "₹ $4,71,36,000$ and ₹ $1,15,39,650$",
+            "b": "₹ $5,31,36,000$ and ₹ $1,33,73,270$",
+            "c": "₹ $6,60,00,000$ and ₹ $1,66,10,880$",
+            "d": "₹ $4,71,36,000$ and ₹ $1,18,63,190$"
+          },
+          "correct_option": "d",
+          "answer": "₹ $4,71,36,000$ and ₹ $1,18,63,190$",
+          "verdict": null,
+          "_serial": 3
+        },
+        {
+          "q_num": 4,
+          "question": "What would be the tax liability of Yatra Ltd. for the A.Y. 2026-27, if it opts for concessional tax regime?",
+          "options": {
+            "a": "₹ $32,71,840$",
+            "b": "₹ 22,30,800",
+            "c": "₹ $5,99,910$",
+            "d": "₹ $8,79,870$"
+          },
+          "correct_option": "a",
+          "answer": "₹ $32,71,840$",
+          "verdict": null,
+          "_serial": 4
+        },
+        {
+          "q_num": 5,
+          "question": "What would be the total income Shiva Ltd. and Yatra Ltd. for the A.Y. 2026-27, computed as per the normal provisions of the Income-tax Act, 1961?",
+          "options": {
+            "a": "₹ $2,91,36,000$ and ₹ $90,00,000$",
+            "b": "$₹ 4,71,36,000$ and $₹ 1,30,00,000$",
+            "c": "₹ $5,40,00,000$ and Nil",
+            "d": "₹ $4,80,00,000$ and ₹ $90,00,000$"
+          },
+          "correct_option": "a",
+          "answer": "₹ $2,91,36,000$ and ₹ $90,00,000$",
+          "verdict": null,
+          "_serial": 5
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "29-CS-1"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "29",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "## CS 20 <br> (MTP 4 Marks April'24, April'22,MP[3])\n\n\nOmega Inc., a Country F company, maintains an online web-platform through which it provides end user computer software through an End-user Licence Agreement (EULA). Trailor Ltd., an Indian company, has entered into a contract for ₹ 6.7 crores with Omega Inc., for the Financial Year 2025-26, which is approved by the Central Government. The broad terms of the EULA between the two companies are as follows-\n\nGrant of licence. Omega Inc. grants Trailor Ltd. a limited non-exclusive licence to install, use, access, display and run the click wrap web-based Computer Software (CWCS) on a single local hard disk(s) or other permanent storage media of one computer. Trailor Ltd. should not make CWCS available over a network where it could be used by multiple computers at the same time.\n\nReservation of rights and ownership. Omega Inc. reserves all rights not expressly granted to Trailor Ltd. in this EULA. The CWCS is protected by copyright and other intellectual property laws and treaties. Omega Inc. owns the title, copyright and other intellectual property rights in the CWCS. The CWCS is licenced (only for use and not any other purpose), not sold.\n\nOmega Inc. does not have any offices outside Country F.\n\ni) Extract of Article 12 of India-Country F DTAA\n\nii) Royalties and Fees for Technical Services\n\n\n1. Royalties and fees for technical services arising in a Contracting State and paid to a resident of the other Contracting State may be taxed in that other State.\n\n2. However, such royalties and fees for technical services may also be taxed in the Contracting State in which they arise and according to the laws of that Contracting State, but if the recipient is the beneficial owner of the royalties or fees for technical services, the tax so charged shall not exceed 10 per cent.\n\n3. The term \"royalties\" as used in this Article means payments of any kind received as a consideration for the use of, or the right to use :\n\n(a) any copyright of a literary, artistic or scientific work, including cinematograph film or films or tapes used for radio or television broadcasting, any patent, trade mark, design or model, plan, secret formula or process, or for information concerning industrial, commercial or scientific experience, including gains derived from the alienation of any such right, property or information\n\nBased on the facts of the above case scenario, choose the most appropriate answer to Q. 1 to Q. 2 below:\n\n4. Is Trailor Ltd., India required to deduct tax at source on the payment made to Omega Inc.? If yes, what amount of tax is required to be deducted at source on the said payment?\n\n(Chapter 21: Non Resident Taxation)\n\n(a) Yes, Trailor Ltd. is required to deduct tax at source of ₹ 1,42,14,720.\n\n(b) No, Trailor Ltd. is not required to deduct tax at source.\n\n(c) Yes, Trailor Ltd. is required to deduct tax at source of ₹ $2,84,29,440$.\n\n(d) Yes, Trailor Ltd. is required to deduct tax at source of ₹ $67,00,000$\n\n\n## Ans:(b)\n\n\n2. Would Trailor Ltd., India be required to deduct tax at source on the payment made to Omega Inc, if there was no DTAA between India and Country F? If so, what amount of tax is required to be deducted at source on the said payment? (Chapter 21: Non Resident Taxation)\n\n(a) Yes, Trailor Ltd. is required to deduct tax at source of ₹ $1,42,14,720$.\n\n(b) No, Trailor Ltd. is not required to deduct tax at source, since such sum is not taxable in the hands of Omega Inc.\n\n(c) Yes, Trailor Ltd. is required to deduct tax at source of ₹ $2,84,29,440$.\n\n(d) Yes, Trailor Ltd. is required to deduct tax at source of ₹ $71,07,360$\n\n\n## Ans:(a)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Is Trailor Ltd., India required to deduct tax at source on the payment made to Omega Inc.? If yes, what amount of tax is required to be deducted at source on the said payment?\n\n(Chapter 21: Non Resident Taxation)\n\n(a) Yes, Trailor Ltd. is required to deduct tax at source of ₹ 1,42,14,720.\n\n(b) No, Trailor Ltd. is not required to deduct tax at source.\n\n(c) Yes, Trailor Ltd. is required to deduct tax at source of ₹ $2,84,29,440$.\n\n(d) Yes, Trailor Ltd. is required to deduct tax at source of ₹ $67,00,000$",
+          "options": {
+            "a": "Yes, Trailor Ltd. is required to deduct tax at source of ₹ 1,42,14,720.",
+            "b": "No, Trailor Ltd. is not required to deduct tax at source.",
+            "c": "Yes, Trailor Ltd. is required to deduct tax at source of ₹ $2,84,29,440$.",
+            "d": "Yes, Trailor Ltd. is required to deduct tax at source of ₹ $67,00,000$"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": 6
+        },
+        {
+          "q_num": 2,
+          "question": "Would Trailor Ltd., India be required to deduct tax at source on the payment made to Omega Inc, if there was no DTAA between India and Country F? If so, what amount of tax is required to be deducted at source on the said payment? (Chapter 21: Non Resident Taxation)\n\n(a) Yes, Trailor Ltd. is required to deduct tax at source of ₹ $1,42,14,720$.\n\n(b) No, Trailor Ltd. is not required to deduct tax at source, since such sum is not taxable in the hands of Omega Inc.\n\n(c) Yes, Trailor Ltd. is required to deduct tax at source of ₹ $2,84,29,440$.\n\n(d) Yes, Trailor Ltd. is required to deduct tax at source of ₹ $71,07,360$",
+          "options": {
+            "a": "Yes, Trailor Ltd. is required to deduct tax at source of ₹ $1,42,14,720$.",
+            "b": "No, Trailor Ltd. is not required to deduct tax at source, since such sum is not taxable in the hands of Omega Inc.",
+            "c": "Yes, Trailor Ltd. is required to deduct tax at source of ₹ $2,84,29,440$.",
+            "d": "Yes, Trailor Ltd. is required to deduct tax at source of ₹ $71,07,360$"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "_serial": 7
+        }
+      ],
+      "mcq_count": 2,
+      "unique_id": "29-CS-20"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "29",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "CS 21\n\nTrio Inc., a company incorporated in Country T, is engaged in manufacturing of computer hardware parts. It also owns an online social networking site, Attire. Nice Ltd., an Indian Company, imports computer hardware parts from Trio Inc. During the previous year 2025-26, Nice Ltd. did not import any computer hardware parts from Trio Inc. but paid ₹ 5,50,000 on 24th July, 2025 to Trio Inc. for advertising its business on the platform of Attire. However, Nice Ltd. didn't deducted tax at source nor equalisation levy on such payment.\n\nOn 1-4-2025, Nice Ltd. advanced a loan of ₹ 2.5 crores to Xylo Inc., an Australian company. As on the date of loan, the book value of total assets in the books of Xylo Inc. was ₹ 4.52 crores. Out of the ten directors of Xylo Inc.,\n\nfive are appointed by Nice Ltd. Xylo Inc. repaid the entire loan along with interest thereon on 31st March, 2026.\n\nOn 9.11.2025, Trio Inc. sold 3,500 equity shares held by it in an Indian Company, XYZ Ltd. for ₹ 102 per share. These shares were bought by Trio Inc. on 15th April, 2011 for ₹ 36.40 per share. Both the purchase and sale of shares were effected through a recognized stock exchange in India and STT is paid on purchase and sale. Fair Market Value of these shares on 31-01-2018 was₹ 90 per share.\n\nClI for F.Y.2011-12-182; F.Y.2025-26-376.\n\nNice Ltd. received the draft order from the Assessing Officer as per section 144C of the Income-tax Act, 1961 due to variations determined by the Transfer Pricing Officer in the arm's length price for the A.Y. 2024-25. However, Nice Ltd. does not prefer to file the objection against the draft order before the Dispute Resolution Panel; Instead, it wants to file an appeal before the CIT (Appeals) under section 246A against the final order received from the Assessing Officer.\n\nFrom the information given above, choose the most appropriate answer of MCQs 1 to 3:\n\n\n1. Are Nice Ltd. and Xylo Inc. associated enterprises? If so, why? (chapter 24 Transfer Pricing \\& Other Provisions to check Avoidance of Tax)\n\n(a) Yes, since loan advanced by Nice Ltd. to Xylo Inc. is not less than 51\\% of the book value of total assets of Xylo Inc.\n\n(b) Yes, since not less than $50 \\%$ of the directors of Xylo Inc. are appointed by Nice Ltd.\n\n(c) Yes, due to either (a) or (b) above.\n\n(d) No, Nice Ltd. and Xylo Inc. are not associated enterprises, since the loan has been repaid before the end of the previous year i.e., before 31.3.2026.\n\n\n## Ans: (a)\n\n\n2. Compute the amount of long-term capital gains arising to Trio Inc. on transfer of listed shares of XYZ Ltd. What would be the tax treatment of such capital gains under the Income-tax Act, 1961? (chapter 4 Capital Gains)\n\n(a) ₹ 42,000 . The same would be taxable@12.5\\% u/s 112A\n\n(b) ₹ 42,000 . However, the said amount would not be subject to any tax.\n\n(c) No capital gain would arise, since cost of acquisition would be₹ 102.\n\n(d) ₹ $1,13,400$; The same would be taxable@ $20 \\% \\mathrm{u} / \\mathrm{s} 112$, since benefit of concessional rate @ $12.5 \\% \\mathrm{u} / \\mathrm{s}$ 112 A will not be available to a foreign company\n\n\n## Ans: (b)\n\n\n3. Which of the following statements are correct, in relation to the remedies available to Nice Ltd. under the Income-tax Act, 1961, if it is not satisfied with the draft order passed by the Assessing Officer? (chapter 16 Appeals \\& Revisions) (MTP Mar'25)\n\n(a) It can file an objection before the Dispute Resolution Panel against the draft assessment order\n\n(b) It can file an appeal before CIT (Appeals) after getting the final assessment order\n\n(c) Either (a) or (b)\n\n(d) Both (a) and (b)\n\n\nAns: (c)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Are Nice Ltd. and Xylo Inc. associated enterprises? If so, why? (chapter 24 Transfer Pricing \\& Other Provisions to check Avoidance of Tax)",
+          "options": {
+            "a": "Yes, since loan advanced by Nice Ltd. to Xylo Inc. is not less than 51\\% of the book value of total assets of Xylo Inc.",
+            "b": "Yes, since not less than $50 \\%$ of the directors of Xylo Inc. are appointed by Nice Ltd.",
+            "c": "Yes, due to either (a) or (b) above.",
+            "d": "No, Nice Ltd. and Xylo Inc. are not associated enterprises, since the loan has been repaid before the end of the previous year i.e., before 31.3.2026."
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": 8
+        },
+        {
+          "q_num": 2,
+          "question": "Compute the amount of long-term capital gains arising to Trio Inc. on transfer of listed shares of XYZ Ltd. What would be the tax treatment of such capital gains under the Income-tax Act, 1961? (chapter 4 Capital Gains)",
+          "options": {
+            "a": "₹ 42,000 . The same would be taxable@12.5\\% u/s 112A",
+            "b": "₹ 42,000 . However, the said amount would not be subject to any tax.",
+            "c": "No capital gain would arise, since cost of acquisition would be₹ 102.",
+            "d": "₹ $1,13,400$; The same would be taxable@ $20 \\% \\mathrm{u} / \\mathrm{s} 112$, since benefit of concessional rate @ $12.5 \\% \\mathrm{u} / \\mathrm{s}$ 112 A will not be available to a foreign company"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": 9
+        },
+        {
+          "q_num": 3,
+          "question": "Which of the following statements are correct, in relation to the remedies available to Nice Ltd. under the Income-tax Act, 1961, if it is not satisfied with the draft order passed by the Assessing Officer? (chapter 16 Appeals \\& Revisions) (MTP Mar'25)",
+          "options": {
+            "a": "It can file an objection before the Dispute Resolution Panel against the draft assessment order",
+            "b": "It can file an appeal before CIT (Appeals) after getting the final assessment order",
+            "c": "Either (a) or (b)",
+            "d": "Both (a) and (b)"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": 10
+        }
+      ],
+      "mcq_count": 3,
+      "unique_id": "29-CS-21"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "29",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "## CS 47 <br> (PYP 10 Marks Sep'25)\n\n\nA business trust registered under SEBI (Real Estate Investment Trust) Regulations, 2014, has given particulars of its income for the financial year 2025-26 as under:\n\n(i) Interest income from Axe Ltd- ₹ 12 lakhs;\n\n(ii) Dividend income from Axe Ltd- ₹ 6 lakhs,\n\n(iii) Short-term capital gains on sale of listed shares (on 01/08/2025) of Indian companies - ₹ 5 lakhs. STT was paid both at the time of sale and purchase).\n\nAxe Ltd. is a SPV (Special Purpose Vehicle) in which the business trust holds $80 \\%$ of shareholdings. Axe Ltd. opts to pay tax under section 115BAA. The business trust distributes its entire income to the unit holders in the financial year 2025-26 in the month of March, 2026.\n\nThe business trust paid an interest of ₹ 2 lakhs on money borrowed by it from a foreign company, by way of issue of rupee denominated bonds on 01.06.2025. The bond is listed on a recognized stock exchange located in IFSC. The Interest paid to Foreign Company does not exceed the rate approved by the Govt. of India.\n\nMr. Prakash, a resident shareholder holding 100 units and Mr. S. John (an Australian Citizen) holding 500 units in the business trust. The total number of units subscribed to by all unit holders is 5,000.\n\nMr. S. John, who is a unit holder in the business trust, came to India for the first time on 27th July, 2025. On 10th November, 2025, he left India for China on business trip. He came back to India on 15th February, 2026. He maintains a dwelling place in India from the date of his arrival in India (i.e. 27th July, 2025) till 27th February, 2026 when he left for Iran. Mr. S. John does not have permanent establishment or fixed place for carrying out his business in India. He is liable to tax in Australia in respect of his income of Financial Year 202526.\n\n\nMr. S. John, in addition to income distributed by business trust, earned income from following sources in India during the Financial Year 2025-26:\n\n(i) Royalty received from Indian concern:\n\n(Mr. S. John has incurred expenditures of ₹ 4 lakhs in respect of Royalty. The royalty is as per agreement with an Indian concern and agreement has been approved by the Government of India)\n\n(ii) Rent from house property located in India (Property tax in respect of the house property paid ₹ 50,000/- in the FY 2025-26): ₹ 7,50,000\n\nMr. S. John has not exercised option for opting out from the default tax regime. From the facts given in the case study, choose correct answer to following Multiple Choice Questions.:  \n\n\n1. In respect of the component of interest income received from Axe Ltd. and distributed by the business trust to the unit-holders - Mr. Prakash and Mr. S. John: (Chapter 13: Deduction, Collection \\& Recovery of Tax)\n\n(a) No tax shall be deductible at source.\n\n(b) Tax shall be deductible @ 5\\% on the income distributed to Mr. Prakash and Mr. S. John.\n\n(c) Tax shall be deductible @ 10\\% on the income distributed to Mr. Prakash and @ 5\\% on income distributed to Mr. S. John.\n\n\n## This document was viewed by Gauresh from 8237317945 gauresh.mantri@gmail.com on 18 May 2026 at 22:02\n\n\n(d) Tax shall be deductible @ 10\\% on income distributed to Mr. S. John and @5\\% on income distributed to Mr. Prakash.\n\nAns: (c)\n\n2. In respect of short-term capital gains of ₹ 5 lakhs on sale of listed shares, the business trust is(Chapter 4: Capital Gains)\n\n(a) liable to pay income-tax (excluding surcharge and cess) at the rate of $15 \\%$.\n\n(b) liable to pay income-tax (excluding surcharge and cess) at the rate of $10 \\%$.\n\n(c) not liable to pay any tax on such short-term capital gains; such income is subject to tax in the hands of unit-holders.\n\n(d) liable to pay income-tax (excluding surcharge and cess) at the rate of $20 \\%$.\n\n\nAns: (d)\n\n3. The dividend component of income received from Axe Ltd. and distributed to unit-holders by business trust - (Chapter 10: Charitable \\& Relegious Trusts and Institutions, Political Parties and Electoral Trusts)\n\n(a) would be exempt in the hands of the business trust and the unit-holders.\n\n(b) would be exempt in the hands of the business trust but taxable in the hands of unit-holders.\n\n(c) would be taxable in the hands of the business trust; and exempt in the hands of unit-holders.\n\n(d) would be taxable in the hands of business trust and also in the hands of the unit-holders.\n\n\nAns: (b)\n\n4. In the given facts, on the interest of ₹ 2 Lakhs paid by the business trust on rupee denominated bonds, the business trust would be liable to - (Chapter 13: Deduction, Collection \\& Recovery of Tax)\n\n(a) deduct income-tax\n\n@ 5\\% on ₹ 2 lakhs.\n\n(b) deduct income-tax @ 4\\% on ₹ 2 lakhs.\n\n(c) deduct income-tax @ 9\\% on ₹ 2 lakhs.\n\n(d) deduct income-tax @ 10\\% on ₹ 2 lakhs.\n\n\nAns: (c)\n\n5. The residential status of Mr. S. John for assessment year 2026-27 under the Income-tax Act will be (Chapter 21: Non Resident Taxation)\n\n(a) Resident in India\n\n(b) Resident but Not Ordinarily Resident\n\n(c) Deemed to be Resident Indian\n\n(d) Non-resident in India\n\n\nAns: (d)\n\n\n\n\n[^0]:    Ans: (b)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "In respect of the component of interest income received from Axe Ltd. and distributed by the business trust to the unit-holders - Mr. Prakash and Mr. S. John: (Chapter 13: Deduction, Collection \\& Recovery of Tax)",
+          "options": {
+            "a": "No tax shall be deductible at source.",
+            "b": "Tax shall be deductible @ 5\\% on the income distributed to Mr. Prakash and Mr. S. John.",
+            "c": "Tax shall be deductible @ 10\\% on the income distributed to Mr. Prakash and @ 5\\% on income distributed to Mr. S. John.",
+            "d": "Tax shall be deductible @ 10\\% on income distributed to Mr. S. John and @5\\% on income distributed to Mr. Prakash."
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": 11
+        },
+        {
+          "q_num": 2,
+          "question": "In respect of short-term capital gains of ₹ 5 lakhs on sale of listed shares, the business trust is(Chapter 4: Capital Gains)",
+          "options": {
+            "a": "liable to pay income-tax (excluding surcharge and cess) at the rate of $15 \\%$.",
+            "b": "liable to pay income-tax (excluding surcharge and cess) at the rate of $10 \\%$.",
+            "c": "not liable to pay any tax on such short-term capital gains; such income is subject to tax in the hands of unit-holders.",
+            "d": "liable to pay income-tax (excluding surcharge and cess) at the rate of $20 \\%$."
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null,
+          "_serial": 12
+        },
+        {
+          "q_num": 3,
+          "question": "The dividend component of income received from Axe Ltd. and distributed to unit-holders by business trust - (Chapter 10: Charitable \\& Relegious Trusts and Institutions, Political Parties and Electoral Trusts)",
+          "options": {
+            "a": "would be exempt in the hands of the business trust and the unit-holders.",
+            "b": "would be exempt in the hands of the business trust but taxable in the hands of unit-holders.",
+            "c": "would be taxable in the hands of the business trust; and exempt in the hands of unit-holders.",
+            "d": "would be taxable in the hands of business trust and also in the hands of the unit-holders."
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": 13
+        },
+        {
+          "q_num": 4,
+          "question": "In the given facts, on the interest of ₹ 2 Lakhs paid by the business trust on rupee denominated bonds, the business trust would be liable to - (Chapter 13: Deduction, Collection \\& Recovery of Tax)",
+          "options": {
+            "a": "deduct income-tax\n@ 5\\% on ₹ 2 lakhs.",
+            "b": "deduct income-tax @ 4\\% on ₹ 2 lakhs.",
+            "c": "deduct income-tax @ 9\\% on ₹ 2 lakhs.",
+            "d": "deduct income-tax @ 10\\% on ₹ 2 lakhs."
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": 14
+        },
+        {
+          "q_num": 5,
+          "question": "The residential status of Mr. S. John for assessment year 2026-27 under the Income-tax Act will be (Chapter 21: Non Resident Taxation)",
+          "options": {
+            "a": "Resident in India",
+            "b": "Resident but Not Ordinarily Resident",
+            "c": "Deemed to be Resident Indian",
+            "d": "Non-resident in India"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null,
+          "_serial": 15
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "29-CS-47"
+    }
+  ],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": true,
+      "total_marks": 14,
+      "chapter_number": "1",
+      "sub_questions": [
+        {
+          "label": "—",
+          "marks": 14,
+          "internal_split": null,
+          "question": "Question 5 (PYP 14 Marks Nov'22)\n\nM/s MPK Pharma Ltd, a company resident in India, in which the public are not substantially interested, is engaged in the manufacture of pharmaceutical products. The Statement of Profit & Loss for the year ended 31st March, 2026 shows a net profit of ₹ $50,75,000$ after debiting or crediting the following items:\n\n(i) One-time license fee of ₹ 12 lakhs paid to a foreign company for obtaining a franchise on 28th July, 2025.\n\n(ii) Convertible debentures were issued by the company on which expenditure of issue and collection of ₹ $3,15,000$ was incurred.\n\n(iii) The company has paid ₹ $2,25,000$ to share brokers for transactions in relation to equity shares listed in stock exchange and ₹ 1,20,000 to commodity broker for transactions in relation to commodities at MCX. Tax was not deducted at source on such transactions.\n\n(iv) Contributed $15 \\%$ of basic salary in National Pension Scheme referred in section 80CCD towards salary paid to an employee Mr. Gaurav whose basic salary was $₹ 6,00,000$ p.a. and Dearness allowance of $30 \\%$ of basic salary was considered. $50 \\%$ of Dearness• allowance formed part of the salary.\n\n(v) Expense of ₹ 7,00,000 has been incurred for providing freebies to medical practitioners.\n\n(vi) Expenditure of ₹ $5,20,000$ incurred on feasibility study conducted for examining proposals for technological advancement for existing business. The project was abandoned without creating a new asset.\n\n(vii) Depreciation of $₹ 13,00,000$ on the basis of useful life of assets has been charged.\n\n(viii) Employees Provident Fund (EPF) for the month of March, 2026 amounting to ₹ $5,20,000$ was remitted on 17th June, 2026 which includes ₹ $2,60,000$ of employer's contribution and ₹ $2,60,000$ of employee's contribution.\n\n(ix) Donation to Swachh Bharat Kosh ₹ 2,00,000.\n\n(x) Industrial power tariff concession of ₹ $4,50,000$ is received from Central Government.\n\n(xi) Interest and borrowing costs amounting to $₹ 6,85,000$ and $₹ 5,65,000$ though not meeting the criteria for recognition as a component of cost, is included in the cost of opening and closing inventory, respectively.\n\n(xii) The profit from setting of warehouse in rural area for storage of sugar (before claiming deduction under section 35AD) is ₹ 10,00,000. The warehouse commenced operations on 24th October, 2025.\n\nThe Company has furnished the following additional information:\n\nI. The company has collected $₹ 14,00,000$ as GST from its customers and remitted to the Government before due the dates. Consequent to an appeal filed, the Honourable High Court ordered the GST department to refund $₹ 5,00,000$ to the Company. The Company in turn refunded $₹ 3,00,000$ to its customers from whom GST was collected. Balance amount is shown under \"current liabilities\".\n\nII. On 14.01 .2026 , the company has issued $2,00,000$ equity shares of ₹ 10 each at ₹ 22 per share. The fair market value of the shares determined as per Income-tax Rules, 1962 was ₹ 19 per share.\n\nIII. The company has brought forward losses of ₹ $13,00,000$ relating to assessment year 2023-24. Mr. X who continuously held $55 \\%$ shares carrying voting power since incorporation of the company, had sold his entire shareholding to Mr. Y on 25.11.2025.\n\nIV. Depreciation allowable as per Income-tax Rules ₹ 14,50,000.\n\nV. The company has invested ₹ 35 lakhs in the construction of warehouse in a rural area for storage of sugar as an additional line of business. The investment includes land value of ₹ 20 lakhs.\n\nYou are required to compute the Total Income of M/s MPK Pharma Ltd. for the Assessment Year 2026-27 The company has not opted for tax u/s 115BAA of the Income-tax Act, 1961.",
+          "answer": "Computation of Total Income of M/s MPK Pharma Ltd. for the A.Y. 2026-27\n\n|  | Particulars | Amount (in ₹) |  |\n| :--- | :--- | :--- | :--- |\n| I | Profits and gains of business and profession |  |  |\n|  | Net profit as per Statement of profit and loss |  | 50,75,000 |\n|  | Add: Items debited but to be considered separately or to be disallowed |  |  |\n|  | (i) One time license fee <br> [Franchise is in the nature of an intangible asset eligible for depreciation @ $25 \\%$. Since one-time license fees of ₹ 12 lakh paid to a foreign company for obtaining franchise has been debited to statement of profit and loss, the same has to be added back.] | 12,00,000 |  |\n|  | (ii) Expenditure of issue of convertible debenture <br> [The expenditure incurred on the issue and collection of debentures would be treated as revenue expenditure even in case of convertible debentures, i.e., the debentures which had to be converted into shares at a later date. ${ }^{1}$ Since the said expenditure has been debited to statement of profit and loss, no further adjustment is required.] | Nil |  |\n|  | (iiia) Payment to share brokers for transaction in relation to equity shares [Since the company is engaged in the manufacture of pharmaceutical products, investment in equity shares is not related to the business and the payment to share broker is not wholly and exclusively for the purpose of assessee's business. Since the said payment has been debited to statement of profit and loss, the same has to be added back] Note - If it is assumed that the company also carries on share trading business and the profits of such business are included in the figure of ₹ 50,75,000, then, the payment to share brokers would be allowable as deduction. There would be no disallowance under section 40(a)(ia) since section 194H is not attracted in respect of payment for transaction in relation to equity shares. The figures of business income, gross total income and total income would, accordingly, change] | 2,25,000 |  |\n|  | (iiib) Payment to commodity broker without deducting tax at source [Assuming that the commodity transactions at MCX are in relation to the business of the company, the payment of ₹ $1,20,000$ to commodity broker on which tax is deductible under section 194H would attract disallowance@30\\% u/s 40(a)(ia), due to non- deduction of tax at source u/s 194H.] | 36,000 |  |\n|  | Note - If the transactions are not related to the business, the entire amount of ₹ $1,20,000$ would be disallowed. The figures of business income, gross total income and total income would accordingly change. |  |  |\n|  | (iv) Contribution towards NPS in excess of 14\\% of salary disallowed | Nil |  |\n|  | [Contribution to the extent of 14\\% of salary (basic salary + dearness allowance, if it forms part of pay for retirement benefits) is allowable as deduction under section 36(1)(iva). In this case, ₹ 96,600 [14\\% of (₹ $6,00,000+50 \\%$ of $30 \\% \\times ₹ 6,00,000$ )], hence this it is more than the contribution it will not be disallowed] |  |  |\n|  | (v) Expense on freebies to medical practitioners | 7,00,000 |  |\n|  | [Any expense incurred in providing freebies to medical practitioners is an expense prohibited by the law. Any expenditure incurred by an assessee for any purpose which is prohibited by law is not deemed to have been incurred for the purpose of business or profession and hence, has to be disallowed from business income. ${ }^{2}$ |  |  |\n|  | (vi) Expenditure on feasibility study | Nil |  |\n|  | [If there is no creation of a new asset, then the expenditure incurred on feasibility study would be of revenue nature. In this case, since the feasibility study was conducted for the existing business and the project was abandoned without creating a new asset, the expenses were of revenue nature ${ }^{3}$. Since the expenditure of ₹ $5,20,000$ has already been debited to statement of profit and loss, no further adjustment is required. |  |  |\n|  | (vii) Depreciation on the basis of useful life of asset | 13,00,000 |  |\n|  | (viiia) Employees' contribution to EPF | 2,60,000 |  |\n|  | [Since employees' contribution to EPF has not been deposited on or before the due date under the PF Act, the same is not allowable as deduction as per Explanation 2 below to section 36(1)(va). Since the same has been debited to Statement of profit and loss, it has to be added back for computing business income]. |  |  |\n|  | (viiib) Employer's contribution to EPF | Nil |  |\n|  | [As per section 43B, employers' contribution to EPF is allowable as deduction since the same has been deposited on or before the due date of filing of return of income $\text{u} / \text{s} 139(1)$. Since the same has been debited to statement of profit and loss, no further adjustment is necessary] |  |  |\n|  | (ix) Donation to Swachh Bharat Kosh <br> [Donation to Swachh Bharat Kosh is not an allowable expenditure under section 37 since it is not laid out wholly or exclusively for the purposes of business or profession. Hence, the same has to be added back while computing business income.] | 2,00,000 |  |\n|  | (xi) Difference on account of interest and borrowing costs <br> [As per ICDS II, Interest and borrowing costs not meeting the criteria for recognition as component of cost shall not be included in the cost of opening and closing stock. ₹ $1,20,000[₹ 6,85,000-₹ 5,65,000]$ being the difference between closing and opening stock, has to be adjusted to remove the effect of interest and borrowing costs included in the value of stock. | 1,20,000 | 40,41,000 |\n|  |  |  | 91,16,000 |\n|  | Add: Income taxable but not credited to statement of profit and loss |  |  |\n|  | AI(i) GST not refunded to customers out of GST refund received from Government <br> [The amount of GST refunded to the company by the Government is a revenue receipt chargeable to tax. Out of the refunded amount of ₹ 5 lakhs, the amount of ₹ 3 lakh stands refunded to customers and hence, would not be chargeable to tax. The balance amount of ₹ $2,00,000$ lying with the company would be chargeable to tax] |  | 2,00,000 |\n|  |  |  | 93,16,000 |\n|  | Less: Items credited but chargeable to tax under another head/expenses allowed but not debited |  |  |\n|  | (x) Industrial power tariff concession received from Central Government <br> [Any assistance in the form of, inter alia, concession received from the Central or State Government would be treated as income as per section 2(24)(xviii). Since the same has been credited to Statement of Profit and Loss, no adjustment is required] | Nil |  |\n|  | (xii) Profits from setting of warehouse in rural area for storage of sugar [Since it is a specified business, its profits would be computed separately] | 10,00,000 |  |\n|  | AI(iv)Depreciation as per Income-tax Rules <br> [As depreciation is as per Income-tax Rules is stated as ₹14,50,000, it has been considered that it includes depreciation on Franchise. | 14,50,000 |  |\n|  | Note - If it is assumed that the figure does not include depreciation on franchise, then, depreciation of ₹ $17,50,000$ ( $₹ 14,50,000+$ ₹ $3,00,000$, being depreciation@25\\% on franchise) has to be reduced] |  | 24,50,000 |\n|  |  |  | 68,66,000 |\n|  | Less: Brought forward business loss relating to A.Y. 2023-24 [Brought forward loss relating to A.Y. 2023-24 not allowed to be set off from the profits of A.Y. 2026-27 as 51\\% or more of the shares of MPK Pharma Ltd., which is a company in which public are not substantially interested, on 31.3.2026 are not held by the same persons who held not less than 51\\% shares of the company on 31.3.2023] |  | Nil |\n|  | Profit and gains from manufacture of pharmaceutical products |  | 68,66,000 |\n|  | Profits and gains from setting of warehouse in rural area for storage of sugar |  |  |\n|  | Net profit before deduction under section 35AD | 10,00,000 |  |\n|  | Less: Deduction under section 35AD <br> $100 \\%$ deduction u/s 35AD in respect of cost of warehouse [ $₹ 35$ lakhs - ₹ 20 lakhs, being cost of land, not allowable] | 15,00,000 |  |\n|  | Loss from the specified business of setting up a warehousing facility to be carried forward as per section 73A for set-off against profits of any specified business in the subsequent year | (5,00,000) |  |\n| II | Income from Other Sources |  |  |\n|  | Consideration received in excess of FMV of shares issued (Not Taxable) |  | NIL |\n|  |  |  |  |\n|  | Gross Total Income |  | 68,66,000 |\n|  | Less: Deduction under Chapter VI-A |  |  |\n|  | Deduction $\text{u} / \text{s} 80 \text{G}$ in respect of donation to Swachh Bharat Kosh, assuming that the donation is otherwise than by way of cash |  | 2,00,000 |\n|  | Total Income |  | 66,66,000 |",
+          "chapter_number": "3",
+          "chapter_name": "PROFITS \\& GAINS FROM BUSINESS \\& PROFESSION",
+          "unique_id": "3-T-5"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "9",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Question 15 (PYP 6 Marks Jan'21)\n\nMeenakshi Urban, is a cooperative society engaged in providing credit facilities to its members for the previous year 2025-26, it provides you the following information:\n\n| Particulars | Rs. |\n| :--- | :--- |\n| Interest received from deposit with other cooperative societies | 5,47,000 |\n| Interest received from members (including Rs. 2,63,000 for personal purposes of a member) | 11,85,000 |\n| Rent Received (per month) | 36,000 |\n| Income from Agency business | 2,87,500 |\n| Interest received from deposit of idle funds of members | 2,04,000 |\n| Expenses incurred on agency business | 1,24,000 |\n| Brought forward loss from earlier years (Financial Year 2024-25) | 98,000 |\n\nCompute the total income of the co-operative society after allowing eligible deduction under section 80 P, if any, and also the tax payable thereon. Assume that it does not opt for new regime.",
+          "answer": "Computation of total income and tax payable by Meenakshi Urban, a Cooperative Society for the A.Y.\n\n2026-27\n\n| Particulars | Rs. | Rs. |\n| :--- | :--- | :--- |\n| Income from house property |  |  |\n| Rental income (Rs. $36,000 \\times 12$ ) | 4,32,000 |  |\n| Less: Deduction under section 24(a) @30\\% | 1,29,600 | 3,02,400 |\n| Profits and gains from business or profession |  |  |\n| Credit facility business |  |  |\n| Interest received from deposits with other cooperative society | 5,47,000 |  |\n| Interest received from members | 11,85,000 |  |\n| Interest received from deposit of idle funds of members [Since Meenakshi cooperative society is engaged in the business of providing credit facility to its members, the interest on un- utilised fund would be taxable under the head \"Profits and gains from business or profession\" ${ }^{9}$ ] | 2,04,000 | 19,36,000 |\n| :--- | :--- | :--- |\n| Agency business |  |  |\n| Income from agency business | 2,87,500 |  |\n| Less: Expenses incurred | 1,24,000 |  |\n|  | 1,63,500 |  |\n| Less: Brought forward loss from F.Y. 2024-25 | 98,000 | 65,500 |\n| Gross Total Income |  | 23,03,900 |\n| Less: Deduction under Chapter VI-A: Section 80P |  |  |\n| - Deduction in respect of profits and gains from credit facility business | 19,36,000 |  |\n| - Deduction in respect of agency business allowable to the extent of | 50,000 | 19,86,000 |\n| Total Income |  | 3,17,900 |\n| Computation of tax liability |  |  |\n| Tax@30\\% on Rs. 2,97,900 plus Rs. 3,000 on income upto Rs. 20,000 |  | 92,370 |\n| Add: Health and education cess@4\\% |  | 3,695 |\n| Tax liability |  | 96,065 |\n| Tax liability (rounded off) |  | 96,070 |",
+          "chapter_number": "9",
+          "chapter_name": "ASSESSMENT OF VARIOUS ENTITIES"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Question 5 (SM)\n\nAn assessee sustained a loss under the head \"Income from house property\" in the previous year relevant to the assessment year 2025-26, which could not be set off against income from any other head in that assessment year. The assessee did not furnish the return of loss within the time allowed under section 139(1) in respect of the relevant assessment year. However, the assessee filed the return within the time allowed under section 139(4). Can the assessee carry forward such loss for set off against income from house property of the assessment year 2026-27?",
+          "answer": "Section 139(3) stipulates that an assessee claiming carry forward of loss under the heads \"Profits and gains of business or profession\" or \"Capital gains\" should furnish the return of loss within the time stipulated under section 139(1). There is no reference to loss under the head \"Income from house property\" in section 139(3). The assessee, in the instant case, has filed the return showing loss from property within the time prescribed under section 139(4). The assessee is, therefore, entitled to carry forward such loss for set off against the income from house property of the subsequent assessment year.",
+          "chapter_number": "7",
+          "chapter_name": "AGGREGATION OF INCOME, SET-OFF \\& CARRY FORWARD OF LOSSES"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Mrs. Seema Aggarwal, aged 56 years, a resident individual acquired a residential house at Ayodhya on 01.04.1993 for ₹ $45,00,000$. The Fair market value of the property as on 01.04 .2001 was ₹ $1,20,00,000$ and the stamp duty value as on 01.04 .2001 was ₹ $1,02,00,000$. Mrs. Seema Aggarwal sold her residential house located at Ayodhya to Mr. Shiv Kumar on 15.10.2025 for ₹ $15,50,00,000$. The value determined by the Stamp Duty Authority on 15.10.2025 was ₹ 17,00,00,000. Mr. Shiv Kumar was handed over the possession of the property on 15.10.2025 and the registration process was completed on the same date. He paid the sale proceeds in full on the date of registration. After recovering the sale proceeds from Shiv Kumar, Mrs. Seema Aggarwal purchased one residential plot at Amritsar for ₹ 8 crores on 18.02.2026. She also deposited ₹ 3 crores in a Saving account opened with State Bank of India, Amritsar under Capital gain account scheme on 31.03 .2026 for the construction of the residential house on above plot. You are required to calculate the taxable capital gain in the hands of Mrs. Seema Aggarwal for the A.Y. 202627 as per the provisions of Income-tax Act, 1961. Cost Inflation Index for F.Y. 2001-02: 100 and 2025-26: 376.) (PYP 4 Marks May'24, MTP Apr'25,MP[5])",
+          "answer": "Computation of taxable Capital gain in the hands of Mrs. Seema Aggarwal for A.Y.2026-27\n\n| Particulars |  |\n| :--- | :--- |\n| 20\\% with Indexation Benefits |  |\n| Full value of consideration | 15,50,00,000 |\n| As per section 50 C , the full value of consideration would be actual sales consideration since the stamp duty value as on 15.10 .2025 of ₹ 17,00,00,000 does not exceed 110\\% of actual consideration of ₹15,50,00,000. |  |\n\n| Less: Indexed cost of acquisition <br> [ ₹ 1,02,00,000 (higher of actual cost of ₹ 45,00,000 and Fair market value as on 1.4.2001 of ₹ $1,20,00,000$, but restricted to stamp duty value as on 1.4 . 2001 of ₹ $1,02,00,000$ x 376/100] | 3,83,52,000 |\n| :--- | :--- |\n|  | 11,66,48,000 |\n| Less: Exemption under section 54 <br> [Purchase of one residential plot of ₹ 8 crores on 18.2.2025 and deposit of ₹ 3 crores in Capital Gain Account Scheme on 31.3.2025 (before the date of filingof return of income) provided that the construction thereon is completed within the stipulated time of three years ${ }^{2}$, but restricted to maximum of ₹10 crores] | 10,00,00,000 |\n| Taxable long term capital gains | 1,66,48,000 |\n| 12.5\\% without Indexation Benefits |  |\n| Full value of consideration | 15,50,00,000 |\n| Less: cost of acquisition | 1,02,00,000 |\n|  | 14,48,00,000 |\n| Less: Exemption under section 54 | 10,00,00,000 |\n| Taxable long term capital gains | 4,48,00,000 |\n\nHence 20\\% with Indexation Benefits is more beneficial for the Asseessee.\n\n## Note:\n\n(i) As transfer is after 23.07.2024, tax rates will be LTCG on equity shares $112 \\mathrm{~A}=12.5 \\%$\n\n(ii) When transfer takes place after 23.07.2024 Land or building or both if acquired before 23.7.2024 then the individual can choose between $12.5 \\%$ without indexation or $20 \\%$ with indexation benefit, whichever is more beneficial to the assessee.\n\nExam insights: Marks are lost when students treat net dividend as gross income - always reverse the TDS using the correct rate to find the true gross amount. Don't skip this step; it directly impacts total income for foreign companies like Miles Inc.",
+          "chapter_number": "4",
+          "chapter_name": "Capital Gains",
+          "unique_id": "4-T-2"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "10",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Examine and discuss each of the independent cases of the following Charitable Trusts registered under section 12 AB as per the relevant provisions of the Income-tax Act, 1961 for the A.Y. 2026-27:\n\n(i) Yashoda Green Charitable Trust having its main object as \"advancement of object of general public utility\" provide electrical scooter to the various corporate employees of Cyber Hub Gurugram for their daily commute. With this business activity, it generates receipts of $\\mathbf{4 5}$ lakh, which has been applied for the object of general public utility. The total receipts for the F.Y. 2025-26 of Yashoda Green Charitable Trust was Rs. 190 Lakh.\n\n(ii) 'Samarth' a Charitable Trust, a vocational training institute offers certificate courses in sewing, handloom weaving, and handicrafts. It operates a clothing shop at the entrance of the training institute. The shop derived income of Rs. 40 lakh in the F.Y. 2025-26 and the income completely applied towards the object of trust providing training. The trust maintains separate books of accounts for the shop.\n\n(iii) \"Light of Hope\" Charitable Trust having objective of providing 'clean drinking water' started its welfare activities in 2019 by providing clean water to some villages of Uttar Pradesh. In August 2025, a similar objective trust named 'Water for All' was formed by a group of people in Jharkhand. They also provide clean drinking water to villagers on a small scale. \"Light of Hope\" offers the \"Water for All\" trust to merge with them so that they can scale the benefits and share resources. However, they are concerned about the exit tax levied at the time of merger of trusts.",
+          "answer": "(i) If a trust having its main object as advancement of any other object of general public utility, derives income from an activity in the nature of trade during a financial year, it will lose its charitable status if aggregate receipts from such activity is 20\\% or more of the total receipts of the trust in that year even if it applies such income for its main object.\n\nIn the present case, receipts from the business of providing electrical scooters to various corporate employees i.e., Rs. 45 lakhs exceed 20\\% of total receipts of Rs. 190 lakhs (i.e., Rs. 38 lakhs) during the previous year 2025-26. Accordingly, Yashoda Green Charitable trust would lose its charitable status for the P.Y. 2025-26 and would not be eligible for the exemption under section 11 and 12.\n\n(ii) The trust objective of providing training falls within the meaning of \"education\" is a charitable purpose as per section $2(15)$. The trust in the given case runs a clothing shop business, whose income is applied towards the objectives of the trust. In this case, the business income from the clothing shop will be eligible to avail exemption in respect of profits and gains of business, if such business is incidental to the attainment of the objectives of the trust and separate books of account are maintained in respect of such business.\n\nTherefore, in the given case, the profit from the business shall be eligible for exemption under section 11, assuming that the said business is incidental to the attainment of the objects of the trust and books of account for such business activity is maintained separately.\n\n(iii) New section 12AC has been inserted to provide that where a trust or institution approved under section $10(23 \\mathrm{C})$ or registered under section 12 AB , as the case may be, merges with another trust or institution, the exit tax provisions contained in Chapter XII-EB i.e., exit tax would not apply if -\n\n- the other trust or institution has same or similar objects.\n\n- the other trust or institution is approved under section $10(23 \\mathrm{C})$ or registered under section 12 AB ; and\n\n- the said merger fulfils the conditions as may be prescribed.\n\nIn the present case, since the both the trust has similar objects, the exit tax under Chapter XII-EB would not be applied, assuming the both the trust are registered and fulfills the conditions as prescribed.",
+          "chapter_number": "10",
+          "chapter_name": "ASSESSMENT OF TRUSTS AND INSTITUTIONS, POLITICAL PARTIES AND OTHER SPECIAL ENTITIES"
+        },
+        {
+          "label": "b",
+          "marks": 8,
+          "internal_split": null,
+          "question": "Compute the total income and tax payable in India by Mr. Narayan, an individual resident in India, aged 25 years for the Assessment Year 2026-27 from the following information furnished by him for the year ended 31.3.2026: Mr. Narayan earned royalty income of Rs. 18 lakhs from SIP Inc. of Country X, for writing articles in journals and newspapers for the year ended 31.03 . 2026 . However, he received only $Rs. 13.60$ lakhs during the previous year 2024-25 and the balance is outstanding as on 31.03.2026. He maintains cash system of accounting for royalty income. He also earned a rental income of Rs. 3.60 lakhs (gross) from a house situated in Country X. Municipal taxes paid in respect of the house amounted to $Rs. 12,000$ which is not allowed as deduction in Country X. No DTAA exist between India and Country X. In Country X, all incomes are charged to tax @ $15 \\%$. He further earned Rs. 5.50 lakhs during the year, as dividend from M Ltd., an Indian company. On 1.04.2025, he took an educational loan from bank for his son who was pursuing MBA. Annual repayment of loan and interest amounted to Rs. $\\mathbf{1 . 4 0}$ lakhs and Rs. $\\mathbf{0 . 3 6}$ lakhs, respectively. Assume that Mr. Narayan does not opt for section 115BAC. (MTP 6 Marks Mar'22, Oct'24) (Same concepts different chapters PYP 6 Marks Jul'21)",
+          "answer": "Computation of total income of Mr. Narayan for A.Y.2026-27\n\n| Particulars | Rs. | Rs. |\n| :--- | :--- | :--- |\n| Income from House Property |  |  |\n| Rental income from property in Country X3 | 3,60,000 |  |\n| Less: Municipal taxes paid | 12,000 |  |\n|  | 3,48,000 |  |\n| Less: Deduction u/s 24(a) @30\\% | 1,04,400 | 2,43,600 |\n| Profits and gains from business or profession |  |  |\n| Royalty ${ }^{4}$ from Country X for writing article in journals [only the amount which is received during the previous year is includible, since he maintains cash system of accounting] |  | 13,60,000 |\n| Income from Other Sources |  |  |\n| Dividend from M Ltd. an Indian company |  | 5,50,000 |\n| Gross Total Income |  | 21,53,600 |\n| Less: Deduction under Chapter VI-A $\\mathrm{U} / \\mathrm{s}$ 80E - deduction in respect of interest on educational loan for his son | 36,000 |  |\n| $\\mathrm{U} / \\mathrm{s} 80 \\mathrm{QQB}-$ No deduction is allowable since royalty income is for writing articles in journals and newspapers and not for writing books |  | 36,000 |\n| Total Income |  | 21,17,600 |\n\nComputation of tax liability of Mr. Narayan for A.Y.2026-27\n\n| Particulars |  | Rs. |\n| :--- | :--- | :--- |\n| Tax on total income [30\\% of Rs. 11,17,600 + Rs. 1,12,500,] |  | 4,47,780 |\n| Add: Health and education cess @4\\% |  | 17,911 |\n| Less: Relief under section 91 - |  | 4,65,691 |\n| Average rate of tax in India [[i.e., Rs. 4,65,691/21,17,600 x 100] | 21.991\\% |  |\n| Average rate of tax in Country X | 15\\% |  |\n| Doubly Taxed income [Rental income of Rs. 2,43,600 + royalty income of Rs. 13,60,000] | 16,03,600 |  |\n| Deduction under section 91 on Rs. 16,03,600 @ 15\\%, being lower average Indian tax rate and foreign tax rate. |  | 2,40,540 |\n| Tax Payable |  | 2,25,151 |\n| Tax Payable (rounded off) |  | 2,25,150 |",
+          "chapter_number": "22",
+          "chapter_name": "DOUBLE TAXATION RELIEF",
+          "unique_id": "22-T-7"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "13",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Examine the obligation of Tax Deduction at source/Tax Collection at source in the following cases keeping in view the provisions of the Income-tax Act, applicable for Assessment Year 2026-27:\n\n(i) Mr. A and Mrs. A jointly purchased a fully built-up and ready to move flat at Lucknow on 10.12.2025 from $\text{M}/\text{s}$ XYZ Builders Limited for ₹ 86 Lacs. In addition, they have paid an amount of ₹ 4 Lacs for two car parking spaces to $\text{M}/\text{s}$ XYZ Builders Limited. They also paid one time generator cost of ₹ $2,50,000$ and swimming pool cost of ₹ $1,50,000$ to the M/s XYZ Builders Limited. The stamp duty value of the property is ₹ 75 lacs. Mr. A and Mrs. A, each paid ₹ 47 lacs to the Builder for effecting the sale deed on 10.12.2025.\n\n(ii) Gross Salary received by Mr. Pankaj, aged 42 years during the F.Y. 2025-26 from M/s PPN Limited is ₹ 37,50,000. House property loss declared by him for the financial year (along-with documentary evidence) is $₹ 2,00,000$ in respect of his self-occupied property. ₹ 60,000 is interest accrued on FDR with State Bank of India for F.Y. 2025-26 in respect of which TDS was deducted at applicable rate by the Bank. Mr. Pankaj purchased a Motor car of ₹ $32,00,000$ on 01.12.2025 for personal purposes, TCS was separately charged on the purchase price of Motor Car at applicable rate. He has no other income.\n\nMr. Pankaj has submitted relevant information to his employer M/s PPN Limited in prescribed form with supporting evidences.\n\nHe also intimated his employer his intention to exercise the option to choose default tax regime for the financial year.\n\n(iii) An Urban Cooperative Bank (engaged in the business of banking) made an FDR of ₹ 100 crores with Union Bank of India (UBI) at $\textbf{2.5\text{\textperthousand}}$ p.a. interest as per RBI guidelines for maintaining capital adequacy ratio. The said Cooperative Bank is also maintaining a current account with UBI from which, it withdrew ₹ 4 crores in cash during the financial year 2025-26. The Cooperative Bank is filing its returns of income without any default. (PYP 8 Marks Sep'25)",
+          "answer": "(i) As per section 194-IA, consideration for transfer of any immovable property include all charges in the nature of, inter alia, parking charges, generator cost and swimming pool cost.\n\nIn case of more than one transferee, consideration shall be aggregate of amount paid by all the transferees for transfer of such property.\n\nIn the present case, since aggregate value of consideration of both transferees i.e., of Mr. A and Mrs. A not less than ₹ 50 lakhs, tax is required to be deducted at source under section 194-IA @ 1\\% on ₹ 94 lakhs or 1\\% on ₹ 47 lakhs by Mr. A and 1\\% on ₹ 47 lakhs by Mrs. A since consideration of ₹ 94 lakhs is higher than stamp duty value of ₹ 75 lakhs on purchase of flat from M/s XYZ Builders Ltd.\n\n(ii) $\text{M}/\text{s}$ PPN Limited, being an employer has to deduct tax at source under section 192 from the salary of Mr. Pankaj at the time of payment by applying the average rate of income-tax computed at the rates provided in section $115 \text{BAC}(1 \text{~A})$, where an employee does not exercise an option to shift out of this tax regime. While computing the tax, the employer PPN Ltd. has to consider any other income chargeable to tax and any tax deducted at source and tax collected at source of Mr. Pankaj.\n\nComputation of tax liability of Mr. Pankaj under default tax regime\n\n| Particulars | ₹ |\n| :--- | :--- |\n| Gross Salary | 37,50,000 |\n| Less: Standard deduction under section 16(ia) | 75,000 |\n|  | 36,75,000 |\n| Interest in respect of self-occupied property [Not allowed under default tax regime] | Nil |\n|  | 36,75,000 |\n| Interest on FDR | 60,000 |\n| Total Income | 37,35,000 |\n| Tax on ₹ 37,35,000 at slab rate | 7,00,500 |\n| Add: HEC@4\\% | 28,020 |\n| Tax liability | 7,28,520 |\n| Less: TDS under section 194A @10\\% on interest on FDR of ₹ 60,000 | 6,000 |\n| TCS under section 206C(1F) @1\\% on motor car of ₹ 32 lakhs | 32,000 |\n| Tax liability | 6,90,520 |\n| $\text{M}/\text{s}$ PPN Limited has to deduct tax of ₹ $6,90,520$. |  |\n\n(iii) No deduction of tax under section 194A is to be made on interest income credited or paid to co-operative society engaged in banking business.\n\nAccordingly, Union Bank of India (UBI) is not required to deduct tax at source under section 194A on interest on FDR to Urban Co-operative Bank.\n\nLiability to deduct tax at source under section 194N shall not be applicable on payment made to co-operative society engaged in banking business. Accordingly, Union Bank of India (UBI) is also not required to deduct tax at source on cash withdrawal by Urban co-operative bank.",
+          "chapter_number": "13",
+          "chapter_name": "DEDUCTION, COLLECTION \\& RECOVERY OF TAX",
+          "unique_id": "13-T-17"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Beta Ltd. is an Indian Company in which Robert Inc. (a company incorporated in Country E), holds $30 \\%$ shareholding and voting power during the financial year 2025-26.\n\nDuring the financial year 2025-26, the Beta Ltd. supplied 700 pieces of computers to Robert Inc. @ USD 1100 per piece. The price of computer supplied to other un-related parties in Country E is @USD 1400 per piece. The Transfer Pricing Officer while determining of arm's length price of 700 pieces of computers sold to Robert Inc. adopted the price charged for computer supplied to un-related parties as Internal uncontrolled comparable transaction and proposed adjustment to total income.\n\nConsidering above facts, you are required to answer the following questions:\n\n(i) Would Beta Ltd. and Robert Inc. be treated as associate enterprises for the purpose of transfer pricing? If yes, why?\n\n(ii) What are the options available to Beta Ltd., if it accepts enhancement to total income made on account of determination of Arm's length price by the Transfer Pricing Officer? (PYP 6 Marks Sep'25)",
+          "answer": "(i) Beta Ltd., an Indian company and Robert Inc., a company incorporated in Country E are deemed to be associated enterprise as per section 92A(2), since Robert Inc. holds more than 26\\% of voting power i.e., $30 \\%$ in Beta Ltd.\n\n(ii) If Beta Ltd. accepts the enhancement to total income made on account of determination of Arm's length price by the TPO, it has to make a secondary adjustment under section 92CE if the primary adjustment exceeds Rs. 1 crore.\n\nIn the present case, the primary adjustment would be USD 2,10,000 (700 pieces of computers x USD 300 (USD 1400 - USD 1100) which exceeds Rs. 1 crore.\n\nAccordingly, the excess money i.e., USD 2,10,000 available with Robert Inc. has to be repatriated to India within 90 days of the date of the order of the Assessing Officer.\n\nIn case of non-repatriation, USD 2,10,000 would be deemed as an advance made by the Beta Ltd. to its associated enterprise, Robert Inc.\n\nInterest would be calculated on such advance at the rate of six-month LIBOR as on 30th September of the relevant previous year $+3 \\%$, since the international transaction is denominated in foreign currency.\n\nAlternatively, Beta Ltd. can opt to pay additional income-tax @ 20.9664\\% (tax @18\\% plus surcharge @12\\% plus cess@4\\%).\n\nIn such case, Beta Ltd. will not be required to make the secondary adjustment and compute interest up to the payment of tax from such date.",
+          "chapter_number": "24",
+          "chapter_name": "TRANSFER PRICING"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Examine the applicability of provisions relating to deduction/collection of tax at source in the following cases for the financial year ended 31st March, 2026 as per provisions contained in the Income-tax Act, 1961:\n\n(i) Delta Ltd., an Indian company, which was incorporated on 1.4.2025 purchases coal from Phi Ltd., another Indian company, for ₹ 75 lakhs during the P.Y.2025-26, to manufacture steel. Delta Ltd. furnishes a declaration that such coal is used to manufacture steel and not for trading. What are the TCS/TDS implications on such transaction, if Delta Ltd.'s turnover was ₹ 12 crores in the P.Y.2025-26; and Phi Ltd.'s annual turnover ranges between ₹ 16 crores and ₹ 18 crores in the last few years?\n\nWould your answer change if Delta Ltd. was incorporated on 1.4.2024 and its turnover in the P.Y.2024-25 is ₹ 10 crores?\n\n(ii) Sigma Ltd., a car manufacturer, sold the following cars to the car dealers, Epsilon Ltd. and Omega Ltd., in the P.Y.2025-26-\n\n| Dealer | Particulars of cars sold | Value |\n| :--- | :---: | :---: |\n| Epsilon Ltd. | 10 cars of the value ₹ 12 lakhs each | $₹ 120$ lakhs |\n| Omega Ltd. | 8 cars of the value of ₹ 10 lakhs each | $₹ 80$ lakhs |\n\nThe turnover in the P.Y.2024-25 of Sigma Ltd. is ₹ 12 crores, Epsilon Ltd. is ₹ 14 crores and Omega Ltd. is ₹ 9 crores.",
+          "answer": "(i) As per section $206 \\mathrm{C}(1 \\mathrm{~A})$, since Delta Ltd., a resident buyer, has furnished a declaration that coal is used for manufacturing steel and not for trading, Phi Ltd. is not required to collect tax at source under section 206C(1). However, section 194Q will apply in such cases covered under section 206C(1A) and the buyer would be liable to deduct tax under section 194Q, if the conditions specified therein are fulfilled.\n\nHowever, for the provisions of section 194Q to be attracted, a buyer is required to have total sales or gross receipts or turnover from the business carried on by it exceeding ₹ 10 crores during the financial year immediately preceding the financial year in which the purchase of goods is carried out. The CBDT has, vide Circular No. 13/2021, dated 30.6.2021, clarified that since this condition would not be satisfied in the year of incorporation, the provisions of section 194Q shall not apply in the year of incorporation. Since Delta Ltd. is incorporated in the P.Y. 2025-26, it would not qualify as a \"buyer\" for the purpose of section 194Q for the said previous year, inspite its turnover exceeding ₹ 10 crores in the current previous year.\n\nThus, the transaction would neither attract TDS u/s 194Q nor TCS u/s 206C.\n\nThe answer would not change even if Delta Ltd. was incorporated on 1.4.2024 and its turnover in the P.Y. $2024-25$ is ₹ 10 crores, since the said turnover does not exceed ₹ 10 crores.\n\n(ii) The first step is to examine the applicability of section 206C(1F). Section 206C(1F) requiring collection of tax at source@1\\% by the seller of motor car of value exceeding ₹ 10 lakhs does not, however, apply in case of sale by manufacturer to a dealer. Hence, the provisions of section 206C(1F) are not attracted in case of sale of cars by Sigma Ltd., a car manufacturer, to its dealers Epsilon Ltd. and Omega Ltd.\n\nThe second step is to examine whether the provisions of section 194 Q would be attracted in the hands of the dealers, namely, Epsilon Ltd. and Omega Ltd. Since the turnover of Epsilon Ltd. in the P.Y.2024-25 exceeds ₹ 10 crore and the value of cars purchased from Sigma Ltd. in the P.Y.2025-26 exceeds ₹ 50 lakhs, Epsilon Ltd. has to deduct tax@0.1\\% of ₹ 70 lakhs (i.e., ₹ 120 lakhs - ₹ 50 lakhs), at the time of credit to the account of Sigma Ltd. or at the time of payment, whichever is earlier. However, Omega Ltd. is not required to deduct tax at source under section 194Q, since its turnover in the P.Y.2024-25 does not exceed ₹ 10 crores.",
+          "chapter_number": "13",
+          "chapter_name": "DEDUCTION, COLLECTION & RECOVERY OF TAX",
+          "unique_id": "13-T-43"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "15",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Question 8 (MTP 4 Marks Sep'24,MP[4])\n\nXYZ Ltd. received the draft order from the Assessing Officer as per section 144C of the Income-tax Act, 1961 due to variations determined by the Transfer Pricing Officer in the arm's length price. But XYZ Ltd. did not prefer to file the objection against the draft order before the Dispute Resolution Penal, instead, he prefer to do appeal before the CIT appeals under section 246A against the final order received from the Assessing Officer. You are required to advise XYZ Ltd., whether his contentions are tenable? Discuss the issue with reference to provisions of section 144C of the Income-tax Act, 1961.",
+          "answer": "Section 144C requires the eligible assessee, XYZ Ltd., to file his objections within 30 days of the receipt of draft assessment order from the Assessing Officer with the DRP and the Assessing Officer.\n\nIf he fails to do so, the Assessing Officer will proceed to complete the assessment on the basis of the draft order.\n\nThe CBDT has clarified that the assessee has a choice whether to file an objection before the DRP against the draft assessment order or not to exercise this option and file an appeal later before CIT (Appeals) against the final assessment order passed by the Assessing Officer.\n\nTherefore, XYZ Ltd. can choose to file an appeal before Commissioner (Appeals) against the final assessment order instead of filing objection before the DRP against the draft assessment order passed by the Assessing Officer.\n\nIn case XYZ Ltd. files objection before the DRP, then, he has the right to appeal to Appellate Tribunal, if he is aggrieved by the final order passed by the Assessing Officer in pursuance of the directions of the DRP.",
+          "chapter_number": "15",
+          "chapter_name": "ASSESSMENT PROCEDURE"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "The application of tax treaty may result into double taxation for the taxpayers. In the light of the statement, answer the following questions- i. What are the approaches for the elimination of double taxation under Model Conventions? Explain. ii. Explain the meaning of Juridical Double Taxation and Economic Double Taxation. iii. Can the problems of Economic Double Taxation be solved by the above approaches? Explain. (MTP 6 Marks Oct'22, PYP 6 Marks Jul'21)",
+          "answer": "The Model Conventions specify two approaches -\n\n- Exemption method [Article 23A]; and\n- Credit method [Article 23B]\n\nUnder the exemption method, tax exemption may be available in the Residence State. Under the credit method, tax credit may be available in the Residence State for taxes deducted in the Source State. These methods are not mutually exclusive and there may be cases where a treaty may adopt exemption method for certain types of income and credit method for other incomes.\n\na. \"Juridical double taxation\" arises when the same income or capital is taxable in the hands of the same person by more than one State.\n\n'Economic double taxation' happens when the same item of income or capital is taxed in more than one States in hands of different persons.\n\nb. Under Model Conventions, double taxation referred, is juridical double taxation, meaning the same income or capital is taxable in the hands of the same person by more than one State. It does not thus, encompass situations of economic double taxation, i.e., where two different persons are taxable in respect of the same income or capital. If two States wish to solve problems of economic double taxation, they must do so through bilateral negotiations.",
+          "chapter_number": "27",
+          "chapter_name": "OVERVIEW OF MODEL TAX CONVENTIONS",
+          "unique_id": "27-T-8"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Briefly explain the purpose of the Multilateral Instrument (MLI) under the BEPS Project. How does it help in modifying existing bilateral tax treaties? (MTP 3 Marks Jul'25)",
+          "answer": "The Multilateral Instrument (MLI) was developed under Action 15 of the OECD-G20 BEPS Project to address Base Erosion and Profit Shifting (BEPS) by modifying existing bilateral tax treaties in a synchronized and efficient manner. Its primary purpose is to implement treaty-related anti-abuse measures-such as preventing treaty shopping, artificial avoidance of permanent establishment (PE), and hybrid mismatch arrangements-without the need for renegotiating each treaty separately.\n\nThe MLI applies to Covered Tax Agreements (CTAs), which are bilateral treaties notified by both parties. It does not replace existing treaties but modifies their application using the lex posterior (later in time) principle, meaning the newer rule prevails. This allows consistent implementation of BEPS measures across multiple treaties while respecting each country's policy choices through options, alternatives, and reservations.",
+          "chapter_number": "25",
+          "chapter_name": "FUNDAMENTALS OF BASE EROSION AND PROFIT SHIFTING",
+          "or_question": {
+            "question": "Briefly describe Indicators of BEPS activity recommended under action plan 11 of Base Erosion and Profit Shifting (BEPS). (PYP 3 Marks Sep'25)",
+            "answer": "Under Action Plan 11, there are six indicators of BEPS activity which are described below:\n\n(1) The profit rates of MNE affiliates located in lower-tax countries are higher than their group's average worldwide profit rate.\n\n(2) The effective tax rates paid by large MNE entities are estimated to be lower than similar enterprises with only domestic operations.\n\n(3) Foreign direct investment (FDI) is increasingly concentrated.\n\n(4) The separation of taxable profits from the location of the value creating activity is particularly clear with respect to intangible assets, and the phenomenon has grown rapidly.\n\n(5) Royalties received by entities located in these low-tax countries accounted for $3 \\%$ of total royalties.\n\n(6) Debt from both related and third-parties is more concentrated in MNE affiliates in higher statutory tax-rate countries.\n\nExam insights: Instead of specifying the advantages of BEPS Action Plan 13, many examinees merely explained the three-tier documentation structure."
+          }
+        }
+      ]
+    },
+    {
+      "q_main": 6,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "20",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "## Question 1 (SM & MTP 4 Marks Oct'24)\n\nABC Ltd. is engaged in transportation of building material and transportation of goods to contractors. It made payment for hiring dumpers for this purpose. The company has not deducted tax at source on the ground that since the payment was for transportation of goods and not renting out machinery and equipment, such payments could not be termed as rent paid for use of machinery under section 194-I and hence, no tax was deductible at source.\n\nThe tax auditor is, however, of the view that the transactions being in the nature of contracts for shifting of goods from one place to another would be covered under works contracts, thereby attracting the provisions of section 194C. He relied upon the Gujarat High Court ruling in CIT (TDS) v. Shree Mahalaxmi Transport Co. (2011) 339 ITR 484.\n\nWhat is the reporting responsibility of the tax auditor in such a case and the consequent ethical implications? Examine.",
+          "answer": "In clause 34(a) of Form 3CD, the tax auditor is required to report whether the assessee is required to deduct or collect tax as per the provisions of Chapter XVII-B or Chapter XVII-BB, and if yes, to furnish the details mentioned thereunder. While answering the issue of applicability of the provisions of Chapter XVII-B and/or XVII-BB, a number of debatable issues may arise before the assessee as well as the tax auditor. The tax auditor may have a difference of opinion with regard to the applicability of the provisions of TDS/TCS on a particular payment. In such a case, the tax auditor has to report the difference of opinion appropriately as an observation in para 3 of Form 3CA. This requirement is contained in the Guidance Note on Tax Audit.\n\nAlso, in clause 21(b)(ii) of Form 3CD, the amount inadmissible under section 40(a)(ia) has to be mentioned. In case the tax auditor does not comply with the reporting requirements under these clauses and fails to mention the difference of opinion appropriately as an observation in para 3 of Form 3CA, clause (7) of Part I of the Second Schedule to the Chartered Accountants Act, 1949 for not exercising due diligence may be invoked.",
+          "chapter_number": "20",
+          "chapter_name": "TAX AUDIT AND ETHICAL COMPLIANCES"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "What would be the penalty leviable under section 270A in case of the following assessees, if none of the additions or disallowances made in the assessment or reassessment qualify under section 270A(6) and the under-reported income is not on account of misreporting?\n\n|  | Particulars of total income of A.Y.2026-27 | M/s. Alpha, a resident firm | Beta Ltd., an Indian company |\n| :--- | :--- | :--- | :--- |\n|  |  | ₹ | ₹ |\n| (1) | As per the return of income furnished | 35,00,000 | (12,00,000) |\n| (2) | Determined under section 143(1)(a) | 45,00,000 | (6,00,000) |\n| (3) | Assessed under section 143(3) | 62,00,000 | (2,00,000) |\n| (4) | Reassessed under section 147 | 81,00,000 | 6,00,000 |\n\nNote - Beta Ltd. is a trading company. The total turnover of Beta Ltd. for the P.Y.2023-24 was ₹ 401 crore and the company has not exercised option under section 115BAA.",
+          "answer": "Penalty leviable under section 270A in case of M/s. Alpha, a resident firm M/s. Alpha is deemed to have underreported its income since:\n\n(1) its income assessed under 143(3) exceeds its income determined in a return processed under section 143(1)(a); and\n\n(2) the income reassessed under section 147 exceeds the income assessed under section 143(3).\n\nTherefore, penalty is leviable under section 270A for under-reporting of income.\n\nComputation of penalty leviable under section 270A\n\n| Particulars | ₹ | ₹ |\n| :--- | :--- | :--- |\n| Assessment under section 143(3) |  |  |\n| Under-reported income: |  |  |\n| Total income assessed under section 143(3) | 62,00,000 |  |\n| (-) Total income determined u/s 143(1)(a) | 45,00,000 |  |\n|  | 17,00,000 |  |\n| Tax payable on under-reported income: |  |  |\n| Tax on under-reported income of ₹ 17 lakhs plus total income of ₹ 45 lakhs determined u/s 143(1)(a) [30\\% of ₹ 62 lakh + HEC@4\\%] | 19,34,400 |  |\n| Less: Tax on total income determined u/s 143(1)(a) [30\\% of ₹ 45 lakh + HEC@4\\%] | 14,04,000 |  |\n|  | 5,30,400 |  |\n| Penalty leviable@50\\% of tax payable |  | 2,65,200 |\n| Reassessment under section 147 |  |  |\n| Under-reported income: |  |  |\n| Total income reassessed under section 147 | 81,00,000 |  |\n| (-) Total income assessed under section 143(3) | 62,00,000 |  |\n|  | 19,00,000 |  |\n| Tax payable on under-reported income |  |  |\n| Tax on under-reported income of ₹ 19 lakhs plus total income of ₹ 62 lakhs assessed u/s 143(3) [30\\% of ₹ 81 lakh + HEC@4\\%] | 25,27,200 |  |\n| Less: Tax on total income assessed u/s 143(3) [30\\% of ₹ 62 lakh + HEC@4\\%] | 19,34,400 |  |\n|  | 5,92,800 |  |\n| Penalty leviable@50\\% of tax payable |  | 2,96,400 |\n\n\n\nPenalty leviable under section 270A in the case of Beta Ltd., an Indian company\n\nBeta Ltd. is deemed to have under-reported its income since:\n\n(1) the assessment under $143(3)$ has the effect of reducing the loss determined in a return processed under section 143(1)(a); and\n\n(2) the reassessment under section 147 has the effect of converting the loss assessed under section 143(3) into income. Therefore, penalty is leviable under section 270A for under-reporting of income.\n\nComputation of penalty leviable under section 270A\n\n| Particulars | ₹ | ₹ |\n| :--- | :--- | :--- |\n| Assessment under section 143(3) |  |  |\n| Under-reported income: |  |  |\n| Loss assessed u/s 143(3) | (2,00,000) |  |\n| (-) Loss determined under section 143(1)(a) | (6,00,000) |  |\n|  | 4,00,000 |  |\n| Tax payable on under-reported income@30\\% | 1,20,000 |  |\n| Add: HEC@4\\% | 4,800 |  |\n|  | 1,24,800 |  |\n| Penalty leviable@50\\% of tax payable |  | 62,400 |\n| Reassessment under section 147 |  |  |\n| Under-reported income: |  |  |\n| Total income reassessed under section 147 | 6,00,000 |  |\n| (-) Loss assessed under section 143(3) | (2,00,000) |  |\n|  | 8,00,000 |  |\n| :--- | :--- | :--- |\n| Tax payable on under-reported income@30\\% | 2,40,000 |  |\n| Add: HEC@4\\% | 9,600 |  |\n|  | 2,49,600 |  |\n| Penalty leviable@50\\% of tax payable |  | 1,24,800 |\n\nNote - The applicable rate of tax for Beta Ltd., a trading company, for A.Y.2026-27 is 30\\%, since its turnover for the P.Y.2023-24 exceeded ₹ 400 crores.",
+          "chapter_number": "19",
+          "chapter_name": "PROVISIONS TO COUNTERACT UNETHICAL TAX",
+          "unique_id": "19-T-21"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "## Question 9 (MTP 4 Marks Jul'25)\n\nM/s GreenTech Innovations Pvt. Ltd., a resident Indian company, is planning to enter into a collaboration with a German firm for technology licensing. To understand the taxability of royalty payments under the India-Germany DTAA, it files an application for Advance Ruling before the Board for Advance Rulings in April 2026. However, it is later revealed that M/s GreenTech Innocations Pvt. Ltd. had already submitted a detailed note on the same transaction to its Assessing Officer in March 2026 as part of a suo moto disclosure during scrutiny proceedings for A.Y. 2025-26. The AO had not yet issued any order but had acknowledged the issue for further verification.\n\n1. In light of Section 245R(2) of the Income-tax Act, 1961, will the application for advance ruling filed by M/s GreenTech Innovations Pvt. Ltd. be allowed?\n\n2. What is the remedy available to an applicant who is aggrieved by the ruling of Board for Advance Rulings?",
+          "answer": "1. As per Section 245R, a resident assessee cannot pursue both the remedies, i.e., an appeal or revision before Income-tax Authority/Appellate Authority as well as an application for Advance Ruling to Board for Advance Rulings, in respect of an issue. The Board shall not allow an application where the question raised in the application is already pending before any income-tax authority, or Appellate Tribunal or any court.\n\n2. The applicant who is aggrieved by any ruling pronounced or order passed by the Board for Advance Rulings may appeal to the High Court against such ruling or order of the Board of Advance Rulings within 60 days from the date of communication of that ruling or order.",
+          "chapter_number": "23",
+          "chapter_name": "ADVANCE RULING"
+        }
+      ]
+    }
+  ]
+}

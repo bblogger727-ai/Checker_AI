@@ -1,0 +1,101 @@
+[
+  {
+    "q_num": 1,
+    "marks": 6,
+    "question": "Mohan, Sohan and Rohan are partners in the firm M/s Mosoro & Company. They admitted Bohan as nominal partner and on agreement between all the partners, Bohan is not entitled to share profit in the firm. After some time, a creditor Karan filed a suit to Bohan for recovery of his debt. Bohan denied for same as he is just a nominal partner and he is not liable for the debts of the firm and Karan should claim his dues from the other partners. Taking into account the provisions of the Indian Partnership Act, 1932 (a) Whether Bohan is liable for the dues of Karan against the firm. (b) In case, Karan has filed the suit against firm, whether Bohan would be liable?",
+    "answer": "Nominal Partner is a partner only in name. The person\u2019s name is used as if he were a partner of the firm, though actually he is not. He is not entitled to share the profits of the firm but is liable for all acts of the firm as if he were a real partner. A nominal partner must give public notice of his retirement and his insanity is not a ground for dissolving the firm.\nIn the instant case, Bohan was admitted as nominal partner in the firm. A creditor of the firm, Karan has claimed his dues from Bohan as he is the partner in the firm. Bohan has denied for the claim by replying that he is merely a nominal partner.\n(a) Bohan is a nominal partner. Even he is not entitled to share the profits of the firm but is liable for all acts of the firm as if he were a real partner. Therefore, he is liable to Karan like other partners.\n(b) In case, Karan has filed the suit against firm, answer would remain same.",
+    "chapter": "GENERAL NATURE OF PARTNERSHIP",
+    "chapter_number": "4.1",
+    "unique_id": "CH4_1-A-Q14"
+  },
+  {
+    "q_num": 2,
+    "marks": 6,
+    "question": "Explain the incorporation by registration of a Limited Liability Partnership and its essential elements under the LLP Act, 2008.",
+    "answer": "Incorporation by registration (Section 12 of LLP Act, 2008):\n(1) When the requirements imposed by clauses (b) and (c) of sub-section (1) of section 11 have been complied with, the Registrar shall retain the incorporation document and, unless the requirement imposed by clause (a) of that sub-section has not been complied with, he shall, within a period of 14 days\u2014\n(a) register the incorporation document; and\n(b) give a certificate that the LLP is incorporated by the name specified therein.\n(2) The Registrar may accept the statement delivered under clause (c) of sub-section (1) of section 11 as sufficient evidence that the requirement imposed by clause (a) of that sub-section has been complied with.\n(3) The certificate issued under clause (b) of sub-section (1) shall be signed by the Registrar and authenticated by his official seal.\n(4) The certificate shall be conclusive evidence that the LLP is incorporated by the name specified therein.",
+    "chapter": "THE LIMITED LIABILITY PARTNERSHIP ACT, 2008",
+    "chapter_number": "5",
+    "unique_id": "CH5-A-Q15"
+  },
+  {
+    "q_num": 3,
+    "marks": 7,
+    "question": "M owes money to N. Therefore, he makes a promissory note for the amount in favor of N, for safety of transmission he cuts the note in half and posts one half to N. He then changes his mind and calls upon N to return the half of the note which he had sent. N requires M to send the other half of the promissory note. Decide how rights of the parties are to be adjusted.",
+    "answer": "Answer 13  The question arising in this problem is whether the making of promissory note is complete when one half of the note was delivered to N. Under Section 46 of the N.I. Act, 1881, the making of a Promissory Note (P/N) is completed by delivery, actual or constructive. Delivery refers to the whole of the instrument and not merely a part of it. Delivery of half instrument cannot be treated as constructive delivery of the whole. So, the claim of N to have the other half of the P/N sent to him is not maintainable.  M is justified in demanding the return of the first half sent by him. He can change his mind and refuse to send the other half of the P/N.",
+    "chapter": "THE NEGOTIABLE INSTRUMENTS ACT, 1881",
+    "chapter_number": "7",
+    "unique_id": "CH7-A-Q13"
+  },
+  {
+    "q_num": 4,
+    "marks": 6,
+    "question": "Mr. Raj formed a company with a capital of \u20b9 5,00,000. He sold his business to another company for \u20b9 4,00,000. For the payment of sale, he accepted shares worth \u20b9 3,00,000 (30,000 shares of \u20b910 each). The balance 1,00,000 was considered as loan and Mr. Raj secured the amount by issue of debentures. His wife and three daughters took one share each. Owing to strike the company was wound up. The assets of the company were valued at \u20b9 60,000. The debts due to unsecured creditors were \u20b9 80,000. Mr. Raj retained the entire sum of \u20b9 60,000 as part payment of loan. To this, the other creditors objected. Their contention was that a man could not own any money to himself, and the entire sum of \u20b9 60,000 should be paid to them. Examine the rights of Mr. Raj and other creditors. Who will succeed?",
+    "answer": "Separate Legal Entity: Corporate Veil refers to a legal concept whereby the company is identified separately from the members of the company. The term Corporate Veil refers to the concept that members of a company are shielded from liability connected to the company\u2019s actions. If the company incurs any debts or contravenes any laws, the corporate veil concept implies that members should not be liable for those errors. Thus, the shareholders are protected from the acts of the company. The leading case law of Salomon Vs Salomon and Co. Limited, laid the foundation of concept of corporate veil or independent corporate personality. A company is a person distinct and separate from its members. Based on the above discussion and provisions, Mr. Raj was entitled to the assets of the company as he was a secured creditor of the company and the contention of the creditors that Mr. Raj and the company are one and same person is wrong.",
+    "chapter": "THE COMPANIES ACT, 2013",
+    "chapter_number": "6",
+    "unique_id": "CH6-A-Q12"
+  },
+  {
+    "q_num": 5,
+    "marks": 7,
+    "question": "Sate giving reasons whether the following are partnerships as per the provisions under the Indian Partnership Act,1932. (i) X, Y, and Z agree to divide the profits equally, but the loss, if any, is to be borne by X alone. Is it case of partnership? (ii) X, a publisher, agrees to publish a book at his own expense written by Y and to pay Y, half of the net profit. Does this create a relationship of partnership between X and Y? Is liable to a paper dealer for paper supplied to X to print Y's book? (iii) A and B purchase a tea shop and incur additional expenses for purchasing utensils etc, each contributing half of the total expense. The shop is leased out on daily rent which is divided between both. Does this arrangement constitute a partnership between A and B?",
+    "answer": "No, it is not a case of partnership Reason: Persons who share amongst themselves the rent derived from a piece of land are not partners, rather they are co-owners. Because, neither there is existence of business, nor mutual agency is there. (i) As per Section 4 of the Indian Partnership Act, 1932, \"Partnership\" is the relation between persons who have agreed to share the profits of a business carried on by all or any of them acting for all. Yes, it is a case of partnership Reason: The sharing of profits is an essential feature of partnership. There can be no partnership where only one of the partners is entitled to the whole of the profits of the business. Partners must agree to share the profits in any manner they choose. But an agreement to share losses is not an essential requirement. It is open to one or more partners to agree to share all the losses. (ii) No, it is not a case of partnership Reason: Sharing of profit, which is a prima facie evidence, exists but mutual agency among X and Y, which is an essential element, does not exist here. Since there is no partnership, the third party i.e. paper dealer cannot make X liable for the paper supplied by him to X. (iii) No, it is not a case of partnership Reason: Persons who share amongst themselves the rent derived from a piece of land are not partners, rather they are co-owners. Because, neither there is existence of business, nor mutual agency is there.",
+    "chapter": "GENERAL NATURE OF PARTNERSHIP",
+    "chapter_number": "4.1",
+    "unique_id": "CH4_1-A-Q3"
+  },
+  {
+    "q_num": 6,
+    "marks": 6,
+    "question": "Explain the Small Limited Liability Partnership under the LLP Act, 2008.",
+    "answer": "Small Limited Liability Partnership [Section 2(ta) of the LLP Act, 2008]: It means a limited liability partnership\u2014 (i) the contribution of which, does not exceed twenty-five lakh rupees or such higher amount, not exceeding five crore rupees, as may be prescribed; and (ii) the turnover of which, as per the Statement of Accounts and Solvency for the immediately preceding financial year, does not exceed forty lakh rupees or such higher amount, not exceeding fifty crore rupees, as may be prescribed; or (iii) which meets such other requirements as may be prescribed, and fulfills such terms and conditions as may be prescribed.",
+    "chapter": "THE LIMITED LIABILITY PARTNERSHIP ACT, 2008",
+    "chapter_number": "5",
+    "unique_id": "CH5-A-Q2"
+  },
+  {
+    "q_num": 7,
+    "marks": 4,
+    "question": "After incorporation of Unique Private Limited (the company) on 15th May, 2024 the share certificates were issued to Arnav, Sohail and Suman being subscribers to the Memorandum of Association of the company without affixing the common seal thereon and under the signature of Arnav and Sohail, the directors of the company. The company has yet to appoint a company secretary. An objection raised by Suman, a director, about the validity of the share certificate signed by other two directors, Arnav and Sohail, clarified that since the company has opted not to have the common seal for the company the share certificates (i.e. the document) signed by two directors are valid. Referring to the provisions of the Companies Act, 2013, examine the correctness of the objection raised by one of the directors and in response, the clarification offered by other directors. Would your answer be different, if the company had a company secretary?",
+    "answer": "The documents which need to be authenticated by a common seal will be required to be so done, only if the company opts to have a common seal. In case a company does not have a common seal, the authorization shall be made by two directors or by a director and the Company Secretary, wherever the company has appointed a Company Secretary. In the instant case, the objection of Suman is not valid as the share certificate was signed by two directors Arnav and Sohail as the company secretary was not appointed. If the company had a company secretary, then the share certificate has to be signed by a director and the Company secretary. Hence, yes, the answer will be different.",
+    "chapter": "THE COMPANIES ACT, 2013",
+    "chapter_number": "6",
+    "unique_id": "CH6-A-Q3"
+  },
+  {
+    "q_num": 8,
+    "marks": 7,
+    "question": "Moni and Tony were partners in the firm M/s MOTO & Company. They admitted Sony as partner in the firm and he is actively engaged in day-to-day activities of the firm. There is a tradition in the firm that all active partners will get a monthly remuneration of \u20b9 20,000 but no express agreement was there. After admission of Sony in the firm, Moni and Tony continued getting salary from the firm but no salary was given to Sony from the firm. Sony claimed his remuneration but denied by existing partners by saying that there was no express agreement for that. Whether under the Indian Partnership Act, 1932, Sony can claim remuneration from the firm?",
+    "answer": "By virtue of provisions of Section 13(a) of the Indian Partnership Act, 1932 a partner is not entitled to receive remuneration for taking part in the conduct of the business. But this rule can always be varied by an express agreement, or by a course of dealings, in which event the partner will be entitled to remuneration. Thus, a partner can claim remuneration even in the absence of a contract, when such remuneration is payable under the continued usage of the firm. In other words, where it is customary to pay remuneration to a partner for conducting the business of the firm, he can claim it even in the absence of a contract for the payment of the same.\nIn the given problem, existing partners are getting regularly a monthly remuneration from firm customarily being working partners of the firm. As Sony also admitted as working partner of the firm, he is entitled to get remuneration like other partners.",
+    "chapter": "RELATIONS OF PARTNERS",
+    "chapter_number": "4.2",
+    "unique_id": "CH4_2-A-Q3"
+  },
+  {
+    "q_num": 9,
+    "marks": 5,
+    "question": "Who are the individuals which shall not be capable of becoming a partner of a Limited Liability Partnership?",
+    "answer": "Partners (Section 5 of Limited Liability Partnership Act, 2008): Any individual or body corporate may be a partner in a LLP. However, an individual shall not be capable of becoming a partner of a LLP, if\u2014 (a) he has been found to be of unsound mind by a Court of competent jurisdiction and the finding is in force; (b) he is an undischarged insolvent; or (c) he has applied to be adjudicated as an insolvent and his application is pending.",
+    "chapter": "THE LIMITED LIABILITY PARTNERSHIP ACT, 2008",
+    "chapter_number": "5",
+    "unique_id": "CH5-A-Q4"
+  },
+  {
+    "q_num": 10,
+    "marks": 5,
+    "question": "Examine the following whether they are correct or incorrect along with reasons: A company being an artificial person cannot own property and cannot sue or be sued.",
+    "answer": "A company being an artificial person cannot own property and cannot sue or be sued\nIncorrect: A company is an artificial person as it is created by a process other than natural birth. It is legal or judicial as it is created by law. It is a person since it is clothed with all the rights of an individual. Further, the company being a separate legal entity can own property, have banking account, raise loans, incur liabilities and enter into contracts. Even members can contract with company, acquire right against it or incur liability to it. It can sue and be sued in its own name. It can do everything which any natural person can do except be sent to jail, take an oath, marry or practice a learned profession. Hence, it is a legal person in its own sense.",
+    "chapter": "THE COMPANIES ACT, 2013",
+    "chapter_number": "6",
+    "unique_id": "CH6-A-Q1"
+  },
+  {
+    "q_num": 11,
+    "marks": 6,
+    "question": "State the Difference between promissory note and bill of exchange.",
+    "answer": "Difference between promissory note and bill of exchange: S. No.  Basis                     Promissory Note                               Bill of Exchange 1.      Definition            \"A Promissory Note\" is an instrument         \"A bill of exchange\" is an instrument in writing (not being a banknote or         in writing containing an unconditional order, signed by the maker, directing a certain person to pay a certain sum of money only to, or to the order of, a certain person or to the bearer of the instrument. 2.      Nature of            In a promissory note, there is a            In a bill of exchange, there is an Instrument           promise to pay money.                       order for making payment. 3.      Parties               In a promissory note, there are only 2    In a bill of exchange, there are 3 parties namely:                             parties which are as under:                               i.  the maker and                           i.  the drawer                               ii. the payee                               ii. the drawee                               iii. the payee 4.      Acceptance           A promissory note does not require        A bill of exchange needs acceptance from the drawee.                               any acceptance, as it is signed by       the person who is liable to pay. 5.      Payable to bearer    A promissory note cannot be made        On the other hand, a bill of exchange can be drawn payable to bearer. However, it cannot be payable to bearer on demand.",
+    "chapter": "THE NEGOTIABLE INSTRUMENTS ACT, 1881",
+    "chapter_number": "7",
+    "unique_id": "CH7-A-Q5"
+  }
+]

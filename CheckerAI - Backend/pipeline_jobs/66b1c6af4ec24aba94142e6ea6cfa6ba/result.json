@@ -1,0 +1,14 @@
+{
+  "stage": "completed",
+  "message": "Pipeline completed in 289.4s",
+  "error": null,
+  "ts": 1784268403.3745651,
+  "checked_copy_pdf": "/Users/gaureshmantri/Desktop/CheckerAI/CheckerAI - Backend/pipeline_jobs/66b1c6af4ec24aba94142e6ea6cfa6ba/checked_copy.pdf",
+  "grading_report_pdf": "/Users/gaureshmantri/Desktop/CheckerAI/CheckerAI - Backend/pipeline_jobs/66b1c6af4ec24aba94142e6ea6cfa6ba/grading_report.pdf",
+  "grading_json": "/Users/gaureshmantri/Desktop/CheckerAI/CheckerAI - Backend/pipeline_jobs/66b1c6af4ec24aba94142e6ea6cfa6ba/grading_final.json",
+  "total_marks_obtained": 30.5,
+  "total_marks_possible": 50.0,
+  "percentage": 61.0,
+  "grade": "A",
+  "scoring_rule": "Portionwise Test: All questions counted. Total /50.0."
+}

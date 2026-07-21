@@ -1,0 +1,156 @@
+{
+  "paper_meta": {
+    "subject_code": "TAX",
+    "subject_name": "Taxation",
+    "paper_num": "Portionwise_1",
+    "total_marks_printed": 50,
+    "total_marks_in_paper": 50,
+    "section_a_marks": 0,
+    "section_b_marks": 50,
+    "two_section_format": false,
+    "note": "Portionwise Test: Attempt all 5 questions. Each question carries 10 marks (6 + 4 split).",
+    "blacklisted_from": [],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)"
+    ]
+  },
+  "SectionA": {
+    "MCQ": {}
+  },
+  "SectionB": {
+    "Q1": {
+      "Q1a": {
+        "question": "Determine the time of supply in the following cases: (i) GPT & Co. carried out service of cleaning and repairs of tanks in an apartment complex, for which the Apartment Owners' Association showed a payment in cash on 4th April to them against work of this description. The dates of the work are not clear from the records of GPT & Co. GPT & Co. have not issued invoice or entered the payment in its books of account. (ii) Gas is supplied by a pipeline to the recipient. The supply is to be made for a period of one year. Monthly payments are to be made by the recipient as per the contract. The Payments of Rs. 2 lakh made in each month were made on July 5, August 5 and September 5 respectively. (MTP 5 Marks Apr'25)",
+        "model_answer": "(i) Section 13(2) of the CGST Act, 2017 stipulates that the time of supply of services shall be the earliest of the following dates, namely:- (a) the date of issue of invoice by the supplier, if the invoice is issued within the period prescribed under section 31 or the date of receipt of payment, whichever is earlier; or (b) the date of provision of service, if the invoice is not issued within the period prescribed under section 31 or the date of receipt of payment, whichever is earlier; or (c) the date on which the recipient shows the receipt of services in his books of account, in a case where above two cases do not apply. In this case, neither the invoice has been issued nor the date of provision of service is available. The date of receipt of payment in the books of the supplier is also not available. Therefore, the time of supply will be the date on which the recipient of service shows receipt of the service in his books of account. Thus, time of supply will be 4th April, the date on which the Apartment Owners' Association records the receipt of service in its books of account. (ii) As per Notification No. 66/2017 CT dated 15.11.2017, a registered person (excluding composition supplier and registered persons making supply of specified actionable claims) has to pay GST on the outward supply of goods at the time of supply as specified in section 12(2)(a) of the CGST Act, 2017, i.e. date of issue of invoice or the last date on which invoice ought to have been issued in terms of section 31 of the CGST Act, 2017. As per section $31(4)$ of the CGST Act, 2017, in case of continuous supply of goods, where successive statements of accounts or successive payments are involved, the invoice is issued before or at the time of each such statement is issued or, as the case may be, each such payment is received. Therefore, invoices should be issued for Rs. 2 lakh each on or before July 5, August 5 and September 5, when monthly payments of Rs. 2 lakh are received. Thus, assuming that the invoice is issued on July 5, August 5 and September 5, the time of supply for the purpose of payment of tax will be July 5, August 5 and September 5 respectively for goods valued at Rs. 2 lakh each.",
+        "marks": 6,
+        "question_number": "Q1a",
+        "chapter_number": "16",
+        "chapter_name": "TIME OF SUPPLY",
+        "student_answer": "15-7-26                                GST-TEST 1                          Page No.  1\n                                                                                Date 15  7  26\n\n                              [Question 1 (a)]\n\n(i) As per Section 13, the time of supply of services\n    is under forward charge is:\n\n  * Date of issue of invoice or date of receipt\n    of payment whichever is earlier, if the\n    invoice was issued within 30 days from date of\n    supply of service\n\n                                    or\n\n  * Date of provision of service or date of receipt\n    of payment whichever is earlier, if the\n    invoice was not issued within 30 days from\n    date of supply of service.\n\nIn this case, provisions of Section 13 will not\napply since GPT & Co has not issued an\ninvoice or entered payment in its books of\naccounts. The date of supply of service is also\nnot available. Therefore time of supply will be\ndate on which recipient of service shows the\npayment in his books of accounts.\n\nTherefore time of supply will be 4th April, date\non which Apartment Owners' Association showed\npayment in their books of accounts\n\n(ii) As per Section 12, time of supply of a registered\nperson making outward supply of goods\nis:\n\n* Date of issue of invoice or\n* Date on which invoice ought to be\nhave been issued.\n\nIn the case of continious supply of goods,\nwhere successive statements of accounts or\nsuccessive payments are made, the time of\nsupply will be the date of issue of\ninvoice or for each statement of accounts\nor for each such successive payments.\nIn this case\ninvoice will be issued on date of\npayments of Rs 2 lakhs made on July 5,\nAugust 5 & September 5.\n\nTherefore time of supply will be July 5th,\nAugust 5th & September 5th respectively.",
+        "answer_pages": [
+          1,
+          2
+        ]
+      },
+      "Q1b": {
+        "question": "Mr. Sky is engaged in the business of trading of mobiles. He is eligible for composition scheme and has opted for the same. He seeks your advice for records which are not required to be maintained by him as composition taxable person. (PYP, 4 marks)",
+        "model_answer": "A supplier who has opted for composition scheme is not required to maintain records relating to;\n\n(a) Stock of goods: Accounts of stock in respect of goods received and supplied by him, and such accounts shall contain particulars of the opening balance, receipt, supply, goods lost stolen, destroyed, written off or disposed of by way of gift or free sample and the balance of stock including raw materials, finished goods, scrap and wastage thereof.\n\n(b) Details of tax: Account, containing the details of tax payable (including tax payable under reverse charge), tax collected and paid, input tax, input tax credit claimed, together with a register of tax invoice, credit notes, debit notes, delivery challan issued or received during any tax period.\n\nThus, Mr. Sky is not required to maintain above mentioned records.",
+        "marks": 4,
+        "question_number": "Q1b",
+        "chapter_number": "21",
+        "chapter_name": "ACCOUNTS AND RECORDS",
+        "student_answer": "[Question 1(b)]\n↑\nFollowing records are not required to be\nmaintained by Ms Sky as composition taxable\nperson:\n\n(i) Stock of goods\n\n* Accounts of stock of goods received &\n   supplied by him\n* Accounts will include a opening balance,\n  supply, receipt, goods lost or stolen, disposed\n  of by way of gift or free samples, destroyed,\n  written off etc and closing balance of stock\n  which includes raw material, work in progress &\n  finished goods.\n\n(ii) Details of tax\n  * Accounts, containing details of tax payable\n   (including payable under reverse charge)\n   tax paid, tax collected, input tax credit\n   available, input tax credit availed. It will\n   also include a register of tax invoices, debit\n   notes & credit notes, delivery challan etc.",
+        "answer_pages": [
+          2,
+          3
+        ]
+      }
+    },
+    "Q2": {
+      "Q2a": {
+        "question": "Satya Sai Residents Welfare Association, a registered person under GST has 30 members each paying ₹ 8,000 as maintenance charges per month for sourcing of goods and services from third persons for common use of its members. The Association purchased a water pump for ₹ 59,000 (inclusive of GST of ₹ 9,000) and availed input services for ₹ 23,600 (inclusive of GST of ₹ 3,600) for common use of its members during February, 20XX. Compute the total GST payable, if any, by Satya Sai Residents Welfare Association, for February, 20XX. GST rate is 18%. All transactions are intra-state. There is no opening ITC and all conditions for ITC are fulfilled.",
+        "model_answer": "Computation of total GST payable by Satya Sai Residents Welfare Association for February, 20XX:-\n\n| Particulars | Value (₹) | GST @ 18% |\n|-------------|-----------|-----------|\n| Maintenance charges received [₹ 8,000×30 members] [Refer Note](It is logically presumed that maintenance charges are exclusive of GST) | 2,40,000 | 43,200 |\n\nTotal GST payable | | 43,200 |\nLess:- ITC of GST paid on water pump purchased (₹ 9,000) and input services availed (₹ 3,600) | | (12,600) |\n\nNet GST payable | | 30,600 |\n\nNote:- Services by RWA to its members for sourcing of goods or services from a third person for common use of members in a housing society are exempt, if the share of contribution per month per member is upto ₹ 7,500. Otherwise, entire amount is taxable. Thus, maintenance charges are taxable in this case.",
+        "marks": 6,
+        "question_number": "Q2a",
+        "chapter_number": "18",
+        "chapter_name": "INPUT TAX CREDIT",
+        "student_answer": "",
+        "answer_pages": []
+      },
+      "Q2b": {
+        "question": "b) Dharun provides service as a business facilitator to Zio Bank Limited by facilitating in opening of accounts to villagers in its rural branches in Punjab and earned a commission of ₹ 22 lakh in the month of April, 20XX. So far, he is not registered under GST. Dharun’s tax consultant advised him that he is not liable for registration under GST as his gross receipts exceeded ₹ 20 lakh. Dharun has no other receipt/business activity other than the above. [CA Inter Nov 22 Exam]",
+        "model_answer": "b) Services provided by business facilitator to a banking company with respect to accounts in its rural branch are exempt from GST. In the given case, Dharun is engaged exclusively in providing the exempt services, it is not liable to obtain registration even though his aggregate turnover exceeds ₹ 20 lakh. Thus, the advice given by his tax consultant is not correct.",
+        "marks": 4,
+        "question_number": "Q2b",
+        "chapter_number": "19",
+        "chapter_name": "REGISTRATION",
+        "student_answer": "[Question 2(b)]\nAs per the provisions of Section 22, a supplies\nis liable to obtain registration if his aggregate\n& turnover exceeds the threshold limit i.e\n₹10 lakhs for special category states, being\nManipur, Mizoram, Tripura & Nagaland & ₹20 lakhs\nfor the rest of the states. for supply of services.\nHowever, services provided by a business\nfacilitator to a banking company in a taxable\nterritory & in the rural area branch is exempt.\n\nIn this case, Dharun is engaged exclusively in supply\nof exempt services.\n\nTherefore even though, his aggregate turnover\nis exceeding the threshold limit,\nhe is not liable to obtain registration.\n\nThus advice given by the tax consultant is\npartially correct, regarding Dharun not\nbeing liable to registration.",
+        "answer_pages": [
+          7,
+          8
+        ]
+      }
+    },
+    "Q3": {
+      "Q3a": {
+        "question": "Mr. X, a registered person has caused movement of goods of consignment value exceeding ₹ 50,000 in relation to a supply and thus, generated e-way bill. However, after generation of e-way bill, he found a mistake in the e-way bill and wants to edit it. You are required to advise Mr. X whether he can do so with the help of relevant provisions? [Study Mat] [CA Inter RTP Nov 23] [CA Inter MTP Sep 23]",
+        "model_answer": "If there is a mistake, incorrect or wrong entry in the e-way bill, then it cannot be edited or corrected. The only option is cancellation of e-way bill within 24 hours of generation and generate a new one with correct details. Thus, Mr. X cannot edit the e-way bill. However, he can cancel the e-way bill within 24 hours of generation and generate a new one with correct details.",
+        "marks": 6,
+        "question_number": "Q3a",
+        "chapter_number": "22",
+        "chapter_name": "ACCOUNTS AND RECORDS",
+        "student_answer": "[Question 3(a)]\nIn case of any omission, or mistake, made in\nthe eway bill, such eway bill cannot be\nedited or modified, once generated. The only\noption will be cancellation of such eway bill\nwithin 24 hours of generation of such eway bill\nand generation of a new eway bill with\nthe correct details.\nHowever, such eway bill can be updated if the\nmistake was of vehicle number.\n\nTherefore Mr X cannot edit or modify the eway\nbill once it has been generated. He will have\nto cancel such eway bill within 24 hours of such\ngeneration and issue a new eway bill.",
+        "answer_pages": [
+          7
+        ]
+      },
+      "Q3b": {
+        "question": "Determine the time of supply of goods in the following independent cases assuming that GST is payable under reverse charge. [Study Mat]\n\n| S.No. | Date of receipt of goods | Date of payment by recipient of goods | Date of issue of invoice by supplier of goods |\n|-------|--------------------------|---------------------------------------|-----------------------------------------------|\n| 1     | July 1                   | August 10                             | June 29                                       |\n| 2     | July 1                   | June 25                               | June 29                                       |\n| 3     | July 1                   | Part payment made on June 30 & balance amount paid on July 20 | June 29 |\n| 4     | July 5                   | Payment entered in recipient's books of account on June 28 & debited in his bank account on June 30 | June 1 |\n| 5     | July 1                   | Payment entered in recipient's books of account on June 30 & debited in his bank account on June 26 | June 29 |\n| 6     | August 1                 | August 10                             | June 29                                       |",
+        "model_answer": "Answer :- Legal Provision:- The TOS of goods on which GST is payable on reverse charge basis, shall be determined on the basis of following dates; [See 12(3)]\n\na) Goods Receipt Date: The date on which the goods are received.\n\nb) Payment Recording Date: Either when the payment is recorded in the recipient's books of account or when it's debited in his bank account, whichever is earlier.\n\nc) 31st day from Invoice Date : The day immediately after 30 days from the supplier's invoice issue date or its equivalent documents\n\nDetermination of time of supply of goods under reverse charge:-\n\n| S.No. | Date of receipt of goods | Date of payment by recipient of goods | Date of issue of invoice by supplier of goods | 31st day from date of Invoice | Time of Supply of Goods u/s 12(3) (Earlier of (1),(2) & (3)) |\n|-------|--------------------------|---------------------------------------|-----------------------------------------------|-------------------------------|-------------------------------------------------------------|\n| 1     | July 1                   | August 10                             | June 29                                      | July 30                       | July 1                                                      |\n| 2     | July 1                   | June 25                               | June 29                                      | July 30                       | June 25                                                    |\n| 3     | July 1                   | Part payment made on June 30 & balance amount paid on July 20 | June 29 | July 30 | June 30 for part payment & July 20 for balance amount |\n| 4     | July 5                   | Payment entered in recipient's books of account on June 28 & debited in his bank account on June 30 | June 1 | July 2 | June 28 |\n| 5     | July 1                   | Payment entered in recipient's books of account on June 30 & debited in his bank account on June 26 | June 29 | July 30 | June 26 |\n| 6     | August 1                 | August 10                             | June 29                                      | July 30                       | July 30                                                    |",
+        "marks": 4,
+        "question_number": "Q3b",
+        "chapter_number": "16",
+        "chapter_name": "TIME OF SUPPLY",
+        "student_answer": "[Question # 3 (b)]\nQuestion is incomplete",
+        "answer_pages": [
+          6
+        ]
+      }
+    },
+    "Q4": {
+      "Q4a": {
+        "question": "Compute the Gross value of supplies, on which GST to be paid by Mr. Jayesh for the month of October. (PYP 6 Marks, May'23)\n\nMr. Jayesh, a registered person under GST, has furnished the following details for the month of October:\n\n| Particulars | Amount (Rs.) |\n| :--- | :--- |\n| Commission received as a recovery agent from Non-Banking Financial Company | 45,000 |\n| Actionable claim received from normal business debtors | 1,20,000 |\n| Amount received from ABC Ltd. for performance of classical dance | 1,74,500 |\n| Business assets given free of cost (ITC was not availed on such assets) | 85,000 |\n| Rent received from a registered individual person for use of his residential dwelling | 22,000 |\n| Services availed from an unregistered Goods Transport Agency (GTA) | 15,100 |",
+        "model_answer": "Computation of gross value of taxable supply on which GST is to be paid by Mr. Jayesh\n\n| Particulars | Amount (Rs.) |\n| :--- | :--- |\n| Commission received as a recovery agent from Non-Banking Financial Company [Tax is payable by NBFC under reverse charge.] | - |\n| Actionable claim received from normal business debtors [No tax is payable as actionable claims other than lottery, betting and gambling are covered under Schedule III, i.e. they are neither supply of goods nor supply of services.] | - |\n| Amount received from ABC Ltd. for performance of classical dance [Taxable since consideration for classical dance performance exceeds Rs. 1,50,000.] | 1,74,500 |\n| Business assets given free of cost [Not a supply as it is made without consideration and not covered in Schedule I because ITC is not availed on the same.] | - |\n| Rent from registered individual person [Exempt Supply] | - |\n| Services from unregistered GTA [Tax on services provided by unregistered GTA is payable under reverse charge by Mr. Jayesh being a registered person.] | 15,100 |\n| Gross value of taxable supply on which GST is to be paid by Mr. Jayesh | 1,89,600 |",
+        "marks": 6,
+        "question_number": "Q4a",
+        "chapter_number": "17",
+        "chapter_name": "VALUE OF SUPPLY",
+        "student_answer": "[Question 4(a)]\nQuestion is incomplete.",
+        "answer_pages": [
+          6
+        ]
+      },
+      "Q4b": {
+        "question": "With reference to GST law, Determine the place of supply with reasons in the following independent circumstances: - I. Miss Kanika of Kolkata (West Bengal) visited to Jodhpur Law University (Rajasthan) and paid her college fees by purchasing a demand draft from a bank located in the University campus. Miss Kanika did not have any account with the bank. II. Mizu Machine Ltd., registered in the State of Andhra Pradesh, supplied a machinery to Keyan Wind Farms Ltd., registered in the State of Karnataka. However, this machinery was assembled and installed at the wind mill of Keyan Wind Farms Ltd., which was located in the State of Tamil Nadu. (RTP May'24)",
+        "model_answer": "(i) Section 12(12) of the IGST Act, 2017 provides that the place of supply of banking and other financial services, including stock broking services to any person is the location of the recipient of services in the records of the supplier of services. However, if the location of recipient of services is not available in the records of the supplier, the place of supply is the location of the supplier of services. Therefore, since the location of recipient is not available in the records of the supplier, the place of supply is the location of the supplier of services, i.e. Rajasthan (or Jodhpur). (ii) Section 10(1)(d) of the IGST Act, 2017 provides that if the supply involves goods which are to be installed or assembled at site, the place of supply is the place of such installation or assembly. Thus, the place of supply is the site of assembly of machine, i.e. Tamil Nadu.",
+        "marks": 4,
+        "question_number": "Q4b",
+        "chapter_number": "14",
+        "chapter_name": "PLACE OF SUPPLY",
+        "student_answer": "[Question 4(b)]\n\n1) In the case of banking & financial services\nplace of supply will be location of the\nreceipient as per the records of the supplier.\nHowever, if location of receipient is not given\nthe place of supply will be location of\nthe supplier of such services.\n\nIn this case, since Kanika's location is not in\nthe bank's record, the place of supply will\nbe the location of the bank.\n\nTherefore place of supply is Jodhpur, Rajasthan\n\n2) Where the goods supplied are to be\ninstalled and assembled at site, place\nof supply will be the location of such\ninstallation or assembly.\n\nTherefore place of supply is Tamil Nadu.",
+        "answer_pages": [
+          6
+        ]
+      }
+    },
+    "Q5": {
+      "Q5a": {
+        "question": "Question 8 (PYP 6 Marks, Jul'21,MP[4]) (Same concepts different figures MTP 5 Marks Aug'24)\n\nA Ltd. procured the following goods in the month of December.\n\n| Inward Supplies | GST (Rs.) |\n| :--- | :--- |\n| (1) Goods used in constructing an additional floor of office building | 18,450 |\n| (2) Goods given as free sample to prospective customers | 15,000 |\n| (3) Trucks used for transportation of inputs in the factory | 11,000 |\n| (4) Inputs used in trial runs | 9,850 |\n| (5) Confectionery items for consumption of employees working in the factory | 3,250 |\n| (6) Cement used for making foundation and structural support to plant and machinery | 8,050 |\n\nCompute the amount of ITC available with A Ltd. for the month of December by giving necessary explanations. Assume that all the other conditions necessary for availing ITC have been fulfilled.",
+        "model_answer": "Computation of amount of ITC available for the month of December\n\n| S. No. | Particulars | GST(Rs.) |\n| :--- | :--- | :--- |\n| (1) | Goods used in construction of additional floor of office building [ITC on goods received by a taxable person for construction of an immovable property on his own account is blocked even if the same is used in the course or furtherance of business. It has been assumed that cost of construction of additional floor has been capitalized.] | Nil |\n| (2) | Goods given as free samples to prospective customers [ITC on goods disposed of by way of free samples is blocked.] | Nil |\n| (3) | Trucks used for transportation of inputs in the factory [ITC on motor vehicles used for transportation of goods is not blocked ${ }^{1}$.] | 11,000 |\n| (4) | Inputs used in trial runs [Being used in trial runs, inputs are used in the course or furtherance of business and hence ITC thereon is allowed.] | 9,850 |\n| (5) | Confectionary items for consumption of employees working in the factory [ITC on food or beverages is blocked unless the same is used in same line of business or as an element of the taxable composite or mixed supply. Further, ITC on goods and/or service used for personal consumption is blocked.] | Nil |\n| (6) | Cement used for making foundation and structural support to plant and machinery [ITC on goods used for construction of plant and machinery is not blocked. Plant and machinery includes foundation and structural supports through which the same is fixed to earth.] | 8,050 |\n|  | Total eligible ITC | 28,900 |\n\n${ }^{1}$ It has been assumed that depreciation has not been claimed on tax component.",
+        "marks": 6,
+        "question_number": "Q5a",
+        "chapter_number": "18",
+        "chapter_name": "INPUT TAX CREDIT",
+        "student_answer": "| Question 5(a) |\nCalculation of Input tax credit available\nwith A Ltd for month of December:\n\n| # | Particulars | ₹ |\n|---|---|---|\n| 1) | Goods used for constructing additional floor of office building (ITC on goods used for construction of immovable property on his own account is blocked, even if it is in course or furtherance of business, assuming such cost of construction is capitalized) | NIL |\n| 2) | Goods given as free samples | NIL |\n\n(ITC on goods disposed off by way of\n free samples is blocked)\n\n3) Trucks used for transportation                    11,000\n   of inputs in the factory.\n(ITC on motor vehicles used for transport\n   of goods is allowed)\n\n4) Inputs used in trial runs                              9850\n(Since they are used in the course or\n   furtherance of business, it will be\n   allowed)\n\n5) Confectionary items for consumption of          NIL\n   employees working in the factory\n(ITC on food & beverages is blocked\n   unless it is same line of\n   business or an element of taxable\n   composite or mixed supply. Also, ITC on\n   goods/services used for personal\n   consumption is blocked)\n\n6) Cement used for making foundation &             8050\n   structural support to plant & Machinery\n(ITC on goods used for construction of\n   a plant & machinery is allowed.)\n\n         Total eligible ITC                               28,900",
+        "answer_pages": [
+          4,
+          5
+        ]
+      },
+      "Q5b": {
+        "question": "Examine whether the following activities would be treated as supply under GST law? (PYP 4 Marks Nov'23) (i) Mr. Sonu from Chandigarh purchased a water cooler from Malhotra Bros. of Hoshiarpur for Rs.25,000 to donate it to a temple situated in Hoshiarpur. Mr. Sonu directed Malhotra Bros. to engrave the words on the water cooler- \"Donated by Mr. Sonu from Chandigarh\" and dispatch the water cooler directly to the temple. (ii) Wiwitsu Ltd, a registered person in Ahmedabad (Gujarat) having head office located in Singapore, received management consultancy services free of cost from its head office.",
+        "model_answer": "(i) Donations received by the charitable organisations are treated as consideration only if there exists, quid pro quo, i.e., there is an obligation on part of recipient of the donation or gift to do anything (supply a service). Since the name of the donor, Mr. Sonu is displayed in temple as an expression of gratitude and public recognition of his act of philanthropy and is not aimed at advertising or promotion of his business, hence, donation of water cooler by Mr. Sonu to temple is without quid pro quo and is, thus, not a supply under GST law. However, supply of water cooler by Malhotra Bros. to Mr. Sonu is supply as it is made for consideration in course or furtherance of business. (ii) As per schedule I, in case of import of services by a person from a related person or from his establishments located outside India, without consideration, in the course or furtherance of business shall be treated as \"supply\". Hence, services received by Wiwitsu Ltd. qualify as supply even though such services have been provided free of cost by the head office.",
+        "marks": 4,
+        "question_number": "Q5b",
+        "chapter_number": "12",
+        "chapter_name": "SUPPLY UNDER GST",
+        "student_answer": "[Question 5(b)]\n\n(i) → Supply of water cooler from Malhotra Bros\n    to Mr Sonu will be supply since it is made\n    for a consideration in the course or furtherance\n    of business\n\n→ Supply of water cooler from Mr Sonu to the\n   temple:\n   Donation received by charitable organisations will\n   be considered as consideration only when there\n   is 'quid pro quo' i.e something in return.\n   There should be no obligation on the part of\n\nthe recipient to do anything for such\ndonation.\nHowever, if the charitable organisation\ndisplays the name of the donor in its\npremises as an expression of gratitude and\npublic recognition of the donor's act of\nphilanthropy and is not any advertising or\npromotion of donor's business, it will not\nbe considered as supply under GST law.\n\nTherefore, donation of water cooler by Sonu\nto the temple does not have 'quid pro quo'\nand will not be treated as supply under GST\nlaw.",
+        "answer_pages": [
+          3,
+          4
+        ]
+      }
+    }
+  }
+}

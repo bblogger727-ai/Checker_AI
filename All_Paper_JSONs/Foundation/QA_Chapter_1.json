@@ -1,0 +1,392 @@
+[
+  {
+    "chapter_name": "Chapter 1: Ratio, Proportion, Indices and Logarithms",
+    "chapter_number": "1",
+    "q_num": 1,
+    "question": "A, B and C enter into partnership by investing in the ratio of 3:2:4. After one year, B invests another $\u20b9 2,70,000$ and C , at the end of 2 years, also invests \u20b92,70,000. At the end of three years, profits are shared in the ratio of $3: 4: 5$. Find the initial investment of each.",
+    "options": {
+      "a": "$2,70,000: 1,80,000 ; 3,60,000$",
+      "b": "$2,70,000: 1,50,000 ; 3,60,000$",
+      "c": "$2,50,000: 1,80,000 ; 3,60,000$",
+      "d": "$2,70,000: 1,80,000 ; 3,00,000$"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 1: Ratio, Proportion, Indices and Logarithms",
+    "chapter_number": "1",
+    "q_num": 2,
+    "question": "The students in three classes are in the ratio $2: 3: 5$. If 40 students are increased in each class the ratio changes to $4: 5: 7$. Originally the total number of students was",
+    "options": {
+      "a": "180",
+      "b": "400",
+      "c": "100",
+      "d": "200"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 1: Ratio, Proportion, Indices and Logarithms",
+    "chapter_number": "1",
+    "q_num": 3,
+    "question": "The monthly incomes of $A \\& B$ are in the ratio $4: 5$ and their monthly expenditures are in the ratio $5: 7$ If each saves \u20b9 150 per month, find their monthly incomes.",
+    "options": {
+      "a": "$(40 ; 50)$",
+      "b": "$(50 ; 40)$",
+      "c": "$(400 ; 500)$",
+      "d": "None of the these"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 1: Ratio, Proportion, Indices and Logarithms",
+    "chapter_number": "1",
+    "q_num": 4,
+    "question": "If $(3 \\mathrm{x}+2 \\mathrm{y}) /(4 \\mathrm{x}-3 \\mathrm{y})=3 / 2$, then find $\\mathrm{x}: \\mathrm{y}$",
+    "options": {
+      "a": "$13: 6$",
+      "b": "$13: 18$",
+      "c": "$15: 2$",
+      "d": "$18: 6$"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 1: Ratio, Proportion, Indices and Logarithms",
+    "chapter_number": "1",
+    "q_num": 5,
+    "question": "The ratio of number of boys and number of girls in a school is found to be $15: 32$. How many boys and equal number of girls should be added to bring the ratio to 2/3?",
+    "options": {
+      "a": "19",
+      "b": "20",
+      "c": "23",
+      "d": "27"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 1: Ratio, Proportion, Indices and Logarithms",
+    "chapter_number": "1",
+    "q_num": 6,
+    "question": "The price of scooter and moped are in the ratio $7: 9$. The price of moped is $\u20b9 1600$ more than that of scooter. Then the price of moped is:",
+    "options": {
+      "a": "\u20b9 7200",
+      "b": "\u20b9 5600",
+      "c": "\u20b9800",
+      "d": "\u20b9 700"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 1: Ratio, Proportion, Indices and Logarithms",
+    "chapter_number": "1",
+    "q_num": 7,
+    "question": "A and $B$ can do a work in 8 days, $B$ and $C$ can do the same work in 12 days . $A, B$ and $C$ together can finish it in 6 days. A and C together will do it in :",
+    "options": {
+      "a": "4 days",
+      "b": "6 days",
+      "c": "8 days",
+      "d": "12 days"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 1: Ratio, Proportion, Indices and Logarithms",
+    "chapter_number": "1",
+    "q_num": 8,
+    "question": "A bag contains coins of denominations 1 rupee, 2 rupee and 5 rupees . Their numbers are in the ratio 4:3:2. If bag has total of \u20b9 1800 then find the number of 2-rupee coins?",
+    "options": {
+      "a": "270",
+      "b": "230",
+      "c": "180",
+      "d": "210"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 1: Ratio, Proportion, Indices and Logarithms",
+    "chapter_number": "1",
+    "q_num": 9,
+    "question": "What is the value of $\\frac{p+q}{p-q}$ if $\\frac{p}{q}=7$",
+    "options": {
+      "a": "$4 / 3$",
+      "b": "$2 / 3$",
+      "c": "$2 / 6$",
+      "d": "$\\frac{7}{8}$"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 1: Ratio, Proportion, Indices and Logarithms",
+    "chapter_number": "1",
+    "q_num": 10,
+    "question": "A box contains 276 coins of 5 rupees, 2 rupee sand 1 s\u0142apee 4 the value of each kind of coins are in the ratio 2:3:5 respectively. The number of 2 rupees coin is",
+    "options": {
+      "a": "52",
+      "b": "60",
+      "c": "76",
+      "d": "85"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 1: Ratio, Proportion, Indices and Logarithms",
+    "chapter_number": "1",
+    "q_num": 11,
+    "question": "The salaries of $A, B$ and $C$ are of ratio 2:3:5. if the increments of $15 \\%, 10 \\%$ and $20 \\%$ are done their respective salaries, then find new salaries.",
+    "options": {
+      "a": "$23: 33: 60$",
+      "b": "33:23:60",
+      "c": "$23: 60: 33$",
+      "d": "$33: 60: 23$"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 1: Ratio, Proportion, Indices and Logarithms",
+    "chapter_number": "1",
+    "q_num": 12,
+    "question": "The ages of two persons are in the ratio $5: 7$. Eighteen years ago their ages were in the ratio of $8: 13$, their present ages (in years) are :",
+    "options": {
+      "a": "50,70",
+      "b": "70,50",
+      "c": "40,56",
+      "d": "None of these"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 1: Ratio, Proportion, Indices and Logarithms",
+    "chapter_number": "1",
+    "q_num": 13,
+    "question": "The ratio of $\\frac{1}{2} \\sqrt{35}: \\frac{1}{3} \\sqrt{140}$ is equal to the ratio $\\_\\_\\_\\_$",
+    "options": {
+      "a": "$4: 3$",
+      "b": "$2: 1$",
+      "c": "$5: 4$",
+      "d": "$3: 4$"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 1: Ratio, Proportion, Indices and Logarithms",
+    "chapter_number": "1",
+    "q_num": 14,
+    "question": "If $\\frac{p}{q}=-\\frac{2}{3}$ then the value of $\\frac{2 p+q}{2 p-q}$ is:",
+    "options": {
+      "a": "1",
+      "b": "$-1 / 7$",
+      "c": "$1 / 7$",
+      "d": "7"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 1: Ratio, Proportion, Indices and Logarithms",
+    "chapter_number": "1",
+    "q_num": 15,
+    "question": "If $\\mathrm{a}: \\mathrm{b}=3: 4$, the value of $(2 \\mathrm{a}+3 \\mathrm{~b}):(3 \\mathrm{a}+4 \\mathrm{~b})$ is",
+    "options": {
+      "a": "$54: 25$",
+      "b": "$8: 25$",
+      "c": "$17: 24$",
+      "d": "$18: 25$"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 1: Ratio, Proportion, Indices and Logarithms",
+    "chapter_number": "1",
+    "q_num": 16,
+    "question": "A bag contains 23 number of coins in the form of 1 rupee, 2 rupee and 5 rupee coins. The total sum of the coins is \u20b943. The ratio between 1 rupee and 2 rupees coins is $3: 2$, Then the number of 1 -rupee coins.",
+    "options": {
+      "a": "12",
+      "b": "8",
+      "c": "10",
+      "d": "16"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 1: Ratio, Proportion, Indices and Logarithms",
+    "chapter_number": "1",
+    "q_num": 17,
+    "question": "XYZ invested \u20b91,68,000 in a business. After a few months, MNP joined in the business by investing \u20b91,12,000 in the business. At the end of year, the total profit was divided between them in the ratio 2:1. After how many months, did MNP join the business? $\\left(P \\gamma \\mathrm{P}^{3} \\text { Seph } 25\\right)^{3}$",
+    "options": {
+      "a": "3",
+      "b": "2",
+      "c": "4",
+      "d": "9"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 1: Ratio, Proportion, Indices and Logarithms",
+    "chapter_number": "1",
+    "q_num": 18,
+    "question": "The expenditures and savings of a person are in the ratio $4: 1$. If his savings are increased by $25 \\%$ of his income, then what is the new ratio of his expenditure and savings?",
+    "options": {
+      "a": "$11: 9$",
+      "b": "$8: 5$",
+      "c": "$7: 5$",
+      "d": "$7: 4$"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 1: Ratio, Proportion, Indices and Logarithms",
+    "chapter_number": "1",
+    "q_num": 19,
+    "question": "The ratio compounded of $4: 5$ and sub-duplicate of $a: 9$ is $8: 15$. Then value of \" $a$ \" is",
+    "options": {
+      "a": "2",
+      "b": "3",
+      "c": "4",
+      "d": "5"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 1: Ratio, Proportion, Indices and Logarithms",
+    "chapter_number": "1",
+    "q_num": 20,
+    "question": "$\\mathrm{X}, \\mathrm{Y}, \\mathrm{Z}$ together starts a business, if X invests 3 times as much as Y invests and Y invests two third of what Z invests, then the ratio of capitals of $X, Y, Z$ is",
+    "options": {
+      "a": "$3: 9: 2$",
+      "b": "$6: 3: 2$",
+      "c": "$3: 6: 2$",
+      "d": "$6: 2: 3$"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 1: Ratio, Proportion, Indices and Logarithms",
+    "chapter_number": "1",
+    "q_num": 21,
+    "question": "The triplicate ratio of $8 / 3$ and $16 / 5$ is",
+    "options": {
+      "a": "$625: 216$",
+      "b": "$26: 36$",
+      "c": "$225: 36$",
+      "d": "$125: 216$"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 1: Ratio, Proportion, Indices and Logarithms",
+    "chapter_number": "1",
+    "q_num": 22,
+    "question": "If $a: b=4: 5$, find the value of (5a-3b): (6a + 3b)",
+    "options": {
+      "a": "7:39",
+      "b": "$15: 39$",
+      "c": "$1: 3$",
+      "d": "5:39"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 1: Ratio, Proportion, Indices and Logarithms",
+    "chapter_number": "1",
+    "q_num": 23,
+    "question": "If $\\mathrm{x} / 2=\\mathrm{y} / 3=\\mathrm{z} / 7$, then the value of $(2 \\mathrm{x}-5 \\mathrm{y}+4 \\mathrm{z}) / 2 \\mathrm{y}$ is",
+    "options": {
+      "a": "$6 / 23$",
+      "b": "$23 / 6$",
+      "c": "$3 / 2$",
+      "d": "$17 / 6$"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 1: Ratio, Proportion, Indices and Logarithms",
+    "chapter_number": "1",
+    "q_num": 24,
+    "question": "What must be added to each term of the ratio $49: 68$, so that it becomes $3: 4$ ?",
+    "options": {
+      "a": "3",
+      "b": "5",
+      "c": "8",
+      "d": "9"
+    },
+    "answer": "c"
+  },
+  {
+    "chapter_name": "Chapter 1: Ratio, Proportion, Indices and Logarithms",
+    "chapter_number": "1",
+    "q_num": 25,
+    "question": "If $\\frac{3 x-2}{5 x-6}$ is the ratio of $2 / 3$ then the value of ' $x$ ' is",
+    "options": {
+      "a": "2",
+      "b": "6",
+      "c": "5",
+      "d": "9"
+    },
+    "answer": "b"
+  },
+  {
+    "chapter_name": "Chapter 1: Ratio, Proportion, Indices and Logarithms",
+    "chapter_number": "1",
+    "q_num": 26,
+    "question": "The ratio of two numbers are $3: 4$. The difference of their squares is 28 . Greater number is:",
+    "options": {
+      "a": "8",
+      "b": "12",
+      "c": "24",
+      "d": "64"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 1: Ratio, Proportion, Indices and Logarithms",
+    "chapter_number": "1",
+    "q_num": 27,
+    "question": "The ratio of the number of boys to the number of girls in a school of $\\mathbf{7 2 0}$ students is $\\mathbf{3} \\boldsymbol{:} \\mathbf{5}$. If \\mathbf{1 8} new girls are admitted in the school, find how many new boys may be admitted so that the ratio of the number of boys to the number of girls may change to $2: 3$.",
+    "options": {
+      "a": "42",
+      "b": "36",
+      "c": "72",
+      "d": "30"
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 1: Ratio, Proportion, Indices and Logarithms",
+    "chapter_number": "1",
+    "q_num": 28,
+    "question": "The ratio of the prices of two houses was 16: $\\mathbf{2 3}$. Two years later when the price of the first has increased by $10 \\%$ and that of the second by $\u20b9 477$, the ratio of the prices becomes $11: 20$. Find the original prices of the two houses.",
+    "options": {
+      "a": "\u20b9 848 , \u20b9 1,219 .",
+      "b": "\u20b9 838 , \u20b9 1,119 .",
+      "c": "\u20b9 828 , \u20b9 1,219 .",
+      "d": "\u20b9 $848 \u20b9 1,229$."
+    },
+    "answer": "a"
+  },
+  {
+    "chapter_name": "Chapter 1: Ratio, Proportion, Indices and Logarithms",
+    "chapter_number": "1",
+    "q_num": 29,
+    "question": "If $4^{x}=5^{y}=20^{z}$ then z is equal to",
+    "options": {
+      "a": "Xy",
+      "b": "$\\frac{(x+y)}{x y}$",
+      "c": "$\\frac{1}{x y}$",
+      "d": "$\\frac{x y}{(x+y)}$"
+    },
+    "answer": "d"
+  },
+  {
+    "chapter_name": "Chapter 1: Ratio, Proportion, Indices and Logarithms",
+    "chapter_number": "1",
+    "q_num": 30,
+    "question": "If four numbers $\\frac{1}{2}, \\frac{1}{3}, \\frac{1}{5}, \\frac{1}{x}$ are proportional then $\\mathrm{x}=\\ldots \\ldots \\ldots$.",
+    "options": {
+      "a": "$\\frac{6}{5}$",
+      "b": "$\\frac{5}{6}$",
+      "c": "$\\frac{15}{2}$",
+      "d": "$\\frac{1}{10}$"
+    },
+    "answer": "d"
+  }
+]
