@@ -2717,6 +2717,14 @@ def generate_checked_copy(
                     if st and st.get("page") == page_num:
                         sw, sh = 80 * st.get("scale", 1), 60 * st.get("scale", 1)
                         _all_ann_rects.append((st["x"] - sw/2, st["y"] - sh/2, st["x"] + sw/2, st["y"] + sh/2))
+                    fb = q_data.get("feedback")
+                    if fb and fb.get("page") == page_num:
+                        fb_fsz = fb.get("font_size", 11)
+                        lines = len(fb.get("text", "").split("\\n"))
+                        fh = lines * fb_fsz * 1.5 + 8
+                        fw = 400 * fb.get("scale", 1) # generous width estimate
+                        bg_y = fb["y"] - (lines - 1) * fb_fsz * 1.5 - fb_fsz * 0.3 - 4
+                        _all_ann_rects.append((fb["x"] - 4, bg_y, fb["x"] + fw, bg_y + fh))
                 
                 def _rects_overlap(r1, r2):
                     return not (r1[2] < r2[0] or r1[0] > r2[2] or r1[3] < r2[1] or r1[1] > r2[3])
@@ -2726,14 +2734,32 @@ def generate_checked_copy(
                 bg_h = fb_num_lines * FB_FONT_SIZE * 1.5 + bg_padding_y * 2
                 bg_w = fb_text_w_pt + bg_padding_x * 2
 
-                for _ in range(40):
-                    bg_y = fb_y_final - (fb_num_lines - 1) * FB_FONT_SIZE * 1.5 - FB_FONT_SIZE * 0.3 - bg_padding_y
-                    my_rect = (fb_x_final - bg_padding_x, bg_y, fb_x_final - bg_padding_x + bg_w, bg_y + bg_h)
-                    if not any(_rects_overlap(my_rect, r) for r in _all_ann_rects):
+                _found_clear = False
+                _y_offsets = [0, 15, -15, 30, -30, 45, -45, 60, -60, 75, -75, 90, -90, 110, -110, 130, -130]
+                _x_offsets = [0, 20, -20, 50, -50, 80, -80]
+                
+                for _x_off in _x_offsets:
+                    test_x = fb_x_final + _x_off
+                    # Ensure it doesn't go off the left or right edges
+                    if test_x < 15 or (test_x + bg_w) > (pdf_w - 15):
+                        continue
+                    
+                    for _y_off in _y_offsets:
+                        test_y = fb_y_final + _y_off
+                        # Ensure it doesn't go off top or bottom edges
+                        if test_y < 30 or test_y > (pdf_h - 30):
+                            continue
+                            
+                        bg_y = test_y - (fb_num_lines - 1) * FB_FONT_SIZE * 1.5 - FB_FONT_SIZE * 0.3 - bg_padding_y
+                        my_rect = (test_x - bg_padding_x, bg_y, test_x - bg_padding_x + bg_w, bg_y + bg_h)
+                        
+                        if not any(_rects_overlap(my_rect, r) for r in _all_ann_rects):
+                            fb_x_final = test_x
+                            fb_y_final = test_y
+                            _found_clear = True
+                            break
+                    if _found_clear:
                         break
-                    fb_y_final -= 15
-                    if fb_y_final < 20:
-                        fb_y_final = pdf_h - 40
                 # ---------------------------------------
 
                 c.saveState()
