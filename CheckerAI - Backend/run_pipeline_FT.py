@@ -41,10 +41,6 @@ import traceback
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, BASE_DIR)
 
-# claude_grading module
-PIPELINE_DIR = os.path.join(os.path.dirname(BASE_DIR), "CA_Feedback_Pipeline")
-sys.path.insert(0, PIPELINE_DIR)
-
 from dotenv import load_dotenv
 load_dotenv()
 

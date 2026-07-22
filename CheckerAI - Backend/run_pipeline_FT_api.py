@@ -24,11 +24,9 @@ import traceback
 import unicodedata
 
 # ── Path setup ───────────────────────────────────────────────────────────────
-BASE_DIR     = os.path.dirname(os.path.abspath(__file__))
-PIPELINE_DIR = os.path.join(os.path.dirname(BASE_DIR), "CA_Feedback_Pipeline")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 sys.path.insert(0, BASE_DIR)
-sys.path.insert(0, PIPELINE_DIR)
 
 from dotenv import load_dotenv
 load_dotenv()

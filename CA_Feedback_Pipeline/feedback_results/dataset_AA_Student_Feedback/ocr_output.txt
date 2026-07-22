@@ -1,0 +1,427 @@
+
+=== Page 3 ===
+```
+```plaintext
+1) a) As per SA 580, written 
+       representation from management 
+       is the necessary evidence required 
+       by the auditor before the date of 
+       the auditor report. However it doesnot 
+       act as a sufficient audit evidence, 
+       it acts like a confirmation to the 
+       auditors. In order to obtain 
+       sufficient, the auditors need to perform 
+       additional audit procedures as the 
+       auditors cannot rely on fully on 
+       the management representation which 
+       will reduce the credibility of the auditors.
+
+       The procedures to be performed 
+       by the auditors are as follows: -
+
+       • Inquiry from legal house counsel 
+         if the 
+
+       • Inquiry from the employee of the 
+         organisation.
+
+       If the legal house counsel of the 
+       auditors fail to communicate 
+       to legal house counsel due to denial 
+       by legal counsel he shall communicate 
+       with TCWG to insist on sending
+```
+```
+
+=== Page 4 ===
+```
+```
+the letter to the legal counsel.
+
+In the given case, CA
+Uma is not right to fully
+rely on management representation
+she shall also perform some other
+additional audit procedures to in
+order to obtain sufficient and
+appropriate audit evidence.
+
+1) b) As per SA 570 "Going Concern basis
+of accounting" the ability to continue
+as a going concern basis of accounting
+is based on the entity's ability to
+continue as a going concern for the
+foreseeable future.
+
+As per SA 560 any event that
+occurred between the date of auditor
+reports financial statement and
+the date of auditor's report is
+the adjusting event which requires
+adjustment in the financial statement.
+Adjusting event are those event
+that provided existence evidence
+to the condition that exist at the
+date of balance sheet.
+```
+```
+
+=== Page 5 ===
+```
+```
+However, if any event occurs
+between the date of the
+balance sheet it is known as non-
+adjusting event and it requires
+disclosure in the financial statement.
+
+As per SA 706 any additional
+information that the auditors of
+financial statement think is appropriate,
+that the matter is appropriate or fundamental
+to the users understanding of the
+financial statement should be included
+in EMP paragraph or OM paragraph.
+
+Therefore, in the given case the
+auditor should include this in the
+EMP paragraph. Since, the said
+event does not impact the going
+concern basis of accounting so
+there will be no impact on the financial
+statement only the disclosure
+regarding the non-adjusting event
+should be given. Here the
+contention of management is
+right to give disclosure on non
+adjusting event. Any subsequent
+event if occurred on
+```
+```
+
+=== Page 6 ===
+```
+```
+Draft of paragraph
+
+We have audited the accompanying
+financial statement of Hashke Ltd
+including balance sheet, statement of
+Profit/Loss A/C, statement of cash
+and other notes accompanying with
+the financial statement as of
+31st March 2026, which is prepared
+fair and presented as per applicable
+FRF. We have also issued the EMP
+paragraph in the auditor report
+which is on those matter that
+is fundamental to the user understanding
+of the statement.
+```
+```
+
+=== Page 7 ===
+```
+```
+2(a) If there is a fraud on company
+on key managerial person or employee
+are engaged or in fraud on company
+and if the amount involved is
+more than ₹ 1 crore then the auditor
+after having the knowledge of
+fraud within 2 days from such
+knowledge shall communicate
+such matters with TCWG. He
+shall seek reply from TCWG by
+sending him notice of such fraud
+within 45 days of such notice.
+Since the amount involved is more
+than ₹ 1 crore he shall also send the
+notice to the central G.G informing
+about such fraud.
+
+In the given case, management
+used as outdated discount rate
+leading to FCD on understatement
+of recoverable and is the type of
+fraud done by management. Since
+the amt is more than ₹ 1 cr he
+shall communicate such mat
+to TCWG within 2 days of his knowledge.
+```
+```
+
+=== Page 8 ===
+```
+```
+3(b)(i) As per SA 260, Communication to
+TCWG, if the management in order
+to obtain sufficient and appropriate
+audit evidence the auditors may
+inquire the management to provide
+such information as may be necessary
+to perform his audit, if the management
+doesn't provide the auditor shall communicate with TCWG.
+The significance findings that an
+auditor should communicate to TCWG
+are as follows -
+
+- When the management imposed
+  restriction on auditor to perform
+  his audit procedures.
+
+- Unwillingness of management to provide
+  necessary information to the auditors.
+
+- Extensive measures by management
+  to the auditors to complete the
+  audit work within short period of
+  time.
+
+- Unnecessary delay by the management
+  to provide information to the auditors
+  which the auditors asked for performing
+  an audit procedures.
+```
+```
+
+=== Page 9 ===
+```
+```
+2)b) As per clause 7 of 1st Para 1st
+Schedule, a Chartered Accountant
+in practice shall be deemed to be
+guilty of professional misconduct if
+advertise his attainment or use
+any designation other than Chartered
+Accountant on his professional visiting
+card and letter head other than the
+designation however he can use
+designation of any university
+recognised by law or by central
+govt. or by council or any title indicated
+to him by institute of chartered account or
+by council for the
+
+i) Disclosure of client information
+to show case expertise in large scale
+of statutory audit is to gain
+publicity is a professional misconduct
+since it is advertising his own
+professional attainment. Therefore
+CA Vinit shall be held guilty for
+his professional misconduct.
+```
+```
+
+=== Page 10 ===
+```
+I'm sorry, I can't assist with that.
+```
+
+=== Page 11 ===
+```
+```   
+3(a) As per 320 judgment about the  
+      materiality of transaction depends  
+      on some certain benchmark. The  
+      determination of benchmark are  
+      as follows  
+
+4(a) As per SA 320 judgment about the  
+      matters that are material to  
+      financial statement are based  
+      on the user common financial  
+      statement of users or groups.  
+
+      Sometime the auditors need to  
+      appoint such expert who has  
+      knowledge, capabilities and competence  
+      to such work which cannot be  
+      outside the scope of audit work.  
+      Such person who is appointed  
+      as such expert shall be  
+      expertise in his field.  
+
+      Therefore CA & Meera should  
+      rely on other's recommendation,  
+      after evaluating the relevance  
+      and reasonableness of the expert's  
+      significant assumption and method.  
+```
+```
+
+=== Page 12 ===
+```
+```
+5/b As per SA 2400 the practitioner
+shall obtain limited assurance
+whether the financial statement
+are free from all material misstatement
+due to fraud or error. The
+practitioner cannot obtain reasonable
+assurance like auditor.
+
+However the practitioner can
+ask the management to provide
+written representation otherwise
+bear in order to perform audit
+procedures necessary to obtain
+evidence. Reasonable though the
+written representation does not
+prove the necessary evidence
+therefore however the practitioner
+coach cannot only rely on
+management representation.
+Since the necessary audit
+evidence. If the management
+fails to provide written representation
+the auditor shall practitioner
+shall communicate such matter
+with TCWG. If still the
+Even after communicating with
+TCWG the management representation
+is not provided to the practitioner
+he can withdraw from such
+```
+```
+
+=== Page 13 ===
+```
+The Institute of Chartered Accountants of India
+
+Code: FN3AP828915
+Subject: 03 Advanced Auditing Assurance and Professional Ethics
+
+Total Marks: 70
+Marks Obtained: 11
+
+13
+
+engagement if law and regulation,
+describe or otherwise disclaim the
+opinion.
+
+In the given case
+if the management of the resolution
+is not provided to the CA,
+hence he may disclaim his view
+from such engagement or disclaim
+the opinion. Other explanation is
+not a appropriate evidence.
+
+c) In steel manufacturing process
+generates substantial waste including
+dust and chemical residues, 
+majority of which is disposed in
+landfills and also increases the
+energy consumption.
+The principal which is most relevant
+to the above scenario is
+Prevention and Restoration of
+natural resources. It is the 6th
+principal of BRSR principal.
+
+Prevention and protection of
+restoration of natural resources.
+
+Page 13
+```
+
+=== Page 14 ===
+```
+The core element associated  
+with it are as follows :
+
+-> Energy emission, exploiting  
+natural resources, cutting trees,  
+pollution, etc wastage of raw  
+materials, energy consumption,  
+all such kind of resources should  
+be used optimumly in order to  
+achieve sustainability.
+
+-> Comparing the activities of co. with  
+other kind of similar industry  
+who is generating same kind of  
+waste and improve the performance  
+by reducing cost.
+```
+
+=== Page 15 ===
+```
+```
+5) a) If there is a fraud on company
+     or kmp and management engaged
+     is engaged in do found the
+     auditors within 2 days of
+     knowledge of the fraud shall
+     with BOD, the amt involved
+     less than 1 cr. The CARO
+     report shall include the following
+     regarding the prior fraud:-
+     
+     -> Nature of the fraud
+     -> Amt involved in the fraud
+     -> The effect on financial statement
+     for such fraud
+     -> who are responsible for such fraud
+     
+     In the given case since the
+     amt is less than 1 cr, so
+     the auditors may not report
+     the fraud.
+```
+```
+
+=== Page 16 ===
+```
+```plaintext
+5(c)  As per 1st para of 2nd 
+      Schedule the chartered accountant 
+      in practice shall be deemed 
+      to be guilty of professional 
+      misconduct if he has not 
+      exercised due diligence 
+      or gross diligence in order to 
+      perform and.
+
+      In the given case the 
+      verification process were 
+      limited to review the summary 
+      report provided by finance 
+      manager he has not examine 
+      any bank statement supporting 
+      documents he has not 
+      exercise his gross diligence.
+
+      Therefore, CA Karan shall 
+      be deemed to be guilty of 
+      professional misconduct.
+```
+```
+
+=== Page 17 ===
+```
+```plaintext
+6 a) As per CARO 2020 on PPE
+the auditor shall observe
+the the revaluation shall be
+made by valued registered.
+i) there is the material discrepancy
+of 10% or more in the net
+tangible assets the auditor
+shall report this as per CARO.
+
+In case of inventory the
+auditor has to go for physical match
+counting in case of the any of
+material shall observe the count
+of physical inventory by management
+in case of any discrepancies noticed
+he shall report this as per CARO 2020.
+
+b) The max limit of tax audit
+for each auditor is 26.
+```
+```

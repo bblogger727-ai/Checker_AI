@@ -33,6 +33,7 @@ services:
       - checker_uploads:/app/uploads
       - checker_data:/app/data
       - "./All_Paper_JSONs:/All_Paper_JSONs"
+      - "./CA_Feedback_Pipeline:/CA_Feedback_Pipeline"
     ports:
       - "8000:8000"
     depends_on:

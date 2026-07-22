@@ -1,0 +1,331 @@
+
+=== Page 3 ===
+```
+```
+2.6 Non-value added activities are
+      those that do not improve the quality
+      or function of a product or service
+      but they can adversely affect costs
+      and prices. It creates waste, result
+      in delays of some sort, add cost
+      to the products or services for
+      which customer is not willing to pay
+
+      In the given case
+
+=> The process of moving partially
+      aged products from the fermentation
+      facility to the ageing facility involves
+      outdated labour which consume time
+      Can be eliminated by replacing skilled
+      labour with high technology. Since
+      it moves material/product from one
+      place to another which is necessary
+
+=> Inspection, control check can be
+      eliminated if the products are
+      produced correctly on the first time
+
+=> Storing facility is completely
+      disorganised, made with finished goods
+      which often spends long period
+      in warehouse can be eliminated
+```
+```
+
+=== Page 4 ===
+```
+```
+by organising the storing facility
+properly.
+
+By scheduling the machine maintenance
+properly the production delay
+of different products can be
+minimised.
+
+2.7: As per the income tax act, after
+1/10/24, the company is not liable
+to pay tax on buyback of its
+shares to its shareholders, co is
+only liable to TDS u/s 194 w.e.f
+1/10/24. However, the shareholders,
+are liable to pay tax @ normal
+slab rate on income received
+on buyback. It is taxed as
+deemed dividend u/s 2(22)(f)
+and no deduction u/s 57 out of
+such income, plus capital invested
+shall be treated as loss to be
+c/f or set off.
+```
+```
+
+=== Page 5 ===
+```
+```
+2.8  As per GST law, if there is a 
+     wrong availment of ITC the registered 
+     person shall be liable to pay penalty 
+     of ₹1,000 on amt of tax evaded 
+     whichever is higher.
+
+     In the If the, the claimed 
+     ITC is blocked in the case of 
+     outdoor catering of services 
+     since the co had claimed ITC 
+     on outdoor catering of services of 
+     ₹2.7 lakh the company cannot 
+     utilised such Itc and need to 
+     reverse such amt.
+
+     Any gift by employer to employee 
+     which exceeds ₹50,000 shall 
+     not be liable to GST. The 
+     company has gifted ₹15,000 appliance 
+     to each employee and ₹5,000 to each 
+     worker which is less than ₹50,000 
+     therefore the company shall not 
+     be liable to pay GST.
+```
+```
+
+=== Page 6 ===
+```
+```
+Case Study 3
+
+3.6  Calculation of Net Assets
+     acquired (excluding the effect of
+     DTL)
+
+     Particulars       Tax Base     Fair Value
+                      ₹ (in lakhs)   (in lakhs)
+
+     Land and building   500           700
+     PPE                 200           270
+     Inventory           100            80
+     Accounts Receivable 150           150
+     Cash and cash equivalent 130      130
+                        1080          1330
+     Less: Accounts payable (160)     (160)
+     Less: Deferred DTL  (100)
+                         920          1070
+
+     Calc. of deferred tax arising
+     On acquisition of entity H H analysis
+
+     Particulars                  ₹ (₹)
+
+     Fair Value of Assets and liability 1070
+     Less: tax base                    (920)
+     Temporary diff                     150
+     Less: Net DTL on acquisition
+           (150,000 x 30%)              (45)
+```
+```
+
+=== Page 7 ===
+```
+```plaintext
+Purchase Consideration                1500
+Less: Fair value of
+Identifiable net assets (1070)
+DTL                                   (45)     (1115)
+Goodwill arising
+on acquisition                        385
+
+3.7  Particulars   Scenario 1   Scenario 2   Scenario 3
+     A             (0% decline) (10% decline) 15% decline
+     Annual Sales (u)  10,00,000   9,00,000   8,50,000
+     S.P p.u.          $10        $10        $10
+     Cost p.u.         $6         $6.5       $5.5
+     Profit p.u.       $4         $3.5       $4.5
+     Total Profit      40,00,000  31,50,000  42,75,000
+     (-) Depreciation (10,00,000) (9,00,000) (8,50,000)
+     PBT               30,00,000  31,50,000  34,25,000
+     (-) tax @ 30%    (9,00,000) (10,20,000) (10,80,000)
+     PAT              21,00,000  23,80,000  25,20,000
+     (+) Dep           10,00,000   9,00,000   8,50,000
+     CFAT             31,00,000  32,80,000  33,70,000
+
+Projected CFAT
+= (31,00,000 X 40%) + (32,80,000 X 40%)
+  + (33,70,000 X 20%)
+= $ 32,26,000
+```
+```
+
+=== Page 8 ===
+```
+```plaintext
+Viability of the project
+
+NPV = PV of CI - PV of CO
+       = 32,600 (1 + .03) - 3,50,000
+       = 11,03
+       = ₹ 1,65,34,750
+
+Decision: Since NPV is positive
+the project is viable.
+
+3.8) As per Sec 264(4), PCIT/CIT
+shall not revise an order u/s
+264 when such order has been
+made the subject of appeal
+to the CIT(A). Therefore, PCIT/
+CIT cannot revise an order
+which is pending before the CIT(A)
+even if the revision pertains
+to a matter other than the matter
+covered in appeal.
+
+However, as per Sec 263,
+CIT has power to revise an
+order prejudicial to the int of
+revenue even if the order is
+the subject matter of appeal
+before CIT. However the powers
+of CIT u/s 263 shall extend to only
+```
+
+```
+
+=== Page 9 ===
+```
+The Institute of Chartered Accountants of India
+
+Code: FN6IB828915                                      Total Marks:  60
+Subject : 06 Integrated Business Solutions Multi disciplinary Case Studies
+                                                                 Marks Obtained :  16
+
+such matter as had not been
+considered and decided in appeal.
+
+In the case where the
+appeal is pending but yet decided
+the commission cannot exercise his
+revisionary jurisdiction in respect of
+those issues which are a subject matter
+of appeal.
+
+Case Study 4
+Cal of Val. of Closing Stock.
+
+Val. of Finished Goods
+
+Cost of RM          70
+Mat. Consumed     640000
+Dir. Labour             320000
+Dir. exp                  156000
+FOH ($498000)     190000
+                               1366000
+
+No. of units.
+Product 1.  720000 x 6000 = 
+                               9200
+
+Product 2.  1306000 x 3200 = 
+                               9200
+```
+
+=== Page 10 ===
+```
+I'm unable to extract text from this image. It appears to be a blank page with no handwritten content. If there's anything specific you need help with, feel free to let me know!
+```
+
+=== Page 11 ===
+```
+```
+4.7  The As per SA 805 the key
+     consideration of R and e. regarding
+     the acceptance, planning and
+     performance of this engagement
+     are as follows: -
+
+     Engagement Acceptance:
+
+     As per SA 200 requires compliance
+     will all SA relevant to the
+     audit. It applies to the audit
+     of single financial statement/
+     specific element, even if the
+     auditor also audit the complete
+     financial statement.
+
+     Compliance with SA relevant to
+     the audit of an single statement
+     may not be practical when the
+     auditor is not engaged to the
+     audit the complete set of
+     financial statement.
+
+     In case of audit of specific
+     financial element, complying SA
+     requires audit work that may be
+     disproportionate to the element
+     being audited.
+```
+```
+
+=== Page 12 ===
+```
+The Institute of Chartered Accountants of India
+
+Code: FN6IB828915                                      Total Marks:  60
+Subject: 06 Integrated Business Solutions Multi disciplinary Case Studies
+Marks Obtained:  16
+
+- Acceptability of FRF as per
+  SA 210 the auditor is required
+  to consider the acceptability of
+  FRF. It is also applied in the
+  preparation of single financial
+  statements.
+
+  Planning and Performing
+  Apply all SA's required in the
+  audit of financial statements.
+
+4. When a company sets its price
+   mainly on the consideration of
+   what its competitors are
+   charging, pricing policy under
+   such situation is called competitive
+   pricing. It is not necessary under
+   competitive pricing to charge the
+   same product price as charged
+   by the concern competitor.
+   Conversely, the concern will change
+   its price when the competitors
+   change its price.
+
+   In the given case, since
+   there are already strong
+   players in the market, it is better
+   to choose competition base
+   pricing method.
+```
+
+=== Page 13 ===
+```
+```
+Case Study 5
+
+5.6  The 7 S framework are
+     Hard S and soft S.
+
+     The hard S comprises of
+     Strategy, Structure and System.
+     It is easy for managers
+     to influence and change these
+     hard elements as easily quantified
+     and defined and deal with facts
+     and rules.
+
+     While soft areas are 4S
+     namely Style, Staff, Skills and
+     Shared Value. It is more difficult
+     to describe.
+```
+```

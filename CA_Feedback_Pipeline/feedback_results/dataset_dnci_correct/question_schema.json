@@ -1,0 +1,122 @@
+{
+  "Q1a": {
+    "question_id": "Q1a",
+    "question_number": "Q1",
+    "subpart": "a",
+    "question_text": "You are required to: (i) Find out how many large and small boxes are used. (ii) Find out the cost of per large box and per small box. (iii) Allocate the packaging cost among the four finished products.",
+    "marks": 5,
+    "model_answer": ""
+  },
+  "Q1b": {
+    "question_id": "Q1b",
+    "question_number": "Q1",
+    "subpart": "b",
+    "question_text": "ECO Cotton Limited manufactures two joint products Cotton Fiber, Cotton Seed and a by-product Cotton Linters by processing a raw cotton. The joint processing costs are ₹ 1,46,100. Joint products can be further processed and sold at a higher market price, with some sales promotion efforts whereas, by-product Cotton Linters can be sold only after further processing. You are required to: (i) Show how joint cost would be apportioned between Cotton Fiber and Cotton Seed using the sales value at split-off, after crediting net realisable value of by-product Cotton Linters. (ii) Determine the total profit or loss if the joint products are sold without further processing. (iii) Which of the joint products can be processed further for maximizing profits using incremental analysis of profit?",
+    "marks": 5,
+    "model_answer": ""
+  },
+  "Q1c": {
+    "question_id": "Q1c",
+    "question_number": "Q1",
+    "subpart": "c",
+    "question_text": "Worker 'X' of M/s ABC Manufacturing Ltd, was assigned a Job no 101. He began the job on 1st June at 9:00 A.M. and completed on 4th June at 12:00 P.M. There are 9 working hours in a day from 9:00 A.M. onwards. Work done and approved was 1,800 units. You are required to calculate the remuneration of worker X on the basis of Halsey plan and Rowan Plan.",
+    "marks": 4,
+    "model_answer": ""
+  },
+  "Q2a": {
+    "question_id": "Q2a",
+    "question_number": "Q2",
+    "subpart": "a",
+    "question_text": "Dhol Makers Ltd. sold 6,000 units of a musical instrument \"Dholak\". You are required to prepare a cost sheet showing: (i) Raw material consumed (ii) Prime cost (iii) Works/Factory cost (iv) Cost of goods sold (v) Cost of sales (vi) Net profit & Sales",
+    "marks": 9,
+    "model_answer": ""
+  },
+  "Q2b": {
+    "question_id": "Q2b",
+    "question_number": "Q2",
+    "subpart": "b",
+    "question_text": "A producer of oils purchases 400 litres of oil at ₹ 75 per litre in containers of 40 litres each. Other expenses at the process were ₹ 37,350 including an abnormal loss of ₹ 12,500 due to an accident. Normal waste at the process is 10%. Waste is sold at ₹ 10 per litre and each empty container is sold for ₹ 50. Generally, 10% of containers gets damaged so badly that they became unsalable. However, in the given situation, more containers were damaged and only 5 containers were in saleable condition. Actual output was 375 litres which is sold at a profit of 20% on cost. You are required to prepare Process Account and Income Statement.",
+    "marks": 5,
+    "model_answer": ""
+  },
+  "Q3a": {
+    "question_id": "Q3a",
+    "question_number": "Q3",
+    "subpart": "a",
+    "question_text": "Gold Drive bank is having a branch which is engaged in processing of 'Gold Loan' and 'Car Loan' applications in addition to other services to customers. The bank has hired three direct professional workers for processing 'Gold Loan' applications and four direct professional workers for processing 'Car Loan' applications. In addition to above, following expenses are incurred by the branch: (1) Branch manager who supervises all the activities of branch, is paid at ` 1,10,000 per month. (2) Legal charges, printing & stationery and advertising expenses are incurred at ` 28,000, ` 15,000 and ` 20,000 respectively for a month. (3) Other expenses are ` 51,000 per quarter. (4) Depreciation on building is ` 4,20,000 per annum. (5) Overhead costs of the branch allocable to processing of 'Gold Loan' applications and to 'Car Loan' applications is 20% & 15% respectively of total overhead costs of the branch. Number of applications processed: • 'Gold Loan' - 400 applications per month; and • 'Car Loan' - 500 applications per month. You are required to: (i) Compute the total salary of direct professionals for processing of 'Gold Loan' and 'Car Loan' applications respectively, by assuming that cost of processing a 'Car Loan' application is same as 'Gold Loan' application. (ii) Find out the total cost of processing a 'Car Loan' application.",
+    "marks": 8,
+    "model_answer": ""
+  },
+  "Q3b": {
+    "question_id": "Q3b",
+    "question_number": "Q3",
+    "subpart": "b",
+    "question_text": "Wings Institute of Air-hostess training has reserved a spacious training hall for ` 25,000 on a weekly basis with a seating capacity of 320 trainees. The institute has designed an intensive training schedule comprising 3 training session per day, 5 days a week for 25 weeks, on aviation and hospitability. Training delivered by the lead trainer to whom a honorarium of ` 3,600 per training session is paid. In addition, she receives travel reimbursement of ` 500 per day and refreshments costing ` 1,200 per week to maintain comfort and focus during sessions. She also takes 2 lectures per week on safety and customer services during weekends only at ` 5,000 per lecture (inclusive of travelling and refreshment expenses), ensuring complete coverage of aviation education. Trainee support services covering utilities and essential training aids amount to ` 2,020 per week. You are required to: (i) Calculate the total cost per training batch. (ii) Determine the minimum training fee per trainee in a batch to cover costs, if the batch is fully occupied. (iii) If the institute targets 20% profit margin on the training fee and decides to charge ` 14,800 per trainee, then calculate minimum percentage of batch size to be filled.",
+    "marks": 6,
+    "model_answer": ""
+  },
+  "Q4a": {
+    "question_id": "Q4a",
+    "question_number": "Q4",
+    "subpart": "a",
+    "question_text": "The following data pertaining to a company engaged in manufacturing and sale of a single product during the year: [Budget and Actual data for Sales, Direct Materials, Direct labour, Variable Overheads] Additional information: Standard and Actual Direct Material price per kg and Direct labour rate per hour. You are required to calculate: (i) Direct material usage variance (ii) Direct material price variance (iii) Direct labour efficiency variance (iv) Direct labour rate variance (v) Variable overhead cost variance",
+    "marks": 7,
+    "model_answer": ""
+  },
+  "Q4b": {
+    "question_id": "Q4b",
+    "question_number": "Q4",
+    "subpart": "b",
+    "question_text": "The following financial information is available for a company with a normal production capacity of 40,000 units for the year ended 31st March, 2025: Sales amounted to ₹ 8,00,000, Units sold: 35,000 units. There was no opening or closing stock of finished units. Direct material and direct wages costs were ₹ 3,50,000 and ₹ 2,00,000 respectively. Actual factory expenses were ₹ 1,00,000, of which 55% were fixed. Administrative expenses related to production activities incurred during the year but not paid were ₹ 50,000, which were entirely fixed. Actual selling and distribution expenses amounted to ₹ 20,000, of which 35% were fixed. The company earned interest and dividend income totaling ₹ 10,000. You are required to prepare: (i) The cost sheet and ascertain the profit as per cost accounts for the year ended 31st March, 2025, assuming that the indirect expenses are absorbed on the basis of normal production capacity; and (ii) A statement reconciling the profits shown by financial and cost accounts.",
+    "marks": 7,
+    "model_answer": ""
+  },
+  "Q5a": {
+    "question_id": "Q5a",
+    "question_number": "Q5",
+    "subpart": "a",
+    "question_text": "A machine shop has 6 identical drilling machines manned by 4 operators. The machine cannot be worked without an operator wholly engaged on it. The original cost of all these machines works out to ₹ 3,00,000. These particulars are furnished pertaining to a period of 4 months: Normal available hours per month 156 hrs, Absenteeism (without pay) hours 9 hrs, Leave (with pay) hours 10 hrs, Normal idle time unavoidable hours 5 hrs, Average rate of wages per worker for 6 hours a day ₹ 450, Production bonus estimated 20% on wages, Value of power consumed ₹ 20,500, Supervision and indirect labour ₹ 8,500, Lighting and electricity ₹ 4,500. These particulars are furnished for a year: Repairs and maintenance including consumables - 2% per annum of value of machines, Depreciation - 15% per annum of original cost, Other sundry works expenses - ₹ 12,000 p.a., General management expenses allocated - ₹ 24,000 p.a. The machine shop has taken an annual insurance for all 6 machines also. Given that the comprehensive machine hour rate for 4 months period is ₹ 125 per machine hour. You are required to find out the total amount of annual insurance premium.",
+    "marks": 6,
+    "model_answer": ""
+  },
+  "Q5b": {
+    "question_id": "Q5b",
+    "question_number": "Q5",
+    "subpart": "b",
+    "question_text": "Following data is available for XYZ Ltd. for the month of March 2025: Standard working hours 7 hours per day of 5 days per week, Number of weeks in the month 4 weeks, Maximum Capacity (No. of employees) 60 employees, Actual working (No. of employees) 42 employees, Actual Capacity Usage Ratio 65%, Activity Ratio 125%. Calculate the following: (i) Actual Hours worked (ii) Standard Hours for actual output (iii) Standard Capacity Usage Ratio (iv) Actual Usage of Budgeted Capacity Ratio",
+    "marks": 5,
+    "model_answer": ""
+  },
+  "Q5c": {
+    "question_id": "Q5c",
+    "question_number": "Q5",
+    "subpart": "c",
+    "question_text": "A company can make any one of the 2 products M or S during the year. It can exercise its option only at the beginning of each year. Relevant information about the products for the next year is given below: [Table showing Selling Price, Variable Cost, Market Demand, Production Capacity for products M and S, and Fixed Cost ₹ 1,20,000]. You are required to compute the opportunity cost for each of the product.",
+    "marks": 3,
+    "model_answer": ""
+  },
+  "Q6a": {
+    "question_id": "Q6a",
+    "question_number": "Q6",
+    "subpart": "a",
+    "question_text": "Classify the following items of expenses by functions and variability: (i) Consumable Store (ii) General Manager's salary (iii) Delivery van expenses (iv) Compensation (fixed salary plus commission on sales) (v) Rent of finished goods warehouse",
+    "marks": 5,
+    "model_answer": ""
+  },
+  "Q6b": {
+    "question_id": "Q6b",
+    "question_number": "Q6",
+    "subpart": "b",
+    "question_text": "Suggest a suitable incentive scheme to a factory for its workers, keeping in view the following: (i) The entire gains of improved production should not go to the workers. (ii) In the name of speed, quality should not suffer. (iii) The rate setting department being newly established are liable to commit mistakes.",
+    "marks": 5,
+    "model_answer": ""
+  },
+  "Q6c": {
+    "question_id": "Q6c",
+    "question_number": "Q6",
+    "subpart": "c",
+    "question_text": "Discuss the usefulness/suitability of Activity Based Costing. OR Discuss the four components of Budgetary Control System.",
+    "marks": 4,
+    "model_answer": ""
+  }
+}
