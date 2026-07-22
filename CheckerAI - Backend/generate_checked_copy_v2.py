@@ -2706,13 +2706,39 @@ def generate_checked_copy(
 
             # Draw feedback
             if placed and fb_text:
-                c.saveState()
+                # --- Overlap prevention for feedback ---
+                _all_ann_rects = []
+                for q_key, q_data in _manifest.get("questions", {}).items():
+                    for tc in q_data.get("ticks_crosses", []):
+                        if tc.get("page") == page_num:
+                            sz = tc.get("size", 60)
+                            _all_ann_rects.append((tc["x"] - sz/2, tc["y"] - sz/2, tc["x"] + sz/2, tc["y"] + sz/2))
+                    st = q_data.get("stamp")
+                    if st and st.get("page") == page_num:
+                        sw, sh = 80 * st.get("scale", 1), 60 * st.get("scale", 1)
+                        _all_ann_rects.append((st["x"] - sw/2, st["y"] - sh/2, st["x"] + sw/2, st["y"] + sh/2))
                 
-                # Draw a white background box to hide noise/scan lines
+                def _rects_overlap(r1, r2):
+                    return not (r1[2] < r2[0] or r1[0] > r2[2] or r1[3] < r2[1] or r1[1] > r2[3])
+
                 bg_padding_x = 4
                 bg_padding_y = 4
                 bg_h = fb_num_lines * FB_FONT_SIZE * 1.5 + bg_padding_y * 2
                 bg_w = fb_text_w_pt + bg_padding_x * 2
+
+                for _ in range(40):
+                    bg_y = fb_y_final - (fb_num_lines - 1) * FB_FONT_SIZE * 1.5 - FB_FONT_SIZE * 0.3 - bg_padding_y
+                    my_rect = (fb_x_final - bg_padding_x, bg_y, fb_x_final - bg_padding_x + bg_w, bg_y + bg_h)
+                    if not any(_rects_overlap(my_rect, r) for r in _all_ann_rects):
+                        break
+                    fb_y_final -= 15
+                    if fb_y_final < 20:
+                        fb_y_final = pdf_h - 40
+                # ---------------------------------------
+
+                c.saveState()
+                
+                # Draw a white background box to hide noise/scan lines
                 bg_y = fb_y_final - (fb_num_lines - 1) * FB_FONT_SIZE * 1.5 - FB_FONT_SIZE * 0.3 - bg_padding_y
                 
                 c.setFillColorRGB(1, 1, 1)
