@@ -541,7 +541,7 @@ async def patch_pipeline_result(task_id: str, request: Request):
         apply_patch(
             manifest_path=str(manifest_path),
             corrections=corrections,
-            output_pdf_path=str(patched_pdf_path)
+            output_path=str(patched_pdf_path)
         )
         
         return FileResponse(
