@@ -321,6 +321,7 @@ function OldPapersTab() {
 function NewPapersTab() {
     const navigate  = useNavigate();
     const [catalog, setCatalog] = useState(null);
+    const [catalogError, setCatalogError] = useState(false);
     const [sel,     setSel]     = useState({ exam: '', subject: '', type: '', paper: '' });
     const [form,    setForm]    = useState({ studentName: '', asPdf: null });
     const [taskId,  setTaskId]  = useState(null);
@@ -332,9 +333,19 @@ function NewPapersTab() {
     const clearPoll = () => { if (pollRef.current) clearInterval(pollRef.current); };
     useEffect(() => () => clearPoll(), []);
 
-    useEffect(() => {
-        getPaperCatalog().then(setCatalog).catch(console.error);
+    const loadCatalog = useCallback(() => {
+        setCatalogError(false);
+        getPaperCatalog()
+            .then(setCatalog)
+            .catch((err) => {
+                console.error('Catalog fetch error:', err);
+                setCatalogError(true);
+            });
     }, []);
+
+    useEffect(() => {
+        loadCatalog();
+    }, [loadCatalog]);
 
     const exams    = catalog ? Object.keys(catalog).sort() : [];
     const subjects = sel.exam && catalog?.[sel.exam] ? Object.keys(catalog[sel.exam]).sort() : [];
@@ -423,6 +434,15 @@ function NewPapersTab() {
                     disabled={running}
                 />
             </div>
+
+            {catalogError && (
+                <div className="pipeline-error" style={{ marginBottom: '15px' }}>
+                    ⚠️ Failed to load paper catalog. The backend server might still be starting up or is unreachable. 
+                    <button type="button" className="reset-btn" style={{ marginLeft: '15px' }} onClick={loadCatalog}>
+                        Retry Loading
+                    </button>
+                </div>
+            )}
 
             {/* Cascading dropdowns */}
             <div className="cascade-grid">
