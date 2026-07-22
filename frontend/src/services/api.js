@@ -75,6 +75,12 @@ export const getStudent = async (id) => {
 };
 
 export const downloadResultPdf = async (studentId) => {
+    if (typeof studentId === 'string' && studentId.length > 10) {
+        const response = await api.get(`/api/pipelines/download/${studentId}/grading_report`, {
+            responseType: 'blob',
+        });
+        return response.data;
+    }
     const response = await api.get(`/api/students/${studentId}/result-pdf`, {
         responseType: 'blob',
     });
@@ -82,6 +88,12 @@ export const downloadResultPdf = async (studentId) => {
 };
 
 export const downloadCheckedCopyPdf = async (studentId) => {
+    if (typeof studentId === 'string' && studentId.length > 10) {
+        const response = await api.get(`/api/pipelines/download/${studentId}/checked_copy`, {
+            responseType: 'blob',
+        });
+        return response.data;
+    }
     const response = await api.get(`/api/students/${studentId}/checked-copy-pdf`, {
         responseType: 'blob',
     });
