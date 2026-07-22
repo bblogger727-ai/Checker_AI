@@ -29,6 +29,7 @@ services:
     environment:
       - DATABASE_URL=postgresql://postgres:postgres@postgres:5432/checkerai
       - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
     volumes:
       - checker_uploads:/app/uploads
       - checker_data:/app/data
