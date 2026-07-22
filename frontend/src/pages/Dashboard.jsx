@@ -124,7 +124,7 @@ function ResultCard({ status, taskId, studentName, onReset, navigate }) {
                 </div>
             )}
             {meta.percentage != null && (
-                <div className="result-pct">{meta.percentage}%</div>
+                <div className="result-pct">{+Number(meta.percentage).toFixed(2)}%</div>
             )}
             {meta.scoring_rule && (
                 <p className="result-rule">{meta.scoring_rule}</p>

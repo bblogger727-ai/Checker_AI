@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import { downloadCheckedCopyPdf, downloadResultPdf, getStudent } from '../services/api';
+import { downloadCheckedCopyPdf, downloadResultPdf, downloadPipelineResult, getStudent } from '../services/api';
 import './CheckedPaper.css';
 
 function saveBlob(blob, filename) {
@@ -44,6 +44,20 @@ function CheckedPaper() {
             saveBlob(blob, `${student.student_name}_result.pdf`);
         } catch (err) {
             alert('Failed to download result report: ' + (err.response?.data?.detail || err.message));
+        } finally {
+            setDownloading(null);
+        }
+    };
+
+    const handleDownloadStudentReport = async () => {
+        if (!student) return;
+
+        setDownloading('student_report');
+        try {
+            const blob = await downloadPipelineResult(student.id, 'student_report');
+            saveBlob(blob, `${student.student_name}_student_report.txt`);
+        } catch (err) {
+            alert('Failed to download student report: ' + (err.response?.data?.detail || err.message));
         } finally {
             setDownloading(null);
         }
@@ -107,7 +121,7 @@ function CheckedPaper() {
                     </div>
                     <div>
                         <span className="summary-label">Percentage</span>
-                        <strong>{student.percentage != null ? `${student.percentage}%` : '-'}</strong>
+                        <strong>{student.percentage != null ? `${+Number(student.percentage).toFixed(2)}%` : '-'}</strong>
                     </div>
                     <div>
                         <span className="summary-label">Grade</span>
@@ -131,6 +145,13 @@ function CheckedPaper() {
                             className="secondary-action"
                         >
                             {downloading === 'report' ? 'Preparing...' : 'Download Result Report'}
+                        </button>
+                        <button
+                            onClick={handleDownloadStudentReport}
+                            disabled={!isCompleted || downloading === 'student_report'}
+                            className="secondary-action"
+                        >
+                            {downloading === 'student_report' ? 'Preparing...' : 'Download Student Report'}
                         </button>
                         <button
                             id="edit-corrections-btn"
