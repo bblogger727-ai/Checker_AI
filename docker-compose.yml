@@ -35,6 +35,7 @@ services:
       - checker_data:/app/data
       - "./All_Paper_JSONs:/All_Paper_JSONs"
       - "./CA_Feedback_Pipeline:/CA_Feedback_Pipeline"
+      - "./pipeline_jobs:/app/pipeline_jobs"
     ports:
       - "8000:8000"
     depends_on:

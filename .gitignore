@@ -71,3 +71,4 @@ htmlcov/
 mapped_coordinates.json
 
 pipeline_output*/
+pipeline_jobs/
