@@ -181,7 +181,8 @@ async def run_old_pipeline(
     Returns immediately with a `task_id` — poll `/api/pipelines/status/{task_id}`
     for progress updates.
     """
-    task_id    = uuid.uuid4().hex
+    safe_name = "".join([c if c.isalnum() else "_" for c in student_name.strip()]).strip("_")
+    task_id   = f"{safe_name}_{uuid.uuid4().hex}" if safe_name else uuid.uuid4().hex
     output_dir = _JOBS_DIR / task_id
     output_dir.mkdir(parents=True, exist_ok=True)
 
@@ -249,7 +250,8 @@ async def run_new_pipeline(
     if not paper_path.exists():
         raise HTTPException(status_code=404, detail=f"Paper JSON not found: {ft_paper_path}")
 
-    task_id    = uuid.uuid4().hex
+    safe_name = "".join([c if c.isalnum() else "_" for c in student_name.strip()]).strip("_")
+    task_id   = f"{safe_name}_{uuid.uuid4().hex}" if safe_name else uuid.uuid4().hex
     output_dir = _JOBS_DIR / task_id
     output_dir.mkdir(parents=True, exist_ok=True)
 
