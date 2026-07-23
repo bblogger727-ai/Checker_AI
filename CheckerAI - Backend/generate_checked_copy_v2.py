@@ -2976,7 +2976,7 @@ def generate_checked_copy(
             c.setStrokeColorRGB(1, 1, 1, 0)
             c.rect(fb_x_final - 10, bg_y, bg_w, bg_h, fill=1, stroke=0)
             
-            c.setFont("Helvetica-Bold", FB_FONT_SIZE)
+            c.setFont(font_name, FB_FONT_SIZE)
             c.setFillColorRGB(1, 0, 0)
             c.setStrokeColorRGB(1, 0, 0)
             
