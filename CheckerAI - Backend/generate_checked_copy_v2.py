@@ -2685,15 +2685,7 @@ def generate_checked_copy(
 
                 # Draw stamp exactly once at its final collision-free position
                 stamp_half_h = _pending_stamp["half_h_pts"]
-                _draw_marks_stamp(
-                    c,
-                    _pending_stamp["x"],
-                    final_stamp_y,
-                    _pending_stamp["marks_obtained"],
-                    _pending_stamp["marks_total"],
-                    font_name,
-                    scale=page_scale,
-                )
+                pass # DEFERRED STAMP
                 # v2: record stamp
                 _manifest["questions"][_mkey]["stamp"] = {
                     "page":  page_num,
@@ -2860,7 +2852,7 @@ def generate_checked_copy(
                 if t["page"] == page_num:
                     page_ticks.append((t, "tick" if t["action"] == "tick" else "cross"))
             if qdata.get("stamp") and qdata["stamp"]["page"] == page_num:
-                page_stamps.append((qdata["stamp"], qdata["stamp"]))
+                page_stamps.append((qdata["stamp"], qdata))
             if qdata.get("feedback") and qdata["feedback"]["page"] == page_num:
                 page_fbs.append((qdata["feedback"], qdata["feedback"]))
                 
@@ -2952,14 +2944,15 @@ def generate_checked_copy(
         for t, act in page_p3:
             _draw_cross(c, t["x"], t["y"], size=t["size"])
             
-        for s, _ in page_stamps:
+        for s, qdata in page_stamps:
             _draw_marks_stamp(
                 c, 
-                x=s["x"], 
-                y=s["y"], 
-                marks_obtained=s["marks_obtained"],
-                marks_total=s["marks_total"],
-                page_scale=s["scale"]
+                cx=s["x"], 
+                cy=s["y"], 
+                marks_obtained=qdata["marks_obtained"],
+                marks_total=qdata["marks_total"],
+                font_name=font_name,
+                scale=s["scale"]
             )
             
         for f, _ in page_fbs:
