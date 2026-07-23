@@ -1103,6 +1103,8 @@ def _draw_bold_text(c, text, x, y, font_name, font_size, stroke_w=3.0):
     c.setFont(font_name, font_size)
     c.setFillColor(red)
     c.setStrokeColor(red)
+    c.setFillAlpha(1.0)
+    c.setStrokeAlpha(1.0)
     c.setLineWidth(stroke_w)
     c.drawString(x, y, text)
     c.setLineWidth(0)
@@ -2979,6 +2981,8 @@ def generate_checked_copy(
             c.setFont(font_name, FB_FONT_SIZE)
             c.setFillColorRGB(1, 0, 0)
             c.setStrokeColorRGB(1, 0, 0)
+            c.setFillAlpha(1.0)
+            c.setStrokeAlpha(1.0)
             
             _draw_y = fb_y_final
             for line in wrapped_lines:
