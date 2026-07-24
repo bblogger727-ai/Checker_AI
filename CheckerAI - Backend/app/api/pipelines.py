@@ -534,7 +534,11 @@ async def recheck_pipeline(task_id: str):
     as_pdf         = job_dir / "student_answersheet.pdf"
     grading_json   = job_dir / "grading_final.json"
     aligned_json   = job_dir / "aligned_answers.json"
-    ocr_txt        = job_dir / "3_ocr_output.txt"
+    ocr_txt        = next(
+        (job_dir / name for name in ("3_ocr_output.txt", "ocr_output.txt")
+         if (job_dir / name).exists()),
+        None
+    )
     output_pdf     = job_dir / "checked_copy.pdf"
     manifest_path  = job_dir / "checked_copy_manifest.json"
 
@@ -559,7 +563,7 @@ async def recheck_pipeline(task_id: str):
         "--output",   str(output_pdf),
         "--manifest", str(manifest_path),
     ]
-    if ocr_txt.exists():
+    if ocr_txt is not None:
         cmd += ["--ocr", str(ocr_txt)]
 
     # Mark status as running so the frontend can show a spinner
