@@ -220,4 +220,14 @@ export const downloadPipelineResult = async (taskId, fileType) => {
     return response.data;
 };
 
+/**
+ * Trigger a recheck (re-run generate_checked_copy_v2) for an existing pipeline job.
+ * Returns { task_id, status }
+ */
+export const recheckPipeline = async (taskId) => {
+    const response = await api.post(`/api/pipelines/recheck/${taskId}`);
+    return response.data;
+};
+
 export default api;
+

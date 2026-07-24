@@ -1,6 +1,6 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import { downloadCheckedCopyPdf, downloadResultPdf, downloadPipelineResult, getStudent } from '../services/api';
+import { downloadCheckedCopyPdf, downloadResultPdf, downloadPipelineResult, getStudent, recheckPipeline, getPipelineStatus } from '../services/api';
 import './CheckedPaper.css';
 
 function saveBlob(blob, filename) {
@@ -19,6 +19,9 @@ function CheckedPaper() {
     const [loading, setLoading] = useState(true);
     const [downloading, setDownloading] = useState(null);
     const [error, setError] = useState('');
+    const [recheckStatus, setRecheckStatus] = useState(null); // null | 'running' | 'done' | 'failed'
+    const [recheckMsg, setRecheckMsg] = useState('');
+    const pollRef = useRef(null);
 
     useEffect(() => {
         async function loadStudent() {
@@ -33,11 +36,11 @@ function CheckedPaper() {
         }
 
         loadStudent();
+        return () => { if (pollRef.current) clearInterval(pollRef.current); };
     }, [id]);
 
     const handleDownloadReport = async () => {
         if (!student) return;
-
         setDownloading('report');
         try {
             const blob = await downloadResultPdf(student.id);
@@ -51,7 +54,6 @@ function CheckedPaper() {
 
     const handleDownloadStudentReport = async () => {
         if (!student) return;
-
         setDownloading('student_report');
         try {
             const blob = await downloadPipelineResult(student.id, 'student_report');
@@ -65,7 +67,6 @@ function CheckedPaper() {
 
     const handleDownloadCheckedCopy = async () => {
         if (!student) return;
-
         setDownloading('checked-copy');
         try {
             const blob = await downloadCheckedCopyPdf(student.id);
@@ -75,6 +76,43 @@ function CheckedPaper() {
         } finally {
             setDownloading(null);
         }
+    };
+
+    const handleRecheck = async () => {
+        if (!student) return;
+        setRecheckStatus('running');
+        setRecheckMsg('Submitting recheck…');
+
+        try {
+            await recheckPipeline(student.id);
+        } catch (err) {
+            setRecheckStatus('failed');
+            setRecheckMsg(err.response?.data?.detail || err.message);
+            return;
+        }
+
+        // Poll every 3 s until done or failed
+        setRecheckMsg('Re-generating checked copy…');
+        pollRef.current = setInterval(async () => {
+            try {
+                const status = await getPipelineStatus(student.id);
+                if (status.status === 'done') {
+                    clearInterval(pollRef.current);
+                    setRecheckStatus('done');
+                    setRecheckMsg('Recheck complete! Downloading…');
+                    try {
+                        const blob = await downloadPipelineResult(student.id, 'checked_copy');
+                        saveBlob(blob, `${student.student_name}_checked_copy.pdf`);
+                    } catch (_) { /* user can still download manually */ }
+                } else if (status.status === 'failed') {
+                    clearInterval(pollRef.current);
+                    setRecheckStatus('failed');
+                    setRecheckMsg(status.message || 'Recheck failed');
+                } else {
+                    setRecheckMsg(status.message || 'Re-generating checked copy…');
+                }
+            } catch (_) { /* ignore transient poll errors */ }
+        }, 3000);
     };
 
     if (loading) {
@@ -94,6 +132,7 @@ function CheckedPaper() {
     }
 
     const isCompleted = student.status === 'completed';
+    const isRechecking = recheckStatus === 'running';
 
     return (
         <div className="checked-paper-page">
@@ -134,21 +173,21 @@ function CheckedPaper() {
                     <div className="download-actions">
                         <button
                             onClick={handleDownloadCheckedCopy}
-                            disabled={!isCompleted || downloading === 'checked-copy'}
+                            disabled={!isCompleted || downloading === 'checked-copy' || isRechecking}
                             className="primary-action"
                         >
                             {downloading === 'checked-copy' ? 'Preparing...' : 'Download Checked Copy'}
                         </button>
                         <button
                             onClick={handleDownloadReport}
-                            disabled={!isCompleted || downloading === 'report'}
+                            disabled={!isCompleted || downloading === 'report' || isRechecking}
                             className="secondary-action"
                         >
                             {downloading === 'report' ? 'Preparing...' : 'Download Result Report'}
                         </button>
                         <button
                             onClick={handleDownloadStudentReport}
-                            disabled={!isCompleted || downloading === 'student_report'}
+                            disabled={!isCompleted || downloading === 'student_report' || isRechecking}
                             className="secondary-action"
                         >
                             {downloading === 'student_report' ? 'Preparing...' : 'Download Student Report'}
@@ -156,12 +195,27 @@ function CheckedPaper() {
                         <button
                             id="edit-corrections-btn"
                             onClick={() => navigate(`/checked-paper/${student.id}/edit`)}
-                            disabled={!isCompleted}
+                            disabled={!isCompleted || isRechecking}
                             className="edit-corrections-btn"
                         >
                             ✏️ Edit Corrections
                         </button>
+                        <button
+                            id="recheck-copy-btn"
+                            onClick={handleRecheck}
+                            disabled={!isCompleted || isRechecking}
+                            className="recheck-btn"
+                        >
+                            {isRechecking ? '⏳ Rechecking…' : '🔄 Recheck Copy'}
+                        </button>
                     </div>
+
+                    {recheckStatus && (
+                        <div className={`recheck-status recheck-status--${recheckStatus}`}>
+                            {recheckMsg}
+                        </div>
+                    )}
+
                     {!isCompleted && (
                         <p className="download-note">
                             The checked copy will be available once grading is complete.
