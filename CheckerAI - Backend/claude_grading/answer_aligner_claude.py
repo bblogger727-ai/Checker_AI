@@ -147,7 +147,7 @@ CRITICAL RULES:
     try:
         response = claude_client.messages.create(
             model=CLAUDE_MODEL,
-            max_tokens=8192,
+            max_tokens=16000,
             system="You are a precise exam answer sheet reader. Your job is to identify every written answer and its topic, so it can later be matched to the correct schema question by content — NOT by page position. Output strictly in JSON format.",
             messages=[
                 {"role": "user", "content": discovery_prompt}
@@ -155,11 +155,15 @@ CRITICAL RULES:
             temperature=0
         )
         
+        stop_reason = response.stop_reason
+        if stop_reason == "max_tokens":
+            print(f"[Claude Aligner] WARNING: Pass 1 response was TRUNCATED (hit max_tokens). JSON may be incomplete.", flush=True)
+        
         discovery_text = response.content[0].text.strip()
         discovery_data = _extract_json_from_claude(discovery_text)
         discovered = discovery_data.get("discovered_answers", [])
         
-        print(f"[Claude Aligner] Pass 1 complete: Found {len(discovered)} answer blocks.", flush=True)
+        print(f"[Claude Aligner] Pass 1 complete: Found {len(discovered)} answer blocks (stop_reason={stop_reason}).", flush=True)
         for i, d in enumerate(discovered):
             print(f"  [{i+1}] Label: {d.get('label', '?')}, Type: {d.get('answer_type', '?')}, Pages: {d.get('pages', [])}", flush=True)
             
@@ -267,13 +271,17 @@ FINAL REMINDERS:
     try:
         response = claude_client.messages.create(
             model=CLAUDE_MODEL,
-            max_tokens=8192,
+            max_tokens=16000,
             system="You are an exam answer alignment expert. Your goal is to map student answers to the correct schema question IDs. While explicit labels are important, you MUST use content matching and topic summaries to catch cases where a student has mislabeled a question (e.g., writing 'Q2' but answering Q3), or where OCR has misread a label. Your primary goal is COMPLETE AND ACCURATE coverage. Output only valid JSON.",
             messages=[
                 {"role": "user", "content": mapping_prompt}
             ],
             temperature=0
         )
+        
+        stop_reason = response.stop_reason
+        if stop_reason == "max_tokens":
+            print(f"[Claude Aligner] WARNING: Pass 2 response was TRUNCATED (hit max_tokens). Mappings may be incomplete.", flush=True)
         
         mapping_text = response.content[0].text.strip()
         mapping_data = _extract_json_from_claude(mapping_text)
