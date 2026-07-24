@@ -176,16 +176,32 @@ def ocr_pdf_claude(pdf_path: str, output_path: str | None = None, dpi: int = 200
         dpi:         Resolution for PDF→image conversion (default 200).
     """
     print(f"[Claude OCR] Converting {pdf_path} to images at {dpi} DPI...", flush=True)
-    images = convert_from_path(pdf_path, dpi=dpi)
-    total_pages = len(images)
+    import fitz
+    from PIL import Image
+    
+    doc = fitz.open(pdf_path)
+    total_pages = len(doc)
     print(f"[Claude OCR] {total_pages} pages found.", flush=True)
 
     page_texts = []
-    for page_num, image in enumerate(images, start=1):
-        print(f"[Claude OCR]   Page {page_num}/{total_pages}...", flush=True)
-        text = perform_ocr_claude(image)
-        page_texts.append(f"=== Page {page_num} ===\n{text}")
+    for page_num in range(total_pages):
+        print(f"[Claude OCR]   Page {page_num+1}/{total_pages}...", flush=True)
+        page = doc[page_num]
+        pix = page.get_pixmap(dpi=dpi)
+        
+        # Convert fitz pixmap to PIL Image
+        mode = "RGBA" if pix.alpha else "RGB"
+        img = Image.frombytes(mode, [pix.width, pix.height], pix.samples)
+        
+        # We need RGB for Claude OCR API
+        if img.mode != "RGB":
+            img = img.convert("RGB")
+            
+        text = perform_ocr_claude(img)
+        page_texts.append(f"=== Page {page_num+1} ===\n{text}")
         print(f"[Claude OCR]   → {len(text)} chars extracted", flush=True)
+    
+    doc.close()
 
     full_text = "\n\n".join(page_texts)
 
