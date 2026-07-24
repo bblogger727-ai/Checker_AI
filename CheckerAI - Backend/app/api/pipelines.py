@@ -512,6 +512,106 @@ def get_pipeline_manifest(task_id: str):
 
 
 
+@router.post("/recheck/{task_id}")
+async def recheck_pipeline(task_id: str):
+    """
+    Re-run ONLY Stage 7 (generate_checked_copy_v2) for an existing job.
+
+    Looks up the job directory for:
+      - student_answersheet.pdf
+      - grading_final.json
+      - aligned_answers.json
+      - 3_ocr_output.txt  (optional, falls back gracefully if missing)
+
+    Overwrites checked_copy.pdf and checked_copy_manifest.json in-place.
+    Returns { task_id, status } immediately; the job runs in a background thread.
+    """
+    job_dir = _JOBS_DIR / task_id
+    if not job_dir.exists():
+        raise HTTPException(status_code=404, detail="Task not found")
+
+    # Locate required files
+    as_pdf         = job_dir / "student_answersheet.pdf"
+    grading_json   = job_dir / "grading_final.json"
+    aligned_json   = job_dir / "aligned_answers.json"
+    ocr_txt        = job_dir / "3_ocr_output.txt"
+    output_pdf     = job_dir / "checked_copy.pdf"
+    manifest_path  = job_dir / "checked_copy_manifest.json"
+
+    for required, label in [
+        (as_pdf,       "student_answersheet.pdf"),
+        (grading_json, "grading_final.json"),
+        (aligned_json, "aligned_answers.json"),
+    ]:
+        if not required.exists():
+            raise HTTPException(
+                status_code=404,
+                detail=f"Required file not found in job directory: {label}"
+            )
+
+    # Build recheck command (reuses the same script entrypoint)
+    cmd = [
+        sys.executable,
+        str(_BACKEND_DIR / "generate_checked_copy_v2.py"),
+        "--pdf",      str(as_pdf),
+        "--grading",  str(grading_json),
+        "--aligned",  str(aligned_json),
+        "--output",   str(output_pdf),
+        "--manifest", str(manifest_path),
+    ]
+    if ocr_txt.exists():
+        cmd += ["--ocr", str(ocr_txt)]
+
+    # Mark status as running so the frontend can show a spinner
+    result_file = job_dir / "result.json"
+    def _update_status(data: dict):
+        with open(result_file, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2)
+
+    def _run_recheck():
+        _update_status({
+            "status": "running",
+            "stage": "recheck",
+            "message": "Re-generating checked copy...",
+            "progress": 90,
+        })
+        try:
+            result = subprocess.run(cmd, cwd=str(_BACKEND_DIR), capture_output=True, text=True)
+            if result.returncode != 0:
+                _update_status({
+                    "status": "failed",
+                    "stage": "recheck_failed",
+                    "message": "Recheck failed",
+                    "error": result.stderr[-1000:],
+                })
+            else:
+                # Restore the previous done state but signal recheck is complete
+                prev = {}
+                if result_file.exists():
+                    try:
+                        prev = json.loads(result_file.read_text())
+                    except Exception:
+                        pass
+                _update_status({
+                    **prev,
+                    "status": "done",
+                    "stage": "completed",
+                    "message": "Grading Complete!",
+                    "checked_copy_ready": True,
+                })
+        except Exception as e:
+            _update_status({
+                "status": "failed",
+                "stage": "recheck_failed",
+                "message": f"Recheck error: {e}",
+            })
+
+    t = threading.Thread(target=_run_recheck, daemon=True)
+    t.start()
+
+    return {"task_id": task_id, "status": "recheck_started"}
+
+
 @router.post("/patch/{task_id}")
 async def patch_pipeline_result(task_id: str, request: Request):
     """
