@@ -1315,7 +1315,7 @@ def _heading_ocr(path: str, page_num: int, pdf_h: float, q_num: str) -> float | 
         sub_let  = m_sub.group(2)
         sub_pat_str = (
             rf"(?:Q|Question|Ans\.?|Answer)\s*[#\s\-\.]*\s*{re.escape(base_n)}"
-            rf"\s*[\(\s]?{re.escape(sub_let)}[\)\s]?"
+            rf"[\(\s\.\-]*{re.escape(sub_let)}[\)\s\.\-]*"
         )
         pats.append(re.compile(sub_pat_str, re.IGNORECASE))
 
@@ -1425,7 +1425,7 @@ def _find_question_line_bounds(ocr_text: str, q_num: str) -> tuple[int, int]:
     if sub_letter:
         # Match formats like "4(a)", "4 a", "4a", "4 (a)"
         sub_pat = rf"(?:\({re.escape(sub_letter)}\)|{re.escape(sub_letter)})"
-        num_pat = rf"{re.escape(base_num)}\s*{sub_pat}"
+        num_pat = rf"{re.escape(base_num)}[\s\.\-]*{sub_pat}"
     else:
         num_pat = re.escape(base_num)
 
