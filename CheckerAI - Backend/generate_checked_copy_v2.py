@@ -2995,36 +2995,74 @@ def generate_checked_copy(
     c.save()
     doc.close()
 
-    # ── Merge overlay with original PDF (Using PyMuPDF with pypdf fallback) ────────
+    # ── Merge overlay with original PDF (3-tier: PyMuPDF → pypdf → raw copy) ──
     print("  Merging annotations…", flush=True)
     packet.seek(0)
-    
+    # Snapshot bytes so every fallback tier can access the overlay independently
+    # (each reader/library may consume the stream position differently)
+    _overlay_bytes = packet.read()
+
+    _merge_ok = False
+
+    # ── Tier 1: PyMuPDF ────────────────────────────────────────────────────────
+    _orig_doc    = None
+    _overlay_doc = None
     try:
-        orig_doc = fitz.open(pdf_path)
-        overlay_doc = fitz.open("pdf", packet.read())
-        
-        for i in range(len(orig_doc)):
-            if i < len(overlay_doc):
-                orig_doc[i].show_pdf_page(orig_doc[i].rect, overlay_doc, i, keep_proportion=True)
-                
+        _orig_doc    = fitz.open(pdf_path)
+        _overlay_doc = fitz.open("pdf", _overlay_bytes)
+        for i in range(len(_orig_doc)):
+            if i < len(_overlay_doc):
+                _orig_doc[i].show_pdf_page(
+                    _orig_doc[i].rect, _overlay_doc, i, keep_proportion=True
+                )
         os.makedirs(os.path.dirname(os.path.abspath(output_path)), exist_ok=True)
-        orig_doc.save(output_path)
-        orig_doc.close()
-        overlay_doc.close()
-    except Exception as e:
-        print(f"  ⚠ PyMuPDF merge failed ({e}), falling back to pypdf…", flush=True)
-        packet.seek(0)
-        reader = PdfReader(pdf_path)
-        overlay = PdfReader(packet)
-        out_writer = PdfWriter()
-        for i in range(len(reader.pages)):
-            pg = reader.pages[i]
-            if i < len(overlay.pages):
-                pg.merge_page(overlay.pages[i])
-            out_writer.add_page(pg)
-        os.makedirs(os.path.dirname(os.path.abspath(output_path)), exist_ok=True)
-        with open(output_path, "wb") as f:
-            out_writer.write(f)
+        _orig_doc.save(output_path)
+        _merge_ok = True
+        print("  ✓ Merged via PyMuPDF", flush=True)
+    except Exception as _e1:
+        print(f"  ⚠ PyMuPDF merge failed ({_e1}), trying pypdf fallback…", flush=True)
+    finally:
+        # Always close handles — critical on Windows/Docker to release file locks
+        try:
+            if _orig_doc is not None:
+                _orig_doc.close()
+        except Exception:
+            pass
+        try:
+            if _overlay_doc is not None:
+                _overlay_doc.close()
+        except Exception:
+            pass
+
+    # ── Tier 2: pypdf ──────────────────────────────────────────────────────────
+    if not _merge_ok:
+        try:
+            _reader  = PdfReader(pdf_path)
+            _overlay = PdfReader(io.BytesIO(_overlay_bytes))
+            _writer  = PdfWriter()
+            for i in range(len(_reader.pages)):
+                pg = _reader.pages[i]
+                if i < len(_overlay.pages):
+                    pg.merge_page(_overlay.pages[i])
+                _writer.add_page(pg)
+            os.makedirs(os.path.dirname(os.path.abspath(output_path)), exist_ok=True)
+            with open(output_path, "wb") as f:
+                _writer.write(f)
+            _merge_ok = True
+            print("  ✓ Merged via pypdf fallback", flush=True)
+        except Exception as _e2:
+            print(f"  ⚠ pypdf merge also failed ({_e2}), copying original PDF without annotations…", flush=True)
+
+    # ── Tier 3: raw copy (last resort — output is unannotated but not missing) ─
+    if not _merge_ok:
+        try:
+            import shutil
+            os.makedirs(os.path.dirname(os.path.abspath(output_path)), exist_ok=True)
+            shutil.copy2(pdf_path, output_path)
+            print(f"  ⚠ Saved unannotated copy to {output_path} (merge failed)", flush=True)
+        except Exception as _e3:
+            print(f"  ✗ All merge strategies failed. Last error: {_e3}", flush=True)
+            raise RuntimeError(f"Stage 7 merge completely failed: {_e3}") from _e3
 
     # ── v2: Save annotation manifest ──────────────────────────────────────────
     _manifest["generated_at"] = datetime.now().isoformat()
