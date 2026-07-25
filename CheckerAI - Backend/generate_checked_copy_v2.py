@@ -2995,21 +2995,36 @@ def generate_checked_copy(
     c.save()
     doc.close()
 
-    # ── Merge overlay with original PDF (Using PyMuPDF for robust merging) ────────
+    # ── Merge overlay with original PDF (Using PyMuPDF with pypdf fallback) ────────
     print("  Merging annotations…", flush=True)
     packet.seek(0)
     
-    orig_doc = fitz.open(pdf_path)
-    overlay_doc = fitz.open("pdf", packet.read())
-    
-    for i in range(len(orig_doc)):
-        if i < len(overlay_doc):
-            orig_doc[i].show_pdf_page(orig_doc[i].rect, overlay_doc, i, keep_proportion=True)
-            
-    os.makedirs(os.path.dirname(os.path.abspath(output_path)), exist_ok=True)
-    orig_doc.save(output_path)
-    orig_doc.close()
-    overlay_doc.close()
+    try:
+        orig_doc = fitz.open(pdf_path)
+        overlay_doc = fitz.open("pdf", packet.read())
+        
+        for i in range(len(orig_doc)):
+            if i < len(overlay_doc):
+                orig_doc[i].show_pdf_page(orig_doc[i].rect, overlay_doc, i, keep_proportion=True)
+                
+        os.makedirs(os.path.dirname(os.path.abspath(output_path)), exist_ok=True)
+        orig_doc.save(output_path)
+        orig_doc.close()
+        overlay_doc.close()
+    except Exception as e:
+        print(f"  ⚠ PyMuPDF merge failed ({e}), falling back to pypdf…", flush=True)
+        packet.seek(0)
+        reader = PdfReader(pdf_path)
+        overlay = PdfReader(packet)
+        out_writer = PdfWriter()
+        for i in range(len(reader.pages)):
+            pg = reader.pages[i]
+            if i < len(overlay.pages):
+                pg.merge_page(overlay.pages[i])
+            out_writer.add_page(pg)
+        os.makedirs(os.path.dirname(os.path.abspath(output_path)), exist_ok=True)
+        with open(output_path, "wb") as f:
+            out_writer.write(f)
 
     # ── v2: Save annotation manifest ──────────────────────────────────────────
     _manifest["generated_at"] = datetime.now().isoformat()
