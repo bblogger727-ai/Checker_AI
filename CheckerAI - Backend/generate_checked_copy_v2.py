@@ -796,8 +796,10 @@ def _find_largest_white_rect(
     import bisect
     px    = gray.load()
     x_lo  = int(img_w * 0.05)
-    x_hi  = int(img_w * 0.95)
+    x_hi  = min(int(img_w * 0.95), img_w - 1)  # clamp to valid pixel range
     width = x_hi - x_lo
+    if width <= 0:
+        return None
     excl_sorted = sorted(excluded_px_rows or [])
 
     def _row_excluded(r):
@@ -818,9 +820,10 @@ def _find_largest_white_rect(
             height = [0] * width
             continue
 
-        # Update column heights
+        # Update column heights (clamp col index as belt-and-braces defence)
         for ci in range(width):
-            if px[x_lo + ci, row] >= ink_thr:
+            col = min(x_lo + ci, img_w - 1)
+            if px[col, row] >= ink_thr:
                 height[ci] += 1
             else:
                 height[ci] = 0
