@@ -164,6 +164,48 @@ def _run_subprocess(task_id: str, cmd: list[str], output_dir: Path):
         _tasks[task_id]["error"]  = str(e)
 
 
+def _find_existing_job_dir(student_name: str, pipeline_type: str) -> Optional[Path]:
+    """
+    Find the most recent existing job folder in _JOBS_DIR for this student_name
+    and pipeline_type that already has OCR completed (3_ocr_output.txt or ocr_output.txt).
+    """
+    if not student_name or not student_name.strip():
+        return None
+    
+    safe_name = "".join([c if c.isalnum() else "_" for c in student_name.strip()]).strip("_")
+    if not safe_name or not _JOBS_DIR.exists():
+        return None
+        
+    matching_dirs = []
+    for job_dir in _JOBS_DIR.iterdir():
+        if not job_dir.is_dir():
+            continue
+        
+        is_match = False
+        meta_path = job_dir / "task_meta.json"
+        if meta_path.exists():
+            try:
+                meta = json.loads(meta_path.read_text(encoding="utf-8"))
+                if meta.get("student_name", "").strip() == student_name.strip() and meta.get("pipeline") == pipeline_type:
+                    is_match = True
+            except Exception:
+                pass
+        
+        # Also check folder prefix if meta wasn't checked or didn't match
+        if not is_match and job_dir.name.startswith(f"{safe_name}_"):
+            is_match = True
+            
+        if is_match:
+            has_ocr = (job_dir / "3_ocr_output.txt").exists() or (job_dir / "ocr_output.txt").exists()
+            if has_ocr:
+                matching_dirs.append(job_dir)
+                
+    if not matching_dirs:
+        return None
+        
+    return max(matching_dirs, key=lambda d: d.stat().st_mtime)
+
+
 # ══════════════════════════════════════════════════════════════════════════════
 # Run: Old Papers Checking (Claude pipeline)
 # ══════════════════════════════════════════════════════════════════════════════
@@ -181,10 +223,18 @@ async def run_old_pipeline(
     Returns immediately with a `task_id` — poll `/api/pipelines/status/{task_id}`
     for progress updates.
     """
-    safe_name = "".join([c if c.isalnum() else "_" for c in student_name.strip()]).strip("_")
-    task_id   = f"{safe_name}_{uuid.uuid4().hex}" if safe_name else uuid.uuid4().hex
-    output_dir = _JOBS_DIR / task_id
-    output_dir.mkdir(parents=True, exist_ok=True)
+    existing_dir = _find_existing_job_dir(student_name, "old")
+    if existing_dir:
+        output_dir = existing_dir
+        task_id = existing_dir.name
+        skip_to_val = 4
+        print(f"[REUSE JOB] Found existing OCR for student '{student_name}' in {output_dir}. Resuming with --skip-to 4.")
+    else:
+        safe_name = "".join([c if c.isalnum() else "_" for c in student_name.strip()]).strip("_")
+        task_id   = f"{safe_name}_{uuid.uuid4().hex}" if safe_name else uuid.uuid4().hex
+        output_dir = _JOBS_DIR / task_id
+        output_dir.mkdir(parents=True, exist_ok=True)
+        skip_to_val = 1
 
     # Save uploads
     qp_path = output_dir / "question_paper.pdf"
@@ -202,6 +252,16 @@ async def run_old_pipeline(
         "created_at":  time.time(),
     }
     (output_dir / "task_meta.json").write_text(json.dumps(meta, indent=2))
+    
+    result_file = output_dir / "result.json"
+    if result_file.exists():
+        try:
+            data = json.loads(result_file.read_text(encoding="utf-8"))
+            data["stage"] = "stage_4" if skip_to_val == 4 else "stage_1"
+            data["message"] = "Resuming pipeline from Stage 4 (Alignment)..." if skip_to_val == 4 else "Pipeline started..."
+            result_file.write_text(json.dumps(data, indent=2), encoding="utf-8")
+        except Exception:
+            pass
 
     # Kick off the subprocess in a background thread
     cmd = [
@@ -212,6 +272,7 @@ async def run_old_pipeline(
         "--as",         str(as_path),
         "--output-dir", str(output_dir),
         "--dataset",    f"old_{task_id[:8]}",
+        "--skip-to",    str(skip_to_val),
     ]
 
     _tasks[task_id] = {"status": "queued", "output_dir": str(output_dir), "pipeline": "old"}
@@ -250,10 +311,18 @@ async def run_new_pipeline(
     if not paper_path.exists():
         raise HTTPException(status_code=404, detail=f"Paper JSON not found: {ft_paper_path}")
 
-    safe_name = "".join([c if c.isalnum() else "_" for c in student_name.strip()]).strip("_")
-    task_id   = f"{safe_name}_{uuid.uuid4().hex}" if safe_name else uuid.uuid4().hex
-    output_dir = _JOBS_DIR / task_id
-    output_dir.mkdir(parents=True, exist_ok=True)
+    existing_dir = _find_existing_job_dir(student_name, "new")
+    if existing_dir:
+        output_dir = existing_dir
+        task_id = existing_dir.name
+        skip_to_val = 4
+        print(f"[REUSE JOB] Found existing OCR for student '{student_name}' in {output_dir}. Resuming with --skip-to 4.")
+    else:
+        safe_name = "".join([c if c.isalnum() else "_" for c in student_name.strip()]).strip("_")
+        task_id   = f"{safe_name}_{uuid.uuid4().hex}" if safe_name else uuid.uuid4().hex
+        output_dir = _JOBS_DIR / task_id
+        output_dir.mkdir(parents=True, exist_ok=True)
+        skip_to_val = 1
 
     # Save upload
     as_path = output_dir / "student_answersheet.pdf"
@@ -267,6 +336,16 @@ async def run_new_pipeline(
         "created_at":    time.time(),
     }
     (output_dir / "task_meta.json").write_text(json.dumps(meta, indent=2))
+    
+    result_file = output_dir / "result.json"
+    if result_file.exists():
+        try:
+            data = json.loads(result_file.read_text(encoding="utf-8"))
+            data["stage"] = "stage_4" if skip_to_val == 4 else "stage_1"
+            data["message"] = "Resuming pipeline from Stage 4 (Alignment)..." if skip_to_val == 4 else "Pipeline started..."
+            result_file.write_text(json.dumps(data, indent=2), encoding="utf-8")
+        except Exception:
+            pass
 
     cmd = [
         sys.executable,
@@ -275,6 +354,7 @@ async def run_new_pipeline(
         "--as",         str(as_path),
         "--output-dir", str(output_dir),
         "--dataset",    f"new_{task_id[:8]}",
+        "--skip-to",    str(skip_to_val),
     ]
 
     _tasks[task_id] = {"status": "queued", "output_dir": str(output_dir), "pipeline": "new"}

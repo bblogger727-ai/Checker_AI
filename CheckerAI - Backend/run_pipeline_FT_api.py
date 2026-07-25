@@ -371,19 +371,18 @@ def main():
 
     try:
         # Stage 1+2 FT
-        if args.skip_to <= 2:
+        swa_path = os.path.join(output_dir, "schema_with_answers.json")
+        if args.skip_to <= 2 or not os.path.exists(swa_path):
             _write_status(output_dir, "stage_1_2", "Building schema from FT paper JSON…")
             schema_with_answers = run_stage_1_2_FT(args.ft_paper_json, output_dir)
         else:
-            with open(os.path.join(output_dir, "schema_with_answers.json")) as f:
+            with open(swa_path) as f:
                 schema_with_answers = json.load(f)
             print("[SKIP] Stages 1+2")
 
         # Stage 3 FT
-        if args.skip_to <= 3:
-            _write_status(output_dir, "stage_3", "Running OCR on student answer sheet…")
-            ocr_text = run_stage_3_FT(output_dir, args.as_pdf)
-        else:
+        ocr_text = None
+        if args.skip_to > 3:
             for p in [os.path.join(output_dir, "3_ocr_output.txt"),
                       os.path.join(output_dir, "ocr_output.txt")]:
                 if os.path.exists(p):
@@ -391,6 +390,12 @@ def main():
                         ocr_text = f.read()
                     print(f"[SKIP] Stage 3 — loaded from {p}")
                     break
+
+        if ocr_text is None:
+            if args.skip_to > 3:
+                print("[WARNING] --skip-to > 3 specified but no saved OCR file found! Falling back to running OCR.")
+            _write_status(output_dir, "stage_3", "Running OCR on student answer sheet…")
+            ocr_text = run_stage_3_FT(output_dir, args.as_pdf)
 
         # Stage 4 FT
         if args.skip_to <= 4:

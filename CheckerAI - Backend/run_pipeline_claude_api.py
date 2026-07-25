@@ -225,28 +225,28 @@ def main():
 
     try:
         # ── Stage 1 ──
-        if args.skip_to <= 1:
+        schema_path = os.path.join(output_dir, "schema.json")
+        if args.skip_to <= 1 or not os.path.exists(schema_path):
             _write_status(output_dir, "stage_1", "Extracting question schema from Question Paper…")
             schema = run_stage_1_isolated(args.qp, output_dir)
         else:
-            with open(os.path.join(output_dir, "schema.json")) as f:
+            with open(schema_path) as f:
                 schema = json.load(f)
             print("[SKIP] Stage 1")
 
         # ── Stage 2 ──
-        if args.skip_to <= 2:
+        swa_path = os.path.join(output_dir, "schema_with_answers.json")
+        if args.skip_to <= 2 or not os.path.exists(swa_path):
             _write_status(output_dir, "stage_2", "Extracting model answers from Solution PDF…")
             schema_with_answers = run_stage_2_isolated(args.sa, schema, output_dir)
         else:
-            with open(os.path.join(output_dir, "schema_with_answers.json")) as f:
+            with open(swa_path) as f:
                 schema_with_answers = json.load(f)
             print("[SKIP] Stage 2")
 
         # ── Stage 3 ──
-        if args.skip_to <= 3:
-            _write_status(output_dir, "stage_3", "Running Claude Vision OCR on student answer sheet…")
-            ocr_text = run_stage_3_isolated(args.as_pdf, output_dir)
-        else:
+        ocr_text = None
+        if args.skip_to > 3:
             for p in [os.path.join(output_dir, "3_ocr_output.txt"),
                       os.path.join(output_dir, "ocr_output.txt")]:
                 if os.path.exists(p):
@@ -254,6 +254,12 @@ def main():
                         ocr_text = f.read()
                     print(f"[SKIP] Stage 3 — loaded from {p}")
                     break
+
+        if ocr_text is None:
+            if args.skip_to > 3:
+                print("[WARNING] --skip-to > 3 specified but no saved OCR file found! Falling back to running OCR.")
+            _write_status(output_dir, "stage_3", "Running Claude Vision OCR on student answer sheet…")
+            ocr_text = run_stage_3_isolated(args.as_pdf, output_dir)
 
         # ── Stage 4 ──
         if args.skip_to <= 4:
