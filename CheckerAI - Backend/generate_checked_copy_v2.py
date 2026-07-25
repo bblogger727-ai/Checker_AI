@@ -815,6 +815,10 @@ def _find_largest_white_rect(
     best_area = 0
     best_rect = None  # (col_start_in_zone, row_end, rect_w, rect_h)
 
+    # Hard-clamp row bounds to valid pixel range (callers may overshoot img_h)
+    row_top = max(0, min(row_top, img_h - 1))
+    row_bot = max(0, min(row_bot, img_h))
+
     for row in range(row_top, row_bot):
         if _row_excluded(row):
             height = [0] * width
@@ -2585,6 +2589,7 @@ def generate_checked_copy(
                 fb_row_bot = min(img_h - 1,  int(q_bot_frac2 * img_h))
 
                 fb_row_bot = max(fb_row_bot, fb_row_top + fb_need_h_px + 4)
+                fb_row_bot = min(fb_row_bot, img_h)  # never exceed image height
 
                 rect_result = _find_largest_white_rect(
                     gray, img_w, img_h, pdf_w, pdf_h,
