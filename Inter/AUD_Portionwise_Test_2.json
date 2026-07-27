@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "subject_code": "AUD",
+    "subject_name": "Auditing and Ethics",
+    "paper_num": "Portionwise_2",
+    "total_marks_printed": 50,
+    "total_marks_in_paper": 50,
+    "section_a_marks": 0,
+    "section_b_marks": 50,
+    "two_section_format": false,
+    "note": "Portionwise Test: Attempt all 5 questions. Each question carries 10 marks (6 + 4 split).",
+    "blacklisted_from": [],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)"
+    ]
+  },
+  "section_a": [],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "5",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Discuss the audit procedures generally required to be undertaken by the auditor while auditing Goods sent out on Sale or Return Basis.",
+          "answer": "The audit procedure generally required to be undertaken by the auditor while auditing Goods sent out on Sale or Return Basis is under:\n(i) Check whether a separate memoranda record of goods sent out on sale or return basis is maintained. The party accounts are debited only after the goods have been sold and the sales account is credited.\n(ii) Verify that price of goods sold is unloaded from the sales account and the trade receivables record. Check the memoranda record to confirm that on the receipt of acceptance from each party, his account has been debited and the sales account correspondingly credited.\n(iii) Ensure that the goods in respect of which the period of approval has expired at the end of the year, have either been received back or customers’ accounts have been debited.\n(iv) Confirm that the inventory of goods sent out on approval, the period of approval in respect of which had not expired till the end of the year lying with the party, has been included in the closing inventory.",
+          "chapter_number": "5",
+          "chapter_name": "Audit of Items of Financial Statements",
+          "unique_id": "5-TP-53"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "A Ltd. has traded for 50.00 Lacs in \"TETRA\", a virtual currency, during the F.Y. 20X1-20X2 and earned a profit of 20.00 Lacs on it. What disclosure requirements are prescribed for such type of transactions done by the company?",
+          "answer": "Disclosure of Crypto Currency or Virtual Currency:\nWhere the Company has traded or invested in Crypto currency or Virtual Currency during the financial year, the following shall be disclosed:\n(a) profit or loss on transactions involving Crypto currency or Virtual Currency\n(b) amount of currency held as at the reporting date,\n(c) deposits or advances from any person for the purpose of trading or investing in Crypto Currency/ virtual currency.\n\nExam Insights: Many students are unaware of Schedule III disclosure requirements for crypto/virtual currency and mistakenly refer to CARO. Always state the current Schedule III notes on virtual currency holdings and transactions.",
+          "chapter_number": "5",
+          "chapter_name": "Audit of Items of Financial Statements",
+          "unique_id": "5-TP-58"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "8",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Wave Services Limited is into the litigation relating to some legal action initiated by the industry regulator. The matter has reached jurisdictional High Court. Keeping in view uncertainty related to future outcome of matter, statutory auditor of the company has decided to include Emphasis of Matter (EOM) Paragraph in auditor’s report.  (i) Briefly discuss the considerations to be taken care of by the statutory auditor when EOM paragraph is included in auditor’s report.  (ii) State any two examples of circumstances where the auditor may consider it necessary to include an EOM paragraph.",
+          "answer": "(i) When including an Emphasis of Matter (EOM) paragraph in the auditor’s report, the statutory auditor should consider the following:\n\n1. **Relevance**: The matter should be relevant to the financial statements and should not be a matter that is already adequately disclosed in the financial statements.\n2. **Materiality**: The matter should be material to the financial statements, meaning it could influence the economic decisions of users taken on the basis of the financial statements.\n3. **Clarity**: The EOM paragraph should be clear and concise, providing sufficient information to understand the matter without being overly detailed.\n4. **No Modification**: The inclusion of an EOM paragraph does not modify the auditor’s opinion on the financial statements.\n5. **Disclosure**: The auditor should ensure that the matter is appropriately disclosed in the financial statements, and the EOM paragraph should refer to this disclosure.\n\n(ii) Two examples of circumstances where the auditor may consider it necessary to include an EOM paragraph are:\n\n1. **Significant Uncertainty**: When there is significant uncertainty regarding the outcome of a litigation or regulatory action that could have a material impact on the financial statements.\n2. **Going Concern**: When there are events or conditions that may cast significant doubt on the entity’s ability to continue as a going concern for a reasonable period of time.",
+          "chapter_number": "8",
+          "chapter_name": "Emphasis of Matter Paragraphs and Other Matter Paragraphs in the Independent Auditor's Report",
+          "unique_id": "8-TP-3"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "You have been appointed as the statutory auditor of a limited company. The company is registered as a Nidhi company. What are the reporting requirements of a Nidhi company under the Companies Auditor's Report Order, 2020?",
+          "answer": "Reporting requirements of a Nidhi Company under the CARO 2020: The auditor is required to report under clause (xii) of Paragraph 3 of CARO 2020:\n\n(a) whether the Nidhi Company has complied with the Net Owned Funds to Deposits in the ratio of 1:20 to meet out the liability;\n\n(b) whether the Nidhi Company is maintaining ten per cent. unencumbered term deposits as specified in the Nidhi Rules, 2014 to meet out the liability;\n\n(c) whether there has been any default in payment of interest on deposits or repayment thereof for any period and if so, the details thereof.\n\nExam insights: Many students list Nidhi Company reporting requirements but miss CARO 2020's specific ratios, percentages, and defaults on principal/interest. Always include the exact thresholds and repayment compliance in your answer.\n\nClause (xiii)-Related Parties",
+          "chapter_number": "8",
+          "chapter_name": "Companies Auditors Report Order, 2020 (CARO)",
+          "unique_id": "8-TP-15"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "7",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "During course of audit of a company, CA NP has noticed that company’s financial position is precarious. The management is unable to pay creditors in agreed timelines and bankers are also not enhancing its credit facilities as key financial ratios are adverse. He is of the view that events or conditions have been identified that may cast significant doubt on the entity’s ability to continue as a going concern. He wants to obtain sufficient appropriate audit evidence to determine whether or not a material uncertainty exists related to events or conditions that may cast significant doubt on the entity’s ability to continue as a going concern. Which additional procedures need to be performed by him in this regard in accordance with SA 570?",
+          "answer": "In accordance with SA 570, the auditor should perform the following additional procedures to obtain sufficient appropriate audit evidence regarding the entity’s ability to continue as a going concern:\n\n1. **Obtain and review management’s assessment of the entity’s ability to continue as a going concern**:\n   - Evaluate the process used by management to make the assessment.\n   - Consider the period of assessment, which should be at least 12 months from the date of the financial statements.\n\n2. **Evaluate the assumptions and forecasts made by management**:\n   - Assess the reasonableness of the assumptions used in the forecasts.\n   - Review the cash flow projections and the underlying data.\n\n3. **Consider the plans of management to mitigate the identified risks**:\n   - Evaluate the feasibility of the plans and whether they are likely to be implemented.\n   - Assess the adequacy of the plans in addressing the identified financial difficulties.\n\n4. **Review subsequent events**:\n   - Consider events occurring after the reporting period that may impact the entity’s ability to continue as a going concern.\n\n5. **Communicate with those charged with governance**:\n   - Discuss the findings and concerns regarding the entity’s ability to continue as a going concern.\n\n6. **Consider the adequacy of disclosures in the financial statements**:\n   - Ensure that the financial statements adequately disclose the material uncertainties related to going concern, if applicable.\n\nBy performing these procedures, the auditor can gather sufficient appropriate audit evidence to determine whether a material uncertainty exists regarding the entity’s ability to continue as a going concern.",
+          "chapter_number": "7",
+          "chapter_name": "Going Concern",
+          "unique_id": "7-TP-8"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "TED Ltd. has taken an office building on rent for its operations. The auditor wants to verify the rent expense recorded in the books. Describe the audit procedures that should be performed by you as an auditor to verify the rent expense.",
+          "answer": "Audit procedures to be performed by auditor to verify rent expenses:\n• Obtain a month wise expense schedule along with the rent agreements.\n• Verify if expense has been recorded for all 12 months and whether the rent amount is as per the underlying agreement.\n• Specific consideration should be given to escalation clause in the agreement to verify if the rent was required to be recorded on a straight - line basis during the period under audit.\n• Also, verify if the agreement is in the name of the entity and whether the expense pertains to premises used for running business operations of the entity.",
+          "chapter_number": "5",
+          "chapter_name": "Audit of Items of Financial Statements",
+          "unique_id": "5-TP-72"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "5",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "CA Piku has prepared audit documentation of an entity describing nature, timing and extent of audit procedures performed during the course of audit. In documenting nature, time and extent of audit procedures performed, which matters shall be recorded? He is also of the view that such documentation alone as described above meets requirements of Standards on Auditing. Comment upon validity of his views.",
+          "answer": "Ans.: Nature of Audit Documentation:\n\nIn documenting the nature, timing and extent of audit procedures performed, the auditor shall record:\n(a) The identifying characteristics of the specific items or matters tested.\n(b) Who performed the audit work and the date such work was completed; and\n(c) Who reviewed the audit work performed and the date and extent of such review.\n\nThe auditor shall prepare audit documentation that is sufficient to enable an experienced auditor, having no previous connection with the audit, to understand:\n(a) The nature, timing and extent of the audit procedures performed.\n(b) The results of the audit procedures performed, and the audit evidence obtained; and\n(c) Significant matters arising during the audit and the conclusions reached thereon and significant professional judgements made in reaching those conclusions.\n\nConclusion: All above matters shall be recorded to meet requirements of SA 230.\n\nDocumenting nature, time and extent of audit procedures performed alone does not meet the requirements of SA 230. Therefore, CA Piku’s views are not valid.",
+          "chapter_number": "5",
+          "chapter_name": "Audit of Items of Financial Statements",
+          "unique_id": "IMG-AUD2-Q4a"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "CA Rashmi is the auditor of ABC Ltd. for the financial year ending 31/03/2026. The audit report for the year was signed by her on 19/04/2026. On 25/04/2026, the company received a communication from the Central Government that an incentive amount of Rs. 5 crore pertaining to financial year 2025-26 was approved. It was paid to the company before the end of April 2026. The financial statements of the company were not yet issued to the shareholders. The Board of Directors wished to include the incentive amount in the financial statements and requested the auditor to issue a fresh audit report for the year ended 31/03/2026. Analyze the issue involved and give an overview of the auditor's responsibility in such a situation.",
+          "answer": "Facts Which Become Known to the Auditor After the Date of the Auditor’s Report but Before the Date the Financial Statements are Issued: As per SA 560, \"Subsequent Events\", the auditor has no obligation to perform any audit procedures regarding the financial statements after the date of the auditor’s report. However, when, after the date of the auditor’s report but before the date the financial statements are issued, a fact becomes known to the auditor that, had it been known to the auditor at the date of the auditor’s report, may have caused the auditor to amend the auditor’s report, the auditor shall\n\n(i) Discuss the matter with management and, where appropriate, those charged with governance.\n\n(ii) Determine whether the financial statements need amendment and, if so,\n\n(iii) Inquire how management intends to address the matter in the financial statements.\n\nIf management amends the financial statements, the auditor shall carry out the audit procedures necessary in the circumstances on the amendment. \n\nFurther, the auditor shall extend the audit procedures and provide a new auditor’s report on the amended financial statements. However, the new auditor’s report shall not be dated earlier than the date of approval of the amended financial statements.\n\nIn the instant case, ABC Ltd. received an amount of Rs. 5 crore on account of incentives pertaining to year 2025-26 in the month of April 2026 i.e. after finalization of financial statements and signing of audit report but before the issuance of Financial Statements to stakeholders. The Board of Directors of ABC Ltd. wished to amend the financial statements and requested the CA. Rashmi (auditor) to consider this event and issue a fresh audit report on the financial statements for the year ended on 31.03.2026. After applying the conditions given in SA 560, CA. Rashmi can issue new audit report subject to date of audit report which should not be earlier than the date of approval of the amended financial statements.\n\nExam insights: Many students misunderstand auditor responsibilities after the report date. Remember, the auditor isn’t required to perform additional procedures, and any new report cannot be dated earlier than the approval date of the amended financial statements.",
+          "chapter_number": "7",
+          "chapter_name": "Subsequent Events",
+          "unique_id": "7-TP-5"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "8",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Delightful Limited is required to present comparative financial statements for the year 2023-24 and 2024-25. CA Mohit has been appointed as the statutory auditor for the year 2024-25. While reviewing the financial statements of year 2023-24, he notices that the last year's financial statements contain an adverse opinion for the financial statement as a whole due to a misstatement in the evaluation and disclosure of the debtors. Guide CA Mohit for his duty regarding the treatment and addressing the issue while drafting his audit report. What disclosures is he required to make in this regard?",
+          "answer": "In the given case, CA Karan noticed that the last year's financial statements contain an adverse opinion for the financial statement as a whole due to a misstatement in the evaluation and disclosure of the debtors. If the auditor's report on the prior period, as previously issued, included an adverse opinion and the matter which gave rise to the modification is unresolved, the auditor shall modify the auditor’s opinion on the current period’s financial statements. In the Basis for Modification paragraph in the auditor’s report, the auditor shall either:  \n\n(i) Refer to both the current period’s figures and the corresponding figures in the description of the matter giving rise to the modification when the effects or possible effects of the matter on the current period’s figures are material;  \n\nor  \n\n(ii) In other cases, explain that the audit opinion has been modified because of the effects or possible effects of the unresolved matter on the comparability of the current period’s figures and the corresponding figures. Further, when comparative financial statements are presented, the auditor’s opinion shall refer to each period for which financial statements are presented and on which an audit opinion is expressed. If the financial statements of the prior period were audited by a predecessor auditor, in addition to expressing an opinion on the current period’s financial statements, the auditor shall state in an Other Matter paragraph:  \n\n(i) That the financial statements of the prior period were audited by a predecessor auditor;  \n(ii) The type of opinion expressed by the predecessor auditor and, if the opinion was modified, the reasons therefore; and  \n(iii) The date of that report,  \n\nExam insights: Many students miss the auditor’s duty in the Modification paragraph for comparative statements. Also, while they refer to the Other Matter paragraph, they often fail to specify what content should be included.",
+          "chapter_number": "8",
+          "chapter_name": "Modifications to the Opinion in the Independent Auditor’s Report",
+          "unique_id": "8-TP-9"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "CA Yash is conducting audit of a company for year 2025-26. The company is engaged in export of ethnic rugs to buyers in Europe. The audit is nearing completion in month of July 2026. However, it becomes known to the auditor that one of overseas buyers has made a legal claim against the company on 1st June 2026 for injury caused to a customer of one European buyer due to sub-standard dyes used in rugs of one lot of rugs shipped in August, 2025. The management of company has decided to agree to an out of court settlement of Rs. 5 crore to protect its reputation. The financial statements of the company are silent on this issue. Discuss, how, CA Yash should proceed to deal with above issue.",
+          "answer": "In the given case, the auditor has come to know of legal claim against the company before issue of audit report. It has also come to his knowledge that management of the company has agreed to an out of court settlement of Rs. 5 crore. It is an example of subsequent event between the date of the financial statements and the date of the auditor’s report as per SA 560.  Auditor’s responsibilities regarding subsequent events between the date of the financial statements and the date of the auditor’s report are as under:  • Perform audit procedures designed to obtain sufficient appropriate audit evidence that all events occurring between the date of the financial statements and the date of the auditor’s report that require adjustment of, or disclosure in, the financial statements have been identified.  If such subsequent events that require adjustment of, or disclosure in, the financial statements have been identified, it shall be determined whether each such event is appropriately reflected in those financial statements.  • Obtain a written representation from management or those charged with governance that all events occurring subsequent to the date of the financial statements and for which the applicable financial reporting framework requires adjustment or disclosure have been adjusted or disclosed.",
+          "chapter_number": "7",
+          "chapter_name": "Subsequent Events",
+          "unique_id": "7-TP-6"
+        }
+      ]
+    }
+  ]
+}

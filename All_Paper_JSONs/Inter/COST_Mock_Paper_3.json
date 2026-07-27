@@ -372,14 +372,28 @@
           "unique_id": "15-T-25"
         },
         {
-          "label": "b",
+          "label": "b_v1",
           "marks": 8,
           "internal_split": null,
-          "question": "Management of Tillu manufacturing co. is thinking of installing a costing system its company. What practical DIFFICULTIES management will expect and how management will OVERCOME the same? (MTP 5 Marks Aug'24,MP[5])",
+          "question": "[New Version - v1] “Calculation of variances in standard costing is not an end in itself, but a means to an end.” DISCUSS.",
+          "answer": "The crux of standard costing lies in variance analysis. Standard costing is the technique whereby standard costs are predetermined and subsequently compared with the recorded actual costs. It is a technique of cost ascertainment and cost control. It establishes predetermined estimates of the cost of products and services based on management’s standards of efficient operation. It thus lays emphasis on “what the cost should be”. These should be costs are when compared with the actual costs. The difference between standard cost and actual cost of actual output is defined as the variance.\n\nThe variance in other words in the difference between the actual performance and the standard performance. The calculations of variances are simple. A variance may be favourable or unfavourable. If the actual cost is less than the standard cost, the variance is favourable but if the actual cost is more than the standard cost, the variance will be unfavourable. They are easily expressible and do not provide detailed analysis to enable management of exercise control over them. It is not enough to know the figures of these variances from month to month. We in fact are required to trace their origin and causes of occurrence for taking necessary remedial steps to reduce / eliminate them.\n\nA detailed probe into the variance particularly the controllable variances helps the management to ascertain:\n(i) the amount of variance\n(ii) the factors or causes of their occurrence\n(iii) the responsibility to be laid on executives and departments and\n(iv) corrective actions which should be taken to obviate or reduce the variances.\n\nMere calculation and analysis of variances is of no use. The success of variance analysis depends upon how quickly and effectively the corrective actions can be taken on the analysed variances. In fact variance gives information. The manager needs to act on the information provided for taking corrective action. Information is the means and action taken on it is the end. In other words, the calculation of variances in standard costing is not an end in itself, but a means to an end.",
+          "chapter_number": "13",
+          "chapter_name": "STANDARD COSTING",
+          "unique_id": "pdf-mock3-q4b",
+          "or_group": "Q4b_v1_v2",
+          "question_id": "B-Q4-Q4b_v1"
+        },
+        {
+          "label": "b_v2",
+          "marks": 8,
+          "internal_split": null,
+          "question": "[Old Version - v2] Management of Tillu manufacturing co. is thinking of installing a costing system its company. What practical DIFFICULTIES management will expect and how management will OVERCOME the same? (MTP 5 Marks Aug'24,MP[5])",
           "answer": "The Practical difficulties with which a Cost Accountant is usually confronted with while installing a costing system in a manufacturing company are as follows:\n\n(i) Lack of top management support: Installation of a costing system does not receive the support of top management. They consider it as interference in their work. They believe that such, a system will involve additional paperwork. They also have a misconception in their minds that the system is meant for keeping a check on their activities.\n\n(ii) Resistance from cost accounting departmental staff: The staff resist because of fear of losing their jobs and importance after the implementation of the new system.\n\n(iii) Non co-operation from user departments: The foremen, supervisor and other staff members may not cooperate in providing requisite data, as this would not only add to their responsibilities but will also increase paperwork of the entire team as well.\n\n(iv) Shortage of trained staff: Since cost accounting system's installation involves specialised work, there may be a shortage of trained staff.\n\nTo overcome these practical difficulties, necessary steps required are:\n\n- Sell the idea to top management and convince them of the utility of the system.\n\n- Resistance and non co-operation can be overcome by behavioural approach. To deal with the staff concerned effectively.\n\n- Proper training should be given to the staff at each level\n\n- Regular meetings should be held with the cost accounting staff, user departments, staff and top management to clarify their doubts/ misgivings.",
           "chapter_number": "7",
           "chapter_name": "COST ACCOUNTING SYSTEMS",
-          "unique_id": "7-T-12"
+          "unique_id": "7-T-12",
+          "or_group": "Q4b_v1_v2",
+          "question_id": "B-Q4-Q4b_v2"
         }
       ]
     },
@@ -432,34 +446,76 @@
       "chapter_number": "1",
       "sub_questions": [
         {
-          "label": "a",
+          "label": "a_v1",
+          "marks": 5,
+          "internal_split": null,
+          "question": "[New Version - v1] STATE cost unit of the following Industry Sector: (Oil, Professional services, Education, Brick-making, Engineering, Electricity, Hotel/Catering, Coal mining, Brewing, Hospitals)",
+          "answer": "| Service industry | Cost Unit |\n| :--- | :--- |\n| Oil | Cost per barrel, Cost per gallon/litre |\n| Professional Services | Per service/project, per hour |\n| Education | Per course, per student, per batch, per lecture etc. |\n| Brick-making | Per brick, per thousand bricks |\n| Engineering | Per project, per hour, per job, per contract |\n| Electricity | per kilowatt-hour (kWh) |\n| Hotel/Catering | Guest Days or Room Days, Per item, per meal etc. |\n| Coal Mining | Per ton, per quintal |\n| Brewing | per gallon/litre, per barrel |\n| Hospital | Patient per day, room per day or per bed, per operation etc. |",
+          "chapter_number": "1",
+          "chapter_name": "INTRODUCTION TO COST AND MANAGEMENT ACCOUNTING",
+          "unique_id": "pdf-mock3-q6a",
+          "or_group": "Q6a_v1_v2",
+          "question_id": "B-Q6-Q6a_v1"
+        },
+        {
+          "label": "a_v2",
           "marks": 4,
           "internal_split": null,
-          "question": "B Ltd manufactures two products viz., X and Y and sells them through two divisions, East and West. For the purpose of Sales Budget to the Budget Committee, following information has been made available for the year 2022-23:\n\n| Product | Budgeted Sales          | Actual Sales          |\n|---------|------------------------|-----------------------|\n|         | East Division | West Division | East Division | West Division |\n| X       | 800 units at ₹18 | 1,200 units at ₹18 | 1,000 units at ₹18 | 1,400 units at ₹18 |\n| Y       | 600 units at ₹42 | 1,000 units at ₹42 | 400 units at ₹42 | 800 units at ₹42 |\n\nAdequate market studies reveal that product X is popular but underpriced. It is expected that if the price of X is increased by ₹2, it will find a ready market. On the other hand, Y is overpriced and if the price of Y is reduced by ₹2, it will have more demand in the market. The company management has agreed for the aforesaid price changes. On the basis of these price changes and the reports of salesmen, following estimates have been prepared by the Divisional Managers:\n\nPercentage increase in sales over budgeted sales:\n\n| Product | East Division | West Division |\n|---------|---------------|---------------|\n| X       | +12.5%       | +7.5%        |\n| Y       | +22.5%       | +12.5%       |\n\nWith the help of the intensive advertisement campaign, following additional sales (over and above the above mentioned estimated sales by Divisional Managers) are possible:\n\n| Product | East Division | West Division |\n|---------|---------------|---------------|\n| X       | 120 units     | 140 units     |\n| Y       | 80 units      | 100 units     |\n\nYou are required to prepare Sales Budget 2023 - 2024 after incorporating above estimates and also show the Budgeted Sales and Actual Sales of 2022 - 2023.",
+          "question": "[Old Version - v2] B Ltd manufactures two products viz., X and Y and sells them through two divisions, East and West. For the purpose of Sales Budget to the Budget Committee, following information has been made available for the year 2022-23:\n\n| Product | Budgeted Sales          | Actual Sales          |\n|---------|------------------------|-----------------------|\n|         | East Division | West Division | East Division | West Division |\n| X       | 800 units at ₹18 | 1,200 units at ₹18 | 1,000 units at ₹18 | 1,400 units at ₹18 |\n| Y       | 600 units at ₹42 | 1,000 units at ₹42 | 400 units at ₹42 | 800 units at ₹42 |\n\nAdequate market studies reveal that product X is popular but underpriced. It is expected that if the price of X is increased by ₹2, it will find a ready market. On the other hand, Y is overpriced and if the price of Y is reduced by ₹2, it will have more demand in the market. The company management has agreed for the aforesaid price changes. On the basis of these price changes and the reports of salesmen, following estimates have been prepared by the Divisional Managers:\n\nPercentage increase in sales over budgeted sales:\n\n| Product | East Division | West Division |\n|---------|---------------|---------------|\n| X       | +12.5%       | +7.5%        |\n| Y       | +22.5%       | +12.5%       |\n\nWith the help of the intensive advertisement campaign, following additional sales (over and above the above mentioned estimated sales by Divisional Managers) are possible:\n\n| Product | East Division | West Division |\n|---------|---------------|---------------|\n| X       | 120 units     | 140 units     |\n| Y       | 80 units      | 100 units     |\n\nYou are required to prepare Sales Budget 2023 - 2024 after incorporating above estimates and also show the Budgeted Sales and Actual Sales of 2022 - 2023.",
           "answer": "1. Statement Showing Sales Budget for 2023-24  \n135  \n\n| Division | Product X         |                | Product Y         | Total          |\n|----------|-------------------|----------------|-------------------|----------------|\n|          | Qty. | Rate (₹) | Amount (₹) | Qty. | Rate (₹) | Amount (₹) | Amount (₹) |\n| East     | 1,020 | 20      | 20,400      | 815  | 40      | 32,600      | 53,000       |\n| West     | 1,430 | 20      | 28,600      | 1,225 | 40      | 49,000      | 77,600       |\n| Total    | 2,450 | -       | 49,000      | 2,040 | -       | 81,600      | 1,30,600     |\n\nWorking notes:  \nCalculation of budgeted sales of product X for 2023 - 24 in units:  \nEast division = (800 units + 12.5% + 120 units) = 1,020 units  \nWest division = (1,200 units + 7.5% + 140 units) = 1,430 units  \n\nCalculation of budgeted sales of product Y for 2022 - 23 in units:  \nEast division = (600 units + 22.5% + 80 units) = 815 units  \nWest division = (1,000 units + 12.5% + 100 units) = 1,225 units  \n\n2. Statement Showing Sales Budget for 2022 - 23  \n\n| Division | Product X         |                | Product Y         | Total          |\n|----------|-------------------|----------------|-------------------|----------------|\n|          | Qty. | Rate (₹) | Amount (₹) | Qty. | Rate (₹) | Amount (₹) | Amount (₹) |\n| East     | 800  | 18      | 14,400      | 600  | 42      | 25,200      | 39,600       |\n| West     | 1,200| 18      | 21,600      | 1,000| 42      | 42,000      | 63,600       |\n| Total    | 2,000| -       | 36,000      | 1,600| -       | 67,200      | 1,03,200     |\n\n3. Statement Showing Actual Sales for 2022 - 23  \n\n| Division | Product X         |                | Product Y         | Product Y      | Amount (₹) |\n|----------|-------------------|----------------|-------------------|----------------|-------------|\n|          | Qty. | Rate (₹) | Amount (₹) | Qty. | Rate (₹) | Amount (₹) | Amount (₹) |\n| East     | 1,300| 18      | 18,600      | 400  | 42      | 16,800      | 34,800      |\n| West     | 1,400| 18      | 25,200      | 800  | 42      | 33,600      | 58,800      |\n| Total    | 2,400| -       | 43,200      | 1,200| -       | 50,400      | 93,600      |",
           "chapter_number": "15",
           "chapter_name": "BUDGETARY CONTROL",
-          "unique_id": "BQ-92"
+          "unique_id": "BQ-92",
+          "or_group": "Q6a_v1_v2",
+          "question_id": "B-Q6-Q6a_v2"
         },
         {
-          "label": "b",
+          "label": "b_v1",
           "marks": 5,
           "internal_split": null,
-          "question": "Question 44 (PYP5 Marks Sep'25)\n\nThe following information relates to two workers - Ajoy and Bijoy who are engaged in producing the same product by using the same material:\n\n| Time allowed to make the product: | 40 hours |\n| :--- | :--- |\n| Actual time taken to complete the product | 32 hours by Ajoy |\n|  | 30 hours by Bijoy |\n| Normal Wage Rate | Same for both |\n\n| Bonus payment plan | Halsey 50\\% plan for Ajoy Rowan plan for Bijoy |\n| :--- | :--- |\n| Factory overhead recovered | @ Rs. 360 per hour for actual time taken by each worker. |\n| Factory cost for the product for each worker | Rs. 1,24,800 Ajoy <br> Rs. 1,24,800 Bijoy |\n\n## Required:\n\n(i) Compute the normal hourly wage rate.\n\n(ii) Compute the cost of material used.",
+          "question": "[New Version - v1] DESCRIBE Unit Costing and Batch Costing. GIVE three examples of industries for each method where these are used. Also, EXPLAIN the costing procedure in batch costing.",
+          "answer": "Unit costing is that method of costing where the output produced is identical and each unit of output requires identical cost. Under this method costs, are collected and analysed element wise and then total cost per unit is ascertained by dividing the total cost with the number of units produced.\n\nSuch a method of costing is used in the industries like paper, cement, steel works, mining, breweries etc.\n\nBatch Costing: Batch Costing is a type of specific order costing where articles are manufactured in predetermined lots, known as batch. Cost per unit in a batch is ascertained by dividing the total cost of a batch by the number of units produced in that batch.\n\nSuch a method of costing is used in the case of pharmaceutical or drug industries, readymade garment industries, industries, manufacturing electronic parts of T.V. radio sets etc.\n\nCosting Procedure in Batch Costing: To facilitate convenient cost determination, one number is allotted for each batch. Material cost for the batch is arrived at on the basis of material requisitions for the batch and labour cost is arrived at by multiplying the time spent on the batch by direct workers as ascertained from time cards or job tickets. Overheads are absorbed on some suitable basis like machine hours, direct labour hours etc.",
+          "chapter_number": "10",
+          "chapter_name": "UNIT & BATCH COSTING",
+          "unique_id": "pdf-mock3-q6b",
+          "or_group": "Q6b_v1_v2",
+          "question_id": "B-Q6-Q6b_v1"
+        },
+        {
+          "label": "b_v2",
+          "marks": 5,
+          "internal_split": null,
+          "question": "[Old Version - v2] Question 44 (PYP5 Marks Sep'25)\n\nThe following information relates to two workers - Ajoy and Bijoy who are engaged in producing the same product by using the same material:\n\n| Time allowed to make the product: | 40 hours |\n| :--- | :--- |\n| Actual time taken to complete the product | 32 hours by Ajoy |\n|  | 30 hours by Bijoy |\n| Normal Wage Rate | Same for both |\n\n| Bonus payment plan | Halsey 50\\% plan for Ajoy Rowan plan for Bijoy |\n| :--- | :--- |\n| Factory overhead recovered | @ Rs. 360 per hour for actual time taken by each worker. |\n| Factory cost for the product for each worker | Rs. 1,24,800 Ajoy <br> Rs. 1,24,800 Bijoy |\n\n## Required:\n\n(i) Compute the normal hourly wage rate.\n\n(ii) Compute the cost of material used.",
           "answer": "Step 1: Let $X$ be the cost of material and $Y$ be the normal rate of wages per hour.\n\nStep 2: Factory Cost of Worker 'Ajoy'\n\n|  | (Rs.) |\n| :--- | :--- |\n| A. Material Cost | X |\n| B. Wages (Halsey Plan) | 32 Y |\n| C. Bonus $=50 \\%$ of $(\\mathrm{SH}-\\mathrm{AH}) \\times \\mathrm{R}$ | 4 Y |\n| $=50 \\%$ of $(40-32) \\times R$ |  |\n| D. Overheads (32 hours × Rs. 360 per hour) | 11,520 |\n| E. Factory Cost | 1,24,800 |\n| Or $\\mathrm{X}+36 \\mathrm{Y}=Rs. 1,24,800$ (Given) - Rs.11,520 = Rs. 1,13,280............equation (i) |  |\n\n\n\nStep 3 : Factory Cost of Worker 'Bijoy'\n\n|  | (Rs.) |\n| :--- | :--- |\n| A. Material Cost | X |\n| B. Wages (Rowan Plan) | 30 Y |\n| C. Bonus $=\\frac{30}{40} \\times(40-30) \\times \\mathrm{Y}$ | 7.5 Y |\n| D. Overheads (30 hours × Rs. 360 per hour)) | 10,800 |\n| E. Factory Cost | 1,24,800 |\n| Or $\\mathrm{X}+37.5 \\mathrm{Y}=Rs. 1,24,800$ (Given) $-Rs. 10,800=Rs. 1,14,000$.........equation (ii) |  |\n\n\n\nStep 4: Subtracting equation (i) from equation (ii)\n\n1.5Y = Rs. 720\n\n$\\mathrm{Y}=Rs. 480$ per hour\n\n(a) The normal rate of wages: $Rs. 480$ per hour\n\n(b) The cost of material: $X+36 \\times Rs. 480=Rs. 1,13,280$\n\nOr $X=Rs. 1,13,280-Rs. 17,280=Rs. 96,000$\n\nStatement of the Factory Cost of the product made by the two workers\n\n|  | ‘Ajoy’ (Rs.) | ‘Bijoy’ (Rs.) |\n| :--- | :--- | :--- |\n| Material cost | 96,000 | 96,000 |\n| Direct Wages | 15,360 ( $32 \\times Rs. 480$ ) | 14,400 ( $30 \\times Rs. 480$ ) |\n| Bonus | 1,920 ( $4 \\times Rs. 480$ ) | 3,600 ( $7.5 \\times Rs. 480$ ) |\n| Factory Overhead | 11,520 | 10,800 |\n| Factory Cost | 1,24,800 | 1,24,800 |",
           "chapter_number": "3",
           "chapter_name": "EMPLOYEE COST AND DIRECT EXPENSES",
-          "unique_id": "3-T-44"
+          "unique_id": "3-T-44",
+          "or_group": "Q6b_v1_v2",
+          "question_id": "B-Q6-Q6b_v2"
         },
         {
-          "label": "c",
+          "label": "c_v1",
+          "marks": 4,
+          "internal_split": null,
+          "question": "[New Version - v1] DESCRIBE briefly idle time and explain the treatment of idle time in cost accounts in following situations:\n(i) The setting up time for the machine in case of Direct Worker Mr. A.\n(ii) Normal break time for lunch in case of Indirect Worker Mr. B.\n(iii) Time lost due to breakdown of machine in case of Worker Mr. C.",
+          "answer": "The time during which no production is carried-out because the worker remains idle but are paid. In other words, it is the difference between the time paid and the time booked. Idle time can be normal or abnormal.\n\n| Situation | Idle Time | Treatment |\n| :--- | :--- | :--- |\n| The setting up time for the machine in case of Direct Worker Mr. A | Normal idle time | It is treated as a part of cost of production. It is to be considered while setting of standard hours or standard rate. |\n| Normal rest time, break time for lunch in case of Indirect Worker Mr. B | Normal idle time | It is to be considered for the computation of overhead rate. |\n| Time lost due to breakdown of machines in case of Worker Mr. C | Abnormal idle time | It is to be shown as a separate item in the Costing Profit and Loss Account. |",
+          "chapter_number": "3",
+          "chapter_name": "EMPLOYEE COST AND DIRECT EXPENSES",
+          "unique_id": "pdf-mock3-q6c",
+          "or_group": "Q6c_v1_v2",
+          "question_id": "B-Q6-Q6c_v1"
+        },
+        {
+          "label": "c_v2",
           "marks": 5,
           "internal_split": null,
-          "question": "What is meant by cost driver? Give its different categories. Suggest suitable cost drivers (at least two) in the following business functions:\n\n(i) Distribution\n\n(ii) Research and Development\n\n(iii) Customer services\n\n## Question 3 (PYP 5 Marks Nov'23)",
+          "question": "[Old Version - v2] What is meant by cost driver? Give its different categories. Suggest suitable cost drivers (at least two) in the following business functions:\n\n(i) Distribution\n\n(ii) Research and Development\n\n(iii) Customer services\n\n## Question 3 (PYP 5 Marks Nov'23)",
           "answer": "Meaning of Cost Driver: A Cost driver is a factor or variable which effect level of cost. Generally, it is an activity which is responsible for cost incurrence. Level of activity or volume of production is the example of a cost driver. An activity may be an event, task, or unit of work etc. There are two categories of cost driver.\n\n- Resource Cost Driver - It is a measure of the quantity of resources consumed by an activity. It is used to assign the cost of a resource to an activity or cost pool.\n\n- Activity Cost Driver - It is a measure of the frequency and intensity of demand, placed on activities by cost objects. It is used to assign activity costs to cost objects.\n\n| Business Function | Cost drivers |\n| :--- | :--- |\n| Distribution | Number of units distributed, Number of customers |\n| Research and Development | Number of research projects, personnel hours on a project, technical complexities of the projects. |\n| Customer service | Number of service calls, number of products serviced, hours spent in servicing of products. |",
           "chapter_number": "5",
           "chapter_name": "ACTIVITY BASED COSTING",
-          "unique_id": "5-T-3"
+          "unique_id": "5-T-3",
+          "or_group": "Q6c_v1_v2",
+          "question_id": "B-Q6-Q6c_v2"
         }
       ]
     }

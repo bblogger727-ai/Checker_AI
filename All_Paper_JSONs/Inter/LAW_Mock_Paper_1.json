@@ -33,7 +33,25 @@
           },
           "correct_option": "b",
           "answer": "(b)",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v1"
+        },
+        {
+          "q_num": "1_v2",
+          "question": "Based on the financial metrics of GlobalTech Pvt. Ltd., is the company required to constitute a Corporate Social Responsibility (CSR) Committee for the financial year 2025-2026?",
+          "options": {
+            "a": "Yes, because its net worth exceeds ₹ 500 crore.",
+            "b": "No, because it has not met the required net profit criteria.",
+            "c": "Yes, because its turnover exceeds ₹ 1,000 crore.",
+            "d": "No, because its net profit is less than ₹ 5 crore."
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": "1_v2",
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v2"
         },
         {
           "q_num": 2,
@@ -46,7 +64,25 @@
           },
           "correct_option": "a",
           "answer": "(a)",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v1"
+        },
+        {
+          "q_num": "2_v2",
+          "question": "Given that GlobalTech Pvt. Ltd. has $₹ 30$ lakh in its Unspent Corporate Social Responsibility Account, which of the following statements is true?",
+          "options": {
+            "a": "The company is not required to constitute a CSR Committee if it has unspent CSR funds.",
+            "b": "The company must constitute a CSR Committee in Financial year 2026-2027, as it has balance in Unspent CSR account.",
+            "c": "The company can use the unspent funds for any other business activity.",
+            "d": "The company must transfer the unspent amount to the Prime Minister's National Relief Fund."
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": "2_v2",
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v2"
         },
         {
           "q_num": 3,
@@ -59,7 +95,25 @@
           },
           "correct_option": "b",
           "answer": "(b)",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v1"
+        },
+        {
+          "q_num": "3_v2",
+          "question": "If GlobalTech Pvt. Ltd. had an average net profit of ₹ 5 crore over the past three immediately preceding financial years, what is the minimum amount it must spend on CSR activities in the financial year 20262027?",
+          "options": {
+            "a": "₹ 5 lakh",
+            "b": "₹ 10 lakh",
+            "c": "₹ 20 lakh",
+            "d": "₹ 30 lakh"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": "3_v2",
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v2"
         }
       ],
       "mcq_count": 3,
@@ -69,7 +123,7 @@
       "type": "case_study",
       "chapter_number": "16",
       "chapter_name": "CASE SCENARIOS",
-      "case_text": "## CS 5 (MTP 6 Marks April 23) (Chapter 8 Declaration \\& Payment of Dividend)\n\n\nWaste Papers Ltd. is company engaged in the business of collecting waste papers and old newspapers and manufacture from these wastes the corrugated boxes which are used in packing of the products by various suppliers. The company is earning good profit margin and paying dividend consistently, which can be seen by the following information:\n\n\n₹ in Lakh)\n\n| Year | Payment of dividend | B237317 aid-up share capital | Free Reserves |\n| :--- | :--- | :--- | :--- |\n| 2015-16 to 2020-21 | 10 | 100 | 45 |\n| 2021-22 | 15 | 100 | 60 |\n| 2022-23 | 20 | 100 | 75 |\n| 2023-24 | 22 | 100 | 95 |\n| 2024-25 | 24 | 100 | 120 |\n\n\nDuring the year 2025-26, the company's business was severally affected due to low demand of the corrugated boxes on account of recession situation (slow- down of economy) prevailing all over the country. The company showed a loss of ₹ 20 lakh in the annual accounts.\n\nHowever, the company wants to maintain its image of consistently dividend paying company and for this year also, it also wants to declare dividend. The company have accumulated free reserves in its hand and want to declare dividend @ 26\\% (since there is increasing trend of $\\mathbf{2} \\boldsymbol{\\%}$ from the preceding years).\n\nDuring the year 2025-26, Somesh, a shareholder of the company died due to cardiac arrest. He was having 10,000 shares in his D-mat account in which he has made nomination in favour of his son Romesh. When Romesh applied for transmission of the shares, his sister Sanjana, objected and filed a case in the court that she also has right in the property of her father and mere making of nomination do not dilute the rights of the legal heirs to claim share in the property. The matter is sub-judice in the court of law awaiting decision.\n\nThe company has business dealing with Mahesh Kumar, who is also a shareholder of the company. The company has supplied some goods to Mahesh Kumar worth ₹ 10,000 , but he was not making payment to the company. The company while making payment of the dividend to Mahesh Kumar deducted the due amount, and as a result, nothing was payable to Mahesh Kumar towards the dividend. Mahesh Kumar threated to take action against the company.\n\nBased on the above facts, answer the following MCQs\n\n\n1. Whether Waste Papers Ltd, who suffered losses in year 2025-26, can make payment of dividend to the shareholders:\n\n(a) In case of losses, the company can't pay dividend\n\n(b) Company may pay dividend out of profits of previous years (which are free reserves), subject to the fulfilment of conditions prescribed for declaration of dividend when there is inadequacy of profits in a\nparticular year\n\n(c) Company may dividend out of Asset Revaluation Reserve Account\n\n(d) Company may dividend without any restriction as it has enough amount in its Free reserves\n\n\nAns: (b)\n\n2. Romesh (son of the deceased) made a complaint, that even after declaration of dividend, the company has not posted the dividend warrant at the address given in his transmission form. Which is the most correct statement in this regard:\n\n(a) The company is not liable to pay dividend to a deceased person\n\n(b) The company is not liable to pay dividend to the legal heirs of the deceased person\n\n(c) The company should deposit the dividend in the court, where the matter is under consideration\n\n(d) The company is not liable where there is a dispute regarding the right to receive the dividend.\n\n\nAns: (d)\n\n3. In the given case, the amount due to be recovered from Mahesh Kumar was deducted by the company and nothing was now payable to him on account of dividend. Is the action of the company right:\n\n(a) No, payment of dividend is a separate matter and should not be clubbed with any other matter\n\n(b) Yes, Mahesh Kumar can take action against the company for not paying any dividend to him\n\n(c) The company can adjust the any sum, due to it, from the shareholder\n\n(d) The company should take into confidence and consent of Mahesh Kumar's family members to adjust its dues\n\nAns: (c)",
+      "case_text": "## CS 5 (MTP 6 Marks April 23) (Chapter 8 Declaration & Payment of Dividend)\n\nWaste Papers Ltd. is company engaged in the business of collecting waste papers and old newspapers and manufacture from these wastes the corrugated boxes which are used in packing of the products by various suppliers. The company is earning good profit margin and paying dividend consistently, which can be seen by the following information:\n\n₹ in Lakh)\n\n| Year | Payment of dividend | B237317 aid-up share capital | Free Reserves |\n| :--- | :--- | :--- | :--- |\n| 2015-16 to 2020-21 | 10 | 100 | 45 |\n| 2021-22 | 15 | 100 | 60 |\n| 2022-23 | 20 | 100 | 75 |\n| 2023-24 | 22 | 100 | 95 |\n| 2024-25 | 24 | 100 | 120 |\n\nDuring the year 2025-26, the company's business was severally affected due to low demand of the corrugated boxes on account of recession situation (slow- down of economy) prevailing all over the country. The company showed a loss of ₹ 20 lakh in the annual accounts.\n\nHowever, the company wants to maintain its image of consistently dividend paying company and for this year also, it also wants to declare dividend. The company have accumulated free reserves in its hand and want to declare dividend @ 26\\% (since there is increasing trend of $\\mathbf{2} \\boldsymbol{\\%}$ from the preceding years).\n\nDuring the year 2025-26, Somesh, a shareholder of the company died due to cardiac arrest. He was having 10,000 shares in his D-mat account in which he has made nomination in favour of his son Romesh. When Romesh applied for transmission of the shares, his sister Sanjana, objected and filed a case in the court that she also has right in the property of her father and mere making of nomination do not dilute the rights of the legal heirs to claim share in the property. The matter is sub-judice in the court of law awaiting decision.\n\nThe company has business dealing with Mahesh Kumar, who is also a shareholder of the company. The company has supplied some goods to Mahesh Kumar worth ₹ 10,000 , but he was not making payment to the company. The company while making payment of the dividend to Mahesh Kumar deducted the due amount, and as a result, nothing was payable to Mahesh Kumar towards the dividend. Mahesh Kumar threated to take action against the company.",
       "questions": [
         {
           "q_num": 1,
@@ -82,7 +136,25 @@
           },
           "correct_option": "b",
           "answer": "b",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v1"
+        },
+        {
+          "q_num": "1_v2",
+          "question": "Based on the financial metrics of GlobalTech Pvt. Ltd., is the company required to constitute a Corporate Social Responsibility (CSR) Committee for the financial year 2025-2026?",
+          "options": {
+            "a": "Yes, because its net worth exceeds ₹ 500 crore.",
+            "b": "No, because it has not met the required net profit criteria.",
+            "c": "Yes, because its turnover exceeds ₹ 1,000 crore.",
+            "d": "No, because its net profit is less than ₹ 5 crore."
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": "1_v2",
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v2"
         },
         {
           "q_num": 2,
@@ -95,7 +167,25 @@
           },
           "correct_option": "d",
           "answer": "d",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v1"
+        },
+        {
+          "q_num": "2_v2",
+          "question": "Given that GlobalTech Pvt. Ltd. has $₹ 30$ lakh in its Unspent Corporate Social Responsibility Account, which of the following statements is true?",
+          "options": {
+            "a": "The company is not required to constitute a CSR Committee if it has unspent CSR funds.",
+            "b": "The company must constitute a CSR Committee in Financial year 2026-2027, as it has balance in Unspent CSR account.",
+            "c": "The company can use the unspent funds for any other business activity.",
+            "d": "The company must transfer the unspent amount to the Prime Minister's National Relief Fund."
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": "2_v2",
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v2"
         },
         {
           "q_num": 3,
@@ -108,7 +198,25 @@
           },
           "correct_option": "c",
           "answer": "c",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v1"
+        },
+        {
+          "q_num": "3_v2",
+          "question": "If GlobalTech Pvt. Ltd. had an average net profit of ₹ 5 crore over the past three immediately preceding financial years, what is the minimum amount it must spend on CSR activities in the financial year 20262027?",
+          "options": {
+            "a": "₹ 5 lakh",
+            "b": "₹ 10 lakh",
+            "c": "₹ 20 lakh",
+            "d": "₹ 30 lakh"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": "3_v2",
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v2"
         }
       ],
       "mcq_count": 3,
@@ -118,7 +226,7 @@
       "type": "case_study",
       "chapter_number": "16",
       "chapter_name": "CASE SCENARIOS",
-      "case_text": "## CS 6 (RTP May '22 \\& SM) (Chapter 8 Declaration \\& Payment of Dividend)\n\nPerfect Tyres and Rubbers Ltd. is a listed entity engaged in the business of manufacturing of tyres and tubes for Light and Heavy Commercial Vehicles. During the financial year 2025-26, the company has declared interim dividend of $5 \\%$ on the equity shares in its Board meeting held on 17th October, 2025, out of the profits earned during the first quarter of FY 2025-26. Further, the Board of Directors of the company after reviewing results of the fourth quarter of FY 2025-26 again recommended for second Interim Dividend @ 5\\% on 25th April, 2026. The Board of Directors of the company approved the financial result for the FY 2025-26 in its meeting held on 5th August, 2026, and recommended a final dividend of $15 \\%$ (including the interim dividends paid earlier) in this board meeting. The general meeting of the shareholders was convened on 31st August, 2026. The shareholders of the company demanded that since interim dividend @ $10 \\%(5 \\%+5 \\%)$ was declared by the company, so the final dividend should not be less than $20 \\%$ (including the interim dividends). When the Company Secretary emphasised that final dividend cannot exceed, what the Board of Directors have recommended in their board meeting, some of the shareholders boycotted the meeting and moved out of the meeting hall, in protest of the company's decision. However, the agenda for declaration of the dividend was passed unanimously by rest of the shareholders present in the meeting hall, fulfilling the criteria of requirement of quorum, as per the provisions of the Companies Act, 2013.\n\nAfter approval of the shareholders, the dividend amount was paid to the shareholders, however dividend to some of the shareholders could not be paid within the prescribed period for variety of reasons. The company transferred the unpaid dividend amount to a separate bank account on 15th October, 2026.\n\nThe details of the unpaid dividend amount for the previous year's lying in the unpaid dividend account is as under:\n\n\n| S. No. | Dividend pertaining to the FY | Date of declaration of Dividend | Date when the amount was transferred to Unpaid dividend Account | Amount lying in the Unpaid Dividend Account (₹ in lakhs) |\n| :--- | :--- | :--- | :--- | :--- |\n| 1 | 2025-26 | 31.08.2026 | 15.10.2026 | 92.50 |\n| 2 | 2024-25 | 25.08.2025 | 28.09.2025 | 85.14 |\n| 3 | 2023-24 | 20.08.2024 | 22.09.2024 | 80.00 |\n| 4 | 2022-23 | 05.09.2023 | 07.10.2023 | 75.25 |\n| 5 | 2021-22 | 01.09.2022 | 04.10.2022 | 45.15 |\n| 6 | 2020-21 | 07.09.2021 | 09.10.2021 | 35.26 |\n| 7 | 2019-20 | 05.05.2020 | 08.06.2020 | 15.10 |\n| 8. | 2018-19 | 06.06.2019 | 08.07.2019 | 07.25 |\n\nSustram, one of the investors who is holding 1000 shares in physical form, by visiting web- site of the company, came to know that company had declared the dividends in some previous years, but have not been paid to him. This happened due to the fact the company was not having his current address and bank account details. Sustram approached the company, along with all the supporting evidence to his claim and demanded the dividend amount.\n\nThe company after being satisfied, paid all the dividend amount pertaining to the FY 2019-20 to FY 2025-26. However, for FY 2018-19, the company informed that since the amount of dividend has been transferred to Investor Education and Protection Fund, it cannot be taken back now. Aggrieved from this, Sustram threatened the company officials to take appropriate legal action.\n\nBased on the above facts, answer the following MCQs:\n\n\n1. When the shareholders demanded for increase in the rate of dividend, but since the shareholders cannot increase the rate of dividend what the Board of Directors have recommended, some of them walked out of the meeting hall. What shall be the consequences of it:\n\n(a) If, even after boycott, quorum is present, all the time during the course of general meeting and they have approved with majority, the rate recommended by the Board shall be treated as approved.\n\n(b) Members present at the beginning of the meeting shall remain present all the time during the general meeting, to approve any agenda, else it will be treated as nullified.\n\n(c) The approval of the dividend is an ordinary business resolution of the company, so if some of the members have boycotted the meeting, it will have no effect, even if the quorum is not present.\n\n(d) The recommendation of the Board of Directors of the company relating to the rate of dividend shall stands withdrawn.\n\n\n## Ans:(a)\n\n2. At which date, the unpaid dividend not claimed by the shareholders, shall be transferred to a separate bank account, in the above case:\n\n(a) On 5th August, 2026 (the date of Meeting of Board)\n\n(b) On 31st August, 2026 (the date of Meeting of Shareholders)\n\n(c) On 30th September, 2026 (the date, after 30 days from the meeting of shareholders)\n\n(d) Latest by 7th October, 2026 (within seven days from the date of expiry of 30 days)\n\nAns: (d)\n\n3. The company transferred the amount of unpaid dividend to a separate bank account on 15th October, 2026. What is the interest liability on the part of the company?\n\n(a) No liability.\n\n(b) Interest @ 10\\% p.a. on so much of the amount as has not been transferred to the Unpaid Dividend Account.\n\n(c) Interest @ 12\\% p.a. on so much of the amount as has not been transferred to the Unpaid Dividend Account.\n\n(d) Interest @ 15\\% p.a. on so much of the amount as has not been transferred to the Unpaid Dividend Account.\n\n\n## Ans:(c)\n\n4. In the given case, when and how much amount, the company shall transfer the funds to the Investor Education and Protection Fund:\n\n(a) Four years after 01.09.2022; Rs 45.15 lakh\n\n(b) Five years after 07.09.2021; Rs 35.26 lakh\n\n(c) Six years after 05.05.2020 ₹ 15.10 lakh\n\n(d) Seven years after 08.07.2019: ₹ 07.25 lakh\n\n\nAns: (d)",
+      "case_text": "## CS 6 (RTP May '22 & SM) (Chapter 8 Declaration & Payment of Dividend)\n\nPerfect Tyres and Rubbers Ltd. is a listed entity engaged in the business of manufacturing of tyres and tubes for Light and Heavy Commercial Vehicles. During the financial year 2025-26, the company has declared interim dividend of $5 \\%$ on the equity shares in its Board meeting held on 17th October, 2025, out of the profits earned during the first quarter of FY 2025-26. Further, the Board of Directors of the company after reviewing results of the fourth quarter of FY 2025-26 again recommended for second Interim Dividend @ 5\\% on 25th April, 2026. The Board of Directors of the company approved the financial result for the FY 2025-26 in its meeting held on 5th August, 2026, and recommended a final dividend of $15 \\%$ (including the interim dividends paid earlier) in this board meeting. The general meeting of the shareholders was convened on 31st August, 2026. The shareholders of the company demanded that since interim dividend @ $10 \\%(5 \\%+5 \\%)$ was declared by the company, so the final dividend should not be less than $20 \\%$ (including the interim dividends). When the Company Secretary emphasised that final dividend cannot exceed, what the Board of Directors have recommended in their board meeting, some of the shareholders boycotted the meeting and moved out of the meeting hall, in protest of the company's decision. However, the agenda for declaration of the dividend was passed unanimously by rest of the shareholders present in the meeting hall, fulfilling the criteria of requirement of quorum, as per the provisions of the Companies Act, 2013.\n\nAfter approval of the shareholders, the dividend amount was paid to the shareholders, however dividend to some of the shareholders could not be paid within the prescribed period for variety of reasons. The company transferred the unpaid dividend amount to a separate bank account on 15th October, 2026.\n\nThe details of the unpaid dividend amount for the previous year's lying in the unpaid dividend account is as under:\n\n| S. No. | Dividend pertaining to the FY | Date of declaration of Dividend | Date when the amount was transferred to Unpaid dividend Account | Amount lying in the Unpaid Dividend Account (₹ in lakhs) |\n| :--- | :--- | :--- | :--- | :--- |\n| 1 | 2025-26 | 31.08.2026 | 15.10.2026 | 92.50 |\n| 2 | 2024-25 | 25.08.2025 | 28.09.2025 | 85.14 |\n| 3 | 2023-24 | 20.08.2024 | 22.09.2024 | 80.00 |\n| 4 | 2022-23 | 05.09.2023 | 07.10.2023 | 75.25 |\n| 5 | 2021-22 | 01.09.2022 | 04.10.2022 | 45.15 |\n| 6 | 2020-21 | 07.09.2021 | 09.10.2021 | 35.26 |\n| 7 | 2019-20 | 05.05.2020 | 08.06.2020 | 15.10 |\n| 8. | 2018-19 | 06.06.2019 | 08.07.2019 | 07.25 |\n\nSustram, one of the investors who is holding 1000 shares in physical form, by visiting web- site of the company, came to know that company had declared the dividends in some previous years, but have not been paid to him. This happened due to the fact the company was not having his current address and bank account details. Sustram approached the company, along with all the supporting evidence to his claim and demanded the dividend amount.\n\nThe company after being satisfied, paid all the dividend amount pertaining to the FY 2019-20 to FY 2025-26. However, for FY 2018-19, the company informed that since the amount of dividend has been transferred to Investor Education and Protection Fund, it cannot be taken back now. Aggrieved from this, Sustram threatened the company officials to take appropriate legal action.",
       "questions": [
         {
           "q_num": 1,
@@ -131,7 +239,25 @@
           },
           "correct_option": "a",
           "answer": "(a)",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v1"
+        },
+        {
+          "q_num": "1_v2",
+          "question": "Based on the financial metrics of GlobalTech Pvt. Ltd., is the company required to constitute a Corporate Social Responsibility (CSR) Committee for the financial year 2025-2026?",
+          "options": {
+            "a": "Yes, because its net worth exceeds ₹ 500 crore.",
+            "b": "No, because it has not met the required net profit criteria.",
+            "c": "Yes, because its turnover exceeds ₹ 1,000 crore.",
+            "d": "No, because its net profit is less than ₹ 5 crore."
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": "1_v2",
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v2"
         },
         {
           "q_num": 2,
@@ -144,7 +270,25 @@
           },
           "correct_option": "d",
           "answer": "(d)",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v1"
+        },
+        {
+          "q_num": "2_v2",
+          "question": "Given that GlobalTech Pvt. Ltd. has $₹ 30$ lakh in its Unspent Corporate Social Responsibility Account, which of the following statements is true?",
+          "options": {
+            "a": "The company is not required to constitute a CSR Committee if it has unspent CSR funds.",
+            "b": "The company must constitute a CSR Committee in Financial year 2026-2027, as it has balance in Unspent CSR account.",
+            "c": "The company can use the unspent funds for any other business activity.",
+            "d": "The company must transfer the unspent amount to the Prime Minister's National Relief Fund."
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": "2_v2",
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v2"
         },
         {
           "q_num": 3,
@@ -157,7 +301,25 @@
           },
           "correct_option": "c",
           "answer": "(c)",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v1"
+        },
+        {
+          "q_num": "3_v2",
+          "question": "If GlobalTech Pvt. Ltd. had an average net profit of ₹ 5 crore over the past three immediately preceding financial years, what is the minimum amount it must spend on CSR activities in the financial year 20262027?",
+          "options": {
+            "a": "₹ 5 lakh",
+            "b": "₹ 10 lakh",
+            "c": "₹ 20 lakh",
+            "d": "₹ 30 lakh"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": "3_v2",
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v2"
         },
         {
           "q_num": 4,
@@ -170,7 +332,25 @@
           },
           "correct_option": "d",
           "answer": "(d)",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_4_v1_v2",
+          "question_id": "A-MCQ-4_v1"
+        },
+        {
+          "q_num": "4_v2",
+          "question": "GlobalTech Pvt. Ltd. must ensure that the administrative overheads do not exceed a certain percentage of the total CSR expenditure. What is this percentage?",
+          "options": {
+            "a": "$2 \\%$",
+            "b": "$5 \\%$",
+            "c": "$10 \\%$",
+            "d": "$15 \\%$"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": "4_v2",
+          "or_group": "MCQ_4_v1_v2",
+          "question_id": "A-MCQ-4_v2"
         }
       ],
       "mcq_count": 4,
@@ -274,7 +454,7 @@
           "marks": 5,
           "internal_split": null,
           "question": "PRT Ltd. is an eligible public company. The following details are available from its audited balance sheet as on 31st March 2024: • Paid-up Share Capital: ₹20 crore • Free Reserves: ₹8 crore • Securities Premium Account: ₹2 crore The company is planning to accept deposits of ₹3 crore from its members and ₹2 crore from persons other than members. Advise the company on whether it can accept these deposits as per the relevant provisions of the Companies Act, 2013.",
-          "answer": "As per section 76 read with Rule 3 of the Companies (Acceptance of Deposits) Rules, 2014, an eligible company is permitted to accept deposits subject to certain limits:\n• From its Members: The amount of such deposit together with outstanding deposits from the members as on the date of acceptance or renewal should not exceed ten percent of the aggregate of the paid-up share capital, free reserves and securities premium account.\n• From Persons other than its Members: The amount of such deposits together with the amount of outstanding deposits (excluding deposits from members) as on the date of acceptance or renewal should not exceed twenty-five percent of the aggregate of the paid-up share capital, free reserves and securities premium account.\n\nHere’s the extracted text from the table in markdown format:\n\n```markdown\n| Category         | Maximum Limit               | Exiting deposits | Proposed deposits | Maximum further permissible deposits still allowable |\n|------------------|-----------------------------|------------------|------------------|-----------------------------------------------------|\n| From Members     | 10% of ₹ 30 crore = ₹ 3 crore | ₹ 2 crore        | ₹ 3 crore        | ₹ 1 crore                                           |\n```\n\nHere’s the extracted text from the table in markdown format:\n\n```markdown\n| From Public | 25% of ₹ 30 crore = ₹ 7.5 crore | ₹ 5 crore | ₹ 2 crore | ₹ 2.5 crore |\n|-------------|----------------------------------|-----------|-----------|-------------|\n```\n\nAnd the additional text below the table:\n\n```markdown\nIn view of the above, the company's proposal to accept ₹ 3 crore from members is incorrect & ₹ 2 crore from persons other than members (general public) is correct.\n```",
+          "answer": "As per section 76 read with Rule 3 of the Companies (Acceptance of Deposits) Rules, 2014, an eligible company is permitted to accept deposits subject to certain limits:\n• From its Members: The amount of such deposit together with outstanding deposits from the members as on the date of acceptance or renewal should not exceed ten percent of the aggregate of the paid-up share capital, free reserves and securities premium account.\n• From Persons other than its Members: The amount of such deposits together with the amount of outstanding deposits (excluding deposits from members) as on the date of acceptance or renewal should not exceed twenty-five percent of the aggregate of the paid-up share capital, free reserves and securities premium account.\n\n| Category | Maximum Limit | Exiting deposits | Proposed deposits | Maximum further permissible deposits still allowable |\n| :--- | :--- | :--- | :--- | :--- |\n| From Members | 10% of ₹ 30 crore = ₹ 3 crore | ₹ 2 crore | ₹ 3 crore | ₹ 1 crore |\n| From Public | 25% of ₹ 30 crore = ₹ 7.5 crore | ₹ 5 crore | ₹ 2 crore | ₹ 2.5 crore |\n\nIn view of the above, the company's proposal to accept ₹ 3 crore from members is incorrect & ₹ 2 crore from persons other than members (general public) is correct.",
           "chapter_number": "5",
           "chapter_name": "ACCEPTANCE OF DEPOSITS BY COMPANIES",
           "unique_id": "BQ-2"
@@ -394,14 +574,28 @@
           "unique_id": "BQ-13"
         },
         {
-          "label": "c",
+          "label": "c_v1",
           "marks": 5,
           "internal_split": null,
-          "question": "Vivit Limited has entered into a contract with Su Limited. You are invited to read and interpret the document of contract. What rules of interpretation of deeds and documents would you apply while doing so? (MTP 3 Marks April'22, SM)",
+          "question": "[New Version - v1] Vivitsu Limited has entered into a contract with Su Limited. You are invited to read and interpret the document of contract. What rules of interpretation of deeds and documents would you apply while doing so? (MTP 3 Marks April'22, SM)",
           "answer": "The rules regarding interpretation of deeds and documents are as follows: First and the foremost point that has to be borne in mind is that one has to find out what reasonable man, who has taken care to inform himself of the surrounding circumstances of a deed or a document, and of its scope and intendments, would understand by the words used in that deed or document. It is inexpedient to construe the terms of one deed by reference to the terms of another. Further, it is well established that the same word cannot have two different meanings in the same documents, unless the context compels the adoption of such a rule. The Golden Rule is to ascertain the intention of the parties of the instrument after considering all the words in the documents/deed concerned in their ordinary, natural sense. For this purpose, the relevant portions of the document have to be considered as a whole. The circumstances in which the particular words have been used have also to be taken into account. Very often, the status and training of the parties using the words have also to be taken into account as the same words maybe used by an ordinary person in one sense and by a trained person or a specialist in quite another sense and a special sense. It has also to be considered that very many words are used in more than one sense. It may happen that the same word understood in one sense will give effect to all the clauses in the deed while taken in another sense might render one or more of the clauses ineffective. In such a case the word should be understood in the former and not in the latter sense. It may also happen that there is a conflict between two or more clauses of the same documents. An effect must be made to resolve the conflict by interpreting the clauses so that all the clauses are given effect. If, however, it is not possible to give effect of all of them, then it is the earlier clause that will override the latter one.",
           "chapter_number": "14",
           "chapter_name": "INTERPRETATION OF STATUTES",
-          "unique_id": "14-T-40"
+          "unique_id": "14-T-40",
+          "or_group": "Q4c_v1_v2",
+          "question_id": "B-Q4-Q4c_v1"
+        },
+        {
+          "label": "c_v2",
+          "marks": 5,
+          "internal_split": null,
+          "question": "[Old Version - v2] Vivit Limited has entered into a contract with Su Limited. You are invited to read and interpret the document of contract. What rules of interpretation of deeds and documents would you apply while doing so? (MTP 3 Marks April'22, SM)",
+          "answer": "The rules regarding interpretation of deeds and documents are as follows: First and the foremost point that has to be borne in mind is that one has to find out what reasonable man, who has taken care to inform himself of the surrounding circumstances of a deed or a document, and of its scope and intendments, would understand by the words used in that deed or document. It is inexpedient to construe the terms of one deed by reference to the terms of another. Further, it is well established that the same word cannot have two different meanings in the same documents, unless the context compels the adoption of such a rule. The Golden Rule is to ascertain the intention of the parties of the instrument after considering all the words in the documents/deed concerned in their ordinary, natural sense. For this purpose, the relevant portions of the document have to be considered as a whole. The circumstances in which the particular words have been used have also to be taken into account. Very often, the status and training of the parties using the words have also to be taken into account as the same words maybe used by an ordinary person in one sense and by a trained person or a specialist in quite another sense and a special sense. It has also to be considered that very many words are used in more than one sense. It may happen that the same word understood in one sense will give effect to all the clauses in the deed while taken in another sense might render one or more of the clauses ineffective. In such a case the word should be understood in the former and not in the latter sense. It may also happen that there is a conflict between two or more clauses of the same documents. An effect must be made to resolve the conflict by interpreting the clauses so that all the clauses are given effect. If, however, it is not possible to give effect of all of them, then it is the earlier clause that will override the latter one.",
+          "chapter_number": "14",
+          "chapter_name": "INTERPRETATION OF STATUTES",
+          "unique_id": "14-T-40",
+          "or_group": "Q4c_v1_v2",
+          "question_id": "B-Q4-Q4c_v2"
         }
       ]
     },
@@ -412,14 +606,28 @@
       "chapter_number": "8",
       "sub_questions": [
         {
-          "label": "a",
+          "label": "a_v1",
           "marks": 4,
           "internal_split": null,
-          "question": "Referring to the provisions of the Companies Act, 2013, examine the validity of the following: The Board of Directors of VIVITZU Tractors Limited proposes to declare dividend at the rate of $20oldsymbol{\text{\textperthousand}}$ to the equity shareholders, despite the fact that the company has defaulted in repayment of public deposits accepted before the commencement of this Act. (SM)",
+          "question": "[New Version - v1] Referring to the provisions of the Companies Act, 2013, examine the validity of the following: The Board of Directors of VIVITZU Tractors Limited proposes to declare dividend at the rate of $20\\boldsymbol{\\text{\\textperthousand}}$ to the equity shareholders, despite the fact that the company has defaulted in repayment of public deposits accepted before the commencement of this Act. (SM)",
           "answer": "Section 123(6) of the Companies Act, 2013, specifically provides that a company which fails to comply with the provisions of section 73 (Prohibition of acceptance of deposits from public) and section 74 (Repayment of deposits, etc., accepted before the commencement of this Act) shall not, so long as such failure continues, declare any dividend on its equity shares.\n\nIn the given instance, the Board of Directors of VIVITZU Tractors Limited proposes to declare dividend at the rate of $20oldsymbol{\text{\textperthousand}}$ to the equity shareholders, in spite of the fact that the company has defaulted in repayment of public deposits accepted before the commencement of the Companies Act, 2013. Hence, according to the above provision, declaration of dividend by the VIVITZU Tractors Limited is not valid.",
           "chapter_number": "8",
           "chapter_name": "DECLARATION AND PAYMENT OF DIVIDEND",
-          "unique_id": "8-T-6"
+          "unique_id": "8-T-6",
+          "or_group": "Q5a_v1_v2",
+          "question_id": "B-Q5-Q5a_v1"
+        },
+        {
+          "label": "a_v2",
+          "marks": 4,
+          "internal_split": null,
+          "question": "[Old Version - v2] Referring to the provisions of the Companies Act, 2013, examine the validity of the following: The Board of Directors of VIVITZU Tractors Limited proposes to declare dividend at the rate of $20oldsymbol{\text{\textperthousand}}$ to the equity shareholders, despite the fact that the company has defaulted in repayment of public deposits accepted before the commencement of this Act. (SM)",
+          "answer": "Section 123(6) of the Companies Act, 2013, specifically provides that a company which fails to comply with the provisions of section 73 (Prohibition of acceptance of deposits from public) and section 74 (Repayment of deposits, etc., accepted before the commencement of this Act) shall not, so long as such failure continues, declare any dividend on its equity shares.\n\nIn the given instance, the Board of Directors of VIVITZU Tractors Limited proposes to declare dividend at the rate of $20oldsymbol{\text{\textperthousand}}$ to the equity shareholders, in spite of the fact that the company has defaulted in repayment of public deposits accepted before the commencement of the Companies Act, 2013. Hence, according to the above provision, declaration of dividend by the VIVITZU Tractors Limited is not valid.",
+          "chapter_number": "8",
+          "chapter_name": "DECLARATION AND PAYMENT OF DIVIDEND",
+          "unique_id": "8-T-6",
+          "or_group": "Q5a_v1_v2",
+          "question_id": "B-Q5-Q5a_v2"
         },
         {
           "label": "b",
@@ -470,10 +678,26 @@
           "unique_id": "9-T-18"
         },
         {
-          "label": "c",
+          "label": "c_v1",
           "marks": 5,
           "internal_split": null,
-          "question": "Murari Lal, a person resident outside India, has invested in four residential immovable properties under construction in Kolkata. Each property is negotiated at ` 2 crore, with the companies owned by builders. This amount is to be paid in two instalments as 60% on immediate basis on booking and the balance on possession of the properties. The above transaction is done by the companies owned by builders through two brokers from USA on commission basis. Mr. Murari Lal as per the terms and conditions remitted 60% of the amount of all four immovable properties directly to the company. Answer the following explaining the provisions of the Foreign Exchange Management Act (FEMA), 1999: (i) Whether investment by Mr. Murari Lal and payment of commission on this transaction is permissible? (ii) How much maximum amount of commission can be paid to each broker without RBI approval?",
+          "question": "[New Version - v1] | Situation |\n|-----------|\n| Murari Lal, a person resident outside India, has invested in four residential immovable properties under construction in Kolkata. Each property is negotiated at ₹2 crore, with the companies owned by builders. This amount is to be paid in two instalments as 60% on immediate basis on booking and the balance on possession of the properties. The above transaction is done by the companies owned by builders through two brokers from USA on commission basis. Mr. Murari Lal as per the terms and conditions remitted 60% of the amount of all four immovable properties directly to the company. |\n\n| Question |\n|-----------|\n| Answer the following explaining the provisions of the Foreign Exchange Management Act (FEMA), 1999:  \n(i) Whether investment by Mr. Murari Lal and payment of commission on this transaction is permissible?  \n(ii) How much maximum amount of commission can be paid to each broker without RBI approval? |",
+          "answer": "| Provision |\n|-----------|\n| The investment in immovable properties in India by Mr. Murari Lal, a resident outside India, is a Capital Account Transaction which is permissible as per Schedule II of the Foreign Exchange Management (Permissible Capital Account Transactions) Regulations, 2000 which permits Acquisition and Transfer of Immovable Property in India by a Person Resident Outside India. |\n\n| Commission Rules |\n|-------------------|\n| According to Schedule III to Foreign Exchange Management (Current Account Transactions) Rules, 2000, remittances by persons other than individuals shall require prior approval of the Reserve Bank of India if Commission, per transaction, to agents abroad for sale of residential flats or commercial plots in India exceeds USD 25,000 or five percent of the inward remittance whichever is more. |\n\n| Answers |\n|---------|\n| (i) Yes, the investment by Mr. Murari Lal and payment of commission on this transaction is permissible. |\n\n| Commission Calculation |\n|-------------------------|\n| (ii) Calculation of maximum commission that can be paid without the approval of RBI. The maximum amount of commission that can be paid to each broker for each transaction, without RBI approval is, more of- USD 25,000 or ₹ 6 lakh [i.e. 5% of (60% of 2 crore)]. Thus, ₹ 6,00,000 can be paid to each broker as commission without taking any prior approval of the RBI. |",
+          "chapter_number": "15",
+          "chapter_name": "THE FOREIGN EXCHANGE MANAGEMENT ACT, 1999",
+          "unique_id": "BQ-14",
+          "or_question": {
+            "question": "Ms. Milap resided in India for 182 days during the financial year 2023-2024. She then went to the UK on 1st April 2024 and returned on 1st July 2025. Determine the residential status of Ms. Milap for the financial years 2024-25 and 2025-26 under Section 2(v) of FEMA 1999. (MTP 6 Marks, Sep '22)",
+            "answer": "As per Section 2(v) of the Foreign Exchange Management Act, 1999, \"Person Resident in India\" means: a person residing in India for more than 182 days during the course of the preceding financial year but does not include- (A) a person who has gone out of India or who stays outside India, in either case- (a) for or on taking up employment outside India, or (b) for carrying on outside India a business or vocation outside India, or (c) for any other purpose, in such circumstances as would indicate his intention to stay outside India for an uncertain period; (B) a person who has come to or stays in India, in either case, otherwise than: (a) for or on taking up employment in India, or (b) for carrying on in India a business or vocation in India, or (c) for any other purpose, in such circumstances as would indicate his intention to stay in India for an uncertain period; In line with the above definition, Residential status of Milap for the financial years will be as follows: (i) For FY 2024-2025: As in the preceding year 2023-2024, Milap resided for 182 days which is not in compliance with the requirement of number of days of her stay (for more than 182 days). Here, residential status of Milap is a Person resident outside India. For FY 2025-2026: In the preceding year 2024-2025, Milap has not resided in India as she went to UK on 1st April 2024 and returned on 1st July 2025. In this case also, the residential status of Milap is a person resident outside India."
+          },
+          "or_group": "Q6c_v1_v2",
+          "question_id": "B-Q6-Q6c_v1"
+        },
+        {
+          "label": "c_v2",
+          "marks": 5,
+          "internal_split": null,
+          "question": "[Old Version - v2] Murari Lal, a person resident outside India, has invested in four residential immovable properties under construction in Kolkata. Each property is negotiated at ` 2 crore, with the companies owned by builders. This amount is to be paid in two instalments as 60% on immediate basis on booking and the balance on possession of the properties. The above transaction is done by the companies owned by builders through two brokers from USA on commission basis. Mr. Murari Lal as per the terms and conditions remitted 60% of the amount of all four immovable properties directly to the company. Answer the following explaining the provisions of the Foreign Exchange Management Act (FEMA), 1999: (i) Whether investment by Mr. Murari Lal and payment of commission on this transaction is permissible? (ii) How much maximum amount of commission can be paid to each broker without RBI approval?",
           "answer": "The investment in immovable properties in India by Mr. Murari Lal, a resident outside India, is a Capital Account Transaction which is permissible as per Schedule II of the Foreign Exchange Management (Permissible Capital Account Transactions) Regulations, 2000 which permits Acquisition and Transfer of Immovable Property in India by a Person Resident Outside India.\nAccording to Schedule III to Foreign Exchange Management (Current Account Transactions) Rules, 2000, remittances by persons other than individuals shall require prior approval of the Reserve Bank of India if Commission, per transaction, to agents abroad for sale of residential flats or commercial plots in India exceeds USD 25,000 or five percent of the inward remittance whichever is more. As per the facts of the question and mentioned provisions, the following are the answers to the questions asked: (i) Yes, the investment by Mr. Murari Lal and payment of commission on this transaction is permissible. (ii) Calculation of maximum commission that can be paid without the approval of RBI. The maximum amount of commission that can be paid to each broker for each transaction, without RBI approval is, more of- USD 25,000 or ` 6 lakh [i.e. 5% of (60% of 2 crore)]. Thus, ` 6,00,000 can be paid to each broker as commission without taking any prior approval of the RBI.",
           "chapter_number": "15",
           "chapter_name": "THE FOREIGN EXCHANGE MANAGEMENT ACT, 1999",
@@ -481,7 +705,9 @@
           "or_question": {
             "question": "Determine the residential status of Ms. Milap for the financial years 2024-25 and 2025-26 under Section 2(v) of FEMA 1999. (MTP 6 Marks, Sep '22)",
             "answer": "As per Section 2(v) of the Foreign Exchange Management Act, 1999, \"Person Resident in India\" means: a person residing in India for more than 182 days during the course of the preceding financial year but does not include- (A) a person who has gone out of India or who stays outside India, in either case- (a) for or on taking up employment outside India, or (b) for carrying on outside India a business or vocation outside India, or (c) for any other purpose, in such circumstances as would indicate his intention to stay outside India for an uncertain period; (B) a person who has come to or stays in India, in either case, otherwise than: (a) for or on taking up employment in India, or (b) for carrying on in India a business or vocation in India, or (c) for any other purpose, in such circumstances as would indicate his intention to stay in India for an uncertain period; In line with the above definition, Residential status of Milap for the financial years will be as follows: (i) For FY 2024-2025: As in the preceding year 2023-2024, Milap resided for 182 days which is not in compliance with the requirement of number of days of her stay (for more than 182 days). Here, residential status of Milap is a Person resident outside India. For FY 2025-2026: In the preceding year 2024-2025, Milap has not resided in India as she went to UK on 1st April 2024 and returned on 1st July 2025. In this case also, the residential status of Milap is a person resident outside India."
-          }
+          },
+          "or_group": "Q6c_v1_v2",
+          "question_id": "B-Q6-Q6c_v2"
         }
       ]
     }

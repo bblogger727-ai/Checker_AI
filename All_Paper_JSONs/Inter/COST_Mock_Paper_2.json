@@ -371,14 +371,28 @@
           "unique_id": "15-T-20"
         },
         {
-          "label": "b",
+          "label": "b_v1",
           "marks": 8,
           "internal_split": null,
-          "question": "As a consultant hired by a manufacturing company, HOW would you go about assessing the critical factors for designing and implementing a cost accounting system? (MTP 5 Marks Dec'24 , Apr'25,MP[7])",
+          "question": "[New Version - v1] The labour turnover rates for the quarter ended 31st March, 2026 are computed as 12%, 6% and 4% under Flux method, Replacement method and Separation method respectively. The number of workers replaced during that quarter is 54.\n\nYou are required to ascertain -\n(i) Average number of workers on roll for the quarter\n(ii) Number of workers recruited and joined\n(iii) Number of workers left and discharged",
+          "answer": "Working Note:\n\n(i) Average number of workers on roll (for the quarter):\nEmployee Turnover rate using Replacement method = (No. of replacements / Average number of workers on roll) × 100\nOr, 6/100 = 54 / Average number of workers on roll\nOr, Average number of workers on roll = 54 × 100 / 6 = 900\n\n(ii) Number of workers recruited and joined:\nEmployee turnover rate (Flux method) = (No. of Separations (S) + No. of Accessions (A)) / Average number of workers on roll\nOr, 12/100 = (36* + A) / 900\nOr, A = (10,800/100) - 36 = 72\nNo. of workers recruited and joined = 72.\n\n(iii) Number of workers left and discharged:\nEmployee turnover rate (Separation method)\n4/100 = No. of Separations (S) / Average number of workers on roll × 100\n4/100 = S / 900\nOr, S* = 36\nHence, number of workers left and discharged comes to 36.",
+          "chapter_number": "3",
+          "chapter_name": "EMPLOYEE COST AND DIRECT EXPENSES",
+          "unique_id": "pdf-mock2-q4b",
+          "or_group": "Q4b_v1_v2",
+          "question_id": "B-Q4-Q4b_v1"
+        },
+        {
+          "label": "b_v2",
+          "marks": 8,
+          "internal_split": null,
+          "question": "[Old Version - v2] As a consultant hired by a manufacturing company, HOW would you go about assessing the critical factors for designing and implementing a cost accounting system? (MTP 5 Marks Dec'24 , Apr'25,MP[7])",
           "answer": "Before installation of a system of cost accounting in a manufacturing organization the under mentioned factors should be studied:\n\n(a) Objective: The objective of costing system, for example whether it is being introduced for fixing prices or for insisting a system of cost control.\n\n(b) Nature of Business or Industry: The Industry in which business is operating. Every business industry has its own peculiar feature and costing objectives. According to its cost information requirement cost accounting methods are followed. For example Indian Oil Corporation Ltd. has to maintain process wise cost accounts to find out cost incurred on a particular process say in crude refinement process etc.\n\n(c) Organisational Hierarchy: Costing system should fulfill the requirement of different level of management. Top management is concerned with the corporate strategy, strategic level management is concerned with marketing strategy, product diversification, product pricing etc. Operational level management needs the information on standard quantity to be consumed, report on idle time etc.\n\n(d) Knowing the product: Nature of product determines the type of costing system to be implemented. The product which has by-products requires costing system which account for by-products as well. In case of perishable or short self- life, marginal costing method is required to know the contribution and minimum price at which it can be sold.\n\n(e) Knowing the production process: A good costing system can never be established without the complete knowledge of the production process. Cost apportionment can be done on the most appropriate and scientific basis if a cost accountant can identify degree of effort or resources consumed in a particular process. This also includes some basic technical know-how and process peculiarity.\n\n(f) Information synchronisation: Establishment of a department or a system requires substantial amount of organisational resources. While drafting a costing system, information needs of various other departments should be taken into account. For example in a typical business organisation accounts department needs to submit monthly stock statement to its lender bank, quantity wise stock details at the time filing returns to tax authorities etc.\n\n(g) Method of maintenance of cost records: The manner in which Cost and Financial accounts could be interlocked into a single integral accounting system and in which results of separate sets of accounts, cost and financial, could be reconciled by means of control accounts.\n\n(h) Statutory compliances and audit: Records are to be maintained to comply with statutory requirements, standards to be followed (Cost Accounting Standards and Accounting Standards).\n\n(i) Information Attributes: Information generated from the Costing system should be possess all the attributes of an information i.e. complete, accurate, timeliness, confidentiality etc. This also meets the requirements of management information system.",
           "chapter_number": "7",
           "chapter_name": "COST ACCOUNTING SYSTEMS",
-          "unique_id": "7-T-14"
+          "unique_id": "7-T-14",
+          "or_group": "Q4b_v1_v2",
+          "question_id": "B-Q4-Q4b_v2"
         }
       ]
     },
@@ -403,14 +417,28 @@
           }
         },
         {
-          "label": "b",
+          "label": "b_v1",
           "marks": 5,
           "internal_split": null,
-          "question": "HOW is slow moving and non-moving item of stores detected and WHAT steps are necessary to reduce such stocks? (MTP 4 Marks Apr'24, Dec'24, SM], MP[2],MP[7])",
+          "question": "[New Version - v1] The following information has been furnished by the management accountant of CMC Limited:\n- Margin of Safety: 5600 units\n- Break even sales: 2400 units\n- Margin of Safety: ₹ 9,80,000\n- Total Cost: ₹ 11,94,200\n\nYou are required to calculate:\n(i) Profit\n(ii) Profit Volume (P/V) Ratio\n(iii) Break even sales value\n(iv) Fixed Cost",
+          "answer": "Working Notes:\nTotal Sales Units = Margin of Safety (Units) + Break-even Sales (Units) = 5,600 + 2,400 = 8,000 units\nSelling Price per Unit = Margin of Safety (MoS in Value) / Margin of Safety (Units) = ₹ 9,80,000 / 5,600 = ₹ 175 per unit\nTotal Sales Value = Total Units × Selling Price = 8,000 × ₹ 175 = ₹ 14,00,000\n\n(i) Profit = Total Sales – Total Cost = ₹ 14,00,000 – ₹ 11,94,200 = ₹ 2,05,800\n\n(ii) Profit Volume (P/V) Ratio = Profit / Margin of Safety (Value) × 100 = (₹ 2,05,800 / ₹ 9,80,000) × 100 = 21%\n\n(iii) Break-even Sales Value = Break-even Units × Selling Price = 2,400 units × ₹ 175 = ₹ 4,20,000\nAlternatively = Total Sales × [100 – Margin of Safety %] = ₹ 14,00,000 × 0.30 = ₹ 4,20,000\n\n(iv) Fixed Cost = Break-even Sales Value × P/V Ratio = ₹ 4,20,000 × 21% = ₹ 88,200",
+          "chapter_number": "14",
+          "chapter_name": "MARGINAL COSTING",
+          "unique_id": "pdf-mock2-q5b",
+          "or_group": "Q5b_v1_v2",
+          "question_id": "B-Q5-Q5b_v1"
+        },
+        {
+          "label": "b_v2",
+          "marks": 5,
+          "internal_split": null,
+          "question": "[Old Version - v2] HOW is slow moving and non-moving item of stores detected and WHAT steps are necessary to reduce such stocks? (MTP 4 Marks Apr'24, Dec'24, SM], MP[2],MP[7])",
           "answer": "## Detection of slow moving and non-moving item of stores:\n\nThe existence of slow moving and non-moving item of stores can be detected in the following ways.\n\n(i) By preparing and perusing periodic reports showing the status of different items or stores.\n\n(ii) By calculating the inventory turnover period of various items in terms of number of days/ months of consumption.\n\n(iii) By computing inventory turnover ratio periodically, relating to the issues as a percentage of average stock held.\n\n(iv) By implementing the use of a well designed information system.\n\n## Necessary steps to reduce stock of slow moving and non-moving item of stores:\n\n(i) Proper procedure and guidelines should be laid down for the disposal of non-moving items, before they further deteriorates in value.\n\n(ii) Diversify production to use up such materials.\n\n(iii) Use these materials as substitute, in place of other materials.",
           "chapter_number": "2",
           "chapter_name": "MATERIAL COST",
-          "unique_id": "2-T-7"
+          "unique_id": "2-T-7",
+          "or_group": "Q5b_v1_v2",
+          "question_id": "B-Q5-Q5b_v2"
         },
         {
           "label": "c",

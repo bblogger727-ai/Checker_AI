@@ -33,7 +33,25 @@
           },
           "correct_option": "d",
           "answer": "d",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v1"
+        },
+        {
+          "q_num": "1_v2",
+          "question": "What is the amount of prime cost incurred during the last month:",
+          "options": {
+            "a": "₹ $7,54,20,000$",
+            "b": "$₹ 7,57,10,000$",
+            "c": "$₹ 7,56,06,000$",
+            "d": "$₹ 7,87,10,000$"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null,
+          "_serial": "1_v2",
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v2"
         },
         {
           "q_num": 2,
@@ -46,7 +64,25 @@
           },
           "correct_option": "a",
           "answer": "a",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v1"
+        },
+        {
+          "q_num": "2_v2",
+          "question": "What is the total and per shift cost of production for last month:",
+          "options": {
+            "a": "$₹ 7,87,10,000$ and $₹ 336.37$ respectively",
+            "b": "$₹ 7,87,10,000$ and $₹ 1,681.84$ respectively",
+            "c": "₹ $7,87,28,000$ and ₹ $1,682.22$ respectively",
+            "d": "₹ $7,87,28,000$ and ₹ 336.44 respectively"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": "2_v2",
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v2"
         },
         {
           "q_num": 3,
@@ -59,7 +95,25 @@
           },
           "correct_option": "a",
           "answer": "a",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v1"
+        },
+        {
+          "q_num": "3_v2",
+          "question": "What is the value of administrative cost incurred during the last month:",
+          "options": {
+            "a": "₹ 92,400",
+            "b": "₹ 88,000",
+            "c": "₹ $1,48,400$",
+            "d": "₹ $1,44,000$"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "_serial": "3_v2",
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v2"
         },
         {
           "q_num": 4,
@@ -72,7 +126,25 @@
           },
           "correct_option": "b",
           "answer": "b",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_4_v1_v2",
+          "question_id": "A-MCQ-4_v1"
+        },
+        {
+          "q_num": "4_v2",
+          "question": "What is the value of selling and distribution cost and total cost of sales:",
+          "options": {
+            "a": "₹ 36,000 \\& ₹ $7,88,76,400$ respectively",
+            "b": "₹ 56,000 \\& ₹ $7,88,76,400$ respectively",
+            "c": "$₹ 36,000$ \\& ₹ $7,88,72,000$ respectively",
+            "d": "$₹ 56,000$ \\& ₹ $7,88,72,000$ respectively"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": "4_v2",
+          "or_group": "MCQ_4_v1_v2",
+          "question_id": "A-MCQ-4_v2"
         },
         {
           "q_num": 5,
@@ -85,7 +157,25 @@
           },
           "correct_option": "c",
           "answer": "c",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_5_v1_v2",
+          "question_id": "A-MCQ-5_v1"
+        },
+        {
+          "q_num": "5_v2",
+          "question": "What is the value EMS and OMS for the last month:",
+          "options": {
+            "a": "₹ $1,504.70$ \\& 5 tonnes respectively",
+            "b": "₹ $1,367.52$ \\& 5 tonnes respectively",
+            "c": "$₹ 1,504.70$ \\& 4.37 tonnes respectively",
+            "d": "$₹ 1,367.52$ \\& 4.37 tonnes respectively"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "_serial": "5_v2",
+          "or_group": "MCQ_5_v1_v2",
+          "question_id": "A-MCQ-5_v2"
         }
       ],
       "mcq_count": 5,
@@ -108,7 +198,25 @@
           },
           "correct_option": "d",
           "answer": "d",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v1"
+        },
+        {
+          "q_num": "1_v2",
+          "question": "What is the amount of prime cost incurred during the last month:",
+          "options": {
+            "a": "₹ $7,54,20,000$",
+            "b": "$₹ 7,57,10,000$",
+            "c": "$₹ 7,56,06,000$",
+            "d": "$₹ 7,87,10,000$"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null,
+          "_serial": "1_v2",
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v2"
         },
         {
           "q_num": 2,
@@ -121,7 +229,25 @@
           },
           "correct_option": "a",
           "answer": "a",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v1"
+        },
+        {
+          "q_num": "2_v2",
+          "question": "What is the total and per shift cost of production for last month:",
+          "options": {
+            "a": "$₹ 7,87,10,000$ and $₹ 336.37$ respectively",
+            "b": "$₹ 7,87,10,000$ and $₹ 1,681.84$ respectively",
+            "c": "₹ $7,87,28,000$ and ₹ $1,682.22$ respectively",
+            "d": "₹ $7,87,28,000$ and ₹ 336.44 respectively"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": "2_v2",
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v2"
         },
         {
           "q_num": 3,
@@ -134,7 +260,25 @@
           },
           "correct_option": "b",
           "answer": "b",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v1"
+        },
+        {
+          "q_num": "3_v2",
+          "question": "What is the value of administrative cost incurred during the last month:",
+          "options": {
+            "a": "₹ 92,400",
+            "b": "₹ 88,000",
+            "c": "₹ $1,48,400$",
+            "d": "₹ $1,44,000$"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "_serial": "3_v2",
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v2"
         },
         {
           "q_num": 4,
@@ -147,7 +291,25 @@
           },
           "correct_option": "a",
           "answer": "a",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_4_v1_v2",
+          "question_id": "A-MCQ-4_v1"
+        },
+        {
+          "q_num": "4_v2",
+          "question": "What is the value of selling and distribution cost and total cost of sales:",
+          "options": {
+            "a": "₹ 36,000 \\& ₹ $7,88,76,400$ respectively",
+            "b": "₹ 56,000 \\& ₹ $7,88,76,400$ respectively",
+            "c": "$₹ 36,000$ \\& ₹ $7,88,72,000$ respectively",
+            "d": "$₹ 56,000$ \\& ₹ $7,88,72,000$ respectively"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": "4_v2",
+          "or_group": "MCQ_4_v1_v2",
+          "question_id": "A-MCQ-4_v2"
         },
         {
           "q_num": 5,
@@ -160,7 +322,25 @@
           },
           "correct_option": "c",
           "answer": "c",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_5_v1_v2",
+          "question_id": "A-MCQ-5_v1"
+        },
+        {
+          "q_num": "5_v2",
+          "question": "What is the value EMS and OMS for the last month:",
+          "options": {
+            "a": "₹ $1,504.70$ \\& 5 tonnes respectively",
+            "b": "₹ $1,367.52$ \\& 5 tonnes respectively",
+            "c": "$₹ 1,504.70$ \\& 4.37 tonnes respectively",
+            "d": "$₹ 1,367.52$ \\& 4.37 tonnes respectively"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "_serial": "5_v2",
+          "or_group": "MCQ_5_v1_v2",
+          "question_id": "A-MCQ-5_v2"
         }
       ],
       "mcq_count": 5,
@@ -386,14 +566,28 @@
           }
         },
         {
-          "label": "b",
+          "label": "b_v1",
           "marks": 5,
           "internal_split": null,
-          "question": "## Question 11 (MTP 4 Marks Apr'25)\n\nABC Ltd., a mid-sized manufacturing company, has been facing frequent cost overruns and profit fluctuations over the past year. The management is considering implementing a Budgetary Control System to improve financial planning and operational efficiency.\n\nAs a financial consultant, you have been asked to IDENTIFY any EXPLAIN at least four key objectives of a Budgetary Control System that would benefit ABC Ltd.",
+          "question": "[New Version - v1] The Budget manager of Jaypee Electricals Ltd. is preparing a flexible budget for the accounting year commencing from 1st April. Normal capacity of production of the company is 1,25,000 units.\n\nThe company produces one product, a component 'P'. Direct material costs ₹7 per unit. Direct labour averages ₹2.50 per hour and requires 1.60 hours to produce one unit of 'P'. Salesmen are paid a commission of ₹1 per unit sold.\n\nFixed selling and administration expenses amount to ₹85,000 per year. Manufacturing overhead has been estimated in the following amounts under specified conditions of volume:\n\n| Particulars                       | 1,20,000 units | 1,50,000 units |\n|-----------------------------------|----------------|----------------|\n| Indirect materials                 | 2,64,000       | 3,30,000       |\n| Indirect Labour                    | 1,50,000       | 1,87,500       |\n| Inspection                         | 90,000         | 1,12,500       |\n| Maintenance                        | 84,000         | 1,02,000       |\n| Supervision                        | 1,98,000       | 2,34,000       |\n| Engineering services               | 90,000         | 90,000         |\n| Total Manufacturing Overhead       | 9,70,000       | 11,50,000      |\n\nPrepare a budget of total cost at 1,40,000 units of output.",
+          "answer": "Flexible Budget  \n\n| Particulars                       | Amount (₹)     |\n|-----------------------------------|----------------|\n| (A) Variable Cost:                |                |\n| Direct materials                   | (1,40,000 × ₹7) | 9,80,000       |\n| Direct labour                      | (1,40,000 × 1.6 hours × ₹2.5) | 5,60,000       |\n| Salesmen commission                | (1,40,000 × ₹1) | 1,40,000       |\n| Indirect materials                 | {(₹2,64,000 + 1,20,000) × 1,40,000} | 3,08,000       |\n| Indirect Labour                    | {(₹1,50,000 + 1,20,000) × 1,40,000} | 1,75,000       |\n| Inspection                         | {(₹90,000 + 1,20,000) × 1,40,000} | 1,05,000       |\n| Total (A)                         | 22,68,000      |\n\n| (B) Fixed Cost:                   |                |\n| Selling and administration         | 85,000         |\n| Depreciation                       | 90,000         |\n| Engineering services               | 94,000         |\n| Total (B)                         | 2,69,000       |\n\n| (C) Semi Variable Cost:           |                |\n| Maintenance:                       |                |\n| Variable                           | (1,40,000 × ₹0.60) | 84,000         |\n| Fixed                              | 12,000         |\n| Supervision:                      |                |\n| Variable                           | (1,40,000 × ₹1.20) | 1,68,000       |\n| Fixed                              | 54,000         |\n| Total (C)                         | 3,18,000       |\n\n| Total Cost (A + B + C)           | 28,55,000      |\n\nWorking Note:  \nCalculation of variable cost per unit and fixed cost portion of semi variable items:  \nVariable cost per unit = Difference in Total Cost  \nDifference in Units  \n\n131  \n\nCOST BOOSTER BATCH BY CA NAMIT ARORA SIR  \nNAC  \n\nVariable Maintenance cost per unit = 1,02,000 - 84,000 = ₹0.60 per unit  \n\nVariable Supervision cost per unit = 2,34,000 - 1,98,000 = ₹1.20 per unit  \n\nFixed cost = Total cost - Variable Cost  \nFixed Maintenance cost = 84,000 - 1,20,000 × 0.60 = ₹12,000  \nFixed Supervision cost = 1,98,000 - 1,20,000 × 1.20 = ₹54,000",
+          "chapter_number": "15",
+          "chapter_name": "BUDGETARY CONTROL",
+          "unique_id": "BQ-88",
+          "or_group": "Q5b_v1_v2",
+          "question_id": "B-Q5-Q5b_v1"
+        },
+        {
+          "label": "b_v2",
+          "marks": 5,
+          "internal_split": null,
+          "question": "[Old Version - v2] ## Question 11 (MTP 4 Marks Apr'25)\n\nABC Ltd., a mid-sized manufacturing company, has been facing frequent cost overruns and profit fluctuations over the past year. The management is considering implementing a Budgetary Control System to improve financial planning and operational efficiency.\n\nAs a financial consultant, you have been asked to IDENTIFY any EXPLAIN at least four key objectives of a Budgetary Control System that would benefit ABC Ltd.",
           "answer": "## Answer 11 <br> Objectives of Budgetary Control System\n\n1. Portraying with precision the overall aims of the business and determining targets of performance for each section or department of the business.\n\n2. Laying down the responsibilities of each of the executives and other personnel so that everyone knows what is expected of him and how he will be judged. Budgetary control is one of the few ways in which an objective assessment of executives or department is possible.\n\n3. Providing a basis for the comparison of actual performance with the predetermined targets and investigation of deviation, if any, of actual performance and expenses from the budgeted figures. This naturally helps in adopting corrective measures.\n\n4. Ensuring optimum use of available resources to maximise profit or production, subject to the limiting factors. Since budgets cannot be properly drawn up without considering all aspects, usually there is good coordination when a system of budgetary control operates.\n\n5. Co-ordinating various activities of the business, and centralising control and yet enabling management to decentralise responsibility and delegate authority in the overall interest of the business.\n\n6. Engendering a spirit of careful forethought, assessment of what is possible and an attempt at it. It leads to dynamism without being reckless. Of course, much depends on the objectives of the firm and the dynamism r of its management.\n\n7. Providing a basis for revision of current and future policies.\n\n8. Drawing up long range plans with a fair measure of accuracy.\n\n9. Providing a yardstick against which actual results can be compared.",
           "chapter_number": "15",
           "chapter_name": "STANDARD COSTING",
-          "unique_id": "15-T-11"
+          "unique_id": "15-T-11",
+          "or_group": "Q5b_v1_v2",
+          "question_id": "B-Q5-Q5b_v2"
         },
         {
           "label": "c",

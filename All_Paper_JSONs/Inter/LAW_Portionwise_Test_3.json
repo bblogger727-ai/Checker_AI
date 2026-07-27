@@ -24,24 +24,52 @@
       "chapter_number": "15",
       "sub_questions": [
         {
-          "label": "a",
+          "label": "a_v1",
           "marks": 6,
           "internal_split": null,
-          "question": "Explain the meaning of the followings terms as defined under the Foreign Exchange Management Act, 1999: (i) authorized person (MTP 2 Marks Dec'24, MP[7])",
+          "question": "[New Version - v1] Question 32 (PYP 4 Marks Jan'25) (Includes concepts of Sec 6(4)- Capital Account Transactions) Murari Lal, a person resident outside India, has invested in four residential immovable properties under construction in Kolkata. Each property is negotiated at ₹ 2 crore, with the companies owned by builders. This amount is to be paid in two instalments as $60 \\%$ on immediate basis on booking and the balance on possession of the properties. The above transaction is done by the companies owned by builders through two brokers from USA on commission basis. Mr. Murari Lal as per the terms and conditions remitted $60 \\%$ of the amount of all four immovable properties directly to the company. Answer the following explaining the provisions of the Foreign Exchange Management Act (FEMA), 1999: (i) Whether investment by Mr. Murari Lal and payment of commission on this transaction is permissible? (ii) How much maximum amount of commission can be paid to each broker without RBI approval? (Ignore the USD - Rupee Exchange Rate)",
+          "answer": "The investment in immovable properties in India by Mr. Murari Lal, a resident outside India, is a Capital Account Transaction which is permissible as per Schedule II of the Foreign Exchange Management (Permissible Capital Account Transactions) Regulations, 2000 which permits Acquisition and Transfer of Immovable Property in India by a Person Resident Outside India. According to Schedule III to Foreign Exchange Management (Current Account Transactions) Rules, 2000, remittances by persons other than individuals shall require prior approval of the Reserve Bank of India if Commission, per transaction, to agents abroad for sale of residential flats or commercial plots in India exceeds USD 25,000 or five percent of the inward remittance whichever is more. As per the facts of the question and mentioned provisions, the following are the answers to the questions asked: (i) Yes, the investment by Mr. Murari Lal and payment of commission on this transaction is permissible. (ii) Calculation of maximum commission that can be paid without the approval of RBI. The maximum amount of commission that can be paid to each broker for each transaction, without RBI approval is, more of- USD 25,000 or ₹ 6 lakh [i.e. $5 \\%$ of ( $60 \\%$ of 2 crore)]. Thus, ₹ $6,00,000$ can be paid to each broker as commission without taking any prior approval of the RBI. Exam insights: Students often jump to saying the investment and commission are permissible but don't back it with Schedule III or get the commission cap right. Remember: the limit is USD 25,000 or 5\\% of the inward remittance, whichever is more-apply this correctly to compute the maximum commission per broker.",
+          "chapter_number": "15",
+          "chapter_name": "THE FOREIGN EXCHANGE MANAGEMENT ACT, 1999",
+          "unique_id": "15-T-32",
+          "or_group": "Q1a_v1_v2",
+          "question_id": "B-Q1-Q1a_v1"
+        },
+        {
+          "label": "a_v2",
+          "marks": 6,
+          "internal_split": null,
+          "question": "[Old Version - v2] Explain the meaning of the followings terms as defined under the Foreign Exchange Management Act, 1999: (i) authorized person (MTP 2 Marks Dec'24, MP[7])",
           "answer": "According to section 2(c) of the Foreign Exchange Management Act, 1999, Authorised person means an authorised dealer, money changer, off- shore banking unit or any other person for the time being authorised under section 10(1) to deal in foreign exchange or foreign securities.",
           "chapter_number": "15",
           "chapter_name": "THE FOREIGN EXCHANGE MANAGEMENT ACT, 1999",
-          "unique_id": "15-T-1"
+          "unique_id": "15-T-1",
+          "or_group": "Q1a_v1_v2",
+          "question_id": "B-Q1-Q1a_v2"
         },
         {
-          "label": "b",
+          "label": "b_v1",
           "marks": 4,
           "internal_split": null,
-          "question": "Explain the meaning of term 'currency' as per the provisions of the Foreign Exchange Management Act, 1999. (MTP 2 Marks July'24, Dec'24,MP[4],[7])",
+          "question": "[New Version - v1] Mr. MGJ, a person resident outside India, is contemplating to invest his foreign currency funds through equity contribution in an Indian company engaged in a huge township development project consisting commercial and residential complex in Bangalore (India). Examine, referring to the provisions of the Foreign Exchange Management Act, 1999, the feasibility of his proposal of investing funds in the said company. (PYP 3 Marks May '22)",
+          "answer": "As per the Foreign Exchange Management (Permissible Capital Account Transactions) Regulations, 2000, a person resident outside India is prohibited from making investments in India in any form, in any Company, or partnership firm or proprietary concern or any entity whether incorporated or not which is engaged or proposes to engage in real estate business, or construction of farm houses.\n\nHere the term \"real estate business\" shall not include development of townships, construction of residential /commercial premises, roads or bridges and Real Estate Investment Trusts (REITs) registered and regulated under the SEBI (REITs) Regulations 2014.\n\nConclusion: Accordingly, the proposal of investing funds in an Indian Company by Mr. MGJ, is feasible as the investment is for development of township as per the above stated laws.",
+          "chapter_number": "15",
+          "chapter_name": "THE FOREIGN EXCHANGE MANAGEMENT ACT, 1999",
+          "unique_id": "15-T-43",
+          "or_group": "Q1b_v1_v2",
+          "question_id": "B-Q1-Q1b_v1"
+        },
+        {
+          "label": "b_v2",
+          "marks": 4,
+          "internal_split": null,
+          "question": "[Old Version - v2] Explain the meaning of term 'currency' as per the provisions of the Foreign Exchange Management Act, 1999. (MTP 2 Marks July'24, Dec'24,MP[4],[7])",
           "answer": "According to section 2(h) of the Foreign Exchange Management Act, 1999, 'Currency' includes all currency notes, postal notes, postal orders, money orders, cheques, drafts, travelers' cheques, letters of credit, bills of exchange, and promissory notes.",
           "chapter_number": "15",
           "chapter_name": "THE FOREIGN EXCHANGE MANAGEMENT ACT, 1999",
-          "unique_id": "15-T-2"
+          "unique_id": "15-T-2",
+          "or_group": "Q1b_v1_v2",
+          "question_id": "B-Q1-Q1b_v2"
         }
       ]
     },
@@ -62,14 +90,28 @@
           "unique_id": "14-T-12"
         },
         {
-          "label": "b",
+          "label": "b_v1",
           "marks": 4,
           "internal_split": null,
-          "question": "Mr. Pravesh, an Indian following purposes: U.S. $10,000 for remittance towards hiring charges of transponders. Advise him whether he can get Foreign Exchange, as per the provisions of the Foreign Exchange Management Act, 1999. (MTP 4 Marks Mar'24, SM)",
+          "question": "[New Version - v1] Question 35 (RTP Jan'26) Startech Pvt. Ltd., an Indian company, is planning to remit USD 12 million to a consultancy firm based in Germany for advisory services related to a new highway infrastructure project in India. The company has also engaged another foreign consultancy for a software upgrade on a different project and wants to remit USD 900,000 for that service. Both payments are to be made from India. With reference to the Foreign Exchange Management, 1999, determine whether Startech Pvt. Ltd. can freely remit these amounts or if any approval is required for these transactions.",
+          "answer": "As per Schedule III of the Foreign Exchange Management (Current Account Transactions) Rules, 2000, remittances by persons other than individuals shall require prior approval of the Reserve Bank of India in the following cases- Remittances exceeding USD 10,000,000 per project for any consultancy services in respect of infrastructure projects and USD 1,000,000 per project, for other consultancy services procured from outside India. In this scenario:\n\nThe proposed remittance of USD 12 million for consultancy on a highway infrastructure project exceeds the USD 10 million threshold. Therefore, Startech Pvt. Ltd. must seek prior approval from the RBI for this payment.\n\nThe remittance of USD 900,000 for software consultancy on a different project does not exceed USD 1 million, so no RBI approval is required for this transaction.",
+          "chapter_number": "15",
+          "chapter_name": "THE FOREIGN EXCHANGE MANAGEMENT ACT, 1999",
+          "unique_id": "15-T-35",
+          "or_group": "Q2b_v1_v2",
+          "question_id": "B-Q2-Q2b_v1"
+        },
+        {
+          "label": "b_v2",
+          "marks": 4,
+          "internal_split": null,
+          "question": "[Old Version - v2] Mr. Pravesh, an Indian following purposes: U.S. $10,000 for remittance towards hiring charges of transponders. Advise him whether he can get Foreign Exchange, as per the provisions of the Foreign Exchange Management Act, 1999. (MTP 4 Marks Mar'24, SM)",
           "answer": "Under section 5 of the Foreign Exchange Management Act, 1999, and Rules relating thereto, some current account transactions require prior approval of the Central Government, some others require the prior approval of the Reserve Bank of India, some are freely permitted transactions and some others are prohibited transactions.\n\nThis is a current account transaction, where Pravesh is required to take approval of the Central Government for drawal of foreign exchange for remittance of hire charges of transponders.\n\nIn all the cases, where remittance of Foreign Exchange is allowed, either by general or specific permission, the remitter has to obtain the Foreign Exchange from an Authorised Person as defined in Section 2(c).",
           "chapter_number": "15",
           "chapter_name": "THE FOREIGN EXCHANGE MANAGEMENT ACT, 1999",
-          "unique_id": "15-T-20"
+          "unique_id": "15-T-20",
+          "or_group": "Q2b_v1_v2",
+          "question_id": "B-Q2-Q2b_v2"
         }
       ]
     },

@@ -1,0 +1,471 @@
+{
+  "meta": {
+    "subject_code": "TAX",
+    "subject_name": "Taxation",
+    "paper_num": 3,
+    "total_marks_printed": 100,
+    "total_marks_in_paper": 120,
+    "section_a_marks": 30,
+    "section_b_marks": 80,
+    "two_section_format": true,
+    "note": "Section A (MCQ): 15 questions @ 2 marks each (Case Study based) = 30 marks. Section B: Section 1 — Q1 compulsory (15m); Q2, Q3, Q4 @ 10m each — attempt any 2 of 3. Section 2 — Q5 compulsory (15m); Q6, Q7, Q8 @ 10m each — attempt any 2 of 3. Total Section B marks to attempt = 15+20+15+20 = 70m.",
+    "blacklisted_from": [
+      "Generated_Papers/TAX/TAX_Mock_Paper_1.json",
+      "Generated_Papers/TAX/TAX_Mock_Paper_2.json"
+    ],
+    "q1_subparts": [
+      "1"
+    ]
+  },
+  "section_a": [
+    {
+      "type": "case_study",
+      "chapter_number": "10",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "## CS 4 (MTP 10 Marks Sep'22, MTP Mar'25)\n\n\nMrs. Shalini is a retired Government employee. She was born on 01.04.1943 in India. She is residing in Delhi. She stayed with her elder son Mr. Nakul from 1st May, 2025 to 15th October, 2025, who is residing in Australia. She stayed in India for 361 days during the 4 previous years preceding the previous year 2025-26. During the previous year 2025-26, pension of ₹ $\\mathbf{7 , 1 5 , 4 6 1}$ is credited in her account with State Bank of India, Uttam Nagar Branch, Delhi after deducting tax at source of ₹ 14,565 . She received interest of ₹ 4,352 on her saving A/c with SBI during the previous year 2025-26. She also received interest of ₹67,500 on Fixed Deposits with Canara Bank in the month of April, 2025.\n\nShe has purchased two life insurance policies for her son Mr. Yuvaan and married daughter Mrs. Kajal, the details of which are as follows:\n\n\n| Person insured | Policy <br> purchased on | Date of payment of <br> premium | Sum Assured | Premium paid |\n| :--- | :---: | :---: | ---: | ---: |\n| Mr. Yuvaan (50 years old) | 15.10 .2020 | 23.10 .2025 | $₹ 9,84,655$ | $₹ 1,00,388$ |\n| Mrs. Kajal (45 years old) | 20.09 .2020 | 25.09 .2025 | $₹ 2,00,000$ | $₹ 17,000$ |\n\n\nShe has taken a medical insurance for herself for which she paid an amount of ₹ 35,000 towards health insurance premium by A/c payee cheque. She incurred ₹ 7,500 towards preventive health check-up of herself and her husband in cash. She also incurred medical expenditure of ₹ $\\mathbf{2 5 , 0 0 0 ~ i n}$ cash in the month of January 2026 for her husband. In the month of March 2026, she incurred medical expenditure of ₹ 10,500 for herself, which is paid by account payee cheque. She has given a wristwatch of ₹ 10,000 on her husband's 85 th birthday. Her husband is resident in India for the P.Y. 2025-26. Mrs. Shalini does not opt to pay tax under section 115BAC.\n\nBased on the facts of the case scenario given above, choose the most appropriate answer to the following questions:\n\n\n1. What would be the amount of deduction under Chapter VI-A available to Mrs. Shalini for the A.Y. 202627? (Chapter 7: Deductions from Gross Total Income)\n\n(a) ₹ $2,05,466$\n\n(b) ₹ $2,08,466$\n\n(c) ₹ $2,07,388$\n\n(d) ₹ $2,18,466$\n\n\nAns: (a)\n\n2. What would be the Gross total income of Mrs. Shalini for the assessment year 2026-27? (Chapter 8: Computation of Total Income \\& Tax Payable)\n\n(a) $₹ 7,87,313$\n\n(b) ₹ $8,04,878$\n\n(c) ₹ $7,59,378$\n\n(d) ₹ $8,09,378$\n\n\nAns: (c)\n\n3. What is the amount of net tax payable/(refundable) of Mrs. Shalini for the A.Y. 2026-27? (Chapter 1: Basic Concepts)\n\n(a) (₹ 10,850 )\n\n(b) (₹ 1,790 )\n\n(c) (₹ 1,080)\n\n(d) $(₹ 450)$\n\n\nAns: (a)\n\n4. What would be the total income of Mrs. Shalini for the assessment year 2026-27, if she opts to pay tax under section 115BAC?\n\n(a) ₹ $7,51,880$\n\n(b) ₹ 7,34,378\n\n(c) ₹ $7,87,310$\n\n(d) ₹ $8,09,380$\n\n\nAns: (b)\n\n5. What is the amount of net tax payable/(refundable) of Mrs. Shalini for the A.Y. 2025-26, if she opts to pay tax under section 115BAC?\n\n(a) ₹ $(22,065)$\n\n(b) $₹(14,565)$\n\n(c) ₹ 17,388\n\n(d) ₹ (4677)\n\n\nAns: (a)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "What would be the amount of deduction under Chapter VI-A available to Mrs. Shalini for the A.Y. 2026-27? (Chapter 7: Deductions from Gross Total Income)",
+          "options": {
+            "a": "₹ $2,05,466$",
+            "b": "₹ $2,08,466$",
+            "c": "₹ $2,07,388$",
+            "d": "₹ $2,18,466$"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "What would be the Gross total income of Mrs. Shalini for the assessment year 2026-27? (Chapter 8: Computation of Total Income \\& Tax Payable)",
+          "options": {
+            "a": "₹ 7,87,313",
+            "b": "₹ $8,04,878$",
+            "c": "₹ $7,59,378$",
+            "d": "₹ $8,09,378$"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "What is the amount of net tax payable/(refundable) of Mrs. Shalini for the A.Y. 2026-27? (Chapter 1: Basic Concepts)",
+          "options": {
+            "a": "(₹ 10,850 )",
+            "b": "(₹ 1,790 )",
+            "c": "(₹ 1,080)",
+            "d": "$(₹ 450)$"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null
+        },
+        {
+          "q_num": 4,
+          "question": "What would be the total income of Mrs. Shalini for the assessment year 2026-27, if she opts to pay tax under section 115BAC?",
+          "options": {
+            "a": "₹ $7,51,880$",
+            "b": "₹ 7,34,378",
+            "c": "₹ $7,87,310$",
+            "d": "₹ $8,09,380$"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null
+        },
+        {
+          "q_num": 5,
+          "question": "What is the amount of net tax payable/(refundable) of Mrs. Shalini for the A.Y. 2025-26, if she opts to pay tax under section 115BAC?",
+          "options": {
+            "a": "₹ $(22,065)$",
+            "b": "₹(14,565)",
+            "c": "₹ 17,388",
+            "d": "₹ (4677)"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "10-CS-4"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "10",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "## CS 7 (RTP Nov'23)\n\n\nMr. Shaan, a resident aged 42 years, is employed in an MNC in Gurugram since 2013. He submitted his resignation on 31st July, 2025 for starting his own business and gave a notice period of one month to the employer. He received the following emoluments from his employer for the period from 1st April, 2025 to 31st August, 2025:\n\n\nBasic pay\n\nDearness Allowance (Forming part of retirement benefits)\n\nMedical allowance\n\nEntertainment allowance\n\nCommission\n\nEmployee's contribution to RPF\n\nEmployer's contributed the same amount to the RPF\n\nInterest accrued in the RPF@13\\%\n\n₹ 45,000 p.m.\n\n10\\% of Basic pay\n\n₹ 5,000 p.m.\n\n₹ 2,500 p.m.\n\n₹ 10,000 p.m.\n\n₹ 7,500 p.m.\n\n₹ 14,300\n\n\nIn October, 2025, he started the business of manufacturing of footwear under the brand name \"COMFORT\". He withdrew the entire amount from his RPF account in September, 2025 to invest in his business. He has employed 75 regular employees on 1.11 .2025 at a salary of ₹ 23,000 p.m. and they participate in recognized provident fund. For the P.Y. 2025-26, the profits and gains derived from such business is ₹ 51 lakhs (computed) and the turnover is ₹ 7 crores. Mr. Shaan received $12 \\%$ of the sales in cash.\n\nOn 1st December, 2025, he has purchased a house property for ₹ 90 lakhs for self-occupation by taking a loan of ₹45 lakhs@10\\% p.a. on the same day. He has paid stamp duty of ₹6,25,000 on purchase of such house property. Mr. Shaan does not want to opt for the provisions of section 115BAC.\n\nBased on the above facts, choose the most appropriate answer to Q. No. 1 to 5 -\n\n\n1. What is the amount of salary chargeable under the head \"Salaries\" to Mr. Shaan for A.Y. 2026-27? (Chapter 4.1 Salaries)\n\n(a) ₹ $2,85,000$\n\n(b) ₹ $2,99,300$\n\n(c) ₹ $2,96,650$\n\n(d) ₹ $2,84,150$\n\n\nAns: (c)\n\n2. What is the amount of deduction available to Mr. Shaan under Chapter VI-A for A.Y. 2026-27? (Chapter 7 Deductions from Gross Total Income)\n\n(a) ₹ $1,50,000$\n\n(b) $₹ 25,87,500$\n\n(c) $₹ 26,25,000$\n\n(d) ₹ $27,37,500$\n\n\nAns: (d)\n\n3. What is the total income of Mr. Shaan for A.Y. 2026-27?\n\n(a) ₹ $25,09,150$\n\n(b) ₹ $24,59,150$\n\n(c) $₹ 24,61,800$\n\n(d) $₹ 25,59,150$\n\n\nAns: (a)\n\n4. Compute the tax liability of Mr. Shaan for A.Y. 2026-27.\n\n(a) $₹ 5,87,860$\n\n(b) ₹ $10,78,660$\n\n(c) ₹ $10,62,520$\n\n(d) ₹ $5,72,250$\n\n\nAns: (c)\n\n5. Compute the tax liability of Mr. Shaan for A.Y. 2026-27 if he opts for the provisions of section 115BAC. Assume that the figure of profits and gains from business or profession remains the same under section 115 BAC also.\n\n(a) ₹ $15,68,990$\n\n(b) ₹ $5,56,650$\n\n(c) $₹ 5,72,250$\n\n(d) ₹ $4,31,855$\n\n\nAns: (d)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "What is the amount of salary chargeable under the head \"Salaries\" to Mr. Shaan for A.Y. 2026-27? (Chapter 4.1 Salaries)",
+          "options": {
+            "a": "₹ $2,85,000$",
+            "b": "₹ $2,99,300$",
+            "c": "₹ $2,96,650$",
+            "d": "₹ $2,84,150$"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "What is the amount of deduction available to Mr. Shaan under Chapter VI-A for A.Y. 2026-27? (Chapter 7 Deductions from Gross Total Income)",
+          "options": {
+            "a": "₹ $1,50,000$",
+            "b": "₹ 25,87,500$",
+            "c": "₹ 26,25,000$",
+            "d": "₹ $27,37,500$"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "What is the total income of Mr. Shaan for A.Y. 2026-27?",
+          "options": {
+            "a": "₹ $25,09,150$",
+            "b": "₹ $24,59,150$",
+            "c": "₹ 24,61,800$",
+            "d": "₹ 25,59,150$"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null
+        },
+        {
+          "q_num": 4,
+          "question": "Compute the tax liability of Mr. Shaan for A.Y. 2026-27.",
+          "options": {
+            "a": "₹ 5,87,860$",
+            "b": "₹ $10,78,660$",
+            "c": "₹ $10,62,520$",
+            "d": "₹ $5,72,250$"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null
+        },
+        {
+          "q_num": 5,
+          "question": "Compute the tax liability of Mr. Shaan for A.Y. 2026-27 if he opts for the provisions of section 115BAC. Assume that the figure of profits and gains from business or profession remains the same under section 115 BAC also.",
+          "options": {
+            "a": "₹ $15,68,990$",
+            "b": "₹ $5,56,650$",
+            "c": "₹ 5,72,250$",
+            "d": "₹ $4,31,855$"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "10-CS-7"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "26",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "Sambhav Ltd., a company registered under GST and engaged in manufacturing and e-commerce operations, operates in multiple States across India. The company procures raw materials from various suppliers and supplies finished goods both domestically and internationally. It also acts as an e-commerce operator (ECO), facilitating third-party transactions as well supplying goods and services on its own account, through its portal round the clock. During its financial review, the management of XYZ Ltd. observed the following:\n\nThe company discontinued its operations in the State of Assam from 15th December. The online application for cancellation of registration was furnished on 5th January. The registration was suspended from the same day. Further, the order for cancellation of registration was issued on 2nd February wherein the cancellation of registration was made effective from 31st January.\n\nThe company paid an amount of $₹ 5,00,000$ along with the tax payable thereon to its supplier - Rudraksh Enterprises - pursuant to the settlement of dispute in December of current financial year. The company had earlier reversed the ITC related to supply received from Rudraksh Enterprises due to non-payment of consideration and tax amount. The invoice was issued by Rudraksh Enterprises in the month of September of the previous financial year.\n\nThe company provided accommodation services to Governmental Agency of Gujarat (registered under GST only in the State of Gujarat) in its own hotel located in the State of Rajasthan. The accommodation services were provided for the stay of employees of the Governmental Agency of Gujarat who had to attend a training programme organized by the Central Government. The total amount charged by the company for such service was ₹25,00,000.\n\nDuring the month of January, Dumdum Ltd. supplied goods worth ₹75,00,000 through the company's ecommerce platform. Out of this supply, the goods amounting to ₹ $15,00,000$ were returned in January. Further, the company also supplied its own products amounting to₹ $20,00,000$ through the e-commerce platform in said month. The amount of hotel accommodation services supplied through its e-commerce portal by hotel owners not required to obtain registration under GST [in terms of section 22(1)] amounted to ₹ $20,00,000$ for the month of January.\n\nThe company also completed a project for the construction of road (taxable under GST) for a Government agency on 31st December. The total time taken for completion of project was more than 13 months. As per the contract signed with such agency, the last tranche of payment of $25 \\%$ of the total contract value was linked to the date of issuance of completion certificate by the Government engineer. The completion certificate was issued by the Government engineer on 15th January. However, the invoice for such supply was issued on 5th February and payment was received on 20th February by the Company.\n\nBased on the facts of the case scenario given above, choose the most appropriate answer to Q. Nos. 1 to 5 below:\n\n\n1. What is the due date for filing the final return in the State of Assam? (Chapter 15: Returns)\n\n(a) within 3 months from $5^{\\text {th }}$ January\n\n(b) within 3 months from $31^{\\text {st }}$ January\n\n(c) within 3 months from $2^{\\text {nd }}$ February\n\n(d) within 3 months from $15^{\\text {th }}$ December\n\n\nAns: (c)\n\n2. Which of the following statements is correct in relation to the re-availament of the input tax credit that had been reversed earlier, upon payment of disputed amount by the company to Rudraksh Enterprises? (Chapter 8: Input Tax Credit)\n\n(a) The company could have re-availed the ITC only up to 30th November of the previous financial year.\n\n(b) The company could have re-availed the ITC only up to 30th November of the current financial year.\n\n(c) The company could have re-availed the ITC only up to the end of the previous financial year.\n\n(d) ITC can be re-availed without any time limit after making the payment of disputed amount along with tax payable thereon to Rudraksh Enterprises.\n\nAns: (d)\n\n3. The amount of tax to be deducted at source under GST law from the payment received from Governmental Agency of Gujarat is (Chapter 14: Tax Deduction at Source and Collection of Tax at Source)\n\n(a) IGST - ₹ 25,000\n\n(b) CGST - ₹12,500 and SGST - ₹ 12,500\n\n(c) nil\n\n(d) IGST - ₹50,000\n\n\nAns: (c)\n\n4. The amount of tax to be collected at source by the company under the GST law during January is $\\_\\_\\_\\_$ (ignore bifurcation of CGST, SGST and IGST). (Chapter 14: Tax Deduction at Source and Collection of Tax at Source)\n\n(a) $₹ 50,000$\n\n(b) ₹ 40,000\n\n(c) $₹ 37,500$\n\n(d) $₹ 30,000$\n\n\nAns: (d)\n\n5. What is the last date for issuance of invoice in relation to construction of road by the company for the last tranche of payment received? (Chapter 10: Tax Invoice; Credit and Debit Notes)\n\n(a) 31st December\n\n(b) 15th January\n\n(c) 5th February\n\n(d) 20th February\n\n\nAns: (a)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "What is the due date for filing the final return in the State of Assam? (Chapter 15: Returns)",
+          "options": {
+            "a": "within 3 months from $5^{\\text {th }}$ January",
+            "b": "within 3 months from $31^{\\text {st }}$ January",
+            "c": "within 3 months from $2^{\\text {nd }}$ February",
+            "d": "within 3 months from $15^{\\text {th }}$ December"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "Which of the following statements is correct in relation to the re-availament of the input tax credit that had been reversed earlier, upon payment of disputed amount by the company to Rudraksh Enterprises? (Chapter 8: Input Tax Credit)",
+          "options": {
+            "a": "The company could have re-availed the ITC only up to 30th November of the previous financial year.",
+            "b": "The company could have re-availed the ITC only up to 30th November of the current financial year.",
+            "c": "The company could have re-availed the ITC only up to the end of the previous financial year.",
+            "d": "ITC can be re-availed without any time limit after making the payment of disputed amount along with tax payable thereon to Rudraksh Enterprises."
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "The amount of tax to be deducted at source under GST law from the payment received from Governmental Agency of Gujarat is (Chapter 14: Tax Deduction at Source and Collection of Tax at Source)",
+          "options": {
+            "a": "IGST - ₹ 25,000",
+            "b": "CGST - ₹12,500 and SGST - ₹ 12,500",
+            "c": "nil",
+            "d": "IGST - ₹50,000"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null
+        },
+        {
+          "q_num": 4,
+          "question": "The amount of tax to be collected at source by the company under the GST law during January is $\\_\\_\\_\\_$ (ignore bifurcation of CGST, SGST and IGST). (Chapter 14: Tax Deduction at Source and Collection of Tax at Source)",
+          "options": {
+            "a": "$₹ 50,000$",
+            "b": "₹ 40,000",
+            "c": "$₹ 37,500$",
+            "d": "$₹ 30,000$"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null
+        },
+        {
+          "q_num": 5,
+          "question": "What is the last date for issuance of invoice in relation to construction of road by the company for the last tranche of payment received? (Chapter 10: Tax Invoice; Credit and Debit Notes)",
+          "options": {
+            "a": "31st December",
+            "b": "15th January",
+            "c": "5th February",
+            "d": "20th February"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "26-CS-28"
+    }
+  ],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": true,
+      "total_marks": 15,
+      "chapter_number": "1",
+      "sub_questions": [
+        {
+          "label": "—",
+          "marks": 15,
+          "internal_split": null,
+          "question": "Compute the tax liability under default tax regime of Mr. Kashyap (aged 35), having total income of ₹ 51,25,000 for the Assessment Year 2026-27. Assume that his total income comprises of salary income, income from house property and interest on fixed deposit. You are required to show the detailed calculation of Marginal Relief. Also, present the alternative method for computing the tax liability and marginal relief.",
+          "answer": "Computation of tax liability of Mr. Kashyap for the A.Y.2026-27 under default tax regime\n\n(A)Tax payable including surcharge on total income of Rs. 51,25,000\n\n| Rs. 4,00,000 - Rs. 8,00,000 @5% | Rs. 20,000 |  |\n| :--- | :--- | :--- |\n| Rs. 8,00,001 - Rs. 12,00,000 @10% | Rs. 40,000 |  |\n| Rs. 12,00,001 - Rs. 16,00,000 @15% | Rs. 60,000 |  |\n| Rs. 16,00,001 - Rs. 20,00,000 @20% | Rs. 80,000 |  |\n| Rs. 20,00,001 - Rs. 24,00,000 @25% | Rs. 1,00,000 |  |\n| Rs. 24,00,001 - Rs. 51,25,000 @30% | Rs. 8,17,500 |  |\n| Total | Rs.11,17,500 |  |\n| Add: Surcharge @ 10% | Rs. 1,11,750 | Rs. 12,29,250 |\n| (B) Tax Payable on total income of Rs. 50 lakhs (Rs. 3,00,000 plus Rs. 7,80,000) |  | Rs. 10,80,000 |\n| (C) Total Income Less Rs. 50 lakhs |  | Rs. 1,25,000 |\n| (D) Tax payable on total income of Rs. 50 lakhs plus the excess of total income over Rs. 50 lakhs (B +C) |  | Rs. 12,05,000 |\n| (E) Tax payable: lower of (A) and (D) |  | Rs. 12,05,000 |\n| Add: Health and education cess @4% |  | Rs. 48,200 |\n| Tax liability |  | Rs. 12,53,200 |\n| (F) Marginal Relief (A - D) |  | Rs. 24,250 |\n\n## Alternative method -\n\n| (A) Tax payable including surcharge on total income of Rs. 51,25,000 |  |  |\n| :--- | :--- | :--- |\n| Rs. 4,00,000 - Rs. 8,00,000 @5% | Rs. 20,000 |  |\n| Rs. 8,00,001 - Rs. 12,00,000 @10% | Rs. 40,000 |  |\n| Rs. 12,00,001 - Rs. 16,00,000 @15% | Rs. 60,000 |  |\n| Rs. 16,00,001 - Rs. 20,00,000 @20% | Rs. 80,000 |  |\n| Rs. 20,00,001 - Rs. 24,00,000 @20% | Rs. 1,00,000 |  |\n| Rs. 24,00,001 - Rs. 51,25,000 @30% | Rs.8,17,500 |  |\n| Total | Rs. 11,17,500 |  |\n| Add: Surcharge@10% | Rs. 1,11,750 | Rs. 12,29,250 |\n| (B) Tax Payable on total income of Rs. 50 lakhs ( Rs. 3,00,000 plus Rs. 7,80,000) |  | Rs. 10,80,000 |\n| (C) Excess tax payable (A)-(B) |  | Rs. 1,49,250 |\n| (D) Marginal Relief (Rs. 1,49,250-Rs. 1,25,000, being the amount of income in excess of Rs.50,00,000) |  | Rs. 24,250 |\n| (E) Tax payable (A)-(D) |  | Rs. 12,05,000 |\n| Add: Health and education cess @4% |  | Rs. 48,200 |\n| Tax liability |  | Rs. 12,53,200 |",
+          "chapter_number": "1",
+          "chapter_name": "BASIC CONCEPTS",
+          "unique_id": "1-T-5"
+        }
+      ],
+      "section": 1
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "2",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Mr. Madan, a citizen of India and the Karta of an HUF, is employed in M/s. PCS Pvt. Ltd. He is drawing monthly salary of ` 65,500 in India. On June 1, 2023 he purchased one residential house property in Mumbai for ` 18,00,000 in his individual capacity. The market value of the property is ` 32,00,000 and value for the purpose of charging stamp duty is ` 23,00,000. On August 31st, 2023 he was transferred to the branch office of M/s. PCS Pvt. Ltd. in U.S.A. and he left India on September 1st, 2023. The overseas branch paid him a salary of $ 2,500 per month in USA. He managed business of HUF from USA when he was not in India. He had also gone out of India for 99 days and 201 days in previous years 2022-23 and 2021-22, respectively. He had never gone out of India prior to that, He visited India from January 1, 2024 to January 15, 2024 for training on a project and received 15 days salary in India as per his Indian monthly salary before being transferred. Mr. Rajeev, one of his friends, gifted him a sculpture in India on August 10, 2023. The market value is ` 45,100. Determine the residential status of Mr. Madan and his HUF and compute gross total income of Mr. Madan for the assessment year 2024-25 assuming he opted out of the default tax regime. The value of one USD ($) may be taken as ` 70.",
+          "answer": "Residential Status of Mr. Madan\nMr. Madan, an Indian citizen who left India on 1st September 2023 for the purpose of employment to USA, would be non-resident in India, since he stayed in India for 169 days (30+31+30+31+31+1+15) only during the P.Y. 2023-24 which is less than 182 days.\nResidential Status of HUF\nSince Mr. Madan is managing the HUF for part of the year from India, control and management of its affairs is situated partly in India. Hence, the HUF would be resident in India for the P.Y. 2023-24. A HUF is said to be “Resident and ordinarily resident” in India during the previous year 2023-24, if Karta (Mr. Madan, in this case) satisfies both the following conditions: - He is a resident in at least 2 out of 10 previous years preceding the relevant previous year; and - His stay in India in the last 7 years preceding the relevant previous year is 730 days or more. Mr. Madan has satisfied both the above conditions as he had never gone out of India except for 99 days and 201 days in the P.Y. 2022-23 and P.Y. 2021-22, respectively, the HUF would be ROR in India.\n```\nOther assets (₹ 3,60,000 – ₹ 60,000, being the amount of self-generated goodwill)\nTotal assets\nLess: Bank Loan (₹ 5,00,000 – ₹ 2,00,000, being loan for personal purpose)\nUnsecured Loan (₹ 2,50,000 – ₹ 1,00,000, being the amount payable for purchase of ornaments of his wife)\nCreditors\nNet worth\n\n|                |         |\n|----------------|---------|\n|                | 3,00,000 |\n| Total assets    | 30,50,000 |\n| Less:          |         |\n| Bank Loan      | 3,00,000 |\n| Unsecured Loan  | 1,50,000 |\n| Creditors      | 4,10,000 |\n|                | 8,60,000 |\n| Net worth      | 21,90,000 |\n```\n```\nMr. Sanju, an individual assessee, aged 32 years, furnishes the following details for the year ended on 31st March, 2025:\n(i)    Loss from Future & Option: ₹ 75,000\n(ii)   Profit from restaurant business (computed): ₹ 2,21,000\n(iii)  Share of profit in partnership firm M/s XL & Co. (19% share): ₹ 38,000\n(iv)   Income from salary (computed): ₹ 3,15,000\n(v)    Interest on loan paid for self-occupied house property: ₹ 1,75,000\n       (Principal amount paid: ₹ 1,20,000)\n(vi)   Short-term capital gain: ₹ 82,000\n(vii)  Long-term capital gain u/s 112A: ₹ 1,10,000\n(viii) Long-term capital loss u/s 112: ₹ 68,000\n(ix)   His wife received salary of ₹ 2,40,000 from a partnership firm XL & Co., where she is an accountant. She does not have any professional qualification related to accounting.\n(x)    He paid ₹ 21,000 for medical insurance premium and ₹ 9,000 for preventive health check-up.\n\nBrought forward speculative business loss: ₹ 26,000 (this being 3rd year from the year of loss) and brought forward short-term capital loss: ₹ 52,000 (this being the 4th year from the year of loss).\n\nCompute total income of Mr. Sanju for the A.Y. 2025-26 if he exercises the option to shift out of default tax regime u/s 115BAC(1A). Also state the losses eligible to carry-forward.\n(6 Marks)\n```",
+          "chapter_number": "2",
+          "chapter_name": "RESIDENTIAL STATUS & SCOPE OF TOTAL INCOME",
+          "unique_id": "BQ-2A"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Briefly discuss the provisions of tax deduction/collection at source under the Income-tax Act, 1961 and determine the amount, if any, of TDS and TCS in respect of the following payments: (i) Mr. Harish bought an overseas tour programme package for Switzerland for himself and his family of Rs. 12 lakhs on 01-11-2025 from an agent who is engaged in organizing foreign tours in course of his business. He made the payment by an account payee cheque and provided the permanent account number to the seller. (ii) Mr. Aditya pays $Rs. 5 5 , 0 0 , 0 0 , 0 0 0$ during F.Y. $2 0 2 5 - 2 6$ to Mr. Naresh, for supply of labour, for carrying out the construction work of his factory. During the P.Y. 2024-25, Mr. Aditya's turnover was Rs. 95 lakhs. (MTP 4 Marks, Apr'24) (MTP 4 Marks Mar'23, PYP 4 Marks Dec '21, MP[2])",
+          "answer": "(i) Since overseas tour package is taken, tax @ $5 \\\\%$ till Rs. 10 lakhs and $20 \\\\%$ thereafter, is required to be collected $\text{u/s 206 C(1G)}$ by the seller of an overseas tour programme package, from Mr. Harish, being the buyer of an overseas tour package, even if payment is made by account payee cheque. Accordingly, tax has to be collected@5\\% on Rs. 10 lakh and 20\\% on Rs. 2 lakhs. TCS = Rs. 90,000 (ii) Mr. Aditya has to deduct tax at source@ $2 \\\\% \text{u/s 194M}$, although his turnover for the P.Y. 2024-25 does not exceed Rs. 1 crore and he is not liable to deduct tax at source under section 194C, since the payment to contractor, Mr. Naresh, exceeds Rs. 50 lakhs. Accordingly, tax has to be deducted @ $2 \\\\%$ on Rs. 55 lakhs. TDS $=Rs. 1,10,000$",
+          "chapter_number": "7",
+          "chapter_name": "AGGREGATION OF INCOME, SET OFF AND CARRY FORWARD OF LOSSES",
+          "unique_id": "7-T-21"
+        }
+      ],
+      "section": 1
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "3.1",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4.5,
+          "internal_split": null,
+          "question": "Discuss the taxability with reason in the hands of recipient for the assessment year 2026-27 in respect of following receipts or income: (i) Mr. Ram received a sum of Rs. 5,00,000 from his father on Ram's wedding anniversary. (ii) Mr. Govind sold his house property to Mrs. Radha for Rs. 1,25,00,000, whereas value determined by stamp valuation authority wasRs. 1,75,00,000. (iii) Ms. Agastha got a gift of car worth Rs. 7,00,000 from her friend on her wedding anniversary. (PYP 4 Marks May'25)",
+          "answer": "|  | Taxable/ Non-taxable | Reason |\n| :--- | :--- | :--- |\n| (i) | Non-Taxable | Sum of money exceeding Rs.50,000 received without consideration by Mr. Ram from his father is not taxable under section $56(2)(x)$ since the sum is received from a relative i.e., father of Mr. Ram. |\n| (ii) | Taxable | The difference of Rs. 50 lakhs between stamp duty value of Rs. $1,75,00,000$ and actual consideration ofRs. $1,25,00,000$ is taxable under section 56(2)(x) in the hands of Mrs. Radha since the difference exceeds Rs. $12,50,000$, being the higher of Rs. 50,000 and $10 \\%$ of consideration. <br> Rs. 50 lakhs is taxable in the hands of Mrs. Radha. <br> Rs. 175 lakhs is to be considered as deemed sale consideration for the purpose of computing capital gain in the hands of Mr. Govind. |\n| (iii) | Non-taxable | Car is not included in the definition of property for the purpose of section 56(2)(x). Therefore, the car received by Ms. Agastha from her friend is not taxable. |",
+          "chapter_number": "3.5",
+          "chapter_name": "CAPITAL GAINS",
+          "unique_id": "3.5-T-9"
+        },
+        {
+          "label": "b",
+          "marks": 5.5,
+          "internal_split": null,
+          "question": "Ms. Aashima is a Finance manager in ABC limited. She has given the details of her income for the P.Y. 202526. You are required to compute the income chargeable to tax under the head \"Salaries\" in the hands of Ms. Aashima from the details given below:  \n\n| Basic Salary | Rs. 60,000 p.m. |  \n| :--- | :--- |  \n| Dearness Allowance | Rs. 24,000 p.m. (40\\% of which forms part of retirement benefits) |  \n| Bonus | Rs. 21,000 p.m. |  \n\nMotor car owned by the employer (cubic capacity of engine exceed \\(1.6\\) liters) provided to Ms. Aashima from 1st October, 2025 which is used for both official and personal purposes. Repair and running expenses of Rs. 60,000 were fully met by the company. The motor car was self-driven by the employee.  \n\nProfessional tax paid Rs. 2,500 out of which Rs. 2,000 was paid by the employer.  \n\nHer employer has provided her with an accommodation on $1^{\\text {st }}$ April 2025 at a concessional rent. The house was taken on lease by ABC Ltd. for Rs. 12,000 p.m. Ms. Aashima occupied the house from 1st December, 2025, Rs. 4,800 p.m. is recovered from the salary of Ms. Aashima.  \n\nThe employer gave her a gift voucher of Rs. 8,000 on her birthday.  \n\nMs. Aashima contributes $15 \\%$ of her salary (Basic Pay plus DA) towards recognized provident fund and the company contributes the same amount.  \n\nThe company pays medical insurance premium to effect insurance on the health of Ms. Aashima Rs. 20,000. Assume that she does not opt for 115BAC. (MTP 7 Marks, Mar'22)",
+          "answer": "Computation of income chargeable to tax under the head \"Salaries\" in the hands of Ms. Aashima for A.Y.2026-27  \n\n| Particulars | Rs. |  \n| :--- | :--- |  \n| Basic Salary [ Rs. 60,000 × 12 ] | 7,20,000 |  \n| Dearness allowance [ Rs. 24,000 × 12 ] | 2,88,000 |  \n| Bonus [ Rs. 21,000 × 12 ] | 2,52,000 |  \n| Perquisite of Motor car (Rs.2,400 × 6 months) [See Note 1] | 14,400 |  \n| Professional tax paid by employer [See Note 2] |  | 2,000 |  \n| :--- | :--- | :--- |  \n| Perquisite value in respect of concessional rent [See Note 3] |  | 28,800 |  \n| Gift voucher given by employer on Ms. Aashima's birthday (entire amount is taxable since the perquisite value exceeds Rs. 5,000) [See Note 4] |  | 8,000 |  \n| Employer's contribution to recognized provident fund in excess of 12\\% of salary =15 \\% ×[(Rs. 60,000+Rs. 24,000) × 12]-12 \\% ×{[Rs. 60,000+Rs. 9,600 (being 40\\% of Rs. 24,000)] × 12}=1,51,200-1,00,224 [Salary = Basic Salary + Dearness allowance, to the extent it forms part of pay for retirement benefits] |  | 50,976 |  \n| Medical insurance premium of Rs. 20,000 paid by the employer to effect an insurance on the health of an employee is an exempt perquisite |  | ___ |  \n| Gross salary |  | 13,64,176 |  \n| Less: Deduction under section 16 |  |  |  \n| Standard deduction under section 16(ia) | 50,000 |  |  \n| Professional tax u/s 16(iii) [See Note 2] | 2,500 | 52,500 |  \n| Salary chargeable to tax |  | 13,11,696 |  \n\nNotes:  \n1. In case a motor car (engine cubic capacity more than 1.6 litres) owned by employer is provided to an employee without chauffeur for both official and personal purpose, where the expenses are fully met by the employer, the value of perquisite would be Rs. 2,400 p.m. The car was provided to Ms. Aashima on 1.10.2025, therefore, the perquisite value has been calculated for 6 months.  \n2. As per section 17(2)(iv), a \"perquisite\" includes any sum paid by the employer in respect of any obligation which, but for such payment, would have been payable by the assessee. Therefore, professional tax of Rs. 2,000 paid by the employer is taxable as a perquisite in the hands of Ms. Aashima. As per section 16(iii), a deduction from the salary is provided on account of tax on employment i.e. professional tax paid during the year.  \n3. Where the accommodation is taken on lease or rent by the employer, the actual amount of lease rent paid or payable by the employer or 10\\% of salary, whichever is lower, in respect of the period during which the house is occupied by the employee, as reduced by the rent recoverable from the employee, is the value of the perquisite.  \n4. As per Rule 3(7)(iv), the value of any gift or voucher received by the employee or by member of his household on ceremonial occasions or otherwise from the employer shall be determined as the sum equal to the amount of such gift. However, the value of any gift or voucher received by the employee or by member of his household below Rs. 5,000 in aggregate during the previous year would be exempt as per the proviso to Rule 3(7)(iv).",
+          "chapter_number": "3.1",
+          "chapter_name": "SALARIES",
+          "unique_id": "3.1-T-7"
+        }
+      ],
+      "section": 1
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "5",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "```\n(ii)  GST Payable under Reverse Charge Mechanism\n\n| Particulars                                                                 | Value (₹) | CGST (₹)                     | SGST (₹)                     | IGST (₹) |\n|-----------------------------------------------------------------------------|-----------|------------------------------|------------------------------|----------|\n| Freight paid for transportation of Television to a registered tempo owner who issued invoice without any GST. (RCM is applicable if GTA provides service of transportation of goods by road to a body corporate.) | 50,000    | 1,250 [50,000 x 2.5%]       | 1,250 [50,000 x 2.5%]       | Nil      |\n| Paid rent of factory and service centre to Mr. Rakesh who is an unregistered person (Renting of immovable property other than residential dwelling from an unregistered person to a registered person is taxable under reverse charge mechanism) | 1,20,000  | 10,800 [1,20,000 x 9%]      | 10,800 [1,20,000 x 9%]      | Nil      |\n| Security services received from M/s Safety-n-Security Services registered under composition scheme at Jalandhar, Punjab. | 25,000    | 2,250 [25,000 x 9%]         | 2,250 [25,000 x 9%]         | Nil      |\n```",
+          "answer": "```\n(Security services \nprovided by any person \nother than a body \ncorporate to a registered \nperson is taxable under \nreverse charge \nmechanism (RCM)).\n\nTotal GST payable \nunder RCM \n14,300  14,300\n\n(iii)  Input Tax Credit\n\n| Particulars                                               | Value (₹) | CGST (₹)                     | SGST (₹)                     | IGST (₹) |\n|----------------------------------------------------------|-----------|------------------------------|------------------------------|----------|\n| Purchase of raw material from M/s Electo                 |           |                              |                              |          |\n| Enterprises Pvt. Ltd.                                    | 23,80,000 | 2,14,200 [23,80,000 x 9%]   | 2,14,200 [23,80,000 x 9%]   |          |\n| [ITC on purchase of raw materials of ₹ 1,20,000        |           |                              |                              |          |\n| is not allowed as invoice for supply of goods            |           |                              |                              |          |\n| uploaded after filing of                                 |           |                              |                              |          |\n| Annual Return for FY 2024-25]                           |           |                              |                              |          |\n| ITC is available on rent paid under reverse              | 1,20,000  | 10,800 [1,20,000 x 9%]      | 10,800 [1,20,000 x 9%]      | Nil      |\n| charge mechanism                                         |           |                              |                              |          |\n| ITC is available on freight paid                         | 50,000    | 1,250 [50,000 x 2.5%]       | 1,250 [50,000 x 2.5%]       | Nil      |\n| for transportation of television under reverse           |           |                              |                              |          |\n| charge mechanism                                         |           |                              |                              |          |\n| ITC is available on receipt of security                  | 25,000    | 2,250 [25,000 x 9%]         | 2,250 [25,000 x 9%]         | Nil      |\n| services                                                 |           |                              |                              |          |\n| Total ITC Available                                      | 2,28,500  | 2,28,500                     |                              |          |\n```\n```\nDetermine the taxability or otherwise of the following services provided by Indian Railways:\n\n| S.No. | Particulars                                                             | Amount (₹)  |\n|-------|-------------------------------------------------------------------------|-------------|\n| (i)   | Cloak room services provided to passengers                                | 20,00,000   |\n| (ii)  | Service of transportation of passengers in second class                  | 20,00,000   |\n| (iii) | Platform tickets sold to passengers                                       | 50,00,000   |\n| (iv)  | Renting of warehouse located in Bengaluru railway station to Paras Traders, registered in Chennai | 1,50,000    |\n| (v)   | Service of transportation of passengers in air-conditioned coaches       | 10,00,000   |\n```",
+          "chapter_number": "23",
+          "chapter_name": "SUPPLY & INPUT TAX CREDIT UNDER GST",
+          "unique_id": "BQ-4A"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Who is an eligible person to file a return through a Tax Return Preparer (TRP) under section 139B of the Income-tax Act, 1961? Also, specify the circumstances in which an eligible person cannot furnish his return of income through a TRP. (PYP, 4 marks)",
+          "answer": "Any person, being an individual or a Hindu undivided family is an eligible person who can file their return through a Tax Return Preparer (TRP).\n\nHowever, the following eligible person (an individual or a HUF) cannot furnish a return of income for an assessment year through a Tax Return Preparer:\n\n(i) who is carrying out business or profession during the previous year and accounts of the business or profession for that previous year are required to be audited under section 44AB or under any other law for the time being in force; or\n\n(ii) who is not a resident in India during the previous year.\n\nAn eligible person cannot furnish a revised return of income for any assessment year through a Tax Return Preparer unless he has furnished the original return of income for that assessment year through such or any other Tax Return Preparer.",
+          "chapter_number": "8",
+          "chapter_name": "PROVISIONS FOR FILING RETURN OF INCOME AND SELF ASSESSMENT",
+          "unique_id": "8-T-37"
+        }
+      ],
+      "section": 1
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": true,
+      "total_marks": 15,
+      "chapter_number": "23",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 7.5,
+          "internal_split": null,
+          "question": "GSTR 3B for the month of January 2026 has been filed by M/s Avisha Limited, a registered person, within the due date prescribed by the CGST Act 2017 which is on February $20^{\text {th }}$, 2026. It came to the notice of the Co. that tax due for the month of January, 2026 has been paid short by Rs. 16,000 . The short fall of Rs. 16,000 has been paid through cash ledger and credit ledger at the time of filing GSTR 3B for the month of February 2026 on March $20^{\text {th }}, 2026$ in the following manner:\n\n| Particulars | Cash Ledger | Credit Ledger |\n| :---: | :---: | :---: |\n| Shortfall | $Rs. 12,000$ | $Rs. 4,000$ |\n\nAssume that electronic cash ledger and credit ledger carry sufficient balance for the above short fall.\n\n(i) You are required to calculate the amount of interest payable if any under section 50 of the CGST Act 2017 and rule 88B of the CGST rules 2017.\n\n(ii) Give the effect if GSTR3B for the month of January 2026 had been filed belatedly on March 20, 2026 and all other conditions remaining same.\n\nCalculation should be rounded off to nearest rupee. (PYP 5 Marks, May'24,MP[7])",
+          "answer": "Interest is payable in case of delayed payment of tax @ 18% per annum from the date following the due date of payment to the actual date of payment of tax.\n\nAbove interest is payable on the net tax liability paid in cash only if return in Form GSTR-3B for a tax period has been filed after the due date to furnish such return. Otherwise, interest is payable on gross tax liability.\n\n(i) Since Avisha Limited has furnished Form GSTR-3B for the month within the prescribed due date, interest is payable on the gross tax liability deposited with a delay of 28 days [21.02.2026-20.03.2026 (both inclusive)] as under: $=Rs. 16,000 \\times 18 \\% \\times 28 / 365=Rs. 221$ (rounded off)\n\n(ii) If Avisha Limited has filed Form GSTR-3B for the month after the due date, i.e. on 20.03.2026, interest is payable on the net tax liability paid through Electronic Cash Ledger only, for a delay of 28 days, as under: $=Rs. 12,000 \\times 18 \\% \\times 28 / 365=Rs. 166$ (rounded off)",
+          "chapter_number": "23",
+          "chapter_name": "PAYMENT OF TAX",
+          "unique_id": "23-T-14"
+        },
+        {
+          "label": "b",
+          "marks": 7.5,
+          "internal_split": null,
+          "question": "Given the following scenario, compute the aggregate turnover of Mr. Venkatesh for the purpose of registration under GST law and decide whether Mr. Venkatesh is liable to be registered under GST or not. Also discuss whether your answer to the registration liability will change if in the state of Tripura Mr. Venkatesh is engaged only in intra-State supply of exempt goods while other information remains the same.\n\n**Scenario:** In the month of February 2025, Mr. Venkatesh started supply of both goods and services from the states of Rajasthan and Tripura. His statistics for the month of February 2025 are as under:\n\n| S. No. | Particulars                                                        | Rajasthan (₹) | Tripura (₹) |\n|--------|--------------------------------------------------------------------|----------------|--------------|\n| (i)    | Intra-State taxable supplies                                         | 11,00,000      | 5,00,000     |\n| (ii)   | Intra-State sale by Mr. Venkatesh as an agent of Ganesh enterprises, a non-taxable person of Rajasthan | 1,00,000       | -            |\n| (iii)  | Intra-State supply of non-taxable goods                            | 2,00,000       | -            |\n\n**Additional Information:**\n\n(i) In the State of Rajasthan, Intra-State taxable supply includes commission received as an insurance agent from an insurance company worth ₹ 50,000.\n\n(ii) In the State of Tripura, Intra-State taxable supplies includes inward supply of service on which tax is payable under reverse charge worth ₹ 1,00,000.\n\n(iii) For sale by Mr. Venkatesh in the capacity of agent for Ganesh Enterprises, the invoice was issued in the name of Mr. Venkatesh only.\n\nAssume all the above figures are excluding GST and given amount to be considered as value determined as per the GST law.",
+          "answer": "```\n(ii) In the State of Tripura, Intra-State taxable supplies includes inward supply of service on which tax is payable under reverse charge worth ₹ 1,00,000.\n\n(iii) For sale by Mr. Venkatesh in the capacity of agent for Ganesh Enterprises, the invoice was issued in the name of Mr. Venkatesh only.\n\nAssume all the above figures are excluding GST and given amount to be considered as value determined as per the GST law.\n\nBased on the above-mentioned information, you are required to determine the following along with the relevant provision in brief:\n\n(1) Compute the aggregate turnover of Mr. Venkatesh for the purpose of registration under GST law.\n\n(2) Decide whether Mr. Venkatesh is liable to be registered under GST or not.\n\nAlso discuss whether your answer to the (2) above will change or not if in the state of Tripura Mr. Venkatesh is engaged only in intra-State supply of exempt goods and other information will remain same.\n```\n| Particulars                                         | Rajasthan Amount (₹) | Tripura Amount (₹)   |\n|-----------------------------------------------------|-----------------------|-----------------------|\n| (1) Computation of aggregate turnover of Mr. Venkatesh | 11,00,000             | 4,00,000              |\n| Intra-State taxable supplies                         |                       | [5,00,000 – 1,00,000] |\n| [Includible in aggregate turnover.                   |                       |                       |\n| Further, value of inward supplies on which tax is payable on reverse charge basis are excludible from the aggregate turnover, but |                       |                       |",
+          "chapter_number": "24",
+          "chapter_name": "INPUT TAX CREDIT",
+          "unique_id": "BQ-5B"
+        }
+      ],
+      "section": 2
+    },
+    {
+      "q_main": 6,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "18",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "From the following information provided by M/s Sasta Bazaar. Determine the time of supply for the purpose of payment of GST:\nIt issued coupon on 20.06.2023, worth ` 2,000 redeemable against purchase of specific plastic items. This coupon was redeemed on 31.07.2023.\nIt issued coupon on 01.08.2023 worth ` 3,000 which is redeemable against purchase of any item. This coupon was redeemed on 18.08.2023.\nIt received interest of ` 10,000 for late payment from a customer on 11.11.2023 for supply of goods which was originally made on 24.06.2023.",
+          "answer": "As per section 12(4) of the CGST Act, 2017, the time of supply of vouchers exchangeable for goods is-  Date of issue of the voucher, if the supply that it covers is identifiable at that point, or  Date of redemption of the voucher in other cases.\nIn the given case, supply can be identified at the time of purchase of the coupons. Therefore, the time of supply of the coupons is the date of their issue i.e. 20.06.2023.\nIn the given case, supply cannot be identified at the time of purchase of the coupons. Therefore, the time of supply of the coupons is the date of their redemption i.e. 18.08.2023.\nSection 12(6) of the CGST Act, 2017 prescribes that time of supply in case of addition in value on account of interest/ late fee/penalty for delayed payment of consideration for goods is the date on which the supplier receives such addition in value. Therefore, time of supply in the given case is 11.11.2023",
+          "chapter_number": "25",
+          "chapter_name": "TIME OF SUPPLY",
+          "unique_id": "BQ-6A"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Comment on the taxability or otherwise of the following transactions under GST law. Also state the correct legal provisions for the same. (MTP 4 Marks Nov'24, 5 Marks Äug 25 , $\text{MP}[5]^{45}$)\n\n| Sr. No. | Description of Services provided |\n| :--- | :--- |\n| (i) | Service provided by a private transport operator to Vintage Girls Higher Secondary School by way of transportation of students to and from the school. |\n| (ii) | Services provided by way of vehicle parking to general public in a shopping complex. |\n| (iii) | Food supplied by the canteen run by a hospital to the in- patients as advised by the doctors. |\n| (iv) | An RWA in a housing society, registered under GST, collects the maintenance charges of Rs. 6,500 per month per member. |",
+          "answer": "| S. No. | Particulars | Taxability |\n| :--- | :--- | :--- |\n| (i) | Service provided by a private transport operator to Vintage Girls Higher Secondary School by way of transportation of students to and from the school. [Services provided TO an educational institution by way of transportation of students are exempted from GST] | Exempt |\n| (ii) | Services provided by way of vehicle parking to general public in a shopping complex. [Services provided by way of vehicle parking to general public are not exempted from GST. Therefore, it would be taxable.] | Taxable |\n| (iii) | Food supplied by the canteen run by a hospital to the in-patients as advised by the doctors. <br> [Services by way of health care services by a clinical establishment, an authorised medical practitioner or para-medics are exempt from GST. Food supplied to the inpatients by a canteen run by the hospital, as advised by the doctor/nutritionists, is a part of composite supply of healthcare and not separately taxable. Thus, said services are exempt from GST.] | Exempt |\n| (iv) | An RWA in a housing society, registered under GST, collects the maintenance charges of Rs. 6,500 per month per member. | Exempt |\n\n|  | [Supply of service by a RWA (unincorporated body or a non-profit entity registered under any law) to its own members by way of reimbursement of charges or share of contribution up to an amount of Rs. 7500 per month per member for providing services and goods for the common use of its members in a housing society/a residential complex are exempt from GST. Hence, in the given case, services provided by the RWA are exempt from GST since the maintenance charges collected per month per member do not exceed Rs.7500.] |  |",
+          "chapter_number": "15",
+          "chapter_name": "EXEMPTION OF GST",
+          "unique_id": "15-T-18"
+        }
+      ],
+      "section": 2
+    },
+    {
+      "q_main": 7,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "24",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4.5,
+          "internal_split": null,
+          "question": "Who is liable to collect TCS (collection of tax at source) under Section 52 of the CGST Act, 2017. Briefly explain the provisions relating to registration, filing of return and deposit of TCS to Government as per the provisions of section 52 of the CGST Act, 2017 and rule 12 of the CGST, Ryles, 2017. (PYP 5 Marks, May'24,MP[7])",
+          "answer": "Every Electronic Commerce Operator (ECO), not being an agent, is liable to collect tax at source (TCS). Such ECO is required to submit a registration application in prescribed form through the common portal. The proper officer shall, after due verification, grant registration within 3 working days from the date of the application. On a request or upon an enquiry or pursuant to any other proceeding under GST law, if the proper officer is satisfied that a person is no longer liable to collect the tax at source, he may cancel his registration. Such ECO shall furnish a monthly statement in prescribed form containing the details of the outward supplies of goods and/ or services effected through it, including supplies returned through it and the amount collected by it as TCS during the month within 10 days after the end of each month in which tax has been collected at source. They also required to file annual statement on or before 31 st December following the end of the financial year. The TCS amount collected by the ECO has to be deposited by 10th of the month succeeding the month in which TCS has been collected.",
+          "chapter_number": "24",
+          "chapter_name": "PAYMENT OF TAX",
+          "unique_id": "24-T-6"
+        },
+        {
+          "label": "b",
+          "marks": 5.5,
+          "internal_split": null,
+          "question": "Mr. Sarthak is a member of HUF. It consists of himself, his wife Juhi and his major son Arjun and his minor daughter Aditi. Mr. Sarthak transferred his house property acquired through his personal income to the HUF without any consideration. On 01-10-2025, HUF is partitioned and such property being divided equally. Net annual value of the property for the Previous Year 2025-26 is ₹ 1,00,000. Determine the tax implications. (PYP 4 Marks, May'22)",
+          "answer": "|  | ₹ |\n| :--- | :--- |\n| Since Mr. Sarthak, who is a member of the HUF, transfers the house property acquired by him out of his personal income to the HUF without any consideration, the income from such property would continue to be included in his total income upto the date of partition. Accordingly, income from such property for six monthssupto the date of partition i.e., 30.9.2025 ( $6 / 12 \\times ₹ 70,000$ [Net Annual Value of ₹ $1,00,000$ less deduction under section 24(a) @30\\%) would be included in the total income of Mr. Sarthak. | 35,000 |\n| Since the HUF was partitioned on 1.10.2025, the income derived from such converted house property as is received by Mr. Sarthak's spouse, Juhi, on attrition will be deemed to arise to Mr. Sarthak from house property transferred indirectly by him to her and consequently, such income would also be included in the total insscome of Mr. Sarthak. Accordingly, Mr. Sarthak's share (25\\%) and Juhi's share (25\\%) would be included in the total income of Mr. Sarthak. |  |\n| Sarthak's Share [25\\% of ₹ 35,000 (₹ $70,000 \\times 6 / 12$ )] | 8,750 |\n| Juhi's Share [25\\% of ₹ 35,000] included in the total income of Sarthak | 8,750 |\n| Income from house property includible in the income of Mr. Sarthak | 52,500 |\n| $25 \\%$ share of Sarthak's minor daughter, Aditi, i.e., ₹ 8,750 , being $25 \\%$ of ₹ 35,000 , would be included in the total income of Mr. Sarthak or Juhi, whosoever's total income, before including Aditi's income, is higher. Such parent shall be entitled to an exemption of ₹ 1,500 under section 10(32). |  |\n| $25 \\%$ share of Sarthak's major son, Arjun, i.e., ₹ 8,750 , being $25 \\%$ of ₹ 35,000 , would be included in Arjun's total income. |  |\n| Distribution of house property on partition of HUF is not a transfer for levy of capital gains tax. |  |",
+          "chapter_number": "4",
+          "chapter_name": "INCOME OF OTHER PERSONS INCLUDED IN ASSESSEE's TOTAL INCOME",
+          "unique_id": "4-T-1"
+        }
+      ],
+      "section": 2
+    },
+    {
+      "q_main": 8,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "23",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "State the order in which every taxable person discharges his tax and other dues under GST law, as provided under section 49 of the CGST Act, 2017. (RTP May'23)",
+          "answer": "Section 49 of the CGST Act, 2017 stipulates that every taxable person shall discharge his tax and other dues under the GST law in the following order, namely: -\n\n(a) self-assessed tax, and other dues related to returns of previous tax periods;\n\n(b) self-assessed tax, and other dues related to the return of the current tax period;\n\n(c) any other amount payable under this Act or the rules made thereunder including the demand determined under section 73 or section 74 or section 74A.",
+          "chapter_number": "23",
+          "chapter_name": "PAYMENT OF TAX",
+          "unique_id": "23-T-1"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "(PYP 4 marks Jan'25) (i) Which are all persons required to mandatorily file the Return of Loss as per section 80 of Income Tax Act, 1961. (ii) Consequences of Non-filing of Return of Loss in time.",
+          "answer": "(i) As per section 80, a person having the following losses is required to mandatorily file return of loss $/u/s 139(3) on or before the due date specified $02/u/s 139(1) for the purpose of carry forward of such losses -\n\n(a) Business loss $02/u/s 72(1)\n\n(b) Speculation business loss $02/u/s 73(2)\n\n(c) Loss from specified business u/s 73A (2) [In case assessee has exercised the option of shifting out of the default tax regime provided under section 115BAC(1A)]\n\n(d) Loss under the head \"Capital Gains\" $02/u/s 74(1)\n\n(e) Loss from the activity of owning and maintaining race horses u/s 74A (3).\n\n(ii) If the return of loss is not filed within the time allowed $02/u/s 139(1)$ then, the following losses cannot be carried forward -\n\n(a) Business loss $02/u/s 72(1)\n\n(b) Speculation business loss $02/u/s 73(2)\n\n(c) Loss from specified business u/s 73A (2) [In case assessee has exercised the option of shifting out of the default tax regime provided under section 115BAC(1A)]\n\n(d) Loss under the head \"Capital Gains\" $02/u/s 74(1)$\n\n(e) Loss from the activity of owning and maintaining race horses $02/u/s 74 A (3)",
+          "chapter_number": "8",
+          "chapter_name": "PROVISIONS FOR FILING RETURN OF INCOME AND SELF ASSESSMENT",
+          "unique_id": "8-T-32"
+        }
+      ],
+      "section": 2
+    }
+  ]
+}

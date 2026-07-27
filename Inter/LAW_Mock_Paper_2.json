@@ -1,0 +1,506 @@
+{
+  "meta": {
+    "subject_code": "LAW",
+    "subject_name": "Corporate and Other Laws",
+    "paper_num": 2,
+    "total_marks_printed": 100,
+    "total_marks_in_paper": 114,
+    "section_a_marks": 30,
+    "section_b_marks": 84,
+    "note": "Section A: 15 MCQs @ 2 marks each (Case Study based). Section B: Q1 compulsory (14m). Attempt any 4 of Q2–Q6 (14m each).",
+    "blacklisted_from": [
+      "Generated_Papers/LAW/LAW_Mock_Paper_1.json"
+    ],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)",
+      "1(c)"
+    ]
+  },
+  "section_a": [
+    {
+      "type": "case_study",
+      "chapter_number": "16",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "Shree Tyres Ltd. is an unlisted public limited company. The company's accounts for the financial year ending on 31st March, 2025 were finalised and audited by the Statutory Auditor. The meeting of the Board of Directors was convened and approved the financial accounts of the company and proposed to convene the Annual General Meeting of the shareholders on Thursday, the 25th August, 2025 at 10 am.\n\nThe total number of members is 3500 . The Article of the company provides that the quorum for the general meeting of the shareholders shall be at least fifty members. On the day of the meeting only 10 members were physically present. Even after waiting of 30 minutes, the quorum was not present. Accordingly, the meeting was adjourned. According to the provisions of the Companies Act, 2013, the meeting shall adjourn to the same day in the next week at the same time and place.\n\nHowever, on the same day in the next week i.e., on Thursday, the 1st September, 2025, the same venue (which is a Hotel's Conference Hall) was available from 3 pm only. The Board agreed to conduct the meeting from 3 pm and the all the members were informed individually via mail and also published it in the newspapers (one in English and another in vernacular language)\n\nThe adjourned meeting started at 3 pm on 1st September, 2025, the quorum required as per the Articles was 50 , however 75 members were present. Out of the 75 members attending the meeting 25 persons were having the residence near the venue of Annual General Meeting and rest of the members were staying far away. Due to heavy rainfall and scarce availability of public transportation, 40 persons left the meeting so that they can reach home on time. By that time only the ordinary business resolutions were approved and two special business agendas were pending for approval by the members.",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "In the light of the given facts, the General Meeting of the shareholders was decided to be scheduled. Determine by which date the notices to the shareholder should have been given to the members:",
+          "options": {
+            "a": "1st August, 2025",
+            "b": "2nd August, 2025",
+            "c": "3rd August 2025",
+            "d": "4th August, 2025"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": 1
+        },
+        {
+          "q_num": 2,
+          "question": "Whether adjournment of the general meeting of shareholders of Shree Tyres Ltd. for want of quorum, was justified as per the requirement of the Companies Act, 2013:",
+          "options": {
+            "a": "Yes, it was justified, since the quorum was not present within 30 minutes from the time appointed for holding the meeting",
+            "b": "No, it was not justified since the waiting time for the arrival of the requisite quorum is 30 minutes as per the provisions of the Companies Act, 2013, whereas the decision of the adjournment of the meeting was just taken after 15 minutes.",
+            "c": "Yes, if the quorum is not present at the given time (sharp) of meeting, the meeting stands to be adjourned, and there is no requirement of waiting time.",
+            "d": "Yes, it was justified, since the quorum was not present within 45 minutes (as per statutory requirement) from the time appointed for holding the meeting."
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "_serial": 2
+        },
+        {
+          "q_num": 3,
+          "question": "What shall be the quorum for the General Meeting of the Shareholders, where the number of members is 3500:",
+          "options": {
+            "a": "Five",
+            "b": "Fifteen",
+            "c": "Thirty",
+            "d": "Fifty:"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null,
+          "_serial": 3
+        },
+        {
+          "q_num": 4,
+          "question": "As some members left the meeting, the quorum was not present all the time during the Annual General Meeting. The agendas for special business transactions remained un-approved. What is your opinion:",
+          "options": {
+            "a": "The quorum once present in the beginning of the meeting is enough.",
+            "b": "The quorum should be present all the time when the meeting is in progress. Any items which could not approved by members for want of quorum, shall be treated as NIL.",
+            "c": "When the quorum is present in the beginning of the meeting, it may be assumed that all the resolutions have been approved, until and unless objected later on by the members present therein.",
+            "d": "The Board may seek special written consent from the all the members later on"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": 4
+        }
+      ],
+      "mcq_count": 4,
+      "unique_id": "16-CS-3"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "16",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "## CS 7 (MTP 6 Marks Sep'22) (Chapter 9: Accounts of Companies)\n\nThe aggregate value of the paid-up share capital of Sai Ram Limited, a listed company, was ₹ 200 crore divided into 20 crore equity shares of ₹10/- each at the end of the financial year 2025-26 having its registered office at Pune. This company had been registered with an authorised share capital of ₹ 300 crore divided into 30 crore equity shares of $₹ 10 /-$ each. The company has very good reputation in compliance of all legal requirements on time. The company produces health related products such as ayurvedic medicines, medical instruments, sanitizers, masks, medical soaps etc. The extract of Balance Sheet of the company as on 31st March, 2026 showed the following figures-\n\n| Particulars | Amount (₹ in crore) |\n| :--- | :---: |\n| Free reserves created out of profits | 200 |\n| Securities Premium account | 80 |\n| Credit balance of Profit & Loss account | 50 |\n| Reserves created out of revaluation of assets | 25 |\n| Miscellaneous expenditure not written off | 10 |\n\nTurnover of the company during the financial year 2025-26 was ₹ 700 crore and the net profit calculated in accordance with section 198 of the Companies Act, 2013 with other adjustments as per CSR Rules was ₹4 crore only.\n\nThe Board of Directors of the company constituted of the following persons as directors- a Chartered Accountant 'Sai Ram' as the Managing Director, 'Roshan' and 'Prachita' as independent directors, 'Hari Om', 'Bindu', 'Reddy' and 'Komal'. Prakash, Chief compliance officer of the company informed the Board on 20th April, 2026 that the company attracts the provisions of section 135 of the Companies Act, 2013 and all the formalities have to be complied with accordingly. Thereafter, on 30th April, 2026 a CSR committee was formed to act and comply the provisions of Corporate Social Responsibility.\n\nThe company proposed a list of activities to spend 4% of the average net profits of the company made during the three immediately preceding financial years in pursuance of its CSR Policy as under -\n\n1. The CSR projects for the benefit of employees of the company and their families only.\n2. A contribution of $₹ 10,000$ /- to a political party under section 182 of the Companies Act, 2013.\n3. A contribution to the PM CARES Fund during Covid pandemic.\n4. Local activities like promotion of child and women education.\n5. Activities carried out for fulfilment of any other statutory obligations under any law in force in India.\n6. CSR projects undertaken through a Section 8 company.\n\nOn the basis of above facts and by applying applicable provisions of Companies Act, 2013 and the applicable Rules therein, choose the correct answer.\n\n1. Prakash, Chief compliance officer of the company informed the Board on 20th April, 2022 that the company attracts the provisions of section 135 of the Companies Act, 2013. On what basis of the following he arrived at this conclusion -\n\n(a) On the basis of turnover of the company.\n\n(b) On the basis of turnover and net profit of the company taken together.\n\n(c) On the basis of net worth of the company.\n\n(d) On the basis of net worth and turnover of the company taken together.\n\nAns: (c)\n\n2. For the purpose of section 135 of the Companies Act, 2013, the net worth has to calculated as defined under section 2(57) of the Act. In this context, which of the following statements is correct with reference to the above case -\n\n(a) The net worth of Sai Ram Limited during the financial year 2021-22 was ₹520 crore.\n\n(b) The net worth of Sai Ram Limited during the financial year 2021-22 was ₹530 crore.\n\n(c) The net worth of Sai Ram Limited during the financial year 2021-22 was ₹555 crore.\n\n(d) The net worth of Sai Ram Limited during the financial year 2021-22 was ₹620 crore.\n\nAns: (a)\n\n3. Sai Ram Limited constituted a Corporate Social Responsibility Committee as per the provisions of the Act and Companies (Corporate Social Responsibility Policy) Rules, 2014 , therein consisting of-\n\n(a) Sai Ram, Hari Om, Bindu and Reddy\n\n(b) Hari Om, Bindu, Reddy and Prakash\n\n(c) Sai Ram, Hari Om, Bindu and Prakash\n\n(d) Sai Ram, Hari Om, Bindu and Roshan\n\nAns: (d)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Prakash, Chief compliance officer of the company informed the Board on 20th April, 2022 that the company attracts the provisions of section 135 of the Companies Act, 2013. On what basis of the following he arrived at this conclusion -",
+          "options": {
+            "a": "On the basis of turnover of the company.",
+            "b": "On the basis of turnover and net profit of the company taken together.",
+            "c": "On the basis of net worth of the company.",
+            "d": "On the basis of net worth and turnover of the company taken together."
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": 5
+        },
+        {
+          "q_num": 2,
+          "question": "For the purpose of section 135 of the Companies Act, 2013, the net worth has to calculated as defined under section 2(57) of the Act. In this context, which of the following statements is correct with reference to the above case -",
+          "options": {
+            "a": "The net worth of Sai Ram Limited during the financial year 2021-22 was ₹520 crore.",
+            "b": "The net worth of Sai Ram Limited during the financial year 2021-22 was ₹530 crore.",
+            "c": "The net worth of Sai Ram Limited during the financial year 2021-22 was ₹555 crore.",
+            "d": "The net worth of Sai Ram Limited during the financial year 2021-22 was ₹620 crore."
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null,
+          "_serial": 6
+        },
+        {
+          "q_num": 3,
+          "question": "Sai Ram Limited constituted a Corporate Social Responsibility Committee as per the provisions of the Act and Companies (Corporate Social Responsibility Policy) Rules, 2014 , therein consisting of-",
+          "options": {
+            "a": "Sai Ram, Hari Om, Bindu and Reddy",
+            "b": "Hari Om, Bindu, Reddy and Prakash",
+            "c": "Sai Ram, Hari Om, Bindu and Prakash",
+            "d": "Sai Ram, Hari Om, Bindu and Roshan"
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null,
+          "_serial": 7
+        }
+      ],
+      "mcq_count": 3,
+      "unique_id": "16-CS-7"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "16",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "## CS 10\n\nSourabh Publishers Ltd., a listed entity, passed a resolution in its Board meeting for appointment of Jain & Jain, a Chartered Accountants firm, as Statutory Auditor of the company. The company obtained the\n\nconsent in writing from Jain & Jain and also placed this recommendation before the general meeting of the shareholder and got it approved.\n\nThe company thereafter informed the CA Firm about their appointment and also filed a notice of appointment with the Registrar of Companies within the prescribed time.\n\nJain & Jain, Chartered Accountants firm is having 3 partners namely, Mridula Jain, Shyamla Jain, Parul Jain. In this firm Mayank Jain and Shashank Jain were associates and were being paid on case-to-case basis and not on fixed salary.\n\nPrior to the appointment of Jain & Jain, the previous auditor was Agrawal Jain & Associates. In this CA firm there were 6 partners namely, Prashant Agrawal, Vikas Agrawal, Vishal Agrawal, Vyom Agrawal, Mayank Jain and Shashank Jain.\n\nMayank Jain and Shashank Jain were common persons in both the firms.\n\nWhile working with Sourabh Publishers Ltd., Jain & Jain started facing a lot of issues with the management of the company. After some time, due to these disputes with the management, Jain & Jain resigned from the company.",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "The newly appointed CA Firm (Jain & Jain) and retiring CA Firm (Agrawal Jain & Associates) have common persons i.e., Mayank Jain and Shashank Jain. Whether the appointment of Jain & Jain in Sourabh Publishers Ltd. is valid as per the provisions of the Companies Act, 2013",
+          "options": {
+            "a": "It not valid since both the CA Firms (New and Old) have common persons",
+            "b": "Mayank Jain and Shashank Jain are the associates in Jain & Jain and not the partners, hence appointment of Jain & Jain, is valid",
+            "c": "Jain & Jain should expel Mayank Jain and Shashank Jain in order to retain its appointment",
+            "d": "Agrawal Jain & Associates should expel Mayank Jain and Shashank Jain"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": 8
+        },
+        {
+          "q_num": 2,
+          "question": "What would have been the position if, Mayank Jain and Shashank Jain are partners in Jain & Jain:",
+          "options": {
+            "a": "The position will remain the same as MCQ 1 above",
+            "b": "There shall be no change, and Jain & Jain may continue as audit firm",
+            "c": "The appointment of Jain & Jain would not have been in terms of the provisions of the Companies Act, 2013",
+            "d": "The company may obtain permission from the shareholders in the general meeting by way of Special Resolution for continuation of appointment of Jain & Jain"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": 9
+        },
+        {
+          "q_num": 3,
+          "question": "In the given case, Jain & Jain due to some dispute with the management on some issues resigned from the company. Choose the correct option in respect to filling of this vacancy:",
+          "options": {
+            "a": "Jain & Jain cannot resign and has to hold the office till the conclusion of the next annual general meeting",
+            "b": "The resignation is tendered by the auditor, the Board of Directors shall appoint new auditor within 30 days and such appointment shall also be approved by the shareholders in the general meeting within 3 months of the recommendation of the Board",
+            "c": "This vacancy of auditor can be filled by the shareholders in consultation of the Central Government",
+            "d": "This vacancy of auditor can be filled by the Board of Directors in consultation of the Comptroller and Auditor-General of India"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": 10
+        }
+      ],
+      "mcq_count": 3,
+      "unique_id": "16-CS-10"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "16",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "XYZ Ltd. was incorporated on April 1, 2025. The Board of Directors, within the required timeframe, appointed Mr. A as the first auditor of the company on April 20, 2025. Mr. A was tasked with auditing the company's financial statements for the financial year 2024-25, and he held office until the conclusion of the first Annual General Meeting (AGM), which was held on September 30, 2025.\n\nDuring the AGM, the shareholders decided to appoint Mr. B, a partner in the audit firm MNO LLP, as the new auditor. MNO LLP is a limited liability partnership incorporated under the LLP Act, 2008. Mr. B and his firm were appointed to hold office from the conclusion of the 1st AGM until the conclusion of the 6th AGM in 2030. Five years later, in 2028, the company is considering whether to reappoint Mr. B and MNO LLP for another term. The shareholders are discussing the provisions of the Companies Act, 2013, and the implications of reappointing the same auditor or audit firm for multiple terms.\n\nOn the basis of above facts and by applying applicable provisions of the Companies Act, 2013 and the applicable Rules therein, choose the correct answer (one out of four) of the following Multiple Choice Questions (MCQs 1-5, of 2 marks each) given herein under: -\n\n\n1. Who was responsible for appointing the first auditor of XYZ Ltd., and within what timeframe should the appointment have been made? (Chapter 10 Audit and Auditors)\n\n(a) Shareholders, within 60 days of registration of company\n\n(b) Board of Directors, within 30 days of registration of company\n\n(c) Board of Directors, within 60 days of registration of company\n\n(d) Shareholders, within 30 days of registration of company\n\n\nAns:(b)\n\n2. How long can MNO LLP, as an audit firm, hold office as the auditor of XYZ Ltd. according to the Companies Act, 2013? (Chapter 10 Audit and Auditors)\n\n(a) One term of five consecutive years\n\n(b) Two terms of five consecutive years\n\n(c) One term of six consecutive years\n\n(d) Three terms of five consecutive years\n\n\nAns: (b)\n\n3. If XYZ Ltd. wants to reappoint MNO LLP for another term after 2030, what does the Companies Act, 2013, mandate? (Chapter 10 Audit and Auditors)\n\n(a) MNO LLP can be reappointed for another term of five years.\n\n(b) MNO LLP cannot be reappointed, as they have already served one term.\n\n(c) MNO LLP cannot be reappointed, as they have already served two terms.\n\n(d) MNO LLP can be reappointed, but the tenure must be reduced to three years.\n\n\nAns: (a)\n\n4. What is the maximum tenure for which Mr. A as the first auditor of XYZ Pvt. Ltd., can hold office? (Chapter 10 Audit and Auditors)\n\n(a) From the date of appointment until the conclusion of the first AGM i.e. 30th September 2025\n\n(b) From the date of appointment until the conclusion of the second AGM (in 2026)\n\n(c) From the date of appointment until the conclusion of the third AGM (in 2027)\n\n(d) From the date of registration of company until the conclusion of the first AGM i.e. 30th September 2025\n\n\nAns: (a)\n\n5. By what date the copy of the annual return is to be filed with the Registrar of companies in case of first AGM of XYZ Ltd.? (Chapter 7 Management & Administration)\n\n(a) 29th November 2025\n\n(b) 30th December 2025\n\n(c) 31st January 2026\n\n(d) 29th February 2026\n\n\nAns: (a)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Who was responsible for appointing the first auditor of XYZ Ltd., and within what timeframe should the appointment have been made? (Chapter 10 Audit and Auditors)",
+          "options": {
+            "a": "Shareholders, within 60 days of registration of company",
+            "b": "Board of Directors, within 30 days of registration of company",
+            "c": "Board of Directors, within 60 days of registration of company",
+            "d": "Shareholders, within 30 days of registration of company"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": 11
+        },
+        {
+          "q_num": 2,
+          "question": "How long can MNO LLP, as an audit firm, hold office as the auditor of XYZ Ltd. according to the Companies Act, 2013? (Chapter 10 Audit and Auditors)",
+          "options": {
+            "a": "One term of five consecutive years",
+            "b": "Two terms of five consecutive years",
+            "c": "One term of six consecutive years",
+            "d": "Three terms of five consecutive years"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": 12
+        },
+        {
+          "q_num": 3,
+          "question": "If XYZ Ltd. wants to reappoint MNO LLP for another term after 2030, what does the Companies Act, 2013, mandate? (Chapter 10 Audit and Auditors)",
+          "options": {
+            "a": "MNO LLP can be reappointed for another term of five years.",
+            "b": "MNO LLP cannot be reappointed, as they have already served one term.",
+            "c": "MNO LLP cannot be reappointed, as they have already served two terms.",
+            "d": "MNO LLP can be reappointed, but the tenure must be reduced to three years."
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null,
+          "_serial": 13
+        },
+        {
+          "q_num": 4,
+          "question": "What is the maximum tenure for which Mr. A as the first auditor of XYZ Pvt. Ltd., can hold office? (Chapter 10 Audit and Auditors)",
+          "options": {
+            "a": "From the date of appointment until the conclusion of the first AGM i.e. 30th September 2025",
+            "b": "From the date of appointment until the conclusion of the second AGM (in 2026)",
+            "c": "From the date of appointment until the conclusion of the third AGM (in 2027)",
+            "d": "From the date of registration of company until the conclusion of the first AGM i.e. 30th September 2025"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null,
+          "_serial": 14
+        },
+        {
+          "q_num": 5,
+          "question": "By what date the copy of the annual return is to be filed with the Registrar of companies in case of first AGM of XYZ Ltd.? (Chapter 7 Management & Administration)",
+          "options": {
+            "a": "29th November 2025",
+            "b": "30th December 2025",
+            "c": "31st January 2026",
+            "d": "29th February 2026"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null,
+          "_serial": 15
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "16-CS-16"
+    }
+  ],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": true,
+      "total_marks": 14,
+      "chapter_number": "2",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Mr. Aditya had incorporated a one person company on 07.07.2021. Mr. Yash was named as a nominee in the memorandum of the said one person company. Now, Mr. Aditya, considering the perpetual nature of company form of business, desires to appoint ABC Private Limited as a nominee instead of Mr. Yash. Examine with reference to the Companies Act, 2013, whether the proposal of Mr. Aditya to appoint ABC Private Limited as a nominee is valid? (RTP Nov'22)",
+          "answer": "As per the provisions of Rule $3(1)$ of the Companies (Incorporation) Rules, 2014, only a natural person who is an Indian citizen whether resident in India or otherwise- (a) shall be eligible to incorporate a One Person Company (OPC); (b) shall be a nominee for the sole member of a One Person Company (OPC). By taking into account the above provisions, ABC Private Ltd. cannot be appointed as nominee in one person company as only natural persons can be appointed as a nominee. Hence, the proposal of Mr. Aditya to appoint ABC Private Ltd. as a nominee is not valid.",
+          "chapter_number": "2",
+          "chapter_name": "INCORPORATION OF COMPANY AND MATTERS INCIDENTAL THERETO",
+          "unique_id": "2-T-1"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Based on the provided financial information, determine if the company is required to appoint an internal auditor under section 138 of the Companies Act, 2013, and Rule 13 of the Companies (Accounts) Rules, 2014.",
+          "answer": "According to the provisions of section 138 of the Companies Act, 2013, read with Rule 13 of the Companies (Accounts) Rules, 2014, the following class of companies shall be required to appoint an internal auditor which may be either an individual or a partnership firm or a body corporate, namely: (1) Every listed company; (2) Every unlisted public company having:\n(A) Paid up share capital of 50 crore rupees or more during the preceding financial year; or\n(B) Turnover of 200 crore rupees or more during the preceding financial year; or\n(C) Outstanding loans or borrowings from banks or financial institutions exceeding one hundred crore rupees or more at any point of time during the preceding financial year; or\n(D) Outstanding deposits of twenty-five crore rupees or more at any point of time during the preceding financial year. Referring to the above provisions we can conclude that the appointment of an Internal Auditor shall be mandatory as the loans outstanding on one instance i.e. 30.09.2024 is ` 100.59 crore, which is above ₹100.00 crore, as mandated in the above provisions for compulsory appointment of an Internal Auditor.\nSection 138(1) provides that such class or classes of companies as may be prescribed shall be required to appoint an internal auditor, who shall either be a chartered accountant or a cost accountant, or such other professional as may be decided by the Board to conduct internal audit of the functions and activities of the company. Explanation to Rule 13(1) of Companies (Accounts) Rules, 2014 provides that the internal auditor may or may not be an employee of the company. In terms of the above provisions, Mr. G can be appointed as an internal auditor of the Company.",
+          "chapter_number": "9",
+          "chapter_name": "AUDIT & AUDITORS",
+          "unique_id": "BQ-5"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Enumerate the circumstances and the forms of business as mentioned in the Foreign Exchange Management Act, 1999, in which a person resident outside India is absolutely prohibited from making any investments in India.",
+          "answer": "As per the Foreign Exchange Management (Permissible Capital Account Transactions) Rules, 2000, a person resident outside India is prohibited from making investments in India in any form, in any company, or partnership firm or proprietary concern or any entity whether incorporated or not which is engaged or proposes to engage:\nIn the business of chit fund; Registrar of Chits or an officer authorised by the State Government in this behalf, may, in consultation with the State Government concerned, permit any chit fund to accept subscription from Non-resident Indians. Non- resident Indians shall be eligible to subscribe, through banking channel and on nonrepatriation basis, to such chit funds, without limit subject to the conditions stipulated by the Reserve Bank of India from time to time.\nAs Nidhi company;\nIn agricultural or plantation activities;\nIn real estate business, or construction of farm houses, or Explanation: In “real estate business” the term shall not include development of townships, construction of residential/commercial premises, roads or bridges and Real Estate Investment Trusts (REITs) registered and regulated under the SEBI (REITs) Regulations 2014.\nIn trading in Transferable Development Rights (TDRs). 'Transferable Development Rights' means certificates issued in respect of category of land acquired for public purpose either by Central or State Government in consideration of surrender of land by the owner without monetary compensation, which are transferable in part or whole.",
+          "chapter_number": "15",
+          "chapter_name": "THE FOREIGN EXCHANGE MANAGEMENT ACT, 1999",
+          "unique_id": "BQ-6"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "4",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Examine the validity of these allotments in the light of the provisions of the Companies Act, 2013. Mars India Ltd. owed to Sunil Rs. 1,000. On becoming this debt payable, the company offered Sunil 10 shares of Rs. 100 each in full settlement of the debt. The said shares were fully paid and were allotted to Sunil. (MTP 5 Marks Mar'23, Aug'18)",
+          "answer": "Under section 62 (1) (c) of the Companies Act, 2013 where at any time, a company having a share capital proposes to increase its subscribed capital by the issue of further shares, either for cash or for a consideration other than cash, such shares may be offered to any persons, if it is authorised by a special resolution and if the price of such shares is determined by a valuation report of a registered valuer, subject to the compliance with the applicable provisions of Chapter III and any other conditions as may be prescribed.\n\nIn the present case, Mars India Ltd is empowered to allot the shares to Sunil in settlement of its debt to him. The issue will be classified as issue for consideration other than cash must be approved by the members by a special resolution. Further, the valuation of the shares must be done by a registered valuer, subject to the compliance with the applicable provisions of Chapter III and any other conditions as may be prescribed.",
+          "chapter_number": "4",
+          "chapter_name": "SHARE CAPITAL AND DEBENTURES",
+          "unique_id": "4-T-20"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Question 19 (SM) - ABC Limited created a charge in favour of OK Bank. The charge was duly registered. Later, the Bank enhanced the facility by another Rs. 20 crores. Due to inadvertence this modification in the original charge was not registered. Advise the company as to the course of action to be pursued in this regard.",
+          "answer": "ABC is advised to immediately file an application for rectification of the Register of Charges in Form No CHG8 to the Central Government under Section 87 of the Companies Act, 2013.\n\nSection 87 of the Act of 2013 and Rule 12 empowers the Central Government to order rectification of Register of Charges in the following cases of default:\n\n(i) when there was omission in giving intimation to the Registrar with respect to payment or satisfaction of charge within the specified time;\n\n(ii) when there was omission or mis-statement of any particulars in any filing previously made to the Registrar. Such filing may relate to any charge or any modification of charge or with respect to any memorandum of satisfaction or other entry made under Section 82 (Company to report satisfaction of charge) or Section 83 (Power of Registrar to make entries of satisfaction and release).\n\nBefore directing that the 'time for giving the intimation of payment or satisfaction shall be extended' or the 'omission or mis-statement shall be rectified', the Central Government needs to be satisfied that such default was accidental or due to inadvertence or because of some other sufficient cause or it did not prejudice the position of creditors or shareholders.\n\nThe application in Form CHG-8 shall be filed by the company or any interested person. Therefore, OK Bank can also proceed under Section 87 as aforesaid.\n\nThe order of rectification shall be made by the Central Government on such terms and conditions as it deems just and expedient.",
+          "chapter_number": "6",
+          "chapter_name": "REGISTRATION OF CHARGES",
+          "unique_id": "6-T-19"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "A Housing Finance Ltd. is a housing finance company having a paid up share capital of Rs. 11 crores and a turnover of Rs. 145 crores during the financial year 2025-26. Explain with reference to the relevant provisions and rules, whether it is necessary for A Housing Finance Ltd. to file its financial statements in XBRL mode. (SM)",
+          "answer": "As per Rule 1 of the Companies (Filing of Documents and forms in Extensible Business Reporting Language) Rules, 2015, following class of companies shall file their financial statements and other documents under section 137 of the Act with the Registrar in e-form AOC-4 XBRL as per Annexure-I:\n\n(i) companies listed with stock exchanges in India and their Indian subsidiaries;\n\n(ii) companies having paid up capital of five crore rupees or above;\n\n(iii) companies having turnover of one hundred crore rupees or above;\n\n(iv) all companies which are required to prepare their financial statements in accordance with Companies (Indian Accounting Standards) Rules, 2015. Provided further that non-banking financial companies, housing finance companies and companies engaged in the business of banking and insurance sector are exempted from filing of financial statements under these rules. Hence A Housing Finance Ltd., being a housing finance company, is exempted from filing its financial statement in XBRL mode.",
+          "chapter_number": "9",
+          "chapter_name": "DECLARATION AND PAYMENT OF DIVIDEND",
+          "unique_id": "9-T-24"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "3",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Grab Ltd., an unlisted company, intends to make a public offer of securities. However, they are not sure about the compliance requirements for issuing securities in dematerialized form. You being an expert, guide Grab Ltd, on the relevant provisions of the Companies Act, 2013 and whether Grab Ltd. is eligible to issue its securities? (RTP May'25)",
+          "answer": "The given issue is based on section 29 of the Companies Act, 2013 read with the relevant 9A (Issue of securities in dematerialised form by unlisted public companies) of the Companies (Prospectus and Allotment of Securities) Rules, 2014.\n\nSection 29 deals with the Public Offer of Securities to be in dematerialized form. It provides that every company making a public offer and such other class or classes of companies as may be prescribed, have to issue their securities only in dematerialised form by complying with the provisions of the Depositories Act, 1996 and regulations made under it.\n\nSub-section 1A provides that in case of prescribed class/classes of unlisted companies, the securities shall be held or transferred only in dematerialised form by complying with the provisions of the Depositories Act, 1996 and regulations made under it.\n\nAccordingly, in the given case, Grab Ltd., an unlisted company, if it falls in the prescribed classes of companies, have to comply with the provisions given under section $29(1 \text{~A})$ and the relevant Rule 9 A of Companies (Prospectus and Allotment of Securities) Rules, 2014. Grab Ltd. must ensure that its securities are issued and transferred in dematerialised form in compliance with the Depositories Act, 1996.",
+          "chapter_number": "3",
+          "chapter_name": "PROSPECTUS AND ALLOTMENT OF SECURITIES",
+          "unique_id": "3-T-5"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Bows Limited is required to create a charge or-one, of 2 tssassets. However, the above charge could not be registered within the required period of 30 days. State the provisions related to extension of time and procedure for registration of charges, in case when the charge was not registered within 30 days of its creation. (MTP 5 Marks Oct'22)",
+          "answer": "As per the provisions of Section 77 of the Companies Act, 2013, in case the charge was not registered within 30 days of creation of the charge, the Registrar may, on an application by the company, allow such registration to be made within a period of 60 days of such creation (i.e. another 30 days are granted after the expiry of original 30 days), on payment of additional fees as prescribed.\n\nProcedure for Extension of Time Limit: For seeking extension of time, the company is required to make an application to the Registrar in the prescribed form. It should be supported by a declaration from the company signed by its company secretary or a director that such belated filing shall not adversely affect the rights of any other intervening creditors of the company.\n\nThe application so made must satisfy the Registrar that the company had sufficient cause for not filing the particulars and the instrument of charge, if any, within the original period of thirty days. Only then he will allow registration of charge within the extended period. Further, requisite additional fee or ad valorem fee, as applicable, must also be paid.",
+          "chapter_number": "6",
+          "chapter_name": "REGISTRATION OF CHARGES",
+          "unique_id": "6-T-4"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Preamble does not over-ride the plain provision of the Act. Comment. Illustrate your answer with a relevant legal example. OR When can the Preamble be used as an aid to interpretation of a statute? (PYP, 4 marks)",
+          "answer": "Preamble: The Preamble expresses the scope, object and purpose of the Act more comprehensively. The Preamble of a Statute is a part of the enactment and can legitimately be used as an internal aid for construing it. However, the Preamble does not over-ride the plain provision of the Act. But if the wording of the statute gives rise to doubts as to its proper construction, for example, where the words or phrase has more than one meaning and a doubt arises as to which of the two meanings is intended in the Act, the Preamble can and ought to be referred to in order to arrive at the proper construction. In short, the Preamble to an Act discloses the primary intention of the legislature but can only be brought in as an aid to construction if the language of the statute is not clear. However, it cannot override the provisions of the enactment. Example: Use of the word 'may' in section 5 of the Hindu Marriage Act, 1955 provides that \"a marriage may be solemnized between two Hindus.....\" has been construed to be mandatory in the sense that both parties to the marriage must be Hindus as defined in section 2 of the Act. It was held that a marriage between a Christian male and a Hindu female solemnized under the Hindu Marriage Act was void. This result was reached also having regard to the preamble of the Act which reads: 'An Act to amend and codify the law relating to marriage among Hindus\" [GullipoliSowria Raj v. BandaruPavani, (2009)1 SCC714].",
+          "chapter_number": "14",
+          "chapter_name": "INTERPRETATION OF STATUTES",
+          "unique_id": "14-T-24"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "10",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Assess the eligibility of the following individuals for appointment as Auditors in accordance with the regulations outlined in the Companies Act, 2013: (i) 'Ms. Rekha', a practicing Chartered Accountant, and 'Mr. Alok', who is the spouse of 'Ms. Rekha', holds securities of 'Charcoal Ltd.' valued at a face value amount of Rs. 85,000 (with a market value of Rs. 75,000 ). The directors of Charcoal Ltd. are considering the appointment of 'Ms. Rekha' as an auditor for the company. (ii) 'Mr. Puri', a practicing Chartered Accountant, has a debt of Rs. 7 lakh owed to RAI Ltd. The directors of RAI Ltd. are considering the appointment of 'Mr. Puri' as an auditor for the company. (iii) 'Ms. Komal', the real sister of 'Mr. Vivit', a Chartered Accountant, holds the position of CFO at Biotech Ltd. The directors of Biotech Ltd. are considering the appointment of 'Mr. Vivit' as an auditor for the company. (PYP 6 Marks Nov'23, SM, MTP 5 Marks July'24, MP[4])",
+          "answer": "(i) As per section $141(3)$ (d)(i) of the Companies Act, 2013, an auditor is disqualified to be appointed as an auditor if he, or his relative or partner holding any security of or interest in the company or its subsidiary, or of its holding or associate company or a subsidiary of such holding company. Further as per proviso to this section, the relative of the auditor may hold the securities or interest in the company of face value not exceeding of Rs. $1,00,000$. In the present case, Mr. Alok (spouse of Ms. Rekha, the auditor), is having securities of Charcoal Limited having face value of Rs. 85,000 , which is within the limit as per requirement of under the proviso to section 141(3)(d)(i). Therefore, Ms. Rekha will be eligible to be appointed as an auditor of Charcoal Limited. (ii) As per section 141(3)(d)(ii), an auditor is disqualified to be appointed as an auditor if he or his relative or partner is indebted to the company, or its subsidiary, or its holding or associate company or a subsidiary of such holding company, in excess of rupees 5 lakh. In the instant case, Mr. Puri will be disqualified to be appointed as an auditor of RAI Limited as he is indebted to RAI Limited for Rs. 7 lakh. (iii) As per section $141(3)(\text{f})$, an auditor is disqualified to be appointed as an auditor if a person whose relative is a director or is in the employment of the company as a director or a Key Managerial Personnel. In the instant case, since Ms. Komal, real sister of Mr. Vivit (Chartered Accountant) is the CFO (a KMP) of Biotech Limited, hence Mr. Vivit will be disqualified to be appointed as an auditor in the said company.",
+          "chapter_number": "10",
+          "chapter_name": "AUDIT \\& AUDITORS",
+          "unique_id": "10-T-23"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Describe the consequences of making a false statement in any return, statement or other document under section 37 of the Limited Liability Partnership Act, 2008. (PYP 2 Marks May'24)",
+          "answer": "According to section 37 of the Limited Liability Partnership Act, 2008\n\nIf in any return, statement or other document required by or for the purposes of any of the provisions of this Act, any person makes a statement:\n\n(a) which is false in any material particular, knowing it to be false; or\n\n(b) which omits any material fact knowing it to be material, he shall, save as otherwise expressly provided in this Act, be punishable with imprisonment for a term which may extend to 2 years, and shall also be liable to fine which may extend to 5 lakh rupees but which shall not be less than 1 lakh rupees.",
+          "chapter_number": "12",
+          "chapter_name": "AUDIT \\& AUDITORS",
+          "unique_id": "12-T-23"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "What do you mean by the rule \"Ejusdem Generis\"? State any three situations when the Rule of \"Ejusdem Generis\" is not applied by the courts. (PYP 4 Marks Jan'25)",
+          "answer": "The term 'Ejusdem Generis' means of the same kind or species. Where specific words pertaining to a class or category or genus are followed by general words, the general words shall be construed as limited to the things of the same kind as those specified. The rule of ejusdem generis is not an absolute rule of law but only a part of a wider principle of construction and therefore this rule has no application where the intention of the legislature is clear.\n\nSituations when the Rule of Ejusdem Generis is not applied by the Courts:\n\n1. If the preceding term is general, as well as that which follows this rule cannot be applied.\n2. Where the particular words exhaust the whole genus.\n3. Where the specific objects enumerated are essentially diverse in character.\n4. Where there is an express intention of legislature that the general term shall not be read ejusdem generis the specific terms.\n\nExam insights: Students often give a loose meaning of ejusdem generis and miss its core rule-general words get restricted to the class shown by the specific words. Also list when the rule won't apply (no common class, no general words, or clear contrary intent); otherwise your answer looks superficial.",
+          "chapter_number": "14",
+          "chapter_name": "INTERPRETATION OF STATUTES",
+          "unique_id": "14-T-20",
+          "or_question": {
+            "question": "What is meant by beneficial construction in statutory interpretation? Under what circumstances the rule of beneficial construction is generally applied? (RTP Sep'25)",
+            "answer": "Beneficial construction is not a strict rule of interpretation but rather a method used to interpret a statute liberally in order to give effect to the declared intention of the legislature, particularly when the statute is enacted to benefit a specific class of people. Beneficial construction will be applied to a statute, which brings into effect provisions for improving the conditions of certain classes of people who are under privileged or who have not been treated fairly in the past. In such cases it is permissible to give an extended meaning to words or clauses in enactments. But this can only be done when two constructions are reasonably possible and not when the words in a statute are quite unequivocal or clear. Thus, if the language of the statute is clear and unambiguous, the courts must follow the plain meaning and cannot stretch the language beyond its natural meaning."
+          }
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "11",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "In case, a foreign company does not deliver its documents to the Registrar of Companies as required under section 380 of the Companies Act, 2013, state the penalty prescribed under the said Act, which can be levied. (SM)",
+          "answer": "The Companies Act, 2013 lays down the governing provisions for foreign companies in Chapter XXII which is comprised of sections 379 to 393. The penalties for non-filing or for contravention of any provision for this chapter including for non-filing of documents with the Registrar as required by section 380 and other sections in this chapter are laid down in section 392 of the Act which provides that if a foreign company contravenes the provisions of this Chapter, the foreign company shall be punishable with a fine which shall not be less than $1,00,000$ but which may extend to $3,00,000$ and in the case of a continuing offence, with an additional fine which may extend to 50,000 for every day after the first during which the contravention continues and every officer of the foreign company who is in default shall be punishable with fine which shall not be less than 25,000 but which may extend to 5,00,000.",
+          "chapter_number": "11",
+          "chapter_name": "AUDIT \\& AUDITORS",
+          "unique_id": "11-T-23"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Raman, Sita and Mohan are partners in an LLP firm RSM & Co. engaged in consultancy services. As per the LLP agreement, profits and losses are shared equally. Raman, requiring funds for personal purposes, transfers 40% of his share of profits to his friend Arjun. After the transfer, Arjun claims that: (a) He is entitled to participate in the management of RSM & Co. (b) Since Raman has transferred part of his rights, he is deemed to be disassociated as a partner of the LLP. You are required to advise, with reference to the Limited Liability Partnership Act, 2008: (i) Whether Raman's partial transfer of rights will lead to disassociation or dissolution of the LLP. (ii) Whether Arjun is entitled to participate in the management of RSM & Co.",
+          "answer": "As per section 42 of the Limited Liability Partnership Act, 2008, (1) The rights of a partner to a share of the profits and losses of the limited liability partnership and to receive distributions in accordance with the limited liability partnership agreement are transferable either wholly or in part. (2) The transfer of any right by any partner pursuant to sub-section (1) does not by itself cause the disassociation of the partner or a dissolution and winding up of the limited liability partnership. (3) The transfer of right pursuant to this section does not, by itself, entitle the transferee or assignee to participate in the management or conduct of the activities of the limited liability partnership, or access information concerning the transactions of the limited liability partnership. In the given question, Raman has transferred 40% of his share of profits in RSM & Co. to his friend Arjun. In view of the above provisions and facts of the question: (i) Transfer of rights does not by itself cause the disassociation of the partner or a dissolution and winding up of the limited liability partnership. Hence, Raman's partial transfer of rights will not lead to disassociation or dissolution of the LLP. (ii) Transfer of right pursuant does not, by itself, entitle the transferee or assignee to participate in the management in the activities of the limited liability partnership. Hence, Arjun is not entitled to participate in the management of RSM & Co.",
+          "chapter_number": "12",
+          "chapter_name": "AUDIT \\& AUDITORS",
+          "unique_id": "12-T-26"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Ayush and Vipul are good friends and pursuing CA course. While doing group studies for the paper of 'Corporate and Other Law', they are confused about the provisions of section 3 of the Companies Act 2013. Section 3 provides 'A company may be formed for any lawful purpose by...............'. Both Ayush and Vipul are in difficulty about the meaning of word 'may'. Whether it should be taken as mandatory or directory? (RTP May '22)",
+          "answer": "The word 'shall' is used to raise a presumption of something which is mandatory or imperative while the word 'may' is used to connote something which is not mandatory but is only directory or enabling. However, sometimes Word 'may' has a mandatory force if directory force will defeat the object of the Act. However, sometimes the words 'may and shall' can be interpreted interchangeably depending on the intention of the legislator. Ayush and Vipul, two CA students, are confused with the language of the provisions of section 3 of the Companies Act 2013 that whether the word 'may' used in section should be considered as mandatory or directory. In the given case, it can be said that the word 'may' should be taken as mandatory force, because the law will never allow the formation of company with unlawful object. Here the word used 'may' shall be read as 'shall'. Usage of word 'may' here makes it mandatory for a company for the compliance of section 3 for its formation.",
+          "chapter_number": "13",
+          "chapter_name": "THE GENERAL CLAUSES ACT, 1897",
+          "unique_id": "13-T-1"
+        }
+      ]
+    },
+    {
+      "q_main": 6,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "7",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Kurt Limited is a company engaged in the business of manufacturing papers. The company has approached you to explain them the following as per the provisions of the Companies Act, 2013: (a) Quorum for the general meeting if the company has 800 members. (b) Quorum for the general meeting if the company has 6500 members. (c) Quorum for the general meeting if the company has 5500 members. The articles of association has prescribed the quorum for the meeting to be 50. Or Samayak Limited is a company engaged in the business of manufacturing papers. Kindly explain the provisions related to quorum in meeting as per the provisions of the Companies Act, 2013. (MTP 5 Marks April'22, Mar'24,MP[1])",
+          "answer": "According to section 103(1) of the Companies Act, 2013, unless the articles of the company provide for a larger number, in case of a public company: (1) five members personally present if the number of members as on the date of meeting is not more than one thousand, (2) fifteen members personally present if the number of members as on the date of meeting is more than one thousand but up to five thousand, (3) thirty members personally present if the number of members as on the date of the meeting exceeds five thousand. The term 'members personally present' as mentioned above refers to the members entitled to vote in respect of the items of business on the agenda of the meeting. Thus, (a) If the company has 800 members, quorum shall be 5 members personally present. (b) If the company has 6500 members, quorum shall be 30 members personally present. (c) If the company has 5500 members, quorum shall be 30 members personally present. However, since the articles of association has prescribed the quorum for the meeting to be 50, the quorum shall be 50 (higher of 30 and 50).",
+          "chapter_number": "7",
+          "chapter_name": "MANAGEMENT \\& ADMINISTRATION",
+          "unique_id": "7-T-29"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "What are the requirements under Section 388 of the Companies Act, 2013, regarding the inclusion of statements made by experts in a prospectus for securities issued by a company incorporated or to be incorporated outside India, and how do these requirements affect the validity of the prospectus? (MP [3] 5 Marks)",
+          "answer": "Under Section 388 of the Companies Act, 2013, certain requirements must be met when including statements made by experts in a prospectus for securities issued by a company incorporated or to be incorporated outside India.\n\nFirstly, if the prospectus includes a statement made by an expert, the expert must give written consent to the inclusion of the statement in the form and context in which it appears. If the expert withdraws their consent before the prospectus is delivered for registration, or if there is no statement indicating that the expert has given and not withdrawn their consent, the prospectus cannot be issued, circulated, or distributed in India.\n\nSecondly, the prospectus must have the effect, upon application, of rendering all persons concerned bound by all the provisions of Section 33 (Issue of application forms for securities) and Section 40 (Securities to be dealt with in stock exchanges), as far as applicable. This ensures that all relevant parties are subject to the legal obligations outlined in these sections. It's important to note that a statement made by an expert is deemed to be included in a prospectus if it appears on the face of the prospectus, is incorporated by reference, or is issued with the prospectus. Hence, compliance with the requirements of Section 388 is crucial for the validity of a prospectus issued for securities by a company incorporated or to be incorporated outside India. Failure to meet these requirements may render the prospectus invalid for distribution in India.",
+          "chapter_number": "11",
+          "chapter_name": "AUDIT \\& AUDITORS",
+          "unique_id": "11-T-19"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Mr. A, an Indian National desires to obtain Foreign Exchange for the following purposes: (i) Remittance of US Dollar 50,000 out of winnings on a lottery ticket. (ii) US Dollar 100,000 for sending a cultural troupe on a tour of U.S.A. Advise him whether he can get Foreign Exchange and if so, under what conditions? (MTP 4 Marks Aug'24,RTP May '24, SM,MP[1])",
+          "answer": "Under provisions of section 5 of the Foreign Exchange Management Act, 1999 certain Rules have been made for drawl of Foreign Exchange for Current Account transactions. As per these Rules, Foreign Exchange for some of the Current Account transactions is prohibited. As regards some other Current Account transactions, Foreign Exchange can be drawn with prior permission of the Central Government while in case of some Current Account transactions, prior permission of Reserve Bank of India is required.\n\n(i) such remittance is prohibited and the same is included in First Schedule to the Foreign Exchange Management (Current Account Transactions) Rules, 2000. Hence, Mr. A cannot withdraw Foreign Exchange for this purpose.\n\n(ii) Foreign Exchange for meeting expenses of cultural tour can be withdrawn by any person after obtaining permission from Government of India, Ministry of Human Resources Development, (Department of Education and Culture) as prescribed in Second Schedule to the Foreign Exchange Management (Current Account Transactions) Rules, 2000. Hence, in respect of item Mr. A can withdraw the Foreign Exchange after obtaining such permission.\n\nIn all the cases, where remittance of Foreign Exchange is allowed, either by general or specific permission, the remitter has to obtain the Foreign Exchange from an Authorised Person.",
+          "chapter_number": "15",
+          "chapter_name": "THE FOREIGN EXCHANGE MANAGEMENT ACT, 1999",
+          "unique_id": "15-T-18"
+        }
+      ]
+    }
+  ]
+}

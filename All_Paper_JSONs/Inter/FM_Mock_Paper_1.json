@@ -18,163 +18,30 @@
   },
   "section_a": [
     {
-      "type": "case_study",
+      "unique_id": "10-CS-17",
       "chapter_number": "10",
       "chapter_name": "CASE SCENARIOS - FINANCIAL MANAGEMENT",
-      "case_text": "## CS 1 (MTP 10 Marks Mar'24,MP[1]) (Chapter 9.4: Management of Receivables)\n\nNV Industries Ltd. is a manufacturing industry which manages its accounts receivables internally by its sales and credit department. It supplies small articles to different industries. The total sales ledger of the company stands at ₹ 200 lakhs of which $80 \\%$ is credit sales. The company has a credit policy of $2 / 40$, net 120. Past experience of the company has been that on average out of the total, $50 \\%$ of customers avail of discount and the balance of the receivables are collected on average in 120 days. The finance controller estimated, bad debt losses are around 1\\% of credit sales.\n\nWith escalating cost associated with the in-house management of the debtors coupled with the need to unburden the management with the task so as to focus on sales promotion, the CFO is examining the possibility of outsourcing its factoring service for managing its receivables. Currently, the firm spends about ₹ $\\mathbf{2 , 4 0 , 0 0 0}$ per annum to administer its credit sales. These are avoidable as a factoring firm is prepared to buy the firm's receivables. The main elements of the proposal are : (i) It will charge $2 \\%$ commission (ii) It will pay advance against receivables to the firm at an interest rate of $18 \\%$ after withholding $10 \\%$ as reserve.\n\nAlso, company has option to take long term loan at $\\mathbf{1 5} \\boldsymbol{\\%}$ interest or may take bank finance for working capital at 14\\% interest.\n\nYou were also present at the meeting; being a financial consultant, the CFO has asked you to be ready with the following questions:\n\nConsider year as 360 days.\n\n1. What is average level of receivables of the company?\n\n(a) ₹ $53,33,333$\n\n(b) ₹ $35,55,556$\n\n(c) ₹ $44,44,444$\n\n(d) ₹ $71,11,111$\n\n\nAns: (b)\n\nGauresh | 8237317945\n\n2. How much advance factor will pay against receivables?\n\n(a) ₹ $31,28,889$\n\n(b) ₹ $39,11,111$\n\n(c) ₹ $30,03,733$\n\n(d) ₹ $46,93,333$\n\n\nAns: (c)\n\n3. What is the annual cost of factoring to the company?\n\n(a) ₹ $8,83,200$\n\n(b) ₹ $4,26,667$\n\n(c) ₹ $5,51,823$\n\n(d) $₹ 4,00,000$\n\n\nAns: (a)\n\n4. What is the net cost to the company on taking factoring service?\n\n(a) ₹ $4,00,000$\n\n(b) $₹ 4,26,667$\n\n(c) ₹ $3,50,000$\n\n(d) ₹ $4,83,200$\n\n\nAns: (d)\n\n5. What is the effective cost of factoring on advance received?\n\n(a) $16.09 \\%$\n\n(b) $13.31 \\%$\n\n(c) $12.78 \\%$\n\n(d) $15.89 \\%$\n\n\nAns: (a)",
+      "category": "Case Study",
+      "cs_num": 17,
+      "case_text": "## CS 17 (RTP Sep'25) (Ch 7: Investment Decisions)\n\nMint Technologies, a startup in the IT infrastructure space, is planning to enter the computer networking market with a specialized offering-VPN connectivity solutions for enterprises with distributed office networks. The company recently won a significant tender from a major national bank to set up secure VPN connections across 100 branches. The leadership team is excited but cautious, as this move requires significant upfront investment and ongoing operational capability. To evaluate the financial viability of this project, you have been hired as a consultant.\n\n- They have forecasted their numbers for 5 years and they have assumed that they will grow at industry average ( $3 \\%$ ) afterwards.\n\n- Mint will invest all the money for CAPEX in the infrastructure and equipment. Mint is planning to issue 50 Mn shares in lieu of the amount.\n\n- Mint will have to keep upgrading the infrastructure and equipment to cover different offices of various clients.\n\n- Mint expects an initial investment of around $₹ 150 \\mathrm{Mn}$ in network access as an initial setup cost for connecting different offices. Mint needs to invest additional ₹10 Mn every year starting from beginning and is expected to grow $10 \\%$ every year.\n\n- The equipment investment varies with number of branches/offices. This varies with time and currently it is ₹ 0.1 Mn per office.\n\n- Initially, Mint has won a tender of 100 branches of a bank and expecting it to grow at $30 \\%$ for next 5 years.\n\n- Mint is expecting to have a maintenance cost of $10 \\%$ for equipment and $15 \\%$ for network.\n\n- To handle all this, current manpower cost is ₹ 1 Mn\n\n- Mint has entered into an agreement with local authority and has agreed to share $5 \\%$ of the revenue with the same.\n\n- Mint is expecting to generate revenue of ₹ 0.5 Mn per office and to remain competitive in the market, it is not going to increase with inflation.\n\n- Capital expenditure and operating expenses will grow $10 \\%$ every year.\n\n- Tax slab in the country is $30 \\%$ and depreciation of the equipment and network is assumed to be $10 \\%$. Discounting rate is $20 \\%$.\n\n- Assume all the expenditure including initial setup cost from year 1.\n\nBased on the above information, you are required to answer following 5 MCQs :\n\n1. What is the CFAT for year 1?\n\n(a) $-15,33,50,000$\n\n(b) $1,00,17,000$\n\n(c) $1,75,73,810$\n\n(d) $2,74,29,367$\n\n\nAns: (a)\n\n2. What is the CFAT for year 5?\n\n(a) $-15,33,50,000$\n\n(b) $1,00,17,000$\n\n(c) $4,02,25,268$\n\n(d) $2,74,29,367$\n\n\nAns: (c)\n\n3. Calculate the terminal value\n\n(a) ₹ $24,37,17,801$\n\n(b) ₹ $9,79,74,556$\n\n(c) ₹ $6,38,54,064$\n\n(d) ₹ $21,32,20,955$\n\n\nAns: (a)\n\n4. What is the total present value of the mint technologies?\n\n(a) ₹ $1,89,77,337$\n\n(b) ₹ $1,32,20,955$\n\n(c) ₹ $1,67,06,548$\n\n(d) ₹ $89,97,791$\n\n\nAns: (c)\n\n5. Calculate the IRR for the company\n\n(a) $22.60 \\%$\n\n(b) $15.39 \\%$\n\n(c) $20.25 \\%$\n\n(d) $24.68 \\%$\n\n\nAns: (d)",
       "questions": [
         {
           "q_num": 1,
-          "question": "What is average level of receivables of the company?",
+          "question": "What is the CFAT for year 1?",
           "options": {
-            "a": "₹ $53,33,333$",
-            "b": "₹ $35,55,556$",
-            "c": "₹ $44,44,444$",
-            "d": "₹ $71,11,111$"
-          },
-          "correct_option": "b",
-          "answer": "(b)",
-          "verdict": null
-        },
-        {
-          "q_num": 2,
-          "question": "How much advance factor will pay against receivables?",
-          "options": {
-            "a": "₹ $31,28,889$",
-            "b": "₹ $39,11,111$",
-            "c": "₹ $30,03,733$",
-            "d": "₹ $46,93,333$"
-          },
-          "correct_option": "c",
-          "answer": "(c)",
-          "verdict": null
-        },
-        {
-          "q_num": 3,
-          "question": "What is the annual cost of factoring to the company?",
-          "options": {
-            "a": "₹ $8,83,200$",
-            "b": "₹ $4,26,667$",
-            "c": "₹ $5,51,823$",
-            "d": "₹ 4,00,000$"
+            "a": "$-15,33,50,000$",
+            "b": "$1,00,17,000$",
+            "c": "$1,75,73,810$",
+            "d": "$2,74,29,367$"
           },
           "correct_option": "a",
           "answer": "(a)",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v1"
         },
         {
-          "q_num": 4,
-          "question": "What is the net cost to the company on taking factoring service?",
-          "options": {
-            "a": "₹ $4,00,000$",
-            "b": "₹ 4,26,667$",
-            "c": "₹ $3,50,000$",
-            "d": "₹ $4,83,200$"
-          },
-          "correct_option": "d",
-          "answer": "(d)",
-          "verdict": null
-        },
-        {
-          "q_num": 5,
-          "question": "What is the effective cost of factoring on advance received?",
-          "options": {
-            "a": "$16.09 \\%$",
-            "b": "$13.31 \\%$",
-            "c": "$12.78 \\%$",
-            "d": "$15.89 \\%$"
-          },
-          "correct_option": "a",
-          "answer": "(a)",
-          "verdict": null
-        }
-      ],
-      "mcq_count": 5,
-      "unique_id": "10-CS-1"
-    },
-    {
-      "type": "case_study",
-      "chapter_number": "10",
-      "chapter_name": "CASE SCENARIOS - FINANCIAL MANAGEMENT",
-      "case_text": "## CS 2 (MTP 10 Marks Apr'24,MP[2]) (Chapter 4: Cost of Capital)\n\nTiago Ltd is an all-equity company engaged in manufacturing of batteries for electric vehicles. There has been a surge in demand for their products due to rising oil prices. The company was established 5 years ago with an initial capital of ₹ $10,00,000$ and since then it has raised funds by IPO taking the total paid up capital to ₹ 1 crore comprising of fully paid-up equity shares of face value ₹ 10 each. The company currently has undistributed reserves of $₹ 60,00,000$. The company has been following constant dividend payout policy of $40 \\%$ of earnings. The retained earnings by company are going to provide a return on equity of $20 \\%$. The current EPS is estimated as Rs 20 and prevailing PE ratio on the share of company is 15x. The company wants\n\nto expand its capital base by raising additional funds by way of debt, preference and equity mix. The company requires an additional fund of $₹ 1,20,00,000$. The target ratio of owned to borrowed funds is $4: 1$ post the fund-raising activity. Capital gearing is to be kept at $\\mathbf{0 . 4 x}$.\n\nThe existing debt markets are under pressure due to ongoing RBI action on NPAs of the commercial bank. Due to challenges in raising the debt funds, the company will have to offer ₹ 100 face value debentures at an attractive yield of $9.5 \\%$ and a coupon rate of $8 \\%$ to the investors. Issue expenses will amount to $4 \\%$ of the proceeds.\n\nThe preference shares will have a face value of ₹ 1000 each offering a dividend rate of $10 \\%$. The preference shares will be issued at a premium of $5 \\%$ and redeemed at a premium of $10 \\%$ after 10 years at the same time at which debentures will be redeemed.\n\nThe CFO of the company is evaluating a new battery technology to invest the above raised money. The technology is expected to have a life of 7 years. It will generate a after tax marginal operating cash flow of ₹ $\\mathbf{2 5 , 0 0 , 0 0 0 ~ p . a}$. Assume marginal tax rate to be $\\mathbf{2 7 \\%}$.( MCQ 1-5)\n\n\n1. Which of the following is best estimate of cost of equity for Tiago Ltd?\n\n(a) $12.99 \\%$\n\n(b) $11.99 \\%$\n\n(c) $13.99 \\%$\n\n(d) $14.99 \\%$\n\n\nAns: (d)\n\n2. Which of the following is the most accurate measure of issue price of debentures?\n\n(a) 100\n\n(b) 96\n\n(c) 90.58\n\n(d) 95.88\n\n\nAns: (c)\n\n3. Which of the following is the best estimate of cost of debentures to be issued by the company? (Using approximation method)\n\n(a) $7.64 \\%$\n\n(b) $6.74 \\%$\n\n(c) $4.64 \\%$\n\n(d) $5.78 \\%$\n\n\nAns: (a)\n\n4. Calculate the cost of preference shares using approximation ${ }^{5}$ method\n\n(a) $10.23 \\%$\n\n(b) $11.22 \\%$\n\n(c) $12.12 \\%$\n\n(d) $12.22 \\%$\n\n\nAns: (b)\n\n5. Which of the following best represents the overall cost of marginal capital to be raised?\n\n(a) $11.76 \\%$\n\n(b) $17.16 \\%$\n\n(c) $16.17 \\%$\n\n(d) $16.71 \\%$\n\n\nAns: (a)",
-      "questions": [
-        {
-          "q_num": 1,
-          "question": "Which of the following is best estimate of cost of equity for Tiago Ltd?",
-          "options": {
-            "a": "$12.99 \\%$",
-            "b": "$11.99 \\%$",
-            "c": "$13.99 \\%$",
-            "d": "$14.99 \\%$"
-          },
-          "correct_option": "d",
-          "answer": "(d)",
-          "verdict": null
-        },
-        {
-          "q_num": 2,
-          "question": "Which of the following is the most accurate measure of issue price of debentures?",
-          "options": {
-            "a": "100",
-            "b": "96",
-            "c": "90.58",
-            "d": "95.88"
-          },
-          "correct_option": "c",
-          "answer": "(c)",
-          "verdict": null
-        },
-        {
-          "q_num": 3,
-          "question": "Which of the following is the best estimate of cost of debentures to be issued by the company? (Using approximation method)",
-          "options": {
-            "a": "$7.64 \\%$",
-            "b": "$6.74 \\%$",
-            "c": "$4.64 \\%$",
-            "d": "$5.78 \\%$"
-          },
-          "correct_option": "a",
-          "answer": "(a)",
-          "verdict": null
-        },
-        {
-          "q_num": 4,
-          "question": "Calculate the cost of preference shares using approximation ${ }^{5}$ method",
-          "options": {
-            "a": "$10.23 \\%$",
-            "b": "$11.22 \\%$",
-            "c": "$12.12 \\%$",
-            "d": "$12.22 \\%$"
-          },
-          "correct_option": "b",
-          "answer": "(b)",
-          "verdict": null
-        },
-        {
-          "q_num": 5,
-          "question": "Which of the following best represents the overall cost of marginal capital to be raised?",
-          "options": {
-            "a": "$11.76 \\%$",
-            "b": "$17.16 \\%$",
-            "c": "$16.17 \\%$",
-            "d": "$16.71 \\%$"
-          },
-          "correct_option": "a",
-          "answer": "(a)",
-          "verdict": null
-        }
-      ],
-      "mcq_count": 5,
-      "unique_id": "10-CS-2"
-    },
-    {
-      "type": "case_study",
-      "chapter_number": "10",
-      "chapter_name": "CASE SCENARIOS - FINANCIAL MANAGEMENT",
-      "case_text": "## CS 5 (RTP May'24) (Chapter: 1 Introduction to Working Capital Management)\n\nArMore LLP is a newly established startup dealing in manufacture of a revolutionary product HDHMR which is a substitute to conventional wood and plywood. It is an economical substitute for manufacture of furniture and home furnishing. It has been asked by a venture capitalist for an estimated amount of funds required for setting up plant and also the amount of circulating capital required. A consultant hired by the entity has advised that the cost of setting up the plant would be ₹ 5 Crores and it will require 1 year to make the plant operational. The anticipated revenue and associated cost numbers are as follows:\n\nUnits to be sold = 3 lakh sq metres p.a. , Sale Price of each sq mtr = ₹ 1000\n\nRaw Material cost = ₹ 200 per sq mtr , Labour cost = ₹ 50 per hour\n\nLabour hours per sq mtr = 3 hours, Cash Manufacturing Overheads = ₹ 75 per machine hour\n\nMachine hours per sq mtr = 2 hours, Selling and credit administration Overheads = ₹ 250 per sq mtr\n\nBeing a new product in the industry, the firm will have to give a longer credit period of 3 months to its customers. It will maintain a stock of raw material equal to $15 \\%$ of annual consumption. Based on negotiation with the creditors, the payment period has been agreed to be 1 month from the date of purchase. The entity will hold finished goods equal to 2 months of units to be sold. All other expenses are to be paid one month in arrears. Cash and Bank balance to the tune of ₹ $25,00,000$ is required to be maintained.\n\nThe entity is also considering reducing the working capital requirement by either of the two options: a) reducing the credit period to customers by a month which will lead to reduction in sales by $\\mathbf{5} \\boldsymbol{\\%}$. b) Engaging with a factor for managing the receivables, who will charge a commission of $2 \\%$ of invoice value and will also advance $65 \\%$ of receivables @ $12 \\%$ p.a. This will lead to savings in administration and bad debts cost to the extent of ₹ 20 lakhs and 16 lakhs respectively.\n\nThe entity is also considering funding a part of working capital by bank loan. For this purpose, bank has stipulated that it will grant $\\mathbf{7 5} \\boldsymbol{\\%}$ of net current assets as advance against working capital. The bank has quoted $16.5 \\%$ rate of interest with a condition of opening a current account with it, which will require $10 \\%$ of loan amount to be minimum average balance.\n\nYou being a finance manager, has been asked the following questions:\n\n\n1. The anticipated profit before tax per annum after the plant is operational is\n\n(a) 750 Lakhs\n\n(b) 570 Lakhs\n\n(c) 370 Lakhs\n\n(d) 525 Lakhs\n\n\nAns: (a)\n\n2. The estimated current assets requirement in the first year of operation (debtors calculated at cost) is $\\_\\_\\_\\_$\n\n(a) $9,42,50,000$\n\n(b) $2,17,08,333$\n\n(c) $7,25,41,667$\n\n(d) $67,08,333$\n\n\nAns: (a)\n\n3. The net working capital requirement for the first year of operation is $\\_\\_\\_\\_$\n\n(a) $9,42,50,000$\n\n(b) $2,17,08,333$\n\n(c) $7,25,41,667$\n\n(d) $67,08,333$\n\n\nAns: (c)\n\n4. The annualised \\% cost of two options for reducing the working capital is $\\_\\_\\_\\_$\n\n(a) $18.18 \\%$ and $16.92 \\%$\n\n(b) $18.33 \\%$ and $16.92 \\%$\n\n(c) $18.59 \\%$ and $18.33 \\%$\n\n(d) $16.92 \\%$ and $19.05 \\%$\n\n\nAns: (a)\n\n5. What will be the Maximum Permissible Bank Finance by the bank and annualised \\% cost of the same?\n\n(a) $4,55,03,630$ and $18.33 \\%$\n\n(b) $5,44,06,250$ and $18.33 \\%$\n\n(c) $4,45,86,025$ and $18.59 \\%$\n\n(d) $3,45,89,020$ and $19.85 \\%$\n\n\nAns: (b)",
-      "questions": [
-        {
-          "q_num": 1,
+          "q_num": "1_v2",
           "question": "The anticipated profit before tax per annum after the plant is operational is",
           "options": {
             "a": "750 Lakhs",
@@ -184,10 +51,28 @@
           },
           "correct_option": "a",
           "answer": "a",
-          "verdict": null
+          "verdict": null,
+          "_serial": "1_v2",
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v2"
         },
         {
           "q_num": 2,
+          "question": "What is the CFAT for year 5?",
+          "options": {
+            "a": "$-15,33,50,000$",
+            "b": "$1,00,17,000$",
+            "c": "$4,02,25,268$",
+            "d": "$2,74,29,367$"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v1"
+        },
+        {
+          "q_num": "2_v2",
           "question": "The estimated current assets requirement in the first year of operation (debtors calculated at cost) is $\\_\\_\\_\\_$",
           "options": {
             "a": "$9,42,50,000$",
@@ -197,10 +82,28 @@
           },
           "correct_option": "a",
           "answer": "a",
-          "verdict": null
+          "verdict": null,
+          "_serial": "2_v2",
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v2"
         },
         {
           "q_num": 3,
+          "question": "Calculate the terminal value",
+          "options": {
+            "a": "₹ $24,37,17,801$",
+            "b": "₹ $9,79,74,556$",
+            "c": "₹ $6,38,54,064$",
+            "d": "₹ $21,32,20,955$"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v1"
+        },
+        {
+          "q_num": "3_v2",
           "question": "The net working capital requirement for the first year of operation is $\\_\\_\\_\\_$",
           "options": {
             "a": "$9,42,50,000$",
@@ -210,10 +113,28 @@
           },
           "correct_option": "c",
           "answer": "c",
-          "verdict": null
+          "verdict": null,
+          "_serial": "3_v2",
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v2"
         },
         {
           "q_num": 4,
+          "question": "What is the total present value of the mint technologies?",
+          "options": {
+            "a": "₹ $1,89,77,337$",
+            "b": "₹ $1,32,20,955$",
+            "c": "₹ $1,67,06,548$",
+            "d": "₹ $89,97,791$"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "or_group": "MCQ_4_v1_v2",
+          "question_id": "A-MCQ-4_v1"
+        },
+        {
+          "q_num": "4_v2",
           "question": "The annualised \\% cost of two options for reducing the working capital is $\\_\\_\\_\\_$",
           "options": {
             "a": "$18.18 \\%$ and $16.92 \\%$",
@@ -223,10 +144,28 @@
           },
           "correct_option": "a",
           "answer": "a",
-          "verdict": null
+          "verdict": null,
+          "_serial": "4_v2",
+          "or_group": "MCQ_4_v1_v2",
+          "question_id": "A-MCQ-4_v2"
         },
         {
           "q_num": 5,
+          "question": "Calculate the IRR for the company",
+          "options": {
+            "a": "$22.60 \\%$",
+            "b": "$15.39 \\%$",
+            "c": "$20.25 \\%$",
+            "d": "$24.68 \\%$"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null,
+          "or_group": "MCQ_5_v1_v2",
+          "question_id": "A-MCQ-5_v1"
+        },
+        {
+          "q_num": "5_v2",
           "question": "What will be the Maximum Permissible Bank Finance by the bank and annualised \\% cost of the same?",
           "options": {
             "a": "$4,55,03,630$ and $18.33 \\%$",
@@ -236,11 +175,352 @@
           },
           "correct_option": "b",
           "answer": "b",
-          "verdict": null
+          "verdict": null,
+          "_serial": "5_v2",
+          "or_group": "MCQ_5_v1_v2",
+          "question_id": "A-MCQ-5_v2"
         }
-      ],
-      "mcq_count": 5,
-      "unique_id": "10-CS-5"
+      ]
+    },
+    {
+      "unique_id": "10-CS-13",
+      "chapter_number": "10",
+      "chapter_name": "CASE SCENARIOS - FINANCIAL MANAGEMENT",
+      "category": "Case Study",
+      "cs_num": 13,
+      "case_text": "VP Ltd. provides the following financial information:\n\n\n| Current Ratio |  | 1.5:1 |\n| :--- | :--- | :--- |\n| Sales (80\\% Credit Sales) | Gauresh \\| 8237317945 | ₹ 150 Lakh |\n| Inventory Turnover Ratio |  | 6 Times |\n| Average Collection Period |  | 2 months |\n| Gross Profit Ratio |  | 20\\% |\n| Quick Ratio |  | 1:1 |\n\n\nFrom the information given above, choose the correct answer to the following Q. No. 1 and 2:\n\n\n1. Inventory and Receivables would be:\n\n(a) ₹ 20 Lakh and ₹ 20 Lakh\n\n(b) ₹ 10 Lakh and ₹ 10 Lakh\n\n(c) ₹ 10 Lakh and ₹ 20 Lakh\n\n(d) ₹ 20 Lakh and ₹ 10 Lakh\n\n\nAns: (a)\n\n2. Current Assets and Current Liabilities would be:\n\n(a) 30 Lakh and 20 Lakh\n\n(b) 45 Lakh and 30 Lakh\n\n(c) 60 Lakh and 40 Lakh\n\n(d) 75 Lakh and 50 Lakh\n\n\nAns: (c)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Inventory and Receivables would be:\n\n(a) ₹ 20 Lakh and ₹ 20 Lakh\n\n(b) ₹ 10 Lakh and ₹ 10 Lakh\n\n(c) ₹ 10 Lakh and ₹ 20 Lakh\n\n(d) ₹ 20 Lakh and ₹ 10 Lakh",
+          "options": {
+            "a": "₹ 20 Lakh and ₹ 20 Lakh",
+            "b": "₹ 10 Lakh and ₹ 10 Lakh",
+            "c": "₹ 10 Lakh and ₹ 20 Lakh",
+            "d": "₹ 20 Lakh and ₹ 10 Lakh"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v1"
+        },
+        {
+          "q_num": "1_v2",
+          "question": "The anticipated profit before tax per annum after the plant is operational is",
+          "options": {
+            "a": "750 Lakhs",
+            "b": "570 Lakhs",
+            "c": "370 Lakhs",
+            "d": "525 Lakhs"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null,
+          "_serial": "1_v2",
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v2"
+        },
+        {
+          "q_num": 2,
+          "question": "Current Assets and Current Liabilities would be:\n\n(a) 30 Lakh and 20 Lakh\n\n(b) 45 Lakh and 30 Lakh\n\n(c) 60 Lakh and 40 Lakh\n\n(d) 75 Lakh and 50 Lakh",
+          "options": {
+            "a": "30 Lakh and 20 Lakh",
+            "b": "45 Lakh and 30 Lakh",
+            "c": "60 Lakh and 40 Lakh",
+            "d": "75 Lakh and 50 Lakh"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v1"
+        },
+        {
+          "q_num": "2_v2",
+          "question": "The estimated current assets requirement in the first year of operation (debtors calculated at cost) is $\\_\\_\\_\\_$",
+          "options": {
+            "a": "$9,42,50,000$",
+            "b": "$2,17,08,333$",
+            "c": "$7,25,41,667$",
+            "d": "$67,08,333$"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null,
+          "_serial": "2_v2",
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v2"
+        }
+      ]
+    },
+    {
+      "unique_id": "16-CS-14",
+      "chapter_number": "16",
+      "chapter_name": "CASE SCENARIOS- STRATEGIC MANAGEMENT",
+      "category": "Case Study",
+      "cs_num": 14,
+      "case_text": "## CS 14 (RTP Sep'24,MP[8])\n\nOnce upon a time in the land of sun, sand, and vibrant cultures, there existed a company named \"MuseoGoa\" - a company that managed museums in the beautiful state of Goa. MuseoGoa had a vision to celebrate the rich history and culture of Goa, but their journey was not without its fair share of challenges. MuseoGoa had chosen a picturesque location in a quaint village to build their first museum. However, this initial enthusiasm was met with an uproar from the local communities. The villagers were concerned about the impact on their way of life and traditions. They worried that the influx of tourists might disrupt their peaceful existence.\n\nTo address this challenge, MuseoGoa applied Mendelow's matrix, identifying the local communities as key stakeholders. They decided to engage in open dialogues, understanding and respecting the villagers' concerns. MuseoGoa initiated community-building activities, such as involving locals in museum operations, supporting local artisans, and organizing cultural events that showcased the village's heritage. Slowly but steadily, the company transformed from being perceived as a threat to a valued partner within the community.\n\nWhile MuseoGoa had successfully resolved their initial issues with the local community, they faced another challenge. Their location, although idyllic, was a bit off the beaten path. Tourists typically preferred the bustling beaches closer to the city, and this posed a real challenge. MuseoGoa decided to employ a pricing strategy. They priced their tickets affordably, significantly cheaper than the city's attractions. This strategy attracted budget-conscious tourists who were looking for unique experiences in Goa without burning a hole in their pockets. As\n\nword spread about the cultural gem tucked away in the village, visitors started flocking in, drawn not just by the museum's charm but also the economical ticket prices.\n\nIn the age of social media, MuseoGoa knew that word-of-mouth was no longer limited to whispers. They tapped into the power of social media to promote their unique museum experience. MuseoGoa ran\n\ninteractive campaigns, encouraging visitors to share their experiences on various platforms. One particular Instagram post featuring a vibrant Goan mural in the museum went viral. This was the turning point. The picture-perfect aesthetics of the museum attracted influencers, bloggers, and travel enthusiasts, making MuseoGoa a social media sensation. Visitors came pouring in, not just from India but from across the globe, eager to capture their own moments at the \"Instagrammable Museum of Goa.\"\n\nWith success came ambition. MuseoGoa decided to expand its footprint beyond Goa. To guide this expansion, they conducted a strategy audit and trend analysis. They identified emerging cultural and tourism trends and found potential markets in Pune and Trivandrum.\n\nIn Pune, MuseoGoa curated a special exhibition that celebrated the fusion of Goan and Maharashtrian cultures. They strategically partnered with local influencers and travel agencies to market the new experience. The expansion into Pune was met with resounding success.\n\nFor Trivandrum, MuseoGoa recognized the importance of local traditions and the distinct flavor of Kerala. They tailored their offerings to harmonize with the regional culture. MuseoGoa became the gateway for tourists to explore Kerala's rich heritage, with the museum acting as a bridge between Goa and Kerala's cultural tapestry.\n\nMuseoGoa's journey from initial uproar to expansion was a testament to their commitment to community building, strategic pricing, social media savvy, and a keen eye for trends. The company continued to flourish, celebrating the diverse cultural tapestry of India and making history come alive in every location they touched.",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Which strategic management concept did MuseoGoa use to address the initial concerns of the local community? (Chapter 12: Strategic Analysis: External Environment )",
+          "options": {
+            "a": "SWOT analysis",
+            "b": "Mendelow's matrix",
+            "c": "Cost leadership strategy",
+            "d": "Porter's Five Forces model"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v1"
+        },
+        {
+          "q_num": "1_v2",
+          "question": "The anticipated profit before tax per annum after the plant is operational is",
+          "options": {
+            "a": "750 Lakhs",
+            "b": "570 Lakhs",
+            "c": "370 Lakhs",
+            "d": "525 Lakhs"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null,
+          "_serial": "1_v2",
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v2"
+        },
+        {
+          "q_num": 2,
+          "question": "MuseoGoa's idyllic location in a quaint village posed a challenge as tourists preferred beaches closer to the city. To attract visitors, MuseoGoa priced their tickets affordably, cheaper than city attractions, drawing budget-conscious tourists looking for unique experiences. What business strategy did MuseoGoa employ to attract more tourists? (Chapter 13: Strategic Analysis: Internal Environment)",
+          "options": {
+            "a": "Cost leadership strategy",
+            "b": "Differentiation strategy",
+            "c": "Focus strategy",
+            "d": "Diversification strategy"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v1"
+        },
+        {
+          "q_num": "2_v2",
+          "question": "The estimated current assets requirement in the first year of operation (debtors calculated at cost) is $\\_\\_\\_\\_$",
+          "options": {
+            "a": "$9,42,50,000$",
+            "b": "$2,17,08,333$",
+            "c": "$7,25,41,667$",
+            "d": "$67,08,333$"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null,
+          "_serial": "2_v2",
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v2"
+        },
+        {
+          "q_num": 3,
+          "question": "How did MuseoGoa approach its expansion into new markets such as Pune and Trivandrum? (Chapter 14: Strategic Choices)",
+          "options": {
+            "a": "Outsourcing strategy",
+            "b": "Franchising strategy",
+            "c": "Product diversification strategy",
+            "d": "Market development strategy"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null,
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v1"
+        },
+        {
+          "q_num": "3_v2",
+          "question": "The net working capital requirement for the first year of operation is $\\_\\_\\_\\_$",
+          "options": {
+            "a": "$9,42,50,000$",
+            "b": "$2,17,08,333$",
+            "c": "$7,25,41,667$",
+            "d": "$67,08,333$"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": "3_v2",
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v2"
+        },
+        {
+          "q_num": 4,
+          "question": "Which element of the 7S McKinsey model is demonstrated by MuseoGoa's strategic use of social media and pricing strategies to attract visitors? (Chapter 15- Strategy Implementation and Evaluation)",
+          "options": {
+            "a": "Style",
+            "b": "Strategy",
+            "c": "Shared Values",
+            "d": "Skills"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "or_group": "MCQ_4_v1_v2",
+          "question_id": "A-MCQ-4_v1"
+        },
+        {
+          "q_num": "4_v2",
+          "question": "The annualised \\% cost of two options for reducing the working capital is $\\_\\_\\_\\_$",
+          "options": {
+            "a": "$18.18 \\%$ and $16.92 \\%$",
+            "b": "$18.33 \\%$ and $16.92 \\%$",
+            "c": "$18.59 \\%$ and $18.33 \\%$",
+            "d": "$16.92 \\%$ and $19.05 \\%$"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null,
+          "_serial": "4_v2",
+          "or_group": "MCQ_4_v1_v2",
+          "question_id": "A-MCQ-4_v2"
+        },
+        {
+          "q_num": 5,
+          "question": "What played a crucial role in MuseoGoa's success in Pune and Trivandrum? (Chapter 14: Strategic Choices)",
+          "options": {
+            "a": "Strategic partnerships",
+            "b": "Aggressive advertising",
+            "c": "Product differentiation",
+            "d": "Vertical integration"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "or_group": "MCQ_5_v1_v2",
+          "question_id": "A-MCQ-5_v1"
+        },
+        {
+          "q_num": "5_v2",
+          "question": "What will be the Maximum Permissible Bank Finance by the bank and annualised \\% cost of the same?",
+          "options": {
+            "a": "$4,55,03,630$ and $18.33 \\%$",
+            "b": "$5,44,06,250$ and $18.33 \\%$",
+            "c": "$4,45,86,025$ and $18.59 \\%$",
+            "d": "$3,45,89,020$ and $19.85 \\%$"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": "5_v2",
+          "or_group": "MCQ_5_v1_v2",
+          "question_id": "A-MCQ-5_v2"
+        }
+      ]
+    },
+    {
+      "unique_id": "16-CS-5",
+      "chapter_number": "16",
+      "chapter_name": "CASE SCENARIOS- STRATEGIC MANAGEMENT",
+      "category": "Case Study",
+      "cs_num": 5,
+      "case_text": "## CS 5 (MTP 3 Marks April '23)\n\nHi-tech Corporation has been a pioneer in developing innovative products and core technologies that have played a vital role in shaping the future of electronics. The company's expertise in liquid crystal displays (LCDs) and digital technologies has helped it offer one of the most comprehensive and advanced lines of consumer electronics, information products, and electronic components while also creating new network businesses. However, it hasn't always been a leader in the industry.\n\nHi-tech Corporation has travelled a long way from an assembler of televisions to a leading TV manufacturer. In the early days, Hi-tech was making low-quality, low-priced televisions and was overshadowed by big players like LG, Sony and Samsung. It was a technology follower in the beginning and was using secondary technology, which resulted in a low brand image. The company went through a major transformation under the leadership of Mr. Joyce, who focused on R\\&D and innovation to enhance its market coverage and reputation.\n\nHi-tech's innovation in LCD technology and developing products featuring LCDs made it the world's largest manufacturer of LCD TVs. The company's success has been attributed to its focus on innovation, which is a critical factor in sustaining its position as a leader in the industry. However, the global economic downturn has affected Hi-tech, and the industry has realized that only innovation in terms of quality, cost, and competitive strength can help companies survive. Additionally, every new technology becomes obsolete\n\nfaster, which means companies have to continuously innovate to stay ahead of the competition. Hi-tech is facing challenges from the ever-changing competitive scenario, with global competitors striving to dethrone it and the entry of low-cost manufacturers from Asia. The emergence of newer display technologies with superior quality at a lower price has posed one of the biggest challenges for Hi-tech. While Hi-tech has taken the first-mover advantage, it is facing competition from late entrants. Based on the above Case Scenario, answer the Multiple-Choice Questions which are as follows:\n\n\n1. Can Hi-tech's initial position in the industry be called as cost leadership strategy? (Chapter 13- Strategic Analysis: Internal Environment)\n\n(a) Initial Position: A manufacturer of low-quality, low-priced televisions. No, not a cost leader, as cost leader does not necessarily mean low quality with low prices.\n\n(b) Initial Position: A manufacturer of low-quality, low-priced televisions. Yes, a cost leader, as they offered low prices.\n\n(c) Initial Position: Technology follower. Yes, a cost leader, as technology followers are always cost leaders.\n\n(d) Initial Position: Technology leader. Yes, a cost leader as technology leaders is always cost leaders due to advanced cost cutting techniques.\n\nAns: (a)\n\n2. From the case above, which of the following has been the most crucial learning for the company from a long-term product life cycle perspective? (Chapter 12- Strategic Analysis: External Environment)\n\n(a) Innovation is the key to success.\n\n(b) Change in management leads to required growth.\n\n(c) Continuous innovation is essential to stay ahead of the competition.\n\n(d) Industry analysis should be the first as well as the last step in strategic management.\n\n\nAns: (c)\n\n3. What was the Key Success Factor in Hi-tech's success? (Chapter 12- Strategic Analysis: External Environment)\n\n(a) Market coverage\n\nGauresh | (b) Reputation\n\n(c) Innovation\n\n(d) Cost\n\n\nAns: (c)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Can Hi-tech's initial position in the industry be called as cost leadership strategy? (Chapter 13- Strategic Analysis: Internal Environment)\n\n(a) Initial Position: A manufacturer of low-quality, low-priced televisions. No, not a cost leader, as cost leader does not necessarily mean low quality with low prices.\n\n(b) Initial Position: A manufacturer of low-quality, low-priced televisions. Yes, a cost leader, as they offered low prices.\n\n(c) Initial Position: Technology follower. Yes, a cost leader, as technology followers are always cost leaders.\n\n(d) Initial Position: Technology leader. Yes, a cost leader as technology leaders is always cost leaders due to advanced cost cutting techniques.",
+          "options": {
+            "a": "Initial Position: A manufacturer of low-quality, low-priced televisions. No, not a cost leader, as cost leader does not necessarily mean low quality with low prices.",
+            "b": "Initial Position: A manufacturer of low-quality, low-priced televisions. Yes, a cost leader, as they offered low prices.",
+            "c": "Initial Position: Technology follower. Yes, a cost leader, as technology followers are always cost leaders.",
+            "d": "Initial Position: Technology leader. Yes, a cost leader as technology leaders is always cost leaders due to advanced cost cutting techniques."
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v1"
+        },
+        {
+          "q_num": "1_v2",
+          "question": "The anticipated profit before tax per annum after the plant is operational is",
+          "options": {
+            "a": "750 Lakhs",
+            "b": "570 Lakhs",
+            "c": "370 Lakhs",
+            "d": "525 Lakhs"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null,
+          "_serial": "1_v2",
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v2"
+        },
+        {
+          "q_num": 2,
+          "question": "From the case above, which of the following has been the most crucial learning for the company from a long-term product life cycle perspective? (Chapter 12- Strategic Analysis: External Environment)\n\n(a) Innovation is the key to success.\n\n(b) Change in management leads to required growth.\n\n(c) Continuous innovation is essential to stay ahead of the competition.\n\n(d) Industry analysis should be the first as well as the last step in strategic management.",
+          "options": {
+            "a": "Innovation is the key to success.",
+            "b": "Change in management leads to required growth.",
+            "c": "Continuous innovation is essential to stay ahead of the competition.",
+            "d": "Industry analysis should be the first as well as the last step in strategic management."
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v1"
+        },
+        {
+          "q_num": "2_v2",
+          "question": "The estimated current assets requirement in the first year of operation (debtors calculated at cost) is $\\_\\_\\_\\_$",
+          "options": {
+            "a": "$9,42,50,000$",
+            "b": "$2,17,08,333$",
+            "c": "$7,25,41,667$",
+            "d": "$67,08,333$"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null,
+          "_serial": "2_v2",
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v2"
+        },
+        {
+          "q_num": 3,
+          "question": "What was the Key Success Factor in Hi-tech's success? (Chapter 12- Strategic Analysis: External Environment)\n\n(a) Market coverage\n\nGauresh | (b) Reputation\n\n(c) Innovation\n\n(d) Cost",
+          "options": {
+            "a": "Market coverage",
+            "b": "Reputation",
+            "c": "Innovation",
+            "d": "Cost"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v1"
+        },
+        {
+          "q_num": "3_v2",
+          "question": "The net working capital requirement for the first year of operation is $\\_\\_\\_\\_$",
+          "options": {
+            "a": "$9,42,50,000$",
+            "b": "$2,17,08,333$",
+            "c": "$7,25,41,667$",
+            "d": "$67,08,333$"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": "3_v2",
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v2"
+        }
+      ]
     }
   ],
   "section_b": [
@@ -387,14 +667,28 @@
       "chapter_number": "14",
       "sub_questions": [
         {
-          "label": "a",
+          "label": "a_v1",
           "marks": 5,
           "internal_split": null,
-          "question": "Question 12 (PYP 5 Marks May'22, MTP 5 Marks Mar'24, Mar'25, Aug'25 RTP Sep'24,MP[1],MP[8])\n\nWhat do you understand by diversification? Distinguish between concentric and conglomerate diversification.",
+          "question": "[New Version - v1] UrbanRide Mobility Ltd. launched an ambitious strategy to become the market leader in electric scooter rentals. The management established key performance indicators (KPIs) such as customer acquisition rate, scooter utilization rate, and profitability. Quarterly reviews were conducted to compare actual performance with planned targets. Whenever significant deviations were identified, corrective measures such as route optimization and promotional campaigns were introduced.\n\nIdentify the strategic management function being performed by UrbanRide Mobility Ltd. and explain its significance.",
+          "answer": "The strategic management function being performed is Strategic Control.\n\nStrategic control is the process of monitoring strategy implementation, evaluating performance, and taking corrective actions to ensure achievement of strategic objectives.\n\nElements of Strategic Control evident in the case:\n\nEstablishment of performance standards through KPIs.\n\nMeasurement of actual performance.\n\nComparison of actual performance with predetermined targets.\n\nIdentification of deviations.\n\nCorrective actions such as route optimization and promotional campaigns.\n\nSignificance of Strategic Control:\n\nEnsures effective implementation of strategy.\n\nDetects deviations at an early stage.\n\nFacilitates corrective actions.\n\nImproves organizational performance.\n\nHelps achieve long-term strategic objectives.\n\nTherefore, UrbanRide Mobility Ltd. is exercising Strategic Control to ensure successful execution of its business strategy.",
+          "chapter_number": "12",
+          "chapter_name": "STRATEGIC ANALYSIS: EXTERNAL",
+          "unique_id": "FM-REPLACED-sm_3",
+          "or_group": "Q5a_v1_v2",
+          "question_id": "B-Q5-Q5a_v1"
+        },
+        {
+          "label": "a_v2",
+          "marks": 5,
+          "internal_split": null,
+          "question": "[Old Version - v2] Question 12 (PYP 5 Marks May'22, MTP 5 Marks Mar'24, Mar'25, Aug'25 RTP Sep'24,MP[1],MP[8])\n\nWhat do you understand by diversification? Distinguish between concentric and conglomerate diversification.",
           "answer": "Diversification is defined as entry into new products or product lines, new services or new markets, involving substantially different skills, technology and knowledge. Diversification endeavours can be related or unrelated to existing businesses of the firm.\n\nFollowing are the differences between the concentric diversification and conglomerate diversifications:\n\n\n| Concentric Diversification | Conglomerate Diversification |\n| :--- | :--- |\n| Meaning: It occurs when a firm adds related products or markets. <br> Linkage: The new business is linked to the existing businesses through process, technology or marketing. <br> Reasons for pursuing: The most common reason for pursuing a concentric diversification is that opportunities in a firm's existing line of business are available. | Meaning: It occurs when a firm diversifies into areas that are unrelated to its current line of business. <br> Linkage: Here no such linkages exist; the new business/product is disjointed from the existing businesses/products. <br> Reasons for pursuing: The common reason for pursuing a conglomerate growth strategy is that opportunities in a firm's current line of business are limited or opportunities outside are highly lucrative. |",
           "chapter_number": "14",
           "chapter_name": "STRATEGIC CHOICES",
-          "unique_id": "14-T-12"
+          "unique_id": "14-T-12",
+          "or_group": "Q5a_v1_v2",
+          "question_id": "B-Q5-Q5a_v2"
         },
         {
           "label": "b",
@@ -407,14 +701,28 @@
           "unique_id": "FM-REPLACED-sm__9"
         },
         {
-          "label": "c",
+          "label": "c_v1",
           "marks": 5,
           "internal_split": null,
-          "question": "## Question 14 (MTP 5 Marks March '22)\n\nThere has been fierce demand for both Gecko and FlyBee for the last 3 years. Gecko makes mass consumption pens while FlyBee is a notebook and diary brand - both being complementary goods of each other. But to grow further, FlyBee decided to take up competition with Gecko in pens segment and thereby launched, FlyPens. Identify and explain the growth strategy opted by FlyBee?",
+          "question": "[New Version - v1] TechNova Solutions Ltd. recently formulated a strategy to expand its operations across India. To implement the strategy, the company created new regional divisions, delegated authority to regional managers, established performance targets, introduced employee training programmes, and allocated additional financial resources to expansion projects.\n\nIn the context of strategic management, explain the strategic implementation measures undertaken by TechNova Solutions Ltd.",
+          "answer": "Strategic implementation refers to the process of translating strategic plans into action and achieving strategic objectives.\n\nThe strategic implementation measures undertaken by TechNova Solutions Ltd. are:\n\n| Measure | Explanation |\n| --- | --- |\n| Organisational Structure | Creation of regional divisions to support expansion. |\n| Delegation of Authority | Empowering regional managers for faster decision-making. |\n| Resource Allocation | Providing financial resources for expansion projects. |\n| Human Resource Development | Employee training programmes to develop required competencies. |\n| Performance Management | Setting targets to monitor strategic progress. |\n\nConclusion:\n\nTechNova Solutions Ltd. has effectively aligned its structure, resources, people, and control systems to facilitate successful implementation of its expansion strategy.",
+          "chapter_number": "14",
+          "chapter_name": "STRATEGIC CHOICES",
+          "unique_id": "FM-REPLACED-sm_2",
+          "or_group": "Q5c_v1_v2",
+          "question_id": "B-Q5-Q5c_v1"
+        },
+        {
+          "label": "c_v2",
+          "marks": 5,
+          "internal_split": null,
+          "question": "[Old Version - v2] ## Question 14 (MTP 5 Marks March '22)\n\nThere has been fierce demand for both Gecko and FlyBee for the last 3 years. Gecko makes mass consumption pens while FlyBee is a notebook and diary brand - both being complementary goods of each other. But to grow further, FlyBee decided to take up competition with Gecko in pens segment and thereby launched, FlyPens. Identify and explain the growth strategy opted by FlyBee?",
           "answer": "FlyBee is a notebook and diary brand. But to grow further, FlyBee decided to take up competition with Gecko in pens segment and thereby launched, FlyPens. FlyBee that is hitherto not into producing pens starts producing them and other similar products is following concentric diversification which is basically related diversification. In this form of diversification, the new business is linked to the existing businesses through existing systems such as processes, technology or marketing. The new product is a spin-off from the existing facilities and products/processes. There are benefits of synergy with the current operations. The most common reasons for pursuing a concentric diversification are that opportunities in existing line of business are available.",
           "chapter_number": "14",
           "chapter_name": "STRATEGIC CHOICES",
-          "unique_id": "14-T-14"
+          "unique_id": "14-T-14",
+          "or_group": "Q5c_v1_v2",
+          "question_id": "B-Q5-Q5c_v2"
         }
       ],
       "section": 2
@@ -455,24 +763,52 @@
       "chapter_number": "11",
       "sub_questions": [
         {
-          "label": "a",
+          "label": "a_v1",
           "marks": 4,
           "internal_split": null,
-          "question": "\"A business organization cannot always plan all their strategies in advance and often need to blend planned strategies with reactive strategies.\" Do you agree with the statement? Give reasons. (MTP 5 Marks, Apr'22, RTP May 23)",
+          "question": "[New Version - v1] ABC retail chain regularly monitors consumer trends and supply chain flexibility. The retail chain tracks consumer trends to adjust its offerings, ensuring they meet customer needs. Simultaneously, it maintains a flexible supply chain to respond swiftly to demand fluctuations. This strategy enables ABC retail chain to anticipate market shifts and adapt to them effectively, ensuring its competitiveness and customer satisfaction. Which type of strategy is the retail chain employing? (MTP 5 Marks, Apr'24,MP[2])",
+          "answer": "The retail chain is employing a strategy that combines both proactive and reactive elements. Monitoring consumer trends and adjusting product offerings accordingly demonstrates a proactive approach to anticipate and meet customer needs. On the other hand, maintaining a flexible supply chain to respond quickly to changes in demand reflects a reactive strategy to address unforeseen shifts in the market.\n\nThis combination allows the retail chain to both anticipate future trends and react effectively to immediate market changes, making its strategy partly proactive and partly reactive. This dual strategy of proactive trend monitoring and reactive supply chain flexibility enables the retail chain to anticipate market shifts and adapt to them effectively, ensuring its competitiveness and customer satisfaction.",
+          "chapter_number": "11",
+          "chapter_name": "INTRODUCTION TO STRATEGIC MANAGEMENT",
+          "unique_id": "11-T-10",
+          "or_group": "Q7a_v1_v2",
+          "question_id": "B-Q7-Q7a_v1"
+        },
+        {
+          "label": "a_v2",
+          "marks": 4,
+          "internal_split": null,
+          "question": "[Old Version - v2] \"A business organization cannot always plan all their strategies in advance and often need to blend planned strategies with reactive strategies.\" Do you agree with the statement? Give reasons. (MTP 5 Marks, Apr'22, RTP May 23)",
           "answer": "Yes, a business organization cannot always plan all their strategies in advance and often need to blend planned strategies with reactive strategies.\n\nIn planned strategy, organisations will analyse possible environmental scenarios and create strategic framework after proper planning and set procedures and work on these strategies in a pre-determined manner. However, in reality no company can forecast both internal and external environment exactly. Everything cannot be planned in advance. It is not possible to anticipate moves of rival firms, consumer behaviour, evolving technologies and so on.\n\nThere can be significant deviations between what was visualised and what actually happens. There can be significant or major strategic changes when the environment demands. Reactive strategy is triggered by the changes in the environment and provides ways and means to cope with the negative factors or take advantage of emerging opportunities.",
           "chapter_number": "11",
           "chapter_name": "INTRODUCTION TO STRATEGIC MANAGEMENT",
-          "unique_id": "11-T-9"
+          "unique_id": "11-T-9",
+          "or_group": "Q7a_v1_v2",
+          "question_id": "B-Q7-Q7a_v2"
         },
         {
-          "label": "b",
+          "label": "b_v1",
           "marks": 6,
           "internal_split": null,
-          "question": "What is stability strategy? What are the reasons to pursue a stability strategy? (RTP Nov'19 & Nov '23)",
+          "question": "[New Version - v1] ## Question 45 (PYP 5 Marks Sep'25)\n\nARP Motors, an automobile company, was struggling in the competitive SUV market in India. As a business strategist, you recommended that ARP launch a compact SUV that balances affordability with premium features. In response, ARP developed and introduced FLEXON, strategically pricing it and incorporating highend features such as a 5 -star Global NCAP safety rating, a modern design and an advanced technology. Furthermore, the company expanded into the electric vehicle segment with FLEXON EV, positioning it as one of the most affordable yet feature-rich electric SUVs in India.\n\nWhich strategy did you recommend to ARP Motors to achieve a competitive advantage? Explain the strategy briefly and enumerate the key ways ARP Motors implemented it.",
+          "answer": "The strategy recommended to ARP Motors is the Best-Cost Provider Strategy.\n\nBest-cost provider strategy is directed towards giving customers more value for their money by emphasizing both low cost and premium features. The objective is to keep costs and prices lower than those of other sellers of comparable products while offering better quality and superior features.\n\n## Application in ARP Motors Case:\n\n- Launch of FLEXON (Compact SUV): ARP priced FLEXON strategically at an affordable level, while at the same time incorporating premium features such as a 5 -star Global NCAP safety rating, advanced technology and a modern design. This reflects the approach of offering better quality at lower or comparable prices.\n\n- Introduction of FLEXON EV: By entering the electric vehicle market, ARP positioned FLEXON EV as one of the most affordable yet feature-rich electric SUVs in India. This aligns with the principle of charging lower prices for comparable products or offering higher quality for similar prices thereby giving customers more value for money.",
+          "chapter_number": "13",
+          "chapter_name": "STRATEGIC ANALYSIS: INTERNAL ENVIRONMENT",
+          "unique_id": "13-T-45",
+          "or_group": "Q7b_v1_v2",
+          "question_id": "B-Q7-Q7b_v1"
+        },
+        {
+          "label": "b_v2",
+          "marks": 6,
+          "internal_split": null,
+          "question": "[Old Version - v2] What is stability strategy? What are the reasons to pursue a stability strategy? (RTP Nov'19 & Nov '23)",
           "answer": "One of the important goals of a business enterprise is stability - to safeguard its existing interests and strengths, to pursue well established and tested objectives, to continue in the chosen business path, to maintain operational efficiency on a sustained basis, to consolidate the commanding position already reached, and to optimize returns on the resources committed in the business. A stability strategy is pursued by a firm when:\n\n- It continues to serve in the same or similar markets and deals in same or similar products and services.\n\n- The strategic decisions focus on incremental improvement of functional performance.\n\n## Major reasons for stability strategy are as follows:\n\n- A product has reached the maturity stage of the product life cycle.\n\n- It is less risky as it involves less changes and the staff feels comfortable with things as they are.\n\n- The environment faced is relatively stable.\n\n- Expansion may be perceived as being threatening.\n\n- Consolidation is sought through stabilizing after a period of rapid expansion.",
           "chapter_number": "14",
           "chapter_name": "STRATEGIC CHOICES",
-          "unique_id": "14-T-1"
+          "unique_id": "14-T-1",
+          "or_group": "Q7b_v1_v2",
+          "question_id": "B-Q7-Q7b_v2"
         }
       ],
       "section": 2

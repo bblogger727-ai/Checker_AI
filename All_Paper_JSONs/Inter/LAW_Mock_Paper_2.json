@@ -287,24 +287,52 @@
           "unique_id": "2-T-1"
         },
         {
-          "label": "b",
+          "label": "b_v1",
           "marks": 4,
           "internal_split": null,
-          "question": "Based on the provided financial information, determine if the company is required to appoint an internal auditor under section 138 of the Companies Act, 2013, and Rule 13 of the Companies (Accounts) Rules, 2014.",
+          "question": "[New Version - v1] The Income Tax Authority (the statutory body) has gathered some information and is of the view that there has been a manipulation of accounts of FGH Ltd. reflecting an incorrect financial position of the company. The statutory body intends to get the accounts reopened to reflect correct financial position of the company. Considering the Companies Act, 2013 elucidate.\n\n(i) the statutory provisions governing the issue of re-opening of accounts by the Income Tax Authority.\n\n(ii) the voluntary revision of financial statements or board's report by the directors.\n\n(iii) For how many preceding financial years the board of directors may revise the financial statements? (PYP 5 Marks May'24,MP[3])",
+          "answer": "(i) According to section 130 of the Companies Act, 2013, a company shall not:\n\na. re-open its books of account and\n\nb. recast its financial statements, unless an application in this regard is made by:\n\na. the Central Government,\n\nb. the Income-tax authorities,\n\nc. the Securities and Exchange Board of India (SEBI),\n\nd. any other statutory regulatory body or authority or\n\ne. any person concerned.\n\n\\& an order is made by a court of competent jurisdiction or tribunal to the effect\n\na. That the relevant earlier accounts were prepared in a fraudulent manner; or\n\nb. The affairs of the company were mismanaged during the relevant period, casting a doubt on the reliability of financial statements.\n\nNo order shall be made in respect of re-opening of books of account relating to a period earlier than 8 financial years immediately preceding the current financial year. However, where a direction has been issued by the Central Government under the proviso to section 128(5) for keeping of books of account for a period longer than 8 years, the books of account may be ordered to be re-opened within such longer period.\n\n(ii) According to section 131 of the Companies Act, 2013, if it appears to the directors of a company that:\n\na. the financial statement of the company does not comply with the provisions of section 129; or\n\nb. the report of the Board does not comply with the provisions of section 134.\n\nThey may prepare revised financial statement or board's report in respect of any of the three preceding financial years. Such revised financial statement or report shall not be prepared or filed more than once in a financial year.\n\n(iii) The board of directors may revise financial statements in respect of any of the three preceding financial years.",
+          "chapter_number": "9",
+          "chapter_name": "AUDIT & AUDITORS",
+          "unique_id": "9-T-10",
+          "or_group": "Q1b_v1_v2",
+          "question_id": "B-Q1-Q1b_v1"
+        },
+        {
+          "label": "b_v2",
+          "marks": 4,
+          "internal_split": null,
+          "question": "[Old Version - v2] Based on the provided financial information, determine if the company is required to appoint an internal auditor under section 138 of the Companies Act, 2013, and Rule 13 of the Companies (Accounts) Rules, 2014.",
           "answer": "According to the provisions of section 138 of the Companies Act, 2013, read with Rule 13 of the Companies (Accounts) Rules, 2014, the following class of companies shall be required to appoint an internal auditor which may be either an individual or a partnership firm or a body corporate, namely: (1) Every listed company; (2) Every unlisted public company having:\n(A) Paid up share capital of 50 crore rupees or more during the preceding financial year; or\n(B) Turnover of 200 crore rupees or more during the preceding financial year; or\n(C) Outstanding loans or borrowings from banks or financial institutions exceeding one hundred crore rupees or more at any point of time during the preceding financial year; or\n(D) Outstanding deposits of twenty-five crore rupees or more at any point of time during the preceding financial year. Referring to the above provisions we can conclude that the appointment of an Internal Auditor shall be mandatory as the loans outstanding on one instance i.e. 30.09.2024 is ` 100.59 crore, which is above ₹100.00 crore, as mandated in the above provisions for compulsory appointment of an Internal Auditor.\nSection 138(1) provides that such class or classes of companies as may be prescribed shall be required to appoint an internal auditor, who shall either be a chartered accountant or a cost accountant, or such other professional as may be decided by the Board to conduct internal audit of the functions and activities of the company. Explanation to Rule 13(1) of Companies (Accounts) Rules, 2014 provides that the internal auditor may or may not be an employee of the company. In terms of the above provisions, Mr. G can be appointed as an internal auditor of the Company.",
           "chapter_number": "9",
           "chapter_name": "AUDIT & AUDITORS",
-          "unique_id": "BQ-5"
+          "unique_id": "BQ-5",
+          "or_group": "Q1b_v1_v2",
+          "question_id": "B-Q1-Q1b_v2"
         },
         {
-          "label": "c",
+          "label": "c_v1",
           "marks": 5,
           "internal_split": null,
-          "question": "Enumerate the circumstances and the forms of business as mentioned in the Foreign Exchange Management Act, 1999, in which a person resident outside India is absolutely prohibited from making any investments in India.",
+          "question": "[New Version - v1] Mr. Rohan Sharma, an international cricket player has started its cricket academy, namely, Rohan Sharma Cricket Academy, a private coaching club, which provides coaching for cricket. The Academy has a cricket team which participates in cricket matches all over India as well as outside India. Rohan Sharma Cricket Academy in a collaboration with Melbourne Cricket Academy is organizing a cricket event in Melbourne, Australia in the month of May 2024 and June 2024. Rohan Sharma Academy is required to remit USD 200,000 to Melbourne Cricket academy as a part of its share for organizing the cricket event in Melbourne. Advise whether it can get Foreign Exchange and if so, under what conditions? (MTP 4 Marks Apr'24,MP[2])",
+          "answer": "Section 5 of the Foreign Exchange Management Act, 1999 provides that any person may sell or draw foreign exchange to or from an authorized person if such sale or drawal is a current account transaction. The Central Government in consultation can, in public interest and in consultation with Reserve Bank of India, impose reasonable restrictions for such transactions. Schedule II of the Foreign Exchange Management (Current Account Transactions) Rules, 2000 provides that no person shall draw foreign exchange for a transaction without approval of the Central Government. One of the transaction included in Schedule II is remittance of prize money/ sponsorship of sports activity abroad by a person other than International/ National/ State level sports bodies, if the amount involved exceeds USD 100,000. Accordingly, Rohan Sharma Cricket Academy can withdraw foreign exchange of USD 100,000 as participation fee after obtaining permission from Ministry of Human Resource Development (Department of Youth Affairs and Sports) as prescribed in Schedule II of Foreign Exchange Management (Current Account Transactions) Rules, 2000.",
+          "chapter_number": "15",
+          "chapter_name": "THE FOREIGN EXCHANGE MANAGEMENT ACT, 1999",
+          "unique_id": "15-T-24",
+          "or_group": "Q1c_v1_v2",
+          "question_id": "B-Q1-Q1c_v1"
+        },
+        {
+          "label": "c_v2",
+          "marks": 5,
+          "internal_split": null,
+          "question": "[Old Version - v2] Enumerate the circumstances and the forms of business as mentioned in the Foreign Exchange Management Act, 1999, in which a person resident outside India is absolutely prohibited from making any investments in India.",
           "answer": "As per the Foreign Exchange Management (Permissible Capital Account Transactions) Rules, 2000, a person resident outside India is prohibited from making investments in India in any form, in any company, or partnership firm or proprietary concern or any entity whether incorporated or not which is engaged or proposes to engage:\nIn the business of chit fund; Registrar of Chits or an officer authorised by the State Government in this behalf, may, in consultation with the State Government concerned, permit any chit fund to accept subscription from Non-resident Indians. Non- resident Indians shall be eligible to subscribe, through banking channel and on nonrepatriation basis, to such chit funds, without limit subject to the conditions stipulated by the Reserve Bank of India from time to time.\nAs Nidhi company;\nIn agricultural or plantation activities;\nIn real estate business, or construction of farm houses, or Explanation: In “real estate business” the term shall not include development of townships, construction of residential/commercial premises, roads or bridges and Real Estate Investment Trusts (REITs) registered and regulated under the SEBI (REITs) Regulations 2014.\nIn trading in Transferable Development Rights (TDRs). 'Transferable Development Rights' means certificates issued in respect of category of land acquired for public purpose either by Central or State Government in consideration of surrender of land by the owner without monetary compensation, which are transferable in part or whole.",
           "chapter_number": "15",
           "chapter_name": "THE FOREIGN EXCHANGE MANAGEMENT ACT, 1999",
-          "unique_id": "BQ-6"
+          "unique_id": "BQ-6",
+          "or_group": "Q1c_v1_v2",
+          "question_id": "B-Q1-Q1c_v2"
         }
       ]
     },

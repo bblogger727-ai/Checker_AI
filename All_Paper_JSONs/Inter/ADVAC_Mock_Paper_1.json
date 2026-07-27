@@ -33,7 +33,25 @@
           },
           "correct_option": "a",
           "answer": "a",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v1"
+        },
+        {
+          "q_num": "1_v2",
+          "question": "The land received from Government, free of cost should be presented at:",
+          "options": {
+            "a": "₹75 Lakhs",
+            "b": "₹ 30 Lakhs",
+            "c": "₹10 Lakhs",
+            "d": "₹45 Lakhs"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": "1_v2",
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v2"
         },
         {
           "q_num": 2,
@@ -46,7 +64,25 @@
           },
           "correct_option": "d",
           "answer": "d",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v1"
+        },
+        {
+          "q_num": "2_v2",
+          "question": "As per AS 12, how the Government Grant of ₹ 30 Lakhs should be presented:",
+          "options": {
+            "a": "It should be recognised in the profit and loss statement as per therelated cost.",
+            "b": "It will be treated as capital reserve.",
+            "c": "It will be treated as deferred income.",
+            "d": "It will not be recognised in the financial statements."
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": "2_v2",
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v2"
         },
         {
           "q_num": 3,
@@ -59,7 +95,25 @@
           },
           "correct_option": "c",
           "answer": "c",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v1"
+        },
+        {
+          "q_num": "3_v2",
+          "question": "As per AS 12, how the Government Grant of ₹15 Lakhs with a condition to purchase machinery may be presented as:",
+          "options": {
+            "a": "Capital Reserve",
+            "b": "Shareholders Fund",
+            "c": "Deferred Income",
+            "d": "Income in statement of profit and loss as received."
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": "3_v2",
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v2"
         },
         {
           "q_num": 4,
@@ -72,7 +126,25 @@
           },
           "correct_option": "c",
           "answer": "c",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_4_v1_v2",
+          "question_id": "A-MCQ-4_v1"
+        },
+        {
+          "q_num": "4_v2",
+          "question": "Which of the above grants are required to be recognized in the statement of profit and loss on a systematic and rational basis over the useful lifeof the asset:",
+          "options": {
+            "a": "Land received as Grant",
+            "b": "Government Grant of ₹ 30 Lakhs",
+            "c": "Government Grant of ₹ 15 Lakhs with a condition to purchase machinery",
+            "d": "Noe of the above"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": "4_v2",
+          "or_group": "MCQ_4_v1_v2",
+          "question_id": "A-MCQ-4_v2"
         }
       ],
       "mcq_count": 4,
@@ -95,7 +167,25 @@
           },
           "correct_option": "a",
           "answer": "a",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v1"
+        },
+        {
+          "q_num": "1_v2",
+          "question": "The land received from Government, free of cost should be presented at:",
+          "options": {
+            "a": "₹75 Lakhs",
+            "b": "₹ 30 Lakhs",
+            "c": "₹10 Lakhs",
+            "d": "₹45 Lakhs"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": "1_v2",
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v2"
         },
         {
           "q_num": 2,
@@ -108,7 +198,25 @@
           },
           "correct_option": "c",
           "answer": "c",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v1"
+        },
+        {
+          "q_num": "2_v2",
+          "question": "As per AS 12, how the Government Grant of ₹ 30 Lakhs should be presented:",
+          "options": {
+            "a": "It should be recognised in the profit and loss statement as per therelated cost.",
+            "b": "It will be treated as capital reserve.",
+            "c": "It will be treated as deferred income.",
+            "d": "It will not be recognised in the financial statements."
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": "2_v2",
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v2"
         },
         {
           "q_num": 3,
@@ -121,7 +229,25 @@
           },
           "correct_option": "d",
           "answer": "d",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v1"
+        },
+        {
+          "q_num": "3_v2",
+          "question": "As per AS 12, how the Government Grant of ₹15 Lakhs with a condition to purchase machinery may be presented as:",
+          "options": {
+            "a": "Capital Reserve",
+            "b": "Shareholders Fund",
+            "c": "Deferred Income",
+            "d": "Income in statement of profit and loss as received."
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": "3_v2",
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v2"
         },
         {
           "q_num": 4,
@@ -134,7 +260,25 @@
           },
           "correct_option": "b",
           "answer": "b",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_4_v1_v2",
+          "question_id": "A-MCQ-4_v1"
+        },
+        {
+          "q_num": "4_v2",
+          "question": "Which of the above grants are required to be recognized in the statement of profit and loss on a systematic and rational basis over the useful lifeof the asset:",
+          "options": {
+            "a": "Land received as Grant",
+            "b": "Government Grant of ₹ 30 Lakhs",
+            "c": "Government Grant of ₹ 15 Lakhs with a condition to purchase machinery",
+            "d": "Noe of the above"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": "4_v2",
+          "or_group": "MCQ_4_v1_v2",
+          "question_id": "A-MCQ-4_v2"
         }
       ],
       "mcq_count": 4,
@@ -157,7 +301,25 @@
           },
           "correct_option": "b",
           "answer": "(b)",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v1"
+        },
+        {
+          "q_num": "1_v2",
+          "question": "The land received from Government, free of cost should be presented at:",
+          "options": {
+            "a": "₹75 Lakhs",
+            "b": "₹ 30 Lakhs",
+            "c": "₹10 Lakhs",
+            "d": "₹45 Lakhs"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": "1_v2",
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v2"
         },
         {
           "q_num": 2,
@@ -170,7 +332,25 @@
           },
           "correct_option": "a",
           "answer": "(a)",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v1"
+        },
+        {
+          "q_num": "2_v2",
+          "question": "As per AS 12, how the Government Grant of ₹ 30 Lakhs should be presented:",
+          "options": {
+            "a": "It should be recognised in the profit and loss statement as per therelated cost.",
+            "b": "It will be treated as capital reserve.",
+            "c": "It will be treated as deferred income.",
+            "d": "It will not be recognised in the financial statements."
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": "2_v2",
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v2"
         },
         {
           "q_num": 3,
@@ -183,7 +363,25 @@
           },
           "correct_option": "b",
           "answer": "(b)",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v1"
+        },
+        {
+          "q_num": "3_v2",
+          "question": "As per AS 12, how the Government Grant of ₹15 Lakhs with a condition to purchase machinery may be presented as:",
+          "options": {
+            "a": "Capital Reserve",
+            "b": "Shareholders Fund",
+            "c": "Deferred Income",
+            "d": "Income in statement of profit and loss as received."
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": "3_v2",
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v2"
         }
       ],
       "mcq_count": 3,

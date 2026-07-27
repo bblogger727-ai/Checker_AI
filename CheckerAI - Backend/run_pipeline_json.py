@@ -279,7 +279,11 @@ def run_stage_1_2_full(paper_json_path: str) -> dict:
                 serial_counter += 1
                 serial = serial_counter
             else:
-                serial_counter = int(serial)
+                try:
+                    serial_counter = int(serial)
+                except (ValueError, TypeError):
+                    pass  # v2 serials like "1_v2" — just keep current counter
+
 
             key = str(serial)
             correct = q.get("correct_option", q.get("answer", ""))
@@ -293,6 +297,8 @@ def run_stage_1_2_full(paper_json_path: str) -> dict:
                 "model_answer":    correct,
                 "marks":           2,
                 "question_number": f"Q{serial}",
+                "question_id":     q.get("question_id", f"A-MCQ-{serial}"),
+                "or_group":        q.get("or_group"),
             }
 
     schema_with_answers["SectionA"] = {"MCQ": mcq_block}
@@ -319,6 +325,8 @@ def run_stage_1_2_full(paper_json_path: str) -> dict:
                 "question_number": sub_key,
                 "chapter_number":  sub.get("chapter_number", ""),
                 "chapter_name":    sub.get("chapter_name", ""),
+                "question_id":     sub.get("question_id", f"B-Q{q_main}-{sub_key}"),
+                "or_group":        sub.get("or_group"),
             }
 
         section_b_block[q_key] = sub_q_block
@@ -407,6 +415,8 @@ def run_stage_1_2_pt(paper_json_path: str) -> dict:
                 "question_number": sub_key,
                 "chapter_number":  sub.get("chapter_number", ""),
                 "chapter_name":    sub.get("chapter_name", ""),
+                "question_id":     sub.get("question_id", f"B-Q{q_main}-{sub_key}"),
+                "or_group":        sub.get("or_group"),
             }
 
         section_b_block[q_key] = sub_q_block

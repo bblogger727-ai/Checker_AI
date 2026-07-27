@@ -21,153 +21,30 @@
   },
   "section_a": [
     {
-      "type": "case_study",
+      "unique_id": "10-CS-17",
       "chapter_number": "10",
       "chapter_name": "CASE SCENARIOS - FINANCIAL MANAGEMENT",
-      "case_text": "## CS 4 (MTP 10 Marks Aug'24,MP[5])\n\n\nMathangi Ltd. is a News broadcasting channel having its broadcasting Centre in Chennai. There are total 200 employees in the organisation including top management. As a part of employee benefit expenses, the company serves tea to its employees, which is outsourced from a third-party. The company offers tea three times a day to each of its employees. The third-party charges ₹ 10 for each cup of tea. The company works for 200 days in a year.\n\nLooking at the substantial amount of expenditure on tea, the finance department has proposed to the management an installation of a master tea vending machine from Nirmal Ltd which will cost ₹ $5,00,000$ with a useful life of five years. Upon purchasing the machine, the company will have to incur annual maintenance which will require a payment of ₹ 25,000 every year. The machine would require electricity consumption of 500 units p.m. and current incremental cost of electricity for the company is ₹ 24 per unit. Apart from these running costs, the company will have to incur $₹ 8,00,000$ for consumables like milk, tea powder, paper cup, sugar etc. The company is in the $25 \\%$ tax bracket. Straight line method of depreciation is allowed for the purpose of taxation.\n\nNirmal Ltd sells 100 master tea vending machines. Variable cost is ₹ 4,50,000 per machine and fixed operating cost is ₹25,00,000. Capital Structure of Mathangi Ltd and Nirmal Ltd consists of the following -\n\n\n| Particulars | Mathangi Ltd. | Nirmal Ltd. |\n| :--- | :--- | :--- |\n| Equity Share Capital (Face value ₹ 10 each) | 40,00,000 | 40,00,000 |\n| Reserves \\& Surplus | 25,00,000 | 50,00,000 |\n| 12\\% Preference Share Capital | 12,00,000 | Nil |\n| 15\\% Debentures | 20,00,000 | 40,00,000 |\n\n\nRisk free rate of return = 5\\%, Market return = 10\\%, Beta of the Mathangi Ltd. = 1.9\n\nYou are required to answer the following five questions based on the above details:\n\n\n1. If sales of Nirmal Ltd are up by $\\mathbf{1 0} \\boldsymbol{\\%}$, impact on its EBIT is (Chapter 6: Financing Decisions - Leverages)\n\n(a) $30 \\%$\n\n(b) $60 \\%$\n\n(c) $5 \\%$\n\n(d) $20 \\%$\n\n\nAns: (d)\n\n2. Combined leverage of Nirmal Ltd is(Chapter 6: Financing Decisions - Leverages)\n\n(a) 1.63\n\n(b) 2.63\n\n(c) 1.315\n\n(d) 2\n\n\nAns: (b)\n\n3. Discount rate that can be applied for making investment decisions of Mathangi Ltd is(Chapter 4: Cost of Capital)\n\n(a) $12 \\%$\n\n(b) $13.52 \\%$\n\n(c) $15 \\%$\n\n(d) $20 \\%$\n\n\nAns: (b)\n\n4. Incremental cash flow after tax per annum attributable to Mathangi Ltd due to investment in the machine is (Chapter 7: Investment Decisions)\n\n(a) ₹ $2,39,438$\n\n(b) ₹ $1,98,250$\n\n(c) ₹ 98,250\n\n(d) ₹ $1,31,000$\n\n\nAns: (b)\n\n5. Net present value of investment in the machine by Mathangi Ltd is (Chapter 7: Investment Decisions)\n\n(a) ₹ $6,88,522$\n\n(b) ₹ $1,88,522$\n\n(c) ₹ $9,91,250$\n\n(d) ₹ $4,91,250$\n\n\nAns: (b)",
+      "category": "Case Study",
+      "cs_num": 17,
+      "case_text": "## CS 17 (RTP Sep'25) (Ch 7: Investment Decisions)\n\nMint Technologies, a startup in the IT infrastructure space, is planning to enter the computer networking market with a specialized offering-VPN connectivity solutions for enterprises with distributed office networks. The company recently won a significant tender from a major national bank to set up secure VPN connections across 100 branches. The leadership team is excited but cautious, as this move requires significant upfront investment and ongoing operational capability. To evaluate the financial viability of this project, you have been hired as a consultant.\n\n- They have forecasted their numbers for 5 years and they have assumed that they will grow at industry average ( $3 \\%$ ) afterwards.\n\n- Mint will invest all the money for CAPEX in the infrastructure and equipment. Mint is planning to issue 50 Mn shares in lieu of the amount.\n\n- Mint will have to keep upgrading the infrastructure and equipment to cover different offices of various clients.\n\n- Mint expects an initial investment of around $₹ 150 \\mathrm{Mn}$ in network access as an initial setup cost for connecting different offices. Mint needs to invest additional ₹10 Mn every year starting from beginning and is expected to grow $10 \\%$ every year.\n\n- The equipment investment varies with number of branches/offices. This varies with time and currently it is ₹ 0.1 Mn per office.\n\n- Initially, Mint has won a tender of 100 branches of a bank and expecting it to grow at $30 \\%$ for next 5 years.\n\n- Mint is expecting to have a maintenance cost of $10 \\%$ for equipment and $15 \\%$ for network.\n\n- To handle all this, current manpower cost is ₹ 1 Mn\n\n- Mint has entered into an agreement with local authority and has agreed to share $5 \\%$ of the revenue with the same.\n\n- Mint is expecting to generate revenue of ₹ 0.5 Mn per office and to remain competitive in the market, it is not going to increase with inflation.\n\n- Capital expenditure and operating expenses will grow $10 \\%$ every year.\n\n- Tax slab in the country is $30 \\%$ and depreciation of the equipment and network is assumed to be $10 \\%$. Discounting rate is $20 \\%$.\n\n- Assume all the expenditure including initial setup cost from year 1.\n\nBased on the above information, you are required to answer following 5 MCQs :\n\n1. What is the CFAT for year 1?\n\n(a) $-15,33,50,000$\n\n(b) $1,00,17,000$\n\n(c) $1,75,73,810$\n\n(d) $2,74,29,367$\n\n\nAns: (a)\n\n2. What is the CFAT for year 5?\n\n(a) $-15,33,50,000$\n\n(b) $1,00,17,000$\n\n(c) $4,02,25,268$\n\n(d) $2,74,29,367$\n\n\nAns: (c)\n\n3. Calculate the terminal value\n\n(a) ₹ $24,37,17,801$\n\n(b) ₹ $9,79,74,556$\n\n(c) ₹ $6,38,54,064$\n\n(d) ₹ $21,32,20,955$\n\n\nAns: (a)\n\n4. What is the total present value of the mint technologies?\n\n(a) ₹ $1,89,77,337$\n\n(b) ₹ $1,32,20,955$\n\n(c) ₹ $1,67,06,548$\n\n(d) ₹ $89,97,791$\n\n\nAns: (c)\n\n5. Calculate the IRR for the company\n\n(a) $22.60 \\%$\n\n(b) $15.39 \\%$\n\n(c) $20.25 \\%$\n\n(d) $24.68 \\%$\n\n\nAns: (d)",
       "questions": [
         {
           "q_num": 1,
-          "question": "If sales of Nirmal Ltd are up by $\\mathbf{1 0} \\boldsymbol{\\%}$, impact on its EBIT is (Chapter 6: Financing Decisions - Leverages)",
+          "question": "What is the CFAT for year 1?",
           "options": {
-            "a": "$30 \\%$",
-            "b": "$60 \\%$",
-            "c": "$5 \\%$",
-            "d": "$20 \\%$"
+            "a": "$-15,33,50,000$",
+            "b": "$1,00,17,000$",
+            "c": "$1,75,73,810$",
+            "d": "$2,74,29,367$"
           },
-          "correct_option": "d",
-          "answer": "d",
-          "verdict": null
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v1"
         },
         {
-          "q_num": 2,
-          "question": "Combined leverage of Nirmal Ltd is(Chapter 6: Financing Decisions - Leverages)",
-          "options": {
-            "a": "1.63",
-            "b": "2.63",
-            "c": "1.315",
-            "d": "2"
-          },
-          "correct_option": "b",
-          "answer": "b",
-          "verdict": null
-        },
-        {
-          "q_num": 3,
-          "question": "Discount rate that can be applied for making investment decisions of Mathangi Ltd is(Chapter 4: Cost of Capital)",
-          "options": {
-            "a": "$12 \\%$",
-            "b": "$13.52 \\%$",
-            "c": "$15 \\%$",
-            "d": "$20 \\%$"
-          },
-          "correct_option": "b",
-          "answer": "b",
-          "verdict": null
-        },
-        {
-          "q_num": 4,
-          "question": "Incremental cash flow after tax per annum attributable to Mathangi Ltd due to investment in the machine is (Chapter 7: Investment Decisions)",
-          "options": {
-            "a": "₹ $2,39,438$",
-            "b": "₹ $1,98,250$",
-            "c": "₹ 98,250",
-            "d": "₹ $1,31,000$"
-          },
-          "correct_option": "b",
-          "answer": "b",
-          "verdict": null
-        },
-        {
-          "q_num": 5,
-          "question": "Net present value of investment in the machine by Mathangi Ltd is (Chapter 7: Investment Decisions)",
-          "options": {
-            "a": "₹ $6,88,522$",
-            "b": "₹ $1,88,522$",
-            "c": "₹ $9,91,250$",
-            "d": "₹ $4,91,250$"
-          },
-          "correct_option": "b",
-          "answer": "b",
-          "verdict": null
-        }
-      ],
-      "mcq_count": 5,
-      "unique_id": "10-CS-4"
-    },
-    {
-      "type": "case_study",
-      "chapter_number": "16",
-      "chapter_name": "CASE SCENARIOS- STRATEGIC MANAGEMENT",
-      "case_text": "Kriti Pvt. Ltd. has been importing French gourmet cheeses under the brand name of 'Fromage' since 2017. The company was amongst the first in India to introduce innovative unbreakable cheese packaging. Their affiliate, a French company owning Fromage, had entered into a progressive deal, wherein products would be sourced to India via their logistics, and all marketing expenditures would be covered by them. However, customer management and nationwide distribution would be taken care of by Kriti Pvt. Ltd. This required an English-speaking skilled workforce, which has been a constant challenge for the company in India.\n\nThe owners of Kriti Pvt. Ltd. have been regular attendees at industry- relevant conclaves, both national and international. Leaders of the company are passionate readers of business magazines. Following that, it was observed that the recent sentiment of the country towards 'Vocal for Local' could disrupt their French brand's marketability. An extraordinary meeting was set up, and the steps ahead were planned.\n\nThe outcome of the meeting was to partner with local producers of traditional Indian cheeses in phase one of the change strategy. For this, seven state governments were approached. The team was successful in taking contracts from all the government departments of these seven states and could position themselves fairly in the market. To fund this new investment, they have planned to slowly sell off their French business assets as well as the brand, to probable buyers.\n\nThis timely shift is proving to be a game-changer for the company, and the leadership is quite happy with better than before earnings and a much greater response from the customers. They find it easier to operate with domestic producers and vendors, and a sense of patriotism is instilled in the consumers' minds.\n\nBased on the above Case Scenario, answer the Multiple-Choice Questions.\n\n\n1. Which of the following actions taken by Kriti Pvt. Ltd. is an example of a proactive strategy?(Chapter 11: Introduction to Strategic Management)\n\n(a) Selling off their French business assets.\n\n(b) Responding to the 'Vocal for Local' sentiment by partnering with local cheese producers.\n\n(c) Managing customer relations and nationwide distribution.\n\n(d) Covering all marketing expenditures for 'Fromage' in India.\n\n\nAns: (b)\n\n2. Which of the following types of strategic control did the owners and leadership of Kriti Pvt. Ltd. deploy that eventually turned out to be one of the most effective strategic decisions for the company? (Chapter 15: Strategy Implementation and Evaluation)\n\n(a) Premise control\n\n(b) Special alert control\n\n(c) Implementation control\n\n(d) Strategic surveillance\n\n\nAns: (d)\n\n3. 'Vocal for Local' is a market sentiment that changed customers' preferences for the majority of products across all industries. Based on that, Kriti Pvt. Ltd. gauged the competition it might face in the coming months and agreed to change its own product. Which of the following forces, as per Michael Porter's five forces of competitive analysis, is most relevant in this case? (Chapter 12: Strategic Analysis: External Environment)\n\n(a) Threat of new entrants\n\n(b) Nature of rivalry in the industry\n\n(c) Threat of substitutes\n\n(d) Bargaining power of the buyer\n\n\nAns: (c)\n\n4. Which of the following aspects of value chain analysis was the most challenging for Kriti Pvt. Ltd. at the time of selling the Fromage brand? (Chapter 12: Strategic Analysis: External Environment)\n\n(a) Manufacturing\n\n(b) Outsourcing\n\n(c) Customer service\n\n(d) Procurement\n\n\nAns: (c)\n\n5. To strategically revamp their business, partnerships were done with Indian local producers from seven states, and to fund it, the existing arm of the business was to be sold off. Which of the following strategies has Kriti Pvt. Ltd. opted for? (Chapter 14: Strategic Choices)\n\n(a) Turnaround strategy\n\n(b) Divestment strategy\n\n(c) Liquidation strategy\n\n(d) Intensification strategy\n\n\nAns: (b)\n\n\nSneha Rao, founder and CEO of DEF Technologies, is renowned for her technological insight and visionary leadership style. She cultivates a culture of collaboration, continuous learning, and innovative problemsolving, encouraging her employees to think outside the box and embrace new challenges. Her exceptional ability to foresee technological trends and navigate complex market dynamics has propelled DEF Technologies to impressive growth over the past decade.\n\nSneha started DEF Technologies in 2010 as a small software development firm. With a vision to transform DEF Technologies into a leading tech company, she initially focused on developing custom software solutions for local businesses. However, intense competition and limited market demand led to financial difficulties. Undeterred, Sneha pivoted the business towards developing cloud-based solutions, leveraging the growing trend of digital transformation. This strategic shift, along with aggressive marketing, helped DEF Technologies capture a significant market share and become a leader in cloud services, setting new industry standards.\n\nIn 2015, Sneha's brother, Raj, joined the company, and together they crafted an ambitious expansion strategy. DEF Technologies entered the global market, partnering with international tech firms to launch a new line of AI-driven cybersecurity solutions. This venture was highly successful, establishing DEF Technologies as a global brand and a key player in the cybersecurity industry.\n\nRaj then led the company's diversification into the healthcare sector with a new brand, MedTech Solutions. Recognizing the potential for technology to revolutionize healthcare, Sneha and Raj focused on developing affordable telemedicine platforms and AI-driven diagnostic tools. Their approach disrupted the market, providing high-quality healthcare solutions at lower costs and gaining widespread trust from healthcare providers and patients alike. MedTech Solutions experienced rapid growth, especially during the COVID19 pandemic, as demand for remote healthcare services surged.\n\nAt the beginning of 2023, DEF Technologies launched another new business, GreenTech Innovations, to address environmental challenges through technology. DEF Technologies continues to explore new opportunities and ventures to stay at the forefront of the tech industry.\n\nBased on the above Case Scenario, answer the Multiple-Choice Questions.\n\n\n1. Sneha Rao's vision to transform DEF Technologies into a leading tech company illustrates which type of strategic intent? (Chapter 11: Introduction to Strategic Management)\n\n(a) Goal\n\n(b) Mission\n\n(c) Vision\n\n(d) Objective\n\n\nAns: (c)\n\n2. Sneha's leadership style, which promotes collaboration, continuous learning, and innovative problemsolving, can best be described as: (Chapter 15: Strategy Implementation and Evaluation)\n\n(a) Transactional leadership\n\n(b) Transformational leadership\n\n(c) Autocratic leadership\n\n(d) Laissez-faire leadership\n\n\nAns: (b)\n\n3. When DEF Technologies expanded into the global market with AI- driven cybersecurity solutions, which of Porter's Five Forces was most likely mitigated by forming partnerships with international tech firms? (Chapter 12: Strategic Analysis: External Environment)\n\n(a) Threat of Substitute Products or Services\n\n(b) Bargaining Power of Suppliers\n\n(c) Threat of New Entrants\n\n(d) Intense Rivalry Among Existing Competitors\n\n\nAns: (c)\n\n4. By entering the global market and launching AI-driven cybersecurity solutions, DEF Technologies pursued which expansion strategy from Ansoff's Product-Market Growth Matrix? (Chapter 14: Strategic Choices)\n\n(a) Diversification\n\n(b) Market Penetration\n\n(c) Product Development\n\n(d) Market Development\n\n\nAns: (a)\n\n5. MedTech Solutions' focus on developing affordable telemedicine platforms and AI-driven diagnostic tools reflects which of the following competitive strategies? (Chapter 13: Strategic Analysis: Internal Environment)\n\n(a) Differentiation strategy\n\n(b) Cost leadership strategy\n\n(c) Best-cost provider strategy\n\n(d) Focus Strategy\n\n\nAns: (c)",
-      "questions": [
-        {
-          "q_num": 1,
-          "question": "Which of the following actions taken by Kriti Pvt. Ltd. is an example of a proactive strategy?(Chapter 11: Introduction to Strategic Management)",
-          "options": {
-            "a": "Selling off their French business assets.",
-            "b": "Responding to the 'Vocal for Local' sentiment by partnering with local cheese producers.",
-            "c": "Managing customer relations and nationwide distribution.",
-            "d": "Covering all marketing expenditures for 'Fromage' in India."
-          },
-          "correct_option": "b",
-          "answer": "b",
-          "verdict": null
-        },
-        {
-          "q_num": 2,
-          "question": "Which of the following types of strategic control did the owners and leadership of Kriti Pvt. Ltd. deploy that eventually turned out to be one of the most effective strategic decisions for the company? (Chapter 15: Strategy Implementation and Evaluation)",
-          "options": {
-            "a": "Premise control",
-            "b": "Special alert control",
-            "c": "Implementation control",
-            "d": "Strategic surveillance"
-          },
-          "correct_option": "d",
-          "answer": "d",
-          "verdict": null
-        },
-        {
-          "q_num": 3,
-          "question": "'Vocal for Local' is a market sentiment that changed customers' preferences for the majority of products across all industries. Based on that, Kriti Pvt. Ltd. gauged the competition it might face in the coming months and agreed to change its own product. Which of the following forces, as per Michael Porter's five forces of competitive analysis, is most relevant in this case? (Chapter 12: Strategic Analysis: External Environment)",
-          "options": {
-            "a": "Threat of new entrants",
-            "b": "Nature of rivalry in the industry",
-            "c": "Threat of substitutes",
-            "d": "Bargaining power of the buyer"
-          },
-          "correct_option": "c",
-          "answer": "c",
-          "verdict": null
-        },
-        {
-          "q_num": 4,
-          "question": "Which of the following aspects of value chain analysis was the most challenging for Kriti Pvt. Ltd. at the time of selling the Fromage brand? (Chapter 12: Strategic Analysis: External Environment)",
-          "options": {
-            "a": "Manufacturing",
-            "b": "Outsourcing",
-            "c": "Customer service",
-            "d": "Procurement"
-          },
-          "correct_option": "c",
-          "answer": "c",
-          "verdict": null
-        },
-        {
-          "q_num": 5,
-          "question": "To strategically revamp their business, partnerships were done with Indian local producers from seven states, and to fund it, the existing arm of the business was to be sold off. Which of the following strategies has Kriti Pvt. Ltd. opted for? (Chapter 14: Strategic Choices)",
-          "options": {
-            "a": "Turnaround strategy",
-            "b": "Divestment strategy",
-            "c": "Liquidation strategy",
-            "d": "Intensification strategy"
-          },
-          "correct_option": "b",
-          "answer": "b",
-          "verdict": null
-        },
-        {
-          "q_num": 1,
+          "q_num": "1_v2",
           "question": "Sneha Rao's vision to transform DEF Technologies into a leading tech company illustrates which type of strategic intent? (Chapter 11: Introduction to Strategic Management)",
           "options": {
             "a": "Goal",
@@ -177,10 +54,28 @@
           },
           "correct_option": "c",
           "answer": "c",
-          "verdict": null
+          "verdict": null,
+          "_serial": "1_v2",
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v2"
         },
         {
           "q_num": 2,
+          "question": "What is the CFAT for year 5?",
+          "options": {
+            "a": "$-15,33,50,000$",
+            "b": "$1,00,17,000$",
+            "c": "$4,02,25,268$",
+            "d": "$2,74,29,367$"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v1"
+        },
+        {
+          "q_num": "2_v2",
           "question": "Sneha's leadership style, which promotes collaboration, continuous learning, and innovative problemsolving, can best be described as: (Chapter 15: Strategy Implementation and Evaluation)",
           "options": {
             "a": "Transactional leadership",
@@ -190,10 +85,28 @@
           },
           "correct_option": "b",
           "answer": "b",
-          "verdict": null
+          "verdict": null,
+          "_serial": "2_v2",
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v2"
         },
         {
           "q_num": 3,
+          "question": "Calculate the terminal value",
+          "options": {
+            "a": "₹ $24,37,17,801$",
+            "b": "₹ $9,79,74,556$",
+            "c": "₹ $6,38,54,064$",
+            "d": "₹ $21,32,20,955$"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v1"
+        },
+        {
+          "q_num": "3_v2",
           "question": "When DEF Technologies expanded into the global market with AI- driven cybersecurity solutions, which of Porter's Five Forces was most likely mitigated by forming partnerships with international tech firms? (Chapter 12: Strategic Analysis: External Environment)",
           "options": {
             "a": "Threat of Substitute Products or Services",
@@ -203,10 +116,28 @@
           },
           "correct_option": "c",
           "answer": "c",
-          "verdict": null
+          "verdict": null,
+          "_serial": "3_v2",
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v2"
         },
         {
           "q_num": 4,
+          "question": "What is the total present value of the mint technologies?",
+          "options": {
+            "a": "₹ $1,89,77,337$",
+            "b": "₹ $1,32,20,955$",
+            "c": "₹ $1,67,06,548$",
+            "d": "₹ $89,97,791$"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "or_group": "MCQ_4_v1_v2",
+          "question_id": "A-MCQ-4_v1"
+        },
+        {
+          "q_num": "4_v2",
           "question": "By entering the global market and launching AI-driven cybersecurity solutions, DEF Technologies pursued which expansion strategy from Ansoff's Product-Market Growth Matrix? (Chapter 14: Strategic Choices)",
           "options": {
             "a": "Diversification",
@@ -216,10 +147,28 @@
           },
           "correct_option": "a",
           "answer": "a",
-          "verdict": null
+          "verdict": null,
+          "_serial": "4_v2",
+          "or_group": "MCQ_4_v1_v2",
+          "question_id": "A-MCQ-4_v2"
         },
         {
           "q_num": 5,
+          "question": "Calculate the IRR for the company",
+          "options": {
+            "a": "$22.60 \\%$",
+            "b": "$15.39 \\%$",
+            "c": "$20.25 \\%$",
+            "d": "$24.68 \\%$"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null,
+          "or_group": "MCQ_5_v1_v2",
+          "question_id": "A-MCQ-5_v1"
+        },
+        {
+          "q_num": "5_v2",
           "question": "MedTech Solutions' focus on developing affordable telemedicine platforms and AI-driven diagnostic tools reflects which of the following competitive strategies? (Chapter 13: Strategic Analysis: Internal Environment)",
           "options": {
             "a": "Differentiation strategy",
@@ -229,11 +178,352 @@
           },
           "correct_option": "c",
           "answer": "c",
-          "verdict": null
+          "verdict": null,
+          "_serial": "5_v2",
+          "or_group": "MCQ_5_v1_v2",
+          "question_id": "A-MCQ-5_v2"
         }
-      ],
-      "mcq_count": 10,
-      "unique_id": "16-CS-15"
+      ]
+    },
+    {
+      "unique_id": "10-CS-13",
+      "chapter_number": "10",
+      "chapter_name": "CASE SCENARIOS - FINANCIAL MANAGEMENT",
+      "category": "Case Study",
+      "cs_num": 13,
+      "case_text": "VP Ltd. provides the following financial information:\n\n\n| Current Ratio |  | 1.5:1 |\n| :--- | :--- | :--- |\n| Sales (80\\% Credit Sales) | Gauresh \\| 8237317945 | ₹ 150 Lakh |\n| Inventory Turnover Ratio |  | 6 Times |\n| Average Collection Period |  | 2 months |\n| Gross Profit Ratio |  | 20\\% |\n| Quick Ratio |  | 1:1 |",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Inventory and Receivables would be:\n\n(a) ₹ 20 Lakh and ₹ 20 Lakh\n\n(b) ₹ 10 Lakh and ₹ 10 Lakh\n\n(c) ₹ 10 Lakh and ₹ 20 Lakh\n\n(d) ₹ 20 Lakh and ₹ 10 Lakh",
+          "options": {
+            "a": "₹ 20 Lakh and ₹ 20 Lakh",
+            "b": "₹ 10 Lakh and ₹ 10 Lakh",
+            "c": "₹ 10 Lakh and ₹ 20 Lakh",
+            "d": "₹ 20 Lakh and ₹ 10 Lakh"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v1"
+        },
+        {
+          "q_num": "1_v2",
+          "question": "Sneha Rao's vision to transform DEF Technologies into a leading tech company illustrates which type of strategic intent? (Chapter 11: Introduction to Strategic Management)",
+          "options": {
+            "a": "Goal",
+            "b": "Mission",
+            "c": "Vision",
+            "d": "Objective"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": "1_v2",
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v2"
+        },
+        {
+          "q_num": 2,
+          "question": "Current Assets and Current Liabilities would be:\n\n(a) 30 Lakh and 20 Lakh\n\n(b) 45 Lakh and 30 Lakh\n\n(c) 60 Lakh and 40 Lakh\n\n(d) 75 Lakh and 50 Lakh",
+          "options": {
+            "a": "30 Lakh and 20 Lakh",
+            "b": "45 Lakh and 30 Lakh",
+            "c": "60 Lakh and 40 Lakh",
+            "d": "75 Lakh and 50 Lakh"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v1"
+        },
+        {
+          "q_num": "2_v2",
+          "question": "Sneha's leadership style, which promotes collaboration, continuous learning, and innovative problemsolving, can best be described as: (Chapter 15: Strategy Implementation and Evaluation)",
+          "options": {
+            "a": "Transactional leadership",
+            "b": "Transformational leadership",
+            "c": "Autocratic leadership",
+            "d": "Laissez-faire leadership"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": "2_v2",
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v2"
+        }
+      ]
+    },
+    {
+      "unique_id": "16-CS-29",
+      "chapter_number": "16",
+      "chapter_name": "CASE SCENARIOS- STRATEGIC MANAGEMENT",
+      "category": "Case Study",
+      "cs_num": 29,
+      "case_text": "## CS 29 (MP[3] 10 Marks)\n\nDr. Mikesh Gupta, Agriculture Management Guru at a leading management school in Patna, has been driving the business of E-Bandhu with seven of his students since 2017. This business has two core objectives: first, sustainable farming awareness and second, seasonal availability of agricultural inputs. It is a technology driven business wherein they have a one stop shop for all agricultural products available to farmers at competitive prices. Business is quite challenging, given the fact that farmers in the region are not well aware of the use of technology.\n\nIn the summer of 2019, the team decided to redefine their business strategy to succeed in the agricultural sector. They formulated a new definition and made strategic decisions to leverage their core competencies. Firstly, they shifted their target market from directly serving farmers to onboarding wholesalers and retailers into the system and selling products to them. This strategic move was based on the understanding that wholesalers and retailers could influence technology adoption among farmers.\n\nSecondly, they outsourced logistics to MaalGaadi, a rural supply chain management company. This decision helped E-Bandhu reduce asset procurement costs and corresponding debt, thus strengthening their position in the market.\n\nThirdly, they introduced a new service-based product, ChaaraVidya, in their application. ChaaraVidya aims to educate farmers about the latest sustainable farming practices being implemented around the world. This addition could potentially be a game-changer for E-Bandhu in the agro startup circle, further enhancing their core competency in promoting sustainable farming practices and technology adoption.\n\nThe team is enthusiastic about the strategic changes brought in by Dr. Mikesh and anticipates a more sustainable future for their idea.\n\nBased on the above case scenario, answer the multiple-choice questions.\n\n\n1. Switching from direct selling to marketing through wholesalers and retailers was a strategic decision taken by the management. Such decisions help an organization to be more of which of the following? (Ch 11: Introduction to SM)\n\n(a) Authoritative\n\n(b) Futuristic\n\n(c) Proactive\n\n(d) Regularised\n\n\nAns: (c)\n\n2. ChaaraVidya was brought into the market to increase farmer awareness of soil quality and the latest sustainable farm practices from around the world? What kind of growth strategy will it fall under? (Chapter 14: Strategic Choices)\n\n(a) Market penetration\n\n(b) Market development\n\n(c) Product development\n\n(d) Diversification of business\n\n\nAns: (c)\n\n3. One of the most strategically advantageous decisions for E-Bandhu was to get into a contract with MaalGaadi. Which of the following could not be an advantage for E-Bandhu from this alliance? (Chp 14 Strategic Choices)\n\n(a) Cost savings\n\n(b) Reduced delivery time\n\n(c) Improved customer satisfaction\n\n(d) Increased inventory of products\n\n\nAns: (d)\n\n4. How does E-Bandhu utilize Michael Porter's Five Forces model in its strategic decision-making process? Chapter 12- Strategic Analysis: External Environment\n\n(a) By focusing on industry rivalry and competitive pricing\n\n(b) By analyzing the bargaining power of suppliers and buyers\n\n(c) By assessing the threat of new entrants and substitutes\n\n(d) All of the above\n\n\nAns: (b)\n\n5. What are the core objectives of E-Bandhu, as mentioned in the case study?( Chapter 11- Introduction to Strategic Management)\n\n(a) Sustainable farming awareness and seasonal availability of agricultural inputs\n\n(b) Technology-driven solutions and competitive pricing\n\n(c) Onboarding wholesalers and retailers into the system\n\n(d) All of the above\n\n\nAns: (a)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Switching from direct selling to marketing through wholesalers and retailers was a strategic decision taken by the management. Such decisions help an organization to be more of which of the following? (Ch 11: Introduction to SM)",
+          "options": {
+            "a": "Authoritative",
+            "b": "Futuristic",
+            "c": "Proactive",
+            "d": "Regularised"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v1"
+        },
+        {
+          "q_num": "1_v2",
+          "question": "Sneha Rao's vision to transform DEF Technologies into a leading tech company illustrates which type of strategic intent? (Chapter 11: Introduction to Strategic Management)",
+          "options": {
+            "a": "Goal",
+            "b": "Mission",
+            "c": "Vision",
+            "d": "Objective"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": "1_v2",
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v2"
+        },
+        {
+          "q_num": 2,
+          "question": "ChaaraVidya was brought into the market to increase farmer awareness of soil quality and the latest sustainable farm practices from around the world? What kind of growth strategy will it fall under? (Chapter 14: Strategic Choices)",
+          "options": {
+            "a": "Market penetration",
+            "b": "Market development",
+            "c": "Product development",
+            "d": "Diversification of business"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v1"
+        },
+        {
+          "q_num": "2_v2",
+          "question": "Sneha's leadership style, which promotes collaboration, continuous learning, and innovative problemsolving, can best be described as: (Chapter 15: Strategy Implementation and Evaluation)",
+          "options": {
+            "a": "Transactional leadership",
+            "b": "Transformational leadership",
+            "c": "Autocratic leadership",
+            "d": "Laissez-faire leadership"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": "2_v2",
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v2"
+        },
+        {
+          "q_num": 3,
+          "question": "One of the most strategically advantageous decisions for E-Bandhu was to get into a contract with MaalGaadi. Which of the following could not be an advantage for E-Bandhu from this alliance? (Chp 14 Strategic Choices)",
+          "options": {
+            "a": "Cost savings",
+            "b": "Reduced delivery time",
+            "c": "Improved customer satisfaction",
+            "d": "Increased inventory of products"
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null,
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v1"
+        },
+        {
+          "q_num": "3_v2",
+          "question": "When DEF Technologies expanded into the global market with AI- driven cybersecurity solutions, which of Porter's Five Forces was most likely mitigated by forming partnerships with international tech firms? (Chapter 12: Strategic Analysis: External Environment)",
+          "options": {
+            "a": "Threat of Substitute Products or Services",
+            "b": "Bargaining Power of Suppliers",
+            "c": "Threat of New Entrants",
+            "d": "Intense Rivalry Among Existing Competitors"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": "3_v2",
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v2"
+        },
+        {
+          "q_num": 4,
+          "question": "How does E-Bandhu utilize Michael Porter's Five Forces model in its strategic decision-making process? Chapter 12- Strategic Analysis: External Environment",
+          "options": {
+            "a": "By focusing on industry rivalry and competitive pricing",
+            "b": "By analyzing the bargaining power of suppliers and buyers",
+            "c": "By assessing the threat of new entrants and substitutes",
+            "d": "All of the above"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "or_group": "MCQ_4_v1_v2",
+          "question_id": "A-MCQ-4_v1"
+        },
+        {
+          "q_num": "4_v2",
+          "question": "By entering the global market and launching AI-driven cybersecurity solutions, DEF Technologies pursued which expansion strategy from Ansoff's Product-Market Growth Matrix? (Chapter 14: Strategic Choices)",
+          "options": {
+            "a": "Diversification",
+            "b": "Market Penetration",
+            "c": "Product Development",
+            "d": "Market Development"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null,
+          "_serial": "4_v2",
+          "or_group": "MCQ_4_v1_v2",
+          "question_id": "A-MCQ-4_v2"
+        },
+        {
+          "q_num": 5,
+          "question": "What are the core objectives of E-Bandhu, as mentioned in the case study?( Chapter 11- Introduction to Strategic Management)",
+          "options": {
+            "a": "Sustainable farming awareness and seasonal availability of agricultural inputs",
+            "b": "Technology-driven solutions and competitive pricing",
+            "c": "Onboarding wholesalers and retailers into the system",
+            "d": "All of the above"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null,
+          "or_group": "MCQ_5_v1_v2",
+          "question_id": "A-MCQ-5_v1"
+        },
+        {
+          "q_num": "5_v2",
+          "question": "MedTech Solutions' focus on developing affordable telemedicine platforms and AI-driven diagnostic tools reflects which of the following competitive strategies? (Chapter 13: Strategic Analysis: Internal Environment)",
+          "options": {
+            "a": "Differentiation strategy",
+            "b": "Cost leadership strategy",
+            "c": "Best-cost provider strategy",
+            "d": "Focus Strategy"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": "5_v2",
+          "or_group": "MCQ_5_v1_v2",
+          "question_id": "A-MCQ-5_v2"
+        }
+      ]
+    },
+    {
+      "unique_id": "16-CS-1",
+      "chapter_number": "16",
+      "chapter_name": "CASE SCENARIOS- STRATEGIC MANAGEMENT",
+      "category": "Case Study",
+      "cs_num": 1,
+      "case_text": "## CS 1 (MTP 3 Marks Mar '22)\n\nPantheon Yoga Center (PYC), situated in the dense forests of Chhattisgarh by Dr. Manohar Dasgupta, a less known meditation center is visited by affluent Indians and foreign seekers, only by invitation. The uniqueness of his methodologies remains in the fact that only a few people have been able to experience them yet.\n\nRecently, CEO of a big investment bank approached Dr. Dasgupta to take special sessions for his management team in Los Angeles, USA - and given Dr. Dasgupta's popularity amongst business leaders, he wanted to strengthen his network as well for business purposes by building relations with him. Though Dr. Dasgupta was reluctant at first but understanding the need to publicize his practice and an offer by the CEO to get access to more corporates through this route, he took the opportunity, and called his corporate suite of sessions, the 'Shanti Classes'.\n\nThere were certain risks though; first, his techniques could be shunned by the top management as being too orthodox and old. Second, maybe they could be revealed to the outside world in a very disruptive manner, thus taking away the core uniqueness of exclusivity, and lastly, how would he monetize his methodologies if they expanded so quickly.\n\nWith above risks also came the need to build a strong team of like minded individuals who could support and propagate the ideologies in a positive fashion. For this he relied on his daughter, Sukanya. She took three months to build a team of fifty young-vibrant men and women from different backgrounds and trained them with basics and a few specializations.\n\nPYC opened its first branch in Los Angeles, USA, and then took the opportunity to open three more in India. One each in Madhya Pradesh, Gujarat and Assam.\n\nThe center and its techniques have now been recognised globally, especially in Northern America, while Europe is still to be explored business wise. One thing that Pantheon model reassures is that strategy has no boundation with respect to product or service; it applies to each kind in its own way.",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Core competencies cannot be built on single know how, instead it has to be integration of many resources. From the above case, what was the core competency of PYC and which of the following competencies were missing from its bunch of competencies? (Chapter 13- Strategic Analysis: Internal Environment)\n\n(a) Customer Satisfaction was the core competency and its competencies did not include meditation expertise.\n\n(b) Location of the Yoga Center was the core competency and its competencies did not include technological know-how.\n\n(c) Exclusivity was the core competency and its competencies did not include easy scalability.\n\n(d) Dr. Dasgupta's brand name was the core competency and its competencies did not include exclusivity.",
+          "options": {
+            "a": "Customer Satisfaction was the core competency and its competencies did not include meditation expertise.",
+            "b": "Location of the Yoga Center was the core competency and its competencies did not include technological know-how.",
+            "c": "Exclusivity was the core competency and its competencies did not include easy scalability.",
+            "d": "Dr. Dasgupta's brand name was the core competency and its competencies did not include exclusivity."
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v1"
+        },
+        {
+          "q_num": "1_v2",
+          "question": "Sneha Rao's vision to transform DEF Technologies into a leading tech company illustrates which type of strategic intent? (Chapter 11: Introduction to Strategic Management)",
+          "options": {
+            "a": "Goal",
+            "b": "Mission",
+            "c": "Vision",
+            "d": "Objective"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": "1_v2",
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v2"
+        },
+        {
+          "q_num": 2,
+          "question": "The formation of \"Shanti Classes' by Dr. Dasgupta to popularise his business can be categorised as which of the following growth strategies? (Chapter 14-Strategic Choices)\n\n(a) Product Development\n\n(b) Diversification\n\n(c) Market Penetration\n\n(d) Market Development",
+          "options": {
+            "a": "Product Development",
+            "b": "Diversification",
+            "c": "Market Penetration",
+            "d": "Market Development"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null,
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v1"
+        },
+        {
+          "q_num": "2_v2",
+          "question": "Sneha's leadership style, which promotes collaboration, continuous learning, and innovative problemsolving, can best be described as: (Chapter 15: Strategy Implementation and Evaluation)",
+          "options": {
+            "a": "Transactional leadership",
+            "b": "Transformational leadership",
+            "c": "Autocratic leadership",
+            "d": "Laissez-faire leadership"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": "2_v2",
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v2"
+        },
+        {
+          "q_num": 3,
+          "question": "Which growth strategy was the CEO of the investment bank trying to achieve with Dr. Dasgupta's classes? (Chapter 14- Strategic Choices)\n\n(a) Merger\n\n(b) Diversification\n\n(c) Acquisition\n\n(d) Strategic Alliance",
+          "options": {
+            "a": "Merger",
+            "b": "Diversification",
+            "c": "Acquisition",
+            "d": "Strategic Alliance"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null,
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v1"
+        },
+        {
+          "q_num": "3_v2",
+          "question": "When DEF Technologies expanded into the global market with AI- driven cybersecurity solutions, which of Porter's Five Forces was most likely mitigated by forming partnerships with international tech firms? (Chapter 12: Strategic Analysis: External Environment)",
+          "options": {
+            "a": "Threat of Substitute Products or Services",
+            "b": "Bargaining Power of Suppliers",
+            "c": "Threat of New Entrants",
+            "d": "Intense Rivalry Among Existing Competitors"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": "3_v2",
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v2"
+        }
+      ]
     }
   ],
   "section_b": [
@@ -341,34 +631,52 @@
       "chapter_number": "1",
       "sub_questions": [
         {
-          "label": "a",
+          "label": "a_v1",
+          "marks": 6,
+          "internal_split": null,
+          "question": "[New Version - v1] EXPLAIN the difference between Financial Lease and Operating Lease.",
+          "answer": "Difference between Financial Lease and Operating Lease\n\n| Financial Lease |  | Operating Lease |\n| :--- | :--- | :--- |\n| 1. | The risk and reward incident to ownership are passed on to the lessee. The lessor only remains the legal owner of the asset. | The lessee is only provided the use of the asset for a certain time. Risk incident to ownership belong wholly to the lessor. |\n| 2. | The lessee bears the risk of obsolescence. | The lessor bears the risk of obsolescence. |\n| 3. | The lessor is interested in his rentals and not in the asset. He must get his principal back along with interest. Therefore, the lease is non- cancellable by either party. | As the lessor does not have difficulty in leasing the same asset to other willing lessor, the lease is kept cancelable by the lessor. |\n| 4. | The lessor enters into the transaction only as financier. He does not bear the cost of repairs, maintenance or operations. | Usually, the lessor bears cost of repairs, maintenance or operations. |\n| 5. | The lease is usually full payout, that is, the single lease repays the cost of the asset together with the interest. | The lease is usually non-payout, since the lessor expects to lease the same asset over and over again to several users. |",
+          "chapter_number": "2",
+          "chapter_name": "TYPES OF FINANCING",
+          "unique_id": "2-T-36",
+          "or_group": "Q4a_v1_v2",
+          "question_id": "B-Q4-Q4a_v1"
+        },
+        {
+          "label": "a_v2",
           "marks": 3,
           "internal_split": null,
-          "question": "Question 35 (PYP 3 Marks Sep'25)\n\nSaraswati Ltd. has started its business a year back with a paid-up equity capital of Rs. 50,00,000. The other details are as under:\n\n| Earnings of company | Rs. 5,00,000 |\n| :--- | :--- |\n| Cost of Capital | Rs. 159.09 |\n| Market price per share using Gordon's Model | 8\\% |\n| Internal rate of return on investment | 12\\% |\n| Number of shares | 50,000 |\n\nYou are required to:\n\n(i) Calculate the Dividend paid per share using Gordon's Model.\n\n(ii) What will be Optimum dividend pay-out ratio according to Gordon's Model when $\\mathrm{r}=\\mathrm{K}_{\\mathrm{e}}$ ?",
+          "question": "[Old Version - v2] Question 35 (PYP 3 Marks Sep'25)\n\nSaraswati Ltd. has started its business a year back with a paid-up equity capital of Rs. 50,00,000. The other details are as under:\n\n| Earnings of company | Rs. 5,00,000 |\n| :--- | :--- |\n| Cost of Capital | Rs. 159.09 |\n| Market price per share using Gordon's Model | 8\\% |\n| Internal rate of return on investment | 12\\% |\n| Number of shares | 50,000 |\n\nYou are required to:\n\n(i) Calculate the Dividend paid per share using Gordon's Model.\n\n(ii) What will be Optimum dividend pay-out ratio according to Gordon's Model when $\\mathrm{r}=\\mathrm{K}_{\\mathrm{e}}$ ?",
           "answer": "(i) $\\mathrm{P}_{0}$\n\n$$\n=\\frac{\\mathrm{E}(1-\\mathrm{b})}{\\mathrm{K}_{\\mathrm{e}}-\\mathrm{br}}\n$$\n\n159.09\n\n$$\n=\\frac{10(1-b)}{0.08-0.12 b}\n$$\n\n159.09(0.08-0.12b)\n\n=10(1-b)\n\n12.7272-10\n\n$$\n=19.0908 b-10 b\n$$\n\n2.7272\n\n$$\n=9.0908 \\mathrm{~b}\n$$\n\nB (retained earning ratio)\n\n$$\n=0.30\n$$\n\nDividend payout ratio $=(1-\\mathrm{b}) \\quad=0.70$\n\nDividend per share $=$ EPS × $(1-b)=10 \\times 0.70=$ Rs. 7\n\n(ii)\n\nWhen $\\mathrm{r}=\\mathrm{K}_{\\mathrm{e}}$, There is no optimum ratio",
           "chapter_number": "8",
           "chapter_name": "DIVIDEND DECISION",
-          "unique_id": "8-T-35"
+          "unique_id": "8-T-35",
+          "or_group": "Q4a_v1_v2",
+          "question_id": "B-Q4-Q4a_v2"
         },
         {
-          "label": "b",
+          "label": "b_v1",
+          "marks": 4,
+          "internal_split": null,
+          "question": "[New Version - v1] EXPLAIN the difference between Business risk and financial risk (MTP 4 Marks, Mar'19, Sep'23)",
+          "answer": "## Business Risk and Financial Risk\n\nBusiness risk refers to the risk associated with the firm's operations. It is an unavoidable risk because of the environment in which the firm has to operate and the business risk is represented by the variability of earnings before interest and tax (EBIT). The variability in turn is influenced by revenues and expenses. Revenues and expenses are affected by demand of firm's products, variations in prices and proportion of fixed cost in total cost.\n\nWhereas, Financial risk refers to the additional risk placed on firm's shareholders as a result of debt use in financing. Companies that issue more debt instruments would have higher financial risk than companies financed mostly by equity. Financial risk can be measured by ratios such as firm's financial leverage multiplier, total debt to assets ratio etc.",
+          "chapter_number": "6",
+          "chapter_name": "FINANCING DECISIONS LEVERAGES",
+          "unique_id": "6-T-1",
+          "or_group": "Q4b_v1_v2",
+          "question_id": "B-Q4-Q4b_v1"
+        },
+        {
+          "label": "b_v2",
           "marks": 3.5,
           "internal_split": null,
-          "question": "Explain the features of crowd funding. (PYP 2 Marks May '24)",
+          "question": "[Old Version - v2] Explain the features of crowd funding. (PYP 2 Marks May '24)",
           "answer": "Crowd funding: crowdfunding means raising money for an individual or organization from a group of people to fund a project, typically via internet (social media and crowdfunding websites). It generally involves collecting funds from family, friends, strangers, corporates and many more in exchange of equity (known as Equity funding), loans (known as P2P lending) or nothing at all (i.e. donation). This source of funding also helps startups to substantiate demand for their product before entering into production.\n\nIn the crowdfunding process, three parties are involved i.e. fund raiser, mediator and fund investor. The platforms (mediator) may also charge certain fees in the form of processing fee, transaction fee, etc. either as a fixed amount or a percentage or in combination of both.\n\nExam insights: Students often confuse crowdfunding with venture capital or public issues. Remember-it's about raising small amounts online from many investors to support an idea or startup.",
           "chapter_number": "2",
           "chapter_name": "TYPES OF FINANCING",
-          "unique_id": "2-T-12"
-        },
-        {
-          "label": "c",
-          "marks": 3.5,
-          "internal_split": null,
-          "question": "PQ Ltd. has commenced new business segment in 2023-24. The following information has been ascertained for annual production of 25,000 units which is the full capacity.\n\n|                                         | Cost per unit (₹) |\n|-----------------------------------------|-------------------|\n| Material                                | 100               |\n| Labour and variable overhead expenses   | 50                |\n| Fixed manufacturing expenses            | 35                |\n| Depreciation                            | 15                |\n| Selling expenses (80% variable)         | 10                |\n\n| Receivables (Debtors) (Refer working note 4) | 2,66,927 | 4,84,684 |\n| Prepayment for Expenses (Refer working note 2) | 1,33,750 | 1,64,750 |\n| Minimum Cash balance | 50,000 | 50,000 |\n| Total Current Assets/ Gross working capital (A) | 13,20,260 | 15,68,545 |\n\n(B) Current Liabilities\n\n| Creditors for raw material (Refer working note 1) | 1,16,667 | 1,58,333 |\n| Total Current Liabilities | 1,16,667 | 1,58,333 |\n| Net Working Capital (A – B) | 12,03,594 | 14,10,212 |\n| Add: 10% contingency margin | 1,20,359 | 1,41,021 |\n| Total Working capital required | 13,23,953 | 15,51,233 |\n\nWorking Note:\n\n3. Cash Cost of Production:\n\n| Year 1 (₹) | Year 2 (₹) |\n|------------|------------|\n| Gross Factory Cost as per projected Statement of P&L | 30,50,000 | 39,50,000 |\n| Add: Opening W.I.P | - | 2,68,500 |\n| Less: Closing W.I.P | 2,68,500 | 3,76,500 |\n| Cost of goods produced | 27,81,500 | 38,42,000 |\n| Less: Depreciation | (3,75,000) | (3,75,000) |\n| Cash Cost of Production | 24,06,500 | 34,67,000 |\n| Add: Opening Stock at Average Cost | - | 4,01,083 |\n| Cash Cost of Goods Available for sale | 24,06,500 | 38,68,083 |\n| Less: Closing Stock at Avg. Cost | 4,01,083 | 1,92,611 |",
-          "answer": "1.   Calculation of creditors for supply of materials:\n\n|                              | Year 1 (₹) | Year 2 (₹) |\n|------------------------------|------------|------------|\n| Materials consumed during the year | 12,00,000   | 18,00,000   |\n| Add: Closing stock (2 month’s average consumption) | 2,00,000    | 3,00,000    |\n|                              | 14,00,000   | 21,00,000   |\n| Less: Opening Stock          | -           | 2,00,000    |\n| Purchases during the year    | 14,00,000   | 19,00,000   |\n| Average purchases per month (Creditors) | 1,16,667    | 1,58,333    |\n\n2.   Prepayment for expenses:\n\n|                                      | Year 1 (₹) | Year 2 (₹) |\n|--------------------------------------|------------|------------|\n| Direct labour and variable expenses  | 6,00,000    | 9,00,000    |\n| Fixed manufacturing expenses         | 8,75,000    | 8,75,000    |\n| Selling expenses (variable + fixed)  | 1,30,000    | 2,02,000    |\n| Total                                | 16,05,000   | 19,77,000   |\n| Average per month                    | 1,33,750    | 1,64,750    |\n\n(ii)   Projected Statement of Working Capital Requirement\n       (Cash Cost Basis)\n\n| (A) Current Assets                  | Year 1 (₹) | Year 2 (₹) |\n|-------------------------------------|------------|------------|\n| Inventories:                        |            |            |\n| - Stock of Raw Material             |            |            |\n| (12,000 units ₹ 100 2/12);          | 2,00,000    | 3,00,000    |\n| (18,000 units ₹ 100 2/12)           |            |            |\n| - Finished Goods (Refer working note 3) | 4,01,083    | 1,92,611    |\n| - Work In Process (Refer working note 5) | 2,68,500    | 3,76,500    |\n\nAdd: Opening W.I.P. - 2,91,000\nLess: Closing W.I.P. 2,91,000 3,99,000\n\nCost of goods produced 27,59,000 38,42,000\nAdd: Opening stock of finished goods (Year 1 : Nil; Year 2 : 2,000 units) - 4,59,833\nCost of Goods available for sale (Year 1: 12,000 units; Year 2: 20,000 units) 27,59,000 43,01,833\nLess: Closing stock of finished goods at average cost (year 1: 2000 units, year 2 : 1000 units) (Cost of Production × Closing stock/units produced) 4,59,833 2,13,444\n\nCost of Goods Sold 22,99,167 40,88,389\nAdd: Selling expenses – Variable (Sales unit × ₹ 8) 80,000 1,52,000\nAdd: Selling expenses -Fixed (25,000 units × ₹ 2) 50,000 50,000\nCost of Sales : (B) 24,29,167 42,90,389\n\nProfit (+) / Loss (-): (A - B) 70,833 4,59,611\n\nWorking Notes:\n\nCalculation of Stock of Work-in-progress\n\n| Particulars | Year 1 | Year 2 |\n|-------------|--------|--------|\n|             | (₹)    | (₹)    |\n| Raw Material (material cost × 15%) | 1,80,000 | 2,70,000 |\n| Labour & Mfg. Expenses (Labour & mfg. expenses × 15% × 40%) | 88,500 | 1,06,500 |\n| Depreciation (Depreciation × 15% × 40%) | 22,500 | 22,500 |\n| Total | 2,91,000 | 3,99,000 |\n\n(i)\nPQ Limited\nProjected Statement of Profit / Loss\n(Ignoring Taxation)\n\n|                           | Year 1  | Year 2  |\n|---------------------------|---------|---------|\n| Production (Units)        | 12,000  | 18,000  |\n| Sales (Units)             | 10,000  | 19,000  |\n|                           | (₹)     | (₹)     |\n| Sales revenue (A) (Sales unit × ₹ 250) | 25,00,000 | 47,50,000 |\n| Cost of production:       |         |         |\n| Materials cost            |         |         |\n| (Units produced × ₹ 100)  | 12,00,000 | 18,00,000 |\n| Direct labour and variable expenses |         |         |\n| (Units produced × ₹ 50)   | 6,00,000 | 9,00,000 |\n| Fixed manufacturing expenses |         |         |\n| (Production Capacity: 25,000 units × ₹ 35) | 8,75,000 | 8,75,000 |\n| Depreciation              |         |         |\n| (Production Capacity: 25,000 units × ₹ 15) | 3,75,000 | 3,75,000 |\n| **Gross Factory Cost**    | **30,50,000** | **39,50,000** |\n\nIn the first two years of operations, production and sales are expected to be as follows:\n\n| Year | Production (No. of units) | Sales (No. of units) |\n|------|---------------------------|----------------------|\n| 1    | 12,000                    | 10,000               |\n| 2    | 18,000                    | 19,000               |\n\nThe selling price is expected to be ₹ 250 .\n\nTo assess the working capital requirements, the following additional information is available:\n\n(a) Stock of materials 2 months’ average consumption\n\n(b) Debtors 1.5 month’s average sales.\n\n(c) Cash balance ₹ 50,000\n\n(d) Creditors for supply of materials 1 month’s average purchase during the year.\n\n(e) Expenses All expenses will be paid 1 month in advance during the year.\n\nGoods equal to 15% of the year’s production (in terms of physical units) will be in process on the average requiring full materials but only 40% of the other expenses.\n\nThe management is also of the opinion to make 10% margin for contingencies on computed figure and value the closing stock at cost of production.\n\nPREPARE, for the two years:\n\n(i) A projected statement of Profit/Loss (Ignoring taxation); and\n\n(ii) A projected statement of working capital requirements on a cash cost basis.\n\n(₹ 24,06,500 × 2,000\n12,000\n₹ 34,67,000 × 1,000\n18,000\nCash Cost of Goods Sold 20,05,417 36,75,472\n\n4. Receivables (Debtors)\n\n| Year 1 (₹) | Year 2 (₹) |\n|------------|------------|\n| Cash Cost of Goods Sold | 20,05,417 | 36,75,472 |\n| Add: Selling expenses – Variable (Sales unit × ₹ 8) | 80,000 | 1,52,000 |\n| Add: Selling expenses -Fixed (25,000 units × ₹ 2) | 50,000 | 50,000 |\n| Cash Cost of Debtors | 21,35,417 | 38,77,472 |\n| Average Debtors | 2,66,927 | 4,84,684 |\n\nCalculation of Stock of Work-in-progress (Cash Cost Basis)\n\n| Particulars | (₹) |\n|-------------|-----|\n| Raw Material (material cost × 15%) | 1,80,000 | 2,70,000 |\n| Labour & Mfg. Expenses (Labour & mfg. expenses × 15% × 40%) | 88,500 | 1,06,500 |\n| Total | 2,68,500 | 3,76,500 |",
-          "chapter_number": "2",
-          "chapter_name": "TYPES OF FINANCING",
-          "unique_id": "FM-REPLACED-8"
+          "unique_id": "2-T-12",
+          "or_group": "Q4b_v1_v2",
+          "question_id": "B-Q4-Q4b_v2"
         }
       ],
       "section": 1
@@ -380,34 +688,76 @@
       "chapter_number": "12",
       "sub_questions": [
         {
-          "label": "a",
+          "label": "a_v1",
           "marks": 5,
           "internal_split": null,
-          "question": "UrbanRide Mobility Ltd. launched an ambitious strategy to become the market leader in electric scooter rentals. The management established key performance indicators (KPIs) such as customer acquisition rate, scooter utilization rate, and profitability. Quarterly reviews were conducted to compare actual performance with planned targets. Whenever significant deviations were identified, corrective measures such as route optimization and promotional campaigns were introduced.\n\nIdentify the strategic management function being performed by UrbanRide Mobility Ltd. and explain its significance.",
+          "question": "[New Version - v1] ## Question 14 (MTP 5 Marks March '22)\n\nThere has been fierce demand for both Gecko and FlyBee for the last 3 years. Gecko makes mass consumption pens while FlyBee is a notebook and diary brand - both being complementary goods of each other. But to grow further, FlyBee decided to take up competition with Gecko in pens segment and thereby launched, FlyPens. Identify and explain the growth strategy opted by FlyBee?",
+          "answer": "FlyBee is a notebook and diary brand. But to grow further, FlyBee decided to take up competition with Gecko in pens segment and thereby launched, FlyPens. FlyBee that is hitherto not into producing pens starts producing them and other similar products is following concentric diversification which is basically related diversification. In this form of diversification, the new business is linked to the existing businesses through existing systems such as processes, technology or marketing. The new product is a spin-off from the existing facilities and products/processes. There are benefits of synergy with the current operations. The most common reasons for pursuing a concentric diversification are that opportunities in existing line of business are available.",
+          "chapter_number": "14",
+          "chapter_name": "STRATEGIC CHOICES",
+          "unique_id": "14-T-14",
+          "or_group": "Q5a_v1_v2",
+          "question_id": "B-Q5-Q5a_v1"
+        },
+        {
+          "label": "a_v2",
+          "marks": 5,
+          "internal_split": null,
+          "question": "[Old Version - v2] UrbanRide Mobility Ltd. launched an ambitious strategy to become the market leader in electric scooter rentals. The management established key performance indicators (KPIs) such as customer acquisition rate, scooter utilization rate, and profitability. Quarterly reviews were conducted to compare actual performance with planned targets. Whenever significant deviations were identified, corrective measures such as route optimization and promotional campaigns were introduced.\n\nIdentify the strategic management function being performed by UrbanRide Mobility Ltd. and explain its significance.",
           "answer": "The strategic management function being performed is Strategic Control.\n\nStrategic control is the process of monitoring strategy implementation, evaluating performance, and taking corrective actions to ensure achievement of strategic objectives.\n\nElements of Strategic Control evident in the case:\n\nEstablishment of performance standards through KPIs.\n\nMeasurement of actual performance.\n\nComparison of actual performance with predetermined targets.\n\nIdentification of deviations.\n\nCorrective actions such as route optimization and promotional campaigns.\n\nSignificance of Strategic Control:\n\nEnsures effective implementation of strategy.\n\nDetects deviations at an early stage.\n\nFacilitates corrective actions.\n\nImproves organizational performance.\n\nHelps achieve long-term strategic objectives.\n\nTherefore, UrbanRide Mobility Ltd. is exercising Strategic Control to ensure successful execution of its business strategy.",
           "chapter_number": "12",
           "chapter_name": "STRATEGIC ANALYSIS: EXTERNAL",
-          "unique_id": "FM-REPLACED-sm_3"
+          "unique_id": "FM-REPLACED-sm_3",
+          "or_group": "Q5a_v1_v2",
+          "question_id": "B-Q5-Q5a_v2"
         },
         {
-          "label": "b",
+          "label": "b_v1",
           "marks": 5,
           "internal_split": null,
-          "question": "## Question 42 (SM)\n\nIn the context of Ansoff's Product-Market Growth Matrix, identify with reasons, the type of growth strategies followed in the following cases:\n\n- A leading producer of toothpaste, advises its customers to brush teeth twice a day to keep breath fresh.\n\n- A business giant in hotel industry decides to enter into dairy business.\n\n- One of India's premier utility vehicles manufacturing company ventures to foray into foreign markets.\n\n- A renowned auto manufacturing company launches ungeared scooters in the market.",
+          "question": "[New Version - v1] EcoRide Ltd. manufactures electric scooters. The company possesses strong R&D capabilities, a well-recognised brand name and an extensive service network. However, its manufacturing costs are higher than those of competitors.\n\nDemand for electric vehicles is increasing rapidly due to government incentives and environmental awareness. At the same time, several international automobile companies are entering the market. Customers have multiple alternatives available and frequently compare prices and product features before making purchase decisions.\n\nAnalyse the strategic position of EcoRide Ltd. using SWOT Analysis. Further identify any two competitive forces operating in the industry as per Porter's Five Forces Model.",
+          "answer": "(A) SWOT Analysis\n\nStrengths\n\nStrong R&D capabilities.\n\nWell-recognised brand.\n\nExtensive service network.\n\nWeaknesses\n\nHigh manufacturing cost.\n\nOpportunities\n\nGrowing demand for EVs.\n\nGovernment incentives.\n\nRising environmental awareness.\n\nThreats\n\nEntry of international automobile companies.\n\nIntense market competition.\n\n(B) Porter's Five Forces\n\n1. Threat of New Entrants\n\nInternational automobile companies entering the market indicate increasing competitive pressure from new entrants.\n\n2. Bargaining Power of Buyers\n\nCustomers compare prices and product features before purchasing, indicating high bargaining power of buyers.\n\nConclusion\n\nEcoRide Ltd. enjoys strong internal capabilities and favourable market opportunities but must address cost disadvantages and increasing competitive pressures to sustain its competitive position.",
+          "chapter_number": "14",
+          "chapter_name": "STRATEGIC CHOICES",
+          "unique_id": "FM-REPLACED-sm__9",
+          "or_group": "Q5b_v1_v2",
+          "question_id": "B-Q5-Q5b_v1"
+        },
+        {
+          "label": "b_v2",
+          "marks": 5,
+          "internal_split": null,
+          "question": "[Old Version - v2] ## Question 42 (SM)\n\nIn the context of Ansoff's Product-Market Growth Matrix, identify with reasons, the type of growth strategies followed in the following cases:\n\n- A leading producer of toothpaste, advises its customers to brush teeth twice a day to keep breath fresh.\n\n- A business giant in hotel industry decides to enter into dairy business.\n\n- One of India's premier utility vehicles manufacturing company ventures to foray into foreign markets.\n\n- A renowned auto manufacturing company launches ungeared scooters in the market.",
           "answer": "The Ansoff's product market growth matrix (proposed by Igor Ansoff) is a useful tool that helps businesses decide their product and market growth strategy. This matrix further helps to analyze different strategic directions. According to Ansoff there are four strategies that organization might follow.\n\n(i) Market Penetration: A leading producer of toothpaste, advises its customers to brush teeth twice a day to keep breath fresh. It refers to a growth strategy where the business focuses on selling existing products into existing markets.\n\n(ii) Diversification: A business giant in hotel industry decides to enter into dairy business. It refers to a growth strategy where a business markets new products in new markets.\n\n(iii) Market Development: One of India's premier utility vehicles manufacturing company ventures to foray into foreign markets. It refers to a growth strategy where the business seeks to sell its existing products into new markets.\n\n(iv) Product Development: A renowned auto manufacturing company launches ungeared scooters in the market. It refers to a growth strategy where business aims to introduce new products into existing markets.",
           "chapter_number": "14",
           "chapter_name": "STRATEGIC CHOICES",
-          "unique_id": "14-T-42"
+          "unique_id": "14-T-42",
+          "or_group": "Q5b_v1_v2",
+          "question_id": "B-Q5-Q5b_v2"
         },
         {
-          "label": "c",
+          "label": "c_v1",
           "marks": 5,
           "internal_split": null,
-          "question": "International development is expensive and challenging. In the context of the statement, explain the internationalization of business and the steps involved in such strategic planning. (PYP 5 Marks Jan'25, MTP 5 Marks Jul'25)",
+          "question": "[New Version - v1] UrbanRide Mobility Ltd. launched an ambitious strategy to become the market leader in electric scooter rentals. The management established key performance indicators (KPIs) such as customer acquisition rate, scooter utilization rate, and profitability. Quarterly reviews were conducted to compare actual performance with planned targets. Whenever significant deviations were identified, corrective measures such as route optimization and promotional campaigns were introduced.\n\nIdentify the strategic management function being performed by UrbanRide Mobility Ltd. and explain its significance.",
+          "answer": "The strategic management function being performed is Strategic Control.\n\nStrategic control is the process of monitoring strategy implementation, evaluating performance, and taking corrective actions to ensure achievement of strategic objectives.\n\nElements of Strategic Control evident in the case:\n\nEstablishment of performance standards through KPIs.\n\nMeasurement of actual performance.\n\nComparison of actual performance with predetermined targets.\n\nIdentification of deviations.\n\nCorrective actions such as route optimization and promotional campaigns.\n\nSignificance of Strategic Control:\n\nEnsures effective implementation of strategy.\n\nDetects deviations at an early stage.\n\nFacilitates corrective actions.\n\nImproves organizational performance.\n\nHelps achieve long-term strategic objectives.\n\nTherefore, UrbanRide Mobility Ltd. is exercising Strategic Control to ensure successful execution of its business strategy.",
+          "chapter_number": "12",
+          "chapter_name": "STRATEGIC ANALYSIS: EXTERNAL",
+          "unique_id": "FM-REPLACED-sm_3",
+          "or_group": "Q5c_v1_v2",
+          "question_id": "B-Q5-Q5c_v1"
+        },
+        {
+          "label": "c_v2",
+          "marks": 5,
+          "internal_split": null,
+          "question": "[Old Version - v2] International development is expensive and challenging. In the context of the statement, explain the internationalization of business and the steps involved in such strategic planning. (PYP 5 Marks Jan'25, MTP 5 Marks Jul'25)",
           "answer": "Internationalization has become a pivotal trend for businesses aiming to enhance profitability and access cheaper resources. It allows companies to explore new markets, achieve economies of scale, and prolong product lifecycles. However, the process of internationalization is complex due to additional variables and linkages that differ from domestic operations.\n\nTo navigate this complexity, businesses should adopt a structured approach to international strategic planning. The steps involved include:\n\n\n1. Evaluate Global Opportunities and Threats: Businesses must assess potential global markets, identifying opportunities and threats while aligning them with their internal capabilities.\n\n2. Describe the Scope of Operations: Clearly defining the extent of the firm's international commercial activities is crucial for focused strategy development.\n\n3. Create Global Business Objectives: Establishing clear objectives helps guide the organization's international efforts and aligns with its overall mission.\n\n4. Develop Distinct Corporate Strategies: Formulating specific strategies tailored for global operations ensures that the organization can effectively compete in diverse markets.\n\nThese steps facilitate the identification of market opportunities and the formulation of effective global strategies, enabling businesses to thrive in the international arena despite the inherent challenges and costs associated with such expansion.",
           "chapter_number": "12",
           "chapter_name": "STRATEGIC ANALYSIS: EXTERNAL",
-          "unique_id": "12-T-3"
+          "unique_id": "12-T-3",
+          "or_group": "Q5c_v1_v2",
+          "question_id": "B-Q5-Q5c_v2"
         }
       ],
       "section": 2

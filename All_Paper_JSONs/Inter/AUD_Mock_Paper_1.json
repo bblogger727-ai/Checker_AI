@@ -32,7 +32,24 @@
             "d": "None of Statement 1 & 2 is correct"
           },
           "correct_option": "b",
-          "answer": "b"
+          "answer": "b",
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v1"
+        },
+        {
+          "q_num": "1_v2",
+          "question": "Which of the following does not constitute “Other income” in the profit and loss account of branch of a bank?",
+          "options": {
+            "a": "Discount on Bills purchased",
+            "b": "Commission on Bills sent for collection",
+            "c": "Loan processing fees",
+            "d": "Credit card fees"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "_serial": "1_v2",
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v2"
         },
         {
           "q_num": 2,
@@ -44,7 +61,24 @@
             "d": "only (i) is correct"
           },
           "correct_option": "b",
-          "answer": "b"
+          "answer": "b",
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v1"
+        },
+        {
+          "q_num": "2_v2",
+          "question": "Identify what the engagement team is trying to do in respect to advances of the branch.",
+          "options": {
+            "a": "The engagement team is carrying out analytical procedures in respect of advances.",
+            "b": "The engagement team is carrying out substantive procedures in respect of advances.",
+            "c": "The engagement team is evaluating internal control over advances.",
+            "d": "The engagement team is trying to select samples for verification of advances."
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "_serial": "2_v2",
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v2"
         },
         {
           "q_num": 3,
@@ -56,7 +90,24 @@
             "d": "None of the above."
           },
           "correct_option": "b",
-          "answer": "b"
+          "answer": "b",
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v1"
+        },
+        {
+          "q_num": "3_v2",
+          "question": "Considering state government guaranteed advance of ₹20 crore and its NPA classification made by branch, which of the following statements is most appropriate?",
+          "options": {
+            "a": "The branch has correctly classified account as NPA and has rightly made provisioning and reversal of unrealized income in this regard. Uttar Pradesh government guarantee has no effect on provisioning and income recognition.",
+            "b": "The branch has correctly classified account as NPA and has rightly made provisioning. However, unrealized income should not have been reversed due to Uttar Pradesh government guarantee.",
+            "c": "The branch should have classified account as Standard asset due to Uttar Pradesh government guarantee without having recourse to provisioning and reversal of unrealized income.",
+            "d": "The branch should have classified account as Standard asset due to Uttar Pradesh government guarantee. No provisioning is required. However, for purposes of income recognition, it should be treated as NPA and unrealized income should be reversed."
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "_serial": "3_v2",
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v2"
         },
         {
           "q_num": 4,
@@ -68,7 +119,24 @@
             "d": "None of Statement 1 & 2 is correct"
           },
           "correct_option": "c",
-          "answer": "c"
+          "answer": "c",
+          "or_group": "MCQ_4_v1_v2",
+          "question_id": "A-MCQ-4_v1"
+        },
+        {
+          "q_num": "4_v2",
+          "question": "The branch is operating in CBS environment. In view of above, which of the following statements is most appropriate?",
+          "options": {
+            "a": "Due to CBS environment, substantive procedures alone are effective to reduce audit risk to an acceptably low level.",
+            "b": "In CBS environment, in most situations, the auditors’ ability to reduce audit risk to an acceptably low level would be affected by the internal control systems established by the management.",
+            "c": "The extensive use of IT systems in CBS environment substantially reduces need to assess inherent and control risks.",
+            "d": "Low level of branch staff sensitisation to the control expectations of management requires fewer audit procedures."
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "_serial": "4_v2",
+          "or_group": "MCQ_4_v1_v2",
+          "question_id": "A-MCQ-4_v2"
         },
         {
           "q_num": 5,
@@ -80,7 +148,24 @@
             "d": "(i) and (ii) are correct"
           },
           "correct_option": "c",
-          "answer": "c"
+          "answer": "c",
+          "or_group": "MCQ_5_v1_v2",
+          "question_id": "A-MCQ-5_v1"
+        },
+        {
+          "q_num": "5_v2",
+          "question": "With regards to audit documentation, consider the following: - (a) POC from previous auditor (b) Management certified trial balance of branch for year under consideration (c) KYC verification details (d) Latest RBI master directions/circulars Which of the following statements is correct as regards to audit documentation?",
+          "options": {
+            "a": "Only documents stated at Q and R form part of audit documentation.",
+            "b": "Only documents stated at Q, R and S form part of audit documentation.",
+            "c": "Only documents stated at Q and S form part of audit documentation.",
+            "d": "All documents stated at P, Q, R and S form part of audit documentation."
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "_serial": "5_v2",
+          "or_group": "MCQ_5_v1_v2",
+          "question_id": "A-MCQ-5_v2"
         }
       ],
       "mcq_count": 5,
@@ -102,7 +187,24 @@
             "d": "II,III"
           },
           "correct_option": "c",
-          "answer": "c"
+          "answer": "c",
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v1"
+        },
+        {
+          "q_num": "1_v2",
+          "question": "Which of the following does not constitute “Other income” in the profit and loss account of branch of a bank?",
+          "options": {
+            "a": "Discount on Bills purchased",
+            "b": "Commission on Bills sent for collection",
+            "c": "Loan processing fees",
+            "d": "Credit card fees"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "_serial": "1_v2",
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v2"
         },
         {
           "q_num": 2,
@@ -114,7 +216,24 @@
             "d": "Tests of Control"
           },
           "correct_option": "b",
-          "answer": "b"
+          "answer": "b",
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v1"
+        },
+        {
+          "q_num": "2_v2",
+          "question": "Identify what the engagement team is trying to do in respect to advances of the branch.",
+          "options": {
+            "a": "The engagement team is carrying out analytical procedures in respect of advances.",
+            "b": "The engagement team is carrying out substantive procedures in respect of advances.",
+            "c": "The engagement team is evaluating internal control over advances.",
+            "d": "The engagement team is trying to select samples for verification of advances."
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "_serial": "2_v2",
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v2"
         },
         {
           "q_num": 3,
@@ -126,7 +245,24 @@
             "d": "i, ii, iii, viii, x, xi"
           },
           "correct_option": "c",
-          "answer": "c"
+          "answer": "c",
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v1"
+        },
+        {
+          "q_num": "3_v2",
+          "question": "Considering state government guaranteed advance of ₹20 crore and its NPA classification made by branch, which of the following statements is most appropriate?",
+          "options": {
+            "a": "The branch has correctly classified account as NPA and has rightly made provisioning and reversal of unrealized income in this regard. Uttar Pradesh government guarantee has no effect on provisioning and income recognition.",
+            "b": "The branch has correctly classified account as NPA and has rightly made provisioning. However, unrealized income should not have been reversed due to Uttar Pradesh government guarantee.",
+            "c": "The branch should have classified account as Standard asset due to Uttar Pradesh government guarantee without having recourse to provisioning and reversal of unrealized income.",
+            "d": "The branch should have classified account as Standard asset due to Uttar Pradesh government guarantee. No provisioning is required. However, for purposes of income recognition, it should be treated as NPA and unrealized income should be reversed."
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "_serial": "3_v2",
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v2"
         },
         {
           "q_num": 4,
@@ -138,7 +274,24 @@
             "d": "Judgement and Skepticism"
           },
           "correct_option": "a",
-          "answer": "a"
+          "answer": "a",
+          "or_group": "MCQ_4_v1_v2",
+          "question_id": "A-MCQ-4_v1"
+        },
+        {
+          "q_num": "4_v2",
+          "question": "The branch is operating in CBS environment. In view of above, which of the following statements is most appropriate?",
+          "options": {
+            "a": "Due to CBS environment, substantive procedures alone are effective to reduce audit risk to an acceptably low level.",
+            "b": "In CBS environment, in most situations, the auditors’ ability to reduce audit risk to an acceptably low level would be affected by the internal control systems established by the management.",
+            "c": "The extensive use of IT systems in CBS environment substantially reduces need to assess inherent and control risks.",
+            "d": "Low level of branch staff sensitisation to the control expectations of management requires fewer audit procedures."
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "_serial": "4_v2",
+          "or_group": "MCQ_4_v1_v2",
+          "question_id": "A-MCQ-4_v2"
         },
         {
           "q_num": 5,
@@ -150,7 +303,24 @@
             "d": "I, III"
           },
           "correct_option": "b",
-          "answer": "b"
+          "answer": "b",
+          "or_group": "MCQ_5_v1_v2",
+          "question_id": "A-MCQ-5_v1"
+        },
+        {
+          "q_num": "5_v2",
+          "question": "With regards to audit documentation, consider the following: - (a) POC from previous auditor (b) Management certified trial balance of branch for year under consideration (c) KYC verification details (d) Latest RBI master directions/circulars Which of the following statements is correct as regards to audit documentation?",
+          "options": {
+            "a": "Only documents stated at Q and R form part of audit documentation.",
+            "b": "Only documents stated at Q, R and S form part of audit documentation.",
+            "c": "Only documents stated at Q and S form part of audit documentation.",
+            "d": "All documents stated at P, Q, R and S form part of audit documentation."
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "_serial": "5_v2",
+          "or_group": "MCQ_5_v1_v2",
+          "question_id": "A-MCQ-5_v2"
         }
       ],
       "mcq_count": 5,

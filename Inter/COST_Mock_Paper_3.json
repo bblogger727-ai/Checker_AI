@@ -1,0 +1,467 @@
+{
+  "meta": {
+    "subject_code": "COST",
+    "subject_name": "Cost and Management Accounting",
+    "paper_num": 3,
+    "total_marks_printed": 100,
+    "total_marks_in_paper": 114,
+    "section_a_marks": 30,
+    "section_b_marks": 84,
+    "note": "Section A: 15 MCQs @ 2 marks each (Case Study based). Section B: Q1 compulsory (14m). Attempt any 4 of Q2–Q6 (14m each).",
+    "blacklisted_from": [
+      "Generated_Papers/COST/COST_Mock_Paper_1.json",
+      "Generated_Papers/COST/COST_Mock_Paper_2.json"
+    ],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)",
+      "1(c)"
+    ]
+  },
+  "section_a": [
+    {
+      "type": "case_study",
+      "chapter_number": "16",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "## CS 11 (MTP 10 Marks July'24,MP[4]) (Chapter 14-Marginal Costing)\n\n\nXYZ Manufacturing Pvt. Ltd. is a prominent company in the electric appliances industry, known for producing a diverse range of high-quality products. The company has built a reputation for reliability and innovation in the manufacturing of household appliances, including fans, mixers, and heaters. XYZ Manufacturing Pvt. Ltd. is dedicated to delivering products that meet the needs of its customers while adhering to the highest standards of quality and performance.\n\nThe company operates a state-of-the-art factory that is fully equipped with advanced machinery and technology to ensure efficient and consistent production. The factory operates $\\mathbf{2 5}$ days a month, running multiple shifts to meet the growing demand for its products. The company have spare capacity to additional orders. Each product type-fans, mixers, and heaters-undergoes a meticulous manufacturing process that includes assembly, quality testing, and packaging.\n\n\n| Cost Category | Amount (₹) |\n| :--- | :--- |\n| Fixed Costs (per month) |  |\n| Factory Rent | ₹ 3,00,000 |\n| Depreciation | ₹ 2,00,000 |\n| Administrative Expenses | ₹ 1,00,000 |\n| Salaries | ₹ 4,00,000 |\n| Total Fixed Costs | ₹ 10,00,000 |\n| Number of units produced per month (Note: Last month there was an additional special order of 2000 units which resulted in higher production) | 10,000 units |\n| Selling price per unit | ₹ 1,500 |\n\n\nAdditional Info: Raw Materials include Copper, Plastic, and Other Materials. The per unit cost of Copper is ₹ 80 more than the cost of Plastic, while the cost of Other Materials is twice that of Plastic. And the total Raw Material Cost per unit is $₹ 210$ more than the combined cost of Copper \\& Plastic.\n\nThe Labour Hour Rate is ₹ 100 per hour. The total labour hours used in the last month were 36,000 Hours. The Utilities Cost per unit is ₹ 100 , and the Packaging Cost per unit is $₹ 50$. Being a finance manager of the company, you are required to answer the following:\n\n\n1. Calculate the contribution margin per unit.\n\n(a) $₹ 550$\n\n(b) ₹ 600\n\n(c) ₹ 650\n\n(d) ₹ 700\n\n\n## Ans:(a)\n\n\n2. Determine the break-even point in sales revenue.\n\n(a) ₹ $31,28,593$\n\n(b) ₹ $25,85,153$\n\n(c) ₹ $27,27,025$\n\n(d) ₹ $27,05,983$\n\n\nAns: (c)\n\n3. If the company wants to achieve a target profit of ₹ $5,00,000$, what should be the sales volume (in units)?\n\n(a) 2,000 units\n\n(b) 2,727 units\n\n(c) 2,750 units\n\n(d) 3,000 units\n\n\nAns: (b)\n\n4. What would be the impact on the break-even point if the variable cost per unit increases by $10 \\%$ ?\n\n(a) 2,178 units\n\n(b) 2,198 units\n\n(c) 2,248 units\n\n(d) 2,258 units\n\n\nAns: (b)\n\n5. Calculate the margin of safety in percentage if the company sells 4,000 units if the variable cost per unit increases by $10 \\%$\n\n(a) $44.85 \\%$\n\n(b) $42.55 \\%$\n\n(c) $45.05 \\%$\n\n(d) $45.75 \\%$\n\n\nAns: (c)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Calculate the contribution margin per unit.\n\n(a) $₹ 550$\n\n(b) ₹ 600\n\n(c) ₹ 650\n\n(d) ₹ 700",
+          "options": {
+            "a": "₹ 550",
+            "b": "₹ 600",
+            "c": "₹ 650",
+            "d": "₹ 700"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null,
+          "_serial": 1
+        },
+        {
+          "q_num": 2,
+          "question": "Determine the break-even point in sales revenue.\n\n(a) ₹ $31,28,593$\n\n(b) ₹ $25,85,153$\n\n(c) ₹ $27,27,025$\n\n(d) ₹ $27,05,983$",
+          "options": {
+            "a": "₹ 31,28,593",
+            "b": "₹ 25,85,153",
+            "c": "₹ 27,27,025",
+            "d": "₹ 27,05,983"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": 2
+        },
+        {
+          "q_num": 3,
+          "question": "If the company wants to achieve a target profit of ₹ $5,00,000$, what should be the sales volume (in units)?\n\n(a) 2,000 units\n\n(b) 2,727 units\n\n(c) 2,750 units\n\n(d) 3,000 units",
+          "options": {
+            "a": "2,000 units",
+            "b": "2,727 units",
+            "c": "2,750 units",
+            "d": "3,000 units"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": 3
+        },
+        {
+          "q_num": 4,
+          "question": "What would be the impact on the break-even point if the variable cost per unit increases by $10 \\%$ ?\n\n(a) 2,178 units\n\n(b) 2,198 units\n\n(c) 2,248 units\n\n(d) 2,258 units",
+          "options": {
+            "a": "2,178 units",
+            "b": "2,198 units",
+            "c": "2,248 units",
+            "d": "2,258 units"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": 4
+        },
+        {
+          "q_num": 5,
+          "question": "Calculate the margin of safety in percentage if the company sells 4,000 units if the variable cost per unit increases by $10 \\%$\n\n(a) $44.85 \\%$\n\n(b) $42.55 \\%$\n\n(c) $45.05 \\%$\n\n(d) $45.75 \\%$",
+          "options": {
+            "a": "$44.85 \\%$",
+            "b": "$42.55 \\%$",
+            "c": "$45.05 \\%$",
+            "d": "$45.75 \\%$"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": 5
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "16-CS-11"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "16",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "## CS 19 (MTP 10 Marks Nov'24,MP[6]) (Chapter 14- Marginal Costing)\n\n\nA garment manufacturer has been producing and selling T-shirts exclusively for Indian market. His T-shirts are made of a specific material which is eco-friendly. It means that T-shirts are bio-degradable in soil after it becomes unsuitable for use.\n\nThis invention has been applauded throughout the country. Owner, Vikas, registered for the patent rights for his invention so that no one else could use it.\n\nVikas feels that this invention will also be liked in foreign markets, and thus plans to expand his business\n\noutside India. He feels that US market is the first foreign market he should tap into.\n\nCurrent cost structure (each T-shirt):\n\nDirect material 90\n\nDirect labour 60\n\nSpecial service 80\n\n(Used in T-shirt making, 50\\% fixed)\n\nFixed overhead 50\n\nAdministration overhead (fixed) 20\n\nTotal cost per T-shirt 300\n\n(+) Profit margin 200\n\nSelling price in India 500\n\nThere is no limitation of any resources in India. Vikas is able to sell 80,000 T-shirts each year. He is currently working at $80 \\%$ of his total capacity.\n\nAfter searching for potential customers in US, Vikas received an inquiry for 30,000 units from a wholesale distributor in California. As per the inquiry, order will be placed if price per T-shirt is reasonable and the order has to be satisfied in full.\n\nVikas decided to send a quote and the order was placed by the foreign client, on the same day. Vikas, without a second thought accepted the order, but did not feel the need to extend the manufacturing capacity; therefore he decided forgo a few Indian clients.\n\nThis foreign order also required special packaging. It is spent at $20 \\%$ of the total prime cost per T-shirt. The production was done quickly and foreign consignment was transported to custom port via services from a carriage agency. It charged $₹ 80,000$ for 1 truck, whose capacity was 500 kg , to transport whole of the consignment. Truck was $20 \\%$ vacant after loading the consignment.\n\nBill of lading was filed and a professional fee of ₹ $\\mathbf{2 5 , 0 0 0}$ for filing this was paid to a Chartered accountant.\n\nCustom port also charged ₹ 80 per kg per day to handle the material, storing it in warehouse, and for loading the goods on ship.\n\nThe shipping company, which was booked by Vikas for taking the consignment to US, got delayed due to bad weather. Stock was held at port for 5 days and on 6th day it was loaded on ship. Shipping company charged ₹ $2,800 / 10 \\mathrm{~kg}$ of goods. Insurance was charged flat at $₹ 1,11,000$.\n\nThere is no custom duty on such exports.\n\nAnswer the following questions:\n\n\n1. Vikas had sufficient funds in his hands but he still raised a short-term working capital loan @ $6.5 \\%$ p.a. for the satisfaction of this foreign order because he found a one time investment opportunity which was giving him $9.25 \\%$ returns. Foreign order was accepted on 1st June and loan was taken on the same day. Repayment of the loan will be made on 1st September. Calculate net cash outflow due to this export order. Which of the following is correct?\n\n(a) ₹ $73,91,000$\n\n(b) $₹ 75,47,750$\n\n(c) ₹ $74,76,500$\n\n(d) ₹ $71,06,000$\n\n\nAns: (b)\n\n2. What would have been the minimum price that Vikas could have quoted per T-shirt in US dollars? (exchange rate on 1st June, $\\$ 1=$ ₹ 83.86)\n\n(a) $\\$ 4.23$\n\n(b) $\\$ 4.20$\n\n(c) $\\$ 4.17$\n\n(d) $\\$ 4.05$\n\n\nAns: (a)\n\n3. Payment from foreign client was received on 8th October when exchange rate was ₹86 for each US \\$. Calculate the profit earned from this export order if actual quoted price was $\\$ 4.90$ per T-shirt. Select the correct amongst following:\n\n(a) ₹ $40,65,500$\n\n(b) ₹ 41,51,000\n\n(c) $₹ 39,94,250$\n\n(d) ₹ $44,36,000$\n\n\nAns: (c)\n\n4. What is the net cash Inflow from this export order?\n\n(a) $₹ 55,36,000$\n\n(b) ₹ $51,65,500$\n\n(c) ₹ $52,51,000$\n\n(d) ₹ $50,94,250$\n\n\nAns: (d)\n\n5. What is the Incremental benefit from this export order?\n\n(a) ₹19,94,250\n\n(b) ₹ $21,51,000$\n\n(c) ₹ $20,65,500$\n\n(d) $₹ 24,36,000$\n\n\nAns: (a)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Vikas had sufficient funds in his hands but he still raised a short-term working capital loan @ $6.5 \\%$ p.a. for the satisfaction of this foreign order because he found a one time investment opportunity which was giving him $9.25 \\%$ returns. Foreign order was accepted on 1st June and loan was taken on the same day. Repayment of the loan will be made on 1st September. Calculate net cash outflow due to this export order. Which of the following is correct?",
+          "options": {
+            "a": "₹ $73,91,000$",
+            "b": "$₹ 75,47,750$",
+            "c": "₹ $74,76,500$",
+            "d": "₹ $71,06,000$"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": 6
+        },
+        {
+          "q_num": 2,
+          "question": "What would have been the minimum price that Vikas could have quoted per T-shirt in US dollars? (exchange rate on 1st June, $\\$ 1=$ ₹ 83.86)",
+          "options": {
+            "a": "$\\$ 4.23$",
+            "b": "$\\$ 4.20$",
+            "c": "$\\$ 4.17$",
+            "d": "$\\$ 4.05$"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "_serial": 7
+        },
+        {
+          "q_num": 3,
+          "question": "Payment from foreign client was received on 8th October when exchange rate was ₹86 for each US \\$. Calculate the profit earned from this export order if actual quoted price was $\\$ 4.90$ per T-shirt. Select the correct amongst following:",
+          "options": {
+            "a": "₹ $40,65,500$",
+            "b": "₹ 41,51,000",
+            "c": "$₹ 39,94,250$",
+            "d": "₹ $44,36,000$"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": 8
+        },
+        {
+          "q_num": 4,
+          "question": "What is the net cash Inflow from this export order?",
+          "options": {
+            "a": "$₹ 55,36,000$",
+            "b": "₹ $51,65,500$",
+            "c": "₹ $52,51,000$",
+            "d": "₹ $50,94,250$"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null,
+          "_serial": 9
+        },
+        {
+          "q_num": 5,
+          "question": "What is the Incremental benefit from this export order?",
+          "options": {
+            "a": "₹19,94,250",
+            "b": "₹ $21,51,000$",
+            "c": "₹ $20,65,500$",
+            "d": "$₹ 24,36,000$"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "_serial": 10
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "16-CS-19"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "16",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "## CS 29 (MTP 10 Marks Apr'25) (Chapter 12: Service Costing)\n\n\nABC Transport Services Pvt. Ltd. is a private bus company renowned for providing reliable and comfortable intercity passenger services. The company operates a fleet of buses that connect two major cities, Mumbai and Pune, which are $\\mathbf{1 5 0}$ kilometers apart. By ensuring timely and efficient services, ABC Transport Services has become a preferred choice for travelers commuting between these two bustling cities.\n\nFleet and Operations\n\nThe company operates a total of 10 buses, each designed for optimal comfort and safety. Every bus in the fleet has a seating capacity of 50 passengers, equipped with modern amenities to enhance the travel experience. The buses adhere to strict maintenance schedules to ensure safety and reliability on the road. The company operates multiple trips daily to accommodate the high demand for travel between Mumbai and Pune. The buses normally operate at $80 \\%$ capacity.\n\n\nCost Data:\n\n| Cost Category | Amount (₹) |\n| :--- | :--- |\n| Fixed Costs (per month) |  |\n| Insurance | 2,00,000 |\n| License Fees | 50,000 |\n| Salaries to Driver and Conductor | 5,00,000 |\n| Garage Rent | 1,00,000 |\n| Depreciation | 3,00,000 |\n| Administration Expenses | 1,50,000 |\n| Variable Costs (per kilometer) |  |\n| Fuel | ₹ 35 per km |\n| Lubricants and Oils | ₹ 5 per km |\n| Wages per bus (additional per trip) | ₹ 10,000 per trip |\n| Operational Data |  |\n| Number of round trips per bus in this month | 20 trips |\n| Average occupancy rate | 80\\% |\n\n\n## Additional Info:\n\n\nIn the past few months, the repairs and maintenance costs for ABC Transport Services Pvt. Ltd. have shown some variability due to fluctuating operational conditions. For instance, in April, the total repairs \\& maintenance costs amounted to ₹ $1,40,000$, with the company reporting 18 trips per bus. In May, these costs increased to ₹ $1,60,000$ due to additional maintenance activities and 22 trips per bus.\n\nYou are required to answer the following requirements.\n\n\n1. Calculate the cost per trip per bus.\n\n(a) ₹ 21,750\n\n(b) $₹ 29,250$\n\n(c) $₹ 23,450$\n\n(d) ₹ 28,250\n\n\nAns: (b)\n\n2. Determine the total cost of operating one bus for a month.\n\n(a) ₹ $5,20,000$\n\n(b) ₹ $4,45,000$\n\n(c) ₹ $6,10,000$\n\n(d) $₹ 5,85,000$\n\n\nAns: (d)\n\n3. What is the monthly revenue if each ticket is priced at $₹ 1,000$ per trip?\n\n(a) ₹ $90,00,000$\n\n(b) $₹ 1,00,00,000$\n\n(c) ₹ $80,00,000$\n\n(d) ₹ $75,00,000$\n\n\nAns: (c)\n\n4. Calculate the break-even number of passengers per trip if the ticket price is ₹635.\n\n(a) 44 passengers\n\n(b) 49 passengers\n\n(c) 47 passengers\n\n(d) 50 passengers\n\n\nAns: (c)\n\n5. Calculate the cost per passenger-kilometer.\n\n(a) ₹ 2.438\n\n(b) ₹ 4.88\n\n(c) $₹ 3.75$\n\n(d) $₹ 5.25$\n\n\nAns: (a)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Calculate the cost per trip per bus.\n\n(a) ₹ 21,750\n\n(b) $₹ 29,250$\n\n(c) $₹ 23,450$\n\n(d) ₹ 28,250",
+          "options": {
+            "a": "₹ 21,750",
+            "b": "₹ 29,250",
+            "c": "₹ 23,450",
+            "d": "₹ 28,250"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": 11
+        },
+        {
+          "q_num": 2,
+          "question": "Determine the total cost of operating one bus for a month.\n\n(a) ₹ $5,20,000$\n\n(b) ₹ $4,45,000$\n\n(c) ₹ $6,10,000$\n\n(d) $₹ 5,85,000$",
+          "options": {
+            "a": "₹ 5,20,000",
+            "b": "₹ 4,45,000",
+            "c": "₹ 6,10,000",
+            "d": "₹ 5,85,000"
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null,
+          "_serial": 12
+        },
+        {
+          "q_num": 3,
+          "question": "What is the monthly revenue if each ticket is priced at $₹ 1,000$ per trip?\n\n(a) ₹ $90,00,000$\n\n(b) $₹ 1,00,00,000$\n\n(c) ₹ $80,00,000$\n\n(d) ₹ $75,00,000$",
+          "options": {
+            "a": "₹ 90,00,000",
+            "b": "₹ 1,00,00,000",
+            "c": "₹ 80,00,000",
+            "d": "₹ 75,00,000"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": 13
+        },
+        {
+          "q_num": 4,
+          "question": "Calculate the break-even number of passengers per trip if the ticket price is ₹635.\n\n(a) 44 passengers\n\n(b) 49 passengers\n\n(c) 47 passengers\n\n(d) 50 passengers",
+          "options": {
+            "a": "44 passengers",
+            "b": "49 passengers",
+            "c": "47 passengers",
+            "d": "50 passengers"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": 14
+        },
+        {
+          "q_num": 5,
+          "question": "Calculate the cost per passenger-kilometer.\n\n(a) ₹ 2.438\n\n(b) ₹ 4.88\n\n(c) $₹ 3.75$\n\n(d) $₹ 5.25$",
+          "options": {
+            "a": "₹ 2.438",
+            "b": "₹ 4.88",
+            "c": "₹ 3.75",
+            "d": "₹ 5.25"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null,
+          "_serial": 15
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "16-CS-29"
+    }
+  ],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": true,
+      "total_marks": 14,
+      "chapter_number": "9",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "The Budget manager of Jaypee Electricals Ltd. is preparing a flexible budget for the accounting year commencing from 1st April. Normal capacity of production of the company is 1,25,000 units.\n\nThe company produces one product, a component 'P'. Direct material costs ₹7 per unit. Direct labour averages ₹2.50 per hour and requires 1.60 hours to produce one unit of 'P'. Salesmen are paid a commission of ₹1 per unit sold.\n\nFixed selling and administration expenses amount to ₹85,000 per year. Manufacturing overhead has been estimated in the following amounts under specified conditions of volume:\n\n| Particulars                       | 1,20,000 units | 1,50,000 units |\n|-----------------------------------|----------------|----------------|\n| Indirect materials                 | 2,64,000       | 3,30,000       |\n| Indirect Labour                    | 1,50,000       | 1,87,500       |\n| Inspection                         | 90,000         | 1,12,500       |\n| Maintenance                        | 84,000         | 1,02,000       |\n| Supervision                        | 1,98,000       | 2,34,000       |\n| Engineering services               | 90,000         | 90,000         |\n| Total Manufacturing Overhead       | 9,70,000       | 11,50,000      |\n\nPrepare a budget of total cost at 1,40,000 units of output.",
+          "answer": "Flexible Budget  \n\n| Particulars                       | Amount (₹)     |\n|-----------------------------------|----------------|\n| (A) Variable Cost:                |                |\n| Direct materials                   | (1,40,000 × ₹7) | 9,80,000       |\n| Direct labour                      | (1,40,000 × 1.6 hours × ₹2.5) | 5,60,000       |\n| Salesmen commission                | (1,40,000 × ₹1) | 1,40,000       |\n| Indirect materials                 | {(₹2,64,000 + 1,20,000) × 1,40,000} | 3,08,000       |\n| Indirect Labour                    | {(₹1,50,000 + 1,20,000) × 1,40,000} | 1,75,000       |\n| Inspection                         | {(₹90,000 + 1,20,000) × 1,40,000} | 1,05,000       |\n| Total (A)                         | 22,68,000      |\n\n| (B) Fixed Cost:                   |                |\n| Selling and administration         | 85,000         |\n| Depreciation                       | 90,000         |\n| Engineering services               | 94,000         |\n| Total (B)                         | 2,69,000       |\n\n| (C) Semi Variable Cost:           |                |\n| Maintenance:                       |                |\n| Variable                           | (1,40,000 × ₹0.60) | 84,000         |\n| Fixed                              | 12,000         |\n| Supervision:                      |                |\n| Variable                           | (1,40,000 × ₹1.20) | 1,68,000       |\n| Fixed                              | 54,000         |\n| Total (C)                         | 3,18,000       |\n\n| Total Cost (A + B + C)           | 28,55,000      |\n\nWorking Note:  \nCalculation of variable cost per unit and fixed cost portion of semi variable items:  \nVariable cost per unit = Difference in Total Cost  \nDifference in Units  \n\n131  \n\nCOST BOOSTER BATCH BY CA NAMIT ARORA SIR  \nNAC  \n\nVariable Maintenance cost per unit = 1,02,000 - 84,000 = ₹0.60 per unit  \n\nVariable Supervision cost per unit = 2,34,000 - 1,98,000 = ₹1.20 per unit  \n\nFixed cost = Total cost - Variable Cost  \nFixed Maintenance cost = 84,000 - 1,20,000 × 0.60 = ₹12,000  \nFixed Supervision cost = 1,98,000 - 1,20,000 × 1.20 = ₹54,000",
+          "chapter_number": "15",
+          "chapter_name": "BUDGETARY CONTROL",
+          "unique_id": "BQ-88"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "## Question 17 (PYP 4 Marks Sep'25)\n\nMD Limited has furnished following information for the month of August, 20X1:\n\n| Standard Variable Overhead rate | Rs. 3 per hour |\n| :--- | :--- |\n| Standard Hours for per unit of production | 5 hours |\n| Actual Output | 15,560 units |\n| Variable Overhead Efficiency Variance | Rs. 11,400 (F) |\n| Variable Overhead Expenditure Variance | Rs. 37,000 (A) |\n| Standard Fixed Overhead rate | Rs. 2 per hour |\n| Actual Fixed Overheads | Rs. 1,85,000 |\n\nYou are required to calculate:\n\n(i) Actual Hours\n\n(ii) Actual Variable Overhead rate per hour\n\n(iii) Variable Overhead Cost Variance\n\n(iv) Fixed Overhead Cost Variance",
+          "answer": "(i) Actual Hours\n\nVariable overhead efficiency variance:\n\n(Standard hours for Actual Production - Actual Hours) × Standard Rate\n\n$\\{(15,560 \\times 5)$ - Actual Hours $\\} \\times 3=Rs. 11,400 \\mathrm{~F}$\n\nActual Hours $=74,000$\n\n(ii) Actual Variable Overhead rate per hour\n\nVariable overhead expenditure Variance:\n\nStd. overhead for Actual hours - Actual Variable Overhead\n\n$(74,000 \\times 3)$ - Actual Variable overheads $=Rs. 37,000(\\mathrm{~A})$\n\nActual Variable overhead $=$ Rs. $2,59,000$\n\nActual Variable Rate per hour $=\\frac{2,59,000}{74,000}=Rs. 3.5$ per hour\n\n(iii) Variable overhead Cost Variance\n\nVariable overhead Efficiency Variance + Variable overhead Expenditure Variance $11,400(F)+37,000(A)=Rs. 25,600(A)$\n\n(iv) Fixed Overhead cost Variance\n\nFixed overhead Cost Variance:\n\n(Absorbed Fixed Overheads) - (Actual Fixed Overheads)\n\n$(S H \\times S R)-(A H \\times A R)$\n\n$(77,800 \\times 2)-1,85,000=Rs. 29,400(\\mathrm{~A})$",
+          "chapter_number": "13",
+          "chapter_name": "STANDARD COSTING",
+          "unique_id": "13-T-17"
+        },
+        {
+          "label": "c",
+          "marks": 6,
+          "internal_split": null,
+          "question": "## Question 12 (PYP 5 Marks, May'22)\n\nA manufacturing department of a company has employed 120 workers. The standard output of product \"NPX\" is 20 units per hour and the standard wage rate is Rs. 25 per labour hour.\n\nIn a 48 hours week, the department produced 1,000 units of 'NPX' despite $5 \\%$ of the time paid being lost due to an abnormal reason. The hourly wages actually paid were Rs. \\mathbf{2 5 . 7 0} per hour.\n\n## Calculate:\n\n(i) Labour Cost Variance\n\n(ii) Labour Rate Variance\n\n(iii) Labour Efficiency Variance\n\n(iv) Labour Idle time Variance",
+          "answer": "## Answer 12\n\n## Working Notes:\n\n## 1. Calculation of standard man hours\n\nWhen 120 worker works for 1 hr ., then the std. output is 20 units.\n\nStd. man hour per unit= $\\frac{120 \\text { hours }}{20 \\text { units }}=6$ hours\n\n## 2. Calculation of std. man hours for actual output\n\nTotal std. man hours $=1,000$ units $\\times 6 \\mathrm{hrs} .=6,000 \\mathrm{hrs}.$\n\n| Standard for actual |  |  | Actual |  |  |  |  |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| Hours | Rate (Rs.) | Amount(Rs.) | Actual hrs. Paid | Idle time hrs. | Productio n hrs. | Rate (Rs.) | Amount paid (Rs.) |\n| 6,000 | 25 | 1,50,000 | 5,760 <br> ( $48 \\mathrm{hrs} . \\times 120$ workers) | 288 | 5,472 | 25.70 | 1,48,032 |\n\n(i) Labour cost variance\n\n= Std. labour cost - Actual labour cost\n\n$=1,50,000-1,48,032=Rs. 1,968 \\mathrm{~F}$\n\n(ii) Labour rate variance\n\n$=($ SR - AR $) \\times$ AHPaid\n\n$=(25-25.70) \\times 5,760=Rs. 4,032 \\mathrm{~A}$\n\n(iii) Labour efficiency variance\n\n$$\n\\begin{aligned}\n& =(S H-A H) \\times S R \\\\\n& =(6,000-5,472) \\times 25=Rs. 13,200 F\n\\end{aligned}\n$$\n\n(iv) Labour Idle time variance\n\n$=$ Idle Hours × SR\n\n$=288 \\times 25=Rs. 7,200 \\mathrm{~A}$\n\nNote:Variances can also be calculated for one worker instead of 120.\n\nExam Insights: Students often miss labour efficiency and idle time variances because they only focus on rate - always compute hours worked vs hours allowed, and separately track idle hours to catch both variances.",
+          "chapter_number": "13",
+          "chapter_name": "STANDARD COSTING",
+          "unique_id": "13-T-12"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "12",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Question 8 (PYP 9 Marks Jan'25)\n\nXYZ Transport is running a bus between town A and town B which are 25 kms apart. The bus will make 4 round trips every day carrying on an average 30 passengers on each trip. The bus costs the company a sum of Rs. $5,00,000$. It has been insured at $2 \\%$ per annum and the annual tax will amount to Rs. 2,000 and the garage rent is $Rs. 500$ per month. Annual repairs will be $Rs. 8,000$ and the bus is likely to last for 5 years. The driver's salary will be Rs. 15,000 per month and the conductor's salary will be Rs. 12,000 per month in addition to $10 \\%$ of the takings as commission (to be shared by the driver and conductor equally). Cost of stationery will be Rs. 800 per month. Manager-cum-accountant's salary is Rs. 35,000 per month. Petrol and Oil will be Rs. 1,000 per 100 km . Assuming $15 \\%$ profit on takings. Depreciation will be charged at straight line method.\n\nYou are required to calculate the bus fare to be charged for per passenger kilometer. The bus will run on an average 25 days in a month.",
+          "answer": "Statement of Cost per Passenger - Km\n\n| Particulars | Cost perannum (Rs.) |  | Per month (Rs.) |\n| :--- | :--- | :--- | :--- |\n| Standing Charges (A): |  |  |  |\n| Taxes |  | 2,000 |  |\n| Insurance $(5,00,000 \\times 0.02)$ |  | 10,000 |  |\n| Garage Rent ( $500 \\times 12$ ) | 8237317945 | 6,000 |  |\n| Salary of Driver ( $15,000 \\times 12$ ) |  | 1,80,000 |  |\n| Salary of Conductor ( $12,000 \\times 12$ ) |  | 1,44,000 |  |\n| Stationery ( $800 \\times 12$ ) |  | 9,600 |  |\n| Salary of Manager cum Accountant ( $35,000 \\times 12$ ) |  | $\\underline{4,20,000}$ |  |\n| Total |  | 7,71,600 |  |\n| Monthly Standing Charges: (7,71,600/12) |  |  | 64,300.00 |\n| Running Charges (B): |  |  |  |\n| Depreciation [(5,00,000/5/12] |  |  | 8,333.33 |\n| Diesel and oil [ $(4 \\times 2 \\times 25 \\times 25) \\times 10$ ] |  |  | 50,000.00 |\n| Monthly Running Charges |  |  | 58,333.33 |\n| Maintenance Charges (C): |  |  |  |\n| Repairs |  | 8,000 | 666.67 |\n| Total cost before commission |  |  | 1,23,300.00 |\n| Commission: (D) |  |  | 16,440.00 |\n| Total cost (A+B+C+D) |  |  | 1,39,740.00 |\n| Profit |  |  | 24,660.00 |\n| Total takings (Total Cost + Profit) |  |  | 1,64,400.00 |\n\n\nTotal passenger-km $=4 \\times 2 \\times 25 \\times 25 \\times 30=1,50,000$ passenger km\n\nHence, Fare per passenger-km $\\quad=1,64,400.00 / 1,50,000=Rs. 1.09$",
+          "chapter_number": "12",
+          "chapter_name": "SERVICE COSTING",
+          "unique_id": "12-T-8"
+        },
+        {
+          "label": "b",
+          "marks": 8,
+          "internal_split": null,
+          "question": "(RTP May'23) (Same concepts different figures MTP 7 Marks Oct'18, Jul'24, SM) (MP [3] 7 Marks)\n\nOutlook Ltd. produces and sells a single product. Sales budget for calendar year 20X1 by quarters is as under:\n\n| Quarter | I | II | III | IV |\n| :---: | :---: | :---: | :---: | :---: |\n| No of units to be sold | 12,000 | 15,000 | 16,500 | 18,000 |\n\nThe year is expected to open with an inventory of 4,000 units of finished products and close with an inventory of $\\mathbf{6 , 5 0 0}$ units.\n\nProduction is customarily scheduled to provide for two-thirds of the current quarter's sales demand plus one-third of the following quarter's demand. Thus production anticipates sales volume by about one month.\n\nThe standard cost details for one unit of the product is as follows:\n\nDirect materials 10 kgs @ 50 paise per kg.\n\nDirect labour 1 hour 30 minutes @ Rs. 4 per hour\n\nVariable overhead 1 hour 30 minutes @ Rs. 1 per hour\n\nFixed overheads 1 hour 30 minutes @Rs. 2 per hour based on budgeted production volume of 90,000 direct labour hours for the year.\n\n(i) PREPARE a Production budget for 20X1, by quarters, showing the number of units to be produced and the total costs of direct material, direct labour, variable overhead and fixed overheads.\n\n(ii) If the budgeted selling price per unit is Rs. 17 , WHAT would be the budgeted profit for the year as a whole?",
+          "answer": "## Production budget (For the year 20X1 by quarters)\n\n## (a) Units to be produced in each quarters\n\n| Quarter | 1 | II | III | IV | Total |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| 2/3 of current quarter's sales demand | 8,000 | 10,000 | 11,000 | 12,000 | 41,000 |\n| 1/3 of the following quarter demand* | 5,000 | 5,500 | 6,000 | 6,500 | 23,000 |\n|  | $\\underline{13,000}$ | 15,500 | 17,000 | 18,500 | 64,000 |\n\n\n(b) Statement showing direct material, variable overhead and fixed overhead\n\n| Quarter | I | II | III | IV | Total |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| Units to be produced | 13,000 | 15,500 | 17,000 | 18,500 | 64,000 |\n| Direct Material @ Rs.5Per unit | Rs.65,000 | Rs.77,500 | Rs.85,000 | Rs. 92,500 | Rs. 3,20,000 |\n| (Refer to Note 1) |  |  |  |  |  |\n| Direct Labour @ Rs.6 per Unit | 78,000 | 93,000 | 1,02,000 | 1,11,000 | 3,84,000 |\n| (Refer to Note 2) |  |  |  |  |  |\n| Variable overhead Rs.1.50 per unit | 19,500 | 23,250 | 25,500 | 27,750 | 96,000 |\n| (Refer to Note 3) |  |  |  |  |  |\n| Fixed Overhead | $\\underline{45,000}$ | $\\underline{45,000}$ | $\\underline{45,000}$ | $\\underline{45,000}$ | $\\underline{1,80,000}$ |\n| (Refer to Note 4) | $\\underline{2,07,500}$ | $\\underline{2,38,750}$ | $\\underline{2,57,500}$ | $\\underline{2,76,250}$ | $\\underline{9,80,000}$ |\n\n\n| (ii) | Budgeted profit for the whole year | Rs. |\n| :--- | :--- | :--- |\n|  | Sales (61,500** units @ Rs. 17 per unit) | Rs.10,45,500 |\n|  | Less: Total variable cost per unit (61,500** unit @ Rs. 12.50 per unit) | Rs.7,68,705 |\n|  |  | 2,76,750 |\n|  | Less: Fixed cost | $\\underline{1,80,000}$ |\n|  | Profit for the whole year | $\\underline{96,750}$ |\n|  | Variable cost per unit: | Rs. |\n|  | Direct material cost (Refer to Note 1) | 5.00 |\n|  | Direct labour cost (Refer to Note 2) | 6.00 |\n|  | Variable cost (Refer to Note 3) | $\\underline{1.50}$ |\n|  |  | 12.50 |\n\n\n## Working Notes:\n\n1. Direct material cost $=10 \\mathrm{kgs} @ Rs. 0.50$ per $\\mathrm{kg}=Rs. 5.00$ per unit.\n\n2. Direct labour per unit = 1 hr. 30 minutes @ Rs. 4 per hour = Rs. 6 per unit.\n\n3. Variable overhead per unit $=1 \\mathrm{hr} .30$ minutes $@ Rs. 1$ per hour $=Rs. 1.50$ unit\n\n4. Fixed Overhead\n\nBudgeted production volume is 90,000 direct labour hours for the year @ Rs. 2 per hour i.e. Rs. 1,80,000 for the year. This fixed overhead is spread over the four quarters equally.\n\n*Inventory is given for the fourth quarter.\n\n** Sales for the year is given i.e. $12,000+15,000+16,500+18,000=61,500$ unit.",
+          "chapter_number": "15",
+          "chapter_name": "STANDARD COSTING",
+          "unique_id": "15-T-34"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "5",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Question 33 (PYP 8 Marks Sep'25)\n\nA consultancy firm provides project management service in three sectors Technology, Healthcare and Education. The Project management service covers development and implementation of software for various MIS requirements of its clients. The fees charged per project is as follows:\n\n| Technology | $:$ Rs. 90,000 |\n| :--- | :--- |\n| Healthcare | $:$ Rs. $1,20,000$ |\n| Education | $:$ Rs. $1,10,000$ |\n\nThe company uses Activity-Based Costing (ABC) to allocate its overhead costs. For the month of August 20X1, the following informations are provided:\n\n| Service Sector | Number of Projects | Software Development Hours | Consulting Hours | Number of Client Meetings |\n| :--- | :--- | :--- | :--- | :--- |\n| Technology | 20 projects | 10,000 hours | 6,400 hours | 30 |\n| Healthcare | 10 projects | 7,000 hours | 5,600 hours | 20 |\n| Education | 10 projects | 5,000 hours | 2,000 hours | 40 |\n\nOverhead Costs and Activities:\n\n| Activity | Total Cost (Rs.) | Cost Driver |\n| :--- | :--- | :--- |\n| Management of Projects | 8,10,000 | Number of projects |\n| Consulting Service Delivery | 4,20,000 | Consulting hours |\n| Client Interaction \\& Meetings | 6,30,000 | Number of client meetings |\n| Administration and Support | 15,40,000 | Software development hours |\n\nYou are required to:\n\n(i) Prepare a statement showing the total cost and per project cost of project management service for each service sector Technology, Healthcare and Education using Activity Based Costing Approach.\n\n(ii) Identify the most profitable sector based on profitability percentage on fees charged.",
+          "answer": "(i) Statement Showing \"Total cost and Cost per project - Activity Based Costing\"\n\n| Particulars | Technology | Healthcare | Education |\n| :--- | :--- | :--- | :--- |\n| Management of Project @ Rs. 20,250 per project (20,10,10) | 4,05,000 | 2,02,500 | 2,02,500 |\n| Consulting Service Delivery @ Rs.30 per hour (6,400, 5,600, 2,000) | 1,92,000 | 1,68,000 | 60,000 |\n| Client Interaction and Meeting @ Rs. 7,000 per meeting (30,20,40) | 2,10,000 | 1,40,000 | 2,80,000 |\n| Administration and Support @ Rs. 70 per hour (10,000, 7,000, 5,000) | 7,00,000 | 4,90,000 | 3,50,000 |\n| Total Cost Gauresh \\| 8237317945 | 15,07,000 | 10,00,500 | 8,92,500 |\n| Project | 20 | 10 | 10 |\n| Cost per Project | 75,350 | 1,00,050 | 89,250 |\n| Fee Charged | 90,000 | 1,20,000 | 1,10,000 |\n| \\% of fee Charged | 119.44 | 119.94 | 123.25 |\n| OR |  |  |  |\n| Profit | 14,650 | 19,950 | 20,750 |\n| Profitability \\% | 16.28\\% | 16.63\\% | 18.86\\% |\n\n(ii) Education is the most profitable sector.",
+          "chapter_number": "5",
+          "chapter_name": "ACTIVITY BASED COSTING",
+          "unique_id": "5-T-33"
+        },
+        {
+          "label": "b",
+          "marks": 8,
+          "internal_split": null,
+          "question": "Phonick Ltd. accepted an order to supply 2,000 units per month of Product ' $E$ ' for the third quarter of the year. Each monthly batch order records the actual costs of materials and labour. Overheads are charged at a rate per labour hour. The selling price is established at Rs. \\mathbf{1 5} per unit.\n\nInformation relating to Material, Labour and Overheads is provided below:\n\n| Month | Batch Output (Nos) | Material Cost (Rs.) | Labour Cost (Rs.) | Overheads (Rs.) | Total Labor Hours |\n| :--- | ---: | ---: | ---: | ---: | ---: |\n| October | 2,500 | 12,500 | 5,000 | 24,000 | 8,000 |\n| November | 3,000 | 18,000 | 6,000 | 18,000 | 9,000 |\n| December | 2,000 | 10,000 | 4,000 | 30,000 | 10,000 |\n\nLabour is paid at the rate of Rs. 2 per hour.\n\nCALCULATE the cost and profit per unit of each batch order along with the overall position of the order for 6,000 units. (RTP Jan'25)",
+          "answer": "Statement of Cost and Profit per unit of each batch order\n\n|  | October | November | December | Total |\n| :--- | :--- | :--- | :--- | :--- |\n| a) Batch Output (Nos.) | 2,500 | 3,000 | 2,000 | 7,500 |\n| b) Sales Value ( @ Rs. 15 per unit) | (Rs.) 37,500 | (Rs.) 45,000 | (Rs.) 30,000 | (Rs.) 1,12,500 |\n| Cost |  |  |  |  |\n| Material | 12,500 | 18,000 | 10,000 | 40,500 |\n| Wages | 5,000 | 6,000 | 4,000 | 15,000 |\n| Overheads (working note) | 7,500 | 6,000 | 6,000 | 19,500 |\n| c) Total | 25,000 | 30,000 | 20,000 | 75,000 |\n| d) Profit per batch (b) - (c) | 12,500 | 15,000 | 10,000 | 37,500 |\n| e) Cost per unit (c) ÷ (a) | 10 | 10 | 10 |  |\n| f) Profit per unit (d) ÷ (a) | 5 | 5 | 5 |  |\n\nOverall Position of the Order for 6,000 Units\n\n| Particulars | Amount (Rs.) |\n| :--- | ---: |\n| Sales value (6,000 units × Rs.15) | 90,000 |\n| Less: Total cost $(6,000$ units × Rs.10) | 60,000 |\n| Profit | 30,000 |\n\n## Working Note:\n\nCalculation of overhead per hour\n\n| Particulars | Gauroctober | 45 | December |\n| :--- | :--- | :--- | :--- |\n| (i) Labour hours: |  |  |  |\n| $=\\frac{\\text { Labour cost }}{\\text { Labour rates per hour }}$ | $\\frac{\\text { Rs. } 5,000}{2}=2,500 \\mathrm{hrs}$. | $\\frac{Rs. 6,000}{2}=3,000 \\mathrm{hrs}$. | $\\frac{Rs. 4,000}{2}=2,000 \\mathrm{hrs}$. |\n| (ii) Overhead per hour |  |  |  |\n| $=\\frac{\\text { Total overheads }}{\\text { Total Labour hour }}$ | $\\frac{Rs. 24,000}{8,000 \\mathrm{hrs} .}=Rs. 3$ | $\\frac{Rs. 18,000}{9,000 \\mathrm{hrs} .}=Rs. 2$ | $\\frac{Rs. 30,000}{10,000 \\mathrm{hrs} .}=Rs. 3$ |\n| (iii) Overhead for the batch (i) × (ii) | Rs. 7,500 | Rs. 6,000 | Rs. 6,000 |",
+          "chapter_number": "8",
+          "chapter_name": "UNIT \\& BATCH COSTING",
+          "unique_id": "8-T-20"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "15",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Question 25 (MTP 7 Marks Aug'24,MP[5])\n\nPPP Ltd. is currently operating at $80 \\%$ of its capacity producing 80,000 units. For the past two years, the production is increasing by $10 \\%$ of its capacity consistently. The cost details are as follows:\n\n| Particulars | Year 3 (Rs.) | Year 2 (Rs.) | Year 1 (Current year) (Rs.) |\n| :--- | :--- | :--- | :--- |\n| Direct Materials | 12,00,000 | 14,00,000 | 16,00,000 |\n| Direct Labour | 6,00,000 | 7,00,000 | 8,00,000 |\n| Factory Overheads | 3,20,000 | 3,40,000 | 3,60,000 |\n| Selling Overheads | 3,40,000 | 3,80,000 | 4,20,000 |\n| Administrative Overheads | $\\underline{1,60,000}$ | 1,60,000 | $\\underline{1,60,000}$ |\n|  | 26,20,000 | 29,80,000 | 33,40,000 |\n\nThe company is planning for $90 \\%$ capacity level for next year.\n\nAdditional information:\n\nDue to increase in demand of the raw material, the distributor is expected to increase the price by $10 \\%$ from the next year.\n\nAt the beginning of the current year, the dispute occurred between workers and employees regarding wages which lead them to go on strike. Later on, they settled for $20 \\%$ increase in wages from next year.\n\nFollowing increases in overhead cost are expected for next year:\n\n| Variable Factory Overheads |  | 5\\% |\n| :--- | :--- | :--- |\n| Fixed Factory Overheads | Gautesh | 10\\% |\n| Variable Selling Overheads |  | 10\\% |\n| Fixed Selling Overheads |  | 15\\% |\n| Administrative Overheads |  | 15\\% |\n\nProfit is estimated @ 25\\% on total cost.\n\nYou are required to PREPARE flexible budget for the next year at $90 \\%$ level of capacity.\n\nAlso ascertain profit and contribution.",
+          "answer": "PPP Ltd. Budget for 90\\% capacity level for the next year\n\n| Budgeted production (units) |  | 90,000 |\n| :--- | :--- | :--- |\n|  | Per Unit (Rs.) | Amount (Rs.) |\n| Direct Material (note 2) | 22 | 19,80,000 |\n| Direct Labour (note 3) | 12 | 10,80,000 |\n| Variable factory overhead (note 4) | 2.10 | 1,89,000 |\n| Variable selling overhead (note 5) | 4.40 | 3,96,000 |\n| Variable cost | 40.50 | 36,45,000 |\n| Fixed factory overhead (note 4) |  | 2,20,000 |\n| Fixed selling overhead (note 5) |  | 1,15,000 |\n| Administrative overhead (note 6) |  | 1,84,000 |\n| Fixed cost |  | 5,19,000 |\n| Total cost |  | 41,64,000 |\n| Add: Profit 25\\% on total cost |  | 10,41,000 |\n| Sales |  | 52,05,000 |\n| Contribution (Sales - Variable cost) |  | 15,60,000 |\n\n## Working Notes:\n\n1. At $80 \\%$ level of capacity (current year), the production is 80,000 units.\n\nThus, total level of capacity is $1,00,000$ units.\n\nTherefore, Year 2 is at $70 \\%$ capacity and Year 3 is at $60 \\%$ capacity as the production is increasing by $10 \\%$ of its capacity consistently.\n\n## 2. Direct Material\n\n|  | (Rs.) |  | (Rs.) |\n| :--- | :--- | :--- | :--- |\n| 80\\% Capacity | 16,00,000 | 70\\% Capacity | 14,00,000 |\n| 70\\% Capacity | 14,00,000 | 60\\% Capacity | 12,00,000 |\n| 10\\% change in capacity | 2,00,000 | 10\\% change in capacity | 2,00,000 |\n\nFor $10 \\%$ increase in capacity, the total direct material cost regularly changes by Rs.2,00,000\n\nThus, Direct material cost (variable) $=Rs. 2,00,000 \\div 10,000=Rs. 20$\n\nAfter $10 \\%$ increase in price, direct material cost per unit $=Rs. 20 \\times 1.10=Rs. 22$\n\nDirect material cost at 90,000 budgeted units $=90,000 \\times Rs. 22=Rs. 19,80,000$\n\n## 3. Direct labor:\n\n|  | (Rs.) |  | (Rs.) |\n| :--- | ---: | :--- | :--- |\n| $80 \\%$ Capacity | $8,00,000$ | $70 \\%$ Capacity | $7,00,000$ |\n| $70 \\%$ Capacity | $7,00,000$ | $60 \\%$ Capacity | $6,00,000$ |\n| $10 \\%$ change in capacity | $\\mathbf{1 , 0 0 , 0 0 0}$ | $10 \\%$ change in capacity | $\\mathbf{1 , 0 0 , 0 0 0}$ |\n\nFor $10 \\%$ increase in capacity, direct labour cost regularly changes by Rs.1,00,000.\n\nDirect labour cost per unit $=Rs. 1,00,000 \\div 10,000=Rs. 10$\n\nAfter $20 \\%$ increase in price, direct labour cost per unit $=Rs. 10 \\times 1.20=Rs. 12$\n\nDirect labour for 90,000 units $=90,000$ units $\\times Rs. 12=Rs. 10,80,000$.\n\n## 4. Factory overheads are semi-variable overheads:\n\n|  | (Rs.) |  | (Rs.) |\n| :--- | ---: | :--- | ---: |\n| $80 \\%$ Capacity | $3,60,000$ | $70 \\%$ Capacity | $3,40,000$ |\n| $70 \\%$ Capacity | $3,40,000$ | $60 \\%$ Capacity | $3,20,000$ |\n| $10 \\%$ change in capacity | $\\mathbf{2 0 , 0 0 0}$ | $10 \\%$ change in capacity | $\\mathbf{2 0 , 0 0 0}$ |\n\nVariable factory overhead $=Rs. 20,000 \\div 10,000$ units $=Rs. 2$\n\nVariable factory overhead for 80,000 units $=80,000 \\times Rs. 2=Rs. 1,60,000$.\n\nFixed factory overhead $=Rs. 3,60,000-Rs. 1,60,000=Rs. 2,00,000$.\n\nVariable factory overhead after $5 \\%$ increase $=Rs. 2 \\times 1.05=Rs. 2.10$\n\nFixed factory overhead after $10 \\%$ increase $=Rs. 2,00,000 \\times 1.10=Rs. 2,20,000$.\n\n## 5. Selling overhead is semi-variable overhead:\n\n|  | (Rs.) |  | (Rs.) |\n| :--- | ---: | :--- | ---: |\n| $80 \\%$ Capacity | $4,20,000$ | $70 \\%$ Capacity | $3,80,000$ |\n| $70 \\%$ Capacity | $3,80,000$ | $60 \\%$ Capacity | $3,40,000$ |\n| $10 \\%$ change in capacity | 40,000 | $10 \\%$ change in capacity | 40,000 |\n\nVariable selling overhead $=Rs. 40,000 \\div 10,000$ units $=Rs. 4$\n\nVariable selling overhead for 80,000 units $=80,000 \\times Rs. 4=Rs. 3,20,000$.\n\nFixed selling overhead $=Rs. 4,20,000-Rs. 3,20,000=Rs. 1,00,000$\n\nVariable selling overhead after $10 \\%$ increase $=Rs. 4 \\times 1.10=Rs. 4.40$\n\nFixed selling overhead after $15 \\%$ increase $=Rs. 1,00,000 \\times 1.15=Rs. 1,15,000$\n\n## 6. Administrative overhead is fixed:\n\nAfter $15 \\%$ increase $=Rs. 1,60,000 \\times 1.15=Rs. 1,84,000$",
+          "chapter_number": "15",
+          "chapter_name": "STANDARD COSTING",
+          "unique_id": "15-T-25"
+        },
+        {
+          "label": "b",
+          "marks": 8,
+          "internal_split": null,
+          "question": "Management of Tillu manufacturing co. is thinking of installing a costing system its company. What practical DIFFICULTIES management will expect and how management will OVERCOME the same? (MTP 5 Marks Aug'24,MP[5])",
+          "answer": "The Practical difficulties with which a Cost Accountant is usually confronted with while installing a costing system in a manufacturing company are as follows:\n\n(i) Lack of top management support: Installation of a costing system does not receive the support of top management. They consider it as interference in their work. They believe that such, a system will involve additional paperwork. They also have a misconception in their minds that the system is meant for keeping a check on their activities.\n\n(ii) Resistance from cost accounting departmental staff: The staff resist because of fear of losing their jobs and importance after the implementation of the new system.\n\n(iii) Non co-operation from user departments: The foremen, supervisor and other staff members may not cooperate in providing requisite data, as this would not only add to their responsibilities but will also increase paperwork of the entire team as well.\n\n(iv) Shortage of trained staff: Since cost accounting system's installation involves specialised work, there may be a shortage of trained staff.\n\nTo overcome these practical difficulties, necessary steps required are:\n\n- Sell the idea to top management and convince them of the utility of the system.\n\n- Resistance and non co-operation can be overcome by behavioural approach. To deal with the staff concerned effectively.\n\n- Proper training should be given to the staff at each level\n\n- Regular meetings should be held with the cost accounting staff, user departments, staff and top management to clarify their doubts/ misgivings.",
+          "chapter_number": "7",
+          "chapter_name": "COST ACCOUNTING SYSTEMS",
+          "unique_id": "7-T-12"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "2",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Aditya Ltd. has a monthly requirement for an item of raw material is 1,000 units. The purchase price per unit of material is Rs.60. The cost of processing an order is Rs. 540 and the carrying cost is $20 \\%$. There is a single supplier for the material which offers quantity discounts as under:\n\n| Order Quantity (in units) | Price per unit (Rs.) |\n| :--- | :--- |\n| Less than 2,000 units | 60.00 |\n| 2,000 units and less than 4,000 units | 59.80 |\n| 4,000 units and less than 6,000 units | 59.50 |\n| 6,000 units and less than 8,000 units | 58.90 |\n| 8,000 units and above | 58.40 |\n\nThe company uses the cash credit facility provided by the company's banker to finance its raw material purchase. The bank due to its own infrastructural constraint, can accommodate a maximum of five fund transfer (NEFT/ RTGS) requests for any single beneficiary per annum. The company in short term is unable to arrange any other source of finance.\n\nRequired:\n\n(i) CALCULATE the optimum purchase order size for the company;\n\n(ii) CALCULATE the order level where the company could have minimised its total cost;\n\n(iii) The amount of loss that the company has to bear due to bank's inability to process fund transfer requests.",
+          "answer": "(i) Calculation of optimum purchase order size or Economic Order Quantity (EOQ):\n\n$$\n\\mathrm{EOQ}=\\sqrt{\\frac{2 \\times \\mathrm{A} \\times 0}{\\mathrm{c} \\times \\mathrm{i}}}\n$$\n\nWhere,\n\n$\\mathrm{A}=$ Annual requirement for inventory $=1,000$ units $\\times 12$ months $=12,000$ units\n\n$\\mathrm{O}=$ Ordering cost $=Rs. 540 \\mathrm{C}=$ Cost per unit $=Rs. 60$\n\n$\\mathrm{C} \\times \\mathrm{i}=$ Carrying cost per unit per annum $=20 \\% \\times Rs. 60=Rs. 12$\n\n$$\n\\mathrm{EOQ}=\\sqrt{\\frac{2 \\times 12,000 \\text { Units } \\times Rs. 540}{Rs. 12}}=\\sqrt{\\frac{1,29,60,000}{Rs. 12}}=1,039.23 \\text { or } 1,039 \\text { units }\n$$\n\n(ii)\n\n| Order Size (in units) | 1,500 | 2,000 | 4,000 | 6,000 | 8,000 |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| No. of order | 8 | 6 | 3 | 2 | 1.5* |\n| Cost per order (Rs.) | 540 | 540 | 540 | 540 | 540 |\n| Average inventory | 750 | 1,000 | 2,000 | 3,000 | 4,000 |\n| Cost per unit (Rs.) | 60.00 | 59.80 | 59.50 | 58.90 | 58.40 |\n| Carrying cost per unit @ 20\\% (Rs.) | 12.00 | 11.96 | 11.90 | 11.78 | 11.68 |\n| (a) Ordering Cost (Rs.) | 4,320 | 3,240 | 1,620 | 1,080 | 810 |\n| (b) Carrying cost (Rs.) | 9,000 | 11,960 | 23,800 | 35,340 | 46,720 |\n| (c) Material cost (Rs.) | 7,20,000 | 7,17,600 | 7,14,000 | 7,06,800 | 7,00,800 |\n| Total Cost \\{(a) + (b) + (c)\\} (Rs.) | 7,33,320 | 7,32,800 | 7,39,420 | 7,43,220 | 7,48,330 |\n\n*(This may also be taken as 2 orders)\n\nAt order level of 2,000 units, the total cost to the company is least.\n\n(iii) Calculation of amount of loss due to bank's inability to process more than five fund transfer requests:\n\n| No. of orders | 5 |\n| :--- | :--- |\n| Purchase quantity per order (12,000 units $\\div 5$ ) | 2,400 units |\n| Cost per unit | Rs. 59.80 |\n| (a) Ordering Cost (Rs. $540 \\times 5$ orders) | Rs. 2,700 |\n| (b) Carrying Cost ( $20 \\%$ of Rs. $59.80 \\times 1,200$ units) | Rs. 14,352 |\n| (c) Material Cost (Rs. $59.80 \\times 12,000$ units) | Rs. 7,17,600 |\n| Total Cost \\{(\\mathrm{a})+(\\mathrm{b})+(\\mathrm{c})\\} | Rs. 7,34,652 |\n| Minimum cost at 2,000 units order level | Rs. 7,32,800 |\n| Loss | Rs. 1,852 |",
+          "chapter_number": "2",
+          "chapter_name": "Material Cost",
+          "unique_id": "2-T-31",
+          "or_question": {
+            "question": "A company manufactures $\textbf{10,000}$ units of a product per month. The cost of placing an order is Rs.200. The purchase price of the raw material is Rs.20 per kg. The re-order period is 4 to 8 weeks. The consumption of raw materials varies from 200 kg to 900 kg per week, the average consumption being 550 kg. The carrying cost of inventory is $\textbf{20}oldsymbol{\text{\textperthousand}}$ per annum. You are required to CALCULATE: (i) Re-order quantity (ii) Re-order level (iii) Maximum level (iv) Minimum level (v) Average stock level (MTP 5 Marks Apr'23 & Mar'21) (Same concept different figures PYP 5 Marks Nov'18)",
+            "answer": "(i) Reorder Quantity $(\\textbf{ROQ})=1,691 \\mathrm{~kg}$. (Refer to working note) (ii) Reorder level (ROL) $=$ Maximum usage × Maximum re-order period $$ =900 \\mathrm{~kg} . \\times 8 \\text { weeks }=7,200 \\mathrm{~kg} . $$ (iii) Maximum level $=\\mathrm{ROL}+\\mathrm{ROQ}-(\\text{Min. usage} \\times \\text{Min. re-order period})$ $=7,200 \\mathrm{~kg} .+1,691 \\mathrm{~kg} .-(200 \\mathrm{~kg} . \\times 4$ weeks $)$ $$ =8,091 \\mathrm{~kg} . $$ (iv) Minimum level $=$ ROL - (Normal usage × Normal re- $=$ Minimum Level $+\\frac{1}{2}$ ROQ $$ =3,900 \\mathrm{~kg} .+1 / 2 \\times 1,691 \\mathrm{~kg} .=4,745.5 \\mathrm{~kg} . $$ ## Working Note Annual consumption of raw material $(A)=(550 \\mathrm{~kg} . \\times 52$ weeks $)=28,600 \\mathrm{~kg}$. Cost of placing an order $(\\mathrm{O})=Rs. 200$ Carrying cost per kg. Per annum ( $\\mathrm{c} \\times \\mathrm{i}$ ) $=Rs. 20 \\times 20 \\%$ Rs. $Rs. 48237317945$ Economic order quantity $(\\mathrm{EOQ})=\\sqrt{\\frac{2 \\mathrm{AO}}{\\mathrm{CXi}}}$ $=\\sqrt{\\frac{2 \\mathrm{X} 28,600 \\mathrm{kgs} . \\mathrm{X} \\mathrm{Rs} .200}{\\mathrm{Rs} .4}}=1,691 \\mathrm{~kg}$. (Approx) Exam Insights: A common slip is using output figures instead of raw material consumed to calculate reorder quantity. Always base reorder calculations on actual consumption, not production output."
+          }
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "## Question 14 (MTP 5 Marks, Apr'23)\n\nThe following figures are related to KG Limited for the year ending 31st March, 20X1:\n\nSales - 48,000 units @ Rs. 400 per unit;\n\nP/V Ratio 25\\% and Break-even Point 50\\% of sales.\n\nYou are required to CALCULATE:\n\n(i) Fixed cost for the year\n\n(ii) Profit earned for the year\n\n(iii) Units to be sold to earn a target net profit of Rs. $\\mathbf{2 2 , 0 0 , 0 0 0}$ for a year.\n\n(iv) Number of units to be sold to earn a net income of $25 \\%$ on cost.",
+          "answer": "## Answer 14\n\nBreak- even point (in units) is $50 \\%$ of sales i.e. 24,000 units.\n\nHence, Break- even point (in sales value) is 24,000 units $\\times Rs. 400=Rs. 96,00,000$\n\n\n| (i) | Break even Sales | $=\\frac{\\text { Fixed Cost }}{\\frac{\\mathrm{p}}{\\mathrm{V}} \\text { ratio }}$ |\n| :--- | :--- | :--- |\n|  | Or, Rs. 96,00,000 | $=\\frac{\\text { Fixed Cost }}{2.5 \\% \\quad 828217915}$ |\n|  | Or, Fixed Cost | $=Rs. 96,00,000 \\times 25 \\%$ |\n|  |  | = Rs. 24,00,000 |\n|  | So Fixed Cost for the year is Rs. $24,00,000$ |  |\n| (ii) | Contribution for the year | $=(48,000$ units × Rs. 400$) \\times 25 \\%$ |\n|  |  | = Rs. 48,00,000 |\n|  | Profit for the year | = Contribution - Fixed Cost |\n|  |  | = Rs.48,00,000 - Rs.24,00,000 |\n|  |  | = Rs. 24,00,000 |\n| (iii) | Target net profit is Rs.22,00,000 |  |\n|  | Hence, Target contribution | = Target Profit + Fixed Cost |\n|  |  | = Rs. 22,00,000 + Rs. 24,00,000 |\n|  |  | = Rs. 46,00,000 |\n|  | Contribution per unit | $=25 \\%$ of Rs. $400=$ Rs. 100 per unit |\n|  | No. of units | $=\\frac{Rs. 46,00,000}{Rs. 100 \\text { per unit }}=46,000$ units |\n|  | So, 46,000 units to be sold to earn a target net profit of Rs. $22,00,000$ for a year. |  |\n| (iv) |  | Let desired total Sales (Number of units × Selling price) be x then desired profit is 25\\% on Cost or 20\\% on Sales i.e. $0.2 \\times$ |\n|  | Desired Sales | $=\\frac{\\text { Fixed Cost }+ \\text { Desired Profit }}{\\frac{\\mathrm{p}}{\\mathrm{v}} \\text { Ratio }}$ |\n|  | x | $=\\frac{Rs. 24,00,000+0.2 \\mathrm{x}}{25 \\%}$ |\n|  | or, 0.25 × | $=Rs. 24,00,000+0.2 \\times$ |\n|  | or, 0.05 x | = Rs. 24,00,000 |\n|  | or, X | = Rs. 4,80,00,000 |\n|  | No. of units to be sold | $=\\frac{Rs. 4,80,00,000}{Rs. 400}=1,20,000$ units |",
+          "chapter_number": "14",
+          "chapter_name": "STANDARD COSTING",
+          "unique_id": "14-T-14"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "A Limited has furnished the following information for the months from 1st January to 30th April, 2023:\n\nNumber of Working days  \n25  24  26  25  \n\nProduction (in units) per Working day  \n50  55  60  52  \n\nRaw Material Purchases (% by weight to total of 4 months)  \n21%  26%  30%  23%  \n\nPurchase price of raw material (per kg)  \n₹10  ₹12  ₹13  ₹11  \n\nQuantity of raw material per unit of product  :  4 kg.  \nOpening stock of raw material on 1st January  :  6,020 kg. (Cost ₹63, 210)  \nClosing stock of raw material on 30th April  :  5,100 kg.  \n\nAll the purchases of material are made at the start of each month.\n\nRequired:  \n(a) Calculate the consumption of raw materials (in kgs) month-by-month and in total.  \n(b) Calculate the month-wise quantity and value of raw materials purchased.  \n(c) Prepare the priced stores ledger for each month using the FIFO method.",
+          "answer": "(a) Raw Material Consumption Budget in Kgs  \n\n| Particulars                       | January | February | March | April | Total  |\n|-----------------------------------|---------|----------|-------|-------|--------|\n| No. of working days               | 25      | 24       | 26    | 25    | -      |\n| Production in units per day       | 50      | 55       | 60    | 52    | -      |\n| Monthly production in units        | 1,250   | 1,320    | 1,560 | 1,300 | 5,430  |\n| Raw Material Consumption @ 4 kg p.u| 5,000   | 5,280    | 6,240 | 5,200 | 21,720 |\n\n(b) Raw Material Purchase Budget in Quantity and Value  \n\n| Particulars                       | January | February | March | April |\n|-----------------------------------|---------|----------|-------|-------|\n| Raw Material Purchases (%)        | 21%     | 26%      | 30%   | 23%   |\n| Purchase in kgs (20,800 kgs × % of purchase) | 4,368 kgs | 5,408 kgs | 6,240 kgs | 4,784 kgs |\n| Purchase price per kg             | ₹10     | ₹12      | ₹13   | ₹11   |\n| Purchase in Value                  | ₹43,680 | ₹64,896  | ₹81,120 | ₹52,624 |\n\nWorking note:  \nTotal Purchase of Raw Material (January to April) = Consumption + Closing Stock - Opening Stock  \n= 21,720 + 5,100 - 6,020  \n= 20,800 Kgs.\n\n(c) Stores Ledger (FIFO Method)  \n\n| Months   | Receipts | Kgs  | Rate | Value  | Kgs  | Rate | Value  | Balance |\n|----------|----------|------|------|--------|------|------|--------|---------|\n| Opening  |          |      |      |        |      |      |        |         |\n| January  |          | 4,368| 10   | 43,680 | 5,000| 10.5 | 52,500 | 1,020   |\n|          |          |      |      |        | 4,368| 10   | 43,680 |         |\n| February |          | 5,408| 12   | 64,896 | 1,020| 10.5 | 10,720 | 108     |\n|          |          |      |      |        | 4,260| 10   | 42,600 | 5,408   |\n| March    |          | 6,240| 13   | 81,120 | 108  | 10.5 | 1,080  | 5,516   |\n|          |          | 5,408| 12   | 64,896 | 724  | 13   | 9,412  |         |\n| April    |          | 4,784| 11   | 52,624 | 5,200| 13   | 67,600 | 316     |",
+          "chapter_number": "2",
+          "chapter_name": "MATERIAL COST",
+          "unique_id": "BQ-89"
+        }
+      ]
+    },
+    {
+      "q_main": 6,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "1",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "B Ltd manufactures two products viz., X and Y and sells them through two divisions, East and West. For the purpose of Sales Budget to the Budget Committee, following information has been made available for the year 2022-23:\n\n| Product | Budgeted Sales          | Actual Sales          |\n|---------|------------------------|-----------------------|\n|         | East Division | West Division | East Division | West Division |\n| X       | 800 units at ₹18 | 1,200 units at ₹18 | 1,000 units at ₹18 | 1,400 units at ₹18 |\n| Y       | 600 units at ₹42 | 1,000 units at ₹42 | 400 units at ₹42 | 800 units at ₹42 |\n\nAdequate market studies reveal that product X is popular but underpriced. It is expected that if the price of X is increased by ₹2, it will find a ready market. On the other hand, Y is overpriced and if the price of Y is reduced by ₹2, it will have more demand in the market. The company management has agreed for the aforesaid price changes. On the basis of these price changes and the reports of salesmen, following estimates have been prepared by the Divisional Managers:\n\nPercentage increase in sales over budgeted sales:\n\n| Product | East Division | West Division |\n|---------|---------------|---------------|\n| X       | +12.5%       | +7.5%        |\n| Y       | +22.5%       | +12.5%       |\n\nWith the help of the intensive advertisement campaign, following additional sales (over and above the above mentioned estimated sales by Divisional Managers) are possible:\n\n| Product | East Division | West Division |\n|---------|---------------|---------------|\n| X       | 120 units     | 140 units     |\n| Y       | 80 units      | 100 units     |\n\nYou are required to prepare Sales Budget 2023 - 2024 after incorporating above estimates and also show the Budgeted Sales and Actual Sales of 2022 - 2023.",
+          "answer": "1. Statement Showing Sales Budget for 2023-24  \n135  \n\n| Division | Product X         |                | Product Y         | Total          |\n|----------|-------------------|----------------|-------------------|----------------|\n|          | Qty. | Rate (₹) | Amount (₹) | Qty. | Rate (₹) | Amount (₹) | Amount (₹) |\n| East     | 1,020 | 20      | 20,400      | 815  | 40      | 32,600      | 53,000       |\n| West     | 1,430 | 20      | 28,600      | 1,225 | 40      | 49,000      | 77,600       |\n| Total    | 2,450 | -       | 49,000      | 2,040 | -       | 81,600      | 1,30,600     |\n\nWorking notes:  \nCalculation of budgeted sales of product X for 2023 - 24 in units:  \nEast division = (800 units + 12.5% + 120 units) = 1,020 units  \nWest division = (1,200 units + 7.5% + 140 units) = 1,430 units  \n\nCalculation of budgeted sales of product Y for 2022 - 23 in units:  \nEast division = (600 units + 22.5% + 80 units) = 815 units  \nWest division = (1,000 units + 12.5% + 100 units) = 1,225 units  \n\n2. Statement Showing Sales Budget for 2022 - 23  \n\n| Division | Product X         |                | Product Y         | Total          |\n|----------|-------------------|----------------|-------------------|----------------|\n|          | Qty. | Rate (₹) | Amount (₹) | Qty. | Rate (₹) | Amount (₹) | Amount (₹) |\n| East     | 800  | 18      | 14,400      | 600  | 42      | 25,200      | 39,600       |\n| West     | 1,200| 18      | 21,600      | 1,000| 42      | 42,000      | 63,600       |\n| Total    | 2,000| -       | 36,000      | 1,600| -       | 67,200      | 1,03,200     |\n\n3. Statement Showing Actual Sales for 2022 - 23  \n\n| Division | Product X         |                | Product Y         | Product Y      | Amount (₹) |\n|----------|-------------------|----------------|-------------------|----------------|-------------|\n|          | Qty. | Rate (₹) | Amount (₹) | Qty. | Rate (₹) | Amount (₹) | Amount (₹) |\n| East     | 1,300| 18      | 18,600      | 400  | 42      | 16,800      | 34,800      |\n| West     | 1,400| 18      | 25,200      | 800  | 42      | 33,600      | 58,800      |\n| Total    | 2,400| -       | 43,200      | 1,200| -       | 50,400      | 93,600      |",
+          "chapter_number": "15",
+          "chapter_name": "BUDGETARY CONTROL",
+          "unique_id": "BQ-92"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Question 44 (PYP5 Marks Sep'25)\n\nThe following information relates to two workers - Ajoy and Bijoy who are engaged in producing the same product by using the same material:\n\n| Time allowed to make the product: | 40 hours |\n| :--- | :--- |\n| Actual time taken to complete the product | 32 hours by Ajoy |\n|  | 30 hours by Bijoy |\n| Normal Wage Rate | Same for both |\n\n| Bonus payment plan | Halsey 50\\% plan for Ajoy Rowan plan for Bijoy |\n| :--- | :--- |\n| Factory overhead recovered | @ Rs. 360 per hour for actual time taken by each worker. |\n| Factory cost for the product for each worker | Rs. 1,24,800 Ajoy <br> Rs. 1,24,800 Bijoy |\n\n## Required:\n\n(i) Compute the normal hourly wage rate.\n\n(ii) Compute the cost of material used.",
+          "answer": "Step 1: Let $X$ be the cost of material and $Y$ be the normal rate of wages per hour.\n\nStep 2: Factory Cost of Worker 'Ajoy'\n\n|  | (Rs.) |\n| :--- | :--- |\n| A. Material Cost | X |\n| B. Wages (Halsey Plan) | 32 Y |\n| C. Bonus $=50 \\%$ of $(\\mathrm{SH}-\\mathrm{AH}) \\times \\mathrm{R}$ | 4 Y |\n| $=50 \\%$ of $(40-32) \\times R$ |  |\n| D. Overheads (32 hours × Rs. 360 per hour) | 11,520 |\n| E. Factory Cost | 1,24,800 |\n| Or $\\mathrm{X}+36 \\mathrm{Y}=Rs. 1,24,800$ (Given) - Rs.11,520 = Rs. 1,13,280............equation (i) |  |\n\n\n\nStep 3 : Factory Cost of Worker 'Bijoy'\n\n|  | (Rs.) |\n| :--- | :--- |\n| A. Material Cost | X |\n| B. Wages (Rowan Plan) | 30 Y |\n| C. Bonus $=\\frac{30}{40} \\times(40-30) \\times \\mathrm{Y}$ | 7.5 Y |\n| D. Overheads (30 hours × Rs. 360 per hour)) | 10,800 |\n| E. Factory Cost | 1,24,800 |\n| Or $\\mathrm{X}+37.5 \\mathrm{Y}=Rs. 1,24,800$ (Given) $-Rs. 10,800=Rs. 1,14,000$.........equation (ii) |  |\n\n\n\nStep 4: Subtracting equation (i) from equation (ii)\n\n1.5Y = Rs. 720\n\n$\\mathrm{Y}=Rs. 480$ per hour\n\n(a) The normal rate of wages: $Rs. 480$ per hour\n\n(b) The cost of material: $X+36 \\times Rs. 480=Rs. 1,13,280$\n\nOr $X=Rs. 1,13,280-Rs. 17,280=Rs. 96,000$\n\nStatement of the Factory Cost of the product made by the two workers\n\n|  | ‘Ajoy’ (Rs.) | ‘Bijoy’ (Rs.) |\n| :--- | :--- | :--- |\n| Material cost | 96,000 | 96,000 |\n| Direct Wages | 15,360 ( $32 \\times Rs. 480$ ) | 14,400 ( $30 \\times Rs. 480$ ) |\n| Bonus | 1,920 ( $4 \\times Rs. 480$ ) | 3,600 ( $7.5 \\times Rs. 480$ ) |\n| Factory Overhead | 11,520 | 10,800 |\n| Factory Cost | 1,24,800 | 1,24,800 |",
+          "chapter_number": "3",
+          "chapter_name": "EMPLOYEE COST AND DIRECT EXPENSES",
+          "unique_id": "3-T-44"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "What is meant by cost driver? Give its different categories. Suggest suitable cost drivers (at least two) in the following business functions:\n\n(i) Distribution\n\n(ii) Research and Development\n\n(iii) Customer services\n\n## Question 3 (PYP 5 Marks Nov'23)",
+          "answer": "Meaning of Cost Driver: A Cost driver is a factor or variable which effect level of cost. Generally, it is an activity which is responsible for cost incurrence. Level of activity or volume of production is the example of a cost driver. An activity may be an event, task, or unit of work etc. There are two categories of cost driver.\n\n- Resource Cost Driver - It is a measure of the quantity of resources consumed by an activity. It is used to assign the cost of a resource to an activity or cost pool.\n\n- Activity Cost Driver - It is a measure of the frequency and intensity of demand, placed on activities by cost objects. It is used to assign activity costs to cost objects.\n\n| Business Function | Cost drivers |\n| :--- | :--- |\n| Distribution | Number of units distributed, Number of customers |\n| Research and Development | Number of research projects, personnel hours on a project, technical complexities of the projects. |\n| Customer service | Number of service calls, number of products serviced, hours spent in servicing of products. |",
+          "chapter_number": "5",
+          "chapter_name": "ACTIVITY BASED COSTING",
+          "unique_id": "5-T-3"
+        }
+      ]
+    }
+  ]
+}

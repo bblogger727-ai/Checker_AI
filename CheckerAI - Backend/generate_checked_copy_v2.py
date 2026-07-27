@@ -2248,7 +2248,30 @@ def generate_checked_copy(
                 )
                 _sorted_q_names = [it['q_num'] for it in page_q_items]
                 print(f"    [multi-Q] Sorted page order: {_sorted_q_names} (by heading Y)", flush=True)
-                
+
+                # ── Heading-proximity conflict guard ──────────────────────────────
+                # If any two is_first questions have detected headings within 8%
+                # of each other, the heading detection is unreliable (e.g., the
+                # student reused the same physical page for two questions).
+                # In this case, discard all heading fracs and fall back to equal-spacing.
+                _first_items_sorted = [it for it in page_q_items if it.get("is_first") and it["q_num"] in pre_heading_fracs]
+                _has_heading_conflict = False
+                for _ci in range(len(_first_items_sorted)):
+                    for _cj in range(_ci + 1, len(_first_items_sorted)):
+                        _fy_i = pre_heading_fracs.get(_first_items_sorted[_ci]["q_num"], None)
+                        _fy_j = pre_heading_fracs.get(_first_items_sorted[_cj]["q_num"], None)
+                        if _fy_i is not None and _fy_j is not None and abs(_fy_i - _fy_j) < 0.08:
+                            _has_heading_conflict = True
+                            print(
+                                f"    [heading-conflict] Q{_first_items_sorted[_ci]['q_num']} and Q{_first_items_sorted[_cj]['q_num']} "
+                                f"headings within 8% ({_fy_i:.3f} vs {_fy_j:.3f}). Falling back to equal-spacing.",
+                                flush=True
+                            )
+                if _has_heading_conflict:
+                    # Discard conflicting heading fracs — equal spacing will apply below
+                    for _it in _first_items_sorted:
+                        pre_heading_fracs.pop(_it["q_num"], None)
+
             n_items = len(page_q_items)
             my_order = next((idx for idx, it in enumerate(page_q_items) if it["q_num"] == q_num), 0)
             multi_q_target_y_frac = None
@@ -2294,15 +2317,35 @@ def generate_checked_copy(
                     q_bot_frac = min(ink_bot, pre_heading_fracs.get(next_q, ink_bot) + 0.02)
                 q_bot_frac = max(q_bot_frac, q_top_frac + 0.1)
                 
-                # Hardcode marks placement for pages where exactly two questions start
+                # Marks stamp target: prefer placing just below the detected heading.
+                # Equal-spacing targets are a fallback when heading is unknown.
                 firsts_on_page = [it for it in page_q_items if it.get("is_first") and not it.get("_phantom")]
-                if len(firsts_on_page) == 2 and is_first:
-                    if q_num == firsts_on_page[0]["q_num"]:
-                        multi_q_target_y_frac = 0.16
-                    elif q_num == firsts_on_page[1]["q_num"]:
-                        multi_q_target_y_frac = 0.82
+                n_firsts = len(firsts_on_page)
+                if n_firsts >= 2 and is_first:
+                    if heading_y_frac is not None:
+                        # ── Heading-relative target: place stamp just below where the
+                        # student wrote the question label ─────────────────────────────
+                        _below_heading = heading_y_frac + 0.07   # 7% below heading in image space
+                        # Clamp to slice bounds, but ALWAYS stay at least 2% below
+                        # the heading — never let the clamp push the target above it.
+                        _min_target = heading_y_frac + 0.02
+                        _max_target = max(q_bot_frac - 0.05, _min_target + 0.01)
+                        multi_q_target_y_frac = max(_min_target, min(_below_heading, _max_target))
+                        print(f"    [heading-offset] Q{q_num}: heading={heading_y_frac:.3f} → stamp target={multi_q_target_y_frac:.3f}", flush=True)
                     else:
-                        multi_q_target_y_frac = q_top_frac + 0.05
+                        # ── Fallback: evenly-spaced targets when heading not detected ─
+                        if n_firsts == 2:
+                            _stamp_targets = [0.16, 0.88]
+                        elif n_firsts == 3:
+                            _stamp_targets = [0.13, 0.50, 0.87]
+                        else:
+                            _stamp_targets = [round(0.10 + i * (0.80 / (n_firsts - 1)), 2) for i in range(n_firsts)]
+                        try:
+                            _my_first_order = next(i for i, it in enumerate(firsts_on_page) if it["q_num"] == q_num)
+                            multi_q_target_y_frac = _stamp_targets[_my_first_order]
+                            print(f"    [multi-Q stamps] Q{q_num} order {_my_first_order+1}/{n_firsts} → target y_frac={multi_q_target_y_frac}", flush=True)
+                        except StopIteration:
+                            multi_q_target_y_frac = q_top_frac + 0.05
                 else:
                     multi_q_target_y_frac = q_top_frac + 0.05
             else:
@@ -2329,9 +2372,16 @@ def generate_checked_copy(
                 #   3. Last resort: _find_clear_xy near the heading.
 
 
-                # Convert to pixel rows; search the full question vertical extent
-                stamp_row_top = max(0,      int(q_top_frac * img_h))
-                stamp_row_bot = min(img_h,  int(q_bot_frac * img_h))
+                # Convert to pixel rows; search within the question vertical extent.
+                # If the heading was detected, shift the search zone to START just
+                # below it so the stamp always lands under the question label.
+                _HEADING_BELOW_OFFSET = 0.03   # 3% of page height below heading
+                if heading_y_frac is not None:
+                    _below_heading_row = int((heading_y_frac + _HEADING_BELOW_OFFSET) * img_h)
+                    stamp_row_top = max(0, min(_below_heading_row, int(q_bot_frac * img_h) - 20))
+                else:
+                    stamp_row_top = max(0, int(q_top_frac * img_h))
+                stamp_row_bot = min(img_h, int(q_bot_frac * img_h))
                 stamp_row_bot = max(stamp_row_bot, stamp_row_top + 20)
 
 
@@ -2498,7 +2548,7 @@ def generate_checked_copy(
                 # Use actual range intersection so we only move when there IS overlap.
                 # Skip nudging on multi-Q pages where we explicitly forced stamp to top/bottom.
                 if fb_y is not None and n_items == 1:
-                    FB_FONT_SIZE_PRE = int(11 * page_scale)
+                    FB_FONT_SIZE_PRE = int(14 * page_scale)
                     half_h_pre = _pending_stamp["half_h_pts"]
                     s_bot = final_stamp_y - half_h_pre
                     s_top = final_stamp_y + half_h_pre
@@ -2542,7 +2592,7 @@ def generate_checked_copy(
             # ── Draw feedback (largest white rect in question zone) ────────────
             placed = False   # ensure always defined before the if placed: check
             if fb_text:
-                FB_FONT_SIZE = int(11 * page_scale)
+                FB_FONT_SIZE = int(14 * page_scale)
                 EST_CHAR_W   = FB_FONT_SIZE * 0.60
                 
                 import textwrap
@@ -2661,7 +2711,7 @@ def generate_checked_copy(
             # First, if feedback was placed for THIS question, add it to rects
             # so we avoid it just like previous questions' rects.
             if placed and fb_y_final is not None:
-                FB_FSZ = int(11 * page_scale)
+                FB_FSZ = int(14 * page_scale)
                 page_drawn_rects_y.append((fb_y_final, fb_y_final + FB_FSZ))
 
             # Nudge stamp if it overlaps with any feedback or stamp from this or earlier questions
@@ -2721,7 +2771,7 @@ def generate_checked_copy(
                         _all_ann_rects.append((st["x"] - sw/2, st["y"] - sh/2, st["x"] + sw/2, st["y"] + sh/2))
                     fb = q_data.get("feedback")
                     if fb and fb.get("page") == page_num:
-                        fb_fsz = fb.get("font_size", 11)
+                        fb_fsz = fb.get("font_size", 14)
                         lines = len(fb.get("text", "").split("\\n"))
                         fh = lines * fb_fsz * 1.5 + 8
                         fw = 400 * fb.get("scale", 1) # generous width estimate

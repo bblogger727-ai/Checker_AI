@@ -36,7 +36,25 @@
           },
           "correct_option": "a",
           "answer": "a",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v1"
+        },
+        {
+          "q_num": "1_v2",
+          "question": "As per the requirements of AS 3, 'Cash Flow Statements', how the amount for purchase of machinery should be presented:",
+          "options": {
+            "a": "₹ 10 lakhs as 'Cash flows from Investing Activities' and ₹ 30,000 will simply be booked in profit and loss with no presentation if Cash Flow Statement.",
+            "b": "₹ 10.30 lakhs as 'Cash flows from Investing Activities' as entire amount is spend on purchase of machinery.",
+            "c": "₹ 10 lakhs as ‘Cash flows from Investing Activities’ and ₹ 30,000 as ‘Cash flows from Financing Activities'.",
+            "d": "₹ 10.30 lakhs as 'Cash flows from Financing Activities' as the machinery has been purchased on finance."
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": "1_v2",
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v2"
         },
         {
           "q_num": 2,
@@ -49,7 +67,25 @@
           },
           "correct_option": "d",
           "answer": "d",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v1"
+        },
+        {
+          "q_num": "2_v2",
+          "question": "At what amount, the machinery should be recognised in the financial statements:",
+          "options": {
+            "a": "$₹ 4,00,000$",
+            "b": "₹ $10,30,000$",
+            "c": "₹ $6,00,000$",
+            "d": "₹ $10,00,000$"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null,
+          "_serial": "2_v2",
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v2"
         },
         {
           "q_num": 3,
@@ -62,7 +98,25 @@
           },
           "correct_option": "c",
           "answer": "c",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v1"
+        },
+        {
+          "q_num": "3_v2",
+          "question": "How should the income tax paid on sale of land should be disclosed in the Cash Flows Statement",
+          "options": {
+            "a": "Cash flows from Operating Activities",
+            "b": "Cash flows from Investing Activities",
+            "c": "Cash flows from Financing Activities",
+            "d": "No disclosure in Cash Flow Statement"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": "3_v2",
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v2"
         },
         {
           "q_num": 4,
@@ -75,7 +129,25 @@
           },
           "correct_option": "c",
           "answer": "c",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_4_v1_v2",
+          "question_id": "A-MCQ-4_v1"
+        },
+        {
+          "q_num": "4_v2",
+          "question": "How should the interest on income tax refunds should be disclosed in the Cash Flows Statement:",
+          "options": {
+            "a": "Cash flows from Operating Activities",
+            "b": "Cash flows from Investing Activities",
+            "c": "Cash flows from Financing Activities",
+            "d": "No disclosure in Cash Flow Statement"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": "4_v2",
+          "or_group": "MCQ_4_v1_v2",
+          "question_id": "A-MCQ-4_v2"
         }
       ],
       "mcq_count": 4,
@@ -98,7 +170,25 @@
           },
           "correct_option": "a",
           "answer": "a",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v1"
+        },
+        {
+          "q_num": "1_v2",
+          "question": "As per the requirements of AS 3, 'Cash Flow Statements', how the amount for purchase of machinery should be presented:",
+          "options": {
+            "a": "₹ 10 lakhs as 'Cash flows from Investing Activities' and ₹ 30,000 will simply be booked in profit and loss with no presentation if Cash Flow Statement.",
+            "b": "₹ 10.30 lakhs as 'Cash flows from Investing Activities' as entire amount is spend on purchase of machinery.",
+            "c": "₹ 10 lakhs as ‘Cash flows from Investing Activities’ and ₹ 30,000 as ‘Cash flows from Financing Activities'.",
+            "d": "₹ 10.30 lakhs as 'Cash flows from Financing Activities' as the machinery has been purchased on finance."
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": "1_v2",
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v2"
         },
         {
           "q_num": 2,
@@ -111,7 +201,25 @@
           },
           "correct_option": "c",
           "answer": "c",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v1"
+        },
+        {
+          "q_num": "2_v2",
+          "question": "At what amount, the machinery should be recognised in the financial statements:",
+          "options": {
+            "a": "$₹ 4,00,000$",
+            "b": "₹ $10,30,000$",
+            "c": "₹ $6,00,000$",
+            "d": "₹ $10,00,000$"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null,
+          "_serial": "2_v2",
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v2"
         },
         {
           "q_num": 3,
@@ -124,7 +232,25 @@
           },
           "correct_option": "d",
           "answer": "d",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v1"
+        },
+        {
+          "q_num": "3_v2",
+          "question": "How should the income tax paid on sale of land should be disclosed in the Cash Flows Statement",
+          "options": {
+            "a": "Cash flows from Operating Activities",
+            "b": "Cash flows from Investing Activities",
+            "c": "Cash flows from Financing Activities",
+            "d": "No disclosure in Cash Flow Statement"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": "3_v2",
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v2"
         },
         {
           "q_num": 4,
@@ -137,7 +263,25 @@
           },
           "correct_option": "b",
           "answer": "b",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_4_v1_v2",
+          "question_id": "A-MCQ-4_v1"
+        },
+        {
+          "q_num": "4_v2",
+          "question": "How should the interest on income tax refunds should be disclosed in the Cash Flows Statement:",
+          "options": {
+            "a": "Cash flows from Operating Activities",
+            "b": "Cash flows from Investing Activities",
+            "c": "Cash flows from Financing Activities",
+            "d": "No disclosure in Cash Flow Statement"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": "4_v2",
+          "or_group": "MCQ_4_v1_v2",
+          "question_id": "A-MCQ-4_v2"
         }
       ],
       "mcq_count": 4,
@@ -160,7 +304,25 @@
           },
           "correct_option": "b",
           "answer": "(b)",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v1"
+        },
+        {
+          "q_num": "1_v2",
+          "question": "As per the requirements of AS 3, 'Cash Flow Statements', how the amount for purchase of machinery should be presented:",
+          "options": {
+            "a": "₹ 10 lakhs as 'Cash flows from Investing Activities' and ₹ 30,000 will simply be booked in profit and loss with no presentation if Cash Flow Statement.",
+            "b": "₹ 10.30 lakhs as 'Cash flows from Investing Activities' as entire amount is spend on purchase of machinery.",
+            "c": "₹ 10 lakhs as ‘Cash flows from Investing Activities’ and ₹ 30,000 as ‘Cash flows from Financing Activities'.",
+            "d": "₹ 10.30 lakhs as 'Cash flows from Financing Activities' as the machinery has been purchased on finance."
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "_serial": "1_v2",
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v2"
         },
         {
           "q_num": 2,
@@ -173,7 +335,25 @@
           },
           "correct_option": "a",
           "answer": "(a)",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v1"
+        },
+        {
+          "q_num": "2_v2",
+          "question": "At what amount, the machinery should be recognised in the financial statements:",
+          "options": {
+            "a": "$₹ 4,00,000$",
+            "b": "₹ $10,30,000$",
+            "c": "₹ $6,00,000$",
+            "d": "₹ $10,00,000$"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null,
+          "_serial": "2_v2",
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v2"
         },
         {
           "q_num": 3,
@@ -186,7 +366,25 @@
           },
           "correct_option": "b",
           "answer": "(b)",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v1"
+        },
+        {
+          "q_num": "3_v2",
+          "question": "How should the income tax paid on sale of land should be disclosed in the Cash Flows Statement",
+          "options": {
+            "a": "Cash flows from Operating Activities",
+            "b": "Cash flows from Investing Activities",
+            "c": "Cash flows from Financing Activities",
+            "d": "No disclosure in Cash Flow Statement"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": "3_v2",
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v2"
         }
       ],
       "mcq_count": 3,

@@ -35,7 +35,25 @@
           },
           "correct_option": "c",
           "answer": "(c)",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v1"
+        },
+        {
+          "q_num": "1_v2",
+          "question": "What is the minimum equity Kumar Ltd. needs to maintain after buy-back, according to the Debt Equity Ratio Test?",
+          "options": {
+            "a": "₹ $12,95,000$",
+            "b": "₹ $21,00,000$",
+            "c": "₹ $32,50,000$",
+            "d": "$₹ 6,00,000$"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": "1_v2",
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v2"
         },
         {
           "q_num": 2,
@@ -48,7 +66,25 @@
           },
           "correct_option": "b",
           "answer": "(b)",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v1"
+        },
+        {
+          "q_num": "2_v2",
+          "question": "What is the maximum permitted buy-back of equity for Kumar Ltd.?",
+          "options": {
+            "a": "₹ $38,85,000$",
+            "b": "₹ $42,00,000$",
+            "c": "₹ $12,95,000$",
+            "d": "₹ $59,85,000$"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "_serial": "2_v2",
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v2"
         },
         {
           "q_num": 3,
@@ -61,7 +97,25 @@
           },
           "correct_option": "c",
           "answer": "(c)",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v1"
+        },
+        {
+          "q_num": "3_v2",
+          "question": "How many shares of Kumar Ltd. can be bought back at ₹ 30 per share according to the Debt Equity Ratio Test?",
+          "options": {
+            "a": "43,000",
+            "b": "$1,29,500$",
+            "c": "$2,00,000$",
+            "d": "78,000"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": "3_v2",
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v2"
         },
         {
           "q_num": 4,
@@ -74,7 +128,25 @@
           },
           "correct_option": "c",
           "answer": "(c)",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_4_v1_v2",
+          "question_id": "A-MCQ-4_v1"
+        },
+        {
+          "q_num": "4_v2",
+          "question": "During the implementation period, how the expenditure incurred will be accounted for:\n\n(a) It will be expensed in profit and loss as and when incurred\n\n(b) It will be recognised as an asset 'Intangible asset under development'\n\n(c) It will only be disclosed in notes to accounts and will be recognised when complete\n\n(d) It will be recognised as an item of Property, Plant and Equipment",
+          "options": {
+            "a": "It will be expensed in profit and loss as and when incurred",
+            "b": "It will be recognised as an asset 'Intangible asset under development'",
+            "c": "It will only be disclosed in notes to accounts and will be recognised when complete",
+            "d": "It will be recognised as an item of Property, Plant and Equipment"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": "4_v2",
+          "or_group": "MCQ_4_v1_v2",
+          "question_id": "A-MCQ-4_v2"
         }
       ],
       "mcq_count": 4,
@@ -97,7 +169,25 @@
           },
           "correct_option": "c",
           "answer": "(c)",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v1"
+        },
+        {
+          "q_num": "1_v2",
+          "question": "What is the minimum equity Kumar Ltd. needs to maintain after buy-back, according to the Debt Equity Ratio Test?",
+          "options": {
+            "a": "₹ $12,95,000$",
+            "b": "₹ $21,00,000$",
+            "c": "₹ $32,50,000$",
+            "d": "$₹ 6,00,000$"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": "1_v2",
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v2"
         },
         {
           "q_num": 2,
@@ -110,7 +200,25 @@
           },
           "correct_option": "d",
           "answer": "(d)",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v1"
+        },
+        {
+          "q_num": "2_v2",
+          "question": "What is the maximum permitted buy-back of equity for Kumar Ltd.?",
+          "options": {
+            "a": "₹ $38,85,000$",
+            "b": "₹ $42,00,000$",
+            "c": "₹ $12,95,000$",
+            "d": "₹ $59,85,000$"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "_serial": "2_v2",
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v2"
         },
         {
           "q_num": 3,
@@ -123,7 +231,25 @@
           },
           "correct_option": "b",
           "answer": "(b)",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v1"
+        },
+        {
+          "q_num": "3_v2",
+          "question": "How many shares of Kumar Ltd. can be bought back at ₹ 30 per share according to the Debt Equity Ratio Test?",
+          "options": {
+            "a": "43,000",
+            "b": "$1,29,500$",
+            "c": "$2,00,000$",
+            "d": "78,000"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": "3_v2",
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v2"
         },
         {
           "q_num": 4,
@@ -136,7 +262,25 @@
           },
           "correct_option": "b",
           "answer": "(b)",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_4_v1_v2",
+          "question_id": "A-MCQ-4_v1"
+        },
+        {
+          "q_num": "4_v2",
+          "question": "During the implementation period, how the expenditure incurred will be accounted for:\n\n(a) It will be expensed in profit and loss as and when incurred\n\n(b) It will be recognised as an asset 'Intangible asset under development'\n\n(c) It will only be disclosed in notes to accounts and will be recognised when complete\n\n(d) It will be recognised as an item of Property, Plant and Equipment",
+          "options": {
+            "a": "It will be expensed in profit and loss as and when incurred",
+            "b": "It will be recognised as an asset 'Intangible asset under development'",
+            "c": "It will only be disclosed in notes to accounts and will be recognised when complete",
+            "d": "It will be recognised as an item of Property, Plant and Equipment"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": "4_v2",
+          "or_group": "MCQ_4_v1_v2",
+          "question_id": "A-MCQ-4_v2"
         }
       ],
       "mcq_count": 4,
@@ -159,7 +303,25 @@
           },
           "correct_option": "d",
           "answer": "(d)",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v1"
+        },
+        {
+          "q_num": "1_v2",
+          "question": "What is the minimum equity Kumar Ltd. needs to maintain after buy-back, according to the Debt Equity Ratio Test?",
+          "options": {
+            "a": "₹ $12,95,000$",
+            "b": "₹ $21,00,000$",
+            "c": "₹ $32,50,000$",
+            "d": "$₹ 6,00,000$"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": "1_v2",
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v2"
         },
         {
           "q_num": 2,
@@ -172,7 +334,25 @@
           },
           "correct_option": "c",
           "answer": "(c)",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v1"
+        },
+        {
+          "q_num": "2_v2",
+          "question": "What is the maximum permitted buy-back of equity for Kumar Ltd.?",
+          "options": {
+            "a": "₹ $38,85,000$",
+            "b": "₹ $42,00,000$",
+            "c": "₹ $12,95,000$",
+            "d": "₹ $59,85,000$"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "_serial": "2_v2",
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v2"
         },
         {
           "q_num": 3,
@@ -185,7 +365,25 @@
           },
           "correct_option": "c",
           "answer": "(c)",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v1"
+        },
+        {
+          "q_num": "3_v2",
+          "question": "How many shares of Kumar Ltd. can be bought back at ₹ 30 per share according to the Debt Equity Ratio Test?",
+          "options": {
+            "a": "43,000",
+            "b": "$1,29,500$",
+            "c": "$2,00,000$",
+            "d": "78,000"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": "3_v2",
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v2"
         },
         {
           "q_num": 4,

@@ -16,163 +16,30 @@
   },
   "section_a": [
     {
-      "type": "case_study",
+      "unique_id": "10-CS-28",
       "chapter_number": "10",
       "chapter_name": "CASE SCENARIOS",
-      "case_text": "## CS 1 (MTP 10 Marks Apr'21,MP[3]) (Similar concepts different figures MTP 6 Marks Jul'24)\n\nMr. Alishaan is engaged in the business of clothes trading since 2018. His minor daughter's marriage is fixed in December, 2025. He planned destination wedding in Udaipur for his minor daughter. For the wedding, he withdrew Rs. $40,00,000$ cash in the month of August, 2025 and Rs. $65,00,000$ cash in the month of September, 2025 from Aapka Paisa Bank.\n\nHe booked 30 rooms for 5 days for the accommodation of his relatives in Raho Hotel and paid Rs. 40,000 in cash as advance and balance by account payee cheque. He took the catering services of Daana Caterers, a sole proprietor, for the wedding for which he paid Rs. $10,20,000$ on 15.10 .2025 . For her wedding, he gifted his daughter a house property, purchased from RK Builders on 10.10.2025 by account payee cheque for Rs. 15,00,000. The stamp duty value of the property on 10.10.2025 is Rs. 16,00,000 and on the date of transfer to minor daughter is Rs. 20,00,000.\n\nMr. Alishaan paid Rs. 45,000 in cash and balance in cheque to travel agent for the return ticket of some of his relatives to US. He has not filed his return of income from P.Y. 2020-21. His daughter let out the house property received from him at a monthly rent of Rs. 40,000 from 01.11.2025.\n\nBased on the above information, choose the most appropriate option of the following Multiple Choice Questions (MCQs):-\n\n\n1. The amount of tax to be deducted by Aapka Paisa Bank on cash withdrawals by Mr. Alishaan is (Advance Tax, Tax Deducted at Source & Introduction to Tax Collection at Source)\n\n(a) Rs. 10,000\n\n(b) Rs. 25,000\n\n(c) Rs. $1,70,000$\n\n(d) Rs. $1,85,000$\n\n\nAns: (d)\n\nGauresh | 8237317945\n\n2. The amount of tax to be deducted by Mr. Alishaan on payment made to Daana Caterers is (Advance Tax, Tax Deducted at Source & Introduction to Tax Collection at Source)\n\n(a) Rs. 1,200\n\n(b) Rs. 900\n\n(c) Rs. 150\n\n(d) Nil\n\n\nAns: (d)\n\n3. For which of the following transactions, Mr. Alishaan is required to quote his PAN? (Advance Tax, Tax Deducted at Source & Introduction to Tax Collection at Source)\n\n(a) Purchase of immovable property from RK Builders\n\n(b) Payment to Raho Hotel\n\n(c) Payment to Travel agent\n\n(d) All of the above\n\n\nAns: (a)\n\n4. What shall be the amount taxable and in whose hands with respect to purchase of immovable property by Mr. Alishaan from RK Builders and gift of the same to his daughter? (Advance Tax, Tax Deducted at Source & Introduction to Tax Collection at Source)\n\n(a) Rs. $1,00,000$ in the hands of Mr. Alishaan, Rs. $1,00,000$ in the hands of RK builders and Rs. $20,00,000$ in the hands of minor daughter\n\n(b) Nothing is taxable in the hands of Mr. Alishaan, RK Builders and minor daughter\n\n(c) Rs. $1,00,000$ in the hands of Mr. Alishaan, Rs. $1,00,000$ in the hands of RK builders and nothing is taxable in the hands of minor daughter\n\n(d) Nothing is taxable in the hands of Mr. Alishaan and RK Builders but Rs. 20,00,000 is taxable in the hands of minor daughter\n\nAns: (b)\n\n5. What shall be the amount taxable under \"Income from House property\" with respect to let out of house property by daughter of Mr. Alishaan and in whose hands it will taxable? (Income of Other Person included in Assesse's Total Income)\n\n(a) Rs. $1,40,000$ taxable in the hands of daughter of Mr. Alishaan\n\n(b) Rs. $1,40,000$ taxable in the hands of husband of daughter of Mr. Alishaan\n\n(c) Rs. $1,38,500$ taxable in the hands of Mr. Alishaan\n\n(d) Rs. 1,40,000 taxable in the hands of Mr. Alishaan\n\n\nAns: (c)",
+      "category": "Case Study",
+      "cs_num": 28,
+      "case_text": "## CS 28 (PYP Sep'25)\n\nReenu, a resident individual aged $\\textbf{48}$ years, owns 2 flats (A and B) in Hyderabad. She lives in flat A and gave flat B to her in-laws for their residential purposes. She does not charge any rent from them. In the month of April 2025, she entered into an agreement to buy flat C from a builder in the same area as her other flats are situated. In the month of September 2025, she took possession of flat C and started spending her weekends there after paying a token amount of ₹ 11,000 to the builder. However, flat C is still not registered in her name. All the three flats are identical in size and other aspects.\n\nShe had one more flat D which was let out at a monthly rent of ₹ 45,000 to Mr. Shubh during the financial year 2022-23 (from 01.04.2022 to 31.03.2023). Mr. Shubh did not pay rent for 3 months. Reenu sold the flat on 31.03.2025.\n\nGauresh | 8237317945\n\nShe owned $\\textbf{5,000}$ shares of PQR Ltd. (listed on a recognised stock exchange in India), an Indian company which were acquired on 01.02.2023 for ₹ 180 per share. On 01.01.2026, the company bought 2,000 shares back from her and paid ₹ 420 per share to Reenu.",
       "questions": [
         {
           "q_num": 1,
-          "question": "The amount of tax to be deducted by Aapka Paisa Bank on cash withdrawals by Mr. Alishaan is (Advance Tax, Tax Deducted at Source & Introduction to Tax Collection at Source)",
+          "question": "Which of the following statements is correct as far as the taxability of income from house property is concerned? (Ch : 3.2 Unit 2: Income from House Property)",
           "options": {
-            "a": "Rs. 10,000",
-            "b": "Rs. 25,000",
-            "c": "Rs. $1,70,000$",
-            "d": "Rs. $1,85,000$"
-          },
-          "correct_option": "d",
-          "answer": "(d)",
-          "verdict": null
-        },
-        {
-          "q_num": 2,
-          "question": "The amount of tax to be deducted by Mr. Alishaan on payment made to Daana Caterers is (Advance Tax, Tax Deducted at Source & Introduction to Tax Collection at Source)",
-          "options": {
-            "a": "Rs. 1,200",
-            "b": "Rs. 900",
-            "c": "Rs. 150",
-            "d": "Nil"
-          },
-          "correct_option": "d",
-          "answer": "(d)",
-          "verdict": null
-        },
-        {
-          "q_num": 3,
-          "question": "For which of the following transactions, Mr. Alishaan is required to quote his PAN? (Advance Tax, Tax Deducted at Source & Introduction to Tax Collection at Source)",
-          "options": {
-            "a": "Purchase of immovable property from RK Builders",
-            "b": "Payment to Raho Hotel",
-            "c": "Payment to Travel agent",
-            "d": "All of the above"
+            "a": "Any two flats (of her choice) will be treated as self-occupied whereas the third flat will be treated as deemed to be let out.",
+            "b": "One flat (of her choice) will be treated as self-occupied whereas the other two flats will be treated as deemed to be let out.",
+            "c": "Flat A will be treated as self-occupied, flat B will be treated as deemed to be let out and flat C will not have any impact on her income as the flat is not yet registered in her name.",
+            "d": "All three flats will be treated as self-occupied."
           },
           "correct_option": "a",
           "answer": "(a)",
-          "verdict": null
+          "verdict": null,
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v1"
         },
         {
-          "q_num": 4,
-          "question": "What shall be the amount taxable and in whose hands with respect to purchase of immovable property by Mr. Alishaan from RK Builders and gift of the same to his daughter? (Advance Tax, Tax Deducted at Source & Introduction to Tax Collection at Source)",
-          "options": {
-            "a": "Rs. $1,00,000$ in the hands of Mr. Alishaan, Rs. $1,00,000$ in the hands of RK builders and Rs. $20,00,000$ in the hands of minor daughter",
-            "b": "Nothing is taxable in the hands of Mr. Alishaan, RK Builders and minor daughter",
-            "c": "Rs. $1,00,000$ in the hands of Mr. Alishaan, Rs. $1,00,000$ in the hands of RK builders and nothing is taxable in the hands of minor daughter",
-            "d": "Nothing is taxable in the hands of Mr. Alishaan and RK Builders but Rs. 20,00,000 is taxable in the hands of minor daughter"
-          },
-          "correct_option": "b",
-          "answer": "(b)",
-          "verdict": null
-        },
-        {
-          "q_num": 5,
-          "question": "What shall be the amount taxable under \"Income from House property\" with respect to let out of house property by daughter of Mr. Alishaan and in whose hands it will taxable? (Income of Other Person included in Assesse's Total Income)",
-          "options": {
-            "a": "Rs. $1,40,000$ taxable in the hands of daughter of Mr. Alishaan",
-            "b": "Rs. $1,40,000$ taxable in the hands of husband of daughter of Mr. Alishaan",
-            "c": "Rs. $1,38,500$ taxable in the hands of Mr. Alishaan",
-            "d": "Rs. 1,40,000 taxable in the hands of Mr. Alishaan"
-          },
-          "correct_option": "c",
-          "answer": "(c)",
-          "verdict": null
-        }
-      ],
-      "mcq_count": 5,
-      "unique_id": "10-CS-1"
-    },
-    {
-      "type": "case_study",
-      "chapter_number": "10",
-      "chapter_name": "CASE SCENARIOS",
-      "case_text": "## CS 5 <br> (MTP 10 Marks April'23)\n\n\nMr. Rajan, aged 62 years, an Indian citizen, resides in Delhi. His wife Sheetal and daughter Riya also reside with him. Riya, aged 16 years, is studying in 12th Standard in DAV school at New Delhi. Mr. Rajan left for employment to the United States of America on 15th September, 2025 but his family did not accompany him. He returned to India on 25th March 2026. Mr. Rajan had gone outside India for the first time in his life. During April, 2025 to September, 2025, he worked with a multinational company in Delhi. He earned salary of ₹ $14,00,000$ from his job in India. He paid Tuition Fee of ₹ 1,80,000 for Riya’s education in DAV school.\n\nApart from that, Mr. Rajan also earned professional income of ₹ $60,00,000$ (Gross Receipts - ₹ 90 lakhs) from India. During the year, he also earned interest from his Indian savings bank account to the tune of ₹ 12,000 and interest from fixed deposits with nationalized banks of ₹ 45,000 . Mr. Rajan also earned a salary income equivalent to ₹ $6,00,000$ from USA for his job, on which no tax is paid or payable in USA, which was deposited in his bank account in USA and later on remitted to India.\n\nMr. Rajan decides not to opt to pay tax under section 115BAC.\n\nBased on the facts of the case scenario given above, choose the most appropriate answer to the following questions: -\n\n\n1. What is the residential status of Mr. Rajan for the previous year 2025-26? (Chapter Residence \\& Scope of Total Income)\n\n(a) Resident and ordinarily in India\n\n(b) Resident but not ordinarily resident in India\n\n(c) Non-resident in India\n\n(d) Deemed resident but not ordinarily resident in India\n\n\nAns: (d)\n\n2. What would be the income chargeable to tax under the head \"Salaries\" in the hands of Mr. Rajan in India for F.Y. 2025-26? (chapter Salaries)\n\n(a) ₹ $20,00,000$\n\n(b) ₹ 19,50,000\n\n(c) ₹ $13,50,000$\n\n(d) ₹ $19,60,000$\n\n\nAns: (c)\n\n3. How much deduction is available under Chapter VI-A from the Gross Total Income of Mr. Rajan? (chapter Deductions from Gross Total Income)\n\n(a) ₹ $2,30,000$\n\n(b) ₹ $1,95,000$\n\n(c) ₹ $1,60,000$\n\n(d) ₹ $2,00,000$\n\n\nAns: (d)\n\n4. What shall be the tax liability of Mr. Rajan for the A.Y. 2026-27? (Chapter Computation of Total Income \\& Tax Payable)\n\n(a) ₹ $22,69,810$\n\n(b) ₹ $22,58,940$\n\n(c) ₹ $22,56,080$\n\n(d) ₹ $22,72,670$\n\n\nAns: (c)\n\n5. What would be the due date for filing income-tax return of Mr. Rajan for the P.Y. 2025-26?\n\n(a) 31st July, 2026\n\n(b) 31st October, 2026\n\n(c) 30th November, 2026\n\n(d) 31st March, 2027\n\n\nAns: (b)",
-      "questions": [
-        {
-          "q_num": 1,
-          "question": "What is the residential status of Mr. Rajan for the previous year 2025-26? (Chapter Residence & Scope of Total Income)",
-          "options": {
-            "a": "Resident and ordinarily in India",
-            "b": "Resident but not ordinarily resident in India",
-            "c": "Non-resident in India",
-            "d": "Deemed resident but not ordinarily resident in India"
-          },
-          "correct_option": "d",
-          "answer": "d",
-          "verdict": null
-        },
-        {
-          "q_num": 2,
-          "question": "What would be the income chargeable to tax under the head \"Salaries\" in the hands of Mr. Rajan in India for F.Y. 2025-26? (chapter Salaries)",
-          "options": {
-            "a": "₹ $20,00,000$",
-            "b": "₹ 19,50,000",
-            "c": "₹ $13,50,000$",
-            "d": "₹ $19,60,000$"
-          },
-          "correct_option": "c",
-          "answer": "c",
-          "verdict": null
-        },
-        {
-          "q_num": 3,
-          "question": "How much deduction is available under Chapter VI-A from the Gross Total Income of Mr. Rajan? (chapter Deductions from Gross Total Income)",
-          "options": {
-            "a": "₹ $2,30,000$",
-            "b": "₹ $1,95,000$",
-            "c": "₹ $1,60,000$",
-            "d": "₹ $2,00,000$"
-          },
-          "correct_option": "d",
-          "answer": "d",
-          "verdict": null
-        },
-        {
-          "q_num": 4,
-          "question": "What shall be the tax liability of Mr. Rajan for the A.Y. 2026-27? (Chapter Computation of Total Income & Tax Payable)",
-          "options": {
-            "a": "₹ $22,69,810$",
-            "b": "₹ $22,58,940$",
-            "c": "₹ $22,56,080$",
-            "d": "₹ $22,72,670$"
-          },
-          "correct_option": "c",
-          "answer": "c",
-          "verdict": null
-        },
-        {
-          "q_num": 5,
-          "question": "What would be the due date for filing income-tax return of Mr. Rajan for the P.Y. 2025-26?",
-          "options": {
-            "a": "31st July, 2026",
-            "b": "31st October, 2026",
-            "c": "30th November, 2026",
-            "d": "31st March, 2027"
-          },
-          "correct_option": "b",
-          "answer": "b",
-          "verdict": null
-        }
-      ],
-      "mcq_count": 5,
-      "unique_id": "10-CS-5"
-    },
-    {
-      "type": "case_study",
-      "chapter_number": "10",
-      "chapter_name": "CASE SCENARIOS",
-      "case_text": "## CS 6 (RTP May'23) (Ch 9 Advance Tax, TDS \\& Introduction to TCS)\n\nKishore \\& Sons is a dealer of coal. Its turnover for the F.Y. 2024-25 was ₹ 12 crores. The State Government of Hyderabad granted a lease of coal mine to Kishore \\& Sons on 1.5.2025 and charged ₹ 11 crores for the lease. Kishore \\& Sons sold coal of ₹ 95 lakhs to M/s BAC Co. during the P.Y. 2025-26. M/s XYZ Ltd. purchased coal of ₹ 55 lakhs from Kishore \\& Sons for trading purpose in July 2025. Turnover of M/s XYZ Ltd. during the\n\nP.Y. 2025-26 was ₹ 12 crores. PAN is duly furnished by the buyer and seller to each other. Details of sale to and payments from M/s BAC Co. by Kishore \\& Sons are as follows:\n\n\n| Sr. No. | Date of sale | Date of receipt/ Payment | Amount (₹) |\n| :--- | :--- | :--- | :--- |\n| 1 | 29.05.2025 | 10.05.2025 | 35,00,000 |\n| 2 | 30.06.2025 | 10.07.2025 | 25,00,000 |\n| 3 | 25.11.2025 | 25.10.2025 | 8,00,000 |\n| 4 | 20.01.2026 | 22.01.2026 | 15,00,000 |\n| 5 | 01.03.2026 | 15.02.2026 | 12,00,000 |\n\nTurnover of M/s BAC Co. during the P.Y. 2024-25 was ₹ 11 crores. The above amounts were credited to Kishore \\& Sons account in the books of M/s BAC Co. on the date of sale. M/s BAC Co. furnishes a declaration to Kishore \\& Sons that coal is to be utilized for generation of power.\n\nBased on the above facts, choose the most appropriate answer to Q. No. 1 to 5 -\n\n1. Who is required to deduct/ collect tax at source in respect of lease of coal mine by the State Government of Hyderabad to Kishore \\& Sons and at what rate?\n\n(a) State Government of Hyderabad is liable to collect tax at source @ 2\\% on ₹ 11 crores\n\n(b) State Government of Hyderabad is liable to collect tax at source @ $0.1 \\%$ on ₹ 10.50 crores, being the amount exceeding ₹ 50 lakhs\n\n(c) Kishore \\& Sons is liable to deduct tax at source @ $0.1 \\%$ on ₹ 10.50 crores, being the amount exceeding ₹ 50 lakhs\n\n(d) Neither State Government of Hyderabad is liable to collect tax at source nor Kishore \\& Sons is liable to deduct tax at source\n\n\n## Ans: (a)\n\n2. Is Kishore \\& Sons required to collect tax at source in respect of the sale transactions with M/s BAC Co. If yes, when and what is the amount of tax to be collected?\n\n(a) Yes; $₹ 1,000$ on $30.6 \\cdot 2025$, ₹ 800 on $25.10 \\cdot 2025$, ₹ 1,500 on 20.1.2026 and $₹ 1,200$ on 15.2.2026\n\n(b) Yes; ₹ 35,000 on 10.5 .2025 , ₹ 25,000 on 30.6 .2025 , ₹ 8,000 on 25.10 .2025 , ₹ 15,000 on 201.2026 and $₹ 12,000$ on 15.2.2026\n\n(c) Yes; ₹ 1,000 on 10.7.2025, ₹ 800 on 25.10.2025, ₹ 1,500 on 22.1.2026 and ₹ 1,200 on 15.2.2026\n\n(d) No, Kishore \\& Sons is not liable to collect tax at source\n\nAns: (d)\n\n3. Is Kishore \\& Sons required to collect tax at source in respect of the sale transaction with M/s XYZ Ltd. If yes, what is the amount of tax to be collected?\n\n(a) Yes; ₹ 55,000\n\n(b) Yes; ₹ 5,500\n\n(c) Yes; ₹ 500\n\n(d) No, Kishore \\& Sons is not liable to collect tax at source\n\nAns: (a)\n\n4. Is $\text{M}/\text{S}$ BAC Co. required to deduct tax at source in respect of the purchase transactions with Kishore \\& Sons. If yes, when and what is the amount of tax to be deducted?\n\n(a) Yes; ₹ 1,000 on 30.6.2025, ₹ 800 on 25.10.2025, ₹ 1,500 on 20.1.2026 and ₹ 1,200 on 15.2.2026\n\n(b) Yes; ₹ 3,500 on 10.5.2025, ₹ 2,500 on 30.6.2025, ₹ 800 on 25.10.2025, ₹ 1,500 on 201.2026 and ₹ 1,200 on 15.2.2026\n\n(c) Yes; ₹ 1,000 on 10.7.2025, ₹ 800 on 25.10.2025, ₹ 1,500 on 22.1.2026 and ₹ 1,200 on 15.2.2026\n\n(d) No, M/s BAC Co. is not liable to deduct tax at source\n\nAns: (a)\n\n5. Assume for the purpose of this MCQ, M/s BAC Co.'s turnover for the F.Y. 2025-26 was ₹ 9 crore, who will be required to deduct/ collect tax at source in respect of transactions between Kishore \\& Sons and $\text{M}/\text{S}$ BAC Co. and at what rate?\n\n(a) Kishore \\& Sons is liable to collect tax at source @1\\% of ₹ 95 lakhs\n\n(b) Kishore \\& Sons is liable to collect tax at source @ $0.1 \\%$ of ₹ 45 lakhs, being the sum exceeding ₹ 50 lakhs\n\n(c) $\text{M}/\text{S}$ BAC Co. is liable to deduct tax at source @ $0.1 \\%$ of ₹ 45 lakhs, being the sum exceeding ₹ 50 lakhs\n\n(d) Neither Kishore \\& Sons is liable to collect tax at source nor M/s BAC Co. is liable to deduct tax at\n\nsource\n\nAns: (d)",
-      "questions": [
-        {
-          "q_num": 1,
+          "q_num": "1_v2",
           "question": "Who is required to deduct/ collect tax at source in respect of lease of coal mine by the State Government of Hyderabad to Kishore \\& Sons and at what rate?",
           "options": {
             "a": "State Government of Hyderabad is liable to collect tax at source @ 2\\% on ₹ 11 crores",
@@ -182,10 +49,28 @@
           },
           "correct_option": "a",
           "answer": "(a)",
-          "verdict": null
+          "verdict": null,
+          "_serial": "1_v2",
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v2"
         },
         {
           "q_num": 2,
+          "question": "Assume Shubh pays the arrear rent to Reenu on 28th June 2025. What shall be the treatment of such rent received if she had to spend ₹ 5,000 for such collection? (Ch : 3.2 Unit 2: Income from House Property )",
+          "options": {
+            "a": "₹ $1,30,000$ shall be taxable in the hands of Reenu as income from other sources in the P.Y. 2025-26 as she is not the owner of the flat anymore.",
+            "b": "Nothing shall be taxable in the hands of Reenu as she is not the owner of the flat anymore.",
+            "c": "₹ 94,500 shall be taxable in the hands of Reenu as income from house property in the P.Y. 2025-26, even if she is not the owner of the flat anymore.",
+            "d": "₹ 89,500 shall be taxable in the hands of Reenu as income from house property in the P.Y. 2025-26, even if she is not the owner of the flat anymore."
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v1"
+        },
+        {
+          "q_num": "2_v2",
           "question": "Is Kishore \\& Sons required to collect tax at source in respect of the sale transactions with M/s BAC Co. If yes, when and what is the amount of tax to be collected?",
           "options": {
             "a": "Yes; $₹ 1,000$ on $30.6 \\cdot 2025$, ₹ 800 on $25.10 \\cdot 2025$, ₹ 1,500 on 20.1.2026 and $₹ 1,200$ on 15.2.2026",
@@ -195,10 +80,28 @@
           },
           "correct_option": "d",
           "answer": "(d)",
-          "verdict": null
+          "verdict": null,
+          "_serial": "2_v2",
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v2"
         },
         {
           "q_num": 3,
+          "question": "Which of the following statements is correct as far as the taxability of buy-back of shares by PQR Ltd. is concerned? (Cost Inflation Index: F.Y. 2021-22:317; F.Y. 2024-25:363) (Ch: 3.4 Unit 4: Capital Gains)",
+          "options": {
+            "a": "$₹ 8,40,000$ will be treated as deemed dividend in the hands of Reenu.",
+            "b": "PQR Ltd. shall be liable to pay ₹ $1,95,686$ as additional income-tax and the income arising in respect of such buy-back shall be exempt in the hands of Reenu.",
+            "c": "₹ $4,80,000$ will be treated as long-term capital gains in the hands of Reenu and it will be taxable at the rate of $12.5 \\%$ after deducting ₹ $1,25,000$ from the LTCG.",
+            "d": "₹ $4,80,000$ will be treated as deemed dividend in the hands of Reenu."
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v1"
+        },
+        {
+          "q_num": "3_v2",
           "question": "Is Kishore \\& Sons required to collect tax at source in respect of the sale transaction with M/s XYZ Ltd. If yes, what is the amount of tax to be collected?",
           "options": {
             "a": "Yes; ₹ 55,000",
@@ -208,10 +111,131 @@
           },
           "correct_option": "a",
           "answer": "(a)",
-          "verdict": null
+          "verdict": null,
+          "_serial": "3_v2",
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v2"
+        }
+      ]
+    },
+    {
+      "unique_id": "10-CS-24",
+      "chapter_number": "10",
+      "chapter_name": "CASE SCENARIOS",
+      "category": "Case Study",
+      "cs_num": 24,
+      "case_text": "## CS 24 (RTP May'25)\n\nMr. Raj, aged 38 years, an Indian citizen, is carrying on manufacturing business in Canada. He frequently visits India for business purpose on a regular basis. He was in India for the first time in the year 2022-23 for 190 days, in the year 2023-24 for 145 days and in the year 2024-25 for 155 days.\n\nAfterwards he decided to close his business in Canada and shift permanently in India. So, he came to India on 1.11.2025 and started a business in Mumbai. His profits from business in Canada till 31.10.2025 is ₹15 lakhs and from Indian business is ₹ 5 lakhs.\n\nHe does not own any house property in Mumbai and is staying in a rented accommodation from 1.11.2025 on a monthly rent of ₹20,000. He made a donation of ₹50,000 to PM Cares Fund and donation of ₹ 20,000 to Prime Minister's Drought Relief Fund by cheque during the P.Y. 2025-26.\n\nHe had purchased 10,000, 9% debentures of ABC (P) Ltd. in August 2020 @₹ 150 each. Face value of each debenture is ₹100. He sold 2,500 debentures in April, 2025 @ ₹ 175 each and remaining 7,500 debentures in August, 2025 @155 each. Interest on debenture is due on 30th June and 31st December of every year.\n\nCII - F.Y. 2020-21: 301; F.Y. 2025-26: 376\n\nMr. Raj follows cash basis of accounting, and he wants to opt out of the default tax regime under section 115BAC.\n\nBased on the facts of the case scenario given above, choose the most appropriate answer to the following questions:\n\n(Chapter 2: Residence and Scope of Total Income)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "What is the residential status of Mr. Raj for the previous year 2025-26?",
+          "options": {
+            "a": "Resident but not ordinarily resident",
+            "b": "Resident and ordinary resident",
+            "c": "Non-resident",
+            "d": "Deemed resident"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null,
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v1"
+        },
+        {
+          "q_num": "1_v2",
+          "question": "Who is required to deduct/ collect tax at source in respect of lease of coal mine by the State Government of Hyderabad to Kishore \\& Sons and at what rate?",
+          "options": {
+            "a": "State Government of Hyderabad is liable to collect tax at source @ 2\\% on ₹ 11 crores",
+            "b": "State Government of Hyderabad is liable to collect tax at source @ $0.1 \\%$ on ₹ 10.50 crores, being the amount exceeding ₹ 50 lakhs",
+            "c": "Kishore \\& Sons is liable to deduct tax at source @ $0.1 \\%$ on ₹ 10.50 crores, being the amount exceeding ₹ 50 lakhs",
+            "d": "Neither State Government of Hyderabad is liable to collect tax at source nor Kishore \\& Sons is liable to deduct tax at source"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "_serial": "1_v2",
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v2"
+        },
+        {
+          "q_num": 2,
+          "question": "What is the amount of capital gains chargeable to tax in the hands of Mr. Raj on sale of debentures for the P.Y. 2024-25?",
+          "options": {
+            "a": "LTCG of ₹ $1,00,000$",
+            "b": "LTCG of (₹ 14,750 ) and STCG of ₹37,500",
+            "c": "LTCG of (₹ $2,09,000$ )",
+            "d": "STCG of ₹1,00,000"
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null,
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v1"
+        },
+        {
+          "q_num": "2_v2",
+          "question": "Is Kishore \\& Sons required to collect tax at source in respect of the sale transactions with M/s BAC Co. If yes, when and what is the amount of tax to be collected?",
+          "options": {
+            "a": "Yes; $₹ 1,000$ on $30.6 \\cdot 2025$, ₹ 800 on $25.10 \\cdot 2025$, ₹ 1,500 on 20.1.2026 and $₹ 1,200$ on 15.2.2026",
+            "b": "Yes; ₹ 35,000 on 10.5 .2025 , ₹ 25,000 on 30.6 .2025 , ₹ 8,000 on 25.10 .2025 , ₹ 15,000 on 201.2026 and $₹ 12,000$ on 15.2.2026",
+            "c": "Yes; ₹ 1,000 on 10.7.2025, ₹ 800 on 25.10.2025, ₹ 1,500 on 22.1.2026 and ₹ 1,200 on 15.2.2026",
+            "d": "No, Kishore \\& Sons is not liable to collect tax at source"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null,
+          "_serial": "2_v2",
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v2"
+        },
+        {
+          "q_num": 3,
+          "question": "What will be the gross total income of Mr. Raj for the A.Y. 2026-27?",
+          "options": {
+            "a": "₹21,00,000",
+            "b": "₹ $6,33,750$",
+            "c": "₹ $5,37,500$",
+            "d": "$₹ 5,71,500$"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v1"
+        },
+        {
+          "q_num": "3_v2",
+          "question": "Is Kishore \\& Sons required to collect tax at source in respect of the sale transaction with M/s XYZ Ltd. If yes, what is the amount of tax to be collected?",
+          "options": {
+            "a": "Yes; ₹ 55,000",
+            "b": "Yes; ₹ 5,500",
+            "c": "Yes; ₹ 500",
+            "d": "No, Kishore \\& Sons is not liable to collect tax at source"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "_serial": "3_v2",
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v2"
         },
         {
           "q_num": 4,
+          "question": "What is the amount of deduction available under Chapter VI-A to Mr. Raj for A.Y. 2026-27?",
+          "options": {
+            "a": "₹ 60,000",
+            "b": "₹ 85,000",
+            "c": "$₹ 70,000$",
+            "d": "₹ $1,20,000$"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "or_group": "MCQ_4_v1_v2",
+          "question_id": "A-MCQ-4_v1"
+        },
+        {
+          "q_num": "4_v2",
           "question": "Is $\text{M}/\text{S}$ BAC Co. required to deduct tax at source in respect of the purchase transactions with Kishore \\& Sons. If yes, when and what is the amount of tax to be deducted?",
           "options": {
             "a": "Yes; ₹ 1,000 on 30.6.2025, ₹ 800 on 25.10.2025, ₹ 1,500 on 20.1.2026 and ₹ 1,200 on 15.2.2026",
@@ -221,10 +245,265 @@
           },
           "correct_option": "a",
           "answer": "(a)",
-          "verdict": null
+          "verdict": null,
+          "_serial": "4_v2",
+          "or_group": "MCQ_4_v1_v2",
+          "question_id": "A-MCQ-4_v2"
+        }
+      ]
+    },
+    {
+      "unique_id": "26-CS-26",
+      "chapter_number": "26",
+      "chapter_name": "CASE SCENARIOS",
+      "category": "Case Study",
+      "cs_num": 26,
+      "case_text": "## CS 26 <br> (PYP 2 Marks May'25)\n\nSandeep, a registered person in Pune, Maharashtra, is engaged in the business of providing training services to various registered and unregistered persons. During the month of October, 20 XX , he conducted training camps at different cities in Uttar Pradesh for general public and received ₹ $3,45,000$ from such camps. He was hired by Arihant Pharma Limited, registered in Goa, to provide training to its employees for total consideration of ₹ $2,25,000$. The training was given to 20 employees at Mumbai, Maharashtra. Sandeep also gave his residential property in Mumbai to Arihant Pharma Limited for the stay of employees who joined the training. ₹ 10,000 per person was additionally charged by Sandeep for period of stay of 30 days. Sandeep hired a bus from Ravi (Registered in Maharashtra) at ₹ $\\mathbf{5 0 , 0 0 0}$ for $\\mathbf{3 0}$ days to transport trainees. The bus has enough seating capacity to transport 20 trainees. Cost of fuel is included in the consideration paid to Ravi. Sandeep also received security services from Protect You Security Limited for ₹35,000.\n\nAll the amounts given above are exclusive of tax, wherever applicable. Rates of GST are $9 \\%, 9 \\%$ and $18 \\%$ for CGST/SGST/IGST respectively.\n\nSubject to the information given above, all other conditions for availing ITC are complied with.",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Amount of inter-state outward supply on which Sandeep shall pay tax is: Chapter 17: Value of Supply",
+          "options": {
+            "a": "₹ $4,25,000$",
+            "b": "₹ 5,70,000$",
+            "c": "₹ $7,70,000$",
+            "d": "₹ $3,45,000$"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v1"
+        },
+        {
+          "q_num": "1_v2",
+          "question": "Who is required to deduct/ collect tax at source in respect of lease of coal mine by the State Government of Hyderabad to Kishore \\& Sons and at what rate?",
+          "options": {
+            "a": "State Government of Hyderabad is liable to collect tax at source @ 2\\% on ₹ 11 crores",
+            "b": "State Government of Hyderabad is liable to collect tax at source @ $0.1 \\%$ on ₹ 10.50 crores, being the amount exceeding ₹ 50 lakhs",
+            "c": "Kishore \\& Sons is liable to deduct tax at source @ $0.1 \\%$ on ₹ 10.50 crores, being the amount exceeding ₹ 50 lakhs",
+            "d": "Neither State Government of Hyderabad is liable to collect tax at source nor Kishore \\& Sons is liable to deduct tax at source"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "_serial": "1_v2",
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v2"
+        },
+        {
+          "q_num": 2,
+          "question": "Amount on which Sandeep is required to pay tax under RCM is: Chapter 13: Charge of GST",
+          "options": {
+            "a": "₹ 0",
+            "b": "₹ 35,000",
+            "c": "₹ 50,000",
+            "d": "₹ 85,000"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null,
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v1"
+        },
+        {
+          "q_num": "2_v2",
+          "question": "Is Kishore \\& Sons required to collect tax at source in respect of the sale transactions with M/s BAC Co. If yes, when and what is the amount of tax to be collected?",
+          "options": {
+            "a": "Yes; $₹ 1,000$ on $30.6 \\cdot 2025$, ₹ 800 on $25.10 \\cdot 2025$, ₹ 1,500 on 20.1.2026 and $₹ 1,200$ on 15.2.2026",
+            "b": "Yes; ₹ 35,000 on 10.5 .2025 , ₹ 25,000 on 30.6 .2025 , ₹ 8,000 on 25.10 .2025 , ₹ 15,000 on 201.2026 and $₹ 12,000$ on 15.2.2026",
+            "c": "Yes; ₹ 1,000 on 10.7.2025, ₹ 800 on 25.10.2025, ₹ 1,500 on 22.1.2026 and ₹ 1,200 on 15.2.2026",
+            "d": "No, Kishore \\& Sons is not liable to collect tax at source"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null,
+          "_serial": "2_v2",
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v2"
+        },
+        {
+          "q_num": 3,
+          "question": "Total tax payable in cash (including RCM) by Sandeep is: Chapter 23: Payment of Tax",
+          "options": {
+            "a": "₹ $1,38,600$",
+            "b": "₹ $1,02,600$",
+            "c": "₹ $1,23,300$",
+            "d": "₹ 87,300"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v1"
+        },
+        {
+          "q_num": "3_v2",
+          "question": "Is Kishore \\& Sons required to collect tax at source in respect of the sale transaction with M/s XYZ Ltd. If yes, what is the amount of tax to be collected?",
+          "options": {
+            "a": "Yes; ₹ 55,000",
+            "b": "Yes; ₹ 5,500",
+            "c": "Yes; ₹ 500",
+            "d": "No, Kishore \\& Sons is not liable to collect tax at source"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "_serial": "3_v2",
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v2"
+        }
+      ]
+    },
+    {
+      "unique_id": "26-CS-5",
+      "chapter_number": "26",
+      "chapter_name": "CASE SCENARIOS",
+      "category": "Case Study",
+      "cs_num": 5,
+      "case_text": "## CS 5 <br> (RTP May '22, MTP 6 Marks Nov'24, MP[5])\n\n\nVidhula Impex Ltd. is engaged in supplying sports goods. The company did not opt for registration under GST. The proper officer under GST, based on enquiry, finds that the concern is liable for registration and he registers the firm on temporary basis on 15th June, 2025.\n\nAfter being granted the registration certificate, the company availed the following services for the purpose of its business-\n\ni. Renting of motor vehicles from Blue Taxi Pvt. Ltd. where GST was charged @ $\\mathbf{1 2} \\boldsymbol{\\%}$.\n\nii. Appointed Mr. Rajesh as Technical Director for advisory role in business and the payment was made based on the contract entered. However, he was not employee of the company.\n\nDuring the course of its business, the company issued an invoice to a customer and erroneously charged higher value by ₹ 34,000 . Such invoice was issued on 28th February, 2026.\n\nFurther, in the month of February 2026, the company also generated an e-way bill for inter-State transport of goods. However, immediately on generation of the e-way bill, the buyer cancelled the order before it is dispatched from the factory for delivery.\n\nIn the month of March 2026, since the company was incurring heavy losses, it applied for cancellation of GST registration on 15th March, 2026. The order for cancellation was made on 30th March, 2026 effecting cancelling the registration with effect from $\\mathbf{1 5}^{\\text {th }}$ March, 2026.\n\nFrom the information provided above, choose the most appropriate Answer for the following questions:\n\n\n1. After the grant of temporary registration, Vidhula Impex Ltd. needs to apply for registration within\n\n$\\_\\_\\_\\_$ from the date of grant of temporary registration, if no extension of period is to be granted for such temporary registration. (Chapter 19 Registration)\n\n(a) 30 days\n\n(b) 90 days\n\n(c) 7 days\n\n(d) 15 days\n\n\nAns: (b)\n\n2. In case of which of the following services, the company is liable to pay tax under reverse charge? (Chapter $\\mathbf{1 3}$ Charge of GST)\n\n(a) Renting of Motor Vehicles\n\n(b) Directorship services\n\n(c) Both (a) and (b)\n\n(d) Neither (a) nor (b)\n\n\nAns: (b)\n\n3. Which document is required to be issued by the company in respect of the invoice issued on 28th February, 2026? (chapter 18 Tax Invoice, Credit \\& Debit Note, E-way Bill)\n\n(a) Debit note\n\n(b) Credit note\n\n(c) Bill of supply\n\n(d) Revised Tax invoice\n\n\nAns: (b)\n\n4. The Company needs to file its Final return by $\\_\\_\\_\\_$ (chapter 20 Returns)\n\n(a) 30th April, 2026\n\n(b) 30th August, 2026\n\n(c) 15th June, 2026\n\n(d) 30th June, 2026\n\n\nAns: (d)\n\n5. Which of the following statements is correct in respect of e-way bill generated for goods in the month of February for which order was cancelled? (chapter 18 Tax Invoice, Credit \\& Debit Note, E-way Bill)\n\n(a) Once generated, e-way bill cannot be cancelled.\n\n(b) E-way bill can be cancelled within 24 hours of generation\n\n(c) E-way bill can be cancelled within 48 hours of generation\n\n(d) E-way bill can be cancelled within 72 hours of generation\n\n\nAns: (b)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "After the grant of temporary registration, Vidhula Impex Ltd. needs to apply for registration within ___ from the date of grant of temporary registration, if no extension of period is to be granted for such temporary registration. (Chapter 19 Registration)",
+          "options": {
+            "a": "30 days",
+            "b": "90 days",
+            "c": "7 days",
+            "d": "15 days"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v1"
+        },
+        {
+          "q_num": "1_v2",
+          "question": "Who is required to deduct/ collect tax at source in respect of lease of coal mine by the State Government of Hyderabad to Kishore \\& Sons and at what rate?",
+          "options": {
+            "a": "State Government of Hyderabad is liable to collect tax at source @ 2\\% on ₹ 11 crores",
+            "b": "State Government of Hyderabad is liable to collect tax at source @ $0.1 \\%$ on ₹ 10.50 crores, being the amount exceeding ₹ 50 lakhs",
+            "c": "Kishore \\& Sons is liable to deduct tax at source @ $0.1 \\%$ on ₹ 10.50 crores, being the amount exceeding ₹ 50 lakhs",
+            "d": "Neither State Government of Hyderabad is liable to collect tax at source nor Kishore \\& Sons is liable to deduct tax at source"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "_serial": "1_v2",
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v2"
+        },
+        {
+          "q_num": 2,
+          "question": "In case of which of the following services, the company is liable to pay tax under reverse charge? (Chapter 1 3 Charge of GST)",
+          "options": {
+            "a": "Renting of Motor Vehicles",
+            "b": "Directorship services",
+            "c": "Both (a) and (b)",
+            "d": "Neither (a) nor (b)"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v1"
+        },
+        {
+          "q_num": "2_v2",
+          "question": "Is Kishore \\& Sons required to collect tax at source in respect of the sale transactions with M/s BAC Co. If yes, when and what is the amount of tax to be collected?",
+          "options": {
+            "a": "Yes; $₹ 1,000$ on $30.6 \\cdot 2025$, ₹ 800 on $25.10 \\cdot 2025$, ₹ 1,500 on 20.1.2026 and $₹ 1,200$ on 15.2.2026",
+            "b": "Yes; ₹ 35,000 on 10.5 .2025 , ₹ 25,000 on 30.6 .2025 , ₹ 8,000 on 25.10 .2025 , ₹ 15,000 on 201.2026 and $₹ 12,000$ on 15.2.2026",
+            "c": "Yes; ₹ 1,000 on 10.7.2025, ₹ 800 on 25.10.2025, ₹ 1,500 on 22.1.2026 and ₹ 1,200 on 15.2.2026",
+            "d": "No, Kishore \\& Sons is not liable to collect tax at source"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null,
+          "_serial": "2_v2",
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v2"
+        },
+        {
+          "q_num": 3,
+          "question": "Which document is required to be issued by the company in respect of the invoice issued on 28th February, 2026? (chapter 18 Tax Invoice, Credit & Debit Note, E-way Bill)",
+          "options": {
+            "a": "Debit note",
+            "b": "Credit note",
+            "c": "Bill of supply",
+            "d": "Revised Tax invoice"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v1"
+        },
+        {
+          "q_num": "3_v2",
+          "question": "Is Kishore \\& Sons required to collect tax at source in respect of the sale transaction with M/s XYZ Ltd. If yes, what is the amount of tax to be collected?",
+          "options": {
+            "a": "Yes; ₹ 55,000",
+            "b": "Yes; ₹ 5,500",
+            "c": "Yes; ₹ 500",
+            "d": "No, Kishore \\& Sons is not liable to collect tax at source"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "_serial": "3_v2",
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v2"
+        },
+        {
+          "q_num": 4,
+          "question": "The Company needs to file its Final return by ___ (chapter 20 Returns)",
+          "options": {
+            "a": "30th April, 2026",
+            "b": "30th August, 2026",
+            "c": "15th June, 2026",
+            "d": "30th June, 2026"
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null,
+          "or_group": "MCQ_4_v1_v2",
+          "question_id": "A-MCQ-4_v1"
+        },
+        {
+          "q_num": "4_v2",
+          "question": "Is $\text{M}/\text{S}$ BAC Co. required to deduct tax at source in respect of the purchase transactions with Kishore \\& Sons. If yes, when and what is the amount of tax to be deducted?",
+          "options": {
+            "a": "Yes; ₹ 1,000 on 30.6.2025, ₹ 800 on 25.10.2025, ₹ 1,500 on 20.1.2026 and ₹ 1,200 on 15.2.2026",
+            "b": "Yes; ₹ 3,500 on 10.5.2025, ₹ 2,500 on 30.6.2025, ₹ 800 on 25.10.2025, ₹ 1,500 on 201.2026 and ₹ 1,200 on 15.2.2026",
+            "c": "Yes; ₹ 1,000 on 10.7.2025, ₹ 800 on 25.10.2025, ₹ 1,500 on 22.1.2026 and ₹ 1,200 on 15.2.2026",
+            "d": "No, M/s BAC Co. is not liable to deduct tax at source"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "_serial": "4_v2",
+          "or_group": "MCQ_4_v1_v2",
+          "question_id": "A-MCQ-4_v2"
         },
         {
           "q_num": 5,
+          "question": "Which of the following statements is correct in respect of e-way bill generated for goods in the month of February for which order was cancelled? (chapter 18 Tax Invoice, Credit & Debit Note, E-way Bill)",
+          "options": {
+            "a": "Once generated, e-way bill cannot be cancelled.",
+            "b": "E-way bill can be cancelled within 24 hours of generation",
+            "c": "E-way bill can be cancelled within 48 hours of generation",
+            "d": "E-way bill can be cancelled within 72 hours of generation"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "or_group": "MCQ_5_v1_v2",
+          "question_id": "A-MCQ-5_v1"
+        },
+        {
+          "q_num": "5_v2",
           "question": "Assume for the purpose of this MCQ, M/s BAC Co.'s turnover for the F.Y. 2025-26 was ₹ 9 crore, who will be required to deduct/ collect tax at source in respect of transactions between Kishore \\& Sons and $\text{M}/\text{S}$ BAC Co. and at what rate?",
           "options": {
             "a": "Kishore \\& Sons is liable to collect tax at source @1\\% of ₹ 95 lakhs",
@@ -234,11 +513,12 @@
           },
           "correct_option": "d",
           "answer": "(d)",
-          "verdict": null
+          "verdict": null,
+          "_serial": "5_v2",
+          "or_group": "MCQ_5_v1_v2",
+          "question_id": "A-MCQ-5_v2"
         }
-      ],
-      "mcq_count": 5,
-      "unique_id": "10-CS-6"
+      ]
     }
   ],
   "section_b": [
@@ -268,14 +548,28 @@
       "chapter_number": "2",
       "sub_questions": [
         {
-          "label": "a",
+          "label": "a_v1",
           "marks": 6,
           "internal_split": null,
-          "question": "Compute the income chargeable from house property of Mrs. Anjali for the A.Y. 2026-27 if she has exercised the option of shifting out of the default tax regime. (MTP 5 Marks Apr'25)",
+          "question": "[New Version - v1] Compute the income chargeable from house property of Mrs. Anjali for the A.Y. 2026-27 if she has exercised the option of shifting out of the default tax regime. \n\nDetails:\n- She is a resident and ordinarily resident in India.\n- She possesses a self-occupied house at Chicago and at Surat.\n- She can take the benefit of \"Nil\" Annual Value for these houses.\n- Arrears of rent from Ranchi property amounting to Rs. 60,000 are received, with 30% deduction allowed under section 25A(2).\n- Interest on borrowed capital for the Surat house is Rs. 1,82,100 plus 1/5 of pre-construction interest of Rs. 9,840.\n\n(MTP 5 Marks Apr'25)",
           "answer": "Since Mrs. Anjali is a resident and ordinarily resident in India, her global income would form part of her total income i.e., income earned in India as well as outside India will form part of her total income. She possesses a self-occupied house at Chicago as well as at Surat. She can take the benefit of \"Nil\" Annual Value in respect of both the house properties. As regards the Ranchi house, arrears of rent will be chargeable to tax as income from house property in the year of receipt under section 25 A. It is not essential that the assessee should continue to be the owner. 30 % of the arrears of rent shall be allowed as deduction as per section 25 A(2). Accordingly, the income from house property of Mrs. Anjali for A.Y.2026-27 will be calculated as under:\n\n| Particulars | Rs. | Rs. |\n| :--- | :--- | :--- |\n| Self-occupied house at Chicago |  |  |\n| Annual Value | Nil |  |\n| Less: Deduction under section 24 | Nil | Nil |\n| Self-occupied house property at Surat |  |  |\n| Annual Value | Nil |  |\n| Less: Deduction under section 24 |  |  |\n| Interest on borrowed capital (Refer note below) | (1,91,940) | (1,91,940) |\n| Arrears in respect of Ranchi property (Section 25A) |  |  |\n| Arrears of rent received | 60,000 |  |\n| Less: Deduction @ 30 % u/s 25A(2) | (18000) | 42,000 |\n| Loss under the head \"Income from house property\" |  | (1,49,940) |\n\nNote: Interest on borrowed capital\n\n| Particulars | Rs. |\n| :--- | :--- |\n| Interest for the current year (Rs.50,800 + Rs. 1,31,300) | 1,82,100 |\n| Add: 1 / 5 th of pre-construction interest ( Rs. 49,200 × 1 / 5 ) | 9,840 |\n| Interest deduction allowable under section 24 | 1,91,940 |",
           "chapter_number": "2",
           "chapter_name": "RESIDENCE AND SCOPE OF TOTAL INCOME",
-          "unique_id": "2-T-23"
+          "unique_id": "2-T-23",
+          "or_group": "Q2a_v1_v2",
+          "question_id": "B-Q2-Q2a_v1"
+        },
+        {
+          "label": "a_v2",
+          "marks": 6,
+          "internal_split": null,
+          "question": "[Old Version - v2] Compute the income chargeable from house property of Mrs. Anjali for the A.Y. 2026-27 if she has exercised the option of shifting out of the default tax regime. (MTP 5 Marks Apr'25)",
+          "answer": "Since Mrs. Anjali is a resident and ordinarily resident in India, her global income would form part of her total income i.e., income earned in India as well as outside India will form part of her total income. She possesses a self-occupied house at Chicago as well as at Surat. She can take the benefit of \"Nil\" Annual Value in respect of both the house properties. As regards the Ranchi house, arrears of rent will be chargeable to tax as income from house property in the year of receipt under section 25 A. It is not essential that the assessee should continue to be the owner. 30 % of the arrears of rent shall be allowed as deduction as per section 25 A(2). Accordingly, the income from house property of Mrs. Anjali for A.Y.2026-27 will be calculated as under:\n\n| Particulars | Rs. | Rs. |\n| :--- | :--- | :--- |\n| Self-occupied house at Chicago |  |  |\n| Annual Value | Nil |  |\n| Less: Deduction under section 24 | Nil | Nil |\n| Self-occupied house property at Surat |  |  |\n| Annual Value | Nil |  |\n| Less: Deduction under section 24 |  |  |\n| Interest on borrowed capital (Refer note below) | (1,91,940) | (1,91,940) |\n| Arrears in respect of Ranchi property (Section 25A) |  |  |\n| Arrears of rent received | 60,000 |  |\n| Less: Deduction @ 30 % u/s 25A(2) | (18000) | 42,000 |\n| Loss under the head \"Income from house property\" |  | (1,49,940) |\n\nNote: Interest on borrowed capital\n\n| Particulars | Rs. |\n| :--- | :--- |\n| Interest for the current year (Rs.50,800 + Rs. 1,31,300) | 1,82,100 |\n| Add: 1 / 5 th of pre-construction interest ( Rs. 49,200 × 1 / 5 ) | 9,840 |\n| Interest deduction allowable under section 24 | 1,91,940 |",
+          "chapter_number": "2",
+          "chapter_name": "RESIDENCE AND SCOPE OF TOTAL INCOME",
+          "unique_id": "2-T-23",
+          "or_group": "Q2a_v1_v2",
+          "question_id": "B-Q2-Q2a_v2"
         },
         {
           "label": "b",
@@ -355,18 +649,32 @@
       "chapter_number": "23",
       "sub_questions": [
         {
-          "label": "a",
+          "label": "a_v1",
+          "marks": 10,
+          "internal_split": null,
+          "question": "[New Version - v1] TTY Pvt. Ltd, a registered supplier in Bengaluru has provided the following information of supply received/made during the month of June, 2025:\n\n| S. No. | Outward Transactions | Amount (₹) |\n| :--- | :--- | :--- |\n| (i) | Supply of taxable goods to Mr. Sudhir of Hubli (Karnataka) registered under Composition scheme in the state of Karnataka | 4,00,000 |\n| (ii) | Hiring receipts for supply of Industrial heavy machines along with supply of machine operators. (out of ₹ 9,00,000, value of ₹ 2,25,000 belongs to supply of operators, but not separately charged).<br>As per policy of the industry, these machines are always hired out along with operators, and operators are also supplied only when machines hired out with single price. | 9,00,000 |\n| (iii) | Renting of dumpers including driver given for transport of minerals within the mining area in Jharkhand for a period of 18 months to Vanshika Builders, registered in the state of Bihar. | 10,50,000 |\n| (iv) | Stock transferred without consideration to its branch in Shimoga, Karnataka. Branch has same GSTIN. (Value of goods as per Valuation Rules under GST law is ₹ 2,50,000) | - |\n| (v) | Given on hire 26 motor vehicles (seating capacity of 14 persons excluding driver) to Karnataka State Road Transport Corporation (KSRTC) | 12,00,000 |\n\n| Inward Transactions | Amount (₹) |\n| :--- | :--- |\n| (i) | Purchased 4 electric scooters with engine capacity of 23 cc for use by its employees for commuting within the office premises and nearby client locations. Scooters were supplied in Bengaluru (Karnataka) by a GST-registered dealer located in Rajasthan | 4,80,000 |\n| (ii) | Mr. Vijay (Managing Director) went to Surat, Gujarat for a business meeting in June 2025 and stayed for 3 days in \"Royal Residency Hotel\" registered in the state of Gujarat. Hotel accommodation charges paid ₹ 18,000 (taxable value, excluding GST) for the stay. | 18,000 |\n\n**Additional Information:**\n(i) In the month of December, 2024, company had availed services in an inter-State transaction with a taxable value of ₹ 6,00,000; This transaction was liable to tax under reverse charge. Payment for the same to the supplier was not made till the current month (overdue for 181 days during June, 2025). However, tax due under the said transaction was paid to Government in December 2024 and input tax credit availed in the same month.\n(ii) On 11th June 2025, received a debit note of ₹ 2,50,000 in respect of inward intra-State taxable supplies of service. The underlying invoice was issued in the month of October, 2023 in which it was found later that the supplier had erroneously declared a value which is less than the actual value of services provided.\n(iii) All the figures are exclusive of GST wherever applicable\n(iv) All the conditions necessary for availing the input tax credit have been fulfilled and also that details of GST paid on inward supplies are available in GSTR 2B. There was no Opening balance of input tax credit at the beginning of the month\n(v) Assume that all the inward supplies are used only for outward taxable supply\n(vi) Wherever details for determination of Place of Supply are not given in the question, it shall be taken as Inter-State transaction\n(vii) Assume the applicable rates of GST as under:-\n(a) Service of hiring of heavy machine IGST 12%, CGST 6% and SGST 6%\n(b) Service of Supply of machine operator without heavy machines IGST 18%, CGST 9% and SGST 9%\n(c) All other inward and outward supply, IGST 18%, CGST 9% and SGST 9%\n\nYou are required to compute the net minimum GST liability of TTY Pvt. Ltd to be paid in cash if any, for the month of June, 2025 after utilizing input tax credit.\n**Note:** Calculate tax for each point separately and Legal explanations for each point should form part of your answer including Place of provision of supply.",
+          "answer": "**Computation of net minimum GST liability of TTY Pvt. Ltd. to be paid in cash, for the month of June, 2025**\n\n| Particulars | Value (₹) | CGST (₹) | SGST (₹) | IGST (₹) |\n| :--- | :--- | :--- | :--- | :--- |\n| **Computation of outward tax liability** | | | | |\n| (i) Supply of taxable goods to Mr. Sudhir<br>[It is an intra-State supply since place of supply is Karnataka being location of goods at the time at which movement terminates for delivery to recipient.] | 4,00,000 | 36,000<br>[4,00,000 x 9%] | 36,000<br>[4,00,000 x 9%] | - |\n| (ii) Hiring of industrial heavy machines with operators<br>[Being composite supply wherein the principal supply is the hiring out of the heavy machine, GST rate of principal supply being 12% will apply.] | 9,00,000 | - | - | 1,08,000<br>[9,00,000 x 12%*] |\n| (iii) Renting of dumpers including driver<br>[Taxable / Not specifically exempt as same is service of renting of transport vehicles with operator and not service of transportation of goods by road. Further, it is an inter-State supply since place of supply of services provided to the registered person is Bihar being location of such registered person.] | 10,50,000 | - | - | 1,89,000<br>[10,50,000 x 18%] |\n| (iv) Stock transfer to branch in Karnataka<br>[Such transfer is not a supply as the branch has the same GSTIN as that of the head office and thus, is not a distinct person.] | Nil | - | - | - |\n| (v) Hiring 26 motor vehicles to KSRTC.<br>[Services by way of giving on hire to a State Transport Undertaking (STU), a motor vehicle meant to carry more than 12 passengers is exempt.] | 12,00,000 | Nil | Nil | - |\n| **Total output tax liability** | | **36,000** | **36,000** | **2,97,000** |\n| Less: Total Eligible ITC [Refer Working Note] | | | | |\n| IGST credit is set off against IGST liability | | | | (86,400) |\n| CGST and SGST credit is set off against CGST and SGST liability respectively | | (22,500) | (22,500) | |\n| **Net GST payable in cash** | | **13,500** | **13,500** | **2,10,600** |\n\n*\\* It is specifically mentioned in the question that wherever details for determining the place of supply are not given in the question, it shall be treated as inter-State transaction.*\n\n**Working Note:**\n**Computation of total ITC available for set off**\n\n| Particulars | Value (₹) | CGST (₹) | SGST (₹) | IGST (₹) |\n| :--- | :--- | :--- | :--- | :--- |\n| (i) Purchased 4 electric scooters with engine capacity of 23 cc<br>[Vehicle with less than 4 wheels fitted with engine capacity of upto 25cc is not a motor vehicle and thus, ITC on same is not blocked. Further, it is an inter-State supply since place of supply is Karnataka being location of goods at the time at which movement terminates for delivery to recipient and supplier is in Rajasthan.] | 4,80,000 | - | - | 86,400 |\n| (ii) Hotel charges paid for accommodation.<br>[It is an intra-State supply since place of supply is Surat/Gujarat being the location of immovable property. However, ITC of the same will not be available since the recipient of said intra-State supply is located in a different State than that of place of supply.] | 18,000 | - | - | - |\n| (iii) Availment of credit on services for which payment is overdue for 181 days<br>[Reversal of credit availed is not required since the condition of payment of value of supply plus tax within 180 days does not apply to supplies on which tax is payable under reverse charge.] | 6,00,000 | - | - | - |\n| (iv) Debit note received in respect of inward intra-State taxable supplies of service.<br>[ITC on debit notes issued in a FY can be availed in the month of issue of such debit note or at any time till 30th November of the succeeding FY or date of filing of annual return, whichever is earlier, irrespective of the date of original invoice/ supply.] | 2,50,000 | 22,500 | 22,500 | |\n| **Total input tax credit** | | **22,500** | **22,500** | **86,400** |\n\n*(Note: Full credit is admissible for set-off since it has been provided in question that all inward supplies are used only for outward taxable supply.)*",
+          "chapter_number": "23",
+          "chapter_name": "PAYMENT OF TAX",
+          "unique_id": "NEW-23-T-6-TTY",
+          "or_group": "Q5a_v1_v2",
+          "question_id": "B-Q5-Q5a_v1"
+        },
+        {
+          "label": "a_v2",
           "marks": 7.5,
           "internal_split": null,
-          "question": "Sahil is a supplier of taxable goods in Karnataka. He got registered under GST in the month of September, 20XX and wishes to pay his IGST liability for the month. Since he is making the GST payment for the first time, he is of the view that he needs to mandatorily have the online banking facility to make payment of GST; offline payment is not permitted under GST. You are required to apprise Sahil regarding the various modes of deposit in the electronic cash ledger. Further, advise him with regard to following issues: (a) Are manual challans allowed under GST? (b) What is the validity period of the challan? (c) Is cross utilization among Major and Minor heads of the electronic cash ledger permitted? (SM)",
+          "question": "[Old Version - v2] Sahil is a supplier of taxable goods in Karnataka. He got registered under GST in the month of September, 20XX and wishes to pay his IGST liability for the month. Since he is making the GST payment for the first time, he is of the view that he needs to mandatorily have the online banking facility to make payment of GST; offline payment is not permitted under GST. You are required to apprise Sahil regarding the various modes of deposit in the electronic cash ledger. Further, advise him with regard to following issues: (a) Are manual challans allowed under GST? (b) What is the validity period of the challan? (c) Is cross utilization among Major and Minor heads of the electronic cash ledger permitted? (SM)",
           "answer": "As per the provisions of CGST Act, 2017 read with relevant rules, the deposit in electronic cash ledger can be made through any of the following modes, namely:- (i) Internet Banking through authorised banks; (ii) Unified Payment Interface (UPI) from any bank; (iii) Immediate Payment Services (IMPS) from any bank; (iv) Credit card or Debit card through the authorised bank; (v) National Electronic Fund Transfer or Real Time Gross Settlement from any bank; or (vi) Over the Counter payment through authorised banks for deposits up to ten thousand rupees per challan per tax period, by cash, cheque or demand draft. (a) Manual or physical Challans are not allowed under the GST regime. It is mandatory to generate Challans online on the GST Portal. (b) Challan is valid for a period of 15 days from the date of generation of challan. (c) A registered person may, on the common portal, transfer any amount of tax, interest, penalty, fee or any other amount available in the electronic cash ledger under the CGST Act, 2017 to the electronic cash ledger for integrated tax, central tax, State tax or Union territory tax or cess.",
           "chapter_number": "23",
           "chapter_name": "PAYMENT OF TAX",
-          "unique_id": "23-T-6"
+          "unique_id": "23-T-6",
+          "or_group": "Q5a_v1_v2",
+          "question_id": "B-Q5-Q5a_v2"
         },
         {
           "label": "b",
-          "marks": 7.5,
+          "marks": 5,
           "internal_split": null,
           "question": "Guru Enterprises (Delhi), a registered taxpayer, made a taxable supply to Y Ltd. (Delhi). The details of the said supply are as follows:\n\n| Particulars | Amount (Rs.) |\n| :--- | :--- |\n| Price of the goods (excluding any tax or discounts) | 10,00,000 |\n| Tax levied by the Municipal Authority | 10,000 |\n| Subsidy received from Jiva Enterprises Pvt Ltd. (The price above is after consideration of such subsidy amount) | 1,00,000 |\n| Amount incurred by Y Ltd. for post delivery inspection. (Charges incurred post receipt of goods by Y Ltd.) | 5,000 |\n\nIn respect of above supply, Guru Enterprises had procured some raw material from X Ltd., for which it owed Rs. 25,000. The said amount was directly paid by Y Ltd. to X Ltd. and was not included in the price of goods of Rs. 10,00,000 mentioned above.\n\nThe payment of consideration for above supply was delayed by Y Ltd. Hence, an interest amount of Rs. 20,000 (in lumpsum) was also charged by Guru Enterprises.\n\nThe applicable tax rates are - CGST - 6%, SGST - 6% and IGST - 12%. You are required to determine the taxable value as well as the applicable tax liability for the said supply transaction. (MTP 6 Marks, Apr'23, MTP 5 Marks Jul'24, MP[3])",
           "answer": "Computation of taxable value and tax liability\n\n| Particulars | Amount (Rs.) |\n| :--- | :--- |\n| Price of goods (exclusive of tax and discounts) | 10,00,000 |\n| Add: Tax levied by Municipal Authority <br> [Tax other than GST, if charged separately, are includible in the value.] | 10,000 |\n| Add: Subsidy received from Jiva Enterprises Pvt. Ltd. <br> [Subsidy provided by non-Government bodies and which is directly linked to the price is includible.] | 1,00,000 |\n| Add: Post-delivery inspection charges <br> [Anything done by the supplier in respect of the supply of goods after the delivery of goods is not includible in value.] | - |\n| Add: Amount directly paid by Y Ltd. to X Ltd. <br> [Liability of the supplier, in relation to the supply being valued, if discharged by the recipient of supply and not included in the price, is includible in the value.] | 25,000 |\n| Add: Interest <br> [Interest for delayed payment of consideration is includible in the value. Since interest is received in lumpsum, amount is inclusive of GST [Rs. 20,000 x 100/112] (rounded off).] | 17,857 |\n| Value of taxable supply | 11,52,857 |\n| CGST @ 6% | 69,171 |\n| SGST @ 6% | 69,171 |",

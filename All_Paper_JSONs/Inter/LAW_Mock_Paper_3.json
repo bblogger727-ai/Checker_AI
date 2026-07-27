@@ -326,24 +326,52 @@
           "unique_id": "BQ-9"
         },
         {
-          "label": "b",
+          "label": "b_v1",
           "marks": 5,
           "internal_split": null,
-          "question": "Enumerate the amounts which when received by a company in the ordinary course of business are not to be considered as deposits. (MTP 4 Marks March '23, SM)",
+          "question": "[New Version - v1] The Promoters of J Limited contributed in the shape of unsecured loan to the company in fulfilment of the margin money requirements stipulated by State Industries Development Corporation Ltd. (SIDCL) for granting loan. In the light of the provisions of the Companies Act, 2013 and Rules made thereunder whether the unsecured loan will be regarded as Deposit or not. What will be your answer in case the entire loan obtained from SIDCL is repaid? (MTP 5 Marks Mar'24, 4 Marks March '22, PYP 4 Marks July '21, MP[1])",
+          "answer": "According to Rule 2(1)(c) of the Companies (Acceptance of Deposits) Rules, 2014, the following amount is not considered as deposit:\n\nAny amount brought in by the promoters of the company by way of unsecured loan in pursuance of the stipulation of any lending financial institution or a bank subject to the fulfillment of following conditions:\n\n(a) the loan is brought because of the stipulation imposed by the lending institutions on the promoters to contribute such finance;\n\n(b) the loan is provided by the promoters themselves or by their relatives or by both; and\n\n(c) such exemption shall be available only till the loans of financial institution or bank are repaid and not thereafter.\n\nHence, in the instant case, the unsecured loan contributed by promoters of J Limited will not be regarded as deposit as the unsecured loan is brought because of the stipulation imposed by the SIDCL and the loan is provided by the promoters themselves.\n\nIn case the entire loan obtained from SIDCL is repaid, then the unsecured loan provided by promoters of J Limited will be regarded as deposit.",
+          "chapter_number": "5",
+          "chapter_name": "ACCEPTANCE OF DEPOSITS BY COMPANIES",
+          "unique_id": "5-T-6",
+          "or_group": "Q2b_v1_v2",
+          "question_id": "B-Q2-Q2b_v1"
+        },
+        {
+          "label": "b_v2",
+          "marks": 5,
+          "internal_split": null,
+          "question": "[Old Version - v2] Enumerate the amounts which when received by a company in the ordinary course of business are not to be considered as deposits. (MTP 4 Marks March '23, SM)",
           "answer": "According to Rule 2 (1) (c) (xii) of the Companies (Acceptance of Deposits) Rules, 2014, following amounts if received by a company in the course of, or for the purposes of, the business of the company, shall not be considered as deposits:\n\n(a) any amount received as an advance for the supply of goods or provision of services accounted for in any manner whatsoever to be appropriated within a period of three hundred and sixty-five days from the date of acceptance of such advance:\n\nHowever, in case any advance is subject matter of any legal proceedings before any court of law, the time limit of three hundred and sixty-five days shall not apply.\n\n(b) any amount received as advance in connection with consideration for an immovable property under an agreement or arrangement. However, such advance is required to be adjusted against such property in accordance with the terms of agreement or arrangement;\n\n(c) any amount received as security deposit for the performance of the contract for supply of goods or provision of services;\n\nd) any amount received as advance under long term projects for supply of capital goods except those covered under item (b) above;\n\n(e) any amount received as an advance towards consideration for providing future services in the form of a warranty or maintenance contract as per written agreement or arrangement, if the period for providing such services does not exceed the period prevalent as per common business practice or five years, from the date of acceptance of such service whichever is less;\n\n(f) any amount received as an advance and as allowed by any sectoral regulator or in accordance with directions of Central or State Government;\n\ng) any amount received as an advance for subscription towards publication, whether in print or in electronic to be adjusted against receipt of such publications;\n\nHowever, if the amount received under items (a), (b) and (d) above becomes refundable (with or without interest) due to the reasons that the company accepting the money does not have necessary permission or approval, wherever required, to deal in the goods or properties or services for which the money is taken, then the amount received shall be deemed to be a deposit under these rules.\n\nFurther, for the purposes of this sub-clause the amount shall be deemed to be deposits on the expiry of fifteen days from the date it became due for refund.",
           "chapter_number": "5",
           "chapter_name": "ACCEPTANCE OF DEPOSITS BY COMPANIES",
-          "unique_id": "5-T-1"
+          "unique_id": "5-T-1",
+          "or_group": "Q2b_v1_v2",
+          "question_id": "B-Q2-Q2b_v2"
         },
         {
-          "label": "c",
+          "label": "c_v1",
           "marks": 5,
           "internal_split": null,
-          "question": "Explain various provisions applicable to rules or bye-laws being made after previous publications as enumerated in Section-23 of the General Clauses Act, 1897. (MTP 4 Marks Aug'24,MP[5],PYP 4 Marks Sep'25)",
+          "question": "[New Version - v1] Mr. Avinash currently holds the position of a Whole-time director (Key Managerial Personnel) at Moon Pharma Limited, a company that maintains substantial ownership stake in X Limited ( $55 \\%$ shares), Y Limited ( $60 \\%$ shares), and Z Limited ( $65 \\%$ shares). Mr. Avinash has expressed his desire to expand his role as a Wholetime director to encompass both X Limited and Y Limited. Determine the validity of his appointment as a Whole-time director in these additional companies, as per the provisions of the General Clauses Act, 1897. (PYP 4 Marks Nov'23)",
+          "answer": "As per section 2(87) of the Companies Act, 2013, Subsidiary company, in relation to any other company (that is to say the holding company), means a company in which the holding company -\n\n(i) controls the composition of the Board of Directors; or\n\n(ii) exercises or controls more than one-half of the total voting power either at its own or together with one or more of its subsidiary companies:\n\nTaking into account the above provision, X Limited, Y Limited and Z Limited are the subsidiary companies of Moon Pharma Limited.\n\nRegarding the question, Mr. Avinash who is a Whole Time Director (KMP) in Moon Pharma Limited, wants to get appointed as Whole Time Director in X Limited and Y Limited.\n\nSection 203(3) of the Companies Act, 2013 provides that whole time key managerial personnel shall not hold office in more than one company except in its subsidiary company at the same time.\n\nIt can be noted that section 13 of the General Clauses Act, 1897 provides that the word 'singular' shall include the 'plural', unless there is anything repugnant to the subject or the context. Thus, a whole time key managerial personnel may hold office in more than one subsidiary company as per the present law.\n\nHence, Mr. Avinash can hold office of Whole Time Director also in X Limited and Y Limited.\n\nExam Insights: Many students missed the combined reading of the General Clauses Act and the Companies Act and ended up giving a generic restriction on whole-time directorships. Always apply the statutory exception - a whole-time director can hold the same position in multiple subsidiaries-before concluding.",
+          "chapter_number": "13",
+          "chapter_name": "THE GENERAL CLAUSES ACT, 1897",
+          "unique_id": "13-T-42",
+          "or_group": "Q2c_v1_v2",
+          "question_id": "B-Q2-Q2c_v1"
+        },
+        {
+          "label": "c_v2",
+          "marks": 5,
+          "internal_split": null,
+          "question": "[Old Version - v2] Explain various provisions applicable to rules or bye-laws being made after previous publications as enumerated in Section-23 of the General Clauses Act, 1897. (MTP 4 Marks Aug'24,MP[5],PYP 4 Marks Sep'25)",
           "answer": "Provisions applicable to making of rules or bye-laws after previous publications [Section 23 of the General Clauses Act, 1897]:\n\nWhere, by any Central Act or Regulation, a power to make rules or bye- laws is expressed to be given subject to the condition of the rules or bye-laws being made after previous publication, then the following provisions shall apply, namely: -\n\n(1) Publish of proposed draft rules/ bye- laws: The authority having power to make the rules or bye-laws shall, before making them, publish a draft of the proposed rules or bye-laws for the information of persons likely to be affected thereby;\n\n(2) To publish in the prescribed manner: The publication shall be made in such manner as that authority deems to be sufficient, or, if the condition with respect to previous publication so requires, in such manner as the Government concerned prescribes;\n\n(3) Notice annexed with the published draft: There shall be published with the draft a notice specifying a date on or after which the draft will be taken into consideration;\n\n(4) Consideration on suggestions/objections received from other authorities: The authority having power to make the rules or bye- laws, and, where the rules or bye-laws are to be made with the sanction, approval or concurrence of another authority, that authority also shall consider any objection or suggestion which may be received by the authority having power to make the rules or bye-laws from any person with respect to the draft before the date so specified;\n\n(5) Notified in the official gazette: The publication in the Official Gazette of a rule or bye-law purporting to have been made in exercise of a power to make rules or bye-laws after previous publication shall be conclusive proof that the rule or bye-laws have been duly made.",
           "chapter_number": "13",
           "chapter_name": "THE GENERAL CLAUSES ACT, 1897",
-          "unique_id": "13-T-48"
+          "unique_id": "13-T-48",
+          "or_group": "Q2c_v1_v2",
+          "question_id": "B-Q2-Q2c_v2"
         }
       ]
     },
@@ -354,14 +382,28 @@
       "chapter_number": "3",
       "sub_questions": [
         {
-          "label": "a",
+          "label": "a_v1",
           "marks": 5,
           "internal_split": null,
-          "question": "Examine the validity of the following statement with reference to the provisions of the Companies Act, 2013. \"The Articles of Association of X Limited contain a provision that the underwriting commission may be paid up to $4 \\%$ of the issue price of the shares. However, the Board of Directors have decided to pay the underwriting commission of $5 \\%$ to Deal \\& Co., the underwriters.\" (SM)",
+          "question": "[New Version - v1] Swati Limited is intending to issue its securities on private placement basis. Explain to the directors of the company, the provisions of the Companies Act, 2013, on the following matters: (i) Meaning of Private Placement (ii) 'Time Limit for Allotment of Securities' and 'repayment of application money in case of default in allotment.' (MTP 5 Marks March '22)",
+          "answer": "(i) Meaning of 'Private Placement': As per Explanation I to section 42(3), the term \"private placement\" means any offer or invitation to subscribe or issue of securities to a select group of persons by a company (other than by way of public offer) through private placement offer - cum-application, which satisfies the conditions specified in section 42.\n\n(ii) 'Time Limit for Allotment of Securities' and 'repayment of application money in case of default in allotment': A company making an offer or invitation under section 42 shall allot its securities within sixty days from the date of receipt of the application money for such securities and if the company is not able to allot the securities within that period, it shall repay the application money to the subscribers within fifteen days from the expiry of sixty days and if the company fails to repay the application money within the aforesaid period, it shall be liable to repay that money with interest at the rate of twelve per cent per annum from the expiry of the sixtieth day.",
+          "chapter_number": "3",
+          "chapter_name": "PROSPECTUS AND ALLOTMENT OF SECURITIES",
+          "unique_id": "3-T-16",
+          "or_group": "Q3a_v1_v2",
+          "question_id": "B-Q3-Q3a_v1"
+        },
+        {
+          "label": "a_v2",
+          "marks": 5,
+          "internal_split": null,
+          "question": "[Old Version - v2] Examine the validity of the following statement with reference to the provisions of the Companies Act, 2013. \"The Articles of Association of X Limited contain a provision that the underwriting commission may be paid up to $4 \\%$ of the issue price of the shares. However, the Board of Directors have decided to pay the underwriting commission of $5 \\%$ to Deal \\& Co., the underwriters.\" (SM)",
           "answer": "Section 40 (6) of the Companies Act 2013, provides that a company may pay commission to any person in connection with the subscription to its securities, subject to the conditions prescribed under the Companies (Prospectus and Allotment of Securities) Rules, 2014. Rule 13 states that the rate of commission paid or agreed to be paid shall not exceed, in case of shares, five percent $(5 \\%)$ of the price at which the shares are issued or a rate authorised by the articles, whichever is less.\n\nIn the given problem, the articles of X Ltd. have prescribed 4\\% underwriting commission but the directors decided to pay $5 \\%$ underwriting commission.\n\nTherefore, the decision of the Board of Directors to pay $5 \\%$ underwriting commission to the underwriters (i.e. Deal \\& Co.) is invalid.",
           "chapter_number": "3",
           "chapter_name": "PROSPECTUS AND ALLOTMENT OF SECURITIES",
-          "unique_id": "3-T-15"
+          "unique_id": "3-T-15",
+          "or_group": "Q3a_v1_v2",
+          "question_id": "B-Q3-Q3a_v2"
         },
         {
           "label": "b",
@@ -392,14 +434,28 @@
       "chapter_number": "9",
       "sub_questions": [
         {
-          "label": "a",
+          "label": "a_v1",
           "marks": 5,
           "internal_split": null,
-          "question": "With reference to the relevant provisions of the Companies Act, 2013, examine and advise whether New Sales Pvt. Limited is permitted to revise its financial statements for the financial year 2022-23. (PYP 3 Marks Sep'24, RTP Sep'25, Jan'26 MP[8])",
+          "question": "[New Version - v1] Mr. Shyam has advised the Board of New Sales Pvt. Limited to revise the financial statements for the year 2022-23. With reference to the relevant provisions of the Companies Act, 2013, examine and advise whether New Sales Pvt. Limited is permitted to revise its financial statements for the financial year 2022-23.",
           "answer": "As per section 131 of the Companies Act, 2013, if it appears to the directors of a company that: a. the financial statement of the company does not comply with the provisions of section 129; or b. the report of the Board does not comply with the provisions of section 134 they may prepare revised financial statement or board's report in respect of any of the 3 preceding financial years after obtaining the approval of the Tribunal on an application made by the company within fourteen days of the decision taken by the Board. A certified copy of the order of the Tribunal shall be filed with the Registrar of Companies within 30 days of the date of receipt of the certified copy. In the question given, Mr. Shyam has advised the Board of New Sales Pvt. Limited to revise the financial statements for the year 2022-23. The Board of Directors can do so as the said financial statements are pertaining to not later than three preceding financial years (from 2025-2026) and by obtaining the approval of the Tribunal within fourteen days of the decision taken by the Board. Exam insights: Students often miss linking voluntary revision of financial statements to Tribunal approval under section 131. Always mention that Board's revision requires Tribunal sanction to secure full marks.",
           "chapter_number": "9",
           "chapter_name": "DECLARATION AND PAYMENT OF DIVIDEND",
-          "unique_id": "9-T-13"
+          "unique_id": "9-T-13",
+          "or_group": "Q4a_v1_v2",
+          "question_id": "B-Q4-Q4a_v1"
+        },
+        {
+          "label": "a_v2",
+          "marks": 5,
+          "internal_split": null,
+          "question": "[Old Version - v2] With reference to the relevant provisions of the Companies Act, 2013, examine and advise whether New Sales Pvt. Limited is permitted to revise its financial statements for the financial year 2022-23. (PYP 3 Marks Sep'24, RTP Sep'25, Jan'26 MP[8])",
+          "answer": "As per section 131 of the Companies Act, 2013, if it appears to the directors of a company that: a. the financial statement of the company does not comply with the provisions of section 129; or b. the report of the Board does not comply with the provisions of section 134 they may prepare revised financial statement or board's report in respect of any of the 3 preceding financial years after obtaining the approval of the Tribunal on an application made by the company within fourteen days of the decision taken by the Board. A certified copy of the order of the Tribunal shall be filed with the Registrar of Companies within 30 days of the date of receipt of the certified copy. In the question given, Mr. Shyam has advised the Board of New Sales Pvt. Limited to revise the financial statements for the year 2022-23. The Board of Directors can do so as the said financial statements are pertaining to not later than three preceding financial years (from 2025-2026) and by obtaining the approval of the Tribunal within fourteen days of the decision taken by the Board. Exam insights: Students often miss linking voluntary revision of financial statements to Tribunal approval under section 131. Always mention that Board's revision requires Tribunal sanction to secure full marks.",
+          "chapter_number": "9",
+          "chapter_name": "DECLARATION AND PAYMENT OF DIVIDEND",
+          "unique_id": "9-T-13",
+          "or_group": "Q4a_v1_v2",
+          "question_id": "B-Q4-Q4a_v2"
         },
         {
           "label": "b",

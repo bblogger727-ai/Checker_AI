@@ -18,153 +18,30 @@
   },
   "section_a": [
     {
-      "type": "case_study",
+      "unique_id": "10-CS-24",
       "chapter_number": "10",
       "chapter_name": "CASE SCENARIOS",
-      "case_text": "Mr. Akash (aged 47 years) is a CEO of BAC Enterprises (P) Ltd. During the P.Y.2025-26, he has earned the following income -\n\n- Salary of ₹ 45 lakhs\n\n- long-term capital gain on sale of listed equity shares (STT paid) amounting to ₹ $6,54,000$\n\n- dividend of ₹ $12,00,000$ from shares of Indian companies\n\n- interest on saving bank account with SBI of ₹16,000\n\n- interest on fixed deposits with BOB of ₹ 45,000\n\nMr. Akash has made the following payments towards medical insurance premium for health policies taken for his family members:\n\n- Medical premium for his spouse aged $\textbf{4 3}$ years: ₹ $\textbf{1 3 , 5 0 0}$ (by cheque)\n\n- Medical premium for his mother aged 65 years: ₹26,670 (by cheque)\n\n- Preventive health check-up of ₹ 5,500 each for his wife and mother in cash.\n\nMr. Akash also incurred medical expenses, by credit card, of ₹ 17,000 for the treatment of his mother and of ₹ $\textbf{2 7 , 0 0 0}$ for his father who is $\textbf{6 7}$ years old.\n\nHe has multiple life insurance policies. The details of such policies are given hereunder:\n\n| Particulars | X | Y | Z | A | B (Term insurance policy) |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| Date of issue | 1.4.2017 | 1.4.2025 | 1.4.2025 | 1.4.2025 | 1.3.2023 |\n| Annual premium (excluding GST) | ₹ 40,000 | ₹ 3,00,000 | ₹ 2,00,000 | ₹ 2,50,000 | ₹80,000 |\n| GST@18% | ₹ 7,200 | ₹ 54,000 | ₹ 36,000 | ₹ 45,000 | 14,400 |\n| Total premium | ₹ 47,200 | ₹ 3,54,000 | ₹ 2,36,000 | ₹ 2,95,000 | ₹ 94,400 |\n| Date of maturity | 31.3.2026 | 31.3.2033 | 31.3.2034 | 31.3.2033 | 28.3.2056 |\n| Consideration received on maturity (including bonus) | ₹ 7,00,000 | ₹ 36,00,000 | ₹ 28,00,000 | ₹ 30,00,000 | - |\n| Sum assured | ₹ 5,00,000 | ₹ 33,00,000 | ₹ 25,00,000 | ₹ 27,00,000 | ₹ 2,00,00,000 |\n\nOn the basis of the facts given above, choose the most appropriate answer to Q. 1 to Q. 5 below, based on the provisions of the Income-tax Act, 1961 -\n\n1. Which are the life insurance policies in respect of which Mr. Akash would be eligible for exemption under section 10(10D) in respect of maturity proceeds? Choose the option most beneficial to Mr. Akash. (Chapter Deductions from Gross Total Income)\n\n(a) $X, Y$ and $Z$\n\n(b) $X$ and $Y$\n\n(c) $X, Z$ and $A$\n\n(d) Y and Z\n\nAns: (a)\n\n2. What would be your answer to MCQ 1, if Mr. Akash surrendered LIC A in A.Y. 2027-28 and claimed exemption under section $10(10 \\mathrm{D})$ in respect of such LIC? This information is only for the purpose of this MCQ. (Chapter Deductions from Gross Total Income)\n\n(a) $\text{X}, \text{Y}$ and Z\n\n(b) $X$ and $Y$\n\n(c) $X, Z$ and $A$\n\n(d) Y and Z\n\nAns: (c)\n\n3. What would be the amount of deduction available to Mr. Akash under Chapter VI-A for the A.Y. 2026$\textbf{2 7}$ if he has exercised the option to shift out of the default tax regime? (Chapter Deductions from Gross Total Income)\n\n(a) ₹ 82,170\n\n(b) ₹ 78,500\n\n(c) ₹ $2,28,500$\n\n(d) ₹ $2,32,170$\n\nAns: (c)\n\n4. What is Mr. Akash's tax liability for A.Y.2026-27 under the default tax regime under section 115BAC? (chapter Basic Concepts)\n\n(a) ₹ 16,97,350\n\n(b) ₹ $15,46,600$\n\n(c) ₹ $18,41,270$\n\n(d) ₹ $18,84,170$\n\nAns: (b)\n\n5. What is Mr. Akash's tax liability for A.Y.2026-27 if he has exercised the option to shift out of the default tax regime? (chapter Basic Concepts)\n\n(a) ₹ 17,42,740\n\n(b) ₹ $18,93,720$\n\n(c) ₹ $17,29,210$\n\n(d) ₹ $17,27,500$\n\nAns: (a)",
+      "category": "Case Study",
+      "cs_num": 24,
+      "case_text": "## CS 24 (RTP May'25)\n\nMr. Raj, aged 38 years, an Indian citizen, is carrying on manufacturing business in Canada. He frequently visits India for business purpose on a regular basis. He was in India for the first time in the year 2022-23 for 190 days, in the year 2023-24 for 145 days and in the year 2024-25 for 155 days.\n\nAfterwards he decided to close his business in Canada and shift permanently in India. So, he came to India on 1.11.2025 and started a business in Mumbai. His profits from business in Canada till 31.10.2025 is ₹15 lakhs and from Indian business is ₹ 5 lakhs.\n\nHe does not own any house property in Mumbai and is staying in a rented accommodation from 1.11.2025 on a monthly rent of ₹20,000. He made a donation of ₹50,000 to PM Cares Fund and donation of ₹ 20,000 to Prime Minister's Drought Relief Fund by cheque during the P.Y. 2025-26.\n\nHe had purchased 10,000, 9% debentures of ABC (P) Ltd. in August 2020 @₹ 150 each. Face value of each debenture is ₹100. He sold 2,500 debentures in April, 2025 @ ₹ 175 each and remaining 7,500 debentures in August, 2025 @155 each. Interest on debenture is due on 30th June and 31st December of every year.\n\nCII - F.Y. 2020-21: 301; F.Y. 2025-26: 376\n\nMr. Raj follows cash basis of accounting, and he wants to opt out of the default tax regime under section 115BAC.\n\nBased on the facts of the case scenario given above, choose the most appropriate answer to the following questions:\n\n(Chapter 2: Residence and Scope of Total Income)\n\n\n1. What is the residential status of Mr. Raj for the previous year 2025-26?\n\n(a) Resident but not ordinarily resident\n\n(b) Resident and ordinary resident\n\n(c) Non-resident\n\n(d) Deemed resident\n\n\nAns: (a)\n\n2. What is the amount of capital gains chargeable to tax in the hands of Mr. Raj on sale of debentures for the P.Y. 2024-25? (Chapter 3 Unit 4: Capital Gains)\n\n(a) LTCG of ₹ $1,00,000$\n\n(b) LTCG of (₹ 14,750 ) and STCG of ₹37,500\n\n(c) LTCG of (₹ $2,09,000$ )\n\n(d) STCG of ₹1,00,000\n\n\nAns: (d)\n\n3. What will be the gross total income of Mr. Raj for the A.Y. 2026-27? (Chapter 9: Income Tax Liability Computation and Optimisation)\n\n(a) ₹21,00,000\n\n(b) ₹ $6,33,750$\n\n(c) ₹ $5,37,500$\n\n(d) $₹ 5,71,500$\n\n\nAns: (b)\n\n4. What is the amount of deduction available under Chapter VI-A to Mr. Raj for A.Y. 2026-27? (Chapter 6: Deductions from Gross Total Income)\n\n(a) ₹ 60,000\n\n(b) ₹ 85,000\n\n(c) $₹ 70,000$\n\n(d) ₹ $1,20,000$\n\n\nAns: (b)",
       "questions": [
         {
           "q_num": 1,
-          "question": "Which are the life insurance policies in respect of which Mr. Akash would be eligible for exemption under section 10(10D) in respect of maturity proceeds? Choose the option most beneficial to Mr. Akash. (Chapter Deductions from Gross Total Income)",
+          "question": "What is the residential status of Mr. Raj for the previous year 2025-26?",
           "options": {
-            "a": "$X, Y$ and $Z$",
-            "b": "$X$ and $Y$",
-            "c": "$X, Z$ and $A$",
-            "d": "Y and Z"
+            "a": "Resident but not ordinarily resident",
+            "b": "Resident and ordinary resident",
+            "c": "Non-resident",
+            "d": "Deemed resident"
           },
           "correct_option": "a",
-          "answer": "(a)",
-          "verdict": null
+          "answer": "a",
+          "verdict": null,
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v1"
         },
         {
-          "q_num": 2,
-          "question": "What would be your answer to MCQ 1, if Mr. Akash surrendered LIC A in A.Y. 2027-28 and claimed exemption under section $10(10 \\mathrm{D})$ in respect of such LIC? This information is only for the purpose of this MCQ. (Chapter Deductions from Gross Total Income)",
-          "options": {
-            "a": "$\\mathrm{X}, \\mathrm{Y}$ and Z",
-            "b": "$X$ and $Y$",
-            "c": "$X, Z$ and $A$",
-            "d": "Y and Z"
-          },
-          "correct_option": "c",
-          "answer": "(c)",
-          "verdict": null
-        },
-        {
-          "q_num": 3,
-          "question": "What would be the amount of deduction available to Mr. Akash under Chapter VI-A for the A.Y. 2026$\textbf{2 7}$ if he has exercised the option to shift out of the default tax regime? (Chapter Deductions from Gross Total Income)",
-          "options": {
-            "a": "₹ 82,170",
-            "b": "₹ 78,500",
-            "c": "₹ $2,28,500$",
-            "d": "₹ $2,32,170$"
-          },
-          "correct_option": "c",
-          "answer": "(c)",
-          "verdict": null
-        },
-        {
-          "q_num": 4,
-          "question": "What is Mr. Akash's tax liability for A.Y.2026-27 under the default tax regime under section 115BAC? (chapter Basic Concepts)",
-          "options": {
-            "a": "₹ 16,97,350",
-            "b": "₹ $15,46,600$",
-            "c": "₹ $18,41,270$",
-            "d": "₹ $18,84,170$"
-          },
-          "correct_option": "b",
-          "answer": "(b)",
-          "verdict": null
-        },
-        {
-          "q_num": 5,
-          "question": "What is Mr. Akash's tax liability for A.Y.2026-27 if he has exercised the option to shift out of the default tax regime? (chapter Basic Concepts)",
-          "options": {
-            "a": "₹ 17,42,740",
-            "b": "₹ $18,93,720$",
-            "c": "₹ $17,29,210$",
-            "d": "₹ $17,27,500$"
-          },
-          "correct_option": "a",
-          "answer": "(a)",
-          "verdict": null
-        }
-      ],
-      "mcq_count": 5,
-      "unique_id": "10-CS-8"
-    },
-    {
-      "type": "case_study",
-      "chapter_number": "10",
-      "chapter_name": "CASE SCENARIOS",
-      "case_text": "## CS 14 (RTP May'21 \\& MTP 10 Marks Oct'23, Jul'25)\n\nMr. Sarthak, aged 38 years, working in Nobita Pvt. Limited as Senior Manager- Finance. His yearly pay slip for the financial year 2025-26 is as follows:\n\n\n| Earnings | Total | Deduction | Total |\n| :--- | :--- | :--- | :--- |\n| Basic Pay | 6,34,068 | Employee's contribution to Provident Fund | 1,14,132 |\n| Dearness allowance | 1,26,814 | Profession tax | 2,400 |\n| HRA | 3,17,040 | Income-tax | 2,32,830 |\n| Transport Allowance | 19,200 | Net Pay | 13,03,848 |\n| Personal Allowance | 5,09,088 |  |  |\n| Children Education Allowance for two children | 12,000 |  |  |\n| Medical Allowance | 15,000 |  |  |\n| Bonus | 20,000 |  |  |\n| Total Earnings | 16,53,210 |  | $\\underline{16,53,210}$ |\n\n\n(i) His employer also contributes equivalent amount of contribution towards provident fund.\n\n(ii) Dearness allowance forms part of retirement benefits.\n\n(iii) He has intimated to his company that he would opt for 115BAC for the A.Y. 2026-27. Consequently, he has not submitted any investment proof to company.\n\n(iv) He has paid ₹ 55,212 towards Mediclaim premium for his parents (aged above 65 years) by account payee\ncheque.\n\n(v) He has purchased a house of ₹ $28,00,000$ and taken a loan of ₹ $21,00,000$ from HDFC. He is paying EMI of $₹ 22,835$. Possession of house received on $01 / 04 / 2025$. He himself is occupying this house. Total principal and interest paid for full year is ₹ 55,037 and ₹ $2,18,983$ respectively as per interest certificate received from bank for F.Y. 2025-26.\n\n(vi) He has 3 children, studying in Sandalwood International School. The following are the components of school fees paid for the Academic Session 2025-26:\n\n\n| School Fees Component | Child 1 | Child 2 | Child 3 | Total |\n| :--- | :--- | :--- | :--- | :--- |\n| Tuition fees | 30,000 | 37,000 | 40,000 | 1,07,000 |\n| Admission fees | 20,000 | - | - | 20,000 |\n| Books, stationery and uniform | 8,000 | 12,000 | 15,000 | 35,000 |\n| Infrastructure Fund | 25,000 | 30,000 | 35,000 | 90,000 |\n| Commute cost | 8,000 | 8,000 | 8,000 | 24,000 |\n| Activity Fees | 6,000 | 7,000 | 8,000 | 21,000 |\n| Total Fees | 97,000 | 94,000 | 1,06,000 | 2,97,000 |\n\n\n(vii) He has invested ₹ 5000 in HDFC ULIP and taken a LIC policy for his wife for ₹ 10,000.\n\n(viii) He has invested ₹ 12,500 and ₹ 25,000 towards NPS Tier I A/c and Tier II A/c, respectively.\n\n(ix) He has also donated ₹ 50,000 in PM Cares fund created for relief from COVID-19 pandemic in India.\n\n(x) He has invested ₹ 40,000 in listed equity shares of Shaktimaan Power Solution Limited on 01/03/2025 at $₹ 200$ per share and sells 100 shares at $₹ 350$ per share on $01 / 07 / 2025$. STT is paid both at the time of sale and purchase of these shares.\n\nBased on the above facts, choose the most appropriate Answer to Q. Nos. 1 to 5:\n\n\n1. What would be the amount of income chargeable to tax under the head \"Salaries\" in the hands of Mr. Sarthak for the A.Y. 2026-27? (Chapter 4.1 Salaries)\n\n(a) ₹ $16,53,210$\n\n(b) ₹ 16,21,236\n\n(c) $₹ 16,01,036$\n\n(d) ₹ $16,71,236$\n\n\nAns: (c)\n\n2. Whether the tax deducted at source by Nobita Pvt Ltd. On the salary paid to Mr. Sarthak based on the intimation submitted by him, is correct? (Chapter 9 Advance Tax, Tax Deducted at Source \\& Introduction to Tax Collection at Source)\n\n(a) Yes, the amount of ₹ $2,32,830$ deducted as tax at source is correct.\n\n(b) No, the correct amount of tax to be deducted at source is ₹ $1,25,015$.\n\n(c) No, the correct amount of tax to be deducted at source is ₹ $2,42,800$.\n\n(d) No, the correct amount of tax to be deducted at source is ₹ $2,41,300$.\n\n\nAns: (b)\n\n3. What would be the total income (without rounding off) of Mr. Ram for the A.Y. 2026-27, assume that he does not opt for section 115BAC? (Chapter 8 Computation of Total Income \\& Tax Payable)\n\n(a) ₹ $11,73,736$\n\n(b) ₹ $11,76,699$\n\n(c) ₹ $11,61,699$\n\n(d) ₹ $11,58,736$\n\n\nAns: (a)\n\n4. What would be tax liability of Mr. Sarthak for the A.Y. 2026-27, if he does not opt for section 115BAC? (Chapter 1 Basic Concepts)\n\n(a) ₹ $1,66,530$\n\n(b) ₹ $1,68,870$\n\n(c) $₹ 1,71,210$\n\n(d) ₹ $1,67,450$\n\n\nAns: (b)\n\n5. Assuming for the purpose of Answering this Question only that no contribution is made by Mr. Sarthak and his employer towards provident fund, what amount of deduction is available to Mr. Sarthak under Chapter VI-A for the previous year 2025-26, if he does not opt for section 115BAC? (chapter 7 Deductions from Gross Total Income)\n\n(a) ₹ $2,62,500$\n\n(b) ₹ $2,59,537$\n\n(c) $₹ 2,50,000$\n\n(d) ₹ $2,04,500$\n\n\nAns: (b)\n\n\nMr. Raj, aged 45 years, commenced operations of the business of a new three-star hotel in Mumbai, Maharashtra on 1.4.2025. He incurred capital expenditure of ₹ 90 lakh on land in March, 2025 exclusively for the above business, and capitalized the same in his books of account as on 1st April, 2025. Further, during the P.Y. 2025-26, he incurred capital expenditure of ₹ 2.50 crore (out of which ₹ 1 crore was for acquisition of land and ₹ $\\mathbf{1 . 5 0}$ crore was for acquisition of building) exclusively for the above business. The payments in respect of the above expenditure were made by account payee cheque. The profits from the business of running this hotel (before claiming deduction under section 35AD) for the A.Y.2026-27 is ₹ 75 lakh. Mr. Raj is not opting for section 115BAC.\n\nMr. Viraj, brother of Mr. Raj, has commenced the business of manufacture of apparel on 1.10 .2025 . He employed 220 new employees during the P.Y.2025-26, the details of whom are as follows -\n\n\n|  | No. of employees | Date of employment | Regular/ Casual | Total monthly emoluments per employee (₹) |\n| :--- | :--- | :--- | :--- | :--- |\n| (i) | 40 | 1.10.2025 | Regular | 24,000 |\n| (ii) | 80 | 1.10.2025 | Regular | 24,500 |\n| (iii) | 50 | 1.11.2025 | Casual | 25,500 |\n| (iv) | 30 | 1.11.2025 | Regular | 25,000 |\n| (v) | 20 | 1.12.2025 | Casual | 24,000 |\n\n\nAll regular employees participate in Recognized Provident Fund and their emoluments are paid by account payee cheque. The profits and gains derived from manufacture of apparel that year is ₹ 80 lakhs and his total turnover is ₹ 11 crores.\n\nBased on the facts of the case scenario given above, choose the most appropriate answer to the following questions:\n\n\n1. Assuming that Mr. Raj has fulfilled all the conditions specified for claim of deduction under section 35AD and has not claimed any deduction under Chapter VI-A under the heading \"C. - Deductions in respect of certain incomes\", what would be the quantum of deduction under section 35AD, which he is eligible to claim as deduction for A.Y.2026-27? (Chapter: Profits \\& Gains from Business Profession)\n\n(a) ₹ 340 lakh\n\n(b) ₹ 250 Jakh\n\n(c) ₹ 190 lakh\n\n(d) ₹ 150 lakh\n\n\nAns: (d)\n\n2. Assuming that Mr. Raj also has another existing business of running a four-star hotel in Ahmedabad, which commenced operations twenty years back, the profits from which are ₹ 130 lakh for the A.Y.2026-27, what would be its income chargeable/loss under the head \"Profits and gains of business or profession\" for the A.Y.2026-27? (Chapter: Profits \\& Gains from Business Profession)\n\n(a) ₹ 130 lakh\n\n(b) ₹ 55 lakh\n\n(c) (₹ 20 lakh)\n\n(d) ₹ 15 lakh\n\n\nAns: (b)\n\n3. If, out of the amount of ₹ 1 crore paid for acquisition of land in the P.Y.2025-26, ₹ 50 lakh was paid by way of cash, what would be the answer to questions (i) and (ii) above? (Chapter: Profits \\& Gains from Business Profession)\n\n(a) ₹ 150 lakh; ₹ 55 lakh, respectively\n\n(b) ₹ 100 lakh; ₹ 105 lakh, respectively\n\n(c) ₹ 290 lakh; (₹ 85 lakh), respectively\n\n(d) ₹ 140 lakh; ₹ 65 lakh, respectively\n\n\nAns: (a)\n\n4. Considering the assumption given in question (ii) above, what would be the tax payable (rounded off) by Mr. Raj for A.Y.2025-26? (Chapter: Basic Concepts)\n\n(a) ₹ $16,73,100$\n\n(b) ₹ 42,03,940\n\n(c) ₹ $2,73,000$\n\n(d) ₹ $15,21,000$\n\n\nAns: (b)\n\n5. Would Mr. Viraj be eligible for deduction under section 80JJAA in the A.Y.2026-27? If so, what is the quantum of deduction? (Chapter: Deductions from Gross Total Income)\n\n(a) No, he would not be eligible for deduction u/s 80JJAA since the employees have not been employed for 240 days in the P.Y.2024-25.\n\n(b) Yes; ₹ $63,81,000$\n\n(c) Yes; ₹ $58,68,000$\n\n(d) Yes; ₹ 52,56,000\n\n\nAns: (b)",
-      "questions": [
-        {
-          "q_num": 1,
-          "question": "What would be the amount of income chargeable to tax under the head \"Salaries\" in the hands of Mr. Sarthak for the A.Y. 2026-27? (Chapter 4.1 Salaries)",
-          "options": {
-            "a": "₹ $16,53,210$",
-            "b": "₹ 16,21,236",
-            "c": "$₹ 16,01,036$",
-            "d": "₹ $16,71,236$"
-          },
-          "correct_option": "c",
-          "answer": "(c)",
-          "verdict": null
-        },
-        {
-          "q_num": 2,
-          "question": "Whether the tax deducted at source by Nobita Pvt Ltd. On the salary paid to Mr. Sarthak based on the intimation submitted by him, is correct? (Chapter 9 Advance Tax, Tax Deducted at Source \\& Introduction to Tax Collection at Source)",
-          "options": {
-            "a": "Yes, the amount of ₹ $2,32,830$ deducted as tax at source is correct.",
-            "b": "No, the correct amount of tax to be deducted at source is ₹ $1,25,015$.",
-            "c": "No, the correct amount of tax to be deducted at source is ₹ $2,42,800$.",
-            "d": "No, the correct amount of tax to be deducted at source is ₹ $2,41,300$."
-          },
-          "correct_option": "b",
-          "answer": "(b)",
-          "verdict": null
-        },
-        {
-          "q_num": 3,
-          "question": "What would be the total income (without rounding off) of Mr. Ram for the A.Y. 2026-27, assume that he does not opt for section 115BAC? (Chapter 8 Computation of Total Income \\& Tax Payable)",
-          "options": {
-            "a": "₹ $11,73,736$",
-            "b": "₹ $11,76,699$",
-            "c": "₹ $11,61,699$",
-            "d": "₹ $11,58,736$"
-          },
-          "correct_option": "a",
-          "answer": "(a)",
-          "verdict": null
-        },
-        {
-          "q_num": 4,
-          "question": "What would be tax liability of Mr. Sarthak for the A.Y. 2026-27, if he does not opt for section 115BAC? (Chapter 1 Basic Concepts)",
-          "options": {
-            "a": "₹ $1,66,530$",
-            "b": "₹ $1,68,870$",
-            "c": "$₹ 1,71,210$",
-            "d": "₹ $1,67,450$"
-          },
-          "correct_option": "b",
-          "answer": "(b)",
-          "verdict": null
-        },
-        {
-          "q_num": 5,
-          "question": "Assuming for the purpose of Answering this Question only that no contribution is made by Mr. Sarthak and his employer towards provident fund, what amount of deduction is available to Mr. Sarthak under Chapter VI-A for the previous year 2025-26, if he does not opt for section 115BAC? (chapter 7 Deductions from Gross Total Income)",
-          "options": {
-            "a": "₹ $2,62,500$",
-            "b": "₹ $2,59,537$",
-            "c": "$₹ 2,50,000$",
-            "d": "₹ $2,04,500$"
-          },
-          "correct_option": "b",
-          "answer": "(b)",
-          "verdict": null
-        },
-        {
-          "q_num": 1,
+          "q_num": "1_v2",
           "question": "Assuming that Mr. Raj has fulfilled all the conditions specified for claim of deduction under section 35AD and has not claimed any deduction under Chapter VI-A under the heading \"C. - Deductions in respect of certain incomes\", what would be the quantum of deduction under section 35AD, which he is eligible to claim as deduction for A.Y.2026-27? (Chapter: Profits \\& Gains from Business Profession)",
           "options": {
             "a": "₹ 340 lakh",
@@ -174,10 +51,28 @@
           },
           "correct_option": "d",
           "answer": "(d)",
-          "verdict": null
+          "verdict": null,
+          "_serial": "1_v2",
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v2"
         },
         {
           "q_num": 2,
+          "question": "What is the amount of capital gains chargeable to tax in the hands of Mr. Raj on sale of debentures for the P.Y. 2024-25?",
+          "options": {
+            "a": "LTCG of ₹ $1,00,000$",
+            "b": "LTCG of (₹ 14,750 ) and STCG of ₹37,500",
+            "c": "LTCG of (₹ $2,09,000$ )",
+            "d": "STCG of ₹1,00,000"
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null,
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v1"
+        },
+        {
+          "q_num": "2_v2",
           "question": "Assuming that Mr. Raj also has another existing business of running a four-star hotel in Ahmedabad, which commenced operations twenty years back, the profits from which are ₹ 130 lakh for the A.Y.2026-27, what would be its income chargeable/loss under the head \"Profits and gains of business or profession\" for the A.Y.2026-27? (Chapter: Profits \\& Gains from Business Profession)",
           "options": {
             "a": "₹ 130 lakh",
@@ -187,10 +82,28 @@
           },
           "correct_option": "b",
           "answer": "(b)",
-          "verdict": null
+          "verdict": null,
+          "_serial": "2_v2",
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v2"
         },
         {
           "q_num": 3,
+          "question": "What will be the gross total income of Mr. Raj for the A.Y. 2026-27?",
+          "options": {
+            "a": "₹21,00,000",
+            "b": "₹ $6,33,750$",
+            "c": "₹ $5,37,500$",
+            "d": "$₹ 5,71,500$"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v1"
+        },
+        {
+          "q_num": "3_v2",
           "question": "If, out of the amount of ₹ 1 crore paid for acquisition of land in the P.Y.2025-26, ₹ 50 lakh was paid by way of cash, what would be the answer to questions (i) and (ii) above? (Chapter: Profits \\& Gains from Business Profession)",
           "options": {
             "a": "₹ 150 lakh; ₹ 55 lakh, respectively",
@@ -200,10 +113,28 @@
           },
           "correct_option": "a",
           "answer": "(a)",
-          "verdict": null
+          "verdict": null,
+          "_serial": "3_v2",
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v2"
         },
         {
           "q_num": 4,
+          "question": "What is the amount of deduction available under Chapter VI-A to Mr. Raj for A.Y. 2026-27?",
+          "options": {
+            "a": "₹ 60,000",
+            "b": "₹ 85,000",
+            "c": "$₹ 70,000$",
+            "d": "₹ $1,20,000$"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "or_group": "MCQ_4_v1_v2",
+          "question_id": "A-MCQ-4_v1"
+        },
+        {
+          "q_num": "4_v2",
           "question": "Considering the assumption given in question (ii) above, what would be the tax payable (rounded off) by Mr. Raj for A.Y.2025-26? (Chapter: Basic Concepts)",
           "options": {
             "a": "₹ $16,73,100$",
@@ -213,10 +144,368 @@
           },
           "correct_option": "b",
           "answer": "(b)",
-          "verdict": null
+          "verdict": null,
+          "_serial": "4_v2",
+          "or_group": "MCQ_4_v1_v2",
+          "question_id": "A-MCQ-4_v2"
+        }
+      ]
+    },
+    {
+      "unique_id": "10-CS-28",
+      "chapter_number": "10",
+      "chapter_name": "CASE SCENARIOS",
+      "category": "Case Study",
+      "cs_num": 28,
+      "case_text": "Reenu, a resident individual aged \\( \\textbf{4 8} \\) years, owns 2 flats (A and B) in Hyderabad. She lives in flat A and gave flat B to her in-laws for their residential purposes. She does not charge any rent from them. In the month of April 2025, she entered into an agreement to buy flat C from a builder in the same area as her other flats are situated. In the month of September 2025, she took possession of flat C and started spending her weekends there after paying a token amount of \\( ₹ 11,000 \\) to the builder. However, flat C is still not registered in her name. All the three flats are identical in size and other aspects.\n\nShe had one more flat D which was let out at a monthly rent of \\( ₹ 45,000 \\) to Mr. Shubh during the financial year 2022-23 (from 01.04.2022 to 31.03.2023). Mr. Shubh did not pay rent for 3 months. Reenu sold the flat on 31.03.2025.\n\nShe owned \\( \\textbf{5 , 0 0 0} \\) shares of PQR Ltd. (listed on a recognised stock exchange in India), an Indian company which were acquired on 01.02 .2023 for \\( ₹ 180 \\) per share. On 01.01.2026, the company bought 2,000 shares back from her and paid \\( ₹ 420 \\) per share to Reenu.",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Which of the following statements is correct as far as the taxability of income from house property is concerned? (Ch : 3.2 Unit 2: Income from House Property)",
+          "options": {
+            "a": "Any two flats (of her choice) will be treated as self-occupied whereas the third flat will be treated as deemed to be let out.",
+            "b": "One flat (of her choice) will be treated as self-occupied whereas the other two flats will be treated as deemed to be let out.",
+            "c": "Flat A will be treated as self-occupied, flat B will be treated as deemed to be let out and flat C will not have any impact on her income as the flat is not yet registered in her name.",
+            "d": "All three flats will be treated as self-occupied."
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v1"
+        },
+        {
+          "q_num": "1_v2",
+          "question": "Assuming that Mr. Raj has fulfilled all the conditions specified for claim of deduction under section 35AD and has not claimed any deduction under Chapter VI-A under the heading \"C. - Deductions in respect of certain incomes\", what would be the quantum of deduction under section 35AD, which he is eligible to claim as deduction for A.Y.2026-27? (Chapter: Profits \\& Gains from Business Profession)",
+          "options": {
+            "a": "₹ 340 lakh",
+            "b": "₹ 250 Jakh",
+            "c": "₹ 190 lakh",
+            "d": "₹ 150 lakh"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null,
+          "_serial": "1_v2",
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v2"
+        },
+        {
+          "q_num": 2,
+          "question": "Assume Shubh pays the arrear rent to Reenu on 28th June 2025. What shall be the treatment of such rent received if she had to spend ₹ 5,000 for such collection? (Ch : 3.2 Unit 2: Income from House Property )",
+          "options": {
+            "a": "₹ $1,30,000$ shall be taxable in the hands of Reenu as income from other sources in the P.Y. 2025-26 as she is not the owner of the flat anymore.",
+            "b": "Nothing shall be taxable in the hands of Reenu as she is not the owner of the flat anymore.",
+            "c": "₹ 94,500 shall be taxable in the hands of Reenu as income from house property in the P.Y. 2025-26, even if she is not the owner of the flat anymore.",
+            "d": "₹ 89,500 shall be taxable in the hands of Reenu as income from house property in the P.Y. 2025-26, even if she is not the owner of the flat anymore."
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v1"
+        },
+        {
+          "q_num": "2_v2",
+          "question": "Assuming that Mr. Raj also has another existing business of running a four-star hotel in Ahmedabad, which commenced operations twenty years back, the profits from which are ₹ 130 lakh for the A.Y.2026-27, what would be its income chargeable/loss under the head \"Profits and gains of business or profession\" for the A.Y.2026-27? (Chapter: Profits \\& Gains from Business Profession)",
+          "options": {
+            "a": "₹ 130 lakh",
+            "b": "₹ 55 lakh",
+            "c": "(₹ 20 lakh)",
+            "d": "₹ 15 lakh"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": "2_v2",
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v2"
+        },
+        {
+          "q_num": 3,
+          "question": "Which of the following statements is correct as far as the taxability of buy-back of shares by PQR Ltd. is concerned? (Cost Inflation Index: F.Y. 2021-22:317; F.Y. 2024-25:363) (Ch: 3.4 Unit 4: Capital Gains)",
+          "options": {
+            "a": "$₹ 8,40,000$ will be treated as deemed dividend in the hands of Reenu.",
+            "b": "PQR Ltd. shall be liable to pay ₹ $1,95,686$ as additional income-tax and the income arising in respect of such buy-back shall be exempt in the hands of Reenu.",
+            "c": "₹ $4,80,000$ will be treated as long-term capital gains in the hands of Reenu and it will be taxable at the rate of $12.5 \\%$ after deducting ₹ $1,25,000$ from the LTCG.",
+            "d": "₹ $4,80,000$ will be treated as deemed dividend in the hands of Reenu."
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v1"
+        },
+        {
+          "q_num": "3_v2",
+          "question": "If, out of the amount of ₹ 1 crore paid for acquisition of land in the P.Y.2025-26, ₹ 50 lakh was paid by way of cash, what would be the answer to questions (i) and (ii) above? (Chapter: Profits \\& Gains from Business Profession)",
+          "options": {
+            "a": "₹ 150 lakh; ₹ 55 lakh, respectively",
+            "b": "₹ 100 lakh; ₹ 105 lakh, respectively",
+            "c": "₹ 290 lakh; (₹ 85 lakh), respectively",
+            "d": "₹ 140 lakh; ₹ 65 lakh, respectively"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "_serial": "3_v2",
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v2"
+        }
+      ]
+    },
+    {
+      "unique_id": "26-CS-20",
+      "chapter_number": "26",
+      "chapter_name": "CASE SCENARIOS",
+      "category": "Case Study",
+      "cs_num": 20,
+      "case_text": "M/s. Veena & Co. of Jabalpur was registered under GST under composition scheme. Outward Supply of the firm for the month of July 20XX was ₹ 10 lakh, out of which ₹ 2 lakh was supply of services. In the preceding financial year, the firm was doing trading of taxable goods only. Turnover of the concern for the previous financial year was ₹ 100 lakh.\n\nThe firm imported the following services during August, 20XX:\n\n(a) Architect services from Mr. Vinod, a partner of the firm, who resides in France for ₹ 1,00,000. The said service was paid but not used for the furtherance of the business.\n\n(b) Management consultancy services from Mr. Lal, a renowned lawyer in Sweden, who was an ex-employee of the firm. The value of the said service was ₹ 3,00,000. Even though it was used in the furtherance of the business, no consideration was paid by the firm.\n\nAggregate Turnover of the firm crossed the limit of ₹ 150 lakh on 25.09.20XX from which date the firm was liable to pay tax under a regular scheme.\n\nAll the amounts given above are exclusive of taxes wherever applicable. All the supply referred above is intra-State unless specified otherwise.",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Tax liability of Veena & Co. for the month of July 20XX is ₹ each under CGST and SGST.",
+          "options": {
+            "a": "5,000",
+            "b": "9,000",
+            "c": "10,000",
+            "d": "14,000"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null,
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v1"
+        },
+        {
+          "q_num": "1_v2",
+          "question": "Assuming that Mr. Raj has fulfilled all the conditions specified for claim of deduction under section 35AD and has not claimed any deduction under Chapter VI-A under the heading \"C. - Deductions in respect of certain incomes\", what would be the quantum of deduction under section 35AD, which he is eligible to claim as deduction for A.Y.2026-27? (Chapter: Profits \\& Gains from Business Profession)",
+          "options": {
+            "a": "₹ 340 lakh",
+            "b": "₹ 250 Jakh",
+            "c": "₹ 190 lakh",
+            "d": "₹ 150 lakh"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null,
+          "_serial": "1_v2",
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v2"
+        },
+        {
+          "q_num": 2,
+          "question": "Import of services by Veena & Co. that will be treated as supply is ₹ _____.",
+          "options": {
+            "a": "Nil",
+            "b": "₹ 1,00,000",
+            "c": "₹ 3,00,000",
+            "d": "₹ 4,00,000"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v1"
+        },
+        {
+          "q_num": "2_v2",
+          "question": "Assuming that Mr. Raj also has another existing business of running a four-star hotel in Ahmedabad, which commenced operations twenty years back, the profits from which are ₹ 130 lakh for the A.Y.2026-27, what would be its income chargeable/loss under the head \"Profits and gains of business or profession\" for the A.Y.2026-27? (Chapter: Profits \\& Gains from Business Profession)",
+          "options": {
+            "a": "₹ 130 lakh",
+            "b": "₹ 55 lakh",
+            "c": "(₹ 20 lakh)",
+            "d": "₹ 15 lakh"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": "2_v2",
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v2"
+        },
+        {
+          "q_num": 3,
+          "question": "Veena & Co. will be eligible to claim ITC held on Stock and Capital goods as on _____.",
+          "options": {
+            "a": "01-09-20XX",
+            "b": "24-09-20XX",
+            "c": "25-09-20XX",
+            "d": "30-09-20XX"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v1"
+        },
+        {
+          "q_num": "3_v2",
+          "question": "If, out of the amount of ₹ 1 crore paid for acquisition of land in the P.Y.2025-26, ₹ 50 lakh was paid by way of cash, what would be the answer to questions (i) and (ii) above? (Chapter: Profits \\& Gains from Business Profession)",
+          "options": {
+            "a": "₹ 150 lakh; ₹ 55 lakh, respectively",
+            "b": "₹ 100 lakh; ₹ 105 lakh, respectively",
+            "c": "₹ 290 lakh; (₹ 85 lakh), respectively",
+            "d": "₹ 140 lakh; ₹ 65 lakh, respectively"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "_serial": "3_v2",
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v2"
+        }
+      ]
+    },
+    {
+      "unique_id": "26-CS-2",
+      "chapter_number": "26",
+      "chapter_name": "CASE SCENARIOS",
+      "category": "Case Study",
+      "cs_num": 2,
+      "case_text": "## CS 2 (RTP Nov '22)\n\nM/s. Delight Brothers, a partnership firm, is engaged in restaurant business. It is registered under the composition levy scheme under section 10(1) and 10(2) of the CGST Act, 2017 for the current financial year. It's turnover in the State for the month of April was ₹ 12,00,000.\n\nIt received new orders in the month of May to run a mess facility for supplying food at:\n\ni. Vishwas Public School, a higher secondary school;\n\nii. Knowledge Institute of Technology, an engineering college, approved by AICTE and UGC; and\n\niii.Frontline Hospital\n\nIt also provided catering services to a Coral limited company for their Annual General Meeting. Service was provided on 3rd July. But invoice was not issued by the firm to the company. However, payment was received on 25th July for which bank account was credited on 28th July. The turnover of restaurant business for the current financial year is ₹ 48,00,000.\n\nFrom the inception of next financial year, Delight Brothers will close down the restaurant business and will provide service of repairing of air conditioners. M/s Delight Brothers undertakes intra-State transactions only. Based on the information given above.",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Compute the tax liability of M/s. Delight Brothers for the month of April? Chapter 14: Exemptions of GST",
+          "options": {
+            "a": "CGST & SGST of ₹ 6,000 each",
+            "b": "CGST & SGST of ₹ 12,000 each",
+            "c": "CGST & SGST of ₹ 30,000 each",
+            "d": "CGST & SGST of ₹ 60,000 each"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v1"
+        },
+        {
+          "q_num": "1_v2",
+          "question": "Assuming that Mr. Raj has fulfilled all the conditions specified for claim of deduction under section 35AD and has not claimed any deduction under Chapter VI-A under the heading \"C. - Deductions in respect of certain incomes\", what would be the quantum of deduction under section 35AD, which he is eligible to claim as deduction for A.Y.2026-27? (Chapter: Profits \\& Gains from Business Profession)",
+          "options": {
+            "a": "₹ 340 lakh",
+            "b": "₹ 250 Jakh",
+            "c": "₹ 190 lakh",
+            "d": "₹ 150 lakh"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null,
+          "_serial": "1_v2",
+          "or_group": "MCQ_1_v1_v2",
+          "question_id": "A-MCQ-1_v2"
+        },
+        {
+          "q_num": 2,
+          "question": "Out of new orders received by the firm in May, which of the following services are exempt from GST? Chapter 15.1:Time of Supply",
+          "options": {
+            "a": "(i) and (iii)",
+            "b": "(ii) and (iii)",
+            "c": "only (i)",
+            "d": "(i) and (ii)"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v1"
+        },
+        {
+          "q_num": "2_v2",
+          "question": "Assuming that Mr. Raj also has another existing business of running a four-star hotel in Ahmedabad, which commenced operations twenty years back, the profits from which are ₹ 130 lakh for the A.Y.2026-27, what would be its income chargeable/loss under the head \"Profits and gains of business or profession\" for the A.Y.2026-27? (Chapter: Profits \\& Gains from Business Profession)",
+          "options": {
+            "a": "₹ 130 lakh",
+            "b": "₹ 55 lakh",
+            "c": "(₹ 20 lakh)",
+            "d": "₹ 15 lakh"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": "2_v2",
+          "or_group": "MCQ_2_v1_v2",
+          "question_id": "A-MCQ-2_v2"
+        },
+        {
+          "q_num": 3,
+          "question": "Time of supply of catering services provided to a Coral limited company is Chapter 15:Time of Supply",
+          "options": {
+            "a": "3rd July",
+            "b": "25th July",
+            "c": "28th July",
+            "d": "2nd August"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v1"
+        },
+        {
+          "q_num": "3_v2",
+          "question": "If, out of the amount of ₹ 1 crore paid for acquisition of land in the P.Y.2025-26, ₹ 50 lakh was paid by way of cash, what would be the answer to questions (i) and (ii) above? (Chapter: Profits \\& Gains from Business Profession)",
+          "options": {
+            "a": "₹ 150 lakh; ₹ 55 lakh, respectively",
+            "b": "₹ 100 lakh; ₹ 105 lakh, respectively",
+            "c": "₹ 290 lakh; (₹ 85 lakh), respectively",
+            "d": "₹ 140 lakh; ₹ 65 lakh, respectively"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null,
+          "_serial": "3_v2",
+          "or_group": "MCQ_3_v1_v2",
+          "question_id": "A-MCQ-3_v2"
+        },
+        {
+          "q_num": 4,
+          "question": "Which of the following statements is most appropriate in respect of next financial year for M/s Delight Brothers? Chapter 13: Charge of GST",
+          "options": {
+            "a": "M/s Delight Brothers can continue to avail composition levy scheme under section 10(1) and 10(2) of the CGST Act, 2017.",
+            "b": "M/s Delight Brothers is not eligible to avail composition levy scheme under section 10(1) and 10(2) of the CGST Act, 2017.",
+            "c": "M/s Delight Brothers is not eligible to avail composition levy scheme under section 10(1) and 10(2) of the CGST Act, 2017, but can avail benefit of composition levy under section 10(2A) of the CGST Act, 2017.",
+            "d": "M/s Delight Brothers can neither avail composition levy scheme under section 10(1) and 10(2) of the CGST Act, 2017 nor under section 10(2A) of the CGST Act, 2017)"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "or_group": "MCQ_4_v1_v2",
+          "question_id": "A-MCQ-4_v1"
+        },
+        {
+          "q_num": "4_v2",
+          "question": "Considering the assumption given in question (ii) above, what would be the tax payable (rounded off) by Mr. Raj for A.Y.2025-26? (Chapter: Basic Concepts)",
+          "options": {
+            "a": "₹ $16,73,100$",
+            "b": "₹ 42,03,940",
+            "c": "₹ $2,73,000$",
+            "d": "₹ $15,21,000$"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null,
+          "_serial": "4_v2",
+          "or_group": "MCQ_4_v1_v2",
+          "question_id": "A-MCQ-4_v2"
         },
         {
           "q_num": 5,
+          "question": "Rate of GST applicable for service of repairing of air conditioners made by M/s Delight Brothers will be _____ , assuming that it intends to pay the tax at the minimum rate available?",
+          "options": {
+            "a": "$1 \\%$",
+            "b": "$5 \\%$",
+            "c": "$6 \\%$",
+            "d": "$12 \\%$"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null,
+          "or_group": "MCQ_5_v1_v2",
+          "question_id": "A-MCQ-5_v1"
+        },
+        {
+          "q_num": "5_v2",
           "question": "Would Mr. Viraj be eligible for deduction under section 80JJAA in the A.Y.2026-27? If so, what is the quantum of deduction? (Chapter: Deductions from Gross Total Income)",
           "options": {
             "a": "No, he would not be eligible for deduction u/s 80JJAA since the employees have not been employed for 240 days in the P.Y.2024-25.",
@@ -226,11 +515,12 @@
           },
           "correct_option": "b",
           "answer": "(b)",
-          "verdict": null
+          "verdict": null,
+          "_serial": "5_v2",
+          "or_group": "MCQ_5_v1_v2",
+          "question_id": "A-MCQ-5_v2"
         }
-      ],
-      "mcq_count": 10,
-      "unique_id": "10-CS-14"
+      ]
     }
   ],
   "section_b": [
@@ -347,18 +637,32 @@
       "chapter_number": "23",
       "sub_questions": [
         {
-          "label": "a",
+          "label": "a_v1",
+          "marks": 10,
+          "internal_split": null,
+          "question": "[New Version - v1] SSP Ltd., a registered person under GST in Gandhinagar (Gujarat), is engaged in making various supplies of goods and services. It provides the following details regarding the transactions undertaken in the month of October 2025:\n\n| Sr. No. | Outward transactions | Amount (₹) |\n| :--- | :--- | :--- |\n| (i) | Supply of goods to Mr. Kartik of Bharuch (Gujarat) who is an unregistered person.<br>Out of supply of goods for ₹ 6,00,000, ₹ 1,00,000 is for exempted goods but no separate invoice has been made for exempt supply and both supplies were shown in the same invoice as different items. | 6,00,000 |\n| (ii) | Issued voucher on 15/10/2025 to AVC Ltd. of Kanpur (Uttar Pradesh) which can be redeemed against the combo of one personal pizza and one vegetable burger before 14/11/2025. | 50,000 |\n| (iii) | Provided local delivery service of goods through M/s B-kart, a registered Electronic Commerce Operator (ECO), registered in the State of Gujarat. | 10,50,000 |\n| (iv) | Stock transferred without consideration to branch of SSP Ltd. in Ahmedabad. Branch has a different GSTIN as it operates in a different segment.<br>(The value of goods for such branch transfer can be taken as ₹ 3,50,000 as per Valuation Rules under the GST law) | ------ |\n| (v) | Provided pure labour services of construction of single commercial unit located in Rajasthan not forming part of any residential complex to a customer in Jaipur (Rajasthan). | 6,00,000 |\n\n| Inward transactions | Amount (₹) |\n| :--- | :--- |\n| (i) | Fees paid to CA Vijay Jain, a practicing Chartered Accountant of Mumbai, not registered under GST.<br>(₹ 2,00,000 for the statutory audit and ₹ 25,000 for certification work) | 2,25,000 |\n| (ii) | On 02/10/2025, SSP Ltd. purchased taxable goods valued ₹ 15,00,000 from VXT Ltd., a registered person in State of Rajasthan. VXT Ltd. raised taxable invoice for ₹ 15,00,000. However, the SSP Ltd. paid only ₹ 14,50,000 to VXT Ltd. as full and final payment on 25/10/2025 and the supplier VXT Ltd. issued a commercial/ financial credit note of ₹ 50,000 on the same date of payment. | 15,00,000 |\n\n**Additional information:**\n(i) SSP Ltd. paid ₹ 75,000 as monthly rent to its full-time director Mr. Rajan Yadav, an unregistered person located in Ahmedabad (Gujarat) for using building owned by Mr. Rajan Yadav as Head Office of SSP Ltd. Mr. Rajan Yadav rented the building in his personal capacity.\n(ii) Accountant of SSP Ltd. is of the view that since local delivery service of goods is provided as Goods Transport Agency, it is exempt. He is also of the view that, even if the supply is considered taxable, SSP Ltd. is not required to pay tax, since M/s B-Kart is a registered Electronic Commerce Operator (ECO), and M/s B-Kart will pay the tax under the Reverse Charge Mechanism (RCM).\n(iii) All the figures are exclusive of GST, wherever applicable.\n(iv) All the conditions necessary for availing the input tax credit have been complied with and details of GST paid on inward supplies are available in GSTR 2B. There is an opening balance of CGST of ₹ 1,75,000 as input tax credit at the beginning of the month.\n(v) Assume that all the inward supplies are used for outward taxable supplies only.\n(vi) Turnover for the previous financial year was ₹ 290 lakh.\n(vii) Wherever details for determination of place of supply are not given in the question, it shall be taken as intra-State transaction.\n(viii) Assume the applicable rates of GST for all outward and inward supplies are IGST 18%, CGST 9% and SGST 9%.\n\nCompute the minimum net GST liability of SSP Ltd. to be paid in cash if any, for the month of October 2025, after utilising input tax credit.\n**Note:** Calculate GST for each point separately and legal explanations for each point should form part of the answer but detailed provision for place of supply is not required.",
+          "answer": "**Computation of minimum net GST liability of SSP Ltd. to be paid in cash, for the month of October, 2025**\n\n| Particulars | Value (₹) | CGST (₹) | SGST (₹) | IGST (₹) |\n| :--- | :--- | :--- | :--- | :--- |\n| **GST payable on forward charge** | | | | |\n| Supply of goods to Mr. Kartik, unregistered person<br>[Tax is payable on taxable supply only and not on exempted supply. Further, it is an intra-State supply.] | 5,00,000<br>[6,00,000 - 1,00,000] | 45,000<br>[5,00,000 × 9%] | 45,000<br>[5,00,000 × 9%] | - |\n| Voucher issued to AVC Ltd.<br>[Vouchers are not supply as they are neither supply of goods nor supply of services.] | 50,000 | - | - | - |\n| Local delivery service provided through ECO - M/s B-kart)¹<br>[Even though local delivery services provided through an ECO are notified services, tax is not payable by ECO (M/s B-Kart) because supplier (SSP Ltd.) is registered. Thus, tax is payable by the supplier itself².] | 10,50,000 | 94,500<br>[10,50,000 x 9%] | 94,500<br>[10,50,000 x 9%] | - |\n| Stock transfer to Ahmedabad branch with different GSTIN<br>[Since branch has a separate GSTIN, it is a distinct person. Thus, stock transfer to said branch without consideration also qualifies as supply. Further, it is an intra-State supply.] | 3,50,000 | 31,500<br>[3,50,000 x 9%] | 31,500<br>[3,50,000 x 9%] | - |\n| Pure labour construction service for commercial unit<br>[Pure labour services are exempt only when provided for construction of a single residential unit not forming part of residential complex. Since in the given case, pure labour services are being provided for construction of a commercial unit, same is not exempt. Further, it is an inter-State supply] | 6,00,000 | - | - | 1,08,000<br>[6,00,000 x 18%] |\n| **Total output tax liability** | | **1,71,000** | **1,71,000** | **1,08,000** |\n| Less: Total eligible ITC [Refer working note] | | | | |\n| IGST credit is first set off against IGST liability and then against SGST liability since CGST has opening balance of ITC. | | | (1,62,000) | (1,08,000) |\n| CGST and SGST credit is set off against the CGST and SGST liability respectively. | | (1,71,000) | (6,750) | |\n| **Net GST payable** | | **Nil** | **2,250** | **Nil** |\n| **Add:** GST payable under reverse charge<br>[Tax payable under reverse charge, being not an output tax, cannot be set off against ITC and has to be paid in cash.] | | | | |\n| Rent paid for office building³<br>[Since commercial immovable property has been rented out by unregistered person to registered person, tax is payable under reverse charge and ITC on same is available. It is an intra-State supply.] | 75,000 | 6,750<br>[75,000 x 9%] | 6,750<br>[75,000 x 9%] | - |\n| **Minimum GST liability to be paid in cash** | | **6,750** | **9,000** | **Nil** |\n\n*¹ Services by way of transportation of goods are exempt under GST. However, this exemption shall not apply to local delivery services provided by an Electronic Commerce Operator.*\n*² The question clearly states that wherever details required to determine the place of supply are not given, the transaction should be treated as an intra-State supply. Since the recipient's location for the local delivery services is not provided in question, it is an intra-State supply.*\n*³ Since director, Mr. Rajan Yadav, has provided services of renting of immovable property to the company - SSP Ltd. - in his personal capacity, reverse charge provisions are not applicable under Entry 6 of Notification No. 13/2017 CT (R) dated 28.06.2017. However, reverse charge provisions are applicable under Entry 5AB.*\n\n**Working Note:**\n**Computation of total ITC available for set off:**\n\n| Particulars | Value (₹) | CGST (₹) | SGST (₹) | IGST (₹) |\n| :--- | :--- | :--- | :--- | :--- |\n| Opening Balance | | 1,75,000 | - | - |\n| Fees paid to practicing Chartered Accountant<br>[Since supplier is not registered, no GST would have been charged and thus, no ITC is available. Further, tax on CA services is not payable under reverse charge even if supplier is unregistered.] | 2,25,000 | - | - | - |\n| Purchase of taxable goods from VXT Ltd.<br>[Full ITC is available since commercial/financial credit note issued does not reduce the GST liability. Further, it is an inter-State supply.] | 15,00,000 | - | - | 2,70,000<br>[15,00,000 x 18%] |\n| Rent paid for office building³<br>[Since commercial immovable property has been rented out by unregistered person to registered person, tax is payable under reverse charge and ITC on same is available. It is an intra-State supply.] | 75,000 | 6,750<br>[75,000 x 9%] | 6,750<br>[75,000 x 9%] | - |\n| **Total input tax credit available⁴** | | **1,81,750** | **6,750** | **2,70,000** |\n\n*⁴ Although SSP Ltd. has made exempt supplies, full credit is admissible for set-off since it has been provided in question that all inward supplies are used only for outward taxable supply.*",
+          "chapter_number": "23",
+          "chapter_name": "PAYMENT OF TAX",
+          "unique_id": "NEW-23-T-8-SSP",
+          "or_group": "Q5a_v1_v2",
+          "question_id": "B-Q5-Q5a_v1"
+        },
+        {
+          "label": "a_v2",
           "marks": 7.5,
           "internal_split": null,
-          "question": "State the order in which every taxable person discharges his tax and other dues under GST law, as provided under section 49 of the CGST Act, 2017. (RTP May'23)",
+          "question": "[Old Version - v2] State the order in which every taxable person discharges his tax and other dues under GST law, as provided under section 49 of the CGST Act, 2017. (RTP May'23)",
           "answer": "Section 49 of the CGST Act, 2017 stipulates that every taxable person shall discharge his tax and other dues under the GST law in the following order, namely: -\n\n(a) self-assessed tax, and other dues related to returns of previous tax periods;\n\n(b) self-assessed tax, and other dues related to the return of the current tax period;\n\n(c) any other amount payable under this Act or the rules made thereunder including the demand determined under section 73 or section 74 or section 74A.",
           "chapter_number": "23",
           "chapter_name": "PAYMENT OF TAX",
-          "unique_id": "23-T-1"
+          "unique_id": "23-T-1",
+          "or_group": "Q5a_v1_v2",
+          "question_id": "B-Q5-Q5a_v2"
         },
         {
           "label": "b",
-          "marks": 7.5,
+          "marks": 5,
           "internal_split": null,
           "question": "Briefly examine the taxable value of supply in the following independent cases: (i) Jivan Limited, registered under GST, provided services amounting to Rs. $10,00,000$ to a Governmental Authority by way of sanitation conservancy. (ii) Raju Transporters, a registered Goods Transport Agency (GTA) provided service of transportation of goods to Kukreja & Kukreja Co.-a unregistered partnership firm. Kukreja & Kukreja Co. paid Rs. 8,000 to Raju Transporters as consideration. (iii) Amardeep Hospital provided services in Neo natal Intensive Care for 2 days for which Rs. 15,000 are charged per day from Mr. Chopra for his new born son, Viraat. (RTP Sep'24 , MTP April'25)",
           "answer": "(i) Services provided to a Governmental Authority by way of inter alia sanitation conservancy is exempt under GST. Thus, services provided by Jivan Limited, registered under GST amounting to Rs. $10,00,000$ to a Governmental Authority by way of sanitation conservancy is exempt under GST.\n\n(ii) Services provided by a GTA to an unregistered person, including an unregistered casual taxable person other than, inter alia, any partnership firm whether registered or not under any law including association of persons is exempt under GST. Thus, GTA services provided to partnership firm including AOP - whether or not registered under GST law, are liable to tax. Hence, consideration of Rs.8,000 paid by Kukreja & Kukreja Co. is taxable under GST.\n\n(iii) The services provided by a clinical establishment by way of providing room [other than Intensive Care Unit (ICU)/Critical Care Unit (CCU)/Intensive Cardiac Care Unit (ICCU)/Neo natal Intensive Care Unit (NICU)] having room charges exceeding 5000 per day to a person receiving health care services is taxable under GST. Since, in the given case Amardeep Hospital provided services in Neo natal Intensive Care, so the entire amount of Rs. 30,000 charged from Mr. Chopra is exempt under GST law.",

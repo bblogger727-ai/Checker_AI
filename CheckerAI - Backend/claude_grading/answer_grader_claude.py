@@ -468,6 +468,20 @@ def grade_all_answers(aligned_answers: dict, model_answers: dict, student_pdf_pa
                     model_ans = model_mcq.get("model_answer", "")
                     marks = model_mcq.get("marks", 2)
                     
+                    qid = mcq_data.get("question_id", f"A-MCQ-{mcq_num}" if "SectionA" in section_key else f"MCQ-{mcq_num}")
+                    if qid in skip_or_questions:
+                        graded_results[section_key]["MCQ"][mcq_num] = {
+                            "question": question_text,
+                            "question_id": qid,
+                            "question_number": mcq_num,
+                            "student_answer": "",
+                            "model_answer": "",
+                            "marks_obtained": 0, "marks_total": 0,
+                            "feedback": "Skipped (OR alternative)",
+                            "skipped_or_alternative": True
+                        }
+                        continue
+                    
                     mcq_result = grade_mcq(
                         student_ans, model_ans,
                         marks=int(marks) if str(marks).isdigit() else 2,
@@ -476,7 +490,7 @@ def grade_all_answers(aligned_answers: dict, model_answers: dict, student_pdf_pa
                     
                     graded_results[section_key]["MCQ"][mcq_num] = {
                         "question": question_text,
-                        "question_id": f"A-MCQ-{mcq_num}" if "SectionA" in section_key else f"MCQ-{mcq_num}",
+                        "question_id": qid,
                         "question_number": mcq_num,
                         "student_answer": student_ans,
                         "model_answer": model_ans,

@@ -108,14 +108,28 @@
       "chapter_number": "17",
       "sub_questions": [
         {
-          "label": "a",
+          "label": "a_v1",
           "marks": 6,
           "internal_split": null,
-          "question": "Compute the Gross value of supplies, on which GST to be paid by Mr. Jayesh for the month of October. (PYP 6 Marks, May'23)\n\nMr. Jayesh, a registered person under GST, has furnished the following details for the month of October:\n\n| Particulars | Amount (Rs.) |\n| :--- | :--- |\n| Commission received as a recovery agent from Non-Banking Financial Company | 45,000 |\n| Actionable claim received from normal business debtors | 1,20,000 |\n| Amount received from ABC Ltd. for performance of classical dance | 1,74,500 |\n| Business assets given free of cost (ITC was not availed on such assets) | 85,000 |\n| Rent received from a registered individual person for use of his residential dwelling | 22,000 |\n| Services availed from an unregistered Goods Transport Agency (GTA) | 15,100 |",
+          "question": "[New Version - v1] Compute the Gross value of supplies, on which GST to be paid by Mr. Jayesh for the month of October.\n\nMr. Jayesh, a registered person under GST, has furnished the following details for the month of October:\n\n| Particulars | Amount (Rs.) |\n| :--- | :--- |\n| Commission received as a recovery agent from Non-Banking Financial Company | 45,000 |\n| Actionable claim received from normal business debtors | 1,20,000 |\n| Amount received from ABC Ltd. for performance of classical dance | 1,74,500 |\n| Business assets given free of cost (ITC was not availed on such assets) | 85,000 |\n| Rent received from a registered individual person for use of his residential dwelling | 22,000 |\n| Services availed from an unregistered Goods Transport Agency (GTA) | 15,100 |",
           "answer": "Computation of gross value of taxable supply on which GST is to be paid by Mr. Jayesh\n\n| Particulars | Amount (Rs.) |\n| :--- | :--- |\n| Commission received as a recovery agent from Non-Banking Financial Company [Tax is payable by NBFC under reverse charge.] | - |\n| Actionable claim received from normal business debtors [No tax is payable as actionable claims other than lottery, betting and gambling are covered under Schedule III, i.e. they are neither supply of goods nor supply of services.] | - |\n| Amount received from ABC Ltd. for performance of classical dance [Taxable since consideration for classical dance performance exceeds Rs. 1,50,000.] | 1,74,500 |\n| Business assets given free of cost [Not a supply as it is made without consideration and not covered in Schedule I because ITC is not availed on the same.] | - |\n| Rent from registered individual person [Exempt Supply] | - |\n| Services from unregistered GTA [Tax on services provided by unregistered GTA is payable under reverse charge by Mr. Jayesh being a registered person.] | 15,100 |\n| Gross value of taxable supply on which GST is to be paid by Mr. Jayesh | 1,89,600 |",
           "chapter_number": "17",
           "chapter_name": "VALUE OF SUPPLY",
-          "unique_id": "17-T-12"
+          "unique_id": "17-T-12",
+          "or_group": "Q4a_v1_v2",
+          "question_id": "B-Q4-Q4a_v1"
+        },
+        {
+          "label": "a_v2",
+          "marks": 6,
+          "internal_split": null,
+          "question": "[Old Version - v2] Compute the Gross value of supplies, on which GST to be paid by Mr. Jayesh for the month of October. (PYP 6 Marks, May'23)\n\nMr. Jayesh, a registered person under GST, has furnished the following details for the month of October:\n\n| Particulars | Amount (Rs.) |\n| :--- | :--- |\n| Commission received as a recovery agent from Non-Banking Financial Company | 45,000 |\n| Actionable claim received from normal business debtors | 1,20,000 |\n| Amount received from ABC Ltd. for performance of classical dance | 1,74,500 |\n| Business assets given free of cost (ITC was not availed on such assets) | 85,000 |\n| Rent received from a registered individual person for use of his residential dwelling | 22,000 |\n| Services availed from an unregistered Goods Transport Agency (GTA) | 15,100 |",
+          "answer": "Computation of gross value of taxable supply on which GST is to be paid by Mr. Jayesh\n\n| Particulars | Amount (Rs.) |\n| :--- | :--- |\n| Commission received as a recovery agent from Non-Banking Financial Company [Tax is payable by NBFC under reverse charge.] | - |\n| Actionable claim received from normal business debtors [No tax is payable as actionable claims other than lottery, betting and gambling are covered under Schedule III, i.e. they are neither supply of goods nor supply of services.] | - |\n| Amount received from ABC Ltd. for performance of classical dance [Taxable since consideration for classical dance performance exceeds Rs. 1,50,000.] | 1,74,500 |\n| Business assets given free of cost [Not a supply as it is made without consideration and not covered in Schedule I because ITC is not availed on the same.] | - |\n| Rent from registered individual person [Exempt Supply] | - |\n| Services from unregistered GTA [Tax on services provided by unregistered GTA is payable under reverse charge by Mr. Jayesh being a registered person.] | 15,100 |\n| Gross value of taxable supply on which GST is to be paid by Mr. Jayesh | 1,89,600 |",
+          "chapter_number": "17",
+          "chapter_name": "VALUE OF SUPPLY",
+          "unique_id": "17-T-12",
+          "or_group": "Q4a_v1_v2",
+          "question_id": "B-Q4-Q4a_v2"
         },
         {
           "label": "b",

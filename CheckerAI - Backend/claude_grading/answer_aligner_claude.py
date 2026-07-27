@@ -141,6 +141,7 @@ CRITICAL RULES:
 - Label MUST reflect what the student ACTUALLY wrote, not your inference. If student didn't label it, use "unknown".
 - Do NOT modify or clean up the text \u2014 preserve it exactly as OCR extracted it, including tables.
 - If multiple labeled answers appear on the same page, split them into separate entries.
+- STRICT UNIQUENESS: Each sentence, paragraph, or block of text MUST appear in EXACTLY ONE discovered block. DO NOT copy or repeat the same text across multiple blocks. If text is ambiguous, put it in the block that contains the text immediately before it (physical reading order).
 - Output ONLY valid JSON.
 """
 
@@ -232,6 +233,12 @@ EVEN IF the student specified a specific subpart (like 'a'), you SHOULD check if
 2. If there are DUPLICATE explicit labels (e.g., two blocks labeled "Q2"), use content matching to determine which is Q2 and which is something else (usually a mislabeled Q3 or another missing question ID).
 3. If a question is in the schema/manifest (e.g., Q6) but has NO explicit label match, and another question has a duplicate (e.g., two Q8s), check if one of those duplicates matches the missing question's topic. Reassign it.
 4. <CRITICAL> **COVERAGE CHECK**: EVERY SINGLE DISCOVERED ANSWER MUST BE MAPPED to at least one question_id. There should be NO dropped blocks. If you truly cannot map an unknown block, map it to the most likely theoretical question or the last answered question, but do NOT ignore it.
+
+### Rule 10 — CROSS-PARENT UNIQUENESS (MOST CRITICAL)
+- A single `discovered_index` (answer block) MAY map to multiple question_ids ONLY when those IDs are **subparts of the SAME PARENT QUESTION** (e.g., mapping index 3 to both `Q3a` and `Q3b` is allowed because both belong to Q3).
+- A single `discovered_index` MUST NOT be mapped to question_ids from **two different parent questions** (e.g., mapping the SAME index to both `Q3b` AND `Q5a` is FORBIDDEN).
+- If you believe an answer block covers two completely different parent questions, you MUST split the `full_content` text into two sub-blocks and treat them as separate discovered answers. Do NOT reuse the same index for both.
+- If two answer blocks have nearly identical content and are being mapped to different parent questions, they are ALMOST CERTAINLY duplicates caused by the student reusing a page. Map ONLY to the question whose topic best matches the content, and leave the other question unmapped (do not guess).
 ### Rule 8 — MANIFEST ENFORCEMENT (NEW & CRITICAL)
 The student DEFINITELY answered these questions: {manifest_str}.
 You MUST find these answers in the DISCOVERED ANSWERS. If you see a block that MIGHT be one of these (even if labeled 'unknown' or mislabeled), prioritize mapping it to the manifest question.
@@ -295,6 +302,45 @@ FINAL REMINDERS:
         print(f"[Claude Aligner] Pass 2 ERROR: {e}", flush=True)
         mappings = []
     
+    # ======================== POST-PROCESS: CROSS-PARENT DEDUPLICATION ========================
+    # Detect any case where the same discovered_index is mapped to two DIFFERENT parent questions.
+    # A parent question is identified by stripping the subpart suffix (e.g., 'Q3a' → 'Q3').
+    def _get_parent(qid: str) -> str:
+        """Extract the parent question key (strip trailing subpart letter/number)."""
+        return re.sub(r'[a-zA-Z]$', '', qid).rstrip('0123456789-_')
+
+    # Group mappings by discovered_index
+    idx_to_mappings: dict = {}
+    for m in mappings:
+        idx = m.get("discovered_index", -1)
+        if isinstance(idx, str) and idx.isdigit():
+            idx = int(idx)
+        if idx not in idx_to_mappings:
+            idx_to_mappings[idx] = []
+        idx_to_mappings[idx].append(m)
+
+    # Find conflicts: same idx mapped to two different parent questions
+    dedup_drop = set()  # (idx, qid) pairs to drop
+    for idx, idx_maps in idx_to_mappings.items():
+        if len(idx_maps) <= 1:
+            continue
+        # Group by parent
+        parent_groups: dict = {}
+        for m in idx_maps:
+            p = _get_parent(m.get("question_id", ""))
+            parent_groups.setdefault(p, []).append(m)
+        if len(parent_groups) <= 1:
+            continue  # All subparts of same parent — OK
+        # Multiple parents: keep the group with highest average confidence
+        best_parent = max(parent_groups.keys(), key=lambda p: sum(m.get("confidence", 0) for m in parent_groups[p]) / len(parent_groups[p]))
+        for parent, pmap_list in parent_groups.items():
+            if parent != best_parent:
+                for m in pmap_list:
+                    dedup_drop.add((idx, m.get("question_id", "")))
+                    print(f"[Claude Aligner] DEDUP: Dropping mapping idx={idx} → '{m.get('question_id')}' (cross-parent conflict; keeping '{best_parent}' mappings)", flush=True)
+
+    mappings = [m for m in mappings if (m.get("discovered_index"), m.get("question_id", "")) not in dedup_drop]
+
     # ======================== BUILD ANSWER MAP ========================
     answers_map = {}
     

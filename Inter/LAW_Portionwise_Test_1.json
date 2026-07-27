@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "subject_code": "LAW",
+    "subject_name": "Corporate and Other Laws",
+    "paper_num": "Portionwise_1",
+    "total_marks_printed": 50,
+    "total_marks_in_paper": 50,
+    "section_a_marks": 0,
+    "section_b_marks": 50,
+    "two_section_format": false,
+    "note": "Portionwise Test: Attempt all 5 questions. Each question carries 10 marks (6 + 4 split).",
+    "blacklisted_from": [],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)"
+    ]
+  },
+  "section_a": [],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "2",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "The role of doctrine of 'Indoor management' is opposed to that of the role of 'Constructive notice'. Comment on this statement with reference to the Companies Act, 2013.",
+          "answer": "## Doctrine of Indoor Management\n\nAccording to this doctrine, persons dealing with the company cannot be assumed to have knowledge of internal problems of the company. They can simply assume that all the required things were done properly in the company. Stakeholders need not enquire whether the necessary meeting was convened and held properly or whether necessary resolution was passed properly. They are entitled to take it for granted that the company had gone through all these proceedings in a regular manner. The doctrine helps protect external members from the company and states that the people are entitled to presume that internal proceedings are as per documents submitted with the Registrar of Companies. The doctrine of indoor management was evolved around 150 years ago in the context of the doctrine of constructive notice. The role of doctrine of indoor management is opposed to of the role of doctrine of constructive notice. Whereas the doctrine of constructive notice protects a company against outsiders, the doctrine of indoor management protects outsiders against the actions of a company. This doctrine also is a possible safeguard against the possibility of abusing the doctrine of constructive notice.\n\n## Basis for Doctrine of Indoor Management\n\n1. What happens internal to a company is not a matter of public knowledge. An outsider can only presume the intentions of a company, but not know the information he/she is not privy to.\n\n2. If not for the doctrine, the company could escape creditors by denying the authority of officials to act on its behalf.\n\n## Exceptions to Doctrine of Indoor Management (Applicability of doctrine of constructive notice)\n\nKnowledge of irregularity: In case this 'outsider' has actual knowledge of irregularity within the company, the benefit under the rule of indoor management would no longer be available. In fact, he/she may well be considered part of the irregularity.\n\nNegligence: If, with a minimum of effort, the irregularities within a company could be discovered, the benefit of the rule of indoor management would not apply. The protection of the rule is also not available in the circumstances where company does not make proper inquiry.\n\nForgery: The rule does not apply where a person relies upon a document that turns out to be forged since nothing can validate forgery. A company can never be held bound for forgeries committed by its officers. The above doctrines have been well considered while framing the provisions of various Acts pertaining to the companies worldwide. The Companies Act, 2013 and the earlier Acts relevant for the Companies in India are no exception to the same.",
+          "chapter_number": "2",
+          "chapter_name": "INCORPORATION OF COMPANY AND MATTERS INCIDENTAL THERETO",
+          "unique_id": "2-T-8"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Sasha Private Limited received Rs. 3,00,000 from one of the relatives of a Director. The said relative has furnished a declaration that the amount was received by him from his mother as a gift. Decide as per the relevant provisions of the Companies Act, 2013, whether the said amount received by the company will be considered as deposits or not. (MTP 4 Marks Sep'22)",
+          "answer": "According to sub-clause (viii) of Rule 2 (1) (c) of the Companies (Acceptance of Deposits) Rules, 2014, any amount received from a person who, at the time of the receipt of the amount, was a director of the company or a relative of the director of the private company, is not considered as deposit.\n\nThe director of the company or relative of the director of the private company, as the case may be, from whom money is received, is required to furnish to the company at the time of giving the money, a declaration in writing to the effect that the amount is not being given out of funds acquired by him by borrowing or accepting loans or deposits from others and the company shall disclose the details of money so accepted in the Board's report. Rs. 3,00,000 received by Sasha Private Limited, from one of the relatives of a Director. When the relative furnishes a declaration that the said amount was received by him from his mother as a gift, then it will not be considered as deposit in terms of sub-clause (viii) of Rule 2 (1) (c).\n\nThus, the amount given to the private company out of gifted money by one of the relatives of a director is not a 'deposit'. As an additional requirement, the company shall disclose the details of money so accepted in the Board's report.",
+          "chapter_number": "5",
+          "chapter_name": "ACCEPTANCE OF DEPOSITS BY COMPANIES",
+          "unique_id": "5-T-4"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "3",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Comment on the following: (i) Disclosure required to be made on the face of the Prospectus. (ii) Conditions in regard to Experts' Statement. (iii) Date of publication of prospectus. (PYP 5 Marks May'25)",
+          "answer": "## (i) Disclosure on the face of Prospectus [Section 26(6)]\n\nThe prospectus issued as per Section 26(1) of the Companies Act, 2013 (the Act) shall, on the face of it, state/specify:\n\na. That a copy has been delivered for filing to the Registrar\n\nb. Documents required by this section to be attached to the copy so delivered or refer to statements included in the prospectus which specify these documents.\n\n## (ii) Conditions in regard to Experts' Statement [Section 26(5)]\n\nA prospectus issued under Section 26(1) of the Act shall not include a statement purporting to be , if any of following condition met:\n\na. If he is engaged or interested in the formation or promotion or management of the company, or\n\nb. If the expert has not given written consent to the issue of the prospectus, or\n\nc. If he has withdrawn the consent before the delivery of a copy of the prospectus to the Registrar for filing.\n\nA statement to that effect (non-existence of conditions, if expert's statement is included) shall also be included in the prospectus.\n\n## (iii) Date of Publication of Prospectus [Explanation to Sub-Section 3]\n\nThe date indicated in the prospectus shall be deemed to be the date of its publication.",
+          "chapter_number": "3",
+          "chapter_name": "PROSPECTUS AND ALLOTMENT OF SECURITIES",
+          "unique_id": "3-T-2"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "The Board of Directors of 'Viwit Su Limited' made a private placement offer to a group of 150 persons to subscribe for 100 equity shares @ Rs. 100 each on 1st April, 2025 after passing a special resolution in this regard. The company received application money from the members on 15th April, 2025 but did not make an allotment of shares till 31st July, 2025. Instead, during this interim period, the company opted to utilize the application money for the payment of dividend that had been declared by the company. Some of the members raised an objection that as the allotment was not done by the company within the prescribed time limit, the company is liable to repay the application money with interest @ 15% p.a. for such noncompliance. Examine the validity of the objection raised by the members with reference to the Companies Act, 2013, and also decide whether application money can be used for the payment of dividends by the company. (PYP 5 Marks Nov'23)",
+          "answer": "As per section 42(6) of the Companies Act, 2013, a company making an offer or invitation under private placement shall allot its securities within 60 days from the date of receipt of the application money for such securities and if the company is not able to allot the securities within that period, it shall repay the application money to the subscribers within 15 days from the expiry of 60 days and if the company fails to repay the application money within the aforesaid period, it shall be liable to repay that money with interest at the rate of 12% per annum from the expiry of the 60th day.\n\nIt is provided that the monies received on application under this section shall be kept in a separate bank account in a scheduled bank and shall not be utilised for any purpose other than:\n\n(1) for adjustment against allotment of securities; or\n\n(2) for the repayment of monies where the company is unable to allot securities.\n\nIn the instant case, application money from the members was received on 15th April, 2025 and company did not make an allotment of shares till 31st July, 2025 i.e. after expiry of the period of 60 days. Hence, the company is liable to repay that money with interest at the rate of 12% per annum from the expiry of the 60th day.\n\nTherefore, the objection raised by the members for non-allotment of shares/ non-refund of share application money within the statutory time limit is valid. However, their claim to pay interest @ 15% is not valid. Also, the application money cannot be used for the payment of dividends by the company.",
+          "chapter_number": "3",
+          "chapter_name": "PROSPECTUS AND ALLOTMENT OF SECURITIES",
+          "unique_id": "3-T-18"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "3",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Question 3 (RTP Jan'25) Gauresh | 8237317945: XYZ Limited issued a prospectus to raise funds for a new manufacturing project. After successfully raising the funds, the company identified an investment opportunity in a different industry six months later, requiring a significant portion of the funds. The proposed investment involved trading in equity shares of other listed companies. The board of directors suggested varying the original objectives for which the funds were raised to allow this new investment and recommended passing a special resolution in the company's general meeting. While the promoters and controlling shareholders supported this change, some shareholders expressed concerns, particularly regarding the deviation from the initially stated purpose of the funds. Based on the provisions of the Companies Act, 2013, advise on the validity of the proposal to redirect the funds toward this new investment.",
+          "answer": "According to section 27(1) of the Companies Act, 2013, the terms of a contract referred to in the prospectus or objects for which the prospectus has been issued can be varied, but only with the authority of the company given by it in general meeting by way of special resolution. The second proviso to sub-section (1) prescribes that such company is not to use any amount raised by it through the prospectus for buying, trading or otherwise dealing in equity shares of any other listed company. In the given question, XYZ Limited, is planning to use the amount initially raised for investing in a different industry, which also involves trading in equity shares of other listed companies. Though XYZ Limited has passed a special resolution for the said proposal but it cannot use any amount raised by it through the prospectus for buying, trading or otherwise dealing in equity shares of any other listed company. Hence, the said proposal for new investment is not valid.",
+          "chapter_number": "3",
+          "chapter_name": "PROSPECTUS AND ALLOTMENT OF SECURITIES",
+          "unique_id": "3-T-3"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Determine if Sankul (P) Ltd. is mandatorily required to prepare a cash flow statement for the financial year as a part of its financial statements. Consider whether Sankul (P) Ltd. is a one person company, a small company, a dormant company, or a start-up private company for the exemption under the proviso to section 2(40) of the Companies Act, 2013.",
+          "answer": "According to section 2(40) of the Companies Act, 2013, Financial statement in relation to a company, includes-\n\n(i) a balance sheet as at the end of the financial year;\n\n(ii) a profit and loss account, or in the case of a company carrying on any activity not for profit, an income and expenditure account for the financial year;\n\n(iii) cash flow statement for the financial year;\n\n(iv) a statement of changes in equity, if applicable; and\n\n(v) any explanatory note annexed to, or forming part of, any document referred to in sub-clause (i) to subclause (iv):\n\nProvided that the financial statement, with respect to one person company, small company, dormant company and private company (if such private company is a start-up) may not include the cash flow statement.\n\nFor considering the applicability of preparation cash flow statement in case of Sankul (P) Ltd., it is required first to be analyzed that Sankul (P) Ltd. does not fall in any of the categories of companies mentioned under proviso to section 2(40) of the Companies Act, 2013:\n\n(i) One person company - It is given that the company is having 40 members and also Its name does not contain the words 'OPC', so it is not a one person company.\n\n(ii) Small company - A company which is a subsidiary company cannot be categorized as a small company as per proviso to section 2(85) even though its paid up capital and turnover are within the prescribed limits and accordingly, as Sankul (P) Ltd. is a subsidiary company of Hastprat Ltd., it cannot be considered as small company also.\n\n(iii) Dormant company - It is given that the company is actively carrying on its business, so it cannot be also categorized as a dormant company based upon the facts given.\n\n(iv) Private company (which is a start-up) - It is given that Sankul (P) Ltd. is not a start-up company and also, as per proviso to section 2(71) of the Act, a company which is a subsidiary of a company, not being a private company, shall be deemed to be public company for the purposes of this Act even where such subsidiary company continues to be a private company in its articles.\n\nSo, Sankul (P) Ltd. shall be deemed to be a public company as it is subsidiary of Hastprat Ltd., an unlisted public company and so it will not fall into this category of exemption as well.\n\nThus, it can be concluded that Sankul (P) Ltd. is mandatorily required to prepare cash flow statement for the financial year as a part of its financial statements as it does not fall in any of the categories of companies mentioned under proviso to section 2(10) of the Companies Act, 2013.",
+          "chapter_number": "1",
+          "chapter_name": "PRELIMINARY",
+          "unique_id": "1-T-3"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "3",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Referring to the provisions of the Companies Act, 2013, answer the following queries: (i) What is the type of resolution to be passed and maximum number of persons to whom an offer by private placement in a financial year be made? (ii) Explain the consequences of non-allotment of shares within the stipulated timeline. (iii) In case the shares were allotted within the requisite allowed time, when can the company start utilizing the funds received by it from such private placement? (PYP 5 Marks May'24, MP[3])",
+          "answer": "(i) Rule 14 (1) of the Companies (Prospectus and Allotment of Securities) Rules, 2014, requires prior approval of the shareholders of the company, by a special resolution for each of the private placement offers or invitations. Provided further that this sub-rule shall not apply in case of offer or invitation for non-convertible debentures, where the proposed amount to be raised through such offer or invitation does not exceed the limit as specified in clause (c) of sub-section (1) of section 180 in such cases relevant Board resolution under clause (c) of sub-section(3) of section 179 would be adequate. Provided also that in case of offer or invitation for non-convertible debentures, where the proposed amount to be raised through such offer or invitation exceeds the limit as specified in clause (c) of sub- section (1) of section 180, it shall be sufficient if the company passes a previous special resolution only once in a year for all the offers or invitations for such debentures during the year. Thus, based on above, the resolution will be passed. As per section 42(2) of the Companies Act, 2013, a private placement shall be made only to a select group of persons who have been identified by the Board, whose number shall not exceed 50 or such higher number as may be prescribed, in a financial year. Rule 14 (2) of the Companies (Prospectus and Allotment of Securities) Rules, 2014 has prescribed 'an offer or invitation to subscribe securities under private placement shall not be made to persons more than two hundred (200) in the aggregate in a financial year'. Provided that any offer or invitation made to Qualified Institutional Buyers and Employees of the company being offered under a scheme of ESOP under section 62(1)(b) shall not be considered while calculating the limit of two hundred persons. As per rule 14(7), NBFCs which are registered with the RBI and Housing Finance Companies which are registered with the National Housing Bank; if they are complying with any regulations made by the RBI or National Housing Bank in respect of offer or invitation to be issued on private placement basis, then need not to comply with the rule 14(2) above. Thus, based on above, the maximum number of persons to whom an offer by private placement in a financial year will be determined. (ii) As per section $42(6)$ of the Companies Act, 2013 provides that a company making an offer or invitation under private placement shall allot its securities within sixty days from the date of receipt of the application money. If company fails to make allotment within 60 days, then repayment of the application money to the subscribers shall be made within fifteen days from the expiry of sixty days and if the company fails to repay the application money within the aforesaid period, it shall be liable to repay that money with interest at the rate of twelve per cent per annum from the expiry of the sixtieth day. (iii) Company shall not utilise monies raised through private placement unless allotment is made and the return of allotment is filed with the Registrar in accordance with section 42(8). The return of allotment shall be filed with the Registrar within 15 days from the date of the allotment under section 42. Hence, it can utilize the money thus received once the return has been filled with the Registrar.",
+          "chapter_number": "3",
+          "chapter_name": "PROSPECTUS AND ALLOTMENT OF SECURITIES",
+          "unique_id": "3-T-17"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "The paid-up share capital of Golden Shoes Limited is ₹25,00,000 divided into 2,50,000 equity shares of ₹10 each. Some of the shareholders holding 2,500 equity shares are residents of London for whom a foreign register of shareholders is opened thereat on November 1, 2025. Advise Golden Shoes Limited, within how much time after opening of 'foreign register', it is required to file with the Registrar of Companies, a notice of situation of the London office. (RTP Nov '23)",
+          "answer": "Section 88 (4) of the Companies Act, 2013, permits a company to keep in any country outside India, a part of the register of members, called 'foreign register', containing the names and particulars of the members, debenture-holders, other security holders or beneficial owners residing outside India.\n\nRule 7 of the Companies (Management and Administration) Rules, 2014 requires that the company shall, within 30 days from the date of the opening of any foreign register, file with the Registrar notice of the situation of the office along with the fee where such Register is kept.\n\nAccordingly, Golden Shoes Limited is required to file with the jurisdictional Registrar of Companies a notice of situation of the London office within 30 days from November 1, 2025 (i.e. the date on which the 'foreign register' is opened) along with requisite fee.",
+          "chapter_number": "7",
+          "chapter_name": "MANAGEMENT \\& ADMINISTRATION",
+          "unique_id": "7-T-1"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "3",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Examine that following offers of ABC Limited are in compliance with provisions of the Companies Act, 2013, related to private placement or should these offers be treated as public: (i) ABC Limited wants to raise funds for its upcoming project. It has issued private placement offer letters to 55 persons in their individual name to issue its equity shares. Out of these four are qualified institutional buyers. (ii) If in case (i) before allotment under this offer letter company issued another private placement offer to another 155 persons in their individual name for issue of its debentures. (iii) Being a public company can it issue securities in a private placement offers? (MTP 5 Marks Mar'25)",
+          "answer": "According to section 42 of the Companies Act, 2013 any private or public company may make private placement through issue of a private placement offer letter.\n\nHowever, the offer shall be made to the persons not exceeding fifty or such higher number as may be prescribed, in a financial year. For counting number of persons, Qualified Institutional Buyers (QIBs) and employees of the company being offered securities under a scheme of employees' stock option will not be considered.\n\nFurther, Rule 14 (2) of the Companies (Prospectus and Allotment of Securities) Rules, 2014 prescribes maximum of 200 persons who can be offered securities under the private placement in a financial year, though this limit should be counted separately for each type of security.\n\nIt is to be noted that if a company makes an offer or invitation to more than the prescribed number of persons, it shall be deemed to be an offer to the public and accordingly, it shall be governed by the provisions relating to prospectus.\n\nAlso, a company is not permitted to make fresh offer under this section if the allotment with respect to any offer made earlier has not been completed or otherwise, that offer has been withdrawn or abandoned by the company. This provision is applicable even if the issue is of different kind of security. Any offer or invitation not in compliance with the provisions of this section shall be treated as a public offer and all provisions will apply accordingly.\n\n(i) In the given case ABC Limited, though is a public company but the private placement provisions allow even a public company to raise funds through this route. The company has given offer to 55 persons out of which 4 are qualified institutional buyers and hence, the offer is given effectively to only 51 persons which is well within the limit of 200 persons. From this point of view, the company complies the private placement provisions.\n\n(ii) However, as per the question, the company has given another private placement offer of debentures before completing the allotment in respect of first offer and therefore, the second offer does not comply with the provisions of section 42 . Hence, the offers given by the company will be treated as public offer.\n\nIn case the company gives offer for debentures in the same financial year after allotment of equity shares is complete then both the offers can well be treated as private placement offers.\n\n(iii) According to section 42 of the Companies Act, 2013 any private or public company may make private placement through issue of a private placement offer letter. Hence, ABC Limited can issue securities in a private placement offer.",
+          "chapter_number": "3",
+          "chapter_name": "PROSPECTUS AND ALLOTMENT OF SECURITIES",
+          "unique_id": "3-T-22"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "One of the matters contained in the articles of PQR Foundation, incorporated as a limited company under section 8 of the Companies Act, 2013, was altered by passing a special resolution in its general meeting and thereafter, intimation for the same was given to Registrar of Companies. However, such alteration in the articles (on the grounds that it was not valid), was opposed by ABC & Co., a partnership firm which is its member. Advise, as per the provisions of the Companies Act, 2013, whether the contention of ABC & Co. was valid and whether it can be a member in such company. (MTP 5 Marks Mar'25)",
+          "answer": "According to section 8 of the Companies Act, 2013, a company registered under this section shall not alter the provisions of its memorandum or articles except with the previous approval of the Registrar of Companies. Also, a firm may be a member of the company registered under section 8. Here, one of the matters of articles of PQR Foundation was altered by passing a special resolution in its general meeting and thereafter, intimation for the same was given to Registrar of Companies. As per the provisions of the Act, it is necessary to take previous approval of the Registrar of Companies for the same which was not done in the present case and thus the contention of ABC & Co. was valid. Also, section 8 allows a firm to be a member of such company and hence, ABC & Co. can be its member.",
+          "chapter_number": "2",
+          "chapter_name": "INCORPORATION OF COMPANY AND MATTERS INCIDENTAL THERETO",
+          "unique_id": "2-T-15"
+        }
+      ]
+    }
+  ]
+}
