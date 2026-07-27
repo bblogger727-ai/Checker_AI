@@ -33,15 +33,21 @@ services:
     volumes:
       - checker_uploads:/app/uploads
       - checker_data:/app/data
-      - "./All_Paper_JSONs:/All_Paper_JSONs"
-      - "./CA_Feedback_Pipeline:/CA_Feedback_Pipeline"
-      - "./pipeline_jobs:/app/pipeline_jobs"
+      - checker_pipeline_jobs:/app/pipeline_jobs
+      - "./All_Paper_JSONs:/All_Paper_JSONs:ro"
+      - "./CA_Feedback_Pipeline:/CA_Feedback_Pipeline:ro"
     ports:
       - "8000:8000"
     depends_on:
       postgres:
         condition: service_healthy
     restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
 
   # SetterAI Backend (Paper Generation) - Port 8001
   setter-backend:
@@ -52,6 +58,7 @@ services:
     environment:
       - DATABASE_URL=postgresql://postgres:postgres@postgres:5432/checkerai
       - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
     volumes:
       - setter_uploads:/app/uploads
       - setter_data:/app/data
@@ -104,6 +111,7 @@ volumes:
   postgres_data:
   checker_uploads:
   checker_data:
+  checker_pipeline_jobs:
   setter_uploads:
   setter_data:
   mentor_reports:

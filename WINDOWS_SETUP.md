@@ -1,37 +1,108 @@
 # How to Run CheckerAI on Windows
 
-This guide is designed for a completely fresh Windows computer. You do NOT need any programming experience or developer tools (like Python or Node.js) to run this application!
+This guide is designed for a completely fresh Windows computer. You do **NOT** need Python, Node.js, or any other developer tools installed — everything runs inside Docker containers.
+
+---
 
 ## Step 1: Install Docker Desktop
-The entire application (Database, Backends, and Frontend) runs inside isolated containers using a tool called Docker.
+
+Docker Desktop bundles everything you need (database, backend, frontend) into isolated containers.
+
 1. Go to [https://docs.docker.com/desktop/install/windows-install/](https://docs.docker.com/desktop/install/windows-install/) and download **Docker Desktop for Windows**.
-2. Run the installer and keep all default settings (ensure WSL 2 backend is selected if prompted).
+2. Run the installer and keep all default settings.
+   - If prompted, make sure **"Use WSL 2 instead of Hyper-V"** is selected (recommended).
 3. Restart your computer if required.
-4. Open the **Docker Desktop** app and leave it running in the background.
+4. Open the **Docker Desktop** app. Wait until the whale icon in the taskbar is steady (not animating) — that means Docker is ready.
 
-## Step 2: Download the Project
-If you haven't already:
+---
+
+## Step 2: Get the Project
+
 1. Go to this project's GitHub page.
-2. Click the green **Code** button and select **Download ZIP**.
-3. Extract the ZIP file to a folder on your computer (e.g., your Desktop or Documents folder).
+2. Click the green **Code** button → **Download ZIP**.
+3. Extract the ZIP to a folder on your computer (e.g. `C:\Users\YourName\Desktop\CheckerAI`).
 
-*(Note: Ensure that the `All_Paper_JSONs` folder is inside this extracted directory).*
+> **Important:** Make sure the extracted folder contains `docker-compose.yml`, `All_Paper_JSONs\`, and `frontend\` at the top level.
 
-## Step 3: Add your API Keys
-1. Open the extracted `CheckerAI` folder.
-2. Find the file named `.env.example`.
-3. Rename this file to `.env` (just `.env`, nothing else). If Windows hides the file extension, you can open it in Notepad, paste your OpenAI API key replacing `YOUR_API_KEY_HERE`, and save it as "All Files" with the name `.env`.
+---
 
-## Step 4: Start the Application!
-1. Open the **Command Prompt** (press the Windows key, type `cmd`, and hit Enter).
-2. Type `cd ` followed by the path to your extracted folder and press Enter. (For example: `cd Desktop\CheckerAI`).
-3. Type the following command and press Enter:
+## Step 3: Add Your API Keys
+
+The application needs two API keys to function:
+
+| Key | Where to get it |
+|---|---|
+| `OPENAI_API_KEY` | [https://platform.openai.com/api-keys](https://platform.openai.com/api-keys) |
+| `ANTHROPIC_API_KEY` | [https://console.anthropic.com/](https://console.anthropic.com/) |
+
+**How to set the keys:**
+
+1. Inside the extracted `CheckerAI` folder, find the file named **`.env.example`**.
+2. Copy it and rename the copy to **`.env`** (just `.env`, nothing else).
+   - *Tip for Windows:* Open Notepad, paste the contents, fill in your keys, then **File → Save As** → set "Save as type" to **All Files** → name it `.env`.
+3. Open `.env` with Notepad and replace the placeholder values:
+
+```
+OPENAI_API_KEY=sk-proj-YOUR_ACTUAL_OPENAI_KEY
+ANTHROPIC_API_KEY=sk-ant-YOUR_ACTUAL_ANTHROPIC_KEY
+```
+
+4. Save and close.
+
+---
+
+## Step 4: Start the Application
+
+1. Open **Command Prompt** (press `Win + R`, type `cmd`, press Enter).
+2. Navigate to the project folder:
    ```cmd
-   docker compose up -d
+   cd C:\Users\YourName\Desktop\CheckerAI
    ```
-4. Docker will now download the necessary components and build the application. This might take 5-10 minutes the very first time. You will know it's done when it says all containers are "Started".
+   *(Replace the path with wherever you extracted the ZIP.)*
+3. Run:
+   ```cmd
+   docker compose up -d --build
+   ```
+4. Docker will build and start all services. **The first run takes 5–15 minutes** (downloading images, installing dependencies). You'll see lines like:
+   ```
+   ✔ Container checkerai-db          Started
+   ✔ Container checkerai-backend     Started
+   ✔ Container setterai-backend      Started
+   ✔ Container mentorai-backend      Started
+   ✔ Container checkerai-frontend    Started
+   ```
+
+---
 
 ## Step 5: Open the App
-1. Open your web browser (Chrome, Edge, etc.).
+
+1. Open Chrome, Edge, or any browser.
 2. Go to: **[http://localhost](http://localhost)**
-3. The CheckerAI frontend will open automatically! All your marking, uploading, and exam configurations are fully connected to your local APIs out of the box.
+3. The CheckerAI interface will load automatically.
+
+---
+
+## Everyday Usage
+
+| Task | Command |
+|---|---|
+| Start app | `docker compose up -d` |
+| Stop app | `docker compose down` |
+| View live logs | `docker compose logs -f checker-backend` |
+| Rebuild after a git pull | `docker compose up -d --build` |
+
+---
+
+## Troubleshooting
+
+**"Port 80 is already in use"**
+Another app (e.g. IIS, Skype) is using port 80. Stop it or change the frontend port in `docker-compose.yml` from `"80:80"` to e.g. `"8080:80"`, then access the app at `http://localhost:8080`.
+
+**"Docker Desktop is not running"**
+Open Docker Desktop from the Start menu and wait for it to fully start before running `docker compose up`.
+
+**Grading is very slow the first time**
+This is normal — the AI models need to be initialised. Subsequent gradings on the same paper will be faster.
+
+**"Error: ANTHROPIC_API_KEY is not set"**
+Make sure your `.env` file (not `.env.example`) exists in the root `CheckerAI` folder and contains a valid `ANTHROPIC_API_KEY`.
