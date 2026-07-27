@@ -31,46 +31,6 @@ aligned_outputs/
 *.log.*
 debug*.log
 
-# One-off / scratch scripts (not needed in production image)
-patch_*.py
-fix_*.py
-eval_*.py
-test_*.py
-debug_*.py
-gen_*.py
-run_pipeline_*.py
-run_stage_*.py
-regen_*.py
-repair_*.py
-annotate_pdf.py
-enrich_schema.py
-check_manifest*.py
-check_overlap.py
-apply_exact.py
-clean_fix.py
-cleanup_schema.py
-create_simplified_report.py
-finalize_schema*.py
-generate_grading_pdf.py
-generate_pdf.py
-generate_pdf_reports.py
-generate_student_report.py
-inject_*.py
-inspect_pdf.py
-map_graded_questions.py
-modify_manifest.py
-patch_checked_copy.py*
-poc_results/
-regenerate_copy.py
-regrade_theory_only.py
-reproduce_*.py
-run_final_pipeline.py
-run_pipeline.py
-run_targeted_pipeline.py
-temp_*.py
-temp_*.txt
-test_aligner.py
-
 # IDEs & OS
 .DS_Store
 .idea/
