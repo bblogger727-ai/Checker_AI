@@ -295,6 +295,11 @@ function OldPapersTab() {
                     <p className="progress-msg">
                         {STAGE_LABELS[status.stage] || status.message || 'Working…'}
                     </p>
+                    {status.warning && (
+                        <div style={{ color: '#d97706', marginTop: '10px', fontWeight: '500', fontSize: '0.9rem', backgroundColor: '#fef3c7', padding: '8px', borderRadius: '4px' }}>
+                            ⚠️ {status.warning}
+                        </div>
+                    )}
                 </div>
             )}
 
@@ -527,6 +532,11 @@ function NewPapersTab() {
                     <p className="progress-msg">
                         {STAGE_LABELS[status.stage] || status.message || 'Working…'}
                     </p>
+                    {status.warning && (
+                        <div style={{ color: '#d97706', marginTop: '10px', fontWeight: '500', fontSize: '0.9rem', backgroundColor: '#fef3c7', padding: '8px', borderRadius: '4px' }}>
+                            ⚠️ {status.warning}
+                        </div>
+                    )}
                 </div>
             )}
 

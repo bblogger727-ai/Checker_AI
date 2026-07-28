@@ -44,11 +44,34 @@ def _write_status(output_dir: str, stage: str, message: str, *, error: str = Non
         "error":   error,
         "ts":      time.time(),
     }
+    
+    path = os.path.join(output_dir, "result.json")
+    if os.path.exists(path):
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                old_data = json.load(f)
+                if "warning" in old_data:
+                    data["warning"] = old_data["warning"]
+        except Exception:
+            pass
+
     if extra:
         data.update(extra)
-    path = os.path.join(output_dir, "result.json")
+        
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
+
+def check_horizontal_pages(pdf_path: str) -> bool:
+    try:
+        import fitz
+        doc = fitz.open(pdf_path)
+        for page in doc:
+            rect = page.rect
+            if rect.width > rect.height:
+                return True
+        return False
+    except Exception:
+        return False
 
 
 # ── Stage helpers (isolated per-job, no shared directories) ──────────────────
@@ -221,6 +244,10 @@ def main():
     print("=" * 60)
 
     _write_status(output_dir, "started", "Pipeline started")
+    
+    has_horizontal = check_horizontal_pages(args.as_pdf)
+    if has_horizontal:
+        _write_status(output_dir, "started", "Pipeline started", extra={"warning": "Horizontal pages detected! Grading annotations might get misplaced."})
     start = time.time()
 
     try:
