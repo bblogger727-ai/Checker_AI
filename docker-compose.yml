@@ -33,7 +33,7 @@ services:
     volumes:
       - checker_uploads:/app/uploads
       - checker_data:/app/data
-      - "./CheckerAI - Backend/pipeline_jobs:/app/pipeline_jobs"
+      - "./pipeline_jobs:/pipeline_jobs"
       - "./All_Paper_JSONs:/All_Paper_JSONs:ro"
       - "./CA_Feedback_Pipeline:/CA_Feedback_Pipeline:ro"
     ports:

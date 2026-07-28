@@ -39,7 +39,7 @@ from fastapi.responses import FileResponse, JSONResponse
 _HERE           = Path(__file__).resolve().parent              # app/api/
 _APP_DIR        = _HERE.parent                                  # app/
 _BACKEND_DIR    = _APP_DIR.parent                               # CheckerAI - Backend/
-_JOBS_DIR       = _BACKEND_DIR / "pipeline_jobs"               # one subdir per task_id
+_JOBS_DIR       = _BACKEND_DIR.parent / "pipeline_jobs"        # one subdir per task_id
 _PAPERS_DIR     = _BACKEND_DIR.parent / "All_Paper_JSONs"      # the JSON catalog
 
 _CLAUDE_SCRIPT  = _BACKEND_DIR / "run_pipeline_claude_api.py"

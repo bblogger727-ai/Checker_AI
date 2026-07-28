@@ -32,7 +32,7 @@ if [ ! -d "$FRONTEND_DIR/node_modules" ]; then
 fi
 
 # ── Create pipeline_jobs dir (needed by pipelines.py) ────────────────────
-mkdir -p "$BACKEND_DIR/pipeline_jobs"
+mkdir -p "$PROJECT_DIR/pipeline_jobs"
 
 # ── Trap to kill all child processes on Ctrl+C ───────────────────────────
 trap 'echo "\nStopping all services..."; kill 0' EXIT INT TERM
