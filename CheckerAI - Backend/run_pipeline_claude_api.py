@@ -68,7 +68,9 @@ def check_horizontal_pages(pdf_path: str) -> bool:
         for page in doc:
             rect = page.rect
             if rect.width > rect.height:
+                doc.close()
                 return True
+        doc.close()
         return False
     except Exception:
         return False
@@ -253,7 +255,7 @@ def main():
                 break
             if os.path.exists(os.path.join(output_dir, "reset.txt")):
                 _write_status(output_dir, "failed", "Pipeline aborted by user due to horizontal pages.", error="Aborted due to horizontal pages.")
-                sys.exit(0)
+                sys.exit(1)
             time.sleep(2)
         _write_status(output_dir, "started", "Pipeline resumed...")
     start = time.time()
