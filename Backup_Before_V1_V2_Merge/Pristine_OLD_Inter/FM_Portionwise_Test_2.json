@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "subject_code": "FM",
+    "subject_name": "Financial Management",
+    "paper_num": "Portionwise_2",
+    "total_marks_printed": 50,
+    "total_marks_in_paper": 50,
+    "section_a_marks": 0,
+    "section_b_marks": 50,
+    "two_section_format": false,
+    "note": "Portionwise Test: Attempt all 5 questions. Each question carries 10 marks (6 + 4 split).",
+    "blacklisted_from": [],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)"
+    ]
+  },
+  "section_a": [],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "8",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Question 29 (RTP May'23)\n\nWEPL Limited Has 1,00,000 equity shares outstanding for the year 20XX. The current market price of the shares is Rs. 100 each. Company is planning to pay dividend of Rs. 10 per share. Required rate of return is $15 \\%$.\n\nBased on Modigliani-Miller approach, calculate the market price of the share of the company when the recommended dividend is 1 ) declared and 2 ) not declared.\n\nHow many new shares are to be issued by the company at the end of the year on the assumption that net income for the year is Rs. 40 Lac and the investment budget is Rs. $50,00,000$ when dividend is declared, or dividend is not declared.\n\nPROOF that the market value of the company at the end of the accounting year will remain same whether dividends are distributed or not distributed.",
+          "answer": "## Answer 29\n\n## CASE 1: Value of the firm when dividends are not paid.\n\nStep 1: Calculate price at the end of the period\n\n$\\mathrm{K}_{\\mathrm{e}}=15 \\% \\mathrm{P}_{\\mathrm{o}}=Rs. 100 \\mathrm{D}_{1}=0$\n\n$P_{o}=\\frac{P_{1}+D_{1}}{1+K_{e}} \\quad Rs. 100=\\frac{P_{1}+0}{1+0.15} \\quad P_{1}=Rs. 115$\n\nStep 2: Calculation of funds required for investment\n\n| Earning | Rs. 40,00,000 |\n| :--- | :--- |\n| Dividend distributed | Nil |\n| Fund available for investment | Rs. 40,00,000 |\n| Total Investment | Rs. 50,00,000 |\n| Balance Funds required | Rs. $50,00,000$ - Rs. $40,00,000$ = Rs. 10,00,000 |\n\nStep 3: Calculation of No. of shares required to be issued for balance funds\n\nNo. of shares = Funds required/ $\\mathrm{P}_{1}$\n\n$\\Delta \\mathrm{n} \\quad=Rs. 10,00,000 / Rs. 115$\n\nStep 4: Calculation of value of firm\n\n$$\n\\begin{aligned}\n\\mathrm{nP}_{0} & =[(\\mathrm{n}+\\Delta \\mathrm{n}) P 1-\\mathrm{I}+\\mathrm{E}] /(1+\\mathrm{Ke}) \\\\\n\\mathrm{nP}_{0} & =[(100000+1000000 / Rs. 115) Rs. 115-Rs. 5000000+Rs. 4000000] /(1.15) \\\\\n& =Rs. 1,00,00,000\n\\end{aligned}\n$$\n\nCASE 2: Value of the firm when dividends are paid.\n\nStep 1: Calculate price at the end of the period\n\n$\\mathrm{K}_{\\mathrm{e}}=15 \\% \\mathrm{P}_{\\mathrm{o}}=Rs. 100, \\mathrm{D}_{1}=Rs. 10$\n\n$P_{o}=\\frac{P_{1}+D_{1}}{1+K_{e}} \\quad\\left|Rs. 100=\\frac{P_{1}+10}{1+0.15} \\quad\\right| \\quad P_{1}=Rs. 105$\n\nStep 2: Calculation of funds required for investment\n\n| Earning | Rs. 40,00,000 |\n| :--- | :--- |\n| Dividend distributed | 10,00,000 |\n| Fund available for investment | Rs. 30,00,000 |\n| Total Investment | Rs. 50,00,000 |\n| Balance Funds required | Rs. $50,00,000$ - Rs. $30,00,000$ = Rs. 20,00,000 |\n\nStep 3: Calculation of No. of shares required to be issued for balance fund\n\nNo. of shares = Funds Required/P1\n\n$\\Delta \\mathrm{n}=Rs. 2000000 / Rs. 105$\n\nStep 4: Calculation of value of firm\n\n$\\mathrm{n} P_{0}=[(\\mathrm{n}+\\Delta \\mathrm{n}) \\mathrm{P} 1-\\mathrm{I}+\\mathrm{E}] /\\left(1+\\mathrm{K}_{\\mathrm{e}}\\right)$\n\n$\\mathrm{n} P_{0}=[(100000+2000000 / Rs. 105) Rs. 105-Rs. 5000000+Rs. 4000000] /(1.15)=Rs. 1,00,00,000$\n\nThus, it can be seen from the above calculations that the value of the firm remains the same in either case.",
+          "chapter_number": "8",
+          "chapter_name": "DIVIDEND DECISION",
+          "unique_id": "8-T-29"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Following data is available in respect of Levered and Unlevered companies having same business risk: Capital employed = ₹2,00,000, EBIT = ₹25,000 and Ke = 12.5%\n\n| Sources | Levered Company (₹) | Unlevered Company (₹) |\n|---------|---------------------|-----------------------|\n| Debt (@ 8%) | 75,000 | Nil |\n| Equity | 1,25,000 | 2,00,000 |\n\nAn investor is holding 12% shares in levered company. Calculate the increase in annual earnings of investor if he switches over his holding from Levered to Unlevered Company.",
+          "answer": "1. Valuation of firms\n\n| Particulars | Levered Firm (₹) | Unlevered Firm (₹) |\n|-------------|------------------|--------------------|\n| EBIT | 25,000 | 25,000 |\n| Less: Interest on debt (8% x ₹75,000) | 6,000 | Nil |\n| Earnings available to Equity shareholders | 19,000 | 25,000 |\n| Ke | 12.5% | 12.5% |\n| Value of Equity (S) | 1,52,000 | 2,00,000 |\n| (Earnings available to Equity shareholders/Ke) | | |\n| Debt (D) | 75,000 | Nil |\n| Value of Firm (V) = S + D | 2,27,000 | 2,00,000 |\n\nThe value of a Levered company is more than that of an unlevered company. Therefore, the investor will sell his shares in the levered company and buy shares in the unlevered company. To maintain the level of risk he will borrow a proportionate amount and invest that amount also in shares of the unlevered company.\n\n2. Investment & Borrowings\n\nSell shares in Levered company (₹1,52,000 x 12%) = ₹18,240\nBorrow money (₹75,000 x 12%) = ₹9,000\nBuy shares in Unlevered company = ₹27,240\n\n3. Change in Return\n\nIncome from shares in Unlevered company (₹27,240 x 12.5%) = ₹3,405\nLess: Interest on loan (₹9,000 x 8%) = ₹720\nNet Income from unlevered firm = ₹2,685\nLess: Income from Levered firm (₹18,240 x 12.5%) = ₹2,280\nIncremental Income due to arbitrage = ₹405\n\nSolution can also be done in the following way:\n\nValuation of firms\n\n| Particulars | Levered Firm (₹) | Unlevered Firm (₹) |\n|-------------|------------------|--------------------|\n| EBIT | 25,000 | 25,000 |\n| Less: Interest on debt (8% x ₹75,000) | 6,000 | Nil |\n| Earnings available to Equity shareholders | 19,000 | 25,000 |\n| Ke | 12.5% | 12.5% |\n| Value of Equity (S) | 1,52,000 | 2,00,000 |\n| (Earnings available to Equity shareholders/Ke) | | |\n| Debt (D) | 75,000 | Nil |\n| Value of Firm (V) = S + D | 2,27,000 | 2,00,000 |\n\nThe value of Levered company is more than that of unlevered company. Therefore, the investor will sell his shares in the levered company and buy shares in the unlevered company.\n\nArbitrage Process:\n\nIf investors have 12% shares of levered company, the value of investment in equity shares is 12% of ₹1,52,000 i.e. ₹18,240 and return will be 12% of ₹19,000 = ₹2,280.\n\nAlternate Strategy will be:\n\nSell 12% shares of levered firm for ₹18,240 and borrow 12% of levered firm's debt i.e. ₹9,000 (12% of ₹75,000) and invest the money i.e. 12% in unlevered firm's stock:\nTotal resources / Money investor have = ₹18,240 + ₹9,000 = ₹27,240 and investor invest 12% of ₹2,00,000 = ₹24,000\nSurplus cash available with investor is = ₹27,240 – ₹24,000 = ₹3,240\nInvestor return = 12% EBIT of unlevered firm – Interest to be paid on borrowed funds i.e. = 12% of ₹25,000 – 8% of ₹9,000 = ₹3,000 – ₹720 = ₹2,280\n\nNow, return remains the same i.e. ₹2,280 which investor is getting from levered company before investing in unlevered company but still have ₹3,240 excess money available with investor. Hence, investors are better off by doing arbitrage.",
+          "chapter_number": "8",
+          "chapter_name": "DIVIDEND DECISION",
+          "unique_id": "IMG-FM2-Q1b"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "7",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Question 39 (PYP 6 Marks Jan'25)\n\nSRT Limited manufactures steel rods and is now considering to purchase a new aluminium smelting and moulding plant. This plant will have the cost of Rs. $20,00,000$ to purchase and install the plant. It has a useful life of 5 years with a residual value of Rs. 1,00,000. Production and sales from the new plant are expected to be 1,00,000 units per year. Other estimates are as follows:\n\n| Selling Price | Rs.150 per unit |\n| :--- | :---: |\n| Direct Cost | Rs.100 per unit |\n\nFixed cost (including depreciation) is Rs. $8,00,000$ per annum. Marketing and promotion cost not included in the above will be $Rs. 1,00,000$ and $Rs. 1,60,000$ for years 1 and 2 , respectively. Additionally, investment in debtors and stocks will increase in year 1 by Rs. $1,50,000$ and Rs. $2,00,000$, respectively. Creditors will also increase by Rs. 1,00,000 in year 1. Thus, debtors, stocks, and creditors will be recouped at the end of the fifth year.\n\nThe cost of capital is $18 \\%$. Corporate tax is $30 \\%$ and is paid in the year in which profits are made. Depreciation is tax deductible. The company follows straight line method of depreciation.\n\n## Required:\n\n(i) Calculate the Net Present Value and Profitability Index of the project.\n\n(ii) Advise SRT Limited whether the plant should be purchased. The PV factors at 18\\% are:\n\n| Year | 1 | 2 | 3 | 4 | 5 |\n| :--- | :---: | :---: | :---: | :---: | :---: |\n| PV factor | 0.847 | 0.718 | 0.609 | 0.516 | 0.437 |",
+          "answer": "Answer 39\n\nCalculation Net Present Value (NPV)\n\n| Years | 1 | 2 | 3 | 4 | 5 | Total |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| Units | 1,00,000 | 1,00,000 | 1,00,000 | 1,00,000 | 1,00,000 |  |\n| (I) Sales (Rs.150 per unit) | 1,50,00,000 | 1,50,00,000 | 1,50,00,000 | 1,50,00,000 | 1,50,00,000 |  |\n| (II) Cost |  |  |  |  |  |  |\n| Direct cost (Rs.100 per unit) | 1,00,00,000 | 1,00,00,000 | 1,00,00,000 | 1,00,00,000 | 1,00,00,000 |  |\n| Marketing cost | 1,00,000 | 1,60,000 |  |  |  |  |\n| Depreciation | 3,80,000 | 3,80,000 | 3,80,000 | 3,80,000 | 3,80,000 |  |\n| Fixed cost | 4,20,000 | 4,20,000 | 4,20,000 | 4,20,000 | 4,20,000 |  |\n| Total cost | 1,09,00,000 | 1,09,60,000 | 1,08,00,000 | 1,08,00,000 | 1,08,00,000 |  |\n| Profit (I - II) | 41,00,000 | 40,40,000 | 42,00,000 | 42,00,000 | 42,00,000 |  |\n| Tax @30\\% | 12,30,000 | 12,12,000 | 12,60,000 | 12,60,000 | 12,60,000 |  |\n| Profit After tax | 28,70,000 | 28,28,000 | 29,40,000 | 29,40,000 | 29,40,000 |  |\n| Add back depreciation | 3,80,000 | 3,80,000 | 3,80,000 | 3,80,000 | 3,80,000 |  |\n| Cash inflow after tax | 32,50,000 | 32,08,000 | 33,20,000 | 33,20,000 | 33,20,000 |  |\n| Add: WC released |  | Gauiesh \\| 8237317945 |  |  | 2,50,000 |  |\n| Add: Residual Value of machine |  |  |  |  | 1,00,000 |  |\n| Net cash inflow after tax | 32,50,000 | 32,08,000 | 33,20,000 | 33,20,000 | 36,70,000 |  |\n| Present value factor | 0.847 | 0.718 | 0.609 | 0.516 | 0.437 |  |\n| Present value cash inflow | 27,52,750 | 23,03,344 | 20,21,880 | 17,13,120 | 16,03,790 | 1,03,94,884 |\n| Less: initial cash outflow (20,00,000 +2,50,000) |  |  |  |  |  | 22,50,000 |\n| NPV |  |  |  |  |  | 81,44,884 |\n\n\nInitial Investment $=22,50,000$ (assumed working capital invested at start of the year)\n\n## Profitability Index (PI)\n\n$$\n\\begin{aligned}\n& =\\frac{\\text { Sum of discounted cash inflows }}{\\text { Initial cash outlay or Total discounted cash outflow (as the case may) }} \\\\\n& =1,03,94,884 / 22,50,000=4.62\n\\end{aligned}\n$$\n\nAdvise: Since the plant has a positive NPV and the Profitability Index is $>1$, therefore, it should be purchased.\nNote: If we assume that working capital increased at end of the first year then cash outflow will be $(20,00,000+2,11,750(2,50,000 \\times 0.847)$\n\n$$\n=22,11,750 \\text {, NPV } 81,83,134 \\text { and Profitability Index will be }=1,03,94,884 / 22,11,750=4.70\n$$",
+          "chapter_number": "7",
+          "chapter_name": "FINANCING DECISIONS LEVERAGES",
+          "unique_id": "7-T-39"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "EXPLAIN the difference between Business risk and financial risk (MTP 4 Marks, Mar'19, Sep'23)",
+          "answer": "## Business Risk and Financial Risk\n\nBusiness risk refers to the risk associated with the firm's operations. It is an unavoidable risk because of the environment in which the firm has to operate and the business risk is represented by the variability of earnings before interest and tax (EBIT). The variability in turn is influenced by revenues and expenses. Revenues and expenses are affected by demand of firm's products, variations in prices and proportion of fixed cost in total cost.\n\nWhereas, Financial risk refers to the additional risk placed on firm's shareholders as a result of debt use in financing. Companies that issue more debt instruments would have higher financial risk than companies financed mostly by equity. Financial risk can be measured by ratios such as firm's financial leverage multiplier, total debt to assets ratio etc.",
+          "chapter_number": "6",
+          "chapter_name": "FINANCING DECISIONS LEVERAGES",
+          "unique_id": "6-T-1"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "6",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Operating risk is associated with cost structure, whereas financial risk is associated with capital structure of a business concern.\" Critically EXAMINE this statement. (MTP 3 Marks Apr'22, SM)",
+          "answer": "\"Operating risk is associated with cost structure whereas financial risk is associated with capital structure of a business concern\".\n\nOperating risk refers to the risk associated with the firm's operations. It is represented by the variability of earnings before interest and tax (EBIT). The variability in turn is influenced by revenues and expenses, which are affected by demand of firm's products, variations in prices and proportion of fixed cost in total cost. If there is no fixed cost, there would be no operating risk. Whereas financial risk refers to the additional risk placed on firm's shareholders as a result of debt and preference shares used in the capital structure of the concern. Companies that issue more debt instruments would have higher financial risk than companies financed mostly by equity.",
+          "chapter_number": "6",
+          "chapter_name": "FINANCING DECISIONS LEVERAGES",
+          "unique_id": "6-T-2"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "\"Permanent working capital and fluctuating (temporary) working capital, both are necessary to facilitate production and sales through the operating cycle.\" - Describe. (PYP 4 Marks, May'23)",
+          "answer": "Both kinds of working capital i.e. permanent and fluctuating (temporary) are necessary to facilitate production and sales through the operating cycle:\n\nPermanent working capital refers to the base working capital, which is the minimum level of investment in the current assets that is carried by the entity at all times to carry its day to day activities. It generally stays invested in the business unless the operations are scaled up or down permanently which would also result in increase or decrease in permanent working capital. It is generally financed by long term sources of finance. Temporary working capital refers to that part of total working capital, which is required by an entity in addition to the permanent working capital. It is also called variable or fluctuating working capital which is used to finance the short-term working capital requirements which arises due to fluctuation in sales volume. For instance, an organization would maintain increased levels of inventory to meet increased seasonal demand.\n\nExam Insights: Many students explained types of working capital instead of interpreting the given statement. Focus on analysing the meaning and implications of the statement to present a clear, relevant answer.",
+          "chapter_number": "9.1",
+          "chapter_name": "INTRODUCTION TO WORKING CAPITAL MANAGEMENT",
+          "unique_id": "9.1-T-2"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "6",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Question 27 (PYP 10 Marks, Jul'21, RTP May'19,SM)\n\nA company had the following balance sheet as on 31st March, 20XX:\n\n| Liabilities | Rs. in Crores |  | Assets | Rs. in Crores |\n| :--- | :--- | :--- | :--- | :--- |\n| Equity Share Capital (75 lakhs Shares of Rs.10 each) |  | 7.50 | Building | 12.50 |\n| Reserves and Surplus |  | 1.50 | Machinery | 6.25 |\n| 15\\% Debentures |  | 15.00 | Current Assets |  |\n| Current Liabilities |  | 6.00 | Stock | 3.00 |\n|  |  |  | Debtors | 3.25 |\n| Gauresh \\| 8237 G | 17945 |  | Bank Balance | 5.00 |\n|  |  | 30.00 |  | 30.00 |\n\nThe additional information given is as under:\n\n| Fixed cost per annum (excluding interest) | Rs.6 crores |\n| :--- | :--- |\n| Variable operating cost ratio | $60 \\%$ |\n| Total assets turnover ratio | 2.5 |\n| Income-tax rate | $40 \\%$ |\n\nCalculate the following and comment:\n\n(i) Earnings per share\n\n(ii) Operating Leverage\n\n(iii) Financial Leverage\n\n(iv) Combined Leverage",
+          "answer": "| Total Assets | $=Rs. 30$ crores |\n| :--- | :--- |\n| Total Asset Turnover Ratio | $=2.5$ |\n| Hence, Total Sales | $=30 \\times 2.5=Rs. 75$ crores |\n\n\nComputation of Profit after Tax (PAT)\n\n| Particulars | (Rs. in crores) |\n| :--- | :--- |\n| Sales | 75.00 |\n| Less: Variable Operating Cost @ 60\\% | 45.00 |\n| Contribution | 30.00 |\n| Less: Fixed Cost (other than Interest) | 6.00 |\n| EBIT/PBIT | 24.00 |\n| Less: Interest on Debentures (15\\% X 15) | 2.25 |\n| EBT/PBT | 21.75 |\n| Less: Tax @ 40\\% | 8.70 |\n| EAT/ PAT | 13.05 |\n\n\n(i) Earnings per Share\n\nEPS $=\\frac{\\text { PAT }}{\\text { Number of Equity Shares }}=\\frac{13.05}{0.75}=Rs. 17.40$\n\nIt indicates the amount the company earns per share. Investors use this as a guide while valuing the share and making investment decisions. It is also an indicator used in comparing firms within an industry or industry segment.\n\n(ii) Operating Leverage\n\nOperating Leverage $=\\frac{\\text { Contribution }}{\\text { EBIT }}=\\frac{30}{24}=1.25$\n\nIt indicates the choice of technology and fixed cost in cost structure. It is level specific. When firm operates beyond operating break-even level, then operating leverage is low. It indicates sensitivity of earnings before interest and tax (EBIT) to change in sales at a particular level.\n\n(iii) Financial Leverage\n\nFinancial Leverage $=\\frac{\\text { EBIT }}{\\text { PBT }}=\\frac{24}{21.75}=1.103$\n\nThe financial leverage is very comfortable since the debt service obligation is small vis -à- vis EBIT.\n\n(iv) Combined Leverage\n\nCombined Leverage $=\\frac{\\text { Contribution }}{\\text { PBT }}=\\frac{30}{21.75}=1.379$\n\n$= Operating Leverage \\times Financial Leverage$\n\n$=1.25 \\times 1.103=1.379$\n\nThe combined leverage studies the choice of fixed cost in cost structure and choice of debt in capital structure. It studies how sensitive the change in EPS is vis-à-vis change in sales. The leverages operating, financial and combined are used as measurement of risk.\n\nExam Insights: Students showed average performance in calculating EPS, operating, financial, and combined leverage. Revise each formula carefully and understand how they connect to analyse earning sensitivity accurately.",
+          "chapter_number": "6",
+          "chapter_name": "FINANCING DECISIONS LEVERAGES",
+          "unique_id": "6-T-27"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Question 1 (MTP 4 Marks Dec'24,MP[7])\n\nEXPLAIN the difference between factoring and forfaiting",
+          "answer": "| Particulars | Factoring | Forfaiting |\n| :--- | :--- | :--- |\n| A) Meaning | Factoring involves sales of receivables to the financial institution called factor in exchange for immediate cash payment | Forfaiting is a form of export financing where the exporter sells the rights to trade receivables to a forfaiter and receives instant cash |\n| B) Recourse or nonrecourse | May be on Recourse or Non-recourse basis | Always non-recourse |\n| C) Amount paid | Firms are generally paid 80% to 90% upfront | 100% on the value of exported goods is paid |\n| D) Type of receivables | Receivables may either domestic or international | Receivables are international |\n| E) Cost | Factoring cost in the form of factor commission or fees is to be borne by the seller | Overseas Buyer bears the forfaiting cost, if any |\n| F) Secondary market | Factoring does not involve a secondary market for the receivables, meaning that the transaction is complete once the receivables are sold to the factor. | Forfaiting has a Secondary market where the receivables can be traded, enhancing liquidity and providing additional opportunities for investors |",
+          "chapter_number": "9.4",
+          "chapter_name": "MANAGEMENT OF RECEIVABLES",
+          "unique_id": "9.4-T-1"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "8",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "(MTP 5 Marks Mar'25) (Same concept different figures MTP 5 Marks Oct'21, Aug'18 SM) M Ltd. belongs to a risk class for which the capitalization rate is $12 \\%$. It has 40,000 outstanding shares and the current market price is $(Rs.) 200$. It expects a net profit of $(Rs.) 5,00,000$ for the year and the Board is considering dividend of (Rs.)10 per share. M Ltd. requires to raise (Rs.)10,00,000 for an approved investment expenditure. ILLUSTRATE, how the MM approach affects the value of M Ltd. if dividends are paid or not paid.",
+          "answer": "Given,\n\n| Cost of Equity (Ke) | 12\\% |\n| :--- | :--- |\n| Number of shares in the beginning ( n ) | 40,000 |\n| Current Market Price ( $\\mathrm{P}_{0}$ ) | (Rs.)200 |\n| Net Profit (E) | (Rs.)5,00,000 |\n| Expected Dividend ( $\\mathrm{D}_{1}$ ) | (Rs.)10 per share |\n| Investment (I) | (Rs.)10,00,000 |\n\n\n| Situation 1- When dividends are paid | Situation 2 - When dividends are not paid |\n| :--- | :--- |\n| $P_{0}=\\frac{P 1+D 1}{1+K e}$ | $P_{0}=\\frac{P 1+D 1}{1+K e}$ |\n| $200=\\frac{P 1+10}{1+0.12}$ | $200=\\frac{P 1+0}{1+0.12}$ |\n| $\\mathrm{P}_{1}+10=200 \\times 1.12$ | $\\mathrm{P}_{1}+0=200 \\times 1.12$ |\n| $P_{1}=224-10=214$ | $\\mathrm{P}_{1}=224-0=224$ |\n| ii. Calculation of funds required | ii. Calculation of funds required |\n| = Total Investment - (Net profit - Dividend) | = Total Investment - (Net profit - Dividend) |\n| $=10,00,000-(5,00,000-4,00,000)$ | $=10,00,000-(5,00,000-0)$ |\n| = 9,00,000 | = 5,00,000 |\n\n\n| iii. No. of shares required to be issued for balance fund | iii. No. of shares required to be issued for balance fund |\n| :--- | :--- |\n| No. of shares $=$ Funds Required Price at end(P1) | No. of shares = Funds Required Price at end(P1) |\n| $\\Delta n=\\frac{9,00,000}{214}=4,205.61$ | $\\Delta n=\\frac{5,00,000}{224}=2,232.14$ |\n| iv. Calculation of value of firm | iv. Calculation of value of firm |\n| $V_{f}=\\frac{(n+\\Delta n) \\mathrm{P} 1-\\mathrm{I}+E}{1+K e}$ | $V_{f}=\\frac{(n+\\Delta n) P 1-\\mathrm{I}+E}{1+K e}$ |\n| $=\\frac{\\left(40,000+\\frac{9,00,000}{214}\\right) 214-10,00,000+5,00,000}{1+0.12}$ | $=\\frac{\\left(40,000+\\frac{5,00,000}{224}\\right) 224-10,00,000+5,00,000}{1+0.12}$ |\n| $=\\frac{94,60,000-5,00,000}{1.12}=80,00,000$ | $=\\frac{94,60,000-5,00,000}{1.12}=80,00,000$ |",
+          "chapter_number": "8",
+          "chapter_name": "DIVIDEND DECISION",
+          "unique_id": "8-T-26"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "## Question 15 (MTP 4 Marks, Jul'24, MTP 5 Marks Sep'22, RTP Nov'20,MP[4])\n\n## The following information is given for QB Ltd.\n\n| Earnings per share | Rs.180 |\n| :--- | ---: |\n| Dividend per share | Rs.45 |\n| Cost of capital | $17 \\%$ |\n| Internal Rate of Return on investment | $20 \\%$ |\n\nCALCULATE the market price per share using -\n\n(a) Gordon's formula\n\n(b) Walter's formula.",
+          "answer": "As per Gordon's Model, Price per share is computed using the formula: $P_{0}=\\frac{E_{1}(1-b)}{K_{e}-b r}$\n\nWhere,\n\nP0 = Price per share\n\nE1 = Earnings per share\n\nPayout ratio $=45 / 180=25 \\%$\n\n$\\mathrm{b}=$ Retention ratio; (1- $\\mathrm{b}=$ Pay-out ratio) $=1-0.25=0.75$\n\nKe = Cost of capital\n\n$\\mathrm{r}=$ IRR\n\nbr = Growth rate (g)\n\nApplying the above formula, price per share $\\mathrm{P}_{0}=\\frac{180(1-0.75)}{0.17-0.75 \\times 0.2}=\\frac{45}{0.02}=Rs. 2,250$\n\nAs per Walter's Model, Price per share is computed using the formula: Price ( $P$ ) $=\\frac{D+\\frac{r}{K e}(E-D)}{K e}$\n\nWhere,\n\n$P=$ Market Price of the share.\n\n$\\mathrm{E}=$ Earnings per share.\n\nD = Dividend per share.\n\nKe = Cost of equity/ rate of capitalization/ discount rate.\n\n$r=$ Internal rate of return/ return on investment\n\nApplying the above formula, price per share\n\n$\\mathrm{P}=\\frac{45+\\frac{0.20}{0.17}(180-45)}{0.17}$ Or, $\\mathrm{P}=\\frac{45+158.82}{0.17}=Rs. 1,200$ (approx..)",
+          "chapter_number": "8",
+          "chapter_name": "DIVIDEND DECISION",
+          "unique_id": "8-T-15"
+        }
+      ]
+    }
+  ]
+}

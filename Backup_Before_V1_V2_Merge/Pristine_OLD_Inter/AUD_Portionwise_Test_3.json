@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "subject_code": "AUD",
+    "subject_name": "Auditing and Ethics",
+    "paper_num": "Portionwise_3",
+    "total_marks_printed": 50,
+    "total_marks_in_paper": 50,
+    "section_a_marks": 0,
+    "section_b_marks": 50,
+    "two_section_format": false,
+    "note": "Portionwise Test: Attempt all 5 questions. Each question carries 10 marks (6 + 4 split).",
+    "blacklisted_from": [],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)"
+    ]
+  },
+  "section_a": [],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "10",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "CARD Ltd. is into the banking business and handles large amount of loans and advances of different kinds. Non-performing assets are on the rise since last two quarters. The management is concerned with correct provisioning for the same. CA is appointed to check whether correct provisioning of NPA's is being made by the bank or not. What are the aspects that will be verified by CA for this purpose?",
+          "answer": "Provisioning of Non-performing Assets: CA should verify that the classification of NPAs into sub-standard assets, doubtful assets and loss assets is done depending upon prudential norms as per the RBI Guidelines. Further he should also ensure that provision is being made for the same in accordance with the given table:\n\nCategories of Non-Performing Assets:                     Provision required\n♦ Substandard Assets: Would be one, which has remained NPA  15%\nfor a period less than or equal to 12 months.\n\n♦ Doubtful Assets: Would be one, which has remained in the \nsubstandard category for a period of 12 months.            Secured+ Unsecured\n\n♦ Sub-categories:\n   • Doubtful up to 1 Year (D1)                            25% + 100%\n   • Doubtful 1 to 3 Years (D2)                            40% + 100%\n   • Doubtful more than 3 Years (D3)                       100% + 100%\n\n♦ Loss Assets: Would be one, where loss has been identified by \nthe bank or internal or external auditors or the RBI inspection \nbut the amount has not been written off wholly.            100%\n\nAlternative Answer 1:\nAspects to be verified by CA R to check correct provisioning of NPAs: CA R should verify following aspects while \nchecking whether correct provisioning of NPAs is being made by bank: -\n1. It should be verified whether classification of NPAs is in accordance with RBI guidelines. Such guidelines require \nclassification of NPAs into sub-standard assets, doubtful assets and loss assets depending upon different \ncriteria. Each classification requires different percentage of provisions. Therefore, proper classification of NPAs \nwould ensure that provisioning is correct.\n\n2. It should be verified that doubtful assets have been further properly classified in D1, D2 and D3 categories. \nThese three different categories require provision of 25%, 40% and 100% respectively of secured portions of \noutstanding amount.\n\n3. It should be verified that secured and unsecured portion in doubtful assets have been arrived at properly. \nUnsecured portion of liability entails provision of 100%. Therefore, it is important to verify that break-up of \ndoubtful assets into secured and unsecured portions is proper.\n\n4. As different kinds of loans and advances are handled by the bank, it should be ensured that loan classification \naccording to its purpose is properly made in the system. NPA norms vary for cash credit accounts, term loans, \nbills purchased and agricultural loans. Any wrong classification can lead to incorrect provisioning. For example, \nif an agricultural loan is wrongly classified, it would lead to incorrect provisions.\n\nAlternative Answer 2:\nAspects to be verified by CA R to check correct provisioning of NPAs:\n1. For audit of Provisions, the auditor should ensure that the compliances for various regulatory requirements for provisioning as contained in the various circulars have been fulfilled.\n\n2. The auditor should obtain an understanding as to how the bank computes provision on standard assets and non-performing assets. It will primarily include checking the basis of classification of loans and receivables into standard, sub-standard, doubtful, loss and non-performing assets.\n\n3. The auditor may verify the loan classification on a sample basis.\n\n4. The auditor should obtain the detailed break up of standard loans, non-performing loans and agree the outstanding balances with the general ledger.\n\nExam Insights: Many students explain account classification and percentages but miss defining Standard, Sub-standard, Doubtful, and Loss assets. Always include definitions and verification steps for correct provisioning.",
+          "chapter_number": "10",
+          "chapter_name": "Audit of Banks",
+          "unique_id": "10-TP-24"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Explain \"Advances under Consortium\" in the context of Prudential Norms on Income Recognition, Asset Classification and Provisioning pertaining to Advances.",
+          "answer": "Advances under Consortium: Consortium advances should be based on the record of recovery of the respective individual member banks and other aspects having a bearing on the recoverability of the advances. Where the remittances by the borrower under consortium lending arrangements are pooled with one bank and/or where the bank receiving remittances is not parting with the share of other member banks, the account should be treated as not serviced in the books of the other member banks and therefore, an NPA. The banks participating in the consortium, therefore, need to arrange to get their share of recovery transferred from the lead bank or to get an express consent from the lead bank for the transfer of their share of recovery, to ensure proper asset classification in their respective books.",
+          "chapter_number": "10",
+          "chapter_name": "Audit of Banks",
+          "unique_id": "10-TP-13"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "11",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "CA H has been offered audit of financial statements of a society engaged in promoting social causes, such as setting up of drug-addiction centres for misguided youth and rehabilitating such young people by helping them find avenues of gainful employment. However, CA H failed to send audit engagement letter to the society’s governing body and proceeded to conduct the audit. In the absence of this letter, the governing body is of the view that purpose of such an audit is to provide absolute assurance against probable errors and frauds in the financial statements. Does it constitute violation of fundamental principles governing professional ethics? State reasons for the same.",
+          "answer": "As per SA 210, \"Agreeing the Terms of Audit Engagements\", the auditor shall agree the terms of the audit engagement with management or those charged with governance, as appropriate. The agreed terms of the audit engagement shall be recorded in an audit engagement letter or other suitable form of written agreement. Such a letter includes, inter alia, objective and scope of audit of financial statements. The absence of such a letter leads to misunderstanding between auditor and management. As auditor has failed to send engagement letter, the governing body has formed an improper view of objective and scope of audit of financial statements. By not following requirements of SA 210, CA H is not acting ethically. He has violated principle of professional competence and due care governing professional ethics. This principle requires an accountant to attain and maintain professional knowledge and skill at the level required to ensure that a client or employing organization receives competent professional service, based on current technical and professional standards and relevant legislation and act diligently and in accordance with applicable technical and professional standards. Maintaining professional competence requires awareness of current technical and professional standards. Non sending of engagement letter shows lack of such awareness on part of CA H. Therefore, he has violated said fundamental principle governing professional ethics.",
+          "chapter_number": "11",
+          "chapter_name": "Agreeing the Terms of Audit Engagements",
+          "unique_id": "11-TP-7"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Mr. J is an articled clerk with a big Chartered Accountants’ firm. He is a part of the engagement team which is conducting the audit of a company for the first time. They are assigned with the work of preparing the draft audit engagement letter. Mr. J is not sure how to go about with this work. Explain what is Audit Engagement Letter and what are its contents?",
+          "answer": "Audit Engagement Letter: The auditor shall agree the terms of the audit engagement with management or those charged with governance, as appropriate. The agreed terms of the audit engagement are recorded in a letter or other suitable form of written agreement. Such an agreement is known as Audit Engagement Letter. The audit engagement letter is sent by the auditor to his client. It is in the interest of both the auditor and the client to issue an engagement letter so that the possibility of misunderstanding is reduced to a great extent. Audit Engagement letter includes: - (1) The objective and scope of the audit of the financial statements (2) The responsibilities of the auditor (3) The responsibilities of management (4) Identification of the applicable financial reporting framework for the preparation of the financial statements (5) Reference to the expected form and content of any reports to be issued by the auditor and a statement that there may be circumstances in which a report may differ from its expected form and content. If law or regulation prescribes in sufficient detail the terms of the audit engagement, the auditor need not record them in a written agreement, except for the fact such law or regulation applies, and that",
+          "chapter_number": "11",
+          "chapter_name": "Agreeing the Terms of Audit Engagements",
+          "unique_id": "11-TP-8"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "10",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "\"There is no difference in provisioning of NPA as regards to categories of NPA, whether the debt is secured or unsecured.\" Critically evaluate the statement on the basis of provisioning norms of NPA of nationalised bank stating clearly the provision percent required.",
+          "answer": "Classification as NPA should be based on the record of recovery. Availability of security or net worth of borrower/guarantor is not to be taken into account for purpose of treating an advance as NPA or otherwise. Further, asset classification would be borrower-wise and not facility-wise. All facilities including investments in securities would be termed as NPA.\n\nThere are different provisioning requirements as regards to categories of NPA such as Sub- standards assets, Doubtful assets and loss assets which are given below: \n\nCategories of Non-Performing Assets:                     Provision required\n♦ Substandard Assets: Would be one, which has remained NPA  15%\nfor a period less than or equal to 12 months.\n\n♦ Doubtful Assets: Would be one, which has remained in the \nsubstandard category for a period of 12 months.            Secured+ Unsecured\n\n♦ Sub-categories:\n   • Doubtful up to 1 Year (D1)                            25% + 100%\n   • Doubtful 1 to 3 Years (D2)                            40% + 100%\n   • Doubtful more than 3 Years (D3)                       100% + 100%\n\n♦ Loss Assets: Would be one, where loss has been identified by \nthe bank or internal or external auditors or the RBI inspection \nbut the amount has not been written off wholly.            100%",
+          "chapter_number": "10",
+          "chapter_name": "Audit of Banks",
+          "unique_id": "10-TP-23"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "GSR & Co. has been appointed as an auditor of Wavelength School. Engagement team wants to verify Fees from students in detail. Advise the audit procedure to be followed by the engagement team.",
+          "answer": "Fee from Students :- 1. Check names entered in the Students Fee Register for each month or term, with the respective Class Registers, showing names of students on rolls and test amount of fees charged; and verify that there operates a system of internal check which ensures that demands against the students are properly raised. 2. Check fees received by comparing counterfoils of receipts granted with entries in the Cash Book and tracing the collections in the Fee Register to confirm that the revenue from this source has been duly accounted for. 3. Total up the various columns of the Fees Register for each month or term to ascertain that fees paid in advance have been carried forward and that the arrears that are irrecoverable have been written off under the sanction of an appropriate authority. 4. Check admission fees with admission slips signed by the head of the institution and confirm that the amount has been credited to a Capital fund, unless the Managing Committee has taken a decision to the contrary. 5. See that free studentship and concessions have been granted by a person authorised to do so, having regard to the Rules prepared by the Managing Committee. 6. Confirm that fines for late payment or absence, etc. have been either collected or remitted under proper authority. 7. Confirm that hostel dues were recovered before student’s accounts were closed and their deposits of caution money refunded.",
+          "chapter_number": "9",
+          "chapter_name": "Special Features of Audit of Different Type of Entities",
+          "unique_id": "9-TP-14"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "10",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Explain hypothecation and assignment as the modes of creation of security with respect to advance granted by a bank.",
+          "answer": "Hypothecation: The hypothecation is the creation of an equitable charge (i.e., a charge created not by an express enactment but by equity and reason), which is created in favor of the lending bank by execution of hypothecation agreement in respect of the moveable securities belonging to the borrower. Neither ownership nor possession is transferred to the bank. However, the borrower holds the physical possession of the goods as an agent/trustee of the bank. The borrower periodically submits statements regarding quantity and value of hypothecated assets (stocks, debtors, etc.) to the lending banker on the basis of which the drawing power of the borrower is fixed.  Assignment: Assignment represents a transfer of an existing or future debt, right or property belonging to a person in favor of another person. Only actionable claims (i.e., claim to any debt other than a debt secured by a mortgage of immovable property or by hypothecation or pledge of moveable property) such as book debts and life insurance policies are accepted by banks as security by way of assignment. An assignment gives the assignee absolute right over the moneys/debts assigned to him.",
+          "chapter_number": "10",
+          "chapter_name": "Audit of Banks",
+          "unique_id": "10-TP-4"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Fair Ltd. has been sanctioned a Cash Credit facility of Rs. 1.50 crores by Worthy Bank. Based on the monthly stock statements submitted for the last quarter, the drawing power is calculated at Rs. 1.45 crores. The outstanding balance in the cash credit account at the end of the quarter is Rs. 1.40 crores. Interest charged to the account is Rs. 6 Lakh and total credit into the account for the quarter is Rs. 4 Lakh. As an auditor, how would you examine and report the account if it is classified as 'out of order' by the bank?",
+          "answer": "An account should be treated as 'out of order' if:  \n➢ the outstanding balance remains continuously in excess of the sanctioned limit/drawing power or  \n➢ In cases where the outstanding balance in the principal operating account is less than the sanctioned limit/drawing power, but there are no credits continuously for 90 days as on the date of Balance Sheet;  \nor  \n➢ Credits are there but are not enough to cover the interest debited during the same period, these accounts should be treated as 'out of order'.  \n\nApplying the above to the given case of Fair Ltd, its Drawing power is Rs. 1.45 crores, although outstanding balance in the account is Rs. 1.40 crores, but still the account would be reported as out of order because credits in the account are not sufficient to cover the interest debited during the same period. Therefore, classification of account made by the bank for the account as 'out of order' is in order.",
+          "chapter_number": "10",
+          "chapter_name": "Audit of Banks",
+          "unique_id": "10-TP-21"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "9",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Mention the special points to be examined by the auditor in the audit of a charitable institution running hostel for students pursuing the Chartered Accountancy Course and which charges only INR 500 per month from a student for their lodging/boarding.",
+          "answer": "The auditor has to ascertain :-  \n(a) whether accounts are maintained regularly and in accordance with the provisions of the applicable Act and the rules;  \n(b) whether receipts and disbursements are properly and correctly shown in the accounts and money received in the form of donations is being applied as per the objects of the trust and as per the specific direction by the donor, if any;  \n(c) whether the cash balance and vouchers in the custody of the manager or trustee on the date of audit were in agreement with the accounts;  \n(d) whether all books, deeds, accounts, vouchers or other documents or records required by the auditor were produced before him;  \n(e) whether a register of movable and immovable properties is maintained, the changes therein are communicated from time to time to the regional office, and the defects and inaccuracies mentioned in the previous audit report have been duly complied with and rectified.  \n(f) whether the manager or trustee or any other person required by the auditor to appear before him did so and furnished the necessary information required by him;  \n(g) whether any property or funds of the Trust were applied for any object or purpose other than the object or purpose of the Trust;  \n(h) the amounts of outstanding for more than one year and the amounts written off, if any;  \n(i) whether any money of the public trust has been invested contrary to the provisions of applicable Act which have come to the notice of the Auditor  \n(j) all cases of irregular, illegal or improper expenditure, or failure or omissions to recover monies or other property belonging to the public trust or of loss or waste of money or other property thereof, and whether such expenditure, failure, omission, loss or waste was caused in consequence of breach of trust or misapplication or any other misconduct on the part of the trustees or any other person while in the management of the trust",
+          "chapter_number": "9",
+          "chapter_name": "Special Features of Audit of Different Type of Entities",
+          "unique_id": "9-TP-47"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Sigma Ltd. has approached CJK & Associates to appoint them as their auditor for a period of 5 years in accordance with provisions of the Companies Act, 2013. The prospective client company is new to audit firm. SQC 1 requires that a firm before accepting engagement should inquire vital information about the client which helps firm to decide about integrity of client. Apart from integrity, obtaining such vital information about client is helpful to audit firm in deciding about which other matters? Which matters would be considered by audit firm with regard to integrity of client?",
+          "answer": "matters to be considered by audit firm with regard to integrity of client:\n\n- A firm before accepting an engagement should acquire vital information about the client. Such an information should help firm to decide about:\n  - Integrity of Client\n  - Competence (including capabilities, time and resources) to perform engagement\n  - Compliance with ethical requirements",
+          "chapter_number": "10",
+          "chapter_name": "Audit of Banks",
+          "unique_id": "IMG-AUD3-Q5b"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "subject_code": "COST",
+    "subject_name": "Cost and Management Accounting",
+    "paper_num": "Portionwise_2",
+    "total_marks_printed": 50,
+    "total_marks_in_paper": 50,
+    "section_a_marks": 0,
+    "section_b_marks": 50,
+    "two_section_format": false,
+    "note": "Portionwise Test: Attempt all 5 questions. Each question carries 10 marks (6 + 4 split).",
+    "blacklisted_from": [],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)"
+    ]
+  },
+  "section_a": [],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "10",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Question 15 (PYP 5 Marks, Nov'23)\n\nA product passes through two processes; Process A and Process B.\n\nThe output of Process A is treated as input of Process B.\n\nThe following information has been furnished:\n\n\n| Particulars | Process A | Process B |\n| :--- | :--- | :--- |\n| Input Material | Rs. 3,90,000 | - |\n| $78,000 \\mathrm{Kg}$.@ Rs. 5 |  |  |\n| Indirect Material | - | Rs.34,320 |\n| Wages | Rs. 2,85,000 | Rs. 3,30,000 |\n| Overhead | Rs. 1,67,400 | Rs. 1,11,600 |\n| Output transferred to Process B | $68,640 \\mathrm{kgs}$ |  |\n| Transfer to Finished Stock | - | $69,000 \\mathrm{kgs}$ |\n| al loss of input material (weight in kgs.) | $7,800 \\mathrm{kgs}$ | 240 kgs |\n\nThere is no realisable value for normal loss. No stock of raw materials on work-in-process was left at the end. You are required to prepare the Process account for each Process.",
+          "answer": "Process A Account\n\n| Particulars | Units | Rs. | Particulars | Units | Rs. |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| To Material | 78,000 | 3,90,000 | By Normal Loss | 7,800 | - |\n| To Wages |  | 2,85,000 | By Abnormal Loss | 1,560 | 18,720 |\n| To Overheads |  | 1,67,400 | By Process B A/c | 68,640 | 8,23,680 |\n| Total | 78,000 | 8,42,400 | Total | 78,000 | 8,42,400 |\n\n\nCost per unit of completed units and abnormal loss $=\\frac{8,42,400}{78,000 \\text { units }-7,800 \\text { units }}=Rs. 12$ unit\n\nProcess B Account\n\n| Particulars | Units | Rs. | Particulars | Units | Rs. |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| To Process A A/c | 68,640 | 8,23,680 | By Normal loss | 240 | - |\n| To Indirect Material |  | 34,320 | By Finished stock | 69,000 | 13,11,000 |\n| To Wages |  | 3,30,000 |  |  |  |\n| To Overheads |  | 1,11,600 |  |  |  |\n| To Abnormal gain | 600 | 11,400 |  |  |  |\n| Total | 69,240 | 13,11,000 | Total | 69,240 | 13,11,000 |\n\n\nCost per unit of completed units and abnormal gains:\n\n$\\frac{\\text { Total cost }}{\\text { Inputs-Normal loss }}=\\frac{Rs. 12,99,600}{68,640 \\text { units - } 240 \\text { units }}=Rs. 19$\n\nExam Insights: A common slip is treating both processes as identical-forgetting to carry forward correct output values from Process 1 to Process 2. Always label your accounts clearly and verify the transfer value before starting the next process.",
+          "chapter_number": "10",
+          "chapter_name": "PROCESS \\& OPERATION COSTING",
+          "unique_id": "10-T-15"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Describe Unit Costing and Batch Costing. Give three examples of industries for each method where these are used. (PYP 4 Marks May '24)",
+          "answer": "Unit costing is that method of costing where the output produced is identical and each unit of output requires identical cost. Under this method costs, are collected and analysed element wise and then total cost per unit is ascertained by dividing the total cost with the number of units produced.\n\nSuch a method of costing is used in the industries like paper, cement, steel works, mining, breweries etc.\n\nBatch Costing: Batch Costing is a type of specific order costing where articles are manufactured in predetermined lots, known as batch. Cost per unit in a batch is ascertained by dividing the total cost of a batch by the number of units produced in that batch.\n\nSuch a method of costing is used in the case of pharmaceutical or drug industries, readymade garment industries, industries, manufacturing electronic parts of T.V. radio sets etc.",
+          "chapter_number": "8",
+          "chapter_name": "UNIT \\& BATCH COSTING",
+          "unique_id": "8-T-3"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "8",
+      "sub_questions": [
+        {
+          "label": "—",
+          "marks": 10,
+          "internal_split": null,
+          "question": "A Ltd. produces product 'AXE' which passes through two processes before it is completed and transferred to finished stock. The following data relate to October 2020:\n\n| Particulars       | Process- I (₹) | Process- II (₹) | Finished Stock |\n|-------------------|----------------|-----------------|----------------|\n| Opening stock     | 7,500          | 9,000           | 22,500         |\n| Direct materials  | 15,000         | 15,750          | --             |\n| Direct wages      | 11,200         | 11,250          | --             |\n\nFactory overheads: Process-I ₹10,500, Process-II ₹4,500, Finished Stock ₹11,250\nClosing stock: Process-I ₹3,700, Process-II ₹4,500, Finished Stock ₹11,250\nInter-process profit included in opening stock: Process-I --, Process-II ₹1,500, Finished Stock ₹8,250\n\nOutput of Process-I is transferred to Process-II at 25% profit on the transfer price.\nOutput of Process-II is transferred to finished stock at 20% profit on the transfer price.\nStock in processes is valued at prime cost.\nFinished stock is valued at the price at which it is received from process II.\nSales during the period are ₹1,40,000.\nPREPARE Process cost accounts and finished goods accounts showing the profit element at each stage.",
+          "answer": "Process – I Account\n\n| Particulars       | Total (₹) | Cost (₹) | Profit (₹) |\n|-------------------|-----------|----------|------------|\n| Opening Stock     | 7,500     | 7,500    | --         |\n| Direct Material   | 15,000    | 15,000   | --         |\n| Direct Wages      | 11,200    | 11,200   | --         |\n| Prime Cost        | 33,700    | 33,700   | --         |\n| Overheads         | 10,500    | 10,500   | --         |\n| Total Cost        | 44,200    | 44,200   | --         |\n| Profit**          | 13,500    | --       | 13,500     |\n| Process- II A/c*  | 54,000    | 40,500   | 13,500     |\n| (Transferred)     |           |          |            |\n| Closing stock     | 3,700     | 3,700    | --         |\n\n*Transfer Price = Total cost - Closing stock = 44,200 - 3,700 = ₹54,000\n** Profit on Transfer = 54,000 x 25% = ₹13,500\n\nProcess – II Account\n\n| Particulars       | Total (₹) | Cost (₹) | Profit (₹) |\n|-------------------|-----------|----------|------------|\n| Opening Stock     | 9,000     | 7,500    | 1,500      |\n| T/f from process-I| 54,000    | 40,500   | 13,500     |\n| Direct material   | 15,750    | 15,750   | --         |\n| Direct wages      | 11,250    | 11,250   | --         |\n| Prime Cost        | 90,000    | 75,000   | 15,000     |\n| Overheads         | 4,500     | 4,500    | --         |\n| Total Cost        | 94,500    | 79,500   | 15,000     |\n| Finished stock A/c** | 1,12,500 | 75,750 | 36,750     |\n| (Transferred)     |           |          |            |\n| Closing stock*    | 4,500     | 3,750    | 750        |\n\n**Transfer Price = Total cost - Closing stock = 94,500 - 4,500 = ₹1,12,500\n***Profit on transfer = 1,12,500 x 20 % = ₹22,500\n\nFinished stock Account\n\n| Particulars       | Total (₹) | Cost (₹) | Profit (₹) |\n|-------------------|-----------|----------|------------|\n| Opening Stock     | 22,500    | 14,250   | 8,250      |\n| Process – II      | 1,12,500  | 75,750   | 36,750     |\n| Total             | 1,35,000  | 90,000   | 45,000     |\n| Costing P & L A/c | 1,40,000  | 82,425   | 57,575     |\n| Closing Stock*    | 11,250    | 7,575    | 3,675      |\n\n*Cost of Closing stock = Cost of transfer from Process –II / Transfer Price from process –II\n= 75,750 / 1,12,500 x 11,250 = ₹7,575",
+          "chapter_number": "8",
+          "chapter_name": "",
+          "unique_id": "IMG-COST2-Q2"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "10",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "DISCUSS normal and abnormal Process Loss and ENUMERATE their treatment in Cost Accounts. (RTP Jan'25)",
+          "answer": "## There are two types of material losses viz. (i) Normal loss and (ii) Abnormal loss.\n\n(i) Normal Process Loss: It is also known as normal wastage. It is defined as the loss of material which is inherent in the nature of work. Such a loss can be reasonably anticipated from the nature of the material, nature of operation, the experience and technical data. It is unavoidable because of the nature of the material or the process. It also includes units withdrawn from the process for test or sampling.\n\nTreatment in Cost Accounts: The cost of normal process loss in practice is absorbed by good units produced under the process. The amount realised by the sale of normal process loss units should be credited to the process account.\n\n(ii) Abnormal Process Loss: It is also known as abnormal wastage. It is defined as the loss in excess of the predetermined loss (Normal process loss). This type of loss may occur due to the carelessness of workers, a bad plant design or operation, sabotage etc. Such a loss cannot obviously be estimated in advance. But it can be kept under control by taking suitable measures.\n\nTreatment in Cost Accounts: The cost of an abnormal process loss unit is equal to the cost of a good unit. The total cost of abnormal process loss is credited to the process account from which it arises. Cost of abnormal process loss is not treated as a part of the cost of the product. In fact, the total cost of abnormal process loss is debited to costing profit and loss account.",
+          "chapter_number": "10",
+          "chapter_name": "PROCESS \\& OPERATION COSTING",
+          "unique_id": "10-T-4"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Question 27 (PYP 4 Marks May'25)\n\nFurniture Wala Ltd., a manufacturer of dining tables, procures wood as its direct material. The dining tables are initially processed in the Moulding department and subsequently transferred to the Laminating department, where a plastic layer is applied.\n\nThe Moulding department began manufacturing 35,000 initial dining tables during the month of March 20X1 for the first time and their cost is as follows:\n\nDirect material: Rs. $\\mathbf{1 , 1 5 , 5 0 0}$\n\nMoulding costs: Rs. 59,500\n\nTotal Rs. 1,75,000\n\nA total of 28,000 dining tables were completed and transferred to the Laminating department, the rest 7,000 were still in the Moulding process at the end of the month. All of the Moulding department's direct materials were placed but on average, only $25 \\%$ of the conversion costs were applied to the ending work in progress inventory.\n\nRequired to calculate:\n\n(i) Equivalent units of production for each cost.\n\n(ii) The Moulding cost per Equivalent units.\n\n(iii) Cost of closing work-in-process (WIP) and finished products.",
+          "answer": "(a) (i) Calculation of equivalent units of production:\n\n| Input Details | Units | Output Particulars | Units | Equivalent Units |  |  |  |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n|  |  |  |  | Material |  | Conversion cost |  |\n|  |  |  |  | \\% | Units | \\% | Units |\n| Unit Introduced | 35,000 | Finished output | 28,000 | 100 | 28,000 | 100 | 28,000 |\n|  |  | Closing W-I-P | 7,000 | 100 | 7,000 | 25 | 1,750 |\n| Total | 35,000 | Total | 35,000 |  | 35,000 |  | 29,750 |\n\n\n(ii) Calculation of Moulding cost per equivalent unit :\n\n|  | Direct Material | Conversion costs |\n| :--- | :--- | :--- |\n| Total cost (Rs.) | $1,15,500$ | 59,500 |\n| Equivalent units | 35,000 | 29,750 |\n| Cost per equivalent unit (Rs.) | 3.30 | 2.00 |\n\n(iii) The cost of closing work in process (WIP):\n\n| Costs | Equivalent units | Rate (Rs.) | Total Cost (Rs.) |\n| :--- | ---: | ---: | ---: |\n| Direct Material | 7,000 | 3.30 | 23,100 |\n| Conversion Costs | 1,750 | 2.00 | 3,500 |\n| Total |  |  | 26,600 |\n\nThe cost of finished products:\n\n| Costs | Equivalent units | Rate (Rs.) | Total Cost (Rs.) |\n| :--- | ---: | ---: | ---: |\n| Direct Material | 28,000 | 3.30 | 92,400 |\n| Conversion Costs | 28,000 | 2.00 | 56,000 |\n| Total |  |  | $1,48,400$ |\n\nExam insights: Marks are lost when students forget to split equivalent units by cost element - calculate material and conversion separately before applying costs to WIP and finished goods.",
+          "chapter_number": "10",
+          "chapter_name": "PROCESS \\& OPERATION COSTING",
+          "unique_id": "10-T-27"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "7",
+      "sub_questions": [
+        {
+          "label": "—",
+          "marks": 10,
+          "internal_split": null,
+          "question": "NT Ltd., showed a net loss of ₹9,000 as per their cost accounts for the year ended 31-03-2025. However, the financial books disclosed a net profit of ₹7,000 for the same period. The following information was revealed as a result of scrutiny of the figures of both the sets of books:\n\n| Particulars                                      | ₹      |\n|--------------------------------------------------|--------|\n| Factory overheads absorbed                       | 52,000 |\n| Selling & distribution overheads over absorbed   | 6,000  |\n| Administrative overheads under absorbed          | 7,500  |\n| Interest on Loan                                 | 8,800  |\n| Dividend received                                | 9,000  |\n| Factory overheads charged                        | 45,000 |\n| Depreciation charged in financial accounts       | 42,000 |\n| Depreciation recorded in cost accounts           | 45,000 |\n\nThere is a difference in the value of closing stock of finished goods due to varying basis of valuation. 500 units of closing stock is valued at ₹41,000 in cost accounts whereas market price per unit of closing stock is ₹80 per unit. It is found that there is still a difference in the reconciliation statement after considering all of the above which is due to the excess of raw material consumption in cost accounts. Prepare:\n(i) A reconciliation statement taking net loss as per cost accounts as base, and\n(ii) Find out the excess of material consumption during the period in cost accounts effectuated the difference in reconciliation.",
+          "answer": "(a) (i) Statement of Reconciliation of profit as obtained under Cost and Financial Accounts\n\n| Particulars                                                                 | ₹      |\n|----------------------------------------------------------------------------|--------|\n| Net Loss as per Cost Records                                               | (9,000)|\n| Add:                                                                      |        |\n| Excess of Material Consumption (see below)                                | 8,300  |\n| Factory Overhead over-absorbed (₹ 52,000 - ₹ 45,000)                      | 7,000  |\n| Selling & Distribution Overhead over-absorbed                             | 6,000  |\n| Dividend Received                                                         | 9,000  |\n| Depreciation over-charged (₹ 45,000 - ₹ 42,000)                           | 3,000  |\n|                                                                           | 33,300 |\n| Less:                                                                     |        |\n| Administration Overhead under-absorbed                                    | 7,500  |\n| Interest on Loan                                                          | 8,800  |\n| Over-valuation of Closing Stock of Finished Goods (₹ 41,000 - ₹ 40,000)   | 1,000  |\n| (₹ 80 p.u. x 500 units = ₹ 40,000 in financial accounts)                  |        |\n|                                                                           | (17,300)|\n| Profit as per Financial Records                                           | 7,000  |\n\n(ii) Statement showing calculation of excess of material consumption in cost accounts:\n\n| Particulars                                                                 | ₹      |\n|----------------------------------------------------------------------------|--------|\n| Net Loss as per Cost Records                                               | (9,000)|\n| Add:                                                                      |        |\n| Excess of Material Consumption                                             | X      |\n| Factory Overhead over-absorbed                                             | 7,000  |\n| Selling & Distribution Overhead over-absorbed                             | 6,000  |\n| Dividend Received                                                         | 9,000  |\n| Depreciation over-charged                                                 | 3,000  |\n|                                                                           | X + 25,000 |\n| Less:                                                                     |        |\n| Administration Overhead under-absorbed                                    | 7,500  |\n| Interest on Loan                                                          | 8,800  |\n| Over-valuation of Closing Stock of Finished Goods                         | 1,000  |\n|                                                                           | (17,300)|\n| Profit as per Financial Records                                           | X - 1,300 |\n\nTherefore, X - 1,300 = 7,000\nOr X = 7,000 + 1,300 = 8,300\nExcess of material consumption during the period in cost accounts is ₹ 8,300.",
+          "chapter_number": "7",
+          "chapter_name": "",
+          "unique_id": "IMG-COST2-Q4"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "11",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Anju Ltd. is engaged in the production of butter. While producing butter buttermilk is also produced. Buttermilk is identified as by-product of butter. What is the TREATMENT of buttermilk in the cost accounts of Anju Ltd. (MTP 5 Marks Aug'24) (PYP 4 Marks Sep'24,MP[5])",
+          "answer": "Buttermilk is a by-product of butter and treatment of by-product in cost accounting is as follows.\n\n(i) When they are of small total value, the amount realized from their sale may be dealt as follows:\n\n- Sales value of the by-product may be credited to Profit and Loss Account and no credit be given in Cost Accounting. The credit to Profit and Loss Account here is treated either as a miscellaneous income or as additional sales revenue.\n\n- The sale proceeds of the by-product may be treated as deduction from the total costs. The sales proceeds should be deducted either from production cost or cost of sales.\n\n(ii) When the by-products are of considerable total value: Where by-products are of considerable total value, they may be regarded as joint products rather than as by-products. To determine exact cost of by-products the costs incurred upto the point of separation, should be apportioned over by-products and joint products by using a logical basis.\n\n(iii) When they require further processing: In this case, the net realisable value of the by-product at the splitoff point may be arrived at by subtracting the further processing cost from realisable value of by-product. If the value is small, it may be treated as discussed in (i) above.",
+          "chapter_number": "11",
+          "chapter_name": "JOINT PRODUCTS AND BY PRODUCTS",
+          "unique_id": "11-T-4"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "EXPLAIN the treatment of given items of Cost in Cost Sheet/Statement (MTP 4 Marks Apr'25) (i) Abnormal costs (ii) Subsidy/Grant/Incentives (iii) Penalty, fine, damages, and demurrage (iv) Interest and other finance costs",
+          "answer": "Treatment of various items of Cost in Cost Sheet/Statement\n\n(i) Abnormal costs: Any abnormal cost, where it is material and quantifiable, shall not form part of cost of production or acquisition or supply of goods or provision of service. Examples of abnormal costs are:\n\n(a) Cost pertaining to or arising out of a pandemic e.g. COVID-19\n\n(b) Cost associated with employees due to sudden lockdown.\n\n(ii) Subsidy/Grant/Incentives: Any such type of payment received/ receivable are reduced from the cost objects to which such amount pertains.\n\n(iii) Penalty, fine, damages, and demurrage: These types of expenses are not form part of cost.\n\n(iv) Interest and other finance costs: Interest, including any payment in the nature of interest for use of nonequity funds and incidental cost that an entity incurs in arranging those funds. Interest and finance charges are not included in cost of production. Interest and Financing Charges shall be presented in the cost statement as a separate item of cost of sales.",
+          "chapter_number": "6",
+          "chapter_name": "COST SHEET",
+          "unique_id": "6-T-2"
+        }
+      ]
+    }
+  ]
+}

@@ -36,34 +36,10 @@ load_dotenv()
 
 def _write_status(output_dir: str, stage: str, message: str, *, error: str = None, extra: dict = None):
     data = {"stage": stage, "message": message, "error": error, "ts": time.time()}
-    
-    res_path = os.path.join(output_dir, "result.json")
-    if os.path.exists(res_path):
-        try:
-            with open(res_path, "r", encoding="utf-8") as f:
-                old_data = json.load(f)
-                if "warning" in old_data:
-                    data["warning"] = old_data["warning"]
-        except Exception:
-            pass
-
     if extra:
         data.update(extra)
-        
-    with open(res_path, "w", encoding="utf-8") as f:
+    with open(os.path.join(output_dir, "result.json"), "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
-
-def check_horizontal_pages(pdf_path: str) -> bool:
-    try:
-        import fitz
-        doc = fitz.open(pdf_path)
-        for page in doc:
-            rect = page.rect
-            if rect.width > rect.height:
-                return True
-        return False
-    except Exception:
-        return False
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -92,10 +68,7 @@ def run_stage_1_2_FT(ft_paper_json_path: str, output_dir: str) -> dict:
                 serial_counter += 1
                 serial = serial_counter
             else:
-                try:
-                    serial_counter = int(serial)
-                except (ValueError, TypeError):
-                    pass  # v2 serials like "1_v2" — just keep current counter
+                serial_counter = int(serial)
 
             key     = str(serial)
             correct = q.get("correct_option", q.get("answer", "")).strip("() ").lower()
@@ -108,8 +81,6 @@ def run_stage_1_2_FT(ft_paper_json_path: str, output_dir: str) -> dict:
                 "model_answer":    correct,
                 "marks":           2,
                 "question_number": f"Q{serial}",
-                "question_id":     q.get("question_id", f"A-MCQ-{serial}"),
-                "or_group":        q.get("or_group"),
             }
 
     schema_with_answers["SectionA"] = {"MCQ": mcq_block}
@@ -133,8 +104,6 @@ def run_stage_1_2_FT(ft_paper_json_path: str, output_dir: str) -> dict:
                 "question_number": sub_key,
                 "chapter_number":  sub.get("chapter_number", ""),
                 "chapter_name":    sub.get("chapter_name", ""),
-                "question_id":     sub.get("question_id", f"B-Q{q_main}-{sub_key}"),
-                "or_group":        sub.get("or_group"),
             }
 
         section_b_block[q_key] = sub_q_block
@@ -398,19 +367,6 @@ def main():
     print("=" * 60)
 
     _write_status(output_dir, "started", "Pipeline started")
-    
-    has_horizontal = check_horizontal_pages(args.as_pdf)
-    if has_horizontal:
-        _write_status(output_dir, "paused", "Horizontal pages detected! Do you want to continue?", extra={"warning": "Horizontal pages detected!"})
-        while True:
-            if os.path.exists(os.path.join(output_dir, "continue.txt")):
-                break
-            if os.path.exists(os.path.join(output_dir, "reset.txt")):
-                _write_status(output_dir, "failed", "Pipeline aborted by user due to horizontal pages.", error="Aborted due to horizontal pages.")
-                sys.exit(0)
-            time.sleep(2)
-        _write_status(output_dir, "started", "Pipeline resumed...")
-
     start = time.time()
 
     try:

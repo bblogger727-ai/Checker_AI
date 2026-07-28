@@ -1,0 +1,466 @@
+{
+  "meta": {
+    "subject_code": "COST",
+    "subject_name": "Cost and Management Accounting",
+    "paper_num": 2,
+    "total_marks_printed": 100,
+    "total_marks_in_paper": 114,
+    "section_a_marks": 30,
+    "section_b_marks": 84,
+    "note": "Section A: 15 MCQs @ 2 marks each (Case Study based). Section B: Q1 compulsory (14m). Attempt any 4 of Q2–Q6 (14m each).",
+    "blacklisted_from": [
+      "Generated_Papers/COST/COST_Mock_Paper_1.json"
+    ],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)",
+      "1(c)"
+    ]
+  },
+  "section_a": [
+    {
+      "type": "case_study",
+      "chapter_number": "16",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "## CS 2 (RTP May'24,MP[3]) (Chapter 3-Employee Cost)\n\n\nThe board of the $\\mathbf{J}$ Ltd. has been appraised by the General Manager (HR) that the employee attrition rate in the company has increased. The following facts have been presented by the GM(HR):\n\n(1) Training period of the new recruits is 50,000 hours. During this period their productivity is $60 \\%$ of the experienced workers. Time required by an experienced worker is 10 hours per unit.\n\n(2) $20 \\%$ of the output during training period was defective. Cost of rectification of a defective unit was ₹ 25 .\n\n\n## D\n\n\n(3) Potential productive hours lost due to delay in recruitment were 1,00,000 hours.\n\n(4) Selling price per unit is $₹ 180$ and $\\mathrm{P} / \\mathrm{V}$ ratio is $20 \\%$.\n\n(5) Settlement cost of the workers leaving the organization was ₹ $1,83,480$.\n\n(6) Recruitment cost was ₹ $1,56,340$\n\n(7) Training cost was ₹ $1,13,180$\n\n\nYou, being an associate finance to $\\mathrm{GM}(\\mathrm{HR})$, has been asked the following questions:\n\n\n1. How much quantity of output is lost due to labour turnover?\n\n(a) 10,000 units\n\n(b) 8,000 units\n\n(c) 12,000 units\n\n(d) 12,600 units\n\n\nAns: (c)\n\n2. How much loss in the form of contribution, the company incurred due to labour turnover?\n\n(a) $₹ 4,32,000$\n\n(b) ₹ $4,20,000$\n\n(c) $₹ 4,36,000$\n\n(d) ₹ $4,28,000$\n\n\nAns: (a)\n\n3. What is the cost repairing of defective units?\n\n(a) $₹ 75,000$\n\n(b) ₹15,000\n\n(c) ₹50,000\n\n(d) ₹25,000\n\n\nAns: (b)\n\n4. Calculate the profit lost by the company due to increased labour turnover.\n\n(a) ₹ $7,50,000$\n\n(b) ₹ $15,00,000$\n\n(c) $₹ 5,00,000$\n\n(d) ₹ $9,00,000$\n\n\nAns: (d)\n\n5. How much quantity of output is lost due to inexperience of the new worker?\n\n(a) 1,000 units\n\n(b) 2,600 units\n\n(c) 2,000 units\n\nGauresh | (d) 12,600 units\n\n\nAns: (c)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "How much quantity of output is lost due to labour turnover?\n\n(a) 10,000 units\n\n(b) 8,000 units\n\n(c) 12,000 units\n\n(d) 12,600 units",
+          "options": {
+            "a": "10,000 units",
+            "b": "8,000 units",
+            "c": "12,000 units",
+            "d": "12,600 units"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": 1
+        },
+        {
+          "q_num": 2,
+          "question": "How much loss in the form of contribution, the company incurred due to labour turnover?\n\n(a) $₹ 4,32,000$\n\n(b) ₹ $4,20,000$\n\n(c) $₹ 4,36,000$\n\n(d) ₹ $4,28,000$",
+          "options": {
+            "a": "₹ 4,32,000",
+            "b": "₹ 4,20,000",
+            "c": "₹ 4,36,000",
+            "d": "₹ 4,28,000"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null,
+          "_serial": 2
+        },
+        {
+          "q_num": 3,
+          "question": "What is the cost repairing of defective units?\n\n(a) $₹ 75,000$\n\n(b) ₹15,000\n\n(c) ₹50,000\n\n(d) ₹25,000",
+          "options": {
+            "a": "₹ 75,000",
+            "b": "₹15,000",
+            "c": "₹50,000",
+            "d": "₹25,000"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": 3
+        },
+        {
+          "q_num": 4,
+          "question": "Calculate the profit lost by the company due to increased labour turnover.\n\n(a) ₹ $7,50,000$\n\n(b) ₹ $15,00,000$\n\n(c) $₹ 5,00,000$\n\n(d) ₹ $9,00,000$",
+          "options": {
+            "a": "₹ 7,50,000",
+            "b": "₹ 15,00,000",
+            "c": "₹ 5,00,000",
+            "d": "₹ 9,00,000"
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null,
+          "_serial": 4
+        },
+        {
+          "q_num": 5,
+          "question": "How much quantity of output is lost due to inexperience of the new worker?\n\n(a) 1,000 units\n\n(b) 2,600 units\n\n(c) 2,000 units\n\nGauresh | (d) 12,600 units",
+          "options": {
+            "a": "1,000 units",
+            "b": "2,600 units",
+            "c": "2,000 units",
+            "d": "12,600 units"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": 5
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "16-CS-2"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "16",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "## CS 6 (MTP 10 Marks Apr'24,MP[2]) (Chapter 14- Marginal Costing)\n\n\nA meeting of the heads of departments of the Arnav Ltd. has been called to review the operating performance of the company in the last financial year. The head of the production department appraised that during the last year the company could operate at $\\mathbf{7 0} \\boldsymbol{\\%}$ capacity level but in the coming financial year $95 \\%$ capacity level can be achieved if an additional amount of $₹ 100$ Crore on capex and working capital is incurred.\n\nThe head of the finance department has presented that during the last financial year the company had a $\\mathrm{P} / \\mathrm{V}$ ratio of $40 \\%$, margin of safety and the break-even were $₹ 50$ crore and $₹ 200$ crore respectively.\n\nTo the reply to the proposal of increasing the production capacity level to $95 \\%$, the head of the finance department has informed that this could be achieved if the selling price and variable cost are reduced by $8 \\%$ and $5 \\%$ of sales respectively. Fixed cost will also increase by $₹ 20$ crore due to increased depreciation on additional assets. The additional capital will be arranged at a cost of $15 \\%$ p.a. from a bank.\n\nIn the coming financial year, it has been aimed to achieve an additional profit of ₹10 crore over and above the last year's profit after adjusting the interest cost on the additional capital.\n\nThe following points is required to be calculated on urgent basis to put the same in the meeting. You being an assistant to the head of finance, has been asked the followings:\n\n\n1. What will be the revised sales for the coming financial year?\n\n(a) ₹ 322.22 crore\n\n(b) ₹ 311.11 crore\n\n(c) ₹ 300.00 crore\n\nGauresh (d) ₹ 324.24 crore\n\n\nAns: (a)\n\n2. What will be the revised break-even point for the coming financial year?\n\n(a) ₹222.22 Crore\n\n(b) ₹ 252.22 Crore\n\n(c) ₹ 244.44 Crore\n\n(d) ₹ 255.56 Crore\n\n\nAns: (d)\n\n3. What will be the revised margin of safety for the coming financial year?\n\n(a) ₹ 100 Crore\n\n(b) ₹ 58.89 Crore\n\n(c) ₹55.56 Crore\n\n(d) ₹66.66 Crore\n\n\nAns: (d)\n\n4. The profit of the last year and for the coming year are:\n\n(a) ₹ 50 Crore \\& ₹ 95 Crore respectively\n\n(b) ₹ 20 Crore \\& ₹ 65 Crore respectively\n\n(c) ₹ 20 Crore \\& ₹ 30 Crore respectively\n\n(d) ₹ 45 Crore \\& ₹66.66 Crore respectively\n\n\nAns: (C)\n\n5. The total cost of the last year and for the coming year are:\n\n(a) ₹ 230 Crore \\& ₹292.22\n\n(b) ₹ 230 Crore \\& ₹275 Crore\n\n(c) ₹ 220 Crore \\& ₹282.22 Crore\n\n(d) ₹ 220 Crore \\& ₹292.22 Crore\n\n\nAns: (a)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "What will be the revised sales for the coming financial year?\n\n(a) ₹ 322.22 crore\n\n(b) ₹ 311.11 crore\n\n(c) ₹ 300.00 crore\n\nGauresh (d) ₹ 324.24 crore",
+          "options": {
+            "a": "₹ 322.22 crore",
+            "b": "₹ 311.11 crore",
+            "c": "₹ 300.00 crore",
+            "d": "₹ 324.24 crore"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null,
+          "_serial": 6
+        },
+        {
+          "q_num": 2,
+          "question": "What will be the revised break-even point for the coming financial year?\n\n(a) ₹222.22 Crore\n\n(b) ₹ 252.22 Crore\n\n(c) ₹ 244.44 Crore\n\n(d) ₹ 255.56 Crore",
+          "options": {
+            "a": "₹222.22 Crore",
+            "b": "₹ 252.22 Crore",
+            "c": "₹ 244.44 Crore",
+            "d": "₹ 255.56 Crore"
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null,
+          "_serial": 7
+        },
+        {
+          "q_num": 3,
+          "question": "What will be the revised margin of safety for the coming financial year?\n\n(a) ₹ 100 Crore\n\n(b) ₹ 58.89 Crore\n\n(c) ₹55.56 Crore\n\n(d) ₹66.66 Crore",
+          "options": {
+            "a": "₹ 100 Crore",
+            "b": "₹ 58.89 Crore",
+            "c": "₹55.56 Crore",
+            "d": "₹66.66 Crore"
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null,
+          "_serial": 8
+        },
+        {
+          "q_num": 4,
+          "question": "The profit of the last year and for the coming year are:\n\n(a) ₹ 50 Crore \\& ₹ 95 Crore respectively\n\n(b) ₹ 20 Crore \\& ₹ 65 Crore respectively\n\n(c) ₹ 20 Crore \\& ₹ 30 Crore respectively\n\n(d) ₹ 45 Crore \\& ₹66.66 Crore respectively",
+          "options": {
+            "a": "₹ 50 Crore & ₹ 95 Crore respectively",
+            "b": "₹ 20 Crore & ₹ 65 Crore respectively",
+            "c": "₹ 20 Crore & ₹ 30 Crore respectively",
+            "d": "₹ 45 Crore & ₹66.66 Crore respectively"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": 9
+        },
+        {
+          "q_num": 5,
+          "question": "The total cost of the last year and for the coming year are:\n\n(a) ₹ 230 Crore \\& ₹292.22\n\n(b) ₹ 230 Crore \\& ₹275 Crore\n\n(c) ₹ 220 Crore \\& ₹282.22 Crore\n\n(d) ₹ 220 Crore \\& ₹292.22 Crore",
+          "options": {
+            "a": "₹ 230 Crore & ₹292.22",
+            "b": "₹ 230 Crore & ₹275 Crore",
+            "c": "₹ 220 Crore & ₹282.22 Crore",
+            "d": "₹ 220 Crore & ₹292.22 Crore"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null,
+          "_serial": 10
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "16-CS-6"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "16",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "K Ltd. is a manufacturer of a single product $\\mathrm{A} .8,000$ units of the product A has been produced in the month of March 20 XX . At the beginning of the year a total $1,20,000$ units of the product-A has been planned for production. The cost department\n\nt has provided the following estimates of overheads:\n\n| Fixed | ₹ $12,00,000$ | Variable | ₹ $6,00,000$ |\n| :--- | :---: | :---: | ---: |\n| Semi-Variable | ₹ $1,80,000$ |  |  |\n\nSemi-variable charges are considered to include 60 per cent expenses of fixed nature and 40 per cent of variable character.\n\nThe records of the production department shows that the company could have operated for 20 days but there was a festival holiday during the month.\n\nThe actual cost data for the month of March 20XX are as follows:\n\n| Fixed | ₹ $1,19,000$ | Variable | ₹ 48,000 |\n| :--- | :---: | :---: | :---: |\n| Semi-Variable | ₹ 19,200 |  |  |\n\nThe cost department of the company is now preparing a cost variance report for managerial information and action. You being an accounts officer of the company are asked to calculate the following information for preparation of the variance report:\n\n1. What is the amount of variable overhead cost variance for the month of March 20XX:\n\n(a) $₹ 10,200(\\mathrm{~A})$\n\n(b) $₹ 10,400$ (A)\n\n(c) $₹ 10,800(\\mathrm{~A})$\n\n(d) $₹ 10,880(\\mathrm{~A})$\n\n\nAns: (d)\n\n2. What is the amount of fixed overhead volume variance for the month of March 20XX:\n\n(a) $₹ 9,000$ (F)\n\n(b) $₹ 9,000(\\mathrm{~A})$\n\n(c) ₹ $21,800(\\mathrm{~A})$\n\n(d) ₹ 11,000 (A)\n\n\nAns: (c)\n\n3. What is the amount of fixed overhead expenditure variance for the month of March 20XX:\n\n(a) ₹ 21,520 (A)\n\n(b) ₹ $21,500(\\mathrm{~A})$\n\n(c) ₹ $21,400(\\mathrm{~A})$\n\n(d) $₹ 21,480$ (A)\n\n\nAns: (a)\n\n4. What is the amount of fixed overhead calendar variance for the month of March 20XX:\n\n(a) ₹ 5,400 (A)\n\n(b) ₹ 5,450 (A)\n\n(c) $₹ 5,480(\\mathrm{~A})$\n\n(d) $₹ 5.420$ (A)\n\n\nAns: (b)\n\n5. What is the amount of fixed overhead cost variance for the month of March 20XX:\n\n(a) ₹ 43,320 (A)\n\n(b) ₹ $43,300(\\mathrm{~A})$\n\n(c) ₹ $43,200(\\mathrm{~A})$\n\n(d) $₹ 43,380(\\mathrm{~A})$\n\n\nAns: (a)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "What is the amount of variable overhead cost variance for the month of March 20XX:",
+          "options": {
+            "a": "₹ 10,200(\\mathrm{~A})",
+            "b": "₹ 10,400 (A)",
+            "c": "₹ 10,800(\\mathrm{~A})",
+            "d": "₹ 10,880(\\mathrm{~A})"
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null,
+          "_serial": 11
+        },
+        {
+          "q_num": 2,
+          "question": "What is the amount of fixed overhead volume variance for the month of March 20XX:",
+          "options": {
+            "a": "₹ 9,000 (F)",
+            "b": "₹ 9,000(\\mathrm{~A})",
+            "c": "₹ 21,800(\\mathrm{~A})",
+            "d": "₹ 11,000 (A)"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null,
+          "_serial": 12
+        },
+        {
+          "q_num": 3,
+          "question": "What is the amount of fixed overhead expenditure variance for the month of March 20XX:",
+          "options": {
+            "a": "₹ 21,520 (A)",
+            "b": "₹ 21,500(\\mathrm{~A})",
+            "c": "₹ 21,400(\\mathrm{~A})",
+            "d": "₹ 21,480 (A)"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null,
+          "_serial": 13
+        },
+        {
+          "q_num": 4,
+          "question": "What is the amount of fixed overhead calendar variance for the month of March 20XX:",
+          "options": {
+            "a": "₹ 5,400 (A)",
+            "b": "₹ 5,450 (A)",
+            "c": "₹ 5,480(\\mathrm{~A})",
+            "d": "₹ 5.420 (A)"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null,
+          "_serial": 14
+        },
+        {
+          "q_num": 5,
+          "question": "What is the amount of fixed overhead cost variance for the month of March 20XX:",
+          "options": {
+            "a": "₹ 43,320 (A)",
+            "b": "₹ 43,300(\\mathrm{~A})",
+            "c": "₹ 43,200(\\mathrm{~A})",
+            "d": "₹ 43,380(\\mathrm{~A})"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null,
+          "_serial": 15
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "16-CS-7"
+    }
+  ],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": true,
+      "total_marks": 14,
+      "chapter_number": "8",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "EXE Limited has received an offer of quantity discounts on its order of materials as under::\n\nPrice per ton (₹)\n₹1,200  Less than 500\n₹1,180  500 and less than 1000\n₹1,160  1000 and less than 2000\n₹1,140  2000 and less than 3000\n₹1,120  3000 and above\n\nThe annual requirement for the materials is 5,000 tons. The delivery cost per order is ₹1,200 and the stock holding cost is estimated at 20% of material cost per annum.\n\n(1) You are required to calculate the most economical purchase level, and (2) What will be your answer to the above question if there are no discounts offered and the price per ton is ₹1,500?",
+          "answer": "(1) Statement of Most Economical Purchase Level  \n\n| Order Size (ROQ) | Total Ordering Cost (₹) | Total Carrying Cost (½ x ROQ x 20% of Price) | Purchase Cost (5,000 x Price) | Total Cost |\n|-------------------|-------------------------|------------------------------------------------|-------------------------------|------------|\n| 400               | {(5,000/400) 12.5 or 13 x 1,200} = 15,600 | 48,000                                         | 60,000                        | 60,63,600  |\n| 500               | {(5,000/500) 10 x 1,200} = 12,000        | 59,000                                         | 59,000                        | 59,71,000  |\n| 1,000             | {(5,000/1,000) 5 x 1,200} = 6,000        | 1,16,000                                       | 58,000                        | 59,22,000  |\n\nThe above table shows that the total cost of 5,000 units including ordering and carrying cost is minimum (₹59,22,000) when the order size is 1,000 units. Hence the most economical purchase level is 1,000 units.\n\n(2) If there will be no discount offer then the purchase quantity should be equal to EOQ. The EOQ is as follows:\n\nEOQ = √(2AO / C)  \n= √(2 x 5,000 x 1,200 / 20% of 1,500)  \n= 20,000",
+          "chapter_number": "2",
+          "chapter_name": "MATERIAL COST",
+          "unique_id": "BQ-8"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "FIND OUT the joint cost allocated to Product A in the month of July if joint cost allocation is based on Net Realizable Value. The joint costs to be allocated after accounting for the by-product are Rs. 30,60,000. Product B must be processed further, and its net realizable value is Rs. 15,00,000. Product C, the by-product, has a net realizable value of Rs. 3,00,000, and is accounted for as a reduction in joint costs.",
+          "answer": "| Product A |  |\n| :--- | :--- |\n| As the Question says that \"Products B and C must be processed further before they can be sold\", it means Product A can be sold at the split-off point. |  |\n| Cost to process Product A after the split-off point | $=Rs. 6,00,000$ |\n| Additional revenue to be earned by processing further | $=Rs. 3,00,000$ <br> ( Rs. 100 increase in selling price per unit $\\times 3,000$ units) |\n| Therefore, Product A will not be processed further, and the sales value at split -off for A will be used for allocating the joint costs. |  |\n| Sales value at the split-off for A | $=Rs. 6,00,000$ (Rs. $200 \\times 3,000$ units) |\n| Product B |  |\n| Since Product B must be processed further, we use its net realizable value for the joint cost allocation. |  |\n| Net realizable value of Product B | $\\begin{aligned} & =Rs. 15,00,000 \\\\ & \\text { [(Rs. } 350 \\times 6,000 \\text { units) - Rs. } 6,00,000 \\text { further } \\\\ & \\text { processing costs] } \\end{aligned}$ |\n| Product C |  |\n| Product C, the by-product, must also be processed further to be sold. |  |\n| Net realizable value of Product C | $\\begin{aligned} & =Rs. 3,00,000 \\\\ & {[(Rs. 100 \\times 9,000 \\text { units })-Rs. 6,00,000 \\text { in further }} \\\\ & \\text { processing costs }] \\end{aligned}$ |\n| Joint Cost Allocation |  |\n| Joint production cost | = Rs. 33,60,000 |\n| Since, by-product C is accounted for as a reduction to the joint costs, the joint costs to be allocated |  |\n|  | $\\begin{aligned} & =Rs. 30,60,000 \\\\ & (Rs. 33,60,000-Rs. 3,00,000 \\mathrm{NRV} \\text { of Product C) } \\end{aligned}$ |\n| Allocation of joint costs between Product A and B will be on the basis of Rs. $6,00,000$ : Rs. $15,00,000$ |  |\n| Joint Cost allocated to Product | $=Rs. 30,60,000 \\times \\frac{Rs. 6,00,000}{Rs. 21,00,000}=Rs. 8,74,286$ |",
+          "chapter_number": "11",
+          "chapter_name": "JOINT PRODUCTS AND BY PRODUCTS",
+          "unique_id": "11-T-12"
+        },
+        {
+          "label": "c",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Delta Ltd. is a manufacturing concern having two production departments P1 and P2 and two service departments S1 and S2. After making a primary distribution of factory overheads of all departments are as under:\n\nP1 = ₹4,02,000\n\nP2 = ₹2,93,000\n\nS1 = ₹3,52,000\n\nS2 = ₹33,000\n\nOverheads of service departments are apportioned as below:\n\n          P1      P2      S1      S2\nDepartment S1  40%    50%      -      10%\nDepartment S2  50%    40%      -      -\n\nA product 'Z' passes through all the two production departments - P1 and P2 and each unit of product remain in process for 2 and 3 hours respectively. The material and labour cost of one unit of product 'Z' is ₹500 and ₹350 respectively. The company run for all 365 days of the year and 16 hours per day.\n\nYou are required to:\n\n(1) To make secondary distribution of overheads of service departments by applying Simultaneous Equation method and\n\n(2) Determine the total cost of one unit of product Z.",
+          "answer": "(1) Statement Showing Secondary Distribution\n\nParticulars                     Production Departments          Service Departments\n                                P1          P2          S1          S2\nOverheads                       Primary distribution\nApportionment:                 4,02,000    2,93,000    3,52,000    33,000\nDepartment S1                 (40:50:10)  1,43,555    1,79,445    (3,58,889)  35,889\nDepartment S2                 (50:40:10)  34,445      27,555      6,889      (68,889)\nTotal Overheads                5,80,000    5,00,000    -          -\n+ Production Hours             5,840       5,840       -          -\nRecovery rate per hour         -           99.32       85.62      -          -\n\nCalculation of adjusted expenses of service department by using Simultaneous Equation method:\n\nExpenses of Department S1 = 3,52,000 + 10% of Expenses of S2\n\nExpenses of Department S2 = 33,000 + 10% of Expenses of S1\n\nNow:\n\nExpenses of Department S1 = 3,52,000 + 10% (33,000 + 10% of S1)\n\nExpenses of Department S1 = 3,52,000 + 3,300 + 1% of S1\n\nExpenses of Department S1 = 3,55,300 + 99% = 3,58,889\n\nExpenses of Department S2 = 33,000 + 10% of S1\n\nExpenses of Department S1 = 33,000 + 10% of 3,58,889\n\nExpenses of Department S2 = 33,000 + 35,889 = 68,889\n\n(2) Statement Showing Cost Per Unit of 'Z'\n\nParticulars                     Amount\nDirect Materials               500\nDirect Labour                  350\nPrime Cost                    850\n\nProduction Overheads:\nDepartment P1 (2 hours x 99.32)  198.64\nDepartment P2 (3 hours x 85.62)  256.86\nTotal Cost                    1,305.50\n\nWorking Notes:\n\n365 x 16 hours\n5,840 hours",
+          "chapter_number": "4",
+          "chapter_name": "OVERHEADS-ABSORPTION COSTING METHOD",
+          "unique_id": "BQ-25"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "6",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "## Question 6 (MTP 6 Marks Apr'25)\n\nThe following information is made available: Opening stock of Work in progress - Rs. 60,000\n\nOpening Raw Materials - Rs. 1,20,000\n\nOpening Finished Goods - Rs. 1,13,250\n\nPurchase of Materials - Rs. $\\mathbf{7 , 5 0 , 0 0 0}$\n\nIndirect manufacturing costs - 40\\% of conversiori costs ${ }^{8237317945}$\n\nSales Revenue - Rs. 22,50,000\n\nDirect Labour - Rs. 6,66,750\n\nPrime Costs - Rs.11,93,250\n\nGross margin - $30 \\%$ of revenue\n\nCost of goods available for sale $-Rs. 16,67,325$ From the above DETERMINE the following:\n\na. Closing Raw Materials\n\nb. Closing Work in progress\n\nc. Closing Finished Goods.",
+          "answer": "Prime cost = 11,93,250\n\nDirect Labour = 6,66,750\n\nDirect Material consumed (Prime cost - Direct Labour) $=5,26,500$\n\nOpening Raw Material (RM) $=1,20,000$\n\nPurchase of RM =7,50,000\n\n\n## Closing RM (Op RM + Purchases - Materials Consumed) = 3,43,500\n\n\n| Sales | $22,50,000$ |\n| :--- | :--- |\n| Less: Gross profit @ 30\\% | $6,75,000$ |\n| Cost of Sales | $15,75,000$ |\n| Cost of goods available for sales | $16,67,325$ |\n\n\nHence Closing Finished goods (FG) 92,325 (16,67,325-15,75,000)\n\nOpening Finished goods 1,13,250\n\nCost of Production (Cost of Sales + Closing FG - Opening FG) $\\mathbf{= 1 5 , 5 4 , 0 7 5}$\n\nConversion costs = Labour + Production Overhead\n\nOverhead $=40 \\%$ and hence labour $=60 \\%$\n\nHence total conversion cost $=6,66,750 / 60 \\%=11,11,250$\n\nHence POH (Total conversion - Labour cost) = 4,44,500\n\nWorks Cost $=16,37,750$\n\n\nOpening Work in progress (WIP) $\t=60,000$\n\nClosing Work in progress (Work Cost + Opening WIP - Closing WIP) = 1,43,675",
+          "chapter_number": "6",
+          "chapter_name": "COST SHEET",
+          "unique_id": "6-T-6"
+        },
+        {
+          "label": "b",
+          "marks": 8,
+          "internal_split": null,
+          "question": "Question 19 (MTP 10 Marks Aug'24,MP[5])\n\nAs demand for LED light increases, more entrepreneurs are coming into its manufacturing process. eLED Pvt. Ltd. is also one of the recently formed company whose main business is related to LED lights.\n\nThe company has extended its hand into various LED products like COB (Chip On Board) LEDs, SMD (Surface Mounted Device) LEDs, RGB LEDs, Flashing LEDs, Miniature LEDs, OLEDs, Filament Bulbs, etc.\n\nHowever, at the beginning stage, the company has decided to only assemble the products and enter into manufacturing stage at later years.\n\nThe details relating to the first process of mounting for the month of August are given below:\n\n\n| Opening Work-in-Process: | 31,000 units |\n| :--- | :--- |\n| Material | Rs.12,40,000 |\n| Labour | Rs.2,32,500 |\n| Overheads | Rs.6,97,500 |\n| Introduction during the process: | 5,89,000 units |\n| Material | Rs.2,29,40,000 |\n| Labour | Rs.55,64,500 |\n| Overheads | Rs.1,66,93,500 |\n\nThe process involve some wastage as well. The management estimated a normal loss of $5 \\%$ of total input including opening work-in-process which can be sold out for Rs. 20 per unit. However, the workers reported 46,500 units as scrapped in which $100 \\%$ material was used along with $80 \\%$ of Labour and overheads.\n\n5,42,500 units were transferred for next process of soldering.\n\nSome units were still in process and thus, shifted for the next month process of mounting. With $100 \\%$ material used along with $80 \\%$ labour and overheads, 31,000 units were shifted.\n\nFollowing the average method of inventory, you are required to PREPARE:\n\n- Statement of cost showing cost per equivalent unit\n- Statement of distribution cost\n- Process Account (Mounting)\n- Normal Loss Account and Abnormal Loss Account.",
+          "answer": "(i) Statement of Equivalent Production\n\n\n| Particulars | Input | Particulars | Output | Equivalent Production |  |  |  |  |\n| :--- | :--- | :---: | :--- | :---: | :--- | :--- | :--- | :---: |\n|  | Units |  | Units | Material |  |  | Labour \\&O.H. |  |\n|  |  |  | $\\%$ | Units | $\\%$ | Units |  |  | \n\n\n| OpeningWIP | 31,000 | Completed andtransferred to Process(Soldering) | 5,42,500 | 100 | 5,42,500 | 100 | 5,42,500 |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| Units introduced | 5,89,000 | Normal Loss (5\\% of6,20,000) | 31,000 | -- | -- | -- | -- |\n|  |  | Abnormal loss (Balancing figure) | 15,500 | 100 | 15,500 | 80 | 12,400 |\n|  |  | Closing WIP | 31,000 | 100 | 31,000 | 80 | 24,800 |\n|  | 6,20,000 |  | 6,20,000 |  | 5,89,000 |  | 5,79,700 |\n\n\nStatement showing cost for each element\n\n| Particulars | Materials (Rs.) | Labour (Rs.) | Overhead (Rs.) | Total (Rs.) |\n| :--- | :--- | :--- | :--- | :--- |\n| Cost of opening work-in-process | 12,40,000 | 2,32,500 | 6,97,500 | 21,70,000 |\n| Cost incurred during themonth | 2,29,40,000 | 55,64,500 | 1,66,93,500 | 4,51,98,000 |\n| Less: Realisable Value ofnormal scrap ( $Rs. 20 \\times$ 31,000 units) | (6,20,000) | -- | -- | (6,20,000) |\n| Total cost: (A) | 2,35,60,000 | 57,97,000 | 1,73,91,000 | 4,67,48,000 |\n| Equivalent units: (B) | 5,89,000 | 5,79,700 | 5,79,700 |  |\n| Cost per equivalentunit: $(\\mathrm{C})=(\\mathrm{A} \\div \\mathrm{B})$ | 40.00 | 10.00 | 30.00 | 80.00 |\n\n\n(ii) Statement of Distribution of cost\n\n|  |  | Amount (Rs.) | Amount (Rs.) |\n| :--- | :--- | :--- | :--- |\n| 1. | Value of units completed andtransferred (5,42,500 units × Rs.80) |  | 4,34,00,000 |\n| 2. | Value of Abnormal Loss: |  |  |\n|  | - Materials (15,500 units $\\times Rs. 40$ ) | 6,20,000 |  |\n|  | - Labour (12,400 units × Rs.10) | 1,24,000 |  |\n|  | - Overheads (12,400 units × Rs.30) | 3,72,000 | 11,16,000 |\n| 3. | Value of Closing W-I-P: |  |  |\n|  | - Materials (31,000 units $\\times$ Rs.40) | 12,40,000 |  |\n|  | - Labour (24,800 units $\\times$ Rs. 10 ) | 2,48,000 |  |\n|  | - Overheads (24,800 units × Rs.30). | 7,44,000 | 22,32,000 |\n|  | Total |  | 4,67,48,000 |\n\n\n(iii) Process Account (Mounting)\n\n| Particulars | Units | (Rs.) | Particulars | Units | (Rs.) |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| To Opening W.I.P: |  |  | By Normal Loss ( $Rs. 20 \\times 31,000$ units) | 31,000 | 6,20,000 |\n| - Materials | 31,000 | 12,40,000 | By Abnormal loss | 15,500 | 11,16,000 |\n| - Labour | -- | 2,32,500 | By Process A/c(Soldering) | 5,42,500 | 4,34,00,000 |\n| - Overheads | -- | 6,97,500 | By Closing WIP | 31,000 | 22,32,000 |\n| To Materials introduced | 5,89,000 | 2,29,40,000 |  |  |  |\n| To Direct Labour |  | 55,64,500 |  |  |  |\n| To Overheads |  | 1,66,93,500 |  |  |  |\n|  | 6,20,000 | 4,73,68,000 |  | 6,20,000 | 4,73,68,000 |\n\n\n(iv) Normal Loss A/c\n\n| Particulars | Units | (Rs.) | Particulars | Units | (Rs.) |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| To ProcessAccount (Mounting) | 31,000 | 6,20,000 | By Cost LedgerControl A/c | 31,000 | 6,20,000 |\n|  | 31,000 | 6,20,000 |  | 31,000 | 6,20,000 |\n\n\nAbnormal Loss A/c\n\n| Particulars | Units | (Rs.) | Particulars | Units | (Rs.) |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| To Process Account (Mounting) | 15,500 | 11,16,000 | By Cost Ledger Control A/c | 15,500 | 3,10,000 |\n|  |  |  | By Costing Profit \\& Loss A/c |  | 8,06,000 |\n|  | 15,500 | 11,16,000 |  | 15,500 | 11,16,000 |",
+          "chapter_number": "10",
+          "chapter_name": "PROCESS \\& OPERATION COSTING",
+          "unique_id": "10-T-19"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "12",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "PREPARE cost statement of Panipat Thermal Power Station showing the cost of electricity generated per kwh, from the following data.\n\n| Total units generated | $16,50,000 \\mathrm{kWh}$ |\n| :--- | :--- |\n|  | (Rs.) |\n| Operating labour | 21,75,000 |\n| Repairs & maintenance | 7,25,000 |\n| Lubricants, spares and stores | 5,80,000 |\n| Plant supervision | 4,35,000 |\n| Administration overheads | 29,00,000 |\n| Insurance Charges | 15,00,000 |\n| Fuel Charges | 8,00,000 |\n\n7 kWh. of electricity generated per kg. of coal consumed @ Rs.4.75 per kg. Depreciation charges @ 5% on capital cost of Rs.3,10,00,000. (RTP May’23 Same concept different figures SM)",
+          "answer": "Total units generated $\\mathbf{1 6 , 5 0 , 0 0 0} \\mathbf{~ k W h}$.\n\nCost Statement of Panipat Thermal Power Station\n\n|  |  | Per annum (Rs.) | Per kWh. (Rs.) |\n| :--- | :--- | :--- | :--- |\n| Fixed costs: |  |  |  |\n| Plant supervision | Gauresh \\| 8237317945 | 4,35,000 |  |\n| Administration overheads |  | 29,00,000 |  |\n| Insurance Charges |  | 15,00,000 |  |\n| Depreciation (5% of Rs. 3,10,00,000 p.a.) |  | 15,50,000 |  |\n| Total fixed cost: (A) |  | 63,85,000 | 3.87 |\n| Variable costs: |  |  |  |\n| Operating labour |  | 21,75,000 |  |\n| Fuel Charges |  | 8,00,000 |  |\n| Lubricants, spares and stores |  | 5,80,000 |  |\n| Repairs & maintenance |  | 7,25,000 |  |\n| Coal cost (Refer to working note) |  | 11,19,643 |  |\n| Total variable cost: (B) |  | 53,99,643 | 3.27 |\n| Total cost [(A) + (B)] |  | 1,17,84,643 | 7.14 |\n\nWorking Note: Coal cost $(16,50,000 \\mathrm{kWh} . \\div 7 \\mathrm{kWh}) \\times Rs. 4.75$ per kg. $=Rs. 11,19,643$",
+          "chapter_number": "12",
+          "chapter_name": "SERVICE COSTING",
+          "unique_id": "12-T-31"
+        },
+        {
+          "label": "b",
+          "marks": 8,
+          "internal_split": null,
+          "question": "Question 42 (RTP Sep'25)\n\n| Particulars | P | Q |\n| :--- | :--- | :--- |\n| Budgeted Production and Sales (units) | 40,000 | 80,000 |\n| Selling Price Rs. / unit | 25 | 50 |\n| Total Costs Rs. / unit | 20 | 40 |\n| Machine Hours / unit | 2 | 1 |\n| Maximum Sales Potential (units) | 60,000 | 1,00,000 |\n\nThe fixed expenses are estimated at Rs. $9,60,000$ per month. The company absorbs fixed overheads on the basis of machine hours which are fully utilised by the budgeted production and cannot be further increased.\n\nWhen the budget was discussed, the Managing Director stated that the product mix should be altered to yield optimum profit.\n\nThe Marketing Director suggested that he would introduce a new Product-C, each unit of which will take 1.5 machine hours. However, a new machine involving a capital outlay of Rs. $2,00,000$ is to be installed for processing Product-C. The additional fixed overheads relating to the new machine was estimated at Rs. 60,000 per month. The variable cost of Product- C was estimated at Rs. 21 per Unit.\n\nRequired:\n\n(i) Calculate the profit as per draft budget for the next month.\n\n(ii) Revise the product mix based on data given for P and Q to yield optimum profit.\n\n(iii) The company decides to discontinue either Product- P or Q whichever is giving lower profit and proposes to substitute Product- C instead. Fix the selling price of product- C in such a way as to yield $15 \\\\%$ return on additional capital employed besides maintaining the same overall profit as envisaged in (ii) above.",
+          "answer": "## Answer 42\n\n## (i) Profit as per Draft Budget for the Next Month:\n\n| Particulars | ${ }^{\\text {Gauresh }}$ Products |  |  |  |  |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n|  | P |  | Q |  | Total |\n| Budgeted Production and Sales | 40,000 units |  | 80,000 units |  | 1,20,000 units |\n|  | Per Unit (Rs.) | Total (Rs.) | Per Unit (Rs.) | Total (Rs.) | (Rs.) |\n| Sales | 25 | 10,00,000 | 50 | 40,00,000 | 50,00,000 |\n| Less: Total Costs | 20 | 8,00,000 | 40 | 32,00,000 | 40,00,000 |\n| Profit | 5 | 2,00,000 | 10 | 8,00,000 | 10,00,000 |\n\n(ii) Basic Calculations:\n\n| (a) | Machine Hrs. | P: 40,000 units $\\times 2 \\mathrm{hrs}$ Q: 80,000 units $\\times 1 \\mathrm{hr}$. | $1,60,000 \\mathrm{hrs}$. |\n| :--- | :--- | :--- | :--- |\n| (b) | Fixed Overhead Rate per machine hr. | Rs. $9,60,000 / 1,60,000 \\mathrm{hrs}$. | Rs. 6 |\n| (c) | Fixed Overhead per unit | P: $2 \\mathrm{hrs} . \\mathrm{x} Rs. 6$ <br> Q: $1 \\mathrm{hr} . \\mathrm{x} Rs. 6$ | Rs. 12 Rs. 6 |\n| (d) | Contribution per unit | P: Rs. 12 + Rs. 5 <br> Q: Rs. 6 + Rs. 10 | Rs. 17 <br> Rs. 16 |\n| (e) | Product-wise Contribution per machine hr. | P: Rs. $17 / 2 \\mathrm{hrs}$. <br> Q: Rs. $16 / 1 \\mathrm{hr}$. | Rs. 8.50 <br> Rs. 16.00 |\n\n## Revised Product Mix to Yield Optimum Profit:\n\nProduct Q has higher contribution per machine hour. Since machine hour is a limiting factor hence maximum units of product Q should be produced. However, maximum sales potentiality of Product Q is $1,00,000$ units. This will take $1,00,000$ machine hour. The balance 60,000 hours should be used to produce 30,000 units of P .\n\nThe Revised Product Mix to Yield Optimum Profit will be as follows:\n\n| Product Q | (1,00,000 units × Rs. 16) | Rs. 16,00,000 |\n| :--- | :--- | :--- |\n| Product P | (30,000 units × Rs.17) | Rs. 5,10,000 |\n| Total Contribution |  | Rs. 21,10,000 |\n| Less: Fixed Expenses |  | Rs. 9,60,000 |\n| Profit |  | Rs. 11,50,000 |\n\n(iii) Product - P gives lower contribution per machine hour, hence, it will be discontinued and Product - C will be manufactured in its place. The discontinuance of Product - P will make available 60,000 machine hours to produce 40,000 units of Product - C . The computation of selling price of Product - C can be done as follows:\n\nComputation of Selling Price of Product- C\n\n| Particulars | (Rs.) |\n| :--- | :--- |\n| Variable Cost (40,000 units × Rs.21) | 8,40,000 |\n| Additional Fixed Cost per month | 60,000 |\n| Return on Capital ( $Rs. 2,00,000 \\times 1.25 \\%$ ) | 2,500 |\n| Present Contribution from Product P | 5,10,000 |\n| Total Sales Value to be recovered | 14,12,500 |\n| Selling Price per unit of C (Rs. 14, 12, $500 / 40,000$ units) | 35.31 |",
+          "chapter_number": "14",
+          "chapter_name": "STANDARD COSTING",
+          "unique_id": "14-T-42"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "15",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Question 20 (PYP 7 Marks May '24)\n\nA factory is currently working at $60 \\%$ capacity and produces 12,000 units of a product. Management is thinking to increase the working capacity either to \\mathbf{7 0} \\boldsymbol{\\%}$ or \\mathbf{9 0 \\%}$ level. It is estimated that at both the levels, it will be able to sell all the produced units. The other details are as under:\n\n- At \\mathbf{7 0 \\%}$ capacity, the cost of raw materials increases by \\mathbf{4 \\%}$ and the selling price falls by \\mathbf{3 \\%}$.\n\n- At $90 \\%$ capacity, the cost of raw materials increases by $5 \\%$ and selling price falls by $4 \\%$.\n\n- At $60 \\%$ capacity, the product cost is $Rs. 360$ per unit and it is sold at $Rs. 400$ per unit.\n\n- The unit cost of \\mathbf{3 6 0}$ consists of the following:\n\n| Material | Rs. 200 |\n| :--- | ---: |\n| Labour | Rs. 60 |\n| Factory overhead | Rs. $60(50 \\%$ fixed $)$ |\n| Administrative \\& Selling overhead | Rs. $40(60 \\%$ fixed $)$ |\n\nAdditional advertising cost of Rs. 20,000 is to be incurred for selling the product above $80 \\%$ capacity.\n\nYou are required to:\n\n(i) Calculate the profits of the company when the factory works at $60 \\%, 70 \\%$ and $90 \\%$ capacity level.\n\n(ii) Offer your comments regarding increase in the capacity based on profit calculated.",
+          "answer": "(i) Expense Budget at \\mathbf{6 0 \\% , 7 0 \\% ~} \\mathbf{\\&} \\mathbf{9 0 \\%}$ level\n\n|  | 60\\% (12,000 units) |  | 70\\% (14,000 units) |  | 90\\% (18,000 units) |  |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n|  | Per unit(Rs.) | Amount(Rs.) | Per unit(Rs.) | Amount(Rs.) | Per unit(Rs.) | Amount(Rs.) |\n| Sales (A) | 400 | 48,00,000 | 388 | 54,32,000 | 384 | 69,12,000 |\n| Variable Costs: |  |  |  |  |  |  |\n| Direct Material | 200 | 24,00,000 | 208 | 29,12,000 | 210 | 37,80,000 |\n| Direct Wages | 60 | 7,20,000 | 60 | 8,40,000 | 60 | 10,80,000 |\n| Variable Factory Overheads | 30 | 3,60,000 | 30 | 4,20,000 | 30 | 5,40,000 |\n| Variable Administrative \\& Selling Overheads | 16 | 1,92,000 | 16 | 2,24,000 | 16 | 2,88,000 |\n| Total Variable Cost (B) | 306 | 36,72,000 | 314 | 43,96,000 | 316 | 56,88,000 |\n| Contribution(C)=(A-B) | 94 | 11,28,000 | 74 | 10,36,000 | 68 | 12,24,000 |\n| Fixed Costs: |  |  |  |  |  |  |\n| Fixed Factory Overheads (50\\%) | -- | 3,60,000 | -- | 3,60,000 | -- | 3,60,000 |\n| Fixed Administrative \\& Selling Overheads(60\\%) | -- | 2,88,000 | -- | 2,88,000 | -- | 2,88,000 |\n| Adverting Cost | -- | -- | -- | -- | -- | 20,000 |\n| Total Fixed Costs(D) | -- | 6,48,000 | -- | 6,48,000 | -- | 6,68,000 |\n| Profit (C-D) | -- | 4,80,000 | -- | 3,88,000 | -- | 5,56,000 |\n\n(ii) Comment: Increase of production capacity to $90 \\%$ is likely to increase the profit to maximum of Rs. $5,56,000$ due to increase in contribution while fixed cost is slightly increased due to in advertising cost. At $70 \\%$ capacity, profit is reduced to minimum of $Rs. 3,88,00$ due to decrease in selling price by $3 \\%$ along with increase in raw material cost by $4 \\%$ resulting in decrease of contribution. Therefore, it is recommended that factory should operate at $90 \\%$ capacity.\n\nExam insights: In questions like this, students often forget to recalculate fixed costs per unit at different capacity levels - leading to wrong profit figures. Always recompute cost behaviour before finalising profits for each scenario.",
+          "chapter_number": "15",
+          "chapter_name": "STANDARD COSTING",
+          "unique_id": "15-T-20"
+        },
+        {
+          "label": "b",
+          "marks": 8,
+          "internal_split": null,
+          "question": "As a consultant hired by a manufacturing company, HOW would you go about assessing the critical factors for designing and implementing a cost accounting system? (MTP 5 Marks Dec'24 , Apr'25,MP[7])",
+          "answer": "Before installation of a system of cost accounting in a manufacturing organization the under mentioned factors should be studied:\n\n(a) Objective: The objective of costing system, for example whether it is being introduced for fixing prices or for insisting a system of cost control.\n\n(b) Nature of Business or Industry: The Industry in which business is operating. Every business industry has its own peculiar feature and costing objectives. According to its cost information requirement cost accounting methods are followed. For example Indian Oil Corporation Ltd. has to maintain process wise cost accounts to find out cost incurred on a particular process say in crude refinement process etc.\n\n(c) Organisational Hierarchy: Costing system should fulfill the requirement of different level of management. Top management is concerned with the corporate strategy, strategic level management is concerned with marketing strategy, product diversification, product pricing etc. Operational level management needs the information on standard quantity to be consumed, report on idle time etc.\n\n(d) Knowing the product: Nature of product determines the type of costing system to be implemented. The product which has by-products requires costing system which account for by-products as well. In case of perishable or short self- life, marginal costing method is required to know the contribution and minimum price at which it can be sold.\n\n(e) Knowing the production process: A good costing system can never be established without the complete knowledge of the production process. Cost apportionment can be done on the most appropriate and scientific basis if a cost accountant can identify degree of effort or resources consumed in a particular process. This also includes some basic technical know-how and process peculiarity.\n\n(f) Information synchronisation: Establishment of a department or a system requires substantial amount of organisational resources. While drafting a costing system, information needs of various other departments should be taken into account. For example in a typical business organisation accounts department needs to submit monthly stock statement to its lender bank, quantity wise stock details at the time filing returns to tax authorities etc.\n\n(g) Method of maintenance of cost records: The manner in which Cost and Financial accounts could be interlocked into a single integral accounting system and in which results of separate sets of accounts, cost and financial, could be reconciled by means of control accounts.\n\n(h) Statutory compliances and audit: Records are to be maintained to comply with statutory requirements, standards to be followed (Cost Accounting Standards and Accounting Standards).\n\n(i) Information Attributes: Information generated from the Costing system should be possess all the attributes of an information i.e. complete, accurate, timeliness, confidentiality etc. This also meets the requirements of management information system.",
+          "chapter_number": "7",
+          "chapter_name": "COST ACCOUNTING SYSTEMS",
+          "unique_id": "7-T-14"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "2",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "USP Ltd. is the manufacture of 'double grip motorcycle tyres. In the manufacturing process, it undertakes three different job namely, Vulcanising, Brushing and Striping. All of these jobs requires the use of a special machine and also the aid of a robot when necessary. The robot is hired from outside and the hire charges paid for every six month is ₹2,70,000. An estimated of overhead expenses relating to the special machine is given below:\n\n- Rent for a quarter is ₹18,000\n- The cost of the special machine is ₹19,20,000 and depreciation is charged @ 10% per annum on straight line basis.\n\n- Other indirect expenses are recovered at 20% of direct wages.\n\nThe factory manager has informed that in the coming year, the total direct wages will be ₹12,00,000 which will be incurred evenly throughout the year. During the first month of operation, the following details are available from the job book:\n\nNumber of hours the special machine was used\n\n| Jobs         | Without the aid of the robot | With the aid of the robot |\n|--------------|------------------------------|---------------------------|\n| Vulcanising  | 500                          | 400                       |\n| Brushing     | 1,000                        | 400                       |\n| Striping     | -                            | 1,200                     |\n\nYou are required to:\n\n(a) Compute the Machine Hour Rate for the company as a whole for a month (A) when the robot is used and (B) when the robot is not used.\n\n(b) Compute the Machine Hour Rate for the individual jobs i.e. Vulcanising, Brushing and Striping.",
+          "answer": "(a) Machine hour rate for the company as a whole for a month:\n(A) When the Robot is used = 69,000 = ₹34.50\n(B) When the Robot is not used = 18,000 = ₹12.00\n\n(b) Machine hour rate for individual jobs:\n\n| Particulars  | Vulcanising | Brushing | Striping |\n|--------------|-------------|----------|----------|\n| Without Robot @ ₹12.00 per hour | 500         | 6,000    | 1,000    | 12,000  | -        | -        |\n| With Robot @ ₹34.50 per hour    | 400         | 13,800   | 400      | 13,800  | 1,200    | 41,400   |\n| Total Overheads                   | 19,800      | -        | 25,800   | 41,400  |\n| + Hours                           | +900       | +1,400   | +1,200   |\n| Machine Hour Rate                 | -           | 22.00    | 18.43    | 34.50   |\n\nWorking note:\n1. Total machine hours used (500 + 1,000 + 400 + 400 + 1,200) = 3,500\n2. Total machine hours without the use of robot (500 + 1,000) = 1,500\n3. Total machine hours with the use of robot (400 + 400 + 1,200) = 2,000\n4. Total overheads of the machine per month:\n   Rent (₹18,000 + 3 months) = ₹6,000.00\n   Depreciation (₹19,20,000 x 10%) + 12 months = ₹16,00,000.00\n   Indirect Charges (₹12,00,000 x 20% + 12 months) = ₹20,00,000.00\n   Total = ₹42,000.00\n\n5. Robot hire charges for a month (₹2,70,000 + 6 months) = ₹45,000\n6. Overheads for using machines without Robot = ₹42,000 / 3,500 hrs. = ₹18,000\n7. Overheads for using machines with Robot = ₹42,000 / 2,000 hrs. + ₹45,000 = ₹69,000",
+          "chapter_number": "4",
+          "chapter_name": "OVERHEADS-ABSORPTION COSTING METHOD",
+          "unique_id": "BQ-26",
+          "or_question": {
+            "question": "Question 3 (PYP 5 Marks May'22)\n\n\nWrite down the treatment of following items associated with purchase of materials.\n\n(i) Cash discount\n\n(ii) IGST\n\n(iii) Demurrage\n\n(iv) Shortage\n\n(v) Basic Custom Duty",
+            "answer": "Treatment of items associated with purchase of materials is tabulated as below\n\n| Sr. <br> No. | Items | Treatment |\n| :---: | :--- | :--- |\n| (i) | Cash Discount | Cash discount is not deducted from the purchase price. It is treated as <br> interest and finance charges. It is ignored. |\n| (ii) | Integrated Goods and Service Tax (IGST) | Integrated Goods and Service Tax (IGST) is paid on inter- state supply of goods and provision of services and collected from the buyers. It is excluded from the cost of purchase if credit for the same is available. Unless mentioned specifically it should not form part of cost of purchase. |\n| (iii) | Demurrage | Demurrage is a penalty imposed by the transporter for delay in uploading or offloading of materials. It is an abnormal cost and not included with cost of purchase |\n| (iv) | Shortage | Shortage in materials are treated as follows: <br> Shortage due to normal reasons: Good units absorb the cost of shortage due to normal reasons. Losses due to breaking of bulk, evaporation, or due to any unavoidable conditions etc. are the reasons of normal loss. <br> Shortage due to abnormal reasons: Shortage arises due to abnormal reasons such as material mishandling, pilferage, or due to any avoidable reasons are not absorbed by the good units. Losses due to abnormal reasons are debited to costing profit and loss account. |\n| (v) | Basic Custom Duty | Basic Custom duty is paid on import of goods from outside India. It is added with the purchase cost. |"
+          }
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "HOW is slow moving and non-moving item of stores detected and WHAT steps are necessary to reduce such stocks? (MTP 4 Marks Apr'24, Dec'24, SM], MP[2],MP[7])",
+          "answer": "## Detection of slow moving and non-moving item of stores:\n\nThe existence of slow moving and non-moving item of stores can be detected in the following ways.\n\n(i) By preparing and perusing periodic reports showing the status of different items or stores.\n\n(ii) By calculating the inventory turnover period of various items in terms of number of days/ months of consumption.\n\n(iii) By computing inventory turnover ratio periodically, relating to the issues as a percentage of average stock held.\n\n(iv) By implementing the use of a well designed information system.\n\n## Necessary steps to reduce stock of slow moving and non-moving item of stores:\n\n(i) Proper procedure and guidelines should be laid down for the disposal of non-moving items, before they further deteriorates in value.\n\n(ii) Diversify production to use up such materials.\n\n(iii) Use these materials as substitute, in place of other materials.",
+          "chapter_number": "2",
+          "chapter_name": "MATERIAL COST",
+          "unique_id": "2-T-7"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "A machine costing ₹1,00,00,000 is expected to run for 10 years. At the end of this period its scrap value is likely to be ₹9,00,000. Repairs during the whole life of the machine are expected to be ₹18,00,000 and the machine is expected to run 4,380 hours per year on the average. Its electricity consumption is 15 units per hour, the rate per unit being ₹5. The machine occupies one-fourth of the area of the department and has two points out of a total of ten for lighting. The foreman has to devote about one sixth of his time to the machine. The monthly rent of the department is ₹30,000 and the lighting charges amount to ₹8,000 per month. The foreman is paid a monthly salary of ₹19,200. Insurance is @ 1% p.a. and the expenses on oil, etc., are ₹900 per month.\n\nFind out the machine hour rate.",
+          "answer": "Machine Hour Rate\n\nParticulars                       Amount\n(A) Standing charges/ Fixed costs\nDepreciation                     [(₹1,00,00,000 - 9,00,000) * 1/10 years * 1/12]      75,833.33\nRent                             (₹30,000 * ¼)                                          7,500\nLighting charges                 (₹8,000 * 2/10)                                     1,600\nForeman’s salary                (₹19,200 * 1/6)                                     3,200\nInsurance Premium               (₹1,00,00,000 * 1% * 1/12)                         8,333.33\nTotal (A)                                                                                 96,466.66\n\n(B) Running charges/ Variable costs\nRepairs                          (₹18,00,000 * 1/10 years * 1/12)                   15,000\nElectricity                     [(15 units * 4,380 hours * ₹5) * 1/12]              27,375\nSundry expenses (oil etc.)                                                             900\nTotal (B)                                                                                 43,275\n\nTotal Cost (A + B) \n+ Productive Machine Hours in a month (4,380 + 12)                             1,39,741.66\nMachine Hour Rate                                                                      + 365\n                                                                                          ₹382.85",
+          "chapter_number": "4",
+          "chapter_name": "OVERHEADS-ABSORPTION COSTING METHOD",
+          "unique_id": "BQ-30"
+        }
+      ]
+    },
+    {
+      "q_main": 6,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "2",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "EXPLAIN the difference between Bill of Materials and Material Requisition Note. (MTP 5 Marks Apr'25)",
+          "answer": "Difference between Bill of Materials and Material Requisition Note\n\n| Bill of Materials | Material Requisition Note |\n| :--- | :--- |\n| 1. It is the document prepared by the engineering or planning dept. | 1. It is prepared by the production or other consuming department. |\n| 2. It is a complete schedule of component parts and raw materials required for a particular job or work order. | 2. It is a document asking Store- keeper to issue materials to the consuming department. |\n| 3. It often serves the purpose of a material requisition as it shows the complete schedule of materials required for a particular job i.e. it can replace material requisition. | 3. It cannot replace a bill of materials. |\n| 4. It can be used for the purpose of quotations. | 4. It is useful in arriving historical cost only. |\n| 5. It helps in keeping a quantitative control on materials drawn through material requisition. | 5. It shows the material actually drawn from stores. |",
+          "chapter_number": "2",
+          "chapter_name": "Material Cost",
+          "unique_id": "2-T-9"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "A job can be executed either through workman A or B. A takes 32 hours to complete the job while B finishes it in $\\mathbf{3 0}$ hours. The standard time to finish the job is $\\mathbf{4 0}$ hours. The hourly wage rate is same for both the workers. In addition workman A is entitled to receive bonus according to Halsey plan ( $50 \\%$ ) sharing while B is paid bonus as per Rowan plan. The works overheads are absorbed on the job at Rs. $\\mathbf{7 . 5 0}$ per labour hour worked. The factory cost of the job comes to Rs. $\\mathbf{2 , 2 0 0}$ irrespective of the workman engaged. FIND out the hourly wage rate and cost of raw materials input. Also SHOW cost against each element of cost included in factory cost. (MTP 4 Marks July'24, MP[4])",
+          "answer": "## Calculation of:\n\n## (i) Time saved and wages:\n\n| Workmen | A | B |\n| :--- | :--- | :--- |\n| Standard time (hrs.) | 40 | 40 |\n| Actual time taken (hrs.) | 32 | 30 |\n| Time saved (hrs.) | 08 | 10 |\n| Wages paid @ Rs. x per hr. (Rs.) | 32x | 30x |\n\n(ii) Bonus Plan:\n\n|  |  | Halsey | Rowan |\n| :--- | :--- | :--- | :--- |\n| Time saved (hrs.) |  | 8 | 10 |\n| Bonus (Rs.) | ОДаеол 0293947945 | 4x | 7.5x |\n|  |  | $\\left[\\frac{8 \\mathrm{hrs} \\times Rs. \\mathrm{x}}{2}\\right]$ | $\\left[\\frac{10 \\mathrm{hrs} \\times 30 \\mathrm{hrs} \\times Rs. \\mathrm{x}}{40 \\mathrm{hrs}}\\right]$ |\n\n## (iii) Total wages:\n\nWorkman A: $32 \\mathrm{x}+4 \\mathrm{x}=Rs. 36 \\mathrm{x}$\n\nWorkman B: $30 \\mathrm{x}+7.5 \\mathrm{x}=Rs. 37.5 \\mathrm{x}$\n\n## Statement of factory cost of the job\n\n| Workmen | A | B |\n| :--- | :--- | :--- |\n|  | Rs. | Rs. |\n| Material cost (assumed) | y | y |\n| Wages (shown above) | 36x | 37.5x |\n| Works overhead | 240 | 225 |\n| Factory cost (given) | 2,200 | 2,200 |\n\nThe above relations can be written as follows:\n\n(i) $36 x+y+240=2,200$\n\n(ii) $37.5 x+y+225=2,200$\n\nSubtracting (i) from (ii) we get $1.5 x-15=0$\nor $1.5 \\mathrm{x}=15$\nor $x=Rs. 10$ per hour\n\nOn substituting the value of x in (i) we get $\\mathrm{y}=Rs. 1,600$\n\nHence the wage rate per hour is Rs. 10 and the cost of raw material is Rs. 1,600 on the job.",
+          "chapter_number": "9",
+          "chapter_name": "JOB COSTING",
+          "unique_id": "9-T-8"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "How does the high employee turnover increase the cost of production? Explain. (PYP 5 Marks, May'23)",
+          "answer": "## High Employee Turnover increases the cost of production\n\nReplacement costs are the costs which arise due to employee turnover. If employees leave soon after they acquire the necessary training and experience of good work, additional costs will have to be incurred on new workers, i.e., cost of recruitment, training and induction, abnormal breakage and scrap and extra wages and overheads due to the inefficiency of new workers.\n\nIt is obvious that a company will incur very high replacement costs if the rate of employee turnover is high. Similarly, only adequate preventive costs can keep Employee turnover at a low level. Each company must, therefore, work out the optimum level of Employee turnover keeping in view its personnel policies and the behaviour of replacement cost and preventive costs at various levels of Employee turnover rates.\n\nExam Insights: A common slip is writing about \"high turnover\" in general instead of employee turnover and losing focus on production cost impact. Link your answer directly to labour costs like hiring, training, low productivity and wastage to score.",
+          "chapter_number": "3",
+          "chapter_name": "EMPLOYEE COST AND DIRECT EXPENSES",
+          "unique_id": "3-T-6"
+        }
+      ]
+    }
+  ]
+}

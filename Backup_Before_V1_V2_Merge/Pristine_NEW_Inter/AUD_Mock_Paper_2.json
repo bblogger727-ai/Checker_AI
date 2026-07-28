@@ -1,0 +1,509 @@
+{
+  "meta": {
+    "subject_code": "AUD",
+    "subject_name": "Auditing and Ethics",
+    "paper_num": 2,
+    "total_marks_printed": 100,
+    "total_marks_in_paper": 114,
+    "section_a_marks": 30,
+    "section_b_marks": 84,
+    "note": "Section A: 15 MCQs @ 2 marks each (Case Study based). Section B: Q1 compulsory (14m). Attempt any 4 of Q2\u2013Q6 (14m each).",
+    "blacklisted_from": [
+      "Generated_Papers/AUD/AUD_Mock_Paper_1.json"
+    ],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)",
+      "1(c)"
+    ]
+  },
+  "section_a": [
+    {
+      "type": "case_study",
+      "chapter_number": "4.1",
+      "chapter_name": "Audit Sampling",
+      "case_text": "CA Mahaveer, a partner at ANJ & Co., is conducting the statutory audit of a branch of Fair Bank for the year 20X1-20X2. During the course of the audit, he made the following observations:  (i) A loan of \u20b9 12 lakhs was sanctioned to a farmer for cultivation of sugarcane, a crop that typically has a harvesting cycle of 10\u201312 months under the Kisan Credit Card (KCC) scheme. The account had no transactions since last 120 days, however, the branch continued to classify the loan as a Standard Asset as on 31st March 2025.  (ii) The branch had taken over a term loan of \u20b9 60 lakhs from another bank. However, the branch manager approved the proposal, even though such limits require sanction by the Zonal Credit Committee, as per the \u201cManual of Delegation of Powers\u201d of Bank.  (iii) It is noticed that head office of bank has flagged a saving account maintained in branch in which interest was wrongly paid at higher rate due to wrong data feeding entry. Now, situation has been rectified by debiting excess interest paid in the account. Since there was little balance in saving account, a debit balance of \u20b9 1.35 lacs was created in the said saving account due to above reversal. The matter was immediately informed to account holder. However, he has not turned up for payment since matter was informed to him about six months ago.  (iv) Due to time constraints, CA Mahaveer is under pressure to issue an unmodified audit report in the limited time frame. He has insufficient time to properly perform or complete the relevant duties and issue appropriate audit report.",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Which of the following is most appropriate regarding the sugarcane KCC loan?",
+          "options": {
+            "a": "The account is overdue beyond 90 days and must be classified as Sub-standard.",
+            "b": "The loan must be treated as NPA since no transaction has occurred for 90 days.",
+            "c": "Since the crop cycle exceeds 6 months, the account can still be Standard despite no transaction for 120 days.",
+            "d": "The account should be reported as \u201cDoubtful\u201d."
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "_serial": 1
+        },
+        {
+          "q_num": 2,
+          "question": "Regarding the term loan takeover of \u20b9 60 lakhs from another bank, which of the following is most appropriate?",
+          "options": {
+            "a": "It is a routine matter and auditor need not intervene.",
+            "b": "It reflects breach of sanctioning authority and should be reported in audit findings.",
+            "c": "The manager can exercise discretion up to \u20b9 75 lakhs, so it is valid.",
+            "d": "Since the account was performing, the sanctioning irregularity is immaterial."
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "_serial": 2
+        },
+        {
+          "q_num": 3,
+          "question": "As regards debit balance of \u20b9 1.35 lacs in Savings account, which of the following is correct from point of view of an auditor?",
+          "options": {
+            "a": "The debit balance of \u20b9 1.35 lacs should be classified as NPA.",
+            "b": "The situation does not attract RBI norms on asset classification.",
+            "c": "The situation does not attract RBI norms on asset classification as no credit facility was granted.",
+            "d": "The bank cannot demand and excess interest paid to account holder."
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "_serial": 3
+        },
+        {
+          "q_num": 4,
+          "question": "Which fundamental principle governing professional ethics is disregarded by CA Mahaveer by issuing unmodified audit report?",
+          "options": {
+            "a": "Professional competence and due care.",
+            "b": "Professional behaviour.",
+            "c": "Integrity.",
+            "d": "Objectivity."
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "_serial": 4
+        }
+      ],
+      "mcq_count": 4,
+      "unique_id": "4.1-CS-63"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "5.1",
+      "chapter_name": "Audit of Items of Financial Statements",
+      "case_text": "CA X has accepted offer of conducting statutory audit of financial statements of DOS Solutions Private Limited. Keeping in mind requirements of Standards on Auditing including those relating to SA 300, he plans audit so that it is conducted in an effective manner. He knows that because of inherent limitations of an audit, there is audit risk in audit of financial statements even though audit is properly planned and performed in accordance with Standards on Auditing. Considering nature of operations of the company, he has decided to use audit sampling in performing audit procedures. The various areas of his testing include testing controls over revenues, expenditures, assets and liabilities of the company. Besides, he has decided to perform tests of details in respect of all these areas of financial statements. While verifying tests of controls over purchase orders placed by the company based on selected audit samples, he has erroneously concluded that Standard operating procedures (SOP) for placing purchase orders are not being followed strictly and controls are less effective than they actually are. Further, while testing controls over wage payments, he has tested 20 sample wage sheets of different sections of company and finds that one wage sheet has not been signed by authorized officer of the company. The rate of deviation was earlier set by him at 3%. During the course of designing procedures for selecting samples for verification of trade receivables, he has decided to divide trade receivable balances into groups viz. balances in excess of \u20b910 lakh, balances in range of \u20b97,50,001 to \u20b910,00,000, balances in range of \u20b95,00,001 to \u20b97,50,000, balances in range of \u20b92,50,001 to \u20b95,00,000 and balances of \u20b92,50,000 and below. He has planned to pick up different percentage of items from each of above groups. Random sample is chosen from each group using random number tables. Some of the trade payables of the company were outstanding since long. He has decided to merely verify arithmetical accuracy of ageing schedule and its reconciliation with books of accounts. Therefore, nature of audit procedures, nature of financial reporting itself and need for audit to be conducted within a reasonable period of time and at a reasonable period of cost all lead to inherent limitations of audit.",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "The auditor has erroneously concluded that Standard operating procedures (SOP) for placing purchase order are not being followed strictly and controls are less effective than they actually are. Which of the following statements is likely to be true in this regard? (Chapter 4.3- Audit Sampling)",
+          "options": {
+            "a": "It is a sampling risk and might lead to auditor expressing inappropriate audit opinion.",
+            "b": "It is a sampling risk and affects audit effectiveness.",
+            "c": "It is a sampling risk and affects audit efficiency.",
+            "d": "It is a control risk and affects audit effectiveness."
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "_serial": 5
+        },
+        {
+          "q_num": 2,
+          "question": "The auditor has tested 20 sample wage sheets in different sections of the company and finds that one wage sheet has not been signed by authorized officer of the company. It represents? (Chapter 4.3- Audit Sampling)",
+          "options": {
+            "a": "Tolerable misstatement",
+            "b": "Misstatement",
+            "c": "Tolerable rate of deviation",
+            "d": "Actual rate of deviation"
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "_serial": 6
+        },
+        {
+          "q_num": 3,
+          "question": "Which method of selecting samples for verification of trade receivables has been planned by auditor? (Chapter 4.3- Audit Sampling)",
+          "options": {
+            "a": "Simple random sampling",
+            "b": "Systematic sampling",
+            "c": "Block sampling",
+            "d": "Stratified sampling"
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "_serial": 7
+        }
+      ],
+      "mcq_count": 3,
+      "unique_id": "5.1-CS-27"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "10.1",
+      "chapter_name": "Audit of Banks",
+      "case_text": "DS & Co., Chartered Accountants, are statutory auditors of SAR Industries Pvt Ltd, a company engaged in manufacturing business since 2018. The company\u2019s operating from rented premises and it does not have building of its own. It had upgraded its machinery last time in 2020. Except interest in this company, promoters, directors, key managerial persons and their relatives do not have interest or ownership in any other entity. Also, the company does not enter into any business dealings with promoters, directors, key managerial persons and their relatives. The key managerial persons get only reasonable remuneration from the company. Though company has an internal control system in place, it has not appointed internal auditor. It is also not mandatorily required to make such an appointment under the provisions of the Companies Act, 2013.\n\nDS & Co. have accepted audit of the above company for year 2025-26 for the first time. Promoters and directors of the company are known to engagement partner only socially for quite some time. However, it is for the first time that any type of professional work related to this company has been accepted by them. While formulating audit plan for the company, CA D (engagement partner) has planned certain risk assessment procedures and further audit procedures consisting of tests of controls and substantive procedures in relation to different areas.\n\nThe following is extract of financial information of the company: (figures in rupees crores)\n\n| S. No. | Particulars                               | Year 2025-26 | Year 2024-25 |\n|--------|-------------------------------------------|---------------|---------------|\n| 1      | Turnover                                  | 30.00         | 15.00         |\n| 2      | Inventories                               | 5.00          | 2.00          |\n| 3      | Property, plant and equipment (Gross block) | 1.25          | 1.25          |\n| 4      | Property, plant and equipment (Net block)   | 1.00          | 1.25          |\n| 5      | Gross profit                              | 6.00          | 3.75          |\n| 6      | Trade receivables                         | 12.50         | 5.00          |\n\nThe PPE items consist of machinery only. While planning procedures in respect of Property, Plant and Equipment, auditor has included audit procedures like inspecting and reviewing company\u2019s plan for performing physical verification of PPE, assessing depreciation method used, verifying cost of PPE items acquired during the year with purchase bills and recalculation of depreciation charged in statement of profit and loss.\n\nFurther, while performing risk assessment procedures to identify risk of material misstatements in financial statements, engagement partner has come to notice that there is considerable variation in gross profit ratio as compared to last year. During performance of substantive procedures, he has also studied data of purchases and sales of the company during the year under audit and has also compared such data with preceding year and earlier years also.",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "What is the primary concern identified by the engagement partner during the risk assessment procedures?",
+          "options": {
+            "a": "Considerable variation in gross profit ratio as compared to last year.",
+            "b": "Lack of internal auditor appointment.",
+            "c": "Increase in trade receivables.",
+            "d": "Decrease in net block of PPE."
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "_serial": 8
+        },
+        {
+          "q_num": 2,
+          "question": "Which of the following audit procedures was NOT included by the auditor while planning procedures in respect of Property, Plant and Equipment?",
+          "options": {
+            "a": "Inspecting and reviewing company\u2019s plan for performing physical verification of PPE.",
+            "b": "Assessing the market value of PPE items.",
+            "c": "Verifying cost of PPE items acquired during the year with purchase bills.",
+            "d": "Recalculation of depreciation charged in statement of profit and loss."
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "_serial": 9
+        }
+      ],
+      "mcq_count": 2,
+      "unique_id": "10.1-CS-8"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "12",
+      "chapter_name": "Case Scenarios",
+      "case_text": "M/s Vishwacharya and Associates, a CA firm based in Orissa, is appointed as an auditor of CBF Bank for the financial year 2025-26. During the course of audit, it came to notice that CBF Bank has sanctioned an overdraft facility of \u20b9 75 lakh to Times Ltd. However, as per the stock statement furnished for the last quarter, the drawing power was calculated to be \u20b9 50 lakh. It was observed that few advances were guaranteed by:\n\n(i) Central Government as part of \u2018Make in India\u2019 initiative. However, the guarantee was not invoked, and the advances were overdue by 75 days. These advances were classified as standard assets and were regarded as NPA for income recognition purpose.\n\n(ii) State Government as part of power generation initiative. However, the guarantee was not invoked, and the advances were overdue by 80 days. These advances were also classified as standard assets and were regarded as NPA for income recognition purpose.\n\nAdditionally, Vivit Su Ltd., is a borrower availing cash credit facility of \u20b9 110 Lakh against security of paid stocks and debtors up to 90 days. Margin stipulated was 25% of stock as and 40% for debtors. Bank has calculated drawing power based on following information provided by Vivit Su Ltd.\n\n| Particulars                                   | Amount (\u20b9) |\n|-----------------------------------------------|------------|\n| Value of Stocks (as on 31.12.2025)           | 130 Lakh   |\n| Value of Debtors (as on 31.12.2025)          | 75 Lakh    |\n| Value of stocks (Fully damaged and included in (i) above) | 7 Lakh     |\n| Value of Debtors (exceeding 90 days included in (ii) above) | 10 Lakh    |\n| Value of creditors for goods                  | 60 Lakh    |\n\nAlso, the outstanding balance is one of the Loan accounts was \u20b9 25 Lakh and the realizable value of the security as assessed by the bank / approved valuers was \u20b9 2.25 Lakh. Bank identified the same as erosion in the value of security. It was classified as doubtful category and provision was made for the doubtful assets.\n\nA discussion also took place among the team members regarding issuance of the audit reports after completion of the bank audit and annexure to the same such as Long Form Audit Report, Report on compliance with SLR Requirements, Report on Treasury Operations \u2013 as per RBI guidelines, Report on compliance as per Ghosh committee recommendations on lending and over credit - lending ratio in the rural areas, etc.\n\nBased on the above facts, answer the following: -\n\n1. With respect to the overdraft facility sanctioned to Times Ltd., the account would be termed as out of order if:\n\n(i) The outstanding balance remains continuously in excess of \u20b9 75 Lakh.  \n(ii) The outstanding balance remains continuously in excess of \u20b9 50 Lakh.",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "With respect to the overdraft facility sanctioned to Times Ltd., the account would be termed as out of order if:",
+          "options": {
+            "a": "The outstanding balance remains continuously in excess of \u20b9 75 Lakh.",
+            "b": "The outstanding balance remains continuously in excess of \u20b9 50 Lakh."
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "_serial": 10
+        }
+      ],
+      "mcq_count": 1,
+      "unique_id": "12-CS-2"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "12",
+      "chapter_name": "Case Scenarios",
+      "case_text": "Bandhu Charitable Trust is considering appointment of MNO & Associates, Chartered Accountants, as independent auditors of its financial statements. The Trust is engaged in providing affordable healthcare services. It is in interest of both auditor and client to issue an engagement letter so that the possibility of misunderstanding is reduced to a great extent. It is, therefore, important that each party should be clear about nature of engagement. It should exactly specify the scope of work. Such an \u201cengagement letter\u201d is exchanged between Trust management and auditors. While performing audit procedures, it is noticed by auditors that bills of two vehicles are not in name of Trust but in name of trustees. However, payment of these vehicles was made from bank account of Trust. The said vehicles are used for activities of Trust. It is also noticed that a sum of \u20b9 50.00 Lakh is reflected in Trust\u2019s financial statements in name of Gamma Instrument and Equipment in schedule of creditors. The said amount is outstanding since two years. The auditors sent confirmation request to the said supplier and seek management\u2019s co-operation in this regard. However, management of the Trust informs the auditor regarding certain dispute going on with the supplier of equipment due to some quality issues. It is further informed that dispute is near settlement and it would not be proper to send confirmation request as it can affect negotiation process. Based on the above facts, answer the following: -",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "As regards exchange of engagement letter between Trust management and auditors is concerned, which of following statements is likely to be true? (Chapter 11.2 SA 210- Agreeing the Terms of Audit Engagements)",
+          "options": {
+            "a": "Engagement letter is sent by MNO & Associates to Bandhu Charitable Trust. It includes reference to the expected form and content of report to be issued by them and a statement that there may be circumstances in which such report may differ from its expected form and content.",
+            "b": "Engagement letter is sent by Bandhu Charitable Trust to MNO & Associates. It includes reference to the expected form and content of report to be issued by auditors. However, it does not include a statement that such report may differ from its expected form and content.",
+            "c": "Engagement letter is sent by MNO & Associates to Bandhu Charitable Trust. It includes reference to expected form and content of report to be issued by them. However, it does not include a statement that such a report may differ from its expected form and content.",
+            "d": "Engagement letter is sent by MNO & Associates to Bandhu Charitable Trust. It does not include reference to the expected form and content of report to be issued by them."
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "_serial": 11
+        },
+        {
+          "q_num": 2,
+          "question": "Considering the issues related to vehicles as described in the case study, identify the most appropriate statement. (Chapter 5: Audit of Items of Financial Statements)",
+          "options": {
+            "a": "Auditors have identified misstatement concerning \u201cExistence\u201d assertion made by Trust management.",
+            "b": "Auditors have identified misstatement concerning \u201cRights and Obligations\u201d assertion made by Trust management.",
+            "c": "Auditors have identified misstatement concerning \u201cAccuracy\u201d assertion made by Trust management.",
+            "d": "Auditors have identified misstatement concerning \u201cCompleteness\u201d assertion made by Trust management."
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "_serial": 12
+        },
+        {
+          "q_num": 3,
+          "question": "What course of action should the auditor take regarding the amount payable to the equipment supplier when management has communicated that sending a confirmation request could negatively impact the negotiation process? (SA 500- Audit Evidence)",
+          "options": {
+            "a": "The auditor should issue adverse opinion in auditor\u2019s report.",
+            "b": "The auditor should seek audit evidence as to the validity and reasonableness of the reasons for refusal and perform alternative audit procedures.",
+            "c": "The auditor should withdraw from engagement as Trust management\u2019s refusal is a limitation on scope of intended audit.",
+            "d": "The auditor should disclaim opinion in auditor\u2019s report."
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "_serial": 13
+        }
+      ],
+      "mcq_count": 3,
+      "unique_id": "12-CS-4"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "12",
+      "chapter_name": "Case Scenarios",
+      "case_text": "MPM & Associates, a firm of Chartered Accountants, have received offer letter from PST Bank for carrying out statutory audit of their Chandigarh branch for the financial year 2025-26. The offer letter, inter alia, requests audit firm to give an undertaking in writing that firm is not disqualified under Section 141(3)(d)(ii) of Companies Act, 2013. Such provision relates to disqualification of a person as auditor of a company if he, his relative or partner is indebted to the company subject to certain prescribed conditions. Before accepting the said audit, the firm checks out whether it complies with law requirements. However, there is a difference of opinion among firm personnel whether such an undertaking can be given in case of banks. The offer letter also contains following declaration to be signed by the auditors in case they choose to accept the appointment: - \"We declare that we will not communicate or allow to be communicated to any person, not legally entitled thereto, any information relating to the affairs of PST Bank or to the affairs of the person having any dealing with the Bank, nor will we allow any such person to inspect or have access to any books or documents belonging to or in possession of the Bank relating to the business of any person having any dealing with the Bank.\" The audit firm has also received a document kit provided by Statutory Central Auditors of Bank. It relates to scope of audit, areas of special consideration while performing audit and requires audit firm to confirm certain matters like adherence to RBI Master Circulars for income recognition, asset classification & provisioning and adequacy of checking of books of accounts based on sample etc. to them by way of a letter. The document kit received also requires MPM & Associates to consider adverse comments made by stock auditors of borrowers enjoying cash credit facilities in their reports for purpose of reporting. It also contains specific instructions to check foreign letter of credits (FLCs) issued during the year in compliance with sanction terms of the respective borrowers and to verify income recognized in respect of FLCs.",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Which of the following statements is likely to be most appropriate regarding required undertaking in accordance with the Companies Act, 2013? (Chapter 11.1 AS Ethics)",
+          "options": {
+            "a": "The referred provision mainly addresses self-interest threats to independence of auditors. The audit firm can give such an undertaking after verifying if it complies with such requirements.",
+            "b": "The referred provision mainly addresses self-review threats to independence of auditors. The audit firm can give such an undertaking after verifying if it complies with such requirements.",
+            "c": "The referred provision mainly addresses self-interest threats to independence of auditors. However, the audit firm can\u2019t give such an undertaking as such provisions are applicable to companies and not to banks.",
+            "d": "The referred provision mainly addresses self-review threats to independence of auditors. However, the audit firm can\u2019t give such an undertaking as such provisions are applicable to companies and not to banks."
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "_serial": 14
+        },
+        {
+          "q_num": 2,
+          "question": "The declaration relating to non-communication of information related to affairs of Bank is related to adherence to which fundamental principle governing professional ethics? (Chapter 11.1 AS Ethics)",
+          "options": {
+            "a": "Objectivity",
+            "b": "Confidentiality",
+            "c": "Independence",
+            "d": "Professional Competence and due care"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "_serial": 15
+        }
+      ],
+      "mcq_count": 2,
+      "unique_id": "12-CS-7"
+    }
+  ],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": true,
+      "total_marks": 14,
+      "chapter_number": "4",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "The auditor carries out his work by obtaining audit evidence through performance of audit procedures. However, there are practical and legal limitations on ability of auditor to obtain audit evidence. Give one example each for such practical and legal limitations.",
+          "answer": "Example of practical limitation on ability of auditor to obtain audit evidence\nAn auditor does not test all transactions and balances. He forms his opinion only by testing samples. It is an example of practical limitation on auditor\u2019s ability to obtain audit evidence.\n\nExample of legal limitation on ability of auditor to obtain audit evidence\nManagement may not provide complete information as requested by auditor. There is no way by which auditor can force management to provide complete information as may be requested by auditor. In case he is not provided with required information, he can only report. It is an example of legal limitation on auditor\u2019s ability to obtain audit evidence.",
+          "chapter_number": "4",
+          "chapter_name": "Audit Evidence",
+          "unique_id": "4-TP-15"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "RST Ltd., a retail company, has set up internal controls requiring all invoices to be stamped and signed by an authorized person in \"Goods Receiving Section\" of the company stating the date and time of receiving goods in premises to ensure that only those purchase bills are produced for payment for which goods have been actually received. During the audit, the auditor finds that two employees - a purchasing manager and an accounts clerk - have worked together to bypass this control, submitting fake invoices that resulted in payments for goods that were never received. You are required to state the objectives of an audit, as per SA 200, when it comes to ensuring the reliability of financial statements? Also explain, why auditor can provide only reasonable, rather than absolute, assurance that the financial statements are free from material misstatement due to fraud or error in the context of the given situation?",
+          "answer": "In conducting audit of financial statements, objectives of auditor in accordance with SA 200, \"Overall Objectives of the Independent auditor and the conduct of an audit in accordance with Standards on Auditing\" are: -\n\n(a) To obtain reasonable assurance about whether the financial statements as a whole are free from material misstatement, whether due to fraud or error, thereby enabling the auditor to express an opinion on whether the financial statements are prepared, in all material respects, in accordance with an applicable financial reporting framework; and\n\n(b) To report on the financial statements, and communicate as required by the SAs, in accordance with the auditor\u2019s findings.\n\nThe process of audit suffers from certain inbuilt limitations due to which an auditor cannot obtain an absolute assurance that financial statements are free from misstatement due to fraud or error. These fundamental limitations arise due to the factors such as nature of financial reporting, nature of audit procedures, not in the nature of investigation, timeliness of financial reporting and decrease in relevance of information over time and future events.\n\nPreparation of financial statements involves making many judgments by management. These judgments may involve subjective decisions or a degree of uncertainty. Therefore, the auditor may not be able to obtain absolute assurance that financial statements are free from material misstatements due to frauds or errors. One of the premises for conducting an audit is that management acknowledges its responsibility of preparation of financial statements in accordance with applicable financial reporting framework and for devising suitable internal controls. However, such controls may not have operated to produce reliable financial information due to their own limitations. In the context of RST Ltd., the management designed a control requiring that all invoices be stamped and signed by an authorized person in the Goods Receiving Section to confirm receipt of goods. However, collusion between two employees--the purchasing manager and the accounts clerk--allowed them to bypass this control by submitting fake invoices for payment. Collusion is a significant limitation of internal controls, as it overrides controls designed to prevent such fraud. Given these factors, the auditor cannot provide absolute assurance that the financial statements are entirely free from material misstatements due to fraud or error.",
+          "chapter_number": "1",
+          "chapter_name": "Nature, Scope & Objectives of Auditing",
+          "unique_id": "1-TP-25"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "While doing audit of ABC Pvt. Ltd, on the basis of sufficient and appropriate evidence, auditor comes to a conclusion that use of the Going Concern Basis of Accounting is appropriate, but a material uncertainty exists.\n\n(a) Discuss the implications for auditor\u2019s report if: Adequate Disclosure of a Material Uncertainty is Made in the Financial Statements\n\n(b) Adequate Disclosure of a Material Uncertainty is Made is not made in the Financial Statements",
+          "answer": "Use of the Going Concern Basis of Accounting is Appropriate but a Material Uncertainty Exists\n\nThe identification of a material uncertainty is a matter that is important to users\u2019 understanding of the financial statements. The use of a separate section with a heading that includes reference to the fact that a material uncertainty related to going concern exists alerts users to this circumstance. \n\n(a) Adequate Disclosure of a Material Uncertainty is Made in the Financial Statements\n\nIf adequate disclosure about the material uncertainty is made in the financial statements, the auditor shall express an unmodified opinion and the auditor\u2019s report shall include a separate section under the heading \"Material Uncertainty Related to Going Concern.\" \n\n(b) Adequate Disclosure of a Material Uncertainty is Not Made in the Financial Statements\n\nIf adequate disclosure of the material uncertainty is not made in the financial statements, the auditor shall: \n\n(i) Express a qualified opinion or adverse opinion, as appropriate, in accordance with SA 705 (Revised); and \n\n(ii) In the Basis for Qualified (Adverse) Opinion section of the auditor\u2019s report, state that a material uncertainty exists that may cast significant doubt on the entity\u2019s ability to continue as a going concern and that the financial statements do not adequately disclose this matter. \n\nExam Insights: Few students correctly mention reporting when material uncertainty is disclosed, but most miss how to report in the Basis for Qualified/Adverse Opinion section if disclosure is inadequate. Avoid suggesting a disclaimer of opinion, which is incorrect in this context.",
+          "chapter_number": "7",
+          "chapter_name": "Going Concern",
+          "unique_id": "7-TP-7"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "3",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "The auditor\u2019s determination of materiality is a matter of professional judgment, and is affected by the auditor\u2019s perception of the financial information needs of users of the financial statements. In this context, explain the auditor\u2019s assumptions about users of the financial statements.",
+          "answer": "The auditor\u2019s determination of materiality is a matter of professional judgment, and is affected by the auditor\u2019s perception of the financial information needs of users of the financial statements. In this context, it is reasonable for the auditor to assume that users:\n(i) Have a reasonable knowledge of business and economic activities and accounting and a willingness to study the information in the financial statements with reasonable diligence;\n(ii) Understand that financial statements are prepared, presented and audited to levels of materiality;\n(iii) Recognize the uncertainties inherent in the measurement of amounts based on the use of estimates, judgment and the consideration of future events; and\n(iv) Make reasonable economic decisions on the basis of the information in the financial statements.\n\nExam Insights: Many students confuse assumptions about users with assumptions about the financial statements themselves. Remember, the auditor assumes users have reasonable knowledge and diligence to understand the statements, not that the statements are free from fraud or error.",
+          "chapter_number": "3",
+          "chapter_name": "Risk Assessment & Internal Control",
+          "unique_id": "3-TP-28"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Luck Ltd., a mid-sized manufacturing company, has approached CA S, a qualified Chartered Accountant, to conduct the audit for the financial year ended March 31, 2025. The company requests CA S to give acceptance for the audit so that audit can be commenced within time.  With reference to SA 210, how the auditor will establish that whether the preconditions for an audit are present?",
+          "answer": "As per SA 210 \"Agreeing the Terms of Audit Engagements\", preconditions for an audit may be defined as the use by management of an acceptable financial reporting framework in the preparation of the financial statements and the agreement of management and, where appropriate, those charged with governance to the premise on which an audit is conducted.  In order to establish whether the preconditions for an audit are present, the auditor shall:  (a) Determine whether the financial reporting framework is acceptable; and  (b) Obtain the agreement of management that it acknowledges and understands its responsibility:  (i) for the preparation of the financial statements in accordance with the applicable financial reporting framework;  (ii) for the internal control as management considers necessary; and  (iii) To provide the auditor with:  \u2022 Access to all information such as records, documentation and other matters;  \u2022 Additional information that the auditor may request from management for the purpose of the audit;",
+          "chapter_number": "11",
+          "chapter_name": "Agreeing the Terms of Audit Engagements",
+          "unique_id": "11-TP-4"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "The auditor's requirement to report under clause (xi) of paragraph 3 of the Companies (Auditor's Report) Order, 2020 is restricted to frauds noticed or reported during the year. Explain what auditors may consider for reporting under this clause?",
+          "answer": "The auditor is required to report under Clause (xi) of paragraph 3 of Companies (Auditor\u2019s Report) Order, 2020. Where the auditor notices that any fraud by the company or on the company by its officers or employees has been noticed by or reported during the year, the auditor should, apart from reporting the existence of fraud, also required to report, the nature of fraud and amount involved. For reporting under this clause, the auditor may consider the following:\n\n(i) This clause requires all frauds noticed or reported during the year shall be reported indicating the nature and amount involved. As specified, the fraud by the company or on the company by its officers or employees are only covered.\n\n(ii) Of the frauds covered under section 143(12) of the Act, only noticed frauds shall be included here and not the suspected frauds.\n\n(iii) While reporting under this clause  \n(a) report whether any fraud by the company or any fraud on the Company by its officers or employees has been noticed or reported during the year; If yes, the nature and the amount involved is to be indicated;  \n(b) Whether any report under sub-section (12) of section 143 of the Companies Act, 2013 has been filed by the auditors in Form ADT-4.  \n(c) Whether auditor has considered whistle-blower complaints, if any\n\nClause (xii)-Nidhi Companies",
+          "chapter_number": "8",
+          "chapter_name": "Companies Auditors Report Order, 2020 (CARO)",
+          "unique_id": "8-TP-14"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "8",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "While conducting audit of WEPL Ltd., you as an auditor are not only prevented in completing certain audit procedures but also are not able to obtain audit evidence even by performing alternative procedures. How will you deal with this situation?",
+          "answer": "As per SA 705, \"Modifications to the Opinion in the Independent Auditor\u2019s Report\", if, after accepting the engagement, the auditor becomes aware that management has imposed a limitation on the scope of the audit that the auditor considers likely to result in the need to express a qualified opinion or to disclaim an opinion on the financial statements, the auditor shall request that management remove the limitation.\n\nIf management refuses to remove the limitation, the auditor shall communicate the matter to those charged with governance, unless all of those charged with governance are involved in managing the entity and determine whether it is possible to perform alternative procedures to obtain sufficient appropriate audit evidence.\n\nIf the auditor is unable to obtain sufficient appropriate audit evidence, the auditor shall determine the implications as follows: \n(1) If the auditor concludes that the possible effects on the financial statements of undetected misstatements, if any, could be material but not pervasive, the auditor shall qualify the opinion; or \n(2) If the auditor concludes that the possible effects on the financial statements of undetected misstatements, if any, could be both material and pervasive so that a qualification of the opinion would be inadequate to communicate the gravity of the situation, the auditor shall:\n\n(i) Withdraw from the audit, where practicable and possible under applicable law or regulation; or\n\n(ii) If withdrawal from the audit before issuing the auditor's report is not practicable or possible, disclaim an opinion on the financial statements.\n\nIf the auditor withdraws, before withdrawing, the auditor shall communicate to those charged with governance any matters regarding misstatements identified during the audit that would have given rise to a modification of the opinion.",
+          "chapter_number": "8",
+          "chapter_name": "Modifications to the Opinion in the Independent Auditor\u2019s Report",
+          "unique_id": "8-TP-4"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "As per Sec 143(3)(j) of the Companies Act, 2013, the auditor's report shall also include such other matters as may be prescribed by Rule 11 of the Companies (Audit and Auditors) Rule, 2014. Discuss those matters on which views and comments of the auditor are required.",
+          "answer": "Rule 11 of the Companies (Audit and Auditors) Rules, 2014 prescribes the other matters to be included in auditor's report. The auditor's report shall also include their views and comments on the following matters, namely:\n\n(i) whether the company has disclosed the impact, if any, of pending litigations on its financial position in its financial statement;\n\n(ii) whether the company has made provision, as required under any law or accounting standards, for material foreseeable losses, if any, on long term contracts including derivative contracts;\n\n(iii) whether there has been any delay in transferring amounts, required to be transferred, to the Investor Education and Protection Fund by the company.\n\n(iv) (1) Whether the management has represented that, to the best of its knowledge and belief, other than as disclosed in the notes to the accounts, no funds have been advanced or loaned or invested (either from borrowed funds or share premium or any other sources or kind of funds) by the company to or any other person(s) or entity(ies), including foreign entities (\"Intermediaries\"), with the understanding, whether recorded in writing or otherwise, that the Intermediary shall, whether, directly or indirectly lend or invest in other persons or entities identified in any manner whatsoever by or on behalf of the company (\"Ultimate Beneficiaries\") or provide any guarantee, security or the like on behalf of the Ultimate Beneficiaries;\n\n(2) Whether the management has represented, that, to the best of its knowledge and belief, other than as disclosed in the notes to the accounts, no funds have been received by the company from any person(s) or entity(ies), including foreign entities (\"Funding Parties\"), with the understanding, whether recorded in writing or otherwise, that the company shall, whether, directly or indirectly, lend or invest in other persons or entities identified in any manner whatsoever by or on behalf of the Funding Party (\"Ultimate Beneficiaries\"); or provide any guarantee, security or the like on behalf of the Ultimate Beneficiaries; and\n\n(3) Based on such audit procedures that the auditor has considered reasonable and appropriate in the circumstances, nothing has come to their notice that has caused them to believe that the representations under sub-clause (1) and (2) contain any material misstatement.\n\n(v) Whether the dividend declared or paid during the year by the company is in compliance with section 123 of the Companies Act, 2013.",
+          "chapter_number": "8",
+          "chapter_name": "Reporting Requirements under Companies Act",
+          "unique_id": "8-TP-7"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "During an audit of MNT Ltd., CA Shubh, the auditor discovers an issue with stock valuation. To ensure the accuracy and reliability of his observations, CA Shubh needs to document the audit procedures, evidence collected, and his observations thoroughly. In this situation, how does audit documentation help CA Shubh support his findings in audit in accordance with Standards on Auditing?",
+          "answer": "During the audit of MNT Ltd., CA Shubh identifies an issue with stock valuation. To ensure the accuracy and reliability of his observations, it is crucial for him to document the audit procedures performed, the evidence obtained, and his findings in a structured manner.\nAudit documentation plays a vital role in supporting CA Shubh\u2019s findings in accordance with the Standards on Auditing. Its key purposes include:\n1. Assisting the engagement team to plan and perform the audit.\n2. Assisting members of the engagement team to direct and supervise the audit work, and to discharge their review responsibilities.\n3. Enabling the engagement team to be accountable for its work.\n4. Retaining a record of matters of continuing significance to future audits.\n5. Enabling the conduct of quality control reviews and inspections in accordance with SQC 1.\n6. Enabling the conduct of external inspections in accordance with applicable legal, regulatory or other requirements.",
+          "chapter_number": "6",
+          "chapter_name": "Audit Documentation",
+          "unique_id": "6-TP-21"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "6",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Audit Documentation refers to the record of three items. Explain stating clearly the objective and nature of audit documentation.",
+          "answer": "Audit Documentation refers to the record of audit procedures performed, relevant audit evidence obtained, and conclusions the auditor reached. The objective of the auditor is to prepare documentation that provides: (i) A sufficient and appropriate record of the basis for the auditor\u2019s report; and (ii) Evidence that the audit was planned and performed in accordance with SAs and applicable legal and regulatory requirements.\n\nNature of Audit Documentation Audit documentation provides: (a) evidence of the auditor\u2019s basis for a conclusion about the achievement of the overall objectives of the auditor; and (b) evidence that the audit was planned and performed in accordance with SAs and applicable legal and regulatory requirements.",
+          "chapter_number": "6",
+          "chapter_name": "Audit Documentation",
+          "unique_id": "6-TP-12"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "While auditing the accounts of PQR Ltd., a member of the audit team wants to carry out test of controls for checking the effectiveness of internal control over sales as a part of debtor's audit procedure. State any four points that need to be considered in respect of trade receivables.",
+          "answer": "It is important to carry out Tests of Controls for checking the effectiveness of internal control over sales as a part of the debtors\u2019 audit procedure. Following points need to be considered in respect of trade receivables:\n- Only bona fide sales lead to trade receivables.\n- All such sales are made to approved customers.\n- All such sales are properly recorded in the books of accounts.\n- Once recorded, the debtors can be settled only by receipt of cash or on the authority of a responsible official.\n- Segregation of duties at every point in sales transaction. (accounting for debtors, collecting the payments, sending reminders etc.)\n- Debtors are collected on time.\n- In case debtors are not collected in time, sending reminders and taking legal actions if required.\n- Balances are regularly reviewed.",
+          "chapter_number": "5",
+          "chapter_name": "Audit of Items of Financial Statements",
+          "unique_id": "5-TP-44"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "CA Jatin is the auditor of JP Ltd. The auditor expressed his opinion on the financial statements without ascertaining as to whether the financial statements as a whole were free from material misstatements. Explain w.r.t SA 200. Mr. Z, auditor of the Company, Different and Capable Limited for the financial year 2025-26, explained to audit team members about the objectives of the Independent Auditor in accordance with the relevant Standard on Auditing. Explain those objectives.",
+          "answer": "Overall Objectives of the Independent Auditor: As per SA-200 \"Overall Objectives of the Independent Auditor on the Conduct of an Audit in Accordance with Standards on Auditing\", in conducting an audit of financial statements, the overall objectives of the auditor are:\n\n(i) To obtain reasonable assurance about whether the financial statements as a whole are free from material misstatement, whether due to fraud or error, thereby enabling the auditor to express an opinion on whether the financial statements are prepared, in all material respects, in accordance with an applicable financial reporting framework; and\n\n(ii) To report on the financial statements, and communicate as required by the SAs, in accordance with the auditor\u2019s findings.\n\nIn the given case of JP Ltd, CA Jatin expressed his opinion on the financial statements of JP Ltd without obtaining reasonable assurance about whether the financial statements as a whole are free from material misstatement or not. Therefore, it can be concluded that CA Jatin did not comply with the objective of audit as stated in SA 200.\n\nExam insights: Many students miss stating that the auditor\u2019s main objective is to report on the financial statements and communicate as required by the SAs. Always link your answer to this core purpose when explaining the auditor\u2019s overall objectives.",
+          "chapter_number": "1",
+          "chapter_name": "Nature, Scope & Objectives of Auditing",
+          "unique_id": "1-TP-10",
+          "or_question": {
+            "question": "Explain the key differences between prospective financial information and historical financial information. How does this distinction impact the level of assurance provided in an assurance engagement on prospective financial information?",
+            "answer": "Difference between \"Historical financial information\" and \"Prospective financial information\": The \"Historical financial information\" relates to information expressed in financial terms of an entity about economic events, conditions or circumstances occurring in past periods. The \"Prospective financial information\" relates to financial information based on assumptions about occurrence of future events and possible actions by an entity. Therefore, historical financial information is rooted in past events which have already occurred whereas prospective financial information is related to future events.\n\nIn assurance reports involving prospective financial information, the practitioner obtains sufficient appropriate evidence to the effect that management\u2019s assumptions on which the prospective financial information is based are not unreasonable, the prospective financial information is properly prepared on the basis of the assumptions and it is properly presented and all material assumptions are adequately disclosed. Prospective financial information relates to future events. While evidence may be available to support the assumptions on which the prospective financial information is based, such evidence is itself generally future-oriented. The auditor is, therefore, not in a position to express an opinion as to whether the results shown in the prospective financial information will be achieved.\n\nTherefore, in such assurance engagements, practitioner provides a report assuring that nothing has come to practitioner\u2019s attention to suggest that these assumptions do not provide a reasonable basis for the projection. Hence, such type of assurance engagement provides only a \"moderate\" level of assurance."
+          }
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "7",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "While conducting audit of Vivit Su Limited, CA Y notices that company has lost one of its key markets along with important customers. Additionally, several highly successful competitors have emerged, impacting business of the company. Despite the existence of material uncertainty, CA Y finds the use of going concern basis of accounting appropriate for preparation of financial statements. The company has also disclosed material uncertainty in notes to accounts adequately. How should he deal with the matter in auditor's report?",
+          "answer": "As per SA 570, \"Going concern\", if adequate disclosure about the material uncertainty is made in the financial statements, the auditor shall express an unmodified opinion and the auditor\u2019s report shall include a separate section under the heading \"Material Uncertainty Related to Going Concern\" to: -  (a) Draw attention to the note in the financial statements that discloses such matters.  (b) State that these events or conditions indicate that a material uncertainty exists that may cast significant doubt on the entity\u2019s ability to continue as a going concern and that the auditor\u2019s opinion is not modified in respect of the matter.",
+          "chapter_number": "7",
+          "chapter_name": "Going Concern",
+          "unique_id": "7-TP-2"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "You are part of engagement team conducting audit of an entity engaged in manufacturing business. State few audit procedures you would undertake to perform to verify that recorded sales in financial statements represent goods sold during the period and recorded sales are not overstated.",
+          "answer": "Following audit procedures can be performed to perform to verify that recorded sales in financial statements represent goods actually sold during the period and recorded sales are not overstated.\n\n* Check whether a single sales invoice is recorded twice or a cancelled sales invoice has been recorded.\n* Test check few invoices with their relevant entries in sales journal.\n* Obtain confirmation from few customers to ensure genuineness of sales transaction.\n* Check whether any fictitious customers and sales have been recorded.\n* Verify whether any shipments were done without the consent and agreement of the customer, especially at the year end to inflate the sales figure.\n* Whether unearned revenue recorded as earned.\n* Whether any substantial uncertainty exists about collectability.\n* Review customer obligations are contingent on other (financing, resale, etc.).\n* Review sequence of sales invoices.\n* Review journal entries for unusual transactions.\n* Calculate the ratio of sales return to sales and compare it with previous year and enquire for the reasons for unusual variation.",
+          "chapter_number": "5",
+          "chapter_name": "Audit of Items of Financial Statements",
+          "unique_id": "5-TP-54"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "During the audit of a company, CA Atul noticed that the company is facing significant skilled labour shortages resulting in hampering operations of the company. The company\u2019s manufacturing is dependent upon skilled labour coming from villages in certain districts of Eastern UP. However, due to job opportunities available near villages now, many are not interested in leaving their native villages. The company failed to keep its commitments due to such situation, consequently lost orders and faced decrease in its revenues. The fixed costs of the company remain at a high level. As a result, the company is facing a liquidity crunch and is not able to pay its creditors on time. The bankers of the company are also not willing to help the company to tide over liquidity crisis. The auditor has doubts over going concern status of the company. How should management of the company try to address auditor\u2019s concerns? What audit procedures may be performed by auditors in such a situation?",
+          "answer": "Significant shortage of skilled labour, inability to pay creditors on time and overall liquidity crisis faced by the company are examples of events or conditions that, individually or collectively, may cast significant doubt on the entity\u2019s ability to continue as a going concern.\n\nIn such a situation, management should try to address auditor\u2019s concerns by preparing its future plan of action including preparation of cash flow forecast showing inflow and outflow of cash. Such a cash flow forecast should address auditor\u2019s concerns regarding liquidity crisis being faced by the company.\n\nThe auditor should perform audit procedures to evaluate the reliability of the underlying data to prepare the forecast and determining whether there is adequate support for the assumptions underlying the forecast.\n\nThe auditor should also consider whether any additional facts or information have become available since the date on which management made its assessment.",
+          "chapter_number": "7",
+          "chapter_name": "Going Concern",
+          "unique_id": "7-TP-9"
+        }
+      ]
+    },
+    {
+      "q_main": 6,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "5",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "During the audit of Venus Ltd., CA Rajveer found a considerable increase in sales as compared to the previous year. He suspected that a few fictitious sales have been recorded by the company to overstate its revenues. Discuss the audit procedures to be undertaken by the auditor to ensure revenue from sales of goods and services performed during the period is not overstated?",
+          "answer": "To ensure revenue from sales of goods and services performed during the period is not overstated, CA Rajveer would perform the following audit procedures:\n\n* Check whether a single sales invoice is recorded twice or a cancelled sales invoice could also be recorded.\n* Test check few invoices with their relevant entries in sales journal.\n* Obtain confirmation from few customers to ensure genuineness of sales transaction.\n* Whether any fictitious customers and sales have been recorded.\n* Whether any shipments were done without the consent and agreement of the customer, especially at the year end to inflate the sales figure.\n* Whether unearned revenue recorded as earned.\n* Whether any substantial uncertainty exists about collectability.\n* Whether customer obligations are contingent on other actions (financing, resale etc.).",
+          "chapter_number": "5",
+          "chapter_name": "Audit of Items of Financial Statements",
+          "unique_id": "5-TP-55"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "In the case of audit of a charitable institution, what attentions should be paid by the auditor regarding audit of expenditure items?",
+          "answer": "Audit of Expenditure of Charitable Institution:  \n(i) Vouching payment of grants also verifying that the grants have been paid only for a charitable purpose or purposes falling within the purview of the objects for which the charitable institution has been set up and that no trustee, director or member of the management committee has benefited there from either directly or indirectly.  \n\n(ii) Verifying the schedules of securities held, as well as inventories of properties both movable and immovable by inspecting the securities and title deeds of property and by physical verification of the movable properties on a test basis.  \n\n(iii) Check payment along with supporting documents in regard to salary and other expenses. Verify that all payments are made after proper sanction by appropriate authority.  \n\n(iv) Ascertaining that any funds contributed for a special purpose have been utilized for the purpose.  \n\n(v) Verifying the cash and bank balances/payments.",
+          "chapter_number": "9",
+          "chapter_name": "Special Features of Audit of Different Type of Entities",
+          "unique_id": "9-TP-48"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "(i) When does the planning for an audit actually start and end?\n\n(ii) Whether auditor can change planning decisions during the audit or not? If yes, what are those possible reasons.",
+          "answer": "(i) Planning is not a discrete phase of an audit, but rather a continual and iterative process that begins shortly after the completion of the previous audit and continues until the completion of the current audit engagement.\n\nIn the given situation, planning of the audit of financial statements for the year 2024-25 would have commenced right after completion of audit of preceding year in June 2025. It would have continued till completion of audit of year 2025-26.\n\n(ii) The auditor shall update and change the overall audit strategy and the audit plan as necessary during the audit. As a result of unexpected events, changes in conditions, or the audit evidence obtained from the results of audit procedures, the auditor may need to modify the overall audit strategy and audit plan and thereby the resulting planned nature, timing and extent of further audit procedures, based on the revised consideration of assessed risks. This may be the case when information comes to the auditor\u2019s attention that differs significantly from the information available when the auditor planned the audit procedures. For example, audit evidence obtained through on detailed checking may contradict the audit evidence obtained through testing internal controls.",
+          "chapter_number": "2",
+          "chapter_name": "Audit Strategy, Audit Planning & Audit Programme",
+          "unique_id": "2-TP-21"
+        }
+      ]
+    }
+  ]
+}

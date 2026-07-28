@@ -1,0 +1,511 @@
+{
+  "meta": {
+    "subject_code": "AUD",
+    "subject_name": "Auditing and Ethics",
+    "paper_num": 3,
+    "total_marks_printed": 100,
+    "total_marks_in_paper": 114,
+    "section_a_marks": 30,
+    "section_b_marks": 84,
+    "note": "Section A: 15 MCQs @ 2 marks each (Case Study based). Section B: Q1 compulsory (14m). Attempt any 4 of Q2–Q6 (14m each).",
+    "blacklisted_from": [
+      "Generated_Papers/AUD/AUD_Mock_Paper_1.json",
+      "Generated_Papers/AUD/AUD_Mock_Paper_2.json"
+    ],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)",
+      "1(c)"
+    ]
+  },
+  "section_a": [
+    {
+      "type": "case_study",
+      "chapter_number": "1.1",
+      "chapter_name": "Nature, Objective and Scope of Audit",
+      "case_text": "CA Sanjoy is conducting audit of PETA Education Solutions Private Limited for the first time. The company is engaged in providing solutions to students appearing for competitive exams under engineering and medical streams. Company's business is operated from physical centres spread in many states of the country. However, of late, number of aspirants availing company's services are shrinking due to emergence of new competitors and inability of company to switch to new technologies available in market to render its services.  The company had taken bank loans in past years for expansion of its physical centres. However, due to reduction in strength of aspirants opting for services provided by the company, management is always looking for means to meet its financial commitments on time. During the course of audit, CA Sanjoy wants to be sure about revenue and profit assertions reflected in financial statements of the company. Therefore, he is planning to test company’s system for booking revenue in its books of accounts. He notices that during the year under consideration, many experienced teaching faculties have left due to late payment of their contractual payments by the company. These have been replaced by inexperienced faculties having lower contractual costs but leading to poor satisfaction outcomes among aspirants. Besides, employee turnover of regular administrative staff also remains high. The company has not organized any training programmes either for its faculties or administrative staff for considerable period of time. He has, in his wisdom, decided to increase the area of substantive checking in the company. He does not want to suffer from probable adverse publicity or loss of his professional goodwill.",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "What is the primary concern of CA Sanjoy during the audit of PETA Education Solutions Private Limited?",
+          "options": {
+            "a": "To ensure revenue and profit assertions are accurate.",
+            "b": "To reduce the employee turnover rate.",
+            "c": "To implement new technologies in the company.",
+            "d": "To increase the number of aspirants availing services."
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "_serial": 1
+        },
+        {
+          "q_num": 2,
+          "question": "What issue has CA Sanjoy identified regarding the teaching faculties at the company?",
+          "options": {
+            "a": "They are all experienced and well-trained.",
+            "b": "Many experienced faculties have left due to late payments.",
+            "c": "They are receiving regular training programs.",
+            "d": "They are satisfied with their contractual payments."
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "_serial": 2
+        }
+      ],
+      "mcq_count": 2,
+      "unique_id": "1.1-CS-22"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "12",
+      "chapter_name": "Case Scenarios",
+      "case_text": "DLP & Associates, a firm of Chartered Accountants, are in midst of conducting audit of Twist and Spin Limited. The company is in business since last 15 years and have appointed DPL & Associates as their auditor for the first time for a term of 5 years beginning from financial year 2025-26. While identifying and assessing the risk of material misstatement at assertion level, the engagement team had assessed risk of material misstatement for revenues and trade receivables to be high. The team is considering to send negative confirmation requests as sole substantive procedure to some business entities representing trade receivables appearing in the financial statements of the company. The company had made sales to these business entities in January, 2026. Such business entities are few and have quite large balances as on 31st March, 2026. However, team members are not on the same page.",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "What is the primary concern of the engagement team regarding the audit of Twist and Spin Limited?",
+          "options": {
+            "a": "High risk of material misstatement for revenues and trade receivables.",
+            "b": "The company has been in business for 15 years.",
+            "c": "The appointment of DLP & Associates as auditors.",
+            "d": "The use of negative confirmation requests."
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "_serial": 3
+        },
+        {
+          "q_num": 2,
+          "question": "What substantive procedure is the engagement team considering to use?",
+          "options": {
+            "a": "Negative confirmation requests.",
+            "b": "Positive confirmation requests.",
+            "c": "Analytical procedures.",
+            "d": "Substantive testing of transactions."
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "_serial": 4
+        }
+      ],
+      "mcq_count": 2,
+      "unique_id": "12-CS-5"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "12",
+      "chapter_name": "Case Scenarios",
+      "case_text": "CA J is nearing completion of audit of Cheap Cost Private Limited, a manufacturing company for the year 2025-26. The draft financial statements of the company show a profit before tax of ₹ 5 crores. Materiality for financial statements as a whole has been determined @ 5% of Profit before Tax. At the end of June 2024, he is considering following issues flagged during the course of audit which remain uncorrected: -  A fire took place in one of the premises of the company on 1st May, 2026 resulting in damages to all the inventories lying there amounting to ₹ 1 crores. The inventories of affected premises are insured with Quick Bima Limited for ₹ 50 lakhs and company has also lodged a claim with it which is still to be settled.  The company has debited ₹ 10 lakhs under “Machinery Account” whereas expenditure relates to normal wear and tear of high-speed automated machinery. The amount has been wrongly capitalised under “Machinery account”. (Ignore depreciation effect)  The company has not properly accounted for necessary elements of cost in arriving at work in progress. Further, estimates regarding various stages of production have not been made properly. All such factors have resulted in overstatement of work in progress inventories by ₹ 20 lakhs.  No other issues except as stated above merit attention. Besides, written representation letter has also been obtained on matters concerning management’s responsibilities regarding fulfillment of responsibilities for preparation of financial statements and providing access to all information to CA J. However, written representation provided to CA J begins in the below stated manner:  “This representation letter is provided in connection with your audit of the financial statements of Cheap Cost Private Limited for the year ended March 31, 2024, for the purpose of expressing an opinion as to whether the financial statements give a true and fair view in accordance with the applicable accounting standards in India. We confirm that (to the best of our knowledge and belief, having made such inquiries as we considered necessary for the purpose of appropriately informing ourselves) ...... ”",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Which of following statements is most appropriate as regards to fire incident? (Chapter 5- Audit of Items of Financial Statements)",
+          "options": {
+            "a": "The auditor should ask management to adjust financial statements for period under audit and book a loss of ₹ 50 lakhs in its Statement of Profit and Loss.",
+            "b": "The auditor should ask management to adjust financial statements for period under audit and book a loss of ₹ 1 crores in its Statement of Profit and Loss.",
+            "c": "The auditor should ask management to disclose it in notes to accounts.",
+            "d": "The auditor has no responsibility regarding described fire incident."
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "_serial": 5
+        },
+        {
+          "q_num": 2,
+          "question": "Identify the correct option regarding materiality of uncorrected misstatements relating to wrong capitalisation under “Machinery Account” and overstatement of inventories of work in progress. (Chapter 3- Risk Assessment and Internal Control)",
+          "options": {
+            "a": "The uncorrected misstatements are not material in context of audit of financial statements as a whole as these are below materiality level determined by auditor.",
+            "b": "The uncorrected misstatements are material in context of audit of financial statements as a whole and their effect on opinion should be considered by auditor.",
+            "c": "The uncorrected misstatements are not material in context of audit of financial statements as a whole as these are in nature of management’s judgment.",
+            "d": "The uncorrected misstatements are material in context of audit of financial statements as a whole and auditor should correct these."
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "_serial": 6
+        },
+        {
+          "q_num": 3,
+          "question": "The auditor has performed certain audit procedures described in case scenario relating to inventories of work in progress. Such procedures are related to verification of _____ assertion. (Chapter 5- Audit of Items of Financial Statements)",
+          "options": {
+            "a": "Completeness",
+            "b": "Valuation",
+            "c": "Existence",
+            "d": "Rights and obligations"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "_serial": 7
+        },
+        {
+          "q_num": 4,
+          "question": "Which of the following statements is correct in respect to manner of providing written representations by management? (Chapter 7.4 SA 580- Written Representations)",
+          "options": {
+            "a": "The extract of written representations provided in case scenario is proper.",
+            "b": "The use of words \"having made such enquiries\" is not permitted.",
+            "c": "The use of words \"to the best of our knowledge and belief\" is not permitted.",
+            "d": "The use of both kind of words \"having made such enquiries\" and \"to the best of our knowledge and belief\" is not permitted."
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "_serial": 8
+        }
+      ],
+      "mcq_count": 4,
+      "unique_id": "12-CS-6"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "12",
+      "chapter_name": "Case Scenarios",
+      "case_text": "Vivi, a CA student undergoing articles, is part of an engagement team conducting audit of Test Enterprises Private Limited. The company is engaged in business of conducting aptitude and language tests every fortnight at centres spread all over major cities of country for Indian students desirous of applying to foreign universities. It also sells books containing model test papers for the benefit of students. The company has substantial number of computers at each centre to enable seamless experience for students appearing for standardized aptitude and language tests. The company has acquired new identifiable software involving substantial expenditure for conducting tests during the year which is expected to drive company’s revenues in coming years. At the time of taking a test, a CD containing software is run in each system for enabling students to take tests. Cost of CD without software is nominal. The revenue of the company during the year 2025-26 was ₹ 50 crores (₹45 crores from fees charged from students and ₹5 crores from sale of books). Besides, company has also received ₹ 10 lacs as interest on certain investments during the year. The company has a history of profitable operations. During the course of audit, it is noticed by Vivi that computers form significant chunk of PPE items in financial statements of company. The company has taken useful life of computers consisting of desktops for 3 years. However, depreciation charged on computers in financial statements of the company is higher than depreciation allowable under Income tax law. It results in lower accounting of income of company as compared with taxable income under Income tax law. During the course of audit, he notices that cost of CDs along with software cost is treated as an intangible asset by company. It is also part of his responsibility to verify PPE register in accordance with audit programme. On perusing details in PPE register, he finds that some computers have moved from one centre to another centre to meet business requirements. Further, many computers were disposed or scrapped in earlier years. However, proper details in relation to movement and disposal/scrapping have not been entered in PPE register. When these items were physically verified by the management during the year, it has resulted in material discrepancies. The management has properly dealt with such discrepancies in books of accounts.",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Considering description provided in case scenario regarding accounting income as per books of accounts and taxable income under Income tax law, choose appropriate responsibility of Vivi: (Chapter 5: Audit of Items of Financial Statements)",
+          "options": {
+            "a": "To verify deferred tax liability likely created in financial statements in accordance with AS 22",
+            "b": "To verify deferred tax asset likely created in financial statements in accordance with AS 22",
+            "c": "To verify deferred tax asset likely created in financial statements in accordance with AS 29",
+            "d": "To verify deferred tax liability likely created in financial statements in accordance with AS 29"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "_serial": 9
+        },
+        {
+          "q_num": 2,
+          "question": "Keeping in view description provided in case scenario, which of following statements is likely to be correct regarding accounting treatment of cost of CDs and software acquired by company to run tests? (Chapter 5: Audit of Items of Financial Statements)",
+          "options": {
+            "a": "The company’s accounting treatment of treating cost of CDs with software costs as intangible assets is not proper. It should have treated such costs as revenue expenditure.",
+            "b": "The company’s accounting treatment of treating cost of CDs with software costs as intangible assets is proper.",
+            "c": "The company’s accounting treatment of treating cost of CDs with software costs as intangible assets is not proper. It should have treated cost of CDs as PPE item and software cost as intangible asset.",
+            "d": "The company’s accounting treatment of treating cost of CDs with software costs as intangible assets is not proper. It should have treated cost of CDs as PPE item and software cost as revenue expenditure."
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "_serial": 10
+        },
+        {
+          "q_num": 3,
+          "question": "As regards discrepancies noticed in computer systems on physical verification by management as described in case scenario, which of following statements is most appropriate? (Chapter 5: Audit of Items of Financial Statements)",
+          "options": {
+            "a": "The management has properly dealt with such discrepancies. However, Vivi should bring it to light of engagement partner as it may result in modification of auditor’s opinion.",
+            "b": "The management has properly dealt with such discrepancies. However, Vivi should bring it to light of engagement partner as it entails specific reporting requirement for auditor under Companies Act, 2013.",
+            "c": "The management has properly dealt with such discrepancies. Therefore, Vivi should not do anything further.",
+            "d": "The management has properly dealt with such discrepancies. However, Vivi should bring it to light of engagement partner as it is in nature of misstatement which needs to be communicated and documented by auditor."
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "_serial": 11
+        }
+      ],
+      "mcq_count": 3,
+      "unique_id": "12-CS-10"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "12",
+      "chapter_name": "Case Scenarios",
+      "case_text": "CDL Limited, a company dealing in FMCG goods, is having 50 branches in India. SKC & Associates (referred to as company's auditor) are appointed as statutory auditors of the company for year 2025-26. Further, company has also appointed Mr. D as branch auditor for 5 of its branches. Since Mr. D is conducting audit of only 5 branches of company, he has not arrived at materiality level in respect of auditee branches. On the same lines, identification and assessment of risk of material misstatement has not been performed. He is of the view that determination of materiality and identifying & assessing risks of material misstatement is done for financial statements of company as a whole. He has mainly performed substantive audit procedures in respect of financial statements of auditee branches like verification of PPE items, inventories, trade receivables, cash, bank balances and trade payables at auditee branches and maintained documentation of the same. During the course of audit at two branches dealing in same kind of goods, Mr. D has performed analytical procedures pertaining to inventories. He has arrived at and compared inventory turnover ratio (Cost of goods sold/Average inventory) over a period of years of two branches. The results of analytical procedures are summarized in Table 1 below: Table 1 | Particulars | Branch | Year 2023-24 | Year 2024-25 | Year 2025-26 | |---------------------------|--------|---------------|---------------|---------------| | Inventory turnover ratio I | 15 | 14 | 12 | | Inventory turnover ratio II | 4 | 6 | 10 | The company's auditor has also decided to use work of Mr. D with respect to financial information of 5 branches included in financial information of the company. During the course of audit, company's auditor has advised Mr. D by way of email certain significant accounting, auditing and reporting requirements and has asked him to provide representation as to compliance with them. Irritated and surprised, Mr. D is of the view that such an email is beyond the rights of the company's auditor.",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "As regards audit of a branch of CDL Limited as referred to in case scenario is concerned, which of following statements is most appropriate?",
+          "options": {
+            "a": "The accounts of a branch shall be audited either by the company’s auditor or by any other person qualified for appointment as an auditor of the company and appointed as such under section 139 of the Companies Act, 2013. In case branch accounts are audited by a person other than company’s auditor, branch audit report is sent by branch auditor to company’s auditor.",
+            "b": "The accounts of a branch shall only be audited by any other person qualified for appointment as an auditor of the company and appointed as such under section 139 of Companies Act, 2013 except company’s auditor. In such a case, branch audit report is sent by branch auditor to members of company.",
+            "c": "The accounts of a branch shall only be audited by any other person qualified for appointment as an auditor of the company and appointed as such under section 139 of Companies Act, 2013 except company’s auditor. In such a case, branch audit report is sent by branch auditor to company’s auditor."
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "_serial": 12
+        }
+      ],
+      "mcq_count": 1,
+      "unique_id": "12-CS-11"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "12",
+      "chapter_name": "Case Scenarios",
+      "case_text": "CA B is conducting statutory audit of branch of a nationalized bank. Saurabh, a CA student, is also part of engagement team conducting statutory branch audit. The field of bank branch audit is new to him and he is following instructions as required by engagement partner.\n\nThe engagement partner has asked him to prepare a summary of non-funded credit facilities outstanding as on balance sheet date. The following information is appearing in branch’s CBS data/records as on 31st March, 20XX:\n\n| Serial Number | Particulars in CBS (Core Banking solution)/records | Amount in ₹ crores |\n|---------------|-----------------------------------------------------|---------------------|\n| 1.            | Agricultural term loans                             | 15.00               |\n| 2.            | Staff housing loans                                  | 3.50                |\n| 3.            | Staff vehicle loans                                  | 0.20                |\n| 4.            | Housing loans-General public                         | 10.00               |\n| 5.            | Letters of credit issued                              | 2.50                |\n| 6.            | Education loans                                      | 1.50                |\n| 7.            | Guarantees issued (Fully secured by 100% margin)   | 1.00                |\n| 8.            | Bills purchased and discounted                       | 2.00                |\n| 9.            | Bills for collection                                  | 0.10                |\n\nOn going through listing of housing loans to general public, CA B notices that branch has sanctioned many housing loans of small ticket size ranging between ₹10.00 to ₹20 lakhs. Therefore, he has assessed risk of material misstatements to be high. As a consequence, he has designed procedures to perform tests of controls as well as substantive tests.\n\nSaurabh has been further asked to go through SMA (Special Mention Accounts) jotting as on 30th November, 20XX. Such reports are available from system on monthly frequency. Being new to such type of assignment, he is unable to understand relevance of above audit procedure mandated by engagement partner. Based on above, answer the following questions:\n\n1.  Considering table given in the case scenario, which of the following combinations is appropriate example of non- funded credit facilities provided by branch to its customers? (Chapter 10: Audit of Banks)  \n    (a) Bills purchased and discounted; bills for collection  \n    (b) Bills for collection; staff housing loans; letters of credit issued  \n    (c) Bills purchased and discounted; letters of credit issued; guarantees issued (fully secured by 100% margin)  \n    (d) Letters of credit issued, guarantees issued (fully secured by 100% margin)  \n    Ans: (b)  \n\n2.  CA B’s decision to perform both tests of controls as well as substantive tests was taken after he had assessed risk of material misstatement in financial statements to be high due to large number of small ticket size loans. Which Standard on Auditing deals with auditor’s responsibility to design such tests? (Chapter 3: Risk Assessment and Internal Control)  \n    (a) SA 500  \n    (b) SA 330  \n    (c) SA 300  \n    (d) SA 315  \n    Ans: (b)  \n\n3.  Saurabh is unable to understand relevance of going through SMA jotting as on 30th November, 2022. Which of following statements is most appropriate in this context? (Chapter 10: Audit of Banks)  \n    (a) It would necessarily help auditor in identifying accounts with significant lending exposure.  \n    (b) It would help auditor in identifying accounts which may involve downgrading from Sub-standard asset category to doubtful category.  \n    (c) It would help auditor in identifying accounts where substantial recoveries have been received during the year.  \n    (d) It would help auditor in identifying accounts which may involve downgrading from standard category to non-performing asset.  \n    Ans: (d)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Considering table given in the case scenario, which of the following combinations is appropriate example of non- funded credit facilities provided by branch to its customers? (Chapter 10: Audit of Banks)",
+          "options": {
+            "a": "Bills purchased and discounted; bills for collection",
+            "b": "Bills for collection; staff housing loans; letters of credit issued",
+            "c": "Bills purchased and discounted; letters of credit issued; guarantees issued (fully secured by 100% margin)",
+            "d": "Letters of credit issued, guarantees issued (fully secured by 100% margin)"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "_serial": 13
+        },
+        {
+          "q_num": 2,
+          "question": "CA B’s decision to perform both tests of controls as well as substantive tests was taken after he had assessed risk of material misstatement in financial statements to be high due to large number of small ticket size loans. Which Standard on Auditing deals with auditor’s responsibility to design such tests? (Chapter 3: Risk Assessment and Internal Control)",
+          "options": {
+            "a": "SA 500",
+            "b": "SA 330",
+            "c": "SA 300",
+            "d": "SA 315"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "_serial": 14
+        },
+        {
+          "q_num": 3,
+          "question": "Saurabh is unable to understand relevance of going through SMA jotting as on 30th November, 2022. Which of following statements is most appropriate in this context? (Chapter 10: Audit of Banks)",
+          "options": {
+            "a": "It would necessarily help auditor in identifying accounts with significant lending exposure.",
+            "b": "It would help auditor in identifying accounts which may involve downgrading from Sub-standard asset category to doubtful category.",
+            "c": "It would help auditor in identifying accounts where substantial recoveries have been received during the year.",
+            "d": "It would help auditor in identifying accounts which may involve downgrading from standard category to non-performing asset."
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "_serial": 15
+        }
+      ],
+      "mcq_count": 3,
+      "unique_id": "12-CS-12"
+    }
+  ],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": true,
+      "total_marks": 14,
+      "chapter_number": "11",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "SQC 1 requires assumption of leadership responsibilities for quality within firm. Are such leadership responsibilities required for audit engagements only? Who assumes such leadership responsibilities within firm? How is it important for audit quality?",
+          "answer": "SQC 1 requires firms to establish policies and procedures designed to promote an internal culture based on the recognition that quality is essential in performing engagements. Therefore, such leadership responsibilities are required for all engagements and not for audit engagements only. Such policies and procedures should require the firm’s chief executive officer or the firm’s managing partners to assume ultimate responsibility for the firm’s system of quality control. The example set by firm’s leadership encourages an inner culture that recognizes high quality audit work. Further, persons assigned operational responsibilities for the firm’s quality control system by the firm’s chief executive officer or managing partners should have sufficient and appropriate experience, ability and the necessary authority to assume that responsibility.",
+          "chapter_number": "11",
+          "chapter_name": "Quality Control for Firms Which Perform Audits and Reviews of Historical Financial Information and Other Assurance and Related Service Engagements",
+          "unique_id": "11-TP-3"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Auditor or Sunshine Ltd. is of the view that due to greater management intervention to specify accounting treatment, the risk of material misstatement is greater for non-routine transactions. Is the view of the auditor correct? Specify the other matters due to which the risk of material misstatement is greater for significant non-routine transactions.",
+          "answer": "The view of the auditor is correct. Non-routine transactions often involve significant judgment and estimation, which can lead to a higher risk of material misstatement. Other matters that contribute to the increased risk of material misstatement for significant non-routine transactions include:\n\n1. Complexity of the transaction: Non-routine transactions may involve complex structures or arrangements that are not well understood by the accounting personnel.\n2. Lack of historical data: Non-routine transactions may not have a precedent, making it difficult to apply consistent accounting treatment.\n3. Changes in regulations: Non-routine transactions may be subject to new or changing regulations that can affect their accounting treatment.\n4. Management override of controls: There is a higher risk that management may override established controls in the case of significant non-routine transactions.\n5. Involvement of external parties: Non-routine transactions may involve third parties, which can introduce additional risks related to the reliability of information and the integrity of the transaction.",
+          "chapter_number": "3",
+          "chapter_name": "Risk Assessment & Internal Control",
+          "unique_id": "3-TP-17"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "CA Sandeep has identified certain misstatements during course of audit of an entity. Except two misstatements, all were corrected by management. He wants to obtain written representation from management regarding effects of these uncorrected misstatements. Describe matter contained in such written representations. Also discuss documentation requirements regarding misstatements identified during the course of audit in accordance with relevant SA.",
+          "answer": "In the given case, all except two misstatements have been corrected by management. The auditor shall request a written representation from management and, where appropriate, those charged with governance whether they believe the effects of uncorrected misstatements are immaterial, individually and in aggregate, to the financial statements as a whole. A summary of such items shall be included in or attached to the written representation.\n\nThe documentation requirements regarding misstatements identified during the course of audit in accordance with SA 450 are as under: -\n\n(a) The amount below which misstatements would be regarded as clearly trivial\n\n(b) All misstatements accumulated during the audit and whether they have been corrected and\n\n(c) The auditor’s conclusion as to whether uncorrected misstatements are material, individually or in aggregate, and the basis for that conclusion.",
+          "chapter_number": "7",
+          "chapter_name": "Evaluation of Misstatements Identified during Audit",
+          "unique_id": "7-TP-4"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "7",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Communicating key audit matters in the auditor’s report is a substitute for reporting in accordance with SA 570 when a material uncertainty exists relating to events or conditions that may cast significant doubt on an entity’s ability to continue as a going concern.",
+          "answer": "Communicating key audit matters in the auditor’s report is not a substitute for reporting in accordance with SA 570 when a material uncertainty exists relating to events or conditions that may cast significant doubt on an entity’s ability to continue as a going concern.",
+          "chapter_number": "7",
+          "chapter_name": "Going Concern",
+          "unique_id": "7-TF-1"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "The auditor shall take into consideration the reporting objectives of the engagement so as to plan timing of different audit procedures and also nature of communications while establishing audit strategy. Give any four instances of reporting objectives. Or The ascertaining of reporting objectives of engagement helps the auditor to plan timing of different audit procedures and also nature of communications. Give three instances to explain.",
+          "answer": "The reporting objectives of the engagement to plan the timing of the different audit procedures and also the nature of the communications while establishing audit strategy are:\n- The entity’s timetable for reporting.\n- Organization of meetings to discuss nature, timing and extent of audit work with management.\n- Discussion with management regarding the expected type and timing of reports to be issued including the auditor's report.\n\n• Discussion with management regarding the expected communications on the status of audit work throughout the engagement.\n\n• Expected nature and timing of communications among engagement team members, including the nature and timing of team meetings and timing of the review of work performed.\n\nExam Insights: Many students limit their answers on audit strategy to reporting objectives. Also include how the strategy guides audit timing and required communications to show a complete understanding.",
+          "chapter_number": "2",
+          "chapter_name": "Audit Strategy, Audit Planning & Audit Programme",
+          "unique_id": "2-TP-9"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "The auditor has to form an opinion on the financial statements within a reasonable period of time and at a reasonable cost. Explain the above statement with reference to \"Timeliness of Financial Reporting and the Balance between Benefit and Cost\".",
+          "answer": "Timeliness of Financial Reporting and the Balance between Benefit and Cost: The matter of difficulty, time, or cost involved is not in itself a valid basis for the auditor to omit an audit procedure for which there is no alternative or to be satisfied with audit evidence that is less than persuasive. Appropriate planning assists in making sufficient time and resources available for the conduct of the audit. Notwithstanding this, the relevance of information, and thereby its value, tends to diminish over time, and there is a balance to be struck between the reliability of information and its cost. There is an expectation by users of financial statements that the auditor will form an opinion on the financial statements within a reasonable period of time and at a reasonable cost, recognizing that it is impracticable to address all information that may exist or to pursue every matter exhaustively on the assumption that information is in error or fraudulent until proved otherwise.",
+          "chapter_number": "1",
+          "chapter_name": "Nature, Scope & Objectives of Auditing",
+          "unique_id": "1-TP-21"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "4",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "The management of D. Ltd. have engaged an actuary-expert to ascertain actuarial valuation of gratuity for provision to be made in the accounts. As an auditor of D. Ltd., you plan to use the report of the said expert as audit evidence for ascertaining appropriate valuation of provisions. As an auditor, what will you do to evaluate the competence, capabilities, objectivity and an understanding of the work of the actuary-expert who has carried out actuarial valuation of gratuity?",
+          "answer": "As per SA 500, \"Audit Evidence\", issued by ICAI, when using the work of a management’s expert as audit evidence the auditor should evaluate the competence, capabilities and objectivity of that expert that:  \n\n- Whether the expert is employed by the entity or is an outside party.  \n- Whether the expert is independent in respect of the entity.  \n- Auditor’s previous experience of the work of the expert.  \n- Knowledge of the expert, his qualification, membership of a professional body or industry association, etc.  \n\nThe auditor should also obtain an understanding of the work of that expert that:  \n\n- Whether the auditor has expertise to evaluate the work of the expert.  \n- Evaluating the assumptions and methods used by the management.  \n- Evaluating the nature of internal or external data used by the expert.  \n\nExam insights: Many students cover competence and objectivity of the actuary but miss understanding the expert’s work. Always explain how the auditor reviews the scope, assumptions, and methods used by the actuary to ensure reliability.",
+          "chapter_number": "4",
+          "chapter_name": "Audit Evidence",
+          "unique_id": "4-TP-24"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "\"An auditor who before the completion of the engagement is requested to change the engagement to one which provides a lower level of assurance should consider the appropriateness of doing so.\" Discuss.",
+          "answer": "Acceptance of a Change in Engagement: An auditor who, before the completion of the engagement, is requested to change the engagement to one which provides a lower level of assurance, should consider the appropriateness of doing so.\n\nA request from the client for the auditor to change the engagement may result from a change in circumstances affecting the need for the service, a misunderstanding as to the nature of an audit or related service originally requested or a restriction on the scope of the engagement, whether imposed by management or caused by circumstances. The auditor would consider carefully the reason given for the request, particularly the implications of a restriction on the scope of the engagement, especially any legal or contractual implications.\n\nIf the auditor concludes that there is reasonable justification to change the engagement and if the audit work performed complied with the SAs applicable to the changed engagement, the report issued would be appropriate for the revised terms of engagement. In order to avoid confusion, the report would not include reference to-  \n(i) the original engagement; or  \n(ii) any procedures that may have been performed in the original engagement, except where the engagement is changed to an engagement to undertake agreed-upon procedures and thus reference to the procedures performed is a normal part of the report.\n\nThe auditor should not agree to a change of engagement where there is no reasonable justification for doing so.\n\nIf the terms of the audit engagement are changed, the auditor and management shall agree on and record the new terms of the engagement in an engagement letter or other suitable form of written agreement.\n\nIf the auditor is unable to agree to a change of the terms of the audit engagement and is not permitted by management to continue the original audit engagement, the auditor shall-  \n(i) Withdraw from the audit engagement where possible under applicable law or regulation; and  \n(ii) Determine whether there is any obligation, either contractual or otherwise, to report the circumstances to other parties, such as those charged with governance, owners or regulators.",
+          "chapter_number": "11",
+          "chapter_name": "Agreeing the Terms of Audit Engagements",
+          "unique_id": "11-TP-5"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "What is the meaning and primary objective of takeout finance in property development, and how does the classification of a loan as a Non-Performing Asset (NPA) impact income recognition by the lending bank?",
+          "answer": "Meaning of Take-out finance in property development: A takeout loan is a method of financing whereby a loan that is procured later is used to replace the initial loan. More specifically, a takeout loan, or takeout financing, is long-term financing that the lender promises to provide at a particular date or when particular criteria for completion of a project are met. Takeout loans are commonly used in property development.\n\nObjective of Take-out finance in property development:\n(I) To expand sources of finance for infrastructure projects by facilitating participation of new entities.\n(II) To address sectoral/group/entity exposure issues and asset liability in mis-match concerns of tenders.\n(III) To boost the availability of longer tenor debt finance for projects.\n\nImpact of classification of loan as NPA on income recognition by lending bank: In the case of take-out finance, if based on record of recovery, the account is classified by the lending bank as NPA, it should not recognize income unless realised from the borrower/taking-over institution (if the arrangement so provides).",
+          "chapter_number": "10",
+          "chapter_name": "Audit of Banks",
+          "unique_id": "10-TP-40"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "3",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "The auditor shall obtain an understanding of major activities that the entity uses to monitor internal control over financial reporting. Discuss \"Monitoring of control\" as a component of internal control.",
+          "answer": "Monitoring of Controls: Component of Internal Control\nThe auditor shall obtain an understanding of the major activities that the entity uses to monitor internal control over financial reporting.\n\nMonitoring of controls Defined: Monitoring of controls is a process to assess the effectiveness of internal control performance over time.\n\n(i) Helps in assessing the effectiveness of controls on a timely basis: It involves assessing the effectiveness of controls on a timely basis and taking necessary remedial actions.\n\n(ii) Management accomplishes through ongoing activities, separate evaluations etc.: Management accomplishes monitoring of controls through ongoing activities, separate evaluations, or a combination of the two. Ongoing monitoring activities are often built into the normal recurring activities of an entity and include regular management and supervisory activities.\n\n(iii) Management’s monitoring activities include: Management’s monitoring activities may include using information from communications from external parties such as customer complaints and regulator comments that may indicate problems or highlight areas in need of improvement.\n\n(iv) In case of Small Entities: Management’s monitoring of control is often accomplished by management’s or the owner-manager’s close involvement in operations. This involvement often will identify significant variances from expectations and inaccuracies in financial data leading to remedial action to the control.",
+          "chapter_number": "3",
+          "chapter_name": "Risk Assessment & Internal Control",
+          "unique_id": "3-TP-44"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "While auditing books of accounts of SOLAR Ltd., you observed that an amount due from a debtor for invoice issued on 31.03.20X2 has not been recognized in the books of accounts. As an auditor, you want to ensure that all trade receivable balances that are supposed to be recorded have been recognized in the financial statements. How will you achieve the stated objective?",
+          "answer": "Audit of Trade Receivable:  All Trade receivable balances that were supposed to be recorded have been recognized in the financial statements. (COMPLETENESS): The auditor needs to satisfy himself of the cut-offs. Without a cut-off, sales could be understated or overstated, hence there is a need to perform the following cut off procedure:  (a) For the invoices issued during the last few days (last 5 days of the reporting year) i.e. cut-off date and which have been included in the debtors; check that the goods should have been dispatched and not lying with the Company;  (b) Ensure that all goods dispatched prior to the period/year-end have been invoiced and included in debtors on a test check basis;  (c) Ensure that no goods dispatched after the year-end have been invoiced and included in debtors for the period under audit.  Exam Insights: Audit of Trade Receivable: Examinees could not understand the requirement of the question. Examinees unnecessarily discussed aspects like direct confirmation procedures, ageing analysis instead of focusing on verification of the cut-off procedures.",
+          "chapter_number": "5",
+          "chapter_name": "Audit of Items of Financial Statements",
+          "unique_id": "5-TP-42"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "\"Choosing of appropriate accounting policies in relation to accounting issues is responsibility of management\". Do you agree? Discuss duty of auditor, if any, in relation to accounting policies.",
+          "answer": "Choosing of appropriate accounting policies is responsibility of management. The role of auditor lies in evaluating selection and consistent application of accounting policies by management.\n\nThe following points are included in scope of audit of financial statements: -  \n(1) Coverage of all aspects of entity  \nAudit of financial statements should be organized adequately to cover all aspects of the entity relevant to the financial statements being audited.\n\n(2) Reliability and sufficiency of financial information  \nThe auditor should be reasonably satisfied that information contained in underlying accounting records and other source data (like bills, vouchers, documents etc.) is reliable and sufficient basis for preparation of financial statements. The auditor makes a judgment of reliability and sufficiency of financial information by making a study and assessment of accounting systems and internal controls and by carrying out appropriate tests, enquiries and procedures.\n\n(3) Proper disclosure of financial information  \nThe auditor should also decide whether relevant information is properly disclosed in the financial statements. He should also keep in mind applicable statutory requirements in this regard.  \nIt is done by ensuring that financial statements properly summarize transactions and events recorded therein and by considering the judgments made by management in preparation of financial statements.  \nThe management responsible for preparation and presentation of financial statements makes many judgments in this process of preparing and presenting financial statements.",
+          "chapter_number": "1",
+          "chapter_name": "Nature, Scope & Objectives of Auditing",
+          "unique_id": "1-TP-8",
+          "or_question": {
+            "question": "In case of certain subject matters, limitations on the auditor's ability to detect material misstatements are particularly significant. Explain such assertions or subject matters.",
+            "answer": "In the case of certain subject matters, limitations on the auditor's ability to detect material misstatements are particularly significant. Such assertions or subject matters include:  \n- Fraud, particularly fraud involving senior management or collusion.  \n- The existence and completeness of related party relationships and transactions.  \n- The occurrence of non-compliance with laws and regulations.  \n- Future events or conditions that may cause an entity to cease to continue as a going concern."
+          }
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "2",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "An adequate planning benefits the audit of financial statements. Discuss. Or Adequate planning benefits the audit of financial statements in several ways. Explain.",
+          "answer": "Benefits of Planning in the audit of financial statements: Planning an audit involves establishing the overall audit strategy for the engagement and developing an audit plan. Adequate planning benefits the audit of financial statements in several ways, including the following:\n\n1. Helping the auditor to devote appropriate attention to important areas of the audit.\n\n2. Helping the auditor identify and resolve potential problems on a timely basis.\n\n3. Helping the auditor properly organize and manage the audit engagement so that it is performed in an effective and efficient manner.\n\n4. Assisting in the selection of engagement team members with appropriate levels of capabilities and competence to respond to anticipated risks, and the proper assignment of work to them.\n\n5. Facilitating the direction and supervision of engagement team members and the review of their work.\n\n6. Assisting, where applicable, in coordination of work done by auditors of components and experts.\n\nExam Insights: Some students list irrelevant points like tax dispute settlement or goal achievement as audit benefits. Stick to core benefits--enhanced credibility, reliability of financial statements, and improved internal control.",
+          "chapter_number": "2",
+          "chapter_name": "Audit Strategy, Audit Planning & Audit Programme",
+          "unique_id": "2-TP-10"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "While auditing the financial statements of Bro Traders LLP, CA L is carefully going through LLP agreement. Briefly discuss the key points CA L should pay attention in the LLP agreement and the reporting responsibilities of CA L concerning the financial statements of Bro Traders LLP?",
+          "answer": "The auditor, CA L should read the LLP agreement & note the following provisions: -  (a) Nature of the business of the LLP.  (b) Amount of capital contributed by each partner.  (c) Interest - in respect of additional capital contributed.  (d) Duration of partnership.  (e) Drawings allowed to the partners.  (f) Salaries, commission etc. payable to partners.  (g) Borrowing powers of the LLP.  (h) Rights & duties of partners.  (i) Method of settlement of accounts between partners at the time of admission, retirement, admission etc.  (j) Any loans advanced by the partners.  (k) Profit sharing ratio.  \n\nReporting Responsibilities of CA L concerning the financial statements of Bro Traders LLP is as follows:  The auditor should mention  (a) Whether the records of the firm appear to be correct & reliable.  (b) Whether he was able to obtain all information & explanation necessary for his work.  (c) Whether any restriction was imposed upon him.",
+          "chapter_number": "9",
+          "chapter_name": "Special Features of Audit of Different Type of Entities",
+          "unique_id": "9-TP-55"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Before commencing the Audit of Local Bodies, a Chartered Accountant employee in firm of XYZ & Co., firm of Chartered Accountants seeks assistance of Mr. X, partner, in preparation of audit programme for local bodies. How Mr. X should advise to him in this connection?",
+          "answer": "Audit Programme for local bodies  \n(i) The Local Fund Audit Wing of the State Government is generally in-charge of the audit of municipal accounts. Sometimes bigger municipal corporations e.g. Delhi, Mumbai etc have power to appoint their own auditors for regular external audit. So the auditor should ensure his appointment.  \n\n(ii) The auditor while auditing the local bodies should report on the fairness of the contents and presentation of financial statements, the strengths and weaknesses of system of financial control, the adherence to legal and/or administrative requirements; whether value is being fully received on money spent. His objective should be to detect errors and fraud and misuse of resources.  \n\n(iii) The auditor should ensure that the expenditure incurred conforms to the relevant provisions of the law and is in accordance with the financial rules and regulations framed by the competent authority.  \n\n(iv) He should ensure that all types of sanctions, either special or general, accorded by the competent authority.  \n\n(v) He should ensure that there is a provision of funds and the expenditure is incurred from the provision and the same has been authorized by the competent authority.  \n\n(vi) The auditor should check that the different schemes, programmes and projects, where large financial expenditure has been incurred, are running economically and getting the expected results.",
+          "chapter_number": "9",
+          "chapter_name": "Special Features of Audit of Different Type of Entities",
+          "unique_id": "9-TP-42"
+        }
+      ]
+    },
+    {
+      "q_main": 6,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "11",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "CA Mira, before accepting audit of an educational society, wants to ensure that management of society acknowledges and understands its responsibility in respect of certain matters. Not only this, but she also wants to confirm that management is in agreement with these matters required in connection with Standards on Auditing. Discuss such matters.",
+          "answer": "SA 210, \"Agreeing the Terms of Audit Engagement\", requires the auditor to obtain the agreement of management that it acknowledges and understands its responsibility: -  \n(i) For the preparation of the financial statements in accordance with the applicable financial reporting framework including where relevant their fair representation.  \n(ii) For such internal control as management considers necessary to enable the preparation of financial statements that are free from material misstatement, whether due to fraud or error; and  \n(iii) To provide the auditor with:  \n- Access to all information of which management is aware that is relevant to the preparation of the financial statements such as records, documentation and other matters  \n- Additional information that the auditor may request management for the purpose of the audit and  \n- Unrestricted access to persons within the entity from whom the auditor determines it necessary to obtain audit evidence.",
+          "chapter_number": "11",
+          "chapter_name": "Agreeing the Terms of Audit Engagements",
+          "unique_id": "11-TP-11"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "What an auditor should state in the \"Basis for opinion\" section of auditor's report? When the auditor modifies the opinion on the financial statements, explain the amendments he should make in this section?",
+          "answer": "An auditor should state in \"Basis for Opinion\" section of Auditor’s Report as under:\n\nBasis for Opinion:\nThe auditor’s report shall include a section, directly following the Opinion section, with the heading \"Basis for Opinion\", that:\n(i) States that the audit was conducted in accordance with Standards on Auditing;\n(ii) Refers to the section of the auditor’s report that describes the auditor’s responsibilities under the SAs;\n(iii) Includes a statement that the auditor is independent of the entity in accordance with the relevant ethical requirements relating to the audit and has fulfilled the auditor’s other ethical responsibilities in accordance with these requirements.\n(iv) States whether the auditor believes that the audit evidence the auditor has obtained is sufficient and appropriate to provide a basis for the auditor’s opinion.\n\nAmendments an Auditor should make:\nWhen the auditor modifies the opinion on the financial statements, the auditor shall, in addition to the specific elements required by SA 700 (Revised):\n(i) Amend the heading \"Basis for Opinion\" required by para of SA 700 (Revised) to \"Basis for Qualified Opinion,\" \"Basis for Adverse Opinion,\" or \"Basis for Disclaimer of Opinion,\" as appropriate; and\n(ii) Within this section, include a description of the matter giving rise to the modification.",
+          "chapter_number": "8",
+          "chapter_name": "Forming an Opinion and Reporting on Financial Statements",
+          "unique_id": "8-TP-6"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "CA Rohit is conducting the audit of Taste Ltd., a food production company, for the last two years. Before commencing the audit for the year, he observed that the company has undergone a major shift in its product line by expanding into pharmaceuticals. Besides this, the company is now subject to new regulatory reporting requirements. These developments were not present at the time of accepting the initial audit engagement. CA Rohit is of the view that there is no need to issue a new audit engagement letter. Examine whether the viewpoint of CA Rohit is appropriate in accordance with the relevant Standards on Auditing.",
+          "answer": "As per SA 210, \"Agreeing the terms of audit engagements\", recurring audit is an audit which is performed by an auditor over years. In case of recurring audits, the auditor shall assess whether circumstances require the terms of the audit engagement to be revised and whether there is a need to remind the entity of the existing terms of the audit engagement.\n\nThe auditor may decide not to send a new audit engagement letter or other written agreement each period. However, the following factors may make it appropriate to revise the terms of the audit engagement or to remind the entity of existing terms:\n\n(i) Any indication that the entity misunderstands the objective and scope of the audit.\n\n(ii) Any revised or special terms of the audit engagement.\n\n(iii) A recent change of senior management.\n\n(iv) A significant change in ownership.\n\n(v) A significant change in nature or size of the entity’s business.\n\n(vi) A change in legal or regulatory requirements.\n\n(vii) A change in the financial reporting framework adopted in the preparation of the financial statements.\n\n(viii) A change in other reporting requirements.\n\nIn the given case, Taste Ltd., a food production company, has undergone a major shift in its product line by expanding into Pharmaceuticals and the company is also subject to new regulatory reporting requirements. In view of the abovementioned factors, it is appropriate to revise the terms of the audit engagement in accordance.",
+          "chapter_number": "11",
+          "chapter_name": "Agreeing the Terms of Audit Engagements",
+          "unique_id": "11-TP-10"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,510 @@
+{
+  "meta": {
+    "subject_code": "FM",
+    "subject_name": "Financial Management",
+    "paper_num": 1,
+    "total_marks_printed": 100,
+    "total_marks_in_paper": 120,
+    "section_a_marks": 30,
+    "section_b_marks": 80,
+    "two_section_format": true,
+    "note": "Section A (MCQ): 15 questions @ 2 marks each (Case Study based) = 30 marks. Section B: Section 1 — Q1 compulsory (15m); Q2, Q3, Q4 @ 10m each — attempt any 2 of 3. Section 2 — Q5 compulsory (15m); Q6, Q7, Q8 @ 10m each — attempt any 2 of 3. Total Section B marks to attempt = 15+20+15+20 = 70m.",
+    "blacklisted_from": [],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)",
+      "1(c)"
+    ]
+  },
+  "section_a": [
+    {
+      "type": "case_study",
+      "chapter_number": "10",
+      "chapter_name": "CASE SCENARIOS - FINANCIAL MANAGEMENT",
+      "case_text": "## CS 1 (MTP 10 Marks Mar'24,MP[1]) (Chapter 9.4: Management of Receivables)\n\nNV Industries Ltd. is a manufacturing industry which manages its accounts receivables internally by its sales and credit department. It supplies small articles to different industries. The total sales ledger of the company stands at ₹ 200 lakhs of which $80 \\%$ is credit sales. The company has a credit policy of $2 / 40$, net 120. Past experience of the company has been that on average out of the total, $50 \\%$ of customers avail of discount and the balance of the receivables are collected on average in 120 days. The finance controller estimated, bad debt losses are around 1\\% of credit sales.\n\nWith escalating cost associated with the in-house management of the debtors coupled with the need to unburden the management with the task so as to focus on sales promotion, the CFO is examining the possibility of outsourcing its factoring service for managing its receivables. Currently, the firm spends about ₹ $\\mathbf{2 , 4 0 , 0 0 0}$ per annum to administer its credit sales. These are avoidable as a factoring firm is prepared to buy the firm's receivables. The main elements of the proposal are : (i) It will charge $2 \\%$ commission (ii) It will pay advance against receivables to the firm at an interest rate of $18 \\%$ after withholding $10 \\%$ as reserve.\n\nAlso, company has option to take long term loan at $\\mathbf{1 5} \\boldsymbol{\\%}$ interest or may take bank finance for working capital at 14\\% interest.\n\nYou were also present at the meeting; being a financial consultant, the CFO has asked you to be ready with the following questions:\n\nConsider year as 360 days.\n\n1. What is average level of receivables of the company?\n\n(a) ₹ $53,33,333$\n\n(b) ₹ $35,55,556$\n\n(c) ₹ $44,44,444$\n\n(d) ₹ $71,11,111$\n\n\nAns: (b)\n\nGauresh | 8237317945\n\n2. How much advance factor will pay against receivables?\n\n(a) ₹ $31,28,889$\n\n(b) ₹ $39,11,111$\n\n(c) ₹ $30,03,733$\n\n(d) ₹ $46,93,333$\n\n\nAns: (c)\n\n3. What is the annual cost of factoring to the company?\n\n(a) ₹ $8,83,200$\n\n(b) ₹ $4,26,667$\n\n(c) ₹ $5,51,823$\n\n(d) $₹ 4,00,000$\n\n\nAns: (a)\n\n4. What is the net cost to the company on taking factoring service?\n\n(a) ₹ $4,00,000$\n\n(b) $₹ 4,26,667$\n\n(c) ₹ $3,50,000$\n\n(d) ₹ $4,83,200$\n\n\nAns: (d)\n\n5. What is the effective cost of factoring on advance received?\n\n(a) $16.09 \\%$\n\n(b) $13.31 \\%$\n\n(c) $12.78 \\%$\n\n(d) $15.89 \\%$\n\n\nAns: (a)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "What is average level of receivables of the company?",
+          "options": {
+            "a": "₹ $53,33,333$",
+            "b": "₹ $35,55,556$",
+            "c": "₹ $44,44,444$",
+            "d": "₹ $71,11,111$"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "How much advance factor will pay against receivables?",
+          "options": {
+            "a": "₹ $31,28,889$",
+            "b": "₹ $39,11,111$",
+            "c": "₹ $30,03,733$",
+            "d": "₹ $46,93,333$"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "What is the annual cost of factoring to the company?",
+          "options": {
+            "a": "₹ $8,83,200$",
+            "b": "₹ $4,26,667$",
+            "c": "₹ $5,51,823$",
+            "d": "₹ 4,00,000$"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null
+        },
+        {
+          "q_num": 4,
+          "question": "What is the net cost to the company on taking factoring service?",
+          "options": {
+            "a": "₹ $4,00,000$",
+            "b": "₹ 4,26,667$",
+            "c": "₹ $3,50,000$",
+            "d": "₹ $4,83,200$"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null
+        },
+        {
+          "q_num": 5,
+          "question": "What is the effective cost of factoring on advance received?",
+          "options": {
+            "a": "$16.09 \\%$",
+            "b": "$13.31 \\%$",
+            "c": "$12.78 \\%$",
+            "d": "$15.89 \\%$"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "10-CS-1"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "10",
+      "chapter_name": "CASE SCENARIOS - FINANCIAL MANAGEMENT",
+      "case_text": "## CS 2 (MTP 10 Marks Apr'24,MP[2]) (Chapter 4: Cost of Capital)\n\nTiago Ltd is an all-equity company engaged in manufacturing of batteries for electric vehicles. There has been a surge in demand for their products due to rising oil prices. The company was established 5 years ago with an initial capital of ₹ $10,00,000$ and since then it has raised funds by IPO taking the total paid up capital to ₹ 1 crore comprising of fully paid-up equity shares of face value ₹ 10 each. The company currently has undistributed reserves of $₹ 60,00,000$. The company has been following constant dividend payout policy of $40 \\%$ of earnings. The retained earnings by company are going to provide a return on equity of $20 \\%$. The current EPS is estimated as Rs 20 and prevailing PE ratio on the share of company is 15x. The company wants\n\nto expand its capital base by raising additional funds by way of debt, preference and equity mix. The company requires an additional fund of $₹ 1,20,00,000$. The target ratio of owned to borrowed funds is $4: 1$ post the fund-raising activity. Capital gearing is to be kept at $\\mathbf{0 . 4 x}$.\n\nThe existing debt markets are under pressure due to ongoing RBI action on NPAs of the commercial bank. Due to challenges in raising the debt funds, the company will have to offer ₹ 100 face value debentures at an attractive yield of $9.5 \\%$ and a coupon rate of $8 \\%$ to the investors. Issue expenses will amount to $4 \\%$ of the proceeds.\n\nThe preference shares will have a face value of ₹ 1000 each offering a dividend rate of $10 \\%$. The preference shares will be issued at a premium of $5 \\%$ and redeemed at a premium of $10 \\%$ after 10 years at the same time at which debentures will be redeemed.\n\nThe CFO of the company is evaluating a new battery technology to invest the above raised money. The technology is expected to have a life of 7 years. It will generate a after tax marginal operating cash flow of ₹ $\\mathbf{2 5 , 0 0 , 0 0 0 ~ p . a}$. Assume marginal tax rate to be $\\mathbf{2 7 \\%}$.( MCQ 1-5)\n\n\n1. Which of the following is best estimate of cost of equity for Tiago Ltd?\n\n(a) $12.99 \\%$\n\n(b) $11.99 \\%$\n\n(c) $13.99 \\%$\n\n(d) $14.99 \\%$\n\n\nAns: (d)\n\n2. Which of the following is the most accurate measure of issue price of debentures?\n\n(a) 100\n\n(b) 96\n\n(c) 90.58\n\n(d) 95.88\n\n\nAns: (c)\n\n3. Which of the following is the best estimate of cost of debentures to be issued by the company? (Using approximation method)\n\n(a) $7.64 \\%$\n\n(b) $6.74 \\%$\n\n(c) $4.64 \\%$\n\n(d) $5.78 \\%$\n\n\nAns: (a)\n\n4. Calculate the cost of preference shares using approximation ${ }^{5}$ method\n\n(a) $10.23 \\%$\n\n(b) $11.22 \\%$\n\n(c) $12.12 \\%$\n\n(d) $12.22 \\%$\n\n\nAns: (b)\n\n5. Which of the following best represents the overall cost of marginal capital to be raised?\n\n(a) $11.76 \\%$\n\n(b) $17.16 \\%$\n\n(c) $16.17 \\%$\n\n(d) $16.71 \\%$\n\n\nAns: (a)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Which of the following is best estimate of cost of equity for Tiago Ltd?",
+          "options": {
+            "a": "$12.99 \\%$",
+            "b": "$11.99 \\%$",
+            "c": "$13.99 \\%$",
+            "d": "$14.99 \\%$"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "Which of the following is the most accurate measure of issue price of debentures?",
+          "options": {
+            "a": "100",
+            "b": "96",
+            "c": "90.58",
+            "d": "95.88"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "Which of the following is the best estimate of cost of debentures to be issued by the company? (Using approximation method)",
+          "options": {
+            "a": "$7.64 \\%$",
+            "b": "$6.74 \\%$",
+            "c": "$4.64 \\%$",
+            "d": "$5.78 \\%$"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null
+        },
+        {
+          "q_num": 4,
+          "question": "Calculate the cost of preference shares using approximation ${ }^{5}$ method",
+          "options": {
+            "a": "$10.23 \\%$",
+            "b": "$11.22 \\%$",
+            "c": "$12.12 \\%$",
+            "d": "$12.22 \\%$"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null
+        },
+        {
+          "q_num": 5,
+          "question": "Which of the following best represents the overall cost of marginal capital to be raised?",
+          "options": {
+            "a": "$11.76 \\%$",
+            "b": "$17.16 \\%$",
+            "c": "$16.17 \\%$",
+            "d": "$16.71 \\%$"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "10-CS-2"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "10",
+      "chapter_name": "CASE SCENARIOS - FINANCIAL MANAGEMENT",
+      "case_text": "## CS 5 (RTP May'24) (Chapter: 1 Introduction to Working Capital Management)\n\nArMore LLP is a newly established startup dealing in manufacture of a revolutionary product HDHMR which is a substitute to conventional wood and plywood. It is an economical substitute for manufacture of furniture and home furnishing. It has been asked by a venture capitalist for an estimated amount of funds required for setting up plant and also the amount of circulating capital required. A consultant hired by the entity has advised that the cost of setting up the plant would be ₹ 5 Crores and it will require 1 year to make the plant operational. The anticipated revenue and associated cost numbers are as follows:\n\nUnits to be sold = 3 lakh sq metres p.a. , Sale Price of each sq mtr = ₹ 1000\n\nRaw Material cost = ₹ 200 per sq mtr , Labour cost = ₹ 50 per hour\n\nLabour hours per sq mtr = 3 hours, Cash Manufacturing Overheads = ₹ 75 per machine hour\n\nMachine hours per sq mtr = 2 hours, Selling and credit administration Overheads = ₹ 250 per sq mtr\n\nBeing a new product in the industry, the firm will have to give a longer credit period of 3 months to its customers. It will maintain a stock of raw material equal to $15 \\%$ of annual consumption. Based on negotiation with the creditors, the payment period has been agreed to be 1 month from the date of purchase. The entity will hold finished goods equal to 2 months of units to be sold. All other expenses are to be paid one month in arrears. Cash and Bank balance to the tune of ₹ $25,00,000$ is required to be maintained.\n\nThe entity is also considering reducing the working capital requirement by either of the two options: a) reducing the credit period to customers by a month which will lead to reduction in sales by $\\mathbf{5} \\boldsymbol{\\%}$. b) Engaging with a factor for managing the receivables, who will charge a commission of $2 \\%$ of invoice value and will also advance $65 \\%$ of receivables @ $12 \\%$ p.a. This will lead to savings in administration and bad debts cost to the extent of ₹ 20 lakhs and 16 lakhs respectively.\n\nThe entity is also considering funding a part of working capital by bank loan. For this purpose, bank has stipulated that it will grant $\\mathbf{7 5} \\boldsymbol{\\%}$ of net current assets as advance against working capital. The bank has quoted $16.5 \\%$ rate of interest with a condition of opening a current account with it, which will require $10 \\%$ of loan amount to be minimum average balance.\n\nYou being a finance manager, has been asked the following questions:\n\n\n1. The anticipated profit before tax per annum after the plant is operational is\n\n(a) 750 Lakhs\n\n(b) 570 Lakhs\n\n(c) 370 Lakhs\n\n(d) 525 Lakhs\n\n\nAns: (a)\n\n2. The estimated current assets requirement in the first year of operation (debtors calculated at cost) is $\\_\\_\\_\\_$\n\n(a) $9,42,50,000$\n\n(b) $2,17,08,333$\n\n(c) $7,25,41,667$\n\n(d) $67,08,333$\n\n\nAns: (a)\n\n3. The net working capital requirement for the first year of operation is $\\_\\_\\_\\_$\n\n(a) $9,42,50,000$\n\n(b) $2,17,08,333$\n\n(c) $7,25,41,667$\n\n(d) $67,08,333$\n\n\nAns: (c)\n\n4. The annualised \\% cost of two options for reducing the working capital is $\\_\\_\\_\\_$\n\n(a) $18.18 \\%$ and $16.92 \\%$\n\n(b) $18.33 \\%$ and $16.92 \\%$\n\n(c) $18.59 \\%$ and $18.33 \\%$\n\n(d) $16.92 \\%$ and $19.05 \\%$\n\n\nAns: (a)\n\n5. What will be the Maximum Permissible Bank Finance by the bank and annualised \\% cost of the same?\n\n(a) $4,55,03,630$ and $18.33 \\%$\n\n(b) $5,44,06,250$ and $18.33 \\%$\n\n(c) $4,45,86,025$ and $18.59 \\%$\n\n(d) $3,45,89,020$ and $19.85 \\%$\n\n\nAns: (b)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "The anticipated profit before tax per annum after the plant is operational is",
+          "options": {
+            "a": "750 Lakhs",
+            "b": "570 Lakhs",
+            "c": "370 Lakhs",
+            "d": "525 Lakhs"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "The estimated current assets requirement in the first year of operation (debtors calculated at cost) is $\\_\\_\\_\\_$",
+          "options": {
+            "a": "$9,42,50,000$",
+            "b": "$2,17,08,333$",
+            "c": "$7,25,41,667$",
+            "d": "$67,08,333$"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "The net working capital requirement for the first year of operation is $\\_\\_\\_\\_$",
+          "options": {
+            "a": "$9,42,50,000$",
+            "b": "$2,17,08,333$",
+            "c": "$7,25,41,667$",
+            "d": "$67,08,333$"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null
+        },
+        {
+          "q_num": 4,
+          "question": "The annualised \\% cost of two options for reducing the working capital is $\\_\\_\\_\\_$",
+          "options": {
+            "a": "$18.18 \\%$ and $16.92 \\%$",
+            "b": "$18.33 \\%$ and $16.92 \\%$",
+            "c": "$18.59 \\%$ and $18.33 \\%$",
+            "d": "$16.92 \\%$ and $19.05 \\%$"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null
+        },
+        {
+          "q_num": 5,
+          "question": "What will be the Maximum Permissible Bank Finance by the bank and annualised \\% cost of the same?",
+          "options": {
+            "a": "$4,55,03,630$ and $18.33 \\%$",
+            "b": "$5,44,06,250$ and $18.33 \\%$",
+            "c": "$4,45,86,025$ and $18.59 \\%$",
+            "d": "$3,45,89,020$ and $19.85 \\%$"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "10-CS-5"
+    }
+  ],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": true,
+      "total_marks": 15,
+      "chapter_number": "4",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Question 19 (PYP 6 Marks May'24,RTP Jan'26)\n\nThe capital structure of Shine Ltd. as on 31.03.20X2 is as under:\n\n\n| Particulars | Amount (Rs.) |\n| :--- | :--- |\n| Equity share capital off 10 each | 45,00,000 |\n| 15\\% Preference share capital of f 100 each | 36,00,000 |\n| Retained earnings | 32,00,000 |\n| 13\\% Convertible Debenture off 100 each | 67,00,000 |\n| 11\\% Term Loan | 20,00,000 |\n| Total | 2,00,00,000 |\n\n\nAdditional information:\n\n(A) Company issued $13 \\%$ Convertible Debentures of Rs. 100 each on $01.04 .20 \\times 1$ with a maturity period of 6 years. At maturity, the debenture holders will bave angoption to convert the debentures into equity shares of the company in the ratio of $1: 4$ ( 4 shares for each debenture). The market price of the equity share is $Rs. 25$ each as on $31.03 .20 \\times 2$ and the growth rate of the share is \\mathbf{6} \\boldsymbol{\\%}$ per annum.\n\n(B) Preference stock, redeemable after eight years, is currently selling at Rs. 150 per share.\n\n(C) The prevailing default-risk free interest rate on 10 -year GOI treasurybonds is $6 \\%$. The average market risk premium is $8 \\%$ and the $\\operatorname{Beta}(\\beta)$ of the company is 1.54 .\n\nCorporate tax rate is \\mathbf{2 5} \\boldsymbol{\\%}$ and rate of personal income tax is \\mathbf{2 0} \\boldsymbol{\\%}$.\n\nYou are required to calculate the cost of:\n\n(i) Equity Share Capital\n\n(ii) Preference Share Capital\n\n(iii) Convertible Debenture\n\n(iv) Retained Earnings\n\n(v) Term Loan",
+          "answer": "(i) Cost of Equity Share capital\n\nAs per CAPM Model $\\mathrm{Ke}=\\mathrm{Rf}+\\mathrm{B}(\\mathrm{Rm}-\\mathrm{Rf})$\n\n$\\mathrm{Rf} \\quad=6 \\%$\n\nB \\quad=1.54\n\n$\\mathrm{Rm}-\\mathrm{Rf} \\quad=8 \\%$\n\n$\\mathrm{Ke}=6 \\%+1.54(8 \\%)$\n\n$\\mathrm{Ke}=18.32 \\%$\n\n(ii) Cost of Preference Share capital\n\n$\\mathrm{n}=8$\n\nNet Proceeds (NP) = 150\n\nRedemption Value (RV) \\quad=100\n\nPreference Dividend (PD) $=15$\n\n$$\nK_{p}=\\frac{P D+\\frac{(R V-N P)}{n}}{\\frac{(R V+N P)}{2}}\n$$\n\n$K_{p}=\\frac{15+\\frac{(100-150)}{8}}{\\frac{(100+150)}{2}}$\n\n\\mathbf{K p} \\boldsymbol{=} \\mathbf{7 \\%}$\n\nAlternatively, if we take NP as 100 and RV as 100, then solution canbe done in the following way:\n\n## Cost of Preference Share capital\n\n\n| n | $=$ | 8 |\n| :--- | :--- | ---: |\n| Net Proceeds (NP) | $=$ | 100 |\n| Redemption Value (RV) | $=$ | 150 |\n| Preference Dividend (PD) | $=$ | 15 |\n\n\n$$\n\\begin{aligned}\n& K_{p}=\\frac{P D+\\frac{(R V-N P)}{n}}{\\frac{(R V+N P)}{2}} \\\\\n& K_{p}=\\frac{15+\\frac{(150-100)}{8}}{\\frac{(150+100)}{2}} \\\\\n& K_{p}=17 \\%\\\n\\end{aligned}\n$$\n\n(iii) Cost of convertible debenture\n\nCash Redemption Value (RV) \\quad=100\n\nShare Redemption Value (RV):\n\nValue of share after 5 years \\quad=25 \\times(1.06)^{5}=33.46\n\nShare Redemption Value (RV) \\quad=33.46 \\times 4=133.82\n\nTherefore, investor will choose share redemption.\n\n\n| Redemption Value (RV) | $=133.82$ |\n| :--- | :--- |\n| Net Proceeds (NP) | $=100$ |\n| n | $=5$ |\n| Interest (I) | $=13$ |\n| $\\mathrm{Tax}(\\mathrm{t})$ | $=25 \\%$ |\n\n\n$K_{d}=\\frac{I(1-t)+\\frac{(R V-N P)}{n}}{\\frac{(R V+N P)}{2}} K_{d}=\\frac{13(1-0.25)+\\frac{(133.82-100)}{5}}{\\frac{(133.82+100)}{2}} K_{d}=14.13 \\%$\n\n## (iv) Cost of Retained Earnings\n\n$\\mathrm{Kr}=\\mathrm{Ke}(1-\\mathrm{tp})=18.32 \\% \\times(1-0.20)=14.66 \\%$\n\nWe can also take cost of equity as cost of retained earnings,\n\nAccordingly, $k_{r}=k_{e}=18.32 \\%$\n\n(v) Cost of Term Loan $=11 \\% \\times(1-0.25)=8.25 \\%$",
+          "chapter_number": "4",
+          "chapter_name": "COST OF CAPITAL",
+          "unique_id": "4-T-19"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "From the books of AIL Limited following information is taken for the year 2024-25:\n\n| Description                                   | Amount         |\n|-----------------------------------------------|----------------|\n| Gross profit margin (25% of Sales)           | ₹ 30,00,000    |\n| Inventory holding period                      | 28 Days        |\n| Opening Inventory                             | ₹ 8,00,000     |\n| Current Ratio                                 | 1.20           |\n| Quick Ratio                                   | 0.80           |\n| Selling & Distribution Expenses               | ₹ 12,00,000    |\n| Depreciation and other Non-cash Expenses     | ₹ 4,80,000     |\n\nAssume 360 days in a year.\n\nYou are required to calculate:\n\n(i)  Inventory as on 31.03.2025\n\n(ii) Working Capital\n\n(iii) Basic Defense Interval\n\n(5 Marks)",
+          "answer": "(a) (i) Sales = $\\frac{30,00,000}{0.25}$ = ₹ 1,20,00,000\n\nGross Profit = ₹ 30,00,000\n\nCost of goods sold (COGS) = Sales - Gross Profit = ₹ 90,00,000\n\nAverage Inventory = $\\frac{\\text{Cost of goods sold (COGS)}}{\\text{Inventory Turnover}}$\n\n= $\\frac{₹ 90,00,000 \\times 28}{360}$ = ₹ 7,00,000\n\nOpening Inventory + Closing Inventory = ₹ 7,00,000 × 2\n\n8,00,000 + Closing Inventory = ₹ 14,00,000\n\nClosing Inventory = ₹ 6,00,000\n\n(ii) Current Ratio = $\\frac{\\text{Current Assets (CA)}}{\\text{Current Liabilities (CL)}}$\n\n$\\frac{CA}{CL} = \\frac{1.2}{1}$\n\n∴ CA = 1.2 CL ...(1)\n\nQuick Ratio = $\\frac{\\text{Current Assets - 6,00,000}}{\\text{Current Liabilities}}$\n\n0.8 CL = CA - 6,00,000\n\nCA = 0.8 CL + 6,00,000 ...(2)\n\nEquating (1) and (2): 1.2 CL = 0.8 CL + 6,00,000\n\nCL = ₹ 15,00,000, CA = 1.2 × 15,00,000 = ₹ 18,00,000\n\nWorking Capital = CA - CL = ₹ 18,00,000 - ₹ 15,00,000 = ₹ 3,00,000\n\n(iii) Cash Operating Expenses = COGS + Selling and Dist. Exp – Depreciation\n\n= ₹ 90,00,000 + ₹ 12,00,000 - ₹ 4,80,000 = ₹ 97,20,000\n\nQuick Assets = ₹ 18,00,000 - ₹ 6,00,000 = ₹ 12,00,000\n\nBasic Defense Interval Ratio = $\\frac{₹ 12,00,000}{₹ 97,20,000 \\div 360} = \\frac{₹ 12,00,000}{₹ 27,000} = 44.44$ days",
+          "chapter_number": "9.1",
+          "chapter_name": "INTRODUCTION TO WORKING CAPITAL MANAGEMENT",
+          "unique_id": "FM-REPLACED-Doc1"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "For the year ending 31.03.2025, ABC Industries Ltd declared $40 \\%$ dividend. The current market price of the share is quoted at Rs. 57.50 . If the retention ratio is reduced by 20 percent, the market price dropped by Rs. 2.50 . Face value of the shares is $Rs. 10$ per share.\n\n1. Find the return on investment and cost of equity using walter's model.\n\n2. Comment on the dividend policy adopted by the company.\n\n3. Find the limiting value of shares using walter's model.\n\n4. Also find the intrinsic value of the shares under Gordon's Model.\n\n5. Mr. X, the chief financial officer of the company, opines that the return on investment of the company is not having direct / indirect effect on the intrinsic value of the shares under Gordon's Model. Only cost of equity will be considered for the computation of the intrinsic value of the shares under Gordon's Model.\n\n## Answer 34\n\n1. Price under Walter's Model $(\\mathbf{P})=\\frac{D+\\frac{r}{K_{e}}(E-D)}{K_{e}}$\n\n|  | Situation 1 | Situation 2 |\n| :--- | ---: | ---: |\n| 1. DP Ratio | $40 \\%$ | $60 \\%$ |\n| 2. Retention Ratio | $60 \\%$ | $60 \\%-20 \\%=40 \\%$ |\n| 3. Dividend per share $=\\mathrm{D}$ | $Rs. 4$ | $Rs. 6$ |\n\n| 4. Retention per share = (E-D) | Rs. 6 | Rs. 4 |\n| :--- | :--- | :--- |\n| 5. Market price per share = MPS | Rs. 57.50 | Rs. 57.50 - Rs. 2.50 = Rs. 55 |\n| 6. Equation = Let r/ke be y \\& Ke be x. | $4+6 y=57.50 x$ | $6+4 y=55 x$ |\n| 7. Equation for solving | $57.50 x-6 y=4$ | $55 x-4 y=6$ |\n\nEquation $1 * 4=230 x-24 y=16$\n\nEquation $2 * 6=330 \\mathrm{x}-24 \\mathrm{y}=36$ $\\_\\_\\_\\_$\n\nBy solving, we get $\\mathrm{x}=20 \\%$ and $\\mathrm{y}=1.25$.\n\n$\\mathrm{y}=\\frac{r}{K_{e}}=1.25 \\quad \\frac{r}{20 \\%}=1.25 \\quad$ Hence, $\\mathrm{r}=25 \\%$\n\n2. Since $\\mathrm{r} 25 \\%>\\mathrm{ke} 20 \\%$, the company should retain $100 \\%$. Since the company pays $40 \\%$ Dividend, the company is not following optimum dividend policy.\n\n3.\n\n|  | Situation 1 | Situation 2 |\n| :--- | :--- | :--- |\n| 1. DP Ratio | 0\\% | 100\\% |\n| 2. Retention Ratio | 100\\% | 0\\% |\n| 3. Dividend per share = D | Rs. 0 | Rs. 10 |\n| 4. Retention per share = (E-D) | Rs. 10 | Rs. 0 |\n| 5. Market price per share = MPS | $\\frac{10 \\times 1.25}{0.2}=62.50$ | $\\frac{10}{0.2}=50$ |\n\n4. Price under Gordon's Model\n\nMarket price per share $\\left(P_{0}\\right)=\\left[\\frac{D_{0}(1+g)}{K_{e}-g}\\right]$\n\n|  |  | Situation 1 | Situation 2 |\n| :--- | :--- | :--- | :--- |\n| 1. Dividend paid |  | Rs. 4 | Rs. 6 |\n| 2. Retention Ratio (b) |  | 60\\% | 40\\% |\n| 3. Return on investment (r) |  | 25\\% | 25\\% |\n| 4. Growth = g = br |  | 15\\% | 10\\% |\n| 5. Market price per share = MPS | Gauresh \\| | $\\frac{4(1+0,15)}{0.2-0.15}=Rs. 92$ | $\\frac{6(1+0.10)}{0.2-0.1}=Rs. 66$ |\n\n5. Since, return on investment is used for computing growth rate, both cost of equity and return on investment are considered for computing price under Gordons model. Hence, the opinion of the chief financial officer is not valid.",
+          "answer": "1. Price under Walter's Model $(\\mathbf{P})=\\frac{D+\\frac{r}{K_{e}}(E-D)}{K_{e}}$\n\n|  | Situation 1 | Situation 2 |\n| :--- | ---: | ---: |\n| 1. DP Ratio | $40 \\%$ | $60 \\%$ |\n| 2. Retention Ratio | $60 \\%$ | $60 \\%-20 \\%=40 \\%$ |\n| 3. Dividend per share $=\\mathrm{D}$ | $Rs. 4$ | $Rs. 6$ |\n\n| 4. Retention per share = (E-D) | Rs. 6 | Rs. 4 |\n| :--- | :--- | :--- |\n| 5. Market price per share = MPS | Rs. 57.50 | Rs. 57.50 - Rs. 2.50 = Rs. 55 |\n| 6. Equation = Let r/ke be y \\& Ke be x. | $4+6 y=57.50 x$ | $6+4 y=55 x$ |\n| 7. Equation for solving | $57.50 x-6 y=4$ | $55 x-4 y=6$ |\n\nEquation $1 * 4=230 x-24 y=16$\n\nEquation $2 * 6=330 \\mathrm{x}-24 \\mathrm{y}=36$ $\\_\\_\\_\\_$\n\nBy solving, we get $\\mathrm{x}=20 \\%$ and $\\mathrm{y}=1.25$.\n\n$\\mathrm{y}=\\frac{r}{K_{e}}=1.25 \\quad \\frac{r}{20 \\%}=1.25 \\quad$ Hence, $\\mathrm{r}=25 \\%$\n\n2. Since $\\mathrm{r} 25 \\%>\\mathrm{ke} 20 \\%$, the company should retain $100 \\%$. Since the company pays $40 \\%$ Dividend, the company is not following optimum dividend policy.\n\n3.\n\n|  | Situation 1 | Situation 2 |\n| :--- | :--- | :--- |\n| 1. DP Ratio | 0\\% | 100\\% |\n| 2. Retention Ratio | 100\\% | 0\\% |\n| 3. Dividend per share = D | Rs. 0 | Rs. 10 |\n| 4. Retention per share = (E-D) | Rs. 10 | Rs. 0 |\n| 5. Market price per share = MPS | $\\frac{10 \\times 1.25}{0.2}=62.50$ | $\\frac{10}{0.2}=50$ |\n\n4. Price under Gordon's Model\n\nMarket price per share $\\left(P_{0}\\right)=\\left[\\frac{D_{0}(1+g)}{K_{e}-g}\\right]$\n\n|  |  | Situation 1 | Situation 2 |\n| :--- | :--- | :--- | :--- |\n| 1. Dividend paid |  | Rs. 4 | Rs. 6 |\n| 2. Retention Ratio (b) |  | 60\\% | 40\\% |\n| 3. Return on investment (r) |  | 25\\% | 25\\% |\n| 4. Growth = g = br |  | 15\\% | 10\\% |\n| 5. Market price per share = MPS | Gauresh \\| | $\\frac{4(1+0,15)}{0.2-0.15}=Rs. 92$ | $\\frac{6(1+0.10)}{0.2-0.1}=Rs. 66$ |\n\n5. Since, return on investment is used for computing growth rate, both cost of equity and return on investment are considered for computing price under Gordons model. Hence, the opinion of the chief financial officer is not valid.",
+          "chapter_number": "8",
+          "chapter_name": "DIVIDEND DECISION",
+          "unique_id": "8-T-34"
+        }
+      ],
+      "section": 1
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "7",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "## DISTINGUISH between Net Present Value and Internal Rate of Return. (MTP 4 Marks, Oct'22)",
+          "answer": "NPV versus IRR: NPV and IRR methods differ in the sense that the results regarding the choice of an asset under certain circumstances are mutually contradictory under two methods. In case of mutually exclusive investment projects, in certain situations, they may give contradictory results such that if the NPV method finds one proposal acceptable, IRR favours another. The different rankings given by the NPV and IRR methods could be due to size disparity problem, time disparity problem and unequal expected lives.\n\nThe net present value is expressed in financial values whereas internal rate of return (IRR) is expressed in percentage terms.\n\nIn the net present value cash flows are assumed to be re-invested at cost of capital rate. In IRR reinvestment is assumed to be made at IRR rates.",
+          "chapter_number": "7",
+          "chapter_name": "FINANCING DECISIONS LEVERAGES",
+          "unique_id": "7-T-3"
+        },
+        {
+          "label": "b",
+          "marks": 6,
+          "internal_split": null,
+          "question": "## Question 13 (MTP 5 Marks Nov'24,MP[6])\n\nVyom Limited, an IT conglomerate, is planning to take over Aryayash Limited, a startup company incorporated 2 years ago but holding a lot of prospects. To determine the buyout consideration, Vyom Limited has approached you as a Finance controller to estimate the fair value of the startup company today based on future earnings estimates. Following details of the startup company are as below -\n\nExpected Sales in the coming year are $Rs. 25$ lakhs with $\\mathrm{P} / \\mathrm{V}$ ratio of $40 \\%$. The sales are expected to grow at a rate of $20 \\%$ for the next 2 years, to $40 \\%$ for another 2 years, $25 \\%$ in the 6 th year and thereafter cash flows will grow at a steady rate of $10 \\%$. Fixed cost for the upcoming year is expected to be 12 lakhs for the first two years, Rs. 10 lakhs thereafter. Loss in any year can be set-off only against the profits of the immediate next year. Corporate taxes applicable are $\\mathbf{2 5} \\boldsymbol{\\%} \\boldsymbol{&} \\mathbf{2 0} \\boldsymbol{\\%}$ to Vyom Limited \\& Aryayash Limited respectively. Vyom Limited's desired rate of return is $15 \\%$ \\& Cost of Capital of Aryayash Limited is $17 \\%$.\n\nAs a finance controller, CALCULATE the Fair value of Aryayash Limited.",
+          "answer": "## Answer 13\n\nFair Value of Company = Present Value all future cash flows discounted at the expected Rate of return of acquiring company.\n\n## WN 1 - Calculation of Cash flows\n\nRs. in Lakhs\n\n| YEAR | 1 | 2 | 3 | 4 | 5 | 6 |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| Contribution (40\\% on sales) | 10 | 12 | 14.4 | 20.16 | 28.22 | 35.28 |\n| (-) Fixed Cost | -12 | -12 | -10 | -10 | -10 | -10 |\n| NPBT (A) | -2 | 0 | 4.4 | 10.16 | 18.22 | 25.28 |\n| (-) Losses Set Off | 0 | 0 | -2(Setoff) | 0 | 0 | 0 |\n| Taxable Income | 0 | 0 | 2.4 | 10.16 | 18.22 | 25.28 |\n| (-) Tax @ 25\\% (B) | 0 | 0 | 0.6 | 2.54 | 4.55 | 6.32 |\n| Cash Flow (A - B) | -2 | 0 | 3.8 | 7.62 | 13.66 | 18.96 |\n| PV OF CASH FLOWS @ 15\\% | -1.740 | 0 | 2.50 | 4.35 | 6.79 | 8.19 |\n\n\n\nTotal PV of cash flows (yr 1 to 6)\n\n$$\n\\text { = } 20.08 \\text { lakhs }\n$$\n\n(+) PV of cash flow at terminal value (end of Year 6) $=\\frac{18.96+10 \\%}{0.15-0.10}$\n\n= 417.12 Lakhs\n\nTherefore, PV of above $=417.12 \\times \\mathrm{PV}$ factor ( $15 \\%, 6^{\\text {th }}$ Year) $=180.20$ lakhs\n\nTotal fair value of Aryayash limited $=20.08+180.20=200.28$ Lakhs\n\n## Note -\n\n1. Discounting rate should be the desired rate of acquiring company i.e. of Vyom Limited\n\n2. Terminal value of cash flows means the cash flows at that point from where it would grow at constant rate. Here it assumed that from 7th year, Cash flows/NPAT will grow at a constant rate and not sales",
+          "chapter_number": "7",
+          "chapter_name": "FINANCING DECISIONS LEVERAGES",
+          "unique_id": "7-T-13"
+        }
+      ],
+      "section": 1
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "5",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "BEE Ltd. has a current ratio of 2:1, showing enough short-term liquidity in the company. You are required to comment whether the current ratio will improve, decline, or remain unchanged. (2 Marks)\n\n| Sr. No | Transaction                                                                 | Impact |\n|--------|-----------------------------------------------------------------------------|--------|\n| (i)    | A debtor owing ₹ 60,000 becomes insolvent and only 75% is recovered in cash in full and final settlement. |        |\n| (ii)   | Issued equity shares for ₹ 2,00,000, proceeds kept in current account with bank. |        |\n| (iii)  | ₹ 25,000 collected from customers in cash.                                  |        |\n| (iv)   | Goods costing 8,000 sold for ₹ 12,500 on credit.                            |        |",
+          "answer": "| Sr. No. | Transaction                                                                 | Impact on Current Ratio |\n|---------|-----------------------------------------------------------------------------|-------------------------|\n| (i)     | A debtor owing ₹ 60,000 becomes insolvent and only 75% is recovered in cash | Declines                |\n| (ii)    | Issued equity shares for ₹ 2,00,000, proceeds kept in current account with bank | Improves                |\n| (iii)   | ₹ 25,000 collected from customers in cash                                   | No change               |\n| (iv)    | Goods costing ₹ 8,000 sold for ₹ 12,500 on credit                           | Improves                |",
+          "chapter_number": "5",
+          "chapter_name": "FINANCING DECISIONS - CAPITAL STRUCTURE",
+          "unique_id": "FM-REPLACED-2"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Question 36 (RTP Jan'26)\n\nFollowing Balance Sheet and Income Statement have been obtained from the books of accounts of Pinaca Pvt. Ltd.\n\nBalance Sheet as on March $31{ }^{\text {st }} 2025$\n\n| Liabilities | Amount (Rs.) | Assets | Amount (Rs.) |\n| :--- | :--- | :--- | :--- |\n| Equity Capital (Rs. 10 per share) | 80,00,000 | Net Fixed Assets | 1,00,00,000 |\n| 10\\% Debt | 60,00,000 | Current Assets | 90,00,000 |\n| Retained Earnings | 35,00,000 |  |  |\n| Current Liabilities | 15,00,000 |  |  |\n|  | 1,90,00,000 |  | 1,90,00,000 |\n\nIncome Statement for the year ending March $31{ }^{\text {st }} 2025$\n\n| Particulars | Amount (Rs.) |\n| :--- | :--- |\n| Sales | 34,00,000 |\n| Less: Operating expenses (including $Rs. 6,00,000$ depreciation) | (12,00,000) |\n| EBIT | 22,00,000 |\n| Less: Interest | (6,00,000) |\n| Earnings before tax | 16,00,000 |\n\nThe tax rate applicable to the company is 35 percent.\n\n(i) DETERMINE the degree of operating, financial and combined leverages at the current sales level, if all operating expenses, other than depreciation, are variable costs.\n\n(ii) If total assets remain at the same level, but sales (i) increase by 20 percent and (ii) decrease by 20 percent, COMPUTE the earnings per share at the new sales level?",
+          "answer": "(i) Degree of operating, financial and combined leverages at the current sales level-\n\nDOL $=\\frac{\\text { Contribution }}{\\text { EBIT }}=\\frac{Rs. 34,00,000-Rs. 6,00,000}{Rs. 22,00,000}=1.27$\n\n$\\mathrm{DFL}=\\frac{\\mathrm{EBIT}}{\\mathrm{EBT}}=\\frac{Rs. 22,00,000}{Rs. 16,00,000}=1.375$\n\n$\\mathrm{DCL}=\\mathrm{DOL} \\times \\mathrm{DFL}=1.27 \\times 1.38=1.75$\n\n## (ii) Earnings per share at the new sales level\n\n(Amount in Rs.)\n\n| Particulars | Increase by 20\\% | Decrease by 20\\% |\n| :--- | :--- | :--- |\n| Sales level | 40,80,000 | 27,20,000 |\n| Less: Variable expenses | 7,20,000 | 4,80,000 |\n| Less: Fixed cost | 6,00,000 | 6,00,000 |\n| Earnings before interest and taxes | 27,60,000 | 16,40,000 |\n| Less: Interest | 6,00,000 | 6,00,000 |\n| Earnings before taxes | 21,60,000 | 10,40,000 |\n| Less: Taxes @35\\% | 7,56,000 | 3,64,000 |\n| Earnings after taxes (EAT) | 14,04,000 | 6,76,000 |\n| Number of equity shares | 8,00,000 | 8,00,000 |\n| EPS | 1.76 | 0.85 |\n\n## Working Notes:\n\nVariable Costs $= Rs. 6,00,000 (total cost - depreciation)\n\nVariable Costs at:\n\n(i) Sales level, $Rs. 40,80,000=Rs. 7,20,000$ (increase by $20 \\%$ )\n\n(ii) Sales level, Rs. $27,20,000=Rs. 4,80,000$ (decrease by $20 \\%$ )",
+          "chapter_number": "6",
+          "chapter_name": "FINANCING DECISIONS LEVERAGES",
+          "unique_id": "6-T-36"
+        }
+      ],
+      "section": 1
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "1",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Z Ltd. is an unlevered company. It wants to repurchase its equity shares of ₹ 300 lakhs by issue of 12% debentures of same amount. Current market value of Z Ltd. is ₹ 1,400 lakhs. Its cost of capital is 18%. The company will\n\nmaintain same level of EBIT in future years. Dividend pay-out ratio is 100%. Company pays tax at a rate of 30%.\n\nAs per Modigliani and Miller approach, due to such change in capital structure, what will be impact on the following?\n\n(i)   Market Value of Z Ltd.\n\n(ii)  Overall cost of capital\n\n(iii) Cost of equity\n\n                                                                                                      (4 Marks)",
+          "answer": "(iii) Cost of Equity\n\nThe impact is that cost of equity has risen by 1.06% (19.06% - 18%) due to the presence of financial risk i.e. introduction of debt in capital structure.\n\nNote: Cost of Capital and Cost of equity can also be calculated with the help of following formulas,\n\nCost of Capital $(K_0) = K_{eu} [1 - (t \\times L)]$\n\nWhere,\n\n$K_{eu}$ = Cost of equity in an unlevered company\n\n$t$ = Tax rate\n\n$L = \\frac{\\text{Debt}}{\\text{Debt + Equity}}$\n\nSo, $K_0 = 0.18 \\left[ 1 - \\left( 0.3 \\times \\frac{₹\\ 300\\ \\text{lakhs}}{₹\\ 1490\\ \\text{lakhs}} \\right) \\right] = 0.1691$ or 16.91% (approx.)\n\nCost of Equity $(K_e) = K_{eu} + (K_{eu} - K_d) \\frac{\\text{Debt (1-t)}}{\\text{Equity}}$\n\nWhere,\n\n$K_{eu}$ = Cost of equity in an unlevered company\n\n$K_d$ = Cost of debt\n\n$t$ = Tax rate\n\nSo, $K_e = 0.18 + \\left( (0.18-0.12) \\times \\frac{₹\\ 300\\ \\text{lakhs (1-0.3)}}{₹\\ 1190\\ \\text{lakhs}} \\right)$\n\n$= 0.1906$ or 19.06%\n\n(ii) Overall Cost of Capital\n\nMarket Value of Equity = Market value of levered firm - Equity repurchased\n\n= ₹ 1,490 lakhs – ₹ 300 lakhs = ₹ 1,190 lakhs\n\nCost of Equity ($K_e$) = $\\frac{\\text{Net Income to equity holders}}{\\text{Market value of equity}} \\times 100$\n\n= $\\frac{₹ 226.8 \\text{ lakhs}}{₹ 1190 \\text{ lakhs}} \\times 100 = 19.06\\% \\text{ (approx.)}$\n\nCost of debt ($K_d$) = I (1 - t) = 12 (1 - 0.3) = 8.4%\n\n| Components | Amount (₹ In lakhs) | Cost of Capital % | Weight | WACC ($K_0$) % |\n|------------|---------------------|-------------------|--------|----------------|\n| Equity     | 1,190               | 19.06             | 0.80(approx.) | 15.25         |\n| Debt       | 300                 | 8.4               | 0.20(approx.) | 1.68          |\n|            | 1490                |                   | 1      | 16.93          |\n\n(Note: If we take the weight of Equity as 0.7986 and weight of Debt as 0.2013 then WACC will be 16.91%).\n\nImpact on Market value and Overall cost of capital of Z Ltd.\n\n| Particulars                  | Before restructure | After restructure | Impact                               |\n|------------------------------|--------------------|-------------------|--------------------------------------|\n| Market value of company      | ₹ 1,400 lakhs      | ₹ 1,490 Lakhs     | Increase due to import of debt       |\n| Cost of equity               | 18%                | 19.06%            | Increase                             |\n| Overall cost of capital      | 18%                | 16.93%            | Decrease                             |\n\nSo, the impact is that the Overall Cost of Capital or $K_0$ has fallen by 1.07% (18% - 16.93%) due to the benefit of tax relief on debt interest payment.\n\n(b) Market Value of Equity\n\n\\[\n= \\frac{\\text{Net income (NI) for equity holders}}{K_e}\n\\]\n\n\\[\n= \\frac{\\text{Net income (NI) for equity holders}}{0.18}\n\\]\n\nNet Income to equity holders/EAT\n\n\\[\n= ₹ 252 \\text{ lakhs}\n\\]\n\nTherefore, EBIT = $\\frac{\\text{EAT}}{(1-t)}$\n\n\\[\n= \\frac{252 \\text{ lakhs}}{(1 - 0.3)} = ₹ 360 \\text{ lakhs}\n\\]\n\nIncome Statement\n\n|                           | All Equity (₹ In lakhs) | Equity & Debt (₹ In lakhs) |\n|---------------------------|-------------------------|---------------------------|\n| EBIT (as calculated above)| 360                     | 360                       |\n| Interest on ₹ 300 lakhs @ 12% | —                     | 36                        |\n| EBT                       | 360                     | 324                       |\n| Tax @ 30%                 | 108                     | 97.2                      |\n| Income available to equity holders | 252           | 226.8                     |\n\n(i) Market value of Z Ltd\n\nMarket value of levered firm = Value of unlevered firm + Tax Advantage\n\n\\[\n= ₹ 1,400 \\text{ lakhs} + (₹ 300 \\text{ lakhs} \\times 0.3)\n\\]\n\n\\[\n= ₹ 1,490 \\text{ lakhs}\n\\]\n\nChange in market value of the company = 1,490 lakhs – 1,400 lakhs\n\n\\[\n= ₹ 90 \\text{ lakhs}\n\\]\n\nThe impact is that the market value of the company has increased by ₹ 90 lakhs due to replacement of equity with debt.",
+          "chapter_number": "12",
+          "chapter_name": "STRATEGIC ANALYSIS: EXTERNAL",
+          "unique_id": "FM-REPLACED-3"
+        },
+        {
+          "label": "b",
+          "marks": 3,
+          "internal_split": null,
+          "question": "## Question 33 (RTP Sep'25)\n\nTrade credit and bank overdraft are two commonly used short-term financing sources but each has distinct features. On the light of the statement SHOW the difference between trade credit and bank overdraft.",
+          "answer": "Gauresh|8237317945\n\nTrade credit and bank overdraft are two commonly used short-term financing sources but each has distinct features which are shown below:\n\n\n| S. No. | Trade credit | Bank overdraft |\n| :--- | :--- | :--- |\n| 1. | Trade credit is the credit extended by suppliers, allowing the firm to delay payment for goods or services. | Under this facility, customers are allowed to withdraw in excess of credit balance standing in their Current Account. |\n| 2. | The usual duration of such credit is 15 to 90 days. | Though overdrafts are repayable on demand, they generally continue for long periods by annual renewals of the limits. |\n| 3. | Trade credit is a type of interest free loan, therefore failure to avail this facility has an interest cost. | Interest is charged on daily balances |\n| 4. | It generates automatically in the course of business and is common to almost all business operations. | Borrower need to apply to bank for Bank overdraft facility and are operated in the same way as cash credit and current accounts. |\n| 5. | It enhances automatically with the increase in the volume of business and fast payment. | A fixed limit is, therefore, granted to the borrower within which the borrower is allowed to overdraw his account. |",
+          "chapter_number": "2",
+          "chapter_name": "TYPES OF FINANCING",
+          "unique_id": "2-T-33"
+        },
+        {
+          "label": "c",
+          "marks": 3,
+          "internal_split": null,
+          "question": "## Question 4 (RTP Nov'23 & May '19)\n\nFrom the following table of financial ratios of Prabhu Chemicals Limited, comment on various ratios given at the end:\n\n![](https://cdn.mathpix.com/cropped/51dba4ff-30e2-4111-9446-9c1b0f320b04-30.jpg?height=187&width=214&top_left_y=35&top_left_x=249)\n\n\n| Ratios | 20X1 | 20X2 | Average of Chemical Industry |\n| :--- | :--- | :--- | :--- |\n| Liquidity Ratios |  |  |  |\n| Current ratio | 2.1 | 2.3 | 2.4 |\n| Quick ratio | 1.4 | 1.8 | 1.4 |\n| Receivable turnover ratio | 8 | 9 | 8 |\n| Inventory turnover | 8 | 9 | 5 |\n| Receivables collection period | 46 days | 41 days | 46 days |\n| Operating profitability |  |  |  |\n| Operating income -ROI | 24% | 21% | 18% |\n| Operating profit margin | 18% | 18% | 12% |\n| Financing decisions |  |  |  |\n| Debt ratio | 45% | 44% | 60% |\n| Return |  |  |  |\n| Return on equity | 26% | 28% | 18% |\n\nCOMMENT on the following aspect of Prabhu Chemicals Limited\n\n| (i) Liquidity | (ii) Operating profits | (iii) Financing | (iv) Return to the shareholders |\n| :--- | :--- | :--- | :--- |",
+          "answer": "| Ratios | Comment |\n| :--- | :--- |\n| Liquidity | Current ratio has improved from last year and matching the industry average. <br> Quick ratio also improved than last year and above the industry average. The reduced inventory levels (evidenced by higher inventory turnover ratio) have led to better quick ratio in FY 20 X2 compared to FY 20 X1. <br> Further the decrease in current liabilities is greater than the collective decrease in inventory and debtors as the current ratio have increase from FY 20X1 to FY 20X2. |\n| Operating Profits | Operating Income-ROI reduced from last year, but Operating Profit Margin has been maintained. This may happen due to decrease in operating cost. However, both the ratios are still higher than the industry average. |\n| Financing | The company has reduced its debt capital by 1% and saved earnings for equity shareholders. It also signifies that dependency on debt compared to other industry players $(60 \\\\%)$ is low. |\n| Return to the shareholders | Prabhu's ROE is 26 per cent in 20X1 and 28 per cent in 20X2 compared to an industry average of 18 per cent. The ROE is stable and improved over the last year.",
+          "chapter_number": "3",
+          "chapter_name": "FINANCIAL ANALYSIS AND PLANNING - RATIO ANALYSIS",
+          "unique_id": "3-T-4"
+        }
+      ],
+      "section": 1
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": true,
+      "total_marks": 15,
+      "chapter_number": "14",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Question 12 (PYP 5 Marks May'22, MTP 5 Marks Mar'24, Mar'25, Aug'25 RTP Sep'24,MP[1],MP[8])\n\nWhat do you understand by diversification? Distinguish between concentric and conglomerate diversification.",
+          "answer": "Diversification is defined as entry into new products or product lines, new services or new markets, involving substantially different skills, technology and knowledge. Diversification endeavours can be related or unrelated to existing businesses of the firm.\n\nFollowing are the differences between the concentric diversification and conglomerate diversifications:\n\n\n| Concentric Diversification | Conglomerate Diversification |\n| :--- | :--- |\n| Meaning: It occurs when a firm adds related products or markets. <br> Linkage: The new business is linked to the existing businesses through process, technology or marketing. <br> Reasons for pursuing: The most common reason for pursuing a concentric diversification is that opportunities in a firm's existing line of business are available. | Meaning: It occurs when a firm diversifies into areas that are unrelated to its current line of business. <br> Linkage: Here no such linkages exist; the new business/product is disjointed from the existing businesses/products. <br> Reasons for pursuing: The common reason for pursuing a conglomerate growth strategy is that opportunities in a firm's current line of business are limited or opportunities outside are highly lucrative. |",
+          "chapter_number": "14",
+          "chapter_name": "STRATEGIC CHOICES",
+          "unique_id": "14-T-12"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "EcoRide Ltd. manufactures electric scooters. The company possesses strong R&D capabilities, a well-recognised brand name and an extensive service network. However, its manufacturing costs are higher than those of competitors.\n\nDemand for electric vehicles is increasing rapidly due to government incentives and environmental awareness. At the same time, several international automobile companies are entering the market. Customers have multiple alternatives available and frequently compare prices and product features before making purchase decisions.\n\nAnalyse the strategic position of EcoRide Ltd. using SWOT Analysis. Further identify any two competitive forces operating in the industry as per Porter's Five Forces Model.",
+          "answer": "(A) SWOT Analysis\n\nStrengths\n\nStrong R&D capabilities.\n\nWell-recognised brand.\n\nExtensive service network.\n\nWeaknesses\n\nHigh manufacturing cost.\n\nOpportunities\n\nGrowing demand for EVs.\n\nGovernment incentives.\n\nRising environmental awareness.\n\nThreats\n\nEntry of international automobile companies.\n\nIntense market competition.\n\n(B) Porter's Five Forces\n\n1. Threat of New Entrants\n\nInternational automobile companies entering the market indicate increasing competitive pressure from new entrants.\n\n2. Bargaining Power of Buyers\n\nCustomers compare prices and product features before purchasing, indicating high bargaining power of buyers.\n\nConclusion\n\nEcoRide Ltd. enjoys strong internal capabilities and favourable market opportunities but must address cost disadvantages and increasing competitive pressures to sustain its competitive position.",
+          "chapter_number": "14",
+          "chapter_name": "STRATEGIC CHOICES",
+          "unique_id": "FM-REPLACED-sm__9"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "## Question 14 (MTP 5 Marks March '22)\n\nThere has been fierce demand for both Gecko and FlyBee for the last 3 years. Gecko makes mass consumption pens while FlyBee is a notebook and diary brand - both being complementary goods of each other. But to grow further, FlyBee decided to take up competition with Gecko in pens segment and thereby launched, FlyPens. Identify and explain the growth strategy opted by FlyBee?",
+          "answer": "FlyBee is a notebook and diary brand. But to grow further, FlyBee decided to take up competition with Gecko in pens segment and thereby launched, FlyPens. FlyBee that is hitherto not into producing pens starts producing them and other similar products is following concentric diversification which is basically related diversification. In this form of diversification, the new business is linked to the existing businesses through existing systems such as processes, technology or marketing. The new product is a spin-off from the existing facilities and products/processes. There are benefits of synergy with the current operations. The most common reasons for pursuing a concentric diversification are that opportunities in existing line of business are available.",
+          "chapter_number": "14",
+          "chapter_name": "STRATEGIC CHOICES",
+          "unique_id": "14-T-14"
+        }
+      ],
+      "section": 2
+    },
+    {
+      "q_main": 6,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "15",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Changes in environmental forces often require businesses to make modifications in their existing strategies. In view of the same explain the areas to be focused while considering concept of strategic change. Also explain the steps to initiate strategic change process. (PYP 5 Marks May'25 ,MTP 5 Marks Aug'25,MP[6])",
+          "answer": "The changes in the environmental forces often require businesses to make modifications in their existing strategies and bring out new strategies. Strategic change is a complex process that involves a corporate strategy focused on new markets, products, services and new ways of doing business.\n\nFor initiating strategic change, three steps can be identified as under:\n\n(i) Recognize the need for change: The first step is to diagnose facets of the corporate culture that are strategy supportive or not. The idea is to determine where the lacuna lies and scope for change exists.\n\n(ii) Create a shared vision to manage change: Objectives and vision of both individuals and organization should coincide. Senior managers need to constantly and consistently communicate the vision not only to inform but also to overcome resistance.\n\n(iii) Institutionalize the change: Creating and sustaining a different attitude towards change is essential to ensure that the firm does not slip back into old ways of thinking or doing things. All these changes should be set up as practice to be followed by the organization and be able to transfer from one level to another as a wellsettled practice.",
+          "chapter_number": "15",
+          "chapter_name": "STRATEGY IMPLEMENTATION AND",
+          "unique_id": "15-T-18"
+        },
+        {
+          "label": "b",
+          "marks": 6,
+          "internal_split": null,
+          "question": "What do you mean by Key Success Factors (KSF)? Structure the questions, answer to which can help identify KSFs of a company. Also state, as to how understanding can help ascertain sustainable competitive advantages. (PYP 5 Marks May'25)",
+          "answer": "Key Success Factors (KSFs) are those factors that most significantly impact an industry member's ability to succeed in the marketplace. These include strategic elements, product attributes, resources, competencies, capabilities and outcomes that determine whether a firm achieves profitability and competitive success. In other words, KSFs are the prerequisites for success in an industry.\n\nQuestions to Identify KSFs: To identify the KSFs of a company, managers should seek answers to the following structured questions:\n\n- On what basis do customers choose between the competing brands of sellers?\n\n- What resources and competitive capabilities are necessary to be successful?\n\n- What does it take to achieve a sustainable competitive advantage?\n\nA company that accurately understands the industry's KSFs can tailor its strategy to focus on excelling in these critical areas. By being distinctively better than competitors on one or more key success factors, the company can gain a sustainable competitive advantage. Misjudging the importance of KSFs, on the other hand, can lead to a misdirected strategy and competitive failure. Thus, aligning the company's efforts with the industry's KSFs increases the likelihood of long-term success and stronger market position.",
+          "chapter_number": "12",
+          "chapter_name": "STRATEGIC ANALYSIS: EXTERNAL",
+          "unique_id": "12-T-31"
+        }
+      ],
+      "section": 2
+    },
+    {
+      "q_main": 7,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "11",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "\"A business organization cannot always plan all their strategies in advance and often need to blend planned strategies with reactive strategies.\" Do you agree with the statement? Give reasons. (MTP 5 Marks, Apr'22, RTP May 23)",
+          "answer": "Yes, a business organization cannot always plan all their strategies in advance and often need to blend planned strategies with reactive strategies.\n\nIn planned strategy, organisations will analyse possible environmental scenarios and create strategic framework after proper planning and set procedures and work on these strategies in a pre-determined manner. However, in reality no company can forecast both internal and external environment exactly. Everything cannot be planned in advance. It is not possible to anticipate moves of rival firms, consumer behaviour, evolving technologies and so on.\n\nThere can be significant deviations between what was visualised and what actually happens. There can be significant or major strategic changes when the environment demands. Reactive strategy is triggered by the changes in the environment and provides ways and means to cope with the negative factors or take advantage of emerging opportunities.",
+          "chapter_number": "11",
+          "chapter_name": "INTRODUCTION TO STRATEGIC MANAGEMENT",
+          "unique_id": "11-T-9"
+        },
+        {
+          "label": "b",
+          "marks": 6,
+          "internal_split": null,
+          "question": "What is stability strategy? What are the reasons to pursue a stability strategy? (RTP Nov'19 & Nov '23)",
+          "answer": "One of the important goals of a business enterprise is stability - to safeguard its existing interests and strengths, to pursue well established and tested objectives, to continue in the chosen business path, to maintain operational efficiency on a sustained basis, to consolidate the commanding position already reached, and to optimize returns on the resources committed in the business. A stability strategy is pursued by a firm when:\n\n- It continues to serve in the same or similar markets and deals in same or similar products and services.\n\n- The strategic decisions focus on incremental improvement of functional performance.\n\n## Major reasons for stability strategy are as follows:\n\n- A product has reached the maturity stage of the product life cycle.\n\n- It is less risky as it involves less changes and the staff feels comfortable with things as they are.\n\n- The environment faced is relatively stable.\n\n- Expansion may be perceived as being threatening.\n\n- Consolidation is sought through stabilizing after a period of rapid expansion.",
+          "chapter_number": "14",
+          "chapter_name": "STRATEGIC CHOICES",
+          "unique_id": "14-T-1"
+        }
+      ],
+      "section": 2
+    },
+    {
+      "q_main": 8,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "12",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "International development is expensive and challenging. In the context of the statement, explain the internationalization of business and the steps involved in such strategic planning. (PYP 5 Marks Jan'25, MTP 5 Marks Jul'25)",
+          "answer": "Internationalization has become a pivotal trend for businesses aiming to enhance profitability and access cheaper resources. It allows companies to explore new markets, achieve economies of scale, and prolong product lifecycles. However, the process of internationalization is complex due to additional variables and linkages that differ from domestic operations.\n\nTo navigate this complexity, businesses should adopt a structured approach to international strategic planning. The steps involved include:\n\n\n1. Evaluate Global Opportunities and Threats: Businesses must assess potential global markets, identifying opportunities and threats while aligning them with their internal capabilities.\n\n2. Describe the Scope of Operations: Clearly defining the extent of the firm's international commercial activities is crucial for focused strategy development.\n\n3. Create Global Business Objectives: Establishing clear objectives helps guide the organization's international efforts and aligns with its overall mission.\n\n4. Develop Distinct Corporate Strategies: Formulating specific strategies tailored for global operations ensures that the organization can effectively compete in diverse markets.\n\nThese steps facilitate the identification of market opportunities and the formulation of effective global strategies, enabling businesses to thrive in the international arena despite the inherent challenges and costs associated with such expansion.",
+          "chapter_number": "12",
+          "chapter_name": "STRATEGIC ANALYSIS: EXTERNAL",
+          "unique_id": "12-T-3"
+        },
+        {
+          "label": "b",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Aroma Brew Ltd. operates in the premium coffee market. The company sources rare coffee beans from selected regions, provides customised flavour profiles, offers subscription-based delivery services and maintains exclusive coffee lounges in metropolitan cities.\n\nDespite possessing a strong brand image, the company deliberately avoids competing in the mass-market coffee segment and focuses only on high-income urban consumers who seek premium experiences.\n\nRecently, a management trainee suggested that Aroma Brew Ltd. follows a simple differentiation strategy. However, the Strategy Head disagreed.\n\nIn the light of the above, identify and explain the business-level strategy followed by Aroma Brew Ltd.",
+          "answer": "The company follows a Focused Differentiation Strategy.\n\nReasoning\n\nDifferentiation Elements:\n\nRare coffee beans.\n\nCustomised flavour profiles.\n\nPremium services.\n\nExclusive lounges.\n\nFocus Elements:\n\nTargets only high-income urban consumers.\n\nAvoids mass market segment.\n\nServes a narrow customer group.\n\nWhy not Pure Differentiation?\n\nA pure differentiation strategy generally targets a broad market.\n\nIn the present case, the company restricts itself to a specific niche market.\n\nConclusion\n\nAroma Brew Ltd. combines differentiation with focus and therefore follows a Focused Differentiation Strategy.",
+          "chapter_number": "11",
+          "chapter_name": "INTRODUCTION TO STRATEGIC MANAGEMENT",
+          "unique_id": "FM-REPLACED-sm_8"
+        }
+      ],
+      "section": 2
+    }
+  ]
+}

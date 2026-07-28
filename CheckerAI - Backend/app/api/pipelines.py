@@ -34,6 +34,7 @@ from typing import Optional
 
 from fastapi import APIRouter, UploadFile, File, Form, HTTPException, Request
 from fastapi.responses import FileResponse, JSONResponse
+from pydantic import BaseModel
 
 # ── Directory layout ─────────────────────────────────────────────────────────
 _HERE           = Path(__file__).resolve().parent              # app/api/

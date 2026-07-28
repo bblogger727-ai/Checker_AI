@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "subject_code": "ADVAC",
+    "subject_name": "Advanced Accounting",
+    "paper_num": "Portionwise_3",
+    "total_marks_printed": 50,
+    "total_marks_in_paper": 50,
+    "section_a_marks": 0,
+    "section_b_marks": 50,
+    "two_section_format": false,
+    "note": "Portionwise Test: Attempt all 5 questions. Each question carries 10 marks (6 + 4 split).",
+    "blacklisted_from": [],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)"
+    ]
+  },
+  "section_a": [],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "12",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Question 12 (RTP Sep'24, Nov'19, Nov'22)\n\nPurpose Ltd. resolves to buy back 4 lakhs of its fully paid equity shares of Rs. 10 each at Rs. 22 per share. This buyback is in compliance with the provisions of the Companies Act and does not exceed $25 \\%$ of Company's paid up capital in the financial year. For the purpose, it issues 1 lakh $11 \\%$ preference shares of Rs. 10 each at par, the entire amount being payable with applications. The company uses Rs. 16 lakhs of its balance in Securities Premium Account apart from its adequate balance in General Reserve to fulfill the legal requirements regarding buy-back. Give necessary journal entries to record the above transactions.",
+          "answer": "Journal Entries in the books of Purpose Ltd.\n\n|  |  |  |  |  |\n| :--- | :--- | :--- | :--- | :--- |\n| 1. | Bank A/c | Dr. | 10,00,000 |  |\n|  | To 11\\% Preference share application \\& allotment $\\mathrm{A} / \\mathrm{c}$ (Being receipt of application money on preference shares) |  |  | 10,00,000 |\n\n| 2. | 11\\% Preference share application \\& allotment A/c | Dr. | 10,00,000 |  |\n| :--- | :--- | :--- | :--- | :--- |\n|  | To 11\\% Preference share capital A/c (Being allotment of 1 lakh preference shares) |  |  | 10,00,000 |\n| 3. | General reserve A/c | Dr. | 30,00,000 |  |\n|  | To Capital redemption reserve A/c (Being creation of capital redemption reserve for buy back of shares) |  |  | 30,00,000 |\n| 4. | Equity share capital A/c | Dr. | 40,00,000 |  |\n|  | Premium payable on buyback A/c | Dr. | 48,00,000 |  |\n|  | To Equity shareholders/Equity shares buy back A/c (Amount payable to equity shareholder on buy back) |  |  | 88,00,000 |\n| 5. | Equity shareholders/ Equity shares buy back A/c | Dr. | 88,00,000 |  |\n|  | To Bank A/c (Being payment made for buy back of shares) |  |  | 88,00,000 |\n| 6. | Securities Premium A/c | Dr. | 16,00,000 |  |\n|  | General reserve A/c |  | 32,00,000 |  |\n|  | To Premium payable on buyback A/c (Being premium on buyback charged from securities premium and general reserve) |  |  | 48,00,000 |\n\n## Working Notes:\n\n1. Calculation of amount used from General Reserve Account\n\n|  | Rs. |\n| :--- | :--- |\n| Amount paid for buy back of shares ( $4,00,000$ shares $\\mathrm{x} Rs. 22$ ) | 88,00,000 |\n| Less: Proceeds from issue of Preference Shares ( $1,00,000$ shares $\\times Rs. 10$ ) | (10,00,000) |\n| Less: Utilization of Securities Premium Account | (16,00,000) |\n| Balance used from General Reserve Account | 62,00,000 |\n| * Used under Section 68 for buy back |  |\n| Used under Section 69 for transfer to CRR (W.N 2) auresh \\| 8237317945 30,00,000 |  |\n| 62,00,000 |  |\n\n2. Amount to be transferred to Capital Redemption Reserve account\n\n|  | Rs. |\n| :--- | :--- |\n| Nominal value of shares bought back ( $4,00,000$ shares $\\mathrm{x} Rs. 10$ ) | 40,00,000 |\n| Less: Nominal value of Preference Shares issued for such buy back (1,00,000 shares x Rs. 10) | (10,00,000) |\n| Amount transferred to Capital Redemption Reserve Account | 30,00,000 |",
+          "chapter_number": "12",
+          "chapter_name": "BUY-BACK OF SECURITIES",
+          "unique_id": "12-T-12"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "When is an investor required to discontinue the use of the equity method of accounting? (SM)",
+          "answer": "An investor should discontinue the use of the equity method from the date that:\n\na. It ceases to have significant influence in an associate but retains, either in whole or in part, its investment.\n\nb. The use of the equity method is no longer appropriate because the associate operates under severe longterm restrictions that significantly impair its ability to transfer funds to the investor.\n\nFrom the date of discontinuing the use of the equity method, investments in such associates should be accounted for in accordance with AS 13, Accounting for Investments. For this purpose, the carrying amount of the investment at that date should be regarded as cost thereafter.",
+          "chapter_number": "10.2",
+          "chapter_name": "AS 21- CONSOLIDATED FINANCIAL STATEMENTS AMALGAMATIONS",
+          "unique_id": "10.2-T-2"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "11",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "The following information was provided by VIVTSU Ltd. for the year ended 31st March, 20X2 :\n\n(1) Gross Profit Ratio was $25 \\%$ for the year, which amounts to Rs.3,75,000.\n\n(2) Company sold goods for cash only.\n\n(3) Opening inventory was lesser than closing inventory by Rs. 25,000 .\n\n(4) Wages paid during the year Rs.5,55,000.\n\n(5) Office expenses paid during the year Rs. 35,000 .\n\n(6) Selling expenses paid during the year Rs. 15,000 .\n\n(7) Dividend paid during the year Rs. 40,000 .\n\n(8) Bank Loan repaid during the year Rs. $2,05,000$ (included interest Rs.5,000)\n\n(9) Trade Payables on $31^{\\text {st }}$ March, 20X1 were $Rs. 50,000$ and on $31^{\\text {st }}$ March, $20 \\times 2$ were $Rs. 35,000$.\n\n(10) Amount paid to Trade payables during the year Rs. $6,10,000$\n\n(11) Income Tax paid during the year amounts to Rs. 55,000\n\n(Provision for taxation as on $31{ }^{\\text {st }}$ March, $20 \\times 2$ Rs. 30,000 )\n\n(12) Investments of Rs. $8,20,000$ sold during the year at a profit of Rs. 20,000 .\n\n(13) Depreciation on furniture amounts to Rs. 40,000 .\n\n(14) Depreciation on other PPE amounts to Rs. 20,000.\n\n(15) Plant and Machinery purchased on 15th November, 20X1 for Rs. 3,50,000.\n\n(16) On 31st March, $20 \\times 2 Rs. 2,00,000,7 \\%$ Debentures were issued at face value in an exchange for a plant.\n\n(17) Cash and Cash equivalents on 31st March, 20X1 Rs.2,25,000.\n\n(i) Prepare cash flow statement for the year ended $31^{\\text {st }}$ March, $20 \\times 2$,using direct method.\n\n(ii) Calculate cash flow from operating activities, using indirect method.",
+          "answer": "(i) VIVTSU Ltd.\n\nCash Flow Statement for the year ended 31st March, 20X2 (Using direct method)\n\n| Particulars | Rs. | Rs. |\n| :--- | :--- | :--- |\n| Cash flows from Operating Activities |  |  |\n| Cash sales (Rs. 3,75,000/25\\%) |  | 15,00,000 |\n| Less: Cash payments for trade payables | (6,10,000) |  |\n| Wages Paid | (5,55,000) |  |\n| Office and selling expenses Rs. ( $35,000+15,000$ ) | $(50,000)$ | (12,15,000) |\n| Cash generated from operations before taxes |  | 2,85,000 |\n| Income tax paid |  | $(55,000)$ |\n| Net cash generated from operating activities (A) |  | 2,30,000 |\n| Cash flows from Investing activities |  |  |\n| Sale of investments Rs. ( $8,20,000+20,000)$ | 8,40,000 |  |\n| Payments for purchase of Plant \\& machinery | (3,50,000) |  |\n| Net cash used in investing activities (B) |  | 4,90,000 |\n| Cash flows from financing activities |  |  |\n| Bank loan repayment (including interest) | (2,05,000) |  |\n| Dividend paid | $(40,000)$ |  |\n| Net cash used in financing activities (C) |  | (2,45,000) |\n| Net increase in cash (A+B+C) |  | 4,75,000 |\n| Cash and cash equivalents at beginning of the period |  | 2,25,000 |\n| Cash and cash equivalents at end of the period ${ }^{\\text {Gauresh }}$ 82.3/37/945 |  | 7,00,000 |\n\n\n\n(ii) 'Cash Flow from Operating Activities' by indirect method\n\n|  |  |  |\n| :--- | :--- | :--- |\n| Net Profit for the year before tax and extraordinary items |  | 2,80,000 |\n| Add: Non-Cash and Non-Operating Expenses: |  |  |\n| Depreciation |  | 60,000 |\n| Interest Paid |  | 5,000 |\n| Less: Non-Cash and Non-Operating Incomes: |  |  |\n| Profit on Sale of Investments |  | $(20,000)$ |\n| Net Profit after Adjustment for Non-Cash Items |  | 3,25,000 |\n| Less: Decrease in trade payables | 15,000 |  |\n| Increase in inventory | $\\underline{25,000}$ | $(40,000)$ |\n| Cash generated from operations before taxes |  | $\\underline{2,85,000}$ |\n\n\n## Working Note:\n\nCalculation of net profit earned during the year\n\n|  | Rs. | Rs. |\n| :--- | :--- | :--- |\n| Gross profit |  | 3,75,000 |\n| Less: Office expenses, selling expenses | 50,000 |  |\n| Depreciation | 60,000 |  |\n| Interest paid | $\\underline{\\text { 5,000 }}$ | (1,15,000) |\n|  |  | 2,60,000 |\n| Add: Profit on sale of investments |  | $\\underline{20,000}$ |\n| Net profit before tax |  | 2,80,000 |",
+          "chapter_number": "11.2",
+          "chapter_name": "CASH FLOW STATEMENT",
+          "unique_id": "11.2-T-6"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Question 4 (RTP May'24) (Same Concept Different Figure MTP 5 Marks Oct'22, RTP May '21)\n\nNaresh Ltd. had the following transactions during the financial year 20X1-20X2:\n\ni. Naresh Ltd. acquired running business of Sunil Ltd. for Rs. $10,80,000$ on 15th May, 20X1. The fair value of Sunil Ltd.'s net assets was Rs. $5,16,000$. Naresh Ltd. is of the view that due to popularity of Sunil Ltd.'s product in the market, its goodwill exists.\n\nii. Naresh Ltd. had taken a franchise on July 20X1 to operate a restaurant from Sankalp Ltd. for Rs. 1,80,000 and at an annual fee of $10 \\%$ of net revenues (after deducting expenditure). The franchise expires after 6 years. Net revenues were Rs. 60,000 during the financial year 20X1-20X2.\n\niii. On 20th August, 20X1, Naresh Ltd, incurred costs of Rs. 2,40,000 to register the patent for its product. Naresh Ltd. expects the patent's economic life to be 8 years.\n\nNaresh Ltd. follows an accounting policy to amortize all intangibles on straight line basis over the maximum period permitted by accounting standards taking a full year amortization in the year of acquisition.\n\nGoodwill on acquisition of business to be amortized over 5 years (SLM) as per AS 14.\n\nPrepare a schedule showing the intangible assets section in Naresh Ltd. Balance Sheet at 31st March, 20X2.",
+          "answer": "Naresh Ltd.Balance Sheet (Extract relating to intangible asset) as on 31st March 20X2\n\n|  |  | Note No. | Rs. |\n| :--- | :--- | :--- | :--- |\n| Assets |  |  |  |\n| (1) Non-current assets |  |  |  |\n| Intangible assets |  | 1 | 8,11,200 |\n| Notes to Accounts (Extract) |  |  |  |\n|  |  | Rs. | Rs. |\n| 1. | Intangible assets |  |  |\n|  | Goodwill (Refer to note 1) | 4,51,200 |  |\n|  | Franchise (Refer to Note 2) | 1,50,000 |  |\n|  | Patents (Refer to Note 3) | $\\underline{2,10,000}$ | 8,11,200 |\n\n\n\nWorking Notes:\n\n|  |  | Rs. |\n| :--- | :--- | :--- |\n| (1) | Goodwill on acquisition of business |  |\n|  | Cash paid for acquiring the business (purchase consideration) | 10,80,000 |\n|  | Less: Fair value of net assets acquired | (5,16,000) |\n|  | Goodwill | 5,64,000 |\n|  | Less: Amortisation as per AS 14 ie. over 5 years (as per SLM) | (1,12,800) |\n|  | Balance to be shown in the balance sheet | 4,51,200 |\n| (2) | Franchise | 1,80,000 |\n|  | Less: Amortisation (over 6 years) | $(30,000)$ |\n|  | Balance to be shown in the balance sheet | 1,50,000 |\n| (3) | Patent | 2,40,000 |\n|  | Less: Amortisation (over 8 years as per SLM) | $(30,000)$ |\n|  | Balance to be shown in the balance sheet | 2,10,000 |",
+          "chapter_number": "13",
+          "chapter_name": "AMALGAMATION OF COMPANIES",
+          "unique_id": "13-T-4"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "11",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Question 5 (MTP 12 Marks Oct'19, RTP Mayd'19) (Same concept lesser adjustments MTP Oct'22)\n\n| (Rs. in lacs) |  |\n| :--- | :--- |\n|  |  |\n| (ii) Dividend paid | 10,202 |\n| (iii) Income-tax paid | 5,100 |\n| (iv) Book value of assets sold | 222 |\n| Loss on sale of asset | 48 |\n| (v) Depreciation debited to P & L account | 24,000 |\n| (vi) Capital grant received - amortized to P & L A/c | 10 |\n| (vii) Book value of investment sold | 33,318 |\n| Profit on sale of investment | 120 |\n| (viii) Interest income from investment credited to P & L A/c | 3,000 |\n| (ix) Interest expenditure debited to P & L A/c | 12,000 |\n| (x) Interest actually paid (Financing activity) | 13,042 |\n| (xi) Increase in working capital | 67,290 |\n| [Excluding cash and bank balance] |  |\n| (xii) Purchase of Property, Plant & Equipment | 22,092 |\n| (xiii) Expenditure on construction work | 41,688 |\n| (xiv) Grant received for capital projects | 18 |\n| (xv) Long term borrowings from banks | 55,866 |\n| (xvi) Provision for Income-tax debited to P & L A/c | 6,000 |\n| Cash and bank balance on 1.4.20X1 | 6,000 |\n| Cash and bank balance on 31.3.20X2 | 8,000 |\n\nYou are required to prepare a cash flow statement as per AS-3 (Revised).",
+          "answer": "Cash Flow Statement as per AS 3\n\n|  |  | Rs. in lacs |\n| :--- | :--- | :--- |\n| Cash flows from operating activities: |  | 36,000 |\n| Net profit before tax provision |  |  |\n| Add: Non cash expenditures: |  |  |\n| Depreciation | 24,000 |  |\n| Loss on sale of assets | 48 |  |\n| Interest expenditure (non operating activity) | 12,000 | 36,048 |\n|  |  | 72,048 |\n| Less: Non cash income |  |  |\n| Amortization of capital grant received | (10) |  |\n| Profit on sale of investments (non operating income) | (120) |  |\n| Interest income from investments (non operating income) | $(3,000)$ | 3,130 |\n| Operating profit |  | 68,918 |\n| Less: Increase in working capital |  | $(67,290)$ |\n| Cash from operations |  | 1,628 |\n| Less: Income tax paid |  | $(5,100)$ |\n| Net cash generated from operating activities |  | $(3,472)$ |\n| Cash flows from investing activities: |  |  |\n| Sale of assets (222. 48) | 174 |  |\n| Sale of investments $(33,318+120)$ | 33,438 |  |\n| Interest income from investments | 3,000 |  |\n| Purchase of Property, Plant & Equipment | $(22,092)$ |  |\n| Expenditure on construction work | $(41,688)$ |  |\n| Net cash used in investing activities |  | $(27,168)$ |\n| Cash flows from financing activities: |  |  |\n| Grants for capital projects | 18 |  |\n| Long term borrowings | 55,866 |  |\n| Interest paid | $(13,042)$ |  |\n| Dividend paid | $(10,202)$ |  |\n| Net cash from financing activities |  | 32,640 |\n| Net increase in cash |  | 2,000 |\n| Add: Cash and bank balance as on 1.4.20X1 |  | 6,000 |\n| Cash and bank balance as on 31.3.20X2 |  | 8,000 |",
+          "chapter_number": "11.2",
+          "chapter_name": "CASH FLOW STATEMENT",
+          "unique_id": "11.2-T-5"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "You are required to prepare a Balance Sheet as at 31st March 20X2, as per Schedule III of the Companies Act, 2013, from the following information of Mehar Ltd.:  \n\n| Particulars | Amount (Rs.) | Particulars | Amount (Rs.) |\n| :--- | :--- | :--- | :--- |\n| Term Loans (Secured) | 40,00,000 | Investments (non-current) | 9,00,000 |\n| Trade payables | 45,80,000 | Profit for the year | 32,00,000 |\n| Cash and Bank Balances | 38,40,000 | Trade receivables | 49,00,000 |\n| Staff Advances | 2,20,000 | Miscellaneous Expenses | 2,32,000 |\n| Other advances (given by Co.) | 14,88,000 | Loan from other parties | 8,00,000 |\n| Provision for Taxation | 10,20,000 | Provision for Doubtful Debts | 80,000 |\n| Securities Premium | 19,00,000 | Stores | 16,00,000 |\n| Loose Tools | 2,00,000 | Finished Goods | 30,00,000 |\n| General Reserve | 62,00,000 | Plant and Machinery (WDV) | 2,14,00,000 |  \n\n## Additional Information: -  \n1. Share Capital consists of -  \n(a) 1,20,000 Equity Shares of Rs. 100 each fully paid up.  \n(b) $40,000,10 \\%$ Redeemable Preference Shares of Rs. 100 each fully paid up.  \n2. Write off the amount of Miscellaneous Expenses in full, amounting Rs. 2,32,000.",
+          "answer": "Balance Sheet of Mehar Ltd. as at 31 ${ }^{\\text {st }}$ March, 20X2  \n\n|  |  |  | Note | き |\n| :--- | :--- | :--- | :--- | :--- |\n| I | EQUITY AND LIABILITIES: |  |  |  |\n| (1) | (a) | Share Capital | 1 | 1,60,00,000 |\n|  | (b) | Reserves and Surplus | 2 | 1,10,68,000 |\n| (2) | Non-current Liabilities |  |  |  |\n|  |  | Long term Borrowings- <br> Terms Loans (Secured) |  | 40,00,000 |\n| (3) | Current Liabilities |  |  |  |\n|  | (a) | Trade Payables |  | 45,80,000 |\n|  | (b) | Other current liabilities | 3 | 8,00,000 |\n|  | (c) | Short-term Provisions (Provision for taxation) |  | 10,20,000 |\n|  |  | Total |  | 3,74,68,000 |\n| II | ASSETS |  |  |  |\n| (1) | Non-current Assets |  |  |  |\n|  | (a) | Property, Plant and Equipment | 4 | 2,14,00,000 |\n|  | (b) | Non- current Investments |  | 9,00,000 |\n| (2) | Current Assets: |  |  |  |\n|  | (a) | Inventories | 5 | 48,00,000 |\n|  | (b) | Trade Receivables | 6 | 48,20,000 |\n|  | (c) | Cash and Cash Equivalents |  | 38,40,000 |\n|  | (d) | Short-term Loans and Advances | 7 | 17,08,000 |\n|  |  | Total |  | 3,74,68,000 |  \n\nNotes to accounts  \n\n|  |  |  | (Rs.) |\n| :--- | :--- | :--- | :--- |\n| 1. | Share Capital |  |  |\n|  | Authorized, issued, subscribed \\& called up |  |  |\n|  | 1,20,000, Equity Shares of Rs. 100 each | 1,20,00,000 |  |\n|  | 40,000 10\\% Redeemable Preference Shares of 100 each | 40,00,000 | 1,60,00,000 |\n| 2. | Reserves and Surplus |  |  |\n|  | Securities Premium Account | 19,00,000 |  |\n|  | General reserve | 62,00,000 |  |\n|  | Profit \\& Loss Balance |  |  |\n|  | Opening balance |  |  |\n|  | Profit for the period |  |  |\n|  | Less: Miscellaneous Expenditure written off (2,32,000) | 29,68,000 | 1,10,68,000 |\n| 3. | Other current liabilities |  |  |\n|  | Loan from other parties |  | 8,00,000 |\n| 4. | Property, plant and equipment |  |  |\n|  | Plant and Machinery (WDV) |  | 2,14,00,000 |\n| 5. | Inventories |  |  |\n|  | Finished Goods | 30,00,000 |  |\n|  | Stores | 16,00,000 |  |\n|  | Loose Tools | 2,00,000 | 48,00,000 |\n| 6. | Trade Receivables |  |  |\n|  | Trade receivables | 49,00,000 |  |\n|  | Less: Provision for Doubtful Debts | $(80,000)$ | 48,20,000 |\n| 7. | Short term loans \\& Advances |  |  |\n|  | Staff Advances* | 2,20,000 |  |\n|  | Other Advances* | 14,88,000 | 17,08,000 |  \n\n*Considered to be short term.",
+          "chapter_number": "11.1",
+          "chapter_name": "AS 21- CONSOLIDATED FINANCIAL STATEMENTS AMALGAMATIONS",
+          "unique_id": "11.1-T-5"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "10",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Question 6 (SM)\n\nA Ltd. acquired $\\mathbf{2 5} \\boldsymbol{\\%}$ of shares in B Ltd. as on 31.3.20X1 for Rs. 3 lakhs. The Balance Sheet of B Ltd. as on 31.3.20X1 is given below:\n\n|  | Rs. |\n| :--- | :--- |\n| Share Capital | 5,00,000 |\n| Reserves and Surplus | 5,00,000 |\n|  | 10,00,000 |\n| Fixed Assets | 5,00,000 |\n| Investments | 2,00,000 |\n| Current Assets | 3,00,000 |\n|  | 10,00,000 |\n\nDuring the year ended 31.3.20X2 the following are the additional information available:\n\n(i) A Ltd. received dividend from B Ltd., for the year ended 31.3.20X1 at $40 \\%$ from the Reserves.\n\n(ii) B Ltd., made a profit after tax of Rs. 7 lakhs for the year ended 31.3.20X2.\n\n(iii) B Ltd., declared a dividend @ 50\\% for the year ended 31.3.20X2 on 30.4.20X2.\n\nA Ltd. is preparing Consolidated Financial Statements in accordance with AS21 for its various subsidiaries. Calculate:\n\n(i) Goodwill if any on acquisition of B Ltd.'s shares.\n\n(ii) How A Ltd., will reflect the value of investment in B Ltd., in the Consolidated Financial Statements?\n\n(iii) How the dividend received from B Ltd. will be shown in the Consolidated Financial Statements?",
+          "answer": "In terms of AS 23, B Ltd. Will be considered as an associate company of A Ltd. as shares acquired represent to more than $20 \\%$.\n\n## (i) Calculation of Goodwill <br> (Rs. in lakhs)\n\n| Amount paid towards acquisition of stake in B Ltd. | 3.00 |\n| :--- | :--- |\n| Less: Pre-acquisition dividend ( $Rs. 5,00,000 \\times 40 \\% \\times 25 \\%$ ) | 0.50 |\n| Cost of Investment in B Ltd. | 2.50 |\n| Less: Share in the value of Equity of B Ltd. as at the date of investment [25\\% of Rs.10 lakhs (Rs.5 lakhs + Rs.5 lakhs -Rs. 2 lakhs)] | (2.00) |\n| Goodwill | 0.50 |\n\n\n| (ii) A Ltd. Consolidated Profit and Loss Account for the year ended 31 ${ }^{\\text {st }}$ March, 20X2 (An extract) |  |\n| :--- | :--- |\n|  | Rs. in lakhs |\n|  | Other income: |\n|  | Share of profits in B Ltd. |\n|  | Pre-acquisition Dividend received from |\n|  | B Ltd. |\n|  | Transfer to investment A/c |\n\n\n(iii) A Ltd.\n\nConsolidated Balance Sheet as on 31.3.20X2 (An extract)\n\n|  |  | Rs. in lakhs |\n| :--- | :--- | :--- |\n| Non-current investments |  |  |\n| Investment in B Ltd. |  |  |\n| Cost of Investment in B Ltd. | 2.50 |  |\n| Share of profit for year 20X1 - 20X2 | 1.75 |  |\n|  | 4.25 |  |\n| Add: Goodwill | NIL | 4.25 |\n\n\n## Working Notes:\n\n1. Pre-acquisition dividend received from B Ltd. amounting to Rs. 0.50 lakhs will be reduced from investment value in the books of A Ltd.\n\n2. B Ltd. made a profit of Rs.7 lakhs for the year ended 31st March, 20X2. A Ltd.'s share in the profits of Rs. 7 lakhs is Rs. 1.75 lakhs.\nInvestment in B Ltd. will be increased by Rs. 1.75 lakhs and consolidated profit and loss account of A Ltd. will be credited with Rs. 1.75 lakhs in the consolidated financial statement of A Ltd.\n\n3. Dividend declared on 30th April, 20X2 will not be recognized in the consolidated financial statement of A Ltd.",
+          "chapter_number": "10.2",
+          "chapter_name": "AS 21- CONSOLIDATED FINANCIAL STATEMENTS AMALGAMATIONS",
+          "unique_id": "10.2-T-6"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Question 2 (MTP 4 Marks July'25)\n\nAlpha Chemicals Ltd., a listed company, proposes a buy-back of $12 \\%$ of its equity share capital from its free reserves under Section 68 of the Companies Act, 2013. On scrutiny of its records, the following details were observed:\n\n1. The company intends to route the buy-back through its wholly-owned subsidiary.\n\n2. The company had defaulted on repayment of a term loan to a public sector bank, which was fully repaid 27 months ago.\n\n3. The company has not filed its Annual Return and Financial Statements for the preceding financial year.\n\n4. The company had declared a dividend in the last year, but the amount remains unpaid for 35 days from the date of declaration.\n\nYou are required to:\n\nExamine the compliance of Alpha Chemicals Ltd. with the requirements of Section 70 of the Companies Act, 2013 and state whether the company is eligible to proceed with the proposed buy-back.",
+          "answer": "As per Section 70 of the Companies Act, 2013, the company cannot buy back its own shares under the following conditions, all of which apply to Alpha Chemicals Ltd.:  \n\n## 1. Buy-back through Subsidiary - Prohibited  \n- Section 70(1)(a): A company shall not buy back shares through any subsidiary, including wholly owned subsidiaries.  \n\n## 2. Default in Term Loan - Three-Year Cooling Off Required  \n- Section 70(1)(c): A company that has defaulted in repayment of a term loan can buy back shares only after 3 years from the cessation of default.  \n- Alpha repaid the loan only 27 months ago - still short of the required 36 -month period. Hence, not eligible.  \n\n## 3. Non-Filing of Annual Return and Financial Statements  \n- Section 70(2): Buy-back is prohibited if the company has not complied with Sections:  \n- 92 (Annual Return)  \n- 129 (Financial Statements)  \n- Alpha has failed to file both which disqualifies it from buy-back.  \n\n4. Unpaid Dividend for More Than 30 Days  \n- Section 127 read with Section 70(2): Non-distribution of declared dividend within 30 days is a punishable offence.  \nDividend unpaid for 35 days, this is a default.  \nAlpha Chemicals Ltd. is not eligible to proceed with the buy-back under Section 70 due to multiple violations.",
+          "chapter_number": "12",
+          "chapter_name": "BUY-BACK OF SECURITIES",
+          "unique_id": "12-T-2"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "11",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Prepare Cash Flow Statement for the year ended 31st March, 20X2 in accordance with AS 3. (MTP 5 Marks Aug'24,MP[3])\n\nCash Flow (Abstract)\n\n| Inflows | Rs. | Outflows | Rs. |\n| :--- | :--- | :--- | :--- |\n| Opening cash and bank balance | 80,000 | Payment for Account Payables | 90,000 |\n| Share capital -shares issued | 5,00,000 | Salaries and wages | 25,000 |\n| Collection fromTrade |  | Payment of overheads | 15,000 |\n| Receivables | 3,50,000 | Machinery acquired | 4,00,000 |\n|  |  | Debentures redeemed | 50,000 |\n| Sale of Machinery | 70,000 | Bank loan repaid | 2,50,000 |\n|  |  | Tax paid | 1,55,000 |\n\n|  |  | Closing cash and bank balance | $\\underline{\\mathbf{1 5 , 0 0 0}}$ |\n| ---: | ---: | :--- | ---: |\n|  | $\\underline{\\mathbf{1 0 , 0 0 , 0 0 0}}$ |  | $\\underline{\\mathbf{1 0 , 0 0 , 0 0 0}}$ |",
+          "answer": "Cash Flow Statement for the year ended 31.3.20X2\n\n|  | Rs. | き |\n| :--- | :--- | :--- |\n| Cash flow from operating activities |  |  |\n| Cash received on account of trade receivables | 3,50,000 |  |\n| Cash paid on account of trade payables | $(90,000)$ |  |\n| Cash paid to employees (salaries and wages) | $(25,000)$ |  |\n| Other cash payments (overheads) | $\\underline{(15,000)}$ |  |\n| Cash generated from operations | 2,20,000 |  |\n| Income tax paid | (1,55,000) |  |\n| Net cash generated from operating activities |  | 65,000 |\n| Cash flow from investing activities |  |  |\n| Payment for purchase of machinery | (4,00,000) |  |\n| Proceeds from sale of machinery | 70,000 |  |\n| Net cash used in investment activities |  | (3,30,000) |\n| Cash flow from financing activities |  |  |\n| Proceeds from issue of share capital | 5,00,000 |  |\n| Bank loan repaid | (2,50,000) |  |\n| Debentures redeemed | $\\underline{(50,000)}$ |  |\n| Net cash used in financing activities |  | $\\underline{2,00,000}$ |\n| Net decrease in cash and cash equivalents |  | $(65,000)$ |\n| Cash and cash equivalents at the beginningof the year |  | $\\underline{80,000}$ |\n| Cash and cash equivalents at the end of the year |  | 15,000 |",
+          "chapter_number": "11.2",
+          "chapter_name": "CASH FLOW STATEMENT",
+          "unique_id": "11.2-T-4"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Due to inadequacy of profits during the year ended $31^{\text {st }}$ March, 20X2, DAY Ltd proposes to declare $9 \\%$ dividend out of General reserves. From the following particulars, ascertain the amount that can be utilized from the General reserves according to the Companies (Declaration of dividend) rules, 2014.\n\n|  | Rs. |\n| :--- | :--- |\n| 9,50,000, Equity Shares of Rs. 10 each fully paid up | 95,00,000 |\n| General reserves as on $1^{\text {st }}$ Apirl,20X1 | 18,50,000 |\n| Revaluation Reserve as on $1^{\text {st }}$ April,20X1 | 4,25,000 |\n| Net profit for the year ended $\\mathbf{3 1}^{\\text {st }}$ March,20X2 | 3,75,000 |\n| Average rate of dividend during the last 3 years has been | 12.5\\% |",
+          "answer": "| Amount that can be drawn from reserves for 9\\% dividend |  |\n| :--- | :--- |\n| 9\\% dividend on Rs. 95,00,000 | Rs. 8,55,000 |\n| Profits available |  |\n| Current year profit | (3,75,000) |\n| Amount which can be utilised from reserves | $\\underline{4,80,000}$ |\n\nConditions as per Companies (Declaration of dividend out of Reserves) Rules, 2014:\n\n## Condition I\n\nSince $9 \\%$ is lower than the average rate of dividend $(12.5 \\%)$, $9 \\%$ dividend can be declared.\n\nThus, this condition is satisfied.\n\n## Condition II\n\nMaximum amount that can be drawn from the accumulated profits and reserves should not exceed $10 \\%$ of paid up capital plus free reserves i.e. Rs. 11,35,000 [10\\% of (95,00,000+18,50,000)].\n\nThus, this condition too is satisfied.\n\n## Condition III\n\nThe balance of reserves after drawl Rs. $13,70,000$ (Rs. $18,50,000$ - Rs. $4,80,000$ ) should not fall below 15 .\\% of its paid up capital i.e. Rs. 14,25,000 (15\\% of Rs. $95,00,000$ ]\n\nThus, this condition is not satisfied, the company cannot withdraw Rs. $4,80,000$ from accumulated reserves.\n\nConclusion: Since condition-III is not satisfied, the Day Ltd cannot declare dividend @ 9\\%. However, all three conditions to be satisfied, Day Ltd. can MAXIMUM utilize Rs. $4,25,000$ and pay dividend to that extent.",
+          "chapter_number": "12",
+          "chapter_name": "BUY-BACK OF SECURITIES",
+          "unique_id": "12-T-15"
+        }
+      ]
+    }
+  ]
+}

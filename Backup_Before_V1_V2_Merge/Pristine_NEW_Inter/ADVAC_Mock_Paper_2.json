@@ -1,0 +1,421 @@
+{
+  "meta": {
+    "subject_code": "ADVAC",
+    "subject_name": "Advanced Accounting",
+    "paper_num": 2,
+    "total_marks_printed": 100,
+    "total_marks_in_paper": 114,
+    "section_a_marks": 30,
+    "section_b_marks": 84,
+    "note": "Section A: 15 MCQs @ 2 marks each (Case Study based). Section B: Q1 compulsory (14m). Attempt any 4 of Q2–Q6 (14m each).",
+    "blacklisted_from": [
+      "Generated_Papers/ADVAC/ADVAC_Mock_Paper_1.json"
+    ],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)",
+      "1(c)"
+    ]
+  },
+  "section_a": [
+    {
+      "type": "case_study",
+      "chapter_number": "16",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "## CS 8 (MTP 8 Marks July'24,MP[4]) (Chapter 9.1. AS 12-Accounting for Government Grants)\n\n\nVenus Limited received a parcel of land at no cost from the government for the purpose of developing a factory in an outlying area. The land is valued at ₹ 75 lakhs, while the nominal value is ₹ 10 lakhs. Additionally, the company received a government grant of ₹ 30 lakhs, which represents $25 \\%$ of the total investment needed for the factory development. Furthermore, the company received ₹ 15 lakhs with the stipulation that it be used to purchase machinery. There is no expectation from the government for the repayment of these grants. Answer the following questions based on the above information:\n\n\n1. The land received from Government, free of cost should be presented at:\n\n(a) ₹75 Lakhs\n\n(b) ₹ 30 Lakhs\n\n(c) ₹10 Lakhs\n\n(d) ₹45 Lakhs\n\n\nAns: (c)\n\n2. As per AS 12, how the Government Grant of ₹ 30 Lakhs should be presented:\n\n(a) It should be recognised in the profit and loss statement as per therelated cost.\n\n(b) It will be treated as capital reserve.\n\n(c) It will be treated as deferred income.\n\n(d) It will not be recognised in the financial statements.\n\n\nAns: (b)\n\n3. As per AS 12, how the Government Grant of ₹15 Lakhs with a condition to purchase machinery may be presented as:\n\n(a) Capital Reserve\n\n(b) Shareholders Fund\n\n(c) Deferred Income\n\n(d) Income in statement of profit and loss as received.\n\n\nAns: (c)\n\n4. Which of the above grants are required to be recognized in the statement of profit and loss on a systematic and rational basis over the useful lifeof the asset:\n\n(a) Land received as Grant\n\n(b) Government Grant of ₹ 30 Lakhs\n\n(c) Government Grant of ₹ 15 Lakhs with a condition to purchase machinery\n\n(d) Noe of the above\n\n\nAns: (c)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "The land received from Government, free of cost should be presented at:",
+          "options": {
+            "a": "₹75 Lakhs",
+            "b": "₹ 30 Lakhs",
+            "c": "₹10 Lakhs",
+            "d": "₹45 Lakhs"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "As per AS 12, how the Government Grant of ₹ 30 Lakhs should be presented:",
+          "options": {
+            "a": "It should be recognised in the profit and loss statement as per therelated cost.",
+            "b": "It will be treated as capital reserve.",
+            "c": "It will be treated as deferred income.",
+            "d": "It will not be recognised in the financial statements."
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "As per AS 12, how the Government Grant of ₹15 Lakhs with a condition to purchase machinery may be presented as:",
+          "options": {
+            "a": "Capital Reserve",
+            "b": "Shareholders Fund",
+            "c": "Deferred Income",
+            "d": "Income in statement of profit and loss as received."
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null
+        },
+        {
+          "q_num": 4,
+          "question": "Which of the above grants are required to be recognized in the statement of profit and loss on a systematic and rational basis over the useful lifeof the asset:",
+          "options": {
+            "a": "Land received as Grant",
+            "b": "Government Grant of ₹ 30 Lakhs",
+            "c": "Government Grant of ₹ 15 Lakhs with a condition to purchase machinery",
+            "d": "Noe of the above"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null
+        }
+      ],
+      "mcq_count": 4,
+      "unique_id": "cs__16__-8679973168384564116"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "16",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "## CS 9 (MTP 8Marks July'24,MP[4]) (Chapter 4.2 AS 3- Cash Flow Statement)\n\nAxis limited is a manufacturing company. It purchased a machinery costing ₹ 10 Lakhs in April 20 XX . It paid ₹ 4 lakhs upfront and paid the remaining $₹ 6,00,000$ as deferred payment by paying instalment of $₹ 1,05,000$ for the next 6 months. During the year, the Company sold a land which was classified as its 'property, plant and equipment' for ₹ $25,00,000$ and paid ₹ $1,00,000$ as income tax as long term capital gain on such sale. During the year, the Company also received income tax refund along with interest.\n\n1. As per the requirements of AS 3, 'Cash Flow Statements', how the amount for purchase of machinery should be presented:\n\n(a) ₹ 10 lakhs as 'Cash flows from Investing Activities' and ₹ 30,000 will simply be booked in profit and loss with no presentation if Cash Flow Statement.\n\n(b) ₹ 10.30 lakhs as 'Cash flows from Investing Activities' as entire amount is spend on purchase of machinery.\n\n(c) ₹ 10 lakhs as ‘Cash flows from Investing Activities’ and ₹ 30,000 as ‘Cash flows from Financing Activities'.\n\n(d) ₹ 10.30 lakhs as 'Cash flows from Financing Activities' as the machinery has been purchased on finance.\n\nAns: (c)\n\n2. At what amount, the machinery should be recognised in the financial statements:\n\n(a) $₹ 4,00,000$\n\n(b) ₹ $10,30,000$\n\n(c) ₹ $6,00,000$\n\n(d) ₹ $10,00,000$\n\n\nAns:(d)\n\n3. How should the income tax paid on sale of land should be disclosed in the Cash Flows Statement\n\n(a) Cash flows from Operating Activities\n\n(b) Cash flows from Investing Activities\n\n(c) Cash flows from Financing Activities\n\nGauresh । (d)3No disclosure in Cash Flow Statement\n\n\n## Ans:(b)\n\n4. How should the interest on income tax refunds should be disclosed in the Cash Flows Statement:\n\n(a) Cash flows from Operating Activities\n\n(b) Cash flows from Investing Activities\n\n(c) Cash flows from Financing Activities\n\n(d) No disclosure in Cash Flow Statement\n\n\nAns: (b)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "As per the requirements of AS 3, 'Cash Flow Statements', how the amount for purchase of machinery should be presented:",
+          "options": {
+            "a": "₹ 10 lakhs as 'Cash flows from Investing Activities' and ₹ 30,000 will simply be booked in profit and loss with no presentation if Cash Flow Statement.",
+            "b": "₹ 10.30 lakhs as 'Cash flows from Investing Activities' as entire amount is spend on purchase of machinery.",
+            "c": "₹ 10 lakhs as ‘Cash flows from Investing Activities’ and ₹ 30,000 as ‘Cash flows from Financing Activities'.",
+            "d": "₹ 10.30 lakhs as 'Cash flows from Financing Activities' as the machinery has been purchased on finance."
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "At what amount, the machinery should be recognised in the financial statements:",
+          "options": {
+            "a": "$₹ 4,00,000$",
+            "b": "₹ $10,30,000$",
+            "c": "₹ $6,00,000$",
+            "d": "₹ $10,00,000$"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "How should the income tax paid on sale of land should be disclosed in the Cash Flows Statement",
+          "options": {
+            "a": "Cash flows from Operating Activities",
+            "b": "Cash flows from Investing Activities",
+            "c": "Cash flows from Financing Activities",
+            "d": "No disclosure in Cash Flow Statement"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null
+        },
+        {
+          "q_num": 4,
+          "question": "How should the interest on income tax refunds should be disclosed in the Cash Flows Statement:",
+          "options": {
+            "a": "Cash flows from Operating Activities",
+            "b": "Cash flows from Investing Activities",
+            "c": "Cash flows from Financing Activities",
+            "d": "No disclosure in Cash Flow Statement"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null
+        }
+      ],
+      "mcq_count": 4,
+      "unique_id": "cs__16__7784960907672221983"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "16",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "## CS 12 (MTP 8 Marks Aug'24,MP[3]) (Chapter 5.6 AS 26- Intangible Assets)\n\nOn April 1, 2023, Hello Limited approached a software company for implementation of SAP ERP at its organisation. The cost of implementation of SAP ERP is ₹ $25,00,000$ and the time required is 15 months. The company was also required to pay ₹ 100,000 annually after implementation for maintenance and normal updation of ERP. The implementation work started in June, 2023 and could not be finished in 15 months. The ERP was implemented on May 2025. Due to delay in implementation the vendor refunded $₹ 2,00,000$. The Company recognised the intangible asset 'SAP ERP' on September 2024 (15 months from June 2023). After two years, the Company has got the SAP ERP more upgraded with latest version and additional features and functions which also increased its speed and usage to Hello Limited for ₹ 7,00,000.\n\n1. On which date the Intangible asset should be recognised:\n\n(a) April 2023 (When it was decided that SAP ERP is to be implemented)\n\n(b) June 2023 (When the implementation work started)\n\n(c) September 2024 (When the implementation work should have completed as per agreed terms)\n\n(d) May 2025 (When the SAP actually got implemented)\n\n\nAns: (d)\n\n2. At what amount the SAP ERP should be initially recognised as intangible asset:\n\n(a) ₹ $25,00,000$\n\n(b) ₹ $26,00,000$\n\n(c) ₹ $23,00,000$\n\n(d) ₹ $32,00,000$\n\n\nAns: (c)\n\n3. How should the annual maintenance and updation expenses should be accounted for:\n\n(a) Should be capitalised with 'Intangible Asset'\n\n(b) Should be recognised as a separate 'Intangible Asset'\n\n(c) Should be recognised as expense in Profit and Loss annually.\n\n(d) No accounting is required\n\n\nAns: (c)\n\n4. During the implementation period, how the expenditure incurred will be accounted for:\n\n(a) It will be expensed in profit and loss as and when incurred\n\n(b) It will be recognised as an asset 'Intangible asset under development'\n\n(c) It will only be disclosed in notes to accounts and will be recognised when complete\n\n(d) It will be recognised as an item of Property, Plant and Equipment\n\n\nAns: (b)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "On which date the Intangible asset should be recognised:\n\n(a) April 2023 (When it was decided that SAP ERP is to be implemented)\n\n(b) June 2023 (When the implementation work started)\n\n(c) September 2024 (When the implementation work should have completed as per agreed terms)\n\n(d) May 2025 (When the SAP actually got implemented)",
+          "options": {
+            "a": "April 2023 (When it was decided that SAP ERP is to be implemented)",
+            "b": "June 2023 (When the implementation work started)",
+            "c": "September 2024 (When the implementation work should have completed as per agreed terms)",
+            "d": "May 2025 (When the SAP actually got implemented)"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "At what amount the SAP ERP should be initially recognised as intangible asset:\n\n(a) ₹ $25,00,000$\n\n(b) ₹ $26,00,000$\n\n(c) ₹ $23,00,000$\n\n(d) ₹ $32,00,000$",
+          "options": {
+            "a": "₹ $25,00,000$",
+            "b": "₹ $26,00,000$",
+            "c": "₹ $23,00,000$",
+            "d": "₹ $32,00,000$"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "How should the annual maintenance and updation expenses should be accounted for:\n\n(a) Should be capitalised with 'Intangible Asset'\n\n(b) Should be recognised as a separate 'Intangible Asset'\n\n(c) Should be recognised as expense in Profit and Loss annually.\n\n(d) No accounting is required",
+          "options": {
+            "a": "Should be capitalised with 'Intangible Asset'",
+            "b": "Should be recognised as a separate 'Intangible Asset'",
+            "c": "Should be recognised as expense in Profit and Loss annually.",
+            "d": "No accounting is required"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null
+        },
+        {
+          "q_num": 4,
+          "question": "During the implementation period, how the expenditure incurred will be accounted for:\n\n(a) It will be expensed in profit and loss as and when incurred\n\n(b) It will be recognised as an asset 'Intangible asset under development'\n\n(c) It will only be disclosed in notes to accounts and will be recognised when complete\n\n(d) It will be recognised as an item of Property, Plant and Equipment",
+          "options": {
+            "a": "It will be expensed in profit and loss as and when incurred",
+            "b": "It will be recognised as an asset 'Intangible asset under development'",
+            "c": "It will only be disclosed in notes to accounts and will be recognised when complete",
+            "d": "It will be recognised as an item of Property, Plant and Equipment"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null
+        }
+      ],
+      "mcq_count": 4,
+      "unique_id": "cs__16__-4797057066389395127"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "16",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "## CS 6 (MTP 6 Marks Apr'24,MP[2]) (Chapter 12: Buyback of Securities)\n\nKumar Ltd., a privately-held company, operates in the manufacturing industry. Founded in 2008, the company has steadily grown its operations and established a strong presence in the market. As of 31st March, 20XX, the company's capital structure reflects a blend of equity and debt financing.\n\nCapital Structure Overview:\n\n\n- Equity Share Capital: The company has a total of ₹ $30,00,000$ invested in equity shares, each valued at ₹ 10 and fully paid.\n\n- Reserves \\& Surplus: Kumar Ltd. has accumulated reserves and surplus totaling ₹49,00,000, comprising contributions from various sources including General Reserve ( $₹ 32,50,000$ ), Security Premium Account ( ₹ $6,00,000$ ), Profit \\& Loss Account (₹ $4,30,000$ ), and Revaluation Reserve ( $₹ 6,20,000$ ).\n\n- Loan Funds: The company has acquired loan funds amounting to ₹ $\\mathbf{4 2 , 0 0 , 0 0 0}$ to support its operational and growth initiatives.\n\nBuy-Back Decision:\n\nConsidering its financial position and market conditions, Kumar Ltd. has decided to initiate a share buy-back program. The company intends to repurchase its shares at a price of ₹30 per share.\n\nIn accordance with financial regulations and internal policies, Kumar Ltd. aims to assess the maximum number of shares it can repurchase while maintaining a prudent debt-equity ratio. By utilizing the Debt Equity Ratio Test, the company seeks to strike a balance between its equity base and debt obligations.\n\nBased on the above information, answer the following questions.\n\n\n1. What is the minimum equity Kumar Ltd. needs to maintain after buy-back, according to the Debt Equity Ratio Test?\n\n(a) ₹ $12,95,000$\n\n(b) ₹ $21,00,000$\n\n(c) ₹ $32,50,000$\n\n(d) $₹ 6,00,000$\n\n\nAns: (b)\n\n2. What is the maximum permitted buy-back of equity for Kumar Ltd.?\n\n(a) ₹ $38,85,000$\n\n(b) ₹ $42,00,000$\n\n(c) ₹ $12,95,000$\n\n(d) ₹ $59,85,000$\n\n\nAns: (a)\n\n3. How many shares of Kumar Ltd. can be bought back at ₹ 30 per share according to the Debt Equity Ratio Test?\n\n(a) 43,000\n\n(b) $1,29,500$\n\n(c) $2,00,000$\n\n(d) 78,000\n\n\nAns: (b)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "What is the minimum equity Kumar Ltd. needs to maintain after buy-back, according to the Debt Equity Ratio Test?",
+          "options": {
+            "a": "₹ $12,95,000$",
+            "b": "₹ $21,00,000$",
+            "c": "₹ $32,50,000$",
+            "d": "$₹ 6,00,000$"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "What is the maximum permitted buy-back of equity for Kumar Ltd.?",
+          "options": {
+            "a": "₹ $38,85,000$",
+            "b": "₹ $42,00,000$",
+            "c": "₹ $12,95,000$",
+            "d": "₹ $59,85,000$"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "How many shares of Kumar Ltd. can be bought back at ₹ 30 per share according to the Debt Equity Ratio Test?",
+          "options": {
+            "a": "43,000",
+            "b": "$1,29,500$",
+            "c": "$2,00,000$",
+            "d": "78,000"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null
+        }
+      ],
+      "mcq_count": 3,
+      "unique_id": "cs__16__7837196603328893955"
+    }
+  ],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": true,
+      "total_marks": 14,
+      "chapter_number": "5",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Is it permissible to capitalise borrowing costs incurred on assets which are necessary for the construction of qualifying assets? A company is in the process of constructing a large manufacturing plant in a backward area. As a part of this project it has also purchased a residential building, which is to be used for housing the workers engaged in the construction of the plant. The purchase cost of the building is met by raising a long term loan. The company intends to dispose off the building once the construction of the manufacturing plant is complete. If the manufacturing plant meets the definition of a qualifying asset, would the borrowing costs incurred on funds borrowed to purchase the residential building be eligible for capitalisation? (RTP Sep'25)",
+          "answer": "As per para 3 of AS 16 \"Borrowing Costs\" defines a qualifying asset as \"an asset that necessarily takes a substantial period of time to get ready for its intended use or sale\". Further, para 5 of the AS explains that \"Assets that are ready for their intended use or sale when acquired also are not qualifying assets\".\n\nIn the given case, prima facie, it may appear that the residential building is ready for use when acquired, and thus, borrowing costs incurred on purchase of residential building should not be capitalised. However, since in the present case provision of housing facilities is necessary for the construction of the plant, the borrowing costs incurred are, in substance, directly attributable to the construction of the manufacturing plant. Accordingly, the company should capitalise, as a part of the cost of the manufacturing plant, borrowing costs incurred on funds borrowed to acquire the residential building up to the period the manufacturing plant is ready for its intended use.",
+          "chapter_number": "5.4",
+          "chapter_name": "AS 16 BORROWING COSTS",
+          "unique_id": "5.4-T-3"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "```\nA Ltd. provides after sales warranty for two years to its customers. Based on past experience, the company has the following policy for making provision for warranties on the invoice amount, on the remaining balance warranty period.\n\nLess than 1 year: 2% provision\nMore than 1 year: 3% provision\n\nThe company has raised invoices as under :\n\n| Invoice Date       | Amount (₹) |\n|--------------------|------------|\n| 11th Feb, 2022     | 60,000     |\n| 25th Dec, 2022     | 40,000     |\n| 04th Oct, 2023     | 1,35,000   |\n\nCalculate the provision to be made for warranty under AS-29 as at 31st March, 2023 and 31st March, 2024. Also compute amount to be debited to P & L account for the year ended 31st March, 2024.\n```",
+          "answer": "```\nProvision to be made for warranty under AS 29 ‘Provisions, Contingent Liabilities and Contingent Assets’\nAs at 31st March, 2023      = ₹ 60,000 x .02 + ₹ 40,000 x .03\n                            = ₹ 1,200 + ₹ 1,200 = ₹ 2,400\nAs at 31st March, 2024      = ₹ 40,000 x .02 + ₹ 1,35,000 x .03\n                            = ₹ 800 + ₹ 4,050 = ₹ 4,850\n\nAmount debited to Profit and Loss Account for year ended 31st March, 2024\n₹\nBalance of provision required as on 31.03.2024          4,850\nLess: Opening Balance as on 1.4.2023                    (2,400)\nAmount debited to profit and loss account                 2,450\n1\nNote: No provision will be made on 31st March, 2024 in respect of sales amounting ₹ 60,000 made on 11th February, 2022 as the warranty period of 2 years has already expired.\n```",
+          "chapter_number": "11",
+          "chapter_name": "ACCOUNTING STANDARDS (AS-29 PROVISIONS, CONTINGENT LIABILITIES)",
+          "unique_id": "BQ-5"
+        },
+        {
+          "label": "c",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Prepare cash flow from investing activities as per AS 3 of M/s Subham Creative Limited for year ended 31.3.2026. (PYP Nov'19,5 Marks, SM) (MTP 5 Marks Apr'22 & Oct '23) (Same concept lesser adjustments- MTP 4 Marks Mar'21)\n\n| Particulars | Amount (Rs. ) |\n| :--- | :--- |\n| Machinery acquired by issue of shares at face value | 2,00,000 |\n| Claim received for loss of machinery in earthquake | 55,000 |\n| Unsecured loans given to associates | 5,00,000 |\n| Interest on loan received form associate company | 70,000 |\n| Pre-acquisition dividend received on investment made ${ }^{37317945}$ | 52,600 |\n| Debenture interest paid | 1,45,200 |\n| Term loan repaid | 4,50,000 |\n| Interest received on investment (TDS of Rs. 8,200 was deducted on the above interest) | 73,800 |\n| Purchased debentures of X Ltd., on 1st December, 2025 which are redeemable within 3 months | 3,00,000 |\n| Book value of plant & machinery sold (loss incurred Rs. 9,600) | 90,000 |",
+          "answer": "Cash Flow Statement from Investing Activities of Subham Creative Limited for the year ended 31-03-2026\n\n| Cash generated from investing activities | Rs. | Rs. |\n| :--- | :--- | :--- |\n| Interest on loan received | 70,000 |  |\n| Pre-acquisition dividend received on investment made | 52,600 |  |\n| Unsecured loans given to subsidiaries | (5,00,000) |  |\n| Interest received on investments (gross value) | 82,000 |  |\n| TDS deducted on interest | $(8,200)$ |  |\n| Sale of Plant & Machinery Rs. ( $90,000-9,600$ ) | 80,400 |  |\n| Cash used in investing activities (before extra-ordinary item) |  | (2,23,200) |\n| Extraordinary claim received for loss of machinery |  | 55,000 |\n| Net cash used in investing activities (after extra-ordinary item) |  | (1,68,200) |\n\n## Note:\n\n1. Debenture interest paid and Term Loan repaid are financing activities and therefore not considered for preparing cash flow from investing activities.\n\n2. Machinery acquired by issue of shares does not amount to cash outflow, hence also not considered in the above cash flow statement.\n\n3. The investments made in debentures are for short-term, it will be treated as 'cash equivalent' and will not be considered as outflow in cash flow statement.",
+          "chapter_number": "4.2",
+          "chapter_name": "AS 3- CASH FLOW STATEMENT",
+          "unique_id": "4.2-T-8"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "1",
+      "sub_questions": [
+        {
+          "label": "—",
+          "marks": 14,
+          "internal_split": null,
+          "question": "Question 18 (PYP 14 Marks Sep'25)\n\nOn 31st March 2025, the following balances are extracted from the books of Chia Limited:\n\n\n| Particulars | Rs. in Lakhs |\n| :--- | :--- |\n| 40,000 Equity Shares of Rs. 100 each | 40.00 |\n| Money received against share warrants | 2.70 |\n| General Reserves | 6.90 |\n| Capital Reserves (Rs. 20,000 is Revaluation Reserve) | 12.50 |\n| Profit and Loss account | 3.50 |\n| Securities Premium | 0.75 |\n| Deferred tax liabilities (Net) | 0.56 |\n| 10\\% Debentures (secured) | 5.00 |\n| Loan from SSA Finance Corporation | 10.00 |\n| Other Long Term Loans (unsecured) | 4.25 |\n| Short-term borrowings | 6.95 |\n| Trade Payables | 5.69 |\n| Other current liabilities | 1.41 |\n| Short-term Provisions | 1.36 |\n| Total | 101.57 |\n| Freehold Land | 30.88 |\n| Plant \\& Machinery | 26.80 |\n| Investment in Debentures of Gland Limited | 6.00 |\n| Capital work in progress | 11.40 |\n| Trade receivables | 11.57 |\n| Inventories (finished goods) (as on $31^{\\text {st }}$ March 2025) | 4.67 |\n| Goods-in transit (finished goods) (as on $31{ }^{\\text {st }}$ March 2025) | 1.35 |\n| Call in arrears | 0.64 |\n| Cash in hand | 0.56 |\n| Balances with banks | $\\underline{7.70}$ |\n| Total | 101.57 |\n\nThe following additional information is also provided:\n\n(i) The Authorised Share Capital consists of 50,000 Equity Shares of Rs. 100 each.\n\n(ii) 5,000 fully paid equity shares were allotted as consideration other than cash.\n\n(iii) Debentures of Glad Limited are acquired by the Company with the intention of holding them for more than two years.\n\n(iv) The Cost of Plant and Machinery is Rs. $41,00,000$.\n\n(v) The balance in loan from SSA Finance Corporation includes Rs. 45,000 for interest accrued but not due. The loan is secured by hypothecation of Plant \\& Machinery. Loan is repayable in June 2028.\n\n(vi) Short-term borrowings include:\n\n- Loan from CDC Bank (secured) Rs. 4,50,000\n\n- Loan from related parties (unsecured) Rs. 54,000\n\n(vii) Trade Receivables of Rs. $5,26,000$ are due for more than 6 months.\n\n(viii) Bills Receivable for Rs. 58,000 , maturing on $6^{\\text {th }}$ May 2025, have been discounted on $15^{\\text {th }}$ March 2025.\n\n(ix) The Company on the advice of an independent valuer revalued the freehold land at Rs. $40,50,000$.\n\n(x) Inventory of finished goods includes loose tools costing Rs. $1,02,000$, which do not meet the definition of Property, Plant \\& Equipment as per AS 10.\n\n(xi) Claims against the Company amounting to Rs. $4,15,000$ have not been acknowledged as debt.\n\n(xii)Balances with banks include $Rs. 24,000$ with Vihar Bank, which is not a Scheduled Bank.\n\nYou are required to prepare the Balance Sheet of Chia Limited as on $31^{\\text {st }}$ March 2025 as per Schedule III of the Companies Act, 2013 (Ignore previous year figures).",
+          "answer": "## Answer 18\n\n## Chia Ltd.\n\nBalance Sheet as at 31st March, 2025\n\n|  |  | Particulars | Notes | Rs. in lakhs |\n| :--- | :--- | :--- | :--- | :--- |\n|  |  | Equity and Liabilities |  |  |\n| 1 |  | Shareholders' funds |  |  |\n|  | a | Share capital | 1 | 39.36 |\n|  | b | Reserves and Surplus | 2 | 33.27 |\n|  | c | Money received against share warrant |  | 2.7 |\n| 2 |  | Non-current liabilities |  |  |\n|  | a | Long-term borrowings | 3 | 18.8 |\n|  | b | Deferred tax liabilities (Net) |  | 0.56 |\n| 3 |  | Current liabilities |  |  |\n|  | a | Short-term borrowings | 4 | 6.95 |\n|  | b | Trade Payables |  | 5.69 |\n|  | c | Other Current Liabilities: | 5 | 1.86 |\n|  | d | Short-term provisions |  | $\\underline{1.36}$ |\n|  |  | Total |  | 110.55 |\n|  |  | Assets |  |  |\n| 1 |  | Non-current assets |  |  |\n|  | a (i) | Property, Plant and Equipment | 6 | 67.3 |\n|  | (ii) | Capital work in progress |  | 11.4 |\n|  | b | Non-current investments | 7 | 6 |\n| 2 |  | Current assets |  |  |\n|  | a | Inventories | 8 | 6.02 |\n|  | b | Trade receivables | 9 | 11.57 |\n|  | c | Cash and cash equivalents | 10 | 8.26 |\n|  |  | Total |  | $\\underline{110.55}$ |\n\n\n## Notes to accounts\n\n|  |  | Rs. in lakhs |\n| :--- | :--- | :--- |\n| 1 | Share Capital |  |\n|  | Authorized share capital |  |\n|  | 50,000 Equity Shares of Rs. 100 each | 50.00 |\n|  | Equity share capital |  |\n|  | Issued \\& subscribed \\& called up |  |  |\n| :--- | :--- | :--- | :--- |\n|  | 40,000 Equity Shares of Rs. 100 each (Out of the above 5,000 shares have been issued for consideration other than cash) | 40.00 |  |\n|  | Less: Calls in arrears | (0.64) | $\\underline{39.36}$ |\n|  | Total |  | 39.36 |\n| 2 | Reserves and Surplus |  |  |\n|  | General Reserve |  | 6.90 |\n|  | Securities premium |  | 0.75 |\n|  | Capital reserve |  | 12.3 |\n|  | Revaluation (0.20+ 9.62) |  | 9.82 |\n|  | Profit \\& Loss |  | $\\underline{3.50}$ |\n|  | Total |  | 33.27 |\n| 3 | Long-term borrowings |  |  |\n|  | Secured |  |  |\n|  | 10\\% debentures |  | 5.00 |\n|  | Loan from SSA Financial Corporation (10.00-0.45) (Secured by hypothecation of Plant and Machinery) |  | 9.55 |\n|  | Unsecured Loan-others |  | $\\underline{4.25}$ |\n|  | Total |  | $\\underline{18.80}$ |\n| 4 | Short term Borrowings |  |  |\n|  | Secured-Loans CDC bank |  | 4.50 |\n|  | Unsecured |  |  |\n|  | Loan from related parties | 0.54 |  |\n|  | Others | $\\underline{1.91}$ | $\\underline{2.45}$ |\n|  | Total |  | $\\underline{6.95}$ |\n| 5 | Other current liabilities: |  |  |\n|  | Interest accrued but not due | 0.45 |  |\n|  | Others | $\\underline{1.41}$ | $\\underline{1.86}$ |\n| 6 | Property, plant and equipment |  |  |\n|  | Freehold Land | 30.88 |  |\n|  | Add: Revaluation gain | $\\underline{9.62}$ | 40.50 |\n|  | Plant \\& Machinery | 41.00 |  |\n|  | Less: Depreciation | (14.20) | $\\underline{26.80}$ |\n|  | Total |  | $\\underline{67.30}$ |\n| 7 | Non-current investment |  |  |\n|  | Investment in debentures of Glad Ltd. |  | 6.00 |\n| 8 | Inventories |  |  |\n|  | Loose tools |  | 1.02 |\n|  | Goods in transit |  | 1.35 |\n|  | Finished goods |  | $\\underline{3.65}$ |\n|  | Total |  | 6.02 |\n| 9 | Trade receivables |  |  |\n|  | Debts Outstanding for a period exceeding six months |  | 5.26 |\n| 10 | Other Amounts |  | $\\underline{6.31}$ |\n|  | Total |  | 11.57 |\n|  | Cash and cash equivalents Cash at bank |  |  |\n|  | with Scheduled Banks | 7.46 |  |\n|  | with others | 0.24 | 7.70 |\n|  | Cash in hand |  | $\\underline{0.56}$ |\n|  | Other bank balances |  |  |\n|  | Total |  | 8.26 |\n\n\n## Contingent Liabilities\n\n1. Claims against the company of $Rs. 4,15,000$ have not been acknowledged as debt.\n2. Bills receivable for $Rs. 58,000$ maturing on $6^{\\text {th }}$ May 2025 have been discounted. (Not matured)",
+          "chapter_number": "11.1",
+          "chapter_name": "AS 21- CONSOLIDATED FINANCIAL STATEMENTS AMALGAMATIONS",
+          "unique_id": "11.1-T-18"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "11",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "XYZ Ltd. proposes to declare 10\\% dividend out of General Reserves due to inadequacy of profits in the year ending 31-03-20X2. From the following particulars ascertain the amount that can be utilized from general reserves, according to the Companies Rules, 2014:\n\n|  | (Rs.) |\n| :--- | :--- |\n| 8,00,000 Equity Shares of Rs. 10 each fully paid up | 80,00,000 |\n| General Reserves | 25,00,000 |\n| Revaluation Reserves | 6,50,000 |\n| Net profit for the year | 1,42,500 |\n\nAverage rate of dividend during the last five years has been $12 \\%$.\n\n(MTP 4 Marks Apr'21, Apr'22, Aug'24, RTP May'21,MP[3])",
+          "answer": "Amount that can be drawn from reserves for ( $10 \\%$ dividend on Rs. $80,00,000$ i.e. Rs. $8,00,000$ )\n\nProfits available\n\nCurrent year profit Rs. 1,42,500\n\nAmount which can be utilized from reserves ( Rs. $8,00,000-1,42,500$ ) Rs.6,57,500\n\nConditions as per Companies (Declaration of dividend out of Reserves) Rules, 2014:\n\n## Condition 1\n\nSince 10\\% is lower than the average rate of dividend ( $12 \\%$ ), $10 \\%$ dividend can be declared.\n\n## Condition II\n\nMaximum amount that can be drawn from the accumulated profits and reserves should not exceed $10 \\%$ of paid-up capital plus free reserves ie. Rs. $10,50,000[10 \\%$ of $(80,00,000+25,00,000)]$\n\n## Condition III\n\nThe balance of reserves after drawl Rs. $18,42,500$ (Rs. $25,00,000$ - Rs. $6,57,500$ ) should not fall below $15 \\%$ of its paidup capital ie. Rs. $12,00,000$ ( $15 \\%$ of Rs. $80,00,000$ ]\n\nSince all the three conditions are satisfied, the company can withdraw Rs. $6,57,500$ from accumulated reserve (as per Declaration and Payment of Dividend Rules, 2014).",
+          "chapter_number": "11.1",
+          "chapter_name": "AS 21- CONSOLIDATED FINANCIAL STATEMENTS AMALGAMATIONS",
+          "unique_id": "11.1-T-4"
+        },
+        {
+          "label": "b",
+          "marks": 8,
+          "internal_split": null,
+          "question": "Question 9 (MTP 5 Marks Sep '23)\n\nA Ltd. had following assets. Calculate depreciation for the year ended 31st March, 2026 for each asset as per AS 10 (Revised):\n\n(i) Machinery purchased for Rs. 10 lakhs on $1^{\\text {st }}$ April, 2021 and residual value after useful life of 5 years, based on 2021 prices is Rs. 10 lakhs.\n\n(ii) Land for Rs. 50 lakhs.\n\n(iii) A Machinery is constructed for $Rs. 5,00,000$ for its own use (useful life is 10 years). Construction is completed on $1^{\\text {st }}$ April, 2025, but the company does not begin using the machine until 31st March, 2026.\n\n(iv) Machinery purchased on $1^{\\text {st }}$ April. 2023 for Rs. 50,000 with useful life of 5 years and residual value is NIL. On $1^{\\text {st }}$ April, 2025, management decided to use this asset for further 2 years only. (PYP 5 Marks Nov 20)\n\nComputation of amount of depreciation as per AS 10",
+          "answer": "Answer 9\n\n|  |  |  |\n| :--- | :--- | :--- |\n| (i) | Machinery purchased on 1/4/21 for Rs. 10 lakhs (having residual value of Rs. 10 lakhs) Reason: The company considers that the residual value, based on prices prevailing at the balance sheet date, will equal the cost. Therefore, there is no depreciable amount and depreciation is correctly zero. | Nil |\n| (ii) | Land (50 lakhs) (considered freehold) Reason: Land has an unlimited useful life and therefore, it is not depreciated. | Nil |\n| (iii) | Machinery constructed for own use (Rs. $5,00,000 / 10$ ) Reason: The entity should begin charging depreciation from the date the machine is ready for use i.e. 1st April,2025. The fact that the machine was not used for a period after it was ready to be used is not relevant in considering when to begin charging depreciation. | 50,000 |\n| (iv) | Machinery having revised useful life Reason: The entity has charged depreciation using the straight-line method at Rs. 10,000 per annum i.e. $(50,000 / 5$ years $)$. On 1st April, 2025 the asset's net book value is [ $50,000-(10,000 \\times$ 2)] i.e. Rs. 30,000 . The remaining useful life is 2 years as per revised estimate. The company should amend the annual provision for depreciation to charge the unamortized cost over the revised remaining life of 2 years. Consequently, it should charge depreciation for the next 2 years at Rs. 15,000 per annum i.e. (30,000 / 2 years). | 15,000 |",
+          "chapter_number": "5.2",
+          "chapter_name": "AS-10 PROPERTY, PLANT AND EQUIPMENT",
+          "unique_id": "5.2-T-9"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "1",
+      "sub_questions": [
+        {
+          "label": "—",
+          "marks": 14,
+          "internal_split": null,
+          "question": "```\nThe following are the summarized Balance Sheets of B Ltd. and G Ltd. as at 31st March, 2025:\n\n| Particulars                     | Notes | B Ltd. (₹) | G Ltd. (₹) |\n|----------------------------------|-------|------------|------------|\n| 1.                               |       |            |            |\n| EQUITY AND LIABILITIES           |       |            |            |\n| Shareholders' Funds              |       |            |            |\n| a. Share Capital                 | 1     | 46,30,000  | 14,20,000  |\n```\n\n```\nb. Reserves and Surplus                     2      17,50,000     -6,45,000\n2. Non-current Liabilities\n   a. Long-term Borrowings                   3      19,40,000      5,72,500\n   b. Current Liabilities\n      Trade Payables                         14,72,000      2,64,000\n      Short-term Borrowings                          -      1,89,500\n   Total                                   97,92,000     18,01,000\nASSETS\n1. Non-current Assets\n   a. Property, Plant and Equipment         63,00,000     14,53,000\n   b. Non-current Investments                23,50,000          -\n2. Current Assets\n   a. Inventories                             43,000      1,16,000\n   b. Trade Receivables                     7,90,000      2,32,000\n   c. Cash and Cash Equivalents             3,09,000          -\n   Total                                   97,92,000     18,01,000\n\nNotes to Accounts: \nB Ltd. (₹)                G Ltd. (₹)\n1. Share Capital\n   Equity Share Capital\n   Issued, subscribed & paid-up capital\n   Equity Shares of ₹ 100 each            36,50,000     11,50,000\n   Preference Share Capital\n   Issued, subscribed & paid-up capital\n   9% Preference Shares of ₹ 100 each      9,80,000          -\n   10% Preference Shares of ₹ 100 each     2,70,000          -\n2. Reserves and Surplus\n   Balance of Profit and Loss A/c          17,50,000     -6,45,000\n```\n\n```\n3.  Long-term Borrowings\n    9% Debentures of ₹ 100 each                     10,90,000    -\n    10% Debentures of ₹ 100 each                    -            1,80,000\n    Loan from Banks                                  8,50,000     3,92,500\n\nDetails of Trade Receivables and Trade Payables are as under:\n\n| B Ltd. (₹)      | G Ltd. (₹)      |\n|------------------|------------------|\n| 1. Trade Receivables |                  |\n| Debtors          | 7,30,000        | 1,75,000        |\n| Bills Receivables | 60,000          | 57,000          |\n|                  | 7,90,000        | 2,32,000        |\n| 2. Trade Payables  |                  |\n| Creditors        | 13,85,000       | 2,25,000        |\n| Bills Payables   | 87,000          | 39,000          |\n|                  | 14,72,000       | 2,64,000        |\n\nOn 31.03.2025, B Ltd. absorbs the business of G Ltd. on the following terms:\n\n(i) For every equity share held by the equity shareholders of G Ltd., they receive ₹ 10 in cash and one equity shares of ₹ 100 each at par in B Ltd.\n\n(ii) The 10% debenture-holders of G Ltd. were to be allotted such 9% debentures of ₹ 100 each in B Ltd. as would bring the same amount of interest.\n\n(iii) 10% Preference Shareholders of G Ltd. are to be paid at 15% premium by issue of 9% Preference Shares of ₹ 100 each in B Ltd., in such a way that the existing dividend quantum of the preference shareholders of G Limited will not get affected.\n\n(iv) A contingent liability of G Limited amounting to ₹ 72,000 to be treated as actual liability in trade payables.\n\n(v) Expenses of Liquidation of G Ltd. are to be reimbursed by B Ltd. ₹ 10,000.\n\n(vi) Inventory of G Ltd. is taken over at 10% more than their book value by B Ltd.\n\n(vii) Debtors of B Ltd. include ₹ 51,400 receivables from G Ltd.\n\n(viii) Property, Plant and Equipment of G Ltd. are valued at 20% above their book value.\n```\n\n```\n(ix) The remaining Assets and Liabilities of G Ltd. are taken over at book value by B Ltd.\n\nYou are required to:\n\n(a) Pass the Journal Entries to record the above in the books of B Ltd.\n\n(b) Prepare Balance Sheet of B Ltd. as at 31st March, 2025 after absorption.\n\n(14 Marks)\n```",
+          "answer": "```\nCalculation of Purchase Consideration\n\n| Particulars                                         | Computation            | B Ltd. (₹)      |\n|----------------------------------------------------|------------------------|------------------|\n| i Amount Payable to Equity Shareholders             |                        |                  |\n| In the form of                                     |                        |                  |\n| 11,500 equity shares of ₹ 100 each                 | 11,500 x 100          | 11,50,000        |\n| Cash                                               | 11,500 x 10           | 1,15,000         |\n| Subtotal (i)                                       |                        | 12,65,000        |\n| ii Amount payable to Preference shareholders        |                        |                  |\n| In the form of                                     |                        |                  |\n| 3,000 9% Preference Share of ₹ 100 each           | 3,000 x 100           | 3,00,000         |\n| [27,000/9% = 30,000 shares]                        |                        |                  |\n| Premium on preference shares [₹ 3,10,500 - ₹ 3,00,000] |                        |                  |\n| [₹ 2,70,000 +15% premium= 3,10,500] - (ii)        |                        | 10,500           |\n| iii Total Purchase Consideration (i + ii)          |                        | 15,75,500        |\n\nIn Books of B Ltd.  \nJournal Entries\n\n| Particulars                     | Debit ₹     | Credit ₹    |\n|----------------------------------|-------------|-------------|\n| 1 Business Purchase A/c          | Dr. 15,75,500 | 15,75,500   |\n| To Liquidators of G Ltd         |             |             |\n| (Being the purchase consideration payable for the business of G Ltd. | | |\n```\n\n```\n2\nProperty, Plant and Equipment A/c (14,53,000 + 20%)\nDr. 17,43,600\nInventories A/c\nDr. 1,27,600\nTrade Receivables\nDr. 2,32,000\nGoodwill\nTo 10% Debentures A/c 2,00,000\nTo Loan from Bank A/c 3,92,500\nTo Short term borrowings A/c 1,89,500\nTo Trade payables A/c (2,64,000 + 72,000) 3,36,000\nTo Business purchase A/c 15,75,500\n(Being the various assets and liabilities of G Ltd. taken over)\n\n3\nLiquidator of G Ltd. A/c\nDr. 15,75,500\nTo Equity Share Capital A/c 11,50,000\nTo 9% Preference Share Capital A/c 3,00,000\nTo Securities Premium A/c 10,500\nTo Cash 1,15,000\n(Being the discharge of purchase consideration)\n\n4\n10% Debenture A/c\nDr. 2,00,000\nTo 9% Debentures A/c 2,00,000\n(Being the issue of 9% debentures to G Ltd.'s debenture holders)\n\n5\nGoodwill A/c\nDr. 10,000\nTo Bank A/c 10,000\n(Being the liquidation expenses of G Ltd. reimbursed by B Ltd.)\n\n6\nTrade Payables A/c\nDr. 51,400\nTo Trade Receivables A/c 51,400\n(Being the elimination of inter-company balances)\n```\n\n```\nBalance Sheet of B Ltd (after absorption)\nas on 31st March, 2025\n\n| Particulars                     | Note No | ₹ in ‘000  |\n|----------------------------------|---------|-------------|\n| I                                |         |             |\n| Equity & Liabilities             |         |             |\n| 1. Shareholders’ Fund            | 1       | 6080.00     |\n| 2. Reserves& Surplus             | 2       | 1760.50     |\n| 3. Non-Current Liabilities       |         |             |\n| 4. Long-term borrowings          | 3       | 2532.50     |\n| 5. Current Liabilities           |         |             |\n| 6. Trade Payables                | 4       | 1756.60     |\n| 7. Short-term borrowings         |         | 189.50      |\n| Total ₹                          |         | 12319.10    |\n| II                               |         |             |\n| Assets                           |         |             |\n| 1. Non-current assets            |         |             |\n| (a) Property, Plant & Equipment  | 5       | 8043.60     |\n| (b) Intangible assets (goodwill) | 6       | 600.30      |\n| 2. Non-current investment         |         | 2350.00     |\n| 3. Current assets                |         |             |\n| a) Inventories (₹ 43,000 + ₹ 1,27,600) |         | 170.60      |\n| b) Trade receivables             | 7       | 970.60      |\n| c) Cash and cash equivalents (₹ 3,09,000 - ₹ 1,15,000 - ₹ 10,000) |         | 184.00      |\n| Total ₹                          |         | 12319.10    |\n\nNotes to Accounts:\n\n| Notes | Particulars                     | ₹ in ‘000  |\n|-------|----------------------------------|-------------|\n| 1     | Share Capital                    |             |\n|       | Authorized share capital         |             |\n```\n\n```\nIssued, Subscribed & Fully Paid up share capital\na 48,000 Equity Shares of ₹100 each                          48,00.00\n   (Out of the above 11,500 equity shares have been issued for consideration other than cash)\nb 9%, 12,800 Pref. Shares of ₹100 each                      12,80.00\n   (Out of the above 3,000 pref. shares have been issued for consideration other than cash)\nTotal                                                      6080.00\n2 Reserves & Surplus\n   Balance of P&L                                         1750.00\n   Securities Premium                                       10.50\nTotal                                                      1760.50\n3 Long Term Borrowings\n   - 9% Debentures of ₹100 each (10,90,000 + 2,00,000)   1290.00\n   - Loan from bank (8,50,000 + 3,92,500)                 1242.50\nTotal                                                      2532.50\n4 Trade Payables\n   Creditors (13,85,000 + 2,25,000 - 51,400)             1558.60\n   Bills payable (87,000 + 39,000)                          126.00\n   Contingent liability                                     72.00\nTotal                                                      1756.60\n5 Intangible Assets\n   Goodwill (590300 + 10,000)                             600.30\n6 Trade receivables\n   - Debtor (7,30,000 + 1,75,000 - 51,400)               853.60\n   - Bill receivable (60,000 + 57,000)                     117.00\n                                                         970.60\n```",
+          "chapter_number": "5",
+          "chapter_name": "AMALGAMATION OF COMPANIES",
+          "unique_id": "BQ-8"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "6",
+      "sub_questions": [
+        {
+          "label": "—",
+          "marks": 14,
+          "internal_split": null,
+          "question": "```\nThe following are the extract of balance sheet of P Ltd., and its subsidiary Q Ltd., as at 31 March 2024:\n\n| Particulars                     | P Ltd. ₹  | Q Ltd. ₹   |\n|----------------------------------|-----------|------------|\n| I                                |           |            |\n| Equity & Liabilities             |           |            |\n| (1)                              |           |            |\n| Shareholders' Funds              |           |            |\n| (a)                              |           |            |\n| Share capital (Equity shares of ₹100 each fully paid up) | 16,00,000  | 4,00,000   |\n| (b)                              |           |            |\n| Reserve & Surplus                | 2,00,000  | 80,000     |\n| (2)                              |           |            |\n| Current liability                | 30,00,000 | 19,20,000  |\n| Total                            | 48,00,000 | 24,00,000  |\n```\n\n```\nII  Assets\n(1) Non-current assets\n    (a) PPE                          10,00,000    3,80,000\n    (2) Investment:\n        3,600 equity shares in Q Ltd. on 1 April 2023  5,60,000    ---\n(3) Current Assets\n    (a) Other current assets        32,40,000    20,20,000\nTotal                             48,00,000    24,00,000\n\nOn 1 April 2023 Profit & Loss A/c of Q Ltd. showed a credit balance of ₹ 32,000 and equipment of Q Ltd., was revalued by P Ltd., 20% above its book value of ₹ 4,00,000 (but no such adjustment effected in the books of Q Ltd.)\nPrepare the consolidated balance sheet as at 31st March 2024.  (14 Marks)\n```",
+          "answer": "```\nConsolidated Balance Sheet of P Ltd.\nand its Subsidiary Q ltd. as on 31.3.2024\n\n| Sr. No. | Particulars                          | Note No. | ₹         |\n|---------|--------------------------------------|----------|-----------|\n| I.      | Equities & Liabilities               |          |           |\n| (1)     | Shareholder’s funds                  |          |           |\n| (a)     | Share Capital                        | 1        | 16,00,000 |\n| (b)     | Reserve & surplus                    | 2        | 2,39,600  |\n| (c)     | Minority interest                     |          | 55,600    |\n| (2)     | Current liability                    |          |           |\n| (a)     | Other current liabilities (30,00,000+19,20,000) |          | 49,20,000 |\n|         | Total                                |          | 68,15,200 |\n| II.     | Assets                               |          |           |\n| (1)     | (a) PPE (10,00,000 + 3,80,000 + 80,000 – 4,000) |          | 14,56,000 |\n| (b)     | Goodwill                             |          | 99,200    |\n```\n\n```\n(2)  \nCurrent Assets  \n(a) Other current assets (32,40,000 + 20,20,000)  52,60,000  \nTotal  68,15,200  \n\nNotes to accounts:  \n| Particulars                          | ₹        |  \n|--------------------------------------|----------|  \n| (1) Share capital                    |          |  \n| Authorized share capital             | -        |  \n| Issued, subscribed & paid-up capital  |          |  \n| 16,000 equity shares of ₹100 each    | 16,00,000|  \n| (2) Reserve & Surplus                |          |  \n| Profit & Loss A/c (W.N. 5)          | 2,39,600 |  \n\nWorking Notes:  \n1. Shareholding  \n| Held by P Ltd. | Minority interest |  \n|----------------|------------------|  \n| 3,600 shares (90%) | 400 shares (10%) |  \n\n2. Analysis of profit  \n| Profit & Loss A/c | ₹        | Particulars | ₹        |  \n|-------------------|----------|--------------|----------|  \n| To Bal. c/d       | 80,000   | By Bal. b/d  | 32,000   |  \n|                   |          | By Profit     | 48,000   |  \n|                   | 80,000   |              | 80,000   |  \n\n| Particulars                          | Capital profit | Revenue profit |  \n|--------------------------------------|----------------|----------------|  \n| Opening balance in P&L A/c           | 32,000         |                |  \n| Profit during the year               | 48,000         |                |  \n| Revaluation of equipment (W.N.6)     | 80,000         |                |  \n| Short depreciation on equipment       |                | (4,000)        |  \n| Total                                | 1,12,000      | 44,000         |  \n| Q Ltd. (Minority) (10%)              | 11,200         | 4,400          |  \n| P Ltd. (90%)                         | 1,00,800      | 39,600         |  \n```\n\n```\n3. Cost of Control\n| Particulars                               | Computation                     | ₹        |\n|-------------------------------------------|---------------------------------|----------|\n| Cost of investment                        | As per balance sheet            | 5,60,000 |\n| Less: Dividend out of pre-acquisition profit | (A)                             | -        |\n| Share in net assets of Q ltd.            |                                 |          |\n| Share capital                             | 4,00,000 × 90%                 | 3,60,000 |\n| Capital profit                            | W.N. 2                          | 1,00,800 |\n| (B)                                       | 4,60,800                        |          |\n| Goodwill                                  | A – B                           | 99,200   |\n\n4. Calculation of Minority Interest\n| Particulars                               | Computation                     | ₹        |\n|-------------------------------------------|---------------------------------|----------|\n| Share capital                             | 4,00,000 × 10%                 | 40,000   |\n| Capital profit                            | WN 2                            | 11,200   |\n| Revenue profit                            | WN 2                            | 4,400    |\n| Total                                     | i + ii + iii                    | 55,600   |\n\n5. P Ltd.\n| Particulars                               | General Reserve                 | Profit & Loss A/c |\n|-------------------------------------------|---------------------------------|--------------------|\n| Balance As Per Balance sheet              | -                               | 2,00,000           |\n| Share in profit of Q ltd.                 | -                               | 39,600             |\n| Total                                     | -                               | 2,39,600           |\n\n6. Appreciation / Depreciation on revalued asset\n| Particulars                               | ₹                               |\n|-------------------------------------------|---------------------------------|\n| Book value as on 31.3.24 (as per b/s)   | 3,80,000                        |\n| Book value as on 1.4.23 (Given)          | 4,00,000                        |\n| Depreciation (iii)                        | 20,000                          |\n| Depreciation rate (iii/ii×100%)          | 5%                              |\n| Revaluation of asset (ii + 20%)          | 4,80,000                        |\n| Revaluation reserve                        | 80,000                          |\n| Depreciation on revalued asset            | 24,000                          |\n```\n\n```\n| (4,80,000 × 5%)         |        |\n|-------------------------|--------|\n| Short depreciation       | 4,000  |\n```",
+          "chapter_number": "6",
+          "chapter_name": "CONSOLIDATED FINANCIAL STATEMENTS",
+          "unique_id": "BQ-6"
+        }
+      ]
+    },
+    {
+      "q_main": 6,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "7",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "(a) When can an item qualify to be a prior period item as per AS 5 ?\n\n(b) The company finds that the stock sheets of 31.3 .2025 did not include two pages containing details of inventory worth Rs. 20 lakhs. State, how will you deal with this matter in the accounts of A Ltd., for the year ended $31^{\text {st }}$ March, 2026 with reference to AS 5. (RTP Sep'25)",
+          "answer": "(a) According to para 16 of AS 5 on 'Net Profit or Loss for the Period, Prior Period Items and Changes in Accounting Policies', prior period items refers to those income or expenses, which arise in the current period as a result of errors or omissions in the preparation of financial statements of one or more prior periods. The term does not include other adjustments necessitated by circumstances, which though related to prior periods, are determined in the current period e.g., arrears payable to workers in current period as a result of revision of wages with retrospective effect.\n\n(b) As per para 16 of AS 5 on 'Net Profit or Loss for the Period, Prior Period Items and Changes in Accounting Policies', omission of two pages containing details of inventory worth Rs.20 lakhs in 31.3.2025 is a prior period item. As per para 19 of the standard, prior period items are normally included in the determination of net profit or loss for the current period. Accordingly, Rs.20 lakhs must be added to opening stock of 1.4.2025. An alternative approach is to show such items in the statement of profit and loss after determination of current net profit or loss. In either case, the objective is to indicate the effect of such items on the current profit or loss.",
+          "chapter_number": "7.2",
+          "chapter_name": "AS 5- NET PROFIT OR LOSS FOR THE PERIOD, PRIOR PERIOD ITEMS \\& CHANGES IN ACCOUNTING POLICIES",
+          "unique_id": "7.2-T-4",
+          "or_question": {
+            "question": "Write short note on Timing difference and Permanent Difference as per AS 22. (MTP 4 Marks Apr'25)",
+            "answer": "Matching of taxes against revenue for a period poses special problems arising from the fact that in number of cases, taxable income may be different from the accounting income. The divergence between taxable income may be different from the accounting income arises due to two main reasons: Firstly, there are differences between items of revenue and expenses as appearing in the statement of profit and loss and the items which are considered as revenue, expenses or deductions for tax purposes, known as Permanent Difference. Secondly, there are differences between the amount in respect of a particular item of revenue or expense as recognised in the statement of profit and loss and the corresponding amount which is recognised for the computation of taxable income, known as Timing Difference.\n\nPermanent differences are the differences between taxable income and accounting income which arise in one accounting period and do not reverse subsequently. For example, an income exempt from tax or an expense that is not allowable as a deduction for tax purposes.\n\nTiming differences are those differences between taxable income and accounting income which arise in one accounting period and are capable of reversal in one or more subsequent periods. For e.g., Depreciation, Bonus, etc."
+          }
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Following information of BS Products Ltd. is given:\n\n(i) Goods of ₹ 2,00,000 sold to Den Ltd. on 20-03-2023 but at the request of the buyer these were delivered on 10-04-2023. \n\n(ii) On 15-01-2023 goods of ₹ 3,00,000 were sent on consignment basis, of which 20% of the goods unsold are lying with the consignee as on 31-03-2023.\n\n(iii) ₹ 4,00,000 worth of goods were sold on approval basis on 01-12-2022. The period of approval was 3 months after which they were considered as sold. Buyer sent approval for 75% goods upto 31-01-2023 and no approval or disapproval received for the remaining goods till 31-03-2023.\n\n(iv) Apart from the above, BS Products Ltd. sells goods to dealers also. One of the conditions of sale is that interest is payable @ 2% p.m. for delayed payments by dealers. The percentage of interest recovery is only 10% i.e. ₹ 50,000 on such overdue outstanding due to various reasons. During the year 2022-23, the company wants to recognize the entire interest receivable of ₹ 60,000.\n\nYou are required to advise the accountant of BS Products Ltd., with valid reasons, the amount to be recognized as revenue in above cases in the context of AS 9 and also determine the total revenue to be recognized for the year ending 31-03-2023.",
+          "answer": "(i) the seller of goods has transferred to the buyer the property in the goods for a price or all significant risks and rewards of ownership have been transferred to the buyer and the seller retains no effective control of the goods transferred to a degree usually associated with ownership; and  \n(ii) no significant uncertainty exists regarding the amount of the consideration that will be derived from the sale of the goods.\n\n```\nCase (i)\nThe sale is complete, but delivery has been postponed at buyer’s request. \nBS Products Ltd. should recognize the entire sale of ₹ 2,00,000 for the year ended 31st March, 2023.\n\nCase (ii)\n20% goods lying unsold with consignee should be treated as closing inventory and sales should be recognized for ₹2,40,000 (80% of ₹ 3,00,000). In the case of consignment sale revenue should not be recognized until the goods are sold to a third party.\n\nCase (iii)\nIn case of goods sold on approval basis, revenue should not be recognized until the goods have been formally accepted by the buyer or the buyer has done an act adopting the transaction or the time period for rejection has elapsed or where no time has been fixed, a reasonable time has elapsed. Therefore, revenue should be recognized for the total sales amounting to ₹ 4,00,000 as the time period for rejecting the goods had expired.\n\nCase (iv)\nAs per the standard, “where the ability to assess the ultimate collection with reasonable certainty is lacking at the time of raising any claim, the revenue recognition is postponed to the extent of uncertainty involved. In such cases, the revenue is recognized only when it is reasonably certain that the ultimate collection will be made”. In this case, interest should be recognized only if the ultimate collection is certain and the company expects to realize interest for the delayed payments for ₹ 50,000 only. Hence, based on the past experience, the realization of interest for the delayed payments by the agent is certain only to the extent of this amount and not ₹ 60,000. Therefore, the interest income of ₹ 50,000 should be recognized in the books for the year ended 31st March, 2023.\n\nThus, total revenue amounting ₹ 8,90,000 (2,00,000 + 2,40,000 + 4,00,000 + 50,000) will be recognized for the year ended 31st March, 2023 in the books of BS Products Ltd.\n```",
+          "chapter_number": "10",
+          "chapter_name": "ACCOUNTING STANDARDS (THEORY)",
+          "unique_id": "BQ-7"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "L Ltd. has its head office at Mumbai and two branches at Pune and Goa. The branches purchase goods independently. Pune branch makes a profit of one third on cost and Goa branch makes a profit of $20 \\%$ on sales. Goods are also supplied by one branch to another at the respective sales price. From the following particulars, prepare the Trading and Profit and Loss Account of Pune branch and find out the profit or loss made by it considering the reserve for unrealized profits:\n\n| Particulars | Pune Branch Rs. | Goa Branch Rs. |\n| :--- | :--- | :--- |\n| Opening Stock | 40,000 | 30,000 |\n| Purchases (Including Inter Branch transfers) | 2,00,000 | 2,50,000 |\n| Sales | 2,80,000 | 2,95,625 |\n| Chargeable Expenses | 15,000 | 27,500 |\n| Closing Stock | 30,000 | 43,500 |\n| Office and Administration Expenses | 13,250 | 7,000 |\n| Selling and Distribution Expenses | 15,000 | 10,000 |\n\n## Information:\n\n(i) Opening stock at Pune Branch includes goods of Rs. 10,000 (invoice price) taken from Goa Branch,\n\n(ii) Opening stock at Goa Branch includes goods of invoice price Rs. 17,000 taken from Pune Branch,\n\n(iii) The Pune Branch sales includes transfer of goods to Goa Branch at selling price Rs. 20,000.\n\n(iv) The sales of Goa Branch include transfer of goods to Pune Branch at selling price Rs. 15,000.\n\n(v) Closing stock at Pune Branch includes goods received from Goa Branch (invoice price Rs. 5,000.\n\n(vi) Closing stock at Goa Branch includes goods of Rs. 4,090 /invoice price).",
+          "answer": "Pune Branch Trading and Profit and Loss Account\n\n| Particulars | Rs. | Particulars | Rs. |\n| :--- | :--- | :--- | :--- |\n| To Opening Stock (including Rs.10,000 from Goa Branch) | 40,000 | By Sales (including Rs.20,000 to Goa Branch) | 2,80,000 |\n| To Purchases | 2,00,000 | By Closing Stock (including Rs.5,000 from Goa Branch) | 30,000 |\n| To Chargeable Expenses | 15,000 |  |  |\n| To Gross Profit c/d (before making adjustment for unrealised profit) | 55,000 |  |  |\n|  | 3,10,000 |  | 3,10,000 |\n| To Stock Reserve (for unrealised profit in Closing Stock lying at Goa Branch) (Rs.4,000 $\\times 25 / 100$ ) | 1,000 | By Gross Profit b/d | 55,000 |\n| To Office \\& Adm. Expenses | 13,250 | By Stock Reserve (for unrealized profit in Opening Stock lying at Goa Branch) (Rs. $17,000 \\times 25 / 100$ ) | 4,250 |\n| To Selling \\& Distribution Expenses | 15,000 |  |  |\n| To Net Profit | 30,000 |  |  |\n|  | 59,250 |  | 59,250 |",
+          "chapter_number": "15",
+          "chapter_name": "ACCOUNTING FOR BRANCHES INCLUDING FOREIGN BRANCHES",
+          "unique_id": "15-T-2"
+        }
+      ]
+    }
+  ]
+}

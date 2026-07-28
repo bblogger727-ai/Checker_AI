@@ -1,0 +1,464 @@
+{
+  "meta": {
+    "subject_code": "AUD",
+    "subject_name": "Auditing and Ethics",
+    "paper_num": 1,
+    "total_marks_printed": 100,
+    "total_marks_in_paper": 114,
+    "section_a_marks": 30,
+    "section_b_marks": 84,
+    "note": "Section A: 15 MCQs @ 2 marks each (Case Study based). Section B: Q1 compulsory (14m). Attempt any 4 of Q2–Q6 (14m each).",
+    "blacklisted_from": [],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)",
+      "1(c)"
+    ]
+  },
+  "section_a": [
+    {
+      "type": "case_study",
+      "chapter_number": "12",
+      "chapter_name": "Case Scenarios",
+      "case_text": "M/s ABC & Associates have been appointed as auditors of Venus Ltd. for the Financial Year 20X1-X2.  • During the course of audit, the auditors notice that certain legal expenses been charged to revenue during the financial year by Venus Ltd.  • These legal expenses are related to litigations going against the company regarding its Corporate Social Responsibility expenses incurred near its factory area.  • Further, M/s ABC & Associates noticed that there is a major change in the debtors and creditors account of Venus Ltd. during the financial year under audit. The auditors have decided to send balance confirmation requests to the debtors and creditors of Venus Ltd. Also, the auditors decide to take management representation letters wherever required.  • The auditors have noticed certain related party transactions reflected in the financial statements of Venus Ltd. during the financial year under audit. The transaction is between Venus Ltd. and a Company owned by wife of one of the directors of Venus Ltd.  • The auditors have become aware of certain subsequent events occurring in case of Venus Ltd. These are related to the outcomes of the litigations going against Venus Ltd.  • The auditors are also concerned whether the litigations going against Venus Ltd. and their outcomes have any impact on the going concern of the company. Based on the above facts, answer the following:  -  1. Statement 1: Although Written Representations provide necessary audit evidence, they do not provide sufficient and appropriate audit evidence on their own about the matters with which they deal.  Statement 2: Written Representations do not include financial statements, the assertions within, or supporting books and records. (Chapter 7.4: SA 580- Written Representations)  (a) Only Statement 1 is correct  (b) Only Statement 2 is correct  (c) Both Statement 1 & 2 are correct  (d) None of Statement 1 & 2 is correct  Ans: (b)  2. The auditor can perform the following procedures to identify litigation and claims of Venus Ltd.:-  (Chapter 4.4: SA 501- Audit Evidence-Specific Considerations for Selected Items)  (i) Inquiry of management including in house legal counsel.  (ii) Reviewing legal expenses account.  (iii) Reviewing of minutes of meetings of those charged to governance and correspondence between entity and external legal counsel.  (a) (i) & (ii) are correct  (b) (i), (ii) & (iii) are correct  (c) (ii) & (iii) are correct  (d) only (i) is correct  Ans: (b)  3. Negative confirmation requests require the third party to respond in the following cases :- (Chapter 4.5: SA 505- External Confirmations)  (a) if there is agreement  (b) if there is disagreement  (c) in both cases of agreement as well as disagreement  (d) None of the above.  Ans: (b)  4. Statement 1:- A failure of the confirming party to respond, or fully respond to a positive confirmation request or a confirmation request returned undelivered is a case of Non Response.  Statement 2:- A response that indicates difference between information requested to be confirmed and contained in entity's records and information provided by the confirming part is a case of Exception.  (Chapter 4.5: SA 505- External Confirmations)  (a) Only Statement 1 is correct  (b) Only Statement 2 is correct  (c) Both Statement 1 & 2 are correct  (d) None of Statement 1 & 2 is correct  Ans: (c)  5. Which of the following is correct so far as the related party transactions are concerned:-  (i) Many related party transactions are in the normal course of business.  (ii) Related party transactions may not be conducted under normal market term and conditions.  (iii) In some circumstances, related party transactions may give rise to higher risks of material misstatement. (Chapter 4.7- SA 550- Related Parties)  (a) only (i) is correct  (b) (i) & (iii) are correct  (c) (ii), (i) & (iii) are correct  (d) (i) and (ii) are correct  Ans: (c)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Statement 1: Although Written Representations provide necessary audit evidence, they do not provide sufficient and appropriate audit evidence on their own about the matters with which they deal. Statement 2: Written Representations do not include financial statements, the assertions within, or supporting books and records. (Chapter 7.4: SA 580- Written Representations)",
+          "options": {
+            "a": "Only Statement 1 is correct",
+            "b": "Only Statement 2 is correct",
+            "c": "Both Statement 1 & 2 are correct",
+            "d": "None of Statement 1 & 2 is correct"
+          },
+          "correct_option": "b",
+          "answer": "b"
+        },
+        {
+          "q_num": 2,
+          "question": "The auditor can perform the following procedures to identify litigation and claims of Venus Ltd.:- (Chapter 4.4: SA 501- Audit Evidence-Specific Considerations for Selected Items) (i) Inquiry of management including in house legal counsel. (ii) Reviewing legal expenses account. (iii) Reviewing of minutes of meetings of those charged to governance and correspondence between entity and external legal counsel.",
+          "options": {
+            "a": "(i) & (ii) are correct",
+            "b": "(i), (ii) & (iii) are correct",
+            "c": "(ii) & (iii) are correct",
+            "d": "only (i) is correct"
+          },
+          "correct_option": "b",
+          "answer": "b"
+        },
+        {
+          "q_num": 3,
+          "question": "Negative confirmation requests require the third party to respond in the following cases :- (Chapter 4.5: SA 505- External Confirmations)",
+          "options": {
+            "a": "if there is agreement",
+            "b": "if there is disagreement",
+            "c": "in both cases of agreement as well as disagreement",
+            "d": "None of the above."
+          },
+          "correct_option": "b",
+          "answer": "b"
+        },
+        {
+          "q_num": 4,
+          "question": "Statement 1:- A failure of the confirming party to respond, or fully respond to a positive confirmation request or a confirmation request returned undelivered is a case of Non Response. Statement 2:- A response that indicates difference between information requested to be confirmed and contained in entity's records and information provided by the confirming part is a case of Exception. (Chapter 4.5: SA 505- External Confirmations)",
+          "options": {
+            "a": "Only Statement 1 is correct",
+            "b": "Only Statement 2 is correct",
+            "c": "Both Statement 1 & 2 are correct",
+            "d": "None of Statement 1 & 2 is correct"
+          },
+          "correct_option": "c",
+          "answer": "c"
+        },
+        {
+          "q_num": 5,
+          "question": "Which of the following is correct so far as the related party transactions are concerned:- (i) Many related party transactions are in the normal course of business. (ii) Related party transactions may not be conducted under normal market term and conditions. (iii) In some circumstances, related party transactions may give rise to higher risks of material misstatement. (Chapter 4.7- SA 550- Related Parties)",
+          "options": {
+            "a": "only (i) is correct",
+            "b": "(i) & (iii) are correct",
+            "c": "(ii), (i) & (iii) are correct",
+            "d": "(i) and (ii) are correct"
+          },
+          "correct_option": "c",
+          "answer": "c"
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "cs__12__-7308642579455093618"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "12",
+      "chapter_name": "Case Scenarios",
+      "case_text": "As per SA 210 “Agreeing the Terms of Audit Engagements”, preconditions for an audit may be defined as the use by management of an acceptable financial reporting framework in the preparation of the financial statements and the agreement of management and, where appropriate, those charged with governance to the premise on which an audit is conducted.  Mridul & Co, a firm of Chartered Accountants agreed on the Terms of Audit Engagements of a Private Limited Company, Jayshree Private Limited. Jayshree Private Limited has conveyed to Mridul & Co that they want the firm to undertake the statutory audit as well as to examine the life of its plant and machinery at Indore which is in existence for 10 years. While finalizing the scope of the audit, the auditors agreed to cover all the units of the company based at Delhi and Indore. Mridul & Co has asked Jayshree Private Ltd to make all the relevant disclosures in the financial statements. The auditors were vigilant to inquire about any audit evidence that contradicts the other audit evidence.  The auditors decided to cover following aspects under audit:  (i) An examination of the system of accounting and internal control  (ii) Reviewing the system and procedures.  (iii) Checking of the arithmetical accuracy of the books of account.  (iv) Verification of the authenticity and validity of transactions.  (v) Classification between capital and revenue expenditures.  (vi) Comparison of the balance sheet and profit and loss account or other statements with the underlying record.  (vii) Verification of the title, existence and value of the assets.  (viii) Verification of the liabilities stated in the balance sheet.  (ix) Checking the results shown by the profit and loss and to see whether the results shown are true and fair.  (x) Reporting to the appropriate person/body whether the statements of account examined do reveal a true and fair view of the state of affairs and of the profit and loss of the organisation.  (xi) Where audit is of a corporate body, confirming that the statutory requirements have been complied with.  While testing the accounts receivables of Jayshree Private Limited, the auditor decided to divide the accounts receivables by age of receivables in the following manner:  • Below 15 days  • 15 days -30 days  • 31-60 days  • 61-90 days  • 91 days and beyond  Based on the above facts, answer the following:  1. According to you, what is the scope of the audit which Mridul & Co should cover in the audit of financial statements of Jayshree Private Limited? (Chapter 1: Nature, Objective and Scope of Audit)  I. to examine the life of its plant and machinery at Indore which is in existence for 10 years.  II. to cover all the units of the company based at Delhi and Indore.  III. to check whether the relevant disclosures are properly made in the financial statements.  (a) I,II,III  (b) I,II  (c) I,III  (d) I,II,III  Ans: (c)  2. What is the name of the method used by the auditor for segregation of accounts receivable? (Chapter 4.3- Audit Sampling)  (a) Value weighted selection  (b) Stratification  (c) Systematic method of Sampling  (d) Tests of Control  Ans: (b)  3. The aspects covered by auditor should be: (Chapter 1: Nature, Objective and Scope of Audit)  (a) i, ii, iii, iv, vi, vii  (b) i, ii, iv, v, vi, vii  (c) i, ii, iii, iv, vi, viii, ix, x, xi  (d) i, ii, iii, viii, x, xi  Ans: (c)  4. The auditor's vigilance to question the audit evidence that contradicts the other audit evidence is called as: (Chapter 11.2- Ethics)  (a) Professional Skepticism  (b) Vigilant Skepticism  (c) Professional Judgement  (d) Judgement and Skepticism  Ans: (a)  5. With respect to the preconditions for an audit, which one of the following is correct (Chapter 11.2- SA 210- Agreeing the Terms of Audit Engagements)  I. The use by Management of an acceptable financial reporting framework in the preparation of financial statements.  II. Management’s responsibility for the internal control  III. Giving auditor access to all information and access to the Entity’s premises.  (a) I, II  (b) I, II, III  (c) II, III  (d) I, III  Ans: (b)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "According to you, what is the scope of the audit which Mridul & Co should cover in the audit of financial statements of Jayshree Private Limited? (Chapter 1: Nature, Objective and Scope of Audit)",
+          "options": {
+            "a": "I,II,III",
+            "b": "I,II",
+            "c": "I,III",
+            "d": "II,III"
+          },
+          "correct_option": "c",
+          "answer": "c"
+        },
+        {
+          "q_num": 2,
+          "question": "What is the name of the method used by the auditor for segregation of accounts receivable? (Chapter 4.3- Audit Sampling)",
+          "options": {
+            "a": "Value weighted selection",
+            "b": "Stratification",
+            "c": "Systematic method of Sampling",
+            "d": "Tests of Control"
+          },
+          "correct_option": "b",
+          "answer": "b"
+        },
+        {
+          "q_num": 3,
+          "question": "The aspects covered by auditor should be: (Chapter 1: Nature, Objective and Scope of Audit)",
+          "options": {
+            "a": "i, ii, iii, iv, vi, vii",
+            "b": "i, ii, iv, v, vi, vii",
+            "c": "i, ii, iii, iv, vi, viii, ix, x, xi",
+            "d": "i, ii, iii, viii, x, xi"
+          },
+          "correct_option": "c",
+          "answer": "c"
+        },
+        {
+          "q_num": 4,
+          "question": "The auditor's vigilance to question the audit evidence that contradicts the other audit evidence is called as: (Chapter 11.2- Ethics)",
+          "options": {
+            "a": "Professional Skepticism",
+            "b": "Vigilant Skepticism",
+            "c": "Professional Judgement",
+            "d": "Judgement and Skepticism"
+          },
+          "correct_option": "a",
+          "answer": "a"
+        },
+        {
+          "q_num": 5,
+          "question": "With respect to the preconditions for an audit, which one of the following is correct (Chapter 11.2- SA 210- Agreeing the Terms of Audit Engagements)",
+          "options": {
+            "a": "I, II",
+            "b": "I, II, III",
+            "c": "II, III",
+            "d": "I, III"
+          },
+          "correct_option": "b",
+          "answer": "b"
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "cs__12__-5932265937101578684"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "12",
+      "chapter_name": "Case Scenarios",
+      "case_text": "Rohan is part of an engagement team conducting statutory audit of branch of a nationalized bank. The financial statements to be audited include Balance sheet and Profit & Loss account of the branch drawn up in accordance with Form A and Form B respectively of the Third Schedule to the Banking Regulation Act, 1949. Besides, various advances and other returns are also to be verified as part of audit. Rohan was part of all audit work pertaining to verification of deposits, advances, income and expenditure of the branch. While verifying different items of profit and loss account, it was noticed that income included income on account of interest earned and other income. The team also verified system of branch prior to sanction of advances like verifying creditworthiness of borrower etc. It was also verified whether there exists system for bringing to the notice of higher authorities, accounts which exceed the sanctioned limits or drawing power. Besides, the team also verified whether there exists a system for review of operations in accounts once a year and more frequently in case of large advances. During the course of audit, it was noticed that one advance, consisting of a term loan, having outstanding balance of ₹20 crore on balance sheet date has been guaranteed by Uttar Pradesh government. The interest of term loan has remained overdue for more than 90 days. The branch has classified advance as non-performing asset and made applicable provision and reversed unrealized income. Rohan is perplexed as to whether classification, provisioning and reversal of unrealized income made by branch is proper. The auditee branch is a CBS branch and uses FINACLE software. The core banking system (CBS) is the set of basic software components that manage the services provided by a bank to its customers through its branches. The bank's customers can execute their transactions from any branch, ATM, Service Outlets, Internet, Phone at their disposal. It helps banks to reduce risk that can result from manual data entry and out of date information. It also helps banks to improve service delivery quality and time to its customer. The software is accessed from different branches of bank via communication lines like telephones, satellite, internet, etc. The engagement team has kept record of audit documentation in accordance with SA 230.",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Which of the following does not constitute “Other income” in the profit and loss account of branch of a bank?",
+          "options": {
+            "a": "Discount on Bills purchased",
+            "b": "Commission on Bills sent for collection",
+            "c": "Loan processing fees",
+            "d": "Credit card fees"
+          },
+          "correct_option": "a",
+          "answer": "a"
+        },
+        {
+          "q_num": 2,
+          "question": "Identify what the engagement team is trying to do in respect to advances of the branch.",
+          "options": {
+            "a": "The engagement team is carrying out analytical procedures in respect of advances.",
+            "b": "The engagement team is carrying out substantive procedures in respect of advances.",
+            "c": "The engagement team is evaluating internal control over advances.",
+            "d": "The engagement team is trying to select samples for verification of advances."
+          },
+          "correct_option": "c",
+          "answer": "c"
+        },
+        {
+          "q_num": 3,
+          "question": "Considering state government guaranteed advance of ₹20 crore and its NPA classification made by branch, which of the following statements is most appropriate?",
+          "options": {
+            "a": "The branch has correctly classified account as NPA and has rightly made provisioning and reversal of unrealized income in this regard. Uttar Pradesh government guarantee has no effect on provisioning and income recognition.",
+            "b": "The branch has correctly classified account as NPA and has rightly made provisioning. However, unrealized income should not have been reversed due to Uttar Pradesh government guarantee.",
+            "c": "The branch should have classified account as Standard asset due to Uttar Pradesh government guarantee without having recourse to provisioning and reversal of unrealized income.",
+            "d": "The branch should have classified account as Standard asset due to Uttar Pradesh government guarantee. No provisioning is required. However, for purposes of income recognition, it should be treated as NPA and unrealized income should be reversed."
+          },
+          "correct_option": "a",
+          "answer": "a"
+        },
+        {
+          "q_num": 4,
+          "question": "The branch is operating in CBS environment. In view of above, which of the following statements is most appropriate?",
+          "options": {
+            "a": "Due to CBS environment, substantive procedures alone are effective to reduce audit risk to an acceptably low level.",
+            "b": "In CBS environment, in most situations, the auditors’ ability to reduce audit risk to an acceptably low level would be affected by the internal control systems established by the management.",
+            "c": "The extensive use of IT systems in CBS environment substantially reduces need to assess inherent and control risks.",
+            "d": "Low level of branch staff sensitisation to the control expectations of management requires fewer audit procedures."
+          },
+          "correct_option": "b",
+          "answer": "b"
+        },
+        {
+          "q_num": 5,
+          "question": "With regards to audit documentation, consider the following: - (a) POC from previous auditor (b) Management certified trial balance of branch for year under consideration (c) KYC verification details (d) Latest RBI master directions/circulars Which of the following statements is correct as regards to audit documentation?",
+          "options": {
+            "a": "Only documents stated at Q and R form part of audit documentation.",
+            "b": "Only documents stated at Q, R and S form part of audit documentation.",
+            "c": "Only documents stated at Q and S form part of audit documentation.",
+            "d": "All documents stated at P, Q, R and S form part of audit documentation."
+          },
+          "correct_option": "d",
+          "answer": "d"
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "cs__12__3891410304659348704"
+    }
+  ],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": true,
+      "total_marks": 14,
+      "chapter_number": "4",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "CA M, auditor of a company, has planned to use substantive analytical procedures during course of audit. In this regard, he has decided to use such procedures in following areas:  (i) For testing relationship between sales and cost of sales  (ii) For testing rights over certain assets forming part of account balances  Comment upon his approach along with reasons.",
+          "answer": "(i) Substantive analytical procedures are more appropriate when an account balance or relationships between items of data are predictable. A predictable relationship is one that may reasonably be expected to exist and continue over time.\n\nIn the given case CA M, auditor of a company, has planned to use substantive analytical procedures for testing relationship between sales and cost of sales. Hence, auditor’s approach is appropriate in this case.\n\n(ii) Using substantive analytical procedures is also affected by nature of assertion. Substantive analytical procedures may be more effective in providing evidence for some assertions (e.g., completeness or valuation) than for others (e.g., rights and obligations).\n\nIn the given case, CA M has planned to use substantive analytical procedures for testing rights over certain assets forming part of account balances. Such procedures are likely to be less effective in this case.",
+          "chapter_number": "4",
+          "chapter_name": "Analytical Procedures",
+          "unique_id": "4-TP-10"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Risk of material misstatement refers to the risk that the financial statements are materially misstated prior to audit. Discuss the levels at which this risk exists.",
+          "answer": "The risks of material misstatement may exist at two levels:  \n(i) The overall financial statement level - Risks of material misstatement at the overall financial statement level refer to risks of material misstatement that relate pervasively to the financial statements as a whole and potentially affect many assertions.  \n(ii) The assertion level for classes of transactions, account balances, and disclosures - Risks of material misstatement at the assertion level are assessed in order to determine the nature, timing, and extent of further audit procedures necessary to obtain sufficient appropriate audit evidence. This evidence enables the auditor to express an opinion on the financial statements at an acceptably low level of audit risk.",
+          "chapter_number": "3",
+          "chapter_name": "Risk Assessment & Internal Control",
+          "unique_id": "3-TP-9"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "PQR & Co., Chartered Accountants, has been appointed as statutory auditor of MGM Ltd. The financial statements of the company have material amount outstanding as debtors. Ageing of debtors is being done by the internal auditors and is given by them in their monthly report. This issue was also discussed with the management. The engagement partner from PQR & Co. decided to give the age wise debtors as per the report of internal auditor due to shortage of time. After the audit report was released, the engagement partner realized that the disclosure of the debtors is misleading and the ageing was not done by the internal auditor on correct principles due to which the provision made against old debtors was wrong. The engagement partner held the internal auditor responsible for this. Is he correct in making statement that the internal auditor is responsible for false provisioning? What considerations PQR & Co. should have undertaken before relying on the work of internal auditor?",
+          "answer": "In the given situation, the engagement partner has taken the age wise debtor report from the reports of the internal auditor due to shortage of time and provided the same in the audit report. However, after the issuance of audit report, engagement partner felt that disclosure of debtors is misleading and ageing was not done on the basis of correct principles due to which provisions are made.\n\nContention of the engagement partner for holding internal auditor responsible for the same is not correct as the external auditor has sole responsibility for the audit opinion expressed, and that responsibility is not reduced by the external auditor’s use of the work of the internal audit function or internal auditors to provide direct assistance on the engagement.\n\nBefore relying on the work of internal auditor, PQR & Co. should consider the following:\n\n(i) To determine whether the work of the internal audit function or direct assistance from internal auditors can be used, and if so, in which areas and to what extent; and having made that determination;\n\n(ii) If using the work of the internal audit function, to determine whether that work is adequate for purposes of the audit; and\n\n(iii) If using internal auditors to provide direct assistance, to appropriately direct, supervise and review their work;\n\n(iv) The extent to which the internal audit function’s organizational status and relevant policies and procedures support the objective of the internal auditors;\n\n(v) The level of competence of the internal audit function; and\n\n(vi) Whether the internal audit function applies a systematic and disciplined approach, including quality control.",
+          "chapter_number": "4",
+          "chapter_name": "Using the Work of Internal Auditors",
+          "unique_id": "4-TP-8"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "3",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Explain what understanding an auditor should obtain regarding an entity’s risk assessment process (one of the components of the internal control of the entity).",
+          "answer": "The Entity’s Risk Assessment Process- Component of Control Environment\nThe auditor shall obtain an understanding of whether the entity has a process for:\n(a) Identifying business risks relevant to financial reporting objectives;\n(b) Estimating the significance of the risks;\n(c) Assessing the likelihood of their occurrence; and\n(d) Deciding about actions to address those risks.\nThe entity’s risk assessment process forms the basis for the risks to be managed. If that process is appropriate, it would assist the auditor in identifying risks of material misstatement. Whether the entity’s risk assessment process is appropriate to the circumstances is a matter of judgment.",
+          "chapter_number": "3",
+          "chapter_name": "Risk Assessment & Internal Control",
+          "unique_id": "3-TP-38"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "The nature, timing and extent of the direction and supervision of engagement team members and review of their work vary depending on many factors. Discuss those factors.",
+          "answer": "The auditor shall plan the nature, timing and extent of direction and supervision of engagement team members and the review of their work. The nature, timing and extent of the direction and supervision of engagement team members and review of their work vary depending on many factors, including:\n\n- The size and complexity of the entity.\n\n- The area of the audit.\n\n- The assessed risks of material misstatement (for example, an increase in the assessed risk of material misstatement for a given area of the audit ordinarily requires a corresponding increase in the extent and timeliness of direction and supervision of engagement team members, and a more detailed review of their work).\n\n- The capabilities and competence of the individual team members performing the audit work.",
+          "chapter_number": "2",
+          "chapter_name": "Audit Strategy, Audit Planning & Audit Programme",
+          "unique_id": "2-TP-13"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Distinguish between an adverse opinion and a qualified opinion. Also draft an opinion paragraph for both types of opinion.",
+          "answer": "An auditor shall express a adverse opinion, when the auditor having obtained sufficient and appropriate audit evidence, concludes that misstatements, individually or in aggregate are both material and pervasive. Whereas, when the auditor, having obtained sufficient and appropriate audit evidence, concludes that misstatements are material but not pervasive, shall express a qualified opinion.\n\nSA705 - \"Modifications to the Opinion in the Independent Auditor's Report\" deals with the form and content of both types of report. The following are the draft of the opinion paragraphs of the reports.\n\n(i) Adverse Opinion\n\nWe have audited the accompanying consolidated financial statements of ABC Company Limited (hereinafter referred to as the \"Holding Company\") and its subsidiaries (the Holding Company and its subsidiaries together referred to as \"the Group\"), its associates and jointly controlled entities, which comprise the consolidated balance sheet as at March 31, 2023, the consolidated statement of profit and loss, (consolidated statement of changes in equity) and the consolidated statement of cash flows for the year then ended, and notes to the consolidated financial statements, including a summary of significant accounting policies (hereinafter referred to as the \"consolidated financial statements\"). In our opinion and to the best of our information and according to the explanations given to us, because of the significance of the matter discussed in the Basis for Adverse Opinion section of our report, the accompanying consolidated financial statements do not give a true and fair view in conformity with the accounting principles generally accepted in India, of their consolidated state of affairs of the Group, its associates and jointly controlled entities, as at March 31, 2023, of its consolidated profit/loss, (consolidated position of changes in equity) and the consolidated cash flows for the year then ended.\n\n(ii) Qualified Opinion\n\nWe have audited the standalone financial statements of ABC Company Limited (\"the Company\"), which comprise the balance sheet as at March 31, 2023, and the statement of Profit and Loss, (statement of changes in equity) and the statement of cash flows for the year then ended, and notes to the financial statements, including a summary of significant accounting policies and other explanatory information (in which are included the Returns for the year ended on that date audited by the branch auditors of the Company's branches located at (location of branches)). In our opinion and to the best of our information and according to the explanations given to us, except for the effects of the matter described in the Basis for Qualified Opinion section of our report, the aforesaid financial statements give a true and fair view in conformity with the accounting principles generally accepted in India, of the state of affairs of the Company as at March 31st, 2023 and profit/loss, (changes in equity) and its cash flows for the year ended on that date.",
+          "chapter_number": "8",
+          "chapter_name": "Modifications to the Opinion in the Independent Auditor’s Report",
+          "unique_id": "8-TP-5"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "4",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "CA X is contemplating the use of negative confirmation requests as the sole substantive audit procedure to verify certain accounts payable balances reflected in financial statements of a company. Which conditions need to be met to use negative confirmation requests as stated above? Additionally, CA X is of the view that negative confirmations provide same level of persuasive audit evidence as in case of positive confirmations. Do you agree with his viewpoint? Provide reasons for your answer.",
+          "answer": "In accordance with SA 505, \"External Confirmations\", the auditor shall not use negative confirmation requests as the sole substantive audit procedure to address an assessed risk of material misstatement at the assertion level unless all of the following are present:  \n(i) The auditor has assessed the risk of material misstatement as low and has obtained sufficient appropriate audit evidence regarding the operating effectiveness of controls relevant to the assertion.  \n(ii) The population of items subject to negative confirmation procedures comprises a large number of small, homogeneous, account balances, transactions or conditions.  \n(iii) A very low exception rate is expected and  \n(iv) The auditor is not aware of circumstances or conditions that would cause recipients of negative confirmation requests to disregard such requests.  \n\nThe failure to receive a response to a negative confirmation request does not explicitly indicate receipt by the intended confirming party of the confirmation request or verification of the accuracy of the information contained in the request.  \n\nAccordingly, a failure of a confirming party to respond to a negative confirmation request provides significantly less persuasive audit evidence than does a response to a positive confirmation request. Therefore, view of CA X is not correct.",
+          "chapter_number": "4",
+          "chapter_name": "External Confirmations",
+          "unique_id": "4-TP-4"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Sigma Ltd. has approached CJK & Associates to appoint them as their auditor for a period of 5 years in accordance with provisions of the Companies Act, 2013. The prospective client company is new to audit firm. SQC 1 requires that a firm before accepting engagement should inquire vital information about the client which helps firm to decide about integrity of client. Apart from integrity, obtaining such vital information about client is helpful to audit firm in deciding about which other matters? Which matters would be considered by audit firm with regard to integrity of client?",
+          "answer": "A firm before accepting an engagement should acquire vital information about the client. Such an information should help firm to decide about:\n\n- Integrity of Client\n- Competence (including capabilities, time and resources) to perform engagement\n- Compliance with ethical requirements\n- With regard to the integrity of a client, matters that the firm considers include, for example:\n- The identity and business reputation of the client’s principal owners, key management, related parties and those charged with its governance.\n- The nature of the client’s operations, including its business practices.\n- Information concerning the attitude of the client’s principal owners, key management and those charged with its governance towards such matters as aggressive interpretation of accounting standards and the internal control environment.\n- Whether the client is aggressively concerned with maintaining the firm’s fees as low as possible.\n- Indications of an inappropriate limitation in the scope of work.\n- Indications that the client might be involved in money laundering or other criminal activities.\n- The reasons for the proposed appointment of the firm and non-reappointment of the previous firm.",
+          "chapter_number": "11",
+          "chapter_name": "Quality Control for Firms that Perform Audits and Reviews of Financial Statements, and Other Assurance and Related Services Engagements",
+          "unique_id": "11-TP-9"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "The auditor shall prepare audit documentation that is sufficient to enable an experienced auditor to understand significant matters arising during the audit. Explain the above statement and also give examples of significant matters.",
+          "answer": "The auditor shall prepare audit documentation that is sufficient to enable an experienced auditor, having no previous connection with the audit, to understand significant matters arising during the audit, the conclusions reached thereon, and significant professional judgments made in reaching those conclusions. Judging the significance of a matter requires an objective analysis of the facts and circumstances. Examples of significant matters include:\n\n• Matters that give rise to significant risks.\n• Results of audit procedures indicating (a) that the financial statements could be materially misstated, or\n(b) a need to revise the auditor’s previous assessment of the risks of material misstatement and the auditor’s responses to those risks.\n• Circumstances that cause the auditor significant difficulty in applying necessary audit procedures.",
+          "chapter_number": "6",
+          "chapter_name": "Audit Documentation",
+          "unique_id": "6-TP-10"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "3",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "CA Ram Manohar and his team have just started the statutory audit of a listed company which is into manufacture of agro pesticides. The auditors wish to plan and perform the audit so as to reduce the risk of material misstatement to an acceptably low-level. Discuss, how the auditors can satisfy the objective of identifying and assessing the risk of material misstatement. Your answer should be in line with relevant Standards on Auditing. (5 Marks)",
+          "answer": "Auditors CA Ram Manohar and his team can satisfy the objective of identifying and assessing the risk of material misstatement to an acceptably low level while planning and performing the audit of Listed company in accordance with SA 315. As per SA 315 \"Identifying and Assessing the Risks of Material Misstatement through Understanding the Entity and its Environment\", the objective of the auditor is to identify and assess the risks of material misstatement, whether due to fraud or error, at the financial statement and assertion levels, through understanding the entity and its environment, including the entity’s internal control, thereby providing a basis for designing and implementing responses to the assessed risks of material misstatement. This will help the auditor to reduce the risk of material misstatement to an acceptably low level.\n\nThe objective of the auditor as stated in SA 315 is to identify and assess the risks of material misstatement.\n\n(i) The auditor shall identify and assess the risks of material misstatement at:  \n   (I) the financial statement level  \n   (II) the assertion level for classes of transactions, account balances, and disclosures to provide a basis for designing and performing further audit procedures  \n\n(ii) For the purpose of identifying and assessing the risks of material misstatement, the auditor shall: -  \n   (I) Identify risks throughout the process of obtaining an understanding of the entity and its environment, including relevant controls that relate to the risks, and by considering the classes of transactions, account balances, and disclosures in the financial statements.  \n   (II) Assess the identified risks, and evaluate whether they relate more pervasively to the financial statements as a whole and potentially affect many assertions.  \n   (III) Relate the identified risks to what can go wrong at the assertion level, taking account of relevant controls that the auditor intends to test and  \n   (IV) Consider the likelihood of misstatement, including the possibility of multiple misstatements, and whether the potential misstatement is of a magnitude that could result in a material misstatement.",
+          "chapter_number": "3",
+          "chapter_name": "Risk Assessment & Internal Control",
+          "unique_id": "3-TP-24"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Proceedings have been initiated against False Limited for holding benami property under law relating to prohibition of benami transactions and the rules made thereunder but such property is not recorded in books of accounts. As a consultant to the company, what will you advise the company as far as disclosure requirements are concerned in financial statements in relation to said proceedings?",
+          "answer": "Disclosure in case of Benami Properties held by the Company: Where any proceedings have been initiated or pending against the company for holding any benami property under the relevant law relating to prohibition of such transactions, the company shall disclose the following: -  (a) Details of such property, including year of acquisition  (b) Amount thereof  (c) Details of Beneficiaries  (d) If property is not in the books, then the fact shall be stated with reasons  (e) Where there are proceedings against the company under this law as a better of the transaction or as the transferor, then the details shall be provided  (f) Nature of proceedings, status of same and company’s view on same.  Exam insights: Many students miss key disclosure points. Always include details of beneficiaries, note if property isn’t in the books with reasons, and disclose any legal proceedings involving the company as a transferor or beneficiary.",
+          "chapter_number": "5",
+          "chapter_name": "Audit of Items of Financial Statements",
+          "unique_id": "5-TP-20"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "It is imperative for the auditor to project misstatements for the population while performing audit procedures through sampling. Comment.",
+          "answer": "(i) The auditor is required to project misstatements for the population to obtain a broad view of the scale of misstatement but this projection may not be sufficient to determine an amount to be recorded.\n\n(ii) When a misstatement has been established as an anomaly, it may be excluded when projecting misstatements to the population. However, the effect of any such misstatement, if uncorrected, still needs to be considered in addition to the projection of the non-anomalous misstatements.\n\n(iii) For tests of details, the auditor shall project misstatements found in the sample to the population whereas for tests of controls, no explicit projection of deviations is necessary since the sample deviation rate is also the projected deviation rate for the population as a whole.",
+          "chapter_number": "4",
+          "chapter_name": "Audit Sampling",
+          "unique_id": "4-TP-11",
+          "or_question": {
+            "question": "The nature of related party relationships and transactions may, in some circumstances, give rise to higher risks of material misstatement of the financial statements than transactions with unrelated parties. Explain with the help of at least three examples.",
+            "answer": "Many related party transactions are in the normal course of business. In such circumstances, they may carry no higher risk of material misstatement of the financial statements than similar transactions with unrelated parties. However, the nature of related party relationships and transactions may, in some circumstances, give rise to higher risks of material misstatement of the financial statements than transactions with unrelated parties.\n\nExample  \n- Related parties may operate through an extensive and complex range of relationships and structures, with a corresponding increase in the complexity of related party transactions.  \n- Information systems may be ineffective at identifying or summarizing transactions and outstanding balances between an entity and its related parties.  \n- Related party transactions may not be conducted under normal market terms and conditions; for example, related party transactions may be conducted with no exchange of consideration.\n\nExam Insights: Many students list only one type of related party misstatement, usually non-arm’s length transactions. Include other examples like complex transactions, undisclosed related parties, or system failures to identify related party dealings."
+          }
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "7",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "List out some matters that the auditor may consider in determining whether a deficiency or combination of deficiencies in internal control constitutes a \"significant deficiency\". CA Sumit has been appointed as statutory auditor of Core Limited. List out some matters that he may consider in determining whether a deficiency or combination of deficiencies in internal control constitutes a \"significant deficiency\".",
+          "answer": "Examples of matters that the auditor may consider in determining whether a deficiency or combination of deficiencies in internal control constitutes a significant deficiency:\n- The likelihood of the deficiencies leading to material misstatements in the financial statements in the future.\n- The susceptibility to loss or fraud of the related asset or liability.\n- The subjectivity and complexity of determining estimated amounts, such as fair value accounting estimates.\n- The financial statement amounts exposed to the deficiencies.\n- The volume of activity that has occurred or could occur in the account balance or class of transactions exposed to the deficiency or deficiencies.\n- The importance of the controls to the financial reporting process, for example:\n  - General monitoring controls (such as oversight of management).\n  - Controls over the prevention and detection of fraud.\n  - Controls over the selection and application of significant accounting policies.\n  - Controls over significant transactions with related parties.\n  - Controls over significant transactions outside the entity's normal course of business.\n  - Controls over the period-end financial reporting process (such as controls over non-recurring journal entries).\n- The cause and frequency of the exceptions detected as a result of the deficiencies in the controls.\n- The interaction of the deficiency with other deficiencies in internal control.",
+          "chapter_number": "7",
+          "chapter_name": "Communicating Deficiencies in Internal Control to Those Charged with Governance and Management",
+          "unique_id": "7-TP-1"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "In the case of co-operative societies, contribution to Education fund is a charge on profits and not an appropriation.",
+          "answer": "Some of the State Acts provide that every society shall contribute annually towards the Education Fund of the State Federal Society, at the appropriate rate as per the class of the society. Therefore, contribution to Education Fund is a charge on profits and not an appropriation.",
+          "chapter_number": "9",
+          "chapter_name": "Special Features of Audit of Different Type of Entities",
+          "unique_id": "9-TF-5"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "The assistant of CA K is assigned responsibility of drafting \"audit programme\" relating to purchases appearing in financial statements of \"Broad Industries\", a partnership firm. The said firm is a GST registered tax payer and is engaged in manufacturing of packing boxes from a special type of paper taxable under GST. Help him by drafting a sample audit programme for purchases.",
+          "answer": "Sample audit programme pertaining to purchases\n\nName of Concern:  Broad Industries  \nFinancial Year:  20XX-XX  \nPrepared by:  Name of person with date  \nReviewed by:  Name of person with date  \nApproved by:  Name of person with date  \n\n| S.no. | Nature of Procedure                                      | Extent of Check | Basis of Sample | Done by |\n|-------|---------------------------------------------------------|-----------------|-----------------|---------|\n| (a)   | Vouch few purchase invoices of paper from purchase records of concern. |                 |                 |         |\n| (b)   | Trace these invoices into account books of concern.     |                 |                 |         |\n| (c)   | Verify few purchase invoices of paper on GST portal.    |                 |                 |         |\n| (d)   | Trace few purchase invoices of paper in stock records to ensure that these have been added to stocks of raw material. |                 |                 |         |",
+          "chapter_number": "2",
+          "chapter_name": "Audit Strategy, Audit Planning & Audit Programme",
+          "unique_id": "2-TP-39"
+        }
+      ]
+    },
+    {
+      "q_main": 6,
+      "is_compulsory": false,
+      "total_marks": 14,
+      "chapter_number": "10",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4,
+          "internal_split": null,
+          "question": "While conducting statutory audit of branch of a nationalized bank, it is noticed by CA Z that credit facilities granted to a borrower consisting solely of term loan have been classified as \"Sub-standard Asset\" during the year 2025-26 due to failure of borrower to pay EMIs on time. Such EMIs were outstanding for more than 90 days and account was, therefore, classified as \"Sub-Standard Asset\". CA Z has also agreed to above asset classification made by branch management. What are CA Z's responsibilities regarding verification of compliance with income recognition norms by branch in respect of above credit facilities?",
+          "answer": "RBI norms stipulate that if any advance account becomes NPA as at close of any year, the entire interest accrued or credited to income account in past periods should be reversed or provided for, if the same is not realized. Further, in respect of NPAs, fees, commission and other similar income that have accrued should cease to accrue in the current period and should be reversed or provided for with respect to past periods, if uncollected. In the given case, account has turned Sub-standard asset which is a type of NPA. Therefore, auditor should make compliance of above norms relating to income recognition.",
+          "chapter_number": "10",
+          "chapter_name": "Audit of Banks",
+          "unique_id": "10-TP-29"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Auditors do not always issue an unmodified opinion on financial statements. In cases where there are material misstatements or limitations in obtaining sufficient audit evidence, a modified opinion may be necessary. Discuss the types of modified audit opinions an auditor can issue? Explain how these opinions differ based on the concepts of materiality and pervasiveness of the issue.",
+          "answer": "The types of modified audit opinions that an auditor can issue are:\n\n1. **Qualified Opinion**: This opinion is issued when the auditor concludes that, except for the effects of the matter(s) to which the qualification relates, the financial statements are presented fairly, in all material respects, in accordance with the applicable financial reporting framework. A qualified opinion is typically issued when there is a material misstatement in the financial statements, but it is not pervasive.\n\n2. **Adverse Opinion**: An adverse opinion is issued when the auditor concludes that the financial statements are not presented fairly, in all material respects, in accordance with the applicable financial reporting framework. This opinion is issued when the misstatements are both material and pervasive to the financial statements.\n\n3. **Disclaimer of Opinion**: A disclaimer of opinion is issued when the auditor is unable to obtain sufficient appropriate audit evidence on which to base the opinion, and the possible effects of undetected misstatements, if any, could be both material and pervasive. In this case, the auditor does not express an opinion on the financial statements.\n\n**Differences based on materiality and pervasiveness**:\n- **Materiality** refers to the significance of an amount, transaction, or discrepancy in the context of the financial statements. A misstatement is considered material if it could influence the economic decisions of users taken on the basis of the financial statements.\n- **Pervasiveness** refers to the extent to which the misstatement affects the financial statements as a whole. A misstatement is considered pervasive if it affects multiple areas of the financial statements or if it is fundamental to the users' understanding of the financial statements.\n\nIn summary, a qualified opinion indicates that there are specific issues that do not affect the overall fairness of the financial statements, while an adverse opinion indicates that the financial statements are fundamentally flawed. A disclaimer of opinion indicates that the auditor cannot form an opinion due to insufficient evidence.",
+          "chapter_number": "8",
+          "chapter_name": "Modifications to the Opinion in the Independent Auditor’s Report",
+          "unique_id": "8-TP-10"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Discuss the various points which auditor needs to consider in determining whether it is appropriate to use audit evidence about operating effectiveness of controls obtained in previous audit, and if so, the length of the time period that may elapse before retesting a control.",
+          "answer": "In determining whether it is appropriate to use audit evidence about the operating effectiveness of controls obtained in previous audits, and, if so, the length of the time period that may elapse before retesting a control, the auditor shall consider the following:  \ni. The effectiveness of other elements of internal control, including the control environment, the entity's monitoring controls, and the entity's risk assessment process;  \nii. The risks arising from the characteristics of the control, including whether it is manual or automated;  \niii. The effectiveness of general IT-controls;  \niv. The effectiveness of the control and its application by the entity, including the nature and extent of deviations in the application of the control noted in previous audits, and whether there have been personnel changes that significantly affects the application of the control;  \nv. Whether the lack of a change in a particular control poses a risk due to changing circumstances; and  \nvi. The risks of material misstatement and the extent of the reliance on the control.",
+          "chapter_number": "3",
+          "chapter_name": "Risk Assessment & Internal Control",
+          "unique_id": "3-TP-80"
+        }
+      ]
+    }
+  ]
+}

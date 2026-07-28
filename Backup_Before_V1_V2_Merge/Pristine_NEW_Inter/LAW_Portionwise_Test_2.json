@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "subject_code": "LAW",
+    "subject_name": "Corporate and Other Laws",
+    "paper_num": "Portionwise_2",
+    "total_marks_printed": 50,
+    "total_marks_in_paper": 50,
+    "section_a_marks": 0,
+    "section_b_marks": 50,
+    "two_section_format": false,
+    "note": "Portionwise Test: Attempt all 5 questions. Each question carries 10 marks (6 + 4 split).",
+    "blacklisted_from": [],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)"
+    ]
+  },
+  "section_a": [],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "9",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "(RTP May '24,MTP 6 Marks March '22, Sep '23,PYP 3 Marks Jan'21, PYP 6 Marks Nov'23) PQR Private Limited operates as a manufacturing company, generating a turnover of Rs. 150 crore and holds an outstanding loan of Rs. 75 crore from a public financial institution solely in the previous financial year (with a total loan availed of Rs. 110 crore, but Rs. 35 crore were repaid during the same year). The company's Board has delegated the authority to Chief Executive Officer (CEO) to designate an internal auditor to conduct internal audit. However, the CEO believes that the company is not legally obligated to have an internal auditor. Analyze the accuracy of the CEO's perspective by referring to the provisions outlined in the Companies Act, 2013. What would be your response if the Board of Directors wanted to appoint the Mr. Nagendra (an ex-employee who is a qualified Chartered Accountant) as an internal auditor?",
+          "answer": "According to the provisions of section 138 of the Companies Act, 2013, read with Rule 13 of the Companies (Accounts) Rules, 2014, every private company having-\n\n(A) turnover of 200 crore rupees or more during the preceding financial year; or\n\n(B) outstanding loans or borrowings from banks or public financial institutions exceeding 100 crore rupees or more at any point of time during the preceding financial year.\n\nshall be required to appoint an internal auditor which may be either an individual or a partnership firm or a body corporate.\n\nInternal Auditor shall either be a Chartered Accountant or a Cost Accountant, or such other professional as may be decided by the Board to conduct internal audit of the functions and activities of the company.\n\nThe internal auditor may or may not be an employee of the company.\n\nThus, PQR Private Limited is required to appoint an internal auditor as the outstanding loans from public financial institutions during the year have exceeded 100 crore (irrespective of the fact that the outstanding loan during the year is 75 crore rupees).\n\nHence, the advice of CEO is not correct. Internal Auditor may be any professional as decided by the Board and may be even an employee of the company. Hence, the Board of Directors may appoint Mr. Nagendra, an ex-employee who is a qualified Chartered Accountant, as an internal auditor.",
+          "chapter_number": "9",
+          "chapter_name": "DECLARATION AND PAYMENT OF DIVIDEND",
+          "unique_id": "9-T-30"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Mr. Ankit Sharma wants to form a LLP taking him, his wife Mrs. Archika Sharma and One HUF as partners for that. Whether this LLP can be incorporated under LLP Act, 2008? Explain. (SM)",
+          "answer": "Section 5 of Limited Liability Partnership Act, 2008 provides any individual or body corporate may be a partner in an LLP. However, an individual shall not be capable of becoming a partner of a LLP, if-\n\n(a) he has been found to be of unsound mind by a Court of competent jurisdiction and the finding is in force;\n\n(b) he is an undischarged insolvent; or\n\n(c) he has applied to be adjudicated as an insolvent and his application is pending.\n\nFurther, Section (2)(1)(e) provides that a Body Corporate it means a company as defined in 'clause (20) of section 2 of the Companies Act, 2013 and includes-\n\n(i) an LLP registered under this Act;\n\n(ii) an LLP incorporated outside India; and\n\n(iii) a company incorporated outside India, but does not include-\n\n(i) a corporation sole;\n\n(ii) a co-operative society registered under any law for the time being in force; and\n\n(iii) any other body corporate (not being a company as defined in 'clause (20) of section 2 of the Companies Act, 2013' or a limited liability partnership as defined in this Act), which the Central Government may, by notification in the Official Gazette, specify in this behalf. Therefore, HUF is not covered in the definition of body corporate and cannot be partner in LLP.",
+          "chapter_number": "12",
+          "chapter_name": "AUDIT \\& AUDITORS",
+          "unique_id": "12-T-7"
+        }
+      ]
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "10",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Discuss about the eligibility of Mr. A for being appointed as an auditor of XYZ Ltd. in view of the provisions of the Companies Act, 2013 (RTP Sep'24)",
+          "answer": "According to section 141 (3)(d)(ii) of the Companies Act, 2013, an auditor is disqualified to be appointed as an auditor if he or his relative or partner is indebted to the company, or its subsidiary, or its holding or associate company or a subsidiary of such holding company, in excess of Rs. 5 Lacs.\n\nIn this scenario:\n\n1. Mr. A's partner, Mr. B, has a debt of Rs. 4 Lacs from EFG Ltd., a subsidiary of XYZ Ltd.\n\n2. Mr. A's relative, Ms. C, has a debt of Rs. 2 Lacs from WIVITSULtd., an associate company of XYZ Ltd.\n\nThe total indebtedness linked to Mr. A's partner and relative is Rs. 6 Lacs (Rs. 4 Lacs + Rs. 2 Lacs), which exceeds the Rs. 5 Lacs threshold mentioned in the provision.\n\nTherefore, Mr. A is disqualified from being appointed as the auditor of XYZ Ltd. under section 141(3)(d)(ii) of the Companies Act, 2013, as the combined indebtedness of his partner and relative surpasses the permissible limit.",
+          "chapter_number": "10",
+          "chapter_name": "AUDIT \\& AUDITORS",
+          "unique_id": "10-T-22"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Explain any 3 functions and duties of NFRA and what actions can the NFRA take against the audit firm, JJ & Co., based on its findings upholding the allegations raised by the group of minority shareholders? (PYP 5 Marks May'25,Sep'25)",
+          "answer": "1. Functions and Duties of National Financial Reporting Authority [NFRA]\n\nSection $132(1 \text{~A})$ of the Companies Act, 2013, provides that National Financial Reporting Authority shall perform its functions through such divisions as may be prescribed.\n\nFurther section 132(2) read with rule 4, 6 to 9 of the National Financial Reporting Authority Rules 2018 lays down the functions and duties that NFRA shall perform, namely:\n\nThe Authority shall protect the public interest and the interests of investors, creditors and others associated with the companies or bodies corporate by establishing high quality standards of accounting and auditing and exercising effective oversight of accounting functions performed by the companies and bodies corporate and auditing functions performed by auditors.\n\nWithout prejudice to the generality, the Authority in particular shall:\n\n(a) Maintain details of particulars of auditors appointed in the companies and bodies corporate governed by NFRA;\n\n(b) Recommend accounting standards and auditing standards for approval by the Central Government;\n\n(c) Monitor and enforce compliance with accounting standards and auditing standards;\n\n(d) Oversee the quality of service of the professions associated with ensuring compliance with such standards and suggest measures for improvement in the quality of service;\n\n(e) Promote awareness in relation to the compliance of accounting standards and auditing standards;\n\n(f) Co-operate with national and international organisations of independent audit regulators in establishing and overseeing adherence to accounting standards and auditing standards; and\n\n(g) Perform such other functions and duties as may be necessary or incidental to the aforesaid functions and duties.\n\n2. As per section 132(4)(c) of the Companies Act 2013, where professional or other misconduct is proved, NFRA have the power to make order for:\n\n(A) imposing penalty of:\n\nI. not less than one lakh rupees, but which may extend to five times of the fees received, in case of individuals; and\n\nII. not less than five lakh rupees, but which may extend to ten times of the fees received, in case of firms.\n\n(B) debarring the member or the firm from:\n\nI. being appointed as an auditor or internal auditor or undertaking any audit in respect of financial statements or internal audit of the functions and activities of any company or body corporate; or\n\nII. performing any valuation as provided under section 247, for a minimum period of six months or such higher period not exceeding ten years as may be determined by the National Financial Reporting Authority.\n\nNFRA can take the above actions against the audit firm JJ & Co. based on its findings upholding the allegations raised by the group of (even) minority shareholders.",
+          "chapter_number": "9",
+          "chapter_name": "DECLARATION AND PAYMENT OF DIVIDEND",
+          "unique_id": "9-T-14"
+        }
+      ]
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "12",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "A dispute among the partners of Limited Liability Partnership (the LLP) jeopardized the stability of the business. Out of two partners, one due to a quarrel, left the LLP. The other partner alone continued the business of the LLP. You are being an expert in law is requested to explain the provisions governing the LLP being operated by a single partner and its winding up by the Tribunal as per the provisions of the Limited Liability Partnership Act, 2008. (PYP 5 Marks May'24, MTP 5 Marks Jul'25, MP[2], MP[3])",
+          "answer": "According to section 6 of the Limited Liability Partnership Act, 2008,\n\n(i) Every LLP shall have at least two partners.\n\n(ii) If at any time the number of partners of a LLP is reduced below two and the LLP carries on business for more than six months while the number is so reduced, the person, who is the only partner of the LLP during the time that it so carries on business after those six months and has the knowledge of the fact that it is carrying on business with him alone, shall be liable personally for the obligations of the LLP incurred during that period. In the given situation, the alone partner should consider the above provisions of the Limited Liability Partnership Act, 2008, governing the LLP being operated by a single partner.\n\nAs per section 64 of the Limited Liability Partnership Act, 2008, the circumstances in which LLP may be wound up by Tribunal are:\n\n(a) if the LLP decides that LLP be wound up by the Tribunal;\n\n(b) if, for a period of more than 6 months, the number of partners of the LLP is reduced below two;\n\n(c) if the LLP has acted against the interests of the sovereignty and integrity of India, the security of the state or public order;\n\nd) if the LLP has made a default in filling with the Registrar the Statement of Account and Solvency or annual return for any 5 consecutive financial years; or\n\n(e) if the Tribunal is of the opinion that it is just and equitable that the LLP be wound up.\n\nExam insights: Many students explain the single-partner rule correctly but lose marks by ignoring the specific winding-up grounds under Section 64. Recall the exact statutory triggers - don't rely on general ideas about closure.",
+          "chapter_number": "12",
+          "chapter_name": "AUDIT \\& AUDITORS",
+          "unique_id": "12-T-9"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Raysun Limited is an unlisted public company. As per its audited financial statements for the financial year 2024-25, the company had a paid-up share capital of Rs.40 crore, a turnover of Rs.210 crore, and outstanding loans of Rs. 90 crore from public financial institutions. The company also accepted public deposits amounting to Rs. 28 crore during the same financial year. Based on the above facts, examine whether Raysun Limited is required to appoint an internal auditor as per the provision of the Companies Act, 2013. (PYP 6 Marks Nov'23, MTP 5 Marks, Jul'25)",
+          "answer": "According to section 138 of the Companies Act, 2013, read with Rule 13 of the Companies (Accounts) Rules 2014, every unlisted public company is required to appoint an internal auditor if it satisfies any of the following conditions of having:\n\ni. Paid up share capital of fifty crore rupees or more during the preceding financial year; or\n\nii. Turnover of two hundred crore rupees or more during the preceding financial year; or\n\niii. Outstanding loans or borrowings from banks or public financial institutions exceeding one hundred crore rupees or more at any point of time during the preceding financial year; or\n\niv. Outstanding deposits of twenty-five crore rupees or more at any point of time during the preceding financial year.\n\nIn the given question, Raysun Limited has turnover of Rs. 210 crore and it also has outstanding deposit amounting to Rs. 28 crore in the financial year 2024-25. Hence, it will be required to appoint an internal auditor for the financial year 2025-26.",
+          "chapter_number": "9",
+          "chapter_name": "DECLARATION AND PAYMENT OF DIVIDEND",
+          "unique_id": "9-T-31"
+        }
+      ]
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "8",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "A company has accumulated Free Reserves of ₹75 lakhs during last five years. It has not declared any dividend during these years. Now, the company proposes to appropriate a part of this amount for making payment of dividend for current year in which it has earned a profit of ₹ 12 lakhs. The Board proposes a payment of dividend of ₹30 lakhs i.e. $30 \\%$ on the paid up capital. Examine, as per the provisions of the Companies Act, 2013, whether, the proposal of the company is valid? (PYP 6 Marks Nov '22)",
+          "answer": "In the question given, the company is intending to declare dividend out of current year profits and past year's profits. As per provisions of Section 123 of the Companies Act, 2013, where in any year, there are no adequate profits for declaring dividend, the company may declare dividend out of the profits of any previous year transferred by it to the free reserves only in accordance with the procedure laid down in Rule 3 of the Companies (Declaration and Payment of Dividend) Rules, 2014.\n\n## Conditions of Rule 3:\n\nCondition 1: The rate of dividend declared shall not exceed the average of the rates at which dividend was declared by the company in the immediately preceding three years.\n\nCondition 2: The total amount to be drawn from such accumulated profits shall not exceed $10 \\%$ of its paid-up share capital and free reserves as appearing in the latest audited financial statement.\n\nCondition 3: The balance of reserves after such withdrawal shall not fall below 15\\% of its paid up share capital as appearing in the latest audited financial statement.\n\n## Calculations For Each Condition\n\nCondition 1: This condition shall not apply if the company has not declared any dividend in each of the three preceding financial year.\n\nThus, condition 1 shall not be applicable on the company in question as it has not declared dividend in last 5 years.\n\nCondition 2: As per the facts, the Board proposes a payment of dividend of ₹ 30 lakhs i.e., $30 \\%$ on the paid up capital.\n\nSo, the Paid up Share Capital of the company $=₹ 100$ Lakh\n\nPaid-up Capital + Free Reserves \\quad=100+75=₹ 175$ Lakh\n\n$10 \\%$ thereof $=₹ 17.5$ Lakh\n\nHence the dividend to be declared is to be restricted to ₹ 17.5 Lakh.\n\n## Condition 3:\n\nHere, Free Reserves $=₹ 75$ Lakh\n\nProposed withdrawal for declaration of dividend ₹ 17.5 Lakh\n\nBalance of Reserves $=$ ₹75 Lakh- 17.5 Lakh $=$ ₹ 57.5 Lakh\n\nThis (balance of reserve) is more than $15 \\%$ of paid-up capital (i.e $15 \\%$ of ₹ 100 Lakh) i.e. ₹ 15 Lakh.\n\nThus, the company can declare a dividend of ₹ 17.5 lakh i.e. at a rate of $17.5 \\%$ on its paid-up capital of ₹ 100 lakh.\n\nHence, the proposal of company for payment of dividend of ₹ 30 lakh i.e. $30 \\%$ on the paid up capital in the current year in which it has earned a profit of ₹ 12 lakh, is invalid.",
+          "chapter_number": "8",
+          "chapter_name": "DECLARATION AND PAYMENT OF DIVIDEND",
+          "unique_id": "8-T-2"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Who will sign the audit report in case of a proprietorship concern or the firm of the auditors and how the qualification/s in the audit report will be dealt with by the auditor at the annual general meeting of the company as per the provisions of the Companies Act, 2013? (PYP 3 Marks May'24)",
+          "answer": "As per section 145 of the Companies Act, 2013,\n\nThe person appointed as an auditor of the company shall sign the auditor's report or sign or certify any other document of the company in accordance with the provisions of section $141(2)$ (i.e. in case of firm including LLP is appointed as an auditor of a company, only the partner who are Chartered Accountants shall be authorized to act and sign on behalf of the firm).\n\nThe qualifications, observations or comments on financial transactions or matters, which have any adverse effect on the functioning of the company mentioned in the auditor's report shall be read before the company in general meeting and shall be open to inspection by any member of the company.",
+          "chapter_number": "10",
+          "chapter_name": "AUDIT \\& AUDITORS",
+          "unique_id": "10-T-33"
+        }
+      ]
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "10",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "One-fourth of the subscribed capital of AMC Limited was held by the Government of Rajasthan. Mr. Neeraj, a Chartered Accountant, was appointed as an auditor of the Company at the Annual General Meeting held on 30 April, 2024 by an ordinary resolution. Mr. Sanjay, a shareholder of the Company, objects to the manner of appointment of Mr. Neeraj on the ground of violation of the Companies Act, 2013. Decide whether the objection of Mr. Sanjay is tenable? Also examine the consequences of the above appointment under the said Act. (SM)",
+          "answer": "As per section 2(45) of the Companies Act, 2013, the holding of $25 \\%$ shares of AMC Ltd. by the Government of Rajasthan does not make it a government company. Hence, it will be treated as a non-government company. Under section 139 of the Companies Act, 2013, the appointment of an auditor by a company vests generally with the members of the company except in the case of the first auditors and in the filling up of the casual vacancy not caused by the resignation of the auditor, in which case, the power to appoint the auditor vests with the Board of Directors. The appointment by the members is by way of an ordinary resolution only and no exceptions have been made in the Act whereby a special resolution is required for the appointment of the auditors. Therefore, the contention of Mr. Sanjay is not tenable. The appointment is valid under the Companies Act, 2013.",
+          "chapter_number": "10",
+          "chapter_name": "AUDIT \\& AUDITORS",
+          "unique_id": "10-T-1"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "In the light of the provisions of the Companies Act, 2013, examine whether the following Companies can be considered as a 'Foreign Company': (i) Red Stone Limited is a Company registered in Singapore. The Board of Directors meets and executes business decisions at their Board Meeting held in India. (ii) Xen Limited Liability Company registered in Dubai has installed its main server in Dubai for maintaining office automation software by Cloud Computing for its client in India. (SM)",
+          "answer": "According to section $2(42)$ of the Companies Act, 2013, \"Foreign company\" means any company or body corporate incorporated outside India which- (a) has a place of business in India whether by itself or through an agent, physically or through electronic mode; and (b) conducts any business activity in India in any other manner. According to the Companies (Registration of Foreign Companies) Rules, 2014, \"electronic mode\" means carrying out electronically based, whether main server is installed in India or not, including, but not limited to- (a) business to business and business to consumer transactions, data interchange and other digital supply transactions; (b) offering to accept deposits or inviting deposits or accepting deposits or subscriptions in securities, in India or from citizens of India; (c) financial settlements, web-based marketing, advisory and transactional services, database services and products, supply chain management; (d) online services such as telemarketing, telecommuting, telemedicine, education and information research; and (e) all related data communication services, Whether conducted by e-mail, mobile devices, social media, cloud computing, document management, voice or data transmission or otherwise. (f) In the given situation, Red Stone Limited is registered in Singapore. However, it does not have a place of business in India whether by itself or through an agent, physically or through electronic mode; and does not conduct any business activity in India in any other manner. Mere holding of board meetings and executing business decisions in India cannot be termed as conducting business activity in India. Hence, M/s Red Stone Limited is not a foreign company as per the Companies Act, 2013. (g) In the given situation, Xen Limited Liability Company is registered in Dubai and has installed its main server in Dubai for maintaining office automation software by Cloud Computing for its client in India. Thus, it can be said that M/s Xen Limited Liability Company has a place of business in India through electronic mode and is conducting business activity in India. Hence, Xen Limited Liability Company is a foreign company as per the Companies Act, 2013.",
+          "chapter_number": "11",
+          "chapter_name": "AUDIT \\& AUDITORS",
+          "unique_id": "11-T-1"
+        }
+      ]
+    }
+  ]
+}

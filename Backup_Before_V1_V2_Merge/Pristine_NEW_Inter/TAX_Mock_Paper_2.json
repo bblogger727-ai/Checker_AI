@@ -1,0 +1,480 @@
+{
+  "meta": {
+    "subject_code": "TAX",
+    "subject_name": "Taxation",
+    "paper_num": 2,
+    "total_marks_printed": 100,
+    "total_marks_in_paper": 120,
+    "section_a_marks": 30,
+    "section_b_marks": 80,
+    "two_section_format": true,
+    "note": "Section A (MCQ): 15 questions @ 2 marks each (Case Study based) = 30 marks. Section B: Section 1 \u2014 Q1 compulsory (15m); Q2, Q3, Q4 @ 10m each \u2014 attempt any 2 of 3. Section 2 \u2014 Q5 compulsory (15m); Q6, Q7, Q8 @ 10m each \u2014 attempt any 2 of 3. Total Section B marks to attempt = 15+20+15+20 = 70m.",
+    "blacklisted_from": [
+      "Generated_Papers/TAX/TAX_Mock_Paper_1.json"
+    ],
+    "q1_subparts": [
+      "1"
+    ]
+  },
+  "section_a": [
+    {
+      "unique_id": "10-CS-24",
+      "chapter_number": "10",
+      "chapter_name": "CASE SCENARIOS",
+      "category": "Case Study",
+      "cs_num": 24,
+      "case_text": "## CS 24 (RTP May'25)\n\nMr. Raj, aged 38 years, an Indian citizen, is carrying on manufacturing business in Canada. He frequently visits India for business purpose on a regular basis. He was in India for the first time in the year 2022-23 for 190 days, in the year 2023-24 for 145 days and in the year 2024-25 for 155 days.\n\nAfterwards he decided to close his business in Canada and shift permanently in India. So, he came to India on 1.11.2025 and started a business in Mumbai. His profits from business in Canada till 31.10.2025 is \u20b915 lakhs and from Indian business is \u20b9 5 lakhs.\n\nHe does not own any house property in Mumbai and is staying in a rented accommodation from 1.11.2025 on a monthly rent of \u20b920,000. He made a donation of \u20b950,000 to PM Cares Fund and donation of \u20b9 20,000 to Prime Minister's Drought Relief Fund by cheque during the P.Y. 2025-26.\n\nHe had purchased 10,000, 9% debentures of ABC (P) Ltd. in August 2020 @\u20b9 150 each. Face value of each debenture is \u20b9100. He sold 2,500 debentures in April, 2025 @ \u20b9 175 each and remaining 7,500 debentures in August, 2025 @155 each. Interest on debenture is due on 30th June and 31st December of every year.\n\nCII - F.Y. 2020-21: 301; F.Y. 2025-26: 376\n\nMr. Raj follows cash basis of accounting, and he wants to opt out of the default tax regime under section 115BAC.\n\nBased on the facts of the case scenario given above, choose the most appropriate answer to the following questions:\n\n(Chapter 2: Residence and Scope of Total Income)\n\n\n1. What is the residential status of Mr. Raj for the previous year 2025-26?\n\n(a) Resident but not ordinarily resident\n\n(b) Resident and ordinary resident\n\n(c) Non-resident\n\n(d) Deemed resident\n\n\nAns: (a)\n\n2. What is the amount of capital gains chargeable to tax in the hands of Mr. Raj on sale of debentures for the P.Y. 2024-25? (Chapter 3 Unit 4: Capital Gains)\n\n(a) LTCG of \u20b9 $1,00,000$\n\n(b) LTCG of (\u20b9 14,750 ) and STCG of \u20b937,500\n\n(c) LTCG of (\u20b9 $2,09,000$ )\n\n(d) STCG of \u20b91,00,000\n\n\nAns: (d)\n\n3. What will be the gross total income of Mr. Raj for the A.Y. 2026-27? (Chapter 9: Income Tax Liability Computation and Optimisation)\n\n(a) \u20b921,00,000\n\n(b) \u20b9 $6,33,750$\n\n(c) \u20b9 $5,37,500$\n\n(d) $\u20b9 5,71,500$\n\n\nAns: (b)\n\n4. What is the amount of deduction available under Chapter VI-A to Mr. Raj for A.Y. 2026-27? (Chapter 6: Deductions from Gross Total Income)\n\n(a) \u20b9 60,000\n\n(b) \u20b9 85,000\n\n(c) $\u20b9 70,000$\n\n(d) \u20b9 $1,20,000$\n\n\nAns: (b)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "What is the residential status of Mr. Raj for the previous year 2025-26?",
+          "options": {
+            "a": "Resident but not ordinarily resident",
+            "b": "Resident and ordinary resident",
+            "c": "Non-resident",
+            "d": "Deemed resident"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "What is the amount of capital gains chargeable to tax in the hands of Mr. Raj on sale of debentures for the P.Y. 2024-25?",
+          "options": {
+            "a": "LTCG of \u20b9 $1,00,000$",
+            "b": "LTCG of (\u20b9 14,750 ) and STCG of \u20b937,500",
+            "c": "LTCG of (\u20b9 $2,09,000$ )",
+            "d": "STCG of \u20b91,00,000"
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "What will be the gross total income of Mr. Raj for the A.Y. 2026-27?",
+          "options": {
+            "a": "\u20b921,00,000",
+            "b": "\u20b9 $6,33,750$",
+            "c": "\u20b9 $5,37,500$",
+            "d": "$\u20b9 5,71,500$"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null
+        },
+        {
+          "q_num": 4,
+          "question": "What is the amount of deduction available under Chapter VI-A to Mr. Raj for A.Y. 2026-27?",
+          "options": {
+            "a": "\u20b9 60,000",
+            "b": "\u20b9 85,000",
+            "c": "$\u20b9 70,000$",
+            "d": "\u20b9 $1,20,000$"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null
+        }
+      ]
+    },
+    {
+      "unique_id": "10-CS-28",
+      "chapter_number": "10",
+      "chapter_name": "CASE SCENARIOS",
+      "category": "Case Study",
+      "cs_num": 28,
+      "case_text": "Reenu, a resident individual aged \\( \\textbf{4 8} \\) years, owns 2 flats (A and B) in Hyderabad. She lives in flat A and gave flat B to her in-laws for their residential purposes. She does not charge any rent from them. In the month of April 2025, she entered into an agreement to buy flat C from a builder in the same area as her other flats are situated. In the month of September 2025, she took possession of flat C and started spending her weekends there after paying a token amount of \\( \u20b9 11,000 \\) to the builder. However, flat C is still not registered in her name. All the three flats are identical in size and other aspects.\n\nShe had one more flat D which was let out at a monthly rent of \\( \u20b9 45,000 \\) to Mr. Shubh during the financial year 2022-23 (from 01.04.2022 to 31.03.2023). Mr. Shubh did not pay rent for 3 months. Reenu sold the flat on 31.03.2025.\n\nShe owned \\( \\textbf{5 , 0 0 0} \\) shares of PQR Ltd. (listed on a recognised stock exchange in India), an Indian company which were acquired on 01.02 .2023 for \\( \u20b9 180 \\) per share. On 01.01.2026, the company bought 2,000 shares back from her and paid \\( \u20b9 420 \\) per share to Reenu.",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Which of the following statements is correct as far as the taxability of income from house property is concerned? (Ch : 3.2 Unit 2: Income from House Property)",
+          "options": {
+            "a": "Any two flats (of her choice) will be treated as self-occupied whereas the third flat will be treated as deemed to be let out.",
+            "b": "One flat (of her choice) will be treated as self-occupied whereas the other two flats will be treated as deemed to be let out.",
+            "c": "Flat A will be treated as self-occupied, flat B will be treated as deemed to be let out and flat C will not have any impact on her income as the flat is not yet registered in her name.",
+            "d": "All three flats will be treated as self-occupied."
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "Assume Shubh pays the arrear rent to Reenu on 28th June 2025. What shall be the treatment of such rent received if she had to spend \u20b9 5,000 for such collection? (Ch : 3.2 Unit 2: Income from House Property )",
+          "options": {
+            "a": "\u20b9 $1,30,000$ shall be taxable in the hands of Reenu as income from other sources in the P.Y. 2025-26 as she is not the owner of the flat anymore.",
+            "b": "Nothing shall be taxable in the hands of Reenu as she is not the owner of the flat anymore.",
+            "c": "\u20b9 94,500 shall be taxable in the hands of Reenu as income from house property in the P.Y. 2025-26, even if she is not the owner of the flat anymore.",
+            "d": "\u20b9 89,500 shall be taxable in the hands of Reenu as income from house property in the P.Y. 2025-26, even if she is not the owner of the flat anymore."
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "Which of the following statements is correct as far as the taxability of buy-back of shares by PQR Ltd. is concerned? (Cost Inflation Index: F.Y. 2021-22:317; F.Y. 2024-25:363) (Ch: 3.4 Unit 4: Capital Gains)",
+          "options": {
+            "a": "$\u20b9 8,40,000$ will be treated as deemed dividend in the hands of Reenu.",
+            "b": "PQR Ltd. shall be liable to pay \u20b9 $1,95,686$ as additional income-tax and the income arising in respect of such buy-back shall be exempt in the hands of Reenu.",
+            "c": "\u20b9 $4,80,000$ will be treated as long-term capital gains in the hands of Reenu and it will be taxable at the rate of $12.5 \\%$ after deducting \u20b9 $1,25,000$ from the LTCG.",
+            "d": "\u20b9 $4,80,000$ will be treated as deemed dividend in the hands of Reenu."
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null
+        }
+      ]
+    },
+    {
+      "unique_id": "26-CS-20",
+      "chapter_number": "26",
+      "chapter_name": "CASE SCENARIOS",
+      "category": "Case Study",
+      "cs_num": 20,
+      "case_text": "M/s. Veena & Co. of Jabalpur was registered under GST under composition scheme. Outward Supply of the firm for the month of July 20XX was \u20b9 10 lakh, out of which \u20b9 2 lakh was supply of services. In the preceding financial year, the firm was doing trading of taxable goods only. Turnover of the concern for the previous financial year was \u20b9 100 lakh.\n\nThe firm imported the following services during August, 20XX:\n\n(a) Architect services from Mr. Vinod, a partner of the firm, who resides in France for \u20b9 1,00,000. The said service was paid but not used for the furtherance of the business.\n\n(b) Management consultancy services from Mr. Lal, a renowned lawyer in Sweden, who was an ex-employee of the firm. The value of the said service was \u20b9 3,00,000. Even though it was used in the furtherance of the business, no consideration was paid by the firm.\n\nAggregate Turnover of the firm crossed the limit of \u20b9 150 lakh on 25.09.20XX from which date the firm was liable to pay tax under a regular scheme.\n\nAll the amounts given above are exclusive of taxes wherever applicable. All the supply referred above is intra-State unless specified otherwise.",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Tax liability of Veena & Co. for the month of July 20XX is \u20b9 each under CGST and SGST.",
+          "options": {
+            "a": "5,000",
+            "b": "9,000",
+            "c": "10,000",
+            "d": "14,000"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "Import of services by Veena & Co. that will be treated as supply is \u20b9 _____.",
+          "options": {
+            "a": "Nil",
+            "b": "\u20b9 1,00,000",
+            "c": "\u20b9 3,00,000",
+            "d": "\u20b9 4,00,000"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "Veena & Co. will be eligible to claim ITC held on Stock and Capital goods as on _____.",
+          "options": {
+            "a": "01-09-20XX",
+            "b": "24-09-20XX",
+            "c": "25-09-20XX",
+            "d": "30-09-20XX"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null
+        }
+      ]
+    },
+    {
+      "unique_id": "26-CS-2",
+      "chapter_number": "26",
+      "chapter_name": "CASE SCENARIOS",
+      "category": "Case Study",
+      "cs_num": 2,
+      "case_text": "## CS 2 (RTP Nov '22)\n\nM/s. Delight Brothers, a partnership firm, is engaged in restaurant business. It is registered under the composition levy scheme under section 10(1) and 10(2) of the CGST Act, 2017 for the current financial year. It's turnover in the State for the month of April was \u20b9 12,00,000.\n\nIt received new orders in the month of May to run a mess facility for supplying food at:\n\ni. Vishwas Public School, a higher secondary school;\n\nii. Knowledge Institute of Technology, an engineering college, approved by AICTE and UGC; and\n\niii.Frontline Hospital\n\nIt also provided catering services to a Coral limited company for their Annual General Meeting. Service was provided on 3rd July. But invoice was not issued by the firm to the company. However, payment was received on 25th July for which bank account was credited on 28th July. The turnover of restaurant business for the current financial year is \u20b9 48,00,000.\n\nFrom the inception of next financial year, Delight Brothers will close down the restaurant business and will provide service of repairing of air conditioners. M/s Delight Brothers undertakes intra-State transactions only. Based on the information given above.",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Compute the tax liability of M/s. Delight Brothers for the month of April? Chapter 14: Exemptions of GST",
+          "options": {
+            "a": "CGST & SGST of \u20b9 6,000 each",
+            "b": "CGST & SGST of \u20b9 12,000 each",
+            "c": "CGST & SGST of \u20b9 30,000 each",
+            "d": "CGST & SGST of \u20b9 60,000 each"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "Out of new orders received by the firm in May, which of the following services are exempt from GST? Chapter 15.1:Time of Supply",
+          "options": {
+            "a": "(i) and (iii)",
+            "b": "(ii) and (iii)",
+            "c": "only (i)",
+            "d": "(i) and (ii)"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "Time of supply of catering services provided to a Coral limited company is Chapter 15:Time of Supply",
+          "options": {
+            "a": "3rd July",
+            "b": "25th July",
+            "c": "28th July",
+            "d": "2nd August"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null
+        },
+        {
+          "q_num": 4,
+          "question": "Which of the following statements is most appropriate in respect of next financial year for M/s Delight Brothers? Chapter 13: Charge of GST",
+          "options": {
+            "a": "M/s Delight Brothers can continue to avail composition levy scheme under section 10(1) and 10(2) of the CGST Act, 2017.",
+            "b": "M/s Delight Brothers is not eligible to avail composition levy scheme under section 10(1) and 10(2) of the CGST Act, 2017.",
+            "c": "M/s Delight Brothers is not eligible to avail composition levy scheme under section 10(1) and 10(2) of the CGST Act, 2017, but can avail benefit of composition levy under section 10(2A) of the CGST Act, 2017.",
+            "d": "M/s Delight Brothers can neither avail composition levy scheme under section 10(1) and 10(2) of the CGST Act, 2017 nor under section 10(2A) of the CGST Act, 2017)"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null
+        },
+        {
+          "q_num": 5,
+          "question": "Rate of GST applicable for service of repairing of air conditioners made by M/s Delight Brothers will be _____ , assuming that it intends to pay the tax at the minimum rate available?",
+          "options": {
+            "a": "$1 \\%$",
+            "b": "$5 \\%$",
+            "c": "$6 \\%$",
+            "d": "$12 \\%$"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null
+        }
+      ]
+    }
+  ],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": true,
+      "total_marks": 15,
+      "chapter_number": "3.3",
+      "sub_questions": [
+        {
+          "label": "\u2014",
+          "marks": 15,
+          "internal_split": null,
+          "question": "Question 40 (PYP 15 Marks Sep'25)\n\nMr. Ram, a resident individual aged 58 years, is engaged in the manufacturing of textile items. Statement of Profit and Loss shows a net profit (after deprecation but before tax) of \u20b952,00,000 for the financial year ended $31^{\text {st }}$ March, 2026 after debiting/crediting the following items:\n\n(i) Depreciation as per Income-tax Rules: \u20b9 $28,00,000$ including additional deprecation on new plant & machinery of \u20b9 1,50,000.\n\n(ii) Interest amounting to \u20b9 $2,10,000$ for short payment of advance tax as per section 234 B relating to the assessment year 2025-26.\n\n(iii) $\u20b9 3,50,000$ paid to a contractor for carrying out whitewash work at factory premises. Tax was not deducted at source on this payment and the contractor did not file his return of income for the relevant PY.\n\n(iv) Contribution to Prime Minister National Relief Fund - $\u20b9 3,00,000$ paid by way of cheque.\n\n(v) Expenditure towards advertising charges in a brochure of a political party registered under section 29 A of Representation of the People Act, 1951- \u20b9 40,000 paid by way of cheque.\n\n(vi) Interest on term loans obtained from a co-operative bank not paid before the due date of filing of return of income - \u20b9 2,60,000.\n\n(vii) Contribution towards pension scheme of employees - \u20b9 $1,50,000$. The eligible salary and dearness allowance for the pension scheme referred to under section 80 CCD is $\u20b9 10,00,000$.\n\n(viii) Industrial power tariff concession of \u20b9 $\textbf{2 , 5 0 , 0 0 0}$ received from the Central Government.\n\n(ix) Interest from banks on fixed deposits (gross) - \u20b9 1,50,000\n\n(x) Cash gift from father - \u20b9 90,000\n\nAdditional Information:\n\n(i) Expenditure pertaining to previous financial year (F.Y. 2024-25) was allowed on due basis, but paid in current financial year in cash on 18.01.2026: \u20b935,000\n\n(ii) Audit fee for the previous year 2024-25: \u20b9 75,000 . TDS deducted but not deposited in the relevant previous year. However, TDS was deposited on 31.12.2025.\n\nYou are required to compute the total income and tax liability of Mr. Ram under both the taxation regimes (normal as well as under section 115BAC) and suggest the one which is more beneficial to him. Ram prepares his accounts on mercantile basis.",
+          "answer": "Computation of total income and tax liability of Mr. Ram for A.Y. 2026-27 under default tax regime under section 115BAC\n\n|  | Particulars |  | \u20b9 | \u20b9 |\n| :--- | :--- | :--- | :--- | :--- |\n| I | Profits and gains from business or profession |  |  |  |\n|  | Net profit as per Statement of Profit and Loss |  | 52,00,000 |  |\n|  | Add: Items of expenditure not allowable while computing business income | 945 |  |  |\n|  | - Additional depreciation [Not allowable under default tax regime] | 1,50,000 |  |  |\n|  | - Interest u/s 234B on short payment of advance tax [Not allowed] | 2,10,000 |  |  |\n|  | - Payment to contractor without deduction of TDS [30\\% of payment made to contractor is disallowed under section 40(a)(ia) since tax was not deducted at source and contractor did not file his return of income] | 1,05,000 |  |  |\n|  | - Contribution to Prime Minister Relief Fund [Disallowed since it is not wholly and exclusively incurred for business purpose] | 3,00,000 |  |  |\n|  | - Advertising charges in a brochure of a political party [Disallowed under section 37(2B)] | 40,000 |  |  |\n|  | - Interest on term loan to co-operative bank [Disallowed under section 43B, since interest is not paid before due date of filing of return of income] | 2,60,000 |  |  |\n|  | - Contribution towards pension scheme of employees [14\\% of salary and dearness allowance is allowed as deduction in respect of contribution towards pension scheme. Accordingly, excess contribution of \u20b9 10,000, being \u20b9 1,50,000 - \u20b9 1,40,000 (14\\% of \u20b9 10 lakhs) is disallowed] | $\\underline{10,000}$ | $\\underline{10,75,000}$ |  |\n|  |  |  | 62,75,000 |  |\n|  | Less: Items of income to be treated separately under the respective head of income |  |  |  |\n\n\n|  | - Industrial power tariff concession received from Central Government [Any assistance in the form of concession received from the Central Government would be treated as income. Since it is already credited to statement of profit and loss, no adjustment is required] | - |  |  |\n| :--- | :--- | :--- | :--- | :--- |\n|  | - Interest from banks on fixed deposits [Taxable or otherwise under the head \"Income from Other Sources\"] | 1,50,000 |  |  |\n|  | - Cash gift from father [Taxable or otherwise under the head \"Income from Other Sources\"] | 90,000 | $\\underline{2,40,000}$ |  |\n|  |  |  | 60,35,000 |  |\n|  | Add: Disallowance under section $40 \\mathrm{~A}(3 \\mathrm{~A})$ for aggregate cash payment exceeding $\u20b9 10,000$ in a single day which was allowed in the P.Y. 2024-25 on due basis |  | 35,000 |  |\n|  |  |  | 60,70,000 |  |\n|  | Less: 30\\% of \u20b975,000, representing audit fees for the P.Y. 2024-25 for which tax was deducted but not deposited would have been disallowed while computing deduction for P.Y.2024-25. Since the tax is deposited in P.Y.2025-26, \u20b9 22,500 would be allowable as deduction in the A.Y.2026-27 |  | 22,500 |  |\n|  |  |  |  | 60,47,500 |\n| II | Income from Other Sources |  |  |  |\n|  | Interest from banks on fixed deposits |  | 1,50,000 |  |\n|  | Cash gift from father [Cash gift received from father, being a relative is not taxable] <br> Gauresh 18237317945 |  | - | $\\underline{1,50,000}$ |\n|  | Gross Total Income |  |  | 61,97,500 |\n|  | Less: Deduction under section 80 G [Not allowable under default tax regime] |  |  | Nil |\n|  | Total Income |  |  | 61,97,500 |\n|  | Tax on \u20b9 61,97,500 |  |  | 14,39,250 |\n|  | Add: Surcharge @10\\% [Since total income exceeds \u20b9 50 lakhs but does not exceed \u20b9 1 crore] |  |  | $\\underline{1,43,925}$ |\n|  |  |  |  | 15,83,175 |\n|  | Add: HEC@4\\% |  |  | 63,327 |\n|  | Tax liability |  |  | $\\underline{16,46,502}$ |\n|  | Tax liability (Rounded off) |  |  | $\\underline{16,46,500}$ |\n\n\nComputation of total income and tax liability of Mr. Ram for A.Y. 2026-27 under the optional tax regime of the Income-tax Act, 1961\n\n| Particulars | \u20b9 | \u20b9 |\n| :--- | :--- |\n| Gross Total Income/ Total Income as per default tax regime u/s 115BAC |  | 61,97,500 |\n| Less: Additional depreciation |  | $\\underline{1,50,000}$ |\n| Gross Total Income as per optional tax regime |  | 60,47,500 |\n| Less: Deduction under Chapter VI-A |  |  |\n| Deduction under section 80 G |  |  |\n| Contribution to Prime Minister Relief Fund |  | 3,00,000 |\n| Deduction under section $\\mathbf{8 0 G G C}$ - Expenditure towards advertising charges in a brochure of a political party incurred by an individual not allowed as deduction |  | Nil |\n| Total Income |  | 57,47,500 |\n| Tax on \u20b9 57,47,500 |  |  |\n| Upto \u20b9 2,50,000 | Nil |  |\n| \u20b9 2,50,000 - \u20b9 5,00,000 [\u20b9 2.50 lakhs @5\\%] | 12,500 |  |\n| \u20b9 5,00,000 - \u20b9 10,0000 [\u20b9 5 lakhs @20\\%] | 1,00,000 |  |\n| \u20b9 10,00,000 - \u20b9 57,47,500 [\u20b9 47,47,500 @30\\%] | $\\underline{14,24,250}$ |  |\n| :--- | :--- | :--- |\n|  |  | 15,36,750 |\n| Add: Surcharge @10\\% [Since total income exceeds <br> \u20b9 50 lakhs but does not exceed \u20b9 1 crore] |  | $\\underline{1,53,675}$ |\n|  |  | 16,90,425 |\n| Add: HEC@4\\% |  | 67,617 |\n| Tax liability |  | 17,58,042 |\n| Tax liability (Rounded off) |  | 17,58,040 |\n| Since the tax liability of Mr. Ram under default tax regime is lower than the tax liability computed under Optional scheme 115BAC, it would be beneficial for him to Pay tax Under default tax regime under section 115BAC for A.Y. 2026-27. |  |  |",
+          "chapter_number": "9",
+          "chapter_name": "PROVISIONS FOR FILING RETURN OF INCOME AND SELF ASSESSMENT",
+          "unique_id": "9-T-40"
+        }
+      ],
+      "section": 1
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "2",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Compute taxable income of Mr. Sanjay for the assessment year 2026-27 if he is a (I) Not ordinarily resident (II) Non-resident (PYP 4 Marks, Nov'23)",
+          "answer": "Computation of taxable income of Mr. Sanjay for the A.Y. 2026-27\n\n|  |  | Not ordinarily resident (RNOR) | Nonresident |\n| :--- | :--- | :--- | :--- |\n| (1) | Interest on England Development Bonds (1/3 received in India), amount of Rs. 20,000 being received in India would be taxable in case of both RNOR and non-resident. | 20,000 | 20,000 |\n| (2) | Interest received from non-resident against a loan given to him to run a business in India would be deemed to accrue or arise in India. Thus, such interest is taxable in case of both RNOR and nonresident | 5,000 | 5,000 |\n| (3) | Royalty received from Akhil, a resident for technical services given to run a business outside India would not be deemed to accrue or arise in India, since such services are utilised for business carried outside India. Thus, royalty would not be taxable in case of both RNOR and non-resident. | - | - |\n| (4) | Income from business in Sri Lanka of Rs. 25,000 out of which Rs. 15,000 were received in India. Whole of the income from business in Sri Lanka is taxable in case of RNOR, since business is controlled from India. However, in case of non-resident only the amount received in India would be taxable. | 25,000 | 15,000 |\n| Taxable Income |  | 50,000 | 40,000 |",
+          "chapter_number": "2",
+          "chapter_name": "RESIDENCE AND SCOPE OF TOTAL INCOME",
+          "unique_id": "2-T-4"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Examine & explain the TDS/ TCS implications in the following cases along with reasons thereof, assuming that the deductees are residents and having a PAN which they have duly furnished to the respective deductors. (i) Mr. Ram, an individual carrying on business, reported a turnover of Rs. 89 lakhs for the F.Y. 2024-25. In April 2025, he entered into an agreement to hire machinery for use in his business operations for a monthly rent of Rs. 50,000. (ii) XYZ Limited, having an idle parking lot, opted to lease it through a public bidding process. PQR Ltd, a PSU, emerged as the highest bidder and will utilize the premises for its business operations under the lease arrangement. (MTP 4 Marks Jul'25)",
+          "answer": "(i) The provisions of section 194-I are not applicable in this case since Mr. Ram's turnover from business does not exceed Rs. 1 crore in the P.Y. 2024-25. Further, Mr. Ram is not required to deduct tax at source under section 194-IB since Mr. Ram has paid rent for hiring of machinery for his business operation and section 194-IB covers only rent on land or building or both. Accordingly, Mr. Ram is not required to deduct tax at source on rent paid for hiring machinery for his business purpose. (ii) Section 206C(1C) requires to collect tax by every person who grants a lease or a licence or enters into a contract or otherwise transfers any right or interest in any parking lot to another person (other than a public sector company) for the use of such parking lot for the purposes of business. The tax under section 206C(1C) shall be collected at the rate of 2%. In the present case, since PQR Ltd. is a public sector company, M/s XYZ Ltd. is not required to collect tax at source under section 206C(1C).",
+          "chapter_number": "7",
+          "chapter_name": "AGGREGATION OF INCOME, SET OFF AND CARRY FORWARD OF LOSSES",
+          "unique_id": "7-T-32"
+        }
+      ],
+      "section": 1
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "3.4",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4.5,
+          "internal_split": null,
+          "question": "Compute the deduction available under section 35 of the Income-tax Act, 1961 for A.Y. 2026-27, while computing his income under the head \"Profits and gains of business or profession\" under default tax regime under section 115BAC. Assume the following payments were made: Rs. 15 lakhs to AB University, Rs. 17 lakhs to Siya College, Rs. 12 lakhs to IIT Bangalore for an approved scientific research program, and Rs. 25 lakhs for capital expenditure on purchase of machinery. (MTP 4 Marks Jul'24,MP[3])",
+          "answer": "Computation of deduction allowable under section 35\n\n| Particulars | Amount (Rs. in lakhs) | Section | % of deduction | Amount of deduction (Rs. in lakhs) |\n| :--- | :--- | :--- | :--- | :--- |\n| Payment for scientific research |  |  |  |  |\n| AB University, an approved University | 15 | 35(1)(ii) | Nil | Nil |\n| Siya College | 17 | - | Nil | Nil |\n| IIT Bangalore (under an approved programme for scientific research) | 12 | 35(2AA) | Nil | Nil |\n| In-house research |  |  | 100% | 25 |\n| Capital expenditure - Purchase of Machinery | 25 | 35(1)(iv) r.w. 35(2) |  |  |\n| Deduction allowable under section 35 |  |  |  | 25 |\n\nDeduction under section 35(1)(ii) and 35(2AA) is not allowable under default tax regime under section 115BAC.",
+          "chapter_number": "3.3",
+          "chapter_name": "PROFITS AND GAINS OF BUSINESS OR PROFESSION",
+          "unique_id": "3.3-T-7"
+        },
+        {
+          "label": "b",
+          "marks": 5.5,
+          "internal_split": null,
+          "question": "Mr. Sumit has submitted his income-tax return containing certain losses/deductions in respect of the P.Y. 2025-26 on 22.10.2026. The due date for filing the return for Mr. Sumit was 31st July, 2026 under section 139(1). You are required to examine with reference to the relevant provisions of Income-tax Act, 1961 whether the following losses/deductions can be carried forward/claimed in subsequent years by Mr. Sumit if he pays tax under default tax provisions of the Act. (i) Loss from the business carried on by him as a proprietor: \u20b9 10,80,000 (computed) (ii) Unabsorbed Depreciation: \u20b9 2,00,000 (computed) (iii) Loss from let out house property: \u20b9 2,50,000 (computed) (MTP 3 Marks Dec'24,MP[6])",
+          "answer": "Mr. Sumit has furnished his return of income under default tax regime for A.Y.2026-27 on 22.10.2026, i.e., after the due date specified under section 139(1) i.e., $31^{\text {st }}$ July 2026 Hence, the return is a belated return under section 139(4). As per section 80 read with section $139(3)$, specified losses, which have not been determined in pursuance of a return of loss filed within the time specified in section 139(1), cannot be carried forward to the subsequent year for set-off against income of that year. The specified losses include, inter alia, business loss but does not include loss from house property and unabsorbed depreciation. Accordingly, business loss of \u20b9 $10,80,000$ of Mr. Sumit for A.Y. 2026-27, not determined in pursuance of a return of loss filed within the time specified in section 139(1), cannot be carried forward to A.Y. 2027-28. However, the loss of \u20b9 $2,50,000$ from let out house property and unabsorbed depreciation of \u20b9 $2,00,000$ pertaining to A.Y.2026-27, can be carried forward to A.Y.2027-28 for set-off, even though Mr. Sumit has filed the return of loss for A.Y.2026-27 belatedly.",
+          "chapter_number": "5",
+          "chapter_name": "AGGREGATION OF INCOME, SET OFF AND CARRY FORWARD OF LOSSES",
+          "unique_id": "5-T-1"
+        }
+      ],
+      "section": 1
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "5",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Compute the gross total income of Mr. Prakhar for A.Y. 2026-27 and the losses to be carried forward, from the information given below:  \n\n| (i) | Income from House Property (computed) | \u20b9 3,60,000 |  \n| :--- | :--- | :--- |  \n| (ii) | Short term capital loss on shares of a company | \u20b9 (-) 18,700 |  \n| (iii) | Long term capital gain on sale of agricultural land | \u20b9 6,000 |  \n| (iv) | Income from rubber business (plants grown by Mr. Prakhar) | \u20b980,000 |  \n| (v) | Loss from garment business b/f discontinued in F.Y. 2021-22 | \u20b9 (-) 70,000 |  \n| (vi) | Loss from betting | \u20b9 (-) 5,500 |  \n| (vii) | Income from lotteries (net) | \u20b9 5,460 |",
+          "answer": "Computation of gross total income of Mr. Prakhar for the A.Y.2026-27  \n\n| Particulars | \u20b9 | \u20b9 |  \n| :--- | :--- | :--- |  \n| Income from house property (computed) |  | 3,60,000 |  \n| Profits and gains from business and profession |  |  |  \n| Income from rubber business [35% of inconfe from manafacture of rubber is business income [ \u20b980,000 \u00d7 35 % ] and the balance \u20b965 % would be agricultural income | 28,000 |  |  \n| Less: Brought forward loss of \u20b9 70,000 from garment business set-off to the extent of \u20b9 28,000 , set-off is permissible even if the business is discontinued | 28,000 | Nil |  \n| Capital Gains |  |  |  \n| Long-term capital gain on sale of agricultural land (Exempt, assuming that the same is rural agricultural land) |  | - |  \n| Income from Other Sources |  |  |  \n| Income from lotteries ( \u20b9 5,460 \u00d7 100 / 70 ) |  | 7,800 |  \n| [Note - Tax @ 30 % has to be deducted on winnings from lotteries u/s 194B only if the amount of payment exceeds\u20b9 10,000 . However, in the question, winnings from lotteries is only \u20b9 5,460 and the word \"net\" is given in the bracket. Since, the word \"net\" is written in the bracket in question, main solution is given based on the view that tax has been deducted on income from lotteries @ 30 % and accordingly, the lottery income is grossed up. However, since no tax is deductible u/s 194B where lottery income does not exceed\u20b9 10,000, the question can be answered without grossing up the lottery income of \u20b9 5,460 . In such a case, gross total income would be \u20b9 3,65,460 ] |  |  |  \n| Gross Total Income |  | 3,67,800 |  \n| Losses to be carried forward to A.Y.2026-27 |  | \u20b9 |  \n| Loss from garment business pertaining to P.Y. 2021-22 (\u20b970,000 - \u20b9 28,000) |  | 42,000 |  \n| Short term capital loss on shares of a company of A.Y. 2026-27 |  | 18,700 |  \n| Loss of \u20b9 5,500 from betting can neither be set-off nor be carried forward. |  | - |",
+          "chapter_number": "5",
+          "chapter_name": "AGGREGATION OF INCOME, SET OFF AND CARRY FORWARD OF LOSSES",
+          "unique_id": "5-T-3"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Vegetable Ltd. filed its return of income for the A.Y. 2024-25, on 15th December 2024. On 2nd January 2025, the accountant of Vegetable Ltd. realised that he had forgotten to claim a genuine business expenditure amounting to `15 lakhs. He wants to file revised return to claim such expenditure as the assessment is not yet completed. Whether the action of the accountant of Vegetable Ltd. is valid?\n(ii) Mahendra, a resident individual aged 45 years earned a salary income of `2 crores during the F.Y. 2024-25. He also earned dividend from unlisted shares amounting to `4 lakhs. He wants to file his return of income for the A.Y. 2025-26 through a Tax Return Preparer. Can he do so?",
+          "answer": "The due date of filing return of income of Vegetable Ltd for the A.Y.2024-25 is 31st October, 2024 since it is a company. However, it filed its return of income on 15.12.2024, which is a belated return. If any omission is discovered even in a belated return, the same can also be revised up to 31.12.2024 being the date 3 months prior to the end of the relevant assessment year i.e. 31.03.2024 or completion of assessment, whichever is earlier. However, it cannot file a revised return on 02.01.2025 since it is beyond 31.12.2024. Hence, the action of accountant of Vegetable Ltd is not valid.\nSince Mr. Mahendra is a resident individual, not being a company or a person whose accounts are required to be audited under section 44AB for the P.Y. 2024-25, and therefore he can file his return of income for A.Y. 2025-26 through a Tax Return Preparer.",
+          "chapter_number": "7",
+          "chapter_name": "ASSESSMENT PROCEDURE",
+          "unique_id": "BQ-4B"
+        }
+      ],
+      "section": 1
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": true,
+      "total_marks": 15,
+      "chapter_number": "23",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 10,
+          "internal_split": null,
+          "question": "SSP Ltd., a registered person under GST in Gandhinagar (Gujarat), is engaged in making various supplies of goods and services. It provides the following details regarding the transactions undertaken in the month of October 2025:\n\n| Sr. No. | Outward transactions | Amount (\u20b9) |\n| :--- | :--- | :--- |\n| (i) | Supply of goods to Mr. Kartik of Bharuch (Gujarat) who is an unregistered person.<br>Out of supply of goods for \u20b9 6,00,000, \u20b9 1,00,000 is for exempted goods but no separate invoice has been made for exempt supply and both supplies were shown in the same invoice as different items. | 6,00,000 |\n| (ii) | Issued voucher on 15/10/2025 to AVC Ltd. of Kanpur (Uttar Pradesh) which can be redeemed against the combo of one personal pizza and one vegetable burger before 14/11/2025. | 50,000 |\n| (iii) | Provided local delivery service of goods through M/s B-kart, a registered Electronic Commerce Operator (ECO), registered in the State of Gujarat. | 10,50,000 |\n| (iv) | Stock transferred without consideration to branch of SSP Ltd. in Ahmedabad. Branch has a different GSTIN as it operates in a different segment.<br>(The value of goods for such branch transfer can be taken as \u20b9 3,50,000 as per Valuation Rules under the GST law) | ------ |\n| (v) | Provided pure labour services of construction of single commercial unit located in Rajasthan not forming part of any residential complex to a customer in Jaipur (Rajasthan). | 6,00,000 |\n\n| Inward transactions | Amount (\u20b9) |\n| :--- | :--- |\n| (i) | Fees paid to CA Vijay Jain, a practicing Chartered Accountant of Mumbai, not registered under GST.<br>(\u20b9 2,00,000 for the statutory audit and \u20b9 25,000 for certification work) | 2,25,000 |\n| (ii) | On 02/10/2025, SSP Ltd. purchased taxable goods valued \u20b9 15,00,000 from VXT Ltd., a registered person in State of Rajasthan. VXT Ltd. raised taxable invoice for \u20b9 15,00,000. However, the SSP Ltd. paid only \u20b9 14,50,000 to VXT Ltd. as full and final payment on 25/10/2025 and the supplier VXT Ltd. issued a commercial/ financial credit note of \u20b9 50,000 on the same date of payment. | 15,00,000 |\n\n**Additional information:**\n(i) SSP Ltd. paid \u20b9 75,000 as monthly rent to its full-time director Mr. Rajan Yadav, an unregistered person located in Ahmedabad (Gujarat) for using building owned by Mr. Rajan Yadav as Head Office of SSP Ltd. Mr. Rajan Yadav rented the building in his personal capacity.\n(ii) Accountant of SSP Ltd. is of the view that since local delivery service of goods is provided as Goods Transport Agency, it is exempt. He is also of the view that, even if the supply is considered taxable, SSP Ltd. is not required to pay tax, since M/s B-Kart is a registered Electronic Commerce Operator (ECO), and M/s B-Kart will pay the tax under the Reverse Charge Mechanism (RCM).\n(iii) All the figures are exclusive of GST, wherever applicable.\n(iv) All the conditions necessary for availing the input tax credit have been complied with and details of GST paid on inward supplies are available in GSTR 2B. There is an opening balance of CGST of \u20b9 1,75,000 as input tax credit at the beginning of the month.\n(v) Assume that all the inward supplies are used for outward taxable supplies only.\n(vi) Turnover for the previous financial year was \u20b9 290 lakh.\n(vii) Wherever details for determination of place of supply are not given in the question, it shall be taken as intra-State transaction.\n(viii) Assume the applicable rates of GST for all outward and inward supplies are IGST 18%, CGST 9% and SGST 9%.\n\nCompute the minimum net GST liability of SSP Ltd. to be paid in cash if any, for the month of October 2025, after utilising input tax credit.\n**Note:** Calculate GST for each point separately and legal explanations for each point should form part of the answer but detailed provision for place of supply is not required.",
+          "answer": "**Computation of minimum net GST liability of SSP Ltd. to be paid in cash, for the month of October, 2025**\n\n| Particulars | Value (\u20b9) | CGST (\u20b9) | SGST (\u20b9) | IGST (\u20b9) |\n| :--- | :--- | :--- | :--- | :--- |\n| **GST payable on forward charge** | | | | |\n| Supply of goods to Mr. Kartik, unregistered person<br>[Tax is payable on taxable supply only and not on exempted supply. Further, it is an intra-State supply.] | 5,00,000<br>[6,00,000 - 1,00,000] | 45,000<br>[5,00,000 \u00d7 9%] | 45,000<br>[5,00,000 \u00d7 9%] | - |\n| Voucher issued to AVC Ltd.<br>[Vouchers are not supply as they are neither supply of goods nor supply of services.] | 50,000 | - | - | - |\n| Local delivery service provided through ECO - M/s B-kart)\u00b9<br>[Even though local delivery services provided through an ECO are notified services, tax is not payable by ECO (M/s B-Kart) because supplier (SSP Ltd.) is registered. Thus, tax is payable by the supplier itself\u00b2.] | 10,50,000 | 94,500<br>[10,50,000 x 9%] | 94,500<br>[10,50,000 x 9%] | - |\n| Stock transfer to Ahmedabad branch with different GSTIN<br>[Since branch has a separate GSTIN, it is a distinct person. Thus, stock transfer to said branch without consideration also qualifies as supply. Further, it is an intra-State supply.] | 3,50,000 | 31,500<br>[3,50,000 x 9%] | 31,500<br>[3,50,000 x 9%] | - |\n| Pure labour construction service for commercial unit<br>[Pure labour services are exempt only when provided for construction of a single residential unit not forming part of residential complex. Since in the given case, pure labour services are being provided for construction of a commercial unit, same is not exempt. Further, it is an inter-State supply] | 6,00,000 | - | - | 1,08,000<br>[6,00,000 x 18%] |\n| **Total output tax liability** | | **1,71,000** | **1,71,000** | **1,08,000** |\n| Less: Total eligible ITC [Refer working note] | | | | |\n| IGST credit is first set off against IGST liability and then against SGST liability since CGST has opening balance of ITC. | | | (1,62,000) | (1,08,000) |\n| CGST and SGST credit is set off against the CGST and SGST liability respectively. | | (1,71,000) | (6,750) | |\n| **Net GST payable** | | **Nil** | **2,250** | **Nil** |\n| **Add:** GST payable under reverse charge<br>[Tax payable under reverse charge, being not an output tax, cannot be set off against ITC and has to be paid in cash.] | | | | |\n| Rent paid for office building\u00b3<br>[Since commercial immovable property has been rented out by unregistered person to registered person, tax is payable under reverse charge and ITC on same is available. It is an intra-State supply.] | 75,000 | 6,750<br>[75,000 x 9%] | 6,750<br>[75,000 x 9%] | - |\n| **Minimum GST liability to be paid in cash** | | **6,750** | **9,000** | **Nil** |\n\n*\u00b9 Services by way of transportation of goods are exempt under GST. However, this exemption shall not apply to local delivery services provided by an Electronic Commerce Operator.*\n*\u00b2 The question clearly states that wherever details required to determine the place of supply are not given, the transaction should be treated as an intra-State supply. Since the recipient's location for the local delivery services is not provided in question, it is an intra-State supply.*\n*\u00b3 Since director, Mr. Rajan Yadav, has provided services of renting of immovable property to the company - SSP Ltd. - in his personal capacity, reverse charge provisions are not applicable under Entry 6 of Notification No. 13/2017 CT (R) dated 28.06.2017. However, reverse charge provisions are applicable under Entry 5AB.*\n\n**Working Note:**\n**Computation of total ITC available for set off:**\n\n| Particulars | Value (\u20b9) | CGST (\u20b9) | SGST (\u20b9) | IGST (\u20b9) |\n| :--- | :--- | :--- | :--- | :--- |\n| Opening Balance | | 1,75,000 | - | - |\n| Fees paid to practicing Chartered Accountant<br>[Since supplier is not registered, no GST would have been charged and thus, no ITC is available. Further, tax on CA services is not payable under reverse charge even if supplier is unregistered.] | 2,25,000 | - | - | - |\n| Purchase of taxable goods from VXT Ltd.<br>[Full ITC is available since commercial/financial credit note issued does not reduce the GST liability. Further, it is an inter-State supply.] | 15,00,000 | - | - | 2,70,000<br>[15,00,000 x 18%] |\n| Rent paid for office building\u00b3<br>[Since commercial immovable property has been rented out by unregistered person to registered person, tax is payable under reverse charge and ITC on same is available. It is an intra-State supply.] | 75,000 | 6,750<br>[75,000 x 9%] | 6,750<br>[75,000 x 9%] | - |\n| **Total input tax credit available\u2074** | | **1,81,750** | **6,750** | **2,70,000** |\n\n*\u2074 Although SSP Ltd. has made exempt supplies, full credit is admissible for set-off since it has been provided in question that all inward supplies are used only for outward taxable supply.*",
+          "chapter_number": "23",
+          "chapter_name": "PAYMENT OF TAX",
+          "unique_id": "NEW-23-T-8-SSP"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Briefly examine the taxable value of supply in the following independent cases: (i) Jivan Limited, registered under GST, provided services amounting to Rs. $10,00,000$ to a Governmental Authority by way of sanitation conservancy. (ii) Raju Transporters, a registered Goods Transport Agency (GTA) provided service of transportation of goods to Kukreja & Kukreja Co.-a unregistered partnership firm. Kukreja & Kukreja Co. paid Rs. 8,000 to Raju Transporters as consideration. (iii) Amardeep Hospital provided services in Neo natal Intensive Care for 2 days for which Rs. 15,000 are charged per day from Mr. Chopra for his new born son, Viraat. (RTP Sep'24 , MTP April'25)",
+          "answer": "(i) Services provided to a Governmental Authority by way of inter alia sanitation conservancy is exempt under GST. Thus, services provided by Jivan Limited, registered under GST amounting to Rs. $10,00,000$ to a Governmental Authority by way of sanitation conservancy is exempt under GST.\n\n(ii) Services provided by a GTA to an unregistered person, including an unregistered casual taxable person other than, inter alia, any partnership firm whether registered or not under any law including association of persons is exempt under GST. Thus, GTA services provided to partnership firm including AOP - whether or not registered under GST law, are liable to tax. Hence, consideration of Rs.8,000 paid by Kukreja & Kukreja Co. is taxable under GST.\n\n(iii) The services provided by a clinical establishment by way of providing room [other than Intensive Care Unit (ICU)/Critical Care Unit (CCU)/Intensive Cardiac Care Unit (ICCU)/Neo natal Intensive Care Unit (NICU)] having room charges exceeding 5000 per day to a person receiving health care services is taxable under GST. Since, in the given case Amardeep Hospital provided services in Neo natal Intensive Care, so the entire amount of Rs. 30,000 charged from Mr. Chopra is exempt under GST law.",
+          "chapter_number": "15",
+          "chapter_name": "EXEMPTION OF GST",
+          "unique_id": "15-T-9"
+        }
+      ],
+      "section": 2
+    },
+    {
+      "q_main": 6,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "16",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "GST is payable on advance received for supply of goods and services taxable under forward charge. Do you agree with the statement? Support your answer with legal provisions. (MTP 5 Marks Nov'24, MTP 5 Marks, Sep'23, SM,MP[5])",
+          "answer": "The statement is not correct. While GST is payable on advance received for supply of services taxable under forward charge, the same is not payable in case of advance received for supply of goods taxable under forward charge. As per section 13, the time of supply of services taxable under forward charge is-\n\n- Date of issue of invoice or date of receipt of payment, whichever is earlier, if the same is issued within 30 days from the date of supply of service;\n\n\n\n- Date of provision of service or date of receipt of payment, whichever is earlier, if the invoice is not issued within 30 days from the date of supply of service.\n\nThus, in case of services, if the supplier receives any payment before the provision of service or before the issuance of invoice for such service, the time of supply gets fixed at that point in time and the liability to pay tax on such payment arises. However, the tax can be paid by the due date prescribed with reference to such time of supply. As regards time of supply of goods taxable under forward charge is concerned, Notification No. 66/2017 CT dated 15.11.2017 provides that a registered person (excluding composition supplier and registered persons making supply of specified actionable claims) should pay GST on the outward supply of goods at the time of supply as specified in section 12(2)(a), i.e. date of issue of invoice or the last date on which invoice ought to have been issued in terms of section 31. Therefore, in case of goods, tax is not payable on receipt of advance payment.",
+          "chapter_number": "16",
+          "chapter_name": "TIME OF SUPPLY",
+          "unique_id": "16-T-6"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "```\n| Description                                                        | Amount   |\n|--------------------------------------------------------------------|----------|\n| Intra-State supply by Mr. Venkatesh as an agent of Ganesh Enterprises in Rajasthan [Since Mr. Venkatesh issues invoice in his own name, the given principal-agent relationship falls within the ambit of the Para 3 of Schedule I of the CGST Act, 2017. All supplies made by an agent on behalf of all his principals are includible in aggregate turnover.] | 1,00,000 |\n| Intra-State supply of non-taxable goods [Includible, since exempt supplies are includible in aggregate turnover and exempt supply includes non-taxable supply.] | 2,00,000 |\n| Aggregate Turnover                                                 | 14,00,000|\n| Aggregate turnover on all India basis                              | 18,00,000|\n\n(2) The applicable threshold limit of turnover for registration in the given case will be reduced to \u20b9 10 lakh since Mr. Venkatesh is engaged in making taxable supplies from Tripura \u2013 a Special Category State. Since the turnover of Mr. Venkatesh exceeds \u20b9 10 lakh, he is liable to obtain registration under GST in Rajasthan and Tripura.\n```\nHowever, Mr. Venkatesh is liable to obtain registration compulsorily since he is required to pay tax under reverse charge mechanism in Tripura.\n\n(3)  \nIn case Mr. Venkatesh makes only exempt supplies of goods from the Special Category State - Tripura, the applicable threshold limit of turnover for registration will not be reduced to \u20b9 10 lakh. The applicable threshold limit, in that case, will be \u20b9 20 lakh since Mr. Venkatesh is engaged in making supply of goods as well as services. Since the turnover of Mr. Venkatesh does not exceed \u20b9 20 lakh, he is not liable to obtain registration under GST.  \nHowever, Mr. Venkatesh is liable to obtain registration compulsorily since he is required to pay tax under reverse charge mechanism in Tripura.",
+          "answer": "```\nMr. A, a registered person of Haryana has filed his GSTR 3B return for the month of April 2025 on 10th June 2025. The due date of filing the GSTR 3B return was 20.05.2025. The following details were provided:\n\n| Sl. No | Particulars                                                        |\n|--------|--------------------------------------------------------------------|\n| (i)    | Deposited \u20b980,000 in his Electronic Cash Ledger on 18th May 2025  |\n| (ii)   | Debited the electronic cash ledger on 10th June 2025.             |\n| (iii)  | No proceedings under Section 73, 74 or 74A were initiated.        |\n| (iv)   | Rate of interest notified u/s 50(1) is 18% p.a.                    |\n```",
+          "chapter_number": "26",
+          "chapter_name": "VALUE OF SUPPLY",
+          "unique_id": "BQ-6B"
+        }
+      ],
+      "section": 2
+    },
+    {
+      "q_main": 7,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "23",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4.5,
+          "internal_split": null,
+          "question": "LDR\n\nRestrictions have been imposed on the use of amount available in the electronic credit ledger vide rule 86B of the CGST Rules, 2017. Is there any exceptions to rule 86B? If yes, state the exceptions.",
+          "answer": "As per rule 86 B of the CGST Rules, 2017, a registered person cannot use ITC to discharge the output tax liability in excess of 99% of such tax liability.\n\nThus, amount available in electronic credit ledger shall be utilized only to the extent of 99% of the output tax liability while discharging such tax liability.\n\nMinimum 1% of the output tax liability needs to be discharged from electronic cash ledger.\n\n(i) Payment of Income Tax more than Rs. 1 lakh\n\nRule 86B may not apply in cases whereby person mentioned below have deposited sum of more than Rs. 1 lakh as income tax under the Income-tax Act, 1961 in each of the last 2 financial years for which the time limit to file return of income under section 139(1) of the said Act has expired\n\n- The registered person or\n- The karta/proprietor/the managing director of the registered person;\n- Any of the two partners, whole-time directors, members of Managing Committee of Associations or Board of Trustees of the registered person, as the case may be.\n\n(ii) Receipt of refund of input tax credit of more than Rs. 1 lakh\n\nRule 86 B may not apply whereby registered person has received a refund amount of more than Rs. 1 lakh on account of unutilized input tax credit under the following:\n\n- zero-rated supplies made without payment of tax\n- Inverted duty structure\n\nIt is pertinent to note that refund should have been received in the preceding financial year.\n\n(iii) Payment of total output tax liability through electronic cash ledger in excess of 1% of total output tax liability\n\nIf the registered person has paid more than 1% of total output tax liability using electronic cash ledger upto the said month in the current financial year, the restrictions as specified in Rule 86B shall not apply.\n\nIt is pertinent to note that GST liability paid under reverse charge mechanism should not be taken into account while calculating the total output liability paid through electronic cash ledger.\n\n(iv) Specified registered person:\n\nRule 86 B would not be applicable in case of below-mentioned registered person:\n\n- Government Department; or\n- a public sector undertaking; or\n- a local authority; or\n- a statutory body.\n\nHowever, Commissioner or an officer authorised by him in this behalf may remove the said restriction after such verifications and such safeguards as he may deem fit.",
+          "chapter_number": "23",
+          "chapter_name": "PAYMENT OF TAX",
+          "unique_id": "23-T-9"
+        },
+        {
+          "label": "b",
+          "marks": 5.5,
+          "internal_split": null,
+          "question": "(SM, MTP 5 Marks Dec'24,MP[6]) LDR\nRoyal Fashions, a registered supplier of designer outfits in Delhi, decides to exhibit its products in a Fashion Show being organized at Hotel Park Royal, Delhi on 4th January. For the occasion, it gets the service by way of makeover of its models from Aura Beauty Services Ltd., Ashok Vihar, for which a consideration is Rs. $5,00,000$ (excluding GST) has been charged. Aura Beauty Services Ltd. issued a duly signed tax invoice on 10th February showing the lumpsum amount of Rs. $5,90,000$ inclusive of CGST and SGST @ $9 \"%$ each for the services provided.\n\nAnswer the following questions:\n\n(i) Examine whether the tax invoice has been issued within the time limit prescribed under law.\n\n(ii) Tax consultant of Royal Fashions objected to the invoice raised suggesting that the amount of tax charged in respect of the taxable supply should be shown separately in the invoice raised by Aura Beauty Services Ltd. However, Aura Beauty Services Ltd. contended that there is no mandatory requirement of showing tax component separately in the invoice. You are required to examine the validity of the objection raised by tax consultant of Royal Fashions.",
+          "answer": "(i) As per section 31 read with the CGST Rules, in case of taxable supply of services, invoices should be issued before or after the provision of service, but within a period of 30 days [45 days in case of insurer/ banking company or financial institutions including NBFCs] from the date of supply of service.\n\nIn view of said provisions, in the present case, the tax invoice should have been issued in the prescribed time limit of 30 days from the date of supply of service i.e. up-to 3rd February. However, the invoice has been issued on 10th February.\n\n(ii) Section 31 read with the CGST Rules, inter alia, provides that tax invoice in addition to other mandatory details shall also contain the amount of tax charged in respect of taxable goods or services (central tax, State tax, integrated tax, Union territory tax or cess). Further, where any supply is made for a consideration, every person who is liable to pay tax for such supply shall prominently indicate in all documents relating to assessment, tax invoice and other like documents, the amount of tax which shall form part of the price at which such supply is made.\n\nThe objection raised by the tax consultant of Royal Fashions suggesting that the amount of tax charged in respect of the taxable supply of makeover services should be shown separately in the invoice raised by Aura Beauty Services Ltd., is valid in law.",
+          "chapter_number": "20",
+          "chapter_name": "TAX INVOICE, CREDIT AND DEBIT NOTES",
+          "unique_id": "20-T-9"
+        }
+      ],
+      "section": 2
+    },
+    {
+      "q_main": 8,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "23",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Discuss whether the amount available in the electronic credit ledger can be used for making payment of any tax under the GST Laws? (MTP 5 Marks, Apr'24,MP[2])",
+          "answer": "The amount available in the electronic credit ledger may be used for making any payment towards output tax under the CGST Act or the IGST Act, subject to the provisions relating to the order of utilisation of ITC.\n\nFurther, output tax in relation to a taxable person is defined as the tax chargeable on taxable supply of goods or services or both but excludes tax payable on reverse charge mechanism.\n\nAccordingly, it is clarified that any payment towards output tax, whether self-assessed in the return or payable as a consequence of any proceeding instituted under the provisions of GST laws, can be made by utilization of the amount available in the electronic credit ledger of a registered person.\n\nIt is further reiterated that as output tax does not include tax payable under reverse charge mechanism, implying thereby that the electronic credit ledger cannot be used for making payment of any tax which is payable under reverse charge mechanism.",
+          "chapter_number": "23",
+          "chapter_name": "PAYMENT OF TAX",
+          "unique_id": "23-T-7"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "The acceptance or rejection of the e-way bill must be communicated within: (i) 72 hours of details being made available [8th March, 2:00 PM], OR (ii) Time of delivery of goods, [7th March, 10:00 AM] whichever is earlier. Since delivery of goods occurred earlier, the last date and time for communication of acceptance or rejection of the consignment covered by the e-way bill was 7th March at 10:00 AM.\n(c) In case, the person to whom the information in Part-A is made available, does not communicate his acceptance or rejection within the specified time, it shall be deemed that he has accepted the said details. Since Alpha Distributors did not communicate acceptance or rejection of the consignment covered by the e-way bill before 7th March, 10:00 AM, the e-way bill details are deemed to have been accepted at 7th March, 10:00 AM.\nMr. X, a registered person under GST has aggregate turnover in the preceding financial year amounting to ` 8 crore. He is desirous to know whether e-invoicing is applicable for supplies made by registered person to Government Departments or establishments/Government agencies/local authorities/PSUs which are registered solely for the purpose of deduction of tax at source as per provisions of section 51 of the CGST Act, 2017. You are required to advise Mr. X.",
+          "answer": "Government Departments or establishments/ Government agencies/ local authorities/ PSUs, which are required to deduct TDS under section 51 of the CGST Act, 2017, are liable for compulsory registration in accordance with section 24(vi) of the CGST Act, 2017. Therefore, Government Departments or establishments/ Government agencies/ local authorities/ PSUs, registered solely for the purpose of deduction of TDS, are to be treated as registered persons under the GST law as per provisions of section 2(94) of the CGST Act, 2017. Accordingly, the registered person, whose turnover exceeds the prescribed threshold for generation of e-invoicing, is required to issue e-invoices for the supplies made to such Government Departments or establishments/ Government agencies/ local authorities/ PSUs, etc. under rule 48(4) of the CGST Rules, 2017 [Circular No. 198/10/2023 GST dated 17.07.2023].",
+          "chapter_number": "30",
+          "chapter_name": "COMPOSITION SCHEME",
+          "unique_id": "BQ-8B"
+        }
+      ],
+      "section": 2
+    }
+  ]
+}

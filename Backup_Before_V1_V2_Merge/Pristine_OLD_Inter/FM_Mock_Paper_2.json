@@ -1,0 +1,513 @@
+{
+  "meta": {
+    "subject_code": "FM",
+    "subject_name": "Financial Management",
+    "paper_num": 2,
+    "total_marks_printed": 100,
+    "total_marks_in_paper": 120,
+    "section_a_marks": 30,
+    "section_b_marks": 80,
+    "two_section_format": true,
+    "note": "Section A (MCQ): 15 questions @ 2 marks each (Case Study based) = 30 marks. Section B: Section 1 — Q1 compulsory (15m); Q2, Q3, Q4 @ 10m each — attempt any 2 of 3. Section 2 — Q5 compulsory (15m); Q6, Q7, Q8 @ 10m each — attempt any 2 of 3. Total Section B marks to attempt = 15+20+15+20 = 70m.",
+    "blacklisted_from": [
+      "Generated_Papers/FM/FM_Mock_Paper_1.json",
+      "Generated_Papers/FM/FM_Mock_Paper_2.json"
+    ],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)",
+      "1(c)"
+    ]
+  },
+  "section_a": [
+    {
+      "type": "case_study",
+      "chapter_number": "16",
+      "chapter_name": "CASE SCENARIOS- STRATEGIC MANAGEMENT",
+      "case_text": "## CS 11 (RTP May '24)\n\n\nSwasthya, a rising star in India's dynamic healthcare sector, stands out as a prime example of smart strategic management. At Swasthya, the compass guiding their endeavors is a compelling thought: to emerge as the finest healthcare provider renowned for delivering accessible, top-notch healthcare services. This overarching goal is not an isolated vision, but a thread woven into the very fabric of the organization, driving every facet of their operations. The people of the organization play a pivotal role in this journey. They are entrusted with translating this vision into tangible outcomes at the grassroots level, ensuring that local operations are aligned with the grand aspiration of becoming a healthcare leader. Swasthya works meticulously towards optimizing each link of the patient experience. From streamlining appointment scheduling to expediting test result delivery, every facet of the healthcare journey is scrutinized. Swasthya's strategy is not merely about being a player in the market but about strategically positioning themselves as leaders. They proactively recognize the constant innovations that could disrupt their areas of expertise. To counter this, they introduced value-added offerings such as telemedicine and wellness programs. This addition not only mitigates the risk but also fortifies their long-term viability. Beyond competition, ensuring the quality and safety of patient care is paramount at Swasthya. Stringent hygiene protocols, equipment maintenance regimens, and adherence to healthcare regulations form the cornerstone of their business. In parallel, the organization meticulously undertakes regular assessment as a central element of its decisionmaking apparatus. This forward-looking exercise encompasses identifying and assessing potential risks such as regulatory changes, medical malpractice vulnerabilities, or shifts in market dynamics, all of which could have far-reaching consequences for their long-term objectives. The implementation of Swasthya's strategy is steered by the McKinsey 7S model, which ensures a harmonious alignment of seven critical elements: strategy, structure, systems, shared values, skills, style, and staff. It emphasizes that the success of a longterm objective is contingent on the synchronization of these seven elements, reinforcing the idea that strategic management is not a compartmentalized process but a comprehensive activity. Swasthya's strategic journey through India's healthcare landscape is a testament to the seamless integration of core management concepts, guiding its actions and strategies, while keeping the vision and intent at the core.\n\nBased on the above Case Scenario, answer the Multiple-Choice Questions.\n\n\n1. How does Swasthya's approach to premise control, including stringent hygiene protocols and equipment maintenance, contribute to their long-term objectives and which concept does it align with? (Chapter 15Strategy Implementation and Evaluation)\n\n(a) It reduces immediate costs and aligns with strategic risk assessment.\n\n(b) It safeguards quality and aligns with strategic risk assessment.\n\n(c) It enhances immediate profitability and aligns with shared values.\n\n(d) It streamlines administrative processes and aligns with value chain analysis.\n\n\n## Ans (b)\n\n\n2. How does Swasthya counter the risk posed by constant innovations and disruptions in their areas of expertise? (Chapter 14- Strategic Choices)\n\n(a) By aggressively acquiring innovative startups.\n\n(b) By introducing value-added services like telemedicine and wellness programs.\n\n(c) By downsizing their operations.\n\n(d) By focusing exclusively on urban healthcare markets.\n\n\nAns: (b)\n\n3. Why is the McKinsey 7S model significant in Swasthya's strategic management approach, and which elements of the model ensure a holistic alignment of their strategy? (Chapter 15- Strategy Implementation and Evaluation)\n\n(a) It facilitates short-term profit maximization, with a focus on structure and style.\n\n(b) It emphasizes a compartmentalized approach to strategy, focusing on shared values and skills.\n\n(c) It ensures a comprehensive alignment of strategy, structure, systems, shared values, skills, style, and staff.\n\n(d) It prioritizes immediate cost reduction by aligning systems and strategy.\n\n\nAns: (c)\n\n4. Why is the focus on local operations essential for Swasthya in the context of their long-term objective, and how does it contribute to their overall strategy? (Chapter 13- Strategic Analysis: Internal Environment)\n\n(a) It reduces strategic risk by minimizing the need for strategic risk assessment.\n\n(b) It aligns with their commitment to immediate profitability.\n\n(c) It translates the organization's vision into tangible outcomes and aligns with their long-term objective.\n\n(d) It diversifies their portfolio and aligns with competitive landscape analysis.\n\n\nAns: (c)\n\n5. The case talks about scrutiny of every facet of the healthcare journey and also emphasizes the fact that people of the organization play a pivotal role in this journey. Based on your reading, which level of management has the most crucial part to play here to ensure the sense of customer-first is imbibed in the organization? (Chapter 11- Introduction to Strategic Management)\n\n(a) Top Management (C-Suite) which sets the tone and strategy of the organization\n\n(b) Middle Management (Divisional Managers) who have the responsibility of translating strategy to real-time objectives\n\n(c) Functional Managers who actually do the work on the field\n\n(d) Board of Directors who are responsible for wealth creation of the shareholders\n\n\nAns: (b)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "How does Swasthya's approach to premise control, including stringent hygiene protocols and equipment maintenance, contribute to their long-term objectives and which concept does it align with? (Chapter 15Strategy Implementation and Evaluation)",
+          "options": {
+            "a": "It reduces immediate costs and aligns with strategic risk assessment.",
+            "b": "It safeguards quality and aligns with strategic risk assessment.",
+            "c": "It enhances immediate profitability and aligns with shared values.",
+            "d": "It streamlines administrative processes and aligns with value chain analysis."
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "How does Swasthya counter the risk posed by constant innovations and disruptions in their areas of expertise? (Chapter 14- Strategic Choices)",
+          "options": {
+            "a": "By aggressively acquiring innovative startups.",
+            "b": "By introducing value-added services like telemedicine and wellness programs.",
+            "c": "By downsizing their operations.",
+            "d": "By focusing exclusively on urban healthcare markets."
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "Why is the McKinsey 7S model significant in Swasthya's strategic management approach, and which elements of the model ensure a holistic alignment of their strategy? (Chapter 15- Strategy Implementation and Evaluation)",
+          "options": {
+            "a": "It facilitates short-term profit maximization, with a focus on structure and style.",
+            "b": "It emphasizes a compartmentalized approach to strategy, focusing on shared values and skills.",
+            "c": "It ensures a comprehensive alignment of strategy, structure, systems, shared values, skills, style, and staff.",
+            "d": "It prioritizes immediate cost reduction by aligning systems and strategy."
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null
+        },
+        {
+          "q_num": 4,
+          "question": "Why is the focus on local operations essential for Swasthya in the context of their long-term objective, and how does it contribute to their overall strategy? (Chapter 13- Strategic Analysis: Internal Environment)",
+          "options": {
+            "a": "It reduces strategic risk by minimizing the need for strategic risk assessment.",
+            "b": "It aligns with their commitment to immediate profitability.",
+            "c": "It translates the organization's vision into tangible outcomes and aligns with their long-term objective.",
+            "d": "It diversifies their portfolio and aligns with competitive landscape analysis."
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null
+        },
+        {
+          "q_num": 5,
+          "question": "The case talks about scrutiny of every facet of the healthcare journey and also emphasizes the fact that people of the organization play a pivotal role in this journey. Based on your reading, which level of management has the most crucial part to play here to ensure the sense of customer-first is imbibed in the organization? (Chapter 11- Introduction to Strategic Management)",
+          "options": {
+            "a": "Top Management (C-Suite) which sets the tone and strategy of the organization",
+            "b": "Middle Management (Divisional Managers) who have the responsibility of translating strategy to real-time objectives",
+            "c": "Functional Managers who actually do the work on the field",
+            "d": "Board of Directors who are responsible for wealth creation of the shareholders"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "16-CS-11"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "16",
+      "chapter_name": "CASE SCENARIOS- STRATEGIC MANAGEMENT",
+      "case_text": "Café Delight, a thriving restaurant chain known for its unique blend of Australian and Indian culinary experiences, embarked on a remarkable journey from its humble beginnings as a small café in Australia to becoming a renowned player in the Indian restaurant industry. This case study digs into the strategic decisions and market dynamics that fueled Café Delight's growth, highlighting its transition from a single café in Powai, Mumbai, to a flourishing chain with a presence in five cities and over $\\mathbf{2 5}$ stores. It explores how Café Delight effectively leveraged social media and adapted its pricing strategy to compete with global brands while maintaining a healthy profit margin.\n\nIn 2005, Café Delight was founded in Melbourne, Australia, by a passionate entrepreneur with a vision to bring the flavors of Australia and India together. The first café established in Powai, Mumbai, received accolades for its unique menu, blending Australian coffee culture with Indian culinary traditions. Over the course of five years, Café Delight expanded to three stores in Mumbai, driven by exceptional mouth publicity, customer loyalty, and consistent quality.\n\nAs the social media landscape evolved, Café Delight recognized the power of online platforms in reaching a wider audience. By effectively utilizing social media and online marketing, Café Delight expanded its presence to five cities across India and established over 25 stores. Customer engagement through social media platforms enabled the brand to create a strong and vibrant community, driving organic growth.\n\nCafé Delight's customer-centric approach involved continuously evolving its menu to cater to the changing tastes and dietary preferences of its patrons. By understanding the evolving needs of its customers, Café Delight could offer personalized menu items, seasonal specials, and dietary alternatives. This approach created a sense of loyalty and engagement among customers, strengthening the brand's appeal. Not just customers but High-power, low-interest stakeholders, including regulatory authorities, were addressed with careful compliance and adherence to industry standards. Low-power, high-interest stakeholders, like potential customers and local communities, were engaged through targeted marketing campaigns and community involvement initiatives. This meticulous stakeholder analysis allowed Café Delight to build and maintain strong relationships with each group, effectively managing their influence and impact on the brand.\n\nWith its expanding presence and increasing popularity, Café Delight underwent a shift in its pricing strategy. It transitioned from a pocket-friendly pricing model to a skimming strategy, capitalizing on its unique blend of Australian and Indian flavors to position itself as a premium restaurant. Café Delight faced stiff competition from global brands entering the Indian market but maintained a profit margin of approximately $30 \\%$ through menu engineering and targeted pricing.\n\nIn one of its kind, using strategic tools enabled Café Delight to identifyand act on opportunities while mitigating threats, contributing to its long-term success in the highly competitive restaurant industry.\n\nBased on the above Case Scenario, answer the Multiple-Choice Questions.\n\n\n1. Café Delight effectively leveraged social media and adapted its pricing strategy as it stepped into which phase of business life cycle of operations? (Chapter 14: Strategic Choices)\n\n(a) Introduction Stage\n\n(b) Growth Stage\n\n(c) Maturity Stage\n\n(d) Decline Stage\n\n\nAns (b)\n\n2. What stakeholder group did Café Delight engage through targeted marketing campaigns and community involvement initiatives? (Chapter 13: Strategic Analysis: Internal Environment)\n\n(a) High-power, high-interest stakeholders\n\n(b) Low-power, low-interest stakeholders\n\n(c) Low-power, high-interest stakeholders\n\n(d) High-power, low-interest stakeholders\n\n\nAns (c)\n\n3. What best describes Café Delight's initial expansion strategy when it expanded from one café to three in Mumbai? (Chapter 14: Strategic Choices)\n\n(a) Aggressive price reduction\n\n(b) Leveraging customer loyalty and word-of-mouth publicity\n\n(c) Extensive online marketing\n\n(d) Embracing global branding strategies\n\n\nAns (b)\n\n4. At which level of strategic management does Café Delight's transition from a pocket-friendly pricing model to a skimming strategy fit? (Chapter 11-Introduction to Strategic Management )\n\n(a) Corporate level\n\n(b) Business level\n\n(c) Functional level\n\n(d) Operational level\n\n\nAns (b)\n\n5. What type of strategy did Café Delight use to differentiate itself from competitors in the Indian restaurant industry? (Chapter 13: Strategic Analysis: Internal Environment)\n\n(a) Cost leadership strategy\n\nGauresh |\n\n(b) Focused differentiation strategy\n\n(c) Cost focus strategy\n\n(d) Hybrid strategy\n\n\nAns (b)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Café Delight effectively leveraged social media and adapted its pricing strategy as it stepped into which phase of business life cycle of operations? (Chapter 14: Strategic Choices)",
+          "options": {
+            "a": "Introduction Stage",
+            "b": "Growth Stage",
+            "c": "Maturity Stage",
+            "d": "Decline Stage"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "What stakeholder group did Café Delight engage through targeted marketing campaigns and community involvement initiatives? (Chapter 13: Strategic Analysis: Internal Environment)",
+          "options": {
+            "a": "High-power, high-interest stakeholders",
+            "b": "Low-power, low-interest stakeholders",
+            "c": "Low-power, high-interest stakeholders",
+            "d": "High-power, low-interest stakeholders"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "What best describes Café Delight's initial expansion strategy when it expanded from one café to three in Mumbai? (Chapter 14: Strategic Choices)",
+          "options": {
+            "a": "Aggressive price reduction",
+            "b": "Leveraging customer loyalty and word-of-mouth publicity",
+            "c": "Extensive online marketing",
+            "d": "Embracing global branding strategies"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null
+        },
+        {
+          "q_num": 4,
+          "question": "At which level of strategic management does Café Delight's transition from a pocket-friendly pricing model to a skimming strategy fit? (Chapter 11-Introduction to Strategic Management )",
+          "options": {
+            "a": "Corporate level",
+            "b": "Business level",
+            "c": "Functional level",
+            "d": "Operational level"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null
+        },
+        {
+          "q_num": 5,
+          "question": "What type of strategy did Café Delight use to differentiate itself from competitors in the Indian restaurant industry? (Chapter 13: Strategic Analysis: Internal Environment)",
+          "options": {
+            "a": "Cost leadership strategy",
+            "b": "Focused differentiation strategy",
+            "c": "Cost focus strategy",
+            "d": "Hybrid strategy"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "16-CS-13"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "16",
+      "chapter_name": "CASE SCENARIOS- STRATEGIC MANAGEMENT",
+      "case_text": "## CS 14 (RTP Sep'24,MP[8])\n\nOnce upon a time in the land of sun, sand, and vibrant cultures, there existed a company named \"MuseoGoa\" - a company that managed museums in the beautiful state of Goa. MuseoGoa had a vision to celebrate the rich history and culture of Goa, but their journey was not without its fair share of challenges. MuseoGoa had chosen a picturesque location in a quaint village to build their first museum. However, this initial enthusiasm was met with an uproar from the local communities. The villagers were concerned about the impact on their way of life and traditions. They worried that the influx of tourists might disrupt their peaceful existence.\n\nTo address this challenge, MuseoGoa applied Mendelow's matrix, identifying the local communities as key stakeholders. They decided to engage in open dialogues, understanding and respecting the villagers' concerns. MuseoGoa initiated community-building activities, such as involving locals in museum operations, supporting local artisans, and organizing cultural events that showcased the village's heritage. Slowly but steadily, the company transformed from being perceived as a threat to a valued partner within the community.\n\nWhile MuseoGoa had successfully resolved their initial issues with the local community, they faced another challenge. Their location, although idyllic, was a bit off the beaten path. Tourists typically preferred the bustling beaches closer to the city, and this posed a real challenge. MuseoGoa decided to employ a pricing strategy. They priced their tickets affordably, significantly cheaper than the city's attractions. This strategy attracted budget-conscious tourists who were looking for unique experiences in Goa without burning a hole in their pockets. As\n\nword spread about the cultural gem tucked away in the village, visitors started flocking in, drawn not just by the museum's charm but also the economical ticket prices.\n\nIn the age of social media, MuseoGoa knew that word-of-mouth was no longer limited to whispers. They tapped into the power of social media to promote their unique museum experience. MuseoGoa ran\n\ninteractive campaigns, encouraging visitors to share their experiences on various platforms. One particular Instagram post featuring a vibrant Goan mural in the museum went viral. This was the turning point. The picture-perfect aesthetics of the museum attracted influencers, bloggers, and travel enthusiasts, making MuseoGoa a social media sensation. Visitors came pouring in, not just from India but from across the globe, eager to capture their own moments at the \"Instagrammable Museum of Goa.\"\n\nWith success came ambition. MuseoGoa decided to expand its footprint beyond Goa. To guide this expansion, they conducted a strategy audit and trend analysis. They identified emerging cultural and tourism trends and found potential markets in Pune and Trivandrum.\n\nIn Pune, MuseoGoa curated a special exhibition that celebrated the fusion of Goan and Maharashtrian cultures. They strategically partnered with local influencers and travel agencies to market the new experience. The expansion into Pune was met with resounding success.\n\nFor Trivandrum, MuseoGoa recognized the importance of local traditions and the distinct flavor of Kerala. They tailored their offerings to harmonize with the regional culture. MuseoGoa became the gateway for tourists to explore Kerala's rich heritage, with the museum acting as a bridge between Goa and Kerala's cultural tapestry.\n\nMuseoGoa's journey from initial uproar to expansion was a testament to their commitment to community building, strategic pricing, social media savvy, and a keen eye for trends. The company continued to flourish, celebrating the diverse cultural tapestry of India and making history come alive in every location they touched.\n\nBased on the above Case Scenario, answer the Multiple Choice Questions.\n\n\n1. Which strategic management concept did MuseoGoa use to address the initial concerns of the local community? (Chapter 12: Strategic Analysis: External Environment )\n\n(a) SWOT analysis\n\n(b) Mendelow's matrix\n\n(c) Cost leadership strategy\n\n(d) Porter's Five Forces model\n\n\nAns: (b)\n\n2. MuseoGoa's idyllic location in a quaint village posed a challenge as tourists preferred beaches closer to the city. To attract visitors, MuseoGoa priced their tickets affordably, cheaper than city attractions, drawing budget-conscious tourists looking for unique experiences. What business strategy did MuseoGoa employ to attract more tourists? (Chapter 13: Strategic Analysis: Internal Environment)\n\n(a) Cost leadership strategy\n\n(b) Differentiation strategy\n\n(c) Focus strategy\n\n(d) Diversification strategy\n\n\nAns: (a)\n\n3. How did MuseoGoa approach its expansion into new markets such as Pune and Trivandrum?\n\n(Chapter 14: Strategic Choices)\n\n(a) Outsourcing strategy\n\n(b) Franchising strategy\n\n(c) Product diversification strategy\n\n(d) Market development strategy\n\n\nAns: (d)\n\n4. Which element of the 7S McKinsey model is demonstrated by MuseoGoa's strategic use of social media and pricing strategies to attract visitors? (Chapter 15- Strategy Implementation and Evaluation)\n\n(a) Style\n\n(b) Strategy\n\n(c) Shared Values\n\n(d) Skills\n\n\nAns: (b)\n\n5. What played a crucial role in MuseoGoa's success in Pune and Trivandrum? (Chapter 14: Strategic Choices)\n\n(a) Strategic partnerships\n\n(b) Aggressive advertising\n\n(c) Product differentiation\n\n(d) Vertical integration\n\n\nAns: (a)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Which strategic management concept did MuseoGoa use to address the initial concerns of the local community? (Chapter 12: Strategic Analysis: External Environment )",
+          "options": {
+            "a": "SWOT analysis",
+            "b": "Mendelow's matrix",
+            "c": "Cost leadership strategy",
+            "d": "Porter's Five Forces model"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "MuseoGoa's idyllic location in a quaint village posed a challenge as tourists preferred beaches closer to the city. To attract visitors, MuseoGoa priced their tickets affordably, cheaper than city attractions, drawing budget-conscious tourists looking for unique experiences. What business strategy did MuseoGoa employ to attract more tourists? (Chapter 13: Strategic Analysis: Internal Environment)",
+          "options": {
+            "a": "Cost leadership strategy",
+            "b": "Differentiation strategy",
+            "c": "Focus strategy",
+            "d": "Diversification strategy"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "How did MuseoGoa approach its expansion into new markets such as Pune and Trivandrum? (Chapter 14: Strategic Choices)",
+          "options": {
+            "a": "Outsourcing strategy",
+            "b": "Franchising strategy",
+            "c": "Product diversification strategy",
+            "d": "Market development strategy"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null
+        },
+        {
+          "q_num": 4,
+          "question": "Which element of the 7S McKinsey model is demonstrated by MuseoGoa's strategic use of social media and pricing strategies to attract visitors? (Chapter 15- Strategy Implementation and Evaluation)",
+          "options": {
+            "a": "Style",
+            "b": "Strategy",
+            "c": "Shared Values",
+            "d": "Skills"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null
+        },
+        {
+          "q_num": 5,
+          "question": "What played a crucial role in MuseoGoa's success in Pune and Trivandrum? (Chapter 14: Strategic Choices)",
+          "options": {
+            "a": "Strategic partnerships",
+            "b": "Aggressive advertising",
+            "c": "Product differentiation",
+            "d": "Vertical integration"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null
+        }
+      ],
+      "mcq_count": 5,
+      "unique_id": "16-CS-14"
+    }
+  ],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": true,
+      "total_marks": 15,
+      "chapter_number": "3",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Question 14 (PYP 5 Marks Sep'24)\n\nFollowing information relates to MNP Limited for the year ended on $31^{\\text {st }}$ March, 20XX:\n\n| Inventory turnover ratio (based on cost of goods sold) | 7.5 times |\n| :--- | :--- |\n| Total assets turnover ratio | 2.5 times |\n| Long term debt to Shareholders' fund | 0.6:1 |\n| Debtors collection period | 30 days |\n| Gross profit ratio | 25\\% on sales |\n| Current Ratio | 2.9:1 |\n\n\nBalance Sheet as on $31{ }^{\\text {st }}$ March,20XX\n\n| Liabilities | Rs. | Assets | Rs. |\n| :--- | :--- | :--- | :--- |\n| Equity share capital | 6,00,000 | Fixed Assets | ? |\n| Reserves \\& Surplus | 3,00,000 | Inventories | ? |\n| Long term debt | ? | Debtors | ? |\n| Creditors | 3,00,000 | Cash | ? |\n| Total |  | Total |  |\n\nYou are required to complete the Balance Sheet of MNP Limited as on \\mathbf{3 1}{ }^{\\text {st }}$ March, \\mathbf{2 0 X X}$. Assume a \\mathbf{3 6 0}$ days year and all sales are credit sales.",
+          "answer": "## Answer 14\n\n## Working Notes:\n\nLong term debt to Shareholder's fund\n\n= 0.6:1\n\nLong term debt\n\n$$\n=0.6 \\times Rs. 9,00,000=Rs. 5,40,000\n$$\n\n## Total Assets\n\n= Rs. 17,40,000\n\n## Total Asset turnover ratio\n\nSales\n\n$$\n\\begin{aligned}\n& =\\frac{\\text { Sales }}{\\text { Total Assets }}=2.5 \\text { times } \\\\\n& =2.5 \\times Rs. 17,40,000=Rs. 43,50,000\n\\end{aligned}\n$$\n\n| Current ratio | $=\\frac{\\text { Current Assets }}{\\text { Current liabilities }}=2.9: 1$ |\n| :--- | :--- |\n| Current Assets | $=2.9 \\mathrm{x} Rs. 3,00,000=Rs. 8,70,000$ |\n| Fixed Assets | = Total Assets - Current Assets <br> $=Rs. 17,40,000-Rs. 8,70,000=Rs. 8,70,000$ |\n| Gross profit ratio | = 25\\% on sales |\n| Gross Profit (GP) | $=Rs. 43,50,000 \\times 0.25=Rs. 10,87,500$ |\n| Cost of Good Sold (COGS) | $\\begin{aligned} & =\\text { Sales - GP } \\\\\n& =Rs. 43,50,000-Rs. 10,87,500=Rs. 32,62,500 \\end{aligned}$ |\n| Inventory Turnover Ratio | $=\\frac{\\text { Cost of Goods sold }}{\\text { Average inventory }}=7.5$ times |\n| Inventory = Rs. 32,62,500/7.5 | $=$ Rs. 4,35,000 |\n| Debtor Collection Period | $=\\frac{\\text { Average Accounts Receivable }}{\\text { Average Daily Credit sales }}=30$ Days |\n| Receivables | $=30$ days $x Rs. 43,50,000 / 360$ days $=Rs. 3,62,500$ |\n\n\nBalance Sheet as on \\mathbf{3 1}^{\\text {st }}$ March 20XX\n\n| Liabilities | (Rs.) | Assets | (Rs.) |\n| :--- | :--- | :--- | :--- |\n| Share Capital | 6,00,000 | Fixed Assets | 8,70,000 |\n| Reserve and Surplus | 3,00,000 | Inventories | 4,35,000 |\n| Long-term loan | 5,40,000 | Debtors | 3,62,500 |\n| Creditors | 3,00,000 | Cash (Balancing Figure) | 72,500 |\n|  | 17,40,000 |  | 17,40,000 |\n\n\nExam insights: Most students handle ratio analysis well but lose marks from inconsistent figures. Crosscheck every ratio connection to keep your balance sheet and calculations aligned.",
+          "chapter_number": "3",
+          "chapter_name": "FINANCIAL ANALYSIS AND PLANNING - RATIO ANALYSIS",
+          "unique_id": "3-T-14"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "## Question 19 (PYP 5 Marks, May'24)\n\n\nTheme Ltd provides you the following information:\n\n\n| 12.5 \\% Debt | Rs. 45,00,000 |\n| :--- | :--- |\n| Debt to Equity ratio | 1.5: 1 |\n| Return on Shareholder's fund | 54\\% |\n| Operating Ratio | 85\\% |\n| Ratio of operating expenses to Cost of Goods sold | 2: 6 |\n| Tax rate | 25\\% |\n| Fixed Assets | Rs. 39,00,000 |\n| Current Ratio | 1.8: 1 |\n\n\nYou are required to calculate:\n\n(i) Interest Coverage Ratio\n\n(ii) Gross Profit Ratio\n\n(iii) Current Assets",
+          "answer": "## Answer 19\n\n\n## Working Notes:\n\nDebt = Rs.45,00,000\n\nInterest \\quad=Rs. 45,00,000 \\times 12.5 \\%=5,62,500\n\nDebt to Equity\n\n$$\n=1.5: 1=\\frac{\\text { Total Debt }}{\\text { Shareholders'Equity }}\n$$\n\n\n![](https://cdn.mathpix.com/cropped/51dba4ff-30e2-4111-9446-9c1b0f320b04-44.jpg?height=187&width=214&top_left_y=35&top_left_x=249)\n\n\nEquity\n= Rs. 30,00,000\n\nReturn of Shareholder's funds $=54 \\%$\n\n$$\n=\\frac{\\text { Net Profit after taxes }}{\\text { Equity shareholders'fund }} \\times 100\n$$\n\nProfit after tax (PAT)\nProfit before tax (PBT) (1-25\\%)\n\n$$\n=54 \\% \\times \\text { Equity }=Rs. 16,20,000\n$$\n\n= Profit after tax\n$=Rs. 16,20,000 / 75 \\%=Rs. 21,60,000$\n\n\n## Earning before interest and tax (EBIT)\n\n(i) Interest Coverage Ratio\n\n(ii) Operating Profit Ratio\n\n$$\n\\begin{aligned}\n& =\\mathrm{PBT}+\\text { Interest } \\\\\n& =Rs. 21,60,000+Rs. 5,62,500 \\\\\n& =Rs. 27,22,500\n\\end{aligned}\n$$\n\n\n$$\n\\begin{aligned}\n& =1 \\text { - Operating Ratio } \\\\\n& =1-0.85=0.15 \\text { or } 15 \\%\\n\\end{aligned}\n$$\n\n\n$$\n0.15=\\frac{\\text { Operating Profit }}{\\text { sales }} \\times 100\n$$\n\nSales\n= EBIT or Operating Profit /0.15\n= Rs. 27,22,500 / 0.15\n= Rs. 1,81,50,000\nOperating ratio\n\n$$\n=\\frac{\\text { Operating expenses }}{\\text { Cost of goods sold (COGS) }}=2: 6=1: 3\n$$\n\nOperating expenses\n= 1/3COGS\n\nOperating cost\n= Sales - Operating profit\nRs. 1,54,27,500\nRs. 1,54,27,500\n\nCOGS\nGross profit\n= COGS + Operating expenses\n= COGS + 1/3COGS\n= Rs. 1,15,70,625\n= Sales - COGS\n= 1,81,50,000-821,15,70,625\n= Rs. 65,79,375\n$=\\frac{\\text { Gross Profit }}{\\text { Sales }} \\times 100$\n= 65,79,375/1,81,50,000\n= 0.3625 or 36.25\\%\n\nGross profit and sales can be calculated in alternative way also. However, there will be no change in GP ratio i.e 36.25\\%\n\n(iii) Current Ratio\n\n\n## Current Assets\n\nTotal of Balance sheet liability\n\n$$\n\\begin{gathered}\n=\\frac{\\text { Current Assets }}{\\text { CurrentLiabilities }} \\\\\n=1.8\n\\end{gathered}\n$$\n\n= 1.8 Current Liabilities\n= Equity + Debt + Current Liabilities\n\n$$\n\\begin{equation*}\n=30,00,000+45,00,000+\\mathrm{CL} \\tag{2}\n\\end{equation*}\n$$\n\n= Fixed Assets + Current Assets\n\n$$\n\\begin{equation*}\n=39 \\text { lakhs }+ \\text { CA }=39+1.8 \\mathrm{CL} \\tag{3}\n\\end{equation*}\n$$\n\nEquating 2 and 3 ,\n\n$75,00,000+\\mathrm{CL}$\n0.8 CL\nCL\nCurrent Assets\n\n$$\n\\begin{aligned}\n& =39,00,000+1.8 \\mathrm{CL} \\\\\n& =36,00,000 \\\\\n& =Rs. 45,00,000 \\\\\n& =1.8 \\mathrm{CL}=1.8 \\times 45 \\text { lakhs = Rs.81,00,000 }\n\\end{aligned}\n$$\n\n\nExam insights: Students often lose marks on gross profit ratio by using incorrect sales or COGS. Doublecheck the formula and adjust properly for opening and closing stock before computing.",
+          "chapter_number": "3",
+          "chapter_name": "FINANCIAL ANALYSIS AND PLANNING - RATIO ANALYSIS",
+          "unique_id": "3-T-19"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Global Beverage Corporation is considering replacing one of its bottling machines with a newer and more efficient model. The existing machine was purchased five years ago for ₹ 16,00,000 and has a total useful life of ten years. Currently, the company can sell this machine for ₹ 9,60,000. The new machine costs ₹ 32,00,000 having an estimated salvage value of ₹ 3,20,000 and a useful life of five years. With the new machine, annual contribution margin is projected to increase from ₹ 16,00,000 to ₹ 18,40,000 and operating efficiencies are expected to yield further annual savings of ₹ 3,20,000. Depreciation is calculated on a straight-line method over the machine's five-year life. The company's cost of capital is 12% and corporate tax rate is 33%.\n\nYou are required to calculate the Net Present Value of new machine.\n\nGiven: PVIFA_{0.12,5} is 3.605 and PVIF_{0.12,5} is 0.567\n\n(5 Marks)",
+          "answer": "If Tax on sale of existing machine is not taken\n\nCalculation of Net Initial Cash Outflows:\n\n| Particulars                                   | ₹        |\n|-----------------------------------------------|----------|\n| Cost of new machine                           | 32,00,000|\n| Less: Sale proceeds of existing machine       | (9,60,000)|\n| Net initial cash outflows                     | 22,40,000|\n\nAccordingly, NPV Will be ₹ 20,28,930 - ₹ 22,40,000 = (₹ 2,11,070)\n\nCalculation of Net Initial Cash Outflows:\n\n| Particulars                                      | ₹          |\n|--------------------------------------------------|------------|\n| Cost of new machine                              | 32,00,000  |\n| Less: Sale proceeds of existing machine          | (9,60,000) |\n| Add: Tax paid on sale of existing machine (₹9,60,000 – 8,00,000) × 33%) | 52,800     |\n| Net initial cash outflows                        | 22,92,800  |\n\nCalculation of Net Present Value of new machine\n\n| Particulars                                      | ₹          |\n|--------------------------------------------------|------------|\n| Incremental Contribution                         | 2,40,000   |\n| Add: Cost saving                                 | 3,20,000   |\n| Savings                                          | 5,60,000   |\n| Less: Incremental Depreciation {5,76,000-1,60,000}| 4,16,000   |\n| Incremental Profit Before Tax                    | 1,44,000   |\n| Less: Tax @ 33%                                  | 47,520     |\n| Profit After Tax                                 | 96,480     |\n| Add: Depreciation                                | 4,16,000   |\n| Cash Inflow                                      | 5,12,480   |\n| PVIFA                                            | 3.605      |\n| PV of Cash Inflow                                | 18,47,490  |\n| Add: PV of Salvage Value of new machine (₹ 3,20,000 × 0.567) | 1,81,440   |\n| Total PV of Cash Inflow                          | 20,28,930  |\n| Less: Initial Cash Outflow                       | 22,92,800  |\n| NPV                                              | (2,63,870) |",
+          "chapter_number": "8",
+          "chapter_name": "DIVIDEND DECISION",
+          "unique_id": "FM-REPLACED-4"
+        }
+      ],
+      "section": 1
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "6",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Question 6 (MTP 5 Marks, Sep'22)\n\n| Sales price | Rs. 21 per unit |\n| :--- | :--- |\n| Variable cost | Rs. 13.50 per unit |\n| Break-even point | 30,000 units |\n\nYou are required to CALCULATE operating leverage at sales volume 37,500 units and 45,000 units.",
+          "answer": "Computation of Operating Leverage (OL)\n\nSelling Price $=Rs. 21$ per unit\n\nVariable Cost $=$ Rs. 13.50 per unit\n\nFixed Cost $=$ BEP $\times($ Selling price - Variable cost $)=30,000 \times(21-13.50)=30,000 \times 7.5=2,25,000$\n\n| Particulars | For 37,500 units (Rs.) | For 45,000 units (Rs.) |\n| :--- | :--- | :--- |\n| Sales (@ Rs. 21 /unit) | 7,87,500 | 9,45,000 |\n| Less: Variable Cost (@ 13.50 /unit) | 5,06,250 | 6,07,500 |\n| Contribution | 2,81,250 | 3,37,500 |\n| Less: Fixed Cost | 2,25,000 | 2,25,000 |\n| Earnings before Interest and tax (EBIT) | 56,250 | 1,12,500 |\n| Operating Leverage $\\left[\\frac{\\text { Contribution }}{\\text { EBIT }}\\right]$ | $\\left(\\frac{2,81,250}{56,250}\\right)$ | ( $\\frac{3,37,500}{1,12,500}$ ) |\n| Operating Leverage | 5 times | 3 times |",
+          "chapter_number": "6",
+          "chapter_name": "FINANCING DECISIONS LEVERAGES",
+          "unique_id": "6-T-6"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "## Question 32\n\nRex Ltd has 20 lakh equity shares outstanding at the start of the accounting year 20XX. The existing market price per share is $Rs. 300$. Expected dividend is $Rs. 20$ per share. The rate of capitalization appropriate to the risk class to which the company belongs is $\\mathbf{2 0} \\boldsymbol{\\%}$.\n\nCALCULATE the market price per share when expected dividends are: (a) declared, and (b) not declared, based on the Miller - Modigliani approach.\n\nCALCULATE number of shares to be issued by the company at the end of the accounting year on the assumption that the net income for the year is Rs. 5 crore; investment budget is Rs. 8 crores, when (a) Dividends are declared, and (b) Dividends are not declared.\n\nPROVE that the market value of the shares at the end of the accounting year will remain unchanged irrespective of whether (a) Dividends are declared, or (ii) Dividends are not declared.\n\nWHAT is the implied growth rate in dividends as per Gordon's model, if expected dividend payment is considered imminent?",
+          "answer": "(i) Calculation of market price per share\n\nAccording to Miller - Modigliani (MM) Approach:\n\n$$\nP_{0}=\\frac{P_{1}+D_{1}}{1+k_{e}}\n$$\n\nWhere,\n\nExisting market price ( $\\mathrm{P}_{\\mathrm{o}}$ ) = Rs. 300\n\nExpected dividend per share $\\left(\\mathrm{D}_{1}\\right)=Rs. 20$\n\nCapitalization rate $\\left(\\mathrm{k}_{\\mathrm{e}}\\right)=0.20$ Market price at year end $(\\mathrm{P} 1)=$ ?\n\na. If expected dividends are declared, then\n\n$$\n300=(P 1+20) /(1+0.2) \\quad|\\quad 300 \\times 1.2=P 1+20| \\quad P 1=340\n$$\n\nb. If expected dividends are not declared, then\n\n$$\n300=(\\mathrm{P} 1+0) /(1+0.2) \\quad|\\quad 300 \\times 1.2=\\mathrm{P} 1 \\quad| \\quad \\mathrm{P} 1=360\n$$\n\n(ii) Calculation of number of shares to be issued\n\n|  | (a) | (b) |\n| :--- | :--- | :--- |\n|  | Dividends are declared.(Rs. lakh) | Dividends are not Declared(Rs. lakh) |\n| Net income | 500 | 500 |\n| Total dividends | (400) | - |\n| Retained earnings | 100 | 500 |\n| Investment budget | 800 | 800 |\n| Amount to be raised by new issues | 700 | 300 |\n| Relevant market price (Rs. per share) | 340 | 360 |\n| No. of new shares to be issued (in lakh) ( $Rs. 700 \\div 340$; Rs. $300 \\div 360$ ) | 2.0588 | 0.8333 |\n\n(iii) Calculation of market value of the shares\n\n| Gauresh \\| 823731 | (a) | (b) |\n| :--- | :--- | :--- |\n| Particulars | Dividends are declared | Dividends are not Declared |\n| Existing shares (in lakhs) | 20.00 | 20.00 |\n| New shares (in lakhs) | 2.0588 | 0.8333 |\n| Total shares (in lakhs) | 22.0588 | 20.8333 |\n| Market price per share (Rs.) | 340 | 360 |\n| Total market value of shares at the end of the year (Rs. in lakh) | $22.0588 \\times 340 =7,500$ (approx.) | $20.8333 \\times 360$ = 7,500(approx.) |\n\nHence, it is proved that the total market value of shares remains unchanged irrespective of whether dividends are declared, or not declared.\n\n(iv) $\\mathrm{PO}=\\mathrm{D} 1 /(\\mathrm{Ke}-\\mathrm{g})$\n\n$$\n\\begin{aligned}\n& 300=20 /(0.2-\\mathrm{g}) \\quad|0.2-\\mathrm{g}=20 / 300 \\quad| 0.2-\\mathrm{g}=0.0667 \\quad \\mid \\quad \\mathrm{G}=0.133333 \\\\\n& \\mathrm{~g}=13.3333 \\%\n\\end{aligned}\n$$",
+          "chapter_number": "8",
+          "chapter_name": "DIVIDEND DECISION",
+          "unique_id": "8-T-32"
+        }
+      ],
+      "section": 1
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "8",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "INFO Ltd is a listed company having share capital of Rs. 2400 Crores of Rs. 5 each. During the year 20X1-X2, the dividends distributed per share amount to Rs. 50.\\n\\n| Dividend distributed | $1000\\%$ \\n| :--- | ---: |\\n| Expected Annual growth rate in dividend | $14\\%$ |\\n| Expected rate of return on its equity capital | $18\\%$ |\\n\\n## Required:\\n\\n(a) Calculate price of share applying Gordon's growth Model.\\n\\n(b) What will be the price of share if the Annual growth rate in dividend is only $10\\%$ ?\\n\\n(c) According to Gordon's growth Model, if Internal Rate of Return is $\\mathbf{2 5 \\%}$, then what should be the optimum dividend payout ratio in case of growing stage of company? Comment.",
+          "answer": "(a) In the present situation, the current MPS is as follows: $\\mathrm{P}=\\frac{\\mathrm{D} 0(1+\\mathrm{g})}{\\mathrm{K}_{\\mathrm{e}}-\\mathrm{g}}$  \n\nWhere,\n\nP = Market price per share\n\nD0 = current year dividend\n\n$\\mathrm{g}=$ growth rate of dividends\n\nKe = cost of equity capital/ expected rate of return\n\n$$\nP=\\frac{50(1+0.14)}{0.18-0.14}=Rs. 1425\n$$\n\n(b) The impact of changes in growth rate to $10 \\%$ on MPS will be as follows: $P=\\frac{50(1+0.10)}{0.18-0.10}=Rs. 687.5$\n\n(c) If Internal rate of return, $\\mathrm{r}=25 \\%$ and $\\mathrm{Ke}=18 \\%$  \n\nAs per Gordon's model, when $\\mathrm{r}>\\mathrm{Ke}$, optimum dividend payout ratio is 'Zero'. When IRR is greater than cost of capital, the price per share increases and dividend pay- out decreases.\n\nExam Insights: Students showed average performance in the dividend decision question due to errors in Gordon's Growth Model. Recheck the formula $-\\mathrm{P}=\\frac{\\mathrm{D}_{1}}{\\mathrm{k}-\\mathrm{g}}$-and calculate next year's dividend correctly before substitution.",
+          "chapter_number": "8",
+          "chapter_name": "DIVIDEND DECISION",
+          "unique_id": "8-T-11"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "ABC Industries is a mid-sized company manufacturing consumer goods. Last quarter, the company reported sales of Rs. $2,00,000$. The production process involves significant variable costs, which account for $50 \\%$ of the sales value. Additionally, the company incurs Rs. 40,000 as fixed operating costs for rent, utilities, and management expenses. ABC Industries has also borrowed funds, leading to Rs. 10,000 as annual interest on long-term debt. The company is currently planning to launch a new marketing campaign aimed at boosting sales by $10 \\%$. As a financial analyst at ABC Industries, you are required to: 1. CALCULATE the combined leverage. 2. ILLUSTRATE the impact of the $10 \\%$ sales increase using the combined leverage. (MTP 5 Marks Nov'24,MP[6])",
+          "answer": "## Statement showing Computation of Combined leverage\n\n|  | Rs. |\n| :--- | :--- |\n| Sales | 2,00,000 |\n| Less: Variable costs (50\\%) | 1,00,000 |\n| Contribution | 1,00,000 |\n| Less: Fixed operating costs | 40,000 |\n| EBIT | 60,000 |\n| Less: Interest | 10,000 |\n| Taxable Income (PBT) | 50,000 |\n\nCombined leverage $=\\frac{\\mathrm{C}}{\\mathrm{PBT}}=\\frac{1,00,000}{50,000}=2$\n\nThe combined leverage of ' 2 ' indicates that with every increase of Rs. 1 in sales, the taxable income will increase by Rs. 2 (i.e. $1 \\times 2$ ). This can be verified by the following computations when the sales increase by $10 \\%$\n\n|  | Rs. |\n| :--- | :--- |\n| Sales | 2,20,000 |\n| Less: variable costs (50\\%) | 1,10,000 |\n| Contribution | 1,10,000 |\n| Less: Fixed operating costs | 40,000 |\n| EBIT | 70,000 |\n| Less: Interest | 10,000 |\n| Taxable Income (PBT) | 60,000 |\n\nIt is clear from the above computation that on account of increase in sales by $10 \\%$, the profit before tax has increased by $20 \\%$.",
+          "chapter_number": "6",
+          "chapter_name": "FINANCING DECISIONS LEVERAGES",
+          "unique_id": "6-T-10"
+        }
+      ],
+      "section": 1
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "8",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 3,
+          "internal_split": null,
+          "question": "EquipLease Financial Services Ltd. is a specialized equipment leasing company that has been operating in the industrial equipment financing space for over 15 years. The company's business model involves purchasing high-value machinery and leasing it to manufacturing companies, thereby earning returns through lease rentals while retaining ownership of the assets. The company has built a strong reputation for providing flexible financing solutions tailored to clients' cash flow patterns and business cycles. Their leasing arrangements help clients conserve capital while accessing state-of-the-art equipment.\n\nEquipLease has recently purchased a specialized CNC precision machine with the following information:\n\n- **Purchase Cost:** ₹ 10,00,000 (paid upfront)\n- **Expected Useful Life:** 4 years\n- **Residual/Salvage Value:** Nil (technology becomes obsolete)\n- **Depreciation for Tax Purposes:** Can be claimed by EquipLease under Straight line method (SLM) or Units of Production method(UOP)\n- **Lease Rentals earned by company is subject to tax.**\n- **EquipLease's Cost of Capital:** 10% per annum\n- **Corporate Tax Rate:** 25%\n\nTechManufacture Industries Ltd., a growing precision engineering company, has approached EquipLease expressing interest in leasing this",
+          "answer": "Statement Showing PV of yearly lease rentals when charged in UOP Ratio\n\n| Year | Particulars          | SLM      | UOP      |\n|------|----------------------|----------|----------|\n| 1    | Lease rentals = X    | 1,41,674 | 1,43,348 |\n|      | 0.682X               | 96,622   | 97,763   |\n| 2    | 1.239X               | 1,75,534 | 1,77,608 |\n| 3    | 1.690X               | 2,39,429 | 2,42,258 |\n| 4    | 2.049X               | 2,93,290 | 2,93,720 |\n|      | PV of Total after tax lease rental | 8,01,875 | 8,11,350 |\n\nStatement Showing PV of yearly lease rentals when charged Equally\n\n| Year | Particulars          | SLM      | UOP      |\n|------|----------------------|----------|----------|\n| 1    | Lease rentals = X    | 3,37,206 | 3,41,190 |\n|      | 0.682X (0.909 x 0.75)| 2,29,974 | 2,32,692 |\n| 2    | 0.620X (0.826 x 0.75)| 2,09,068 | 2,11,538 |\n| 3    | 0.563X (0.751 x 0.75)| 1,89,847 | 1,92,090 |\n| 4    | 0.512X (0.683 x 0.75)| 1,72,649 | 1,74,689 |\n|      | PV of Total after tax lease rental | 8,01,539* | 8,11,009* |\n\n* Difference is due to rounding off in PVAF\n\nCalculation of PV of Tax savings under Units of Production (UOP)\n\n| Year | Depreciation | Tax savings | PVF @ 10% | PV of Tax Savings |\n|------|--------------|-------------|-----------|-------------------|\n| 1    | 1,00,000     | 25,000      | 0.909     | 22,725            |\n| 2    | 2,00,000     | 50,000      | 0.826     | 41,300            |\n| 3    | 3,00,000     | 75,000      | 0.751     | 56,325            |\n| 4    | 4,00,000     | 1,00,000    | 0.683     | 68,300            |\n|      |              |             |           | 1,88,650          |\n\nLet lease rental of 1st year be X\n\nPV of after tax Lease rentals charged as per client's utilization pattern\n\n| Year | Lease rentals | After Tax Lease Rentals | PVF @ 10% | PV of Lease Rentals |\n|------|---------------|-------------------------|-----------|----------------------|\n| 1    | X             | 0.75X                   | 0.909     | 0.682X               |\n| 2    | 2X            | 1.5X                    | 0.826     | 1.239X               |\n| 3    | 3X            | 2.25X                   | 0.751     | 1.690X               |\n| 4    | 4X            | 3X                      | 0.683     | 2.049X               |\n|      |               |                         |           | 5.660X               |\n\nPV of after tax Lease rentals charged equally\n\nLet annual lease rental be X\n\nX × (1 – 25%) × 3.17(PVAF @ 10%) = 2.378X\n\nInvestment to be recovered from lease rentals\n\n| Particulars                        | In UOP Ratio | Equally     |\n|------------------------------------|--------------|-------------|\n|                                    | SLM          | UOP         | SLM         | UOP         |\n| Investment                         | 10,00,000    | 10,00,000   | 10,00,000   | 10,00,000   |\n| PV of Tax savings on Depreciation  | 1,98,125     | 1,88,650    | 1,98,125    | 1,88,650    |\n| Investment to be recovered         | 8,01,875     | 8,11,350    | 8,01,875    | 8,11,350    |\n| PV of after-tax Lease rentals      | 5.660X       | 5.660X      | 2.378X      | 2.378X      |\n| Lease rentals = X                  | 1,41,674     | 1,43,348    | 3,37,206    | 3,41,190    |\n\nCalculation of PV of Tax savings under Straight line method (SLM)\n\n| Particulars                     | Result                                      |\n|--------------------------------|---------------------------------------------|\n| Annual Depreciation            | 10 Lakhs / 4 Years = 2,50,000               |\n| PV of Tax savings on above     | 2,50,000 Lakhs x 25% x PVAF @ 10% i.e. 3.170 = 1,98,125 |\n\nCNC machine. TechManufacture has provided detailed information about their expected utilization pattern:\n\nThe machine's usage will follow a graduated ramp-up pattern based on TechManufacture's order book projections:\n\n| Year | Production Capacity Utilization | Relative Units |\n|------|---------------------------------|----------------|\n| 1    | Low (Initial phase)             | 1 unit         |\n| 2    | Medium                          | 2 units        |\n| 3    | High                            | 3 units        |\n| 4    | Peak                            | 4 units        |\n\nThis pattern is typical for businesses scaling up production with new equipment - starting slow as operators are trained and processes are optimized, then ramping up to full capacity. The Client wants the company to charge lease rentals based on the client's utilization pattern 1:2:3:4.\n\nMr. Vikram Malhotra, the Chief Credit Officer at EquipLease, is tasked with structuring an appropriate lease arrangement. He faces several strategic decisions:\n\ni. HOW MUCH portion of the cost is recovered from tax savings on depreciation under both the methods viz. SLM & units of production method.\n\nii. FIND the portion of investment to be recovered from lease rentals under both the assumptions i.e. Depreciation under both the methods viz. SLM & units of production method.\n\niii. DETERMINE minimum lease rentals needed to recover the balance cost of investment after adjusting the Tax shields on the depreciation under both the depreciation methods if -\n\n- EquipLease charge uniform (equal) rentals over 4 years\n- Lease rentals follow the client's utilization pattern (1:2:3:4)\n\nInvestment Decisions\n\n8.",
+          "chapter_number": "8",
+          "chapter_name": "DIVIDEND DECISION",
+          "unique_id": "FM-REPLACED-6"
+        },
+        {
+          "label": "b",
+          "marks": 3.5,
+          "internal_split": null,
+          "question": "The capital structure of RSA Limited is as under:\n\n|                                      | (₹)         |\n|--------------------------------------|-------------|\n| Equity Shares (₹ 10 per share)       | 1,00,00,000 |\n| 8% Irredeemable Preference Shares (₹100 per share) | 5,00,00,000 |\n\nAdditional Information:\n\n(i)  Equity shares are quoted at ₹ 60 each and a new issue priced at ₹ 60 will be fully subscribed; flotation cost will be ₹ 4 per share.\n\n(ii) Issue price of the 8% Irredeemable preference shares was ₹ 45.\n\n(iii) Current market price of the 8% irredeemable preference shares is ₹ 55.\n\nRSA Limited has been paying dividend to its equity shareholders at a constant growth rate of 5% per year and the dividend paid this year was ₹ 2 per equity share.\n\nYou are required to calculate:\n\n(i)   The cost of equity using Gordon's model\n\n(ii)  The cost of the irredeemable preference share\n\n(iii) The weighted average cost of capital using market value weights.",
+          "answer": "= \\dfrac{8}{45}  \n= 17.78%\n\n(iii) Calculation of WACC using market value weights\n\n| Source of capital   | Market Value (₹) | Weights (a) | Cost of capital (b) | WACC (K₀) (c) = (a)×(b) |\n|---------------------|------------------|-------------|----------------------|-------------------------|\n| Equity shares       | 6,00,00,000      | 0.6857      | 0.0875               | 0.0600                  |\n| Preference shares   | 2,75,00,000      | 0.3143      | 0.1778               | 0.0559                  |\n|                     | 8,75,00,000      | 1           |                      | 0.1159                  |\n\nWACC (K₀) = 0.1159% or 11.59%\n\nIf P₀ is taken as current market price for calculation of preference share\n\n(ii) $K_P = \\dfrac{PD}{P_0}$  \n= \\dfrac{8}{55}  \n= 14.55%\n\n(iii) Calculation of WACC using market value weights\n\n| Source of capital   | Market Value (₹) | Weights (a) | Cost of capital (b) | WACC (K₀) (c) = (a)×(b) |\n|---------------------|------------------|-------------|----------------------|-------------------------|\n| Equity shares       | 6,00,00,000      | 0.6857      | 0.0875               | 0.06                    |\n| Preference shares   | 2,75,00,000      | 0.3143      | 0.1455               | 0.0457                  |\n|                     | 8,75,00,000      | 1           |                      | 0.1057                  |\n\nWACC (K₀) = 0.1057% or 10.57%\n\n(i) \\hspace{0.5cm} K_e \\hspace{0.2cm} = \\hspace{0.2cm} \\frac{D_1}{P_0 - F} + g\n\n\\hspace{1.5cm} = \\hspace{0.2cm} \\frac{2(1+0.05)}{60-4} + 5\n\n\\hspace{1.5cm} = \\hspace{0.2cm} 8.75\\%\n\n(ii) \\hspace{0.5cm} K_P \\hspace{0.2cm} = \\hspace{0.2cm} \\frac{PD}{P_0}",
+          "chapter_number": "2",
+          "chapter_name": "TYPES OF FINANCING",
+          "unique_id": "FM-REPLACED-5"
+        },
+        {
+          "label": "c",
+          "marks": 3.5,
+          "internal_split": null,
+          "question": "A company is evaluating two options for financing its current assets: using short-term loans or long-term loans. HOW should the company balance risk and return in making this decision, and WHAT factors should it consider to ensure optimal financing? [MTP 4 Marks Nov'24], MP[6], MP[8]",
+          "answer": "The financing of current assets involves a trade off between risk and return. A firm can choose from short or long term sources of finance. Short term financing is less expensive than long term financing but at the same time, short term financing involves greater risk than long term financing.\n\nDepending on the mix of short term and long term financing, the approach followed by a company may be referred as matching approach, conservative approach and aggressive approach.\n\nIn matching approach, long-term finance is used to finance fixed assets and permanent current assets and short term financing to finance temporary or variable current assets. Under the conservative plan, the firm finances its permanent assets and also a part of temporary current assets with long term financing and hence less risk of facing the problem of shortage of funds.\n\nAn aggressive policy is said to be followed by the firm when it uses more short term financing than warranted by the matching plan and finances a part of its permanent current assets with short term financing.",
+          "chapter_number": "2",
+          "chapter_name": "TYPES OF FINANCING",
+          "unique_id": "2-T-29"
+        }
+      ],
+      "section": 1
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": true,
+      "total_marks": 15,
+      "chapter_number": "12",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Explain briefly the primary activities that are grouped into five main activities under Value chain analysis. (MTP 5 Marks April '23) (PYP 5 Marks Sep'24) (RTP sep'25)",
+          "answer": "Yes, I agree with the statement that Value Chain Analysis consist of two activities: Primary activities and Support activities. As per Michael Porter both the activities are intertwined. It is a tool used to examine the activities that create value in an organization, helping to enhance efficiency and build competitive advantage. It breaks down a business's operations to identify areas for improvement in value creation.\n\nThe primary activities of an organization are categorized into five areas:\n\n\n1. Inbound logistics: Activities related to receiving, storing, and distributing inputs (e.g., materials handling, stock control, and transport).\n\n2. Operations: Transforming inputs into final products or services (e.g., machining, packaging, assembly).\n\n3. Outbound logistics: Collecting, storing, and delivering products to customers (e.g., warehousing, transport).\n\n4. Marketing and sales: Promoting and selling the product or service, including advertising and sales administration.\n\n5. Service: Enhancing or maintaining product value (e.g., installation, repair, training).",
+          "chapter_number": "12",
+          "chapter_name": "STRATEGIC ANALYSIS: EXTERNAL",
+          "unique_id": "12-T-13"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Question 27 (MTP 5 Marks Oct '23)\n\n\"XYZ Ltd., a multi-product company, has been experiencing consistent losses in recent years, leading to a significant erosion of its net worth. What strategic options should the management consider addressing the company's current situation? Provide recommendations along with supporting reasons.\"",
+          "answer": "XYZ Ltd. is a sick company with accumulated losses that have eroded its net worth. The multi -product company may analyse its various products to take decisions on the viability of each. The company may consider a retrenchment strategy. Retrenchment becomes necessary for coping with hostile and adverse situations in the environment and when any other strategy is likely to be suicidal.\n\nRetrenchment strategy is adopted because of continuous losses and unviability and stability can be ensured by reallocation of resources from unprofitable to profitable businesses.\n\nRetrenchment strategy is followed when an organization substantially reduces the scope of its activity. This is done through an attempt to find out the problem areas and diagnose the causes of the problems. Next, steps are taken to solve the problems. These steps result in different kinds of retrenchment strategies as follows:\n\nTurnaround strategy: If the organization chooses to transform itself into a leaner structure and focuses on ways and means to reverse the process of decline, it adopts a turnaround strategy. It may try to reduce costs, eliminate unprofitable outputs, generate revenue, improve coordination, better control, and so on.\n\nDivestment Strategy: Divestment strategy involves the sale or liquidation of a portion of business, or a major division, profit centre or SBU. Divestment is usually a part of a rehabilitation or restructuring plan and is adopted when a turnaround has been attempted but has proved to be unsuccessful.\n\nLiquidation Strategy: In the retrenchment strategy, the most extreme and unattractive is liquidation strategy. It involves closing down a firm and selling its assets. It is considered as the last resort because it leads to serious consequences such as loss of employment for workers and other employees, termination of opportunities where a firm could pursue any future activities, and the stigma of failure.\n\nThe management of multiproduct sick company manufacturing various items need to understand pros and cons of each strategic option. The decision will depend upon the specific circumstances of each product and the management goals of the company.",
+          "chapter_number": "14",
+          "chapter_name": "STRATEGIC CHOICES",
+          "unique_id": "14-T-27"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Buyers of an industry's products or services can sometimes exert considerable pressure on the company. In the light of the five forces as propagated by Michael Porter explain this force. Also state as to when this leverage is evident. (PYP 5 Marks May '23 MTP 5 Marks July'24, MP[4])",
+          "answer": "Bargaining Power of Buyers: This is another force that influences the competitive condition of an industry. This force becomes heavier depending on the possibility of buyers forming groups or cartels. Mostly, this is a phenomenon seen in industrial products. Quite often, users of industrial products come together formally or even informally and exert pressure on the producer. The bargaining power of the buyers influences not only the prices that the producer can charge but also influences costs and investments of the producer. This is because powerful buyers usually bargain for better services which involves more investment on the part of the producer.\n\nBuyers of an industry's products or services can sometimes exert considerable pressure on existing firms to secure lower prices or better services. This leverage is particularly evident when;\n\n(i) Buyers have full knowledge of the source(s) of products and their substitutes. Thus, challenging the price being charged by producers.\n\n(ii) They spend a lot of money on the industry's products i.e. they are big buyers. Thus, in a position to demand favourable terms of contract.\n\n(iii) The industry's product is not perceived as critical to the buyer's needs and buyers are more concentrated than firms supplying the product. They can easily switch to the substitutes available.\n\nExam Insights: Students often missed the core concept and couldn't approach the question correctly. Revisit the underlying idea first, then apply it directly to the requirement to avoid vague or off-track answers.",
+          "chapter_number": "12",
+          "chapter_name": "STRATEGIC ANALYSIS: EXTERNAL",
+          "unique_id": "12-T-19"
+        }
+      ],
+      "section": 2
+    },
+    {
+      "q_main": 6,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "11",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Define strategic intent. Briefly explain the elements of strategic intent. (RTP May'18, May'19, May'20, PYP 5 Marks, Nov'22)",
+          "answer": "Strategic Management is defined as a dynamic process of formulation, implementation, evaluation, and control of strategies to realize the organization's strategic intent. Strategic intent refers to purposes for what organization strives for. Top management must define \"what they want to do\" and \"why they want to do\". \"Why they want to do\" represents strategic intent of the firm. Clarity in strategic intent is extremely important for the future success and growth of the enterprise, irrespective of its nature and size.\n\nStrategic intent can be understood as the philosophical base of strategic management. It implies the purposes which an organization endeavors to achieve. It is a statement that provides a perspective of the means, which will lead the organization, reach its vision in the long run. Strategic intent gives an idea of what the organization desires to attain in future.\n\nStrategic intent provides the framework within which the firm would adopt a predetermined direction and would operate to achieve strategic objectives. Strategic intent could be in the form of vision and mission statements for the organization at the corporate level. It could be expressed as the business definition and business model at the business level of the organization.\n\nStrategic intent is generally stated in broad terms but when stated in precise terms it is an expression of aims to be achieved operationally i.e., goals and objectives.\n\n## Elements of Strategic Intent\n\n(i) Vision: Vision implies the blueprint of the company's future position. It describes where the organization wants to land. It depicts the organization's aspirations and provides a glimpse of what the organization would like to become in future. Every sub system of the organization is required to follow its vision.\n\n(ii) Mission: Mission delineates the firm's business, its goals and ways to reach the goals. It explains the reason for the existence of the firm in the society. It is designed to help potential shareholders and investors understand the purpose of the company. A mission statement helps to identify, 'what business the company undertakes.' It defines the present capabilities, activities, customer focus and business makeup.\n\n(iii) Business definition: It seeks to explain the business undertaken by the firm, with respect to the customer needs, target markets, and alternative technologies. With the help of business definition, one can ascertain the strategic business choices. Organizational restructuring also depends upon the business definition.\n\n(iv) Business model: Business model, as the name implies is a strategy for the effective operation of the business, ascertaining sources of income, desired customer base, and financial details. Rival firms, operating in the same industry rely on the different business model due to their strategic choice.\n\n(v) Goals and objectives: These are the base of measurement. Goals are the end results, that the organization attempts to achieve. On the other hand, objectives are time-based measurable targets, which help in the accomplishment of goals. These are the end results which are to be attained with the help of an overall plan, over the particular period. However, in practice no distinction is made between goals and objectives and both terms are used interchangeably.\n\nThe vision, mission, business definition, and business model explain the philosophy of the organization but the goals and objectives represent the results to be achieved in multiple areas of business.",
+          "chapter_number": "11",
+          "chapter_name": "INTRODUCTION TO STRATEGIC MANAGEMENT",
+          "unique_id": "11-T-28"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "A company has recently launched a new product in the market. Initially, it faced slow sales growth, limited markets, and high prices. However, over time, the demand for the product expanded rapidly, prices fell, and competition increased. Identify the stages of the product life cycle (PLC) that the company went through. (RTP Nov '23, Sep'24, MTP Mar'25, MP [8])",
+          "answer": "The company went through the following stages of the product life cycle (PLC):\n\nIntroduction stage: Initially, the company faced slow sales growth, limited markets, and high prices, which are characteristic of the introduction stage. During this stage, competition is almost negligible, and customers have limited knowledge about the product.\n\nGrowth stage: Over time, the demand for the product expanded rapidly, prices fell, and competition increased. These are typical features of the growth stage in the PLC. In this stage, the product gains market acceptance, and customers become more aware of the product's benefits and show interest in purchasing it.",
+          "chapter_number": "12",
+          "chapter_name": "STRATEGIC ANALYSIS: EXTERNAL",
+          "unique_id": "12-T-11"
+        }
+      ],
+      "section": 2
+    },
+    {
+      "q_main": 7,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "15",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 4.5,
+          "internal_split": null,
+          "question": "Case Study\n\nApex Consumer Products Ltd. is a leading manufacturer of packaged food products. To reduce dependence on its existing business, the company recently acquired a chain of retail supermarkets across the country. Through this acquisition, the company aims to directly sell its products to consumers, improve distribution efficiency, and reduce reliance on third-party retailers.\n\nIdentify and explain the corporate-level strategy adopted by Apex Consumer Products Ltd.",
+          "answer": "Apex Consumer Products Ltd. has adopted a Forward Integration Strategy, which is a form of Vertical Integration Strategy.\n\nVertical integration involves expanding business operations into activities that were previously performed by entities in the value chain.\n\nIn forward integration, a company moves closer to the ultimate customer by acquiring or controlling distribution channels.\n\nIndicators from the case\n\nAcquisition of retail supermarkets.\n\nDirect access to consumers.\n\nReduced dependence on third-party retailers.\n\nBetter control over distribution.\n\nBenefits of Forward Integration\n\nGreater control over distribution network.\n\nImproved market access.\n\nBetter customer feedback and market intelligence.\n\nIncreased profit margins by eliminating intermediaries.\n\nHence, Apex Consumer Products Ltd. has adopted a Forward Integration Corporate Strategy.",
+          "chapter_number": "15",
+          "chapter_name": "STRATEGY IMPLEMENTATION AND",
+          "unique_id": "FM-REPLACED-sm5"
+        },
+        {
+          "label": "b",
+          "marks": 5.5,
+          "internal_split": null,
+          "question": "What is stability strategy? What are the reasons to pursue a stability strategy? (RTP Nov'19 & Nov '23)",
+          "answer": "One of the important goals of a business enterprise is stability - to safeguard its existing interests and strengths, to pursue well established and tested objectives, to continue in the chosen business path, to maintain operational efficiency on a sustained basis, to consolidate the commanding position already reached, and to optimize returns on the resources committed in the business. A stability strategy is pursued by a firm when:\n\n- It continues to serve in the same or similar markets and deals in same or similar products and services.\n\n- The strategic decisions focus on incremental improvement of functional performance.\n\n## Major reasons for stability strategy are as follows:\n\n- A product has reached the maturity stage of the product life cycle.\n\n- It is less risky as it involves less changes and the staff feels comfortable with things as they are.\n\n- The environment faced is relatively stable.\n\n- Expansion may be perceived as being threatening.\n\n- Consolidation is sought through stabilizing after a period of rapid expansion.",
+          "chapter_number": "14",
+          "chapter_name": "STRATEGIC CHOICES",
+          "unique_id": "14-T-1"
+        }
+      ],
+      "section": 2
+    },
+    {
+      "q_main": 8,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "12",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Question 18 (PYP 5 Marks May'22)\n\n\"The bargaining power of suppliers determines an industry's attractiveness and profitability.\" Discuss.",
+          "answer": "Quite often, suppliers too, exercise considerable bargaining power over purchasing companies. The more specialised the offering from the supplier, greater may be its clout. Further, when the suppliers are limited in number, they may openly exhibit their bargaining power. The bargaining power of suppliers determines the cost of raw materials and other inputs of the industry, and therefore, an industry's attractiveness and profitability. Suppliers can influence the profitability of an industry in a number of ways. Suppliers can command bargaining power over a firm when;\n\n(i) Their products are crucial to the buyer and substitutes are not available.\n\n(ii) They can erect/ensure high switching costs.\n\n(iii) They are more concentrated than their buyers. Less suppliers, more buyers.",
+          "chapter_number": "12",
+          "chapter_name": "STRATEGIC ANALYSIS: EXTERNAL",
+          "unique_id": "12-T-18"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Case Study\n\nNatureGlow Cosmetics Ltd. has developed a strong brand image for its organic skincare products. The company enjoys a loyal customer base and possesses an experienced research team. However, its production capacity is limited compared to competitors.\n\nThe demand for organic products is rapidly increasing worldwide. At the same time, several multinational corporations are entering the organic skincare market with substantial financial resources.\n\nUsing SWOT Analysis, analyse the strategic position of NatureGlow Cosmetics Ltd.",
+          "answer": "SWOT Analysis is a strategic tool used to identify an organisation's internal strengths and weaknesses and external opportunities and threats.\n\nSWOT Analysis of NatureGlow Cosmetics Ltd.\n\n| SWOT Element | Particulars |\n| --- | --- |\n| Strengths | Strong brand image, loyal customer base, experienced research team |\n| Weaknesses | Limited production capacity |\n| Opportunities | Growing global demand for organic skincare products |\n| Threats | Entry of multinational competitors with strong financial resources |\n\nInterpretation\n\nThe company should leverage its strong brand image and loyal customers to capitalize on growing market demand.\n\nIt should overcome capacity constraints through expansion, outsourcing, or strategic alliances.\n\nCompetitive strategies should be developed to counter multinational entrants.\n\nConclusion\n\nNatureGlow Cosmetics Ltd. possesses significant internal strengths and favourable market opportunities, but it must address capacity limitations and increasing competition to sustain long-term growth.",
+          "chapter_number": "11",
+          "chapter_name": "INTRODUCTION TO STRATEGIC MANAGEMENT",
+          "unique_id": "FM-REPLACED-sm_6"
+        }
+      ],
+      "section": 2
+    }
+  ]
+}

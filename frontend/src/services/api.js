@@ -229,5 +229,13 @@ export const recheckPipeline = async (taskId) => {
     return response.data;
 };
 
+/**
+ * Send an action (continue/reset) to a paused pipeline job.
+ */
+export const pipelineAction = async (taskId, action) => {
+    const response = await api.post(`/api/pipelines/action/${taskId}`, { action });
+    return response.data;
+};
+
 export default api;
 

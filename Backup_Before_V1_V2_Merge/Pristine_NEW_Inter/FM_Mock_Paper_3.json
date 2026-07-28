@@ -1,0 +1,513 @@
+{
+  "meta": {
+    "subject_code": "FM",
+    "subject_name": "Financial Management",
+    "paper_num": 3,
+    "total_marks_printed": 100,
+    "total_marks_in_paper": 120,
+    "section_a_marks": 30,
+    "section_b_marks": 80,
+    "two_section_format": true,
+    "note": "Section A (MCQ): 15 questions @ 2 marks each (Case Study based) = 30 marks. Section B: Section 1 — Q1 compulsory (15m); Q2, Q3, Q4 @ 10m each — attempt any 2 of 3. Section 2 — Q5 compulsory (15m); Q6, Q7, Q8 @ 10m each — attempt any 2 of 3. Total Section B marks to attempt = 15+20+15+20 = 70m.",
+    "blacklisted_from": [
+      "Generated_Papers/FM/FM_Mock_Paper_1.json",
+      "Generated_Papers/FM/FM_Mock_Paper_2.json"
+    ],
+    "q1_subparts": [
+      "1(a)",
+      "1(b)",
+      "1(c)"
+    ]
+  },
+  "section_a": [
+    {
+      "unique_id": "10-CS-17",
+      "chapter_number": "10",
+      "chapter_name": "CASE SCENARIOS - FINANCIAL MANAGEMENT",
+      "category": "Case Study",
+      "cs_num": 17,
+      "case_text": "## CS 17 (RTP Sep'25) (Ch 7: Investment Decisions)\n\nMint Technologies, a startup in the IT infrastructure space, is planning to enter the computer networking market with a specialized offering-VPN connectivity solutions for enterprises with distributed office networks. The company recently won a significant tender from a major national bank to set up secure VPN connections across 100 branches. The leadership team is excited but cautious, as this move requires significant upfront investment and ongoing operational capability. To evaluate the financial viability of this project, you have been hired as a consultant.\n\n- They have forecasted their numbers for 5 years and they have assumed that they will grow at industry average ( $3 \\%$ ) afterwards.\n\n- Mint will invest all the money for CAPEX in the infrastructure and equipment. Mint is planning to issue 50 Mn shares in lieu of the amount.\n\n- Mint will have to keep upgrading the infrastructure and equipment to cover different offices of various clients.\n\n- Mint expects an initial investment of around $₹ 150 \\mathrm{Mn}$ in network access as an initial setup cost for connecting different offices. Mint needs to invest additional ₹10 Mn every year starting from beginning and is expected to grow $10 \\%$ every year.\n\n- The equipment investment varies with number of branches/offices. This varies with time and currently it is ₹ 0.1 Mn per office.\n\n- Initially, Mint has won a tender of 100 branches of a bank and expecting it to grow at $30 \\%$ for next 5 years.\n\n- Mint is expecting to have a maintenance cost of $10 \\%$ for equipment and $15 \\%$ for network.\n\n- To handle all this, current manpower cost is ₹ 1 Mn\n\n- Mint has entered into an agreement with local authority and has agreed to share $5 \\%$ of the revenue with the same.\n\n- Mint is expecting to generate revenue of ₹ 0.5 Mn per office and to remain competitive in the market, it is not going to increase with inflation.\n\n- Capital expenditure and operating expenses will grow $10 \\%$ every year.\n\n- Tax slab in the country is $30 \\%$ and depreciation of the equipment and network is assumed to be $10 \\%$. Discounting rate is $20 \\%$.\n\n- Assume all the expenditure including initial setup cost from year 1.\n\nBased on the above information, you are required to answer following 5 MCQs :\n\n1. What is the CFAT for year 1?\n\n(a) $-15,33,50,000$\n\n(b) $1,00,17,000$\n\n(c) $1,75,73,810$\n\n(d) $2,74,29,367$\n\n\nAns: (a)\n\n2. What is the CFAT for year 5?\n\n(a) $-15,33,50,000$\n\n(b) $1,00,17,000$\n\n(c) $4,02,25,268$\n\n(d) $2,74,29,367$\n\n\nAns: (c)\n\n3. Calculate the terminal value\n\n(a) ₹ $24,37,17,801$\n\n(b) ₹ $9,79,74,556$\n\n(c) ₹ $6,38,54,064$\n\n(d) ₹ $21,32,20,955$\n\n\nAns: (a)\n\n4. What is the total present value of the mint technologies?\n\n(a) ₹ $1,89,77,337$\n\n(b) ₹ $1,32,20,955$\n\n(c) ₹ $1,67,06,548$\n\n(d) ₹ $89,97,791$\n\n\nAns: (c)\n\n5. Calculate the IRR for the company\n\n(a) $22.60 \\%$\n\n(b) $15.39 \\%$\n\n(c) $20.25 \\%$\n\n(d) $24.68 \\%$\n\n\nAns: (d)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "What is the CFAT for year 1?",
+          "options": {
+            "a": "$-15,33,50,000$",
+            "b": "$1,00,17,000$",
+            "c": "$1,75,73,810$",
+            "d": "$2,74,29,367$"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "What is the CFAT for year 5?",
+          "options": {
+            "a": "$-15,33,50,000$",
+            "b": "$1,00,17,000$",
+            "c": "$4,02,25,268$",
+            "d": "$2,74,29,367$"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "Calculate the terminal value",
+          "options": {
+            "a": "₹ $24,37,17,801$",
+            "b": "₹ $9,79,74,556$",
+            "c": "₹ $6,38,54,064$",
+            "d": "₹ $21,32,20,955$"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null
+        },
+        {
+          "q_num": 4,
+          "question": "What is the total present value of the mint technologies?",
+          "options": {
+            "a": "₹ $1,89,77,337$",
+            "b": "₹ $1,32,20,955$",
+            "c": "₹ $1,67,06,548$",
+            "d": "₹ $89,97,791$"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null
+        },
+        {
+          "q_num": 5,
+          "question": "Calculate the IRR for the company",
+          "options": {
+            "a": "$22.60 \\%$",
+            "b": "$15.39 \\%$",
+            "c": "$20.25 \\%$",
+            "d": "$24.68 \\%$"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null
+        }
+      ]
+    },
+    {
+      "unique_id": "10-CS-13",
+      "chapter_number": "10",
+      "chapter_name": "CASE SCENARIOS - FINANCIAL MANAGEMENT",
+      "category": "Case Study",
+      "cs_num": 13,
+      "case_text": "VP Ltd. provides the following financial information:\n\n\n| Current Ratio |  | 1.5:1 |\n| :--- | :--- | :--- |\n| Sales (80\\% Credit Sales) | Gauresh \\| 8237317945 | ₹ 150 Lakh |\n| Inventory Turnover Ratio |  | 6 Times |\n| Average Collection Period |  | 2 months |\n| Gross Profit Ratio |  | 20\\% |\n| Quick Ratio |  | 1:1 |",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Inventory and Receivables would be:\n\n(a) ₹ 20 Lakh and ₹ 20 Lakh\n\n(b) ₹ 10 Lakh and ₹ 10 Lakh\n\n(c) ₹ 10 Lakh and ₹ 20 Lakh\n\n(d) ₹ 20 Lakh and ₹ 10 Lakh",
+          "options": {
+            "a": "₹ 20 Lakh and ₹ 20 Lakh",
+            "b": "₹ 10 Lakh and ₹ 10 Lakh",
+            "c": "₹ 10 Lakh and ₹ 20 Lakh",
+            "d": "₹ 20 Lakh and ₹ 10 Lakh"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "Current Assets and Current Liabilities would be:\n\n(a) 30 Lakh and 20 Lakh\n\n(b) 45 Lakh and 30 Lakh\n\n(c) 60 Lakh and 40 Lakh\n\n(d) 75 Lakh and 50 Lakh",
+          "options": {
+            "a": "30 Lakh and 20 Lakh",
+            "b": "45 Lakh and 30 Lakh",
+            "c": "60 Lakh and 40 Lakh",
+            "d": "75 Lakh and 50 Lakh"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null
+        }
+      ]
+    },
+    {
+      "unique_id": "16-CS-29",
+      "chapter_number": "16",
+      "chapter_name": "CASE SCENARIOS- STRATEGIC MANAGEMENT",
+      "category": "Case Study",
+      "cs_num": 29,
+      "case_text": "## CS 29 (MP[3] 10 Marks)\n\nDr. Mikesh Gupta, Agriculture Management Guru at a leading management school in Patna, has been driving the business of E-Bandhu with seven of his students since 2017. This business has two core objectives: first, sustainable farming awareness and second, seasonal availability of agricultural inputs. It is a technology driven business wherein they have a one stop shop for all agricultural products available to farmers at competitive prices. Business is quite challenging, given the fact that farmers in the region are not well aware of the use of technology.\n\nIn the summer of 2019, the team decided to redefine their business strategy to succeed in the agricultural sector. They formulated a new definition and made strategic decisions to leverage their core competencies. Firstly, they shifted their target market from directly serving farmers to onboarding wholesalers and retailers into the system and selling products to them. This strategic move was based on the understanding that wholesalers and retailers could influence technology adoption among farmers.\n\nSecondly, they outsourced logistics to MaalGaadi, a rural supply chain management company. This decision helped E-Bandhu reduce asset procurement costs and corresponding debt, thus strengthening their position in the market.\n\nThirdly, they introduced a new service-based product, ChaaraVidya, in their application. ChaaraVidya aims to educate farmers about the latest sustainable farming practices being implemented around the world. This addition could potentially be a game-changer for E-Bandhu in the agro startup circle, further enhancing their core competency in promoting sustainable farming practices and technology adoption.\n\nThe team is enthusiastic about the strategic changes brought in by Dr. Mikesh and anticipates a more sustainable future for their idea.\n\nBased on the above case scenario, answer the multiple-choice questions.\n\n\n1. Switching from direct selling to marketing through wholesalers and retailers was a strategic decision taken by the management. Such decisions help an organization to be more of which of the following? (Ch 11: Introduction to SM)\n\n(a) Authoritative\n\n(b) Futuristic\n\n(c) Proactive\n\n(d) Regularised\n\n\nAns: (c)\n\n2. ChaaraVidya was brought into the market to increase farmer awareness of soil quality and the latest sustainable farm practices from around the world? What kind of growth strategy will it fall under? (Chapter 14: Strategic Choices)\n\n(a) Market penetration\n\n(b) Market development\n\n(c) Product development\n\n(d) Diversification of business\n\n\nAns: (c)\n\n3. One of the most strategically advantageous decisions for E-Bandhu was to get into a contract with MaalGaadi. Which of the following could not be an advantage for E-Bandhu from this alliance? (Chp 14 Strategic Choices)\n\n(a) Cost savings\n\n(b) Reduced delivery time\n\n(c) Improved customer satisfaction\n\n(d) Increased inventory of products\n\n\nAns: (d)\n\n4. How does E-Bandhu utilize Michael Porter's Five Forces model in its strategic decision-making process? Chapter 12- Strategic Analysis: External Environment\n\n(a) By focusing on industry rivalry and competitive pricing\n\n(b) By analyzing the bargaining power of suppliers and buyers\n\n(c) By assessing the threat of new entrants and substitutes\n\n(d) All of the above\n\n\nAns: (b)\n\n5. What are the core objectives of E-Bandhu, as mentioned in the case study?( Chapter 11- Introduction to Strategic Management)\n\n(a) Sustainable farming awareness and seasonal availability of agricultural inputs\n\n(b) Technology-driven solutions and competitive pricing\n\n(c) Onboarding wholesalers and retailers into the system\n\n(d) All of the above\n\n\nAns: (a)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Switching from direct selling to marketing through wholesalers and retailers was a strategic decision taken by the management. Such decisions help an organization to be more of which of the following? (Ch 11: Introduction to SM)",
+          "options": {
+            "a": "Authoritative",
+            "b": "Futuristic",
+            "c": "Proactive",
+            "d": "Regularised"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "ChaaraVidya was brought into the market to increase farmer awareness of soil quality and the latest sustainable farm practices from around the world? What kind of growth strategy will it fall under? (Chapter 14: Strategic Choices)",
+          "options": {
+            "a": "Market penetration",
+            "b": "Market development",
+            "c": "Product development",
+            "d": "Diversification of business"
+          },
+          "correct_option": "c",
+          "answer": "c",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "One of the most strategically advantageous decisions for E-Bandhu was to get into a contract with MaalGaadi. Which of the following could not be an advantage for E-Bandhu from this alliance? (Chp 14 Strategic Choices)",
+          "options": {
+            "a": "Cost savings",
+            "b": "Reduced delivery time",
+            "c": "Improved customer satisfaction",
+            "d": "Increased inventory of products"
+          },
+          "correct_option": "d",
+          "answer": "d",
+          "verdict": null
+        },
+        {
+          "q_num": 4,
+          "question": "How does E-Bandhu utilize Michael Porter's Five Forces model in its strategic decision-making process? Chapter 12- Strategic Analysis: External Environment",
+          "options": {
+            "a": "By focusing on industry rivalry and competitive pricing",
+            "b": "By analyzing the bargaining power of suppliers and buyers",
+            "c": "By assessing the threat of new entrants and substitutes",
+            "d": "All of the above"
+          },
+          "correct_option": "b",
+          "answer": "b",
+          "verdict": null
+        },
+        {
+          "q_num": 5,
+          "question": "What are the core objectives of E-Bandhu, as mentioned in the case study?( Chapter 11- Introduction to Strategic Management)",
+          "options": {
+            "a": "Sustainable farming awareness and seasonal availability of agricultural inputs",
+            "b": "Technology-driven solutions and competitive pricing",
+            "c": "Onboarding wholesalers and retailers into the system",
+            "d": "All of the above"
+          },
+          "correct_option": "a",
+          "answer": "a",
+          "verdict": null
+        }
+      ]
+    },
+    {
+      "unique_id": "16-CS-1",
+      "chapter_number": "16",
+      "chapter_name": "CASE SCENARIOS- STRATEGIC MANAGEMENT",
+      "category": "Case Study",
+      "cs_num": 1,
+      "case_text": "## CS 1 (MTP 3 Marks Mar '22)\n\nPantheon Yoga Center (PYC), situated in the dense forests of Chhattisgarh by Dr. Manohar Dasgupta, a less known meditation center is visited by affluent Indians and foreign seekers, only by invitation. The uniqueness of his methodologies remains in the fact that only a few people have been able to experience them yet.\n\nRecently, CEO of a big investment bank approached Dr. Dasgupta to take special sessions for his management team in Los Angeles, USA - and given Dr. Dasgupta's popularity amongst business leaders, he wanted to strengthen his network as well for business purposes by building relations with him. Though Dr. Dasgupta was reluctant at first but understanding the need to publicize his practice and an offer by the CEO to get access to more corporates through this route, he took the opportunity, and called his corporate suite of sessions, the 'Shanti Classes'.\n\nThere were certain risks though; first, his techniques could be shunned by the top management as being too orthodox and old. Second, maybe they could be revealed to the outside world in a very disruptive manner, thus taking away the core uniqueness of exclusivity, and lastly, how would he monetize his methodologies if they expanded so quickly.\n\nWith above risks also came the need to build a strong team of like minded individuals who could support and propagate the ideologies in a positive fashion. For this he relied on his daughter, Sukanya. She took three months to build a team of fifty young-vibrant men and women from different backgrounds and trained them with basics and a few specializations.\n\nPYC opened its first branch in Los Angeles, USA, and then took the opportunity to open three more in India. One each in Madhya Pradesh, Gujarat and Assam.\n\nThe center and its techniques have now been recognised globally, especially in Northern America, while Europe is still to be explored business wise. One thing that Pantheon model reassures is that strategy has no boundation with respect to product or service; it applies to each kind in its own way.",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Core competencies cannot be built on single know how, instead it has to be integration of many resources. From the above case, what was the core competency of PYC and which of the following competencies were missing from its bunch of competencies? (Chapter 13- Strategic Analysis: Internal Environment)\n\n(a) Customer Satisfaction was the core competency and its competencies did not include meditation expertise.\n\n(b) Location of the Yoga Center was the core competency and its competencies did not include technological know-how.\n\n(c) Exclusivity was the core competency and its competencies did not include easy scalability.\n\n(d) Dr. Dasgupta's brand name was the core competency and its competencies did not include exclusivity.",
+          "options": {
+            "a": "Customer Satisfaction was the core competency and its competencies did not include meditation expertise.",
+            "b": "Location of the Yoga Center was the core competency and its competencies did not include technological know-how.",
+            "c": "Exclusivity was the core competency and its competencies did not include easy scalability.",
+            "d": "Dr. Dasgupta's brand name was the core competency and its competencies did not include exclusivity."
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "The formation of \"Shanti Classes' by Dr. Dasgupta to popularise his business can be categorised as which of the following growth strategies? (Chapter 14-Strategic Choices)\n\n(a) Product Development\n\n(b) Diversification\n\n(c) Market Penetration\n\n(d) Market Development",
+          "options": {
+            "a": "Product Development",
+            "b": "Diversification",
+            "c": "Market Penetration",
+            "d": "Market Development"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "Which growth strategy was the CEO of the investment bank trying to achieve with Dr. Dasgupta's classes? (Chapter 14- Strategic Choices)\n\n(a) Merger\n\n(b) Diversification\n\n(c) Acquisition\n\n(d) Strategic Alliance",
+          "options": {
+            "a": "Merger",
+            "b": "Diversification",
+            "c": "Acquisition",
+            "d": "Strategic Alliance"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null
+        }
+      ]
+    }
+  ],
+  "section_b": [
+    {
+      "q_main": 1,
+      "is_compulsory": true,
+      "total_marks": 15,
+      "chapter_number": "6",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "## Question 25 (PYP 5 Marks Sep'24)\n\nFinancial information for the year 20X1-X2 of two companies, N Limited and C Limited are as under:\n\n\n| Details |  |  | N Limited | C Limited |\n| :--- | :--- | :--- | :--- | :--- |\n| Equity share capital (Rs. 100 each) |  |  | Rs. 10,00,000 | Rs. 8,00,000 |\n| Debt | Gau |  | esh \\| 823731794F 5,00,000@10\\% | Rs.7,00,000@8\\% |\n| Fixed Cost |  |  | 3,00,000 | 3,36,000 |\n| Combined Leverage |  |  | 8 | 4.5 |\n| Financial Leverage |  |  | 2 | 1.5 |\n\nYou are required to calculate:\n\n(i) Contribution for N Ltd. and C Ltd.\n\n(ii) Margin of safety in \\% for N Ltd. and C. Ltd.\n\n(iii) Sales of C Ltd.",
+          "answer": "(i) Calculation of Contribution\n\n\n| N Limited | C Limited |\n| :--- | :--- |\n| Financial Leverage (FL) $=\\frac{\\mathrm{EBIT}}{\\mathrm{EBT}} \\mathrm{OR} \\frac{\\mathrm{EBIT}}{\\mathrm{EBIT}-\\mathrm{INTREST}}$ |  |\n| $2=\\frac{\\text { EBIT }}{\\text { EBIT }-50,000}$ | $1.5=\\frac{\\text { EBIT }}{\\text { EBIT }-56,000}$ |\n| 2 EBIT - 1,00,000 = EBIT | 1.5 EBIT - 84,000 = EBIT |\n| EBIT = Rs. 1,00,000 | EBIT = Rs. 1,68,000 |\n| EBT = Rs.50,000 | EBT = Rs. 1,12,000 |\n| Combined Leverage (CL) $=\\frac{\\text { CONTRIBUTION }}{\\text { EBT }}$ |  |\n| 8 = Contribution / 50,000 | 4.5 = Contribution / 1,12,000 |\n| Contribution= Rs. 4,00,000 | Contribution= Rs. 5,04,000 |\n\n(ii) Calculation of Margin of safety (MOS) in \\%\n\nMos $=\\frac{\\text { Contribution }- \\text { Fixed Cost }}{\\text { Contribution }}=\\frac{\\text { EBIT }}{\\text { Contribution }}$\n\n\n| N Limited | C Limited |\n| :--- | :--- |\n| $\\mathrm{MOS}=1,00,000 / 4,00,000$ <br> $=\\mathbf{2 5 \\%}$ | $\\mathrm{MOS}=1,68,000 / 5,04,000$ <br> $=\\mathbf{3 3 . 3 3 \\%}$ |\n\nPart (ii) can also be presented in following way:\n\nCalculation of Margin of safety (MOS) in \\%\n\nMOS = 1/operating leverage (OL)\n\nOL $=$ CL $/ \\mathrm{FL}$\n\n\n| N Limited | C Limited |\n| :--- | :--- |\n| $\\mathrm{OL}=8 / 2=4$ | $\\mathrm{OL}=4.5 / 1.5=3$ |\n| $\\mathrm{MOS}=1 / 4=\\mathbf{2 5 \\%}$ | $\\mathrm{MOS}=1 / 3=\\mathbf{3 3 . 3 3 \\%}$ |\n\n(iii) Sales of C Limited\n\nLet assume that PV ratio is $40 \\%$\n\nPV Ration $=\\frac{\\text { Contribution }}{\\text { Sales or Sales }}=\\frac{\\text { Contribution }}{\\text { PV ratio }}$\n\nSales $=\\frac{5,04,000}{0.40}=Rs. \\mathbf{1 2 , 6 0 , 0 0 0}$\n\nPart (iii) of the solution can be solved by any alternative assumption.\n\nExam insights: Students performed well in the question on Contribution, Margin of Safety, and Sales for N Ltd. and C Ltd. Keep revising the key formulas and relationships between sales, variable cost, and profit to stay accurate.",
+          "chapter_number": "6",
+          "chapter_name": "FINANCING DECISIONS LEVERAGES",
+          "unique_id": "6-T-25"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Based on the following particulars, PREPARE a balance sheet showing various assets and liabilities of T Ltd.\n\n| Fixed assets turnover ratio | 8 times |\n| :--- | ---: |\n| Capital turnover ratio | 2 times |\n| Inventory Turnover | 8 times |\n| :--- | :--- |\n| Receivable turnover | 4 times |\n| Payable turnover | 6 times |\n| GP Ratio | 25% |\n\nGross profit during the year amounts to $Rs. 8,00,000$. There is no long-term loan or overdraft. Reserve and surplus amount to Rs.2,00,000. Ending inventory of the year is Rs. 20,000 above the beginning inventory.",
+          "answer": "| a. | $\\begin{aligned} & \\text { G.P. ratio }=\\frac{\\text { Gross Profit }}{\\text { Sales }}=25 \\% \\\\ & \\text { Sales }=\\frac{\\text { Gross Profit }}{25} \\times 100 \\\\ & \\frac{8,00,000}{25} \\times 100=32,00,000 \\end{aligned}$ | b. | $\\begin{aligned} \\text { Cost of Sales } & =\\text { Sales - Gross profit } \\\\ & =Rs. 32,00,000-Rs. 8,00,000 \\\\ & =Rs. 24,00,000 \\end{aligned}$ |\n| :--- | :--- | :--- | :--- |\n| c. | $\\begin{aligned} & \\text { Receivable turnover } \\mathrm{r}=\\frac{\\text { Sales }}{\\text { Receivables }}=4 \\\\ & \\quad=\\text { Receivables }=\\frac{\\text { Sales }}{4} \\\\ & \\quad=\\frac{Rs. 32,00,000}{4}=Rs. 8,00,000 \\end{aligned}$ | d. | $\\begin{aligned} & \\text { Fixed assets turnover }=\\frac{\\text { Cost of Sales }}{\\text { Fixed Assets }}=8 \\\\ & \\text { Fixed assets }=\\frac{\\text { Cost of Sales }}{8}=\\frac{Rs. 24,00,000}{8} \\\\ & =Rs. 3,00,000 \\end{aligned}$ |\n\n\n e. Inventory turnover $=\\frac{\\text { Cost of Sales }}{\\text { Average Stock }}=8$\n\nAverage Stock $=\\frac{\\text { Cost of Sales }}{8}=\\frac{Rs. 24,00,000}{8}=Rs. 3,00,000$\nAverage Stock $=\\frac{\\text { Opening Stock }+ \\text { Closing Stock }}{2}$\nAverage Stock $=\\frac{\\text { Opening Stock }+ \\text { Closing Stock }+20,000}{2}$\nAverage Stock $=\\text { Opening Stock } + Rs. 10,000$\nOpening Stock = Average Stock - Rs.10,000\n$=Rs. 3,00,000-Rs. 10,000=Rs. 2,90,000$\n\n$$\n\\begin{aligned}\n\\text { Closing Stock } & =\\text { Opening Stock }+Rs. 20,000 \\\\\n& =Rs. 2,90,000+Rs. 20,000=Rs. 3,10,000\n\\end{aligned}\n$$\n\nf. Payable turnover $=\\frac{\\text { Purchase }}{\\text { Payable }}=6$\n\nPurchases $=\\text { Cost of Sales } + \\text { Increase in Stock }=Rs. 24,00,000+Rs. 20,000=Rs. 24,20,000$\nPayables $=\\frac{\\text { Purchase }}{6}=\\frac{24,20,000}{6}=4,03,333$\ng. Capital turnover $=\\frac{\\text { Cost of Sales }}{\\text { Capital Emploayed }}=2$\n\n$$\n\\text { Capital Employed }=\\frac{\\text { Cost of Sales }}{2}=2=\\frac{24,00,000}{2}=12,00,000\n$$\n\nh. Capital = Capital Employed - Reserves & Surplus\n\n$$\n\\begin{aligned}\n& =\\operatorname{Rs} 12,00,000-\\operatorname{Rs} 2,00,000 \\\\\n& =\\operatorname{Rs} 10,00,000\n\\end{aligned}\n$$\n\nBalance Sheet of T Ltd as on......\n\n| Liabilities | Amount (Rs.) | Assets | Amount (Rs.) |\n| :--- | :--- | :--- | :--- |\n| Capital | 10,00,000 | Fixed Assets | 3,00,000 |\n| Reserve & Surplus | 2,00,000 | Inventories | 3,10,000 |\n| Payables | 4,03,333 | Receivables | 8,00,000 |\n|  |  | Other Current Assets | 1,93,333 |\n|  | 16,03,333 |  | 16,03,333 |",
+          "chapter_number": "3",
+          "chapter_name": "FINANCIAL ANALYSIS AND PLANNING - RATIO ANALYSIS",
+          "unique_id": "3-T-20"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "MNP Limited is thinking of replacing its existing machine by a new machine which would cost ₹60 lakhs. The company’s current production is 80,000 units, and is expected to increase to 1,00,000 units, if the new machine is bought. The selling price of the product would remain unchanged at ₹200 per unit. The following is the cost of producing one unit of product using both the existing and new machine:\n\n| Particulars                  | Existing Machine (80,000 units) | New Machine (1,00,000 units) | Difference |\n|------------------------------|---------------------------------|------------------------------|------------|\n| Materials                    | 75.00                           | 63.75                        | (11.25)    |\n| Wages and Salaries           | 51.25                           | 37.50                        | (13.75)    |\n| Supervision                  | 20.00                           | 25.00                        | 5.00       |\n| Repairs and Maintenance      | 11.25                           | 7.50                         | (3.75)     |\n| Power and Fuel               | 15.50                           | 14.25                        | (1.25)     |\n| Depreciation                 | 0.25                            | 5.00                         | 4.75       |\n| Allocated Corporate OH       | 10.00                           | 12.50                        | 2.50       |\n| Total                        | 183.25                          | 165.50                       | (17.75)    |\n\nThe existing machine has an accounting book value of ₹1,00,000, and it has been fully depreciated for tax purpose. It is estimated that machine will be useful for 5 years. The supplier of the new machine has offered to accept the old machine for ₹2,50,000. However, the market price of old machine today is ₹1,50,000 and it is expected to be ₹35,000 after 5 years. The new machine has a life of 5 years and a salvage value of ₹2,50,000 at the end of its economic life.\n\nAssume corporate Income tax rate at 40%, and depreciation is charged on straight line basis for Income-tax purposes. Further assume that book profit is treated as ordinary income for tax purpose. The opportunity cost of capital of the Company is 15%.\n\nRequired:\n\n(i) Estimate net present value of the replacement decision.\n(ii) Should Company go ahead with the replacement decision? Suggest.\n\n| Year (t)  | 1      | 2      | 3      | 4      | 5      |\n|-----------|--------|--------|--------|--------|--------|\n| PVIF_{0.15,t} | 0.8696 | 0.7561 | 0.6575 | 0.5718 | 0.4972 |\n| PVIF_{0.20,t} | 0.8333 | 0.6944 | 0.5787 | 0.4823 | 0.4019 |\n| PVIF_{0.25,t} | 0.8000 | 0.6400 | 0.5120 | 0.4096 | 0.3277 |\n| PVIF_{0.30,t} | 0.7692 | 0.5917 | 0.4552 | 0.3501 | 0.2693 |\n| PVIF_{0.35,t} | 0.7407 | 0.5487 | 0.4064 | 0.3011 | 0.2230 |",
+          "answer": "1.  Calculation of initial outflow:\n    Cost of new machine                                      ₹60,00,000\n    Less: Exchange value of old machine                      (₹2,50,000)\n    Add: Tax payment on profit on exchange of old machine    ₹1,00,000\n    (2,50,000 – Nil) × 40%\n\n    Initial outflow                                          ₹58,50,000\n\n2.  Calculation of incremental CFAT:\n    Increase in sales (200 × 20,000 units)                   ₹40,00,000\n    Less: Increase in operating cost (1,00,000 × 148) – (80,000 × 173)  ₹9,60,000\n    (excluding Depreciation and Allocated overheads)\n    Less: Increase in depreciation [(60,00,00 – 2,50,000) ÷ 5] – Nil    ₹11,50,000\n\n    Profit before tax                                        ₹18,90,000\n    Less: Tax @ 40%                                          ₹7,56,000\n\n    Profit after tax                                         ₹11,34,000\n    Add: Depreciation                                        ₹11,50,000\n\n    Incremental CFAT                                         ₹22,84,000\n\n3.  Calculation of Incremental Salvage:\n    Salvage of new machine (Salvage = WDV; no gain or loss)  ₹2,50,000\n    Less: Salvage of old machine (Salvage > WDV)             ₹35,000\n    Tax on gain 40% of 35,000 (35,000 - Nil)                 ₹14,000     ₹21,000\n\n    Incremental Salvage                                      ₹2,29,000\n\nNotes:\n(a) The old machine could be sold for ₹1,50,000 in the market. Since exchange value is more than the market value, company will exchange it at ₹2,50,000.\n\n(b) Old machine has fully depreciated for tax purpose, therefore depreciation of old machine as well as WDV are NIL.\n\n(c) Allocated overheads are allocations from corporate office therefore they are irrelevant for computation of CFAT.\n\n(ii) Advise: The company should go ahead with replacement project, since it has positive NPV.\n\n(i) Statement of NPV\n\n| Year | Particulars                          | ₹          | DF @ 15% | PV         |\n|------|--------------------------------------|------------|----------|------------|\n| 0    | Initial outflows                     | (58,50,000)| 1.0000   | (58,50,000)|\n| 1 - 5| Cash Flow After Tax                  | 22,84,000  | 3.3522   | 76,56,425  |\n| 5    | Net Salvage 2,50,000 – 35,000 (1 – 0.40) | 2,29,000   | 0.4972   | 1,13,859   |\n\nNPV 19,20,284",
+          "chapter_number": "7",
+          "chapter_name": "FINANCING DECISIONS LEVERAGES",
+          "unique_id": "FM-REPLACED-9"
+        }
+      ],
+      "section": 1
+    },
+    {
+      "q_main": 2,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "7",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "Question 29 (PYP 5 Marks May'25)\n\nFollowing data are given for a capital project:\n\n\n| Annual interim cash inflows for first two years | Rs. 1,00,000 |\n| :--- | :--- |\n| Annual interim cash inflows for next two years | Rs.80,000 |\n| Useful life | 4 Years |\n| Salvage value at end of the project | Rs. 50,000 |\n| Internal rate of return | 12\\% |\n| Cost of capital | 10\\% |\n\nYou are required to calculate the following:\n\n(i) Initial investment\n\n(ii) Net present value\n\n(iii) Profitability Index\n\n(iv) Discounted payback period\n\n(v) MIRR\n\n\n| Year | 1 | 2 | 3 | 4 |\n| :--- | :--- | :--- | :--- | :--- |\n| $\\mathrm{PVIF}_{0.09, \\mathrm{t}}$ | 0.917 | 0.842 | 0.772 | 0.708 |\n| PVIF $_{0,10, \\mathrm{t}}$ | 0.909 | 0.826 | 0.751 | 0.683 |\n| $\\mathrm{PVIF}_{0.11, \\mathrm{t}}$ | 0.901 | 0.812 | 0.731 | 0.659 |\n| $\\mathrm{PVIF}_{0.12, \\mathrm{t}}$ | 0.893 | 0.797 | 0.712 | 0.636 |\n\n\n| PVIF $_{0.10, t}$ | 1.100 | 1.210 | 1.331 | 1.464 |\n| :--- | ---: | ---: | ---: | ---: |\n| PVIF $_{0.12, t}$ | 1.120 | 1.254 | 1.405 | 1.574 |",
+          "answer": "## Answer 29\n\n## (i) Initial Investment\n\nUsing IRR = 12\\%, the NPV is zero. So, the initial investment is equal to the present value of inflows at $12 \\%$.\n\n\n| Year | Cash Inflows (Rs.) | PVF@12\\% | Present Value (Rs.) |\n| :--- | :--- | :--- | :--- |\n| 1 | 1,00,000 | 0.893 | 89,300 |\n| 2 | 1,00,000 | 0.797 | 79,700 |\n| 3 | 80,000 | 0.712 | 56,960 |\n| 4 | 80,000 | 0.636 | 50,880 |\n| 4 | 50,000 (salvage) | 0.636 | 31,800 |\n|  |  | Total | 3,08,640 |\n\n\nTotal Present Value $=$ Rs. $3,08,640$. So, Initial Investment $=$ Rs. 3,08,640.\n\n\n(ii) Net Present Value (NPV)\n\n| Year | Cash Flows (Rs.) | PVF@10\\% | Present Value (Rs.) |\n| :--- | :--- | :--- | :--- |\n| 0 | (3,08,640) | 1 | (3,08,640) |\n| 1 | 1,00,000 | 0.909 | 90,900 |\n| 2 | 1,00,000 | 0.826 | 82,600 |\n| 3 | 80,000 | 0.751 | 60,080 |\n| 4 | 80,000 | 0.683 | 54,640 |\n| 4 | 50,000 (salvage) | 0.683 | 34,150 |\n|  | Sum of PV of Cash Inflows |  | 3,22,370 |\n| NPV | (3,22,370-3,08,640) |  | 13,730 |\n\n\n(iii) Profitability Index (PI)\n\n$$\n\\mathrm{PI}=\\frac{\\text { Sum of PV of Cash Inflows }}{\\text { Initial Cash Outflow }}=\\frac{Rs. 3,22,370}{Rs. 3,08,640}=1.0445\n$$\n\n\n## (iv) Discounted Payback Period:\n\n| Year | Cash Flows (Rs.) | GaPVF@10\\%794 | PV (Rs.) | Cumulative PV (Rs.) |\n| :--- | :--- | :--- | :--- | :--- |\n| 1 | 1,00,000 | 0.909 | 90,900 | 90,900 |\n| 2 | 1,00,000 | 0.826 | 82,600 | 1,73,500 |\n| 3 | 80,000 | 0.751 | 60,080 | 2,33,580 |\n| 4 | 1,30,000 (including salvage) | 0.683 | 88,790 | 3,22,370 |\n\n\nSo, discounted payback $=3$ Years $+\\frac{Rs. 3,08,640-Rs. 2,33,580}{Rs. 88,790}=3.845$\nyears OR 3.85 years OR 3 years 10 months 4 days approx.\n\n\n## (v) Modified Internal Rate of Return (MIRR)\n\nTerminal value of cash inflows compounded to year 4 using 10\\%:\n\n| Year | Cash Inflows (Rs.) | @ 10\\% reinvestment rate factor | Present Value (Rs.) |\n| :--- | :--- | :--- | :--- |\n| 1 | 1,00,000 | 1.331 | 1.33.100 |\n| 2 | 1,00,000 | 1.210 | 1,21,000 |\n| 3 | 80,000 | 1.100 | 88,000 |\n| 4 | 80,000 | 1.000 | 80,000 |\n| 4 | 50,000 (salvage) | 1.000 | 50,000 |\n|  |  | Total | 4,72,100 |\n\n\nTotal Terminal Value $=Rs. 4,72,100$\n\nNow, $3,08,640 / 4,72,100=0.6537$ or 0.654\n\nIf we see 0.654 in year of present value discount table, the rate which is coming is around $11.20 \\%$. So, MIRR is around $11.20 \\%$.\n\n\n## Alternatively, solution can be presented in following way for MIRR:\n\nTotal Return $=4,72,100 / 3,08,640=1.5296$\n\n$(1+\\mathrm{r}) 4 \\quad=1.5296$\n\nMIRR $=(1.5296)(1 / 4)-1=11.20 \\%$ (Approx)",
+          "chapter_number": "7",
+          "chapter_name": "FINANCING DECISIONS LEVERAGES",
+          "unique_id": "7-T-29"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "Question 25 (MTP 5 Marks Aug'25)\n\nABC Ltd. is a listed company operating in the FMCG sector. The company is currently facing a dilemma regarding its dividend policy. The financial controller has been asked to prepare a report for the Board of Directors evaluating whether the company should retain more profits or distribute higher dividends.\n\nThe following financial data is available for the year ended 31st March 20XX:\n\n| Earnings per share (EPS) | Rs.10 |\n| :--- | :--- |\n| Dividend per share (proposed) | Rs. 6 |\n| Number of equity shares | 10,00,000 |\n| Return on investment (r) | 15\\% |\n| Cost of equity capital (Ke) | 12\\% |\n| Current market price per share | Rs. 100 |\n| Retention ratio | 40\\% |\n| Tax rate | 30\\% |\n\nCorporate bond yield: 8\\% (for comparison with cost of equity)\n\nFurther, the company has an investment proposal requiring $Rs. 30,00,000$ with an expected return of $14 \\%$. If the dividend is increased to $Rs. 7 /$ share, the share price is expected to rise to $Rs. 104$ and if the dividend is reduced to $Rs. 4 /$ share, the share price may fall to $Rs. 95$. The CFO believes that MM hypothesis should be followed, but the Board is inclined towards Walter's model of valuation.\n\nYou are required to:\n\n(i) CALCULATE the value of the share using Walter's Model, and comment whether the current dividend policy is optimal.\n\n(ii) Apply Gordon's Model to ESTIMATE the market value of the share.\n\n(iii) HOW by way of MM's Dividend Irrelevance Theory, whether a change in dividend payout (from Rs. 6 to Rs. 7 or Rs.4) has any impact on the firm's valuation, assuming no taxes and perfect capital markets.",
+          "answer": "(i) Calculation of value of the share using Walter's Model\n\n$$\nP=\\frac{\\left[D+\\frac{r}{k e}(E-D)\\right]}{k e}=\\frac{\\left[6+\\frac{0.15}{0.12}(10-6)\\right]}{0.12}=\\frac{[6+1.25 \\times 4]}{0.12}=\\frac{[6+5]}{0.12}=Rs. 91.67\n$$\n\nSince the market price is Rs.100, and Walter's model gives Rs.91.67, the current dividend policy is not optimal.\n\n(ii) Calculation of value of the share using Gordon's Model\n\n$$\n\\begin{aligned}\n& \\mathrm{P}=\\frac{[E(1-b)]}{(K e-b r)} \\\\\n& \\mathrm{g}=\\mathrm{br}=0.4 \\times 0.15=0.06 \\\\\n& \\text { So, } \\mathrm{P}=\\frac{[10 \\times 0.6]}{(0.12-0.06)}=Rs. 100\n\\end{aligned}\n$$\n\nThis supports the current market price. Since the model gives the same value as the market, the current retention and dividend policy appears acceptable.\n\n(iii) MM's Dividend Irrelevance Theory\n\n$$\n\\mathrm{PO}=\\frac{[D 1+P 1]}{(1+K e)}\n$$\n\nSituation 1:\n\n$\\mathrm{D}=Rs. 6, \\mathrm{P} 1=Rs. 100, \\mathrm{Ke}=12 \\%$\n\nSo, $\\mathrm{PO}=\\frac{[6+100]}{(1.12)}=Rs. 94.64$\n\n## Situation 2:\n\nD = Rs.7, P1 = Rs.104, $\\mathrm{Ke}=12 \\%$\n\n$$\nP 0=\\frac{[7+104]}{(1.12)}=Rs. 99.11\n$$\n\n## Situation 3:\n\n$$\n\\begin{aligned}\n& \\mathrm{D}=Rs. 4, \\mathrm{P} 1=Rs. 95, \\mathrm{Ke}=12 \\% \\\\\n& \\mathrm{PO}=\\frac{[4+95]}{(1.12)}=Rs. 88.39\n\\end{aligned}\n$$\n\nSo, a change in dividend payout has indeed impacted the firm's valuation.",
+          "chapter_number": "8",
+          "chapter_name": "DIVIDEND DECISION",
+          "unique_id": "8-T-25"
+        }
+      ],
+      "section": 1
+    },
+    {
+      "q_main": 3,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "5",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "The following data relate to two companies belonging to the same risk class:\n\n| Particulars                      | A Ltd.     | B Ltd.     |\n|----------------------------------|------------|------------|\n| Expected Net Operating Income    | ₹ 18,00,000| ₹ 18,00,000|\n| 12% Debt                         | ₹ 54,00,000| -          |\n| Equity Capitalization Rate       | ?          | 18         |\n\nRequired:\n\n(a) DETERMINE the total market value, equity capitalization rate and weighted average cost of capital for each company assuming no taxes as per M.M. Approach.\n\n(b) DETERMINE the total market value, equity capitalization rate and weighted average cost of capital for each company assuming 40% taxes as per M.M. Approach.",
+          "answer": "| Earnings Before Tax (EBT)                  | 11,52,000  |\n|--------------------------------------------|------------|\n| Less: Tax @ 40%                            | 4,60,800   |\n| Earnings for equity shareholders (NI)      | 6,91,200   |\n| Total Value of Firm (V) as calculated above| 81,60,000  |\n| Less: Market Value of Debt                 | 54,00,000  |\n| Market Value of Equity (S)                 | 27,60,000  |\n| Equity Capitalization Rate [$k_e = NI/S$]  | 0.2504     |\n| Weighted Average Cost of Capital ($k_a$)*  | 13.23      |\n\n*Computation of WACC A Ltd.\n\n| Component of Capital | Amount    | Weight | Cost of Capital | WACC   |\n|----------------------|-----------|--------|-----------------|--------|\n| Equity               | 27,60,000 | 0.338  | 0.2504          | 0.0846 |\n| Debt                 | 54,00,000 | 0.662  | 0.072*          | 0.0477 |\n| Total                | 81,60,000 |        |                 | 0.1323 |\n\n*$K_d= 12\\% (1- 0.4) = 12\\% \\times 0.6 = 7.2\\%$\n\nWACC = 13.23%\n\n|   | Market Value of Equity (S)                  | 46,00,000  | 1,00,00,000 |\n|---|---------------------------------------------|------------|-------------|\n| H | Equity Capitalization Rate                  | 0.2504     | 0.18        |\n|   | ($k_e = NI / S$)                            |            |             |\n| I | Weighted Average Cost of Capital            | 0.18       | 0.18        |\n|   | [WACC] ($k_o$)                              |            |             |\n\nAssuming 40% taxes as per MM Approach\n\nCalculation of Value of Firms ‘A Ltd.’ and ‘B Ltd’ according to MM Hypothesis Approach\n\nMarket Value of ‘B Ltd’ [Unlevered($U$)]\n\nTotal Value of unlevered Firm ($V_u$) = [NOI (1 - t)/$k_e$]\n\n= 18,00,000(1 - 0.40)] / 0.18\n\n= ₹ 60,00,000\n\n$k_e$ of unlevered Firm (given) = 0.18\n\n$k_o$ of unlevered Firm (Same as above = $k_e$ as there is no debt)\n\n= 0.18\n\nMarket Value of ‘A Ltd’ [Levered Firm ($l$)]\n\nTotal Value of Levered Firm ($V_l$) = $V_u$ + (Debt× Tax)\n\n= ₹ 60,00,000 + (54,00,000 × 0.40)\n\n= ₹ 81,60,000\n\nComputation of Weighted Average Cost of Capital (WACC) of ‘B Ltd.’\n\n= 18% (i.e. $k_e = k_o$)\n\nComputation of Equity Capitalization Rate and\n\nWeighted Average Cost of Capital (WACC) of A Ltd\n\n| Particulars                      | A Ltd.     |\n|----------------------------------|------------|\n| Net Operating Income (NOI)       | 18,00,000  |\n| Less: Interest on Debt (I)       | 6,48,000   |\n\n(a) Assuming no tax as per MM Approach.\n\nCalculation of Value of Firms ‘A Ltd.’ and ‘B Ltd’ according to \nMM Hypothesis\n\nMarket Value of ‘B Ltd’ [Unlevered(u)]\n\nTotal Value of Unlevered Firm (V_u) = \\frac{\\text{NOI/k}_o}\n= \\frac{18,00,000}{0.18}\n= ₹ 1,00,00,000\n\nk_e of Unlevered Firm (given) = 0.18\n\nk_o of Unlevered Firm (Same as above) = k_e (as there is no debt)\n= 0.18\n\nMarket Value of ‘A Ltd’ [Levered Firm (l)]\n\nTotal Value of Levered Firm (V_l) = V_u + (\\text{Debt} \\times \\text{Nil})\n= ₹ 1,00,00,000 + (54,00,000 \\times \\text{nil})\n= ₹ 1,00,00,000\n\nComputation of Equity Capitalization Rate and \nWeighted Average Cost of Capital (WACC)\n\n| Particulars                           | A Ltd.     | B Ltd.     |\n|---------------------------------------|------------|------------|\n| A Net Operating Income (NOI)          | 18,00,000  | 18,00,000  |\n| B Less: Interest on Debt (I)          | 6,48,000   | -          |\n| C Earnings of Equity Shareholders (NI)| 11,52,000  | 18,00,000  |\n| D Overall Capitalization Rate (k_o)   | 0.18       | 0.18       |\n| E Total Value of Firm (V = \\text{NOI/k}_o) | 1,00,00,000| 1,00,00,000|\n| F Less: Market Value of Debt          | 54,00,000  | -          |",
+          "chapter_number": "5",
+          "chapter_name": "FINANCING DECISIONS - CAPITAL STRUCTURE",
+          "unique_id": "FM-REPLACED-7"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "## Question 14 (MTP 5 Marks, Nov'21, Mar'22 & Sep'23) (Same concept different figures SM)\n\nVivtsu Company’s equity share is quoted in the market at Rs. 25 per share currently. The company pays a dividend of Rs. 5 per share and the investor's market expects a growth rate of 5% per year.\n\nYou are required to:\n\n(i) CALCULATE the company's cost of equity capital.\n\n(ii) If the company issues 12% debentures of face value of Rs.100 each and realizes Rs.95 per debenture while the debentures are redeemable after 10 years at a premium of 12%, CALCULATE cost of debenture using YTM?\n\nAssume tax rate to be 30%. ",
+          "answer": "(i) Cost of Equity Capital (Ke)\n\n$$\nK_{e}=rac{\\text { Expecteddividendper share }(D 1)}{\\text { Marketpriceper share }(P 0)}=\\text { Growth rate }(g)=\\frac{R s .5 \\times 1.05}{R s .25}+0.05=26 \\% \n$$\n\n(ii) Cost of Debenture (Kd): Using Present Value method (or YTM)\n\nIdentification of relevant cash flows\n\n| Year | Gauresh \\| 823 Cash flows |\n| :--- | :--- |\n| 0 | Current market price (P0) $=Rs. 95$ |\n| 1 to 10 | Interest net of tax $[I(1-t)]=12 \\%$ of Rs.100 $(1-0.30)=Rs. 8.40$ |\n| 10 | Redemption value (RV) = Rs.100 (1.12) = Rs.112 |\n\n\n\nCalculation of Net Present Values (NPV) at two discount rates\n\n| Year | Cash flows | Discount factor @ 9\\% (L) | Present Value | Discount factor @ 10\\% (H) | Present Value |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| 0 | (95) | 1.0000 | (95.00) | 1.0000 | (95.00) |\n| 1 to 10 | 8.40 | 6.4176 | 53.91 | 6.1445 | 51.61 |\n| 10 | 112 | 0.4224 | 47.31 | 0.3855 | 43.18 |\n| NPV |  |  | +6.22 |  | -0.21 |\n\n\n\n## Calculation of IRR=\n\n$\\left\\lvert\\, R R=\\mathrm{L}+rac{N P V_{L}}{N P V_{L} N P V_{H}}(\\mathrm{H}-\\mathrm{L})=9 \\%+\\frac{6.22}{6.22-(-0.21)}(10 \\%-9 \\%)=9 \\%+\\frac{6.22}{6.43}=9.97=\\right.$ Therefore, $\\mathrm{Kd}=9.97 \\%$",
+          "chapter_number": "4",
+          "chapter_name": "COST OF CAPITAL",
+          "unique_id": "4-T-14"
+        }
+      ],
+      "section": 1
+    },
+    {
+      "q_main": 4,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "1",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 6,
+          "internal_split": null,
+          "question": "EXPLAIN the difference between Financial Lease and Operating Lease.",
+          "answer": "Difference between Financial Lease and Operating Lease\n\n| Financial Lease |  | Operating Lease |\n| :--- | :--- | :--- |\n| 1. | The risk and reward incident to ownership are passed on to the lessee. The lessor only remains the legal owner of the asset. | The lessee is only provided the use of the asset for a certain time. Risk incident to ownership belong wholly to the lessor. |\n| 2. | The lessee bears the risk of obsolescence. | The lessor bears the risk of obsolescence. |\n| 3. | The lessor is interested in his rentals and not in the asset. He must get his principal back along with interest. Therefore, the lease is non- cancellable by either party. | As the lessor does not have difficulty in leasing the same asset to other willing lessor, the lease is kept cancelable by the lessor. |\n| 4. | The lessor enters into the transaction only as financier. He does not bear the cost of repairs, maintenance or operations. | Usually, the lessor bears cost of repairs, maintenance or operations. |\n| 5. | The lease is usually full payout, that is, the single lease repays the cost of the asset together with the interest. | The lease is usually non-payout, since the lessor expects to lease the same asset over and over again to several users. |",
+          "chapter_number": "2",
+          "chapter_name": "TYPES OF FINANCING",
+          "unique_id": "2-T-36"
+        },
+        {
+          "label": "b",
+          "marks": 4,
+          "internal_split": null,
+          "question": "EXPLAIN the difference between Business risk and financial risk (MTP 4 Marks, Mar'19, Sep'23)",
+          "answer": "## Business Risk and Financial Risk\n\nBusiness risk refers to the risk associated with the firm's operations. It is an unavoidable risk because of the environment in which the firm has to operate and the business risk is represented by the variability of earnings before interest and tax (EBIT). The variability in turn is influenced by revenues and expenses. Revenues and expenses are affected by demand of firm's products, variations in prices and proportion of fixed cost in total cost.\n\nWhereas, Financial risk refers to the additional risk placed on firm's shareholders as a result of debt use in financing. Companies that issue more debt instruments would have higher financial risk than companies financed mostly by equity. Financial risk can be measured by ratios such as firm's financial leverage multiplier, total debt to assets ratio etc.",
+          "chapter_number": "6",
+          "chapter_name": "FINANCING DECISIONS LEVERAGES",
+          "unique_id": "6-T-1"
+        }
+      ],
+      "section": 1
+    },
+    {
+      "q_main": 5,
+      "is_compulsory": true,
+      "total_marks": 15,
+      "chapter_number": "12",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "## Question 14 (MTP 5 Marks March '22)\n\nThere has been fierce demand for both Gecko and FlyBee for the last 3 years. Gecko makes mass consumption pens while FlyBee is a notebook and diary brand - both being complementary goods of each other. But to grow further, FlyBee decided to take up competition with Gecko in pens segment and thereby launched, FlyPens. Identify and explain the growth strategy opted by FlyBee?",
+          "answer": "FlyBee is a notebook and diary brand. But to grow further, FlyBee decided to take up competition with Gecko in pens segment and thereby launched, FlyPens. FlyBee that is hitherto not into producing pens starts producing them and other similar products is following concentric diversification which is basically related diversification. In this form of diversification, the new business is linked to the existing businesses through existing systems such as processes, technology or marketing. The new product is a spin-off from the existing facilities and products/processes. There are benefits of synergy with the current operations. The most common reasons for pursuing a concentric diversification are that opportunities in existing line of business are available.",
+          "chapter_number": "14",
+          "chapter_name": "STRATEGIC CHOICES",
+          "unique_id": "14-T-14"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "EcoRide Ltd. manufactures electric scooters. The company possesses strong R&D capabilities, a well-recognised brand name and an extensive service network. However, its manufacturing costs are higher than those of competitors.\n\nDemand for electric vehicles is increasing rapidly due to government incentives and environmental awareness. At the same time, several international automobile companies are entering the market. Customers have multiple alternatives available and frequently compare prices and product features before making purchase decisions.\n\nAnalyse the strategic position of EcoRide Ltd. using SWOT Analysis. Further identify any two competitive forces operating in the industry as per Porter's Five Forces Model.",
+          "answer": "(A) SWOT Analysis\n\nStrengths\n\nStrong R&D capabilities.\n\nWell-recognised brand.\n\nExtensive service network.\n\nWeaknesses\n\nHigh manufacturing cost.\n\nOpportunities\n\nGrowing demand for EVs.\n\nGovernment incentives.\n\nRising environmental awareness.\n\nThreats\n\nEntry of international automobile companies.\n\nIntense market competition.\n\n(B) Porter's Five Forces\n\n1. Threat of New Entrants\n\nInternational automobile companies entering the market indicate increasing competitive pressure from new entrants.\n\n2. Bargaining Power of Buyers\n\nCustomers compare prices and product features before purchasing, indicating high bargaining power of buyers.\n\nConclusion\n\nEcoRide Ltd. enjoys strong internal capabilities and favourable market opportunities but must address cost disadvantages and increasing competitive pressures to sustain its competitive position.",
+          "chapter_number": "14",
+          "chapter_name": "STRATEGIC CHOICES",
+          "unique_id": "FM-REPLACED-sm__9"
+        },
+        {
+          "label": "c",
+          "marks": 5,
+          "internal_split": null,
+          "question": "UrbanRide Mobility Ltd. launched an ambitious strategy to become the market leader in electric scooter rentals. The management established key performance indicators (KPIs) such as customer acquisition rate, scooter utilization rate, and profitability. Quarterly reviews were conducted to compare actual performance with planned targets. Whenever significant deviations were identified, corrective measures such as route optimization and promotional campaigns were introduced.\n\nIdentify the strategic management function being performed by UrbanRide Mobility Ltd. and explain its significance.",
+          "answer": "The strategic management function being performed is Strategic Control.\n\nStrategic control is the process of monitoring strategy implementation, evaluating performance, and taking corrective actions to ensure achievement of strategic objectives.\n\nElements of Strategic Control evident in the case:\n\nEstablishment of performance standards through KPIs.\n\nMeasurement of actual performance.\n\nComparison of actual performance with predetermined targets.\n\nIdentification of deviations.\n\nCorrective actions such as route optimization and promotional campaigns.\n\nSignificance of Strategic Control:\n\nEnsures effective implementation of strategy.\n\nDetects deviations at an early stage.\n\nFacilitates corrective actions.\n\nImproves organizational performance.\n\nHelps achieve long-term strategic objectives.\n\nTherefore, UrbanRide Mobility Ltd. is exercising Strategic Control to ensure successful execution of its business strategy.",
+          "chapter_number": "12",
+          "chapter_name": "STRATEGIC ANALYSIS: EXTERNAL",
+          "unique_id": "FM-REPLACED-sm_3"
+        }
+      ],
+      "section": 2
+    },
+    {
+      "q_main": 6,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "12",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Explain the concept of Experience Curve and highlight its relevance in strategic management. (MTP 5 Marks Oct 20, Oct'18, Aug'25, SM, RTP May 18, May '24)",
+          "answer": "Experience curve is similar to learning curve which explains the efficiency gained by workers through repetitive productive work. Experience curve is based on the commonly observed phenomenon that unit costs decline as a firm accumulates experience in terms of a cumulative volume of production. It is represented diagrammatically as follows:\n\nThe implication is that larger firms in an industry would tend to have lower unit costs as compared to those of smaller organizations, thereby gaining a\n\n![](https://cdn.mathpix.com/cropped/f081ba23-fe7f-4db4-8dc3-c66499f88311-28.jpg?height=616&width=880&top_left_y=3968&top_left_x=2400) competitive cost advantage. Experience curve results from a variety of factors such as learning effects, economies of scale, product redesign and technological improvements in production. The concept of experience curve is relevant for a number of areas in strategic management. For instance,\n\nexperience curve is considered a barrier for new firms contemplating entry in an industry. It is also used to build market share and discourage competition.",
+          "chapter_number": "12",
+          "chapter_name": "STRATEGIC ANALYSIS: EXTERNAL",
+          "unique_id": "12-T-15"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "Distinguish between the following: Market Development and Product Development under Ansoff's Product Market Growth Matrix. (MTP 5 Marks March '21 & April '23, RTP Nov '22)",
+          "answer": "Following are the differences between the market development and product development:\n\n| Market Development | Product Development |\n| :--- | :--- |\n| - Meaning <br> It refers to a growth strategy where the business seeks to sell its existing products into new markets. It is a strategy for company growth by identifying and developing new markets for current company products. <br> - Strategy Application <br> It may be achieved through new geographical markets, new product dimensions or packaging, new distribution channels or different pricing policies to attract different customers or create new market segments. | - Meaning <br> It refers to a growth strategy where business aims to introduce new products into existing markets. It is a strategy for company growth by offering modified or new products to current markets. <br> - Strategy Application <br> It is for company's growth and requires the development of new competencies and the business to develop modified products which can appeal to existing markets.",
+          "chapter_number": "14",
+          "chapter_name": "STRATEGIC CHOICES",
+          "unique_id": "14-T-40"
+        }
+      ],
+      "section": 2
+    },
+    {
+      "q_main": 7,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "12",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "FreshBite Foods Ltd. manufactures healthy snacks and operates in a highly competitive market. Several competitors offer similar products at lower prices. Instead of competing on price, FreshBite has invested heavily in research and development, introduced unique organic ingredients, eco-friendly packaging, and personalized nutrition plans through its mobile application. Customers perceive its products as premium and are willing to pay higher prices.\n\nIdentify and explain the business-level strategy being followed by FreshBite Foods Ltd.",
+          "answer": "FreshBite Foods Ltd. is following a Differentiation Strategy.\n\nUnder a differentiation strategy, a company seeks to distinguish its products or services from those of competitors by offering unique features that are valued by customers.\n\nFeatures indicating differentiation strategy in the case:\n\nUse of unique organic ingredients.\n\nEco-friendly packaging.\n\nPersonalized nutrition plans through mobile application.\n\nPremium customer perception.\n\nAbility to charge higher prices.\n\nBenefits of Differentiation Strategy:\n\nCreates customer loyalty.\n\nReduces price sensitivity.\n\nBuilds a strong brand image.\n\nProvides competitive advantage over rivals.\n\nHence, FreshBite Foods Ltd. is pursuing a Differentiation Business-Level Strategy.",
+          "chapter_number": "12",
+          "chapter_name": "STRATEGIC ANALYSIS: EXTERNAL",
+          "unique_id": "FM-REPLACED-sm_1"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "TechNova Solutions Ltd. recently formulated a strategy to expand its operations across India. To implement the strategy, the company created new regional divisions, delegated authority to regional managers, established performance targets, introduced employee training programmes, and allocated additional financial resources to expansion projects.\n\nIn the context of strategic management, explain the strategic implementation measures undertaken by TechNova Solutions Ltd.",
+          "answer": "Strategic implementation refers to the process of translating strategic plans into action and achieving strategic objectives.\n\nThe strategic implementation measures undertaken by TechNova Solutions Ltd. are:\n\n| Measure | Explanation |\n| --- | --- |\n| Organisational Structure | Creation of regional divisions to support expansion. |\n| Delegation of Authority | Empowering regional managers for faster decision-making. |\n| Resource Allocation | Providing financial resources for expansion projects. |\n| Human Resource Development | Employee training programmes to develop required competencies. |\n| Performance Management | Setting targets to monitor strategic progress. |\n\nConclusion:\n\nTechNova Solutions Ltd. has effectively aligned its structure, resources, people, and control systems to facilitate successful implementation of its expansion strategy.",
+          "chapter_number": "14",
+          "chapter_name": "STRATEGIC CHOICES",
+          "unique_id": "FM-REPLACED-sm_2"
+        }
+      ],
+      "section": 2
+    },
+    {
+      "q_main": 8,
+      "is_compulsory": false,
+      "total_marks": 10,
+      "chapter_number": "12",
+      "sub_questions": [
+        {
+          "label": "a",
+          "marks": 5,
+          "internal_split": null,
+          "question": "## Distinguish between Micro Environment and Macro Environment. (MP[3] 5 Marks)",
+          "answer": "The business environment consists of both the macro environment and the micro environment. Following are the differences between the two:\n\n- The micro environment refers to the forces that are very close to the company and affect its ability to do routine functions. Macro environment refers to all forces that are part of the larger periphery and distantly affect organization and micro environment.\n\n- Micro environment includes the company itself, its suppliers, marketing intermediaries, customer markets and competitors. Whereas macro environment includes demography, economy, natural forces, technology, politics, legal and socio-cultural.\n\n- The elements of micro environment are specific to the said business and affects it's working on short term basis. The elements of macro environment are general environment and affect the working of all the firms in an industry.",
+          "chapter_number": "12",
+          "chapter_name": "STRATEGIC ANALYSIS: EXTERNAL",
+          "unique_id": "12-T-1"
+        },
+        {
+          "label": "b",
+          "marks": 5,
+          "internal_split": null,
+          "question": "What factors should organizations consider when choosing strategic performance measures, and why are these factors important? (MTP 5 Marks July'24,MP[4])",
+          "answer": "Organizations should consider the following factors when choosing strategic performance measures:\n\n1. Relevance: The measure should be relevant to the organization's goals and objectives, providing actionable and meaningful information. This ensures that the performance measures are directly aligned with what the organization aims to achieve, and that the information obtained can drive improvements and strategic decisions.\n\n2. Data Availability: The measure should be based on data that is readily available and can be collected and analyzed in a timely manner. This is important to ensure that the organization can efficiently gather and utilize data without significant delays or obstacles.\n\n3. Data Quality: The measure should be based on high-quality data that is accurate and reliable. Accurate and reliable data are crucial for making informed decisions and assessing the true performance of the organization.\n\n4. Data Timeliness: The measure should be based on data that is current and up-to-date. Timely data allows organizations to make informed decisions quickly, enabling them to respond promptly to changes and emerging challenges.\n\nThese factors are important because they provide a framework for organizations to assess the success of their strategies, identify areas for improvement, and make informed decisions about resource allocation and strategic adjustments. Effective strategic performance measures should be relevant, meaningful, easy to understand, and regularly reviewed and updated to ensure their continued alignment with the organization's goals and objectives.",
+          "chapter_number": "15",
+          "chapter_name": "STRATEGY IMPLEMENTATION AND",
+          "unique_id": "15-T-54"
+        }
+      ],
+      "section": 2
+    }
+  ]
+}

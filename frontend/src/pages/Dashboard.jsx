@@ -5,7 +5,7 @@ import {
     getExams, createExam, deleteExam,
     getPaperCatalog,
     runOldPipeline, runNewPipeline, runFeedbackPipeline,
-    getPipelineStatus, downloadPipelineResult,
+    getPipelineStatus, downloadPipelineResult, pipelineAction,
 } from '../services/api';
 import './Dashboard.css';
 
@@ -203,6 +203,15 @@ function OldPapersTab() {
 
     const [errorMsg, setErrorMsg] = useState(null);
 
+    const handleAction = async (action) => {
+        try {
+            await pipelineAction(taskId, action);
+            if (action === 'reset') reset();
+        } catch (err) {
+            setErrorMsg(err.response?.data?.detail || err.message);
+        }
+    };
+
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -291,14 +300,30 @@ function OldPapersTab() {
 
             {running && status && (
                 <div className="pipeline-progress">
-                    <ProgressBar stage={status.stage} />
-                    <p className="progress-msg">
-                        {STAGE_LABELS[status.stage] || status.message || 'Working…'}
-                    </p>
-                    {status.warning && (
-                        <div style={{ color: '#d97706', marginTop: '10px', fontWeight: '500', fontSize: '0.9rem', backgroundColor: '#fef3c7', padding: '8px', borderRadius: '4px' }}>
-                            ⚠️ {status.warning}
+                    {status.stage === 'paused' ? (
+                        <div className="pipeline-paused" style={{ textAlign: 'center', margin: '20px 0', padding: '15px', backgroundColor: '#fef3c7', borderRadius: '8px', border: '1px solid #f59e0b' }}>
+                            <div style={{ color: '#d97706', marginBottom: '15px', fontWeight: 'bold', fontSize: '1.1rem' }}>
+                                ⚠️ {status.message || 'Horizontal pages detected in the student PDF.'}
+                            </div>
+                            <button type="button" onClick={() => handleAction('continue')} className="run-btn" style={{ display: 'inline-block', width: 'auto', marginRight: '15px', padding: '10px 20px' }}>
+                                Continue Checking
+                            </button>
+                            <button type="button" onClick={() => handleAction('reset')} className="reset-btn" style={{ display: 'inline-block', width: 'auto', padding: '10px 20px' }}>
+                                Discard & Reset
+                            </button>
                         </div>
+                    ) : (
+                        <>
+                            <ProgressBar stage={status.stage} />
+                            <p className="progress-msg">
+                                {STAGE_LABELS[status.stage] || status.message || 'Working…'}
+                            </p>
+                            {status.warning && (
+                                <div style={{ color: '#d97706', marginTop: '10px', fontWeight: '500', fontSize: '0.9rem', backgroundColor: '#fef3c7', padding: '8px', borderRadius: '4px' }}>
+                                    ⚠️ {status.warning}
+                                </div>
+                            )}
+                        </>
                     )}
                 </div>
             )}
@@ -333,6 +358,15 @@ function NewPapersTab() {
     const [status,  setStatus]  = useState(null);
     const [running, setRunning] = useState(false);
     const [errorMsg, setErrorMsg] = useState(null);
+
+    const handleAction = async (action) => {
+        try {
+            await pipelineAction(taskId, action);
+            if (action === 'reset') reset();
+        } catch (err) {
+            setErrorMsg(err.response?.data?.detail || err.message);
+        }
+    };
     const pollRef = useRef(null);
 
     const clearPoll = () => { if (pollRef.current) clearInterval(pollRef.current); };
@@ -528,14 +562,30 @@ function NewPapersTab() {
 
             {running && status && (
                 <div className="pipeline-progress">
-                    <ProgressBar stage={status.stage} />
-                    <p className="progress-msg">
-                        {STAGE_LABELS[status.stage] || status.message || 'Working…'}
-                    </p>
-                    {status.warning && (
-                        <div style={{ color: '#d97706', marginTop: '10px', fontWeight: '500', fontSize: '0.9rem', backgroundColor: '#fef3c7', padding: '8px', borderRadius: '4px' }}>
-                            ⚠️ {status.warning}
+                    {status.stage === 'paused' ? (
+                        <div className="pipeline-paused" style={{ textAlign: 'center', margin: '20px 0', padding: '15px', backgroundColor: '#fef3c7', borderRadius: '8px', border: '1px solid #f59e0b' }}>
+                            <div style={{ color: '#d97706', marginBottom: '15px', fontWeight: 'bold', fontSize: '1.1rem' }}>
+                                ⚠️ {status.message || 'Horizontal pages detected in the student PDF.'}
+                            </div>
+                            <button type="button" onClick={() => handleAction('continue')} className="run-btn" style={{ display: 'inline-block', width: 'auto', marginRight: '15px', padding: '10px 20px' }}>
+                                Continue Checking
+                            </button>
+                            <button type="button" onClick={() => handleAction('reset')} className="reset-btn" style={{ display: 'inline-block', width: 'auto', padding: '10px 20px' }}>
+                                Discard & Reset
+                            </button>
                         </div>
+                    ) : (
+                        <>
+                            <ProgressBar stage={status.stage} />
+                            <p className="progress-msg">
+                                {STAGE_LABELS[status.stage] || status.message || 'Working…'}
+                            </p>
+                            {status.warning && (
+                                <div style={{ color: '#d97706', marginTop: '10px', fontWeight: '500', fontSize: '0.9rem', backgroundColor: '#fef3c7', padding: '8px', borderRadius: '4px' }}>
+                                    ⚠️ {status.warning}
+                                </div>
+                            )}
+                        </>
                     )}
                 </div>
             )}
