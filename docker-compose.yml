@@ -33,7 +33,7 @@ services:
     volumes:
       - checker_uploads:/app/uploads
       - checker_data:/app/data
-      - checker_pipeline_jobs:/app/pipeline_jobs
+      - "./CheckerAI - Backend/pipeline_jobs:/app/pipeline_jobs"
       - "./All_Paper_JSONs:/All_Paper_JSONs:ro"
       - "./CA_Feedback_Pipeline:/CA_Feedback_Pipeline:ro"
     ports:
@@ -111,7 +111,6 @@ volumes:
   postgres_data:
   checker_uploads:
   checker_data:
-  checker_pipeline_jobs:
   setter_uploads:
   setter_data:
   mentor_reports:
