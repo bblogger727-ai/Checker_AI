@@ -440,10 +440,13 @@ async def run_feedback_pipeline(
     marks_path.write_text(marks_json_str, encoding="utf-8")
 
     meta = {
+        "pipeline": "feedback",
         "student_name": student_name,
-        "type": "feedback"
+        "type": "feedback",
+        "task_id": task_id,
+        "created_at": time.time()
     }
-    _init_status(job_dir, meta)
+    (job_dir / "task_meta.json").write_text(json.dumps(meta, indent=2))
 
     # Prepare command
     script_path = _BACKEND_DIR / "run_pipeline_ca_feedback_api.py"
