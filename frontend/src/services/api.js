@@ -239,5 +239,15 @@ export const pipelineAction = async (taskId, action) => {
     return response.data;
 };
 
+export const getStats = async () => {
+    const response = await api.get('/api/stats');
+    return response.data;
+};
+
+export const resetStats = async (profile) => {
+    const response = await api.post('/api/stats/reset', { profile });
+    return response.data;
+};
+
 export default api;
 

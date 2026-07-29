@@ -36,6 +36,8 @@ from fastapi import APIRouter, UploadFile, File, Form, HTTPException, Request
 from fastapi.responses import FileResponse, JSONResponse
 from pydantic import BaseModel
 
+from app.api.stats import increment_stat
+
 # ── Directory layout ─────────────────────────────────────────────────────────
 _HERE           = Path(__file__).resolve().parent              # app/api/
 _APP_DIR        = _HERE.parent                                  # app/
@@ -132,7 +134,7 @@ def _save_upload(upload: UploadFile, dest: Path):
     dest.write_bytes(content)
 
 
-def _run_subprocess(task_id: str, cmd: list[str], output_dir: Path, profile_api_keys: dict = None):
+def _run_subprocess(task_id: str, cmd: list[str], output_dir: Path, profile_api_keys: dict = None, profile: str = "Profile 1", paper_type: str = "unknown"):
     """Run a pipeline subprocess and monitor it. Updates _tasks on completion."""
     _tasks[task_id]["status"] = "running"
     _tasks[task_id]["pid"]    = None
@@ -164,6 +166,10 @@ def _run_subprocess(task_id: str, cmd: list[str], output_dir: Path, profile_api_
         proc.wait()
         if proc.returncode == 0:
             _tasks[task_id]["status"] = "done"
+            try:
+                increment_stat(profile, paper_type)
+            except Exception as stat_err:
+                print(f"[STATS ERROR] {stat_err}")
         else:
             _tasks[task_id]["status"] = "failed"
             _tasks[task_id]["error"]  = f"Process exited with code {proc.returncode}"
@@ -294,7 +300,15 @@ async def run_old_pipeline(
             "OPENAI_API_KEY": os.getenv("OPENAI_API_KEY_PROFILE_2")
         }
 
-    t = threading.Thread(target=_run_subprocess, args=(task_id, cmd, output_dir, profile_api_keys), daemon=True)
+    paper_type = "unknown"
+    if qp_pdf.filename:
+        name_lower = qp_pdf.filename.lower()
+        if "mock" in name_lower:
+            paper_type = "full"
+        elif "portionwise" in name_lower:
+            paper_type = "portionwise"
+
+    t = threading.Thread(target=_run_subprocess, args=(task_id, cmd, output_dir, profile_api_keys, profile, paper_type), daemon=True)
     t.start()
     _tasks[task_id]["thread"] = t
 
@@ -385,7 +399,14 @@ async def run_new_pipeline(
             "OPENAI_API_KEY": os.getenv("OPENAI_API_KEY_PROFILE_2")
         }
 
-    t = threading.Thread(target=_run_subprocess, args=(task_id, cmd, output_dir, profile_api_keys), daemon=True)
+    paper_type = "unknown"
+    name_lower = ft_paper_path.lower()
+    if "mock" in name_lower:
+        paper_type = "full"
+    elif "portionwise" in name_lower:
+        paper_type = "portionwise"
+
+    t = threading.Thread(target=_run_subprocess, args=(task_id, cmd, output_dir, profile_api_keys, profile, paper_type), daemon=True)
     t.start()
     _tasks[task_id]["thread"] = t
 

@@ -6,6 +6,7 @@ import {
     getPaperCatalog,
     runOldPipeline, runNewPipeline, runFeedbackPipeline,
     getPipelineStatus, downloadPipelineResult, pipelineAction,
+    getStats, resetStats
 } from '../services/api';
 import './Dashboard.css';
 
@@ -173,6 +174,55 @@ function ResultCard({ status, taskId, studentName, onReset, navigate }) {
 }
 
 /* ══════════════════════════════════════════════════════════════════════════ */
+
+function ProfileStats({ profile }) {
+    const [stats, setStats] = useState({ total: 0, full: 0, portionwise: 0 });
+
+    const fetchStats = useCallback(async () => {
+        try {
+            const data = await getStats();
+            if (data[profile]) {
+                setStats(data[profile]);
+            } else {
+                setStats({ total: 0, full: 0, portionwise: 0 });
+            }
+        } catch (e) {
+            console.error("Failed to fetch stats", e);
+        }
+    }, [profile]);
+
+    useEffect(() => {
+        fetchStats();
+        // Set up a polling interval to update stats
+        const interval = setInterval(fetchStats, 5000);
+        return () => clearInterval(interval);
+    }, [fetchStats]);
+
+    const handleReset = async () => {
+        try {
+            const res = await resetStats(profile);
+            if (res.stats) setStats(res.stats);
+        } catch (e) {
+            console.error("Failed to reset stats", e);
+        }
+    };
+
+    return (
+        <div style={{ backgroundColor: '#1e1f22', padding: '10px 15px', borderRadius: '6px', marginBottom: '20px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+            <div style={{ fontSize: '14px', color: '#b5bac1' }}>
+                <strong style={{ color: '#fff' }}>{profile} Usage:</strong>&nbsp;
+                <span style={{ marginRight: '15px' }}>{stats.total} Total checked</span>
+                <span style={{ marginRight: '15px', color: '#5865f2' }}>{stats.full} Mock (Full)</span>
+                <span style={{ color: '#23a559' }}>{stats.portionwise} Portionwise</span>
+            </div>
+            <button type="button" className="reset-btn" onClick={handleReset} style={{ margin: 0, padding: '4px 10px', fontSize: '12px' }}>
+                Reset Count
+            </button>
+        </div>
+    );
+}
+
+/* ══════════════════════════════════════════════════════════════════════════ */
 /* OLD PAPERS TAB                                                             */
 /* ══════════════════════════════════════════════════════════════════════════ */
 
@@ -276,6 +326,9 @@ function OldPapersTab() {
                     <option value="Profile 1">Profile 1 (Default)</option>
                     <option value="Profile 2">Profile 2</option>
                 </select>
+                <div style={{ marginTop: '10px' }}>
+                    <ProfileStats profile={form.profile} />
+                </div>
             </div>
 
             <div className="form-field">
@@ -487,6 +540,9 @@ function NewPapersTab() {
                     <option value="Profile 1">Profile 1 (Default)</option>
                     <option value="Profile 2">Profile 2</option>
                 </select>
+                <div style={{ marginTop: '10px' }}>
+                    <ProfileStats profile={form.profile} />
+                </div>
             </div>
 
             <div className="form-field">
