@@ -153,12 +153,13 @@ export const getPaperCatalog = async () => {
  * Launch the Old-Papers (Claude) pipeline.
  * Returns { task_id, status }
  */
-export const runOldPipeline = async (studentName, qpPdf, saPdf, asPdf) => {
+export const runOldPipeline = async (studentName, qpPdf, saPdf, asPdf, profile = 'Profile 1') => {
     const fd = new FormData();
     fd.append('student_name', studentName);
     fd.append('qp_pdf', qpPdf);
     fd.append('sa_pdf', saPdf);
     fd.append('as_pdf', asPdf);
+    fd.append('profile', profile);
     const response = await api.post('/api/pipelines/run/old', fd, {
         headers: { 'Content-Type': 'multipart/form-data' },
         timeout: 30000,   // just for the initial kick-off
@@ -170,11 +171,12 @@ export const runOldPipeline = async (studentName, qpPdf, saPdf, asPdf) => {
  * Launch the New-Papers (FT) pipeline.
  * Returns { task_id, status }
  */
-export const runNewPipeline = async (studentName, ftPaperPath, asPdf) => {
+export const runNewPipeline = async (studentName, ftPaperPath, asPdf, profile = 'Profile 1') => {
     const fd = new FormData();
     fd.append('student_name', studentName);
     fd.append('ft_paper_path', ftPaperPath);
     fd.append('as_pdf', asPdf);
+    fd.append('profile', profile);
     const response = await api.post('/api/pipelines/run/new', fd, {
         headers: { 'Content-Type': 'multipart/form-data' },
         timeout: 30000,

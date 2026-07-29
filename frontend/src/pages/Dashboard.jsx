@@ -178,7 +178,7 @@ function ResultCard({ status, taskId, studentName, onReset, navigate }) {
 
 function OldPapersTab() {
     const navigate = useNavigate();
-    const [form, setForm]     = useState({ studentName: '', qpPdf: null, saPdf: null, asPdf: null });
+    const [form, setForm]     = useState({ studentName: '', qpPdf: null, saPdf: null, asPdf: null, profile: 'Profile 1' });
     const [taskId, setTaskId] = useState(null);
     const [status, setStatus] = useState(null);
     const [running, setRunning] = useState(false);
@@ -224,7 +224,7 @@ function OldPapersTab() {
         setRunning(true);
         setStatus({ stage: 'started', message: 'Submitting…', status: 'queued' });
         try {
-            const res = await runOldPipeline(form.studentName, qpPdf, saPdf, asPdf);
+            const res = await runOldPipeline(form.studentName, qpPdf, saPdf, asPdf, form.profile);
             setTaskId(res.task_id);
             startPolling(res.task_id);
         } catch (err) {
@@ -263,6 +263,20 @@ function OldPapersTab() {
                 paper, model answers from the solution, OCR the student sheet, align answers,
                 grade, and produce an annotated checked copy.
             </p>
+
+            <div className="form-field">
+                <label className="field-lbl" htmlFor="old-profile">Profile API Key</label>
+                <select
+                    id="old-profile"
+                    className="text-input"
+                    value={form.profile}
+                    onChange={(e) => setForm({ ...form, profile: e.target.value })}
+                    disabled={running}
+                >
+                    <option value="Profile 1">Profile 1 (Default)</option>
+                    <option value="Profile 2">Profile 2</option>
+                </select>
+            </div>
 
             <div className="form-field">
                 <label className="field-lbl" htmlFor="old-student-name">Student Name (Optional)</label>
@@ -353,7 +367,7 @@ function NewPapersTab() {
     const [catalog, setCatalog] = useState(null);
     const [catalogError, setCatalogError] = useState(false);
     const [sel,     setSel]     = useState({ exam: '', subject: '', type: '', paper: '' });
-    const [form,    setForm]    = useState({ studentName: '', asPdf: null });
+    const [form,    setForm]    = useState({ studentName: '', asPdf: null, profile: 'Profile 1' });
     const [taskId,  setTaskId]  = useState(null);
     const [status,  setStatus]  = useState(null);
     const [running, setRunning] = useState(false);
@@ -420,7 +434,7 @@ function NewPapersTab() {
         setRunning(true);
         setStatus({ stage: 'started', message: 'Submitting…', status: 'queued' });
         try {
-            const res = await runNewPipeline(form.studentName, selectedPaperPath, form.asPdf);
+            const res = await runNewPipeline(form.studentName, selectedPaperPath, form.asPdf, form.profile);
             setTaskId(res.task_id);
             startPolling(res.task_id);
         } catch (err) {
@@ -460,6 +474,20 @@ function NewPapersTab() {
                 and the FT pipeline will handle OCR, sub-part alignment, grading, and
                 the annotated checked copy automatically.
             </p>
+
+            <div className="form-field">
+                <label className="field-lbl" htmlFor="new-profile">Profile API Key</label>
+                <select
+                    id="new-profile"
+                    className="text-input"
+                    value={form.profile}
+                    onChange={(e) => setForm({ ...form, profile: e.target.value })}
+                    disabled={running}
+                >
+                    <option value="Profile 1">Profile 1 (Default)</option>
+                    <option value="Profile 2">Profile 2</option>
+                </select>
+            </div>
 
             <div className="form-field">
                 <label className="field-lbl" htmlFor="new-student-name">Student Name (Optional)</label>

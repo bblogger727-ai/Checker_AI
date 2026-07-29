@@ -132,10 +132,17 @@ def _save_upload(upload: UploadFile, dest: Path):
     dest.write_bytes(content)
 
 
-def _run_subprocess(task_id: str, cmd: list[str], output_dir: Path):
+def _run_subprocess(task_id: str, cmd: list[str], output_dir: Path, profile_api_keys: dict = None):
     """Run a pipeline subprocess and monitor it. Updates _tasks on completion."""
     _tasks[task_id]["status"] = "running"
     _tasks[task_id]["pid"]    = None
+    
+    env = os.environ.copy()
+    if profile_api_keys:
+        for k, v in profile_api_keys.items():
+            if v:
+                env[k] = v
+
     try:
         proc = subprocess.Popen(
             cmd,
@@ -143,6 +150,7 @@ def _run_subprocess(task_id: str, cmd: list[str], output_dir: Path):
             stdout=subprocess.PIPE,
             stderr=subprocess.STDOUT,
             text=True,
+            env=env,
         )
         _tasks[task_id]["pid"] = proc.pid
 
@@ -217,6 +225,7 @@ async def run_old_pipeline(
     qp_pdf:       UploadFile = File(..., description="Question Paper PDF"),
     sa_pdf:       UploadFile = File(..., description="Solution / Model Answer PDF"),
     as_pdf:       UploadFile = File(..., description="Student Answer Sheet PDF"),
+    profile:      str        = Form("Profile 1"),
 ):
     """
     Launch the Old-Papers Claude grading pipeline (Stages 1–7) in the background.
@@ -277,7 +286,15 @@ async def run_old_pipeline(
     ]
 
     _tasks[task_id] = {"status": "queued", "output_dir": str(output_dir), "pipeline": "old"}
-    t = threading.Thread(target=_run_subprocess, args=(task_id, cmd, output_dir), daemon=True)
+    
+    profile_api_keys = None
+    if profile == "Profile 2":
+        profile_api_keys = {
+            "ANTHROPIC_API_KEY": os.getenv("ANTHROPIC_API_KEY_PROFILE_2"),
+            "OPENAI_API_KEY": os.getenv("OPENAI_API_KEY_PROFILE_2")
+        }
+
+    t = threading.Thread(target=_run_subprocess, args=(task_id, cmd, output_dir, profile_api_keys), daemon=True)
     t.start()
     _tasks[task_id]["thread"] = t
 
@@ -293,6 +310,7 @@ async def run_new_pipeline(
     student_name:    str       = Form(""),
     ft_paper_path:   str       = Form(..., description="Absolute path to the selected FT paper JSON"),
     as_pdf:          UploadFile = File(..., description="Student Answer Sheet PDF"),
+    profile:         str       = Form("Profile 1"),
 ):
     """
     Launch the New-Papers FT grading pipeline (Stages 1–7) in the background.
@@ -359,7 +377,15 @@ async def run_new_pipeline(
     ]
 
     _tasks[task_id] = {"status": "queued", "output_dir": str(output_dir), "pipeline": "new"}
-    t = threading.Thread(target=_run_subprocess, args=(task_id, cmd, output_dir), daemon=True)
+    
+    profile_api_keys = None
+    if profile == "Profile 2":
+        profile_api_keys = {
+            "ANTHROPIC_API_KEY": os.getenv("ANTHROPIC_API_KEY_PROFILE_2"),
+            "OPENAI_API_KEY": os.getenv("OPENAI_API_KEY_PROFILE_2")
+        }
+
+    t = threading.Thread(target=_run_subprocess, args=(task_id, cmd, output_dir, profile_api_keys), daemon=True)
     t.start()
     _tasks[task_id]["thread"] = t
 
