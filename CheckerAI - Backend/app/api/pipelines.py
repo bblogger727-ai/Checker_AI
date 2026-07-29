@@ -423,6 +423,26 @@ async def run_feedback_pipeline(
 
 
 # ══════════════════════════════════════════════════════════════════════════════
+# Action: Pause/Resume/Reset
+# ══════════════════════════════════════════════════════════════════════════════
+
+class PipelineActionReq(BaseModel):
+    action: str
+
+@router.post("/action/{task_id}")
+async def pipeline_action(task_id: str, payload: PipelineActionReq):
+    job_dir = _JOBS_DIR / task_id
+    if not job_dir.exists():
+        raise HTTPException(status_code=404, detail="Job not found")
+    
+    action_file = job_dir / f"{payload.action}.txt"
+    with open(action_file, "w") as f:
+        f.write("trigger")
+        
+    return {"status": "success", "action": payload.action}
+
+
+# ══════════════════════════════════════════════════════════════════════════════
 # Status polling
 # ══════════════════════════════════════════════════════════════════════════════
 
