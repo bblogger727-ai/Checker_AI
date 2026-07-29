@@ -1908,6 +1908,8 @@ def generate_checked_copy(
                 cache_key = f"{section}__{q_id}"
                 fb_text   = _generate_llm_feedback(grade_entry, cache_key)
                 if fb_text:
+                    fb_text = fb_text.replace('response', 'answer').replace('Response', 'Answer')
+                    fb_text = fb_text.replace('insightful', 'comprehensive').replace('Insightful', 'Comprehensive')
                     print(f'  💬 Feedback for Q{q_num}: "{fb_text}"', flush=True)
 
             # Check for fundamentally wrong final practical answer
