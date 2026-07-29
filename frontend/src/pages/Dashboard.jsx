@@ -288,7 +288,7 @@ function OldPapersTab() {
         setTaskId(null);
         setStatus(null);
         setRunning(false);
-        setForm({ studentName: '', qpPdf: null, saPdf: null, asPdf: null });
+        setForm(prev => ({ studentName: '', qpPdf: null, saPdf: null, asPdf: null, profile: prev.profile }));
     };
 
     const isDone = status?.stage === 'completed' || status?.status === 'done';
@@ -501,7 +501,7 @@ function NewPapersTab() {
         setTaskId(null);
         setStatus(null);
         setRunning(false);
-        setForm({ studentName: '', asPdf: null });
+        setForm(prev => ({ studentName: '', asPdf: null, profile: prev.profile }));
         setSel({ exam: '', subject: '', type: '', paper: '' });
     };
 
