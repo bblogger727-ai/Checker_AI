@@ -56,12 +56,32 @@ def _write_status(output_dir: str, stage: str, message: str, *, error: str = Non
 def check_horizontal_pages(pdf_path: str) -> bool:
     try:
         import fitz
+        import pytesseract
+        from PIL import Image
+        import io
+        import re
+
         doc = fitz.open(pdf_path)
-        for page in doc:
+        for i, page in enumerate(doc):
             rect = page.rect
             if rect.width > rect.height:
                 doc.close()
                 return True
+                
+            # Check physical text orientation via OCR for first 3 pages
+            if i < 3:
+                pix = page.get_pixmap(dpi=72)
+                img = Image.open(io.BytesIO(pix.tobytes("png")))
+                try:
+                    osd = pytesseract.image_to_osd(img)
+                    rot_match = re.search(r'Rotate:\s*(\d+)', osd)
+                    if rot_match:
+                        rot = int(rot_match.group(1))
+                        if rot == 90 or rot == 270:
+                            doc.close()
+                            return True
+                except Exception:
+                    pass
         doc.close()
         return False
     except Exception:
@@ -85,21 +105,19 @@ def run_stage_1_2_FT(ft_paper_json_path: str, output_dir: str) -> dict:
     # Section A — MCQs
     section_a_raw  = paper.get("section_a", [])
     mcq_block: dict = {}
-    serial_counter  = 0
+    mcq_global_counter = 0
 
     for case_study in section_a_raw:
         for q in case_study.get("questions", []):
-            serial = q.get("_serial") or q.get("q_num")
-            if serial is None:
-                serial_counter += 1
-                serial = serial_counter
+            serial_val = str(q.get("_serial") or q.get("q_num") or "")
+            if "_v2" in serial_val:
+                key = f"{mcq_global_counter}_v2"
+                serial_display = key
             else:
-                try:
-                    serial_counter = int(serial)
-                except (ValueError, TypeError):
-                    pass  # v2 serials like "1_v2" — just keep current counter
+                mcq_global_counter += 1
+                key = str(mcq_global_counter)
+                serial_display = key
 
-            key     = str(serial)
             correct = q.get("correct_option", q.get("answer", "")).strip("() ").lower()
             if correct:
                 correct = correct[0]
@@ -109,8 +127,8 @@ def run_stage_1_2_FT(ft_paper_json_path: str, output_dir: str) -> dict:
                 "options":         q.get("options", {}),
                 "model_answer":    correct,
                 "marks":           2,
-                "question_number": f"Q{serial}",
-                "question_id":     q.get("question_id", f"A-MCQ-{serial}"),
+                "question_number": f"Q{serial_display}",
+                "question_id":     q.get("question_id", f"A-MCQ-{serial_display}"),
                 "or_group":        q.get("or_group"),
             }
 
@@ -241,8 +259,8 @@ def _apply_top5_scoring(grading_results: dict, compulsory_q: str = "Q1",
     section_b = graded.get("SectionB", {})
 
     total_possible = float(
-        paper_meta.get("total_marks_in_paper") or
-        paper_meta.get("total_marks_printed") or 100
+        paper_meta.get("total_marks_printed") or
+        paper_meta.get("total_marks_in_paper") or 100
     )
     is_portionwise = (
         total_possible < 100 or

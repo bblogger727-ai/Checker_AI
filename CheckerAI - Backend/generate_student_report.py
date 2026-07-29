@@ -68,8 +68,14 @@ def _analyse_grading(grading_data: dict) -> dict:
     missed_items:  list[str] = []
     errors_items:  list[str] = []
     feedbacks:     list[str] = []
+    correct_mcqs:  list[str] = []
+    wrong_mcqs:    list[str] = []
 
-    def _process_entry(q_id: str, entry: dict) -> None:
+    meta = grading_data.get("metadata", {})
+    paper_num = str(meta.get("paper_num", "")).lower()
+    total_possible_meta = float(meta.get("total_marks_possible", 0) or 0)
+
+    def _process_entry(q_id: str, entry: dict, section: str = "") -> None:
         """Process a single graded sub-question entry."""
         nonlocal total_obtained, total_possible
         obtained = float(entry.get("marks_obtained", 0) or 0)
@@ -79,6 +85,13 @@ def _analyse_grading(grading_data: dict) -> dict:
         tier = entry.get("tier", "")
         if tier:
             tiers.append(tier)
+            
+        if section == "SectionA":
+            if obtained == possible and possible > 0:
+                correct_mcqs.append(str(q_id))
+            else:
+                wrong_mcqs.append(str(q_id))
+
         fb = entry.get("feedback", "") or ""
         if fb:
             feedbacks.append(f"{q_id}: {fb}")
@@ -97,18 +110,20 @@ def _analyse_grading(grading_data: dict) -> dict:
                 continue
             # If this entry has marks_obtained it IS a graded result (flat, e.g. MCQ)
             if "marks_obtained" in entry:
-                _process_entry(q_id, entry)
+                _process_entry(q_id, entry, section)
             else:
                 # It's a parent question (e.g. SectionB Q1) — iterate its sub-questions
                 for sub_id, sub_entry in entry.items():
                     if isinstance(sub_entry, dict) and "marks_obtained" in sub_entry:
-                        _process_entry(sub_id, sub_entry)
+                        _process_entry(sub_id, sub_entry, section)
 
     # If total_possible is still 0, fall back to reading from metadata
     if total_possible == 0.0:
-        meta = grading_data.get("metadata", {})
         total_obtained = float(meta.get("total_marks_obtained", 0) or 0)
-        total_possible = float(meta.get("total_marks_possible", 0) or 0)
+        total_possible = total_possible_meta
+
+    is_portionwise = ("portionwise" in paper_num) or (total_possible > 0 and total_possible < 100)
+    is_full_paper = not is_portionwise
 
     pct = (total_obtained / total_possible * 100) if total_possible else 0
     return {
@@ -120,6 +135,9 @@ def _analyse_grading(grading_data: dict) -> dict:
         "missed_items":   missed_items[:6],
         "errors_items":   errors_items[:6],
         "feedbacks":      feedbacks[:8],
+        "is_full_paper":  is_full_paper,
+        "correct_mcqs":   correct_mcqs,
+        "wrong_mcqs":     wrong_mcqs,
     }
 
 
@@ -250,8 +268,17 @@ def _build_txt(report: dict, metrics: dict, dataset_id: str, output_path: str):
         f"Overall Performance - {report['overall_performance']}",
         f"Strength is - {report['strength']}",
         f"Weakness is - {report['weakness']}",
-        "",
     ]
+
+    if metrics.get("is_full_paper"):
+        correct_mcq_str = ", ".join([q.replace("Q", "") for q in metrics['correct_mcqs']]) if metrics['correct_mcqs'] else "None"
+        wrong_mcq_str = ", ".join([q.replace("Q", "") for q in metrics['wrong_mcqs']]) if metrics['wrong_mcqs'] else "None"
+        lines += [
+            f"Correct MCQs - {correct_mcq_str}",
+            f"Wrong MCQs - {wrong_mcq_str}",
+        ]
+        
+    lines += [""]
 
     # Ratings
     lines += [

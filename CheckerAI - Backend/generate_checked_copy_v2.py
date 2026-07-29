@@ -1804,6 +1804,21 @@ def generate_checked_copy(
                 grand_obtained += float(entry.get("marks_obtained", 0) or 0)
                 grand_total    += float(entry.get("marks_total",    0) or 0)
 
+    paper_num       = str(meta.get("paper_num", "")).lower()
+    is_portionwise  = ("portionwise" in paper_num) or (grand_total < 100)
+    is_full_paper   = not is_portionwise
+    mcq_total_obtained = sum(
+        float(entry.get("marks_obtained", 0) or 0)
+        for (sec, q_id), entry in grading_lookup.items()
+        if sec == "SectionA"
+    )
+    mcq_total_possible = sum(
+        float(entry.get("marks_total", 0) or 0)
+        for (sec, q_id), entry in grading_lookup.items()
+        if sec == "SectionA"
+    )
+    mcq_page_marked = False
+
 
     # ── Build per-page drawing plan ────────────────────────────────────────────
     drawing_plan: dict = {}   # page_num → list of plan items
@@ -2365,9 +2380,28 @@ def generate_checked_copy(
             # Phantoms only needed the slice computation above.
             # Skip all stamp/annotation/feedback drawing.
             if is_first and not _is_phantom:
-                # ── Marks stamp placement: LEFT MARGIN is the primary target ──
-                # Strategy:
-                #   1. Scan the left margin (2–14% width) for the clearest
+                if is_full_paper and section == "SectionA":
+                    _STAMP_FONT   = int(28 * page_scale)
+                    _STAMP_HALF_H = _STAMP_FONT * 2 + int(4 * page_scale) * 2 + _STAMP_FONT * 0.20 + 10
+                    if not mcq_page_marked:
+                        _pending_stamp = {
+                            "x":           pdf_w * 0.1,  # near left margin
+                            "y":           pdf_h * 0.88 - _STAMP_HALF_H, # top
+                            "half_h_pts":  _STAMP_HALF_H,
+                            "marks_obtained": mcq_total_obtained,
+                            "marks_total":    30,  # MCQ total marks
+                        }
+                        mcq_page_marked = True
+                        stamp_cy_px = int((1.0 - _pending_stamp["y"] / pdf_h) * img_h)
+                        for pr in range(stamp_cy_px - 80, stamp_cy_px + 81):
+                            page_excluded_px_rows.add(pr)
+                    else:
+                        _pending_stamp = None
+                    print(f"  ✓ P{page_num:>2} Q{q_num:<3} MCQ (Full Paper)", flush=True)
+                else:
+                    # ── Marks stamp placement: LEFT MARGIN is the primary target ──
+                    # Strategy:
+                    #   1. Scan the left margin (2–14% width) for the clearest
                 #      vertical band within the question's vertical extent.
                 #   2. If no left-margin gap, search anywhere on the page for
                 #      the largest white rectangle (avoids student text).
@@ -2387,95 +2421,95 @@ def generate_checked_copy(
                 stamp_row_bot = max(stamp_row_bot, stamp_row_top + 20)
 
 
-                if multi_q_target_y_frac is not None:
-                    # Multi-question page: force position to top/bottom target
-                    marks_x, marks_y_placed = _find_clear_xy(
-                        gray, img_w, img_h, pdf_w, pdf_h,
-                        multi_q_target_y_frac,
-                        is_practical=False, min_clear_cols=30,
-                        excluded_px_rows=page_excluded_px_rows,
-                        max_search_delta=0.45,
-                        min_y_frac=q_top_frac,
-                        max_y_frac=q_bot_frac,
-                    )
-                    rh_st = 60
-                    print(f"    [multi-Q] stamp forced at y={marks_y_placed:.0f}", flush=True)
-                else:
-                    # ── Step 1: dedicated left-margin scanner ─────────────────────
-                    margin_spot = _find_left_margin_stamp_spot(
-                        gray, img_w, img_h, pdf_w, pdf_h,
-                        stamp_row_top, stamp_row_bot,
-                        excluded_px_rows=page_excluded_px_rows,
-                    )
-    
-                    if margin_spot:
-                        marks_x, marks_y_placed = margin_spot
-                        rh_st = 60   # margin strip height estimate for exclusion zone
-                        print(f"    ← left-margin stamp at x={marks_x:.0f}, y={marks_y_placed:.0f}", flush=True)
+                    if multi_q_target_y_frac is not None:
+                        # Multi-question page: force position to top/bottom target
+                        marks_x, marks_y_placed = _find_clear_xy(
+                            gray, img_w, img_h, pdf_w, pdf_h,
+                            multi_q_target_y_frac,
+                            is_practical=False, min_clear_cols=30,
+                            excluded_px_rows=page_excluded_px_rows,
+                            max_search_delta=0.45,
+                            min_y_frac=q_top_frac,
+                            max_y_frac=q_bot_frac,
+                        )
+                        rh_st = 60
+                        print(f"    [multi-Q] stamp forced at y={marks_y_placed:.0f}", flush=True)
                     else:
-                    # ── Step 2: widest white rect in the question's zone ──────────
-                        rect_result = _find_largest_white_rect(
+                        # ── Step 1: dedicated left-margin scanner ─────────────────────
+                        margin_spot = _find_left_margin_stamp_spot(
                             gray, img_w, img_h, pdf_w, pdf_h,
                             stamp_row_top, stamp_row_bot,
-                            min_w_px=40, min_h_px=8,
                             excluded_px_rows=page_excluded_px_rows,
                         )
-                        if rect_result:
-                            marks_x, marks_y_placed = rect_result[0], rect_result[1]
-                            _, _, rw_st, rh_st = rect_result
+        
+                        if margin_spot:
+                            marks_x, marks_y_placed = margin_spot
+                            rh_st = 60   # margin strip height estimate for exclusion zone
+                            print(f"    ← left-margin stamp at x={marks_x:.0f}, y={marks_y_placed:.0f}", flush=True)
                         else:
-                            # ── Step 3: clear-xy fallback ──────────────────────────────
-                            if heading_y:
-                                fallback_target = 1.0 - heading_y / pdf_h
-                            elif 'q_top_frac' in locals():
-                                fallback_target = min(q_top_frac + 0.1, 0.9)
-                            else:
-                                fallback_target = 0.1
-                            _max_delta = 0.45
-                            marks_x, marks_y_placed = _find_clear_xy(
+                        # ── Step 2: widest white rect in the question's zone ──────────
+                            rect_result = _find_largest_white_rect(
                                 gray, img_w, img_h, pdf_w, pdf_h,
-                                fallback_target,
-                                is_practical=False, min_clear_cols=30,
+                                stamp_row_top, stamp_row_bot,
+                                min_w_px=40, min_h_px=8,
                                 excluded_px_rows=page_excluded_px_rows,
-                                max_search_delta=_max_delta,
-                                min_y_frac=q_top_frac,
-                                max_y_frac=q_bot_frac,
                             )
-                            rh_st = 60
+                            if rect_result:
+                                marks_x, marks_y_placed = rect_result[0], rect_result[1]
+                                _, _, rw_st, rh_st = rect_result
+                            else:
+                                # ── Step 3: clear-xy fallback ──────────────────────────────
+                                if heading_y:
+                                    fallback_target = 1.0 - heading_y / pdf_h
+                                elif 'q_top_frac' in locals():
+                                    fallback_target = min(q_top_frac + 0.1, 0.9)
+                                else:
+                                    fallback_target = 0.1
+                                _max_delta = 0.45
+                                marks_x, marks_y_placed = _find_clear_xy(
+                                    gray, img_w, img_h, pdf_w, pdf_h,
+                                    fallback_target,
+                                    is_practical=False, min_clear_cols=30,
+                                    excluded_px_rows=page_excluded_px_rows,
+                                    max_search_delta=_max_delta,
+                                    min_y_frac=q_top_frac,
+                                    max_y_frac=q_bot_frac,
+                                )
+                                rh_st = 60
 
 
-                _STAMP_FONT   = int(28 * page_scale)
-                _STAMP_HALF_H = _STAMP_FONT * 2 + int(4 * page_scale) * 2 + _STAMP_FONT * 0.20 + 10
-                
-                # Clamp stamp Y position so it avoids top 12% margin and bottom 5%
-                marks_y_placed = min(max(marks_y_placed, pdf_h * 0.05 + _STAMP_HALF_H), pdf_h * 0.88 - _STAMP_HALF_H)
+                    _STAMP_FONT   = int(28 * page_scale)
+                    _STAMP_HALF_H = _STAMP_FONT * 2 + int(4 * page_scale) * 2 + _STAMP_FONT * 0.20 + 10
+                    
+                    # Clamp stamp Y position so it avoids top 12% margin and bottom 5%
+                    marks_y_placed = min(max(marks_y_placed, pdf_h * 0.05 + _STAMP_HALF_H), pdf_h * 0.88 - _STAMP_HALF_H)
 
-                # Register the stamp's pixel row range so feedback avoids it
-                stamp_cy_px = int((1.0 - marks_y_placed / pdf_h) * img_h)
-                STAMP_H_PX  = max(int(rh_st), 80)   # at least 80px exclusion zone
-                for pr in range(stamp_cy_px - STAMP_H_PX // 2,
-                                stamp_cy_px + STAMP_H_PX // 2 + 1):
-                    page_excluded_px_rows.add(pr)
-                stamp_y_frac = 1.0 - marks_y_placed / pdf_h
-                page_used_y_fracs.append(stamp_y_frac)
-                # Add wider guard entries so feedback is pushed well away from stamp.
-                # Without these, feedback can land just at MIN_SEP (0.09) from the
-                # stamp which is often not enough to prevent visual overlap on
-                # cramped multi-Q pages.
-                page_used_y_fracs.append(max(0.0, stamp_y_frac - 0.08))
-                page_used_y_fracs.append(min(1.0, stamp_y_frac + 0.08))
+                    # Register the stamp's pixel row range so feedback avoids it
+                    stamp_cy_px = int((1.0 - marks_y_placed / pdf_h) * img_h)
+                    STAMP_H_PX  = max(int(rh_st), 80)   # at least 80px exclusion zone
+                    for pr in range(stamp_cy_px - STAMP_H_PX // 2,
+                                    stamp_cy_px + STAMP_H_PX // 2 + 1):
+                        page_excluded_px_rows.add(pr)
+                    stamp_y_frac = 1.0 - marks_y_placed / pdf_h
+                    page_used_y_fracs.append(stamp_y_frac)
+                    # Add wider guard entries so feedback is pushed well away from stamp.
+                    # Without these, feedback can land just at MIN_SEP (0.09) from the
+                    # stamp which is often not enough to prevent visual overlap on
+                    # cramped multi-Q pages.
+                    page_used_y_fracs.append(max(0.0, stamp_y_frac - 0.08))
+                    page_used_y_fracs.append(min(1.0, stamp_y_frac + 0.08))
 
-                # ── Store stamp info; actual drawing is DEFERRED until after feedback ──
-                # This allows the overlap check to move the stamp before drawing it
-                # (re-drawing on top leaves the original in the PDF too).
-                _pending_stamp = {
-                    "x":           marks_x + random.uniform(-1, 2),
-                    "y":           marks_y_placed,
-                    "half_h_pts":  _STAMP_HALF_H,
-                    "marks_obtained": marks_obtained,
-                    "marks_total":    item["marks_total"],
-                }
-                print(f"  ✓ P{page_num:>2} Q{q_num:<3} {_fmt_marks(marks_obtained)}/{_fmt_marks(item['marks_total'])} [{tier}]", flush=True)
+                    # ── Store stamp info; actual drawing is DEFERRED until after feedback ──
+                    # This allows the overlap check to move the stamp before drawing it
+                    # (re-drawing on top leaves the original in the PDF too).
+                    _pending_stamp = {
+                        "x":           marks_x + random.uniform(-1, 2),
+                        "y":           marks_y_placed,
+                        "half_h_pts":  _STAMP_HALF_H,
+                        "marks_obtained": marks_obtained,
+                        "marks_total":    item["marks_total"],
+                    }
+                    print(f"  ✓ P{page_num:>2} Q{q_num:<3} {_fmt_marks(marks_obtained)}/{_fmt_marks(item['marks_total'])} [{tier}]", flush=True)
             else:
                 # No stamp on continuation pages
                 if _is_phantom:
@@ -2569,31 +2603,32 @@ def generate_checked_copy(
             # On pages where MCQ answers occupy the top half, skip any tick/cross
             # whose y_pdf is above the midpoint (PDF y=0 is bottom, so top half
             # means y_pdf > pdf_h * 0.55).
-            for ann in annotations:
-                draw_x = ann["ann_x"] + random.uniform(-2, 2)
-                draw_y = ann["y_pdf"]
-                if _page_mcq_top and draw_y > pdf_h * 0.25:
-                    continue   # skip — this annotation falls outside bottom-25% zone
-                if draw_y > pdf_h - 30:
-                    continue   # skip — within 30 pixels of top margin
-                if ann["action"] == "tick":
-                    sz = random.uniform(65, 80) * page_scale
-                    pass # DEFERRED
-                else:
-                    sz = random.uniform(55, 70) * page_scale
-                    pass # DEFERRED
-                # v2: record tick/cross
-                _manifest["questions"][_mkey]["ticks_crosses"].append({
-                    "page":   page_num,
-                    "x":      draw_x,
-                    "y":      draw_y,
-                    "action": ann["action"],
-                    "size":   sz,
-                })
+            if not (is_full_paper and section == "SectionA"):
+                for ann in annotations:
+                    draw_x = ann["ann_x"] + random.uniform(-2, 2)
+                    draw_y = ann["y_pdf"]
+                    if _page_mcq_top and draw_y > pdf_h * 0.25:
+                        continue   # skip — this annotation falls outside bottom-25% zone
+                    if draw_y > pdf_h - 30:
+                        continue   # skip — within 30 pixels of top margin
+                    if ann["action"] == "tick":
+                        sz = random.uniform(65, 80) * page_scale
+                        pass # DEFERRED
+                    else:
+                        sz = random.uniform(55, 70) * page_scale
+                        pass # DEFERRED
+                    # v2: record tick/cross
+                    _manifest["questions"][_mkey]["ticks_crosses"].append({
+                        "page":   page_num,
+                        "x":      draw_x,
+                        "y":      draw_y,
+                        "action": ann["action"],
+                        "size":   sz,
+                    })
 
             # ── Draw feedback (largest white rect in question zone) ────────────
             placed = False   # ensure always defined before the if placed: check
-            if fb_text:
+            if fb_text and not (is_full_paper and section == "SectionA"):
                 FB_FONT_SIZE = int(14 * page_scale)
                 EST_CHAR_W   = FB_FONT_SIZE * 0.60
                 

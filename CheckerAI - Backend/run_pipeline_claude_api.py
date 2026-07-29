@@ -64,12 +64,32 @@ def _write_status(output_dir: str, stage: str, message: str, *, error: str = Non
 def check_horizontal_pages(pdf_path: str) -> bool:
     try:
         import fitz
+        import pytesseract
+        from PIL import Image
+        import io
+        import re
+
         doc = fitz.open(pdf_path)
-        for page in doc:
+        for i, page in enumerate(doc):
             rect = page.rect
             if rect.width > rect.height:
                 doc.close()
                 return True
+                
+            # Check physical text orientation via OCR for first 3 pages
+            if i < 3:
+                pix = page.get_pixmap(dpi=72)
+                img = Image.open(io.BytesIO(pix.tobytes("png")))
+                try:
+                    osd = pytesseract.image_to_osd(img)
+                    rot_match = re.search(r'Rotate:\s*(\d+)', osd)
+                    if rot_match:
+                        rot = int(rot_match.group(1))
+                        if rot == 90 or rot == 270:
+                            doc.close()
+                            return True
+                except Exception:
+                    pass
         doc.close()
         return False
     except Exception:
