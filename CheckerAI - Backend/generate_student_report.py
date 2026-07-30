@@ -77,11 +77,9 @@ def _analyse_grading(grading_data: dict) -> dict:
 
     def _process_entry(q_id: str, entry: dict, section: str = "") -> None:
         """Process a single graded sub-question entry."""
-        nonlocal total_obtained, total_possible
         obtained = float(entry.get("marks_obtained", 0) or 0)
         possible = float(entry.get("marks_total",    0) or entry.get("marks", 0) or 0)
-        total_obtained += obtained
-        total_possible += possible
+
         tier = entry.get("tier", "")
         if tier:
             tiers.append(tier)
@@ -117,10 +115,9 @@ def _analyse_grading(grading_data: dict) -> dict:
                     if isinstance(sub_entry, dict) and "marks_obtained" in sub_entry:
                         _process_entry(sub_id, sub_entry, section)
 
-    # If total_possible is still 0, fall back to reading from metadata
-    if total_possible == 0.0:
-        total_obtained = float(meta.get("total_marks_obtained", 0) or 0)
-        total_possible = total_possible_meta
+    # Always read totals from metadata (calculated correctly by FT pipeline)
+    total_obtained = float(meta.get("total_marks_obtained", 0) or 0)
+    total_possible = float(meta.get("total_marks_possible", 0) or 0)
 
     is_portionwise = ("portionwise" in paper_num) or (total_possible > 0 and total_possible < 100)
     is_full_paper = not is_portionwise

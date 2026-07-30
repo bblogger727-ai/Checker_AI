@@ -500,6 +500,14 @@ def _build_page_plan(manifest: dict) -> dict:
             "data":    gt,
         })
 
+    # MCQ total
+    mcq = manifest.get("mcq_total")
+    if mcq:
+        plan.setdefault(int(mcq["page"]), []).append({
+            "type":    "mcq_total",
+            "data":    mcq,
+        })
+
     # Per-question annotations
     for mkey, q in manifest.get("questions", {}).items():
 
@@ -573,8 +581,8 @@ def _redraw_from_manifest(
             c.showPage()
             continue
 
-        # Sort: grand_total first, then stamps, then feedback, then ticks/crosses
-        _order = {"grand_total": 0, "stamp": 1, "feedback": 2, "tick_cross": 3}
+        # Sort: grand_total first, then mcq_total, then stamps, then feedback, then ticks/crosses
+        _order = {"grand_total": 0, "mcq_total": 1, "stamp": 2, "feedback": 3, "tick_cross": 4}
         items  = sorted(items, key=lambda it: _order.get(it["type"], 9))
 
         for item in items:
@@ -594,6 +602,21 @@ def _redraw_from_manifest(
                     scale=scale,
                 )
                 print(f"  ✓ P{page_num:>2} Grand total stamp  "
+                      f"{data['obtained']}/{data['total']}")
+
+            # ── MCQ-total stamp ────────────────────────────────────────────
+            elif t == "mcq_total":
+                scale = float(data.get("scale", pdf_h / 842.0))
+                _draw_marks_stamp(
+                    c,
+                    float(data["x"]),
+                    float(data["y"]),
+                    float(data["obtained"]),
+                    float(data["total"]),
+                    font_name,
+                    scale=scale,
+                )
+                print(f"  ✓ P{page_num:>2} MCQ total stamp    "
                       f"{data['obtained']}/{data['total']}")
 
             # ── Per-question marks stamp ──────────────────────────────────

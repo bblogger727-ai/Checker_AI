@@ -1392,9 +1392,9 @@ def _choose_action(
     is_first = (page_idx_in_q == 0 and ann_idx_on_page == 0)
     is_last  = (page_idx_in_q == total_pages - 1 and ann_idx_on_page == anns_on_page - 1)
 
-    # Treat < 10% as effectively 'no answer': always cross on first annotation
+    # Treat < 20% as effectively 'no answer': always cross on first annotation
     # so near-zero stubs (e.g. 0.5/6 'question is incomplete') don't get a tick.
-    meaningful_marks = marks_total > 0 and (marks_obtained / marks_total) >= 0.10
+    meaningful_marks = marks_total > 0 and (marks_obtained / marks_total) >= 0.20
 
     if is_first:
         return "tick" if meaningful_marks else "cross"
@@ -1432,7 +1432,8 @@ def _find_question_line_bounds(ocr_text: str, q_num: str) -> tuple[int, int]:
     if sub_letter:
         # Match formats like "4(a)", "4 a", "4a", "4 (a)"
         sub_pat = rf"(?:\({re.escape(sub_letter)}\)|{re.escape(sub_letter)})"
-        num_pat = rf"{re.escape(base_num)}[\s\.\-]*{sub_pat}"
+        num_pat = rf"{re.escape(base_num)}[\s\.\-\)]*{sub_pat}"
+
     else:
         num_pat = re.escape(base_num)
 
@@ -1443,14 +1444,14 @@ def _find_question_line_bounds(ocr_text: str, q_num: str) -> tuple[int, int]:
         rf"^\s*[\[|]?\s*(?:Q|Question|Ans\.?|Answer)\s*[#\s\-\.]*\s*{num_pat}\s*[\]|]?\s*$",
         re.IGNORECASE,
     )
-    # Loose: line STARTS with a question heading (content may follow)
+    # Loose: line contains a question heading (content may follow)
     q_loose = re.compile(
-        rf"^\s*[\[|]?\s*(?:Q|Question|Ans\.?|Answer)\s*[#\s\-\.]*\s*{num_pat}\b",
+        rf"(?:^|\b|\s)[\[|]?\s*(?:Q|Question|Ans\.?|Answer)\s*[#\s\-\.]*\s*{num_pat}\b",
         re.IGNORECASE,
     )
     # Matches ANY question heading (to detect where the next question starts)
     any_q = re.compile(
-        r"^\s*\[?\s*(?:Q|Question|Ans\.?|Answer)\s*[#\s\-\.]*\s*\d+",
+        r"(?:^|\b|\s)\[?\s*(?:Q|Question|Ans\.?|Answer)\s*[#\s\-\.]*\s*\d+",
         re.IGNORECASE,
     )
 
@@ -1458,9 +1459,9 @@ def _find_question_line_bounds(ocr_text: str, q_num: str) -> tuple[int, int]:
     for pattern in (q_exact, q_loose):
         for i, line in enumerate(lines):
             stripped = line.strip()
-            if start is None and pattern.match(stripped):
+            if start is None and pattern.search(stripped):
                 start = i
-            elif start is not None and any_q.match(stripped) and not pattern.match(stripped):
+            elif start is not None and any_q.search(stripped) and not pattern.search(stripped):
                 return start, i
         if start is not None:
             return start, len(lines)
@@ -1468,19 +1469,19 @@ def _find_question_line_bounds(ocr_text: str, q_num: str) -> tuple[int, int]:
     # Super loose fallback: match just the sub_letter e.g. "(b)", "b)", "b."
     if sub_letter:
         q_super_loose = re.compile(
-            rf"^\s*\(?{re.escape(sub_letter)}\)?\s*[.\-:]*",
+            rf"(?:^|\b|\s)\(?{re.escape(sub_letter)}\)?\s*[.\-:]*",
             re.IGNORECASE
         )
         for i, line in enumerate(lines):
             stripped = line.strip()
-            if start is None and q_super_loose.match(stripped):
+            if start is None and q_super_loose.search(stripped):
                 start = i
-            elif start is not None and any_q.match(stripped) and not q_super_loose.match(stripped):
+            elif start is not None and any_q.search(stripped) and not q_super_loose.search(stripped):
                 return start, i
         if start is not None:
             return start, len(lines)
 
-    return 0, len(lines)   # fallback: whole page
+    return -1, len(lines)   # fallback: whole page
 
 
 def _plan_annotations_from_ocr(
@@ -1617,8 +1618,8 @@ def _plan_annotations_from_ocr(
         is_first_ann = (page_idx_in_q == 0 and ann_idx == 0)
         is_last_ann  = (page_idx_in_q == total_pages - 1 and ann_idx == n_sel - 1)
 
-        # Treat < 10% score as effectively 'no answer': always cross on first annotation
-        meaningful_marks_inline = marks_total > 0 and (marks_obtained / marks_total) >= 0.10
+        # Treat < 20% score as effectively 'no answer': always cross on first annotation
+        meaningful_marks_inline = marks_total > 0 and (marks_obtained / marks_total) >= 0.20
 
         if is_first_ann:
             action = "tick" if meaningful_marks_inline else "cross"
@@ -1998,6 +1999,7 @@ def generate_checked_copy(
         fitz_page              = doc[page_idx]
         gray, img_w, img_h, sx, sy = _render_gray(fitz_page)
         text_blocks = _get_text_blocks(gray, img_w, img_h)
+        page_excluded_px_rows: set = set()
 
         # ── Grand total stamp on page 1 (top-right corner) ─────────────────────────
         if page_num == 1 and grand_total > 0:
@@ -2038,17 +2040,59 @@ def generate_checked_copy(
                 "scale":    page_scale,
             }
 
+        # ── MCQ total stamp on page 1 (top-left corner) ─────────────────────────
+        if page_num == 1 and is_full_paper and not mcq_page_marked:
+            ocr_page_text = _load_ocr_page_text(ocr_text_path, page_num) if ocr_text_path else ""
+            has_mcqs_for_stamp = False
+            if ocr_page_text:
+                for mcq_key in ["MCQ", "mcq", "Multiple Choice", "(a)", "(b)", "(c)", "(d)"]:
+                    if mcq_key in ocr_page_text:
+                        has_mcqs_for_stamp = True
+                        break
+            if has_mcqs_for_stamp:
+                mcq_page_marked = True
+                _f = int(28 * page_scale)
+                _half_h = _f * 2 + int(4 * page_scale) * 2 + _f * 0.20 + 10
+                mcq_x = pdf_w * 0.15
+                mcq_y = pdf_h * 0.88 - _half_h
+                _draw_marks_stamp(c, mcq_x, mcq_y, mcq_total_obtained, 30.0, font_name, scale=page_scale)
+                
+                _manifest["mcq_total"] = {
+                    "obtained": mcq_total_obtained,
+                    "total":    30.0,
+                    "page":     page_num,
+                    "x":        mcq_x,
+                    "y":        mcq_y,
+                    "scale":    page_scale,
+                }
+                
+                # Exclude pixels so feedback search doesn't land on it
+                stamp_cy_px = int((1.0 - mcq_y / pdf_h) * img_h)
+                for pr in range(stamp_cy_px - 80, stamp_cy_px + 81):
+                    page_excluded_px_rows.add(pr)
+
+
         if not items:
-            # Page has no mapped questions. Draw a single cross in the center.
-            c.saveState()
-            c.setStrokeColor(red)
-            c.setLineWidth(max(2.0, 3.0 * page_scale))
-            # Very large cross to indicate blank / unused / unmapped page
-            _draw_cross(c, pdf_w / 2, pdf_h / 2, size=int(60 * page_scale))
-            c.restoreState()
+            # Check if this page has MCQs (if there's MCQ text in the OCR, don't draw the cross)
+            ocr_page_text = _load_ocr_page_text(ocr_text_path, page_num) if ocr_text_path else ""
+            has_mcqs = False
+            if ocr_page_text:
+                for mcq_key in ["MCQ", "mcq", "Multiple Choice", "(a)", "(b)", "(c)", "(d)"]:
+                    if mcq_key in ocr_page_text:
+                        has_mcqs = True
+                        break
+            if not has_mcqs and page_num != 1:
+                # Page has no mapped questions and no obvious MCQs. Draw a single cross in the center.
+                c.saveState()
+                c.setStrokeColor(red)
+                c.setLineWidth(max(2.0, 3.0 * page_scale))
+                # Very large cross to indicate blank / unused / unmapped page
+                _draw_cross(c, pdf_w / 2, pdf_h / 2, size=int(60 * page_scale))
+                c.restoreState()
             
             c.showPage()
             continue
+
 
         # Compute ink bounds from image analysis
         if text_blocks:
@@ -2123,7 +2167,7 @@ def generate_checked_copy(
                 _qn = _it["q_num"]
                 if _it["is_first"] and _qn not in pre_heading_fracs:
                     _qs, _ = _find_question_line_bounds(_page_ocr_for_headings, _qn)
-                    if _qs > 0:   # 0 means fallback / not found
+                    if _qs >= 0:   # -1 means fallback / not found
                         pre_heading_fracs[_qn] = (
                             ink_top + (_qs / _total_ocr_ln) * (ink_bot - ink_top)
                         )
@@ -2137,8 +2181,8 @@ def generate_checked_copy(
         # so if P14 has BOTH Q7 and Q8, their marks don't overlap side-by-side!
         # Tracks pixel rows (image space) already claimed by stamps on this page
         # Tracks pixel rows (image space) already claimed by stamps on this page
+        # ── Annotations Phase ──
         page_used_y_fracs = []
-        page_excluded_px_rows: set = set()
         page_drawn_rects_y = []  # List of (y_bottom, y_top) in PDF coords
         _page_mcq_top = False   # True when page 1 has MCQ answers in upper half
 
@@ -2402,23 +2446,23 @@ def generate_checked_copy(
                     # ── Marks stamp placement: LEFT MARGIN is the primary target ──
                     # Strategy:
                     #   1. Scan the left margin (2–14% width) for the clearest
-                #      vertical band within the question's vertical extent.
-                #   2. If no left-margin gap, search anywhere on the page for
-                #      the largest white rectangle (avoids student text).
-                #   3. Last resort: _find_clear_xy near the heading.
+                    #      vertical band within the question's vertical extent.
+                    #   2. If no left-margin gap, search anywhere on the page for
+                    #      the largest white rectangle (avoids student text).
+                    #   3. Last resort: _find_clear_xy near the heading.
 
 
-                # Convert to pixel rows; search within the question vertical extent.
-                # If the heading was detected, shift the search zone to START just
-                # below it so the stamp always lands under the question label.
-                _HEADING_BELOW_OFFSET = 0.03   # 3% of page height below heading
-                if heading_y_frac is not None:
-                    _below_heading_row = int((heading_y_frac + _HEADING_BELOW_OFFSET) * img_h)
-                    stamp_row_top = max(0, min(_below_heading_row, int(q_bot_frac * img_h) - 20))
-                else:
-                    stamp_row_top = max(0, int(q_top_frac * img_h))
-                stamp_row_bot = min(img_h, int(q_bot_frac * img_h))
-                stamp_row_bot = max(stamp_row_bot, stamp_row_top + 20)
+                    # Convert to pixel rows; search within the question vertical extent.
+                    # If the heading was detected, shift the search zone to START just
+                    # below it so the stamp always lands under the question label.
+                    _HEADING_BELOW_OFFSET = 0.03   # 3% of page height below heading
+                    if heading_y_frac is not None:
+                        _below_heading_row = int((heading_y_frac + _HEADING_BELOW_OFFSET) * img_h)
+                        stamp_row_top = max(0, min(_below_heading_row, int(q_bot_frac * img_h) - 20))
+                    else:
+                        stamp_row_top = max(0, int(q_top_frac * img_h))
+                    stamp_row_bot = min(img_h, int(q_bot_frac * img_h))
+                    stamp_row_bot = max(stamp_row_bot, stamp_row_top + 20)
 
 
                     if multi_q_target_y_frac is not None:
