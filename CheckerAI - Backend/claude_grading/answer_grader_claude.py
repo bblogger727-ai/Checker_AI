@@ -457,44 +457,34 @@ def grade_all_answers(aligned_answers: dict, model_answers: dict, student_pdf_pa
         for question_key, question_content in section_content.items():
             
             if question_key == "MCQ":
-                # MCQ grading
+                # ── MCQ grading SKIPPED ─────────────────────────────────────────────
+                # MCQs are unreliable to grade via OCR/AI. marks_obtained is left as
+                # None so the teacher can enter the correct total in the Edit Checked
+                # Copy UI, which then patches the PDF with the right stamp.
                 graded_results[section_key]["MCQ"] = {}
                 model_mcqs = model_answers.get(section_key, {}).get("MCQ", {})
-                
+
                 for mcq_num, mcq_data in question_content.items():
-                    student_ans = mcq_data.get("student_answer", "")
+                    student_ans  = mcq_data.get("student_answer", "")
                     question_text = mcq_data.get("question_text") or mcq_data.get("question", "")
-                    model_mcq = model_mcqs.get(mcq_num, {})
-                    model_ans = model_mcq.get("model_answer", "")
-                    marks = model_mcq.get("marks", 2)
-                    
-                    qid = mcq_data.get("question_id", f"A-MCQ-{mcq_num}" if "SectionA" in section_key else f"MCQ-{mcq_num}")
-                    if qid in skip_or_questions:
-                        graded_results[section_key]["MCQ"][mcq_num] = {
-                            "question": question_text,
-                            "question_id": qid,
-                            "question_number": mcq_num,
-                            "student_answer": "",
-                            "model_answer": "",
-                            "marks_obtained": 0, "marks_total": 0,
-                            "feedback": "Skipped (OR alternative)",
-                            "skipped_or_alternative": True
-                        }
-                        continue
-                    
-                    mcq_result = grade_mcq(
-                        student_ans, model_ans,
-                        marks=int(marks) if str(marks).isdigit() else 2,
-                        question=question_text
+                    model_mcq    = model_mcqs.get(mcq_num, {})
+                    model_ans    = model_mcq.get("model_answer", "")
+                    marks        = model_mcq.get("marks", 2)
+                    qid          = mcq_data.get(
+                        "question_id",
+                        f"A-MCQ-{mcq_num}" if "SectionA" in section_key else f"MCQ-{mcq_num}"
                     )
-                    
+
                     graded_results[section_key]["MCQ"][mcq_num] = {
-                        "question": question_text,
-                        "question_id": qid,
+                        "question":        question_text,
+                        "question_id":     qid,
                         "question_number": mcq_num,
-                        "student_answer": student_ans,
-                        "model_answer": model_ans,
-                        **mcq_result
+                        "student_answer":  student_ans,
+                        "model_answer":    model_ans,
+                        "marks_obtained":  None,   # pending — teacher enters manually
+                        "marks_total":     float(marks) if str(marks).replace('.', '').isdigit() else 2.0,
+                        "feedback":        "MCQ marks to be entered manually by teacher",
+                        "skipped_mcq":     True,
                     }
                     mcq_count += 1
             
@@ -509,12 +499,8 @@ def grade_all_answers(aligned_answers: dict, model_answers: dict, student_pdf_pa
                     skip_or_questions
                 )
     
-    # Calculate totals
+    # Calculate totals — MCQs (skipped_mcq=True) are excluded; teacher adds them later
     all_graded_items = _flatten_results(graded_results)
-    total_marks_obtained = sum(item.get("marks_obtained", 0) for item in all_graded_items)
-    total_marks_possible = sum(item.get("marks_total", 0) for item in all_graded_items)
-    
-    # Improved counting logic
     descriptive_count = 0
     mcq_count = 0
     for item in all_graded_items:
@@ -523,20 +509,33 @@ def grade_all_answers(aligned_answers: dict, model_answers: dict, student_pdf_pa
             mcq_count += 1
         else:
             descriptive_count += 1
-    
+
+    # Only sum descriptive marks (MCQs have marks_obtained = None)
+    total_marks_obtained = sum(
+        float(item.get("marks_obtained") or 0)
+        for item in all_graded_items
+        if not item.get("skipped_mcq")
+    )
+    total_marks_possible = sum(
+        float(item.get("marks_total") or 0)
+        for item in all_graded_items
+        if not item.get("skipped_mcq")
+    )
+
     percentage = (total_marks_obtained / total_marks_possible * 100) if total_marks_possible > 0 else 0
-    
+
     return {
         "metadata": {
-            "graded_at": datetime.now().isoformat(),
-            "grading_model": CLAUDE_MODEL,
-            "total_questions": mcq_count + descriptive_count,
-            "mcq_questions": mcq_count,
+            "graded_at":             datetime.now().isoformat(),
+            "grading_model":         CLAUDE_MODEL,
+            "total_questions":       mcq_count + descriptive_count,
+            "mcq_questions":         mcq_count,
             "descriptive_questions": descriptive_count,
-            "total_marks_possible": total_marks_possible,
-            "total_marks_obtained": total_marks_obtained,
-            "percentage": round(percentage, 2),
-            "grade": calculate_grade(percentage)
+            "total_marks_possible":  total_marks_possible,
+            "total_marks_obtained":  total_marks_obtained,
+            "percentage":            round(percentage, 2),
+            "grade":                 calculate_grade(percentage),
+            "mcq_marks_pending":     True,   # teacher enters MCQ marks in Edit Checked Copy UI
         },
         "graded_answers": graded_results
     }

@@ -287,6 +287,7 @@ function EditCheckedCopy() {
     const [submitting, setSubmitting] = useState(false);
     const [error,      setError]      = useState('');
     const [toast,      setToast]      = useState('');
+    const [mcqMarks,   setMcqMarks]   = useState('');
 
     /* ── Data load ──────────────────────────────────────────────────────── */
 
@@ -409,8 +410,12 @@ function EditCheckedCopy() {
         return res.length > 0 ? res : null;
     };
 
+    const mcqPending = manifest?.grand_total?.mcq_pending === true;
+    const hasMcqInput = mcqPending && mcqMarks !== '';
+    const isDirty = Object.keys(changes).length > 0 || hasMcqInput;
+
     const handleSubmit = async () => {
-        if (Object.keys(changes).length === 0) {
+        if (!isDirty) {
             showToast('No changes to apply');
             return;
         }
@@ -447,6 +452,10 @@ function EditCheckedCopy() {
                 if (Object.keys(c).length > 0) corrections[mkey] = c;
             }
 
+            if (hasMcqInput) {
+                corrections["__mcq_marks__"] = parseFloat(mcqMarks);
+            }
+
             const blob = await patchCheckedCopy(id, corrections);
             saveBlob(blob, `${student?.student_name || 'student'}_checked_copy_edited.pdf`);
             showToast('✓ Edited copy downloaded successfully!');
@@ -466,6 +475,11 @@ function EditCheckedCopy() {
 
     const gtOriginal   = manifest?.grand_total || { obtained: 0, total: 0 };
     let   newObtained  = gtOriginal.obtained;
+    
+    if (hasMcqInput) {
+        newObtained += parseFloat(mcqMarks) || 0;
+    }
+
     for (const [mkey, corr] of Object.entries(changes)) {
         if (corr.marks_obtained !== undefined && questions[mkey]) {
             newObtained += corr.marks_obtained - questions[mkey].marks_obtained;
@@ -514,7 +528,7 @@ function EditCheckedCopy() {
                     )}
                 </div>
                 <div className="ecc-header-actions">
-                    {dirtyCount > 0 && (
+                    {isDirty && (
                         <button id="ecc-reset-btn" className="ecc-reset-btn" onClick={resetAll}>
                             Reset all
                         </button>
@@ -523,12 +537,12 @@ function EditCheckedCopy() {
                         id="ecc-submit-btn"
                         className={`ecc-submit-btn ${submitting ? 'loading' : ''}`}
                         onClick={handleSubmit}
-                        disabled={submitting || dirtyCount === 0}
+                        disabled={submitting || !isDirty}
                     >
                         {submitting ? (
                             <><span className="btn-spinner" /> Generating…</>
                         ) : (
-                            `⬇ Save & Download Edited Copy${dirtyCount > 0 ? ` (${dirtyCount} change${dirtyCount > 1 ? 's' : ''})` : ''}`
+                            `⬇ Save & Download Edited Copy${isDirty ? ' (changes pending)' : ''}`
                         )}
                     </button>
                 </div>
@@ -549,6 +563,28 @@ function EditCheckedCopy() {
                     </div>
                 )}
             </div>
+
+            {mcqPending && (
+                <div className="ecc-mcq-panel">
+                    <div className="ecc-mcq-header">
+                        <h3>Section A (MCQs) Marks</h3>
+                        <p>The AI skipped grading MCQs. Enter the total MCQ marks here.</p>
+                    </div>
+                    <div className="ecc-mcq-input-group">
+                        <input
+                            type="number"
+                            min="0"
+                            max={manifest?.mcq_total?.total || 30}
+                            step="0.5"
+                            value={mcqMarks}
+                            onChange={(e) => setMcqMarks(e.target.value)}
+                            placeholder="e.g. 18"
+                            className="ecc-mcq-input"
+                        />
+                        <span className="ecc-mcq-total">/ {manifest?.mcq_total?.total || 30}</span>
+                    </div>
+                </div>
+            )}
 
             <main className="ecc-main">
                 {qKeys.length === 0 ? (
@@ -577,10 +613,10 @@ function EditCheckedCopy() {
                 )}
             </main>
 
-            {dirtyCount > 0 && (
+            {isDirty && (
                 <div className="ecc-sticky-bar">
                     <span className="ecc-sticky-label">
-                        {dirtyCount} question{dirtyCount > 1 ? 's' : ''} edited
+                        Unsaved changes pending
                     </span>
                     <button
                         id="ecc-sticky-submit"

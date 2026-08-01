@@ -1195,6 +1195,74 @@ def _draw_marks_stamp(
     c.restoreState()
 
 
+def _draw_pending_mcq_stamp(
+    c: canvas.Canvas,
+    cx: float, cy: float,
+    marks_total: float,
+    font_name: str,
+    scale: float = 1.0,
+):
+    """
+    Draw a marks stamp with '?' as the numerator, indicating MCQ marks are
+    pending (teacher will enter them via the Edit Checked Copy UI).
+
+    Visually identical to _draw_marks_stamp but uses '?' instead of a number.
+    """
+    FONT_SIZE  = int(28 * scale)
+    LINE_GAP   = int(4  * scale)
+    RULE_W_PAD = int(6  * scale)
+    TEXT_SW    = max(1.0, 2.5 * scale)
+    RULE_SW    = max(1.2, min(3.5, 1.8 * scale))
+    OVAL_SW    = max(1.5, min(5.0, random.uniform(2.0, 2.8) * scale))
+
+    obtained_str = "?"
+    total_str    = str(int(marks_total)) if marks_total == int(marks_total) else f"{marks_total:.1f}"
+
+    char_w       = FONT_SIZE * 0.55
+    numer_w      = len(obtained_str) * char_w
+    denom_w      = len(total_str)    * char_w
+    rule_w       = max(numer_w, denom_w) + RULE_W_PAD * 2
+    total_height = FONT_SIZE * 2 + LINE_GAP * 2 + 2
+
+    c.saveState()
+    c.translate(cx, cy)
+
+    rule_y  =  0
+    numer_y =  rule_y + LINE_GAP + 2
+    denom_y =  rule_y - LINE_GAP - FONT_SIZE + 4
+
+    _draw_bold_text(c, obtained_str, -numer_w / 2, numer_y, font_name, FONT_SIZE, TEXT_SW)
+
+    c.setStrokeColor(red)
+    c.setLineWidth(RULE_SW)
+    c.line(-rule_w / 2, rule_y, rule_w / 2, rule_y)
+
+    _draw_bold_text(c, total_str, -denom_w / 2, denom_y, font_name, FONT_SIZE, TEXT_SW)
+
+    rx = rule_w / 2 + FONT_SIZE * 0.35
+    ry = total_height / 2 + FONT_SIZE * 0.20
+
+    c.setStrokeColor(red)
+    c.setLineWidth(OVAL_SW)
+    c.rotate(random.uniform(-6, 6))
+
+    def j(s):
+        return random.uniform(-rx * s, rx * s)
+
+    sx, sy = j(0.08), ry + j(0.06)
+    path = c.beginPath()
+    path.moveTo(sx, sy)
+    path.curveTo( rx + j(0.09),  ry + j(0.09),
+                  rx + j(0.09), -ry + j(0.09),
+                  j(0.08),      -ry - j(0.06))
+    path.curveTo(-rx + j(0.09), -ry + j(0.09),
+                 -rx + j(0.09),  ry + j(0.09),
+                  sx + j(0.12),  sy + j(0.12))
+    c.drawPath(path, stroke=1, fill=0)
+
+    c.restoreState()
+
+
 def _draw_total_marks_stamp(
     c: canvas.Canvas,
     cx: float, cy: float,
@@ -1808,16 +1876,22 @@ def generate_checked_copy(
     paper_num       = str(meta.get("paper_num", "")).lower()
     is_portionwise  = ("portionwise" in paper_num) or (grand_total < 100)
     is_full_paper   = not is_portionwise
-    mcq_total_obtained = sum(
-        float(entry.get("marks_obtained", 0) or 0)
-        for (sec, q_id), entry in grading_lookup.items()
+    _mcq_entries = [
+        entry for (sec, q_id), entry in grading_lookup.items()
         if sec == "SectionA"
-    )
+    ]
+    _mcq_skipped = _mcq_entries and all(e.get("skipped_mcq") for e in _mcq_entries)
+    if _mcq_skipped:
+        mcq_total_obtained = None   # pending — teacher enters manually
+    else:
+        mcq_total_obtained = sum(
+            float(entry.get("marks_obtained", 0) or 0)
+            for entry in _mcq_entries
+        )
     mcq_total_possible = sum(
         float(entry.get("marks_total", 0) or 0)
-        for (sec, q_id), entry in grading_lookup.items()
-        if sec == "SectionA"
-    )
+        for entry in _mcq_entries
+    ) or 30.0
     mcq_page_marked = False
 
 
@@ -2031,13 +2105,14 @@ def generate_checked_copy(
             _gt_y_frac_page1 = 1.0 - gt_y / pdf_h   # convert ReportLab y → image frac
             _gt_bounds_page1 = (gt_y - oval_ry, gt_y + oval_ry)
             _manifest["grand_total"] = {
-                "obtained": grand_obtained,
-                "total":    grand_total,
-                "page":     page_num,
-                "x":        gt_x,
-                "y":        gt_y,
-                "y_frac":   _gt_y_frac_page1,
-                "scale":    page_scale,
+                "obtained":    grand_obtained,
+                "total":       grand_total,
+                "page":        page_num,
+                "x":           gt_x,
+                "y":           gt_y,
+                "y_frac":      _gt_y_frac_page1,
+                "scale":       page_scale,
+                "mcq_pending": mcq_total_obtained is None,
             }
 
         # ── MCQ total stamp on page 1 (top-left corner) ─────────────────────────
@@ -2050,26 +2125,33 @@ def generate_checked_copy(
                         has_mcqs_for_stamp = True
                         break
             if has_mcqs_for_stamp:
-                mcq_page_marked = True
-                _f = int(28 * page_scale)
-                _half_h = _f * 2 + int(4 * page_scale) * 2 + _f * 0.20 + 10
-                mcq_x = pdf_w * 0.15
-                mcq_y = pdf_h * 0.88 - _half_h
-                _draw_marks_stamp(c, mcq_x, mcq_y, mcq_total_obtained, 30.0, font_name, scale=page_scale)
-                
-                _manifest["mcq_total"] = {
-                    "obtained": mcq_total_obtained,
-                    "total":    30.0,
-                    "page":     page_num,
-                    "x":        mcq_x,
-                    "y":        mcq_y,
-                    "scale":    page_scale,
-                }
-                
-                # Exclude pixels so feedback search doesn't land on it
-                stamp_cy_px = int((1.0 - mcq_y / pdf_h) * img_h)
-                for pr in range(stamp_cy_px - 80, stamp_cy_px + 81):
-                    page_excluded_px_rows.add(pr)
+                    mcq_page_marked = True
+                    _f = int(28 * page_scale)
+                    _half_h = _f * 2 + int(4 * page_scale) * 2 + _f * 0.20 + 10
+                    mcq_x = pdf_w * 0.15
+                    mcq_y = pdf_h * 0.88 - _half_h
+
+                    if mcq_total_obtained is None:
+                        # MCQ marks pending — draw ?/30 placeholder
+                        _draw_pending_mcq_stamp(c, mcq_x, mcq_y, mcq_total_possible, font_name, scale=page_scale)
+                    else:
+                        _draw_marks_stamp(c, mcq_x, mcq_y, mcq_total_obtained, mcq_total_possible, font_name, scale=page_scale)
+
+                    _manifest["mcq_total"] = {
+                        "obtained": mcq_total_obtained,   # None = pending
+                        "total":    mcq_total_possible,
+                        "pending":  mcq_total_obtained is None,
+                        "page":     page_num,
+                        "x":        mcq_x,
+                        "y":        mcq_y,
+                        "scale":    page_scale,
+                    }
+
+                    # Exclude pixels so feedback search doesn't land on it
+                    stamp_cy_px = int((1.0 - mcq_y / pdf_h) * img_h)
+                    for pr in range(stamp_cy_px - 80, stamp_cy_px + 81):
+                        page_excluded_px_rows.add(pr)
+
 
 
         if not items:

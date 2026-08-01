@@ -86,6 +86,7 @@ try:
         _draw_tick,
         _draw_cross,
         _draw_marks_stamp,
+        _draw_pending_mcq_stamp,
         _draw_total_marks_stamp,
         _draw_bold_text,
         _draw_circle,
@@ -285,6 +286,19 @@ def _apply_corrections_to_manifest(manifest: dict, corrections: dict) -> dict:
     marks_delta = 0.0   # total change in obtained marks across all questions
 
     for mkey, corr in corrections.items():
+        if mkey == "__mcq_marks__":
+            new_mcq = float(corr)
+            if m.get("mcq_total"):
+                old_mcq = m["mcq_total"].get("obtained")
+                if old_mcq is None:
+                    marks_delta += new_mcq
+                    m["mcq_total"]["pending"] = False
+                else:
+                    marks_delta += new_mcq - old_mcq
+                m["mcq_total"]["obtained"] = new_mcq
+                print(f"  📝 Global MCQ marks set to {new_mcq}")
+            continue
+
         if mkey not in m["questions"]:
             print(f"  ⚠ Warning: question key '{mkey}' not found in manifest — skipping")
             continue
@@ -607,17 +621,29 @@ def _redraw_from_manifest(
             # ── MCQ-total stamp ────────────────────────────────────────────
             elif t == "mcq_total":
                 scale = float(data.get("scale", pdf_h / 842.0))
-                _draw_marks_stamp(
-                    c,
-                    float(data["x"]),
-                    float(data["y"]),
-                    float(data["obtained"]),
-                    float(data["total"]),
-                    font_name,
-                    scale=scale,
-                )
-                print(f"  ✓ P{page_num:>2} MCQ total stamp    "
-                      f"{data['obtained']}/{data['total']}")
+                obtained = data.get("obtained")
+                if obtained is None or data.get("pending"):
+                    _draw_pending_mcq_stamp(
+                        c,
+                        float(data["x"]),
+                        float(data["y"]),
+                        float(data["total"]),
+                        font_name,
+                        scale=scale,
+                    )
+                    print(f"  ✓ P{page_num:>2} MCQ total stamp    ?/30 (pending)")
+                else:
+                    _draw_marks_stamp(
+                        c,
+                        float(data["x"]),
+                        float(data["y"]),
+                        float(obtained),
+                        float(data["total"]),
+                        font_name,
+                        scale=scale,
+                    )
+                    print(f"  ✓ P{page_num:>2} MCQ total stamp    "
+                          f"{obtained}/{data['total']}")
 
             # ── Per-question marks stamp ──────────────────────────────────
             elif t == "stamp":

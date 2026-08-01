@@ -296,10 +296,11 @@ def _apply_top5_scoring(grading_results: dict, compulsory_q: str = "Q1",
                     f"{q_key} not counted: lower-scoring optional question excluded"
                 )
 
+    # Sum MCQ marks — MCQs with skipped_mcq=True have marks_obtained=None; exclude them.
     total_obtained = sum(
-        float(v.get("marks_obtained", 0))
+        float(v.get("marks_obtained") or 0)
         for v in graded.get("SectionA", {}).get("MCQ", {}).values()
-        if isinstance(v, dict)
+        if isinstance(v, dict) and not v.get("skipped_mcq")
     )
 
     counted_keys = {compulsory_q} | top4_keys
@@ -322,6 +323,15 @@ def _apply_top5_scoring(grading_results: dict, compulsory_q: str = "Q1",
     )
     grading_results["metadata"]["top5_questions"]     = sorted(counted_keys)
     grading_results["metadata"]["excluded_questions"] = sorted(excluded_keys)
+
+    # Flag if any MCQ was skipped (teacher must enter marks manually)
+    mcq_pending = any(
+        v.get("skipped_mcq")
+        for v in graded.get("SectionA", {}).get("MCQ", {}).values()
+        if isinstance(v, dict)
+    )
+    if mcq_pending:
+        grading_results["metadata"]["mcq_marks_pending"] = True
 
     print(f"\n  Scoring ({'Portionwise' if is_portionwise else 'FT Top-5'}):")
     print(f"    Counted   : {sorted(counted_keys)}")
