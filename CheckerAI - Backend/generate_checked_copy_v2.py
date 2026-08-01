@@ -1878,7 +1878,7 @@ def generate_checked_copy(
     is_full_paper   = not is_portionwise
     _mcq_entries = [
         entry for (sec, q_id), entry in grading_lookup.items()
-        if sec == "SectionA"
+        if sec == "SectionA" and "marks_obtained" in entry
     ]
     _mcq_skipped = _mcq_entries and all(e.get("skipped_mcq") for e in _mcq_entries)
     if _mcq_skipped:
