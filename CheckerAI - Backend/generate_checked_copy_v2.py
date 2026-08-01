@@ -2254,10 +2254,13 @@ def generate_checked_copy(
                             ink_top + (_qs / _total_ocr_ln) * (ink_bot - ink_top)
                         )
                     else:
-                        # Un-found via OCR: only assign a fallback if it is the ONLY question 
-                        # on the page. Otherwise, it is likely a ghost assignment by the alignment model.
+                        # Un-found via OCR: we must assign a fallback so they don't all pile up at 0.0
                         if len(_first_items) == 1:
                             pre_heading_fracs[_qn] = ink_top + 0.1
+                        else:
+                            # Evenly distribute based on their relative index in the first items list
+                            spacing = (ink_bot - ink_top) / (len(_first_items) + 1)
+                            pre_heading_fracs[_qn] = ink_top + spacing * (_schema_idx + 1)
 
         # Track chosen Y coordinates (as fractions) globally per page
         # so if P14 has BOTH Q7 and Q8, their marks don't overlap side-by-side!
@@ -2820,7 +2823,8 @@ def generate_checked_copy(
                     fb_y_frac_used = 1.0 - fb_y_final / pdf_h
                     page_used_y_fracs.append(fb_y_frac_used)
                     fb_cy_px = int((1.0 - fb_y_final / pdf_h) * img_h)
-                    for pr2 in range(fb_cy_px - 20, fb_cy_px + 21):
+                    half_h = max(30, fb_need_h_px // 2 + 15)
+                    for pr2 in range(fb_cy_px - half_h, fb_cy_px + half_h + 1):
                         page_excluded_px_rows.add(pr2)
                     placed = True
                 else:
@@ -2867,6 +2871,10 @@ def generate_checked_copy(
                         fb_x_final = min(fb_x_final, pdf_w - fb_text_w_pt - 10)
                         fb_x_final = max(fb_x_final, pdf_w * 0.04)
                         page_used_y_fracs.append(1.0 - fb_y_final / pdf_h)
+                        fb_cy_px = int((1.0 - fb_y_final / pdf_h) * img_h)
+                        half_h = max(30, fb_need_h_px // 2 + 15)
+                        for pr2 in range(fb_cy_px - half_h, fb_cy_px + half_h + 1):
+                            page_excluded_px_rows.add(pr2)
                         placed = True
                     print(f"    [DEBUG] Q{q_num} feedback placed via clear-xy fallback at (x={fb_x_final:.0f}, y={fb_y_final:.0f})", flush=True)
 

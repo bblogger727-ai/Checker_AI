@@ -290,11 +290,10 @@ def grade_two_phase(question_text: str, model_answer: str, student_answer: str, 
     Full two-phase grading: comparison → scoring.
     Uses Claude Sonnet 4 for both phases.
     """
-    # Handle blank/empty answers
-    if not student_answer or not student_answer.strip():
+    if not is_meaningful_answer(student_answer):
         return {
             "marks_obtained": 0, "marks_total": marks,
-            "feedback": "No student answer provided.",
+            "feedback": "",
             "tier": "poor", "grading_method": "no_answer",
             "key_points_covered": [], "key_points_missed": []
         }
@@ -339,6 +338,29 @@ def is_practical_question(question_text: str) -> bool:
     q_lower = question_text.lower()
     return any(k in q_lower for k in keywords) and len(question_text) > 50
 
+
+def is_meaningful_answer(student_ans: str) -> bool:
+    """
+    Determine if the student actually wrote a meaningful answer,
+    or just wrote the question number (e.g. "Q=2(a)", "Que = 1(a)").
+    """
+    if not student_ans or not student_ans.strip():
+        return False
+        
+    s = student_ans.lower()
+    # Remove common question headers and punctuation
+    for word in ["que", "question", "ans", "answer", "acc", "paper", "q", "=", "-", ":", ".", "(", ")", " ", "\n", "\t", "\r"]:
+        s = s.replace(word, "")
+    
+    # Remove numbers and single alphabet characters (like 'a', 'b' for subparts)
+    s = re.sub(r'[0-9]', '', s)
+    s = re.sub(r'^[a-z]$', '', s)
+    
+    # If there's less than 3 actual content characters left, it's not a real answer
+    if len(s) < 3:
+        return False
+        
+    return True
 
 # ============== OR GROUP HANDLING ==============
 
@@ -577,6 +599,13 @@ def _grade_question_recursive(q_key, q_content, model_q, qid, result_ref, skip_i
         question_text = q_content.get("question") or q_content.get("question_text", "")
         student_ans = q_content.get("student_answer", "")
         model_ans = model_q.get("model_answer", "") if isinstance(model_q, dict) else ""
+        
+        # If there is no meaningful answer, we skip printing anything in the checked copy.
+        # We do this by setting student_answer = "" which signals generate_checked_copy_v2.py
+        # to skip this question entirely.
+        if not is_meaningful_answer(student_ans):
+            student_ans = ""
+            q_content["student_answer"] = ""
         
         marks = 5
         if isinstance(model_q, dict):
