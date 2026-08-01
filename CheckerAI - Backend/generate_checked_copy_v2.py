@@ -1888,10 +1888,7 @@ def generate_checked_copy(
             float(entry.get("marks_obtained", 0) or 0)
             for entry in _mcq_entries
         )
-    mcq_total_possible = sum(
-        float(entry.get("marks_total", 0) or 0)
-        for entry in _mcq_entries
-    ) or 30.0
+    mcq_total_possible = 30.0
     mcq_page_marked = False
 
 
@@ -2115,16 +2112,22 @@ def generate_checked_copy(
                 "mcq_pending": mcq_total_obtained is None,
             }
 
-        # ── MCQ total stamp on page 1 (top-left corner) ─────────────────────────
-        if page_num == 1 and is_full_paper and not mcq_page_marked:
+        # ── MCQ total stamp on page where MCQs are (or fallback to last page) ──────────
+        if is_full_paper and not mcq_page_marked:
             ocr_page_text = _load_ocr_page_text(ocr_text_path, page_num) if ocr_text_path else ""
             has_mcqs_for_stamp = False
+            
+            # If it's the last page and we still haven't marked it, force it here
+            is_last_page = (page_num == num_pages)
+            
             if ocr_page_text:
-                for mcq_key in ["MCQ", "mcq", "Multiple Choice", "(a)", "(b)", "(c)", "(d)"]:
-                    if mcq_key in ocr_page_text:
+                # Use stricter keywords so we don't accidentally match page 1 because of "(a)"
+                for mcq_key in ["mcq", "multiple choice", "section a", "section-a"]:
+                    if mcq_key in ocr_page_text.lower():
                         has_mcqs_for_stamp = True
                         break
-            if has_mcqs_for_stamp:
+            
+            if has_mcqs_for_stamp or is_last_page:
                     mcq_page_marked = True
                     _f = int(28 * page_scale)
                     _half_h = _f * 2 + int(4 * page_scale) * 2 + _f * 0.20 + 10
