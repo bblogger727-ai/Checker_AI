@@ -110,23 +110,25 @@ def run_stage_1_2_FT(ft_paper_json_path: str) -> dict:
 
     # ── Section A: MCQs ──────────────────────────────────────────────────────
     section_a_raw = paper.get("section_a", [])
-    mcq_block: dict = {}
-    serial_counter = 0
+    
+    # Fix: MCQ numbering in JSON sometimes resets per case study, but actual papers 
+    # and students number them continuously 1-15.
+    mcq_block = {}
+    mcq_global_counter = 0
+    last_base_key = "1"
 
     for case_study in section_a_raw:
         for q in case_study.get("questions", []):
-            serial = q.get("_serial") or q.get("q_num")
-            if serial is None:
-                serial_counter += 1
-                serial = serial_counter
+            serial = str(q.get("_serial") or q.get("q_num") or "")
+            
+            if "_v2" in str(serial).lower():
+                # It's an OR choice for the previous MCQ
+                key = f"{last_base_key}_v2"
             else:
-                try:
-                    serial_counter = int(serial)
-                except (ValueError, TypeError):
-                    pass  # v2 serials like "1_v2" — just keep current counter
+                mcq_global_counter += 1
+                key = str(mcq_global_counter)
+                last_base_key = key
 
-
-            key = str(serial)
             correct = q.get("correct_option", q.get("answer", ""))
             # Normalise: strip parentheses, lowercase, take first char
             correct = correct.strip("() ").lower()
@@ -138,9 +140,9 @@ def run_stage_1_2_FT(ft_paper_json_path: str) -> dict:
                 "options":         q.get("options", {}),
                 "model_answer":    correct,
                 "marks":           2,
-                "question_number": f"Q{serial}",
-                "question_id":     q.get("question_id", f"A-MCQ-{serial}"),
-                "or_group":        q.get("or_group"),
+                "question_number": f"Q{key}",
+                "question_id":     f"A-MCQ-{key}",
+                "or_group":        q.get("or_group")
             }
 
     schema_with_answers["SectionA"] = {"MCQ": mcq_block}
@@ -334,7 +336,7 @@ def _apply_top5_scoring(grading_results: dict, compulsory_q: str = "Q1", paper_m
     if not section_b:
         section_b = graded.get("PART_I", {})
 
-    total_possible = float(paper_meta.get("total_marks_in_paper") or paper_meta.get("total_marks_printed") or 100)
+    total_possible = float(paper_meta.get("total_marks_printed") or paper_meta.get("total_marks_in_paper") or 100)
     is_portionwise = total_possible < 100 or "portionwise" in str(paper_meta.get("paper_num", "")).lower()
 
     def q_total_obtained(q_content: dict) -> float:

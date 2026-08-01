@@ -128,8 +128,8 @@ def run_stage_1_2_FT(ft_paper_json_path: str, output_dir: str) -> dict:
                 "model_answer":    correct,
                 "marks":           2,
                 "question_number": f"Q{serial_display}",
-                "question_id":     q.get("question_id", f"A-MCQ-{serial_display}"),
-                "or_group":        q.get("or_group"),
+                "question_id":     f"A-MCQ-{serial_display}",
+                "or_group":        q.get("or_group")
             }
 
     schema_with_answers["SectionA"] = {"MCQ": mcq_block}
