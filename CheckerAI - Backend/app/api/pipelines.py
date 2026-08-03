@@ -179,14 +179,7 @@ def _run_subprocess(task_id: str, cmd: list[str], output_dir: Path, profile_api_
         _tasks[task_id]["error"]  = str(e)
 
 
-def _find_existing_job_dir(student_name: str, pipeline_type: str) -> Optional[Path]:
-    """
-    Find the most recent existing job folder in _JOBS_DIR for this student_name
-    and pipeline_type that already has OCR completed (3_ocr_output.txt or ocr_output.txt).
-    """
-    if not student_name or not student_name.strip():
-        return None
-    
+def _find_existing_job_dir(student_name: str, pipeline_type: str, ft_paper_path: str = None) -> Path | None:
     safe_name = "".join([c if c.isalnum() else "_" for c in student_name.strip()]).strip("_")
     if not safe_name or not _JOBS_DIR.exists():
         return None
@@ -202,6 +195,9 @@ def _find_existing_job_dir(student_name: str, pipeline_type: str) -> Optional[Pa
             try:
                 meta = json.loads(meta_path.read_text(encoding="utf-8"))
                 if meta.get("student_name", "").strip() == student_name.strip() and meta.get("pipeline") == pipeline_type:
+                    # If this is an FT pipeline, only reuse if it's the exact same paper
+                    if ft_paper_path and meta.get("ft_paper_path") != ft_paper_path:
+                        continue
                     is_match = True
             except Exception:
                 pass
@@ -344,7 +340,7 @@ async def run_new_pipeline(
     if not paper_path.exists():
         raise HTTPException(status_code=404, detail=f"Paper JSON not found: {ft_paper_path}")
 
-    existing_dir = _find_existing_job_dir(student_name, "new")
+    existing_dir = _find_existing_job_dir(student_name, "new", ft_paper_path=str(paper_path))
     if existing_dir:
         output_dir = existing_dir
         task_id = existing_dir.name
