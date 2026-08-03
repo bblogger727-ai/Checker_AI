@@ -342,21 +342,34 @@ def is_practical_question(question_text: str) -> bool:
 def is_meaningful_answer(student_ans: str) -> bool:
     """
     Determine if the student actually wrote a meaningful answer,
-    or just wrote the question number (e.g. "Q=2(a)", "Que = 1(a)").
+    or just wrote the question number (e.g. "Q=2(a)", "Soln to Q1a").
     """
     if not student_ans or not student_ans.strip():
         return False
         
     s = student_ans.lower()
-    # Remove common question headers and punctuation
-    for word in ["que", "question", "ans", "answer", "acc", "paper", "q", "=", "-", ":", ".", "(", ")", " ", "\n", "\t", "\r"]:
-        s = s.replace(word, "")
     
-    # Remove numbers and single alphabet characters (like 'a', 'b' for subparts)
-    s = re.sub(r'[0-9]', '', s)
-    s = re.sub(r'^[a-z]$', '', s)
+    # Replace punctuation and whitespace with spaces
+    s = re.sub(r'[=\-:\.\(\)\[\]]', ' ', s)
     
-    # If there's less than 3 actual content characters left, it's not a real answer
+    # Replace all numbers with spaces
+    s = re.sub(r'[0-9]', ' ', s)
+    
+    # Remove common filler words as whole words
+    filler_words = [
+        "que", "question", "ans", "answer", "soln", "solution", "to", 
+        "part", "sec", "section", "for", "page", "acc", "paper", "q"
+    ]
+    pattern = r'\b(' + '|'.join(filler_words) + r')\b'
+    s = re.sub(pattern, ' ', s)
+    
+    # Remove any standalone single letters (like 'q', 'a', 'b', 'i', 'v', 'x' used for numbering)
+    s = re.sub(r'\b[a-z]\b', ' ', s)
+    
+    # Remove all spaces to count remaining meaningful characters
+    s = s.replace(' ', '')
+    
+    # If there's less than 3 actual content characters left, it's likely just a label
     if len(s) < 3:
         return False
         
