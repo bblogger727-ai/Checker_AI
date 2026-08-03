@@ -358,7 +358,7 @@ def is_meaningful_answer(student_ans: str) -> bool:
     # Remove common filler words as whole words
     filler_words = [
         "que", "question", "ans", "answer", "soln", "solution", "to", 
-        "part", "sec", "section", "for", "page", "acc", "paper", "q"
+        "part", "sec", "section", "for", "page", "acc", "paper", "q", "Q"
     ]
     pattern = r'\b(' + '|'.join(filler_words) + r')\b'
     s = re.sub(pattern, ' ', s)
@@ -369,8 +369,8 @@ def is_meaningful_answer(student_ans: str) -> bool:
     # Remove all spaces to count remaining meaningful characters
     s = s.replace(' ', '')
     
-    # If there's less than 3 actual content characters left, it's likely just a label
-    if len(s) < 3:
+    # If there's less than 10 actual content characters left, it's likely just a label
+    if len(s) < 10:
         return False
         
     return True

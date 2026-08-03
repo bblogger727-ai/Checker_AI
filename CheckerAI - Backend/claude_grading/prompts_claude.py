@@ -48,6 +48,9 @@ Do NOT drop a student from 'very_good' to 'good' merely because they missed proc
 ### Rule 7 — KEY POINTS WITHOUT EXPLANATION
 - If a student has only written the key points (e.g. 3-4 key points) without any supporting explanation, you MUST award at least an `okay` tier (rather than `poor`).
 
+### Rule 8 — MINIMUM CONTENT REQUIREMENT
+- The student answer MUST contain at least 5 meaningful words relating to the question (excluding mere headings like "Ans to Q1a"). If the text consists only of a heading or less than 5 words of actual content, you MUST assign the `poor` tier and award 0 marks.
+
 QUALITY TIERS:
 - poor:     Blank, completely irrelevant, or concludes the opposite of reality with no keywords.
 - okay:     Correct conclusion OR identified 1-2 key technical concepts OR listed 3-4 key points without explanation. Language may be mangled but intent is visible.
@@ -111,6 +114,9 @@ Do not assign poor for wrong final answer alone. Wrong answer + correct logic = 
 
 RULE 9 — CORRECT DATES / KEY IDENTIFIERS MANGLED BY OCR:
 If the question requires identifying specific dates, rates, or short identifiers, and the student's final findings (e.g., '7th April', '20th March') match the model, award substantial credit (minimum 'okay' or 'good' tier) even if the surrounding text is highly mangled by OCR. Do NOT assign 'poor' if the key extracted dates/identifiers match the model.
+
+RULE 10 — MINIMUM CONTENT REQUIREMENT:
+The student answer MUST contain at least 5 meaningful words or distinct numerical figures relating to the question (excluding mere headings like "Ans to Q1a"). If it does not, you MUST assign the `poor` tier and award 0 marks.
 
 === TIER DEFINITIONS ===
 - poor:      Wrong method AND wrong final result, OR completely off-topic.
