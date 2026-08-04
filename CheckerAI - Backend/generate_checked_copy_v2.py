@@ -1571,6 +1571,7 @@ def _plan_annotations_from_ocr(
     img_h: int = 1000,
     page_excluded_px_rows: set = None,
     text_blocks: list = None,
+    current_page_ann_count: int = 0,
 ) -> list:
     """
     Plan tick/cross annotations for one question on one page.
@@ -1587,10 +1588,15 @@ def _plan_annotations_from_ocr(
     marks_ratio = min(1.0, max(0.0, marks_obtained / marks_total)) if marks_total > 0 else 0
     MIN_SEP     = 0.12
     
+    if current_page_ann_count >= 4:
+        return []
+
     if ink_bot - ink_top <= 0.30:
         max_ann = 1
     else:
         max_ann = random.randint(2, 4)
+        
+    max_ann = min(max_ann, 4 - current_page_ann_count)
 
     # ── Step 1: Use OCR Lines for Physical Y-Placement ───────────────────────────
     y_candidates: list[float] = []
@@ -1673,9 +1679,10 @@ def _plan_annotations_from_ocr(
         if new_y_frac is None:
             if is_first_ann:
                 # Must place at least one mark, relax separation requirement slightly
-                new_y_frac = _get_non_colliding_y(y_frac, page_used_y_fracs, lower_bound, upper_bound, MIN_SEP * 0.75)
+                new_y_frac = _get_non_colliding_y(y_frac, page_used_y_fracs, lower_bound, upper_bound, MIN_SEP * 0.5)
                 if new_y_frac is None:
-                    new_y_frac = y_frac
+                    # To strictly prevent multiple marks on the same horizontal line, skip if no space
+                    continue
             else:
                 # Strictly enforce distance: skip this annotation to prevent overcrowding
                 continue
@@ -2273,6 +2280,7 @@ def generate_checked_copy(
         page_used_y_fracs = []
         page_drawn_rects_y = []  # List of (y_bottom, y_top) in PDF coords
         _page_mcq_top = False   # True when page 1 has MCQ answers in upper half
+        page_annotations_count = 0
 
         # ── Pre-reserve the grand-total stamp zone on page 1 ──────────────
         # The grand total stamp is drawn at the top-right of page 1 before
@@ -2675,11 +2683,12 @@ def generate_checked_copy(
                 is_first        = is_first,
                 heading_y_frac  = heading_y_frac,
                 gray            = gray,
-                img_w           = img_w,
                 img_h           = img_h,
                 page_excluded_px_rows = page_excluded_px_rows,
                 text_blocks     = text_blocks,
+                current_page_ann_count = page_annotations_count,
             )
+            page_annotations_count += len(annotations)
 
             # ── Find feedback spot within this question's OCR bounds ───────────
             fb_x, fb_y = None, None
