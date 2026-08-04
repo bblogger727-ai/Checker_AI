@@ -960,6 +960,68 @@ def _random_ann_x(pdf_w: float, is_practical: bool = False) -> float:
     return random.uniform(pdf_w * 0.35, pdf_w * 0.50)
 
 
+def _find_ink_x(gray, img_w: int, img_h: int, pdf_w: float, y_frac: float, is_practical: bool) -> float:
+    """
+    For crosses: find the center of the LARGEST INK segment on this row.
+    This ensures the cross is drawn ON TOP of the wrong written value,
+    not in blank space next to it.
+    Falls back to _random_ann_x if no ink found.
+    """
+    # Always use actual image dimensions from the image itself to avoid IndexError
+    actual_w, actual_h = gray.size  # PIL: (width, height)
+    px = gray.load()
+    y = int(y_frac * actual_h)
+    y = max(0, min(actual_h - 1, y))
+
+    band_half = int(actual_h * 0.025)  # 2.5% vertical band
+    INK_THR = 200  # pixel < this => ink
+
+    # Ignore left margin and spiral binding
+    x_min = int(actual_w * 0.20)
+    x_max = min(int(actual_w * 0.90), actual_w - 1)
+
+    # Collect ink columns
+    ink_cols = []
+    for x in range(x_min, x_max):
+        for dy in range(-band_half, band_half + 1, 3):
+            yy = min(max(0, y + dy), actual_h - 1)
+            xx = min(max(0, x), actual_w - 1)
+            val = px[xx, yy]
+            # Handle both grayscale (int) and RGB (tuple)
+            scalar = val if isinstance(val, int) else val[0]
+            if scalar < INK_THR:
+                ink_cols.append(x)
+                break
+
+    if not ink_cols:
+        return _random_ann_x(pdf_w, is_practical)
+
+    # Build contiguous ink segments
+    segments = []
+    start = ink_cols[0]
+    prev = start
+    for x in ink_cols[1:]:
+        if x <= prev + 4:  # allow small gaps within a word
+            prev = x
+        else:
+            segments.append((start, prev))
+            start = x
+            prev = x
+    segments.append((start, prev))
+
+    # Prefer the right-most wide segment (most likely to be a value column)
+    # Width threshold: at least 3% of page width
+    min_width = int(actual_w * 0.03)
+    wide_segs = [s for s in segments if s[1] - s[0] >= min_width]
+    if not wide_segs:
+        wide_segs = segments
+
+    # Pick the rightmost wide segment (numbers tend to be on the right side of tables)
+    best = max(wide_segs, key=lambda s: s[0])
+    center_x = (best[0] + best[1]) / 2.0
+    return (center_x / actual_w) * pdf_w
+
+
 # ── Organic circle ────────────────────────────────────────────────────────────
 
 def _draw_circle(c: canvas.Canvas, cx: float, cy: float, width: float, height: float):
@@ -1726,10 +1788,15 @@ def _plan_annotations_from_ocr(
                 page_excluded_px_rows.add(pr)
 
         if gray is not None:
-            ann_x = _find_clear_x(
-                gray, img_w, img_h, pdf_w, y_frac, is_practical,
-                excluded_px_rows=page_excluded_px_rows,
-            )
+            if action == "cross":
+                ann_x = _find_ink_x(
+                    gray, img_w, img_h, pdf_w, y_frac, is_practical,
+                )
+            else:
+                ann_x = _find_clear_x(
+                    gray, img_w, img_h, pdf_w, y_frac, is_practical,
+                    excluded_px_rows=page_excluded_px_rows,
+                )
         else:
             ann_x = _random_ann_x(pdf_w, is_practical=is_practical)
 
@@ -2703,6 +2770,7 @@ def generate_checked_copy(
                 is_first        = is_first,
                 heading_y_frac  = heading_y_frac,
                 gray            = gray,
+                img_w           = img_w,
                 img_h           = img_h,
                 page_excluded_px_rows = page_excluded_px_rows,
                 text_blocks     = text_blocks,
