@@ -1607,7 +1607,7 @@ def _plan_annotations_from_ocr(
     total_lines = len(lines)
     
 
-    estimated_ink_bot = min(ink_bot, ink_top + total_lines * 0.04)
+    estimated_ink_bot = min(ink_bot, ink_top + total_lines * 0.025)
     content_idxs = []
     
     if total_lines > 0:
@@ -2504,7 +2504,14 @@ def generate_checked_copy(
                         except StopIteration:
                             multi_q_target_y_frac = q_top_frac + 0.05
                 else:
-                    multi_q_target_y_frac = q_top_frac + 0.05
+                    if is_first and my_order > 0:
+                        if heading_y_frac is not None:
+                            _min_target = max(0.55, heading_y_frac + 0.05)
+                        else:
+                            _min_target = max(0.55, q_top_frac + 0.05)
+                        multi_q_target_y_frac = min(0.88, _min_target)
+                    else:
+                        multi_q_target_y_frac = q_top_frac + 0.05
             else:
                 q_top_frac, q_bot_frac = ink_top, ink_bot
 
