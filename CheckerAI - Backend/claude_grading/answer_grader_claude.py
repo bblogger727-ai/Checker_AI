@@ -318,6 +318,10 @@ def grade_two_phase(question_text: str, model_answer: str, student_answer: str, 
         if comparison.get("key_points_missed"):
             scoring["key_points_missed"] = comparison.get("key_points_missed", [])
     
+    # Always extract wrong_lines and correct_lines from Phase 1 (used for tick/cross placement)
+    scoring["wrong_lines"]   = comparison.get("wrong_lines", [])
+    scoring["correct_lines"] = comparison.get("correct_lines", [])
+    
     scoring["comparison_reasoning"] = comparison.get("reasoning", "")
     return scoring
 
@@ -651,7 +655,9 @@ def _grade_question_recursive(q_key, q_content, model_q, qid, result_ref, skip_i
             "key_points_covered": grading.get("key_points_covered", []),
             "key_points_missed": grading.get("key_points_missed", []),
             "major_errors": grading.get("major_errors", []),
-            "correct_items": grading.get("correct_items", [])
+            "correct_items": grading.get("correct_items", []),
+            "wrong_lines":   grading.get("wrong_lines", []),
+            "correct_lines": grading.get("correct_lines", []),
         }
         
     elif isinstance(q_content, dict):

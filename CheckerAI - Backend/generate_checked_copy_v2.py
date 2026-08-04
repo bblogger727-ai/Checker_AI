@@ -1022,6 +1022,37 @@ def _find_ink_x(gray, img_w: int, img_h: int, pdf_w: float, y_frac: float, is_pr
     return (center_x / actual_w) * pdf_w
 
 
+def _line_matches_fragment(line: str, fragments: list) -> bool:
+    """
+    Fuzzy-match: return True if any fragment from the list is found
+    in this OCR line.  A fragment matches if ≥60% of its words appear
+    in the line, OR if the fragment is a pure number that appears
+    verbatim in the line.
+    """
+    if not fragments:
+        return False
+    line_lower = line.lower()
+    # Strip punctuation for word-level check
+    line_words = set(re.sub(r'[^a-z0-9]', ' ', line_lower).split())
+    for frag in fragments:
+        frag = str(frag).strip()
+        if not frag:
+            continue
+        # Pure-number match: check if it appears literally in the line
+        if re.fullmatch(r'[\d,\.]+', frag.replace(' ', '')):
+            if frag.replace(',', '').replace('.', '').replace(' ', '') in \
+               re.sub(r'[^0-9]', '', line):
+                return True
+        # Word-overlap match
+        frag_words = re.sub(r'[^a-z0-9]', ' ', frag.lower()).split()
+        if not frag_words:
+            continue
+        overlap = sum(1 for w in frag_words if w in line_words)
+        if overlap / len(frag_words) >= 0.6:
+            return True
+    return False
+
+
 # ── Organic circle ────────────────────────────────────────────────────────────
 
 def _draw_circle(c: canvas.Canvas, cx: float, cy: float, width: float, height: float):
@@ -1634,6 +1665,8 @@ def _plan_annotations_from_ocr(
     page_excluded_px_rows: set = None,
     text_blocks: list = None,
     current_page_ann_count: int = 0,
+    wrong_lines: list = None,
+    correct_lines: list = None,
 ) -> list:
     """
     Plan tick/cross annotations for one question on one page.
@@ -1706,6 +1739,10 @@ def _plan_annotations_from_ocr(
                 y_frac = ink_top + raw_frac * (estimated_ink_bot - ink_top)
                 y_candidates.append(y_frac)
 
+    # Build a parallel list: for each y_candidate, what OCR line text does it correspond to?
+    # Used for semantic tick/cross matching.
+    ann_ocr_lines: list[str] = []
+
     # fallback: if no lines mapped for this question on this page, but we know the page has ink
     if not y_candidates and text_blocks:
         print(f"    [DEBUG] Q{q_num} fallback placed ticks due to missing OCR content lines on page {page_idx_in_q}")
@@ -1718,6 +1755,22 @@ def _plan_annotations_from_ocr(
                     for i in range(max_ann)
                 ]
             y_candidates = y_centers
+        ann_ocr_lines = [""] * len(y_candidates)
+    else:
+        # Map selected line indices to their OCR text
+        ann_ocr_lines = [lines[content_idxs[int(i * (len(content_idxs) / len(y_candidates)))]].strip()
+                         if y_candidates else ""
+                         for i in range(len(y_candidates))]
+        # Safer: rebuild from selected list if it was computed
+        if 'selected' in dir():
+            pass  # selected is accessible in function scope; use it below
+        try:
+            ann_ocr_lines = [lines[sel_idx].strip() for sel_idx in (selected if y_candidates else [])]
+        except Exception:
+            ann_ocr_lines = [""] * len(y_candidates)
+        # Pad if lengths mismatch (fallback safety)
+        while len(ann_ocr_lines) < len(y_candidates):
+            ann_ocr_lines.append("")
 
     # ── Step 4: emit annotations ──────────────────────────────────────────────
     n_sel  = len(y_candidates)
@@ -1768,17 +1821,22 @@ def _plan_annotations_from_ocr(
         is_first_ann = (page_idx_in_q == 0 and ann_idx == 0)
         is_last_ann  = (page_idx_in_q == total_pages - 1 and ann_idx == n_sel - 1)
 
-        # Treat < 20% score as effectively 'no answer': always cross on first annotation
-        meaningful_marks_inline = marks_total > 0 and (marks_obtained / marks_total) >= 0.20
-
-        if is_first_ann:
-            action = "tick" if meaningful_marks_inline else "cross"
-        elif is_last_ann:
-            # Last annotation reflects overall score: high score → tick, low score → cross
-            # Only force a cross at the very end if the score is below 50%
-            action = "cross" if marks_ratio < 0.50 else "tick"
+        # ── Tick or cross decision ───────────────────────────────────────────
+        # Priority 1: Semantic match against grader-flagged wrong/correct lines
+        ocr_line = ann_ocr_lines[ann_idx] if ann_idx < len(ann_ocr_lines) else ""
+        if wrong_lines and _line_matches_fragment(ocr_line, wrong_lines):
+            action = "cross"
+        elif correct_lines and _line_matches_fragment(ocr_line, correct_lines):
+            action = "tick"
         else:
-            action = "tick" if random.random() < marks_ratio else "cross"
+            # Priority 2: Score-ratio fallback (original behaviour)
+            meaningful_marks_inline = marks_total > 0 and (marks_obtained / marks_total) >= 0.20
+            if is_first_ann:
+                action = "tick" if meaningful_marks_inline else "cross"
+            elif is_last_ann:
+                action = "cross" if marks_ratio < 0.50 else "tick"
+            else:
+                action = "tick" if random.random() < marks_ratio else "cross"
 
         y_pdf = pdf_h * (1.0 - y_frac) + random.uniform(-4, 4)
         page_used_y_fracs.append(y_frac)
@@ -2125,6 +2183,9 @@ def generate_checked_copy(
                     "fb_text":       fb_text if idx_in_q == 0 else None,
                     # Circle task assigned to the precise target page
                     "wrong_final_answer": wrong_final_answer["wrong_answer_text"] if wrong_final_answer and page_num == target_page else None,
+                    # Semantic annotation fragments from grader Phase 1
+                    "wrong_lines":   grade_entry.get("wrong_lines", []) or [],
+                    "correct_lines": grade_entry.get("correct_lines", []) or [],
                     # v2: manifest tracking
                     "section":       section,
                     "q_id":          q_id,
@@ -2775,6 +2836,8 @@ def generate_checked_copy(
                 page_excluded_px_rows = page_excluded_px_rows,
                 text_blocks     = text_blocks,
                 current_page_ann_count = page_annotations_count,
+                wrong_lines     = item.get("wrong_lines", []),
+                correct_lines   = item.get("correct_lines", []),
             )
             page_annotations_count += len(annotations)
 

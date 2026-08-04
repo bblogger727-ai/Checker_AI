@@ -63,6 +63,8 @@ OUTPUT JSON FORMAT:
   "tier": "poor" | "okay" | "good" | "very_good" | "excellent",
   "key_points_found": ["List of key points/keywords identified (normalized for OCR)"],
   "key_points_missed": ["List of critical CONCEPTUAL gaps only — never list currency symbols or year formats as missed points"],
+  "wrong_lines": ["Short verbatim text fragments (3-8 words each) COPIED EXACTLY from the student answer that are WRONG — e.g. incorrect numbers, wrong treatments, wrong conclusions. These will be used to place correction marks on the handwritten paper."],
+  "correct_lines": ["Short verbatim text fragments (3-8 words each) COPIED EXACTLY from the student answer that are CORRECT — e.g. right keywords, correct formulas. These will be used to place tick marks on the handwritten paper."],
   "reasoning": "Explain how you mapped the mangled text to the model criteria. HEAVILY PRIORITIZE THE CONCLUSION and award benefit of doubt for OCR artifacts."
 }
 """
@@ -135,6 +137,8 @@ OUTPUT JSON FORMAT:
   "tier": "poor" | "okay" | "good" | "very_good" | "excellent",
   "correct_calculations": ["Which key concepts/items the student got right — list all of them"],
   "incorrect_calculations": ["ONLY list conceptual/structural errors — NEVER OCR noise, single arithmetic slips, or presentation issues"],
+  "wrong_lines": ["Short verbatim text fragments (3-8 words each) COPIED EXACTLY from the student answer that are WRONG — e.g. incorrect numbers, wrong formulas, wrong values. These will be used to place correction crosses on the handwritten paper. Prefer exact numbers or short phrases."],
+  "correct_lines": ["Short verbatim text fragments (3-8 words each) COPIED EXACTLY from the student answer that are CORRECT — e.g. right intermediate results, correct setup rows. These will be used to place ticks on the handwritten paper."],
   "final_answer_correct": true/false (true if result matches normalized value),
   "reasoning": "Explain your tier assignment. Prioritize logic and key concept coverage over final number accuracy."
 }
