@@ -86,11 +86,11 @@ TIER_ACTION = {
 }
 
 _HEADING_PATTERNS = [
-    r"ANSWER\s+TO\s+QUESTION\s*[-#]?\s*{n}\b",
-    r"ANSWER\s+TO\s+Q\s*{n}\b",
-    r"QUESTION\s*[-#]?\s*{n}\b",
-    r"\bQ\s*{n}\b",
-    r"ANS\w*\s+{n}\b",
+    r"ANSWER\s+TO\s+QUESTION\s*[-#:,]*\s*{n}\b",
+    r"ANSWER\s+TO\s+Q\s*[-#:,]*\s*{n}\b",
+    r"QUESTION\s*[-#:,]*\s*{n}\b",
+    r"\bQ\s*[-#:,]*\s*{n}\b",
+    r"ANS\w*\s*[-#:,]*\s*{n}\b",
 ]
 
 
@@ -1389,7 +1389,7 @@ def _heading_ocr(path: str, page_num: int, pdf_h: float, q_num: str) -> float | 
         base_n   = m_sub.group(1)
         sub_let  = m_sub.group(2)
         sub_pat_str = (
-            rf"(?:Q|Question|Ans\.?|Answer)\s*[#\s\-\.]*\s*{re.escape(base_n)}"
+            rf"(?:Q|Question|Ans\.?|Answer)\s*[:#,\s\-\.]*\s*{re.escape(base_n)}"
             rf"[\(\s\.\-]*{re.escape(sub_let)}[\)\s\.\-]*"
         )
         pats.append(re.compile(sub_pat_str, re.IGNORECASE))
