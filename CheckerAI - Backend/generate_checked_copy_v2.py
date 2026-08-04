@@ -1644,6 +1644,19 @@ def _plan_annotations_from_ocr(
                 y_frac = ink_top + raw_frac * (estimated_ink_bot - ink_top)
                 y_candidates.append(y_frac)
 
+    # fallback: if no lines mapped for this question on this page, but we know the page has ink
+    if not y_candidates and text_blocks:
+        print(f"    [DEBUG] Q{q_num} fallback placed ticks due to missing OCR content lines on page {page_idx_in_q}")
+        if max_ann > 0:
+            if ink_top == ink_bot:
+                y_centers = [ink_top] * max_ann
+            else:
+                y_centers = [
+                    ink_top + (i + 0.5) * (ink_bot - ink_top) / max_ann
+                    for i in range(max_ann)
+                ]
+            y_candidates = y_centers
+
     # ── Step 4: emit annotations ──────────────────────────────────────────────
     n_sel  = len(y_candidates)
     result = []
