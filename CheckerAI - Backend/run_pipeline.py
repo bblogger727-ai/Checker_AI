@@ -349,18 +349,32 @@ def run_stage_7(as_path: str, dataset_dir: str):
     print("=" * 60)
 
     from generate_checked_copy_v2 import generate_checked_copy
+    from detect_page_bounds import detect_page_bounds as _detect_bounds
+    import json as _json
 
     grading_path  = os.path.join(dataset_dir, "grading_final.json")
     aligned_path  = os.path.join(dataset_dir, "aligned_answers.json")
     output_path   = os.path.join(dataset_dir, "checked_copy.pdf")
     ocr_text_path = os.path.join(dataset_dir, "ocr_output.txt")
+    bounds_path   = os.path.join(dataset_dir, "page_bounds.json")
+
+    # Stage 0.5: detect paper boundary per page
+    try:
+        bounds = _detect_bounds(as_path)
+        with open(bounds_path, "w") as _bf:
+            _json.dump(bounds, _bf, indent=2)
+        print(f"  ✓ Page bounds saved → {bounds_path}", flush=True)
+    except Exception as _be:
+        print(f"  ⚠ Page bounds detection failed ({_be}) — annotations will use default margins", flush=True)
+        bounds_path = None
 
     generate_checked_copy(
-        pdf_path      = as_path,
-        grading_json  = grading_path,
-        aligned_json  = aligned_path,
-        output_path   = output_path,
-        ocr_text_path = ocr_text_path if os.path.exists(ocr_text_path) else None,
+        pdf_path         = as_path,
+        grading_json     = grading_path,
+        aligned_json     = aligned_path,
+        output_path      = output_path,
+        ocr_text_path    = ocr_text_path if os.path.exists(ocr_text_path) else None,
+        page_bounds_path = bounds_path,
     )
     print(f"✓ Checked copy saved to: {output_path}")
 

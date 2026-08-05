@@ -882,26 +882,31 @@ def _get_non_colliding_y(y_frac: float, page_used: list, ink_top: float, ink_bot
 
 
 # ── Variable X for ticks/crosses ──────────────────────────────────────────────
-def _find_clear_x(gray: Image.Image, img_w: int, img_h: int, pdf_w: float, y_frac: float, is_practical: bool, excluded_px_rows: set = None) -> float:
+def _find_clear_x(gray: Image.Image, img_w: int, img_h: int, pdf_w: float, y_frac: float, is_practical: bool, excluded_px_rows: set = None, page_num: int = None) -> float:
     """
     Finds an x-coordinate on the page at the given y_frac that does not contain ink.
-    Clamped to [0.15, 0.85] width so marks don't touch extreme corners.
+    Clamped to the detected paper boundary (via _page_bounds_data) or [15%, 85%].
     """
     px = gray.load()
     y = int(y_frac * img_h)
     y = max(0, min(img_h - 1, y))
 
     if excluded_px_rows and any(abs(y - er) <= 50 for er in excluded_px_rows):
-        return _random_ann_x(pdf_w, is_practical)
-    
+        return _random_ann_x(pdf_w, is_practical, page_num=page_num)
+
+    # Use detected paper boundary if available
+    px_x_min, px_x_max = _get_page_x_bounds(page_num or 0, pdf_w)
+    # Convert from PDF pts to image pixels
+    img_x_min = int((px_x_min / pdf_w) * img_w)
+    img_x_max = int((px_x_max / pdf_w) * img_w)
+    img_x_min = max(0, img_x_min)
+    img_x_max = min(img_w, img_x_max)
+
     band_half = int(img_h * 0.035)  # increased vertical band to 3.5%
     INK_THR = 215
-    
-    x_min = int(img_w * 0.15)
-    x_max = int(img_w * 0.85)
-    
+
     clear_cols = []
-    for x in range(x_min, x_max):
+    for x in range(img_x_min, img_x_max):
         is_clear = True
         for dy in range(-band_half, band_half + 1, 4):
             yy = min(max(0, y + dy), img_h - 1)
@@ -910,11 +915,10 @@ def _find_clear_x(gray: Image.Image, img_w: int, img_h: int, pdf_w: float, y_fra
                 break
         if is_clear:
             clear_cols.append(x)
-            
-    if not clear_cols:
-        return _random_ann_x(pdf_w, is_practical)
 
-        
+    if not clear_cols:
+        return _random_ann_x(pdf_w, is_practical, page_num=page_num)
+
     segments = []
     start = clear_cols[0]
     prev = start
@@ -926,15 +930,15 @@ def _find_clear_x(gray: Image.Image, img_w: int, img_h: int, pdf_w: float, y_fra
             start = x
             prev = x
     segments.append((start, prev))
-    
+
     min_width = int(img_w * 0.08)
     valid_segments = [s for s in segments if s[1] - s[0] >= min_width]
     if not valid_segments:
         valid_segments = segments
-        
+
     pref_start = int(img_w * (0.6 if is_practical else 0.1))
     pref_end   = int(img_w * (0.9 if is_practical else 0.4))
-    
+
     best_segment = valid_segments[0]
     best_score = -1
     for s in valid_segments:
@@ -943,23 +947,28 @@ def _find_clear_x(gray: Image.Image, img_w: int, img_h: int, pdf_w: float, y_fra
         if score > best_score:
             best_score = score
             best_segment = s
-            
+
     center_x = (best_segment[0] + best_segment[1]) / 2.0
-    return (center_x / img_w) * pdf_w
+    result_x = (center_x / img_w) * pdf_w
+    # Final clamp to page bounds
+    result_x = max(px_x_min, min(px_x_max, result_x))
+    return result_x
 
 
-def _random_ann_x(pdf_w: float, is_practical: bool = False) -> float:
+def _random_ann_x(pdf_w: float, is_practical: bool = False, page_num: int = None) -> float:
     """
-    Pick a natural X position. Clamped so it doesn't touch extreme corners.
+    Pick a natural X position clamped to the detected paper boundary.
     """
+    x_min, x_max = _get_page_x_bounds(page_num or 0, pdf_w)
+    span = x_max - x_min
     if is_practical:
         if random.random() < 0.70:
-            return random.uniform(pdf_w * 0.62, pdf_w * 0.85)
-        return random.uniform(pdf_w * 0.35, pdf_w * 0.62)
+            return random.uniform(x_min + span * 0.50, x_min + span * 0.85)
+        return random.uniform(x_min + span * 0.20, x_min + span * 0.50)
     # Theory
     if random.random() < 0.70:
-        return random.uniform(pdf_w * 0.15, pdf_w * 0.35)
-    return random.uniform(pdf_w * 0.35, pdf_w * 0.50)
+        return random.uniform(x_min, x_min + span * 0.28)
+    return random.uniform(x_min + span * 0.28, x_min + span * 0.50)
 
 
 def _find_ink_x(gray, img_w: int, img_h: int, pdf_w: float, y_frac: float, is_practical: bool) -> float:
@@ -1957,6 +1966,25 @@ def _block_y_pdf(center_frac: float, pdf_h: float) -> float:
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 
+# ── Page-bounds data (loaded once per document, used to clamp annotations) ────
+_page_bounds_data: dict = {}   # str(page_num) → {x_min, x_max, y_min, y_max}
+
+
+def _get_page_x_bounds(page_num: int, pdf_w: float) -> tuple[float, float]:
+    """
+    Return (x_min_px, x_max_px) for annotation placement on this page.
+    If page_bounds_data is loaded, returns the detected paper boundary in PDF
+    point coordinates.  Otherwise falls back to [15%, 85%] of page width.
+    """
+    key = str(page_num)
+    if key in _page_bounds_data:
+        b = _page_bounds_data[key]
+        # Add a small inner margin (1.5%) so annotations don't sit exactly on edge
+        margin = pdf_w * 0.015
+        return (b["x_min"] * pdf_w + margin, b["x_max"] * pdf_w - margin)
+    return (pdf_w * 0.15, pdf_w * 0.85)
+
+
 def generate_checked_copy(
     pdf_path: str,
     grading_json: str,
@@ -1964,6 +1992,7 @@ def generate_checked_copy(
     output_path: str,
     ocr_text_path: str = None,
     manifest_path: str = None,
+    page_bounds_path: str = None,
 ):
     print(f"\n{'='*62}")
     print("  STAGE 7 — Generating Checked Copy (Student-Facing)")
@@ -1972,6 +2001,14 @@ def generate_checked_copy(
     print(f"  Output  : {output_path}")
 
     _ensure_tesseract()
+
+    # ── Load page bounds if available ─────────────────────────────────────────
+    global _page_bounds_data
+    _page_bounds_data.clear()
+    if page_bounds_path and os.path.exists(page_bounds_path):
+        with open(page_bounds_path, "r") as _pb:
+            _page_bounds_data = json.load(_pb)
+        print(f"  ✓ Page bounds loaded from {page_bounds_path} ({len(_page_bounds_data)} pages)", flush=True)
 
     # Reset per-document feedback state
     _feedback_cache.clear()
@@ -2145,7 +2182,8 @@ def generate_checked_copy(
                 not grade_entry.get("student_answer", "").strip()
             )
             fb_text = None
-            if not is_mcq and not is_no_answer:
+            is_zero_marks = (marks_obtained == 0)
+            if not is_mcq and not is_no_answer and not is_zero_marks:
                 cache_key = f"{section}__{q_id}"
                 fb_text   = _generate_llm_feedback(grade_entry, cache_key)
                 if fb_text:
@@ -3489,13 +3527,15 @@ if __name__ == "__main__":
     parser.add_argument("--output",   required=True,  help="Output PDF path")
     parser.add_argument("--ocr",      default=None,   help="Path to ocr_output.txt (optional)")
     parser.add_argument("--manifest", default=None,   help="Manifest JSON output path (default: <output>_manifest.json)")
+    parser.add_argument("--bounds",   default=None,   help="Path to page_bounds.json (from detect_page_bounds.py)")
     args = parser.parse_args()
 
     generate_checked_copy(
-        pdf_path      = args.pdf,
-        grading_json  = args.grading,
-        aligned_json  = args.aligned,
-        output_path   = args.output,
-        ocr_text_path = args.ocr,
-        manifest_path = args.manifest,
+        pdf_path         = args.pdf,
+        grading_json     = args.grading,
+        aligned_json     = args.aligned,
+        output_path      = args.output,
+        ocr_text_path    = args.ocr,
+        manifest_path    = args.manifest,
+        page_bounds_path = args.bounds,
     )

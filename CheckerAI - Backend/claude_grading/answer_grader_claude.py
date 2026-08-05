@@ -346,38 +346,56 @@ def is_practical_question(question_text: str) -> bool:
 def is_meaningful_answer(student_ans: str) -> bool:
     """
     Determine if the student actually wrote a meaningful answer,
-    or just wrote the question number (e.g. "Q=2(a)", "Soln to Q1a").
+    or just wrote the question number (e.g. "Q=2(a)", "Soln to Q1a"),
+    or a trivially short/incomplete fragment.
     """
     if not student_ans or not student_ans.strip():
         return False
-        
+
+    # ── Fragment gate: blank left in answer ──────────────────────────────────
+    # If the student wrote something like "As per ___ , prospective financial
+    # information." they clearly only copied the question stem.
+    original_stripped = student_ans.strip()
+    if re.search(r'\b_+\b|_{2,}', original_stripped):
+        word_count_raw = len(original_stripped.split())
+        if word_count_raw < 30:
+            return False
+
     s = student_ans.lower()
-    
+
     # Replace punctuation and whitespace with spaces
     s = re.sub(r'[=\-:\.\(\)\[\]]', ' ', s)
-    
+
     # Replace all numbers with spaces
     s = re.sub(r'[0-9]', ' ', s)
-    
+
     # Remove common filler words as whole words
     filler_words = [
-        "que", "question", "ans", "answer", "soln", "solution", "to", 
+        "que", "question", "ans", "answer", "soln", "solution", "to",
         "part", "sec", "section", "for", "page", "acc", "paper", "q", "Q"
     ]
     pattern = r'\b(' + '|'.join(filler_words) + r')\b'
     s = re.sub(pattern, ' ', s)
-    
+
     # Remove any standalone single letters (like 'q', 'a', 'b', 'i', 'v', 'x' used for numbering)
     s = re.sub(r'\b[a-z]\b', ' ', s)
-    
+
     # Remove all spaces to count remaining meaningful characters
-    s = s.replace(' ', '')
-    
+    meaningful_chars = s.replace(' ', '')
+
     # If there's less than 10 actual content characters left, it's likely just a label
-    if len(s) < 10:
+    if len(meaningful_chars) < 10:
         return False
-        
+
+    # ── Word count gate ───────────────────────────────────────────────────────
+    # Count words of length > 2 after filler removal.
+    # A student who wrote fewer than 15 such words has not meaningfully answered.
+    meaningful_words = [w for w in s.split() if len(w) > 2]
+    if len(meaningful_words) < 15:
+        return False
+
     return True
+
 
 # ============== OR GROUP HANDLING ==============
 
