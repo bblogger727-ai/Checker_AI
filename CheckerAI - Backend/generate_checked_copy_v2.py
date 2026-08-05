@@ -1757,8 +1757,16 @@ def _plan_annotations_from_ocr(
     directly from text_blocks so the page never ends up annotation-free.
     """
     marks_ratio = min(1.0, max(0.0, marks_obtained / marks_total)) if marks_total > 0 else 0
-    MIN_SEP     = 0.18
     MAX_ANN_PER_PAGE = 3
+
+    # Dynamic vertical separation: scale with slice height so short answers fit marks comfortably
+    slice_h = max(0.05, slice_bot - slice_top)
+    if slice_h >= 0.55:
+        MIN_SEP = 0.16
+    elif slice_h >= 0.30:
+        MIN_SEP = 0.11
+    else:
+        MIN_SEP = 0.07
 
     if current_page_ann_count >= MAX_ANN_PER_PAGE:
         return []
@@ -1833,8 +1841,7 @@ def _plan_annotations_from_ocr(
                 ann_actions.append(None)   # action determined later by score ratio
 
     # ── Step 4: Fallback if nothing resolved ──────────────────────────
-    if not y_candidates and text_blocks:
-        print(f"    [DEBUG] Q{q_num} fallback placed ticks due to missing OCR content lines on page {page_idx_in_q}")
+    if not y_candidates and (text_blocks or total_lines > 0):
         if max_ann > 0:
             if ink_top == ink_bot:
                 y_centers = [ink_top] * max_ann
@@ -2890,12 +2897,6 @@ def generate_checked_copy(
                         page_excluded_px_rows.add(pr)
                     stamp_y_frac = 1.0 - marks_y_placed / pdf_h
                     page_used_y_fracs.append(stamp_y_frac)
-                    # Add wider guard entries so feedback is pushed well away from stamp.
-                    # Without these, feedback can land just at MIN_SEP (0.09) from the
-                    # stamp which is often not enough to prevent visual overlap on
-                    # cramped multi-Q pages.
-                    page_used_y_fracs.append(max(0.0, stamp_y_frac - 0.08))
-                    page_used_y_fracs.append(min(1.0, stamp_y_frac + 0.08))
 
                     # ── Store stamp info; actual drawing is DEFERRED until after feedback ──
                     # This allows the overlap check to move the stamp before drawing it
