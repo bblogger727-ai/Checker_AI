@@ -1663,6 +1663,64 @@ def _find_question_line_bounds(ocr_text: str, q_num: str) -> tuple[int, int]:
     return -1, len(lines)   # fallback: whole page
 
 
+def _find_fragment_y(
+    fragment: str,
+    ocr_lines: list,
+    ink_top: float,
+    ink_bot: float,
+    slice_top: float,
+    slice_bot: float,
+) -> float | None:
+    """
+    Find the y_frac of the OCR line that best matches `fragment`.
+    Returns None if no match is found within the question's slice.
+    """
+    if not fragment or not ocr_lines:
+        return None
+    total = len(ocr_lines)
+    if total == 0:
+        return None
+
+    frag_lower = fragment.lower()
+    frag_words = set(re.sub(r'[^a-z0-9]', ' ', frag_lower).split())
+    frag_nums  = {w for w in frag_words if w.isdigit()}
+
+    best_idx   = None
+    best_score = 0.0
+
+    for idx, line in enumerate(ocr_lines):
+        line_s = line.strip()
+        if not line_s:
+            continue
+        raw_frac = (idx + 0.5) / total
+        y_frac   = ink_top + raw_frac * (ink_bot - ink_top)
+        # Must be in the question's slice
+        if not (slice_top <= y_frac <= slice_bot):
+            continue
+
+        line_lower = line_s.lower()
+        line_words = set(re.sub(r'[^a-z0-9]', ' ', line_lower).split())
+
+        if not frag_words:
+            continue
+        overlap = sum(1 for w in frag_words if w in line_words)
+        score   = overlap / len(frag_words)
+
+        # Numeric safety: fragment with numbers must match at least one number
+        if frag_nums and not any(n in line_words for n in frag_nums):
+            score *= 0.3
+
+        if score > best_score:
+            best_score = score
+            best_idx   = idx
+
+    if best_idx is None or best_score < 0.55:
+        return None
+
+    raw_frac = (best_idx + 0.5) / total
+    return ink_top + raw_frac * (ink_bot - ink_top)
+
+
 def _plan_annotations_from_ocr(
     ocr_page_text: str,
     q_num: str,
@@ -1700,68 +1758,85 @@ def _plan_annotations_from_ocr(
     """
     marks_ratio = min(1.0, max(0.0, marks_obtained / marks_total)) if marks_total > 0 else 0
     MIN_SEP     = 0.12
+    MAX_ANN_PER_PAGE = 3
     
-    if current_page_ann_count >= 4:
+    if current_page_ann_count >= MAX_ANN_PER_PAGE:
         return []
 
     if ink_bot - ink_top <= 0.30:
         max_ann = 1
     else:
-        max_ann = random.randint(2, 4)
+        max_ann = random.randint(2, MAX_ANN_PER_PAGE)
         
-    max_ann = min(max_ann, 4 - current_page_ann_count)
+    max_ann = min(max_ann, MAX_ANN_PER_PAGE - current_page_ann_count)
 
-    # ── Step 1: Use OCR Lines for Physical Y-Placement ───────────────────────────
-    y_candidates: list[float] = []
-    
-    # Estimate the true bottom of the text by assuming each OCR line takes ~4% of the page height.
-    # This correctly stops ticks from stretching to the page footer on sparse pages.
-    lines = ocr_page_text.split('\n')
+    # ── Step 1: Build OCR line list and estimate text region ────────────────
+    lines       = ocr_page_text.split('\n')
     total_lines = len(lines)
     
-
+    # Estimate the true bottom of the written text
     estimated_ink_bot = min(ink_bot, ink_top + total_lines * 0.025)
-    content_idxs = []
-    
-    if total_lines > 0:
+
+    # ── Step 2: Fragment-first y-placement ────────────────────────────
+    # Build the target annotation list: each entry is (action, fragment_text)
+    # Priority: wrong_lines (crosses) first since they're harder to miss, then correct_lines (ticks)
+    target_annotations: list[tuple[str, str]] = []
+
+    # Interleave ticks and crosses for a more natural look
+    wl = list(wrong_lines   or [])
+    cl = list(correct_lines or [])
+    # Alternate cross/tick up to max_ann total
+    while (wl or cl) and len(target_annotations) < max_ann:
+        if wl:
+            target_annotations.append(("cross", wl.pop(0)))
+        if cl and len(target_annotations) < max_ann:
+            target_annotations.append(("tick", cl.pop(0)))
+
+    # Resolve exact y-fracs from OCR for each fragment
+    y_candidates:   list[float] = []
+    ann_ocr_lines:  list[str]   = []
+    ann_actions:    list[str]   = []
+
+    for action, frag in target_annotations:
+        y_frac = _find_fragment_y(frag, lines, ink_top, estimated_ink_bot, slice_top, slice_bot)
+        if y_frac is not None:
+            y_candidates.append(y_frac)
+            ann_ocr_lines.append(frag)
+            ann_actions.append(action)
+
+    # ── Step 3: Fill remaining slots with evenly-spaced OCR lines ──────────
+    remaining = max_ann - len(y_candidates)
+    if remaining > 0 and total_lines > 0:
+        content_idxs = []
         for line_idx in range(total_lines):
             if lines[line_idx].strip():
                 raw_frac = (line_idx + 0.5) / total_lines
-                y_frac = ink_top + raw_frac * (estimated_ink_bot - ink_top)
-                
-                # Must be inside the question's slice
+                y_frac   = ink_top + raw_frac * (estimated_ink_bot - ink_top)
                 if slice_top <= y_frac <= slice_bot:
-                    # Absolute ban zones (top 20%, bottom 15%)
-                    if 0.20 <= y_frac <= 0.85:
-                        content_idxs.append(line_idx)
-                        
+                    content_idxs.append(line_idx)
+
         if content_idxs:
-            # Scale down max_ann if there are very few valid lines
             if len(content_idxs) <= 8:
-                max_ann = 1
+                remaining = min(remaining, 1)
             elif len(content_idxs) <= 15:
-                max_ann = min(max_ann, 2)
-                
-            # Pick evenly-spaced content lines
-            if len(content_idxs) <= max_ann:
-                selected = content_idxs
-            elif max_ann == 1:
-                # If only one annotation on a sparse page, put it near the middle of the available valid text
-                selected = [content_idxs[len(content_idxs) // 2]]
+                remaining = min(remaining, 2)
+
+            if len(content_idxs) <= remaining:
+                fill_idxs = content_idxs
+            elif remaining == 1:
+                fill_idxs = [content_idxs[len(content_idxs) // 2]]
             else:
-                step = len(content_idxs) / max_ann
-                selected = [content_idxs[int(i * step)] for i in range(max_ann)]
-                
-            for line_idx in selected:
+                step = len(content_idxs) / remaining
+                fill_idxs = [content_idxs[int(i * step)] for i in range(remaining)]
+
+            for line_idx in fill_idxs:
                 raw_frac = (line_idx + 0.5) / total_lines
-                y_frac = ink_top + raw_frac * (estimated_ink_bot - ink_top)
+                y_frac   = ink_top + raw_frac * (estimated_ink_bot - ink_top)
                 y_candidates.append(y_frac)
+                ann_ocr_lines.append(lines[line_idx].strip())
+                ann_actions.append(None)   # action determined later by score ratio
 
-    # Build a parallel list: for each y_candidate, what OCR line text does it correspond to?
-    # Used for semantic tick/cross matching.
-    ann_ocr_lines: list[str] = []
-
-    # fallback: if no lines mapped for this question on this page, but we know the page has ink
+    # ── Step 4: Fallback if nothing resolved ──────────────────────────
     if not y_candidates and text_blocks:
         print(f"    [DEBUG] Q{q_num} fallback placed ticks due to missing OCR content lines on page {page_idx_in_q}")
         if max_ann > 0:
@@ -1774,23 +1849,15 @@ def _plan_annotations_from_ocr(
                 ]
             y_candidates = y_centers
         ann_ocr_lines = [""] * len(y_candidates)
-    else:
-        # Map selected line indices to their OCR text
-        ann_ocr_lines = [lines[content_idxs[int(i * (len(content_idxs) / len(y_candidates)))]].strip()
-                         if y_candidates else ""
-                         for i in range(len(y_candidates))]
-        # Safer: rebuild from selected list if it was computed
-        if 'selected' in dir():
-            pass  # selected is accessible in function scope; use it below
-        try:
-            ann_ocr_lines = [lines[sel_idx].strip() for sel_idx in (selected if y_candidates else [])]
-        except Exception:
-            ann_ocr_lines = [""] * len(y_candidates)
-        # Pad if lengths mismatch (fallback safety)
-        while len(ann_ocr_lines) < len(y_candidates):
-            ann_ocr_lines.append("")
+        ann_actions   = [None] * len(y_candidates)
 
-    # ── Step 4: emit annotations ──────────────────────────────────────────────
+    # Pad lists to equal length
+    while len(ann_ocr_lines) < len(y_candidates):
+        ann_ocr_lines.append("")
+    while len(ann_actions) < len(y_candidates):
+        ann_actions.append(None)
+
+    # ── Step 5: Emit annotations ────────────────────────────────────────
     n_sel  = len(y_candidates)
     result = []
 
@@ -1799,29 +1866,29 @@ def _plan_annotations_from_ocr(
         if heading_y_frac is not None and abs(y_frac - heading_y_frac) < 0.06:
             y_frac = heading_y_frac + 0.07
 
-        # Determine the lowest allowed point for this annotation
-        # CRITICAL FIX: Also constrain by slice_bot so that collision avoidance doesn't 
-        # push a question's ticks into the next question's vertical zone on multi-Q pages.
+        # Determine the lowest allowed point for this annotation.
+        # Constrain by slice_bot so collision avoidance doesn't push into the next Q's zone.
         _ann_ink_bot = min(estimated_ink_bot, slice_bot)
-        
-        # Hard-clamp to ink region (or tighter OCR region)
-        # Prevent ticks from falling into the top margin (top 18%) or bottom margin (bottom 15%)
-        # But if the slice itself is narrow, we must allow annotations to fit inside it.
-        lower_bound = max(slice_top, 0.18) if (slice_bot - slice_top) > 0.3 else slice_top
+
+        # Hard top margin floor:
+        # Use the HIGHER of: (a) slice_top, (b) the detected ink_top, (c) absolute 10% floor.
+        # This ensures annotations never land in the header/top margin regardless of slice.
+        if (slice_bot - slice_top) > 0.3:
+            lower_bound = max(slice_top, ink_top, 0.10)
+        else:
+            lower_bound = max(slice_top, ink_top)
         upper_bound = min(_ann_ink_bot - 0.02, 0.85)
         if upper_bound < lower_bound:
-            # Fallback if ink is very restricted
-            lower_bound = slice_top
-            upper_bound = max(slice_top, _ann_ink_bot - 0.02)
+            lower_bound = max(slice_top, ink_top)
+            upper_bound = max(lower_bound + 0.01, _ann_ink_bot - 0.02)
         y_frac = min(max(y_frac, lower_bound), upper_bound)
 
-        # Collision avoidance
+        # Collision avoidance — always DROP if no valid non-colliding spot found
         new_y_frac = _get_non_colliding_y(y_frac, page_used_y_fracs, lower_bound, upper_bound, MIN_SEP)
-        
-        # Tick or cross decision (we compute this early to know if it's the first annotation)
+
         is_first_ann = (page_idx_in_q == 0 and ann_idx == 0)
         is_last_ann  = (page_idx_in_q == total_pages - 1 and ann_idx == n_sel - 1)
-        
+
         if new_y_frac is None:
             if is_first_ann:
                 # Must place at least one mark, relax separation requirement slightly
