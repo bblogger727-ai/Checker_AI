@@ -1757,9 +1757,9 @@ def _plan_annotations_from_ocr(
     directly from text_blocks so the page never ends up annotation-free.
     """
     marks_ratio = min(1.0, max(0.0, marks_obtained / marks_total)) if marks_total > 0 else 0
-    MIN_SEP     = 0.12
+    MIN_SEP     = 0.18
     MAX_ANN_PER_PAGE = 3
-    
+
     if current_page_ann_count >= MAX_ANN_PER_PAGE:
         return []
 
@@ -1767,15 +1767,16 @@ def _plan_annotations_from_ocr(
         max_ann = 1
     else:
         max_ann = random.randint(2, MAX_ANN_PER_PAGE)
-        
+
     max_ann = min(max_ann, MAX_ANN_PER_PAGE - current_page_ann_count)
 
     # ── Step 1: Build OCR line list and estimate text region ────────────────
     lines       = ocr_page_text.split('\n')
     total_lines = len(lines)
-    
-    # Estimate the true bottom of the written text
-    estimated_ink_bot = min(ink_bot, ink_top + total_lines * 0.025)
+
+    # Use actual detected ink bottom (constrained by question slice) so annotations
+    # naturally spread across the entire written text height instead of clumping at top
+    estimated_ink_bot = min(ink_bot, slice_bot)
 
     # ── Step 2: Fragment-first y-placement ────────────────────────────
     # Build the target annotation list: each entry is (action, fragment_text)
@@ -1816,11 +1817,6 @@ def _plan_annotations_from_ocr(
                     content_idxs.append(line_idx)
 
         if content_idxs:
-            if len(content_idxs) <= 8:
-                remaining = min(remaining, 1)
-            elif len(content_idxs) <= 15:
-                remaining = min(remaining, 2)
-
             if len(content_idxs) <= remaining:
                 fill_idxs = content_idxs
             elif remaining == 1:
