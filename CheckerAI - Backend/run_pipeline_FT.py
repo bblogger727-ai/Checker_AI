@@ -163,16 +163,44 @@ def run_stage_1_2_FT(ft_paper_json_path: str) -> dict:
             question = sub.get("question", "")
             answer   = sub.get("answer", "")
 
-            sub_q_block[sub_key] = {
-                "question":        question,
-                "model_answer":    answer,
-                "marks":           marks,
-                "question_number": sub_key,
-                "chapter_number":  sub.get("chapter_number", ""),
-                "chapter_name":    sub.get("chapter_name", ""),
-                "question_id":     sub.get("question_id", f"B-Q{q_main}-{sub_key}"),
-                "or_group":        sub.get("or_group"),
-            }
+            if "or_question" in sub:
+                or_group_name = f"OR_{sub_key}"
+                
+                # Main question variant
+                sub_q_block[f"{sub_key}_v1"] = {
+                    "question":        question,
+                    "model_answer":    answer,
+                    "marks":           marks,
+                    "question_number": sub_key,
+                    "chapter_number":  sub.get("chapter_number", ""),
+                    "chapter_name":    sub.get("chapter_name", ""),
+                    "question_id":     f"B-Q{q_main}-{sub_key}_v1",
+                    "or_group":        or_group_name,
+                }
+                
+                # OR question variant
+                or_q = sub["or_question"]
+                sub_q_block[f"{sub_key}_v2"] = {
+                    "question":        or_q.get("question", ""),
+                    "model_answer":    or_q.get("answer", ""),
+                    "marks":           marks,
+                    "question_number": sub_key,
+                    "chapter_number":  sub.get("chapter_number", ""),
+                    "chapter_name":    sub.get("chapter_name", ""),
+                    "question_id":     f"B-Q{q_main}-{sub_key}_v2",
+                    "or_group":        or_group_name,
+                }
+            else:
+                sub_q_block[sub_key] = {
+                    "question":        question,
+                    "model_answer":    answer,
+                    "marks":           marks,
+                    "question_number": sub_key,
+                    "chapter_number":  sub.get("chapter_number", ""),
+                    "chapter_name":    sub.get("chapter_name", ""),
+                    "question_id":     sub.get("question_id", f"B-Q{q_main}-{sub_key}"),
+                    "or_group":        sub.get("or_group"),
+                }
 
         section_b_block[q_key] = sub_q_block
 

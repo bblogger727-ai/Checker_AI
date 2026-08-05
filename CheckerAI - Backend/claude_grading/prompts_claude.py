@@ -65,7 +65,8 @@ OUTPUT JSON FORMAT:
   "key_points_missed": ["List of critical CONCEPTUAL gaps only — never list currency symbols or year formats as missed points"],
   "wrong_lines": ["Short verbatim text fragments (3-8 words each) COPIED EXACTLY from the student answer that are WRONG — e.g. incorrect numbers, wrong treatments, wrong conclusions. These will be used to place correction marks on the handwritten paper."],
   "correct_lines": ["Short verbatim text fragments (3-8 words each) COPIED EXACTLY from the student answer that are CORRECT — e.g. right keywords, correct formulas. These will be used to place tick marks on the handwritten paper."],
-  "reasoning": "Explain how you mapped the mangled text to the model criteria. HEAVILY PRIORITIZE THE CONCLUSION and award benefit of doubt for OCR artifacts."
+  "reasoning": "Explain how you mapped the mangled text to the model criteria. HEAVILY PRIORITIZE THE CONCLUSION and award benefit of doubt for OCR artifacts.",
+  "feedback": "Write a 2-4 sentence summary of what the student got right and wrong. Focus on the main conceptual errors or missing steps. Speak directly to the student as a human teacher. NEVER use terms like 'model', 'model answer', or 'marking scheme'. Say 'the correct approach' or 'standard accounting principles' instead."
 }
 """
 
@@ -173,7 +174,7 @@ RULES:
 JSON:
 {
   "marks_obtained": 0.0,
-  "feedback": "Keep it encouraging. Focus on the conceptual strengths",
+  "feedback": "Keep it encouraging. Focus on strengths. NEVER use 'model' or 'marking scheme'.",
   "correct_items": ["Conceptual wins"],
   "major_errors": ["Only conceptual accounting errors — NEVER currency/year/standard-number OCR artifacts"]
 }
@@ -212,7 +213,7 @@ RULES:
 JSON:
 {
   "marks_obtained": 0.0,
-  "feedback": "Keep it encouraging. Focus on the mathematical/methodological strengths",
+  "feedback": "Keep it encouraging. Focus on strengths. NEVER use 'model' or 'marking scheme'.",
   "correct_items": ["Correct calculations or logic steps"],
   "major_errors": ["Major structural or conceptual errors only — NEVER OCR artifacts or presentation issues"]
 }

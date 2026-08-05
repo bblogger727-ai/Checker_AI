@@ -100,6 +100,7 @@ INSTRUCTIONS:
    - MCQ answers: single option letters (a/b/c/d) near a question number
    - Descriptive/legal/calculation answers: paragraphs, tables, figures
    - Subparts: (a), (b), (c), (i), (ii) within a larger question
+   - CRITICAL: If a student answers multiple subparts consecutively (e.g., 'Ans a)' then 'Ans b)'), YOU MUST split them into separate distinct answer blocks. DO NOT group them into a single massive block.
 
 3. For EACH answer block, also extract a brief TOPIC SUMMARY — what concept, law, entity, or computation the answer is about. Examples:
    - "About composition scheme eligibility and tax rate"
@@ -225,8 +226,8 @@ If an explicit label seems wrong based on the topic summary, favor the topic sum
 ### Rule 6 — PARENT LABEL → SUBPART IDs (MANDATORY AND CRITICAL)
 Students often write "Ans to Q3" without specifying (a) or (b), or they write "Q4(a)" but answer the whole question.
 In the schema, Q3/Q4 may ONLY have subpart IDs like `A-Q3-a` and `A-Q3-b`.
-In this case: YOU MUST map the answer to ALL available subpart IDs of that parent question!
-EVEN IF the student specified a specific subpart (like 'a'), you SHOULD check if the content ALSO covers other subparts. If in doubt, map to ALL subparts of that question number to ensure the grader sees the full context.
+In this case: If there is ONLY ONE block for this parent question, you MUST map it to ALL available subpart IDs of that parent question.
+HOWEVER, if there are MULTIPLE distinct blocks for the same parent question (e.g., you found a block for 'a' and a block for 'b'), you MUST map them INDIVIDUALLY to their respective subparts (`A-Q3-a`, `A-Q3-b`). Do NOT blindly map every block to all subparts.
 
 ### MANDATORY OVERRIDE Rule (RECOVERY FOCUS)
 1. <CRITICAL> If a block has an explicit label, start with that mapping. However, if the TOPIC SUMMARY of that block matches another question with >90% similarity (and is >90% dissimilar to the current label's question), MOVE the mapping to the correct question. 

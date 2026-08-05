@@ -287,7 +287,7 @@ def _apply_corrections_to_manifest(manifest: dict, corrections: dict) -> dict:
 
     for mkey, corr in corrections.items():
         if mkey == "__mcq_marks__":
-            new_mcq = float(corr)
+            new_mcq = float(corr.get("marks_obtained", 0)) if isinstance(corr, dict) else float(corr)
             if m.get("mcq_total"):
                 old_mcq = m["mcq_total"].get("obtained")
                 if old_mcq is None:

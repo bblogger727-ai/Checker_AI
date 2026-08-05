@@ -201,6 +201,7 @@ def _generate_llm_feedback(grade_entry: dict, cache_key: str) -> str | None:
             f"{avoid_block}\n"
             "Write 2 to 3 very short bullet points (start each with '•') listing the "
             "main things the student missed or got wrong. Each bullet must be ≤10 words. "
+            "DO NOT use terms like 'model', 'model answer', or 'marking scheme'. Address the student directly as a teacher. "
             "No full stop at the end of each bullet. Return only the bullets, no intro text."
         )
         max_tok = 90
@@ -215,6 +216,7 @@ def _generate_llm_feedback(grade_entry: dict, cache_key: str) -> str | None:
             f"{avoid_block}\n"
             "Write ONE concise teacher comment in exactly ≤12 words explaining "
             "what the student should have done differently. "
+            "DO NOT use terms like 'model', 'model answer', or 'marking scheme'. Address the student directly as a teacher. "
             "No quotation marks, no full stop at the end."
         )
         max_tok = 40
@@ -1047,8 +1049,15 @@ def _line_matches_fragment(line: str, fragments: list) -> bool:
         frag_words = re.sub(r'[^a-z0-9]', ' ', frag.lower()).split()
         if not frag_words:
             continue
+            
         overlap = sum(1 for w in frag_words if w in line_words)
         if overlap / len(frag_words) >= 0.6:
+            # Numeric safety check: if the fragment has numbers, ensure at least one matches
+            # to prevent matching a correct text description with a WRONG number.
+            frag_nums = {w for w in frag_words if w.isdigit()}
+            if frag_nums:
+                if not any(num in line_words for num in frag_nums):
+                    continue
             return True
     return False
 
