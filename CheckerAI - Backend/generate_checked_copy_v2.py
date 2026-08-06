@@ -880,8 +880,10 @@ def _get_non_colliding_y(y_frac: float, page_used: list, ink_top: float, ink_bot
         candidates.append(y_frac + offset * step)
         candidates.append(y_frac - offset * step)
     
+    min_top_floor = max(0.12, ink_top)
+    max_bot_floor = min(0.88, ink_bot - 0.02)
     for c in candidates:
-        if c < ink_top or c > ink_bot - 0.02:
+        if c < min_top_floor or c > max_bot_floor:
             continue
         if all(abs(c - u) >= min_sep for u in page_used):
             return c
@@ -1881,16 +1883,13 @@ def _plan_annotations_from_ocr(
         _ann_ink_bot = min(estimated_ink_bot, slice_bot)
 
         # Hard top margin floor:
-        # Use the HIGHER of: (a) slice_top, (b) the detected ink_top, (c) absolute 10% floor.
-        # This ensures annotations never land in the header/top margin regardless of slice.
-        if (slice_bot - slice_top) > 0.3:
-            lower_bound = max(slice_top, ink_top, 0.10)
-        else:
-            lower_bound = max(slice_top, ink_top)
-        upper_bound = min(_ann_ink_bot - 0.02, 0.85)
+        # ALWAYS enforce an absolute floor of 0.12 (12% down from top of page)
+        # so annotations NEVER land in the top 10% margin regardless of slice height.
+        lower_bound = max(slice_top, ink_top, 0.12)
+        upper_bound = min(_ann_ink_bot - 0.02, 0.88)
         if upper_bound < lower_bound:
-            lower_bound = max(slice_top, ink_top)
-            upper_bound = max(lower_bound + 0.01, _ann_ink_bot - 0.02)
+            lower_bound = 0.12
+            upper_bound = max(0.13, _ann_ink_bot - 0.02)
         y_frac = min(max(y_frac, lower_bound), upper_bound)
 
         # Collision avoidance — always DROP if no valid non-colliding spot found
@@ -1933,6 +1932,7 @@ def _plan_annotations_from_ocr(
             else:
                 action = "tick" if random.random() < marks_ratio else "cross"
 
+        y_frac = max(0.12, min(y_frac, 0.88))
         y_pdf = pdf_h * (1.0 - y_frac) + random.uniform(-4, 4)
         page_used_y_fracs.append(y_frac)
         if page_excluded_px_rows is not None:
