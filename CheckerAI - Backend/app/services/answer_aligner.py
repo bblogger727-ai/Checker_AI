@@ -15,6 +15,22 @@ from app.core.openai_client import client
 import json
 
 
+import re
+
+def is_header_only_block(text: str) -> bool:
+    if not text or not text.strip():
+        return True
+    cleaned = re.sub(
+        r'^\s*(?:Ans\.?|Answer|Soln\.?|Solution|Q|Question)\s*[#\s\-\.\)]*\d+[\s\.\-\)]*[a-zA-Z]?\s*\)?\s*',
+        '',
+        text.strip(),
+        flags=re.IGNORECASE
+    ).strip()
+    cleaned = re.sub(r'^\s*\(?[0-9]+[a-zA-Z]?\)?\s*', '', cleaned).strip()
+    words = [w for w in re.sub(r'[^a-zA-Z0-9]', ' ', cleaned).split() if len(w) > 1]
+    return len(words) < 5
+
+
 def align_answers_to_schema(student_pages: list, schema: dict) -> dict:
     """
     Two-pass alignment of student answers to schema.
@@ -58,6 +74,8 @@ INSTRUCTIONS:
 
 6. If text looks like it continues from a previous page (mid-sentence, continuation of a table), merge it with the earlier block.
 
+7. IGNORE BLANK QUESTION HEADINGS: If a student wrote only a question label (e.g., 'Ans. 4b', 'Soln to Q4b', 'Q3a', '4) b)') and left the section blank with no answer text, IGNORE IT completely.
+
 STUDENT OCR TEXT:
 {full_text}
 
@@ -95,9 +113,17 @@ CRITICAL RULES:
         
         discovery_text = response.choices[0].message.content.strip()
         discovery_data = json.loads(discovery_text)
-        discovered = discovery_data.get("discovered_answers", [])
+        discovered_raw = discovery_data.get("discovered_answers", [])
         
-        print(f"[Aligner] Pass 1 complete: Found {len(discovered)} answer blocks.", flush=True)
+        discovered = []
+        for d in discovered_raw:
+            fc = d.get("full_content", "") or d.get("content_preview", "")
+            if is_header_only_block(fc):
+                print(f"[Aligner] ⊘ IGNORED header-only block: label={d.get('label')}, pages={d.get('pages')}", flush=True)
+            else:
+                discovered.append(d)
+
+        print(f"[Aligner] Pass 1 complete: Found {len(discovered)} valid answer blocks.", flush=True)
         for i, d in enumerate(discovered):
             print(f"  [{i+1}] Label: {d.get('label', '?')}, Type: {d.get('answer_type', '?')}, Pages: {d.get('pages', [])}", flush=True)
             

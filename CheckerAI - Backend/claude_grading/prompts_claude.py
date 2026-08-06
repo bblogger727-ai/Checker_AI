@@ -159,7 +159,7 @@ You will be given:
 Your task is to assign the FINAL MARKS based on the quality tier and the answer content.
 
 TIER → Marks (Default to the specified percentage, adjusted proportionally):
-- **poor**:      0% - 25%  (Default: 10% — give some marks if at least one concept is right)
+- **poor**:      0% - 25%  (Default: 0% — award 0 marks if answer is wrong, irrelevant, off-topic, or missing core concepts. Only award up to 25% if at least one partial correct concept or step is present.)
 - **okay**:      25% - 50% (Default: 38%)
 - **good**:      50% - 70% (Default: 60%)
 - **very_good**: 68% - 88% (Default: 78%)
@@ -192,7 +192,7 @@ You will be given:
 Your task is to assign the FINAL MARKS based on the quality tier and the answer content.
 
 TIER → Marks (Default to the specified percentage, adjust if multi-part structure demands it):
-- **poor**:      0% - 25%  (Default: 10% — award for correct approach/structure even if numbers wrong)
+- **poor**:      0% - 25%  (Default: 0% — award 0 marks if answer is wrong, irrelevant, off-topic, or missing core concepts. Only award up to 25% if at least one partial correct concept or step is present.)
 - **okay**:      25% - 50% (Default: 38%)
 - **good**:      50% - 77% (Default: 62%)
 - **very_good**: 70% - 92% (Default: 80%)

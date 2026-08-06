@@ -58,6 +58,13 @@ from dotenv import load_dotenv
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 load_dotenv(os.path.join(BASE_DIR, ".env"))
 
+try:
+    from claude_grading.answer_grader_claude import is_meaningful_answer
+except ImportError:
+    def is_meaningful_answer(text: str) -> bool:
+        if not text or not text.strip(): return False
+        return len(text.strip().split()) >= 15
+
 from PIL import Image
 from pypdf import PdfReader, PdfWriter
 from reportlab.pdfgen import canvas
@@ -2211,8 +2218,9 @@ def generate_checked_copy(
             if not answer_pages:
                 continue
 
-            if not grade_entry.get("student_answer", "").strip():
-                print(f"  ⊘ Skip {section}/{q_id} — unanswered")
+            student_ans_str = grade_entry.get("student_answer", "").strip()
+            if not student_ans_str or not is_meaningful_answer(student_ans_str) or grade_entry.get("grading_method") == "no_answer":
+                print(f"  ⊘ Skip {section}/{q_id} — unanswered/meaningless")
                 # Still add a phantom entry so the page-slice logic reserves
                 # vertical space for this question's heading on a multi-Q page.
                 # No stamp, annotations, or feedback will be drawn for it.
@@ -2770,6 +2778,11 @@ def generate_checked_copy(
                         multi_q_target_y_frac = min(0.88, _min_target)
                     else:
                         multi_q_target_y_frac = q_top_frac + 0.05
+
+                # Absolute slice safety clamp: multi_q_target_y_frac MUST ALWAYS stay inside this question's slice
+                _min_target_clamp = max(q_top_frac + 0.03, (heading_y_frac + 0.03) if heading_y_frac is not None else 0.0)
+                _max_target_clamp = max(_min_target_clamp + 0.01, q_bot_frac - 0.05)
+                multi_q_target_y_frac = max(_min_target_clamp, min(multi_q_target_y_frac, _max_target_clamp))
             else:
                 q_top_frac, q_bot_frac = ink_top, ink_bot
 

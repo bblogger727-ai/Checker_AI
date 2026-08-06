@@ -70,6 +70,25 @@ def _extract_json_from_claude(text: str) -> dict:
     
     raise json.JSONDecodeError("No valid JSON found in Claude response", text[:200], 0)
 
+def is_header_only_block(text: str) -> bool:
+    """
+    Return True if the text contains ONLY a question heading/label
+    (e.g., 'Ans. 4b', 'Soln to Q4b', 'Q3a', '4) b)') and NO actual answer content.
+    """
+    if not text or not text.strip():
+        return True
+
+    cleaned = re.sub(
+        r'^\s*(?:Ans\.?|Answer|Soln\.?|Solution|Q|Question)\s*[#\s\-\.\)]*\d+[\s\.\-\)]*[a-zA-Z]?\s*\)?\s*',
+        '',
+        text.strip(),
+        flags=re.IGNORECASE
+    ).strip()
+
+    cleaned = re.sub(r'^\s*\(?[0-9]+[a-zA-Z]?\)?\s*', '', cleaned).strip()
+    words = [w for w in re.sub(r'[^a-zA-Z0-9]', ' ', cleaned).split() if len(w) > 1]
+    return len(words) < 5
+
 
 def align_answers_to_schema_claude(student_pages: list, schema: dict, manifest_questions: list = None) -> dict:
     """
@@ -119,6 +138,8 @@ INSTRUCTIONS:
 
 6. If a page clearly continues mid-sentence from the previous, merge it with the earlier block.
 
+7. IGNORE BLANK QUESTION HEADINGS: If a student wrote only a question label (e.g., 'Ans. 4b', 'Soln to Q4b', 'Q3a', '4) b)') and left the section blank with no answer text, IGNORE IT completely. Do NOT create an answer block for a blank heading.
+
 STUDENT OCR TEXT:
 {full_text}
 
@@ -163,9 +184,18 @@ CRITICAL RULES:
         
         discovery_text = response.content[0].text.strip()
         discovery_data = _extract_json_from_claude(discovery_text)
-        discovered = discovery_data.get("discovered_answers", [])
+        discovered_raw = discovery_data.get("discovered_answers", [])
         
-        print(f"[Claude Aligner] Pass 1 complete: Found {len(discovered)} answer blocks (stop_reason={stop_reason}).", flush=True)
+        # Filter out header-only blocks (e.g. 'Ans 4b' with no content)
+        discovered = []
+        for d in discovered_raw:
+            fc = d.get("full_content", "") or d.get("content_preview", "")
+            if is_header_only_block(fc):
+                print(f"[Claude Aligner] ⊘ IGNORED header-only block (no content): label={d.get('label')}, pages={d.get('pages')}", flush=True)
+            else:
+                discovered.append(d)
+
+        print(f"[Claude Aligner] Pass 1 complete: Found {len(discovered)} valid answer blocks (filtered out {len(discovered_raw) - len(discovered)} header-only blocks).", flush=True)
         for i, d in enumerate(discovered):
             print(f"  [{i+1}] Label: {d.get('label', '?')}, Type: {d.get('answer_type', '?')}, Pages: {d.get('pages', [])}", flush=True)
             
