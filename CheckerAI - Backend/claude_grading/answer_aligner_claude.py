@@ -422,8 +422,29 @@ FINAL REMINDERS:
     print(f"[Claude Aligner] Final answer map: {len(answers_map)} unique question IDs mapped.", flush=True)
     for qid, data in answers_map.items():
         preview = data["student_answer"][:80].replace("\n", " ")
-        print(f"  {qid}: Pages {data['answer_pages']} | {preview}...", flush=True)
-    
+    # ======================== PAGE SANITIZATION ========================
+    def _sanitize_pages(full_text: str, pages: list) -> list:
+        if not full_text or not student_pages:
+            return pages
+        lines = [
+            l.strip() for l in full_text.split('\n')
+            if len(l.strip()) > 10 and not re.search(r'^(?:classmate|date|page|audit test|test-\d+)', l.strip(), re.IGNORECASE)
+        ]
+        if not lines:
+            return pages
+        real_pages = []
+        for p in student_pages:
+            p_num = p.get('page')
+            p_text = p.get('text', '')
+            if p_num and any(line[:25].lower() in p_text.lower() for line in lines):
+                real_pages.append(p_num)
+        return real_pages if real_pages else pages
+
+    for qid in answers_map:
+        answers_map[qid]["answer_pages"] = _sanitize_pages(
+            answers_map[qid]["student_answer"], answers_map[qid]["answer_pages"]
+        )
+
     # ======================== INJECT INTO SCHEMA ========================
     _inject_answers(schema, answers_map)
     

@@ -1654,10 +1654,10 @@ def _find_question_line_bounds(ocr_text: str, q_num: str) -> tuple[int, int]:
         if start is not None:
             return start, len(lines)
 
-    # Super loose fallback: match just the sub_letter e.g. "(b)", "b)", "b."
+    # Super loose fallback: match explicit sub_letter heading e.g. "[a]", "(a)", "a)", "a.", "a -", "a:"
     if sub_letter:
         q_super_loose = re.compile(
-            rf"(?:^|\b|\s)\(?{re.escape(sub_letter)}\)?\s*[.\-:]*",
+            rf"^\s*[\[(\s]*{re.escape(sub_letter)}[\)\]\.:\-]+",
             re.IGNORECASE
         )
         for i, line in enumerate(lines):
