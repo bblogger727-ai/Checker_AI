@@ -131,7 +131,7 @@ function QuestionCard({
                             <div className="removed-placeholder">Marks stamp is marked for removal.</div>
                         ) : (
                             <>
-                                <span className="move-hint">Move the stamp by 30px increments:</span>
+                                <span className="move-hint">Move the stamp by 100px increments:</span>
                                 <DPad onMove={(dir) => onMoveStamp(mkey, dir)} />
                                 <div className="move-stats">
                                     Net movement: 
@@ -184,7 +184,7 @@ function QuestionCard({
                             <div className="removed-placeholder">Feedback is marked for removal.</div>
                         ) : (
                             <>
-                                <span className="move-hint">Move the feedback by 30px increments:</span>
+                                <span className="move-hint">Move the feedback by 100px increments:</span>
                                 <DPad onMove={(dir) => onMoveFeedback(mkey, dir)} />
                                 <div className="move-stats">
                                     Net movement: 

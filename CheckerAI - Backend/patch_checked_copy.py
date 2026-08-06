@@ -372,7 +372,7 @@ def _apply_corrections_to_manifest(manifest: dict, corrections: dict) -> dict:
                     if match_obj:
                         dir_name = match_obj.group(1)
                         multiplier = int(match_obj.group(2)) if match_obj.group(2) else 1
-                        dist = 30 * multiplier
+                        dist = 100 * multiplier
                         if dir_name == "up": existing[idx]["y"] += dist
                         elif dir_name == "down": existing[idx]["y"] -= dist
                         elif dir_name == "left": existing[idx]["x"] -= dist
@@ -418,7 +418,7 @@ def _apply_corrections_to_manifest(manifest: dict, corrections: dict) -> dict:
             for move in move_corr:
                 direction = move["direction"]
                 multiplier = move.get("multiplier", 1)
-                dist = 30 * multiplier
+                dist = 100 * multiplier
                 
                 stamp = q.get("stamp")
                 if stamp:
@@ -440,7 +440,7 @@ def _apply_corrections_to_manifest(manifest: dict, corrections: dict) -> dict:
             for move in move_corr:
                 direction = move["direction"]
                 multiplier = move.get("multiplier", 1)
-                dist = 30 * multiplier
+                dist = 100 * multiplier
                 
                 fb = q.get("feedback")
                 if fb:
@@ -467,7 +467,7 @@ def _apply_corrections_to_manifest(manifest: dict, corrections: dict) -> dict:
                 idx = move["index"]
                 direction = move["direction"]
                 multiplier = move.get("multiplier", 1)
-                dist = 30 * multiplier
+                dist = 100 * multiplier
                 
                 if 0 <= idx < len(existing):
                     if direction == "up":
@@ -920,11 +920,11 @@ def main():
     parser.add_argument("--remove-stamp", action="append", metavar="KEY",
                         help="Completely remove the marks stamp for a question.")
     parser.add_argument("--move-tick",    nargs=3, action="append", metavar=("KEY", "INDEX", "DIRECTION"),
-                        help="Move a specific tick/cross by 30 pixels. DIRECTION = up | down | left | right")
+                        help="Move a specific tick/cross by 100 pixels. DIRECTION = up | down | left | right")
     parser.add_argument("--move-stamp",   nargs=2, action="append", metavar=("KEY", "DIRECTION"),
-                        help="Move the marks stamp by 30 pixels. DIRECTION = up | down | left | right")
+                        help="Move the marks stamp by 100 pixels. DIRECTION = up | down | left | right")
     parser.add_argument("--move-feedback",nargs=2, action="append", metavar=("KEY", "DIRECTION"),
-                        help="Move the feedback text by 30 pixels. DIRECTION = up | down | left | right")
+                        help="Move the feedback text by 100 pixels. DIRECTION = up | down | left | right")
     parser.add_argument("--corrections-json", default=None,
                         help="Path to a JSON file containing the corrections dict (for batch / frontend use)")
 
