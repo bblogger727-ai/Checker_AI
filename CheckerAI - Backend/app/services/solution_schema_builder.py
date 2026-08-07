@@ -104,36 +104,41 @@ Extract:
 3. Descriptive questions (Q1, Q2, etc.) if present
 
 For each question/subquestion extract:
-- question_id (unique: <Section>-Q<Num> e.g., A-Q1)
+- question_id (unique: <Section>-Q<Num><subpart> e.g., SectionB-Q1a)
 - question_number (the root question number, e.g. "Q1")
-- subpart (null or merged if consolidated)
+- subpart (the subpart letter e.g. "a", "b", "c", or null if none)
 - full question text
-- marks (MUST be a number/float).
+- marks (MUST be a number/float for this subpart).
 - or_group (for OR alternatives, otherwise null)
 
-CRITICAL RULES FOR CONSOLIDATION (READ CAREFULLY):
-1. For DESCRIPTIVE questions (non-MCQ), if a question has subparts (i, ii, iii or a, b, c), DO NOT split them into separate entries.
-2. CONSOLIDATE all subparts into a single parent question entry (e.g., Q3).
-3. The `question_text` MUST combine all subparts' texts.
-4. The `marks` MUST be the total marks for that question number. PAY EXTREME ATTENTION to marks written at the end of a question (e.g., "(8 marks)"). Do not leave it as null if marks are present anywhere.
-5. PREVENT MISLABELING: Read the question numbers carefully. If a question starts with "Question: 7", it MUST be labeled as "Q7". Do NOT mistakenly label it as "Q3" or any other number just because it appears sequentially.
-6. This consolidation helps in aligning student answers that often cover all subparts in a single flow.
+CRITICAL RULES FOR SUBQUESTIONS:
+1. For DESCRIPTIVE questions (non-MCQ), if a question has subparts (a, b, c or i, ii, iii), extract each subpart (a, b, c) as a SEPARATE subquestion entry (e.g., Q1a, Q1b, Q1c).
+2. DO NOT consolidate subparts (a, b, c) into a single parent entry. Each subpart (a, b, c) MUST be listed individually under its parent question object (e.g., "Q1": {{ "Q1a": {{...}}, "Q1b": {{...}}, "Q1c": {{...}} }}).
+3. The `question_text` MUST contain the exact text for that specific subpart.
+4. The `marks` MUST be the marks for that specific subpart (e.g., 5, 4, 6). Pay close attention to marks indicated next to each subpart.
+5. PREVENT MISLABELING: Read question numbers carefully. If a question starts with "Question 2(a)", set question_number="Q2", subpart="a", key="Q2a".
 
-Example format for consolidated descriptive question:
+Example format for descriptive question with subparts:
 {{
-  "PART_I": {{
-    "Q3": {{ "question_id": "PART_I-Q3", "question_number": "Q3", "subpart": null, "question_text": "(i) Tabulate NPV... (ii) Examine impact... (iii) Critically analyse...", "marks": 6, "or_group": null }}
+  "SectionB": {{
+    "Q1": {{
+      "Q1a": {{ "question_id": "SectionB-Q1a", "question_number": "Q1", "subpart": "a", "question_text": "...", "marks": 5, "or_group": null }},
+      "Q1b": {{ "question_id": "SectionB-Q1b", "question_number": "Q1", "subpart": "b", "question_text": "...", "marks": 4, "or_group": null }},
+      "Q1c": {{ "question_id": "SectionB-Q1c", "question_number": "Q1", "subpart": "c", "question_text": "...", "marks": 5, "or_group": null }}
+    }}
   }}
 }}
 
-Exception: MCQ questions should still be listed individually under their MCQ block.
+Exception: MCQ questions should be listed individually under their MCQ block.
 
 Return JSON structure:
 {{
   "SectionA": {{
-    "MCQ": {{ "1": {{"question_id": "A-MCQ-1", "marks": 1, ...}} }},
+    "MCQ": {{ "1": {{"question_id": "A-MCQ-1", "marks": 1, ...}} }}
+  }},
+  "SectionB": {{
     "Q1": {{
-      "question_id": "A-Q1", "marks": 5, "subpart": null, ...
+      "Q1a": {{ "question_id": "SectionB-Q1a", "marks": 5, "subpart": "a", ... }}
     }}
   }}
 }}

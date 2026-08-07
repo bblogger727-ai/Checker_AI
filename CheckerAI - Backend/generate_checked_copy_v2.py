@@ -198,20 +198,20 @@ def _generate_llm_feedback(grade_entry: dict, cache_key: str) -> str | None:
         )
         max_tok = 30
 
-    # ── Case 2: Very poor score (< 25%) → 2–3 bullet points ───────────────
-    elif marks_ratio < 0.25:
+    # ── Case 2: Low score (< 50% or 0 marks) → 2–3 bullet points ───────────────
+    elif marks_ratio < 0.50 or marks_obtained == 0:
         context      = f"Grader feedback: {feedback_raw}\n" if feedback_raw else ""
         errors_block = f"Key errors: {errors_str}\n" if errors_str else ""
         prompt = (
             f"A student scored {marks_obtained}/{marks_total} on an exam question.\n"
             f"{context}{errors_block}"
             f"{avoid_block}\n"
-            "Write 2 to 3 very short bullet points (start each with '•') listing the "
-            "main things the student missed or got wrong. Each bullet must be ≤10 words. "
+            "Write 2 to 3 concise bullet points (start each with '•') listing the specific "
+            "reasons, missed concepts, or calculation errors for the lost/zero marks. Each bullet must be ≤12 words. "
             "DO NOT use terms like 'model', 'model answer', or 'marking scheme'. Address the student directly as a teacher. "
             "No full stop at the end of each bullet. Return only the bullets, no intro text."
         )
-        max_tok = 90
+        max_tok = 100
 
     # ── Case 3: Partial score → single corrective sentence ────────────────
     else:
@@ -398,8 +398,14 @@ def _render_gray(fitz_page, dpi: int = RENDER_DPI):
     w, h = pix.width, pix.height
 
     # PDF point dimensions (scale = pts per pixel)
-    scale_x = fitz_page.rect.width  / w
-    scale_y = fitz_page.rect.height / h
+    rect_w = fitz_page.rect.width
+    rect_h = fitz_page.rect.height
+    if getattr(fitz_page, 'rotation', 0) in (90, 270):
+        scale_x = rect_h / w
+        scale_y = rect_w / h
+    else:
+        scale_x = rect_w / w
+        scale_y = rect_h / h
 
     gray = Image.frombytes("RGB", [w, h], bytes(pix.samples)).convert("L")
     return gray, w, h, scale_x, scale_y
@@ -964,12 +970,16 @@ def _find_clear_x(gray: Image.Image, img_w: int, img_h: int, pdf_w: float, y_fra
     return result_x
 
 
-def _random_ann_x(pdf_w: float, is_practical: bool = False, page_num: int = None) -> float:
+def _random_ann_x(pdf_w: float, is_practical: bool = False, page_num: int = None, pdf_h: float = None) -> float:
     """
     Pick a natural X position clamped to the detected paper boundary.
+    On landscape/wide pages (pdf_w > pdf_h), keep annotations inside a vertical column (10%-40% of width).
     """
     x_min, x_max = _get_page_x_bounds(page_num or 0, pdf_w)
     span = x_max - x_min
+    if pdf_h and pdf_w > pdf_h:
+        return random.uniform(x_min + span * 0.10, x_min + span * 0.40)
+
     if is_practical:
         if random.random() < 0.70:
             return random.uniform(x_min + span * 0.50, x_min + span * 0.85)
@@ -1244,9 +1254,10 @@ def _draw_marks_stamp(
     marks_obtained: float, marks_total: float,
     font_name: str,
     scale: float = 1.0,
+    q_num: str = None,
 ):
     """
-    Draw a proper stacked fraction:
+    Draw a teacher-style fraction stamp at (cx, cy):
         numerator
         -------
         denominator
@@ -1780,20 +1791,25 @@ def _plan_annotations_from_ocr(
     if current_page_ann_count >= MAX_ANN_PER_PAGE:
         return []
 
-    if ink_bot - ink_top <= 0.30:
+    # ── Step 1: Build OCR line list and estimate text region ────────────────
+    all_raw_lines = ocr_page_text.split('\n')
+    written_lines = [l for l in all_raw_lines if l.strip()]
+    n_written     = len(written_lines)
+
+    if n_written <= 8 or (ink_bot - ink_top) <= 0.45:
         max_ann = 1
     else:
         max_ann = random.randint(2, MAX_ANN_PER_PAGE)
 
     max_ann = min(max_ann, MAX_ANN_PER_PAGE - current_page_ann_count)
 
-    # ── Step 1: Build OCR line list and estimate text region ────────────────
-    lines       = ocr_page_text.split('\n')
-    total_lines = len(lines)
-
-    # Use actual detected ink bottom (constrained by question slice) so annotations
-    # naturally spread across the entire written text height instead of clumping at top
-    estimated_ink_bot = min(ink_bot, slice_bot)
+    # Calculate actual text end from written line count so annotations
+    # stop where the student's written text actually ends on this page.
+    if n_written > 0:
+        line_based_bot = ink_top + (n_written / 22.0) * (0.85 - ink_top) + 0.02
+        estimated_ink_bot = min(ink_bot, slice_bot, max(ink_top + 0.10, line_based_bot))
+    else:
+        estimated_ink_bot = min(ink_bot, slice_bot)
 
     # ── Step 2: Fragment-first y-placement ────────────────────────────
     # Build the target annotation list: each entry is (action, fragment_text)
@@ -1816,18 +1832,19 @@ def _plan_annotations_from_ocr(
     ann_actions:    list[str]   = []
 
     for action, frag in target_annotations:
-        y_frac = _find_fragment_y(frag, lines, ink_top, estimated_ink_bot, slice_top, slice_bot)
+        y_frac = _find_fragment_y(frag, written_lines, ink_top, estimated_ink_bot, slice_top, slice_bot)
         if y_frac is not None:
             y_candidates.append(y_frac)
             ann_ocr_lines.append(frag)
             ann_actions.append(action)
 
     # ── Step 3: Fill remaining slots with evenly-spaced OCR lines ──────────
-    remaining = max_ann - len(y_candidates)
+    remaining   = max_ann - len(y_candidates)
+    total_lines = len(all_raw_lines)
     if remaining > 0 and total_lines > 0:
         content_idxs = []
         for line_idx in range(total_lines):
-            if lines[line_idx].strip():
+            if all_raw_lines[line_idx].strip():
                 raw_frac = (line_idx + 0.5) / total_lines
                 y_frac   = ink_top + raw_frac * (estimated_ink_bot - ink_top)
                 if slice_top <= y_frac <= slice_bot:
@@ -1846,7 +1863,7 @@ def _plan_annotations_from_ocr(
                 raw_frac = (line_idx + 0.5) / total_lines
                 y_frac   = ink_top + raw_frac * (estimated_ink_bot - ink_top)
                 y_candidates.append(y_frac)
-                ann_ocr_lines.append(lines[line_idx].strip())
+                ann_ocr_lines.append(all_raw_lines[line_idx].strip())
                 ann_actions.append(None)   # action determined later by score ratio
 
     # ── Step 4: Fallback if nothing resolved ──────────────────────────
@@ -2148,7 +2165,7 @@ def generate_checked_copy(
         entry for (sec, q_id), entry in grading_lookup.items()
         if sec == "SectionA" and "marks_obtained" in entry
     ]
-    _mcq_skipped = _mcq_entries and all(e.get("skipped_mcq") for e in _mcq_entries)
+    _mcq_skipped = _mcq_entries and all(e.get("skipped_mcq") or e.get("marks_obtained") is None for e in _mcq_entries)
     if _mcq_skipped:
         mcq_total_obtained = None   # pending — teacher enters manually
     else:
@@ -2261,13 +2278,23 @@ def generate_checked_copy(
             )
             fb_text = None
             is_zero_marks = (marks_obtained == 0)
-            if not is_mcq and not is_no_answer and not is_zero_marks:
-                cache_key = f"{section}__{q_id}"
-                fb_text   = _generate_llm_feedback(grade_entry, cache_key)
-                if fb_text:
-                    fb_text = fb_text.replace('response', 'answer').replace('Response', 'Answer')
-                    fb_text = fb_text.replace('insightful', 'comprehensive').replace('Insightful', 'Comprehensive')
-                    print(f'  💬 Feedback for Q{q_num}: "{fb_text}"', flush=True)
+
+            # Check if student answer is minimal attempt (<=1 short line / prompt title only)
+            student_ans_text = str(aligned_q.get("student_answer", "") or grade_entry.get("student_answer", "") or "").strip()
+            cleaned_ans = re.sub(r'^(?:Question|Q|Ans\.?|Answer|Soln\.?|Solution)\s*#?\s*\d+[a-z]?[\s\.\:]*', '', student_ans_text, flags=re.IGNORECASE).strip()
+            num_words = len(cleaned_ans.split())
+            num_lines = len([l for l in student_ans_text.split('\n') if l.strip()])
+            is_minimal_attempt = (num_lines <= 1 or num_words < 15 or not cleaned_ans)
+
+            # Generate feedback if not MCQ, not no_answer, and either >0 marks OR 0 marks with substantial attempt
+            if not is_mcq and not is_no_answer:
+                if not (is_zero_marks and is_minimal_attempt):
+                    cache_key = f"{section}__{q_id}"
+                    fb_text   = _generate_llm_feedback(grade_entry, cache_key)
+                    if fb_text:
+                        fb_text = fb_text.replace('response', 'answer').replace('Response', 'Answer')
+                        fb_text = fb_text.replace('insightful', 'comprehensive').replace('Insightful', 'Comprehensive')
+                        print(f'  💬 Feedback for Q{q_num}: "{fb_text}"', flush=True)
 
             # Check for fundamentally wrong final practical answer
             # Skip for no-answer questions — nothing to mark wrong
@@ -2386,7 +2413,7 @@ def generate_checked_copy(
             }
 
         # ── MCQ total stamp on page where MCQs are (or fallback to last page) ──────────
-        if is_full_paper and not mcq_page_marked:
+        if (is_full_paper or len(_mcq_entries) > 0) and not mcq_page_marked:
             ocr_page_text = _load_ocr_page_text(ocr_text_path, page_num) if ocr_text_path else ""
             has_mcqs_for_stamp = False
             

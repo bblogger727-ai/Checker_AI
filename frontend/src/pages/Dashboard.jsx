@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../App';
 import {
     getExams, createExam, deleteExam,
-    getPaperCatalog,
+    getPaperCatalog, getPipelineJobs,
     runOldPipeline, runNewPipeline, runFeedbackPipeline,
     getPipelineStatus, downloadPipelineResult, pipelineAction,
     getStats, resetStats
@@ -975,14 +975,107 @@ function ExamsTab() {
 }
 
 /* ══════════════════════════════════════════════════════════════════════════ */
+/* EDIT CHECKED COPY TAB                                                      */
+/* ══════════════════════════════════════════════════════════════════════════ */
+
+function EditCheckedCopyTab() {
+    const navigate = useNavigate();
+    const [jobs, setJobs]       = useState([]);
+    const [loading, setLoading] = useState(true);
+    const [filter, setFilter]   = useState('');
+
+    useEffect(() => { loadJobs(); }, []);
+
+    const loadJobs = async () => {
+        try { setJobs(await getPipelineJobs()); }
+        catch (err) { console.error('Failed to load past checked papers:', err); }
+        finally { setLoading(false); }
+    };
+
+    const filteredJobs = jobs.filter(j => 
+        j.student_name.toLowerCase().includes(filter.toLowerCase()) ||
+        j.task_id.toLowerCase().includes(filter.toLowerCase())
+    );
+
+    return (
+        <div className="edit-checked-tab">
+            <div className="tab-header-row">
+                <div>
+                    <h2 className="tab-section-title">Edit Checked Copy</h2>
+                    <p className="tab-section-desc">Select any checked student paper to adjust marks, feedback, or annotation placement.</p>
+                </div>
+                <div className="search-box">
+                    <input
+                        type="text"
+                        placeholder="Search student name…"
+                        value={filter}
+                        onChange={(e) => setFilter(e.target.value)}
+                        className="search-input"
+                    />
+                </div>
+            </div>
+
+            {loading ? (
+                <div className="loading">Loading checked papers…</div>
+            ) : filteredJobs.length === 0 ? (
+                <div className="empty-state">
+                    <div className="empty-icon">📝</div>
+                    <h3>No past checked papers found</h3>
+                    <p>{filter ? 'No students match your search filter' : 'Check a student paper using Old or New Papers pipeline first'}</p>
+                </div>
+            ) : (
+                <div className="jobs-grid">
+                    {filteredJobs.map(job => (
+                        <div key={job.task_id} className="job-card" onClick={() => navigate(`/checked-paper/${job.task_id}/edit`)}>
+                            <div className="job-card-header">
+                                <span className="job-student-icon">👤</span>
+                                <h3 className="job-student-name">{job.student_name}</h3>
+                                <span className={`job-status-badge ${job.status}`}>{job.status}</span>
+                            </div>
+                            
+                            <div className="job-score-row">
+                                <span className="job-score-lbl">Score:</span>
+                                <span className="job-score-val">
+                                    {job.total_possible > 0 ? `${job.total_obtained.toFixed(1)} / ${job.total_possible.toFixed(1)}` : 'Pending'}
+                                </span>
+                                {job.total_possible > 0 && (
+                                    <span className="job-score-pct">({job.percentage.toFixed(1)}%)</span>
+                                )}
+                            </div>
+
+                            <div className="job-card-footer">
+                                <span className="job-date">
+                                    {new Date(job.created_at * 1000).toLocaleDateString(undefined, { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' })}
+                                </span>
+                                <button
+                                    type="button"
+                                    className="edit-copy-btn"
+                                    onClick={(e) => {
+                                        e.stopPropagation();
+                                        navigate(`/checked-paper/${job.task_id}/edit`);
+                                    }}
+                                >
+                                    ✏️ Edit Checked Copy
+                                </button>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            )}
+        </div>
+    );
+}
+
+/* ══════════════════════════════════════════════════════════════════════════ */
 /* DASHBOARD ROOT                                                              */
 /* ══════════════════════════════════════════════════════════════════════════ */
 
 const TABS = [
-    { id: 'new',   label: '⚡ New Papers Checking',  desc: 'Pre-built JSON paper + student sheet' },
-    { id: 'old',   label: '📜 Old Papers Checking',  desc: 'QP + Solution + student sheet' },
-    { id: 'feedback', label: '💬 Feedback Only',    desc: 'Manual marking + feedback' },
-    { id: 'exams', label: '📋 Manage Exams',          desc: 'Exam & student management' },
+    { id: 'new',          label: '⚡ New Papers Checking',  desc: 'Pre-built JSON paper + student sheet' },
+    { id: 'old',          label: '📜 Old Papers Checking',  desc: 'QP + Solution + student sheet' },
+    { id: 'edit_checked', label: '✏️ Edit Checked Copy',   desc: 'Select past student paper & edit copy' },
+    { id: 'feedback',     label: '💬 Feedback Only',        desc: 'Manual marking + feedback' },
+    { id: 'exams',        label: '📋 Manage Exams',          desc: 'Exam & student management' },
 ];
 
 function Dashboard() {
@@ -1024,10 +1117,11 @@ function Dashboard() {
 
                 {/* Tab content */}
                 <div className="tab-content">
-                    {activeTab === 'old'   && <OldPapersTab />}
-                    {activeTab === 'new'   && <NewPapersTab />}
-                    {activeTab === 'feedback' && <FeedbackTab />}
-                    {activeTab === 'exams' && <ExamsTab />}
+                    {activeTab === 'old'          && <OldPapersTab />}
+                    {activeTab === 'new'          && <NewPapersTab />}
+                    {activeTab === 'edit_checked' && <EditCheckedCopyTab />}
+                    {activeTab === 'feedback'     && <FeedbackTab />}
+                    {activeTab === 'exams'        && <ExamsTab />}
                 </div>
             </main>
         </div>

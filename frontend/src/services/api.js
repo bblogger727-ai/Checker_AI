@@ -150,6 +150,15 @@ export const getPaperCatalog = async () => {
 };
 
 /**
+ * Fetch all past checked papers for the Edit Checked Copy section.
+ * Returns array of { task_id, student_name, pipeline, created_at, total_obtained, total_possible, percentage, status }
+ */
+export const getPipelineJobs = async () => {
+    const response = await api.get('/api/pipelines/jobs');
+    return response.data;
+};
+
+/**
  * Launch the Old-Papers (Claude) pipeline.
  * Returns { task_id, status }
  */

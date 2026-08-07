@@ -578,6 +578,8 @@ def grade_all_answers(aligned_answers: dict, model_answers: dict, student_pdf_pa
         for item in all_graded_items
         if not item.get("skipped_mcq")
     )
+    if mcq_count > 0 and total_marks_possible > 70.0:
+        total_marks_possible = 70.0
 
     percentage = (total_marks_obtained / total_marks_possible * 100) if total_marks_possible > 0 else 0
 

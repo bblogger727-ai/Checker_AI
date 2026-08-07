@@ -4,6 +4,15 @@ CheckerAI - AI Exam Evaluator API
 FastAPI application with PostgreSQL for full debug storage.
 """
 
+import os
+from pathlib import Path
+from dotenv import load_dotenv
+
+# Load .env variables into environment at FastAPI startup
+_BACKEND_DIR = Path(__file__).resolve().parent.parent
+load_dotenv(_BACKEND_DIR / ".env")
+load_dotenv(_BACKEND_DIR.parent / ".env")
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from starlette.middleware.base import BaseHTTPMiddleware

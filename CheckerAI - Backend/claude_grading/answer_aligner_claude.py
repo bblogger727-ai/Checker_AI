@@ -151,26 +151,23 @@ OUTPUT JSON FORMAT:
       "answer_type": "mcq" | "descriptive" | "calculation",
       "pages": [1, 2],
       "topic_summary": "Brief description of what the answer is about (2-3 sentences)",
-      "content_preview": "First 200 chars of the answer...",
-      "full_content": "Complete answer text exactly as found in OCR"
+      "content_preview": "First 200 chars of the answer..."
     }}
   ]
 }}
 
 CRITICAL RULES:
-- ZERO TEXT DROPPED: The combined `full_content` of all discovered blocks MUST EXACTLY equal the full input text. Every single sentence, table, heading, and number from every page MUST be included in some block.
-- If text has no label and doesn't seem to fit a previous answer, create a new block with label "unknown". NEVER silently discard text.
+- Include ALL answers found in the student text.
+- Do NOT output full_content (keep output compact so JSON is never truncated).
 - Label MUST reflect what the student ACTUALLY wrote, not your inference. If student didn't label it, use "unknown".
-- Do NOT modify or clean up the text \u2014 preserve it exactly as OCR extracted it, including tables.
 - If multiple labeled answers appear on the same page, split them into separate entries.
-- STRICT UNIQUENESS: Each sentence, paragraph, or block of text MUST appear in EXACTLY ONE discovered block. DO NOT copy or repeat the same text across multiple blocks. If text is ambiguous, put it in the block that contains the text immediately before it (physical reading order).
 - Output ONLY valid JSON.
 """
 
     try:
         response = claude_client.messages.create(
             model=CLAUDE_MODEL,
-            max_tokens=16000,
+            max_tokens=8000,
             system="You are a precise exam answer sheet reader. Your job is to identify every written answer and its topic, so it can later be matched to the correct schema question by content — NOT by page position. Output strictly in JSON format.",
             messages=[
                 {"role": "user", "content": discovery_prompt}
@@ -185,6 +182,12 @@ CRITICAL RULES:
         discovery_text = response.content[0].text.strip()
         discovery_data = _extract_json_from_claude(discovery_text)
         discovered_raw = discovery_data.get("discovered_answers", [])
+        
+        # Populate full_content directly from student_pages for each discovered block
+        page_dict = {p["page"]: p["text"] for p in student_pages}
+        for d in discovered_raw:
+            pages = d.get("pages", [])
+            d["full_content"] = "\n\n".join([page_dict[p] for p in pages if p in page_dict])
         
         # Filter out header-only blocks (e.g. 'Ans 4b' with no content)
         discovered = []

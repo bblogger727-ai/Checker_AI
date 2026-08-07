@@ -30,18 +30,22 @@ def normalize_schema_structure(data: dict) -> dict:
         result["SectionB"].update(result["DivisionB"])
         del result["DivisionB"]
         
-    # 3. Identify SectionB questions at root and move them
-    # Common root keys that should be in SectionB
+    # 3. Identify SectionB questions at root and move them if not present in SectionB/PART_II
     section_b_keys = ["Q1", "Q2", "Q3", "Q4", "Q5", "Q6"]
     for k in list(result.keys()):
         if k in section_b_keys:
-            # If Q1 is at root, move it to SectionB
-            if k not in result["SectionB"] or (isinstance(result["SectionB"][k], dict) and not result["SectionB"][k].get("question_text")):
-                 result["SectionB"][k] = result[k]
-                 print(f"[Normalization] Moved root {k} to SectionB")
-            else:
-                 # Merge if necessary (preserve existing if more complete)
-                 pass
+            # Check if this question key is already present in PART_II or SectionB
+            already_exists = False
+            for sec in ["PART_II", "SectionB"]:
+                if sec in result and k in result[sec] and isinstance(result[sec][k], dict) and len(result[sec][k]) > 0:
+                    already_exists = True
+                    break
+            
+            if not already_exists:
+                target_sec = "PART_II" if k == "Q1" and "PART_II" in result else "SectionB"
+                result[target_sec][k] = result[k]
+                print(f"[Normalization] Moved root {k} to {target_sec}")
+            
             del result[k]
 
     # 4. Fix MCQ IDs and SectionA structure

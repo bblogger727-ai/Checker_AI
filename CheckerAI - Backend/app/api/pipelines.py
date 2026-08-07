@@ -134,6 +134,54 @@ def _save_upload(upload: UploadFile, dest: Path):
     dest.write_bytes(content)
 
 
+def _resolve_profile_api_keys(profile: str) -> dict:
+    """
+    Resolve profile API keys dynamically with support for multiple common env var names.
+    Supports 'Profile 2' (or '2') with:
+      - ANTHROPIC_API_KEY_PROFILE_2
+      - ANTHROPIC_API_KEY_2
+      - ANTHROPIC_API_KEY2
+      - ANTHROPIC_API_KEY_PROFILE2
+      - PROFILE_2_ANTHROPIC_API_KEY
+    And OpenAI equivalent:
+      - OPENAI_API_KEY_PROFILE_2
+      - OPENAI_API_KEY_2
+      - OPENAI_API_KEY2
+      - OPENAI_API_KEY_PROFILE2
+    """
+    from dotenv import load_dotenv
+    load_dotenv(_BACKEND_DIR / ".env", override=True)
+    load_dotenv(_BACKEND_DIR.parent / ".env", override=True)
+
+    profile_str = str(profile or "").strip().lower()
+    keys = {}
+    if "2" in profile_str:
+        anthropic_key = (
+            os.getenv("ANTHROPIC_API_KEY_PROFILE_2") or
+            os.getenv("ANTHROPIC_API_KEY_2") or
+            os.getenv("ANTHROPIC_API_KEY2") or
+            os.getenv("ANTHROPIC_API_KEY_PROFILE2") or
+            os.getenv("PROFILE_2_ANTHROPIC_API_KEY")
+        )
+        openai_key = (
+            os.getenv("OPENAI_API_KEY_PROFILE_2") or
+            os.getenv("OPENAI_API_KEY_2") or
+            os.getenv("OPENAI_API_KEY2") or
+            os.getenv("OPENAI_API_KEY_PROFILE2") or
+            os.getenv("PROFILE_2_OPENAI_API_KEY")
+        )
+        if anthropic_key and anthropic_key.strip():
+            keys["ANTHROPIC_API_KEY"] = anthropic_key.strip()
+            print(f"[PROFILE ENV] Profile 2 Anthropic key resolved ({anthropic_key[:12]}...)")
+        else:
+            print(f"[PROFILE WARNING] '{profile}' selected but no Profile 2 Anthropic key found (checked ANTHROPIC_API_KEY_PROFILE_2, ANTHROPIC_API_KEY_2, etc.)")
+
+        if openai_key and openai_key.strip():
+            keys["OPENAI_API_KEY"] = openai_key.strip()
+
+    return keys
+
+
 def _run_subprocess(task_id: str, cmd: list[str], output_dir: Path, profile_api_keys: dict = None, profile: str = "Profile 1", paper_type: str = "unknown"):
     """Run a pipeline subprocess and monitor it. Updates _tasks on completion."""
     _tasks[task_id]["status"] = "running"
@@ -144,6 +192,7 @@ def _run_subprocess(task_id: str, cmd: list[str], output_dir: Path, profile_api_
         for k, v in profile_api_keys.items():
             if v:
                 env[k] = v
+                print(f"[PROFILE ENV] Injected {profile} override into subprocess env for {k}")
 
     try:
         proc = subprocess.Popen(
@@ -289,12 +338,7 @@ async def run_old_pipeline(
 
     _tasks[task_id] = {"status": "queued", "output_dir": str(output_dir), "pipeline": "old"}
     
-    profile_api_keys = None
-    if profile == "Profile 2":
-        profile_api_keys = {
-            "ANTHROPIC_API_KEY": os.getenv("ANTHROPIC_API_KEY_PROFILE_2"),
-            "OPENAI_API_KEY": os.getenv("OPENAI_API_KEY_PROFILE_2")
-        }
+    profile_api_keys = _resolve_profile_api_keys(profile)
 
     paper_type = "unknown"
     if qp_pdf.filename:
@@ -388,12 +432,7 @@ async def run_new_pipeline(
 
     _tasks[task_id] = {"status": "queued", "output_dir": str(output_dir), "pipeline": "new"}
     
-    profile_api_keys = None
-    if profile == "Profile 2":
-        profile_api_keys = {
-            "ANTHROPIC_API_KEY": os.getenv("ANTHROPIC_API_KEY_PROFILE_2"),
-            "OPENAI_API_KEY": os.getenv("OPENAI_API_KEY_PROFILE_2")
-        }
+    profile_api_keys = _resolve_profile_api_keys(profile)
 
     paper_type = "unknown"
     name_lower = ft_paper_path.lower()
@@ -543,7 +582,7 @@ def download_pipeline_result(task_id: str, file_type: str):
 
     file_type: "checked_copy" | "grading_report"
     """
-    job_dir = _JOBS_DIR / task_id
+    job_dir = _get_job_dir(task_id)
     if not job_dir.exists():
         raise HTTPException(status_code=404, detail="Task not found")
 
@@ -591,8 +630,116 @@ def download_pipeline_result(task_id: str, file_type: str):
     )
 
 # ══════════════════════════════════════════════════════════════════════════════
-# Mock endpoints for UI compatibility
+# Mock & History endpoints for UI compatibility
 # ══════════════════════════════════════════════════════════════════════════════
+
+def _get_job_dir(task_id: str) -> Path:
+    """Helper to locate job directory in _JOBS_DIR or grading_results."""
+    job_dir = _JOBS_DIR / task_id
+    if job_dir.exists():
+        return job_dir
+    alt_dir = _BACKEND_DIR / "grading_results" / task_id
+    if alt_dir.exists():
+        return alt_dir
+    return job_dir
+
+
+@router.get("/jobs")
+def list_pipeline_jobs():
+    """
+    List all checked paper jobs for the Edit Checked Copy dashboard section.
+    Scans both _JOBS_DIR and grading_results directory and returns structured job cards.
+    """
+    jobs = []
+    seen_ids = set()
+
+    search_dirs = []
+    if _JOBS_DIR.exists():
+        search_dirs.append(_JOBS_DIR)
+    
+    grading_results_dir = _BACKEND_DIR / "grading_results"
+    if grading_results_dir.exists():
+        search_dirs.append(grading_results_dir)
+
+    for base_dir in search_dirs:
+        for job_dir in base_dir.iterdir():
+            if not job_dir.is_dir():
+                continue
+
+            task_id = job_dir.name
+            if task_id in seen_ids:
+                continue
+
+            checked_pdf = job_dir / "checked_copy.pdf"
+            result_file = job_dir / "result.json"
+            grading_json = job_dir / "grading_final.json"
+            meta_file = job_dir / "task_meta.json"
+
+            if not (checked_pdf.exists() or grading_json.exists() or result_file.exists()):
+                continue
+
+            seen_ids.add(task_id)
+
+            student_name = ""
+            pipeline_type = "unknown"
+            created_at = job_dir.stat().st_mtime
+
+            if meta_file.exists():
+                try:
+                    meta = json.loads(meta_file.read_text(encoding="utf-8"))
+                    student_name = meta.get("student_name", "").strip()
+                    pipeline_type = meta.get("pipeline", pipeline_type)
+                    if "created_at" in meta:
+                        created_at = meta["created_at"]
+                except Exception:
+                    pass
+
+            if not student_name:
+                clean_name = task_id.replace("dataset_", "").replace("old_", "").replace("new_", "")
+                parts = clean_name.split("_")
+                if len(parts) >= 2 and len(parts[-1]) >= 8 and len(parts[-1]) <= 32:
+                    student_name = " ".join(parts[:-1]).replace("_", " ").title()
+                else:
+                    student_name = clean_name.replace("_", " ").title()
+
+            total_obtained = 0.0
+            total_possible = 0.0
+            status = "completed" if checked_pdf.exists() else "running"
+
+            if result_file.exists():
+                try:
+                    res = json.loads(result_file.read_text(encoding="utf-8"))
+                    total_obtained = float(res.get("total_marks_obtained", 0.0) or 0.0)
+                    total_possible = float(res.get("total_marks_possible", 0.0) or 0.0)
+                    if res.get("status"):
+                        status = res["status"]
+                except Exception:
+                    pass
+
+            if total_possible == 0 and grading_json.exists():
+                try:
+                    gdata = json.loads(grading_json.read_text(encoding="utf-8"))
+                    gmeta = gdata.get("metadata", {})
+                    total_obtained = float(gmeta.get("total_marks_obtained", 0) or 0)
+                    total_possible = float(gmeta.get("total_marks_possible", 0) or 0)
+                except Exception:
+                    pass
+
+            jobs.append({
+                "task_id": task_id,
+                "student_name": student_name,
+                "pipeline": pipeline_type,
+                "created_at": created_at,
+                "total_obtained": total_obtained,
+                "total_possible": total_possible,
+                "percentage": (total_obtained / total_possible * 100) if total_possible else 0.0,
+                "status": status,
+                "checked_copy_available": checked_pdf.exists(),
+            })
+
+    jobs.sort(key=lambda j: j["created_at"], reverse=True)
+    return jobs
+
 
 @router.get("/student/{task_id}")
 def get_pipeline_student_mock(task_id: str):
@@ -600,7 +747,7 @@ def get_pipeline_student_mock(task_id: str):
     Returns a mock StudentDetailResponse for the Edit Checked Copy page
     since pipeline jobs are not saved in Postgres.
     """
-    job_dir = _JOBS_DIR / task_id
+    job_dir = _get_job_dir(task_id)
     if not job_dir.exists():
         raise HTTPException(status_code=404, detail="Pipeline task not found")
         
@@ -609,13 +756,29 @@ def get_pipeline_student_mock(task_id: str):
     if meta_file.exists():
         meta = json.loads(meta_file.read_text())
         student_name = meta.get("student_name", "Student") or "Student"
+    else:
+        clean_name = task_id.replace("dataset_", "").replace("old_", "").replace("new_", "")
+        parts = clean_name.split("_")
+        if len(parts) >= 2 and len(parts[-1]) >= 8:
+            student_name = " ".join(parts[:-1]).replace("_", " ").title()
+        else:
+            student_name = clean_name.replace("_", " ").title()
         
     result_file = job_dir / "result.json"
     total_obtained, max_total = 0.0, 0.0
     if result_file.exists():
         res = json.loads(result_file.read_text())
-        total_obtained = res.get("total_marks_obtained", 0.0)
-        max_total = res.get("total_marks_possible", 0.0)
+        total_obtained = float(res.get("total_marks_obtained", 0.0) or 0.0)
+        max_total = float(res.get("total_marks_possible", 0.0) or 0.0)
+
+    if max_total == 0 and (job_dir / "grading_final.json").exists():
+        try:
+            gdata = json.loads((job_dir / "grading_final.json").read_text(encoding="utf-8"))
+            gmeta = gdata.get("metadata", {})
+            total_obtained = float(gmeta.get("total_marks_obtained", 0) or 0)
+            max_total = float(gmeta.get("total_marks_possible", 0) or 0)
+        except Exception:
+            pass
         
     return {
         "id": task_id,
@@ -632,6 +795,39 @@ def get_pipeline_student_mock(task_id: str):
         "aligned_answers_json": None,
         "grading_json": None
     }
+
+
+@router.get("/manifest/{task_id}")
+def get_pipeline_manifest(task_id: str):
+    """
+    Returns the annotation manifest for a pipeline task.
+    """
+    job_dir = _get_job_dir(task_id)
+    manifest_path = job_dir / "checked_copy_manifest.json"
+    if not manifest_path.exists():
+        raise HTTPException(
+            status_code=404, 
+            detail="Annotation manifest not found. Please check this paper again to generate it."
+        )
+    
+    import sys, os
+    root_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    if root_dir not in sys.path:
+        sys.path.insert(0, root_dir)
+        
+    from patch_checked_copy import get_manifest_summary
+    return get_manifest_summary(str(manifest_path))
+
+
+@router.post("/recheck/{task_id}")
+async def recheck_pipeline(task_id: str):
+    """
+    Re-run ONLY Stage 7 (generate_checked_copy_v2) for an existing job.
+    Overwrites checked_copy.pdf and checked_copy_manifest.json in-place.
+    """
+    job_dir = _get_job_dir(task_id)
+    if not job_dir.exists():
+        raise HTTPException(status_code=404, detail="Task not found")
 
 
 @router.get("/manifest/{task_id}")

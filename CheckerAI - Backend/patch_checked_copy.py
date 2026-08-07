@@ -293,6 +293,8 @@ def _apply_corrections_to_manifest(manifest: dict, corrections: dict) -> dict:
                 if old_mcq is None:
                     marks_delta += new_mcq
                     m["mcq_total"]["pending"] = False
+                    if m.get("grand_total") and m["grand_total"].get("total", 0) < 100:
+                        m["grand_total"]["total"] += float(m["mcq_total"].get("total", 30.0))
                 else:
                     marks_delta += new_mcq - old_mcq
                 m["mcq_total"]["obtained"] = new_mcq
