@@ -1842,9 +1842,11 @@ def _plan_annotations_from_ocr(
             ann_actions.append(action)
 
     # ── Step 3: Fill remaining slots with evenly-spaced OCR lines ──────────
+    # ── Step 3: Fill remaining slots with evenly-spaced OCR lines ──────────
+    # ONLY fill remaining slots on the PRIMARY page where the question starts!
     remaining   = max_ann - len(y_candidates)
     total_lines = len(all_raw_lines)
-    if remaining > 0 and total_lines > 0:
+    if is_first and remaining > 0 and total_lines > 0:
         content_idxs = []
         for line_idx in range(total_lines):
             if all_raw_lines[line_idx].strip():
@@ -1870,7 +1872,7 @@ def _plan_annotations_from_ocr(
                 ann_actions.append(None)   # action determined later by score ratio
 
     # ── Step 4: Fallback if nothing resolved ──────────────────────────
-    if not y_candidates and (text_blocks or total_lines > 0):
+    if is_first and not y_candidates and (text_blocks or total_lines > 0):
         if max_ann > 0:
             if ink_top == ink_bot:
                 y_centers = [ink_top] * max_ann
@@ -1903,13 +1905,13 @@ def _plan_annotations_from_ocr(
         _ann_ink_bot = min(estimated_ink_bot, slice_bot)
 
         # Hard top margin floor:
-        # ALWAYS enforce an absolute floor of 0.12 (12% down from top of page)
-        # so annotations NEVER land in the top 10% margin regardless of slice height.
-        lower_bound = max(slice_top, ink_top, 0.12)
+        # ALWAYS enforce an absolute floor of 0.14 (14% down from top of page)
+        # so annotations NEVER land in the top margin regardless of slice height.
+        lower_bound = max(slice_top, ink_top, 0.14)
         upper_bound = min(_ann_ink_bot - 0.02, 0.88)
         if upper_bound < lower_bound:
-            lower_bound = 0.12
-            upper_bound = max(0.13, _ann_ink_bot - 0.02)
+            lower_bound = 0.14
+            upper_bound = max(0.15, _ann_ink_bot - 0.02)
         y_frac = min(max(y_frac, lower_bound), upper_bound)
 
         # Collision avoidance — always DROP if no valid non-colliding spot found
