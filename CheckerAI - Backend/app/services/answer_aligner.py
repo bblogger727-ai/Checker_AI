@@ -268,7 +268,9 @@ CRITICAL RULES:
             return pages
         lines = [
             l.strip() for l in full_text.split('\n')
-            if len(l.strip()) > 10 and not _re.search(r'^(?:classmate|date|page|audit test|test-\d+)', l.strip(), _re.IGNORECASE)
+            if len(l.strip()) > 10
+            and not _re.search(r'^(?:classmate|date|page|audit test|test-\d+)', l.strip(), _re.IGNORECASE)
+            and not _re.search(r'^[\s\|\-\:]+$', l.strip())  # skip markdown table separator lines like |---|---|
         ]
         if not lines:
             return pages
@@ -384,8 +386,10 @@ def _build_schema_summary(schema: dict) -> list:
             path_parts = []
         
         if isinstance(node, dict):
-            # Check if this node is a question (has 'question' or 'question_text' AND 'marks')
-            if ("question" in node or "question_text" in node) and "marks" in node:
+            # Check if this node is a question
+            # Supports: marks, max_marks, marks_total (used in grading_final.json)
+            has_marks = any(k in node for k in ("marks", "max_marks", "marks_total", "marks_obtained"))
+            if ("question" in node or "question_text" in node) and has_marks:
                 # Use explicit question_id if available, else construct from path
                 explicit_qid = node.get("question_id")
                 if explicit_qid:
@@ -402,7 +406,7 @@ def _build_schema_summary(schema: dict) -> list:
                     "question_preview": q_text[:400],
                     "keywords": _extract_keywords(q_text),
                     "section": path_parts[0] if path_parts else "",
-                    "marks": node.get("marks", 0)
+                    "marks": node.get("marks", node.get("max_marks", node.get("marks_total", 0)))
                 })
             
             # Recurse into children
@@ -423,7 +427,24 @@ def _inject_answers(schema: dict, answers_map: dict):
     """
     Inject mapped answers into the schema structure.
     Walks the schema tree and matches by explicit question_id or by constructed path ID.
+    Uses normalized key matching (ignoring hyphens, spaces, parens, case) to ensure reliable matches.
     """
+    import re
+    def _norm(s: str) -> str:
+        if not s:
+            return ""
+        return re.sub(r'[^a-zA-Z0-9]', '', str(s)).lower()
+
+    norm_answers_map = {}
+    for map_k, map_v in answers_map.items():
+        norm_k = _norm(map_k)
+        if norm_k:
+            norm_answers_map[norm_k] = map_v
+        clean_k = re.sub(r'^[a-zA-Z]-', '', str(map_k))
+        norm_clean = _norm(clean_k)
+        if norm_clean:
+            norm_answers_map[norm_clean] = map_v
+
     def _section_prefix(section_key: str) -> str:
         if section_key.startswith("Section"):
             return section_key.replace("Section", "")
@@ -435,23 +456,38 @@ def _inject_answers(schema: dict, answers_map: dict):
         
         if isinstance(node, dict):
             # Check if this is a question node
-            if ("question" in node or "question_text" in node) and "marks" in node:
-                # Try explicit question_id first
+            # Supports: marks, max_marks, marks_total, marks_obtained (various schema formats)
+            has_marks = any(k in node for k in ("marks", "max_marks", "marks_total", "marks_obtained"))
+            if ("question" in node or "question_text" in node) and has_marks:
                 explicit_qid = node.get("question_id")
-                # Construct path-based ID
                 constructed_qid = "-".join([_section_prefix(p) for p in path_parts]) if path_parts else None
+                q_num = node.get("question_number")
                 
-                # Try to match
-                matched_qid = None
-                if explicit_qid and explicit_qid in answers_map:
-                    matched_qid = explicit_qid
-                elif constructed_qid and constructed_qid in answers_map:
-                    matched_qid = constructed_qid
+                # Build candidate IDs to try matching against the answers_map
+                candidates = []
+                if explicit_qid:
+                    candidates.append(explicit_qid)
+                if constructed_qid:
+                    candidates.append(constructed_qid)
+                if path_parts:
+                    # e.g. last path part is "Q1a" or "Q2b"
+                    candidates.append(path_parts[-1])
+                if q_num:
+                    candidates.append(q_num)
+                    candidates.append(f"Q{q_num}")
+
+                # Normalized match: strip all non-alphanumeric so Q1a == Q-1(a) == q1a
+                matched_val = None
+                for cand in candidates:
+                    norm_cand = _norm(cand)
+                    if norm_cand and norm_cand in norm_answers_map:
+                        matched_val = norm_answers_map[norm_cand]
+                        break
                 
-                if matched_qid:
-                    node["student_answer"] = answers_map[matched_qid]["student_answer"]
-                    node["pages"] = answers_map[matched_qid]["answer_pages"]
-                    node["answer_pages"] = answers_map[matched_qid]["answer_pages"]
+                if matched_val:
+                    node["student_answer"] = matched_val["student_answer"]
+                    node["pages"] = matched_val["answer_pages"]
+                    node["answer_pages"] = matched_val["answer_pages"]
                 elif "student_answer" not in node:
                     node["student_answer"] = ""
                     node["pages"] = []
@@ -469,4 +505,3 @@ def _inject_answers(schema: dict, answers_map: dict):
                 _walk(item, path_parts + [str(i)])
     
     _walk(schema)
-
