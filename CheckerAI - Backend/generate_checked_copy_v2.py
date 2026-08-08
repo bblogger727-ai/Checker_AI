@@ -1841,49 +1841,45 @@ def _plan_annotations_from_ocr(
             ann_ocr_lines.append(frag)
             ann_actions.append(action)
 
-    # ── Step 3: Fill remaining slots with evenly-spaced OCR lines ──────────
-    # ── Step 3: Fill remaining slots with evenly-spaced OCR lines ──────────
-    # ONLY fill remaining slots on the PRIMARY page where the question starts!
+    # ── Step 3: Fill remaining slots with actual OCR text lines ──────────
     remaining   = max_ann - len(y_candidates)
     total_lines = len(all_raw_lines)
-    if is_first and remaining > 0 and total_lines > 0:
+    if remaining > 0 and total_lines > 0:
         content_idxs = []
         for line_idx in range(total_lines):
-            if all_raw_lines[line_idx].strip():
+            line_str = all_raw_lines[line_idx].strip()
+            if line_str and not re.search(r'^(?:classmate|date|page|audit test|test-\d+)', line_str, re.IGNORECASE):
                 raw_frac = (line_idx + 0.5) / total_lines
                 y_frac   = ink_top + raw_frac * (estimated_ink_bot - ink_top)
-                if slice_top <= y_frac <= slice_bot:
-                    content_idxs.append(line_idx)
+                if max(0.14, slice_top) <= y_frac <= min(0.90, slice_bot):
+                    content_idxs.append((line_idx, y_frac, line_str))
 
         if content_idxs:
             if len(content_idxs) <= remaining:
-                fill_idxs = content_idxs
+                fill_items = content_idxs
             elif remaining == 1:
-                fill_idxs = [content_idxs[len(content_idxs) // 2]]
+                fill_items = [content_idxs[len(content_idxs) // 2]]
             else:
                 step = len(content_idxs) / remaining
-                fill_idxs = [content_idxs[int(i * step)] for i in range(remaining)]
+                fill_items = [content_idxs[int(i * step)] for i in range(remaining)]
 
-            for line_idx in fill_idxs:
-                raw_frac = (line_idx + 0.5) / total_lines
-                y_frac   = ink_top + raw_frac * (estimated_ink_bot - ink_top)
+            for line_idx, y_frac, line_str in fill_items:
                 y_candidates.append(y_frac)
-                ann_ocr_lines.append(all_raw_lines[line_idx].strip())
+                ann_ocr_lines.append(line_str)
                 ann_actions.append(None)   # action determined later by score ratio
 
     # ── Step 4: Fallback if nothing resolved ──────────────────────────
-    if is_first and not y_candidates and (text_blocks or total_lines > 0):
-        if max_ann > 0:
-            if ink_top == ink_bot:
-                y_centers = [ink_top] * max_ann
-            else:
-                y_centers = [
-                    ink_top + (i + 0.5) * (ink_bot - ink_top) / max_ann
-                    for i in range(max_ann)
-                ]
-            y_candidates = y_centers
-        ann_ocr_lines = [""] * len(y_candidates)
-        ann_actions   = [None] * len(y_candidates)
+    if not y_candidates and total_lines > 0:
+        content_lines = [(i, l.strip()) for i, l in enumerate(all_raw_lines) if l.strip()]
+        if content_lines and max_ann > 0:
+            step = len(content_lines) / max_ann
+            for i in range(max_ann):
+                line_idx, line_str = content_lines[int(i * step)]
+                raw_frac = (line_idx + 0.5) / total_lines
+                y_frac   = max(0.14, min(0.88, ink_top + raw_frac * (ink_bot - ink_top)))
+                y_candidates.append(y_frac)
+                ann_ocr_lines.append(line_str)
+                ann_actions.append(None)
 
     # Pad lists to equal length
     while len(ann_ocr_lines) < len(y_candidates):
