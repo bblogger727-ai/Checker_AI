@@ -27,6 +27,7 @@ import sys
 import uuid
 import json
 import time
+import shutil
 import threading
 import subprocess
 from pathlib import Path
@@ -295,10 +296,21 @@ async def run_old_pipeline(
     """
     existing_dir = _find_existing_job_dir(student_name, "old")
     if existing_dir:
-        output_dir = existing_dir
-        task_id = existing_dir.name
+        # Found existing OCR — create a FRESH new directory but copy only the OCR file
+        # so all other stages (alignment, grading, checked copy) run completely fresh
+        safe_name = "".join([c if c.isalnum() else "_" for c in student_name.strip()]).strip("_")
+        task_id   = f"{safe_name}_{uuid.uuid4().hex}" if safe_name else uuid.uuid4().hex
+        output_dir = _JOBS_DIR / task_id
+        output_dir.mkdir(parents=True, exist_ok=True)
+        # Copy OCR file into the new dir so Stage 3 skip finds it
+        for ocr_name in ("3_ocr_output.txt", "ocr_output.txt"):
+            src_ocr = existing_dir / ocr_name
+            if src_ocr.exists():
+                shutil.copy2(src_ocr, output_dir / ocr_name)
+                print(f"[REUSE OCR] Copied {src_ocr} → {output_dir / ocr_name}")
+                break
         skip_to_val = 4
-        print(f"[REUSE JOB] Found existing OCR for student '{student_name}' in {output_dir}. Resuming with --skip-to 4.")
+        print(f"[REUSE OCR] Fresh run in {output_dir} with OCR from {existing_dir}")
     else:
         safe_name = "".join([c if c.isalnum() else "_" for c in student_name.strip()]).strip("_")
         task_id   = f"{safe_name}_{uuid.uuid4().hex}" if safe_name else uuid.uuid4().hex
@@ -395,10 +407,21 @@ async def run_new_pipeline(
 
     existing_dir = _find_existing_job_dir(student_name, "new", ft_paper_path=str(paper_path))
     if existing_dir:
-        output_dir = existing_dir
-        task_id = existing_dir.name
+        # Found existing OCR — create a FRESH new directory but copy only the OCR file
+        # so all other stages (alignment, grading, checked copy) run completely fresh
+        safe_name = "".join([c if c.isalnum() else "_" for c in student_name.strip()]).strip("_")
+        task_id   = f"{safe_name}_{uuid.uuid4().hex}" if safe_name else uuid.uuid4().hex
+        output_dir = _JOBS_DIR / task_id
+        output_dir.mkdir(parents=True, exist_ok=True)
+        # Copy OCR file into the new dir so Stage 3 skip finds it
+        for ocr_name in ("3_ocr_output.txt", "ocr_output.txt"):
+            src_ocr = existing_dir / ocr_name
+            if src_ocr.exists():
+                shutil.copy2(src_ocr, output_dir / ocr_name)
+                print(f"[REUSE OCR] Copied {src_ocr} → {output_dir / ocr_name}")
+                break
         skip_to_val = 4
-        print(f"[REUSE JOB] Found existing OCR for student '{student_name}' in {output_dir}. Resuming with --skip-to 4.")
+        print(f"[REUSE OCR] Fresh run in {output_dir} with OCR from {existing_dir}")
     else:
         safe_name = "".join([c if c.isalnum() else "_" for c in student_name.strip()]).strip("_")
         task_id   = f"{safe_name}_{uuid.uuid4().hex}" if safe_name else uuid.uuid4().hex
