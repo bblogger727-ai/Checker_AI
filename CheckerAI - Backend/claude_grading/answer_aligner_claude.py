@@ -428,7 +428,9 @@ FINAL REMINDERS:
             return pages
         lines = [
             l.strip() for l in full_text.split('\n')
-            if len(l.strip()) > 10 and not re.search(r'^(?:classmate|date|page|audit test|test-\d+)', l.strip(), re.IGNORECASE)
+            if len(l.strip()) > 10 
+            and not re.search(r'^(?:classmate|date|page|audit test|test-\d+)', l.strip(), re.IGNORECASE)
+            and not re.search(r'^[\s\|\-\:]+$', l.strip())
         ]
         if not lines:
             return pages
