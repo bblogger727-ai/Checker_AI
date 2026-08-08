@@ -230,39 +230,48 @@ def _run_subprocess(task_id: str, cmd: list[str], output_dir: Path, profile_api_
 
 def _find_existing_job_dir(student_name: str, pipeline_type: str, ft_paper_path: str = None) -> Path | None:
     safe_name = "".join([c if c.isalnum() else "_" for c in student_name.strip()]).strip("_")
-    if not safe_name or not _JOBS_DIR.exists():
+    if not safe_name:
         return None
-        
+
+    search_dirs = []
+    if _JOBS_DIR.exists():
+        search_dirs.append(_JOBS_DIR)
+    
+    grading_results_dir = _BACKEND_DIR / "grading_results"
+    if grading_results_dir.exists():
+        search_dirs.append(grading_results_dir)
+
     matching_dirs = []
-    for job_dir in _JOBS_DIR.iterdir():
-        if not job_dir.is_dir():
-            continue
-        
-        is_match = False
-        meta_path = job_dir / "task_meta.json"
-        if meta_path.exists():
-            try:
-                meta = json.loads(meta_path.read_text(encoding="utf-8"))
-                if meta.get("student_name", "").strip() == student_name.strip() and meta.get("pipeline") == pipeline_type:
-                    # If this is an FT pipeline, only reuse if it's the exact same paper
-                    if ft_paper_path and meta.get("ft_paper_path") != ft_paper_path:
-                        continue
-                    is_match = True
-            except Exception:
-                pass
-        
-        # Also check folder prefix if meta wasn't checked or didn't match
-        if not is_match and job_dir.name.startswith(f"{safe_name}_"):
-            is_match = True
+    for base_dir in search_dirs:
+        for job_dir in base_dir.iterdir():
+            if not job_dir.is_dir():
+                continue
             
-        if is_match:
-            has_ocr = (job_dir / "3_ocr_output.txt").exists() or (job_dir / "ocr_output.txt").exists()
-            if has_ocr:
-                matching_dirs.append(job_dir)
-                
+            is_match = False
+            meta_path = job_dir / "task_meta.json"
+            if meta_path.exists():
+                try:
+                    meta = json.loads(meta_path.read_text(encoding="utf-8"))
+                    if meta.get("student_name", "").strip().lower() == student_name.strip().lower() and meta.get("pipeline") == pipeline_type:
+                        if ft_paper_path and meta.get("ft_paper_path") != ft_paper_path:
+                            continue
+                        is_match = True
+                except Exception:
+                    pass
+
+            if not is_match:
+                clean_id = job_dir.name.replace("dataset_", "").replace("old_", "").replace("new_", "").lower()
+                if clean_id == safe_name.lower() or job_dir.name.lower().startswith(f"{safe_name.lower()}_"):
+                    is_match = True
+
+            if is_match:
+                has_ocr = (job_dir / "3_ocr_output.txt").exists() or (job_dir / "ocr_output.txt").exists()
+                if has_ocr:
+                    matching_dirs.append(job_dir)
+
     if not matching_dirs:
         return None
-        
+
     return max(matching_dirs, key=lambda d: d.stat().st_mtime)
 
 
