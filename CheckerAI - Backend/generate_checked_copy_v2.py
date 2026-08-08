@@ -1796,6 +1796,9 @@ def _plan_annotations_from_ocr(
     written_lines = [l for l in all_raw_lines if l.strip()]
     n_written     = len(written_lines)
 
+    if n_written == 0:
+        return []
+
     if n_written <= 8 or (ink_bot - ink_top) <= 0.45:
         max_ann = 1
     else:
@@ -2458,23 +2461,6 @@ def generate_checked_copy(
 
 
         if not items:
-            # Check if this page has MCQs (if there's MCQ text in the OCR, don't draw the cross)
-            ocr_page_text = _load_ocr_page_text(ocr_text_path, page_num) if ocr_text_path else ""
-            has_mcqs = False
-            if ocr_page_text:
-                for mcq_key in ["MCQ", "mcq", "Multiple Choice", "(a)", "(b)", "(c)", "(d)"]:
-                    if mcq_key in ocr_page_text:
-                        has_mcqs = True
-                        break
-            if not has_mcqs and page_num != 1:
-                # Page has no mapped questions and no obvious MCQs. Draw a single cross in the center.
-                c.saveState()
-                c.setStrokeColor(red)
-                c.setLineWidth(max(2.0, 3.0 * page_scale))
-                # Very large cross to indicate blank / unused / unmapped page
-                _draw_cross(c, pdf_w / 2, pdf_h / 2, size=int(60 * page_scale))
-                c.restoreState()
-            
             c.showPage()
             continue
 

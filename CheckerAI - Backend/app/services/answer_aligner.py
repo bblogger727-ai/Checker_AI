@@ -450,9 +450,11 @@ def _inject_answers(schema: dict, answers_map: dict):
                 
                 if matched_qid:
                     node["student_answer"] = answers_map[matched_qid]["student_answer"]
+                    node["pages"] = answers_map[matched_qid]["answer_pages"]
                     node["answer_pages"] = answers_map[matched_qid]["answer_pages"]
                 elif "student_answer" not in node:
                     node["student_answer"] = ""
+                    node["pages"] = []
                     node["answer_pages"] = []
             
             # Recurse into children

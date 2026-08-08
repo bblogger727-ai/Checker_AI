@@ -424,7 +424,7 @@ FINAL REMINDERS:
         preview = data["student_answer"][:80].replace("\n", " ")
     # ======================== PAGE SANITIZATION ========================
     def _sanitize_pages(full_text: str, pages: list) -> list:
-        if not full_text or not student_pages:
+        if not full_text or not student_pages or not pages:
             return pages
         lines = [
             l.strip() for l in full_text.split('\n')
@@ -432,10 +432,10 @@ FINAL REMINDERS:
         ]
         if not lines:
             return pages
+        page_dict = {p.get('page'): p.get('text', '') for p in student_pages}
         real_pages = []
-        for p in student_pages:
-            p_num = p.get('page')
-            p_text = p.get('text', '')
+        for p_num in pages:
+            p_text = page_dict.get(p_num, '')
             if p_num and any(line[:25].lower() in p_text.lower() for line in lines):
                 real_pages.append(p_num)
         return real_pages if real_pages else pages
