@@ -70,25 +70,6 @@ def _extract_json_from_claude(text: str) -> dict:
     
     raise json.JSONDecodeError("No valid JSON found in Claude response", text[:200], 0)
 
-def is_header_only_block(text: str) -> bool:
-    """
-    Return True if the text contains ONLY a question heading/label
-    (e.g., 'Ans. 4b', 'Soln to Q4b', 'Q3a', '4) b)') and NO actual answer content.
-    """
-    if not text or not text.strip():
-        return True
-
-    cleaned = re.sub(
-        r'^\s*(?:Ans\.?|Answer|Soln\.?|Solution|Q|Question)\s*[#\s\-\.\)]*\d+[\s\.\-\)]*[a-zA-Z]?\s*\)?\s*',
-        '',
-        text.strip(),
-        flags=re.IGNORECASE
-    ).strip()
-
-    cleaned = re.sub(r'^\s*\(?[0-9]+[a-zA-Z]?\)?\s*', '', cleaned).strip()
-    words = [w for w in re.sub(r'[^a-zA-Z0-9]', ' ', cleaned).split() if len(w) > 1]
-    return len(words) < 5
-
 
 def align_answers_to_schema_claude(student_pages: list, schema: dict, manifest_questions: list = None) -> dict:
     """
@@ -119,7 +100,6 @@ INSTRUCTIONS:
    - MCQ answers: single option letters (a/b/c/d) near a question number
    - Descriptive/legal/calculation answers: paragraphs, tables, figures
    - Subparts: (a), (b), (c), (i), (ii) within a larger question
-   - CRITICAL: If a student answers multiple subparts consecutively (e.g., 'Ans a)' then 'Ans b)'), YOU MUST split them into separate distinct answer blocks. DO NOT group them into a single massive block.
 
 3. For EACH answer block, also extract a brief TOPIC SUMMARY — what concept, law, entity, or computation the answer is about. Examples:
    - "About composition scheme eligibility and tax rate"
@@ -137,8 +117,6 @@ INSTRUCTIONS:
 5. Answers may be in any order. A student might write Q5 before Q2.
 
 6. If a page clearly continues mid-sentence from the previous, merge it with the earlier block.
-
-7. IGNORE BLANK QUESTION HEADINGS: If a student wrote only a question label (e.g., 'Ans. 4b', 'Soln to Q4b', 'Q3a', '4) b)') and left the section blank with no answer text, IGNORE IT completely. Do NOT create an answer block for a blank heading.
 
 STUDENT OCR TEXT:
 {full_text}
@@ -163,7 +141,6 @@ CRITICAL RULES:
 - Label MUST reflect what the student ACTUALLY wrote, not your inference. If student didn't label it, use "unknown".
 - Do NOT modify or clean up the text \u2014 preserve it exactly as OCR extracted it, including tables.
 - If multiple labeled answers appear on the same page, split them into separate entries.
-- STRICT UNIQUENESS: Each sentence, paragraph, or block of text MUST appear in EXACTLY ONE discovered block. DO NOT copy or repeat the same text across multiple blocks. If text is ambiguous, put it in the block that contains the text immediately before it (physical reading order).
 - Output ONLY valid JSON.
 """
 
@@ -184,18 +161,9 @@ CRITICAL RULES:
         
         discovery_text = response.content[0].text.strip()
         discovery_data = _extract_json_from_claude(discovery_text)
-        discovered_raw = discovery_data.get("discovered_answers", [])
+        discovered = discovery_data.get("discovered_answers", [])
         
-        # Filter out header-only blocks (e.g. 'Ans 4b' with no content)
-        discovered = []
-        for d in discovered_raw:
-            fc = d.get("full_content", "") or d.get("content_preview", "")
-            if is_header_only_block(fc):
-                print(f"[Claude Aligner] ⊘ IGNORED header-only block (no content): label={d.get('label')}, pages={d.get('pages')}", flush=True)
-            else:
-                discovered.append(d)
-
-        print(f"[Claude Aligner] Pass 1 complete: Found {len(discovered)} valid answer blocks (filtered out {len(discovered_raw) - len(discovered)} header-only blocks).", flush=True)
+        print(f"[Claude Aligner] Pass 1 complete: Found {len(discovered)} answer blocks (stop_reason={stop_reason}).", flush=True)
         for i, d in enumerate(discovered):
             print(f"  [{i+1}] Label: {d.get('label', '?')}, Type: {d.get('answer_type', '?')}, Pages: {d.get('pages', [])}", flush=True)
             
@@ -256,20 +224,14 @@ If an explicit label seems wrong based on the topic summary, favor the topic sum
 ### Rule 6 — PARENT LABEL → SUBPART IDs (MANDATORY AND CRITICAL)
 Students often write "Ans to Q3" without specifying (a) or (b), or they write "Q4(a)" but answer the whole question.
 In the schema, Q3/Q4 may ONLY have subpart IDs like `A-Q3-a` and `A-Q3-b`.
-In this case: If there is ONLY ONE block for this parent question, you MUST map it to ALL available subpart IDs of that parent question.
-HOWEVER, if there are MULTIPLE distinct blocks for the same parent question (e.g., you found a block for 'a' and a block for 'b'), you MUST map them INDIVIDUALLY to their respective subparts (`A-Q3-a`, `A-Q3-b`). Do NOT blindly map every block to all subparts.
+In this case: YOU MUST map the answer to ALL available subpart IDs of that parent question!
+EVEN IF the student specified a specific subpart (like 'a'), you SHOULD check if the content ALSO covers other subparts. If in doubt, map to ALL subparts of that question number to ensure the grader sees the full context.
 
 ### MANDATORY OVERRIDE Rule (RECOVERY FOCUS)
 1. <CRITICAL> If a block has an explicit label, start with that mapping. However, if the TOPIC SUMMARY of that block matches another question with >90% similarity (and is >90% dissimilar to the current label's question), MOVE the mapping to the correct question. 
 2. If there are DUPLICATE explicit labels (e.g., two blocks labeled "Q2"), use content matching to determine which is Q2 and which is something else (usually a mislabeled Q3 or another missing question ID).
 3. If a question is in the schema/manifest (e.g., Q6) but has NO explicit label match, and another question has a duplicate (e.g., two Q8s), check if one of those duplicates matches the missing question's topic. Reassign it.
 4. <CRITICAL> **COVERAGE CHECK**: EVERY SINGLE DISCOVERED ANSWER MUST BE MAPPED to at least one question_id. There should be NO dropped blocks. If you truly cannot map an unknown block, map it to the most likely theoretical question or the last answered question, but do NOT ignore it.
-
-### Rule 10 — CROSS-PARENT UNIQUENESS (MOST CRITICAL)
-- A single `discovered_index` (answer block) MAY map to multiple question_ids ONLY when those IDs are **subparts of the SAME PARENT QUESTION** (e.g., mapping index 3 to both `Q3a` and `Q3b` is allowed because both belong to Q3).
-- A single `discovered_index` MUST NOT be mapped to question_ids from **two different parent questions** (e.g., mapping the SAME index to both `Q3b` AND `Q5a` is FORBIDDEN).
-- If you believe an answer block covers two completely different parent questions, you MUST split the `full_content` text into two sub-blocks and treat them as separate discovered answers. Do NOT reuse the same index for both.
-- If two answer blocks have nearly identical content and are being mapped to different parent questions, they are ALMOST CERTAINLY duplicates caused by the student reusing a page. Map ONLY to the question whose topic best matches the content, and leave the other question unmapped (do not guess).
 ### Rule 8 — MANIFEST ENFORCEMENT (NEW & CRITICAL)
 The student DEFINITELY answered these questions: {manifest_str}.
 You MUST find these answers in the DISCOVERED ANSWERS. If you see a block that MIGHT be one of these (even if labeled 'unknown' or mislabeled), prioritize mapping it to the manifest question.
@@ -333,45 +295,6 @@ FINAL REMINDERS:
         print(f"[Claude Aligner] Pass 2 ERROR: {e}", flush=True)
         mappings = []
     
-    # ======================== POST-PROCESS: CROSS-PARENT DEDUPLICATION ========================
-    # Detect any case where the same discovered_index is mapped to two DIFFERENT parent questions.
-    # A parent question is identified by stripping the subpart suffix (e.g., 'Q3a' → 'Q3').
-    def _get_parent(qid: str) -> str:
-        """Extract the parent question key (strip trailing subpart letter/number)."""
-        return re.sub(r'[a-zA-Z]$', '', qid).rstrip('0123456789-_')
-
-    # Group mappings by discovered_index
-    idx_to_mappings: dict = {}
-    for m in mappings:
-        idx = m.get("discovered_index", -1)
-        if isinstance(idx, str) and idx.isdigit():
-            idx = int(idx)
-        if idx not in idx_to_mappings:
-            idx_to_mappings[idx] = []
-        idx_to_mappings[idx].append(m)
-
-    # Find conflicts: same idx mapped to two different parent questions
-    dedup_drop = set()  # (idx, qid) pairs to drop
-    for idx, idx_maps in idx_to_mappings.items():
-        if len(idx_maps) <= 1:
-            continue
-        # Group by parent
-        parent_groups: dict = {}
-        for m in idx_maps:
-            p = _get_parent(m.get("question_id", ""))
-            parent_groups.setdefault(p, []).append(m)
-        if len(parent_groups) <= 1:
-            continue  # All subparts of same parent — OK
-        # Multiple parents: keep the group with highest average confidence
-        best_parent = max(parent_groups.keys(), key=lambda p: sum(m.get("confidence", 0) for m in parent_groups[p]) / len(parent_groups[p]))
-        for parent, pmap_list in parent_groups.items():
-            if parent != best_parent:
-                for m in pmap_list:
-                    dedup_drop.add((idx, m.get("question_id", "")))
-                    print(f"[Claude Aligner] DEDUP: Dropping mapping idx={idx} → '{m.get('question_id')}' (cross-parent conflict; keeping '{best_parent}' mappings)", flush=True)
-
-    mappings = [m for m in mappings if (m.get("discovered_index"), m.get("question_id", "")) not in dedup_drop]
-
     # ======================== BUILD ANSWER MAP ========================
     answers_map = {}
     
@@ -419,34 +342,28 @@ FINAL REMINDERS:
             if match:
                 answers_map[qid]["student_answer"] = match.group(1).lower()
     
-    print(f"[Claude Aligner] Final answer map: {len(answers_map)} unique question IDs mapped.", flush=True)
+    # ======================== SHORT-ANSWER FILTER ========================
+    # For descriptive / calculation questions, only keep the mapping if the
+    # student actually wrote something meaningful (≥ 5 real words).
+    # This prevents blank headings or stub lines from being aligned and
+    # placing annotation stamps on random pages.
+    MIN_WORDS = 5
+    short_answer_drop = []
+    for qid in list(answers_map.keys()):
+        if "MCQ" in qid.upper():
+            continue  # MCQs are always kept (single-letter answers are valid)
+        raw = answers_map[qid]["student_answer"].strip()
+        word_count = len([w for w in re.split(r'[\s\|\-\:\,\.]+', raw) if len(w) > 1])
+        if word_count < MIN_WORDS:
+            short_answer_drop.append(qid)
+            print(f"[Claude Aligner] ⊘ DROPPED '{qid}' — answer too short ({word_count} words): '{raw[:60]}'", flush=True)
+            del answers_map[qid]
+
+    print(f"[Claude Aligner] Final answer map: {len(answers_map)} unique question IDs mapped ({len(short_answer_drop)} dropped as too short).", flush=True)
     for qid, data in answers_map.items():
         preview = data["student_answer"][:80].replace("\n", " ")
-    # ======================== PAGE SANITIZATION ========================
-    def _sanitize_pages(full_text: str, pages: list) -> list:
-        if not full_text or not student_pages or not pages:
-            return pages
-        lines = [
-            l.strip() for l in full_text.split('\n')
-            if len(l.strip()) > 10 
-            and not re.search(r'^(?:classmate|date|page|audit test|test-\d+)', l.strip(), re.IGNORECASE)
-            and not re.search(r'^[\s\|\-\:]+$', l.strip())
-        ]
-        if not lines:
-            return pages
-        page_dict = {p.get('page'): p.get('text', '') for p in student_pages}
-        real_pages = []
-        for p_num in pages:
-            p_text = page_dict.get(p_num, '')
-            if p_num and any(line[:25].lower() in p_text.lower() for line in lines):
-                real_pages.append(p_num)
-        return real_pages if real_pages else pages
-
-    for qid in answers_map:
-        answers_map[qid]["answer_pages"] = _sanitize_pages(
-            answers_map[qid]["student_answer"], answers_map[qid]["answer_pages"]
-        )
-
+        print(f"  {qid}: Pages {data['answer_pages']} | {preview}...", flush=True)
+    
     # ======================== INJECT INTO SCHEMA ========================
     _inject_answers(schema, answers_map)
     

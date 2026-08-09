@@ -348,50 +348,42 @@ def is_meaningful_answer(student_ans: str) -> bool:
     Determine if the student actually wrote a meaningful answer,
     or just wrote the question number (e.g. "Q=2(a)", "Soln to Q1a"),
     or a trivially short/incomplete fragment.
+
+    Logic:
+      1. Empty/blank → False
+      2. Fill-in-the-blank form (underscores) with < 30 raw words → False
+      3. After heavy normalisation (strip numbers, punctuation, filler words,
+         standalone letters): if < 10 content chars remain → False
+         (handles pure labels like "Q1a", "Ans 4b", heading-only pages)
+      4. Everything else → True
+
+    Note: the old 15-word gate was removed — it incorrectly blocked
+    calculation-heavy answers that have few alphabetic words after
+    stripping all numbers.
     """
     if not student_ans or not student_ans.strip():
         return False
 
-    # ── Fragment gate: blank left in answer ──────────────────────────────────
-    # If the student wrote something like "As per ___ , prospective financial
-    # information." they clearly only copied the question stem.
+    # ── Gate 1: fill-in-the-blank form ───────────────────────────────────────
     original_stripped = student_ans.strip()
     if re.search(r'\b_+\b|_{2,}', original_stripped):
-        word_count_raw = len(original_stripped.split())
-        if word_count_raw < 30:
+        if len(original_stripped.split()) < 30:
             return False
 
+    # ── Gate 2: content-char check after heavy normalisation ─────────────────
     s = student_ans.lower()
-
-    # Replace punctuation and whitespace with spaces
-    s = re.sub(r'[=\-:\.\(\)\[\]]', ' ', s)
-
-    # Replace all numbers with spaces
-    s = re.sub(r'[0-9]', ' ', s)
-
-    # Remove common filler words as whole words
+    s = re.sub(r'[=\-:\.\(\)\[\]]', ' ', s)   # punctuation → space
+    s = re.sub(r'[0-9]', ' ', s)               # digits → space
     filler_words = [
         "que", "question", "ans", "answer", "soln", "solution", "to",
-        "part", "sec", "section", "for", "page", "acc", "paper", "q", "Q"
+        "part", "sec", "section", "for", "page", "acc", "paper", "q",
     ]
     pattern = r'\b(' + '|'.join(filler_words) + r')\b'
     s = re.sub(pattern, ' ', s)
-
-    # Remove any standalone single letters (like 'q', 'a', 'b', 'i', 'v', 'x' used for numbering)
-    s = re.sub(r'\b[a-z]\b', ' ', s)
-
-    # Remove all spaces to count remaining meaningful characters
+    s = re.sub(r'\b[a-z]\b', ' ', s)           # standalone single letters → space
     meaningful_chars = s.replace(' ', '')
 
-    # If there's less than 10 actual content characters left, it's likely just a label
     if len(meaningful_chars) < 10:
-        return False
-
-    # ── Word count gate ───────────────────────────────────────────────────────
-    # Count words of length > 2 after filler removal.
-    # A student who wrote fewer than 15 such words has not meaningfully answered.
-    meaningful_words = [w for w in s.split() if len(w) > 2]
-    if len(meaningful_words) < 15:
         return False
 
     return True
@@ -637,12 +629,11 @@ def _grade_question_recursive(q_key, q_content, model_q, qid, result_ref, skip_i
         student_ans = q_content.get("student_answer", "")
         model_ans = model_q.get("model_answer", "") if isinstance(model_q, dict) else ""
         
-        # If there is no meaningful answer, we skip printing anything in the checked copy.
-        # We do this by setting student_answer = "" which signals generate_checked_copy_v2.py
-        # to skip this question entirely.
+        # If there is no meaningful answer, treat as blank for grading purposes.
+        # NOTE: do NOT mutate q_content in-place — that would corrupt the original
+        # aligned dict, which may be referenced elsewhere (e.g. as model_answers).
         if not is_meaningful_answer(student_ans):
             student_ans = ""
-            q_content["student_answer"] = ""
         
         marks = 5
         if isinstance(model_q, dict):
@@ -667,6 +658,9 @@ def _grade_question_recursive(q_key, q_content, model_q, qid, result_ref, skip_i
             "question_text": question_text,
             "student_answer": student_ans,
             "model_answer": model_ans,
+            # Preserve answer_pages from the aligned schema so grading_final
+            # is a self-contained document (checked copy can read from it directly).
+            "answer_pages": q_content.get("answer_pages", []),
             "marks_obtained": grading.get("marks_obtained", 0),
             "marks_total": marks,
             "feedback": grading.get("feedback", ""),

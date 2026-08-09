@@ -37,6 +37,7 @@ def main():
     # Full paper args
     parser.add_argument('--sa', help='[full] Path to Solution Answer PDF')
     parser.add_argument('--as', dest='as_pdf', help='[full] Path to Student Answer PDF')
+    parser.add_argument('--qp', help='[full] Path to Question Paper PDF (optional)')
 
     # Single question args
     parser.add_argument('--question-image', help='[single] Path to question image')
@@ -85,7 +86,10 @@ def main():
         print("STARTING SPECIALIZED CA FEEDBACK PIPELINE")
         print("=" * 60)
 
-        run_step([sys.executable, "run_ca_combined_1_2.py", "--sa", args.sa, "--dataset", args.dataset])
+        if args.qp:
+            run_step([sys.executable, "run_ca_qp_sa_1_2.py", "--qp", args.qp, "--sa", args.sa, "--dataset", args.dataset])
+        else:
+            run_step([sys.executable, "run_ca_combined_1_2.py", "--sa", args.sa, "--dataset", args.dataset])
         
         ocr_cmd = [sys.executable, "run_ca_ocr_3.py", "--as", args.as_pdf, "--dataset", args.dataset, "--marks-mode", args.marks_mode]
         if args.last_page:

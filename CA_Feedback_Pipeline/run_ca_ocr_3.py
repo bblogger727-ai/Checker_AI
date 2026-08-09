@@ -74,16 +74,20 @@ def main():
 
     # ── Mark extraction ────────────────────────────────────────────────
     if args.marks_mode == 'json':
-        # Copy student_marks.json from project root to dataset dir
-        # Script is in CheckerAI - Backend/, user file is in CheckerAI/
-        src_marks = os.path.join(base_dir, "..", "student_marks.json")
-        if not os.path.exists(src_marks):
-            # Try same directory as fallback
-            src_marks = os.path.join(base_dir, "student_marks.json")
-            
-        if not os.path.exists(src_marks):
-            print(f"Error: student_marks.json not found at {src_marks}")
+        # Priority order for student_marks.json:
+        # 1. Same directory as this script (CA_Feedback_Pipeline/) — most specific
+        # 2. Parent directory (CheckerAI/) — fallback for backward compatibility
+        src_marks_local = os.path.join(base_dir, "student_marks.json")
+        src_marks_parent = os.path.join(base_dir, "..", "student_marks.json")
+
+        if os.path.exists(src_marks_local):
+            src_marks = src_marks_local
+        elif os.path.exists(src_marks_parent):
+            src_marks = src_marks_parent
+        else:
+            print(f"Error: student_marks.json not found in {base_dir} or its parent.")
             sys.exit(1)
+
         shutil.copy(src_marks, marks_path)
         print(f"\n[Marks] Copied {src_marks} → {marks_path}")
 
