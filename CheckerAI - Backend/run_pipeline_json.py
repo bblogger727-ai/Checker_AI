@@ -77,7 +77,15 @@ from generate_student_report import generate_student_report
 # Maps short paper codes → absolute paths to the JSON files in All_Paper_JSONs.
 # ══════════════════════════════════════════════════════════════════════════════
 
-_JSON_ROOT = "/Users/gaureshmantri/Documents/Secure PDF Extraction/All_Paper_JSONs"
+_JSON_ROOT_REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "All_Paper_JSONs"))
+_JSON_ROOT_SECURE = "/Users/gaureshmantri/Documents/Secure PDF Extraction/All_Paper_JSONs"
+
+if os.path.exists(_JSON_ROOT_REPO):
+    _JSON_ROOT = _JSON_ROOT_REPO
+elif os.path.exists(_JSON_ROOT_SECURE):
+    _JSON_ROOT = _JSON_ROOT_SECURE
+else:
+    _JSON_ROOT = _JSON_ROOT_REPO
 
 def _p(level: str, filename: str) -> str:
     """Shorthand to build an absolute JSON path."""
