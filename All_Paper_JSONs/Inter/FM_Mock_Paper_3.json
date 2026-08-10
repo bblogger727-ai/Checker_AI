@@ -39,25 +39,7 @@
           },
           "correct_option": "a",
           "answer": "(a)",
-          "verdict": null,
-          "or_group": "MCQ_1_v1_v2",
-          "question_id": "A-MCQ-1_v1"
-        },
-        {
-          "q_num": "1_v2",
-          "question": "Sneha Rao's vision to transform DEF Technologies into a leading tech company illustrates which type of strategic intent? (Chapter 11: Introduction to Strategic Management)",
-          "options": {
-            "a": "Goal",
-            "b": "Mission",
-            "c": "Vision",
-            "d": "Objective"
-          },
-          "correct_option": "c",
-          "answer": "c",
-          "verdict": null,
-          "_serial": "1_v2",
-          "or_group": "MCQ_1_v1_v2",
-          "question_id": "A-MCQ-1_v2"
+          "verdict": null
         },
         {
           "q_num": 2,
@@ -70,25 +52,7 @@
           },
           "correct_option": "c",
           "answer": "(c)",
-          "verdict": null,
-          "or_group": "MCQ_2_v1_v2",
-          "question_id": "A-MCQ-2_v1"
-        },
-        {
-          "q_num": "2_v2",
-          "question": "Sneha's leadership style, which promotes collaboration, continuous learning, and innovative problemsolving, can best be described as: (Chapter 15: Strategy Implementation and Evaluation)",
-          "options": {
-            "a": "Transactional leadership",
-            "b": "Transformational leadership",
-            "c": "Autocratic leadership",
-            "d": "Laissez-faire leadership"
-          },
-          "correct_option": "b",
-          "answer": "b",
-          "verdict": null,
-          "_serial": "2_v2",
-          "or_group": "MCQ_2_v1_v2",
-          "question_id": "A-MCQ-2_v2"
+          "verdict": null
         },
         {
           "q_num": 3,
@@ -101,25 +65,7 @@
           },
           "correct_option": "a",
           "answer": "(a)",
-          "verdict": null,
-          "or_group": "MCQ_3_v1_v2",
-          "question_id": "A-MCQ-3_v1"
-        },
-        {
-          "q_num": "3_v2",
-          "question": "When DEF Technologies expanded into the global market with AI- driven cybersecurity solutions, which of Porter's Five Forces was most likely mitigated by forming partnerships with international tech firms? (Chapter 12: Strategic Analysis: External Environment)",
-          "options": {
-            "a": "Threat of Substitute Products or Services",
-            "b": "Bargaining Power of Suppliers",
-            "c": "Threat of New Entrants",
-            "d": "Intense Rivalry Among Existing Competitors"
-          },
-          "correct_option": "c",
-          "answer": "c",
-          "verdict": null,
-          "_serial": "3_v2",
-          "or_group": "MCQ_3_v1_v2",
-          "question_id": "A-MCQ-3_v2"
+          "verdict": null
         },
         {
           "q_num": 4,
@@ -132,25 +78,7 @@
           },
           "correct_option": "c",
           "answer": "(c)",
-          "verdict": null,
-          "or_group": "MCQ_4_v1_v2",
-          "question_id": "A-MCQ-4_v1"
-        },
-        {
-          "q_num": "4_v2",
-          "question": "By entering the global market and launching AI-driven cybersecurity solutions, DEF Technologies pursued which expansion strategy from Ansoff's Product-Market Growth Matrix? (Chapter 14: Strategic Choices)",
-          "options": {
-            "a": "Diversification",
-            "b": "Market Penetration",
-            "c": "Product Development",
-            "d": "Market Development"
-          },
-          "correct_option": "a",
-          "answer": "a",
-          "verdict": null,
-          "_serial": "4_v2",
-          "or_group": "MCQ_4_v1_v2",
-          "question_id": "A-MCQ-4_v2"
+          "verdict": null
         },
         {
           "q_num": 5,
@@ -163,25 +91,7 @@
           },
           "correct_option": "d",
           "answer": "(d)",
-          "verdict": null,
-          "or_group": "MCQ_5_v1_v2",
-          "question_id": "A-MCQ-5_v1"
-        },
-        {
-          "q_num": "5_v2",
-          "question": "MedTech Solutions' focus on developing affordable telemedicine platforms and AI-driven diagnostic tools reflects which of the following competitive strategies? (Chapter 13: Strategic Analysis: Internal Environment)",
-          "options": {
-            "a": "Differentiation strategy",
-            "b": "Cost leadership strategy",
-            "c": "Best-cost provider strategy",
-            "d": "Focus Strategy"
-          },
-          "correct_option": "c",
-          "answer": "c",
-          "verdict": null,
-          "_serial": "5_v2",
-          "or_group": "MCQ_5_v1_v2",
-          "question_id": "A-MCQ-5_v2"
+          "verdict": null
         }
       ]
     },
@@ -204,25 +114,7 @@
           },
           "correct_option": "a",
           "answer": "(a)",
-          "verdict": null,
-          "or_group": "MCQ_1_v1_v2",
-          "question_id": "A-MCQ-1_v1"
-        },
-        {
-          "q_num": "1_v2",
-          "question": "Sneha Rao's vision to transform DEF Technologies into a leading tech company illustrates which type of strategic intent? (Chapter 11: Introduction to Strategic Management)",
-          "options": {
-            "a": "Goal",
-            "b": "Mission",
-            "c": "Vision",
-            "d": "Objective"
-          },
-          "correct_option": "c",
-          "answer": "c",
-          "verdict": null,
-          "_serial": "1_v2",
-          "or_group": "MCQ_1_v1_v2",
-          "question_id": "A-MCQ-1_v2"
+          "verdict": null
         },
         {
           "q_num": 2,
@@ -235,25 +127,7 @@
           },
           "correct_option": "c",
           "answer": "(c)",
-          "verdict": null,
-          "or_group": "MCQ_2_v1_v2",
-          "question_id": "A-MCQ-2_v1"
-        },
-        {
-          "q_num": "2_v2",
-          "question": "Sneha's leadership style, which promotes collaboration, continuous learning, and innovative problemsolving, can best be described as: (Chapter 15: Strategy Implementation and Evaluation)",
-          "options": {
-            "a": "Transactional leadership",
-            "b": "Transformational leadership",
-            "c": "Autocratic leadership",
-            "d": "Laissez-faire leadership"
-          },
-          "correct_option": "b",
-          "answer": "b",
-          "verdict": null,
-          "_serial": "2_v2",
-          "or_group": "MCQ_2_v1_v2",
-          "question_id": "A-MCQ-2_v2"
+          "verdict": null
         }
       ]
     },
@@ -276,25 +150,7 @@
           },
           "correct_option": "c",
           "answer": "c",
-          "verdict": null,
-          "or_group": "MCQ_1_v1_v2",
-          "question_id": "A-MCQ-1_v1"
-        },
-        {
-          "q_num": "1_v2",
-          "question": "Sneha Rao's vision to transform DEF Technologies into a leading tech company illustrates which type of strategic intent? (Chapter 11: Introduction to Strategic Management)",
-          "options": {
-            "a": "Goal",
-            "b": "Mission",
-            "c": "Vision",
-            "d": "Objective"
-          },
-          "correct_option": "c",
-          "answer": "c",
-          "verdict": null,
-          "_serial": "1_v2",
-          "or_group": "MCQ_1_v1_v2",
-          "question_id": "A-MCQ-1_v2"
+          "verdict": null
         },
         {
           "q_num": 2,
@@ -307,25 +163,7 @@
           },
           "correct_option": "c",
           "answer": "c",
-          "verdict": null,
-          "or_group": "MCQ_2_v1_v2",
-          "question_id": "A-MCQ-2_v1"
-        },
-        {
-          "q_num": "2_v2",
-          "question": "Sneha's leadership style, which promotes collaboration, continuous learning, and innovative problemsolving, can best be described as: (Chapter 15: Strategy Implementation and Evaluation)",
-          "options": {
-            "a": "Transactional leadership",
-            "b": "Transformational leadership",
-            "c": "Autocratic leadership",
-            "d": "Laissez-faire leadership"
-          },
-          "correct_option": "b",
-          "answer": "b",
-          "verdict": null,
-          "_serial": "2_v2",
-          "or_group": "MCQ_2_v1_v2",
-          "question_id": "A-MCQ-2_v2"
+          "verdict": null
         },
         {
           "q_num": 3,
@@ -338,25 +176,7 @@
           },
           "correct_option": "d",
           "answer": "d",
-          "verdict": null,
-          "or_group": "MCQ_3_v1_v2",
-          "question_id": "A-MCQ-3_v1"
-        },
-        {
-          "q_num": "3_v2",
-          "question": "When DEF Technologies expanded into the global market with AI- driven cybersecurity solutions, which of Porter's Five Forces was most likely mitigated by forming partnerships with international tech firms? (Chapter 12: Strategic Analysis: External Environment)",
-          "options": {
-            "a": "Threat of Substitute Products or Services",
-            "b": "Bargaining Power of Suppliers",
-            "c": "Threat of New Entrants",
-            "d": "Intense Rivalry Among Existing Competitors"
-          },
-          "correct_option": "c",
-          "answer": "c",
-          "verdict": null,
-          "_serial": "3_v2",
-          "or_group": "MCQ_3_v1_v2",
-          "question_id": "A-MCQ-3_v2"
+          "verdict": null
         },
         {
           "q_num": 4,
@@ -369,25 +189,7 @@
           },
           "correct_option": "b",
           "answer": "b",
-          "verdict": null,
-          "or_group": "MCQ_4_v1_v2",
-          "question_id": "A-MCQ-4_v1"
-        },
-        {
-          "q_num": "4_v2",
-          "question": "By entering the global market and launching AI-driven cybersecurity solutions, DEF Technologies pursued which expansion strategy from Ansoff's Product-Market Growth Matrix? (Chapter 14: Strategic Choices)",
-          "options": {
-            "a": "Diversification",
-            "b": "Market Penetration",
-            "c": "Product Development",
-            "d": "Market Development"
-          },
-          "correct_option": "a",
-          "answer": "a",
-          "verdict": null,
-          "_serial": "4_v2",
-          "or_group": "MCQ_4_v1_v2",
-          "question_id": "A-MCQ-4_v2"
+          "verdict": null
         },
         {
           "q_num": 5,
@@ -400,25 +202,7 @@
           },
           "correct_option": "a",
           "answer": "a",
-          "verdict": null,
-          "or_group": "MCQ_5_v1_v2",
-          "question_id": "A-MCQ-5_v1"
-        },
-        {
-          "q_num": "5_v2",
-          "question": "MedTech Solutions' focus on developing affordable telemedicine platforms and AI-driven diagnostic tools reflects which of the following competitive strategies? (Chapter 13: Strategic Analysis: Internal Environment)",
-          "options": {
-            "a": "Differentiation strategy",
-            "b": "Cost leadership strategy",
-            "c": "Best-cost provider strategy",
-            "d": "Focus Strategy"
-          },
-          "correct_option": "c",
-          "answer": "c",
-          "verdict": null,
-          "_serial": "5_v2",
-          "or_group": "MCQ_5_v1_v2",
-          "question_id": "A-MCQ-5_v2"
+          "verdict": null
         }
       ]
     },
@@ -441,25 +225,7 @@
           },
           "correct_option": "c",
           "answer": "(c)",
-          "verdict": null,
-          "or_group": "MCQ_1_v1_v2",
-          "question_id": "A-MCQ-1_v1"
-        },
-        {
-          "q_num": "1_v2",
-          "question": "Sneha Rao's vision to transform DEF Technologies into a leading tech company illustrates which type of strategic intent? (Chapter 11: Introduction to Strategic Management)",
-          "options": {
-            "a": "Goal",
-            "b": "Mission",
-            "c": "Vision",
-            "d": "Objective"
-          },
-          "correct_option": "c",
-          "answer": "c",
-          "verdict": null,
-          "_serial": "1_v2",
-          "or_group": "MCQ_1_v1_v2",
-          "question_id": "A-MCQ-1_v2"
+          "verdict": null
         },
         {
           "q_num": 2,
@@ -472,25 +238,7 @@
           },
           "correct_option": "d",
           "answer": "(d)",
-          "verdict": null,
-          "or_group": "MCQ_2_v1_v2",
-          "question_id": "A-MCQ-2_v1"
-        },
-        {
-          "q_num": "2_v2",
-          "question": "Sneha's leadership style, which promotes collaboration, continuous learning, and innovative problemsolving, can best be described as: (Chapter 15: Strategy Implementation and Evaluation)",
-          "options": {
-            "a": "Transactional leadership",
-            "b": "Transformational leadership",
-            "c": "Autocratic leadership",
-            "d": "Laissez-faire leadership"
-          },
-          "correct_option": "b",
-          "answer": "b",
-          "verdict": null,
-          "_serial": "2_v2",
-          "or_group": "MCQ_2_v1_v2",
-          "question_id": "A-MCQ-2_v2"
+          "verdict": null
         },
         {
           "q_num": 3,
@@ -503,25 +251,7 @@
           },
           "correct_option": "d",
           "answer": "(d)",
-          "verdict": null,
-          "or_group": "MCQ_3_v1_v2",
-          "question_id": "A-MCQ-3_v1"
-        },
-        {
-          "q_num": "3_v2",
-          "question": "When DEF Technologies expanded into the global market with AI- driven cybersecurity solutions, which of Porter's Five Forces was most likely mitigated by forming partnerships with international tech firms? (Chapter 12: Strategic Analysis: External Environment)",
-          "options": {
-            "a": "Threat of Substitute Products or Services",
-            "b": "Bargaining Power of Suppliers",
-            "c": "Threat of New Entrants",
-            "d": "Intense Rivalry Among Existing Competitors"
-          },
-          "correct_option": "c",
-          "answer": "c",
-          "verdict": null,
-          "_serial": "3_v2",
-          "or_group": "MCQ_3_v1_v2",
-          "question_id": "A-MCQ-3_v2"
+          "verdict": null
         }
       ]
     }
@@ -537,8 +267,8 @@
           "label": "a",
           "marks": 5,
           "internal_split": null,
-          "question": "## Question 25 (PYP 5 Marks Sep'24)\n\nFinancial information for the year 20X1-X2 of two companies, N Limited and C Limited are as under:\n\n\n| Details |  |  | N Limited | C Limited |\n| :--- | :--- | :--- | :--- | :--- |\n| Equity share capital (Rs. 100 each) |  |  | Rs. 10,00,000 | Rs. 8,00,000 |\n| Debt | Gau |  | esh \\| 823731794F 5,00,000@10\\% | Rs.7,00,000@8\\% |\n| Fixed Cost |  |  | 3,00,000 | 3,36,000 |\n| Combined Leverage |  |  | 8 | 4.5 |\n| Financial Leverage |  |  | 2 | 1.5 |\n\nYou are required to calculate:\n\n(i) Contribution for N Ltd. and C Ltd.\n\n(ii) Margin of safety in \\% for N Ltd. and C. Ltd.\n\n(iii) Sales of C Ltd.",
-          "answer": "(i) Calculation of Contribution\n\n\n| N Limited | C Limited |\n| :--- | :--- |\n| Financial Leverage (FL) $=\\frac{\\mathrm{EBIT}}{\\mathrm{EBT}} \\mathrm{OR} \\frac{\\mathrm{EBIT}}{\\mathrm{EBIT}-\\mathrm{INTREST}}$ |  |\n| $2=\\frac{\\text { EBIT }}{\\text { EBIT }-50,000}$ | $1.5=\\frac{\\text { EBIT }}{\\text { EBIT }-56,000}$ |\n| 2 EBIT - 1,00,000 = EBIT | 1.5 EBIT - 84,000 = EBIT |\n| EBIT = Rs. 1,00,000 | EBIT = Rs. 1,68,000 |\n| EBT = Rs.50,000 | EBT = Rs. 1,12,000 |\n| Combined Leverage (CL) $=\\frac{\\text { CONTRIBUTION }}{\\text { EBT }}$ |  |\n| 8 = Contribution / 50,000 | 4.5 = Contribution / 1,12,000 |\n| Contribution= Rs. 4,00,000 | Contribution= Rs. 5,04,000 |\n\n(ii) Calculation of Margin of safety (MOS) in \\%\n\nMos $=\\frac{\\text { Contribution }- \\text { Fixed Cost }}{\\text { Contribution }}=\\frac{\\text { EBIT }}{\\text { Contribution }}$\n\n\n| N Limited | C Limited |\n| :--- | :--- |\n| $\\mathrm{MOS}=1,00,000 / 4,00,000$ <br> $=\\mathbf{2 5 \\%}$ | $\\mathrm{MOS}=1,68,000 / 5,04,000$ <br> $=\\mathbf{3 3 . 3 3 \\%}$ |\n\nPart (ii) can also be presented in following way:\n\nCalculation of Margin of safety (MOS) in \\%\n\nMOS = 1/operating leverage (OL)\n\nOL $=$ CL $/ \\mathrm{FL}$\n\n\n| N Limited | C Limited |\n| :--- | :--- |\n| $\\mathrm{OL}=8 / 2=4$ | $\\mathrm{OL}=4.5 / 1.5=3$ |\n| $\\mathrm{MOS}=1 / 4=\\mathbf{2 5 \\%}$ | $\\mathrm{MOS}=1 / 3=\\mathbf{3 3 . 3 3 \\%}$ |\n\n(iii) Sales of C Limited\n\nLet assume that PV ratio is $40 \\%$\n\nPV Ration $=\\frac{\\text { Contribution }}{\\text { Sales or Sales }}=\\frac{\\text { Contribution }}{\\text { PV ratio }}$\n\nSales $=\\frac{5,04,000}{0.40}=Rs. \\mathbf{1 2 , 6 0 , 0 0 0}$\n\nPart (iii) of the solution can be solved by any alternative assumption.\n\nExam insights: Students performed well in the question on Contribution, Margin of Safety, and Sales for N Ltd. and C Ltd. Keep revising the key formulas and relationships between sales, variable cost, and profit to stay accurate.",
+          "question": "## Question 25 (PYP 5 Marks Sep'24)\n\nFinancial information for the year 20X1-X2 of two companies, N Limited and C Limited are as under:\n\n| Details                              |                               | N Limited      | C Limited       |\n|:------------------------------------|:------------------------------|:--------------|:---------------|\n| Equity share capital (Rs. 100 each) |                               | Rs. 10,00,000 | Rs. 8,00,000   |\n| Debt                                | @Interest Rate                | Rs. 5,00,000 @ 10% | Rs. 7,00,000 @ 8%  |\n| Fixed Cost                          |                               | Rs. 3,00,000  | Rs. 3,36,000   |\n| Combined Leverage                   |                               | 8             | 4.5            |\n| Financial Leverage                  |                               | 2             | 1.5            |\n\nYou are required to calculate:\n\n(i) Contribution for N Ltd. and C Ltd.\n\n(ii) Margin of safety in % for N Ltd. and C Ltd.\n\n(iii) Sales of C Ltd.\n",
+          "answer": "(i) Calculation of Contribution\n\n| Details                      | N Limited        | C Limited        |\n|:-----------------------------|:-----------------|:-----------------|\n| Financial Leverage (FL)      | \\(\\frac{\\text{EBIT}}{\\text{EBIT} - \\text{Interest}}\\) |                               |\n| Given Equation               | \\(2 = \\frac{EBIT}{EBIT - 50,000}\\) | \\(1.5 = \\frac{EBIT}{EBIT - 56,000}\\) |\n| Solving for EBIT             | \\(2 \\times EBIT - 1,00,000 = EBIT\\) | \\(1.5 \\times EBIT - 84,000 = EBIT\\) |\n| EBIT                         | Rs. 1,00,000     | Rs. 1,68,000     |\n| EBT                          | Rs. 50,000       | Rs. 1,12,000     |\n| Combined Leverage (CL)       | \\(\\frac{\\text{Contribution}}{\\text{EBT}}\\) |                               |\n| Contribution Calculation     | \\(8 = \\frac{Contribution}{50,000}\\) | \\(4.5 = \\frac{Contribution}{1,12,000}\\) |\n| Contribution                 | Rs. 4,00,000     | Rs. 5,04,000     |\n\n(ii) Calculation of Margin of Safety (MOS) in %\n\n| Details                      | N Limited        | C Limited        |\n|:-----------------------------|:-----------------|:-----------------|\n| MOS Formula                  | \\(\\frac{\\text{Contribution} - \\text{Fixed Cost}}{\\text{Contribution}}\\) |                               |\n| MOS \\(\\frac{EBIT}{\\text{Contribution}}\\) | \\(1,00,000 / 4,00,000\\) (25%) | \\(1,68,000 / 5,04,000\\) (33.33%) |\n| Alternative MOS Formula      | \\(1/\\text{Operating Leverage (OL)}\\) |                               |\n| OL Calculation               | \\(\\frac{\\text{CL}}{\\text{FL}}\\)      |                               |\n| OL                           | \\(8 / 2 = 4\\)   | \\(4.5 / 1.5 = 3\\) |\n| Final MOS                    | \\(1/4 = 25\\%\\) | \\(1/3 = 33.33\\%\\) |\n\n(iii) Sales of C Limited\n\nAssuming that PV ratio is 40%:\n\n| Details                      | C Limited        |\n|:-----------------------------|:-----------------|\n| PV Ratio Formula             | \\(\\frac{\\text{Contribution}}{\\text{Sales}}\\) |                               |\n| Sales Calculation            | \\(\\frac{5,04,000}{0.40}\\) | Rs. 12,60,000 |\n\nNote: Part (iii) of the solution can be solved by any alternative assumption.\n\nExam insights: Students performed well in the question on Contribution, Margin of Safety, and Sales for N Ltd. and C Ltd. Keep revising the key formulas and relationships between sales, variable cost, and profit to stay accurate.\n",
           "chapter_number": "6",
           "chapter_name": "FINANCING DECISIONS LEVERAGES",
           "unique_id": "6-T-25"
@@ -547,8 +277,8 @@
           "label": "b",
           "marks": 5,
           "internal_split": null,
-          "question": "Based on the following particulars, PREPARE a balance sheet showing various assets and liabilities of T Ltd.\n\n| Fixed assets turnover ratio | 8 times |\n| :--- | ---: |\n| Capital turnover ratio | 2 times |\n| Inventory Turnover | 8 times |\n| :--- | :--- |\n| Receivable turnover | 4 times |\n| Payable turnover | 6 times |\n| GP Ratio | 25% |\n\nGross profit during the year amounts to $Rs. 8,00,000$. There is no long-term loan or overdraft. Reserve and surplus amount to Rs.2,00,000. Ending inventory of the year is Rs. 20,000 above the beginning inventory.",
-          "answer": "| a. | $\\begin{aligned} & \\text { G.P. ratio }=\\frac{\\text { Gross Profit }}{\\text { Sales }}=25 \\% \\\\ & \\text { Sales }=\\frac{\\text { Gross Profit }}{25} \\times 100 \\\\ & \\frac{8,00,000}{25} \\times 100=32,00,000 \\end{aligned}$ | b. | $\\begin{aligned} \\text { Cost of Sales } & =\\text { Sales - Gross profit } \\\\ & =Rs. 32,00,000-Rs. 8,00,000 \\\\ & =Rs. 24,00,000 \\end{aligned}$ |\n| :--- | :--- | :--- | :--- |\n| c. | $\\begin{aligned} & \\text { Receivable turnover } \\mathrm{r}=\\frac{\\text { Sales }}{\\text { Receivables }}=4 \\\\ & \\quad=\\text { Receivables }=\\frac{\\text { Sales }}{4} \\\\ & \\quad=\\frac{Rs. 32,00,000}{4}=Rs. 8,00,000 \\end{aligned}$ | d. | $\\begin{aligned} & \\text { Fixed assets turnover }=\\frac{\\text { Cost of Sales }}{\\text { Fixed Assets }}=8 \\\\ & \\text { Fixed assets }=\\frac{\\text { Cost of Sales }}{8}=\\frac{Rs. 24,00,000}{8} \\\\ & =Rs. 3,00,000 \\end{aligned}$ |\n\n\n e. Inventory turnover $=\\frac{\\text { Cost of Sales }}{\\text { Average Stock }}=8$\n\nAverage Stock $=\\frac{\\text { Cost of Sales }}{8}=\\frac{Rs. 24,00,000}{8}=Rs. 3,00,000$\nAverage Stock $=\\frac{\\text { Opening Stock }+ \\text { Closing Stock }}{2}$\nAverage Stock $=\\frac{\\text { Opening Stock }+ \\text { Closing Stock }+20,000}{2}$\nAverage Stock $=\\text { Opening Stock } + Rs. 10,000$\nOpening Stock = Average Stock - Rs.10,000\n$=Rs. 3,00,000-Rs. 10,000=Rs. 2,90,000$\n\n$$\n\\begin{aligned}\n\\text { Closing Stock } & =\\text { Opening Stock }+Rs. 20,000 \\\\\n& =Rs. 2,90,000+Rs. 20,000=Rs. 3,10,000\n\\end{aligned}\n$$\n\nf. Payable turnover $=\\frac{\\text { Purchase }}{\\text { Payable }}=6$\n\nPurchases $=\\text { Cost of Sales } + \\text { Increase in Stock }=Rs. 24,00,000+Rs. 20,000=Rs. 24,20,000$\nPayables $=\\frac{\\text { Purchase }}{6}=\\frac{24,20,000}{6}=4,03,333$\ng. Capital turnover $=\\frac{\\text { Cost of Sales }}{\\text { Capital Emploayed }}=2$\n\n$$\n\\text { Capital Employed }=\\frac{\\text { Cost of Sales }}{2}=2=\\frac{24,00,000}{2}=12,00,000\n$$\n\nh. Capital = Capital Employed - Reserves & Surplus\n\n$$\n\\begin{aligned}\n& =\\operatorname{Rs} 12,00,000-\\operatorname{Rs} 2,00,000 \\\\\n& =\\operatorname{Rs} 10,00,000\n\\end{aligned}\n$$\n\nBalance Sheet of T Ltd as on......\n\n| Liabilities | Amount (Rs.) | Assets | Amount (Rs.) |\n| :--- | :--- | :--- | :--- |\n| Capital | 10,00,000 | Fixed Assets | 3,00,000 |\n| Reserve & Surplus | 2,00,000 | Inventories | 3,10,000 |\n| Payables | 4,03,333 | Receivables | 8,00,000 |\n|  |  | Other Current Assets | 1,93,333 |\n|  | 16,03,333 |  | 16,03,333 |",
+          "question": "Based on the following particulars, PREPARE a balance sheet showing various assets and liabilities of T Ltd.\n\n| Particulars                    | Ratio / Value |\n|-------------------------------|--------------:|\n| Fixed assets turnover ratio   | 8 times       |\n| Capital turnover ratio        | 2 times       |\n| Inventory Turnover            | 8 times       |\n| Receivable turnover           | 4 times       |\n| Payable turnover              | 6 times       |\n| GP Ratio                      | 25%           |\n\nGross profit during the year amounts to Rs. 8,00,000. There is no long-term loan or overdraft. Reserve and surplus amount to Rs.2,00,000. Ending inventory of the year is Rs. 20,000 above the beginning inventory.",
+          "answer": "### Calculations:\n\n#### a. Sales Calculation:\n\n$$\n\\begin{aligned}\n\\text{G.P. ratio} &= \\frac{\\text{Gross Profit}}{\\text{Sales}} = 25\\% \\\\\n\\text{Sales} &= \\frac{\\text{Gross Profit}}{25} \\times 100 \\\\\n&= \\frac{8,00,000}{25} \\times 100 = 32,00,000 \\\\\n\\end{aligned}\n$$\n\n#### b. Cost of Sales Calculation:\n\n$$\n\\begin{aligned}\n\\text{Cost of Sales} &= \\text{Sales - Gross profit} \\\\\n&= Rs. 32,00,000 - Rs. 8,00,000 \\\\\n&= Rs. 24,00,000 \\\\\n\\end{aligned}\n$$\n\n#### c. Receivables Calculation:\n\n$$\n\\begin{aligned}\n\\text{Receivable turnover} \\ r &= \\frac{\\text{Sales}}{\\text{Receivables}} = 4 \\\\\n\\text{Receivables} &= \\frac{\\text{Sales}}{4} \\\\\n&= \\frac{Rs. 32,00,000}{4} = Rs. 8,00,000 \\\\\n\\end{aligned}\n$$\n\n#### d. Fixed Assets Calculation:\n\n$$\n\\begin{aligned}\n\\text{Fixed assets turnover} &= \\frac{\\text{Cost of Sales}}{\\text{Fixed Assets}} = 8 \\\\\n\\text{Fixed assets} &= \\frac{\\text{Cost of Sales}}{8} = \\frac{Rs. 24,00,000}{8} \\\\\n&= Rs. 3,00,000 \\\\\n\\end{aligned}\n$$\n\n#### e. Inventory Calculation:\n\nAverage Stock:\n\n$$\n\\begin{aligned}\n\\text{Inventory turnover} &= \\frac{\\text{Cost of Sales}}{\\text{Average Stock}} = 8 \\\\\n\\text{Average Stock} &= \\frac{\\text{Cost of Sales}}{8} = \\frac{Rs. 24,00,000}{8} = Rs. 3,00,000\n\\end{aligned}\n$$\n\nOpening Stock:\n\n$$\n\\begin{aligned}\n\\text{Average Stock} &= \\frac{\\text{Opening Stock} + \\text{Closing Stock}}{2} \\\\\n3,00,000 &= \\frac{\\text{Opening Stock} + (\\text{Opening Stock} + 20,000)}{2} \\\\\n\\text{Opening Stock} &= 2,90,000 \\\\\n\\text{Closing Stock} &= \\text{Opening Stock} + Rs. 20,000 = Rs. 3,10,000\n\\end{aligned}\n$$\n\n#### f. Payables Calculation:\n\n$$\n\\begin{aligned}\n\\text{Payable turnover} &= \\frac{\\text{Purchase}}{\\text{Payable}} = 6 \\\\\n\\text{Purchases} &= \\text{Cost of Sales} + \\text{Increase in Stock} \\\\\n&= Rs. 24,00,000 + Rs. 20,000 = Rs. 24,20,000 \\\\\n\\text{Payables} &= \\frac{\\text{Purchase}}{6} = \\frac{24,20,000}{6} = 4,03,333\n\\end{aligned}\n$$\n\n#### g. Capital Employed Calculation:\n\n$$\n\\begin{aligned}\n\\text{Capital turnover} &= \\frac{\\text{Cost of Sales}}{\\text{Capital Employed}} = 2 \\\\\n\\text{Capital Employed} &= \\frac{\\text{Cost of Sales}}{2} = \\frac{24,00,000}{2} \\\\\n&= 12,00,000\n\\end{aligned}\n$$\n\n#### h. Capital Calculation:\n\n$$\n\\begin{aligned}\n\\text{Capital} &= \\text{Capital Employed} - \\text{Reserves & Surplus} \\\\\n&= Rs. 12,00,000 - Rs. 2,00,000 \\\\\n&= Rs. 10,00,000\n\\end{aligned}\n$$\n\n### Balance Sheet of T Ltd. as on ...\n\n| Liabilities        | Amount (Rs.) | Assets               | Amount (Rs.) |\n|--------------------|--------------|----------------------|--------------|\n| Capital            | 10,00,000    | Fixed Assets         | 3,00,000     |\n| Reserve & Surplus  | 2,00,000     | Inventories          | 3,10,000     |\n| Payables           | 4,03,333     | Receivables          | 8,00,000     |\n|                    |              | Other Current Assets | 1,93,333     |\n| Total              | 16,03,333    | Total                | 16,03,333    |",
           "chapter_number": "3",
           "chapter_name": "FINANCIAL ANALYSIS AND PLANNING - RATIO ANALYSIS",
           "unique_id": "3-T-20"
@@ -615,8 +345,8 @@
           "label": "b",
           "marks": 4,
           "internal_split": null,
-          "question": "## Question 14 (MTP 5 Marks, Nov'21, Mar'22 & Sep'23) (Same concept different figures SM)\n\nVivtsu Company’s equity share is quoted in the market at Rs. 25 per share currently. The company pays a dividend of Rs. 5 per share and the investor's market expects a growth rate of 5% per year.\n\nYou are required to:\n\n(i) CALCULATE the company's cost of equity capital.\n\n(ii) If the company issues 12% debentures of face value of Rs.100 each and realizes Rs.95 per debenture while the debentures are redeemable after 10 years at a premium of 12%, CALCULATE cost of debenture using YTM?\n\nAssume tax rate to be 30%. ",
-          "answer": "(i) Cost of Equity Capital (Ke)\n\n$$\nK_{e}=rac{\\text { Expecteddividendper share }(D 1)}{\\text { Marketpriceper share }(P 0)}=\\text { Growth rate }(g)=\\frac{R s .5 \\times 1.05}{R s .25}+0.05=26 \\% \n$$\n\n(ii) Cost of Debenture (Kd): Using Present Value method (or YTM)\n\nIdentification of relevant cash flows\n\n| Year | Gauresh \\| 823 Cash flows |\n| :--- | :--- |\n| 0 | Current market price (P0) $=Rs. 95$ |\n| 1 to 10 | Interest net of tax $[I(1-t)]=12 \\%$ of Rs.100 $(1-0.30)=Rs. 8.40$ |\n| 10 | Redemption value (RV) = Rs.100 (1.12) = Rs.112 |\n\n\n\nCalculation of Net Present Values (NPV) at two discount rates\n\n| Year | Cash flows | Discount factor @ 9\\% (L) | Present Value | Discount factor @ 10\\% (H) | Present Value |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| 0 | (95) | 1.0000 | (95.00) | 1.0000 | (95.00) |\n| 1 to 10 | 8.40 | 6.4176 | 53.91 | 6.1445 | 51.61 |\n| 10 | 112 | 0.4224 | 47.31 | 0.3855 | 43.18 |\n| NPV |  |  | +6.22 |  | -0.21 |\n\n\n\n## Calculation of IRR=\n\n$\\left\\lvert\\, R R=\\mathrm{L}+rac{N P V_{L}}{N P V_{L} N P V_{H}}(\\mathrm{H}-\\mathrm{L})=9 \\%+\\frac{6.22}{6.22-(-0.21)}(10 \\%-9 \\%)=9 \\%+\\frac{6.22}{6.43}=9.97=\\right.$ Therefore, $\\mathrm{Kd}=9.97 \\%$",
+          "question": "## Question 14 (MTP 5 Marks, Nov'21, Mar'22 & Sep'23) (Same concept different figures SM)\n\nVivtsu Company’s equity share is quoted in the market at Rs. 25 per share currently. The company pays a dividend of Rs. 5 per share and the investor's market expects a growth rate of 5% per year.\n\nYou are required to:\n\n(i) CALCULATE the company's cost of equity capital.\n\n(ii) If the company issues 12% debentures of face value of Rs.100 each and realizes Rs.95 per debenture while the debentures are redeemable after 10 years at a premium of 12%, CALCULATE cost of debenture using YTM?\n\nAssume tax rate to be 30%.",
+          "answer": "(i) Cost of Equity Capital (Ke)\n\n\\[\nK_{e} = \\frac{\\text{Expected dividend per share } (D_1)}{\\text{Market price per share } (P_0)} + \\text{Growth rate } (g) = \\frac{Rs. 5 \\times 1.05}{Rs. 25} + 0.05 = 0.26 = 26\\%\n\\]\n\n(ii) Cost of Debenture (Kd): Using Present Value method (YTM)\n\nIdentification of relevant cash flows:\n\n| Year  | Cash Flows                                         |\n|-------|----------------------------------------------------|\n| 0     | Current market price (P0) = Rs. 95                 |\n| 1 to 10 | Interest net of tax \\([I(1-t)] = 12\\%\\) of Rs. 100 \\(\\times (1-0.30) = Rs. 8.40\\) |\n| 10    | Redemption value (RV) = Rs. 100 \\(\\times 1.12 = Rs. 112\\) |\n\nCalculation of Net Present Values (NPV) at two discount rates:\n\n| Year  | Cash flows | Discount factor @ 9% (L) | Present Value | Discount factor @ 10% (H) | Present Value |\n|-------|------------|---------------------------|---------------|----------------------------|---------------|\n| 0     | (95)       | 1.0000                    | (95.00)       | 1.0000                     | (95.00)       |\n| 1 to 10 | 8.40     | 6.4176                    | 53.91         | 6.1445                     | 51.61         |\n| 10    | 112        | 0.4224                    | 47.31         | 0.3855                     | 43.18         |\n| NPV   |            |                           | +6.22         |                            | -0.21         |\n\nCalculation of IRR:\n\n\\[\n\\text{IRR} = L + \\frac{NPV_L}{NPV_L - NPV_H} \\times (H - L) = 9\\% + \\frac{6.22}{6.22 - (-0.21)} \\times (10\\% - 9\\%) = 9\\% + \\frac{6.22}{6.43} = 9.97\\%\n\\]\n\nTherefore, \\( K_d = 9.97\\% \\)",
           "chapter_number": "4",
           "chapter_name": "COST OF CAPITAL",
           "unique_id": "4-T-14"
@@ -631,52 +361,34 @@
       "chapter_number": "1",
       "sub_questions": [
         {
-          "label": "a_v1",
-          "marks": 6,
-          "internal_split": null,
-          "question": "[New Version - v1] EXPLAIN the difference between Financial Lease and Operating Lease.",
-          "answer": "Difference between Financial Lease and Operating Lease\n\n| Financial Lease |  | Operating Lease |\n| :--- | :--- | :--- |\n| 1. | The risk and reward incident to ownership are passed on to the lessee. The lessor only remains the legal owner of the asset. | The lessee is only provided the use of the asset for a certain time. Risk incident to ownership belong wholly to the lessor. |\n| 2. | The lessee bears the risk of obsolescence. | The lessor bears the risk of obsolescence. |\n| 3. | The lessor is interested in his rentals and not in the asset. He must get his principal back along with interest. Therefore, the lease is non- cancellable by either party. | As the lessor does not have difficulty in leasing the same asset to other willing lessor, the lease is kept cancelable by the lessor. |\n| 4. | The lessor enters into the transaction only as financier. He does not bear the cost of repairs, maintenance or operations. | Usually, the lessor bears cost of repairs, maintenance or operations. |\n| 5. | The lease is usually full payout, that is, the single lease repays the cost of the asset together with the interest. | The lease is usually non-payout, since the lessor expects to lease the same asset over and over again to several users. |",
-          "chapter_number": "2",
-          "chapter_name": "TYPES OF FINANCING",
-          "unique_id": "2-T-36",
-          "or_group": "Q4a_v1_v2",
-          "question_id": "B-Q4-Q4a_v1"
-        },
-        {
-          "label": "a_v2",
+          "label": "a",
           "marks": 3,
           "internal_split": null,
-          "question": "[Old Version - v2] Question 35 (PYP 3 Marks Sep'25)\n\nSaraswati Ltd. has started its business a year back with a paid-up equity capital of Rs. 50,00,000. The other details are as under:\n\n| Earnings of company | Rs. 5,00,000 |\n| :--- | :--- |\n| Cost of Capital | Rs. 159.09 |\n| Market price per share using Gordon's Model | 8\\% |\n| Internal rate of return on investment | 12\\% |\n| Number of shares | 50,000 |\n\nYou are required to:\n\n(i) Calculate the Dividend paid per share using Gordon's Model.\n\n(ii) What will be Optimum dividend pay-out ratio according to Gordon's Model when $\\mathrm{r}=\\mathrm{K}_{\\mathrm{e}}$ ?",
-          "answer": "(i) $\\mathrm{P}_{0}$\n\n$$\n=\\frac{\\mathrm{E}(1-\\mathrm{b})}{\\mathrm{K}_{\\mathrm{e}}-\\mathrm{br}}\n$$\n\n159.09\n\n$$\n=\\frac{10(1-b)}{0.08-0.12 b}\n$$\n\n159.09(0.08-0.12b)\n\n=10(1-b)\n\n12.7272-10\n\n$$\n=19.0908 b-10 b\n$$\n\n2.7272\n\n$$\n=9.0908 \\mathrm{~b}\n$$\n\nB (retained earning ratio)\n\n$$\n=0.30\n$$\n\nDividend payout ratio $=(1-\\mathrm{b}) \\quad=0.70$\n\nDividend per share $=$ EPS × $(1-b)=10 \\times 0.70=$ Rs. 7\n\n(ii)\n\nWhen $\\mathrm{r}=\\mathrm{K}_{\\mathrm{e}}$, There is no optimum ratio",
+          "question": "Question 35 (PYP 3 Marks Sep'25)\n\nSaraswati Ltd. has started its business a year back with a paid-up equity capital of Rs. 50,00,000. The other details are as under:\n\n| Details                                      | Value        |\n|---------------------------------------------|--------------|\n| Earnings of company                         | Rs. 5,00,000 |\n| Cost of Capital                             | Rs. 159.09   |\n| Market price per share using Gordon's Model | 8%           |\n| Internal rate of return on investment       | 12%          |\n| Number of shares                            | 50,000       |\n\nYou are required to:\n\n(i) Calculate the Dividend paid per share using Gordon's Model.\n\n(ii) What will be Optimum dividend pay-out ratio according to Gordon's Model when \\( r = K_e \\)?",
+          "answer": "(i) \\( P_0 = \\frac{E(1-b)}{K_e - b r} \\)\n\nGiven:\n\n- \\( P_0 = 159.09 \\)\n- \\( K_e = 0.08 \\) (8%)\n- \\( r = 0.12 \\) (12%)\n\nUsing Gordon's Model:\n\n\\[\n159.09 = \\frac{10(1-b)}{0.08-0.12b}\n\\]\n\nCross multiplying and solving for \\( b \\):\n\n\\[\n159.09(0.08-0.12b) = 10(1-b)\n\\]\n\n\\[\n12.7272 - 19.0908b = 10 - 10b\n\\]\n\n\\[\n2.7272 = 9.0908b\n\\]\n\nSolving gives:\n\n\\[\nb = 0.30\n\\]\n\nDividend payout ratio \\((1-b) = 0.70\\)\n\nDividend per share = EPS × \\( (1-b) = 10 \\times 0.70 = Rs. 7 \\)\n\n(ii)\n\nWhen \\( r = K_e \\), there is no optimum dividend pay-out ratio since growth rate equals required rate of return and the firm is indifferent to payout levels.",
           "chapter_number": "8",
           "chapter_name": "DIVIDEND DECISION",
-          "unique_id": "8-T-35",
-          "or_group": "Q4a_v1_v2",
-          "question_id": "B-Q4-Q4a_v2"
+          "unique_id": "8-T-35"
         },
         {
-          "label": "b_v1",
-          "marks": 4,
-          "internal_split": null,
-          "question": "[New Version - v1] EXPLAIN the difference between Business risk and financial risk (MTP 4 Marks, Mar'19, Sep'23)",
-          "answer": "## Business Risk and Financial Risk\n\nBusiness risk refers to the risk associated with the firm's operations. It is an unavoidable risk because of the environment in which the firm has to operate and the business risk is represented by the variability of earnings before interest and tax (EBIT). The variability in turn is influenced by revenues and expenses. Revenues and expenses are affected by demand of firm's products, variations in prices and proportion of fixed cost in total cost.\n\nWhereas, Financial risk refers to the additional risk placed on firm's shareholders as a result of debt use in financing. Companies that issue more debt instruments would have higher financial risk than companies financed mostly by equity. Financial risk can be measured by ratios such as firm's financial leverage multiplier, total debt to assets ratio etc.",
-          "chapter_number": "6",
-          "chapter_name": "FINANCING DECISIONS LEVERAGES",
-          "unique_id": "6-T-1",
-          "or_group": "Q4b_v1_v2",
-          "question_id": "B-Q4-Q4b_v1"
-        },
-        {
-          "label": "b_v2",
+          "label": "b",
           "marks": 3.5,
           "internal_split": null,
-          "question": "[Old Version - v2] Explain the features of crowd funding. (PYP 2 Marks May '24)",
+          "question": "Explain the features of crowd funding. (PYP 2 Marks May '24)",
           "answer": "Crowd funding: crowdfunding means raising money for an individual or organization from a group of people to fund a project, typically via internet (social media and crowdfunding websites). It generally involves collecting funds from family, friends, strangers, corporates and many more in exchange of equity (known as Equity funding), loans (known as P2P lending) or nothing at all (i.e. donation). This source of funding also helps startups to substantiate demand for their product before entering into production.\n\nIn the crowdfunding process, three parties are involved i.e. fund raiser, mediator and fund investor. The platforms (mediator) may also charge certain fees in the form of processing fee, transaction fee, etc. either as a fixed amount or a percentage or in combination of both.\n\nExam insights: Students often confuse crowdfunding with venture capital or public issues. Remember-it's about raising small amounts online from many investors to support an idea or startup.",
           "chapter_number": "2",
           "chapter_name": "TYPES OF FINANCING",
-          "unique_id": "2-T-12",
-          "or_group": "Q4b_v1_v2",
-          "question_id": "B-Q4-Q4b_v2"
+          "unique_id": "2-T-12"
+        },
+        {
+          "label": "c",
+          "marks": 3.5,
+          "internal_split": null,
+          "question": "PQ Ltd. has commenced a new business segment in 2023-24. The following information has been ascertained for annual production of 25,000 units which is the full capacity.\\n\\n|                                         | Cost per unit (₹) |\\n|-----------------------------------------|-------------------|\\n| Material                                | 100               |\\n| Labour and variable overhead expenses   | 50                |\\n| Fixed manufacturing expenses            | 35                |\\n| Depreciation                            | 15                |\\n| Selling expenses (80% variable)         | 10                |\\n\\nIn the first two years of operations, production and sales are expected to be as follows:\\n\\n| Year | Production (No. of units) | Sales (No. of units) |\\n|------|---------------------------|----------------------|\\n| 1    | 12,000                    | 10,000               |\\n| 2    | 18,000                    | 19,000               |\\n\\nThe selling price is expected to be ₹ 250.\\n\\nTo assess the working capital requirements, the following additional information is available:\\n\\n(a) Stock of materials 2 months’ average consumption.\\n\\n(b) Debtors 1.5 month’s average sales.\\n\\n(c) Cash balance ₹ 50,000.\\n\\n(d) Creditors for supply of materials 1 month’s average purchase during the year.\\n\\n(e) Expenses: All expenses will be paid 1 month in advance during the year.\\n\\nGoods equal to 15% of the year’s production (in terms of physical units) will be in process on the average requiring full materials but only 40% of the other expenses.\\n\\nThe management is also of the opinion to make 10% margin for contingencies on computed figures and value the closing stock at cost of production.\\n\\nPREPARE, for the two years:\\n\\n(i) A projected statement of Profit/Loss (Ignoring taxation); and\\n\\n(ii) A projected statement of working capital requirements on a cash cost basis.",
+          "answer": "1.   Calculation of creditors for supply of materials:\n\n|                              | Year 1 (₹) | Year 2 (₹) |\n|------------------------------|------------|------------|\n| Materials consumed during the year | 12,00,000   | 18,00,000   |\n| Add: Closing stock (2 month’s average consumption) | 2,00,000    | 3,00,000    |\n|                              | 14,00,000   | 21,00,000   |\n| Less: Opening Stock          | -           | 2,00,000    |\n| Purchases during the year    | 14,00,000   | 19,00,000   |\n| Average purchases per month (Creditors) | 1,16,667    | 1,58,333    |\n\n2.   Prepayment for expenses:\n\n|                                      | Year 1 (₹) | Year 2 (₹) |\n|--------------------------------------|------------|------------|\n| Direct labour and variable expenses  | 6,00,000    | 9,00,000    |\n| Fixed manufacturing expenses         | 8,75,000    | 8,75,000    |\n| Selling expenses (variable + fixed)  | 1,30,000    | 2,02,000    |\n| Total                                | 16,05,000   | 19,77,000   |\n| Average per month                    | 1,33,750    | 1,64,750    |\n\n(ii)   Projected Statement of Working Capital Requirement\n       (Cash Cost Basis)\n\n| (A) Current Assets                  | Year 1 (₹) | Year 2 (₹) |\n|-------------------------------------|------------|------------|\n| Inventories:                        |            |            |\n| - Stock of Raw Material             |            |            |\n| (12,000 units ₹ 100 2/12);          | 2,00,000    | 3,00,000    |\n| (18,000 units ₹ 100 2/12)           |            |            |\n| - Finished Goods (Refer working note 3) | 4,01,083    | 1,92,611    |\n| - Work In Process (Refer working note 5) | 2,68,500    | 3,76,500    |\n\nAdd: Opening W.I.P. - 2,91,000\nLess: Closing W.I.P. 2,91,000 3,99,000\n\nCost of goods produced 27,59,000 38,42,000\nAdd: Opening stock of finished goods (Year 1 : Nil; Year 2 : 2,000 units) - 4,59,833\nCost of Goods available for sale (Year 1: 12,000 units; Year 2: 20,000 units) 27,59,000 43,01,833\nLess: Closing stock of finished goods at average cost (year 1: 2000 units, year 2 : 1000 units) (Cost of Production × Closing stock/units produced) 4,59,833 2,13,444\n\nCost of Goods Sold 22,99,167 40,88,389\nAdd: Selling expenses – Variable (Sales unit × ₹ 8) 80,000 1,52,000\nAdd: Selling expenses -Fixed (25,000 units × ₹ 2) 50,000 50,000\nCost of Sales : (B) 24,29,167 42,90,389\n\nProfit (+) / Loss (-): (A - B) 70,833 4,59,611\n\nWorking Notes:\n\nCalculation of Stock of Work-in-progress\n\n| Particulars | Year 1 | Year 2 |\n|-------------|--------|--------|\n|             | (₹)    | (₹)    |\n| Raw Material (material cost × 15%) | 1,80,000 | 2,70,000 |\n| Labour & Mfg. Expenses (Labour & mfg. expenses × 15% × 40%) | 88,500 | 1,06,500 |\n| Depreciation (Depreciation × 15% × 40%) | 22,500 | 22,500 |\n| Total | 2,91,000 | 3,99,000 |\n\n(i)\nPQ Limited\nProjected Statement of Profit / Loss\n(Ignoring Taxation)\n\n|                           | Year 1  | Year 2  |\n|---------------------------|---------|---------|\n| Production (Units)        | 12,000  | 18,000  |\n| Sales (Units)             | 10,000  | 19,000  |\n|                           | (₹)     | (₹)     |\n| Sales revenue (A) (Sales unit × ₹ 250) | 25,00,000 | 47,50,000 |\n| Cost of production:       |         |         |\n| Materials cost            |         |         |\n| (Units produced × ₹ 100)  | 12,00,000 | 18,00,000 |\n| Direct labour and variable expenses |         |         |\n| (Units produced × ₹ 50)   | 6,00,000 | 9,00,000 |\n| Fixed manufacturing expenses |         |         |\n| (Production Capacity: 25,000 units × ₹ 35) | 8,75,000 | 8,75,000 |\n| Depreciation              |         |         |\n| (Production Capacity: 25,000 units × ₹ 15) | 3,75,000 | 3,75,000 |\n| **Gross Factory Cost**    | **30,50,000** | **39,50,000** |\n\nIn the first two years of operations, production and sales are expected to be as follows:\n\n| Year | Production (No. of units) | Sales (No. of units) |\n|------|---------------------------|----------------------|\n| 1    | 12,000                    | 10,000               |\n| 2    | 18,000                    | 19,000               |\n\nThe selling price is expected to be ₹ 250 .\n\nTo assess the working capital requirements, the following additional information is available:\n\n(a) Stock of materials 2 months’ average consumption\n\n(b) Debtors 1.5 month’s average sales.\n\n(c) Cash balance ₹ 50,000\n\n(d) Creditors for supply of materials 1 month’s average purchase during the year.\n\n(e) Expenses All expenses will be paid 1 month in advance during the year.\n\nGoods equal to 15% of the year’s production (in terms of physical units) will be in process on the average requiring full materials but only 40% of the other expenses.\n\nThe management is also of the opinion to make 10% margin for contingencies on computed figure and value the closing stock at cost of production.\n\nPREPARE, for the two years:\n\n(i) A projected statement of Profit/Loss (Ignoring taxation); and\n\n(ii) A projected statement of working capital requirements on a cash cost basis.\n\n(₹ 24,06,500 × 2,000\n12,000\n₹ 34,67,000 × 1,000\n18,000\nCash Cost of Goods Sold 20,05,417 36,75,472\n\n4. Receivables (Debtors)\n\n| Year 1 (₹) | Year 2 (₹) |\n|------------|------------|\n| Cash Cost of Goods Sold | 20,05,417 | 36,75,472 |\n| Add: Selling expenses – Variable (Sales unit × ₹ 8) | 80,000 | 1,52,000 |\n| Add: Selling expenses -Fixed (25,000 units × ₹ 2) | 50,000 | 50,000 |\n| Cash Cost of Debtors | 21,35,417 | 38,77,472 |\n| Average Debtors | 2,66,927 | 4,84,684 |\n\nCalculation of Stock of Work-in-progress (Cash Cost Basis)\n\n| Particulars | (₹) |\n|-------------|-----|\n| Raw Material (material cost × 15%) | 1,80,000 | 2,70,000 |\n| Labour & Mfg. Expenses (Labour & mfg. expenses × 15% × 40%) | 88,500 | 1,06,500 |\n| Total | 2,68,500 | 3,76,500 |",
+          "chapter_number": "2",
+          "chapter_name": "TYPES OF FINANCING",
+          "unique_id": "FM-REPLACED-8"
         }
       ],
       "section": 1
@@ -688,76 +400,34 @@
       "chapter_number": "12",
       "sub_questions": [
         {
-          "label": "a_v1",
+          "label": "a",
           "marks": 5,
           "internal_split": null,
-          "question": "[New Version - v1] ## Question 14 (MTP 5 Marks March '22)\n\nThere has been fierce demand for both Gecko and FlyBee for the last 3 years. Gecko makes mass consumption pens while FlyBee is a notebook and diary brand - both being complementary goods of each other. But to grow further, FlyBee decided to take up competition with Gecko in pens segment and thereby launched, FlyPens. Identify and explain the growth strategy opted by FlyBee?",
-          "answer": "FlyBee is a notebook and diary brand. But to grow further, FlyBee decided to take up competition with Gecko in pens segment and thereby launched, FlyPens. FlyBee that is hitherto not into producing pens starts producing them and other similar products is following concentric diversification which is basically related diversification. In this form of diversification, the new business is linked to the existing businesses through existing systems such as processes, technology or marketing. The new product is a spin-off from the existing facilities and products/processes. There are benefits of synergy with the current operations. The most common reasons for pursuing a concentric diversification are that opportunities in existing line of business are available.",
-          "chapter_number": "14",
-          "chapter_name": "STRATEGIC CHOICES",
-          "unique_id": "14-T-14",
-          "or_group": "Q5a_v1_v2",
-          "question_id": "B-Q5-Q5a_v1"
-        },
-        {
-          "label": "a_v2",
-          "marks": 5,
-          "internal_split": null,
-          "question": "[Old Version - v2] UrbanRide Mobility Ltd. launched an ambitious strategy to become the market leader in electric scooter rentals. The management established key performance indicators (KPIs) such as customer acquisition rate, scooter utilization rate, and profitability. Quarterly reviews were conducted to compare actual performance with planned targets. Whenever significant deviations were identified, corrective measures such as route optimization and promotional campaigns were introduced.\n\nIdentify the strategic management function being performed by UrbanRide Mobility Ltd. and explain its significance.",
+          "question": "UrbanRide Mobility Ltd. launched an ambitious strategy to become the market leader in electric scooter rentals. The management established key performance indicators (KPIs) such as customer acquisition rate, scooter utilization rate, and profitability. Quarterly reviews were conducted to compare actual performance with planned targets. Whenever significant deviations were identified, corrective measures such as route optimization and promotional campaigns were introduced.\n\nIdentify the strategic management function being performed by UrbanRide Mobility Ltd. and explain its significance.",
           "answer": "The strategic management function being performed is Strategic Control.\n\nStrategic control is the process of monitoring strategy implementation, evaluating performance, and taking corrective actions to ensure achievement of strategic objectives.\n\nElements of Strategic Control evident in the case:\n\nEstablishment of performance standards through KPIs.\n\nMeasurement of actual performance.\n\nComparison of actual performance with predetermined targets.\n\nIdentification of deviations.\n\nCorrective actions such as route optimization and promotional campaigns.\n\nSignificance of Strategic Control:\n\nEnsures effective implementation of strategy.\n\nDetects deviations at an early stage.\n\nFacilitates corrective actions.\n\nImproves organizational performance.\n\nHelps achieve long-term strategic objectives.\n\nTherefore, UrbanRide Mobility Ltd. is exercising Strategic Control to ensure successful execution of its business strategy.",
           "chapter_number": "12",
           "chapter_name": "STRATEGIC ANALYSIS: EXTERNAL",
-          "unique_id": "FM-REPLACED-sm_3",
-          "or_group": "Q5a_v1_v2",
-          "question_id": "B-Q5-Q5a_v2"
+          "unique_id": "FM-REPLACED-sm_3"
         },
         {
-          "label": "b_v1",
+          "label": "b",
           "marks": 5,
           "internal_split": null,
-          "question": "[New Version - v1] EcoRide Ltd. manufactures electric scooters. The company possesses strong R&D capabilities, a well-recognised brand name and an extensive service network. However, its manufacturing costs are higher than those of competitors.\n\nDemand for electric vehicles is increasing rapidly due to government incentives and environmental awareness. At the same time, several international automobile companies are entering the market. Customers have multiple alternatives available and frequently compare prices and product features before making purchase decisions.\n\nAnalyse the strategic position of EcoRide Ltd. using SWOT Analysis. Further identify any two competitive forces operating in the industry as per Porter's Five Forces Model.",
-          "answer": "(A) SWOT Analysis\n\nStrengths\n\nStrong R&D capabilities.\n\nWell-recognised brand.\n\nExtensive service network.\n\nWeaknesses\n\nHigh manufacturing cost.\n\nOpportunities\n\nGrowing demand for EVs.\n\nGovernment incentives.\n\nRising environmental awareness.\n\nThreats\n\nEntry of international automobile companies.\n\nIntense market competition.\n\n(B) Porter's Five Forces\n\n1. Threat of New Entrants\n\nInternational automobile companies entering the market indicate increasing competitive pressure from new entrants.\n\n2. Bargaining Power of Buyers\n\nCustomers compare prices and product features before purchasing, indicating high bargaining power of buyers.\n\nConclusion\n\nEcoRide Ltd. enjoys strong internal capabilities and favourable market opportunities but must address cost disadvantages and increasing competitive pressures to sustain its competitive position.",
-          "chapter_number": "14",
-          "chapter_name": "STRATEGIC CHOICES",
-          "unique_id": "FM-REPLACED-sm__9",
-          "or_group": "Q5b_v1_v2",
-          "question_id": "B-Q5-Q5b_v1"
-        },
-        {
-          "label": "b_v2",
-          "marks": 5,
-          "internal_split": null,
-          "question": "[Old Version - v2] ## Question 42 (SM)\n\nIn the context of Ansoff's Product-Market Growth Matrix, identify with reasons, the type of growth strategies followed in the following cases:\n\n- A leading producer of toothpaste, advises its customers to brush teeth twice a day to keep breath fresh.\n\n- A business giant in hotel industry decides to enter into dairy business.\n\n- One of India's premier utility vehicles manufacturing company ventures to foray into foreign markets.\n\n- A renowned auto manufacturing company launches ungeared scooters in the market.",
+          "question": "## Question 42 (SM)\n\nIn the context of Ansoff's Product-Market Growth Matrix, identify with reasons, the type of growth strategies followed in the following cases:\n\n- A leading producer of toothpaste, advises its customers to brush teeth twice a day to keep breath fresh.\n\n- A business giant in hotel industry decides to enter into dairy business.\n\n- One of India's premier utility vehicles manufacturing company ventures to foray into foreign markets.\n\n- A renowned auto manufacturing company launches ungeared scooters in the market.",
           "answer": "The Ansoff's product market growth matrix (proposed by Igor Ansoff) is a useful tool that helps businesses decide their product and market growth strategy. This matrix further helps to analyze different strategic directions. According to Ansoff there are four strategies that organization might follow.\n\n(i) Market Penetration: A leading producer of toothpaste, advises its customers to brush teeth twice a day to keep breath fresh. It refers to a growth strategy where the business focuses on selling existing products into existing markets.\n\n(ii) Diversification: A business giant in hotel industry decides to enter into dairy business. It refers to a growth strategy where a business markets new products in new markets.\n\n(iii) Market Development: One of India's premier utility vehicles manufacturing company ventures to foray into foreign markets. It refers to a growth strategy where the business seeks to sell its existing products into new markets.\n\n(iv) Product Development: A renowned auto manufacturing company launches ungeared scooters in the market. It refers to a growth strategy where business aims to introduce new products into existing markets.",
           "chapter_number": "14",
           "chapter_name": "STRATEGIC CHOICES",
-          "unique_id": "14-T-42",
-          "or_group": "Q5b_v1_v2",
-          "question_id": "B-Q5-Q5b_v2"
+          "unique_id": "14-T-42"
         },
         {
-          "label": "c_v1",
+          "label": "c",
           "marks": 5,
           "internal_split": null,
-          "question": "[New Version - v1] UrbanRide Mobility Ltd. launched an ambitious strategy to become the market leader in electric scooter rentals. The management established key performance indicators (KPIs) such as customer acquisition rate, scooter utilization rate, and profitability. Quarterly reviews were conducted to compare actual performance with planned targets. Whenever significant deviations were identified, corrective measures such as route optimization and promotional campaigns were introduced.\n\nIdentify the strategic management function being performed by UrbanRide Mobility Ltd. and explain its significance.",
-          "answer": "The strategic management function being performed is Strategic Control.\n\nStrategic control is the process of monitoring strategy implementation, evaluating performance, and taking corrective actions to ensure achievement of strategic objectives.\n\nElements of Strategic Control evident in the case:\n\nEstablishment of performance standards through KPIs.\n\nMeasurement of actual performance.\n\nComparison of actual performance with predetermined targets.\n\nIdentification of deviations.\n\nCorrective actions such as route optimization and promotional campaigns.\n\nSignificance of Strategic Control:\n\nEnsures effective implementation of strategy.\n\nDetects deviations at an early stage.\n\nFacilitates corrective actions.\n\nImproves organizational performance.\n\nHelps achieve long-term strategic objectives.\n\nTherefore, UrbanRide Mobility Ltd. is exercising Strategic Control to ensure successful execution of its business strategy.",
-          "chapter_number": "12",
-          "chapter_name": "STRATEGIC ANALYSIS: EXTERNAL",
-          "unique_id": "FM-REPLACED-sm_3",
-          "or_group": "Q5c_v1_v2",
-          "question_id": "B-Q5-Q5c_v1"
-        },
-        {
-          "label": "c_v2",
-          "marks": 5,
-          "internal_split": null,
-          "question": "[Old Version - v2] International development is expensive and challenging. In the context of the statement, explain the internationalization of business and the steps involved in such strategic planning. (PYP 5 Marks Jan'25, MTP 5 Marks Jul'25)",
+          "question": "International development is expensive and challenging. In the context of the statement, explain the internationalization of business and the steps involved in such strategic planning. (PYP 5 Marks Jan'25, MTP 5 Marks Jul'25)",
           "answer": "Internationalization has become a pivotal trend for businesses aiming to enhance profitability and access cheaper resources. It allows companies to explore new markets, achieve economies of scale, and prolong product lifecycles. However, the process of internationalization is complex due to additional variables and linkages that differ from domestic operations.\n\nTo navigate this complexity, businesses should adopt a structured approach to international strategic planning. The steps involved include:\n\n\n1. Evaluate Global Opportunities and Threats: Businesses must assess potential global markets, identifying opportunities and threats while aligning them with their internal capabilities.\n\n2. Describe the Scope of Operations: Clearly defining the extent of the firm's international commercial activities is crucial for focused strategy development.\n\n3. Create Global Business Objectives: Establishing clear objectives helps guide the organization's international efforts and aligns with its overall mission.\n\n4. Develop Distinct Corporate Strategies: Formulating specific strategies tailored for global operations ensures that the organization can effectively compete in diverse markets.\n\nThese steps facilitate the identification of market opportunities and the formulation of effective global strategies, enabling businesses to thrive in the international arena despite the inherent challenges and costs associated with such expansion.",
           "chapter_number": "12",
           "chapter_name": "STRATEGIC ANALYSIS: EXTERNAL",
-          "unique_id": "12-T-3",
-          "or_group": "Q5c_v1_v2",
-          "question_id": "B-Q5-Q5c_v2"
+          "unique_id": "12-T-3"
         }
       ],
       "section": 2

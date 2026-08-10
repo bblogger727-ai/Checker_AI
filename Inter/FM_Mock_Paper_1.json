@@ -18,32 +18,34 @@
   },
   "section_a": [
     {
-      "type": "case_study",
+      "unique_id": "10-CS-17",
       "chapter_number": "10",
       "chapter_name": "CASE SCENARIOS - FINANCIAL MANAGEMENT",
-      "case_text": "## CS 1 (MTP 10 Marks Mar'24,MP[1]) (Chapter 9.4: Management of Receivables)\n\nNV Industries Ltd. is a manufacturing industry which manages its accounts receivables internally by its sales and credit department. It supplies small articles to different industries. The total sales ledger of the company stands at ₹ 200 lakhs of which $80 \\%$ is credit sales. The company has a credit policy of $2 / 40$, net 120. Past experience of the company has been that on average out of the total, $50 \\%$ of customers avail of discount and the balance of the receivables are collected on average in 120 days. The finance controller estimated, bad debt losses are around 1\\% of credit sales.\n\nWith escalating cost associated with the in-house management of the debtors coupled with the need to unburden the management with the task so as to focus on sales promotion, the CFO is examining the possibility of outsourcing its factoring service for managing its receivables. Currently, the firm spends about ₹ $\\mathbf{2 , 4 0 , 0 0 0}$ per annum to administer its credit sales. These are avoidable as a factoring firm is prepared to buy the firm's receivables. The main elements of the proposal are : (i) It will charge $2 \\%$ commission (ii) It will pay advance against receivables to the firm at an interest rate of $18 \\%$ after withholding $10 \\%$ as reserve.\n\nAlso, company has option to take long term loan at $\\mathbf{1 5} \\boldsymbol{\\%}$ interest or may take bank finance for working capital at 14\\% interest.\n\nYou were also present at the meeting; being a financial consultant, the CFO has asked you to be ready with the following questions:\n\nConsider year as 360 days.\n\n1. What is average level of receivables of the company?\n\n(a) ₹ $53,33,333$\n\n(b) ₹ $35,55,556$\n\n(c) ₹ $44,44,444$\n\n(d) ₹ $71,11,111$\n\n\nAns: (b)\n\nGauresh | 8237317945\n\n2. How much advance factor will pay against receivables?\n\n(a) ₹ $31,28,889$\n\n(b) ₹ $39,11,111$\n\n(c) ₹ $30,03,733$\n\n(d) ₹ $46,93,333$\n\n\nAns: (c)\n\n3. What is the annual cost of factoring to the company?\n\n(a) ₹ $8,83,200$\n\n(b) ₹ $4,26,667$\n\n(c) ₹ $5,51,823$\n\n(d) $₹ 4,00,000$\n\n\nAns: (a)\n\n4. What is the net cost to the company on taking factoring service?\n\n(a) ₹ $4,00,000$\n\n(b) $₹ 4,26,667$\n\n(c) ₹ $3,50,000$\n\n(d) ₹ $4,83,200$\n\n\nAns: (d)\n\n5. What is the effective cost of factoring on advance received?\n\n(a) $16.09 \\%$\n\n(b) $13.31 \\%$\n\n(c) $12.78 \\%$\n\n(d) $15.89 \\%$\n\n\nAns: (a)",
+      "category": "Case Study",
+      "cs_num": 17,
+      "case_text": "## CS 17 (RTP Sep'25) (Ch 7: Investment Decisions)\n\nMint Technologies, a startup in the IT infrastructure space, is planning to enter the computer networking market with a specialized offering-VPN connectivity solutions for enterprises with distributed office networks. The company recently won a significant tender from a major national bank to set up secure VPN connections across 100 branches. The leadership team is excited but cautious, as this move requires significant upfront investment and ongoing operational capability. To evaluate the financial viability of this project, you have been hired as a consultant.\n\n- They have forecasted their numbers for 5 years and they have assumed that they will grow at industry average ( $3 \\%$ ) afterwards.\n\n- Mint will invest all the money for CAPEX in the infrastructure and equipment. Mint is planning to issue 50 Mn shares in lieu of the amount.\n\n- Mint will have to keep upgrading the infrastructure and equipment to cover different offices of various clients.\n\n- Mint expects an initial investment of around $₹ 150 \\mathrm{Mn}$ in network access as an initial setup cost for connecting different offices. Mint needs to invest additional ₹10 Mn every year starting from beginning and is expected to grow $10 \\%$ every year.\n\n- The equipment investment varies with number of branches/offices. This varies with time and currently it is ₹ 0.1 Mn per office.\n\n- Initially, Mint has won a tender of 100 branches of a bank and expecting it to grow at $30 \\%$ for next 5 years.\n\n- Mint is expecting to have a maintenance cost of $10 \\%$ for equipment and $15 \\%$ for network.\n\n- To handle all this, current manpower cost is ₹ 1 Mn\n\n- Mint has entered into an agreement with local authority and has agreed to share $5 \\%$ of the revenue with the same.\n\n- Mint is expecting to generate revenue of ₹ 0.5 Mn per office and to remain competitive in the market, it is not going to increase with inflation.\n\n- Capital expenditure and operating expenses will grow $10 \\%$ every year.\n\n- Tax slab in the country is $30 \\%$ and depreciation of the equipment and network is assumed to be $10 \\%$. Discounting rate is $20 \\%$.\n\n- Assume all the expenditure including initial setup cost from year 1.\n\nBased on the above information, you are required to answer following 5 MCQs :\n\n1. What is the CFAT for year 1?\n\n(a) $-15,33,50,000$\n\n(b) $1,00,17,000$\n\n(c) $1,75,73,810$\n\n(d) $2,74,29,367$\n\n\nAns: (a)\n\n2. What is the CFAT for year 5?\n\n(a) $-15,33,50,000$\n\n(b) $1,00,17,000$\n\n(c) $4,02,25,268$\n\n(d) $2,74,29,367$\n\n\nAns: (c)\n\n3. Calculate the terminal value\n\n(a) ₹ $24,37,17,801$\n\n(b) ₹ $9,79,74,556$\n\n(c) ₹ $6,38,54,064$\n\n(d) ₹ $21,32,20,955$\n\n\nAns: (a)\n\n4. What is the total present value of the mint technologies?\n\n(a) ₹ $1,89,77,337$\n\n(b) ₹ $1,32,20,955$\n\n(c) ₹ $1,67,06,548$\n\n(d) ₹ $89,97,791$\n\n\nAns: (c)\n\n5. Calculate the IRR for the company\n\n(a) $22.60 \\%$\n\n(b) $15.39 \\%$\n\n(c) $20.25 \\%$\n\n(d) $24.68 \\%$\n\n\nAns: (d)",
       "questions": [
         {
           "q_num": 1,
-          "question": "What is average level of receivables of the company?",
+          "question": "What is the CFAT for year 1?",
           "options": {
-            "a": "₹ $53,33,333$",
-            "b": "₹ $35,55,556$",
-            "c": "₹ $44,44,444$",
-            "d": "₹ $71,11,111$"
+            "a": "$-15,33,50,000$",
+            "b": "$1,00,17,000$",
+            "c": "$1,75,73,810$",
+            "d": "$2,74,29,367$"
           },
-          "correct_option": "b",
-          "answer": "(b)",
+          "correct_option": "a",
+          "answer": "(a)",
           "verdict": null
         },
         {
           "q_num": 2,
-          "question": "How much advance factor will pay against receivables?",
+          "question": "What is the CFAT for year 5?",
           "options": {
-            "a": "₹ $31,28,889$",
-            "b": "₹ $39,11,111$",
-            "c": "₹ $30,03,733$",
-            "d": "₹ $46,93,333$"
+            "a": "$-15,33,50,000$",
+            "b": "$1,00,17,000$",
+            "c": "$4,02,25,268$",
+            "d": "$2,74,29,367$"
           },
           "correct_option": "c",
           "answer": "(c)",
@@ -51,12 +53,12 @@
         },
         {
           "q_num": 3,
-          "question": "What is the annual cost of factoring to the company?",
+          "question": "Calculate the terminal value",
           "options": {
-            "a": "₹ $8,83,200$",
-            "b": "₹ $4,26,667$",
-            "c": "₹ $5,51,823$",
-            "d": "₹ 4,00,000$"
+            "a": "₹ $24,37,17,801$",
+            "b": "₹ $9,79,74,556$",
+            "c": "₹ $6,38,54,064$",
+            "d": "₹ $21,32,20,955$"
           },
           "correct_option": "a",
           "answer": "(a)",
@@ -64,87 +66,123 @@
         },
         {
           "q_num": 4,
-          "question": "What is the net cost to the company on taking factoring service?",
+          "question": "What is the total present value of the mint technologies?",
           "options": {
-            "a": "₹ $4,00,000$",
-            "b": "₹ 4,26,667$",
-            "c": "₹ $3,50,000$",
-            "d": "₹ $4,83,200$"
-          },
-          "correct_option": "d",
-          "answer": "(d)",
-          "verdict": null
-        },
-        {
-          "q_num": 5,
-          "question": "What is the effective cost of factoring on advance received?",
-          "options": {
-            "a": "$16.09 \\%$",
-            "b": "$13.31 \\%$",
-            "c": "$12.78 \\%$",
-            "d": "$15.89 \\%$"
-          },
-          "correct_option": "a",
-          "answer": "(a)",
-          "verdict": null
-        }
-      ],
-      "mcq_count": 5,
-      "unique_id": "10-CS-1"
-    },
-    {
-      "type": "case_study",
-      "chapter_number": "10",
-      "chapter_name": "CASE SCENARIOS - FINANCIAL MANAGEMENT",
-      "case_text": "## CS 2 (MTP 10 Marks Apr'24,MP[2]) (Chapter 4: Cost of Capital)\n\nTiago Ltd is an all-equity company engaged in manufacturing of batteries for electric vehicles. There has been a surge in demand for their products due to rising oil prices. The company was established 5 years ago with an initial capital of ₹ $10,00,000$ and since then it has raised funds by IPO taking the total paid up capital to ₹ 1 crore comprising of fully paid-up equity shares of face value ₹ 10 each. The company currently has undistributed reserves of $₹ 60,00,000$. The company has been following constant dividend payout policy of $40 \\%$ of earnings. The retained earnings by company are going to provide a return on equity of $20 \\%$. The current EPS is estimated as Rs 20 and prevailing PE ratio on the share of company is 15x. The company wants\n\nto expand its capital base by raising additional funds by way of debt, preference and equity mix. The company requires an additional fund of $₹ 1,20,00,000$. The target ratio of owned to borrowed funds is $4: 1$ post the fund-raising activity. Capital gearing is to be kept at $\\mathbf{0 . 4 x}$.\n\nThe existing debt markets are under pressure due to ongoing RBI action on NPAs of the commercial bank. Due to challenges in raising the debt funds, the company will have to offer ₹ 100 face value debentures at an attractive yield of $9.5 \\%$ and a coupon rate of $8 \\%$ to the investors. Issue expenses will amount to $4 \\%$ of the proceeds.\n\nThe preference shares will have a face value of ₹ 1000 each offering a dividend rate of $10 \\%$. The preference shares will be issued at a premium of $5 \\%$ and redeemed at a premium of $10 \\%$ after 10 years at the same time at which debentures will be redeemed.\n\nThe CFO of the company is evaluating a new battery technology to invest the above raised money. The technology is expected to have a life of 7 years. It will generate a after tax marginal operating cash flow of ₹ $\\mathbf{2 5 , 0 0 , 0 0 0 ~ p . a}$. Assume marginal tax rate to be $\\mathbf{2 7 \\%}$.( MCQ 1-5)\n\n\n1. Which of the following is best estimate of cost of equity for Tiago Ltd?\n\n(a) $12.99 \\%$\n\n(b) $11.99 \\%$\n\n(c) $13.99 \\%$\n\n(d) $14.99 \\%$\n\n\nAns: (d)\n\n2. Which of the following is the most accurate measure of issue price of debentures?\n\n(a) 100\n\n(b) 96\n\n(c) 90.58\n\n(d) 95.88\n\n\nAns: (c)\n\n3. Which of the following is the best estimate of cost of debentures to be issued by the company? (Using approximation method)\n\n(a) $7.64 \\%$\n\n(b) $6.74 \\%$\n\n(c) $4.64 \\%$\n\n(d) $5.78 \\%$\n\n\nAns: (a)\n\n4. Calculate the cost of preference shares using approximation ${ }^{5}$ method\n\n(a) $10.23 \\%$\n\n(b) $11.22 \\%$\n\n(c) $12.12 \\%$\n\n(d) $12.22 \\%$\n\n\nAns: (b)\n\n5. Which of the following best represents the overall cost of marginal capital to be raised?\n\n(a) $11.76 \\%$\n\n(b) $17.16 \\%$\n\n(c) $16.17 \\%$\n\n(d) $16.71 \\%$\n\n\nAns: (a)",
-      "questions": [
-        {
-          "q_num": 1,
-          "question": "Which of the following is best estimate of cost of equity for Tiago Ltd?",
-          "options": {
-            "a": "$12.99 \\%$",
-            "b": "$11.99 \\%$",
-            "c": "$13.99 \\%$",
-            "d": "$14.99 \\%$"
-          },
-          "correct_option": "d",
-          "answer": "(d)",
-          "verdict": null
-        },
-        {
-          "q_num": 2,
-          "question": "Which of the following is the most accurate measure of issue price of debentures?",
-          "options": {
-            "a": "100",
-            "b": "96",
-            "c": "90.58",
-            "d": "95.88"
+            "a": "₹ $1,89,77,337$",
+            "b": "₹ $1,32,20,955$",
+            "c": "₹ $1,67,06,548$",
+            "d": "₹ $89,97,791$"
           },
           "correct_option": "c",
           "answer": "(c)",
           "verdict": null
         },
         {
-          "q_num": 3,
-          "question": "Which of the following is the best estimate of cost of debentures to be issued by the company? (Using approximation method)",
+          "q_num": 5,
+          "question": "Calculate the IRR for the company",
           "options": {
-            "a": "$7.64 \\%$",
-            "b": "$6.74 \\%$",
-            "c": "$4.64 \\%$",
-            "d": "$5.78 \\%$"
+            "a": "$22.60 \\%$",
+            "b": "$15.39 \\%$",
+            "c": "$20.25 \\%$",
+            "d": "$24.68 \\%$"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null
+        }
+      ]
+    },
+    {
+      "unique_id": "10-CS-13",
+      "chapter_number": "10",
+      "chapter_name": "CASE SCENARIOS - FINANCIAL MANAGEMENT",
+      "category": "Case Study",
+      "cs_num": 13,
+      "case_text": "VP Ltd. provides the following financial information:\n\n\n| Current Ratio |  | 1.5:1 |\n| :--- | :--- | :--- |\n| Sales (80\\% Credit Sales) | Gauresh \\| 8237317945 | ₹ 150 Lakh |\n| Inventory Turnover Ratio |  | 6 Times |\n| Average Collection Period |  | 2 months |\n| Gross Profit Ratio |  | 20\\% |\n| Quick Ratio |  | 1:1 |\n\n\nFrom the information given above, choose the correct answer to the following Q. No. 1 and 2:\n\n\n1. Inventory and Receivables would be:\n\n(a) ₹ 20 Lakh and ₹ 20 Lakh\n\n(b) ₹ 10 Lakh and ₹ 10 Lakh\n\n(c) ₹ 10 Lakh and ₹ 20 Lakh\n\n(d) ₹ 20 Lakh and ₹ 10 Lakh\n\n\nAns: (a)\n\n2. Current Assets and Current Liabilities would be:\n\n(a) 30 Lakh and 20 Lakh\n\n(b) 45 Lakh and 30 Lakh\n\n(c) 60 Lakh and 40 Lakh\n\n(d) 75 Lakh and 50 Lakh\n\n\nAns: (c)",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Inventory and Receivables would be:\n\n(a) ₹ 20 Lakh and ₹ 20 Lakh\n\n(b) ₹ 10 Lakh and ₹ 10 Lakh\n\n(c) ₹ 10 Lakh and ₹ 20 Lakh\n\n(d) ₹ 20 Lakh and ₹ 10 Lakh",
+          "options": {
+            "a": "₹ 20 Lakh and ₹ 20 Lakh",
+            "b": "₹ 10 Lakh and ₹ 10 Lakh",
+            "c": "₹ 10 Lakh and ₹ 20 Lakh",
+            "d": "₹ 20 Lakh and ₹ 10 Lakh"
           },
           "correct_option": "a",
           "answer": "(a)",
           "verdict": null
         },
         {
-          "q_num": 4,
-          "question": "Calculate the cost of preference shares using approximation ${ }^{5}$ method",
+          "q_num": 2,
+          "question": "Current Assets and Current Liabilities would be:\n\n(a) 30 Lakh and 20 Lakh\n\n(b) 45 Lakh and 30 Lakh\n\n(c) 60 Lakh and 40 Lakh\n\n(d) 75 Lakh and 50 Lakh",
           "options": {
-            "a": "$10.23 \\%$",
-            "b": "$11.22 \\%$",
-            "c": "$12.12 \\%$",
-            "d": "$12.22 \\%$"
+            "a": "30 Lakh and 20 Lakh",
+            "b": "45 Lakh and 30 Lakh",
+            "c": "60 Lakh and 40 Lakh",
+            "d": "75 Lakh and 50 Lakh"
+          },
+          "correct_option": "c",
+          "answer": "(c)",
+          "verdict": null
+        }
+      ]
+    },
+    {
+      "unique_id": "16-CS-14",
+      "chapter_number": "16",
+      "chapter_name": "CASE SCENARIOS- STRATEGIC MANAGEMENT",
+      "category": "Case Study",
+      "cs_num": 14,
+      "case_text": "## CS 14 (RTP Sep'24,MP[8])\n\nOnce upon a time in the land of sun, sand, and vibrant cultures, there existed a company named \"MuseoGoa\" - a company that managed museums in the beautiful state of Goa. MuseoGoa had a vision to celebrate the rich history and culture of Goa, but their journey was not without its fair share of challenges. MuseoGoa had chosen a picturesque location in a quaint village to build their first museum. However, this initial enthusiasm was met with an uproar from the local communities. The villagers were concerned about the impact on their way of life and traditions. They worried that the influx of tourists might disrupt their peaceful existence.\n\nTo address this challenge, MuseoGoa applied Mendelow's matrix, identifying the local communities as key stakeholders. They decided to engage in open dialogues, understanding and respecting the villagers' concerns. MuseoGoa initiated community-building activities, such as involving locals in museum operations, supporting local artisans, and organizing cultural events that showcased the village's heritage. Slowly but steadily, the company transformed from being perceived as a threat to a valued partner within the community.\n\nWhile MuseoGoa had successfully resolved their initial issues with the local community, they faced another challenge. Their location, although idyllic, was a bit off the beaten path. Tourists typically preferred the bustling beaches closer to the city, and this posed a real challenge. MuseoGoa decided to employ a pricing strategy. They priced their tickets affordably, significantly cheaper than the city's attractions. This strategy attracted budget-conscious tourists who were looking for unique experiences in Goa without burning a hole in their pockets. As\n\nword spread about the cultural gem tucked away in the village, visitors started flocking in, drawn not just by the museum's charm but also the economical ticket prices.\n\nIn the age of social media, MuseoGoa knew that word-of-mouth was no longer limited to whispers. They tapped into the power of social media to promote their unique museum experience. MuseoGoa ran\n\ninteractive campaigns, encouraging visitors to share their experiences on various platforms. One particular Instagram post featuring a vibrant Goan mural in the museum went viral. This was the turning point. The picture-perfect aesthetics of the museum attracted influencers, bloggers, and travel enthusiasts, making MuseoGoa a social media sensation. Visitors came pouring in, not just from India but from across the globe, eager to capture their own moments at the \"Instagrammable Museum of Goa.\"\n\nWith success came ambition. MuseoGoa decided to expand its footprint beyond Goa. To guide this expansion, they conducted a strategy audit and trend analysis. They identified emerging cultural and tourism trends and found potential markets in Pune and Trivandrum.\n\nIn Pune, MuseoGoa curated a special exhibition that celebrated the fusion of Goan and Maharashtrian cultures. They strategically partnered with local influencers and travel agencies to market the new experience. The expansion into Pune was met with resounding success.\n\nFor Trivandrum, MuseoGoa recognized the importance of local traditions and the distinct flavor of Kerala. They tailored their offerings to harmonize with the regional culture. MuseoGoa became the gateway for tourists to explore Kerala's rich heritage, with the museum acting as a bridge between Goa and Kerala's cultural tapestry.\n\nMuseoGoa's journey from initial uproar to expansion was a testament to their commitment to community building, strategic pricing, social media savvy, and a keen eye for trends. The company continued to flourish, celebrating the diverse cultural tapestry of India and making history come alive in every location they touched.",
+      "questions": [
+        {
+          "q_num": 1,
+          "question": "Which strategic management concept did MuseoGoa use to address the initial concerns of the local community? (Chapter 12: Strategic Analysis: External Environment )",
+          "options": {
+            "a": "SWOT analysis",
+            "b": "Mendelow's matrix",
+            "c": "Cost leadership strategy",
+            "d": "Porter's Five Forces model"
+          },
+          "correct_option": "b",
+          "answer": "(b)",
+          "verdict": null
+        },
+        {
+          "q_num": 2,
+          "question": "MuseoGoa's idyllic location in a quaint village posed a challenge as tourists preferred beaches closer to the city. To attract visitors, MuseoGoa priced their tickets affordably, cheaper than city attractions, drawing budget-conscious tourists looking for unique experiences. What business strategy did MuseoGoa employ to attract more tourists? (Chapter 13: Strategic Analysis: Internal Environment)",
+          "options": {
+            "a": "Cost leadership strategy",
+            "b": "Differentiation strategy",
+            "c": "Focus strategy",
+            "d": "Diversification strategy"
+          },
+          "correct_option": "a",
+          "answer": "(a)",
+          "verdict": null
+        },
+        {
+          "q_num": 3,
+          "question": "How did MuseoGoa approach its expansion into new markets such as Pune and Trivandrum? (Chapter 14: Strategic Choices)",
+          "options": {
+            "a": "Outsourcing strategy",
+            "b": "Franchising strategy",
+            "c": "Product diversification strategy",
+            "d": "Market development strategy"
+          },
+          "correct_option": "d",
+          "answer": "(d)",
+          "verdict": null
+        },
+        {
+          "q_num": 4,
+          "question": "Which element of the 7S McKinsey model is demonstrated by MuseoGoa's strategic use of social media and pricing strategies to attract visitors? (Chapter 15- Strategy Implementation and Evaluation)",
+          "options": {
+            "a": "Style",
+            "b": "Strategy",
+            "c": "Shared Values",
+            "d": "Skills"
           },
           "correct_option": "b",
           "answer": "(b)",
@@ -152,95 +190,67 @@
         },
         {
           "q_num": 5,
-          "question": "Which of the following best represents the overall cost of marginal capital to be raised?",
+          "question": "What played a crucial role in MuseoGoa's success in Pune and Trivandrum? (Chapter 14: Strategic Choices)",
           "options": {
-            "a": "$11.76 \\%$",
-            "b": "$17.16 \\%$",
-            "c": "$16.17 \\%$",
-            "d": "$16.71 \\%$"
+            "a": "Strategic partnerships",
+            "b": "Aggressive advertising",
+            "c": "Product differentiation",
+            "d": "Vertical integration"
           },
           "correct_option": "a",
           "answer": "(a)",
           "verdict": null
         }
-      ],
-      "mcq_count": 5,
-      "unique_id": "10-CS-2"
+      ]
     },
     {
-      "type": "case_study",
-      "chapter_number": "10",
-      "chapter_name": "CASE SCENARIOS - FINANCIAL MANAGEMENT",
-      "case_text": "## CS 5 (RTP May'24) (Chapter: 1 Introduction to Working Capital Management)\n\nArMore LLP is a newly established startup dealing in manufacture of a revolutionary product HDHMR which is a substitute to conventional wood and plywood. It is an economical substitute for manufacture of furniture and home furnishing. It has been asked by a venture capitalist for an estimated amount of funds required for setting up plant and also the amount of circulating capital required. A consultant hired by the entity has advised that the cost of setting up the plant would be ₹ 5 Crores and it will require 1 year to make the plant operational. The anticipated revenue and associated cost numbers are as follows:\n\nUnits to be sold = 3 lakh sq metres p.a. , Sale Price of each sq mtr = ₹ 1000\n\nRaw Material cost = ₹ 200 per sq mtr , Labour cost = ₹ 50 per hour\n\nLabour hours per sq mtr = 3 hours, Cash Manufacturing Overheads = ₹ 75 per machine hour\n\nMachine hours per sq mtr = 2 hours, Selling and credit administration Overheads = ₹ 250 per sq mtr\n\nBeing a new product in the industry, the firm will have to give a longer credit period of 3 months to its customers. It will maintain a stock of raw material equal to $15 \\%$ of annual consumption. Based on negotiation with the creditors, the payment period has been agreed to be 1 month from the date of purchase. The entity will hold finished goods equal to 2 months of units to be sold. All other expenses are to be paid one month in arrears. Cash and Bank balance to the tune of ₹ $25,00,000$ is required to be maintained.\n\nThe entity is also considering reducing the working capital requirement by either of the two options: a) reducing the credit period to customers by a month which will lead to reduction in sales by $\\mathbf{5} \\boldsymbol{\\%}$. b) Engaging with a factor for managing the receivables, who will charge a commission of $2 \\%$ of invoice value and will also advance $65 \\%$ of receivables @ $12 \\%$ p.a. This will lead to savings in administration and bad debts cost to the extent of ₹ 20 lakhs and 16 lakhs respectively.\n\nThe entity is also considering funding a part of working capital by bank loan. For this purpose, bank has stipulated that it will grant $\\mathbf{7 5} \\boldsymbol{\\%}$ of net current assets as advance against working capital. The bank has quoted $16.5 \\%$ rate of interest with a condition of opening a current account with it, which will require $10 \\%$ of loan amount to be minimum average balance.\n\nYou being a finance manager, has been asked the following questions:\n\n\n1. The anticipated profit before tax per annum after the plant is operational is\n\n(a) 750 Lakhs\n\n(b) 570 Lakhs\n\n(c) 370 Lakhs\n\n(d) 525 Lakhs\n\n\nAns: (a)\n\n2. The estimated current assets requirement in the first year of operation (debtors calculated at cost) is $\\_\\_\\_\\_$\n\n(a) $9,42,50,000$\n\n(b) $2,17,08,333$\n\n(c) $7,25,41,667$\n\n(d) $67,08,333$\n\n\nAns: (a)\n\n3. The net working capital requirement for the first year of operation is $\\_\\_\\_\\_$\n\n(a) $9,42,50,000$\n\n(b) $2,17,08,333$\n\n(c) $7,25,41,667$\n\n(d) $67,08,333$\n\n\nAns: (c)\n\n4. The annualised \\% cost of two options for reducing the working capital is $\\_\\_\\_\\_$\n\n(a) $18.18 \\%$ and $16.92 \\%$\n\n(b) $18.33 \\%$ and $16.92 \\%$\n\n(c) $18.59 \\%$ and $18.33 \\%$\n\n(d) $16.92 \\%$ and $19.05 \\%$\n\n\nAns: (a)\n\n5. What will be the Maximum Permissible Bank Finance by the bank and annualised \\% cost of the same?\n\n(a) $4,55,03,630$ and $18.33 \\%$\n\n(b) $5,44,06,250$ and $18.33 \\%$\n\n(c) $4,45,86,025$ and $18.59 \\%$\n\n(d) $3,45,89,020$ and $19.85 \\%$\n\n\nAns: (b)",
+      "unique_id": "16-CS-5",
+      "chapter_number": "16",
+      "chapter_name": "CASE SCENARIOS- STRATEGIC MANAGEMENT",
+      "category": "Case Study",
+      "cs_num": 5,
+      "case_text": "## CS 5 (MTP 3 Marks April '23)\n\nHi-tech Corporation has been a pioneer in developing innovative products and core technologies that have played a vital role in shaping the future of electronics. The company's expertise in liquid crystal displays (LCDs) and digital technologies has helped it offer one of the most comprehensive and advanced lines of consumer electronics, information products, and electronic components while also creating new network businesses. However, it hasn't always been a leader in the industry.\n\nHi-tech Corporation has travelled a long way from an assembler of televisions to a leading TV manufacturer. In the early days, Hi-tech was making low-quality, low-priced televisions and was overshadowed by big players like LG, Sony and Samsung. It was a technology follower in the beginning and was using secondary technology, which resulted in a low brand image. The company went through a major transformation under the leadership of Mr. Joyce, who focused on R\\&D and innovation to enhance its market coverage and reputation.\n\nHi-tech's innovation in LCD technology and developing products featuring LCDs made it the world's largest manufacturer of LCD TVs. The company's success has been attributed to its focus on innovation, which is a critical factor in sustaining its position as a leader in the industry. However, the global economic downturn has affected Hi-tech, and the industry has realized that only innovation in terms of quality, cost, and competitive strength can help companies survive. Additionally, every new technology becomes obsolete\n\nfaster, which means companies have to continuously innovate to stay ahead of the competition. Hi-tech is facing challenges from the ever-changing competitive scenario, with global competitors striving to dethrone it and the entry of low-cost manufacturers from Asia. The emergence of newer display technologies with superior quality at a lower price has posed one of the biggest challenges for Hi-tech. While Hi-tech has taken the first-mover advantage, it is facing competition from late entrants. Based on the above Case Scenario, answer the Multiple-Choice Questions which are as follows:\n\n\n1. Can Hi-tech's initial position in the industry be called as cost leadership strategy? (Chapter 13- Strategic Analysis: Internal Environment)\n\n(a) Initial Position: A manufacturer of low-quality, low-priced televisions. No, not a cost leader, as cost leader does not necessarily mean low quality with low prices.\n\n(b) Initial Position: A manufacturer of low-quality, low-priced televisions. Yes, a cost leader, as they offered low prices.\n\n(c) Initial Position: Technology follower. Yes, a cost leader, as technology followers are always cost leaders.\n\n(d) Initial Position: Technology leader. Yes, a cost leader as technology leaders is always cost leaders due to advanced cost cutting techniques.\n\nAns: (a)\n\n2. From the case above, which of the following has been the most crucial learning for the company from a long-term product life cycle perspective? (Chapter 12- Strategic Analysis: External Environment)\n\n(a) Innovation is the key to success.\n\n(b) Change in management leads to required growth.\n\n(c) Continuous innovation is essential to stay ahead of the competition.\n\n(d) Industry analysis should be the first as well as the last step in strategic management.\n\n\nAns: (c)\n\n3. What was the Key Success Factor in Hi-tech's success? (Chapter 12- Strategic Analysis: External Environment)\n\n(a) Market coverage\n\nGauresh | (b) Reputation\n\n(c) Innovation\n\n(d) Cost\n\n\nAns: (c)",
       "questions": [
         {
           "q_num": 1,
-          "question": "The anticipated profit before tax per annum after the plant is operational is",
+          "question": "Can Hi-tech's initial position in the industry be called as cost leadership strategy? (Chapter 13- Strategic Analysis: Internal Environment)\n\n(a) Initial Position: A manufacturer of low-quality, low-priced televisions. No, not a cost leader, as cost leader does not necessarily mean low quality with low prices.\n\n(b) Initial Position: A manufacturer of low-quality, low-priced televisions. Yes, a cost leader, as they offered low prices.\n\n(c) Initial Position: Technology follower. Yes, a cost leader, as technology followers are always cost leaders.\n\n(d) Initial Position: Technology leader. Yes, a cost leader as technology leaders is always cost leaders due to advanced cost cutting techniques.",
           "options": {
-            "a": "750 Lakhs",
-            "b": "570 Lakhs",
-            "c": "370 Lakhs",
-            "d": "525 Lakhs"
+            "a": "Initial Position: A manufacturer of low-quality, low-priced televisions. No, not a cost leader, as cost leader does not necessarily mean low quality with low prices.",
+            "b": "Initial Position: A manufacturer of low-quality, low-priced televisions. Yes, a cost leader, as they offered low prices.",
+            "c": "Initial Position: Technology follower. Yes, a cost leader, as technology followers are always cost leaders.",
+            "d": "Initial Position: Technology leader. Yes, a cost leader as technology leaders is always cost leaders due to advanced cost cutting techniques."
           },
           "correct_option": "a",
-          "answer": "a",
+          "answer": "(a)",
           "verdict": null
         },
         {
           "q_num": 2,
-          "question": "The estimated current assets requirement in the first year of operation (debtors calculated at cost) is $\\_\\_\\_\\_$",
+          "question": "From the case above, which of the following has been the most crucial learning for the company from a long-term product life cycle perspective? (Chapter 12- Strategic Analysis: External Environment)\n\n(a) Innovation is the key to success.\n\n(b) Change in management leads to required growth.\n\n(c) Continuous innovation is essential to stay ahead of the competition.\n\n(d) Industry analysis should be the first as well as the last step in strategic management.",
           "options": {
-            "a": "$9,42,50,000$",
-            "b": "$2,17,08,333$",
-            "c": "$7,25,41,667$",
-            "d": "$67,08,333$"
+            "a": "Innovation is the key to success.",
+            "b": "Change in management leads to required growth.",
+            "c": "Continuous innovation is essential to stay ahead of the competition.",
+            "d": "Industry analysis should be the first as well as the last step in strategic management."
           },
-          "correct_option": "a",
-          "answer": "a",
+          "correct_option": "c",
+          "answer": "(c)",
           "verdict": null
         },
         {
           "q_num": 3,
-          "question": "The net working capital requirement for the first year of operation is $\\_\\_\\_\\_$",
+          "question": "What was the Key Success Factor in Hi-tech's success? (Chapter 12- Strategic Analysis: External Environment)\n\n(a) Market coverage\n\nGauresh | (b) Reputation\n\n(c) Innovation\n\n(d) Cost",
           "options": {
-            "a": "$9,42,50,000$",
-            "b": "$2,17,08,333$",
-            "c": "$7,25,41,667$",
-            "d": "$67,08,333$"
+            "a": "Market coverage",
+            "b": "Reputation",
+            "c": "Innovation",
+            "d": "Cost"
           },
           "correct_option": "c",
-          "answer": "c",
-          "verdict": null
-        },
-        {
-          "q_num": 4,
-          "question": "The annualised \\% cost of two options for reducing the working capital is $\\_\\_\\_\\_$",
-          "options": {
-            "a": "$18.18 \\%$ and $16.92 \\%$",
-            "b": "$18.33 \\%$ and $16.92 \\%$",
-            "c": "$18.59 \\%$ and $18.33 \\%$",
-            "d": "$16.92 \\%$ and $19.05 \\%$"
-          },
-          "correct_option": "a",
-          "answer": "a",
-          "verdict": null
-        },
-        {
-          "q_num": 5,
-          "question": "What will be the Maximum Permissible Bank Finance by the bank and annualised \\% cost of the same?",
-          "options": {
-            "a": "$4,55,03,630$ and $18.33 \\%$",
-            "b": "$5,44,06,250$ and $18.33 \\%$",
-            "c": "$4,45,86,025$ and $18.59 \\%$",
-            "d": "$3,45,89,020$ and $19.85 \\%$"
-          },
-          "correct_option": "b",
-          "answer": "b",
+          "answer": "(c)",
           "verdict": null
         }
-      ],
-      "mcq_count": 5,
-      "unique_id": "10-CS-5"
+      ]
     }
   ],
   "section_b": [
@@ -264,17 +274,17 @@
           "label": "b",
           "marks": 5,
           "internal_split": null,
-          "question": "From the books of AIL Limited following information is taken for the year 2024-25:\n\n| Description                                   | Amount         |\n|-----------------------------------------------|----------------|\n| Gross profit margin (25% of Sales)           | ₹ 30,00,000    |\n| Inventory holding period                      | 28 Days        |\n| Opening Inventory                             | ₹ 8,00,000     |\n| Current Ratio                                 | 1.20           |\n| Quick Ratio                                   | 0.80           |\n| Selling & Distribution Expenses               | ₹ 12,00,000    |\n| Depreciation and other Non-cash Expenses     | ₹ 4,80,000     |\n\nAssume 360 days in a year.\n\nYou are required to calculate:\n\n(i)  Inventory as on 31.03.2025\n\n(ii) Working Capital\n\n(iii) Basic Defense Interval\n\n(5 Marks)",
-          "answer": "(a) (i) Sales = $\\frac{30,00,000}{0.25}$ = ₹ 1,20,00,000\n\nGross Profit = ₹ 30,00,000\n\nCost of goods sold (COGS) = Sales - Gross Profit = ₹ 90,00,000\n\nAverage Inventory = $\\frac{\\text{Cost of goods sold (COGS)}}{\\text{Inventory Turnover}}$\n\n= $\\frac{₹ 90,00,000 \\times 28}{360}$ = ₹ 7,00,000\n\nOpening Inventory + Closing Inventory = ₹ 7,00,000 × 2\n\n8,00,000 + Closing Inventory = ₹ 14,00,000\n\nClosing Inventory = ₹ 6,00,000\n\n(ii) Current Ratio = $\\frac{\\text{Current Assets (CA)}}{\\text{Current Liabilities (CL)}}$\n\n$\\frac{CA}{CL} = \\frac{1.2}{1}$\n\n∴ CA = 1.2 CL ...(1)\n\nQuick Ratio = $\\frac{\\text{Current Assets - 6,00,000}}{\\text{Current Liabilities}}$\n\n0.8 CL = CA - 6,00,000\n\nCA = 0.8 CL + 6,00,000 ...(2)\n\nEquating (1) and (2): 1.2 CL = 0.8 CL + 6,00,000\n\nCL = ₹ 15,00,000, CA = 1.2 × 15,00,000 = ₹ 18,00,000\n\nWorking Capital = CA - CL = ₹ 18,00,000 - ₹ 15,00,000 = ₹ 3,00,000\n\n(iii) Cash Operating Expenses = COGS + Selling and Dist. Exp – Depreciation\n\n= ₹ 90,00,000 + ₹ 12,00,000 - ₹ 4,80,000 = ₹ 97,20,000\n\nQuick Assets = ₹ 18,00,000 - ₹ 6,00,000 = ₹ 12,00,000\n\nBasic Defense Interval Ratio = $\\frac{₹ 12,00,000}{₹ 97,20,000 \\div 360} = \\frac{₹ 12,00,000}{₹ 27,000} = 44.44$ days",
+          "question": "Determining the amount to be invested in current assets as working capital is a crucial policy decision for any entity. What FACTORS should a company consider when deciding the level of investment in working capital? (MTP 3 Marks, Aug'24,MP[5])",
+          "answer": "Level of investment depends on the various factors listed below:\n\n(a) Nature of Industry: Construction companies, breweries etc. requires large investment in working capital due long gestation period.\n\n(b) Types of products: Consumer durable has large inventory as compared to perishable products.\n\n(c) Manufacturing Vs Trading Vs Service: A manufacturing entity has to maintain three levels of inventory i.e. raw material, work-in- process and finished goods whereas a trading and a service entity has to maintain inventory only in the form of trading stock and consumables respectively.\n\n(d) Volume of sales: Where the sales are high, there is a possibility of high receivables as well.\n\n(e) Credit policy: An entity whose credit policy is liberal has not only high level of receivables but may require more capital to fund raw material purchases as that will depend on credit period allowed by suppliers.",
           "chapter_number": "9.1",
           "chapter_name": "INTRODUCTION TO WORKING CAPITAL MANAGEMENT",
-          "unique_id": "FM-REPLACED-Doc1"
+          "unique_id": "9.1-T-1"
         },
         {
           "label": "c",
           "marks": 5,
           "internal_split": null,
-          "question": "For the year ending 31.03.2025, ABC Industries Ltd declared $40 \\%$ dividend. The current market price of the share is quoted at Rs. 57.50 . If the retention ratio is reduced by 20 percent, the market price dropped by Rs. 2.50 . Face value of the shares is $Rs. 10$ per share.\n\n1. Find the return on investment and cost of equity using walter's model.\n\n2. Comment on the dividend policy adopted by the company.\n\n3. Find the limiting value of shares using walter's model.\n\n4. Also find the intrinsic value of the shares under Gordon's Model.\n\n5. Mr. X, the chief financial officer of the company, opines that the return on investment of the company is not having direct / indirect effect on the intrinsic value of the shares under Gordon's Model. Only cost of equity will be considered for the computation of the intrinsic value of the shares under Gordon's Model.\n\n## Answer 34\n\n1. Price under Walter's Model $(\\mathbf{P})=\\frac{D+\\frac{r}{K_{e}}(E-D)}{K_{e}}$\n\n|  | Situation 1 | Situation 2 |\n| :--- | ---: | ---: |\n| 1. DP Ratio | $40 \\%$ | $60 \\%$ |\n| 2. Retention Ratio | $60 \\%$ | $60 \\%-20 \\%=40 \\%$ |\n| 3. Dividend per share $=\\mathrm{D}$ | $Rs. 4$ | $Rs. 6$ |\n\n| 4. Retention per share = (E-D) | Rs. 6 | Rs. 4 |\n| :--- | :--- | :--- |\n| 5. Market price per share = MPS | Rs. 57.50 | Rs. 57.50 - Rs. 2.50 = Rs. 55 |\n| 6. Equation = Let r/ke be y \\& Ke be x. | $4+6 y=57.50 x$ | $6+4 y=55 x$ |\n| 7. Equation for solving | $57.50 x-6 y=4$ | $55 x-4 y=6$ |\n\nEquation $1 * 4=230 x-24 y=16$\n\nEquation $2 * 6=330 \\mathrm{x}-24 \\mathrm{y}=36$ $\\_\\_\\_\\_$\n\nBy solving, we get $\\mathrm{x}=20 \\%$ and $\\mathrm{y}=1.25$.\n\n$\\mathrm{y}=\\frac{r}{K_{e}}=1.25 \\quad \\frac{r}{20 \\%}=1.25 \\quad$ Hence, $\\mathrm{r}=25 \\%$\n\n2. Since $\\mathrm{r} 25 \\%>\\mathrm{ke} 20 \\%$, the company should retain $100 \\%$. Since the company pays $40 \\%$ Dividend, the company is not following optimum dividend policy.\n\n3.\n\n|  | Situation 1 | Situation 2 |\n| :--- | :--- | :--- |\n| 1. DP Ratio | 0\\% | 100\\% |\n| 2. Retention Ratio | 100\\% | 0\\% |\n| 3. Dividend per share = D | Rs. 0 | Rs. 10 |\n| 4. Retention per share = (E-D) | Rs. 10 | Rs. 0 |\n| 5. Market price per share = MPS | $\\frac{10 \\times 1.25}{0.2}=62.50$ | $\\frac{10}{0.2}=50$ |\n\n4. Price under Gordon's Model\n\nMarket price per share $\\left(P_{0}\\right)=\\left[\\frac{D_{0}(1+g)}{K_{e}-g}\\right]$\n\n|  |  | Situation 1 | Situation 2 |\n| :--- | :--- | :--- | :--- |\n| 1. Dividend paid |  | Rs. 4 | Rs. 6 |\n| 2. Retention Ratio (b) |  | 60\\% | 40\\% |\n| 3. Return on investment (r) |  | 25\\% | 25\\% |\n| 4. Growth = g = br |  | 15\\% | 10\\% |\n| 5. Market price per share = MPS | Gauresh \\| | $\\frac{4(1+0,15)}{0.2-0.15}=Rs. 92$ | $\\frac{6(1+0.10)}{0.2-0.1}=Rs. 66$ |\n\n5. Since, return on investment is used for computing growth rate, both cost of equity and return on investment are considered for computing price under Gordons model. Hence, the opinion of the chief financial officer is not valid.",
+          "question": "For the year ending 31.03.2025, ABC Industries Ltd declared $40 \\%$ dividend. The current market price of the share is quoted at Rs. 57.5. If the retention ratio is reduced by 20 percent, the market price dropped by Rs. 2.5. Face value of the shares is $Rs. 10$ per share, and earnings per share (E) is Rs. 10.\n\n1. Find the return on investment and cost of equity using Walter's model.\n\n2. Comment on the dividend policy adopted by the company.\n\n3. Find the limiting value of shares using Walter's model.\n\n4. Also find the intrinsic value of the shares under Gordon's Model.\n\n5. Mr. X, the chief financial officer of the company, opines that the return on investment of the company is not having direct / indirect effect on the intrinsic value of the shares under Gordon's Model. Only cost of equity will be considered for the computation of the intrinsic value of the shares under Gordon's Model.",
           "answer": "1. Price under Walter's Model $(\\mathbf{P})=\\frac{D+\\frac{r}{K_{e}}(E-D)}{K_{e}}$\n\n|  | Situation 1 | Situation 2 |\n| :--- | ---: | ---: |\n| 1. DP Ratio | $40 \\%$ | $60 \\%$ |\n| 2. Retention Ratio | $60 \\%$ | $60 \\%-20 \\%=40 \\%$ |\n| 3. Dividend per share $=\\mathrm{D}$ | $Rs. 4$ | $Rs. 6$ |\n\n| 4. Retention per share = (E-D) | Rs. 6 | Rs. 4 |\n| :--- | :--- | :--- |\n| 5. Market price per share = MPS | Rs. 57.50 | Rs. 57.50 - Rs. 2.50 = Rs. 55 |\n| 6. Equation = Let r/ke be y \\& Ke be x. | $4+6 y=57.50 x$ | $6+4 y=55 x$ |\n| 7. Equation for solving | $57.50 x-6 y=4$ | $55 x-4 y=6$ |\n\nEquation $1 * 4=230 x-24 y=16$\n\nEquation $2 * 6=330 \\mathrm{x}-24 \\mathrm{y}=36$ $\\_\\_\\_\\_$\n\nBy solving, we get $\\mathrm{x}=20 \\%$ and $\\mathrm{y}=1.25$.\n\n$\\mathrm{y}=\\frac{r}{K_{e}}=1.25 \\quad \\frac{r}{20 \\%}=1.25 \\quad$ Hence, $\\mathrm{r}=25 \\%$\n\n2. Since $\\mathrm{r} 25 \\%>\\mathrm{ke} 20 \\%$, the company should retain $100 \\%$. Since the company pays $40 \\%$ Dividend, the company is not following optimum dividend policy.\n\n3.\n\n|  | Situation 1 | Situation 2 |\n| :--- | :--- | :--- |\n| 1. DP Ratio | 0\\% | 100\\% |\n| 2. Retention Ratio | 100\\% | 0\\% |\n| 3. Dividend per share = D | Rs. 0 | Rs. 10 |\n| 4. Retention per share = (E-D) | Rs. 10 | Rs. 0 |\n| 5. Market price per share = MPS | $\\frac{10 \\times 1.25}{0.2}=62.50$ | $\\frac{10}{0.2}=50$ |\n\n4. Price under Gordon's Model\n\nMarket price per share $\\left(P_{0}\\right)=\\left[\\frac{D_{0}(1+g)}{K_{e}-g}\\right]$\n\n|  |  | Situation 1 | Situation 2 |\n| :--- | :--- | :--- | :--- |\n| 1. Dividend paid |  | Rs. 4 | Rs. 6 |\n| 2. Retention Ratio (b) |  | 60\\% | 40\\% |\n| 3. Return on investment (r) |  | 25\\% | 25\\% |\n| 4. Growth = g = br |  | 15\\% | 10\\% |\n| 5. Market price per share = MPS | Gauresh \\| | $\\frac{4(1+0,15)}{0.2-0.15}=Rs. 92$ | $\\frac{6(1+0.10)}{0.2-0.1}=Rs. 66$ |\n\n5. Since, return on investment is used for computing growth rate, both cost of equity and return on investment are considered for computing price under Gordons model. Hence, the opinion of the chief financial officer is not valid.",
           "chapter_number": "8",
           "chapter_name": "DIVIDEND DECISION",
@@ -410,8 +420,8 @@
           "label": "c",
           "marks": 5,
           "internal_split": null,
-          "question": "## Question 14 (MTP 5 Marks March '22)\n\nThere has been fierce demand for both Gecko and FlyBee for the last 3 years. Gecko makes mass consumption pens while FlyBee is a notebook and diary brand - both being complementary goods of each other. But to grow further, FlyBee decided to take up competition with Gecko in pens segment and thereby launched, FlyPens. Identify and explain the growth strategy opted by FlyBee?",
-          "answer": "FlyBee is a notebook and diary brand. But to grow further, FlyBee decided to take up competition with Gecko in pens segment and thereby launched, FlyPens. FlyBee that is hitherto not into producing pens starts producing them and other similar products is following concentric diversification which is basically related diversification. In this form of diversification, the new business is linked to the existing businesses through existing systems such as processes, technology or marketing. The new product is a spin-off from the existing facilities and products/processes. There are benefits of synergy with the current operations. The most common reasons for pursuing a concentric diversification are that opportunities in existing line of business are available.",
+          "question": "## Question 14 (MTP 5 Marks March '22)\n\n| **Scenario** |\n|--------------|\n| There has been fierce demand for both Gecko and FlyBee for the last 3 years. Gecko makes mass consumption pens while FlyBee is a notebook and diary brand - both being complementary goods of each other. But to grow further, FlyBee decided to take up competition with Gecko in pens segment and thereby launched, FlyPens. |\n\n| **Task** |\n|----------|\n| Identify and explain the growth strategy opted by FlyBee? |\n",
+          "answer": "| **Explanation** |\n|----------------|\n| FlyBee is a notebook and diary brand. But to grow further, FlyBee decided to take up competition with Gecko in pens segment and thereby launched, FlyPens. FlyBee that is hitherto not into producing pens starts producing them and other similar products is following concentric diversification which is basically related diversification. In this form of diversification, the new business is linked to the existing businesses through existing systems such as processes, technology or marketing. The new product is a spin-off from the existing facilities and products/processes. There are benefits of synergy with the current operations. The most common reasons for pursuing a concentric diversification are that opportunities in existing line of business are available. |",
           "chapter_number": "14",
           "chapter_name": "STRATEGIC CHOICES",
           "unique_id": "14-T-14"

@@ -20,7 +20,7 @@
       "type": "case_study",
       "chapter_number": "12",
       "chapter_name": "Case Scenarios",
-      "case_text": "M/s ABC & Associates have been appointed as auditors of Venus Ltd. for the Financial Year 20X1-X2.  • During the course of audit, the auditors notice that certain legal expenses been charged to revenue during the financial year by Venus Ltd.  • These legal expenses are related to litigations going against the company regarding its Corporate Social Responsibility expenses incurred near its factory area.  • Further, M/s ABC & Associates noticed that there is a major change in the debtors and creditors account of Venus Ltd. during the financial year under audit. The auditors have decided to send balance confirmation requests to the debtors and creditors of Venus Ltd. Also, the auditors decide to take management representation letters wherever required.  • The auditors have noticed certain related party transactions reflected in the financial statements of Venus Ltd. during the financial year under audit. The transaction is between Venus Ltd. and a Company owned by wife of one of the directors of Venus Ltd.  • The auditors have become aware of certain subsequent events occurring in case of Venus Ltd. These are related to the outcomes of the litigations going against Venus Ltd.  • The auditors are also concerned whether the litigations going against Venus Ltd. and their outcomes have any impact on the going concern of the company. Based on the above facts, answer the following:  -  1. Statement 1: Although Written Representations provide necessary audit evidence, they do not provide sufficient and appropriate audit evidence on their own about the matters with which they deal.  Statement 2: Written Representations do not include financial statements, the assertions within, or supporting books and records. (Chapter 7.4: SA 580- Written Representations)  (a) Only Statement 1 is correct  (b) Only Statement 2 is correct  (c) Both Statement 1 & 2 are correct  (d) None of Statement 1 & 2 is correct  Ans: (b)  2. The auditor can perform the following procedures to identify litigation and claims of Venus Ltd.:-  (Chapter 4.4: SA 501- Audit Evidence-Specific Considerations for Selected Items)  (i) Inquiry of management including in house legal counsel.  (ii) Reviewing legal expenses account.  (iii) Reviewing of minutes of meetings of those charged to governance and correspondence between entity and external legal counsel.  (a) (i) & (ii) are correct  (b) (i), (ii) & (iii) are correct  (c) (ii) & (iii) are correct  (d) only (i) is correct  Ans: (b)  3. Negative confirmation requests require the third party to respond in the following cases :- (Chapter 4.5: SA 505- External Confirmations)  (a) if there is agreement  (b) if there is disagreement  (c) in both cases of agreement as well as disagreement  (d) None of the above.  Ans: (b)  4. Statement 1:- A failure of the confirming party to respond, or fully respond to a positive confirmation request or a confirmation request returned undelivered is a case of Non Response.  Statement 2:- A response that indicates difference between information requested to be confirmed and contained in entity's records and information provided by the confirming part is a case of Exception.  (Chapter 4.5: SA 505- External Confirmations)  (a) Only Statement 1 is correct  (b) Only Statement 2 is correct  (c) Both Statement 1 & 2 are correct  (d) None of Statement 1 & 2 is correct  Ans: (c)  5. Which of the following is correct so far as the related party transactions are concerned:-  (i) Many related party transactions are in the normal course of business.  (ii) Related party transactions may not be conducted under normal market term and conditions.  (iii) In some circumstances, related party transactions may give rise to higher risks of material misstatement. (Chapter 4.7- SA 550- Related Parties)  (a) only (i) is correct  (b) (i) & (iii) are correct  (c) (ii), (i) & (iii) are correct  (d) (i) and (ii) are correct  Ans: (c)",
+      "case_text": "M/s ABC & Associates have been appointed as auditors of Venus Ltd. for the Financial Year 20X1-X2.  • During the course of audit, the auditors notice that certain legal expenses been charged to revenue during the financial year by Venus Ltd.  • These legal expenses are related to litigations going against the company regarding its Corporate Social Responsibility expenses incurred near its factory area.  • Further, M/s ABC & Associates noticed that there is a major change in the debtors and creditors account of Venus Ltd. during the financial year under audit. The auditors have decided to send balance confirmation requests to the debtors and creditors of Venus Ltd. Also, the auditors decide to take management representation letters wherever required.  • The auditors have noticed certain related party transactions reflected in the financial statements of Venus Ltd. during the financial year under audit. The transaction is between Venus Ltd. and a Company owned by wife of one of the directors of Venus Ltd.  • The auditors have become aware of certain subsequent events occurring in case of Venus Ltd. These are related to the outcomes of the litigations going against Venus Ltd.  • The auditors are also concerned whether the litigations going against Venus Ltd. and their outcomes have any impact on the going concern of the company.",
       "questions": [
         {
           "q_num": 1,
@@ -32,24 +32,7 @@
             "d": "None of Statement 1 & 2 is correct"
           },
           "correct_option": "b",
-          "answer": "b",
-          "or_group": "MCQ_1_v1_v2",
-          "question_id": "A-MCQ-1_v1"
-        },
-        {
-          "q_num": "1_v2",
-          "question": "Which of the following does not constitute “Other income” in the profit and loss account of branch of a bank?",
-          "options": {
-            "a": "Discount on Bills purchased",
-            "b": "Commission on Bills sent for collection",
-            "c": "Loan processing fees",
-            "d": "Credit card fees"
-          },
-          "correct_option": "a",
-          "answer": "a",
-          "_serial": "1_v2",
-          "or_group": "MCQ_1_v1_v2",
-          "question_id": "A-MCQ-1_v2"
+          "answer": "b"
         },
         {
           "q_num": 2,
@@ -61,24 +44,7 @@
             "d": "only (i) is correct"
           },
           "correct_option": "b",
-          "answer": "b",
-          "or_group": "MCQ_2_v1_v2",
-          "question_id": "A-MCQ-2_v1"
-        },
-        {
-          "q_num": "2_v2",
-          "question": "Identify what the engagement team is trying to do in respect to advances of the branch.",
-          "options": {
-            "a": "The engagement team is carrying out analytical procedures in respect of advances.",
-            "b": "The engagement team is carrying out substantive procedures in respect of advances.",
-            "c": "The engagement team is evaluating internal control over advances.",
-            "d": "The engagement team is trying to select samples for verification of advances."
-          },
-          "correct_option": "c",
-          "answer": "c",
-          "_serial": "2_v2",
-          "or_group": "MCQ_2_v1_v2",
-          "question_id": "A-MCQ-2_v2"
+          "answer": "b"
         },
         {
           "q_num": 3,
@@ -90,24 +56,7 @@
             "d": "None of the above."
           },
           "correct_option": "b",
-          "answer": "b",
-          "or_group": "MCQ_3_v1_v2",
-          "question_id": "A-MCQ-3_v1"
-        },
-        {
-          "q_num": "3_v2",
-          "question": "Considering state government guaranteed advance of ₹20 crore and its NPA classification made by branch, which of the following statements is most appropriate?",
-          "options": {
-            "a": "The branch has correctly classified account as NPA and has rightly made provisioning and reversal of unrealized income in this regard. Uttar Pradesh government guarantee has no effect on provisioning and income recognition.",
-            "b": "The branch has correctly classified account as NPA and has rightly made provisioning. However, unrealized income should not have been reversed due to Uttar Pradesh government guarantee.",
-            "c": "The branch should have classified account as Standard asset due to Uttar Pradesh government guarantee without having recourse to provisioning and reversal of unrealized income.",
-            "d": "The branch should have classified account as Standard asset due to Uttar Pradesh government guarantee. No provisioning is required. However, for purposes of income recognition, it should be treated as NPA and unrealized income should be reversed."
-          },
-          "correct_option": "a",
-          "answer": "a",
-          "_serial": "3_v2",
-          "or_group": "MCQ_3_v1_v2",
-          "question_id": "A-MCQ-3_v2"
+          "answer": "b"
         },
         {
           "q_num": 4,
@@ -119,24 +68,7 @@
             "d": "None of Statement 1 & 2 is correct"
           },
           "correct_option": "c",
-          "answer": "c",
-          "or_group": "MCQ_4_v1_v2",
-          "question_id": "A-MCQ-4_v1"
-        },
-        {
-          "q_num": "4_v2",
-          "question": "The branch is operating in CBS environment. In view of above, which of the following statements is most appropriate?",
-          "options": {
-            "a": "Due to CBS environment, substantive procedures alone are effective to reduce audit risk to an acceptably low level.",
-            "b": "In CBS environment, in most situations, the auditors’ ability to reduce audit risk to an acceptably low level would be affected by the internal control systems established by the management.",
-            "c": "The extensive use of IT systems in CBS environment substantially reduces need to assess inherent and control risks.",
-            "d": "Low level of branch staff sensitisation to the control expectations of management requires fewer audit procedures."
-          },
-          "correct_option": "b",
-          "answer": "b",
-          "_serial": "4_v2",
-          "or_group": "MCQ_4_v1_v2",
-          "question_id": "A-MCQ-4_v2"
+          "answer": "c"
         },
         {
           "q_num": 5,
@@ -148,24 +80,7 @@
             "d": "(i) and (ii) are correct"
           },
           "correct_option": "c",
-          "answer": "c",
-          "or_group": "MCQ_5_v1_v2",
-          "question_id": "A-MCQ-5_v1"
-        },
-        {
-          "q_num": "5_v2",
-          "question": "With regards to audit documentation, consider the following: - (a) POC from previous auditor (b) Management certified trial balance of branch for year under consideration (c) KYC verification details (d) Latest RBI master directions/circulars Which of the following statements is correct as regards to audit documentation?",
-          "options": {
-            "a": "Only documents stated at Q and R form part of audit documentation.",
-            "b": "Only documents stated at Q, R and S form part of audit documentation.",
-            "c": "Only documents stated at Q and S form part of audit documentation.",
-            "d": "All documents stated at P, Q, R and S form part of audit documentation."
-          },
-          "correct_option": "d",
-          "answer": "d",
-          "_serial": "5_v2",
-          "or_group": "MCQ_5_v1_v2",
-          "question_id": "A-MCQ-5_v2"
+          "answer": "c"
         }
       ],
       "mcq_count": 5,
@@ -175,7 +90,7 @@
       "type": "case_study",
       "chapter_number": "12",
       "chapter_name": "Case Scenarios",
-      "case_text": "As per SA 210 “Agreeing the Terms of Audit Engagements”, preconditions for an audit may be defined as the use by management of an acceptable financial reporting framework in the preparation of the financial statements and the agreement of management and, where appropriate, those charged with governance to the premise on which an audit is conducted.  Mridul & Co, a firm of Chartered Accountants agreed on the Terms of Audit Engagements of a Private Limited Company, Jayshree Private Limited. Jayshree Private Limited has conveyed to Mridul & Co that they want the firm to undertake the statutory audit as well as to examine the life of its plant and machinery at Indore which is in existence for 10 years. While finalizing the scope of the audit, the auditors agreed to cover all the units of the company based at Delhi and Indore. Mridul & Co has asked Jayshree Private Ltd to make all the relevant disclosures in the financial statements. The auditors were vigilant to inquire about any audit evidence that contradicts the other audit evidence.  The auditors decided to cover following aspects under audit:  (i) An examination of the system of accounting and internal control  (ii) Reviewing the system and procedures.  (iii) Checking of the arithmetical accuracy of the books of account.  (iv) Verification of the authenticity and validity of transactions.  (v) Classification between capital and revenue expenditures.  (vi) Comparison of the balance sheet and profit and loss account or other statements with the underlying record.  (vii) Verification of the title, existence and value of the assets.  (viii) Verification of the liabilities stated in the balance sheet.  (ix) Checking the results shown by the profit and loss and to see whether the results shown are true and fair.  (x) Reporting to the appropriate person/body whether the statements of account examined do reveal a true and fair view of the state of affairs and of the profit and loss of the organisation.  (xi) Where audit is of a corporate body, confirming that the statutory requirements have been complied with.  While testing the accounts receivables of Jayshree Private Limited, the auditor decided to divide the accounts receivables by age of receivables in the following manner:  • Below 15 days  • 15 days -30 days  • 31-60 days  • 61-90 days  • 91 days and beyond  Based on the above facts, answer the following:  1. According to you, what is the scope of the audit which Mridul & Co should cover in the audit of financial statements of Jayshree Private Limited? (Chapter 1: Nature, Objective and Scope of Audit)  I. to examine the life of its plant and machinery at Indore which is in existence for 10 years.  II. to cover all the units of the company based at Delhi and Indore.  III. to check whether the relevant disclosures are properly made in the financial statements.  (a) I,II,III  (b) I,II  (c) I,III  (d) I,II,III  Ans: (c)  2. What is the name of the method used by the auditor for segregation of accounts receivable? (Chapter 4.3- Audit Sampling)  (a) Value weighted selection  (b) Stratification  (c) Systematic method of Sampling  (d) Tests of Control  Ans: (b)  3. The aspects covered by auditor should be: (Chapter 1: Nature, Objective and Scope of Audit)  (a) i, ii, iii, iv, vi, vii  (b) i, ii, iv, v, vi, vii  (c) i, ii, iii, iv, vi, viii, ix, x, xi  (d) i, ii, iii, viii, x, xi  Ans: (c)  4. The auditor's vigilance to question the audit evidence that contradicts the other audit evidence is called as: (Chapter 11.2- Ethics)  (a) Professional Skepticism  (b) Vigilant Skepticism  (c) Professional Judgement  (d) Judgement and Skepticism  Ans: (a)  5. With respect to the preconditions for an audit, which one of the following is correct (Chapter 11.2- SA 210- Agreeing the Terms of Audit Engagements)  I. The use by Management of an acceptable financial reporting framework in the preparation of financial statements.  II. Management’s responsibility for the internal control  III. Giving auditor access to all information and access to the Entity’s premises.  (a) I, II  (b) I, II, III  (c) II, III  (d) I, III  Ans: (b)",
+      "case_text": "As per SA 210 “Agreeing the Terms of Audit Engagements”, preconditions for an audit may be defined as the use by management of an acceptable financial reporting framework in the preparation of the financial statements and the agreement of management and, where appropriate, those charged with governance to the premise on which an audit is conducted.  Mridul & Co, a firm of Chartered Accountants agreed on the Terms of Audit Engagements of a Private Limited Company, Jayshree Private Limited. Jayshree Private Limited has conveyed to Mridul & Co that they want the firm to undertake the statutory audit as well as to examine the life of its plant and machinery at Indore which is in existence for 10 years. While finalizing the scope of the audit, the auditors agreed to cover all the units of the company based at Delhi and Indore. Mridul & Co has asked Jayshree Private Ltd to make all the relevant disclosures in the financial statements. The auditors were vigilant to inquire about any audit evidence that contradicts the other audit evidence.  The auditors decided to cover following aspects under audit:  (i) An examination of the system of accounting and internal control  (ii) Reviewing the system and procedures.  (iii) Checking of the arithmetical accuracy of the books of account.  (iv) Verification of the authenticity and validity of transactions.  (v) Classification between capital and revenue expenditures.  (vi) Comparison of the balance sheet and profit and loss account or other statements with the underlying record.  (vii) Verification of the title, existence and value of the assets.  (viii) Verification of the liabilities stated in the balance sheet.  (ix) Checking the results shown by the profit and loss and to see whether the results shown are true and fair.  (x) Reporting to the appropriate person/body whether the statements of account examined do reveal a true and fair view of the state of affairs and of the profit and loss of the organisation.  (xi) Where audit is of a corporate body, confirming that the statutory requirements have been complied with.  While testing the accounts receivables of Jayshree Private Limited, the auditor decided to divide the accounts receivables by age of receivables in the following manner:  • Below 15 days  • 15 days -30 days  • 31-60 days  • 61-90 days  • 91 days and beyond",
       "questions": [
         {
           "q_num": 1,
@@ -187,24 +102,7 @@
             "d": "II,III"
           },
           "correct_option": "c",
-          "answer": "c",
-          "or_group": "MCQ_1_v1_v2",
-          "question_id": "A-MCQ-1_v1"
-        },
-        {
-          "q_num": "1_v2",
-          "question": "Which of the following does not constitute “Other income” in the profit and loss account of branch of a bank?",
-          "options": {
-            "a": "Discount on Bills purchased",
-            "b": "Commission on Bills sent for collection",
-            "c": "Loan processing fees",
-            "d": "Credit card fees"
-          },
-          "correct_option": "a",
-          "answer": "a",
-          "_serial": "1_v2",
-          "or_group": "MCQ_1_v1_v2",
-          "question_id": "A-MCQ-1_v2"
+          "answer": "c"
         },
         {
           "q_num": 2,
@@ -216,24 +114,7 @@
             "d": "Tests of Control"
           },
           "correct_option": "b",
-          "answer": "b",
-          "or_group": "MCQ_2_v1_v2",
-          "question_id": "A-MCQ-2_v1"
-        },
-        {
-          "q_num": "2_v2",
-          "question": "Identify what the engagement team is trying to do in respect to advances of the branch.",
-          "options": {
-            "a": "The engagement team is carrying out analytical procedures in respect of advances.",
-            "b": "The engagement team is carrying out substantive procedures in respect of advances.",
-            "c": "The engagement team is evaluating internal control over advances.",
-            "d": "The engagement team is trying to select samples for verification of advances."
-          },
-          "correct_option": "c",
-          "answer": "c",
-          "_serial": "2_v2",
-          "or_group": "MCQ_2_v1_v2",
-          "question_id": "A-MCQ-2_v2"
+          "answer": "b"
         },
         {
           "q_num": 3,
@@ -245,24 +126,7 @@
             "d": "i, ii, iii, viii, x, xi"
           },
           "correct_option": "c",
-          "answer": "c",
-          "or_group": "MCQ_3_v1_v2",
-          "question_id": "A-MCQ-3_v1"
-        },
-        {
-          "q_num": "3_v2",
-          "question": "Considering state government guaranteed advance of ₹20 crore and its NPA classification made by branch, which of the following statements is most appropriate?",
-          "options": {
-            "a": "The branch has correctly classified account as NPA and has rightly made provisioning and reversal of unrealized income in this regard. Uttar Pradesh government guarantee has no effect on provisioning and income recognition.",
-            "b": "The branch has correctly classified account as NPA and has rightly made provisioning. However, unrealized income should not have been reversed due to Uttar Pradesh government guarantee.",
-            "c": "The branch should have classified account as Standard asset due to Uttar Pradesh government guarantee without having recourse to provisioning and reversal of unrealized income.",
-            "d": "The branch should have classified account as Standard asset due to Uttar Pradesh government guarantee. No provisioning is required. However, for purposes of income recognition, it should be treated as NPA and unrealized income should be reversed."
-          },
-          "correct_option": "a",
-          "answer": "a",
-          "_serial": "3_v2",
-          "or_group": "MCQ_3_v1_v2",
-          "question_id": "A-MCQ-3_v2"
+          "answer": "c"
         },
         {
           "q_num": 4,
@@ -274,24 +138,7 @@
             "d": "Judgement and Skepticism"
           },
           "correct_option": "a",
-          "answer": "a",
-          "or_group": "MCQ_4_v1_v2",
-          "question_id": "A-MCQ-4_v1"
-        },
-        {
-          "q_num": "4_v2",
-          "question": "The branch is operating in CBS environment. In view of above, which of the following statements is most appropriate?",
-          "options": {
-            "a": "Due to CBS environment, substantive procedures alone are effective to reduce audit risk to an acceptably low level.",
-            "b": "In CBS environment, in most situations, the auditors’ ability to reduce audit risk to an acceptably low level would be affected by the internal control systems established by the management.",
-            "c": "The extensive use of IT systems in CBS environment substantially reduces need to assess inherent and control risks.",
-            "d": "Low level of branch staff sensitisation to the control expectations of management requires fewer audit procedures."
-          },
-          "correct_option": "b",
-          "answer": "b",
-          "_serial": "4_v2",
-          "or_group": "MCQ_4_v1_v2",
-          "question_id": "A-MCQ-4_v2"
+          "answer": "a"
         },
         {
           "q_num": 5,
@@ -303,24 +150,7 @@
             "d": "I, III"
           },
           "correct_option": "b",
-          "answer": "b",
-          "or_group": "MCQ_5_v1_v2",
-          "question_id": "A-MCQ-5_v1"
-        },
-        {
-          "q_num": "5_v2",
-          "question": "With regards to audit documentation, consider the following: - (a) POC from previous auditor (b) Management certified trial balance of branch for year under consideration (c) KYC verification details (d) Latest RBI master directions/circulars Which of the following statements is correct as regards to audit documentation?",
-          "options": {
-            "a": "Only documents stated at Q and R form part of audit documentation.",
-            "b": "Only documents stated at Q, R and S form part of audit documentation.",
-            "c": "Only documents stated at Q and S form part of audit documentation.",
-            "d": "All documents stated at P, Q, R and S form part of audit documentation."
-          },
-          "correct_option": "d",
-          "answer": "d",
-          "_serial": "5_v2",
-          "or_group": "MCQ_5_v1_v2",
-          "question_id": "A-MCQ-5_v2"
+          "answer": "b"
         }
       ],
       "mcq_count": 5,
@@ -532,8 +362,8 @@
           "label": "b",
           "marks": 5,
           "internal_split": null,
-          "question": "Proceedings have been initiated against False Limited for holding benami property under law relating to prohibition of benami transactions and the rules made thereunder but such property is not recorded in books of accounts. As a consultant to the company, what will you advise the company as far as disclosure requirements are concerned in financial statements in relation to said proceedings?",
-          "answer": "Disclosure in case of Benami Properties held by the Company: Where any proceedings have been initiated or pending against the company for holding any benami property under the relevant law relating to prohibition of such transactions, the company shall disclose the following: -  (a) Details of such property, including year of acquisition  (b) Amount thereof  (c) Details of Beneficiaries  (d) If property is not in the books, then the fact shall be stated with reasons  (e) Where there are proceedings against the company under this law as a better of the transaction or as the transferor, then the details shall be provided  (f) Nature of proceedings, status of same and company’s view on same.  Exam insights: Many students miss key disclosure points. Always include details of beneficiaries, note if property isn’t in the books with reasons, and disclose any legal proceedings involving the company as a transferor or beneficiary.",
+          "question": "| Topic                                                             |\n|-------------------------------------------------------------------|\n| Proceedings have been initiated against False Limited for holding benami property under law relating to prohibition of benami transactions and the rules made thereunder. However, such property is not recorded in the books of accounts. As a consultant to the company, advise on the disclosure requirements for financial statements regarding these proceedings. |\n",
+          "answer": "| Disclosure in case of Benami Properties held by the Company   |\n|---------------------------------------------------------------|\n| When proceedings have been initiated against a company for holding benami property, the company must disclose the following in their financial statements: |\n| (a) Details of such property, including year of acquisition    |\n| (b) Amount thereof                                              |\n| (c) Details of Beneficiaries                                    |\n| (d) If the property is not in the books, it must be stated with reasons |\n| (e) If there are proceedings related to the transaction as a transferor, provide details |\n| (f) Nature of proceedings, status, and company's view          |\n| Exam insights: Many students miss key disclosure points. Always include details of beneficiaries, note if the property isn’t in the books with reasons, and disclose any legal proceedings involving the company as a transferor or beneficiary. |",
           "chapter_number": "5",
           "chapter_name": "Audit of Items of Financial Statements",
           "unique_id": "5-TP-20"

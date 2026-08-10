@@ -37,8 +37,8 @@
           "label": "b",
           "marks": 4,
           "internal_split": null,
-          "question": "Mr. Sky is engaged in the business of trading of mobiles. He is eligible for composition scheme and has opted for the same. He seeks your advice for records which are not required to be maintained by him as composition taxable person. (PYP, 4 marks)",
-          "answer": "A supplier who has opted for composition scheme is not required to maintain records relating to;\n\n(a) Stock of goods: Accounts of stock in respect of goods received and supplied by him, and such accounts shall contain particulars of the opening balance, receipt, supply, goods lost stolen, destroyed, written off or disposed of by way of gift or free sample and the balance of stock including raw materials, finished goods, scrap and wastage thereof.\n\n(b) Details of tax: Account, containing the details of tax payable (including tax payable under reverse charge), tax collected and paid, input tax, input tax credit claimed, together with a register of tax invoice, credit notes, debit notes, delivery challan issued or received during any tax period.\n\nThus, Mr. Sky is not required to maintain above mentioned records.",
+          "question": "| Question |\n|----------|\n| Mr. Sky is engaged in the business of trading of mobiles. He is eligible for the composition scheme and has opted for the same. He seeks your advice for records which are not required to be maintained by him as a composition taxable person. (PYP, 4 marks) |\n",
+          "answer": "| Answer |\n|--------|\n| A supplier who has opted for the composition scheme is not required to maintain records relating to: <br> (a) **Stock of goods**: Accounts of stock in respect of goods received and supplied by him, and such accounts shall contain particulars of the opening balance, receipt, supply, goods lost, stolen, destroyed, written off or disposed of by way of gift or free sample and the balance of stock including raw materials, finished goods, scrap and wastage thereof. <br> (b) **Details of tax**: Account containing the details of tax payable (including tax payable under reverse charge), tax collected and paid, input tax, input tax credit claimed, together with a register of tax invoice, credit notes, debit notes, delivery challan issued or received during any tax period. <br> Thus, Mr. Sky is not required to maintain the above-mentioned records. |\n",
           "chapter_number": "21",
           "chapter_name": "ACCOUNTS AND RECORDS",
           "unique_id": "21-T-8"
@@ -108,28 +108,14 @@
       "chapter_number": "17",
       "sub_questions": [
         {
-          "label": "a_v1",
+          "label": "a",
           "marks": 6,
           "internal_split": null,
-          "question": "[New Version - v1] Compute the Gross value of supplies, on which GST to be paid by Mr. Jayesh for the month of October.\n\nMr. Jayesh, a registered person under GST, has furnished the following details for the month of October:\n\n| Particulars | Amount (Rs.) |\n| :--- | :--- |\n| Commission received as a recovery agent from Non-Banking Financial Company | 45,000 |\n| Actionable claim received from normal business debtors | 1,20,000 |\n| Amount received from ABC Ltd. for performance of classical dance | 1,74,500 |\n| Business assets given free of cost (ITC was not availed on such assets) | 85,000 |\n| Rent received from a registered individual person for use of his residential dwelling | 22,000 |\n| Services availed from an unregistered Goods Transport Agency (GTA) | 15,100 |",
+          "question": "Compute the Gross value of supplies, on which GST to be paid by Mr. Jayesh for the month of October.\n\nMr. Jayesh, a registered person under GST, has furnished the following details for the month of October:\n\n| Particulars | Amount (Rs.) |\n| :--- | :--- |\n| Commission received as a recovery agent from Non-Banking Financial Company | 45,000 |\n| Actionable claim received from normal business debtors | 1,20,000 |\n| Amount received from ABC Ltd. for performance of classical dance | 1,74,500 |\n| Business assets given free of cost (ITC was not availed on such assets) | 85,000 |\n| Rent received from a registered individual person for use of his residential dwelling | 22,000 |\n| Services availed from an unregistered Goods Transport Agency (GTA) | 15,100 |",
           "answer": "Computation of gross value of taxable supply on which GST is to be paid by Mr. Jayesh\n\n| Particulars | Amount (Rs.) |\n| :--- | :--- |\n| Commission received as a recovery agent from Non-Banking Financial Company [Tax is payable by NBFC under reverse charge.] | - |\n| Actionable claim received from normal business debtors [No tax is payable as actionable claims other than lottery, betting and gambling are covered under Schedule III, i.e. they are neither supply of goods nor supply of services.] | - |\n| Amount received from ABC Ltd. for performance of classical dance [Taxable since consideration for classical dance performance exceeds Rs. 1,50,000.] | 1,74,500 |\n| Business assets given free of cost [Not a supply as it is made without consideration and not covered in Schedule I because ITC is not availed on the same.] | - |\n| Rent from registered individual person [Exempt Supply] | - |\n| Services from unregistered GTA [Tax on services provided by unregistered GTA is payable under reverse charge by Mr. Jayesh being a registered person.] | 15,100 |\n| Gross value of taxable supply on which GST is to be paid by Mr. Jayesh | 1,89,600 |",
           "chapter_number": "17",
           "chapter_name": "VALUE OF SUPPLY",
-          "unique_id": "17-T-12",
-          "or_group": "Q4a_v1_v2",
-          "question_id": "B-Q4-Q4a_v1"
-        },
-        {
-          "label": "a_v2",
-          "marks": 6,
-          "internal_split": null,
-          "question": "[Old Version - v2] Compute the Gross value of supplies, on which GST to be paid by Mr. Jayesh for the month of October. (PYP 6 Marks, May'23)\n\nMr. Jayesh, a registered person under GST, has furnished the following details for the month of October:\n\n| Particulars | Amount (Rs.) |\n| :--- | :--- |\n| Commission received as a recovery agent from Non-Banking Financial Company | 45,000 |\n| Actionable claim received from normal business debtors | 1,20,000 |\n| Amount received from ABC Ltd. for performance of classical dance | 1,74,500 |\n| Business assets given free of cost (ITC was not availed on such assets) | 85,000 |\n| Rent received from a registered individual person for use of his residential dwelling | 22,000 |\n| Services availed from an unregistered Goods Transport Agency (GTA) | 15,100 |",
-          "answer": "Computation of gross value of taxable supply on which GST is to be paid by Mr. Jayesh\n\n| Particulars | Amount (Rs.) |\n| :--- | :--- |\n| Commission received as a recovery agent from Non-Banking Financial Company [Tax is payable by NBFC under reverse charge.] | - |\n| Actionable claim received from normal business debtors [No tax is payable as actionable claims other than lottery, betting and gambling are covered under Schedule III, i.e. they are neither supply of goods nor supply of services.] | - |\n| Amount received from ABC Ltd. for performance of classical dance [Taxable since consideration for classical dance performance exceeds Rs. 1,50,000.] | 1,74,500 |\n| Business assets given free of cost [Not a supply as it is made without consideration and not covered in Schedule I because ITC is not availed on the same.] | - |\n| Rent from registered individual person [Exempt Supply] | - |\n| Services from unregistered GTA [Tax on services provided by unregistered GTA is payable under reverse charge by Mr. Jayesh being a registered person.] | 15,100 |\n| Gross value of taxable supply on which GST is to be paid by Mr. Jayesh | 1,89,600 |",
-          "chapter_number": "17",
-          "chapter_name": "VALUE OF SUPPLY",
-          "unique_id": "17-T-12",
-          "or_group": "Q4a_v1_v2",
-          "question_id": "B-Q4-Q4a_v2"
+          "unique_id": "17-T-12"
         },
         {
           "label": "b",

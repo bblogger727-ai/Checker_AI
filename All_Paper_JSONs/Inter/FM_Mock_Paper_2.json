@@ -39,25 +39,7 @@
           },
           "correct_option": "b",
           "answer": "(b)",
-          "verdict": null,
-          "or_group": "MCQ_1_v1_v2",
-          "question_id": "A-MCQ-1_v1"
-        },
-        {
-          "q_num": "1_v2",
-          "question": "Which strategic management concept did MuseoGoa use to address the initial concerns of the local community? (Chapter 12: Strategic Analysis: External Environment )",
-          "options": {
-            "a": "SWOT analysis",
-            "b": "Mendelow's matrix",
-            "c": "Cost leadership strategy",
-            "d": "Porter's Five Forces model"
-          },
-          "correct_option": "b",
-          "answer": "(b)",
-          "verdict": null,
-          "_serial": "1_v2",
-          "or_group": "MCQ_1_v1_v2",
-          "question_id": "A-MCQ-1_v2"
+          "verdict": null
         },
         {
           "q_num": 2,
@@ -70,25 +52,7 @@
           },
           "correct_option": "b",
           "answer": "(b)",
-          "verdict": null,
-          "or_group": "MCQ_2_v1_v2",
-          "question_id": "A-MCQ-2_v1"
-        },
-        {
-          "q_num": "2_v2",
-          "question": "MuseoGoa's idyllic location in a quaint village posed a challenge as tourists preferred beaches closer to the city. To attract visitors, MuseoGoa priced their tickets affordably, cheaper than city attractions, drawing budget-conscious tourists looking for unique experiences. What business strategy did MuseoGoa employ to attract more tourists? (Chapter 13: Strategic Analysis: Internal Environment)",
-          "options": {
-            "a": "Cost leadership strategy",
-            "b": "Differentiation strategy",
-            "c": "Focus strategy",
-            "d": "Diversification strategy"
-          },
-          "correct_option": "a",
-          "answer": "(a)",
-          "verdict": null,
-          "_serial": "2_v2",
-          "or_group": "MCQ_2_v1_v2",
-          "question_id": "A-MCQ-2_v2"
+          "verdict": null
         },
         {
           "q_num": 3,
@@ -101,25 +65,7 @@
           },
           "correct_option": "a",
           "answer": "(a)",
-          "verdict": null,
-          "or_group": "MCQ_3_v1_v2",
-          "question_id": "A-MCQ-3_v1"
-        },
-        {
-          "q_num": "3_v2",
-          "question": "How did MuseoGoa approach its expansion into new markets such as Pune and Trivandrum? (Chapter 14: Strategic Choices)",
-          "options": {
-            "a": "Outsourcing strategy",
-            "b": "Franchising strategy",
-            "c": "Product diversification strategy",
-            "d": "Market development strategy"
-          },
-          "correct_option": "d",
-          "answer": "(d)",
-          "verdict": null,
-          "_serial": "3_v2",
-          "or_group": "MCQ_3_v1_v2",
-          "question_id": "A-MCQ-3_v2"
+          "verdict": null
         },
         {
           "q_num": 4,
@@ -132,25 +78,7 @@
           },
           "correct_option": "a",
           "answer": "(a)",
-          "verdict": null,
-          "or_group": "MCQ_4_v1_v2",
-          "question_id": "A-MCQ-4_v1"
-        },
-        {
-          "q_num": "4_v2",
-          "question": "Which element of the 7S McKinsey model is demonstrated by MuseoGoa's strategic use of social media and pricing strategies to attract visitors? (Chapter 15- Strategy Implementation and Evaluation)",
-          "options": {
-            "a": "Style",
-            "b": "Strategy",
-            "c": "Shared Values",
-            "d": "Skills"
-          },
-          "correct_option": "b",
-          "answer": "(b)",
-          "verdict": null,
-          "_serial": "4_v2",
-          "or_group": "MCQ_4_v1_v2",
-          "question_id": "A-MCQ-4_v2"
+          "verdict": null
         },
         {
           "q_num": 5,
@@ -163,25 +91,7 @@
           },
           "correct_option": "b",
           "answer": "(b)",
-          "verdict": null,
-          "or_group": "MCQ_5_v1_v2",
-          "question_id": "A-MCQ-5_v1"
-        },
-        {
-          "q_num": "5_v2",
-          "question": "What played a crucial role in MuseoGoa's success in Pune and Trivandrum? (Chapter 14: Strategic Choices)",
-          "options": {
-            "a": "Strategic partnerships",
-            "b": "Aggressive advertising",
-            "c": "Product differentiation",
-            "d": "Vertical integration"
-          },
-          "correct_option": "a",
-          "answer": "(a)",
-          "verdict": null,
-          "_serial": "5_v2",
-          "or_group": "MCQ_5_v1_v2",
-          "question_id": "A-MCQ-5_v2"
+          "verdict": null
         }
       ]
     },
@@ -204,25 +114,7 @@
           },
           "correct_option": "a",
           "answer": "(a)",
-          "verdict": null,
-          "or_group": "MCQ_1_v1_v2",
-          "question_id": "A-MCQ-1_v1"
-        },
-        {
-          "q_num": "1_v2",
-          "question": "Which strategic management concept did MuseoGoa use to address the initial concerns of the local community? (Chapter 12: Strategic Analysis: External Environment )",
-          "options": {
-            "a": "SWOT analysis",
-            "b": "Mendelow's matrix",
-            "c": "Cost leadership strategy",
-            "d": "Porter's Five Forces model"
-          },
-          "correct_option": "b",
-          "answer": "(b)",
-          "verdict": null,
-          "_serial": "1_v2",
-          "or_group": "MCQ_1_v1_v2",
-          "question_id": "A-MCQ-1_v2"
+          "verdict": null
         },
         {
           "q_num": 2,
@@ -235,25 +127,7 @@
           },
           "correct_option": "c",
           "answer": "(c)",
-          "verdict": null,
-          "or_group": "MCQ_2_v1_v2",
-          "question_id": "A-MCQ-2_v1"
-        },
-        {
-          "q_num": "2_v2",
-          "question": "MuseoGoa's idyllic location in a quaint village posed a challenge as tourists preferred beaches closer to the city. To attract visitors, MuseoGoa priced their tickets affordably, cheaper than city attractions, drawing budget-conscious tourists looking for unique experiences. What business strategy did MuseoGoa employ to attract more tourists? (Chapter 13: Strategic Analysis: Internal Environment)",
-          "options": {
-            "a": "Cost leadership strategy",
-            "b": "Differentiation strategy",
-            "c": "Focus strategy",
-            "d": "Diversification strategy"
-          },
-          "correct_option": "a",
-          "answer": "(a)",
-          "verdict": null,
-          "_serial": "2_v2",
-          "or_group": "MCQ_2_v1_v2",
-          "question_id": "A-MCQ-2_v2"
+          "verdict": null
         }
       ]
     },
@@ -276,25 +150,7 @@
           },
           "correct_option": "d",
           "answer": "(d)",
-          "verdict": null,
-          "or_group": "MCQ_1_v1_v2",
-          "question_id": "A-MCQ-1_v1"
-        },
-        {
-          "q_num": "1_v2",
-          "question": "Which strategic management concept did MuseoGoa use to address the initial concerns of the local community? (Chapter 12: Strategic Analysis: External Environment )",
-          "options": {
-            "a": "SWOT analysis",
-            "b": "Mendelow's matrix",
-            "c": "Cost leadership strategy",
-            "d": "Porter's Five Forces model"
-          },
-          "correct_option": "b",
-          "answer": "(b)",
-          "verdict": null,
-          "_serial": "1_v2",
-          "or_group": "MCQ_1_v1_v2",
-          "question_id": "A-MCQ-1_v2"
+          "verdict": null
         },
         {
           "q_num": 2,
@@ -307,25 +163,7 @@
           },
           "correct_option": "a",
           "answer": "(a)",
-          "verdict": null,
-          "or_group": "MCQ_2_v1_v2",
-          "question_id": "A-MCQ-2_v1"
-        },
-        {
-          "q_num": "2_v2",
-          "question": "MuseoGoa's idyllic location in a quaint village posed a challenge as tourists preferred beaches closer to the city. To attract visitors, MuseoGoa priced their tickets affordably, cheaper than city attractions, drawing budget-conscious tourists looking for unique experiences. What business strategy did MuseoGoa employ to attract more tourists? (Chapter 13: Strategic Analysis: Internal Environment)",
-          "options": {
-            "a": "Cost leadership strategy",
-            "b": "Differentiation strategy",
-            "c": "Focus strategy",
-            "d": "Diversification strategy"
-          },
-          "correct_option": "a",
-          "answer": "(a)",
-          "verdict": null,
-          "_serial": "2_v2",
-          "or_group": "MCQ_2_v1_v2",
-          "question_id": "A-MCQ-2_v2"
+          "verdict": null
         },
         {
           "q_num": 3,
@@ -338,25 +176,7 @@
           },
           "correct_option": "d",
           "answer": "(d)",
-          "verdict": null,
-          "or_group": "MCQ_3_v1_v2",
-          "question_id": "A-MCQ-3_v1"
-        },
-        {
-          "q_num": "3_v2",
-          "question": "How did MuseoGoa approach its expansion into new markets such as Pune and Trivandrum? (Chapter 14: Strategic Choices)",
-          "options": {
-            "a": "Outsourcing strategy",
-            "b": "Franchising strategy",
-            "c": "Product diversification strategy",
-            "d": "Market development strategy"
-          },
-          "correct_option": "d",
-          "answer": "(d)",
-          "verdict": null,
-          "_serial": "3_v2",
-          "or_group": "MCQ_3_v1_v2",
-          "question_id": "A-MCQ-3_v2"
+          "verdict": null
         },
         {
           "q_num": 4,
@@ -369,25 +189,7 @@
           },
           "correct_option": "c",
           "answer": "(c)",
-          "verdict": null,
-          "or_group": "MCQ_4_v1_v2",
-          "question_id": "A-MCQ-4_v1"
-        },
-        {
-          "q_num": "4_v2",
-          "question": "Which element of the 7S McKinsey model is demonstrated by MuseoGoa's strategic use of social media and pricing strategies to attract visitors? (Chapter 15- Strategy Implementation and Evaluation)",
-          "options": {
-            "a": "Style",
-            "b": "Strategy",
-            "c": "Shared Values",
-            "d": "Skills"
-          },
-          "correct_option": "b",
-          "answer": "(b)",
-          "verdict": null,
-          "_serial": "4_v2",
-          "or_group": "MCQ_4_v1_v2",
-          "question_id": "A-MCQ-4_v2"
+          "verdict": null
         },
         {
           "q_num": 5,
@@ -400,25 +202,7 @@
           },
           "correct_option": "a",
           "answer": "(a)",
-          "verdict": null,
-          "or_group": "MCQ_5_v1_v2",
-          "question_id": "A-MCQ-5_v1"
-        },
-        {
-          "q_num": "5_v2",
-          "question": "What played a crucial role in MuseoGoa's success in Pune and Trivandrum? (Chapter 14: Strategic Choices)",
-          "options": {
-            "a": "Strategic partnerships",
-            "b": "Aggressive advertising",
-            "c": "Product differentiation",
-            "d": "Vertical integration"
-          },
-          "correct_option": "a",
-          "answer": "(a)",
-          "verdict": null,
-          "_serial": "5_v2",
-          "or_group": "MCQ_5_v1_v2",
-          "question_id": "A-MCQ-5_v2"
+          "verdict": null
         }
       ]
     },
@@ -441,25 +225,7 @@
           },
           "correct_option": "a",
           "answer": "a",
-          "verdict": null,
-          "or_group": "MCQ_1_v1_v2",
-          "question_id": "A-MCQ-1_v1"
-        },
-        {
-          "q_num": "1_v2",
-          "question": "Which strategic management concept did MuseoGoa use to address the initial concerns of the local community? (Chapter 12: Strategic Analysis: External Environment )",
-          "options": {
-            "a": "SWOT analysis",
-            "b": "Mendelow's matrix",
-            "c": "Cost leadership strategy",
-            "d": "Porter's Five Forces model"
-          },
-          "correct_option": "b",
-          "answer": "(b)",
-          "verdict": null,
-          "_serial": "1_v2",
-          "or_group": "MCQ_1_v1_v2",
-          "question_id": "A-MCQ-1_v2"
+          "verdict": null
         },
         {
           "q_num": 2,
@@ -472,25 +238,7 @@
           },
           "correct_option": "b",
           "answer": "b",
-          "verdict": null,
-          "or_group": "MCQ_2_v1_v2",
-          "question_id": "A-MCQ-2_v1"
-        },
-        {
-          "q_num": "2_v2",
-          "question": "MuseoGoa's idyllic location in a quaint village posed a challenge as tourists preferred beaches closer to the city. To attract visitors, MuseoGoa priced their tickets affordably, cheaper than city attractions, drawing budget-conscious tourists looking for unique experiences. What business strategy did MuseoGoa employ to attract more tourists? (Chapter 13: Strategic Analysis: Internal Environment)",
-          "options": {
-            "a": "Cost leadership strategy",
-            "b": "Differentiation strategy",
-            "c": "Focus strategy",
-            "d": "Diversification strategy"
-          },
-          "correct_option": "a",
-          "answer": "(a)",
-          "verdict": null,
-          "_serial": "2_v2",
-          "or_group": "MCQ_2_v1_v2",
-          "question_id": "A-MCQ-2_v2"
+          "verdict": null
         },
         {
           "q_num": 3,
@@ -503,25 +251,7 @@
           },
           "correct_option": "c",
           "answer": "c",
-          "verdict": null,
-          "or_group": "MCQ_3_v1_v2",
-          "question_id": "A-MCQ-3_v1"
-        },
-        {
-          "q_num": "3_v2",
-          "question": "How did MuseoGoa approach its expansion into new markets such as Pune and Trivandrum? (Chapter 14: Strategic Choices)",
-          "options": {
-            "a": "Outsourcing strategy",
-            "b": "Franchising strategy",
-            "c": "Product diversification strategy",
-            "d": "Market development strategy"
-          },
-          "correct_option": "d",
-          "answer": "(d)",
-          "verdict": null,
-          "_serial": "3_v2",
-          "or_group": "MCQ_3_v1_v2",
-          "question_id": "A-MCQ-3_v2"
+          "verdict": null
         }
       ]
     }
@@ -547,7 +277,7 @@
           "label": "b",
           "marks": 5,
           "internal_split": null,
-          "question": "## Question 19 (PYP 5 Marks, May'24)\n\n\nTheme Ltd provides you the following information:\n\n\n| 12.5 \\% Debt | Rs. 45,00,000 |\n| :--- | :--- |\n| Debt to Equity ratio | 1.5: 1 |\n| Return on Shareholder's fund | 54\\% |\n| Operating Ratio | 85\\% |\n| Ratio of operating expenses to Cost of Goods sold | 2: 6 |\n| Tax rate | 25\\% |\n| Fixed Assets | Rs. 39,00,000 |\n| Current Ratio | 1.8: 1 |\n\n\nYou are required to calculate:\n\n(i) Interest Coverage Ratio\n\n(ii) Gross Profit Ratio\n\n(iii) Current Assets",
+          "question": "## Question 19 (PYP 5 Marks, May'24)\n\nTheme Ltd provides you the following information:\n\n| 12.5 \\% Debt | Rs. 45,00,000 |\n| :--- | :--- |\n| Debt to Equity ratio | 1.5: 1 |\n| Return on Shareholder's fund | 54\\% |\n| Operating Ratio | 85\\% |\n| Ratio of operating expenses to Cost of Goods sold | 2: 6 |\n| Tax rate | 25\\% |\n| Fixed Assets | Rs. 39,00,000 |\n| Current Ratio | 1.8: 1 |\n\nYou are required to calculate:\n\n(i) Interest Coverage Ratio\n\n(ii) Gross Profit Ratio\n\n(iii) Current Assets\n\nAdditional Derived Information:\n- Shareholders' Equity is Rs. 30,00,000.\n- Profit After Tax (PAT) is Rs. 16,20,000.\n- Profit Before Tax (PBT) is Rs. 21,60,000.\n- Operating Profit is Rs. 27,22,500.\n- Sales is Rs. 1,81,50,000.\n- Current Liabilities are Rs. 45,00,000.",
           "answer": "## Answer 19\n\n\n## Working Notes:\n\nDebt = Rs.45,00,000\n\nInterest \\quad=Rs. 45,00,000 \\times 12.5 \\%=5,62,500\n\nDebt to Equity\n\n$$\n=1.5: 1=\\frac{\\text { Total Debt }}{\\text { Shareholders'Equity }}\n$$\n\n\n![](https://cdn.mathpix.com/cropped/51dba4ff-30e2-4111-9446-9c1b0f320b04-44.jpg?height=187&width=214&top_left_y=35&top_left_x=249)\n\n\nEquity\n= Rs. 30,00,000\n\nReturn of Shareholder's funds $=54 \\%$\n\n$$\n=\\frac{\\text { Net Profit after taxes }}{\\text { Equity shareholders'fund }} \\times 100\n$$\n\nProfit after tax (PAT)\nProfit before tax (PBT) (1-25\\%)\n\n$$\n=54 \\% \\times \\text { Equity }=Rs. 16,20,000\n$$\n\n= Profit after tax\n$=Rs. 16,20,000 / 75 \\%=Rs. 21,60,000$\n\n\n## Earning before interest and tax (EBIT)\n\n(i) Interest Coverage Ratio\n\n(ii) Operating Profit Ratio\n\n$$\n\\begin{aligned}\n& =\\mathrm{PBT}+\\text { Interest } \\\\\n& =Rs. 21,60,000+Rs. 5,62,500 \\\\\n& =Rs. 27,22,500\n\\end{aligned}\n$$\n\n\n$$\n\\begin{aligned}\n& =1 \\text { - Operating Ratio } \\\\\n& =1-0.85=0.15 \\text { or } 15 \\%\\n\\end{aligned}\n$$\n\n\n$$\n0.15=\\frac{\\text { Operating Profit }}{\\text { sales }} \\times 100\n$$\n\nSales\n= EBIT or Operating Profit /0.15\n= Rs. 27,22,500 / 0.15\n= Rs. 1,81,50,000\nOperating ratio\n\n$$\n=\\frac{\\text { Operating expenses }}{\\text { Cost of goods sold (COGS) }}=2: 6=1: 3\n$$\n\nOperating expenses\n= 1/3COGS\n\nOperating cost\n= Sales - Operating profit\nRs. 1,54,27,500\nRs. 1,54,27,500\n\nCOGS\nGross profit\n= COGS + Operating expenses\n= COGS + 1/3COGS\n= Rs. 1,15,70,625\n= Sales - COGS\n= 1,81,50,000-821,15,70,625\n= Rs. 65,79,375\n$=\\frac{\\text { Gross Profit }}{\\text { Sales }} \\times 100$\n= 65,79,375/1,81,50,000\n= 0.3625 or 36.25\\%\n\nGross profit and sales can be calculated in alternative way also. However, there will be no change in GP ratio i.e 36.25\\%\n\n(iii) Current Ratio\n\n\n## Current Assets\n\nTotal of Balance sheet liability\n\n$$\n\\begin{gathered}\n=\\frac{\\text { Current Assets }}{\\text { CurrentLiabilities }} \\\\\n=1.8\n\\end{gathered}\n$$\n\n= 1.8 Current Liabilities\n= Equity + Debt + Current Liabilities\n\n$$\n\\begin{equation*}\n=30,00,000+45,00,000+\\mathrm{CL} \\tag{2}\n\\end{equation*}\n$$\n\n= Fixed Assets + Current Assets\n\n$$\n\\begin{equation*}\n=39 \\text { lakhs }+ \\text { CA }=39+1.8 \\mathrm{CL} \\tag{3}\n\\end{equation*}\n$$\n\nEquating 2 and 3 ,\n\n$75,00,000+\\mathrm{CL}$\n0.8 CL\nCL\nCurrent Assets\n\n$$\n\\begin{aligned}\n& =39,00,000+1.8 \\mathrm{CL} \\\\\n& =36,00,000 \\\\\n& =Rs. 45,00,000 \\\\\n& =1.8 \\mathrm{CL}=1.8 \\times 45 \\text { lakhs = Rs.81,00,000 }\n\\end{aligned}\n$$\n\n\nExam insights: Students often lose marks on gross profit ratio by using incorrect sales or COGS. Doublecheck the formula and adjust properly for opening and closing stock before computing.",
           "chapter_number": "3",
           "chapter_name": "FINANCIAL ANALYSIS AND PLANNING - RATIO ANALYSIS",
@@ -557,8 +287,8 @@
           "label": "c",
           "marks": 5,
           "internal_split": null,
-          "question": "Global Beverage Corporation is considering replacing one of its bottling machines with a newer and more efficient model. The existing machine was purchased five years ago for ₹ 16,00,000 and has a total useful life of ten years. Currently, the company can sell this machine for ₹ 9,60,000. The new machine costs ₹ 32,00,000 having an estimated salvage value of ₹ 3,20,000 and a useful life of five years. With the new machine, annual contribution margin is projected to increase from ₹ 16,00,000 to ₹ 18,40,000 and operating efficiencies are expected to yield further annual savings of ₹ 3,20,000. Depreciation is calculated on a straight-line method over the machine's five-year life. The company's cost of capital is 12% and corporate tax rate is 33%.\n\nYou are required to calculate the Net Present Value of new machine.\n\nGiven: PVIFA_{0.12,5} is 3.605 and PVIF_{0.12,5} is 0.567\n\n(5 Marks)",
-          "answer": "If Tax on sale of existing machine is not taken\n\nCalculation of Net Initial Cash Outflows:\n\n| Particulars                                   | ₹        |\n|-----------------------------------------------|----------|\n| Cost of new machine                           | 32,00,000|\n| Less: Sale proceeds of existing machine       | (9,60,000)|\n| Net initial cash outflows                     | 22,40,000|\n\nAccordingly, NPV Will be ₹ 20,28,930 - ₹ 22,40,000 = (₹ 2,11,070)\n\nCalculation of Net Initial Cash Outflows:\n\n| Particulars                                      | ₹          |\n|--------------------------------------------------|------------|\n| Cost of new machine                              | 32,00,000  |\n| Less: Sale proceeds of existing machine          | (9,60,000) |\n| Add: Tax paid on sale of existing machine (₹9,60,000 – 8,00,000) × 33%) | 52,800     |\n| Net initial cash outflows                        | 22,92,800  |\n\nCalculation of Net Present Value of new machine\n\n| Particulars                                      | ₹          |\n|--------------------------------------------------|------------|\n| Incremental Contribution                         | 2,40,000   |\n| Add: Cost saving                                 | 3,20,000   |\n| Savings                                          | 5,60,000   |\n| Less: Incremental Depreciation {5,76,000-1,60,000}| 4,16,000   |\n| Incremental Profit Before Tax                    | 1,44,000   |\n| Less: Tax @ 33%                                  | 47,520     |\n| Profit After Tax                                 | 96,480     |\n| Add: Depreciation                                | 4,16,000   |\n| Cash Inflow                                      | 5,12,480   |\n| PVIFA                                            | 3.605      |\n| PV of Cash Inflow                                | 18,47,490  |\n| Add: PV of Salvage Value of new machine (₹ 3,20,000 × 0.567) | 1,81,440   |\n| Total PV of Cash Inflow                          | 20,28,930  |\n| Less: Initial Cash Outflow                       | 22,92,800  |\n| NPV                                              | (2,63,870) |",
+          "question": "If Tax on sale of existing machine is not taken\n\nCalculation of Net Initial Cash Outflows:\n\n| Particulars                                   | ₹        |\n|-----------------------------------------------|----------|\n| Cost of new machine                           | 32,00,000|\n| Less: Sale proceeds of existing machine       | (9,60,000)|\n| Net initial cash outflows                     | 22,40,000|\n\nAccordingly, NPV Will be ₹ 20,28,930 - ₹ 22,40,000 = (₹ 2,11,070)\n\nCalculation of Net Initial Cash Outflows:\n\n| Particulars                                      | ₹          |\n|--------------------------------------------------|------------|\n| Cost of new machine                              | 32,00,000  |\n| Less: Sale proceeds of existing machine          | (9,60,000) |\n| Add: Tax paid on sale of existing machine (₹9,60,000 – 8,00,000) × 33%) | 52,800     |\n| Net initial cash outflows                        | 22,92,800  |\n\nCalculation of Net Present Value of new machine\n\n| Particulars                                      | ₹          |\n|--------------------------------------------------|------------|\n| Incremental Contribution                         | 2,40,000   |\n| Add: Cost saving                                 | 3,20,000   |\n| Savings                                          | 5,60,000   |\n| Less: Incremental Depreciation {5,76,000-1,60,000}| 4,16,000   |\n| Incremental Profit Before Tax                    | 1,44,000   |\n| Less: Tax @ 33%                                  | 47,520     |\n| Profit After Tax                                 | 96,480     |\n| Add: Depreciation                                | 4,16,000   |\n| Cash Inflow                                      | 5,12,480   |\n| PVIFA                                            | 3.605      |\n| PV of Cash Inflow                                | 18,47,490  |\n| Add: PV of Salvage Value of new machine (₹ 3,20,000 × 0.567) | 1,81,440   |\n| Total PV of Cash Inflow                          | 20,28,930  |\n| Less: Initial Cash Outflow                       | 22,92,800  |\n| NPV                                              | (2,63,870) |\n\nGlobal Beverage Corporation is considering replacing one of its bottling machines with a newer and more efficient model. The existing machine was purchased five years ago for ₹ 16,00,000 and has a total useful life of ten years. Currently, the company can sell this machine for ₹ 9,60,000. The new machine costs ₹ 32,00,000 having an estimated salvage value of ₹ 3,20,000 and a useful life of five years. With the new machine, annual contribution margin is projected to increase from ₹ 16,00,000 to ₹ 18,40,000 and operating efficiencies are expected to yield further annual savings of ₹ 3,20,000. Depreciation is calculated on a straight-line method over the machine's five-year life. The company's cost of capital is 12% and corporate tax rate is 33%.\n\nYou are required to calculate the Net Present Value of new machine.\n\nGiven: PVIFA_{0.12,5} is 3.605 and PVIF_{0.12,5} is 0.567\n\n(5 Marks)",
+          "answer": "",
           "chapter_number": "8",
           "chapter_name": "DIVIDEND DECISION",
           "unique_id": "FM-REPLACED-4"
@@ -605,7 +335,7 @@
           "label": "a",
           "marks": 5,
           "internal_split": null,
-          "question": "INFO Ltd is a listed company having share capital of Rs. 2400 Crores of Rs. 5 each. During the year 20X1-X2, the dividends distributed per share amount to Rs. 50.\\n\\n| Dividend distributed | $1000\\%$ \\n| :--- | ---: |\\n| Expected Annual growth rate in dividend | $14\\%$ |\\n| Expected rate of return on its equity capital | $18\\%$ |\\n\\n## Required:\\n\\n(a) Calculate price of share applying Gordon's growth Model.\\n\\n(b) What will be the price of share if the Annual growth rate in dividend is only $10\\%$ ?\\n\\n(c) According to Gordon's growth Model, if Internal Rate of Return is $\\mathbf{2 5 \\%}$, then what should be the optimum dividend payout ratio in case of growing stage of company? Comment.",
+          "question": "Question 11 (PYP 5 Marks, Nov'23)\n\nINFO Ltd is a listed company having share capital of Rs. 2400 Crores of Rs. 5 each. During the year 20X1-X2\n\n| Dividend distributed | $1000 \\%$ |\n| :--- | ---: |\n| Expected Annual growth rate in dividend | $14 \\%$ |\n| Expected rate of return on its equity capital | $18 \\%$ |\n\n## Required:\n\n(a) Calculate price of share applying Gordon's growth Model.\n\n(b) What will be the price of share if the Annual growth rate in dividend is only $10 \\%$ ?\n\n(c) According to Gordon's growth Model, if Internal Rate of Return is $\\mathbf{2 5 \\%}$, then what should be the optimum dividend payout ratio in case of growing stage of company? Comment.",
           "answer": "(a) In the present situation, the current MPS is as follows: $\\mathrm{P}=\\frac{\\mathrm{D} 0(1+\\mathrm{g})}{\\mathrm{K}_{\\mathrm{e}}-\\mathrm{g}}$  \n\nWhere,\n\nP = Market price per share\n\nD0 = current year dividend\n\n$\\mathrm{g}=$ growth rate of dividends\n\nKe = cost of equity capital/ expected rate of return\n\n$$\nP=\\frac{50(1+0.14)}{0.18-0.14}=Rs. 1425\n$$\n\n(b) The impact of changes in growth rate to $10 \\%$ on MPS will be as follows: $P=\\frac{50(1+0.10)}{0.18-0.10}=Rs. 687.5$\n\n(c) If Internal rate of return, $\\mathrm{r}=25 \\%$ and $\\mathrm{Ke}=18 \\%$  \n\nAs per Gordon's model, when $\\mathrm{r}>\\mathrm{Ke}$, optimum dividend payout ratio is 'Zero'. When IRR is greater than cost of capital, the price per share increases and dividend pay- out decreases.\n\nExam Insights: Students showed average performance in the dividend decision question due to errors in Gordon's Growth Model. Recheck the formula $-\\mathrm{P}=\\frac{\\mathrm{D}_{1}}{\\mathrm{k}-\\mathrm{g}}$-and calculate next year's dividend correctly before substitution.",
           "chapter_number": "8",
           "chapter_name": "DIVIDEND DECISION",
@@ -631,52 +361,34 @@
       "chapter_number": "8",
       "sub_questions": [
         {
-          "label": "a_v1",
-          "marks": 6,
-          "internal_split": null,
-          "question": "[New Version - v1] What is debt securitization? EXPLAIN the basics of debt securitization process. (MTP 4 Marks, Oct'19, Mar'23, Mar'25, RTP May '19, May '20, May'23, Nov'23, PYP 4 Marks, May '19)",
-          "answer": "Debt Securitization: It is a method of recycling of funds. It is especially beneficial to financial intermediaries to support the lending volumes. Assets generating steady cash flows are packaged together and against this asset pool, market securities can be issued, e.g. housing finance, auto loans, and credit card receivables.\n\n## Process of Debt Securitization\n\n(i) The origination function - A borrower seeks a loan from a finance company, bank, HDFC. The credit worthiness of borrower is evaluated and contract is entered into with repayment schedule structured over the life of the loan.\n\n(ii) The pooling function - Similar loans on receivables are clubbed together to create an underlying pool of assets. The pool is transferred in favor of Special Purpose Vehicle (SPV), which acts as a trustee for investors.\n\n(iii) The securitization function - SPV will structure and issue securities on the basis of asset pool. The securities carry a coupon and expected maturity which can be asset-based/mortgage based. These are generally sold to investors through merchant bankers. Investors are - pension funds, mutual funds, insurance funds. The process of securitization is generally without recourse i.e. investors bear the credit risk and issuer is under an obligation to pay to investors only if the cash flows are received by him from the collateral. The benefits to the originator are that assets are shifted off the balance sheet, thus giving the originator recourse to offbalance sheet funding.",
-          "chapter_number": "2",
-          "chapter_name": "TYPES OF FINANCING",
-          "unique_id": "2-T-28",
-          "or_group": "Q4a_v1_v2",
-          "question_id": "B-Q4-Q4a_v1"
-        },
-        {
-          "label": "a_v2",
+          "label": "a",
           "marks": 3,
           "internal_split": null,
-          "question": "[Old Version - v2] EquipLease Financial Services Ltd. is a specialized equipment leasing company that has been operating in the industrial equipment financing space for over 15 years. The company's business model involves purchasing high-value machinery and leasing it to manufacturing companies, thereby earning returns through lease rentals while retaining ownership of the assets. The company has built a strong reputation for providing flexible financing solutions tailored to clients' cash flow patterns and business cycles. Their leasing arrangements help clients conserve capital while accessing state-of-the-art equipment.\n\nEquipLease has recently purchased a specialized CNC precision machine with the following information:\n\n- **Purchase Cost:** ₹ 10,00,000 (paid upfront)\n- **Expected Useful Life:** 4 years\n- **Residual/Salvage Value:** Nil (technology becomes obsolete)\n- **Depreciation for Tax Purposes:** Can be claimed by EquipLease under Straight line method (SLM) or Units of Production method(UOP)\n- **Lease Rentals earned by company is subject to tax.**\n- **EquipLease's Cost of Capital:** 10% per annum\n- **Corporate Tax Rate:** 25%\n\nTechManufacture Industries Ltd., a growing precision engineering company, has approached EquipLease expressing interest in leasing this",
-          "answer": "Statement Showing PV of yearly lease rentals when charged in UOP Ratio\n\n| Year | Particulars          | SLM      | UOP      |\n|------|----------------------|----------|----------|\n| 1    | Lease rentals = X    | 1,41,674 | 1,43,348 |\n|      | 0.682X               | 96,622   | 97,763   |\n| 2    | 1.239X               | 1,75,534 | 1,77,608 |\n| 3    | 1.690X               | 2,39,429 | 2,42,258 |\n| 4    | 2.049X               | 2,93,290 | 2,93,720 |\n|      | PV of Total after tax lease rental | 8,01,875 | 8,11,350 |\n\nStatement Showing PV of yearly lease rentals when charged Equally\n\n| Year | Particulars          | SLM      | UOP      |\n|------|----------------------|----------|----------|\n| 1    | Lease rentals = X    | 3,37,206 | 3,41,190 |\n|      | 0.682X (0.909 x 0.75)| 2,29,974 | 2,32,692 |\n| 2    | 0.620X (0.826 x 0.75)| 2,09,068 | 2,11,538 |\n| 3    | 0.563X (0.751 x 0.75)| 1,89,847 | 1,92,090 |\n| 4    | 0.512X (0.683 x 0.75)| 1,72,649 | 1,74,689 |\n|      | PV of Total after tax lease rental | 8,01,539* | 8,11,009* |\n\n* Difference is due to rounding off in PVAF\n\nCalculation of PV of Tax savings under Units of Production (UOP)\n\n| Year | Depreciation | Tax savings | PVF @ 10% | PV of Tax Savings |\n|------|--------------|-------------|-----------|-------------------|\n| 1    | 1,00,000     | 25,000      | 0.909     | 22,725            |\n| 2    | 2,00,000     | 50,000      | 0.826     | 41,300            |\n| 3    | 3,00,000     | 75,000      | 0.751     | 56,325            |\n| 4    | 4,00,000     | 1,00,000    | 0.683     | 68,300            |\n|      |              |             |           | 1,88,650          |\n\nLet lease rental of 1st year be X\n\nPV of after tax Lease rentals charged as per client's utilization pattern\n\n| Year | Lease rentals | After Tax Lease Rentals | PVF @ 10% | PV of Lease Rentals |\n|------|---------------|-------------------------|-----------|----------------------|\n| 1    | X             | 0.75X                   | 0.909     | 0.682X               |\n| 2    | 2X            | 1.5X                    | 0.826     | 1.239X               |\n| 3    | 3X            | 2.25X                   | 0.751     | 1.690X               |\n| 4    | 4X            | 3X                      | 0.683     | 2.049X               |\n|      |               |                         |           | 5.660X               |\n\nPV of after tax Lease rentals charged equally\n\nLet annual lease rental be X\n\nX × (1 – 25%) × 3.17(PVAF @ 10%) = 2.378X\n\nInvestment to be recovered from lease rentals\n\n| Particulars                        | In UOP Ratio | Equally     |\n|------------------------------------|--------------|-------------|\n|                                    | SLM          | UOP         | SLM         | UOP         |\n| Investment                         | 10,00,000    | 10,00,000   | 10,00,000   | 10,00,000   |\n| PV of Tax savings on Depreciation  | 1,98,125     | 1,88,650    | 1,98,125    | 1,88,650    |\n| Investment to be recovered         | 8,01,875     | 8,11,350    | 8,01,875    | 8,11,350    |\n| PV of after-tax Lease rentals      | 5.660X       | 5.660X      | 2.378X      | 2.378X      |\n| Lease rentals = X                  | 1,41,674     | 1,43,348    | 3,37,206    | 3,41,190    |\n\nCalculation of PV of Tax savings under Straight line method (SLM)\n\n| Particulars                     | Result                                      |\n|--------------------------------|---------------------------------------------|\n| Annual Depreciation            | 10 Lakhs / 4 Years = 2,50,000               |\n| PV of Tax savings on above     | 2,50,000 Lakhs x 25% x PVAF @ 10% i.e. 3.170 = 1,98,125 |\n\nCNC machine. TechManufacture has provided detailed information about their expected utilization pattern:\n\nThe machine's usage will follow a graduated ramp-up pattern based on TechManufacture's order book projections:\n\n| Year | Production Capacity Utilization | Relative Units |\n|------|---------------------------------|----------------|\n| 1    | Low (Initial phase)             | 1 unit         |\n| 2    | Medium                          | 2 units        |\n| 3    | High                            | 3 units        |\n| 4    | Peak                            | 4 units        |\n\nThis pattern is typical for businesses scaling up production with new equipment - starting slow as operators are trained and processes are optimized, then ramping up to full capacity. The Client wants the company to charge lease rentals based on the client's utilization pattern 1:2:3:4.\n\nMr. Vikram Malhotra, the Chief Credit Officer at EquipLease, is tasked with structuring an appropriate lease arrangement. He faces several strategic decisions:\n\ni. HOW MUCH portion of the cost is recovered from tax savings on depreciation under both the methods viz. SLM & units of production method.\n\nii. FIND the portion of investment to be recovered from lease rentals under both the assumptions i.e. Depreciation under both the methods viz. SLM & units of production method.\n\niii. DETERMINE minimum lease rentals needed to recover the balance cost of investment after adjusting the Tax shields on the depreciation under both the depreciation methods if -\n\n- EquipLease charge uniform (equal) rentals over 4 years\n- Lease rentals follow the client's utilization pattern (1:2:3:4)\n\nInvestment Decisions\n\n8.",
+          "question": "Question 1 (MTP 2 Marks, Jul'24,MP[4])\n\nDISCUSS the parameters of Lintner's Model.",
+          "answer": "Lintner's model has two parameters:\n\ni. The target payout ratio,\n\nii. The spread at which current dividends adjust to the target.",
           "chapter_number": "8",
           "chapter_name": "DIVIDEND DECISION",
-          "unique_id": "FM-REPLACED-6",
-          "or_group": "Q4a_v1_v2",
-          "question_id": "B-Q4-Q4a_v2"
+          "unique_id": "8-T-1"
         },
         {
-          "label": "b_v1",
-          "marks": 4,
-          "internal_split": null,
-          "question": "[New Version - v1] Is there any difference between crowd funding and peer to peer lending? EXPLAIN briefly. (MTP 4 Marks Aug'25)",
-          "answer": "## Difference between Crowd funding and Peer-to-Peer (P2P) lending\n\nCrowd funding: In simple terms, crowdfunding means raising money for an individual or organisation from a group of people to fund a project, typically via internet (social media and crowdfunding websites). It generally involves collecting funds from family, friends, strangers, corporates and many more in exchange of equity\n\n(known as Equity funding), loans (known as P2P lending) or nothing at all (i.e. donation). This source of funding also helps start-up to substantiate demand for their product before entering into production.\n\nPeer-to-Peer (P2P) lending: It is that category of crowdfunding where lenders match with the borrowers in order to provide unsecured loans through online platform. The fund raised are paid back by the borrowers with interest, though this kind of lending involves certain risk of defaults (just as the banks bear in the case of conventional method of lending). Anyone interested in investing money under P2P lending can visit the P2P lending platforms and choose amongst borrowers considering risk & returns. Some of the platforms offering P2P lending are i2iFunding, Lendbox, Faircent, Rupee Circle, etc.\n\nHence, we can say that the crowd funding is a broader concept and P2P lending is basically a part of crowd funding.",
-          "chapter_number": "2",
-          "chapter_name": "TYPES OF FINANCING",
-          "unique_id": "2-T-34",
-          "or_group": "Q4b_v1_v2",
-          "question_id": "B-Q4-Q4b_v1"
-        },
-        {
-          "label": "b_v2",
+          "label": "b",
           "marks": 3.5,
           "internal_split": null,
-          "question": "[Old Version - v2] The capital structure of RSA Limited is as under:\n\n|                                      | (₹)         |\n|--------------------------------------|-------------|\n| Equity Shares (₹ 10 per share)       | 1,00,00,000 |\n| 8% Irredeemable Preference Shares (₹100 per share) | 5,00,00,000 |\n\nAdditional Information:\n\n(i)  Equity shares are quoted at ₹ 60 each and a new issue priced at ₹ 60 will be fully subscribed; flotation cost will be ₹ 4 per share.\n\n(ii) Issue price of the 8% Irredeemable preference shares was ₹ 45.\n\n(iii) Current market price of the 8% irredeemable preference shares is ₹ 55.\n\nRSA Limited has been paying dividend to its equity shareholders at a constant growth rate of 5% per year and the dividend paid this year was ₹ 2 per equity share.\n\nYou are required to calculate:\n\n(i)   The cost of equity using Gordon's model\n\n(ii)  The cost of the irredeemable preference share\n\n(iii) The weighted average cost of capital using market value weights.",
-          "answer": "= \\dfrac{8}{45}  \n= 17.78%\n\n(iii) Calculation of WACC using market value weights\n\n| Source of capital   | Market Value (₹) | Weights (a) | Cost of capital (b) | WACC (K₀) (c) = (a)×(b) |\n|---------------------|------------------|-------------|----------------------|-------------------------|\n| Equity shares       | 6,00,00,000      | 0.6857      | 0.0875               | 0.0600                  |\n| Preference shares   | 2,75,00,000      | 0.3143      | 0.1778               | 0.0559                  |\n|                     | 8,75,00,000      | 1           |                      | 0.1159                  |\n\nWACC (K₀) = 0.1159% or 11.59%\n\nIf P₀ is taken as current market price for calculation of preference share\n\n(ii) $K_P = \\dfrac{PD}{P_0}$  \n= \\dfrac{8}{55}  \n= 14.55%\n\n(iii) Calculation of WACC using market value weights\n\n| Source of capital   | Market Value (₹) | Weights (a) | Cost of capital (b) | WACC (K₀) (c) = (a)×(b) |\n|---------------------|------------------|-------------|----------------------|-------------------------|\n| Equity shares       | 6,00,00,000      | 0.6857      | 0.0875               | 0.06                    |\n| Preference shares   | 2,75,00,000      | 0.3143      | 0.1455               | 0.0457                  |\n|                     | 8,75,00,000      | 1           |                      | 0.1057                  |\n\nWACC (K₀) = 0.1057% or 10.57%\n\n(i) \\hspace{0.5cm} K_e \\hspace{0.2cm} = \\hspace{0.2cm} \\frac{D_1}{P_0 - F} + g\n\n\\hspace{1.5cm} = \\hspace{0.2cm} \\frac{2(1+0.05)}{60-4} + 5\n\n\\hspace{1.5cm} = \\hspace{0.2cm} 8.75\\%\n\n(ii) \\hspace{0.5cm} K_P \\hspace{0.2cm} = \\hspace{0.2cm} \\frac{PD}{P_0}",
+          "question": "= \\dfrac{8}{45}  \n= 17.78%\n\n(iii) Calculation of WACC using market value weights\n\n| Source of capital   | Market Value (₹) | Weights (a) | Cost of capital (b) | WACC (K₀) (c) = (a)×(b) |\n|---------------------|------------------|-------------|----------------------|-------------------------|\n| Equity shares       | 6,00,00,000      | 0.6857      | 0.0875               | 0.0600                  |\n| Preference shares   | 2,75,00,000      | 0.3143      | 0.1778               | 0.0559                  |\n|                     | 8,75,00,000      | 1           |                      | 0.1159                  |\n\nWACC (K₀) = 0.1159% or 11.59%\n\nIf P₀ is taken as current market price for calculation of preference share\n\n(ii) $K_P = \\dfrac{PD}{P_0}$  \n= \\dfrac{8}{55}  \n= 14.55%\n\n(iii) Calculation of WACC using market value weights\n\n| Source of capital   | Market Value (₹) | Weights (a) | Cost of capital (b) | WACC (K₀) (c) = (a)×(b) |\n|---------------------|------------------|-------------|----------------------|-------------------------|\n| Equity shares       | 6,00,00,000      | 0.6857      | 0.0875               | 0.06                    |\n| Preference shares   | 2,75,00,000      | 0.3143      | 0.1455               | 0.0457                  |\n|                     | 8,75,00,000      | 1           |                      | 0.1057                  |\n\nWACC (K₀) = 0.1057% or 10.57%\n\n(i) \\hspace{0.5cm} K_e \\hspace{0.2cm} = \\hspace{0.2cm} \\frac{D_1}{P_0 - F} + g\n\n\\hspace{1.5cm} = \\hspace{0.2cm} \\frac{2(1+0.05)}{60-4} + 5\n\n\\hspace{1.5cm} = \\hspace{0.2cm} 8.75\\%\n\n(ii) \\hspace{0.5cm} K_P \\hspace{0.2cm} = \\hspace{0.2cm} \\frac{PD}{P_0}\n\n(a) The capital structure of RSA Limited is as under:\n\n|                                      | (₹)         |\n|--------------------------------------|-------------|\n| Equity Shares (₹ 10 per share)       | 1,00,00,000 |\n| 8% Irredeemable Preference Shares (₹100 per share) | 5,00,00,000 |\n\nAdditional Information:\n\n(i)  Equity shares are quoted at ₹ 60 each and a new issue priced at ₹ 60 will be fully subscribed; flotation cost will be ₹ 4 per share.\n\n(ii) Issue price of the 8% Irredeemable preference shares was ₹ 45.\n\n(iii) Current market price of the 8% irredeemable preference shares is ₹ 55.\n\nRSA Limited has been paying dividend to its equity shareholders at a constant growth rate of 5% per year and the dividend paid this year was ₹ 2 per equity share.\n\nYou are required to calculate:\n\n(i)   The cost of equity using Gordon's model\n\n(ii)  The cost of the irredeemable preference share\n\n(iii) The weighted average cost of capital using market value weights.",
+          "answer": "",
           "chapter_number": "2",
           "chapter_name": "TYPES OF FINANCING",
-          "unique_id": "FM-REPLACED-5",
-          "or_group": "Q4b_v1_v2",
-          "question_id": "B-Q4-Q4b_v2"
+          "unique_id": "FM-REPLACED-5"
+        },
+        {
+          "label": "c",
+          "marks": 3.5,
+          "internal_split": null,
+          "question": "A company is evaluating two options for financing its current assets: using short-term loans or long-term loans. HOW should the company balance risk and return in making this decision, and WHAT factors should it consider to ensure optimal financing? [MTP 4 Marks Nov'24], MP[6], MP[8]",
+          "answer": "The financing of current assets involves a trade off between risk and return. A firm can choose from short or long term sources of finance. Short term financing is less expensive than long term financing but at the same time, short term financing involves greater risk than long term financing.\n\nDepending on the mix of short term and long term financing, the approach followed by a company may be referred as matching approach, conservative approach and aggressive approach.\n\nIn matching approach, long-term finance is used to finance fixed assets and permanent current assets and short term financing to finance temporary or variable current assets. Under the conservative plan, the firm finances its permanent assets and also a part of temporary current assets with long term financing and hence less risk of facing the problem of shortage of funds.\n\nAn aggressive policy is said to be followed by the firm when it uses more short term financing than warranted by the matching plan and finances a part of its permanent current assets with short term financing.",
+          "chapter_number": "2",
+          "chapter_name": "TYPES OF FINANCING",
+          "unique_id": "2-T-29"
         }
       ],
       "section": 1
@@ -688,76 +400,34 @@
       "chapter_number": "12",
       "sub_questions": [
         {
-          "label": "a_v1",
+          "label": "a",
           "marks": 5,
           "internal_split": null,
-          "question": "[New Version - v1] Case Study\n\nNatureGlow Cosmetics Ltd. has developed a strong brand image for its organic skincare products. The company enjoys a loyal customer base and possesses an experienced research team. However, its production capacity is limited compared to competitors.\n\nThe demand for organic products is rapidly increasing worldwide. At the same time, several multinational corporations are entering the organic skincare market with substantial financial resources.\n\nUsing SWOT Analysis, analyse the strategic position of NatureGlow Cosmetics Ltd.",
-          "answer": "SWOT Analysis is a strategic tool used to identify an organisation's internal strengths and weaknesses and external opportunities and threats.\n\nSWOT Analysis of NatureGlow Cosmetics Ltd.\n\n| SWOT Element | Particulars |\n| --- | --- |\n| Strengths | Strong brand image, loyal customer base, experienced research team |\n| Weaknesses | Limited production capacity |\n| Opportunities | Growing global demand for organic skincare products |\n| Threats | Entry of multinational competitors with strong financial resources |\n\nInterpretation\n\nThe company should leverage its strong brand image and loyal customers to capitalize on growing market demand.\n\nIt should overcome capacity constraints through expansion, outsourcing, or strategic alliances.\n\nCompetitive strategies should be developed to counter multinational entrants.\n\nConclusion\n\nNatureGlow Cosmetics Ltd. possesses significant internal strengths and favourable market opportunities, but it must address capacity limitations and increasing competition to sustain long-term growth.",
-          "chapter_number": "11",
-          "chapter_name": "INTRODUCTION TO STRATEGIC MANAGEMENT",
-          "unique_id": "FM-REPLACED-sm_6",
-          "or_group": "Q5a_v1_v2",
-          "question_id": "B-Q5-Q5a_v1"
-        },
-        {
-          "label": "a_v2",
-          "marks": 5,
-          "internal_split": null,
-          "question": "[Old Version - v2] Explain briefly the primary activities that are grouped into five main activities under Value chain analysis. (MTP 5 Marks April '23) (PYP 5 Marks Sep'24) (RTP sep'25)",
+          "question": "Explain briefly the primary activities that are grouped into five main activities under Value chain analysis. (MTP 5 Marks April '23) (PYP 5 Marks Sep'24) (RTP sep'25)",
           "answer": "Yes, I agree with the statement that Value Chain Analysis consist of two activities: Primary activities and Support activities. As per Michael Porter both the activities are intertwined. It is a tool used to examine the activities that create value in an organization, helping to enhance efficiency and build competitive advantage. It breaks down a business's operations to identify areas for improvement in value creation.\n\nThe primary activities of an organization are categorized into five areas:\n\n\n1. Inbound logistics: Activities related to receiving, storing, and distributing inputs (e.g., materials handling, stock control, and transport).\n\n2. Operations: Transforming inputs into final products or services (e.g., machining, packaging, assembly).\n\n3. Outbound logistics: Collecting, storing, and delivering products to customers (e.g., warehousing, transport).\n\n4. Marketing and sales: Promoting and selling the product or service, including advertising and sales administration.\n\n5. Service: Enhancing or maintaining product value (e.g., installation, repair, training).",
           "chapter_number": "12",
           "chapter_name": "STRATEGIC ANALYSIS: EXTERNAL",
-          "unique_id": "12-T-13",
-          "or_group": "Q5a_v1_v2",
-          "question_id": "B-Q5-Q5a_v2"
+          "unique_id": "12-T-13"
         },
         {
-          "label": "b_v1",
+          "label": "b",
           "marks": 5,
           "internal_split": null,
-          "question": "[New Version - v1] FreshBite Foods Ltd. manufactures healthy snacks and operates in a highly competitive market. Several competitors offer similar products at lower prices. Instead of competing on price, FreshBite has invested heavily in research and development, introduced unique organic ingredients, eco-friendly packaging, and personalized nutrition plans through its mobile application. Customers perceive its products as premium and are willing to pay higher prices.\n\nIdentify and explain the business-level strategy being followed by FreshBite Foods Ltd.",
-          "answer": "FreshBite Foods Ltd. is following a Differentiation Strategy.\n\nUnder a differentiation strategy, a company seeks to distinguish its products or services from those of competitors by offering unique features that are valued by customers.\n\nFeatures indicating differentiation strategy in the case:\n\nUse of unique organic ingredients.\n\nEco-friendly packaging.\n\nPersonalized nutrition plans through mobile application.\n\nPremium customer perception.\n\nAbility to charge higher prices.\n\nBenefits of Differentiation Strategy:\n\nCreates customer loyalty.\n\nReduces price sensitivity.\n\nBuilds a strong brand image.\n\nProvides competitive advantage over rivals.\n\nHence, FreshBite Foods Ltd. is pursuing a Differentiation Business-Level Strategy.",
-          "chapter_number": "12",
-          "chapter_name": "STRATEGIC ANALYSIS: EXTERNAL",
-          "unique_id": "FM-REPLACED-sm_1",
-          "or_group": "Q5b_v1_v2",
-          "question_id": "B-Q5-Q5b_v1"
-        },
-        {
-          "label": "b_v2",
-          "marks": 5,
-          "internal_split": null,
-          "question": "[Old Version - v2] Question 27 (MTP 5 Marks Oct '23)\n\n\"XYZ Ltd., a multi-product company, has been experiencing consistent losses in recent years, leading to a significant erosion of its net worth. What strategic options should the management consider addressing the company's current situation? Provide recommendations along with supporting reasons.\"",
+          "question": "Question 27 (MTP 5 Marks Oct '23)\n\n\"XYZ Ltd., a multi-product company, has been experiencing consistent losses in recent years, leading to a significant erosion of its net worth. What strategic options should the management consider addressing the company's current situation? Provide recommendations along with supporting reasons.\"",
           "answer": "XYZ Ltd. is a sick company with accumulated losses that have eroded its net worth. The multi -product company may analyse its various products to take decisions on the viability of each. The company may consider a retrenchment strategy. Retrenchment becomes necessary for coping with hostile and adverse situations in the environment and when any other strategy is likely to be suicidal.\n\nRetrenchment strategy is adopted because of continuous losses and unviability and stability can be ensured by reallocation of resources from unprofitable to profitable businesses.\n\nRetrenchment strategy is followed when an organization substantially reduces the scope of its activity. This is done through an attempt to find out the problem areas and diagnose the causes of the problems. Next, steps are taken to solve the problems. These steps result in different kinds of retrenchment strategies as follows:\n\nTurnaround strategy: If the organization chooses to transform itself into a leaner structure and focuses on ways and means to reverse the process of decline, it adopts a turnaround strategy. It may try to reduce costs, eliminate unprofitable outputs, generate revenue, improve coordination, better control, and so on.\n\nDivestment Strategy: Divestment strategy involves the sale or liquidation of a portion of business, or a major division, profit centre or SBU. Divestment is usually a part of a rehabilitation or restructuring plan and is adopted when a turnaround has been attempted but has proved to be unsuccessful.\n\nLiquidation Strategy: In the retrenchment strategy, the most extreme and unattractive is liquidation strategy. It involves closing down a firm and selling its assets. It is considered as the last resort because it leads to serious consequences such as loss of employment for workers and other employees, termination of opportunities where a firm could pursue any future activities, and the stigma of failure.\n\nThe management of multiproduct sick company manufacturing various items need to understand pros and cons of each strategic option. The decision will depend upon the specific circumstances of each product and the management goals of the company.",
           "chapter_number": "14",
           "chapter_name": "STRATEGIC CHOICES",
-          "unique_id": "14-T-27",
-          "or_group": "Q5b_v1_v2",
-          "question_id": "B-Q5-Q5b_v2"
+          "unique_id": "14-T-27"
         },
         {
-          "label": "c_v1",
+          "label": "c",
           "marks": 5,
           "internal_split": null,
-          "question": "[New Version - v1] ## Question 42 (SM)\n\nIn the context of Ansoff's Product-Market Growth Matrix, identify with reasons, the type of growth strategies followed in the following cases:\n\n- A leading producer of toothpaste, advises its customers to brush teeth twice a day to keep breath fresh.\n\n- A business giant in hotel industry decides to enter into dairy business.\n\n- One of India's premier utility vehicles manufacturing company ventures to foray into foreign markets.\n\n- A renowned auto manufacturing company launches ungeared scooters in the market.",
-          "answer": "The Ansoff's product market growth matrix (proposed by Igor Ansoff) is a useful tool that helps businesses decide their product and market growth strategy. This matrix further helps to analyze different strategic directions. According to Ansoff there are four strategies that organization might follow.\n\n(i) Market Penetration: A leading producer of toothpaste, advises its customers to brush teeth twice a day to keep breath fresh. It refers to a growth strategy where the business focuses on selling existing products into existing markets.\n\n(ii) Diversification: A business giant in hotel industry decides to enter into dairy business. It refers to a growth strategy where a business markets new products in new markets.\n\n(iii) Market Development: One of India's premier utility vehicles manufacturing company ventures to foray into foreign markets. It refers to a growth strategy where the business seeks to sell its existing products into new markets.\n\n(iv) Product Development: A renowned auto manufacturing company launches ungeared scooters in the market. It refers to a growth strategy where business aims to introduce new products into existing markets.",
-          "chapter_number": "14",
-          "chapter_name": "STRATEGIC CHOICES",
-          "unique_id": "14-T-42",
-          "or_group": "Q5c_v1_v2",
-          "question_id": "B-Q5-Q5c_v1"
-        },
-        {
-          "label": "c_v2",
-          "marks": 5,
-          "internal_split": null,
-          "question": "[Old Version - v2] Buyers of an industry's products or services can sometimes exert considerable pressure on the company. In the light of the five forces as propagated by Michael Porter explain this force. Also state as to when this leverage is evident. (PYP 5 Marks May '23 MTP 5 Marks July'24, MP[4])",
+          "question": "Buyers of an industry's products or services can sometimes exert considerable pressure on the company. In the light of the five forces as propagated by Michael Porter explain this force. Also state as to when this leverage is evident. (PYP 5 Marks May '23 MTP 5 Marks July'24, MP[4])",
           "answer": "Bargaining Power of Buyers: This is another force that influences the competitive condition of an industry. This force becomes heavier depending on the possibility of buyers forming groups or cartels. Mostly, this is a phenomenon seen in industrial products. Quite often, users of industrial products come together formally or even informally and exert pressure on the producer. The bargaining power of the buyers influences not only the prices that the producer can charge but also influences costs and investments of the producer. This is because powerful buyers usually bargain for better services which involves more investment on the part of the producer.\n\nBuyers of an industry's products or services can sometimes exert considerable pressure on existing firms to secure lower prices or better services. This leverage is particularly evident when;\n\n(i) Buyers have full knowledge of the source(s) of products and their substitutes. Thus, challenging the price being charged by producers.\n\n(ii) They spend a lot of money on the industry's products i.e. they are big buyers. Thus, in a position to demand favourable terms of contract.\n\n(iii) The industry's product is not perceived as critical to the buyer's needs and buyers are more concentrated than firms supplying the product. They can easily switch to the substitutes available.\n\nExam Insights: Students often missed the core concept and couldn't approach the question correctly. Revisit the underlying idea first, then apply it directly to the requirement to avoid vague or off-track answers.",
           "chapter_number": "12",
           "chapter_name": "STRATEGIC ANALYSIS: EXTERNAL",
-          "unique_id": "12-T-19",
-          "or_group": "Q5c_v1_v2",
-          "question_id": "B-Q5-Q5c_v2"
+          "unique_id": "12-T-19"
         }
       ],
       "section": 2

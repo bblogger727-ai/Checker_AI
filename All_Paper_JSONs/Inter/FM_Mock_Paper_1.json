@@ -36,25 +36,7 @@
           },
           "correct_option": "a",
           "answer": "(a)",
-          "verdict": null,
-          "or_group": "MCQ_1_v1_v2",
-          "question_id": "A-MCQ-1_v1"
-        },
-        {
-          "q_num": "1_v2",
-          "question": "The anticipated profit before tax per annum after the plant is operational is",
-          "options": {
-            "a": "750 Lakhs",
-            "b": "570 Lakhs",
-            "c": "370 Lakhs",
-            "d": "525 Lakhs"
-          },
-          "correct_option": "a",
-          "answer": "a",
-          "verdict": null,
-          "_serial": "1_v2",
-          "or_group": "MCQ_1_v1_v2",
-          "question_id": "A-MCQ-1_v2"
+          "verdict": null
         },
         {
           "q_num": 2,
@@ -67,25 +49,7 @@
           },
           "correct_option": "c",
           "answer": "(c)",
-          "verdict": null,
-          "or_group": "MCQ_2_v1_v2",
-          "question_id": "A-MCQ-2_v1"
-        },
-        {
-          "q_num": "2_v2",
-          "question": "The estimated current assets requirement in the first year of operation (debtors calculated at cost) is $\\_\\_\\_\\_$",
-          "options": {
-            "a": "$9,42,50,000$",
-            "b": "$2,17,08,333$",
-            "c": "$7,25,41,667$",
-            "d": "$67,08,333$"
-          },
-          "correct_option": "a",
-          "answer": "a",
-          "verdict": null,
-          "_serial": "2_v2",
-          "or_group": "MCQ_2_v1_v2",
-          "question_id": "A-MCQ-2_v2"
+          "verdict": null
         },
         {
           "q_num": 3,
@@ -98,25 +62,7 @@
           },
           "correct_option": "a",
           "answer": "(a)",
-          "verdict": null,
-          "or_group": "MCQ_3_v1_v2",
-          "question_id": "A-MCQ-3_v1"
-        },
-        {
-          "q_num": "3_v2",
-          "question": "The net working capital requirement for the first year of operation is $\\_\\_\\_\\_$",
-          "options": {
-            "a": "$9,42,50,000$",
-            "b": "$2,17,08,333$",
-            "c": "$7,25,41,667$",
-            "d": "$67,08,333$"
-          },
-          "correct_option": "c",
-          "answer": "c",
-          "verdict": null,
-          "_serial": "3_v2",
-          "or_group": "MCQ_3_v1_v2",
-          "question_id": "A-MCQ-3_v2"
+          "verdict": null
         },
         {
           "q_num": 4,
@@ -129,25 +75,7 @@
           },
           "correct_option": "c",
           "answer": "(c)",
-          "verdict": null,
-          "or_group": "MCQ_4_v1_v2",
-          "question_id": "A-MCQ-4_v1"
-        },
-        {
-          "q_num": "4_v2",
-          "question": "The annualised \\% cost of two options for reducing the working capital is $\\_\\_\\_\\_$",
-          "options": {
-            "a": "$18.18 \\%$ and $16.92 \\%$",
-            "b": "$18.33 \\%$ and $16.92 \\%$",
-            "c": "$18.59 \\%$ and $18.33 \\%$",
-            "d": "$16.92 \\%$ and $19.05 \\%$"
-          },
-          "correct_option": "a",
-          "answer": "a",
-          "verdict": null,
-          "_serial": "4_v2",
-          "or_group": "MCQ_4_v1_v2",
-          "question_id": "A-MCQ-4_v2"
+          "verdict": null
         },
         {
           "q_num": 5,
@@ -160,25 +88,7 @@
           },
           "correct_option": "d",
           "answer": "(d)",
-          "verdict": null,
-          "or_group": "MCQ_5_v1_v2",
-          "question_id": "A-MCQ-5_v1"
-        },
-        {
-          "q_num": "5_v2",
-          "question": "What will be the Maximum Permissible Bank Finance by the bank and annualised \\% cost of the same?",
-          "options": {
-            "a": "$4,55,03,630$ and $18.33 \\%$",
-            "b": "$5,44,06,250$ and $18.33 \\%$",
-            "c": "$4,45,86,025$ and $18.59 \\%$",
-            "d": "$3,45,89,020$ and $19.85 \\%$"
-          },
-          "correct_option": "b",
-          "answer": "b",
-          "verdict": null,
-          "_serial": "5_v2",
-          "or_group": "MCQ_5_v1_v2",
-          "question_id": "A-MCQ-5_v2"
+          "verdict": null
         }
       ]
     },
@@ -201,25 +111,7 @@
           },
           "correct_option": "a",
           "answer": "(a)",
-          "verdict": null,
-          "or_group": "MCQ_1_v1_v2",
-          "question_id": "A-MCQ-1_v1"
-        },
-        {
-          "q_num": "1_v2",
-          "question": "The anticipated profit before tax per annum after the plant is operational is",
-          "options": {
-            "a": "750 Lakhs",
-            "b": "570 Lakhs",
-            "c": "370 Lakhs",
-            "d": "525 Lakhs"
-          },
-          "correct_option": "a",
-          "answer": "a",
-          "verdict": null,
-          "_serial": "1_v2",
-          "or_group": "MCQ_1_v1_v2",
-          "question_id": "A-MCQ-1_v2"
+          "verdict": null
         },
         {
           "q_num": 2,
@@ -232,25 +124,7 @@
           },
           "correct_option": "c",
           "answer": "(c)",
-          "verdict": null,
-          "or_group": "MCQ_2_v1_v2",
-          "question_id": "A-MCQ-2_v1"
-        },
-        {
-          "q_num": "2_v2",
-          "question": "The estimated current assets requirement in the first year of operation (debtors calculated at cost) is $\\_\\_\\_\\_$",
-          "options": {
-            "a": "$9,42,50,000$",
-            "b": "$2,17,08,333$",
-            "c": "$7,25,41,667$",
-            "d": "$67,08,333$"
-          },
-          "correct_option": "a",
-          "answer": "a",
-          "verdict": null,
-          "_serial": "2_v2",
-          "or_group": "MCQ_2_v1_v2",
-          "question_id": "A-MCQ-2_v2"
+          "verdict": null
         }
       ]
     },
@@ -273,25 +147,7 @@
           },
           "correct_option": "b",
           "answer": "(b)",
-          "verdict": null,
-          "or_group": "MCQ_1_v1_v2",
-          "question_id": "A-MCQ-1_v1"
-        },
-        {
-          "q_num": "1_v2",
-          "question": "The anticipated profit before tax per annum after the plant is operational is",
-          "options": {
-            "a": "750 Lakhs",
-            "b": "570 Lakhs",
-            "c": "370 Lakhs",
-            "d": "525 Lakhs"
-          },
-          "correct_option": "a",
-          "answer": "a",
-          "verdict": null,
-          "_serial": "1_v2",
-          "or_group": "MCQ_1_v1_v2",
-          "question_id": "A-MCQ-1_v2"
+          "verdict": null
         },
         {
           "q_num": 2,
@@ -304,25 +160,7 @@
           },
           "correct_option": "a",
           "answer": "(a)",
-          "verdict": null,
-          "or_group": "MCQ_2_v1_v2",
-          "question_id": "A-MCQ-2_v1"
-        },
-        {
-          "q_num": "2_v2",
-          "question": "The estimated current assets requirement in the first year of operation (debtors calculated at cost) is $\\_\\_\\_\\_$",
-          "options": {
-            "a": "$9,42,50,000$",
-            "b": "$2,17,08,333$",
-            "c": "$7,25,41,667$",
-            "d": "$67,08,333$"
-          },
-          "correct_option": "a",
-          "answer": "a",
-          "verdict": null,
-          "_serial": "2_v2",
-          "or_group": "MCQ_2_v1_v2",
-          "question_id": "A-MCQ-2_v2"
+          "verdict": null
         },
         {
           "q_num": 3,
@@ -335,25 +173,7 @@
           },
           "correct_option": "d",
           "answer": "(d)",
-          "verdict": null,
-          "or_group": "MCQ_3_v1_v2",
-          "question_id": "A-MCQ-3_v1"
-        },
-        {
-          "q_num": "3_v2",
-          "question": "The net working capital requirement for the first year of operation is $\\_\\_\\_\\_$",
-          "options": {
-            "a": "$9,42,50,000$",
-            "b": "$2,17,08,333$",
-            "c": "$7,25,41,667$",
-            "d": "$67,08,333$"
-          },
-          "correct_option": "c",
-          "answer": "c",
-          "verdict": null,
-          "_serial": "3_v2",
-          "or_group": "MCQ_3_v1_v2",
-          "question_id": "A-MCQ-3_v2"
+          "verdict": null
         },
         {
           "q_num": 4,
@@ -366,25 +186,7 @@
           },
           "correct_option": "b",
           "answer": "(b)",
-          "verdict": null,
-          "or_group": "MCQ_4_v1_v2",
-          "question_id": "A-MCQ-4_v1"
-        },
-        {
-          "q_num": "4_v2",
-          "question": "The annualised \\% cost of two options for reducing the working capital is $\\_\\_\\_\\_$",
-          "options": {
-            "a": "$18.18 \\%$ and $16.92 \\%$",
-            "b": "$18.33 \\%$ and $16.92 \\%$",
-            "c": "$18.59 \\%$ and $18.33 \\%$",
-            "d": "$16.92 \\%$ and $19.05 \\%$"
-          },
-          "correct_option": "a",
-          "answer": "a",
-          "verdict": null,
-          "_serial": "4_v2",
-          "or_group": "MCQ_4_v1_v2",
-          "question_id": "A-MCQ-4_v2"
+          "verdict": null
         },
         {
           "q_num": 5,
@@ -397,25 +199,7 @@
           },
           "correct_option": "a",
           "answer": "(a)",
-          "verdict": null,
-          "or_group": "MCQ_5_v1_v2",
-          "question_id": "A-MCQ-5_v1"
-        },
-        {
-          "q_num": "5_v2",
-          "question": "What will be the Maximum Permissible Bank Finance by the bank and annualised \\% cost of the same?",
-          "options": {
-            "a": "$4,55,03,630$ and $18.33 \\%$",
-            "b": "$5,44,06,250$ and $18.33 \\%$",
-            "c": "$4,45,86,025$ and $18.59 \\%$",
-            "d": "$3,45,89,020$ and $19.85 \\%$"
-          },
-          "correct_option": "b",
-          "answer": "b",
-          "verdict": null,
-          "_serial": "5_v2",
-          "or_group": "MCQ_5_v1_v2",
-          "question_id": "A-MCQ-5_v2"
+          "verdict": null
         }
       ]
     },
@@ -438,25 +222,7 @@
           },
           "correct_option": "a",
           "answer": "(a)",
-          "verdict": null,
-          "or_group": "MCQ_1_v1_v2",
-          "question_id": "A-MCQ-1_v1"
-        },
-        {
-          "q_num": "1_v2",
-          "question": "The anticipated profit before tax per annum after the plant is operational is",
-          "options": {
-            "a": "750 Lakhs",
-            "b": "570 Lakhs",
-            "c": "370 Lakhs",
-            "d": "525 Lakhs"
-          },
-          "correct_option": "a",
-          "answer": "a",
-          "verdict": null,
-          "_serial": "1_v2",
-          "or_group": "MCQ_1_v1_v2",
-          "question_id": "A-MCQ-1_v2"
+          "verdict": null
         },
         {
           "q_num": 2,
@@ -469,25 +235,7 @@
           },
           "correct_option": "c",
           "answer": "(c)",
-          "verdict": null,
-          "or_group": "MCQ_2_v1_v2",
-          "question_id": "A-MCQ-2_v1"
-        },
-        {
-          "q_num": "2_v2",
-          "question": "The estimated current assets requirement in the first year of operation (debtors calculated at cost) is $\\_\\_\\_\\_$",
-          "options": {
-            "a": "$9,42,50,000$",
-            "b": "$2,17,08,333$",
-            "c": "$7,25,41,667$",
-            "d": "$67,08,333$"
-          },
-          "correct_option": "a",
-          "answer": "a",
-          "verdict": null,
-          "_serial": "2_v2",
-          "or_group": "MCQ_2_v1_v2",
-          "question_id": "A-MCQ-2_v2"
+          "verdict": null
         },
         {
           "q_num": 3,
@@ -500,25 +248,7 @@
           },
           "correct_option": "c",
           "answer": "(c)",
-          "verdict": null,
-          "or_group": "MCQ_3_v1_v2",
-          "question_id": "A-MCQ-3_v1"
-        },
-        {
-          "q_num": "3_v2",
-          "question": "The net working capital requirement for the first year of operation is $\\_\\_\\_\\_$",
-          "options": {
-            "a": "$9,42,50,000$",
-            "b": "$2,17,08,333$",
-            "c": "$7,25,41,667$",
-            "d": "$67,08,333$"
-          },
-          "correct_option": "c",
-          "answer": "c",
-          "verdict": null,
-          "_serial": "3_v2",
-          "or_group": "MCQ_3_v1_v2",
-          "question_id": "A-MCQ-3_v2"
+          "verdict": null
         }
       ]
     }
@@ -544,17 +274,17 @@
           "label": "b",
           "marks": 5,
           "internal_split": null,
-          "question": "From the books of AIL Limited following information is taken for the year 2024-25:\n\n| Description                                   | Amount         |\n|-----------------------------------------------|----------------|\n| Gross profit margin (25% of Sales)           | ₹ 30,00,000    |\n| Inventory holding period                      | 28 Days        |\n| Opening Inventory                             | ₹ 8,00,000     |\n| Current Ratio                                 | 1.20           |\n| Quick Ratio                                   | 0.80           |\n| Selling & Distribution Expenses               | ₹ 12,00,000    |\n| Depreciation and other Non-cash Expenses     | ₹ 4,80,000     |\n\nAssume 360 days in a year.\n\nYou are required to calculate:\n\n(i)  Inventory as on 31.03.2025\n\n(ii) Working Capital\n\n(iii) Basic Defense Interval\n\n(5 Marks)",
-          "answer": "(a) (i) Sales = $\\frac{30,00,000}{0.25}$ = ₹ 1,20,00,000\n\nGross Profit = ₹ 30,00,000\n\nCost of goods sold (COGS) = Sales - Gross Profit = ₹ 90,00,000\n\nAverage Inventory = $\\frac{\\text{Cost of goods sold (COGS)}}{\\text{Inventory Turnover}}$\n\n= $\\frac{₹ 90,00,000 \\times 28}{360}$ = ₹ 7,00,000\n\nOpening Inventory + Closing Inventory = ₹ 7,00,000 × 2\n\n8,00,000 + Closing Inventory = ₹ 14,00,000\n\nClosing Inventory = ₹ 6,00,000\n\n(ii) Current Ratio = $\\frac{\\text{Current Assets (CA)}}{\\text{Current Liabilities (CL)}}$\n\n$\\frac{CA}{CL} = \\frac{1.2}{1}$\n\n∴ CA = 1.2 CL ...(1)\n\nQuick Ratio = $\\frac{\\text{Current Assets - 6,00,000}}{\\text{Current Liabilities}}$\n\n0.8 CL = CA - 6,00,000\n\nCA = 0.8 CL + 6,00,000 ...(2)\n\nEquating (1) and (2): 1.2 CL = 0.8 CL + 6,00,000\n\nCL = ₹ 15,00,000, CA = 1.2 × 15,00,000 = ₹ 18,00,000\n\nWorking Capital = CA - CL = ₹ 18,00,000 - ₹ 15,00,000 = ₹ 3,00,000\n\n(iii) Cash Operating Expenses = COGS + Selling and Dist. Exp – Depreciation\n\n= ₹ 90,00,000 + ₹ 12,00,000 - ₹ 4,80,000 = ₹ 97,20,000\n\nQuick Assets = ₹ 18,00,000 - ₹ 6,00,000 = ₹ 12,00,000\n\nBasic Defense Interval Ratio = $\\frac{₹ 12,00,000}{₹ 97,20,000 \\div 360} = \\frac{₹ 12,00,000}{₹ 27,000} = 44.44$ days",
+          "question": "Determining the amount to be invested in current assets as working capital is a crucial policy decision for any entity. What FACTORS should a company consider when deciding the level of investment in working capital? (MTP 3 Marks, Aug'24,MP[5])",
+          "answer": "Level of investment depends on the various factors listed below:\n\n(a) Nature of Industry: Construction companies, breweries etc. requires large investment in working capital due long gestation period.\n\n(b) Types of products: Consumer durable has large inventory as compared to perishable products.\n\n(c) Manufacturing Vs Trading Vs Service: A manufacturing entity has to maintain three levels of inventory i.e. raw material, work-in- process and finished goods whereas a trading and a service entity has to maintain inventory only in the form of trading stock and consumables respectively.\n\n(d) Volume of sales: Where the sales are high, there is a possibility of high receivables as well.\n\n(e) Credit policy: An entity whose credit policy is liberal has not only high level of receivables but may require more capital to fund raw material purchases as that will depend on credit period allowed by suppliers.",
           "chapter_number": "9.1",
           "chapter_name": "INTRODUCTION TO WORKING CAPITAL MANAGEMENT",
-          "unique_id": "FM-REPLACED-Doc1"
+          "unique_id": "9.1-T-1"
         },
         {
           "label": "c",
           "marks": 5,
           "internal_split": null,
-          "question": "For the year ending 31.03.2025, ABC Industries Ltd declared $40 \\%$ dividend. The current market price of the share is quoted at Rs. 57.50 . If the retention ratio is reduced by 20 percent, the market price dropped by Rs. 2.50 . Face value of the shares is $Rs. 10$ per share.\n\n1. Find the return on investment and cost of equity using walter's model.\n\n2. Comment on the dividend policy adopted by the company.\n\n3. Find the limiting value of shares using walter's model.\n\n4. Also find the intrinsic value of the shares under Gordon's Model.\n\n5. Mr. X, the chief financial officer of the company, opines that the return on investment of the company is not having direct / indirect effect on the intrinsic value of the shares under Gordon's Model. Only cost of equity will be considered for the computation of the intrinsic value of the shares under Gordon's Model.\n\n## Answer 34\n\n1. Price under Walter's Model $(\\mathbf{P})=\\frac{D+\\frac{r}{K_{e}}(E-D)}{K_{e}}$\n\n|  | Situation 1 | Situation 2 |\n| :--- | ---: | ---: |\n| 1. DP Ratio | $40 \\%$ | $60 \\%$ |\n| 2. Retention Ratio | $60 \\%$ | $60 \\%-20 \\%=40 \\%$ |\n| 3. Dividend per share $=\\mathrm{D}$ | $Rs. 4$ | $Rs. 6$ |\n\n| 4. Retention per share = (E-D) | Rs. 6 | Rs. 4 |\n| :--- | :--- | :--- |\n| 5. Market price per share = MPS | Rs. 57.50 | Rs. 57.50 - Rs. 2.50 = Rs. 55 |\n| 6. Equation = Let r/ke be y \\& Ke be x. | $4+6 y=57.50 x$ | $6+4 y=55 x$ |\n| 7. Equation for solving | $57.50 x-6 y=4$ | $55 x-4 y=6$ |\n\nEquation $1 * 4=230 x-24 y=16$\n\nEquation $2 * 6=330 \\mathrm{x}-24 \\mathrm{y}=36$ $\\_\\_\\_\\_$\n\nBy solving, we get $\\mathrm{x}=20 \\%$ and $\\mathrm{y}=1.25$.\n\n$\\mathrm{y}=\\frac{r}{K_{e}}=1.25 \\quad \\frac{r}{20 \\%}=1.25 \\quad$ Hence, $\\mathrm{r}=25 \\%$\n\n2. Since $\\mathrm{r} 25 \\%>\\mathrm{ke} 20 \\%$, the company should retain $100 \\%$. Since the company pays $40 \\%$ Dividend, the company is not following optimum dividend policy.\n\n3.\n\n|  | Situation 1 | Situation 2 |\n| :--- | :--- | :--- |\n| 1. DP Ratio | 0\\% | 100\\% |\n| 2. Retention Ratio | 100\\% | 0\\% |\n| 3. Dividend per share = D | Rs. 0 | Rs. 10 |\n| 4. Retention per share = (E-D) | Rs. 10 | Rs. 0 |\n| 5. Market price per share = MPS | $\\frac{10 \\times 1.25}{0.2}=62.50$ | $\\frac{10}{0.2}=50$ |\n\n4. Price under Gordon's Model\n\nMarket price per share $\\left(P_{0}\\right)=\\left[\\frac{D_{0}(1+g)}{K_{e}-g}\\right]$\n\n|  |  | Situation 1 | Situation 2 |\n| :--- | :--- | :--- | :--- |\n| 1. Dividend paid |  | Rs. 4 | Rs. 6 |\n| 2. Retention Ratio (b) |  | 60\\% | 40\\% |\n| 3. Return on investment (r) |  | 25\\% | 25\\% |\n| 4. Growth = g = br |  | 15\\% | 10\\% |\n| 5. Market price per share = MPS | Gauresh \\| | $\\frac{4(1+0,15)}{0.2-0.15}=Rs. 92$ | $\\frac{6(1+0.10)}{0.2-0.1}=Rs. 66$ |\n\n5. Since, return on investment is used for computing growth rate, both cost of equity and return on investment are considered for computing price under Gordons model. Hence, the opinion of the chief financial officer is not valid.",
+          "question": "For the year ending 31.03.2025, ABC Industries Ltd declared $40 \\%$ dividend. The current market price of the share is quoted at Rs. 57.5. If the retention ratio is reduced by 20 percent, the market price dropped by Rs. 2.5. Face value of the shares is $Rs. 10$ per share, and earnings per share (E) is Rs. 10.\n\n1. Find the return on investment and cost of equity using Walter's model.\n\n2. Comment on the dividend policy adopted by the company.\n\n3. Find the limiting value of shares using Walter's model.\n\n4. Also find the intrinsic value of the shares under Gordon's Model.\n\n5. Mr. X, the chief financial officer of the company, opines that the return on investment of the company is not having direct / indirect effect on the intrinsic value of the shares under Gordon's Model. Only cost of equity will be considered for the computation of the intrinsic value of the shares under Gordon's Model.",
           "answer": "1. Price under Walter's Model $(\\mathbf{P})=\\frac{D+\\frac{r}{K_{e}}(E-D)}{K_{e}}$\n\n|  | Situation 1 | Situation 2 |\n| :--- | ---: | ---: |\n| 1. DP Ratio | $40 \\%$ | $60 \\%$ |\n| 2. Retention Ratio | $60 \\%$ | $60 \\%-20 \\%=40 \\%$ |\n| 3. Dividend per share $=\\mathrm{D}$ | $Rs. 4$ | $Rs. 6$ |\n\n| 4. Retention per share = (E-D) | Rs. 6 | Rs. 4 |\n| :--- | :--- | :--- |\n| 5. Market price per share = MPS | Rs. 57.50 | Rs. 57.50 - Rs. 2.50 = Rs. 55 |\n| 6. Equation = Let r/ke be y \\& Ke be x. | $4+6 y=57.50 x$ | $6+4 y=55 x$ |\n| 7. Equation for solving | $57.50 x-6 y=4$ | $55 x-4 y=6$ |\n\nEquation $1 * 4=230 x-24 y=16$\n\nEquation $2 * 6=330 \\mathrm{x}-24 \\mathrm{y}=36$ $\\_\\_\\_\\_$\n\nBy solving, we get $\\mathrm{x}=20 \\%$ and $\\mathrm{y}=1.25$.\n\n$\\mathrm{y}=\\frac{r}{K_{e}}=1.25 \\quad \\frac{r}{20 \\%}=1.25 \\quad$ Hence, $\\mathrm{r}=25 \\%$\n\n2. Since $\\mathrm{r} 25 \\%>\\mathrm{ke} 20 \\%$, the company should retain $100 \\%$. Since the company pays $40 \\%$ Dividend, the company is not following optimum dividend policy.\n\n3.\n\n|  | Situation 1 | Situation 2 |\n| :--- | :--- | :--- |\n| 1. DP Ratio | 0\\% | 100\\% |\n| 2. Retention Ratio | 100\\% | 0\\% |\n| 3. Dividend per share = D | Rs. 0 | Rs. 10 |\n| 4. Retention per share = (E-D) | Rs. 10 | Rs. 0 |\n| 5. Market price per share = MPS | $\\frac{10 \\times 1.25}{0.2}=62.50$ | $\\frac{10}{0.2}=50$ |\n\n4. Price under Gordon's Model\n\nMarket price per share $\\left(P_{0}\\right)=\\left[\\frac{D_{0}(1+g)}{K_{e}-g}\\right]$\n\n|  |  | Situation 1 | Situation 2 |\n| :--- | :--- | :--- | :--- |\n| 1. Dividend paid |  | Rs. 4 | Rs. 6 |\n| 2. Retention Ratio (b) |  | 60\\% | 40\\% |\n| 3. Return on investment (r) |  | 25\\% | 25\\% |\n| 4. Growth = g = br |  | 15\\% | 10\\% |\n| 5. Market price per share = MPS | Gauresh \\| | $\\frac{4(1+0,15)}{0.2-0.15}=Rs. 92$ | $\\frac{6(1+0.10)}{0.2-0.1}=Rs. 66$ |\n\n5. Since, return on investment is used for computing growth rate, both cost of equity and return on investment are considered for computing price under Gordons model. Hence, the opinion of the chief financial officer is not valid.",
           "chapter_number": "8",
           "chapter_name": "DIVIDEND DECISION",
@@ -667,28 +397,14 @@
       "chapter_number": "14",
       "sub_questions": [
         {
-          "label": "a_v1",
+          "label": "a",
           "marks": 5,
           "internal_split": null,
-          "question": "[New Version - v1] UrbanRide Mobility Ltd. launched an ambitious strategy to become the market leader in electric scooter rentals. The management established key performance indicators (KPIs) such as customer acquisition rate, scooter utilization rate, and profitability. Quarterly reviews were conducted to compare actual performance with planned targets. Whenever significant deviations were identified, corrective measures such as route optimization and promotional campaigns were introduced.\n\nIdentify the strategic management function being performed by UrbanRide Mobility Ltd. and explain its significance.",
-          "answer": "The strategic management function being performed is Strategic Control.\n\nStrategic control is the process of monitoring strategy implementation, evaluating performance, and taking corrective actions to ensure achievement of strategic objectives.\n\nElements of Strategic Control evident in the case:\n\nEstablishment of performance standards through KPIs.\n\nMeasurement of actual performance.\n\nComparison of actual performance with predetermined targets.\n\nIdentification of deviations.\n\nCorrective actions such as route optimization and promotional campaigns.\n\nSignificance of Strategic Control:\n\nEnsures effective implementation of strategy.\n\nDetects deviations at an early stage.\n\nFacilitates corrective actions.\n\nImproves organizational performance.\n\nHelps achieve long-term strategic objectives.\n\nTherefore, UrbanRide Mobility Ltd. is exercising Strategic Control to ensure successful execution of its business strategy.",
-          "chapter_number": "12",
-          "chapter_name": "STRATEGIC ANALYSIS: EXTERNAL",
-          "unique_id": "FM-REPLACED-sm_3",
-          "or_group": "Q5a_v1_v2",
-          "question_id": "B-Q5-Q5a_v1"
-        },
-        {
-          "label": "a_v2",
-          "marks": 5,
-          "internal_split": null,
-          "question": "[Old Version - v2] Question 12 (PYP 5 Marks May'22, MTP 5 Marks Mar'24, Mar'25, Aug'25 RTP Sep'24,MP[1],MP[8])\n\nWhat do you understand by diversification? Distinguish between concentric and conglomerate diversification.",
+          "question": "Question 12 (PYP 5 Marks May'22, MTP 5 Marks Mar'24, Mar'25, Aug'25 RTP Sep'24,MP[1],MP[8])\n\nWhat do you understand by diversification? Distinguish between concentric and conglomerate diversification.",
           "answer": "Diversification is defined as entry into new products or product lines, new services or new markets, involving substantially different skills, technology and knowledge. Diversification endeavours can be related or unrelated to existing businesses of the firm.\n\nFollowing are the differences between the concentric diversification and conglomerate diversifications:\n\n\n| Concentric Diversification | Conglomerate Diversification |\n| :--- | :--- |\n| Meaning: It occurs when a firm adds related products or markets. <br> Linkage: The new business is linked to the existing businesses through process, technology or marketing. <br> Reasons for pursuing: The most common reason for pursuing a concentric diversification is that opportunities in a firm's existing line of business are available. | Meaning: It occurs when a firm diversifies into areas that are unrelated to its current line of business. <br> Linkage: Here no such linkages exist; the new business/product is disjointed from the existing businesses/products. <br> Reasons for pursuing: The common reason for pursuing a conglomerate growth strategy is that opportunities in a firm's current line of business are limited or opportunities outside are highly lucrative. |",
           "chapter_number": "14",
           "chapter_name": "STRATEGIC CHOICES",
-          "unique_id": "14-T-12",
-          "or_group": "Q5a_v1_v2",
-          "question_id": "B-Q5-Q5a_v2"
+          "unique_id": "14-T-12"
         },
         {
           "label": "b",
@@ -701,28 +417,14 @@
           "unique_id": "FM-REPLACED-sm__9"
         },
         {
-          "label": "c_v1",
+          "label": "c",
           "marks": 5,
           "internal_split": null,
-          "question": "[New Version - v1] TechNova Solutions Ltd. recently formulated a strategy to expand its operations across India. To implement the strategy, the company created new regional divisions, delegated authority to regional managers, established performance targets, introduced employee training programmes, and allocated additional financial resources to expansion projects.\n\nIn the context of strategic management, explain the strategic implementation measures undertaken by TechNova Solutions Ltd.",
-          "answer": "Strategic implementation refers to the process of translating strategic plans into action and achieving strategic objectives.\n\nThe strategic implementation measures undertaken by TechNova Solutions Ltd. are:\n\n| Measure | Explanation |\n| --- | --- |\n| Organisational Structure | Creation of regional divisions to support expansion. |\n| Delegation of Authority | Empowering regional managers for faster decision-making. |\n| Resource Allocation | Providing financial resources for expansion projects. |\n| Human Resource Development | Employee training programmes to develop required competencies. |\n| Performance Management | Setting targets to monitor strategic progress. |\n\nConclusion:\n\nTechNova Solutions Ltd. has effectively aligned its structure, resources, people, and control systems to facilitate successful implementation of its expansion strategy.",
+          "question": "## Question 14 (MTP 5 Marks March '22)\n\n| **Scenario** |\n|--------------|\n| There has been fierce demand for both Gecko and FlyBee for the last 3 years. Gecko makes mass consumption pens while FlyBee is a notebook and diary brand - both being complementary goods of each other. But to grow further, FlyBee decided to take up competition with Gecko in pens segment and thereby launched, FlyPens. |\n\n| **Task** |\n|----------|\n| Identify and explain the growth strategy opted by FlyBee? |\n",
+          "answer": "| **Explanation** |\n|----------------|\n| FlyBee is a notebook and diary brand. But to grow further, FlyBee decided to take up competition with Gecko in pens segment and thereby launched, FlyPens. FlyBee that is hitherto not into producing pens starts producing them and other similar products is following concentric diversification which is basically related diversification. In this form of diversification, the new business is linked to the existing businesses through existing systems such as processes, technology or marketing. The new product is a spin-off from the existing facilities and products/processes. There are benefits of synergy with the current operations. The most common reasons for pursuing a concentric diversification are that opportunities in existing line of business are available. |",
           "chapter_number": "14",
           "chapter_name": "STRATEGIC CHOICES",
-          "unique_id": "FM-REPLACED-sm_2",
-          "or_group": "Q5c_v1_v2",
-          "question_id": "B-Q5-Q5c_v1"
-        },
-        {
-          "label": "c_v2",
-          "marks": 5,
-          "internal_split": null,
-          "question": "[Old Version - v2] ## Question 14 (MTP 5 Marks March '22)\n\nThere has been fierce demand for both Gecko and FlyBee for the last 3 years. Gecko makes mass consumption pens while FlyBee is a notebook and diary brand - both being complementary goods of each other. But to grow further, FlyBee decided to take up competition with Gecko in pens segment and thereby launched, FlyPens. Identify and explain the growth strategy opted by FlyBee?",
-          "answer": "FlyBee is a notebook and diary brand. But to grow further, FlyBee decided to take up competition with Gecko in pens segment and thereby launched, FlyPens. FlyBee that is hitherto not into producing pens starts producing them and other similar products is following concentric diversification which is basically related diversification. In this form of diversification, the new business is linked to the existing businesses through existing systems such as processes, technology or marketing. The new product is a spin-off from the existing facilities and products/processes. There are benefits of synergy with the current operations. The most common reasons for pursuing a concentric diversification are that opportunities in existing line of business are available.",
-          "chapter_number": "14",
-          "chapter_name": "STRATEGIC CHOICES",
-          "unique_id": "14-T-14",
-          "or_group": "Q5c_v1_v2",
-          "question_id": "B-Q5-Q5c_v2"
+          "unique_id": "14-T-14"
         }
       ],
       "section": 2
@@ -763,52 +465,24 @@
       "chapter_number": "11",
       "sub_questions": [
         {
-          "label": "a_v1",
+          "label": "a",
           "marks": 4,
           "internal_split": null,
-          "question": "[New Version - v1] ABC retail chain regularly monitors consumer trends and supply chain flexibility. The retail chain tracks consumer trends to adjust its offerings, ensuring they meet customer needs. Simultaneously, it maintains a flexible supply chain to respond swiftly to demand fluctuations. This strategy enables ABC retail chain to anticipate market shifts and adapt to them effectively, ensuring its competitiveness and customer satisfaction. Which type of strategy is the retail chain employing? (MTP 5 Marks, Apr'24,MP[2])",
-          "answer": "The retail chain is employing a strategy that combines both proactive and reactive elements. Monitoring consumer trends and adjusting product offerings accordingly demonstrates a proactive approach to anticipate and meet customer needs. On the other hand, maintaining a flexible supply chain to respond quickly to changes in demand reflects a reactive strategy to address unforeseen shifts in the market.\n\nThis combination allows the retail chain to both anticipate future trends and react effectively to immediate market changes, making its strategy partly proactive and partly reactive. This dual strategy of proactive trend monitoring and reactive supply chain flexibility enables the retail chain to anticipate market shifts and adapt to them effectively, ensuring its competitiveness and customer satisfaction.",
-          "chapter_number": "11",
-          "chapter_name": "INTRODUCTION TO STRATEGIC MANAGEMENT",
-          "unique_id": "11-T-10",
-          "or_group": "Q7a_v1_v2",
-          "question_id": "B-Q7-Q7a_v1"
-        },
-        {
-          "label": "a_v2",
-          "marks": 4,
-          "internal_split": null,
-          "question": "[Old Version - v2] \"A business organization cannot always plan all their strategies in advance and often need to blend planned strategies with reactive strategies.\" Do you agree with the statement? Give reasons. (MTP 5 Marks, Apr'22, RTP May 23)",
+          "question": "\"A business organization cannot always plan all their strategies in advance and often need to blend planned strategies with reactive strategies.\" Do you agree with the statement? Give reasons. (MTP 5 Marks, Apr'22, RTP May 23)",
           "answer": "Yes, a business organization cannot always plan all their strategies in advance and often need to blend planned strategies with reactive strategies.\n\nIn planned strategy, organisations will analyse possible environmental scenarios and create strategic framework after proper planning and set procedures and work on these strategies in a pre-determined manner. However, in reality no company can forecast both internal and external environment exactly. Everything cannot be planned in advance. It is not possible to anticipate moves of rival firms, consumer behaviour, evolving technologies and so on.\n\nThere can be significant deviations between what was visualised and what actually happens. There can be significant or major strategic changes when the environment demands. Reactive strategy is triggered by the changes in the environment and provides ways and means to cope with the negative factors or take advantage of emerging opportunities.",
           "chapter_number": "11",
           "chapter_name": "INTRODUCTION TO STRATEGIC MANAGEMENT",
-          "unique_id": "11-T-9",
-          "or_group": "Q7a_v1_v2",
-          "question_id": "B-Q7-Q7a_v2"
+          "unique_id": "11-T-9"
         },
         {
-          "label": "b_v1",
+          "label": "b",
           "marks": 6,
           "internal_split": null,
-          "question": "[New Version - v1] ## Question 45 (PYP 5 Marks Sep'25)\n\nARP Motors, an automobile company, was struggling in the competitive SUV market in India. As a business strategist, you recommended that ARP launch a compact SUV that balances affordability with premium features. In response, ARP developed and introduced FLEXON, strategically pricing it and incorporating highend features such as a 5 -star Global NCAP safety rating, a modern design and an advanced technology. Furthermore, the company expanded into the electric vehicle segment with FLEXON EV, positioning it as one of the most affordable yet feature-rich electric SUVs in India.\n\nWhich strategy did you recommend to ARP Motors to achieve a competitive advantage? Explain the strategy briefly and enumerate the key ways ARP Motors implemented it.",
-          "answer": "The strategy recommended to ARP Motors is the Best-Cost Provider Strategy.\n\nBest-cost provider strategy is directed towards giving customers more value for their money by emphasizing both low cost and premium features. The objective is to keep costs and prices lower than those of other sellers of comparable products while offering better quality and superior features.\n\n## Application in ARP Motors Case:\n\n- Launch of FLEXON (Compact SUV): ARP priced FLEXON strategically at an affordable level, while at the same time incorporating premium features such as a 5 -star Global NCAP safety rating, advanced technology and a modern design. This reflects the approach of offering better quality at lower or comparable prices.\n\n- Introduction of FLEXON EV: By entering the electric vehicle market, ARP positioned FLEXON EV as one of the most affordable yet feature-rich electric SUVs in India. This aligns with the principle of charging lower prices for comparable products or offering higher quality for similar prices thereby giving customers more value for money.",
-          "chapter_number": "13",
-          "chapter_name": "STRATEGIC ANALYSIS: INTERNAL ENVIRONMENT",
-          "unique_id": "13-T-45",
-          "or_group": "Q7b_v1_v2",
-          "question_id": "B-Q7-Q7b_v1"
-        },
-        {
-          "label": "b_v2",
-          "marks": 6,
-          "internal_split": null,
-          "question": "[Old Version - v2] What is stability strategy? What are the reasons to pursue a stability strategy? (RTP Nov'19 & Nov '23)",
+          "question": "What is stability strategy? What are the reasons to pursue a stability strategy? (RTP Nov'19 & Nov '23)",
           "answer": "One of the important goals of a business enterprise is stability - to safeguard its existing interests and strengths, to pursue well established and tested objectives, to continue in the chosen business path, to maintain operational efficiency on a sustained basis, to consolidate the commanding position already reached, and to optimize returns on the resources committed in the business. A stability strategy is pursued by a firm when:\n\n- It continues to serve in the same or similar markets and deals in same or similar products and services.\n\n- The strategic decisions focus on incremental improvement of functional performance.\n\n## Major reasons for stability strategy are as follows:\n\n- A product has reached the maturity stage of the product life cycle.\n\n- It is less risky as it involves less changes and the staff feels comfortable with things as they are.\n\n- The environment faced is relatively stable.\n\n- Expansion may be perceived as being threatening.\n\n- Consolidation is sought through stabilizing after a period of rapid expansion.",
           "chapter_number": "14",
           "chapter_name": "STRATEGIC CHOICES",
-          "unique_id": "14-T-1",
-          "or_group": "Q7b_v1_v2",
-          "question_id": "B-Q7-Q7b_v2"
+          "unique_id": "14-T-1"
         }
       ],
       "section": 2
