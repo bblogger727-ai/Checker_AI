@@ -236,3 +236,59 @@
         flex-direction: column;
     }
 }
+
+/* ── Mismatch Warning Banner ───────────────────────────────────────────────── */
+
+.mismatch-warning {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 16px 20px;
+    margin-bottom: 24px;
+    background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+    border: 1.5px solid #f59e0b;
+    border-left: 5px solid #d97706;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(245, 158, 11, 0.15);
+    animation: mismatch-slide-in 0.35s ease;
+}
+
+@keyframes mismatch-slide-in {
+    from { opacity: 0; transform: translateY(-8px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+.mismatch-warning__icon {
+    font-size: 22px;
+    line-height: 1;
+    margin-top: 2px;
+    flex-shrink: 0;
+}
+
+.mismatch-warning__body {
+    flex: 1;
+}
+
+.mismatch-warning__body strong {
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 4px;
+}
+
+.mismatch-warning__body p {
+    margin: 0;
+    font-size: 14px;
+    color: #78350f;
+    line-height: 1.5;
+}
+
+.mismatch-warning__q {
+    font-weight: 700;
+    color: #b45309;
+    background: rgba(245, 158, 11, 0.15);
+    padding: 1px 6px;
+    border-radius: 4px;
+    margin: 0 1px;
+}

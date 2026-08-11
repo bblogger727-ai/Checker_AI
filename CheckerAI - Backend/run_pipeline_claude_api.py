@@ -33,6 +33,8 @@ sys.path.insert(0, PIPELINE_DIR)
 from dotenv import load_dotenv
 load_dotenv()
 
+from claude_grading.mismatch_detector import detect_question_mismatches
+
 
 # ── Status helpers ────────────────────────────────────────────────────────────
 
@@ -336,6 +338,17 @@ def main():
                 grading_results = json.load(f)
             print("[SKIP] Stage 5")
 
+        # ── Stage 5.5: Mismatch detection ──
+        _write_status(output_dir, "stage_5_5", "Checking for question paper mismatches…")
+        mismatch_flags = []
+        try:
+            grading_json_path = os.path.join(output_dir, "grading_final.json")
+            mismatch_flags = detect_question_mismatches(grading_json_path, threshold=0.5)
+            if mismatch_flags:
+                print(f"[Stage 5.5] ⚠️  Paper mismatch suspected on: {mismatch_flags}")
+        except Exception as e:
+            print(f"[Stage 5.5] Mismatch detection skipped: {e}")
+
         # ── Stage 6: PDF Report ──
         _write_status(output_dir, "stage_6", "Generating PDF grading report…")
         try:
@@ -375,6 +388,7 @@ def main():
             "total_marks_possible": meta.get("total_marks_possible"),
             "percentage":           meta.get("percentage"),
             "grade":                meta.get("grade"),
+            "mismatch_flags":       mismatch_flags,
         })
 
         print("\n" + "=" * 60)

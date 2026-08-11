@@ -133,6 +133,8 @@ function CheckedPaper() {
 
     const isCompleted = student.status === 'completed';
     const isRechecking = recheckStatus === 'running';
+    const mismatchFlags = student.mismatch_flags || [];
+    const hasMismatch = mismatchFlags.length > 0;
 
     return (
         <div className="checked-paper-page">
@@ -169,6 +171,23 @@ function CheckedPaper() {
                 </section>
 
                 <section className="download-panel">
+                    {hasMismatch && (
+                        <div className="mismatch-warning">
+                            <span className="mismatch-warning__icon">⚠️</span>
+                            <div className="mismatch-warning__body">
+                                <strong>Outdated question paper detected.</strong>
+                                <p>
+                                    The student may have answered a different version of the question paper.
+                                    Please manually verify:{' '}
+                                    {mismatchFlags.map((q, i) => (
+                                        <span key={q} className="mismatch-warning__q">
+                                            {q}{i < mismatchFlags.length - 1 ? ', ' : ''}
+                                        </span>
+                                    ))}
+                                </p>
+                            </div>
+                        </div>
+                    )}
                     <h2>Downloads</h2>
                     <div className="download-actions">
                         <button

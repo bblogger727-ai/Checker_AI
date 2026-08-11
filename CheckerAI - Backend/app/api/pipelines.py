@@ -798,10 +798,12 @@ def get_pipeline_student_mock(task_id: str):
         
     result_file = job_dir / "result.json"
     total_obtained, max_total = 0.0, 0.0
+    mismatch_flags = []
     if result_file.exists():
         res = json.loads(result_file.read_text())
         total_obtained = float(res.get("total_marks_obtained", 0.0) or 0.0)
         max_total = float(res.get("total_marks_possible", 0.0) or 0.0)
+        mismatch_flags = res.get("mismatch_flags", []) or []
 
     if max_total == 0 and (job_dir / "grading_final.json").exists():
         try:
@@ -825,7 +827,8 @@ def get_pipeline_student_mock(task_id: str):
         "checked_copy_available": (job_dir / "checked_copy.pdf").exists(),
         "ocr_combined_text": None,
         "aligned_answers_json": None,
-        "grading_json": None
+        "grading_json": None,
+        "mismatch_flags": mismatch_flags,
     }
 
 
