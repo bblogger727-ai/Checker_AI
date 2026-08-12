@@ -115,9 +115,15 @@ def get_manifest_summary(manifest_path: str) -> dict:
       "output_pdf":  str,
       "generated_at": str,
       "grand_total": {
-          "obtained": float,
-          "total":    float,
+          "obtained":    float,
+          "total":       float,
+          "mcq_pending": bool,   # True when mcq_total exists but no marks entered yet
       },
+      "mcq_total": {            # None if no MCQ section in this paper
+          "total":    float,
+          "obtained": float | None,
+          "pending":  bool,
+      } | None,
       "questions": {
           "SectionB__Q1": {
               "manifest_key":   "SectionB__Q1",
@@ -143,15 +149,24 @@ def get_manifest_summary(manifest_path: str) -> dict:
     """
     manifest = _load_manifest(manifest_path)
 
-    gt = manifest.get("grand_total") or {}
+    gt  = manifest.get("grand_total") or {}
+    mcq = manifest.get("mcq_total")   or {}
     summary = {
         "source_pdf":   manifest.get("source_pdf", ""),
         "output_pdf":   manifest.get("output_pdf", ""),
         "generated_at": manifest.get("generated_at", ""),
         "grand_total": {
-            "obtained": gt.get("obtained", 0.0),
-            "total":    gt.get("total",    0.0),
+            "obtained":    gt.get("obtained", 0.0),
+            "total":       gt.get("total",    0.0),
+            # True when the MCQ section exists but marks haven't been entered yet
+            "mcq_pending": mcq.get("pending", False) if mcq else False,
         },
+        # Expose MCQ metadata so the frontend can show the correct max value
+        "mcq_total": {
+            "total":    mcq.get("total",    30.0),
+            "obtained": mcq.get("obtained", None),
+            "pending":  mcq.get("pending",  False),
+        } if mcq else None,
         "questions": {},
     }
 
