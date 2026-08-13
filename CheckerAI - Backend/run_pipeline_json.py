@@ -322,20 +322,50 @@ def run_stage_1_2_full(paper_json_path: str) -> dict:
         sub_q_block: dict = {}
 
         for sub in main_q.get("sub_questions", []):
-            label   = sub.get("label", "")
-            sub_key = f"Q{q_main}{label}"
-            marks   = sub.get("marks", 5)
+            label    = sub.get("label", "")
+            sub_key  = f"Q{q_main}{label}"
+            marks    = sub.get("marks", 5)
+            question = sub.get("question", "")
+            answer   = sub.get("answer", "")
 
-            sub_q_block[sub_key] = {
-                "question":        sub.get("question", ""),
-                "model_answer":    sub.get("answer", ""),
-                "marks":           marks,
-                "question_number": sub_key,
-                "chapter_number":  sub.get("chapter_number", ""),
-                "chapter_name":    sub.get("chapter_name", ""),
-                "question_id":     sub.get("question_id", f"B-Q{q_main}-{sub_key}"),
-                "or_group":        sub.get("or_group"),
-            }
+            if "or_question" in sub and sub["or_question"]:
+                or_group_name = f"OR_{sub_key}"
+                
+                # Main question variant (v1)
+                sub_q_block[f"{sub_key}_v1"] = {
+                    "question":        question,
+                    "model_answer":    answer,
+                    "marks":           marks,
+                    "question_number": sub_key,
+                    "chapter_number":  sub.get("chapter_number", ""),
+                    "chapter_name":    sub.get("chapter_name", ""),
+                    "question_id":     f"B-Q{q_main}-{sub_key}_v1",
+                    "or_group":        or_group_name,
+                }
+                
+                # OR question variant (v2)
+                or_q = sub["or_question"]
+                sub_q_block[f"{sub_key}_v2"] = {
+                    "question":        or_q.get("question", ""),
+                    "model_answer":    or_q.get("answer", ""),
+                    "marks":           marks,
+                    "question_number": sub_key,
+                    "chapter_number":  sub.get("chapter_number", ""),
+                    "chapter_name":    sub.get("chapter_name", ""),
+                    "question_id":     f"B-Q{q_main}-{sub_key}_v2",
+                    "or_group":        or_group_name,
+                }
+            else:
+                sub_q_block[sub_key] = {
+                    "question":        question,
+                    "model_answer":    answer,
+                    "marks":           marks,
+                    "question_number": sub_key,
+                    "chapter_number":  sub.get("chapter_number", ""),
+                    "chapter_name":    sub.get("chapter_name", ""),
+                    "question_id":     sub.get("question_id", f"B-Q{q_main}-{sub_key}"),
+                    "or_group":        sub.get("or_group"),
+                }
 
         section_b_block[q_key] = sub_q_block
 
@@ -412,20 +442,50 @@ def run_stage_1_2_pt(paper_json_path: str) -> dict:
             print(f"  ⚠ Warning: Q{q_main} has {len(sub_qs)} sub-questions (expected 2)")
 
         for sub in sub_qs:
-            label   = sub.get("label", "")       # "a" or "b"
-            sub_key = f"Q{q_main}{label}"         # "Q1a", "Q1b", …
-            marks   = sub.get("marks", 5)
+            label    = sub.get("label", "")
+            sub_key  = f"Q{q_main}{label}"
+            marks    = sub.get("marks", 5)
+            question = sub.get("question", "")
+            answer   = sub.get("answer", "")
 
-            sub_q_block[sub_key] = {
-                "question":        sub.get("question", ""),
-                "model_answer":    sub.get("answer", ""),
-                "marks":           marks,
-                "question_number": sub_key,
-                "chapter_number":  sub.get("chapter_number", ""),
-                "chapter_name":    sub.get("chapter_name", ""),
-                "question_id":     sub.get("question_id", f"B-Q{q_main}-{sub_key}"),
-                "or_group":        sub.get("or_group"),
-            }
+            if "or_question" in sub and sub["or_question"]:
+                or_group_name = f"OR_{sub_key}"
+                
+                # Main question variant (v1)
+                sub_q_block[f"{sub_key}_v1"] = {
+                    "question":        question,
+                    "model_answer":    answer,
+                    "marks":           marks,
+                    "question_number": sub_key,
+                    "chapter_number":  sub.get("chapter_number", ""),
+                    "chapter_name":    sub.get("chapter_name", ""),
+                    "question_id":     f"B-Q{q_main}-{sub_key}_v1",
+                    "or_group":        or_group_name,
+                }
+                
+                # OR question variant (v2)
+                or_q = sub["or_question"]
+                sub_q_block[f"{sub_key}_v2"] = {
+                    "question":        or_q.get("question", ""),
+                    "model_answer":    or_q.get("answer", ""),
+                    "marks":           marks,
+                    "question_number": sub_key,
+                    "chapter_number":  sub.get("chapter_number", ""),
+                    "chapter_name":    sub.get("chapter_name", ""),
+                    "question_id":     f"B-Q{q_main}-{sub_key}_v2",
+                    "or_group":        or_group_name,
+                }
+            else:
+                sub_q_block[sub_key] = {
+                    "question":        question,
+                    "model_answer":    answer,
+                    "marks":           marks,
+                    "question_number": sub_key,
+                    "chapter_number":  sub.get("chapter_number", ""),
+                    "chapter_name":    sub.get("chapter_name", ""),
+                    "question_id":     sub.get("question_id", f"B-Q{q_main}-{sub_key}"),
+                    "or_group":        sub.get("or_group"),
+                }
 
         section_b_block[q_key] = sub_q_block
 

@@ -1,0 +1,1048 @@
+========== PAGE 1 ==========
+FINAL EXAM
+PAPER-3 0 6 MAY 2026
+Advanced Auditing, Assurance &
+Professional Ethics Question Paper Booklet No.
+2366497
+1. The question paper comprises two parts, Part I and Part II. =
+2. Part I comprises Multiple Choice Questions (MCQs). |
+3. Part Il comprises questions which require descriptive answers.
+4. Answers to Questions of Part I (ie., MCQs) are to be marked on the OMR answer sheet as given on the
+cover page of descriptive answer book only. Answers to questions in Part I (i.e. descriptive questions) are
+to be written inside the descriptive answer book. Answers to MCQs, if written inside the descriptive answer
+book will not be evaluated. |
+5. OMR answer sheet given on the cover page of descriptive answer book will be in English only for all
+candidates, including for Hindi medium candidates. |
+6. The bar coded sticker provided in the attendance register, is to be affixed only on the descriptive answer book. |
+7. You will be allowed to leave the examination hall only after the conclusion of the exam. If you have completed
+a i the paper before time, remain in your seat till the conclusion of the exam.
+8. Duration of the examination is 3 hours. You will be required to submit the descriptive answer book with
+} OMR cover page to the invigilator before leaving the exam hall, after the conclusion of the exam.
+9. The invigilator will give you acknowledgement on Page 2 of the admit card, upon receipt of the descriptive
+answer book. :
+,10. Candidate found copying or receiving or giving any help or defying instructions of the invigilators or
+having/using mobile phone or smart watch or any other electronic gadget will be expelled from the examination
+and will also be liable for further punitive action.
+1. Answer all MCQs, on the OMR Answer Sheet as given on the cover page of descriptive answer book.
+2. Use HB pencil only to darken the circles for MCQ answers in the answer sheet.
+3. After each MCQ, four options have been given. Choose the correct or most appropriate option and darken
+the corresponding circle against the question number in the OMR Answer Sheet, completely, as shown below,
+with HB pencil.
+1
+Example: Not as shown below
+For Question No. 12, if the (Wrong method) :
+candidate considers the correct 12@) @ (0) 5
+answer to be C, he is to mark as
+shown below (Correct Method). 2® ©@@O
+2® ©O®©
+2® OOO 2®O@O®
+LICK X XO)
+4, Any answer to MCQ marked inside descriptive answer book will not be considered and no marks will be awarded.
+5. Ifa candidate wants to change the option already darkened, he should erase it completely, with good quality
+eraser and ensure that no mark is visible after erasing.
+6. No mark will be awarded if no circle is darkened or more than one circle is darkened for a particular MCQ.
+There is no negative marking for a wrong answer.
+7. Rough work, if any, must be done on the pages, specified as SPACE FOR ROUGH WORK only and nowhere
+else in the question paper booklet or in the answer sheet.
+8. Before commencement of the exam, please fill up the necessary information in the space provided below and
+also in the answer sheet.
+Total No. of Printed Pages : 32 Maximum Marks : 100
+Question Paper J N Y
+am Signature of the Candidate
+o
+
+
+========== PAGE 2 ==========
+|
+Q)
+JNY
+PART -I 30 Marks
+(McQ Portion)
+© Answers to MCQs are to be marked on the OMR answer sheet as given on the cover
+page of the descriptive answer book only, Answer to MCQs, if written inside the
+a descriptive answer book shall not be evaluated.
+. © Please write and darken correct MCQ booklet number in the OMR answer sheet. The
+correct MCQ booklet number must also be written in the attendance register. |
+; ;
+Integrated Case Scenario -I
+Myra Developers Ltd ((MDL’) is a prominent, publicly listed conglomerate |
+primarily engaged in the development of “Smart City” infrastructure and large-scale |
+urban transit systems. The Company currently manages several high-value projects |
+under the Service Concession Arrangement (SCA) model. Effective Financial Year |
+2025-26, M/s. MS & Associates, Chartered Accountants were re-appointed as the |
+statutory auditors, for a period of five years, with CA Raja as the Engagement |
+Partner. To comply with the firm’s quality control policies for high-risk listed
+clients, CA Puja was designated as the Engagement Quality Control Reviewer
+(EQCR).
+The audit environment became increasingly complex during the final quarter of the
+year. A primary area of concern involved the ‘valuation of Service Concession
+Assets, which are valued based on discounted future cash flows from projected toll
+collections and government subsidies. Due to the high degree of estimation
+uncertainty and specialized mathematical models involved, CA Raja determined
+~ 4 this to be a “significant risk” area. To address this, the firm engaged a third-party
+valuation specialist. CA Raja verified the expert’s professional membership and
+o 3 INY
+
+
+========== PAGE 3 ==========
+@)
+JINY
+checked two previous project reports the expert had completed for other firms.
+However, he chose not to delve into the specific discount rates or growth
+assumptions used in the current model, citing that his decade-long experience in
+construction auditing provided him with enough “intuitive comfort” to accept the
+; expert’s final figures without further technical challenge.
+1 As the audit progressed into April 2026, the engagement team flagged a transaction |
+, involving an unsecured, interest-free loan of % 15 crores extended to Emerald
+Ventures Private Ltd. Investigation revealed that the spouse of MDL’s Managing |
+Director holds a 30% equity stake in Emerald Ventures. The Board was just |
+informed about this transaction without any specific details and the board approvals
+] were entirely bypassed. When confronted, the CFO argued that the loan was a
+. ‘temporary bridge’ for a sub-contractor and that the amount was negligible,
+representing less than 1% of MDL’s total asset base and thus did not warrant any
+disclosure. ° .
+Concurrent with the financial review, the team evaluated MDL’s compliance with
+broader regulatory frameworks. It was discovered that the Environmental
+Management Authority had issued a ‘Show Cause Notice’ to MDL for failing to
+renew the mandatory operating licenses for three major project sites. These licenses
+are fundamental to the Company’s legal right to operate, while these projects
+continued to generate revenue and no financial penalties had been crystallized by
+the balance sheet date. CA Raja noted the non-compliance in the working papers
+but concluded that since it had no ‘direct effect’ on the calculation of the current
+year’s depreciation or revenue, it did not require specific procedures beyond a
+7" . standard management representation letter.
+| E JNY o
+B
+
+
+========== PAGE 4 ==========
+|
+4) |
+INY
+The audit report was formally signed dated:-May 15, 2026. However, a week later, |
+on May 22, 2026, before the Company had printed and dispatched the annual
+reports to the shareholders, a catastrophic fire occurred at the Company’s central |
+logistics hub. The fire decimated specialized equipment and inventory worth 7 40
+iy ~ crores. Since the insurance policy for that specific hub had lapsed two months
+‘ prior, the loss was total. When CA Raja requested management to adjust the |
+financial statements or at least include a detailed note for the subsequent event, the |
+Board refused, claiming that auditors responsibility for FY 2025-26 accounts ended
+the moment the audit report was signed off.
+Based on the above facts, answer the following Q. Nos. 1 to 5 by choosing the most
+appropriate option :
+1. Considering the mandatory requirements for listed entities, which of the
+following represents a lapse in objective evaluation of an EQCR ? 2
+(A) EQCR has made a review of the financial statements and the proposed
+auditor’s report.
+(B) EQCR did not specifically evaluate and document the engagement
+team’s assessment of the firm’s independence prior to report finalization.
+(C) . EQCR disagreed with the engagement partner’s reporting conclusion but
+escalated the matter to the firm’s technical committee as per policy.
+(D) EQCR restricted the detailed review to areas involving significant
+7 4 judgment instead of reviewing all routine audit documentation.
+a JNY
+
+
+========== PAGE 5 ==========
+6)
+JINY
+2. Regarding the “Show Cause Notice” and the expired environmental licenses,
+how should the auditor’s responsibility be categorized under the standards on |
+auditing ? 2
+(A) The auditor’s responsibility is limited to performing specified audit
+procedures, specifically inquiry and inspection, to identify
+: non-compliance that may have a material effect on the financial
+statements.
+
+r (B) The auditor must obtain sufficient appropriate audit evidence regarding i
+compliance because these regulations have a direct effect on the
+determination of material amounts and disclosures.
+
+(C) Since the non-compliance is “fundamental to the operating aspects,” the
+auditor must treat this as a “direct effect” law and perform extensive
+
+| substantive testing on all environmental filings.
+
+| (D) No responsibility exists under the auditing standards because the legal
+
+| non-compliance had not resulted in a quantified financial penalty or
+“direct” monetary misstatement by the year-end. ;
+
+| 3. Given the dispute over the % 15 crore loan to a Company in which the MD’s
+
+| spouse held shares, what is the mandatory reporting requirement for M/s. MS
+
+} & Associates under CARO 2020 ? 2
+
+(A) Since the amount is less than 1% of the total assets, it is considered
+
+| “immaterial” for CARO purposes and no mention is required.
+
+| (B). The auditor must state whether the provisions of Section 185 and 186
+have been complied with, and since they have not, provide the specific
+
+| details of the non-compliance.
+
+(C) The auditor should report this under the “Related Party Transactions”
+clause of CARO only if the transaction was not at “arm’s length,”
+_ regardless of Section 185 compliance.
+(D) Because the transaction involves a spouse and not the Director directly,
+7 . i Section 185-is not triggered, and thus no reporting is required under
+CARO.
+JNY o |
+
+
+========== PAGE 6 ==========
+©)
+JINY
+4. Following the warehouse fire on May 22, 2026, and management’s |
+subsequent refusal to amend the financial statements, which is the most |
+appropriate course of action for CA Raja ? 2 |
+(A) He should issue a “Qualified Opinion” immediately, dating the new |
+' report May 22, 2026, to account for the unadjusted inventory loss. |
+(B) As the report is already signed, he should inform the management that he
+i will “withdraw” his signature, effectively cancelling the previous report |
+6 via a public notice.
+(C) He must notify those charged with governance not to issue the financial
+statements to third parties; if they are still issued, he must take steps to
+prevent reliance on the report.
+(D) He should include an “Emphasis of Matter” paragraph in the next year’s
+audit report (FY 2026-27) to explain the loss that occurred in the
+previous period.
+5. CA Raja’s reliance on the valuation expert’s findings for the Service
+Concession Assets was based on his ‘intuitive comfort’ and the expert’s
+professional credentials. With reference to relevant Standard on Auditing,
+which of the following statements is appropriate ? 2
+(A) CA Raja’s approach is appropriate because an auditor is not expected to
+review the assumptions and methods of a specialized valuer and is
+entitled to rely on the expert’s professional membership as sufficient
+evidence of the reliability of the work.
+(B) CA Raja failed to meet the requirements of the standards because he did
+not evaluate the adequancy of the expert’s work, which includes
+7 evaluating the. relevance and reasonableness of the expert’s significant
+assumptions and methods.
+o 3 INY
+
+
+========== PAGE 7 ==========
+—
+)
+JNY
+(C) The auditor’s reliance is technically deficient because the engagement of
+a third-party expert for a ‘significant risk’ area automatically requires the
+Engagement Quality Control Reviewer to perform an independent
+} re-calculation of the model.
+| (D) CA Raja acted correctly by focusing on the expert’s previous project
+/ reports for other firms, as this fulfils the requirement to obtain a
+sufficient understanding of the expert’s field of expertise to verify the
+$ final valuation figures.
+|
+| Integrated Case Scenario — II
+| |
+Horizon Tech-Solutions Ltd (HTSL) is a prominent, unlisted public company
+specializing injproviding end-to-end cloud infrastructure and digital transformation
+services. M/s. JK & Associates, Chartered Accountants were the Statutory
+Auditors, with CA Vicky as the engagement partner for third consecutive year.
+HTSL’s operations are highly decentralized, with its primary revenue driver being
+the ‘HR-Flow’ platfqrm. To maintain cost efficiency, HTSL has outsourced its
+entire data processing and payroll calculation engine to Data-Sync Private Ltd
+| (SPL). During the audit planning phase in October 2025, the CFO, Mr. Rane,
+received an urgent email from an address nearly identical to the Group Chairman’s,
+requesting a ‘discreet? $50,000 wire transfer for an undisclosed project.
+im e Simultaneously, several junior staff members in the peti reported
+JNY o
+
+
+========== PAGE 8 ==========
+|
+(8)
+IJNY
+receiving urgent SMS alerts claiming their corporate login credentials had expired
+and providing a link to a ‘Security Portal’ to prevent account lockout. Later, in |
+December 2025, the IT Manager was contacted by a person claiming to be from the |
+; Company’s telecom provider, who successfully convinced him to reveal the |
+| administrative password for the VoIP gateway over a recorded ‘verification call’. |
+As the audit progressed into the finalization stage, HTSL provided CA Vicky with a
+Type 2 Report for DSPL. This report covered the description, design and operating
+effectiveness of controls at DSPL. CA Vicky’s audit assistant, noting that payroll
+costs constitute 68% of the total expenditure, drafted an unmodified audit report
+including a paragraph stating : “Our opinion is based in part on the report of the
+service organization's auditor, which confirms the effectiveness of the payroll
+processing engine.” To meet the reporting deadline, CA Vicky decided to utilize
+the internal audit function. He assigned them to trace transaction flows from the
+CRM to the general ledger and to attend the physical verification of high-value
+hardware at four remote data centers. However, he also asked them to
+‘independently evaluate’ whether the Management’s assessment of the Company’s
+ability to continue as a going concern was ‘reasonable’ given a recent loss of a
+major contract.
+Meanwhile, CA Anaya, a senior partner at the firm, was offered the role of “Whole-
+time Director’ at a reputable non-profit educational Trust. While she has no financial
+7 4 . interest in the Trust, the role involves significant administrative responsibilities and
+a fixed monthly honorarium.
+o JNY
+
+
+========== PAGE 9 ==========
+sss eestst—‘“‘OUUT
+)
+INY
+Based on the above facts, answer the following Q. Nos. 6 to 9 by choosing the most
+appropriate option :
+| 6. Considering the various security breaches described (the Chairman’s email,
+| the SMS alerts, and the password disclosure over the phone), which of the
+* | following accurately categorizes the nature of these social engineering attacks
+\ for the purpose of the Risk Assessment and Internal Control evaluation ? 2
+(A) The Chairman impersonation email represents Whaling; the SMS
+credential reset alerts represent Smishing; and the password extraction
+through the verification call represents Vishing.
+| (B) The Chairman impersonation email represents Spear-phishing; the SMS
+| alerts represent Smishing; and the phone-based credential extraction
+represents Vishing.
+(C) The Chairman impersonation email and the phone-based password
+extraction both represent Whaling due to targeting employees in
+| sensitive control positions, while the SMS alerts represent Smishing.
+(D) All three incidents represent targeted Spear-phishing attempts using
+different communication channels.
+7. CA Vicky is reviewing the audit report draft prepared by his assistant
+regarding the reliance on the Type 2 report of DSPL. . Considering the
+materiality of payroll, which of the following is the most appropriate .
+professional response ? 2
+(A) The assistant is correct; because the payroll cost is a material 68% a
+ve reference to the service auditor is necessary to. limit M/s JK &
+: Associates’ liability.
+JINY a
+
+
+========== PAGE 10 ==========
+(10) |
+INY
+(B) The reference should be removed from the report; however, CA Vicky
+must perform additional procedures to obtain an understanding of the
+controls at the service organization. 3
+(C) The reference should be moved to an ‘Emphasis of Matter’ paragraph to
+: highlight the significant reliance on the service auditor’s Type 2 report
+i without modifying the opinion.
+
+, (D) The reference is permitted only if CA Vicky issues a ‘Qualified
+Opinion’, as the use of services of DSPL constitute a limitation on the
+scope of the statutory audit.
+
+8. CA Vicky has assigned several tasks to the internal audit function. Evaluate
+the appropriateness of these assignments under the framework of using the
+work of internal auditors. 2
+
+(A) All assigned tasks (tracing transactions, hardware counts, and evaluating
+going concern) are appropriate as they pertain to the operating
+effectiveness of the entity’s reporting framework.
+
+(B) Tracing transactions and attending hardware counts are inappropriate for
+internal auditors as these are core substantive procedures that must be
+performed by the engagement team to ensure independence.
+
+(C) Only the evaluation of the going concern is inappropriate; however, the
+internal auditors can perform hardware counts only if CA Vicky
+
+provides ‘direct assistance’ supervision throughout the process.
+
+(D) Only the tracing of transactions and hardware counts are appropriate; the
+
+7 * evaluation of the going concern assumption involves significant
+judgment and is the sole responsibility of the external auditor.
+
+oa JNY
+
+
+========== PAGE 11 ==========
+re5))
+INY
+9. Regarding CA Anaya’s offer to become a Whole-time Director at the
+educational Trust. Which of the following is most appropriate in the
+| background of professional guidelines issued by the Institute 2 2
+| (A) Since she holds no ‘substantial interest’ and the entity is a non-profit, she
+| can accept the role without any notification to the Institute, provided the
+; honorarium is below the prescribed limit.
+i (B) She can accept the role only if she resigns as a partner from M/s. JK &
+Associates, as a member cannot simultaneously be in ‘Full-time
+Practice’ and ‘Full-time Employment’ as a Director.
+
+(C) She may accept the role of a Whole-time Director only after obtaining
+the specific and prior approval of the Council, regardless of whether the
+entity is a business or a non-business concern.
+
+(D) She is permitted to accept the fore under the ‘General Permission’
+category of the Institute, provided she informs the Council within 30
+days of joining the trust.
+
+Integrated Case Scenario — II
+Mis. Sterling & Co LLP, Chartered Accountants are the statutory auditors of Green-
+Horizon Infrastructure Ltd (GHIL), a listed entity. The management has requested
+the firm to draft and finalize their comprehensive Business Responsibility. &
+Sustainability Report (BRSR) for the current fiscal year.
+CA Prem, the engagement partner, reviewed the section concerning the Company’s
+“4 influence on public and regulatory policy. The Company is a prominent “Platinum
+- Member” of the National Infrastructure Council (NIC) and the Renewable Energy
+JNY a
+
+
+========== PAGE 12 ==========
+(12)
+INY |
+Federation (REF), paying substantial annual fees to these industry chambers.
+Additionally, the Company’s CEO served as a key member of a Ministry-led task
+force that drafted the “National Green Hydrogen Policy 2024”, providing extensive
+technical inputs on subsidies and regulatory easing. The Company also submitted a
+: formal white paper to the Ministry of Power suggesting specific amendments to the
+i Electricity Act regarding grid access. During the year, it had also submitted to one
+of the industry chambers certain key inputs on leveraging India’s power
+infrastructure for creating renewable energy solutions as its task force member on
+the subject.
+| The Managing Director argues that since the auditors are already the designated
+“Assurance Provider of BRSR Core” as per SEBI requirements, having them also
+prepare the underlying study would ensure maximum data consistency. He further
+contends that the firm can legally provide both preparation and assurance services
+for the same BRSR framework to an audit client.
+GHIL is currently undergoing an = 80 crore expansion, called the ‘Green Data
+Park’. The budget is allocated as % 45 crore for cooling systems, % 30 crore for civil
+construction (steel and cement), and % 5 crore for licensing. An internal
+whistleblower alleged that the civil contractor, in collusion with the Project
+Manager, submitted invoices for ‘Grade-A Steel’ while installing ‘Grade-B’
+material, pocketing the price difference. The Board is now debating the technical
+distinction between the two, asking CA Prem to perform ‘extended audit
+7 : procedures’ on these. construction invoices versus appointing a separate firm for a
+‘Forensic Accounting’ engagement.
+o i INY
+
+
+========== PAGE 13 ==========
+(13) |
+] INY
+| Based on the above facts, answer the following Q. Nos. 10 to 12 by choosing the |
+i| most appropriate option :
+|
+10. How the above information would likely to be disclosed by GHIL in
+“principle —wise performance disclosures” as a part of BRSR for the current
+7 | year ? Select the correct option. 2
+t (A) Information relating to membership of Chamber/associations is in the
+' nature of Leadership Indicators and requires optional disclosures.
+Information relating to inputs provided by company to the Ministry of
+Power on a legislative bill is in the nature of Essential Indicators and
+requires mandatory disclosures.
+_ (B) Information relating to membership of Chamber/associations is in the
+} nature of Leadership Indicators and requires mandatory disclosures.
+Information relating to inputs provided by company to the Ministry of
+Power on a legislative bill is in the nature of Leadership Indicators and
+requires mandatory disclosures.
+(C) Information relating to membership of Chamber/associations is in the
+nature of Essential Indicators and requires optional disclosures.
+Information relating to inputs provided by company to the Ministry of
+Power on a legislative bill is in the nature of Leadership Indicators and
+requires mandatory disclosures.
+(D) Information relating to membership of Chamber/associations is in the
+nature of Essential Indicators and requires mandatory disclosures.
+Information relating to inputs provided by company to the Ministry of
+Power on a legislative bill is in the nature of Leadership Indicators and
+a | requires optional disclosures.
+JNY oO
+
+
+========== PAGE 14 ==========
+(14) |
+INY
+11. Select the correct option with reference to professional code of conduct
+applicable for the Mis. Sterling & Co LLP who are involved in preparation of |
+BRSR study, providing advisory services, and acting as BRSR Core |
+; Assurance provider ? : 2
+| (A) Preparation of BRSR study by M/s. Sterling & Co LLP is permissible by
+recent decisions of Ethical Standards Board for the same client.
+‘ However, providing advisory services or acting as BRSR Core
+Assurance provider is not permissible as per SEBI framework for the
+same client.
+(B) Preparation of BRSR study or providing advisory services by M/s.
+Sterling & Co LLP is permissible by recent decisions of Ethical
+Standards Board for the same client. However, acting as BRSR Core
+Assurance provider is not permissible as per SEBI framework for the
+same client.
+(C) Preparation of BRSR study by M/s. Sterling & Co LLP is not
+permissible by recent decisions of Ethical Standards Board for the same
+client. However, providing advisory services or acting as BRSR Core
+Assurance provider is permissible as per SEBI framework for the same
+client.
+(D) Preparation of BRSR study or acting as BRSR Core Assurance provider
+by M/s. Sterling & Co LLP is not permissible by recent decisions of
+. : Ethical Standards Board for the same client. However, providing
+7 i advisory services is permissible as per SEBI framework for the same
+client.
+| o . INY
+
+
+========== PAGE 15 ==========
+0 OOD a =
+(15)
+JNY
+12. The Board is debating the forensic investigation for the steel price inflation in
+the ‘Green Data Park’. Which of the following statements is inappropriate in
+this regard ? 2
+(A) In statutory audit individual transactions and balances play a major role
+| irrespective of the fact whether they have a material impact on the
+| overall financial statements.
+; | (B) The Forensic professional does not conduct an audit using sample
+selection methodologies to perform substantive or compliance tests. \
+(C) No audit report with any opinion is issued by Forensic Professional.
+' (D) The Forensic Professional’s mandate is limited to present his findings to
+a superior authority who will examine these from a legal point of view to
+establish whether the law has been violated or not.
+13. Virup Global Holdings Ltd (VGHL) is preparing Consolidated Financial
+| Statements for the year ended March 31, 2026. VGHL owns 80% of Nexus
+Systems Private Ltd. (NSPL). During the year, VGHL sold goods to NSPL at
+a 25% markup on cost. At year end, 40% of these goods remained unsold in
+NSPL’s inventory. The applicable tax rate is 30%. 2
+The group prepares consolidated financial statements under Ind AS.
+Separately, NSPL had a customer receivable of % 4 crore outstanding as at
+March 31, 2026. On May 15, 2026, the customer was declared insolvent
+following a fire incident that occurred on March 30, 2026 in his factory.
+The required consolidation adjustments and treatment of subsequent events is
+(A) Unrealised profit elimination equals 10% of intercompany sales value, :
+deferred tax adjustment is not required, and the customer insolvency is |
+treated as a non-adjusting event requiring disclosure only.
+(B) Unrealised profit elimination equals 40% of intercompany profit only, |
+i deferred tax adjustment is not required on consolidation entries, and the
+e. customer insdlvency is treated as a non-adjusting event.
+JNY cs] |
+
+
+========== PAGE 16 ==========
+(16)
+JINY
+
+(C) Unrealised profit elimination equals 25% of closing inventory value,
+deferred tax adjustment is optional based on materiality, and the
+customer insolvency is treated as a disclosure event only.
+
+(D) Unrealised profit elimination equals 8% of intercompany sales value,
+deferred tax adjustment is required on unrealised profit elimination, and
+the customer insolvency is treated as an adjusting event requiring
+
+: recognition of impairment.
+14. During the statutory branch audit of ABC Bank for the financial year ended
+© March 31, 2026, you are reviewing the credit portfolio of the Corporate
+
+Banking division. One significant exposure involves G-Mart Ltd, which was
+
+granted a working capital credit limit of = 100 lakh on September 1, 2023.
+
+According to the bank’s internal policy and regulatory norms, these limits
+
+were due for a comprehensive renewal on September 1, 2025. 2
+
+Upon scrutiny, you observe that as of March 31, 2026, the formal renewal had
+
+not been executed, despite more than 180 days having elapsed since the due
+
+date. The Branch Manager contends that the account is “perfectly healthy”,
+noting that the balance has remained within the sanctioned Drawing Power,
+interest has been serviced promptly, and the account shows high turnover. The
+delay is attributed to the sudden demise of G-Mart Ltd’s statutory auditor,
+which stalled the finalization of audited financial statements required for
+renewal. f
+A letter dated February 15, 2026, from the client confirms that a new auditor
+was appointed and the audited financial statements were finally submitted on
+April 10, 2026, and the bank issued the formal renewal letter on April 12,
+2026, prior to the signing of your branch audit report.
+Your audit assistant argues that because the 180-day grace period expired
+during the financial year without a formal renewal, the account’s status is
+non-negotiable and must be downgraded to NPA.
+5 As the Statutory Branch Auditor, how should you evaluate the asset
+= classification of G-Mart Ltd’s account for the year ended March 31, 2026 ?
+Oo JINY
+
+
+========== PAGE 17 ==========
+| (17)
+| JNY
+(A) Classify as NPA; the 180-day grace period from the due date expired
+prior to the balance sheet date, making the account technically irregular
+regardless of the reason for delay.
+(B) Classify as NPA; it is a non-adjusting event under AS 4 “Contingencies
+and Events Occurring after the Balance Sheet date”. There is no matter
+7 of substance over form.
+; (C) Classify as Standard; it is an adjusting event under AS 4 “Contingencies
+and Events Occurring after the Balance Sheet date”. It is a matter of
+‘ substance over form.
+(D) Classify as NPA; however, the classification can be reversed in the same
+financial year’s audit report if the renewal is completed before the
+independent auditor’s report is signed.
+\ 15. The examination of public enterprises by the Committee takes the form of
+comprehensive appraisal or evaluation of performance of the undertaking. It '
+involves a thorough examination, including evaluation of the policies, }
+programmes and financial working of the undertaking. Therefore, the |
+Parliament and the State Legislatures have, for this purpose, constituted
+. specialized Committees. Funds were approved to procure medical equipment
+for district hospitals. Audit reports show that 30% of the equipment remains
+unused due to lack of trained staff. Which Committee can bring to the notice
+of the house that the particular policy is not leading to the desired results or is
+leading to waste : 4
+(A) Committee on Public Undertakings.
+(B) Public Accounts Committee.
+(C) Financial Committee.
+al (D) Estimates Committee.
+; JNY a
+
+
+========== PAGE 18 ==========
+all
+|
+(18) |
+IN |
+PART -Il 70 Marks |
+(Descriptive Portion)
+(Candidates are required to give descriptive answers for this part inside
+the answer book)
+4 1. Questions paper comprises 6 questions. Answer Question No. 1 which is
+‘ compulsory and any 4 out of the remaining 5 questions.
+Z 2. Working notes should form part of the answer.
+3. Answers to the questions are to be given only in English except in the case of
+candidates who have opted for Hindi Medium. If a candidate has not opted
+for Hindi Medium, his/her answers in Hindi will not be evaluated. |
+4. . Candidates are required to write the question number legibly. |
+1. (a) The statutory audit of Nizovus Pharmaceuticals Ltd, for the financial 5
+year 2025-26, is underway. During the review of “Professional and
+Legal Fees” ledger, the engagement team noted a significant payment to
+a high-profile law firm specializing in Intellectual Property (IP) disputes.
+The management, during initial inquiries, stated that the payment was for
+‘general advisory services’ and that no active litigation exists that
+requires disclosure under the applicable financial reporting framework.
+| However, the minutes of the Board Meeting from February 2026 hint at
+a potential significant patent infringement claim from a global
+competitor.
+The engagement partner, CA Rukma, insisted on sending a letter of
+direct inquiry to the external legal counsel.to assess the probability of an
+4 outflow of resources. The management has refused to permit this
+oa JNY
+
+
+========== PAGE 19 ==========
+ee
+| |
+(19)
+JINY
+communication, citing ‘confidentiality clauses’ in their contract with the
+law firm. They have offered to provide a comprehensive written
+representation confirming that no material litigations are pending. CA
+Rukma is concerned about the management’s stand and non-availability
+of direct confirmation from the lawyers.
+: Is management’s written representation sufficient in place of legal
+Ww confirmation ? Advise CA Rukma, about the additional audit procedures
+, and reporting implications, if legal confirmation is denied.
+| | (b) Hortiko Ltd is a logistics company that maintains its primary inventory 5
+| and research assets in a specialized cold-storage facility. On April 5,
+\ 2026, a massive technical failure in the cooling systems led to the
+spoilage of specialized raw materials valued at < 21 crore. This event
+i | occurred after the balance sheet date but before the financial statements
+were authorized for issue.
+Management has determined this to be a ‘non-adjusting event’ and has
+provided a detailed disclosure in Note 28 to the Financial Statements,
+explaining the financial impact and the status of the insurance claim. The ;
+statutory auditor, after performing subsequent event procedures, is —
+satisfied with the disclosure and has concluded that the matter is
+fundamental to the users’ understanding of the financial statements.
+However, the auditor has also confirmed that this event does not impact
+the ‘Going Concern’ assumption for the foreseeable future.
+Considering the above facts, state the reporting requirements under
+relevant Standard on Auditing and draft a suitable paragraph to be
+| included in the Independent Auditor’s Report.
+JNY a
+
+
+========== PAGE 20 ==========
+Ee
+(20)
+INY
+(c) CA Pawan is engaged by M/s RK Industries, a partnership firm to 4
+compile its financial statements for the past two financial years. During
+performance of the engagement, CA Pawan, was not satisfied with
+certain significant adjustments made to inventory valuation over the
+| years. The matter was subsequently resolved after obtaining appropriate
+clarifications from the management. Further, at the completion stage, CA
+
+Pawan, has provided the final compiled statements along with the
+
+compilation report to M/s RK Industries.
+
+You are required to explain the documentation requirements that should
+
+be adhered to by CA Pawan for this type of engagement.
+
+t
+2. (a) CA Ravi is the engagement partner of PQR Ltd for conducting the 5
+
+Statutory audit for the FY 2025-26. During the audit of PQR Ltd., he had
+
+the following observations :
+
+() Management used an outdated discount rate (12% as against 8%)
+leading to % 2 crore understatement of recoverable amount/
+overstatement of impairment loss, which in the auditor’s view is
+not appropriate.
+
+(ii) Management delayed providing expected inventory records for 10
+days, causing extensive extra effort.
+
+|
+a JNY
+
+
+========== PAGE 21 ==========
+i  ——— ————
+\
+1) |
+INY
+You are required to :
+(i) State with reasons how each of the above constitutes a significant
+finding requiring communication to “Those charged with
+| governance” as per relevant Standard on Auditing, |
+: } (ii) State, apart from the above, other significant findings that an
+| A auditor should communicate to “Those charged with governance”. |
+|
+| (b) CA Vinit, a practicing Chartered Accountant, after attending various 5
+courses in Data Analytics and Artificial intelligence designates as “AI |
+Professional” in his visiting cards and letter heads. He wants to advertise
+| through a write up, setting out the professional services provided by him
+and consequently he has included the basic details such as his name,
+| | membership number, professional address, website, email, details of
+| | employees and various services provided. In the Profile section of write
+| up, he includes the following details :
+(Disclosure of client MNP Ltd.’s turnover figures from recent audit
+| as ‘% 500 crores audited’ to show case expertise in large-scale
+statutory audits.
+(ii) A mention of the ‘Outstanding Accountant of the Year 2025’ award
+| received from the local Rotary Club in the previous year;
+(ii) The firm’s tagline “Precision in Every Calculation” which CA
+Vinit believes is an honest description of his work.
+Analyze and comment whether the act of CA Vinit is in compliance with
+the guidelines and provisions of the Chartered Accountants Act, 1949.
+JNY a
+
+
+========== PAGE 22 ==========
+=— eee Sr
+(22)
+JNY
+(©) G-Tech Solutions Ltd. is a large multinational corporation engaged in 4
+providing cloud-based financial services. The company’s operations are
+heavily reliant on proprietary software applications and extensive
+databases containing sensitive client financial information.
+a During the statutory audit for the financial year 2025-26, the engagement
+l partner, CA Harsh, observes that the company has recently integrated
+multiple new digital platforms to automate revenue recognition
+* processes and safeguard its trade secrets. Further, the company has
+disclosed that an incident involving an attempted unauthorized access to
+its network occurred approximately six months prior to the year end,
+although management has described the incident as minor.
+As the statutory auditor, CA Harsh is in the planning stage of the audit
+and wants to evaluate the entity’s risk assessment process with specific
+reference to cybersecurity risks. Explain the key aspects that CA Harsh
+would evaluate in identifying the entity’s risk assessment process
+relating to cybersecurity.
+
+3. (a) FinBridge Digital Lending Ltd, a non-deposit taking financial 5
+intermediary registered with the financial sector regulator, operates an
+online platform that enables individual lenders to fund retail borrowers
+after performing onboarding, credit scoring, documentation, and
+recovery support functions. During the audit, CA Mehta, the engagement
+‘partner, observed that certain borrower accounts with overdue
+instalments were internally tagged as “watchlist” instead of being
+
+migrated to non-performing categories pending expected recovery from
+collection agents.
+a 3 JINY
+
+
+========== PAGE 23 ==========
+LES =
+(23)
+INY
+
+Further, income relating to such stressed accounts continued to be
+recognised based on contractual schedules. The Board has approved
+broad risk policies, however, detailed operational guidance and periodic
+monitoring reports were not consistently documented.
+
+a | Mr. Mehta wants to assess whether FinBridge Digital Lending Ltd, is
+
+Ls complying with the Prudential Norms. Guide Mr. Mehta in this regard.
+
+) (b) CA Jiva, a practicing Chartered Accountant since last five years, is 5
+
+/ providing various advisory services to a wide range of clients. One of his
+
+/ client ASP Ltd is a subsidiary of an overseas conglomerate. CA Jiva is
+providing advisory services in the field of taxation, GST consultancy,
+| issuing Form 15CB for foreign remittances. All services were being
+
+smoothly provided to ASP Ltd until after a certain period it was
+
+revealed on an enquiry from the Regulator that the overseas
+
+conglomerate had invested in ASP Ltd to use it for carrying out money
+laundering and crypto laundering. The regulator directed CA Jiva to
+provide details about ASP Ltd for the ongoing enquiry. CA Jiva
+contended that he was providing only taxation, GST consultancy and
+certification to ASP Ltd and therefore was not required to keep detailed
+information about the company.
+Based on the guidelines issued by ICAI comment on the contentions of
+
+CA Jiva? j
+JNY o
+
+
+========== PAGE 24 ==========
+| —__ mer RR
+(24)
+JNY
+(©) CA Deepa is the statutory auditor of SGP Textiles Ltd for the FY 2025- 4
+26 and is in the process of finalizing the audit report,
+During the course of the audit CA Deepa obtained information indicating
+that SGP Textiles Ltd. is experiencing severe liquidity crisis arising from
+a sudden shift in market demand and cancellation of its largest export
+4} order. As at the Balance Sheet date, the company’s current liabilities
+| exceed its current assets and it has defaulted in repayment of certain
+6 borrowings. Management has disclosed in the notes to the financial
+statements that these events or conditions indicate material uncertainty
+that may cast significant doubt on the entity’s ability to continue as a
+going concer. However, the financial statements for the FY 2025-26
+have been prepared on going concern basis, based on management’s ;
+expectation that a proposed merger with a larger conglomerate will be |
+completed and will stabilize the company’s financial position.
+Analyze and state the reporting responsibilities of CA Deepa in the
+Independent Auditor’s Report of SGP Textiles Ltd in accordance with
+the relevant applicable Standard on auditing.
+4. (a) Evershine Refineries Ltd has recognized a substantial provision towards 5
+decommissioning and environmental restoration obligations telating to
+its offshore drilling operations. The measurement of this provision
+requires complex assumptions involving long-term discounting,
+engineering life-cycle estimates, and evolving environmental compliance
+costs. For the current financial year, the Company has relied on a
+oO INY
+
+
+========== PAGE 25 ==========
+(25)
+as :
+| technical assessment prepared by its internal Chief Technical Officer
+(CTO), who is a qualified environmental engineer and has been
+associated with the organization for over two decades. Based on
+| internally developed operational efficiency measures, the CTO’s report
+4 recommends a 15% reduction in the existing provision.
+‘ During the audit, the engagement partner, CA Meera, has identified the
+| provision as a significant matter due to the significant estimation
+) uncertainty and its material effect on the profitability of the Company.
+| Although the CTO possesses relevant technical competence, CA Meera
+has noted that the CTO’s performance incentives are linked to the
+, | Company’s profitability targets. Further, the audit team does not possess
+/ specialized engineering expertise to independently validate the technical
+[ assumptions underlying the revised provision estimate, and no
+| comparable external market benchmarks are available for similar i
+offshore decommissioning projects.
+Analyse the case and guide CA Meera whether to rely on CTO’s
+recommendations with reference to the relevant Standard on Auditing.
+(b) CA Pranav is engaged to perform a review of the historical financial 5
+statements of LAN Innovations Ltd. for the financial year 2024-25.
+While performing analytical procedures, CA Pranav identifies several
+significant payments made to a newly incorporated entity. Based on the
+| nature and pattern of transactions, CA Pranav suspects that the entity
+| may be a related party. Upon inquiry, management provides only a
+; NY a
+| ‘
+
+
+========== PAGE 26 ==========
+(26)
+JNY
+vague oral explanation, asserting that the entity is an independent third-
+party vendor. To corroborate management’s assertions, CA Pranav
+requests written representations, confirming identity, completeness and
+appropriate disclosure of all related party relationships and transactions.
+| However, management refuses to provide written representations, stating
+i that oral explanations are sufficient for a limited review engagement.
+In the context of SRE 2400, explain the course of action CA Pranav
+; ~ ghould. take “in response to management’s refusal to provide written
+representations. Discuss the circumstances under which CA Pranav would
+be required to disclaim a conclusion or withdraw from the engagement.
+
+(c) MK Steel Manufacturing Ltd is a listed company among the top 1000 {
+entities in India, leading in steel production and related products. the
+company has been expanding its operations over the past four years and
+
+-is now operating five large manufacturing units across different
+
+| industrial belts in the country.
+The steel manufacturing process generates substantial waste including
+slag, dust and chemical residues, majority of which is disposed of in
+landfills without proper treatment. The company’s energy consumption
+has also increased by 50% over the last three years, which is met mostly
+through coal-based thermal power, thereby contributing significantly to
+carbon emissions.
+Outline the BRSR principle which is most relevant to the above scenario
+q |i] mentioning the core elements associated with it. ‘
+o JNY
+
+
+========== PAGE 27 ==========
+| (C2))
+| JNY
+| 5. (a) TOOLS Limited is a Public company engaged in manufacturing of 5
+industrial components. During the course of statutory audit for the FY
+} | 2025-26, CA Vasu, the engagement partner, identified a serious
+| discrepancy on 15" April 2026 involving misappropriation of funds
+) | amounting to % 75 lakhs, perpetrated by the senior accountant through
+| the creation of fictitious vendor invoices. Subsequent verification and
+| r inquiry revealed that the accountant had acted independently, without the
+| $ involvement of other employees. The management acknowledged the
+| failure of internal controls and requested CA Vasu not to highlight this in
+] the audit report, contending that the amount was immaterial in context of
+) | the company’s turnover of % 500 crore.
+/ | Evaluate the scenario and elaborate the duties of CA Vasu under the
+} | Companies Act, 2013 with tespect. to the fraud and reporting
+/ requirements, if any, in accordance with CARO, 2020.
+| You are also required to state the responsibility cast on the Board of
+. Directors in relation to the fraud which has occurred.
+(b) QR Ltd, a listed company, has appointed CA Suba as its Chief Internal 5
+Auditor, and she is continuing in this role for the third consecutive year.
+The following unresolved issues were reported in the Internal audit
+reports for quarter ended June 2025 and September 2025 : f
+- Lack of adequate segregation of duties in inventory procurement
+cycle.
+| - Persistent delays in reconciliation of vendor balances.
+| - Deficiencies in IT user access controls.
+JNY |
+| 5
+
+
+========== PAGE 28 ==========
+(28)
+JINY
+During a recent meeting, the Audit Committee expressed concern over
+the recurrence of these issues and asked CA Suba to present a list of
+corrective actions taken by management against the above-mentioned
+findings.
+In context of the applicable Standards on Internal Audit, answer the
+| following :
+‘ (1) Explain the responsibilities of CA Suba with regard to the above
+reported issues.
+(2) Identify the most appropriate report that should be submitted to the
+Audit Committee in this situation and briefly outline the key
+matters that should be covered in such a Report ?
+(c) CA Karan, a practicing Chartered Accountant, was approached by 4
+Greentech Solutions Ltd. requesting him to issue a certificate regarding
+the utilization of term loan funds for their expansion project. The
+| company had received % 25 crores from a financial institution and
+needed to submit a utilization certificate within 60 days of disbursement.
+CA Karan issued the utilization certificate, stating that the entire loan
+amount was properly utilized for the intended purpose. However, his
+| verification process was limited to reviewing the summary reports
+provided by the finance manager and brief discussions with the
+managing director. He did not examine the bank statements, supporting
+documents like purchase invoices, contracts, payments, etc. The
+certificate did not mention any limitations or assumptions made during
+| the verification process.
+| o JNY
+|
+
+
+========== PAGE 29 ==========
+(29)
+INY
+Four months later, it was discovered that = 5 crores of the loan amount
+were diverted for purposes other than the approved project, leading to
+regulatory action against the company.
+Comment on the action of CA Karan with reference to the Chartered
+Accountants Act, 1949 and schedules thereto.
+| | 6, (a ED Motors Ltd, a leading manufacturer of high-performance electric 5
+| bikes, is planning to expand its operations globally. In order to obtain a
+long-term loan working capital funding of % 450 crores from a
+| | consortium of banks, the company has prepared Prospective Financial
+| Information (PFI) covering the next three years.
+| CA Madhu, who has been the statutory auditor of the company for the
+past four years, has been appointed to examine and report on the PFI
+prepared by the management. During her preliminary discussions, CA
+| Madhu noted the following matters :
+(i) The management is completely new to the complexities involved in
+international marketing projections.
+(ii) The financial projections are significantly dependent on
+hypothetical assumptions that the company will achieve a 20%
+market share in Europe, within the first year. This assumption
+would require productions levels exceeding the current installed
+) capacity of their domestic manufacturing facility.
+anv a |
+
+
+========== PAGE 30 ==========
+(30)
+
+INY
+(iii) Management has relied on a combination of internal budgetary data
+and external reports from independent industry analysts to justify
+
+their growth projections. :
+On the basis of above information determine the nature, timing and
+| extent of examination procedures that CA Madhu would perform on the
+Prospective Financial Information in accordance with applicable
+; Standard on Assurance engagements.
+
+(b) QRT Electricals Ltd is a mid-sized manufacturing company with a 5
+substantial investment in Fixed Assets comprising of Plant & machinery
+and Land. UV Ltd is proposing to acquire QRT Electricals Ltd and for
+this purpose it has considered various aspects like studying the overall
+picture, Statement of Profit and Loss, Balance Sheet. You have been
+appointed as an investigating accountant to carry out the business
+investigation and it was found that some machinery owned by the
+company is over 15 years old. Furthermore, the. company has revalued
+its fixed assets two years ago, increasing their book values. Maintenance
+expenses have also declined over the years. The machinery related to
+packaging line has remained idle from past 2 years.
+
+As an investigating accountant, you are required to highlight the
+considerations that shall be taken into account while evaluating the Fixed
+1 Assets item shown in the Balance Sheet of QRT Electricals Ltd.
+|
+
+
+========== PAGE 31 ==========
+a ee ee ee i
+a) |
+JINY
+(c) CA Alok is the auditor of VT Limited, an unlisted public company, 4
+| which has a turnover of & 100 crore during the FY 2025-26. The
+statutory audit fee for the year is fixed at < 10 lakh. During the year, the
+| company also offered CA Alok, the following further assignments :
+& (i) Tax audit of the company u/s 44AB of the Income Tax Act, 1961,
+‘ for which the fees is fixed at 5 lakh.
+| (ii) Various certification work for which fees is fixed at 2 lakh.
+(iii) Representation before GST authorities for which fees is fixed at 4
+| lakh.
+; | CA Alok seeks your advise for accepting the above assignments. Comment
+| with reference to the provisions of the Chartered Accountants Act, 1949.
+| | OR :
+| (c)_ The Ministry of Information Technology of the Government of Indiahas 4
+| initiated a large-scale infrastructure project to improve tural connectivity
+under its “Digital Connect” programme. As part of the audit team, you
+) are assigned to conduct a performance audit of this project with a focus
+| on assessing its efficiency. While auditing the efficiency of the project,
+| what key aspects should the auditor consider to determine whether
+resources are used efficiently.
+;
+|
+{ .
+sey a
+
+
+========== PAGE 32 ==========
+(32)
+JNY
+SPACE FOR ROUGH WORK
+|
+ve ||
+7
+|
+o - INY
+

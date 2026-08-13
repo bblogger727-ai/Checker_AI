@@ -178,9 +178,6 @@ CRITICAL RULES:
     # ======================== PASS 2: MAPPING ========================
     print(f"[Claude Aligner] Pass 2: Mapping {len(discovered)} answers to schema...", flush=True)
     
-    schema_summary = _build_schema_summary(schema)
-    
-    # Build full schema summary with question text for semantic matching
     schema_for_mapping = _build_schema_summary(schema)
     print(f"[Claude Aligner] Schema summary for mapping: {json.dumps(schema_for_mapping, indent=2)}", flush=True)
     
@@ -238,6 +235,16 @@ You MUST find these answers in the DISCOVERED ANSWERS. If you see a block that M
 
 ### Rule 9 — QUESTION NUMBER OCR MISREADS
 Students often label answers like 'Question 5' or 'Q5'. OCR might misread this as 'Question S' or 'QS'. Be highly aware of this OCR artifact and map 'Question S' to Q5. Same goes for similar character confusions.
+
+### Rule 10 — OR QUESTION VARIANTS (_v1 / _v2) — CRITICAL
+Some questions in the schema appear as two variants due to an "OR" alternative:
+  - `Q6a_v1` — the primary question (e.g., "Explain elements of financial statements")
+  - `Q6a_v2` — the OR alternative (e.g., "Classify accounts under Schedule III")
+The student attempts ONLY ONE of these. You MUST:
+1. Compare the student's answer content to BOTH variants' question text and pick the best match.
+2. Map the answer ONLY to the matching variant's question_id (e.g., `B-Q6-Q6a_v2`).
+3. NEVER map to both variants — the grading system skips the unattempted one automatically.
+4. If a student wrote "Q6(a)" but answered the OR topic, map it to _v2, NOT _v1.
 
 OUTPUT JSON FORMAT (must be an array of mapping objects):
 {{
