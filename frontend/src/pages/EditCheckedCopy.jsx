@@ -288,6 +288,7 @@ function EditCheckedCopy() {
     const [error,      setError]      = useState('');
     const [toast,      setToast]      = useState('');
     const [mcqMarks,   setMcqMarks]   = useState('');
+    const [mcqMode,    setMcqMode]    = useState('edit');
 
     /* ── Data load ──────────────────────────────────────────────────────── */
 
@@ -301,6 +302,9 @@ function EditCheckedCopy() {
                 ]);
                 setStudent(studentData);
                 setManifest(manifestData);
+                if (manifestData?.mcq_total?.obtained !== undefined && manifestData?.mcq_total?.obtained !== null) {
+                    setMcqMarks(String(manifestData.mcq_total.obtained));
+                }
             } catch (err) {
                 setError(err.response?.data?.detail || err.message || 'Failed to load data');
             } finally {
@@ -373,6 +377,15 @@ function EditCheckedCopy() {
         });
     }, []);
 
+    const handleMoveMcqStamp = useCallback((dir) => {
+        setChanges(prev => {
+            const q = prev["__mcq_marks__"] || {};
+            const moveData = { ...(q.move_stamp || { up: 0, down: 0, left: 0, right: 0 }) };
+            moveData[dir] += 1;
+            return { ...prev, ["__mcq_marks__"]: { ...q, move_stamp: moveData } };
+        });
+    }, []);
+
     const handleMoveFeedback = useCallback((mkey, dir) => {
         setChanges(prev => {
             const q = prev[mkey] || {};
@@ -395,6 +408,11 @@ function EditCheckedCopy() {
 
     const resetAll = () => {
         setChanges({});
+        if (manifest?.mcq_total?.obtained !== undefined && manifest?.mcq_total?.obtained !== null) {
+            setMcqMarks(String(manifest.mcq_total.obtained));
+        } else {
+            setMcqMarks('');
+        }
         showToast('All changes reset');
     };
 
@@ -410,9 +428,18 @@ function EditCheckedCopy() {
         return res.length > 0 ? res : null;
     };
 
-    const mcqPending = manifest?.grand_total?.mcq_pending === true;
-    const hasMcqInput = mcqPending && mcqMarks !== '';
-    const isDirty = Object.keys(changes).length > 0 || hasMcqInput;
+    const mcqExists   = !!manifest?.mcq_total;
+    const mcqPending  = manifest?.mcq_total?.pending === true;
+    const mcqObtained = manifest?.mcq_total?.obtained;
+
+    const mcqChanges  = changes["__mcq_marks__"] || {};
+    const mcqMoves    = mcqChanges.move_stamp || { up: 0, down: 0, left: 0, right: 0 };
+    const mcqMs       = condenseMoves(mcqMoves);
+    const hasMcqMove  = mcqMs !== null && mcqMs.length > 0;
+
+    const hasMcqInput = mcqMarks !== '' && (mcqPending || (mcqObtained !== null && mcqObtained !== undefined && parseFloat(mcqMarks) !== mcqObtained));
+
+    const isDirty = Object.keys(changes).length > 0 || hasMcqInput || hasMcqMove;
 
     const handleSubmit = async () => {
         if (!isDirty) {
@@ -424,6 +451,7 @@ function EditCheckedCopy() {
         try {
             const corrections = {};
             for (const [mkey, corr] of Object.entries(changes)) {
+                if (mkey === "__mcq_marks__") continue;
                 const c = {};
                 if (corr.marks_obtained    !== undefined) c.marks_obtained    = corr.marks_obtained;
                 if (corr.marks_total       !== undefined) c.marks_total       = corr.marks_total;
@@ -452,8 +480,15 @@ function EditCheckedCopy() {
                 if (Object.keys(c).length > 0) corrections[mkey] = c;
             }
 
-            if (hasMcqInput) {
-                corrections["__mcq_marks__"] = parseFloat(mcqMarks);
+            if (hasMcqInput || hasMcqMove) {
+                const mcqCorr = {};
+                if (hasMcqInput) {
+                    mcqCorr.marks_obtained = parseFloat(mcqMarks);
+                }
+                if (hasMcqMove) {
+                    mcqCorr.move_stamp = mcqMs;
+                }
+                corrections["__mcq_marks__"] = mcqCorr;
             }
 
             const blob = await patchCheckedCopy(id, corrections);
@@ -477,10 +512,15 @@ function EditCheckedCopy() {
     let   newObtained  = gtOriginal.obtained;
     
     if (hasMcqInput) {
-        newObtained += parseFloat(mcqMarks) || 0;
+        if (mcqPending) {
+            newObtained += parseFloat(mcqMarks) || 0;
+        } else if (mcqObtained !== null && mcqObtained !== undefined) {
+            newObtained += (parseFloat(mcqMarks) || 0) - mcqObtained;
+        }
     }
 
     for (const [mkey, corr] of Object.entries(changes)) {
+        if (mkey === "__mcq_marks__") continue;
         if (corr.marks_obtained !== undefined && questions[mkey]) {
             newObtained += corr.marks_obtained - questions[mkey].marks_obtained;
         }
@@ -564,25 +604,55 @@ function EditCheckedCopy() {
                 )}
             </div>
 
-            {mcqPending && (
-                <div className="ecc-mcq-panel">
-                    <div className="ecc-mcq-header">
-                        <h3>Section A (MCQs) Marks</h3>
-                        <p>The AI skipped grading MCQs. Enter the total MCQ marks here.</p>
+            {mcqExists && (
+                <div className={`ecc-mcq-panel ${hasMcqInput || hasMcqMove ? 'ecc-mcq-panel--dirty' : ''}`}>
+                    <div className="ecc-mcq-panel-top">
+                        <div className="ecc-mcq-header">
+                            <div className="ecc-mcq-title-row">
+                                <h3>Section A (MCQs) Marks Stamp</h3>
+                                {(hasMcqInput || hasMcqMove) && <span className="dirty-badge">Edited</span>}
+                            </div>
+                            <p>
+                                {mcqPending
+                                    ? 'The AI skipped grading MCQs. Enter total marks or move the marker position below.'
+                                    : 'Adjust total MCQ marks or move the marker position on the PDF.'}
+                            </p>
+                        </div>
+                        <div className="section-toolbar">
+                            <button className={`tool-btn ${mcqMode === 'edit' ? 'active' : ''}`} onClick={() => setMcqMode('edit')}>✏️ Edit</button>
+                            <button className={`tool-btn ${mcqMode === 'move' ? 'active' : ''}`} onClick={() => setMcqMode('move')}>✥ Move</button>
+                        </div>
                     </div>
-                    <div className="ecc-mcq-input-group">
-                        <input
-                            type="number"
-                            min="0"
-                            max={manifest?.mcq_total?.total || 30}
-                            step="0.5"
-                            value={mcqMarks}
-                            onChange={(e) => setMcqMarks(e.target.value)}
-                            placeholder="e.g. 18"
-                            className="ecc-mcq-input"
-                        />
-                        <span className="ecc-mcq-total">/ {manifest?.mcq_total?.total || 30}</span>
-                    </div>
+
+                    {mcqMode === 'edit' && (
+                        <div className="ecc-mcq-body">
+                            <div className="ecc-mcq-input-group">
+                                <input
+                                    type="number"
+                                    min="0"
+                                    max={manifest?.mcq_total?.total || 30}
+                                    step="0.5"
+                                    value={mcqMarks}
+                                    onChange={(e) => setMcqMarks(e.target.value)}
+                                    placeholder="e.g. 18"
+                                    className="ecc-mcq-input"
+                                />
+                                <span className="ecc-mcq-total">/ {manifest?.mcq_total?.total || 30}</span>
+                            </div>
+                        </div>
+                    )}
+
+                    {mcqMode === 'move' && (
+                        <div className="move-panel">
+                            <span className="move-hint">Move the MCQ marks marker by 100px increments:</span>
+                            <DPad onMove={(dir) => handleMoveMcqStamp(dir)} />
+                            <div className="move-stats">
+                                Net movement: 
+                                Up: {mcqMoves.up || 0} | Down: {mcqMoves.down || 0} | 
+                                Left: {mcqMoves.left || 0} | Right: {mcqMoves.right || 0}
+                            </div>
+                        </div>
+                    )}
                 </div>
             )}
 

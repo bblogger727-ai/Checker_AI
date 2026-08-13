@@ -302,17 +302,54 @@ def _apply_corrections_to_manifest(manifest: dict, corrections: dict) -> dict:
 
     for mkey, corr in corrections.items():
         if mkey == "__mcq_marks__":
-            new_mcq = float(corr.get("marks_obtained", 0)) if isinstance(corr, dict) else float(corr)
-            if m.get("mcq_total"):
-                old_mcq = m["mcq_total"].get("obtained")
+            mcq = m.get("mcq_total")
+            if not mcq:
+                print(f"  ⚠ Warning: no mcq_total found in manifest — skipping __mcq_marks__")
+                continue
+
+            if isinstance(corr, dict):
+                if "marks_obtained" in corr and corr["marks_obtained"] is not None and str(corr["marks_obtained"]).strip() != "":
+                    new_mcq = float(corr["marks_obtained"])
+                    old_mcq = mcq.get("obtained")
+                    if old_mcq is None:
+                        marks_delta += new_mcq
+                        mcq["pending"] = False
+                        if m.get("grand_total") and m["grand_total"].get("total", 0) < 100:
+                            m["grand_total"]["total"] += float(mcq.get("total", 30.0))
+                    else:
+                        marks_delta += new_mcq - old_mcq
+                    mcq["obtained"] = new_mcq
+                    print(f"  📝 Global MCQ marks set to {new_mcq}")
+
+                if "move_stamp" in corr:
+                    move_corr = corr["move_stamp"]
+                    for move in move_corr:
+                        direction = move["direction"]
+                        multiplier = move.get("multiplier", 1)
+                        dist = 100 * multiplier
+                        if "x" in mcq and "y" in mcq:
+                            if direction == "up":
+                                mcq["y"] += dist
+                            elif direction == "down":
+                                mcq["y"] -= dist
+                            elif direction == "left":
+                                mcq["x"] -= dist
+                            elif direction == "right":
+                                mcq["x"] += dist
+                            print(f"  ✓ MCQ stamp moved {direction}{multiplier if multiplier > 1 else ''} ({dist}px)")
+                        else:
+                            print(f"  ⚠ No MCQ stamp coordinates to move")
+            else:
+                new_mcq = float(corr)
+                old_mcq = mcq.get("obtained")
                 if old_mcq is None:
                     marks_delta += new_mcq
-                    m["mcq_total"]["pending"] = False
+                    mcq["pending"] = False
                     if m.get("grand_total") and m["grand_total"].get("total", 0) < 100:
-                        m["grand_total"]["total"] += float(m["mcq_total"].get("total", 30.0))
+                        m["grand_total"]["total"] += float(mcq.get("total", 30.0))
                 else:
                     marks_delta += new_mcq - old_mcq
-                m["mcq_total"]["obtained"] = new_mcq
+                mcq["obtained"] = new_mcq
                 print(f"  📝 Global MCQ marks set to {new_mcq}")
             continue
 
