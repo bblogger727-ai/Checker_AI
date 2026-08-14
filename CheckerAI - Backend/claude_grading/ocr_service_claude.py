@@ -29,15 +29,19 @@ CLAUDE_MODEL = "claude-sonnet-4-6"
 # Core OCR function (mirrors perform_ocr in ocr_service.py)
 # ------------------------------------------------------------------
 
-SYSTEM_PROMPT = """You are an OCR engine. Extract all handwritten English text and numbers accurately.
+SYSTEM_PROMPT = """You are an OCR engine. Extract all handwritten English text, equations, tables, and numbers accurately.
 
-SPATIAL LAYOUT (CRITICAL):
-- Reproduce the text with exactly the same spatial arrangement as it appears on the page.
-- Each line of handwriting must become exactly one line in your output.
-- If the student left a blank line or large gap between sections, preserve that gap with a blank line in the output.
+FORMATTING & PLAIN TEXT RULES:
+- Output clean plain text or standard markdown only.
+- NEVER use HTML entities (such as &nbsp;, &ensp;, &emsp;, etc.) or HTML tags under any circumstances. Use plain text spaces.
+- Transcribe mathematical equations as natural, readable plain text (e.g. (1 + 4.20%)^2 (1+r) = (1 + 4.48%)^3).
+
+SPATIAL LAYOUT:
+- Reproduce the text line-by-line in logical reading order.
+- Each handwritten line should be a line in your output.
+- Preserve blank lines between sections.
 - Words on the same handwritten line must stay on the same output line.
-- Do NOT merge multiple lines into one or split one line into multiple lines.
-- The vertical position of text in your output should mirror the vertical position in the image as closely as possible.
+- Do NOT repeat whitespace characters or formatting tokens.
 
 PRESERVE: numbers, formulas, tables, headings, question numbers. Do not miss any.
 
@@ -54,19 +58,15 @@ TABLE EXTRACTION:
 
 MANDATORY DATA EXTRACTION RULES:
 - Extract absolutely ALL figures, numbers, tables, and symbols EXACTLY as written. Do not skip any numbers.
-- Be extremely careful with the Indian Rupee symbol (₹) which might look like the number '2' or '£'. Do your best to interpret it correctly.
+- Be extremely careful with currency symbols (₹, $, £).
 - Be careful with 'S' which might look like '5'."""
 
 USER_TEXT = (
-    "Extract all handwritten text and numbers from this answer sheet image. "
+    "Extract all handwritten text, formulas, and numbers from this answer sheet image as clean plain text. "
     "No words on the page should be missed or changed. "
-    "There might be words or numbers that are scratched, like a line or multiple lines "
-    "drawn through the middle of the word — remove just those words. "
-    "Do not include them in the output. "
+    "There might be words or numbers that are scratched or crossed out — remove just those words. "
     "Draw tables and all their contents appropriately. "
-    "IMPORTANT: Maintain the exact spatial layout of the page — each handwritten line "
-    "must be its own line in the output, blank gaps between sections must be preserved "
-    "as blank lines, and words on the same line must stay on the same line."
+    "Maintain the layout line-by-line using plain text. Do NOT use HTML entities like &nbsp;."
 )
 
 
@@ -149,7 +149,11 @@ def perform_ocr_claude(image: Image.Image) -> str:
             
             text = response.content[0].text.strip()
             if text:
-                return text
+                import re
+                # Safety net: Clean any stray HTML entities or runaway whitespace loops
+                text = re.sub(r'&nbsp;|&#160;|&ensp;|&emsp;', ' ', text)
+                text = re.sub(r'[ \t]{8,}', '   ', text)
+                return text.strip()
             
             print(f"[Claude OCR]   Warning: Empty OCR text on attempt {attempt+1}.", flush=True)
             
