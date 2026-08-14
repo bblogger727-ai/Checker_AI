@@ -26,10 +26,22 @@ services:
       context: ./CheckerAI - Backend
       dockerfile: Dockerfile
     container_name: checkerai-backend
+    env_file:
+      - .env
     environment:
       - DATABASE_URL=postgresql://postgres:postgres@postgres:5432/checkerai
       - OPENAI_API_KEY=${OPENAI_API_KEY}
       - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - ANTHROPIC_API_KEY_PROFILE_2=${ANTHROPIC_API_KEY_PROFILE_2:-}
+      - ANTHROPIC_API_KEY_2=${ANTHROPIC_API_KEY_2:-}
+      - ANTHROPIC_API_KEY2=${ANTHROPIC_API_KEY2:-}
+      - ANTHROPIC_API_KEY_PROFILE2=${ANTHROPIC_API_KEY_PROFILE2:-}
+      - PROFILE_2_ANTHROPIC_API_KEY=${PROFILE_2_ANTHROPIC_API_KEY:-}
+      - OPENAI_API_KEY_PROFILE_2=${OPENAI_API_KEY_PROFILE_2:-}
+      - OPENAI_API_KEY_2=${OPENAI_API_KEY_2:-}
+      - OPENAI_API_KEY2=${OPENAI_API_KEY2:-}
+      - OPENAI_API_KEY_PROFILE2=${OPENAI_API_KEY_PROFILE2:-}
+      - PROFILE_2_OPENAI_API_KEY=${PROFILE_2_OPENAI_API_KEY:-}
     volumes:
       - checker_uploads:/app/uploads
       - checker_data:/app/data
