@@ -354,6 +354,7 @@ async def run_old_pipeline(
         "--as",         str(as_path),
         "--output-dir", str(output_dir),
         "--dataset",    f"old_{task_id[:8]}",
+        "--profile",    str(profile),
         "--skip-to",    str(skip_to_val),
     ]
 
@@ -459,6 +460,7 @@ async def run_new_pipeline(
         "--as",         str(as_path),
         "--output-dir", str(output_dir),
         "--dataset",    f"new_{task_id[:8]}",
+        "--profile",    str(profile),
         "--skip-to",    str(skip_to_val),
     ]
 

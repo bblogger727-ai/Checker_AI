@@ -249,6 +249,7 @@ def main():
     parser.add_argument("--output-dir", required=True,
                         help="Directory where ALL results are written (one per job)")
     parser.add_argument("--dataset",    default=None,  help="Dataset label (optional, for logging)")
+    parser.add_argument("--profile",    default="Profile 1", help="API Key Profile ('Profile 1' or 'Profile 2')")
     parser.add_argument("--skip-to",    type=int, default=1,
                         help="Skip to stage N (1=full run, 3=skip schema+MA, 4=skip+OCR, 5=skip alignment)")
     args = parser.parse_args()
@@ -256,10 +257,27 @@ def main():
     output_dir = os.path.abspath(args.output_dir)
     os.makedirs(output_dir, exist_ok=True)
 
+    # Handle profile API keys
+    profile_str = str(args.profile or "").strip()
+    if "2" in profile_str.lower():
+        p2_key = (
+            os.getenv("ANTHROPIC_API_KEY_PROFILE_2") or
+            os.getenv("ANTHROPIC_API_KEY_2") or
+            os.getenv("ANTHROPIC_API_KEY2") or
+            os.getenv("ANTHROPIC_API_KEY_PROFILE2") or
+            os.getenv("PROFILE_2_ANTHROPIC_API_KEY")
+        )
+        if p2_key and p2_key.strip():
+            os.environ["ANTHROPIC_API_KEY"] = p2_key.strip()
+            print(f"[PROFILE] Using Profile 2 Anthropic key ({p2_key[:12]}...)")
+        else:
+            print(f"[PROFILE WARNING] '{profile_str}' selected but no Profile 2 Anthropic key found in .env")
+
     dataset_label = args.dataset or os.path.splitext(os.path.basename(args.as_pdf))[0]
 
     print("=" * 60)
     print("  CHECKERAI OLD-PAPERS GRADING PIPELINE (Claude Sonnet 4) — API")
+    print(f"  Profile    : {profile_str}")
     print(f"  Dataset    : {dataset_label}")
     print(f"  QP         : {args.qp}")
     print(f"  SA         : {args.sa}")

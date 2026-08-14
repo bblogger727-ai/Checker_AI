@@ -528,6 +528,10 @@ def main():
         help="Dataset ID — used to locate the existing ocr_output.txt and save results"
     )
     parser.add_argument(
+        "--profile", default="Profile 1",
+        help="API Key Profile ('Profile 1' or 'Profile 2')"
+    )
+    parser.add_argument(
         "--skip-to", type=int, default=1,
         help=(
             "Skip to stage N. "
@@ -538,6 +542,22 @@ def main():
     )
 
     args = parser.parse_args()
+
+    # Handle profile API keys
+    profile_str = str(args.profile or "").strip()
+    if "2" in profile_str.lower():
+        p2_key = (
+            os.getenv("ANTHROPIC_API_KEY_PROFILE_2") or
+            os.getenv("ANTHROPIC_API_KEY_2") or
+            os.getenv("ANTHROPIC_API_KEY2") or
+            os.getenv("ANTHROPIC_API_KEY_PROFILE2") or
+            os.getenv("PROFILE_2_ANTHROPIC_API_KEY")
+        )
+        if p2_key and p2_key.strip():
+            os.environ["ANTHROPIC_API_KEY"] = p2_key.strip()
+            print(f"[PROFILE] Using Profile 2 Anthropic key ({p2_key[:12]}...)")
+        else:
+            print(f"[PROFILE WARNING] '{profile_str}' selected but no Profile 2 Anthropic key found in .env")
 
     # Resolve dataset dir
     dataset_id = args.dataset
@@ -550,6 +570,7 @@ def main():
 
     print("=" * 60)
     print(f"  CHECKERAI FT GRADING PIPELINE")
+    print(f"  Profile    : {profile_str}")
     print(f"  Dataset    : {dataset_id}")
     print(f"  FT Paper   : {args.ft_paper_json}")
     print(f"  Student AS : {args.as_pdf}")
