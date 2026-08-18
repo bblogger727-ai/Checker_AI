@@ -118,6 +118,26 @@ INSTRUCTIONS:
 
 6. If a page clearly continues mid-sentence from the previous, merge it with the earlier block.
 
+LABEL NORMALIZATION (CRITICAL):
+- Handwritten answer labels are often OCR-mistranscribed. The word "Ans" in particular is commonly read as:
+  "Aug", "Quy", "Day", "day", "ay", "an", "Key", "Try", "an.", "aug.", "any"
+- Question numbers can be misread: "7" → "9" or "?", "1" → "l" or "I", "8" → "B"
+- Sub-part letters can be misread: "(a)" → "(9)", "la", "[a]", "(A)"
+- RULE: If a short line at the TOP of an answer block looks like it could be a question label
+  (e.g., surrounded by brackets, followed immediately by paragraphs or calculations),
+  it IS a question label — even if the word looks garbled.
+- In the "label" field ONLY, output the NORMALIZED label in standard form: "Ans X(y)"
+  Examples:
+  * "[day 7. (9)]" → label "Ans 7(a)"
+  * "[Quy 7 (b)]" → label "Ans 7(b)"
+  * "[aug 8 (b)]" → label "Ans 8(b)"
+  * "[Try (1)(a)]" → label "Ans 1(a)"
+  * "Day 2 (a)" → label "Ans 2(a)"
+  * "Key 2(b)" → label "Ans 2(b)"
+  * "[ay 1(b)]" → label "Ans 1(b)"
+- Preserve the original OCR text verbatim in full_content — do NOT change it there.
+- If you cannot confidently determine the question number, output the raw label as-is.
+
 STUDENT OCR TEXT:
 {full_text}
 
@@ -138,11 +158,12 @@ OUTPUT JSON FORMAT:
 CRITICAL RULES:
 - ZERO TEXT DROPPED: The combined `full_content` of all discovered blocks MUST EXACTLY equal the full input text. Every single sentence, table, heading, and number from every page MUST be included in some block.
 - If text has no label and doesn't seem to fit a previous answer, create a new block with label "unknown". NEVER silently discard text.
-- Label MUST reflect what the student ACTUALLY wrote, not your inference. If student didn't label it, use "unknown".
-- Do NOT modify or clean up the text \u2014 preserve it exactly as OCR extracted it, including tables.
+- Label MUST reflect what the student ACTUALLY wrote — but normalized to standard Ans X(y) form if it's a garbled question label.
+- Do NOT modify or clean up the text in full_content — preserve it exactly as OCR extracted it, including tables.
 - If multiple labeled answers appear on the same page, split them into separate entries.
 - Output ONLY valid JSON.
 """
+
 
     try:
         response = claude_client.messages.create(
@@ -200,6 +221,10 @@ MAPPING RULES (read carefully — this is the most important part):
 
 ### Rule 1 — EXPLICIT LABELS & HEURISTIC RECOVERY
 - If the student explicitly labeled an answer (e.g., "Ans to Q1", "Q4(a)"), use it as the PRIMARY matching signal.
+- **GARBLED LABEL RECOVERY (NEW — CRITICAL)**: Handwritten labels are often OCR-mistranscribed. The word "Ans" is commonly read as: "Aug", "Quy", "Day", "day", "ay", "Key", "Try". A question number "7" may appear as "9" or "?". A sub-part "(a)" may appear as "(9)" or "la".
+  - If a discovered answer has a label like "Ans 7(a)" (already normalized by Pass 1), trust it.
+  - If the label still looks garbled (e.g., "day 7. (9)", "[Quy 7 (b)]"), extract the question number from it and treat it as that question label.
+  - **Always verify by checking the CONTENT** — if the topic summary of the block matches the schema question at that number, confirm the mapping.
 - **HEURISTIC RECOVERY**: If an explicit label (e.g., "Q2") leads to a block whose topic summary is COMPLETELY UNRELATED to the schema Q2, AND there is another block with "unknown" label that strongly matches Q2, OR there are duplicate "Q2" labels, you MUST use content matching to resolve the conflict. 
 - **DUPLICATE LABEL STRATEGY**: If you see two different blocks with the same explicit label (e.g., two "Answer 8" blocks), it is GUARANTEED that one is mislabeled. You MUST ignore the labels for both these blocks and map them purely based on their `topic_summary` and `content_preview` matching against the schema.
 

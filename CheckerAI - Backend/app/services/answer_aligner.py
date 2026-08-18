@@ -76,6 +76,17 @@ INSTRUCTIONS:
 
 7. IGNORE BLANK QUESTION HEADINGS: If a student wrote only a question label (e.g., 'Ans. 4b', 'Soln to Q4b', 'Q3a', '4) b)') and left the section blank with no answer text, IGNORE IT completely.
 
+LABEL NORMALIZATION (CRITICAL):
+- Handwritten labels are often OCR'd with errors. Common mistranscriptions of "Ans" include:
+  "Aug", "Quy", "Day", "day", "ay", "an", "Key", "Try", "an.", "aug."
+- Common mistranscriptions of question numbers: "7" → "9" or "?", "1" → "l" or "I"
+- Common mistranscriptions of sub-part letters: "(a)" → "(9)", "la", "[a]"
+- RULE: If text at the TOP of an answer block looks like it COULD be a question label
+  (short line, followed by paragraphs or calculations), treat it as a label.
+- In the "label" field of your output, output the NORMALIZED label using standard form:
+  "Ans X(y)" or "Q X(y)" — e.g., "[day 7. (9)]" → label "Ans 7(a)", "[Quy 7 (b)]" → label "Ans 7(b)"
+- If you cannot confidently normalize, output the raw text as-is.
+
 STUDENT OCR TEXT:
 {full_text}
 
@@ -98,7 +109,9 @@ CRITICAL RULES:
 - Do NOT skip any text that looks like an answer.
 - Do NOT modify or clean up the text — preserve it exactly as OCR extracted it, including tables.
 - If multiple answers appear on the same page, split them into separate entries.
+- In the label field only, normalize garbled headings into standard Ans X(y) format.
 """
+
 
     try:
         response = client.chat.completions.create(
@@ -158,16 +171,20 @@ DISCOVERED ANSWERS:
 MAPPING INSTRUCTIONS:
 1. **MCQ answers**: Map to the corresponding MCQ number in the schema (MCQ-1, MCQ-2, etc. → A-MCQ-1, A-MCQ-2, etc.)
 2. **Labeled answers**: If the answer has a clear question label (Q1, Q2, etc.), match to the schema's question with that number.
-3. **CONTENT MATCHING (CRITICAL for unlabeled answers)**: If the label is missing, unknown, or ambiguous:
+3. **GARBLED LABELS — IMPORTANT**: Handwritten labels are often OCR-mistranscribed. Common patterns:
+   - "day 7", "aug 7", "quy 7", "key 7" all likely mean "Ans 7" (question 7)
+   - "(9)" or "(l)" after a number likely means "(a)" (sub-part a)
+   - If a label LOOKS like it could be a question number, treat it as one.
+   - **Always verify by checking the CONTENT of the answer** — if the answer content matches the schema question at that number, confirm the mapping.
+4. **CONTENT MATCHING (CRITICAL for unlabeled or garbled answers)**: If the label is missing, unknown, or ambiguous:
    - Read the answer's CONTENT carefully.
    - Compare the TOPIC, ENTITIES, and KEYWORDS in the answer against each schema question.
    - The answer MUST topically match the question it is mapped to.
    - Example: Answer about "Puja Ltd" or "Poorva Impex" tax computation → schema B-Q1 asks about "Poorva Impex Ltd" → map to B-Q1.
    - Example: Answer about "YVPAY Bank" discount on bills → schema B-Q2-a asks about "YVPAY Bank" → map to B-Q2-a.
-   - Example: Answer about "maintenance service" or "car hire" or "raw cotton" → these are items in B-Q1 (Poorva Impex) → map to B-Q1.
    - **NEVER map an answer to a question whose topic is completely different.**
-4. **Subparts**: If a discovered answer contains subparts (a, b, c), map each subpart to the correct schema subpart ID.
-5. **No match**: If you cannot confidently match an answer to any question, set question_id to "UNMAPPED".
+5. **Subparts**: If a discovered answer contains subparts (a, b, c), map each subpart to the correct schema subpart ID.
+6. **No match**: If you cannot confidently match an answer to any question, set question_id to "UNMAPPED".
 
 OUTPUT JSON FORMAT:
 {{
@@ -188,7 +205,9 @@ CRITICAL RULES:
 - Prioritize label matching over content matching when both are available.
 - **VERIFY CONTENT**: Even if a label seems to match, verify the answer content relates to that question.
 - **UNLABELED ANSWERS**: Many answers have label "unknown". You MUST use content matching for these. Read the schema keywords carefully.
+- **GARBLED LABELS**: When the label looks like a mangled version of a question number (e.g., "day 7", "aug 7"), check the question content — if it matches, map it.
 """
+
 
     try:
         response = client.chat.completions.create(

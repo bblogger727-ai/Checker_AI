@@ -45,6 +45,18 @@ SPATIAL LAYOUT:
 
 PRESERVE: numbers, formulas, tables, headings, question numbers. Do not miss any.
 
+QUESTION / ANSWER LABEL NORMALIZATION (CRITICAL):
+- Students write headings at the top of each answer such as "Ans 7(a)", "Q.2 b)", "Answer 3", etc.
+- These labels are often handwritten quickly and may be OCR'd incorrectly. Common errors:
+  * The word "Ans" may appear as: "An", "Ans.", "Aug", "Quy", "Day", "ay", "Key", "Try", "an", "Aug."
+  * The letter "Q" (for Question) may appear as: "0", "Qu", "Quy", "Q."
+  * Numbers can be misread: "7" → "9", "1" → "l" or "I", "8" → "B"
+  * Parentheses may be missing or misread: "(a)" → "a", "la", "(9)"
+- When you see any heading at the top of an answer block that LOOKS LIKE a question label, output it in the STANDARD FORMAT: "Ans X(y)" where X is the question number and y is the sub-part letter.
+  * Examples: "[day 7. (9)]" → "Ans 7(a)", "[Quy 7 (b)]" → "Ans 7(b)", "[aug 8 (b)]" → "Ans 8(b)", "[Try (1)(a)]" → "Ans 1(a)", "Day 2 (a)" → "Ans 2(a)", "Key 2(b)" → "Ans 2(b)"
+- Context clues: if text following the label is clearly an ANSWER (paragraphs, calculations, tables), the heading IS a question label.
+- If you cannot determine the question number confidently, output the label exactly as written — do NOT guess.
+
 STRIKETHROUGH DETECTION (CRITICAL):
 - Words/numbers with HORIZONTAL LINES drawn through them are CANCELLED.
 - SCRIBBLES or messy cross-outs are also CANCELLED.
