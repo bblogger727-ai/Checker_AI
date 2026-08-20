@@ -152,7 +152,7 @@ def _generate_llm_feedback(grade_entry: dict, cache_key: str) -> str | None:
 
     Three modes:
       - marks_ratio >= 1.0            → ≤8-word positive praise
-      - marks_ratio < 0.25 (< 25%)   → 2–3 concise bullet points listing main errors
+      - marks_ratio < 0.60 (< 60%)   → 2–3 concise bullet points listing main errors
       - everything else               → ONE ≤12-word corrective sentence
 
     Results are cached per question to avoid duplicate API calls.
@@ -198,8 +198,8 @@ def _generate_llm_feedback(grade_entry: dict, cache_key: str) -> str | None:
         )
         max_tok = 30
 
-    # ── Case 2: Low score (< 50% or 0 marks) → 2–3 bullet points ───────────────
-    elif marks_ratio < 0.50 or marks_obtained == 0:
+    # ── Case 2: Low score (< 60% or 0 marks) → 2–3 bullet points ───────────────
+    elif marks_ratio < 0.60 or marks_obtained == 0:
         context      = f"Grader feedback: {feedback_raw}\n" if feedback_raw else ""
         errors_block = f"Key errors: {errors_str}\n" if errors_str else ""
         prompt = (
@@ -2279,6 +2279,8 @@ def generate_checked_copy(
             )
             fb_text = None
             is_zero_marks = (marks_obtained == 0)
+            marks_ratio_local = (marks_obtained / marks_total) if marks_total > 0 else 0
+            is_low_score = marks_ratio_local < 0.60
 
             # Check if student answer is minimal attempt (<=1 short line / prompt title only)
             student_ans_text = str(aligned_q.get("student_answer", "") or grade_entry.get("student_answer", "") or "").strip()
@@ -2287,9 +2289,14 @@ def generate_checked_copy(
             num_lines = len([l for l in student_ans_text.split('\n') if l.strip()])
             is_minimal_attempt = (num_lines <= 1 or num_words < 15 or not cleaned_ans)
 
-            # Generate feedback if not MCQ, not no_answer, and either >0 marks OR 0 marks with substantial attempt
+            # Generate feedback:
+            # - 0 marks + minimal attempt (student barely wrote anything): always suppress
+            # - Non-zero marks < 60%: ALWAYS generate — no other gate applies
+            # - Everything else: suppress only if zero marks AND minimal attempt
             if not is_mcq and not is_no_answer:
-                if not (is_zero_marks and is_minimal_attempt):
+                if is_zero_marks and is_minimal_attempt:
+                    pass  # hard suppress — student wrote nothing meaningful, 0 marks
+                elif is_low_score or not is_zero_marks:
                     cache_key = f"{section}__{q_id}"
                     fb_text   = _generate_llm_feedback(grade_entry, cache_key)
                     if fb_text:
