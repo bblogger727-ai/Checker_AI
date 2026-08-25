@@ -194,6 +194,7 @@ def _generate_llm_feedback(grade_entry: dict, cache_key: str) -> str | None:
             f"{avoid_block}\n"
             "Write ONE short positive teacher comment in ≤8 words praising the student. "
             "Vary the wording — avoid generic openers like 'Outstanding analysis'. "
+            "Do not include any specific numbers, figures, or monetary amounts. "
             "No quotation marks, no full stop."
         )
         max_tok = 30
@@ -209,6 +210,7 @@ def _generate_llm_feedback(grade_entry: dict, cache_key: str) -> str | None:
             "Write 2 to 3 concise bullet points (start each with '•') listing the specific "
             "reasons, missed concepts, or calculation errors for the lost/zero marks. Each bullet must be ≤12 words. "
             "DO NOT use terms like 'model', 'model answer', or 'marking scheme'. Address the student directly as a teacher. "
+            "Do not include any specific numbers, figures, or monetary amounts in the bullets — keep feedback conceptual. "
             "No full stop at the end of each bullet. Return only the bullets, no intro text."
         )
         max_tok = 100
@@ -224,6 +226,7 @@ def _generate_llm_feedback(grade_entry: dict, cache_key: str) -> str | None:
             "Write ONE concise teacher comment in exactly ≤12 words explaining "
             "what the student should have done differently. "
             "DO NOT use terms like 'model', 'model answer', or 'marking scheme'. Address the student directly as a teacher. "
+            "Do not include any specific numbers, figures, or monetary amounts — keep feedback conceptual. "
             "No quotation marks, no full stop at the end."
         )
         max_tok = 40
@@ -2226,6 +2229,35 @@ def generate_checked_copy(
                     if grade_entry is not None:
                         yield sub_id, sub_q, grade_entry
 
+    # ── Pre-pass: detect sub-questions that share identical answer_pages ──────
+    # When Q4a and Q4b both have answer_pages=[5,6,7] (student wrote them
+    # continuously), placing both stamps on page 5 causes the "is_first"
+    # marker for Q4b to land on the wrong page (page 5 instead of where Q4b
+    # actually ends).  We identify siblings that share pages and mark all but
+    # the FIRST sibling (in schema order) as "deferred" — their stamp will be
+    # placed on their LAST page instead of their first.
+    _sibling_pages_seen: dict = {}  # frozenset(answer_pages) → first q_id that claimed it
+    _deferred_stamp_q_ids: set = set()  # q_ids whose stamp should go on their last page
+
+    for _section, _sec_data in aligned_data.items():
+        for _q_id, _aligned_q, _grade_entry in _iter_leaf_questions(_section, _sec_data):
+            if "MCQ" in _section or "MCQ" in _q_id or _q_id.isdigit():
+                continue
+            _ap = tuple(sorted(_aligned_q.get("answer_pages", [])))
+            if not _ap:
+                continue
+            _key = (_section, _ap)
+            if _key not in _sibling_pages_seen:
+                _sibling_pages_seen[_key] = _q_id
+            else:
+                # This sub-question shares pages with a prior sibling → defer its stamp
+                _deferred_stamp_q_ids.add((_section, _q_id))
+                print(
+                    f"  [sibling-page] {_section}/{_q_id} shares pages {list(_ap)} "
+                    f"with {_sibling_pages_seen[_key]} → stamp deferred to last page",
+                    flush=True,
+                )
+
     for section, sec_data in aligned_data.items():
         for q_id, aligned_q, grade_entry in _iter_leaf_questions(section, sec_data):
             # ── Skip MCQs entirely — no annotations or marks stamps for MCQs ──
@@ -2235,6 +2267,14 @@ def generate_checked_copy(
             answer_pages = aligned_q.get("answer_pages", [])
             if not answer_pages:
                 continue
+
+            # ── Sibling-page deferral: stamp goes on the LAST page ────────────
+            # When this sub-part shares answer_pages with an earlier sibling,
+            # mark it so that is_first=True is only set on the last answer page
+            # (instead of the first), avoiding a collision with the sibling's
+            # stamp on the shared first page.
+            _is_deferred = (section, q_id) in _deferred_stamp_q_ids
+            _stamp_page_idx = len(answer_pages) - 1 if _is_deferred else 0
 
             student_ans_str = grade_entry.get("student_answer", "").strip()
             if not student_ans_str or not is_meaningful_answer(student_ans_str) or grade_entry.get("grading_method") == "no_answer":
@@ -2333,14 +2373,14 @@ def generate_checked_copy(
                 drawing_plan.setdefault(page_num, []).append({
                     "q_num":         q_num,
                     "grade_entry":   grade_entry,
-                    "is_first":      idx_in_q == 0,
+                    "is_first":      idx_in_q == _stamp_page_idx,
                     "page_idx_in_q": idx_in_q,
                     "total_pages":   len(answer_pages),
                     "marks_obtained": marks_obtained,
                     "marks_total":   marks_total,
                     "tier":          tier,
-                    # Feedback only on first page of a poor answer
-                    "fb_text":       fb_text if idx_in_q == 0 else None,
+                    # Feedback on the stamp page (first for normal, last for deferred)
+                    "fb_text":       fb_text if idx_in_q == _stamp_page_idx else None,
                     # Circle task assigned to the precise target page
                     "wrong_final_answer": wrong_final_answer["wrong_answer_text"] if wrong_final_answer and page_num == target_page else None,
                     # Semantic annotation fragments from grader Phase 1

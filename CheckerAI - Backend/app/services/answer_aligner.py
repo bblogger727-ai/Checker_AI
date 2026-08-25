@@ -183,7 +183,11 @@ MAPPING INSTRUCTIONS:
    - Example: Answer about "Puja Ltd" or "Poorva Impex" tax computation → schema B-Q1 asks about "Poorva Impex Ltd" → map to B-Q1.
    - Example: Answer about "YVPAY Bank" discount on bills → schema B-Q2-a asks about "YVPAY Bank" → map to B-Q2-a.
    - **NEVER map an answer to a question whose topic is completely different.**
-5. **Subparts**: If a discovered answer contains subparts (a, b, c), map each subpart to the correct schema subpart ID.
+5. **Subparts (CRITICAL)**: If a discovered answer block contains multiple subparts (a, b, c), you MUST produce SEPARATE mapping entries for each subpart:
+   - Create one mapping entry for the (a) subpart and one for the (b) subpart, etc.
+   - Each entry maps the SAME discovered_index but to the correct sub-part question_id.
+   - Example: A single block containing "a) ... b) ..." → two entries: one for B-Q4-Q4a and one for B-Q4-Q4b.
+   - This is essential: do NOT map the whole block to just the (a) subpart and leave (b) unmapped.
 6. **No match**: If you cannot confidently match an answer to any question, set question_id to "UNMAPPED".
 
 OUTPUT JSON FORMAT:
@@ -306,10 +310,246 @@ CRITICAL RULES:
             answers_map[qid]["student_answer"], answers_map[qid]["answer_pages"]
         )
 
+    # ======================== SIBLING SUB-PART SPLITTING ========================
+    # When Q4a and Q4b both got mapped to the same text block and the same pages
+    # (student wrote them continuously without a page break), split both the text
+    # and the page list between the sibling sub-parts so each gets its own correct
+    # answer text and page numbers.
+    answers_map = _split_sibling_subparts(answers_map, student_pages)
+
     # ======================== INJECT INTO SCHEMA ========================
     _inject_answers(schema, answers_map)
     
     return schema
+
+
+def _split_sibling_subparts(answers_map: dict, student_pages: list) -> dict:
+    """
+    Fix: when sibling sub-parts (Q4a / Q4b) share identical student_answer text
+    and identical answer_pages, split both the text AND the page list between them.
+
+    This happens when:
+      - The LLM mapper correctly maps one discovered block to BOTH Q4a and Q4b
+        (producing two mapping entries for the same discovered_index), AND
+      - The two entries end up merged (same text, same pages) in answers_map.
+
+    Strategy
+    --------
+    1. Group all non-MCQ question IDs by (sorted answer_pages, first-200-chars of text).
+    2. If a group has ≥ 2 siblings, identify the natural boundary inside the shared text:
+       look for sub-part markers like "b)", "(b)", "b.", "ii)" etc.
+    3. Split the text at that boundary.
+    4. Re-derive each sibling's pages by scanning the student_pages OCR for
+       representative lines from each text slice.
+    5. Ensure no two siblings share the same page list after splitting.
+       If page re-derivation fails, fall back to: first sibling = first half of
+       pages, second sibling = last half of pages (at minimum the last page).
+    """
+    import re as _re
+
+    def _norm_key(entry: dict) -> tuple:
+        pages_key = tuple(sorted(entry.get("answer_pages", [])))
+        text_key  = (entry.get("student_answer") or "")[:200].strip()
+        return (pages_key, text_key)
+
+    def _sub_part_letter(q_id: str) -> str | None:
+        """Extract trailing sub-part letter/number from a question ID.
+        e.g. 'Q4b' → 'b', 'B-Q4-Q4b' → 'b', 'Q3a' → 'a'
+        """
+        m = _re.search(r'[Qq]\d+([a-z])', q_id)
+        return m.group(1) if m else None
+
+    # Build collision groups: norm_key → [qid, ...]
+    collision_groups: dict[tuple, list[str]] = {}
+    for qid, entry in answers_map.items():
+        if "MCQ" in qid.upper():
+            continue
+        k = _norm_key(entry)
+        if k[0]:  # only if has pages
+            collision_groups.setdefault(k, []).append(qid)
+
+    # Build a flat page-text lookup for page re-derivation
+    page_text_lookup: dict[int, str] = {
+        p["page"]: p.get("text", "")
+        for p in student_pages
+        if isinstance(p.get("page"), int)
+    }
+
+    for (pages_key, _), siblings in collision_groups.items():
+        if len(siblings) < 2:
+            continue
+
+        # Sort siblings by their sub-part letter so 'a' < 'b' < 'c'
+        siblings_sorted = sorted(
+            siblings,
+            key=lambda q: (_sub_part_letter(q) or q)
+        )
+
+        print(
+            f"[Aligner] ⚡ Sibling collision: {siblings_sorted} all share pages "
+            f"{list(pages_key)} — attempting text+page split",
+            flush=True,
+        )
+
+        shared_text = answers_map[siblings_sorted[0]]["student_answer"]
+        shared_pages = list(pages_key)
+
+        # ── Build split points using sub-part boundary patterns ────────────
+        # We look for the start of the SECOND sub-part onwards.
+        # Pattern covers: "b)", "b.", "(b)", "b )", "B)", "ii)", "(ii)",
+        # plus common OCR garbles.
+        split_positions: list[tuple[int, str]] = []  # (char_index, subpart_label)
+
+        for i, qid in enumerate(siblings_sorted[1:], start=1):
+            letter = _sub_part_letter(qid)
+            if not letter:
+                continue
+            # Roman numeral equivalent for (a)=i (b)=ii (c)=iii
+            roman = ["i", "ii", "iii", "iv", "v"][ord(letter) - ord("a")] if ord(letter) - ord("a") < 5 else letter
+
+            # ── Priority 1: direct letter patterns (b), (b), b. ──────────────
+            # These are tried FIRST and win exclusively if any match exists.
+            # This prevents Q4a's internal sub-labels (e.g. "ii)") from being
+            # mistaken for the Q4b boundary.
+            direct_patterns = [
+                rf'(?<!\w){_re.escape(letter)}\s*\)',    # b)
+                rf'\(\s*{_re.escape(letter)}\s*\)',      # (b)
+                rf'(?<!\w){_re.escape(letter)}\.',       # b.
+            ]
+            # ── Priority 2: roman numerals — fallback only ────────────────────
+            roman_patterns = [
+                rf'(?<!\w){_re.escape(roman)}\)',        # ii)
+                rf'\(\s*{_re.escape(roman)}\s*\)',       # (ii)
+                rf'(?<!\w){_re.escape(roman)}\.',        # ii.
+            ]
+
+            best_pos = None
+            # Try direct patterns first
+            for pat in direct_patterns:
+                for m in _re.finditer(pat, shared_text, _re.IGNORECASE):
+                    pos = m.start()
+                    if pos < 30:
+                        continue
+                    if best_pos is None or pos < best_pos:
+                        best_pos = pos
+
+            # Only try roman numerals if NO direct match was found
+            if best_pos is None:
+                for pat in roman_patterns:
+                    for m in _re.finditer(pat, shared_text, _re.IGNORECASE):
+                        pos = m.start()
+                        if pos < 30:
+                            continue
+                        if best_pos is None or pos < best_pos:
+                            best_pos = pos
+
+            if best_pos is not None:
+                split_positions.append((best_pos, letter))
+
+        if not split_positions:
+            print(
+                f"  [Aligner] ⚠ Could not find sub-part boundary in shared text — "
+                f"falling back to page-halving for {siblings_sorted}",
+                flush=True,
+            )
+            # Fallback: distribute pages evenly
+            chunk = max(1, len(shared_pages) // len(siblings_sorted))
+            for idx, qid in enumerate(siblings_sorted):
+                start = idx * chunk
+                end = start + chunk if idx < len(siblings_sorted) - 1 else len(shared_pages)
+                sub_pages = shared_pages[start:end] or [shared_pages[-1]]
+                answers_map[qid]["answer_pages"] = sub_pages
+                print(f"  → {qid}: pages {sub_pages} (halved)", flush=True)
+            continue
+
+        # ── Build text slices from split positions ──────────────────────────
+        split_positions.sort(key=lambda x: x[0])
+        boundaries = [0] + [pos for pos, _ in split_positions] + [len(shared_text)]
+        text_slices = [
+            shared_text[boundaries[i]:boundaries[i + 1]].strip()
+            for i in range(len(boundaries) - 1)
+        ]
+        # Pad if fewer slices than siblings
+        while len(text_slices) < len(siblings_sorted):
+            text_slices.append("")
+
+        # ── Anchor-based page assignment ──────────────────────────────────────
+        # For each split boundary, find which physical page the new sub-part
+        # STARTS on by scanning each page's OCR for the first distinct line
+        # of the new sub-part's text.  This is far more reliable than fuzzy
+        # line-matching because we only look at the OPENING lines (where the
+        # sub-part label like "b)" appears), not all representative lines.
+        #
+        # Rules after finding split_start_page for Q4b:
+        #   Q4a = shared_pages[:split_start_page_idx + 1]   (Q4a ends mid that page)
+        #   Q4b = shared_pages[split_start_page_idx:]       (Q4b starts on that page)
+        # Page ordering is preserved; both legitimately include the boundary page.
+
+        def _find_start_page(slice_text: str) -> int | None:
+            """Return the shared_pages entry where slice_text first appears."""
+            if not slice_text:
+                return None
+            # Use the first 3 non-trivial lines of the slice as anchors
+            anchors = [
+                l.strip()[:35].lower()
+                for l in slice_text.split("\n")
+                if len(l.strip()) > 8
+            ][:3]
+            if not anchors:
+                return None
+            for pg in shared_pages:
+                pg_text = page_text_lookup.get(pg, "").lower()
+                if any(a in pg_text for a in anchors):
+                    return pg
+            return None
+
+        # Build split-page boundaries: for each later sibling, find the page
+        # their sub-part text starts on.
+        # split_page_starts[i] = the page where siblings_sorted[i] (i>=1) starts
+        split_page_starts: list[int | None] = [None]  # index 0 (first sibling) always starts on shared_pages[0]
+        for i in range(1, len(siblings_sorted)):
+            sp = _find_start_page(text_slices[i])
+            split_page_starts.append(sp)
+            print(
+                f"  [Aligner] 📍 {siblings_sorted[i]} boundary text starts on page {sp}",
+                flush=True,
+            )
+
+        for idx, qid in enumerate(siblings_sorted):
+            slice_text = text_slices[idx]
+
+            if idx == 0:
+                # First sibling: starts at shared_pages[0].
+                # Ends on the page BEFORE the next sibling starts — but since the
+                # next sibling may START mid-page (the student wrote both on the
+                # same physical page), we INCLUDE that boundary page in Q4a too.
+                next_start_page = split_page_starts[1] if len(split_page_starts) > 1 else None
+                if next_start_page and next_start_page in shared_pages:
+                    boundary_idx = shared_pages.index(next_start_page)
+                    derived_pages = shared_pages[:boundary_idx + 1]  # include boundary page
+                else:
+                    derived_pages = shared_pages  # fallback
+            else:
+                # Later sibling: starts on its detected start page, ends at end of shared_pages
+                my_start_page = split_page_starts[idx]
+                if my_start_page and my_start_page in shared_pages:
+                    start_idx = shared_pages.index(my_start_page)
+                    derived_pages = shared_pages[start_idx:]
+                else:
+                    # Fallback: positional split
+                    chunk = max(1, len(shared_pages) // len(siblings_sorted))
+                    start = idx * chunk
+                    derived_pages = shared_pages[start:] or [shared_pages[-1]]
+
+            answers_map[qid]["student_answer"] = slice_text
+            answers_map[qid]["answer_pages"]   = derived_pages
+            print(
+
+                f"  [Aligner] ✂ {qid}: text_len={len(slice_text)}, pages={derived_pages}",
+                flush=True,
+            )
+
+    return answers_map
 
 
 def _split_grouped_mcqs(answers_map: dict) -> dict:
