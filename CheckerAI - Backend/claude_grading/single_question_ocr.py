@@ -127,7 +127,6 @@ def ocr_student_answer(student_answer_img_paths: list[str]) -> str:
                 "content": content,
             }
         ],
-        temperature=0,
     )
 
     text = response.content[0].text.strip()

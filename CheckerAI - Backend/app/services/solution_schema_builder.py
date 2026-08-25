@@ -168,8 +168,7 @@ Chunk text:
                 system=current_system,
                 messages=[
                     {"role": "user", "content": prompt}
-                ],
-                temperature=0 if attempt == 0 else 0.1
+                ]
             )
             
             output = response.content[0].text.strip()

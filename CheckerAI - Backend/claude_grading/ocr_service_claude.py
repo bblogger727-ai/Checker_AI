@@ -155,8 +155,7 @@ def perform_ocr_claude(image: Image.Image) -> str:
                             {"type": "text", "text": USER_TEXT},
                         ],
                     }
-                ],
-                temperature=0 if attempt == 0 else 0.1
+                ]
             )
             
             text = response.content[0].text.strip()

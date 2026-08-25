@@ -177,8 +177,7 @@ CRITICAL RULES:
             system="You are a precise exam answer sheet reader. Your job is to identify every written answer and its topic, so it can later be matched to the correct schema question by content — NOT by page position. Output strictly in JSON format.",
             messages=[
                 {"role": "user", "content": discovery_prompt}
-            ],
-            temperature=0
+            ]
         )
         
         stop_reason = response.stop_reason
@@ -313,8 +312,7 @@ FINAL REMINDERS:
             system="You are an exam answer alignment expert. Your goal is to map student answers to the correct schema question IDs. While explicit labels are important, you MUST use content matching and topic summaries to catch cases where a student has mislabeled a question (e.g., writing 'Q2' but answering Q3), or where OCR has misread a label. Your primary goal is COMPLETE AND ACCURATE coverage. Output only valid JSON.",
             messages=[
                 {"role": "user", "content": mapping_prompt}
-            ],
-            temperature=0
+            ]
         )
         
         stop_reason = response.stop_reason

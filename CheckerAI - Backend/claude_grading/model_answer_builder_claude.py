@@ -213,8 +213,7 @@ No explanation, no prose — just the raw JSON."""
                 system="You are a strict JSON extraction assistant. Output ONLY a flat JSON mapping of question IDs to extracted text. Do not output anything else. If no answers are found, return {}.",
                 messages=[
                     {"role": "user", "content": current_prompt}
-                ],
-                temperature=0 if attempt == 0 else 0.2
+                ]
             )
     
             content = response.content[0].text.strip()

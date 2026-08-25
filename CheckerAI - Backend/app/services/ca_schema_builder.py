@@ -110,8 +110,7 @@ MODEL ANSWER SHEET TEXT (PART {chunk_num}/{total_chunks}):
             model=CLAUDE_MODEL,
             max_tokens=8192,
             system="You are a strict JSON extraction assistant. Output ONLY valid JSON. No prose.",
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0
+            messages=[{"role": "user", "content": prompt}]
         )
         return json.loads(fix_json_output(response.content[0].text.strip()))
     except Exception as e:
@@ -175,8 +174,7 @@ MODEL ANSWER SHEET TEXT (PART {chunk_num}):
             model=CLAUDE_MODEL,
             max_tokens=8192,
             system="You are a strict JSON extraction assistant. Output ONLY valid JSON. No prose.",
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0
+            messages=[{"role": "user", "content": prompt}]
         )
         return json.loads(fix_json_output(response.content[0].text.strip()))
     except Exception as e:

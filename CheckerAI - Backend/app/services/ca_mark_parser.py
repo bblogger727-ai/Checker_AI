@@ -55,8 +55,7 @@ LAST PAGE TEXT:
             model=CLAUDE_MODEL,
             max_tokens=1024,
             system="You are a strict JSON extraction assistant. Output ONLY valid JSON. No prose.",
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0
+            messages=[{"role": "user", "content": prompt}]
         )
         
         text = response.content[0].text.strip()

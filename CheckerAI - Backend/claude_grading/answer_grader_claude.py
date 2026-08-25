@@ -119,8 +119,7 @@ Student Answer: {mcq['student_answer']}
             system=MCQ_GRADING_PROMPT,
             messages=[
                 {"role": "user", "content": prompt}
-            ],
-            temperature=0
+            ]
         )
         content = response.content[0].text.strip()
         if content.startswith("```"):
@@ -148,8 +147,7 @@ Student Answer: {student_answer}
             system=MCQ_GRADING_PROMPT,
             messages=[
                 {"role": "user", "content": prompt}
-            ],
-            temperature=0
+            ]
         )
         content = response.content[0].text.strip()
         if content.startswith("```"):
@@ -195,8 +193,7 @@ IMPORTANT: Respond with ONLY the JSON object as specified in the output format. 
             system=system_prompt,
             messages=[
                 {"role": "user", "content": prompt}
-            ],
-            temperature=0
+            ]
         )
         content = response.content[0].text.strip()
         result = _extract_json(content)
@@ -247,8 +244,7 @@ IMPORTANT: Respond with ONLY the JSON object as specified in the output format. 
             system=system_prompt,
             messages=[
                 {"role": "user", "content": prompt}
-            ],
-            temperature=0
+            ]
         )
         content = response.content[0].text.strip()
         result = _extract_json(content)

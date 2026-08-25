@@ -49,8 +49,7 @@ OUTPUT FORMAT (JSON ONLY):
             model=CLAUDE_MODEL,
             max_tokens=2048,
             system="You are an expert CA mentor. Provide detailed, professional feedback in JSON format.",
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0
+            messages=[{"role": "user", "content": prompt}]
         )
         
         text = response.content[0].text.strip()
