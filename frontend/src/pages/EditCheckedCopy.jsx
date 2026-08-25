@@ -50,7 +50,7 @@ function SectionToolbar({ mode, setMode }) {
 function QuestionCard({ 
     mkey, question, changes, 
     onChangeMarks, onChangeFeedback, onChangeTickCross,
-    onDeleteTickCross, onRemoveStamp, onMoveStamp, onMoveFeedback, onMoveTick
+    onDeleteTickCross, onRemoveStamp, onMoveStamp, onMoveFeedback, onMoveTick, onChangeMarksPage
 }) {
     const qChanges    = changes[mkey] || {};
     const curObtained = qChanges.marks_obtained !== undefined ? qChanges.marks_obtained : question.marks_obtained;
@@ -131,11 +131,29 @@ function QuestionCard({
                             <div className="removed-placeholder">Marks stamp is marked for removal.</div>
                         ) : (
                             <>
-                                <span className="move-hint">Move the stamp by 100px increments:</span>
+                                <div className="move-page-row">
+                                    <span className="move-hint">Page:</span>
+                                    <input
+                                        type="number" min="1" step="1"
+                                        className="page-num-input"
+                                        value={qChanges.marks_page !== undefined
+                                            ? qChanges.marks_page
+                                            : (question.marks_page || 1)}
+                                        onChange={e => onChangeMarksPage(mkey, parseInt(e.target.value) || 1)}
+                                        title="Change which page the marks stamp appears on"
+                                    />
+                                    {qChanges.marks_page !== undefined &&
+                                        qChanges.marks_page !== (question.marks_page || 1) && (
+                                        <span className="page-changed-badge">
+                                            was {question.marks_page || 1}
+                                        </span>
+                                    )}
+                                </div>
+                                <span className="move-hint">Move stamp position (100px steps):</span>
                                 <DPad onMove={(dir) => onMoveStamp(mkey, dir)} />
                                 <div className="move-stats">
-                                    Net movement: 
-                                    Up: {(qChanges.move_stamp?.up || 0)} | Down: {(qChanges.move_stamp?.down || 0)} | 
+                                    Net movement:&nbsp;
+                                    Up: {(qChanges.move_stamp?.up || 0)} | Down: {(qChanges.move_stamp?.down || 0)} |&nbsp;
                                     Left: {(qChanges.move_stamp?.left || 0)} | Right: {(qChanges.move_stamp?.right || 0)}
                                 </div>
                             </>
@@ -377,6 +395,13 @@ function EditCheckedCopy() {
         });
     }, []);
 
+    const handleChangeMarksPage = useCallback((mkey, pageNum) => {
+        setChanges(prev => ({
+            ...prev,
+            [mkey]: { ...(prev[mkey] || {}), marks_page: pageNum },
+        }));
+    }, []);
+
     const handleMoveMcqStamp = useCallback((dir) => {
         setChanges(prev => {
             const q = prev["__mcq_marks__"] || {};
@@ -462,6 +487,14 @@ function EditCheckedCopy() {
                 
                 const ms = condenseMoves(corr.move_stamp);
                 if (ms) c.move_stamp = ms;
+
+                // Page override: include if explicitly set and different from manifest
+                if (corr.marks_page !== undefined) {
+                    const origPage = manifest?.questions?.[mkey]?.marks_page;
+                    if (!origPage || corr.marks_page !== origPage) {
+                        c.marks_page = corr.marks_page;
+                    }
+                }
                 
                 const mf = condenseMoves(corr.move_feedback);
                 if (mf) c.move_feedback = mf;
@@ -677,6 +710,7 @@ function EditCheckedCopy() {
                                 onMoveStamp={handleMoveStamp}
                                 onMoveFeedback={handleMoveFeedback}
                                 onMoveTick={handleMoveTick}
+                                onChangeMarksPage={handleChangeMarksPage}
                             />
                         ))}
                     </div>
