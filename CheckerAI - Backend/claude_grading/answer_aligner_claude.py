@@ -123,6 +123,10 @@ LABEL NORMALIZATION (CRITICAL):
   "Aug", "Quy", "Day", "day", "ay", "an", "Key", "Try", "an.", "aug.", "any"
 - Question numbers can be misread: "7" → "9" or "?", "1" → "l" or "I", "8" → "B"
 - Sub-part letters can be misread: "(a)" → "(9)", "la", "[a]", "(A)"
+- NUMERIC DIGITS ARE LITERAL — DO NOT TRANSPOSE NUMBERS:
+  - "Que03(a)" means Question 3(a) — the leading zero is an OCR artifact, the digit 3 is clear.
+  - NEVER read a clearly-written digit as a different digit (e.g., do NOT read "3" as "5").
+  - Only substitute when a digit is genuinely ambiguous ("7" vs "?", "1" vs "l", "0" vs "O").
 - RULE: If a short line at the TOP of an answer block looks like it could be a question label
   (e.g., surrounded by brackets, followed immediately by paragraphs or calculations),
   it IS a question label — even if the word looks garbled.
@@ -135,6 +139,7 @@ LABEL NORMALIZATION (CRITICAL):
   * "Day 2 (a)" → label "Ans 2(a)"
   * "Key 2(b)" → label "Ans 2(b)"
   * "[ay 1(b)]" → label "Ans 1(b)"
+  * "Que03(a)" → label "Ans 3(a)" (NOT "Ans 5(a)" — 03 = 3, not 5)
 - Preserve the original OCR text verbatim in full_content — do NOT change it there.
 - If you cannot confidently determine the question number, output the raw label as-is.
 
@@ -224,7 +229,8 @@ MAPPING RULES (read carefully — this is the most important part):
 - **GARBLED LABEL RECOVERY (NEW — CRITICAL)**: Handwritten labels are often OCR-mistranscribed. The word "Ans" is commonly read as: "Aug", "Quy", "Day", "day", "ay", "Key", "Try". A question number "7" may appear as "9" or "?". A sub-part "(a)" may appear as "(9)" or "la".
   - If a discovered answer has a label like "Ans 7(a)" (already normalized by Pass 1), trust it.
   - If the label still looks garbled (e.g., "day 7. (9)", "[Quy 7 (b)]"), extract the question number from it and treat it as that question label.
-  - **Always verify by checking the CONTENT** — if the topic summary of the block matches the schema question at that number, confirm the mapping.
+  - **NUMERIC DIGITS ARE LITERAL**: Never transpose a clearly-readable digit to another digit. "Que03(a)" = Q3(a), NOT Q5(a). "Ans 3(b)" = Q3(b), NOT Q5(b). Only substitute when a digit is genuinely ambiguous ("7" vs "?", "1" vs "l").
+  - **Always verify by checking the CONTENT** — if the topic summary of the block matches the schema question at that number, confirm the mapping. If content does NOT match the labeled number, prefer content match over label.
 - **HEURISTIC RECOVERY**: If an explicit label (e.g., "Q2") leads to a block whose topic summary is COMPLETELY UNRELATED to the schema Q2, AND there is another block with "unknown" label that strongly matches Q2, OR there are duplicate "Q2" labels, you MUST use content matching to resolve the conflict. 
 - **DUPLICATE LABEL STRATEGY**: If you see two different blocks with the same explicit label (e.g., two "Answer 8" blocks), it is GUARANTEED that one is mislabeled. You MUST ignore the labels for both these blocks and map them purely based on their `topic_summary` and `content_preview` matching against the schema.
 
@@ -366,6 +372,12 @@ FINAL REMINDERS:
     
     # ======================== MCQ SPLITTING & CLEANING ========================
     answers_map = _split_grouped_mcqs(answers_map)
+
+    # ======================== SIBLING SUB-PART SPLITTING ========================
+    # When Q4a and Q4b (or Q5a and Q5b) both got mapped to the same text block
+    # and same pages, split both the text and page list between siblings.
+    from app.services.answer_aligner import _split_sibling_subparts
+    answers_map = _split_sibling_subparts(answers_map, student_pages)
     
     for qid in answers_map:
         if "MCQ" in qid.upper():

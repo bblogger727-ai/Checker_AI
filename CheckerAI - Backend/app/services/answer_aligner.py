@@ -78,13 +78,19 @@ INSTRUCTIONS:
 
 LABEL NORMALIZATION (CRITICAL):
 - Handwritten labels are often OCR'd with errors. Common mistranscriptions of "Ans" include:
-  "Aug", "Quy", "Day", "day", "ay", "an", "Key", "Try", "an.", "aug."
+  "Aug", "Quy", "Day", "day", "ay", "an", "Key", "Try", "an.", "aug.", "Que"
 - Common mistranscriptions of question numbers: "7" → "9" or "?", "1" → "l" or "I"
 - Common mistranscriptions of sub-part letters: "(a)" → "(9)", "la", "[a]"
+- NUMERIC DIGITS ARE LITERAL — DO NOT TRANSPOSE NUMBERS:
+  - "Que03(a)" means Question 3(a) — the leading zero is an OCR artifact, NOT a garble of 5.
+  - "Que 3(a)", "Que03(a)", "Q03(a)", "Ans3(a)" all mean Question 3, sub-part a.
+  - NEVER interpret a clearly written digit (3, 4, 5…) as a different digit.
+  - Only substitute a digit if it is genuinely ambiguous (e.g. "7" vs "?", "1" vs "l").
 - RULE: If text at the TOP of an answer block looks like it COULD be a question label
   (short line, followed by paragraphs or calculations), treat it as a label.
 - In the "label" field of your output, output the NORMALIZED label using standard form:
-  "Ans X(y)" or "Q X(y)" — e.g., "[day 7. (9)]" → label "Ans 7(a)", "[Quy 7 (b)]" → label "Ans 7(b)"
+  "Ans X(y)" or "Q X(y)" — e.g., "[day 7. (9)]" → label "Ans 7(a)", "[Quy 7 (b)]" → label "Ans 7(b)",
+  "Que03(a)" → label "Ans 3(a)" (NOT "Ans 5(a)").
 - If you cannot confidently normalize, output the raw text as-is.
 
 STUDENT OCR TEXT:
@@ -174,8 +180,9 @@ MAPPING INSTRUCTIONS:
 3. **GARBLED LABELS — IMPORTANT**: Handwritten labels are often OCR-mistranscribed. Common patterns:
    - "day 7", "aug 7", "quy 7", "key 7" all likely mean "Ans 7" (question 7)
    - "(9)" or "(l)" after a number likely means "(a)" (sub-part a)
-   - If a label LOOKS like it could be a question number, treat it as one.
-   - **Always verify by checking the CONTENT of the answer** — if the answer content matches the schema question at that number, confirm the mapping.
+   - "Que03(a)" or "Q03a" means Question **3**(a) — leading zeros are OCR artifacts, NOT garbles of another digit.
+   - **NUMERIC DIGITS MUST BE TAKEN LITERALLY**: Never swap one clearly readable digit for another (e.g., do NOT read "3" as "5" or "4" as "5"). Only substitute when a digit is genuinely ambiguous ("7" vs "?", "1" vs "l", "0" vs "O").
+   - **Always verify by checking the CONTENT of the answer** — if the answer content matches the schema question at that number, confirm the mapping. If content does NOT match the labeled number, prefer content over label.
 4. **CONTENT MATCHING (CRITICAL for unlabeled or garbled answers)**: If the label is missing, unknown, or ambiguous:
    - Read the answer's CONTENT carefully.
    - Compare the TOPIC, ENTITIES, and KEYWORDS in the answer against each schema question.
