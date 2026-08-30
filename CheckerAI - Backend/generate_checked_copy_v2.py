@@ -19,13 +19,18 @@ Usage:
       --ocr     grading_results/dataset_15244/ocr_output.txt
       [--manifest grading_results/dataset_15244/checked_copy_manifest.json]
 
-Annotation logic:
-  - 1-2 organic ticks/crosses per page, at real ink regions, variable X position
-  - Marks stamp (18pt) on first page of each answer only
-  - Single-line horizontal feedback (9pt red) ONLY for "poor" tier answers
-      * Text is LLM-generated — one proper sentence, ≤12 words
-      * Placed in the CENTRAL zone (20-80% page width) in a blank horizontal
-        band of ≥260pt, at least 50pt away from every tick/cross
+Annotation logic (v3 — deterministic tier-based):
+  Score ≥ 75%  → 2 ticks   per page (last page: 1 tick),  1-2 comment lines
+  Score 41-74% → 1 tick    per page (last page: 1 tick),  2-3 comment lines
+  Score 25-40% → 1 cross   per page (last page: 1 cross), 3-4 comment lines
+  Score < 25%  → 2 crosses per page (last page: 1 cross), 3-4 comment lines
+
+  Shared-page rule: when multiple questions share a page, each question gets
+  exactly 1 annotation of its correct type (tick or cross per tier).
+
+  Feedback placement: always directly below the marks stamp, with a 1 cm
+  (28 pt) gap from the stamp bottom. Text is clamped so it never overflows
+  the page bottom margin.
 
 Coordinate detection (no LLM for theory question placement):
   1. PyMuPDF embedded text-layer search
@@ -66,6 +71,8 @@ except ImportError:
         return len(text.strip().split()) >= 15
 
 from PIL import Image
+import numpy as np
+import cv2
 from pypdf import PdfReader, PdfWriter
 from reportlab.pdfgen import canvas
 from reportlab.pdfbase import pdfmetrics
@@ -80,14 +87,37 @@ FONT_PATH  = os.path.join(BASE_DIR, "IndieFlower-Regular.ttf")
 MARGIN_X   = 26.0       # left-edge fallback X for marks stamp
 RENDER_DPI = 72         # 72 DPI: accurate enough to see inter-line gaps (was 36 — too blurry)
 
-MAX_ANN_FIRST    = 2    # max ticks/crosses on first page of an answer
-MAX_ANN_CONTINUE = 1    # max ticks/crosses on continuation pages
+# ── Tier-based annotation counts ─────────────────────────────────────────────
+# Keyed by score % thresholds.  Each entry: (action, count_normal, count_last)
+# count_normal = annotations on every page except the last
+# count_last   = annotations on the LAST page of the answer (always 1)
+#
+# Score bands:  ≥75% | 41-74% | 25-40% | <25%
+
+def _tier_ann_params(marks_obtained: float, marks_total: float) -> tuple:
+    """
+    Return (action, count_normal, count_last) for the given score.
+
+    action       : 'tick' or 'cross'
+    count_normal : number of marks to draw on every non-last page
+    count_last   : number of marks to draw on the LAST page (always 1)
+    """
+    ratio = (marks_obtained / marks_total) if marks_total > 0 else 0.0
+    if ratio >= 0.75:
+        return ("tick",  2, 1)
+    elif ratio >= 0.41:
+        return ("tick",  1, 1)
+    elif ratio >= 0.25:
+        return ("cross", 1, 1)
+    else:
+        return ("cross", 2, 1)
+
 
 TIER_ACTION = {
     "excellent": "tick",
     "very_good": "tick",
     "good":      "tick",
-    "okay":      "tick",
+    "okay":      "cross",   # 25-40%: cross
     "poor":      "cross",
     "no_answer": None,
 }
@@ -1547,12 +1577,138 @@ def _heading_first_block(
     return pdf_h * (1.0 - (center - span / 2))
 
 
+_paddle_ocr_instance = None
+
+def _get_paddle_ocr():
+    global _paddle_ocr_instance
+    if _paddle_ocr_instance is None:
+        try:
+            from paddleocr import PaddleOCR
+            _paddle_ocr_instance = PaddleOCR(use_textline_orientation=True, lang='en')
+        except Exception as e:
+            print(f"  [PaddleOCR] Warning: could not load PaddleOCR: {e}", flush=True)
+            _paddle_ocr_instance = False
+    return _paddle_ocr_instance
+
+
+def _extract_page_boxes_paddle(img_np) -> list:
+    """
+    Extract text lines with bounding boxes from a BGR image using PaddleOCR.
+    Returns list of dicts with keys: text, ymin, ymax, xmin, xmax, score (fractions 0..1).
+    """
+    ocr = _get_paddle_ocr()
+    if not ocr:
+        return []
+    try:
+        result = ocr.ocr(img_np)
+    except Exception as e:
+        print(f"  [PaddleOCR] Prediction error: {e}", flush=True)
+        return []
+    if not result:
+        return []
+    h, w = img_np.shape[:2]
+    lines = []
+    for item in result:
+        rec_texts = item.get('rec_texts', [])
+        rec_boxes = item.get('rec_boxes', [])
+        rec_scores = item.get('rec_scores', [])
+        for text, box, score in zip(rec_texts, rec_boxes, rec_scores):
+            box = np.array(box)
+            if box.ndim == 1:
+                xmin, ymin, xmax, ymax = box
+            else:
+                xmin, ymin = box.min(axis=0)
+                xmax, ymax = box.max(axis=0)
+            lines.append({
+                'text': str(text),
+                'ymin': max(0.0, float(ymin) / h),
+                'ymax': min(1.0, float(ymax) / h),
+                'xmin': max(0.0, float(xmin) / w),
+                'xmax': min(1.0, float(xmax) / w),
+                'score': float(score),
+            })
+    lines.sort(key=lambda l: l['ymin'])
+    return lines
+
+
+def _match_q_heading_text(text: str, q_num: str) -> bool:
+    """
+    Check if a recognized OCR line matches the heading for question q_num.
+    Handles circled Unicode numbers, roman numerals, handwriting abbreviations,
+    and student conventions (e.g. 'Que = 1(a)', 'Que B', 'Q=2(B)', '(Que-3 1)', 'Que=4').
+    """
+    t = str(text).strip()
+    t_lower = t.lower()
+    # Reject pure narrative body sentences
+    if any(phrase in t_lower for phrase in [
+        'as per as', 'in this case', 'needs to disclose', 'according to as',
+        'profit on sale', 'interest on debenture', 'trade payable', 'trade receivable'
+    ]):
+        return False
+
+    # Extract base digit and sub-letter from q_num (e.g. '1b' -> 1, b; '4—' -> 4, ''; '3b' -> 3, b)
+    m_num = re.search(r'\d+', q_num)
+    if not m_num:
+        return False
+    base_num = m_num.group(0)
+    m_alpha = re.search(r'[a-zA-Z]', q_num[m_num.end():])
+    sub_letter = m_alpha.group(0).lower() if m_alpha else ''
+
+    # Normalize circled numbers ①..⑳ -> Q1..Q20
+    for i in range(1, 21):
+        t = t.replace(chr(0x245F + i), f'Q{i}')
+    t = re.sub(r'^[①-⑳]\s*', 'Q ', t).lower()
+
+    d_map = {'1': r'[1il|]', '2': r'[2z]', '3': r'3', '4': r'4', '5': r'[5s]', '6': r'6', '7': r'7', '8': r'[8b]'}
+    b_pat = d_map.get(base_num, re.escape(base_num))
+    
+    prefix_kw = r'(?:^|\b|\s)[\[|\(]?\s*(?:q|que|qu|question|ans|answer)[\s#\-\.=:_]*'
+
+    # Must have an explicit question/answer keyword OR be at start of line as a label
+    if sub_letter:
+        sub_pat = rf'(?:\({sub_letter}\)|{sub_letter})'
+        # e.g. Que = 1(a), Q1a, Q1(a), Que 1a, Q=2(B)
+        p_kw = rf'{prefix_kw}{b_pat}[\s\.\-\)=:_]*{sub_pat}\b'
+        if re.search(p_kw, t):
+            return True
+        # Start of line: e.g. 1(a), (1a), 1a.
+        p_sol = rf'^\s*[\(\[]?\s*{b_pat}[\s\.\-\)=:_]*{sub_pat}\b'
+        if re.search(p_sol, t):
+            return True
+        # e.g. Que = B (for 1b only)
+        if base_num in ['1']:
+            p_sub_only = rf'{prefix_kw}{sub_pat}\b'
+            if re.search(p_sub_only, t):
+                return True
+        # e.g. (Que=31) AX (for 3b) where base question is 3
+        p_kw_base = rf'{prefix_kw}{b_pat}'
+        if re.search(p_kw_base, t):
+            other_subs = [c for c in 'abcdef' if c != sub_letter]
+            if not any(f'({c})' in t or f'={c}' in t for c in other_subs):
+                return True
+    else:
+        # If no subpart (e.g. Que=4)
+        p_kw_base = rf'{prefix_kw}{b_pat}'
+        if re.search(p_kw_base, t):
+            return True
+        p_sol = rf'^\s*[\(\[]?\s*{b_pat}[\)\]\.\:\-]'
+        if re.search(p_sol, t):
+            return True
+
+    return False
+
+
 def _find_heading_y(
-    fitz_page, gray, img_w, img_h, pdf_h, q_num, ocr_path
+    fitz_page, gray, img_w, img_h, pdf_h, q_num, ocr_path, paddle_lines: list = None
 ) -> float | None:
-    """Two-strategy heading Y (PDF bottom-origin)."""
+    """Heading Y finder using PyMuPDF, PaddleOCR boxes, and OCR text fallback (PDF bottom-origin)."""
     y = _heading_fitz(fitz_page, pdf_h, q_num)
     if y: return y
+
+    if paddle_lines:
+        for l in paddle_lines:
+            if _match_q_heading_text(l['text'], q_num):
+                return pdf_h * (1.0 - l['ymin'])
 
     y = _heading_ocr(ocr_path, fitz_page.number + 1, pdf_h, q_num)
     if y: return y
@@ -1560,52 +1716,7 @@ def _find_heading_y(
     return None
 
 
-def _choose_action(
-    page_idx_in_q: int, 
-    total_pages: int, 
-    ann_idx_on_page: int, 
-    anns_on_page: int, 
-    tier: str, 
-    marks_obtained: float, 
-    marks_total: float
-) -> str:
-    """
-    Decide whether to place a tick or a cross.
-
-    Guaranteed rules (override everything):
-      - FIRST annotation of the whole answer:
-          → tick  if marks_obtained > 0  (student got something right)
-          → cross if marks_obtained == 0
-      - LAST annotation of the whole answer:
-          → cross if marks_obtained < marks_total  (student lost marks somewhere)
-          → tick  if marks_obtained == marks_total (perfect)
-      - All middle annotations:
-          → tick  with probability = marks_ratio
-          → cross with probability = 1 - marks_ratio
-
-    This guarantees every imperfect answer has ≥1 cross, and every partially
-    correct answer has ≥1 tick, regardless of page count.
-    """
-    if marks_total <= 0:
-        return "cross"
-
-    marks_ratio = min(1.0, max(0.0, marks_obtained / marks_total))
-
-    is_first = (page_idx_in_q == 0 and ann_idx_on_page == 0)
-    is_last  = (page_idx_in_q == total_pages - 1 and ann_idx_on_page == anns_on_page - 1)
-
-    # Treat < 20% as effectively 'no answer': always cross on first annotation
-    # so near-zero stubs (e.g. 0.5/6 'question is incomplete') don't get a tick.
-    meaningful_marks = marks_total > 0 and (marks_obtained / marks_total) >= 0.20
-
-    if is_first:
-        return "tick" if meaningful_marks else "cross"
-
-    if is_last:
-        return "cross" if marks_obtained < marks_total else "tick"
-
-    # Middle slots: probabilistic, weighted by marks ratio
-    return "tick" if random.random() < marks_ratio else "cross"
+# _choose_action removed — replaced by deterministic _tier_ann_params()
 
 
 
@@ -1744,228 +1855,102 @@ def _find_fragment_y(
     return ink_top + raw_frac * (ink_bot - ink_top)
 
 
-def _plan_annotations_from_ocr(
-    ocr_page_text: str,
-    q_num: str,
+def _plan_annotations_new(
+    marks_obtained: float,
+    marks_total: float,
+    page_idx_in_q: int,
+    total_pages: int,
+    n_questions_on_page: int,
+    gray: Image.Image,
+    img_w: int, img_h: int,
     pdf_w: float, pdf_h: float,
-    marks_obtained: float, marks_total: float,
-    page_idx_in_q: int, total_pages: int,
+    slice_top: float,
+    slice_bot: float,
     page_used_y_fracs: list,
+    page_excluded_px_rows: set,
+    is_practical: bool,
     ink_top: float = 0.05,
     ink_bot: float = 0.95,
-    slice_top: float = 0.05,
-    slice_bot: float = 0.95,
-    is_practical: bool = False,
-    is_first: bool = False,
     heading_y_frac: float = None,
-    gray: Image.Image = None,
-    img_w: int = 1000,
-    img_h: int = 1000,
-    page_excluded_px_rows: set = None,
-    text_blocks: list = None,
-    current_page_ann_count: int = 0,
-    wrong_lines: list = None,
-    correct_lines: list = None,
 ) -> list:
     """
-    Plan tick/cross annotations for one question on one page.
+    Plan tick/cross annotations for one question on one page using the
+    deterministic tier-based rules:
 
-    Y positions are computed by linearly interpolating the OCR line fraction
-    within [ink_top, ink_bot] — the pixel-detected written region.  This
-    guarantees annotations stay inside the written area regardless of how
-    text_blocks happen to be distributed.
+      Score ≥ 75%  → tick,  2 per non-last page, 1 on last page
+      Score 41-74% → tick,  1 per page
+      Score 25-40% → cross, 1 per page
+      Score < 25%  → cross, 2 per non-last page, 1 on last page
 
-    If OCR yields no content lines (empty page, or the page has heavy ink
-    but no OCR coverage), we fall back to evenly spaced positions derived
-    directly from text_blocks so the page never ends up annotation-free.
+    Shared-page rule: when n_questions_on_page > 1, cap at 1 annotation
+    per question (of the correct tier type).
+
+    Returns list of {"y_pdf": float, "ann_x": float, "action": str}
     """
-    marks_ratio = min(1.0, max(0.0, marks_obtained / marks_total)) if marks_total > 0 else 0
-    MAX_ANN_PER_PAGE = 3
-
-    # Dynamic vertical separation: scale with slice height so short answers fit marks comfortably
-    slice_h = max(0.05, slice_bot - slice_top)
-    if slice_h >= 0.55:
-        MIN_SEP = 0.16
-    elif slice_h >= 0.30:
-        MIN_SEP = 0.11
-    else:
-        MIN_SEP = 0.07
-
-    if current_page_ann_count >= MAX_ANN_PER_PAGE:
+    if marks_total <= 0:
         return []
 
-    # ── Step 1: Build OCR line list and estimate text region ────────────────
-    all_raw_lines = ocr_page_text.split('\n')
-    written_lines = [l for l in all_raw_lines if l.strip()]
-    n_written     = len(written_lines)
+    # ── How many annotations for this page? ──────────────────────────────────
+    action, count_normal, count_last = _tier_ann_params(marks_obtained, marks_total)
+    is_last_page = (page_idx_in_q == total_pages - 1)
+    n_anns = count_last if is_last_page else count_normal
 
-    if n_written == 0:
-        return []
+    # Shared-page cap: multiple questions on the same page → 1 each
+    if n_questions_on_page > 1:
+        n_anns = 1
 
-    if n_written <= 8 or (ink_bot - ink_top) <= 0.45:
-        max_ann = 1
-    else:
-        max_ann = random.randint(2, MAX_ANN_PER_PAGE)
+    # ── Determine valid vertical range ───────────────────────────────────────
+    # Hard floor: never annotate inside the top 12% margin.
+    # NOTE: do NOT add heading_y_frac as a floor here. The slice bounds already
+    # incorporate the heading position; adding another offset crushes the zone
+    # on tight pages and prevents any annotation from being placed at all.
+    lower_bound = max(slice_top, ink_top, 0.12)
+    upper_bound = min(slice_bot, ink_bot - 0.02, 0.88)
+    if upper_bound <= lower_bound:
+        lower_bound = max(0.12, ink_top)
+        upper_bound = min(0.88, ink_bot - 0.02)
+    if upper_bound <= lower_bound:
+        return []  # page has no usable space
 
-    max_ann = min(max_ann, MAX_ANN_PER_PAGE - current_page_ann_count)
+    # Dynamic separation so annotations don't crowd on short answers
+    slice_h = max(0.05, upper_bound - lower_bound)
+    MIN_SEP = 0.18 if slice_h >= 0.55 else (0.12 if slice_h >= 0.30 else 0.08)
 
-    # Calculate actual text end from written line count so annotations
-    # stop where the student's written text actually ends on this page.
-    if n_written > 0:
-        line_based_bot = ink_top + (n_written / 22.0) * (0.85 - ink_top) + 0.02
-        estimated_ink_bot = min(ink_bot, slice_bot, max(ink_top + 0.10, line_based_bot))
-    else:
-        estimated_ink_bot = min(ink_bot, slice_bot)
-
-    # ── Step 2: Fragment-first y-placement ────────────────────────────
-    # Build the target annotation list: each entry is (action, fragment_text)
-    # Priority: wrong_lines (crosses) first since they're harder to miss, then correct_lines (ticks)
-    target_annotations: list[tuple[str, str]] = []
-
-    # Interleave ticks and crosses for a more natural look
-    wl = list(wrong_lines   or [])
-    cl = list(correct_lines or [])
-    # Alternate cross/tick up to max_ann total
-    while (wl or cl) and len(target_annotations) < max_ann:
-        if wl:
-            target_annotations.append(("cross", wl.pop(0)))
-        if cl and len(target_annotations) < max_ann:
-            target_annotations.append(("tick", cl.pop(0)))
-
-    # Resolve exact y-fracs from OCR for each fragment
-    y_candidates:   list[float] = []
-    ann_ocr_lines:  list[str]   = []
-    ann_actions:    list[str]   = []
-
-    for action, frag in target_annotations:
-        y_frac = _find_fragment_y(frag, written_lines, ink_top, estimated_ink_bot, slice_top, slice_bot)
-        if y_frac is not None:
-            y_candidates.append(y_frac)
-            ann_ocr_lines.append(frag)
-            ann_actions.append(action)
-
-    # ── Step 3: Fill remaining slots with actual OCR text lines ──────────
-    remaining   = max_ann - len(y_candidates)
-    total_lines = len(all_raw_lines)
-    if remaining > 0 and total_lines > 0:
-        content_idxs = []
-        for line_idx in range(total_lines):
-            line_str = all_raw_lines[line_idx].strip()
-            if line_str and not re.search(r'^(?:classmate|date|page|audit test|test-\d+)', line_str, re.IGNORECASE):
-                raw_frac = (line_idx + 0.5) / total_lines
-                y_frac   = ink_top + raw_frac * (estimated_ink_bot - ink_top)
-                if max(0.14, slice_top) <= y_frac <= min(0.90, slice_bot):
-                    content_idxs.append((line_idx, y_frac, line_str))
-
-        if content_idxs:
-            if len(content_idxs) <= remaining:
-                fill_items = content_idxs
-            elif remaining == 1:
-                fill_items = [content_idxs[len(content_idxs) // 2]]
-            else:
-                step = len(content_idxs) / remaining
-                fill_items = [content_idxs[int(i * step)] for i in range(remaining)]
-
-            for line_idx, y_frac, line_str in fill_items:
-                y_candidates.append(y_frac)
-                ann_ocr_lines.append(line_str)
-                ann_actions.append(None)   # action determined later by score ratio
-
-    # ── Step 4: Fallback if nothing resolved ──────────────────────────
-    if not y_candidates and total_lines > 0:
-        content_lines = [(i, l.strip()) for i, l in enumerate(all_raw_lines) if l.strip()]
-        if content_lines and max_ann > 0:
-            step = len(content_lines) / max_ann
-            for i in range(max_ann):
-                line_idx, line_str = content_lines[int(i * step)]
-                raw_frac = (line_idx + 0.5) / total_lines
-                y_frac   = max(0.14, min(0.88, ink_top + raw_frac * (ink_bot - ink_top)))
-                y_candidates.append(y_frac)
-                ann_ocr_lines.append(line_str)
-                ann_actions.append(None)
-
-    # Pad lists to equal length
-    while len(ann_ocr_lines) < len(y_candidates):
-        ann_ocr_lines.append("")
-    while len(ann_actions) < len(y_candidates):
-        ann_actions.append(None)
-
-    # ── Step 5: Emit annotations ────────────────────────────────────────
-    n_sel  = len(y_candidates)
+    # ── Place n_anns annotations evenly spaced in [lower_bound, upper_bound] ─
     result = []
-
-    for ann_idx, y_frac in enumerate(y_candidates):
-        # Skip if too close to heading stamp
-        if heading_y_frac is not None and abs(y_frac - heading_y_frac) < 0.06:
-            y_frac = heading_y_frac + 0.07
-
-        # Determine the lowest allowed point for this annotation.
-        # Constrain by slice_bot so collision avoidance doesn't push into the next Q's zone.
-        _ann_ink_bot = min(estimated_ink_bot, slice_bot)
-
-        # Hard top margin floor:
-        # ALWAYS enforce an absolute floor of 0.14 (14% down from top of page)
-        # so annotations NEVER land in the top margin regardless of slice height.
-        lower_bound = max(slice_top, ink_top, 0.14)
-        upper_bound = min(_ann_ink_bot - 0.02, 0.88)
-        if upper_bound < lower_bound:
-            lower_bound = 0.14
-            upper_bound = max(0.15, _ann_ink_bot - 0.02)
-        y_frac = min(max(y_frac, lower_bound), upper_bound)
-
-        # Collision avoidance — always DROP if no valid non-colliding spot found
-        new_y_frac = _get_non_colliding_y(y_frac, page_used_y_fracs, lower_bound, upper_bound, MIN_SEP)
-
-        is_first_ann = (page_idx_in_q == 0 and ann_idx == 0)
-        is_last_ann  = (page_idx_in_q == total_pages - 1 and ann_idx == n_sel - 1)
-
-        if new_y_frac is None:
-            if is_first_ann:
-                # Must place at least one mark, relax separation requirement slightly
-                new_y_frac = _get_non_colliding_y(y_frac, page_used_y_fracs, lower_bound, upper_bound, MIN_SEP * 0.5)
-                if new_y_frac is None:
-                    # To strictly prevent multiple marks on the same horizontal line, skip if no space
-                    continue
-            else:
-                # Strictly enforce distance: skip this annotation to prevent overcrowding
-                continue
-            
-        y_frac = new_y_frac
-
-        # Tick or cross decision
-        is_first_ann = (page_idx_in_q == 0 and ann_idx == 0)
-        is_last_ann  = (page_idx_in_q == total_pages - 1 and ann_idx == n_sel - 1)
-
-        # ── Tick or cross decision ───────────────────────────────────────────
-        # Priority 1: Semantic match against grader-flagged wrong/correct lines
-        ocr_line = ann_ocr_lines[ann_idx] if ann_idx < len(ann_ocr_lines) else ""
-        if wrong_lines and _line_matches_fragment(ocr_line, wrong_lines):
-            action = "cross"
-        elif correct_lines and _line_matches_fragment(ocr_line, correct_lines):
-            action = "tick"
+    for i in range(n_anns):
+        if n_anns == 1:
+            target_frac = (lower_bound + upper_bound) / 2.0
         else:
-            # Priority 2: Score-ratio fallback (original behaviour)
-            meaningful_marks_inline = marks_total > 0 and (marks_obtained / marks_total) >= 0.20
-            if is_first_ann:
-                action = "tick" if meaningful_marks_inline else "cross"
-            elif is_last_ann:
-                action = "cross" if marks_ratio < 0.50 else "tick"
-            else:
-                action = "tick" if random.random() < marks_ratio else "cross"
+            # Spread evenly: first at 25%, last at 75% of the slice
+            t = i / (n_anns - 1)   # 0.0 … 1.0
+            span_lo = lower_bound + slice_h * 0.20
+            span_hi = lower_bound + slice_h * 0.80
+            target_frac = span_lo + t * (span_hi - span_lo)
+
+        target_frac = max(lower_bound, min(target_frac, upper_bound))
+
+        # Collision avoidance
+        y_frac = _get_non_colliding_y(target_frac, page_used_y_fracs, lower_bound, upper_bound, MIN_SEP)
+        if y_frac is None:
+            if i == 0:
+                # Must place at least 1 — relax separation
+                y_frac = _get_non_colliding_y(target_frac, page_used_y_fracs, lower_bound, upper_bound, MIN_SEP * 0.5)
+            if y_frac is None:
+                continue   # no room — skip this annotation
 
         y_frac = max(0.12, min(y_frac, 0.88))
-        y_pdf = pdf_h * (1.0 - y_frac) + random.uniform(-4, 4)
+        y_pdf  = pdf_h * (1.0 - y_frac) + random.uniform(-4, 4)
         page_used_y_fracs.append(y_frac)
         if page_excluded_px_rows is not None:
             ann_y_px = int(y_frac * img_h)
             for pr in range(ann_y_px - 40, ann_y_px + 41):
                 page_excluded_px_rows.add(pr)
 
+        # Find X position in ink (cross) or clear space (tick)
         if gray is not None:
             if action == "cross":
-                ann_x = _find_ink_x(
-                    gray, img_w, img_h, pdf_w, y_frac, is_practical,
-                )
+                ann_x = _find_ink_x(gray, img_w, img_h, pdf_w, y_frac, is_practical)
             else:
                 ann_x = _find_clear_x(
                     gray, img_w, img_h, pdf_w, y_frac, is_practical,
@@ -1980,80 +1965,64 @@ def _plan_annotations_from_ocr(
 
 
 
-def _find_feedback_spot_in_q_bounds(
-    ocr_page_text: str,
-    q_num: str,
-    pdf_h: float,
+def _place_feedback_below_stamp(
+    stamp_y: float,
+    stamp_half_h: float,
+    fb_text: str,
     pdf_w: float,
-    page_used_y_fracs: list,
-    text_blocks: list,
-    ink_top: float = 0.05,
-    ink_bot: float = 0.95,
-    slice_top: float = 0.05,
-    slice_bot: float = 0.95,
+    pdf_h: float,
+    font_size: float,
+    page_scale: float = 1.0,
 ) -> tuple[float, float] | None:
     """
-    Find a blank spot within the question's own vertical bounds to place
-    the feedback comment, avoiding text blocks. If the page is very crowded,
-    forces placement in a non-colliding spot as a fallback.
+    Place feedback text directly below the marks stamp with a 1 cm (28pt) gap.
+
+    stamp_y      : ReportLab y-coordinate of the stamp centre (bottom-origin)
+    stamp_half_h : half-height of the stamp in PDF points
+    fb_text      : feedback string (may contain newlines)
+    font_size    : font size in PDF points
+
+    Returns (fb_x, fb_y) where fb_y is the baseline of the FIRST line of text.
+    Returns None if there is no room on the page even for a single line.
     """
-    lines = ocr_page_text.split("\n")
-    total_lines = len(lines)
-    if total_lines == 0:
+    import textwrap
+    GAP_PTS   = 28.0 * page_scale   # 1 cm at this page scale
+    MIN_Y     = max(20.0, 30.0 * page_scale)  # bottom margin in PDF points
+    LINE_H    = font_size * 1.5
+
+    # Bottom edge of the stamp in ReportLab coords (low y = low on page)
+    stamp_bottom = stamp_y - stamp_half_h
+    # First line baseline sits GAP_PTS below the stamp bottom
+    fb_y_first = stamp_bottom - GAP_PTS
+
+    # Estimate total height required
+    wrapped = []
+    for raw_line in fb_text.split('\n'):
+        wrapped.extend(textwrap.wrap(raw_line, width=55))
+    if not wrapped:
+        return None
+    n_lines      = len(wrapped)
+    total_height = n_lines * LINE_H
+
+    # Bottom of feedback block
+    fb_y_bottom = fb_y_first - total_height
+
+    # If block would go below the page margin, shift upward
+    if fb_y_bottom < MIN_Y:
+        shift = MIN_Y - fb_y_bottom
+        fb_y_first  += shift
+        fb_y_bottom += shift
+
+    # If the first line itself is off the top of the page — no room
+    if fb_y_first > pdf_h - 20:
         return None
 
-    MIN_SEP   = 0.09
-    BLOCK_CLR = 0.035
-
-    def _is_clear_of_blocks(y_frac):
-        if not text_blocks:
-            return True
-        return all(abs(b[0] - y_frac) > BLOCK_CLR for b in text_blocks)
-
-    def _is_clear_of_used(y_frac):
-        return all(abs(y_frac - u) >= MIN_SEP for u in page_used_y_fracs)
-
-    def _scale(raw_frac):
-        return ink_top + raw_frac * (ink_bot - ink_top)
-
-    def _try_candidate(raw_frac) -> float | None:
-        base = _scale(raw_frac)
-        for delta in [0.0, -0.04, 0.04, -0.08, 0.08, -0.12, 0.12, -0.16, 0.16]:
-            candidate = base + delta
-            if candidate < ink_top or candidate > ink_bot:
-                continue
-            if _is_clear_of_used(candidate) and _is_clear_of_blocks(candidate):
-                return candidate
+    # Also cannot be above the stamp itself (edge case: stamp near top)
+    if fb_y_first > stamp_bottom - 4:
         return None
 
-    # Prefer near the bottom of the slice
-    y_frac = _try_candidate((slice_bot - ink_top) / max(0.01, ink_bot - ink_top))
-    if y_frac is not None:
-        return pdf_w * 0.08, pdf_h * (1.0 - y_frac)
-
-    # Prefer blank lines within this question's physical slice bounds, starting from the BOTTOM
-    blank_lines = []
-    for i in range(total_lines):
-        if not lines[i].strip():
-            y_curr = ink_top + ((i + 0.5) / total_lines) * (ink_bot - ink_top)
-            if slice_top <= y_curr <= slice_bot:
-                blank_lines.append(i)
-                
-    for b in reversed(blank_lines):
-        y_frac = _try_candidate((b + 0.5) / total_lines)
-        if y_frac is not None:
-            return pdf_w * 0.08, pdf_h * (1.0 - y_frac)
-
-    # Fallback: scan starting from 90% down the slice, moving upwards
-    for offset in range(0, 90, 5):
-        frac_in_slice = 0.9 - offset / 100.0
-        target_y = slice_top + frac_in_slice * (slice_bot - slice_top)
-        raw_frac = (target_y - ink_top) / max(0.01, ink_bot - ink_top)
-        y_frac = _try_candidate(raw_frac)
-        if y_frac is not None:
-            return pdf_w * 0.08, pdf_h * (1.0 - y_frac)
-
-    return None   # give up — completely packed page
+    fb_x = max(20.0, pdf_w * 0.04)   # small left margin
+    return fb_x, fb_y_first
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
@@ -2132,6 +2101,10 @@ def generate_checked_copy(
         "grand_total":  None,
         "questions":    {},             # manifest_key → annotation record
     }
+
+    # Deferred feedbacks: when stamp is too low for feedback to fit on the same
+    # page, we queue it here keyed by manifest_key and place it on the NEXT page.
+    _deferred_feedbacks: dict = {}   # mkey → {"text": str, "font_size": int, "scale": float}
 
     # Flat grading lookup: (section, q_id) → entry
     # Also indexes FT sub-part keys: (section, "Q1a") → sub-part grade entry
@@ -2510,140 +2483,82 @@ def generate_checked_copy(
             continue
 
 
-        # Compute ink bounds from image analysis
-        if text_blocks:
+        # ── Extract precise text bounding boxes using PaddleOCR ──────────────
+        pix_page = fitz_page.get_pixmap(dpi=150)
+        img_np = np.frombuffer(pix_page.samples, dtype=np.uint8).reshape(pix_page.height, pix_page.width, pix_page.n)
+        if pix_page.n == 4:
+            img_bgr = cv2.cvtColor(img_np, cv2.COLOR_RGBA2BGR)
+        else:
+            img_bgr = cv2.cvtColor(img_np, cv2.COLOR_RGB2BGR)
+        paddle_lines = _extract_page_boxes_paddle(img_bgr)
+
+        # Compute ink bounds from PaddleOCR bounding boxes (or fallback to image analysis)
+        if paddle_lines:
+            ink_top = max(0.04, min(l["ymin"] for l in paddle_lines))
+            ink_bot = min(0.96, max(l["ymax"] for l in paddle_lines))
+            print(f"    [PaddleOCR] Extracted {len(paddle_lines)} text boxes: ink_top={ink_top:.3f}, ink_bot={ink_bot:.3f}", flush=True)
+        elif text_blocks:
             ink_top = max(0.04, min(b[0] - b[1]/2 for b in text_blocks))
             ink_bot = min(0.96, max(b[0] + b[1]/2 for b in text_blocks))
-            print(f"    [DEBUG] PyMuPDF raw bounds: ink_top={ink_top:.3f}, ink_bot={ink_bot:.3f}")
+            print(f"    [DEBUG] PyMuPDF raw bounds: ink_top={ink_top:.3f}, ink_bot={ink_bot:.3f}", flush=True)
         else:
             ink_top, ink_bot = 0.04, 0.96
 
-        # ── Authoritative ink_bot: scan the CENTRAL strip from bottom upward ──────
-        # _compute_ink_bot_strict() only looks at the central 80 % of page width,
-        # so scanner borders, spine shadows, and corner artifacts are completely
-        # ignored. It finds the true last handwritten row on the page.
+        # ── Authoritative ink_bot scan ──────────────────────────────────────────
         strict_ink_bot = _compute_ink_bot_strict(gray, img_w, img_h)
-        # Use the tighter of image-block analysis and the central-strip scan,
-        # but only if strict_ink_bot didn't catastrophically fail (e.g., due to faint ink)
-        if strict_ink_bot > 0.40 or strict_ink_bot > ink_bot - 0.20:
-            ink_bot = min(ink_bot, strict_ink_bot)
-        print(f"    [DEBUG] Final ink_bot (after strict): ink_top={ink_top:.3f}, ink_bot={ink_bot:.3f}, strict={strict_ink_bot:.3f}")
-
-        # ── Extra guard for continuation pages with small content ───────────────
-        # If this page only has continuation items (no is_first) AND the content
-        # is short (few OCR lines), printed page numbers at the bottom of the
-        # scan sheet mislead _compute_ink_bot_strict into returning ~0.90+.
-        # Re-scan the UPPER HALF of the page only so page numbers are excluded.
-        page_is_continuation = items and not any(it["is_first"] for it in items)
-        if page_is_continuation and gray:
-            _upper_bot_px = int(img_h * 0.55)   # only look at top 55 %
-            _pixel_ink_bot_row = _find_ink_bottom_in_zone(
-                gray, img_h, int(img_h * 0.04), _upper_bot_px
-            )
-            _pixel_ink_bot_frac = _pixel_ink_bot_row / img_h - 0.02  # negative: strictly inside
-            if _pixel_ink_bot_frac < ink_bot:   # only tighten, never widen
-                print(
-                    f"    [ink-cap] continuation page {page_num}: "
-                    f"ink_bot {ink_bot:.2f} → {_pixel_ink_bot_frac:.2f} "
-                    f"(upper-half pixel scan)",
-                    flush=True,
-                )
-                ink_bot = _pixel_ink_bot_frac
+        if strict_ink_bot > ink_bot and not paddle_lines:
+            ink_bot = strict_ink_bot
+        print(f"    [DEBUG] Final ink bounds: ink_top={ink_top:.3f}, ink_bot={ink_bot:.3f}", flush=True)
 
         # Ensure ink_bot is always at least 0.10 below ink_top
         ink_bot = max(ink_bot, ink_top + 0.10)
 
-        # ── Page-scale factor was moved above grand-total stamp ────────────────
-        # (REF_H and page_scale are already defined above)
-
         # ── Pre-compute headings for all is_first items on this page ────────────────
-        # Used by the multi-question stamp slicer below to find each question's
-        # ACTUAL vertical position rather than splitting the page equally.
         pre_heading_fracs: dict = {}   # q_num → image-space fraction (0=top, 1=bottom)
         _page_ocr_for_headings = _load_ocr_page_text(ocr_text_path, page_num) if ocr_text_path else ""
         for _it in items:
-            if _it["is_first"]:
-                _hy = _find_heading_y(
-                    fitz_page, gray, img_w, img_h, pdf_h,
-                    _it["q_num"], ocr_text_path
-                )
-                if _hy is not None:
-                    pre_heading_fracs[_it["q_num"]] = 1.0 - _hy / pdf_h  # → image frac
+            if not _it.get("is_first"):
+                continue  # continuation questions start at top of page, no heading needed
+            _hy = _find_heading_y(
+                fitz_page, gray, img_w, img_h, pdf_h,
+                _it["q_num"], ocr_text_path, paddle_lines=paddle_lines
+            )
+            if _hy is not None:
+                pre_heading_fracs[_it["q_num"]] = 1.0 - _hy / pdf_h  # → image frac
+                print(f"    [heading] Found Q{_it['q_num']} heading at y_frac={pre_heading_fracs[_it['q_num']]:.3f}", flush=True)
 
-        # ── Populate missing heading fracs from OCR line position ──────────────
-        # PyMuPDF can't search handwritten text, so pre_heading_fracs is often
-        # empty for hand-written sub-part questions. Use the OCR-derived line
-        # position as the primary fallback.
-        if _page_ocr_for_headings:
-            _total_ocr_ln = max(1, len(_page_ocr_for_headings.split('\n')))
-            # Also build a schema-order index so un-found questions get a
-            # predictable relative order (avoids arbitrary 0.5 default ties).
-            _first_items = [it for it in items if it["is_first"]]
-            for _schema_idx, _it in enumerate(_first_items):
-                _qn = _it["q_num"]
-                if _it["is_first"] and _qn not in pre_heading_fracs:
-                    _qs, _ = _find_question_line_bounds(_page_ocr_for_headings, _qn)
-                    if _qs >= 0:   # -1 means fallback / not found
-                        pre_heading_fracs[_qn] = (
-                            ink_top + (_qs / _total_ocr_ln) * (ink_bot - ink_top)
-                        )
-                    else:
-                        # Un-found via OCR: we must assign a fallback so they don't all pile up at 0.0
-                        if len(_first_items) == 1:
-                            pre_heading_fracs[_qn] = ink_top + 0.1
-                        else:
-                            # Evenly distribute based on their relative index in the first items list
-                            spacing = (ink_bot - ink_top) / (len(_first_items) + 1)
-                            pre_heading_fracs[_qn] = ink_top + spacing * (_schema_idx + 1)
+        # Also search paddle_lines for un-attempted phantom questions that appear on this page
+        _items_base = {re.search(r'\d+', it['q_num']).group(0) for it in items if re.search(r'\d+', it['q_num'])}
+        if paddle_lines:
+            for l in paddle_lines:
+                for _sec, _sec_data in graded_answers.items():
+                    if isinstance(_sec_data, dict):
+                        for _qid in _sec_data:
+                            _clean_q = _qid.replace("Q", "").strip()
+                            m_base = re.search(r'\d+', _clean_q)
+                            if m_base and m_base.group(0) in _items_base:
+                                continue
+                            if _clean_q not in pre_heading_fracs and _match_q_heading_text(l["text"], _clean_q):
+                                pre_heading_fracs[_clean_q] = l["ymin"]
+                                print(f"    [heading] Found phantom Q{_clean_q} heading at y_frac={l['ymin']:.3f}: \"{l['text']}\"", flush=True)
 
         # Track chosen Y coordinates (as fractions) globally per page
-        # so if P14 has BOTH Q7 and Q8, their marks don't overlap side-by-side!
-        # Tracks pixel rows (image space) already claimed by stamps on this page
-        # Tracks pixel rows (image space) already claimed by stamps on this page
-        # ── Annotations Phase ──
         page_used_y_fracs = []
         page_drawn_rects_y = []  # List of (y_bottom, y_top) in PDF coords
         _page_mcq_top = False   # True when page 1 has MCQ answers in upper half
         page_annotations_count = 0
 
         # ── Pre-reserve the grand-total stamp zone on page 1 ──────────────
-        # The grand total stamp is drawn at the top-right of page 1 before
-        # the per-question loop runs. Pre-populate page_used_y_fracs with its
-        # Y so that Q1a's feedback search skips that vertical band.
         if page_num == 1 and grand_total > 0 and _gt_y_frac_page1 is not None:
-            # Create a solid wall of exclusion points to prevent any ticks
-            # from slipping through the min_sep collision check.
             for i in range(-12, 13):
                 page_used_y_fracs.append(max(0.0, min(1.0, _gt_y_frac_page1 + i * 0.01)))
             if _gt_bounds_page1:
                 page_drawn_rects_y.append(_gt_bounds_page1)
-            # Also block pixel rows so the stamp/feedback scanner avoids this zone
             _gt_px = int(_gt_y_frac_page1 * img_h)
             for _pr in range(max(0, _gt_px - 60), min(img_h, _gt_px + 61)):
                 page_excluded_px_rows.add(_pr)
 
-        # ── Filter out ghost items from `items` ────────────────────────────────
-        # If there are multiple `is_first` items assigned to this page, but some
-        # were not found by OCR/PyMuPDF (and thus not in pre_heading_fracs),
-        # they are likely ghosts (mis-assigned by the alignment model).
-        # We must drop them so we don't stamp them on this page, AND we must
-        # pass their `is_first` and `fb_text` baton to the NEXT page they appear on.
-        _firsts_in_items = [it for it in items if it["is_first"]]
-        if len(_firsts_in_items) > 1:
-            _actual_firsts_qnums = {it["q_num"] for it in _firsts_in_items if it["q_num"] in pre_heading_fracs}
-            if _actual_firsts_qnums:
-                ghost_items = [it for it in _firsts_in_items if it["q_num"] not in _actual_firsts_qnums]
-                if ghost_items:
-                    items = [it for it in items if it not in ghost_items]
-                    for ghost in ghost_items:
-                        next_idx = ghost["page_idx_in_q"] + 1
-                        _q = ghost["q_num"]
-                        for _p_num, _p_items in drawing_plan.items():
-                            if _p_num > page_num:
-                                for _p_it in _p_items:
-                                    if _p_it["q_num"] == _q and _p_it["page_idx_in_q"] == next_idx:
-                                        _p_it["is_first"] = True
-                                        _p_it["fb_text"] = ghost["fb_text"]
+
 
         for item in items:
             q_num          = item["q_num"]
@@ -2672,186 +2587,58 @@ def generate_checked_copy(
             # ── Load OCR and practical flag early ──────────────────────────────
             is_practical  = "practical" in grade_entry.get("grading_method", "").lower()
             ocr_page_text = _load_ocr_page_text(ocr_text_path, page_num) if ocr_text_path else ""
-
-            # Phantom items (unanswered questions) still participate in slice
-            # layout (so their heading reserves vertical space on shared pages)
-            # but no stamp, ticks, or feedback is drawn for them.
             _is_phantom = item.get("_phantom", False)
-
-            # Slice boundaries for this question's stamp/feedback zone.
-            # Defaults to the full page ink range; overridden in the is_first block.
-            _item_slice_top = ink_top
-            _item_slice_bot = ink_bot
 
             # ── Marks stamp on first page of each answer ───────────────────────
             heading_y = None
             heading_y_frac = None
             if is_first:
                 heading_y = _find_heading_y(
-                    fitz_page, gray, img_w, img_h, pdf_h, q_num, ocr_text_path
+                    fitz_page, gray, img_w, img_h, pdf_h, q_num, ocr_text_path, paddle_lines=paddle_lines
                 )
                 if heading_y:
                     heading_y_frac = 1.0 - heading_y / pdf_h
 
-            # ── Pre-compute per-question vertical slices when page is shared ─
-            # Count how many 'is_first' questions are on this page and what
-            # their order is, so each gets a distinct, non-overlapping slice.
-            # CRITICAL: sort by physical Y position (heading fraction, top→bottom)
-            # not by JSON schema order — questions can appear on a page in any
-            # physical order (e.g. Q3b printed below Q4b on the same page).
-            #
-            # ALSO CRITICAL: include ALL questions that have a physical heading
-            # on this page, even if they have no student answer (e.g. Q3a with
-            # just "Ans. 3(a)" written). Excluding them shrinks the slice count
-            # and makes the remaining questions' slices start too high, causing
-            # stamps to land in the blank question's visual area.
-            # CRITICAL FIX: Include ALL items on this page (even continuations).
-            # Continuations won't have a heading in pre_heading_fracs, so they default to 0.0 (top).
-            print(f'\n[DEBUG] pre_heading_fracs: {pre_heading_fracs}')
-            print(f"\\n[DEBUG] pre_heading_fracs: {pre_heading_fracs}", flush=True)
+            # ── Pre-compute per-question vertical slices ───────────────────────
             page_q_items = list(items)
             _items_qnums = {it["q_num"] for it in page_q_items}
+            _items_base_set = {re.search(r'\d+', it['q_num']).group(0) for it in page_q_items if re.search(r'\d+', it['q_num'])}
             _phantom_slots = [
                 {"q_num": qn, "is_first": True, "_phantom": True}
                 for qn in pre_heading_fracs
-                if qn not in _items_qnums
+                if qn not in _items_qnums and (not re.search(r'\d+', qn) or re.search(r'\d+', qn).group(0) not in _items_base_set)
             ]
             page_q_items = page_q_items + _phantom_slots
-            if len(page_q_items) > 1:
-                actual_items = [it for it in page_q_items if it["q_num"] in pre_heading_fracs or not it.get("_phantom")]
-                if actual_items:
-                    page_q_items = actual_items
-                    
+
             if len(page_q_items) > 1:
                 page_q_items = sorted(
                     page_q_items,
-                    key=lambda it: pre_heading_fracs.get(it["q_num"], 0.0 if not it.get("is_first") else 0.5)
+                    key=lambda it: 0.0 if not it.get("is_first") else pre_heading_fracs.get(it["q_num"], 0.5)
                 )
-                _sorted_q_names = [it['q_num'] for it in page_q_items]
-                print(f"    [multi-Q] Sorted page order: {_sorted_q_names} (by heading Y)", flush=True)
-
-                # ── Heading-proximity conflict guard ──────────────────────────────
-                # If any two is_first questions have detected headings within 8%
-                # of each other, the heading detection is unreliable (e.g., the
-                # student reused the same physical page for two questions).
-                # In this case, discard all heading fracs and fall back to equal-spacing.
-                _first_items_sorted = [it for it in page_q_items if it.get("is_first") and it["q_num"] in pre_heading_fracs]
-                _has_heading_conflict = False
-                for _ci in range(len(_first_items_sorted)):
-                    for _cj in range(_ci + 1, len(_first_items_sorted)):
-                        _fy_i = pre_heading_fracs.get(_first_items_sorted[_ci]["q_num"], None)
-                        _fy_j = pre_heading_fracs.get(_first_items_sorted[_cj]["q_num"], None)
-                        if _fy_i is not None and _fy_j is not None and abs(_fy_i - _fy_j) < 0.08:
-                            _has_heading_conflict = True
-                            print(
-                                f"    [heading-conflict] Q{_first_items_sorted[_ci]['q_num']} and Q{_first_items_sorted[_cj]['q_num']} "
-                                f"headings within 8% ({_fy_i:.3f} vs {_fy_j:.3f}). Falling back to equal-spacing.",
-                                flush=True
-                            )
-                if _has_heading_conflict:
-                    # Discard conflicting heading fracs — equal spacing will apply below
-                    for _it in _first_items_sorted:
-                        pre_heading_fracs.pop(_it["q_num"], None)
 
             n_items = len(page_q_items)
             my_order = next((idx for idx, it in enumerate(page_q_items) if it["q_num"] == q_num), 0)
-            multi_q_target_y_frac = None
-            if ocr_page_text and n_items == 1:
-                # Only one question on this page: use OCR bounds normally
-                start_ln, end_ln = _find_question_line_bounds(ocr_page_text, q_num)
-                total_ln = max(1, len(ocr_page_text.split('\n')))
-                q_top_frac = ink_top + (start_ln / total_ln) * (ink_bot - ink_top)
-                q_bot_frac = ink_top + (end_ln   / total_ln) * (ink_bot - ink_top)
-                # Clamp to actual ink region — never let stamps/feedback drift
-                # below the last handwritten line on this page
-                q_top_frac = min(q_top_frac, ink_bot)
-                q_bot_frac = min(q_bot_frac, ink_bot)
-                # Guarantee a sensible minimum height for the search zone
-                if q_bot_frac - q_top_frac < 0.12:
-                    q_top_frac = max(ink_top, q_top_frac - 0.06)
-                    q_bot_frac = min(ink_bot, q_bot_frac + 0.06)
 
-                # ── Page 1 MCQ guard ──────────────────────────────────────────
-                # Page 1 of FT papers has MCQ answers at the top and one
-                # descriptive answer beginning partway down.  Clamp the stamp
-                # and feedback search zone to the bottom 45 % of the page so
-                # neither element overlaps the MCQ section.
-                ocr_top_lines = ocr_page_text.split('\n')[:10]
-                page_has_mcq_top = any(
-                    'mcq' in ln.lower() or
-                    ('.' in ln and len(ln.strip()) <= 8 and ln.strip()[-1].isalpha())
-                    for ln in ocr_top_lines
-                )
-                if page_has_mcq_top:
-                    _page_mcq_top = True
-                    q_top_frac = max(q_top_frac, 0.75)
-                    q_bot_frac = max(q_bot_frac, q_top_frac + 0.15)
-                    print(f"    [MCQ-guard] Clamped stamp/feedback zone to [{q_top_frac:.2f}, {q_bot_frac:.2f}] (MCQ at top of page)", flush=True)
-            elif n_items > 1:
-                # ── Multiple questions on same page: slicing by heading position ────────
+            if n_items == 1:
                 q_top_frac = ink_top
-                if my_order > 0:
-                    q_top_frac = max(ink_top, pre_heading_fracs.get(q_num, ink_top) - 0.05)
                 q_bot_frac = ink_bot
+            else:
+                # Multi-question slicing
+                if my_order == 0:
+                    q_top_frac = ink_top
+                else:
+                    q_top_frac = pre_heading_fracs.get(q_num, ink_top)
+
                 if my_order < n_items - 1:
                     next_q = page_q_items[my_order + 1]["q_num"]
-                    q_bot_frac = min(ink_bot, pre_heading_fracs.get(next_q, ink_bot) + 0.02)
-                q_bot_frac = max(q_bot_frac, q_top_frac + 0.1)
-                
-                # Marks stamp target: prefer placing just below the detected heading.
-                # Equal-spacing targets are a fallback when heading is unknown.
-                firsts_on_page = [it for it in page_q_items if it.get("is_first") and not it.get("_phantom")]
-                n_firsts = len(firsts_on_page)
-                if n_firsts >= 2 and is_first:
-                    if heading_y_frac is not None:
-                        # ── Heading-relative target: place stamp just below where the
-                        # student wrote the question label ─────────────────────────────
-                        _below_heading = heading_y_frac + 0.07   # 7% below heading in image space
-                        # Clamp to slice bounds, but ALWAYS stay at least 2% below
-                        # the heading — never let the clamp push the target above it.
-                        _min_target = heading_y_frac + 0.02
-                        _max_target = max(q_bot_frac - 0.05, _min_target + 0.01)
-                        multi_q_target_y_frac = max(_min_target, min(_below_heading, _max_target))
-                        print(f"    [heading-offset] Q{q_num}: heading={heading_y_frac:.3f} → stamp target={multi_q_target_y_frac:.3f}", flush=True)
-                    else:
-                        # ── Fallback: evenly-spaced targets when heading not detected ─
-                        if n_firsts == 2:
-                            _stamp_targets = [0.16, 0.88]
-                        elif n_firsts == 3:
-                            _stamp_targets = [0.13, 0.50, 0.87]
-                        else:
-                            _stamp_targets = [round(0.10 + i * (0.80 / (n_firsts - 1)), 2) for i in range(n_firsts)]
-                        try:
-                            _my_first_order = next(i for i, it in enumerate(firsts_on_page) if it["q_num"] == q_num)
-                            multi_q_target_y_frac = _stamp_targets[_my_first_order]
-                            print(f"    [multi-Q stamps] Q{q_num} order {_my_first_order+1}/{n_firsts} → target y_frac={multi_q_target_y_frac}", flush=True)
-                        except StopIteration:
-                            multi_q_target_y_frac = q_top_frac + 0.05
+                    q_bot_frac = pre_heading_fracs.get(next_q, ink_bot)
                 else:
-                    if is_first and my_order > 0:
-                        if heading_y_frac is not None:
-                            _min_target = max(0.55, heading_y_frac + 0.05)
-                        else:
-                            _min_target = max(0.55, q_top_frac + 0.05)
-                        multi_q_target_y_frac = min(0.88, _min_target)
-                    else:
-                        multi_q_target_y_frac = q_top_frac + 0.05
+                    q_bot_frac = ink_bot
 
-                # Absolute slice safety clamp: multi_q_target_y_frac MUST ALWAYS stay inside this question's slice
-                _min_target_clamp = max(q_top_frac + 0.03, (heading_y_frac + 0.03) if heading_y_frac is not None else 0.0)
-                _max_target_clamp = max(_min_target_clamp + 0.01, q_bot_frac - 0.05)
-                multi_q_target_y_frac = max(_min_target_clamp, min(multi_q_target_y_frac, _max_target_clamp))
-            else:
-                q_top_frac, q_bot_frac = ink_top, ink_bot
-
-            # Force q_top_frac down if we know the physical heading is lower
-            if heading_y_frac and heading_y_frac > q_top_frac:
-                q_top_frac = max(q_top_frac, heading_y_frac - 0.05)
-
-            # Save slice boundaries for the feedback search below
+            q_bot_frac = max(q_bot_frac, q_top_frac + 0.08)
             _item_slice_top = q_top_frac
             _item_slice_bot = q_bot_frac
-            print(f'[DEBUG SLICE] page={page_num}, q={q_num}, order={my_order}, next={next_q if my_order < n_items - 1 else None}, q_bot={q_bot_frac}', flush=True)
+            print(f"    [slice] Q{q_num} order {my_order+1}/{n_items}: [{q_top_frac:.3f}..{q_bot_frac:.3f}] (heading={heading_y_frac})", flush=True)
 
             # Phantoms only needed the slice computation above.
             # Skip all stamp/annotation/feedback drawing.
@@ -2875,87 +2662,31 @@ def generate_checked_copy(
                         _pending_stamp = None
                     print(f"  ✓ P{page_num:>2} Q{q_num:<3} MCQ (Full Paper)", flush=True)
                 else:
-                    # ── Marks stamp placement: LEFT MARGIN is the primary target ──
-                    # Strategy:
-                    #   1. Scan the left margin (2–14% width) for the clearest
-                    #      vertical band within the question's vertical extent.
-                    #   2. If no left-margin gap, search anywhere on the page for
-                    #      the largest white rectangle (avoids student text).
-                    #   3. Last resort: _find_clear_xy near the heading.
+                    _STAMP_FONT   = int(28 * page_scale)
+                    _STAMP_HALF_H = _STAMP_FONT * 2 + int(4 * page_scale) * 2 + _STAMP_FONT * 0.20 + 10
 
-
-                    # Convert to pixel rows; search within the question vertical extent.
-                    # If the heading was detected, shift the search zone to START just
-                    # below it so the stamp always lands under the question label.
-                    _HEADING_BELOW_OFFSET = 0.03   # 3% of page height below heading
-                    if heading_y_frac is not None:
-                        _below_heading_row = int((heading_y_frac + _HEADING_BELOW_OFFSET) * img_h)
-                        stamp_row_top = max(0, min(_below_heading_row, int(q_bot_frac * img_h) - 20))
-                    else:
-                        stamp_row_top = max(0, int(q_top_frac * img_h))
+                    # Convert to pixel rows; search within the question vertical extent
+                    stamp_row_top = max(0, int(q_top_frac * img_h))
                     stamp_row_bot = min(img_h, int(q_bot_frac * img_h))
                     stamp_row_bot = max(stamp_row_bot, stamp_row_top + 20)
 
-
-                    if multi_q_target_y_frac is not None:
-                        # Multi-question page: force position to top/bottom target
-                        marks_x, marks_y_placed = _find_clear_xy(
-                            gray, img_w, img_h, pdf_w, pdf_h,
-                            multi_q_target_y_frac,
-                            is_practical=False, min_clear_cols=30,
-                            excluded_px_rows=page_excluded_px_rows,
-                            max_search_delta=0.45,
-                            min_y_frac=q_top_frac,
-                            max_y_frac=q_bot_frac,
-                        )
+                    # Scan left margin for clean spot in question's slice
+                    margin_spot = _find_left_margin_stamp_spot(
+                        gray, img_w, img_h, pdf_w, pdf_h,
+                        stamp_row_top, stamp_row_bot,
+                        excluded_px_rows=page_excluded_px_rows,
+                    )
+                    if margin_spot:
+                        marks_x, marks_y_placed = margin_spot
                         rh_st = 60
-                        print(f"    [multi-Q] stamp forced at y={marks_y_placed:.0f}", flush=True)
+                        print(f"    ← left-margin stamp at x={marks_x:.0f}, y={marks_y_placed:.0f}", flush=True)
                     else:
-                        # ── Step 1: dedicated left-margin scanner ─────────────────────
-                        margin_spot = _find_left_margin_stamp_spot(
-                            gray, img_w, img_h, pdf_w, pdf_h,
-                            stamp_row_top, stamp_row_bot,
-                            excluded_px_rows=page_excluded_px_rows,
-                        )
-        
-                        if margin_spot:
-                            marks_x, marks_y_placed = margin_spot
-                            rh_st = 60   # margin strip height estimate for exclusion zone
-                            print(f"    ← left-margin stamp at x={marks_x:.0f}, y={marks_y_placed:.0f}", flush=True)
-                        else:
-                        # ── Step 2: widest white rect in the question's zone ──────────
-                            rect_result = _find_largest_white_rect(
-                                gray, img_w, img_h, pdf_w, pdf_h,
-                                stamp_row_top, stamp_row_bot,
-                                min_w_px=40, min_h_px=8,
-                                excluded_px_rows=page_excluded_px_rows,
-                            )
-                            if rect_result:
-                                marks_x, marks_y_placed = rect_result[0], rect_result[1]
-                                _, _, rw_st, rh_st = rect_result
-                            else:
-                                # ── Step 3: clear-xy fallback ──────────────────────────────
-                                if heading_y:
-                                    fallback_target = 1.0 - heading_y / pdf_h
-                                elif 'q_top_frac' in locals():
-                                    fallback_target = min(q_top_frac + 0.1, 0.9)
-                                else:
-                                    fallback_target = 0.1
-                                _max_delta = 0.45
-                                marks_x, marks_y_placed = _find_clear_xy(
-                                    gray, img_w, img_h, pdf_w, pdf_h,
-                                    fallback_target,
-                                    is_practical=False, min_clear_cols=30,
-                                    excluded_px_rows=page_excluded_px_rows,
-                                    max_search_delta=_max_delta,
-                                    min_y_frac=q_top_frac,
-                                    max_y_frac=q_bot_frac,
-                                )
-                                rh_st = 60
-
-
-                    _STAMP_FONT   = int(28 * page_scale)
-                    _STAMP_HALF_H = _STAMP_FONT * 2 + int(4 * page_scale) * 2 + _STAMP_FONT * 0.20 + 10
+                        # Direct zone-top placement in left margin
+                        _target_stamp_frac = q_top_frac + 0.04
+                        marks_y_placed = pdf_h * (1.0 - _target_stamp_frac) - _STAMP_HALF_H
+                        marks_x = max(24.0, pdf_w * 0.04)
+                        rh_st = 60
+                        print(f"    ← direct zone-top stamp at x={marks_x:.0f}, y={marks_y_placed:.0f}", flush=True)
                     
                     # Clamp stamp Y position so it avoids top 12% margin and bottom 5%
                     marks_y_placed = min(max(marks_y_placed, pdf_h * 0.05 + _STAMP_HALF_H), pdf_h * 0.88 - _STAMP_HALF_H)
@@ -2988,110 +2719,157 @@ def generate_checked_copy(
                 print(f"  → P{page_num:>2} Q{q_num:<3} continuation", flush=True)
 
 
-            # ── Plan tick/cross annotations from OCR line positions ───────────
+            # ── Plan tick/cross annotations (new deterministic tier-based logic) ───
+            # n_questions_on_page = number of non-phantom first-questions on this page
+            # (only is_first items count — continuation items don't add stamps/ticks)
+            n_questions_on_page = len([it for it in items if it.get("is_first") and not it.get("_phantom")])
 
-            # Heading Y as a fraction (so annotations skip over the stamp area)
-            heading_y_frac = (1.0 - heading_y / pdf_h) if heading_y else None
-
-            annotations = _plan_annotations_from_ocr(
-                ocr_page_text   = ocr_page_text,
-                q_num           = q_num,
-                pdf_w           = pdf_w,
-                pdf_h           = pdf_h,
-                marks_obtained  = marks_obtained,
-                marks_total     = item["marks_total"],
-                page_idx_in_q   = item["page_idx_in_q"],
-                total_pages     = item["total_pages"],
-                page_used_y_fracs = page_used_y_fracs,
-                # Pass global ink bounds so OCR line mapping is accurate
-                ink_top         = ink_top,
-                ink_bot         = ink_bot,
-                # Pass slice bounds to constrain the annotations
-                slice_top       = _item_slice_top,
-                slice_bot       = _item_slice_bot,
-                is_practical    = is_practical,
-                is_first        = is_first,
-                heading_y_frac  = heading_y_frac,
-                gray            = gray,
-                img_w           = img_w,
-                img_h           = img_h,
-                page_excluded_px_rows = page_excluded_px_rows,
-                text_blocks     = text_blocks,
-                current_page_ann_count = page_annotations_count,
-                wrong_lines     = item.get("wrong_lines", []),
-                correct_lines   = item.get("correct_lines", []),
-            )
+            # Only plan annotations on the FIRST page of a question (where the stamp appears).
+            # Continuation pages have no stamp and should not accumulate extra ticks/crosses.
+            if _is_phantom:
+                annotations = []
+            else:
+                annotations = _plan_annotations_new(
+                    marks_obtained        = marks_obtained,
+                    marks_total           = item["marks_total"],
+                    page_idx_in_q         = item["page_idx_in_q"],
+                    total_pages           = item["total_pages"],
+                    n_questions_on_page   = n_questions_on_page,
+                    gray                  = gray,
+                    img_w                 = img_w,
+                    img_h                 = img_h,
+                    pdf_w                 = pdf_w,
+                    pdf_h                 = pdf_h,
+                    slice_top             = _item_slice_top,
+                    slice_bot             = _item_slice_bot,
+                    page_used_y_fracs     = page_used_y_fracs,
+                    page_excluded_px_rows = page_excluded_px_rows,
+                    is_practical          = is_practical,
+                    ink_top               = ink_top,
+                    ink_bot               = ink_bot,
+                    heading_y_frac        = (1.0 - heading_y / pdf_h) if heading_y else None,
+                )
             page_annotations_count += len(annotations)
 
-            # ── Find feedback spot within this question's OCR bounds ───────────
-            fb_x, fb_y = None, None
-            if fb_text and ocr_page_text:
-                # On multi-Q pages, constrain feedback to the question's own slice
-                # so it never drifts into a neighbour's zone.
-                spot = _find_feedback_spot_in_q_bounds(
-                    ocr_page_text, q_num, pdf_h, pdf_w, page_used_y_fracs,
-                    text_blocks = text_blocks,
-                    ink_top     = ink_top,
-                    ink_bot     = ink_bot,
-                    slice_top   = _item_slice_top,
-                    slice_bot   = _item_slice_bot,
+            # ── Feedback placement: directly below the marks stamp ──────────────
+            # Feedback is placed right below the stamp with a 1 cm gap.
+            # This is computed AFTER the stamp position is finalised.
+            # We store (fb_x_final, fb_y_final) for drawing later.
+            fb_x_final, fb_y_final = None, None
+            placed = False
+
+            # ── Place any deferred feedback from the PREVIOUS page ──────────
+            # If the stamp on the prior page was too low for feedback to fit,
+            # the feedback was queued in _deferred_feedbacks; place it now at
+            # the TOP of this continuation page (below the top margin).
+            if not is_first and _mkey in _deferred_feedbacks:
+                _df = _deferred_feedbacks.pop(_mkey)
+                _df_font = _df["font_size"]
+                # Place at the top of the page slice, just below the margin
+                _df_y = pdf_h * (1.0 - (_item_slice_top + 0.04))
+                _df_y = max(_df_font * 2, min(_df_y, pdf_h - _df_font * 2))
+                _df_x = max(20.0, pdf_w * 0.04)
+                _manifest["questions"][_mkey]["deferred_feedback"] = {
+                    "text":      _df["text"],
+                    "page":      page_num,
+                    "x":         _df_x,
+                    "y":         _df_y,
+                    "font_size": _df_font,
+                    "scale":     _df["scale"],
+                }
+                print(f"    [deferred-fb] Q{q_num} feedback placed at top of continuation page {page_num} (y={_df_y:.0f})", flush=True)
+
+            # ── Finalise stamp Y ──────────────────────────────────────────────
+            final_stamp_y = _pending_stamp["y"] if _pending_stamp is not None else None
+            if _pending_stamp is not None and final_stamp_y is not None:
+                stamp_half_h = _pending_stamp["half_h_pts"]
+                final_stamp_y = min(
+                    max(final_stamp_y, stamp_half_h + 10),
+                    pdf_h - stamp_half_h - 10,
                 )
-                if spot:
-                    fb_x, fb_y = spot
-                    fb_y_frac = 1.0 - fb_y / pdf_h
-                    page_used_y_fracs.append(fb_y_frac)
-                    # Widen the exclusion band (±0.06) so the next question's
-                    # feedback search is pushed clearly away and can't overlap.
-                    page_used_y_fracs.append(max(ink_top, fb_y_frac - 0.06))
-                    page_used_y_fracs.append(min(ink_bot, fb_y_frac + 0.06))
+                # Store half_h so feedback can reference it after stamp is finalised
+                _manifest["questions"][_mkey]["stamp"] = {
+                    "page":           page_num,
+                    "x":              _pending_stamp["x"],
+                    "y":              final_stamp_y,
+                    "scale":          page_scale,
+                    "marks_obtained": _pending_stamp["marks_obtained"],
+                    "marks_total":    _pending_stamp["marks_total"],
+                    "half_h_pts":     stamp_half_h,
+                }
+                page_drawn_rects_y.append((final_stamp_y - stamp_half_h, final_stamp_y + stamp_half_h))
+                _pending_stamp = None   # consumed
 
-            # ── Compute final stamp Y (DO NOT DRAW YET) ───────────────────────
-            # We must wait until fb_y_final is known before drawing the stamp,
-            # because fb_y_final (the actual drawn feedback Y from white-rect
-            # search) can differ from the earlier fb_y estimate. Drawing the
-            # stamp now and trying to "fix" it later causes double-stamp artifacts
-            # in the PDF overlay (white-rect erasing doesn't work in overlays).
-            final_stamp_y = None
-            if _pending_stamp is not None:
-                final_stamp_y = _pending_stamp["y"]
-                # Preliminary nudge based on the early fb_y estimate.
-                # Use actual range intersection so we only move when there IS overlap.
-                # Skip nudging on multi-Q pages where we explicitly forced stamp to top/bottom.
-                if fb_y is not None and n_items == 1:
-                    FB_FONT_SIZE_PRE = int(14 * page_scale)
-                    half_h_pre = _pending_stamp["half_h_pts"]
-                    s_bot = final_stamp_y - half_h_pre
-                    s_top = final_stamp_y + half_h_pre
-                    f_bot = fb_y
-                    f_top = fb_y + FB_FONT_SIZE_PRE
-                    if min(s_top, f_top) - max(s_bot, f_bot) > 0:  # ranges overlap
-                        # Prefer pushing stamp BELOW feedback (natural: stamp near end-of-answer)
-                        below_y = f_bot - half_h_pre - 8
-                        above_y = f_top + half_h_pre + 8
-                        if below_y >= half_h_pre + 4:
-                            final_stamp_y = below_y
+                # ── Place feedback IMMEDIATELY from the clamped stamp y ────────────
+                if fb_text and not (is_full_paper and section == "SectionA"):
+                    FB_FONT_SIZE_F = int(14 * page_scale)
+                    _fb_spot = _place_feedback_below_stamp(
+                        stamp_y      = final_stamp_y,
+                        stamp_half_h = stamp_half_h,
+                        fb_text      = fb_text,
+                        pdf_w        = pdf_w,
+                        pdf_h        = pdf_h,
+                        font_size    = FB_FONT_SIZE_F,
+                        page_scale   = page_scale,
+                    )
+                    if _fb_spot:
+                        fb_x_final, fb_y_final = _fb_spot
+                        import textwrap as _tw2
+                        _fb_wl = []
+                        for _r in fb_text.split('\n'): _fb_wl.extend(_tw2.wrap(_r, width=55))
+                        _fb_h_pts = len(_fb_wl) * FB_FONT_SIZE_F * 1.5
+
+                        # Check if feedback overflows this question's vertical slice
+                        _slice_bot_y_pdf = pdf_h * (1.0 - _item_slice_bot)
+                        _has_next = (item["page_idx_in_q"] + 1 < item["total_pages"])
+                        if _has_next and (fb_y_final - _fb_h_pts < _slice_bot_y_pdf):
+                            _deferred_feedbacks[_mkey] = {
+                                "text":      fb_text,
+                                "font_size": FB_FONT_SIZE_F,
+                                "scale":     page_scale,
+                            }
+                            print(f"    [feedback] Q{q_num}: overflows slice bounds ({fb_y_final - _fb_h_pts:.0f} < {_slice_bot_y_pdf:.0f}), deferring feedback to next page", flush=True)
                         else:
-                            final_stamp_y = min(above_y, pdf_h * 0.88 - half_h_pre)
+                            placed = True
+                            _manifest["questions"][_mkey]["feedback"] = {
+                                "text":      fb_text,
+                                "page":      page_num,
+                                "x":         fb_x_final,
+                                "y":         fb_y_final,
+                                "font_size": FB_FONT_SIZE_F,
+                                "scale":     page_scale,
+                            }
+                            print(f"    [feedback] Q{q_num} at (x={fb_x_final:.0f}, y={fb_y_final:.0f}) — stamp={final_stamp_y:.0f}", flush=True)
 
-            # ── Draw ticks / crosses ───────────────────────────────────────────
-            # On pages where MCQ answers occupy the top half, skip any tick/cross
-            # whose y_pdf is above the midpoint (PDF y=0 is bottom, so top half
-            # means y_pdf > pdf_h * 0.55).
+                            # Register exclusion rows so other questions' annotations avoid feedback
+                            _fb_cy_px = int((1.0 - fb_y_final / pdf_h) * img_h)
+                            _fb_half = max(30, int((_fb_h_pts / pdf_h) * img_h) // 2 + 15)
+                            for _pr2 in range(_fb_cy_px - _fb_half, _fb_cy_px + _fb_half + 1):
+                                page_excluded_px_rows.add(_pr2)
+                    else:
+                        # Stamp too low — defer to next page if question continues
+                        _has_next = (item["page_idx_in_q"] + 1 < item["total_pages"])
+                        if _has_next:
+                            _deferred_feedbacks[_mkey] = {
+                                "text":      fb_text,
+                                "font_size": int(14 * page_scale),
+                                "scale":     page_scale,
+                            }
+                            print(f"    [feedback] Q{q_num}: stamp too low, deferring feedback to next page", flush=True)
+
+            # ── Record ticks / crosses (drawn in the page-level draw phase) ───
             if not (is_full_paper and section == "SectionA"):
                 for ann in annotations:
                     draw_x = ann["ann_x"] + random.uniform(-2, 2)
                     draw_y = ann["y_pdf"]
                     if _page_mcq_top and draw_y > pdf_h * 0.25:
-                        continue   # skip — this annotation falls outside bottom-25% zone
+                        continue
                     if draw_y > pdf_h - 30:
-                        continue   # skip — within 30 pixels of top margin
+                        continue
                     if ann["action"] == "tick":
                         sz = random.uniform(65, 80) * page_scale
-                        pass # DEFERRED
                     else:
                         sz = random.uniform(55, 70) * page_scale
-                        pass # DEFERRED
-                    # v2: record tick/cross
                     _manifest["questions"][_mkey]["ticks_crosses"].append({
                         "page":   page_num,
                         "x":      draw_x,
@@ -3099,323 +2877,6 @@ def generate_checked_copy(
                         "action": ann["action"],
                         "size":   sz,
                     })
-
-            # ── Draw feedback (largest white rect in question zone) ────────────
-            placed = False   # ensure always defined before the if placed: check
-            if fb_text and not (is_full_paper and section == "SectionA"):
-                FB_FONT_SIZE = int(14 * page_scale)
-                EST_CHAR_W   = FB_FONT_SIZE * 0.60
-                
-                import textwrap
-                fb_wrapped = []
-                for line in fb_text.split('\n'):
-                    fb_wrapped.extend(textwrap.wrap(line, width=50))
-                
-                # Estimate max width based on the longest wrapped line
-                max_chars = max([len(ln) for ln in fb_wrapped] + [1])
-                fb_text_w_pt = max_chars * EST_CHAR_W
-                fb_need_px   = int((fb_text_w_pt / pdf_w) * img_w) + 20
-                fb_num_lines = len(fb_wrapped)
-                fb_need_h_px = int((FB_FONT_SIZE * 1.5 * fb_num_lines / pdf_h) * img_h)
-
-                # Question pixel bounds from OCR
-                # Use largest-white-rect to find a truly ink-free spot for feedback
-                # Search within the question's vertical boundaries
-                if ocr_page_text:
-                    start_ln2, end_ln2 = _find_question_line_bounds(ocr_page_text, q_num)
-                    total_ln2 = max(1, len(ocr_page_text.split('\n')))
-                    raw_top = start_ln2 / total_ln2
-                    raw_bot = end_ln2 / total_ln2
-                    if False:
-                        t_idx_top = min(len(f_blocks)-1, max(0, int(raw_top * len(f_blocks))))
-                        t_idx_bot = min(len(f_blocks)-1, max(0, int(raw_bot * len(f_blocks))))
-                        q_top_frac2 = f_blocks[t_idx_top][0]
-                        q_bot_frac2 = f_blocks[t_idx_bot][0]
-                    else:
-                        q_top_frac2 = ink_top + raw_top * (ink_bot - ink_top)
-                        q_bot_frac2 = ink_top + raw_bot * (ink_bot - ink_top)
-                    
-                    # Clamp to this question's slice boundaries on multi-Q pages.
-                    # Without this, a top-half question expands its search into the next question's zone.
-                    q_top_frac2 = max(q_top_frac2, _item_slice_top)
-                    # Strictly prohibit bleeding into the neighbour's slice to prevent feedback overlap!
-                    if n_items > 1:
-                        q_bot_frac2 = min(q_bot_frac2, _item_slice_bot - 0.01)
-                    else:
-                        q_bot_frac2 = min(q_bot_frac2, 0.98)
-                else:
-                    q_top_frac2, q_bot_frac2 = max(ink_top, _item_slice_top), min(ink_bot, _item_slice_bot)
-
-                fb_row_top = max(0,          int(q_top_frac2 * img_h))
-                fb_row_bot = min(img_h - 1,  int(q_bot_frac2 * img_h))
-
-                fb_row_bot = max(fb_row_bot, fb_row_top + fb_need_h_px + 4)
-                fb_row_bot = min(fb_row_bot, img_h)  # never exceed image height
-
-                rect_result = _find_largest_white_rect(
-                    gray, img_w, img_h, pdf_w, pdf_h,
-                    fb_row_top, fb_row_bot,
-                    min_w_px=fb_need_px, min_h_px=fb_need_h_px,
-                    excluded_px_rows=page_excluded_px_rows,
-                    align_top=True,
-                )
-
-                if rect_result:
-                    fb_x_final, fb_y_final = rect_result[0], rect_result[1]
-                    print(f"    [DEBUG] Q{q_num} feedback placed at rect (x={fb_x_final:.0f}, y={fb_y_final:.0f}), w={rect_result[2]}, h={rect_result[3]}", flush=True)
-                    fb_x_final = min(fb_x_final, pdf_w - fb_text_w_pt - 10)
-                    fb_x_final = max(fb_x_final, pdf_w * 0.04)
-                    fb_y_frac_used = 1.0 - fb_y_final / pdf_h
-                    page_used_y_fracs.append(fb_y_frac_used)
-                    fb_cy_px = int((1.0 - fb_y_final / pdf_h) * img_h)
-                    half_h = max(30, fb_need_h_px // 2 + 15)
-                    for pr2 in range(fb_cy_px - half_h, fb_cy_px + half_h + 1):
-                        page_excluded_px_rows.add(pr2)
-                    placed = True
-                else:
-                    # Fallback: gap-between-blocks
-                    sorted_blocks2 = sorted(text_blocks, key=lambda b: b[0])
-                    prev_bot2, gaps2 = 0.0, []
-                    for blk in sorted_blocks2:
-                        blk_top = blk[0] - blk[1] / 2
-                        if blk_top > prev_bot2 + 0.015:
-                            gaps2.append((prev_bot2, blk_top, (prev_bot2 + blk_top) / 2))
-                        prev_bot2 = blk[0] + blk[1] / 2
-                    if prev_bot2 < 0.96:
-                        gaps2.append((prev_bot2, 0.96, (prev_bot2 + 0.96) / 2))
-
-                    fb_y_frac_raw = (1.0 - fb_y / pdf_h) if fb_y is not None else (q_bot_frac2 if q_bot_frac2 < 0.9 else 0.9)
-                    best_gap2, best_score2 = None, -1e9
-                    for gt, gb, gc in gaps2:
-                        if gb < q_top_frac2 or gt > q_bot_frac2: continue
-                        if any(abs(gc - u) < 0.05 for u in page_used_y_fracs): continue
-                        score = (1.0 if q_top_frac2 <= gc <= q_bot_frac2 else 0.0) * 10 - abs(gc - fb_y_frac_raw)
-                        if score > best_score2:
-                            best_score2, best_gap2 = score, (gt, gb, gc)
-
-                    if best_gap2:
-                        gt, gb, gc = best_gap2
-                        fb_y_final = pdf_h * (1.0 - gc)
-                        fb_x_final = pdf_w * 0.08
-                        fb_x_final = min(fb_x_final, pdf_w - fb_text_w_pt - 10)
-                        fb_x_final = max(fb_x_final, pdf_w * 0.04)
-                        page_used_y_fracs.append(gc)
-                        placed = True
-                        print(f"    [DEBUG] Q{q_num} feedback placed via gap fallback at (x={fb_x_final:.0f}, y={fb_y_final:.0f})", flush=True)
-                    else:
-                        # Absolute fallback: Find ANY clear horizontal line using _find_clear_xy
-                        fallback_y_frac = fb_y_frac_raw if fb_y is not None else (q_bot_frac2 if q_bot_frac2 < 0.9 else 0.9)
-                        fb_x_final, fb_y_final = _find_clear_xy(
-                            gray, img_w, img_h, pdf_w, pdf_h, fallback_y_frac, False,
-                            min_clear_cols=20, required_text_width_px=fb_need_px,
-                            excluded_px_rows=page_excluded_px_rows,
-                            max_search_delta=0.10,
-                            min_y_frac=q_top_frac2,
-                            max_y_frac=q_bot_frac2,
-                        )
-                        fb_x_final = min(fb_x_final, pdf_w - fb_text_w_pt - 10)
-                        fb_x_final = max(fb_x_final, pdf_w * 0.04)
-                        page_used_y_fracs.append(1.0 - fb_y_final / pdf_h)
-                        fb_cy_px = int((1.0 - fb_y_final / pdf_h) * img_h)
-                        half_h = max(30, fb_need_h_px // 2 + 15)
-                        for pr2 in range(fb_cy_px - half_h, fb_cy_px + half_h + 1):
-                            page_excluded_px_rows.add(pr2)
-                        placed = True
-                    print(f"    [DEBUG] Q{q_num} feedback placed via clear-xy fallback at (x={fb_x_final:.0f}, y={fb_y_final:.0f})", flush=True)
-
-            # ── Final overlap check against ALL drawn items on this page ──
-            # First, if feedback was placed for THIS question, add it to rects
-            # so we avoid it just like previous questions' rects.
-            if placed and fb_y_final is not None:
-                FB_FSZ = int(14 * page_scale)
-                page_drawn_rects_y.append((fb_y_final, fb_y_final + FB_FSZ))
-
-            # Nudge stamp if it overlaps with any feedback or stamp from this or earlier questions
-            if _pending_stamp is not None and final_stamp_y is not None:
-                half_h_f = _pending_stamp["half_h_pts"]
-                
-                s_bot_f  = final_stamp_y - half_h_f
-                s_top_f  = final_stamp_y + half_h_f
-
-                for r_bot, r_top in page_drawn_rects_y:
-                    if min(s_top_f, r_top) - max(s_bot_f, r_bot) > 0:
-                        below_y_f = r_bot - half_h_f - 8
-                        above_y_f = r_top + half_h_f + 8
-                        if below_y_f >= half_h_f + 4:
-                            final_stamp_y = below_y_f
-                        else:
-                            final_stamp_y = min(above_y_f, pdf_h * 0.88 - half_h_f)
-                        # Update our own bounds for the next rect check
-                        s_bot_f  = final_stamp_y - half_h_f
-                        s_top_f  = final_stamp_y + half_h_f
-                        print(f"    ↑ Stamp adjusted to y={final_stamp_y:.0f} to clear rect {r_bot:.0f}-{r_top:.0f}", flush=True)
-
-                # ── Right-margin fallback ──────────────────────────────────
-                still_collides = any(
-                    min(s_top_f, r_top) - max(s_bot_f, r_bot) > 0
-                    for r_bot, r_top in page_drawn_rects_y
-                )
-                if still_collides:
-                    _pending_stamp["x"] = pdf_w * 0.88
-                    print(f"    → Stamp moved to right margin (x={pdf_w * 0.88:.0f}) to avoid collision", flush=True)
-
-                # Draw stamp exactly once at its final collision-free position
-                stamp_half_h = _pending_stamp["half_h_pts"]
-                pass # DEFERRED STAMP
-                # v2: record stamp
-                _manifest["questions"][_mkey]["stamp"] = {
-                    "page":  page_num,
-                    "x":     _pending_stamp["x"],
-                    "y":     final_stamp_y,
-                    "scale": page_scale,
-                }
-                _pending_stamp = None   # consumed — prevent double draw below
-                page_drawn_rects_y.append((final_stamp_y - stamp_half_h, final_stamp_y + stamp_half_h))
-
-            # Draw feedback
-            if placed and fb_text:
-                # --- Overlap prevention for feedback ---
-                _all_ann_rects = []
-                for q_key, q_data in _manifest.get("questions", {}).items():
-                    for tc in q_data.get("ticks_crosses", []):
-                        if tc.get("page") == page_num:
-                            sz = tc.get("size", 60)
-                            _all_ann_rects.append((tc["x"] - sz/2, tc["y"] - sz/2, tc["x"] + sz/2, tc["y"] + sz/2))
-                    st = q_data.get("stamp")
-                    if st and st.get("page") == page_num:
-                        sw, sh = 80 * st.get("scale", 1), 60 * st.get("scale", 1)
-                        _all_ann_rects.append((st["x"] - sw/2, st["y"] - sh/2, st["x"] + sw/2, st["y"] + sh/2))
-                    fb = q_data.get("feedback")
-                    if fb and fb.get("page") == page_num:
-                        fb_fsz = fb.get("font_size", 14)
-                        lines = len(fb.get("text", "").split("\\n"))
-                        fh = lines * fb_fsz * 1.5 + 8
-                        fw = 400 * fb.get("scale", 1) # generous width estimate
-                        bg_y = fb["y"] - (lines - 1) * fb_fsz * 1.5 - fb_fsz * 0.3 - 4
-                        _all_ann_rects.append((fb["x"] - 4, bg_y, fb["x"] + fw, bg_y + fh))
-                
-                def _rects_overlap(r1, r2):
-                    return not (r1[2] < r2[0] or r1[0] > r2[2] or r1[3] < r2[1] or r1[1] > r2[3])
-
-                bg_padding_x = 4
-                bg_padding_y = 4
-                bg_h = fb_num_lines * FB_FONT_SIZE * 1.5 + bg_padding_y * 2
-                bg_w = fb_text_w_pt + bg_padding_x * 2
-
-                _found_clear = False
-                _y_offsets = [0, 15, -15, 30, -30, 45, -45, 60, -60, 75, -75, 90, -90, 110, -110, 130, -130]
-                _x_offsets = [0, 20, -20, 50, -50, 80, -80]
-                
-                for _x_off in _x_offsets:
-                    test_x = fb_x_final + _x_off
-                    # Ensure it doesn't go off the left or right edges
-                    if test_x < 15 or (test_x + bg_w) > (pdf_w - 15):
-                        continue
-                    
-                    for _y_off in _y_offsets:
-                        test_y = fb_y_final + _y_off
-                        # Ensure it doesn't go off top or bottom edges
-                        if test_y < 30 or test_y > (pdf_h - 30):
-                            continue
-                            
-                        bg_y = test_y - (fb_num_lines - 1) * FB_FONT_SIZE * 1.5 - FB_FONT_SIZE * 0.3 - bg_padding_y
-                        my_rect = (test_x - bg_padding_x, bg_y, test_x - bg_padding_x + bg_w, bg_y + bg_h)
-                        
-                        if not any(_rects_overlap(my_rect, r) for r in _all_ann_rects):
-                            fb_x_final = test_x
-                            fb_y_final = test_y
-                            _found_clear = True
-                            break
-                    if _found_clear:
-                        break
-                # ---------------------------------------
-
-                # c.saveState()
-                
-                # Draw a white background box to hide noise/scan lines
-                bg_y = fb_y_final - (fb_num_lines - 1) * FB_FONT_SIZE * 1.5 - FB_FONT_SIZE * 0.3 - bg_padding_y
-                
-                # c.setFillColorRGB(1, 1, 1)
-                # c.setStrokeColorRGB(1, 1, 1, 0)
-                # c.rect(fb_x_final - bg_padding_x, bg_y, bg_w, bg_h, fill=1, stroke=0)
-                
-                # c.setFont(font_name, FB_FONT_SIZE)
-                # c.setFillColor(red)
-                # c.setStrokeColor(red)
-                # c.setLineWidth(1.8)
-                
-                # Wrap text here to prevent it from stretching across the page and overlapping right-margin stamps
-                import textwrap
-                wrapped_lines = []
-                for line in fb_text.split('\\n'):
-                    wrapped_lines.extend(textwrap.wrap(line, width=50))
-                
-                _draw_y = fb_y_final
-                for line in wrapped_lines:
-                # c.drawString(fb_x_final, _draw_y, line)
-                    _draw_y -= FB_FONT_SIZE * 1.5
-                    
-                # c.setLineWidth(0)
-                
-                _draw_y = fb_y_final
-                for line in wrapped_lines:
-                # c.drawString(fb_x_final, _draw_y, line)
-                    _draw_y -= FB_FONT_SIZE * 1.5
-
-                # c.restoreState()
-
-                # v2: record feedback
-                _manifest["questions"][_mkey]["feedback"] = {
-                    "text":      fb_text,
-                    "page":      page_num,
-                    "x":         fb_x_final,
-                    "y":         fb_y_final,
-                    "font_size": FB_FONT_SIZE,
-                    "scale":     page_scale,
-                }
-
-            # ── Phase 3: Final Answer OCR Search ──────────────────────────────
-            wrong_final_answer = item.get("wrong_final_answer")
-            if wrong_final_answer and ocr_page_text:
-                print(f"      🔍 Locating wrong final answer via OCR: '{wrong_final_answer}'", flush=True)
-                lines = ocr_page_text.split('\n')
-                total_lines = max(1, len(lines))
-                found_line = -1
-                search_lower = wrong_final_answer.lower().strip()
-                for i, line in enumerate(lines):
-                    if search_lower in line.lower():
-                        found_line = i
-                        break
-                
-                if found_line >= 0:
-                    raw_frac = (found_line + 0.5) / total_lines
-                    if False:
-                        t_idx = min(len(f_blocks)-1, max(0, int(raw_frac * len(f_blocks))))
-                        y_frac = f_blocks[t_idx][0]
-                    else:
-                        y_frac = ink_top + raw_frac * (ink_bot - ink_top)
-                    
-                    # Robust collision avoidance against ticks/crosses/feedback
-                    MIN_SEP = 0.09
-                    y_frac = _get_non_colliding_y(y_frac, page_used_y_fracs, ink_top, ink_bot, MIN_SEP)
-                    
-                    if y_frac is not None:
-                        page_used_y_fracs.append(y_frac)
-                        ann_y_px = int(y_frac * img_h)
-                        for pr in range(ann_y_px - 40, ann_y_px + 41):
-                            page_excluded_px_rows.add(pr)
-                        
-                        cy = pdf_h * (1.0 - y_frac)
-                        cx = _find_clear_x(gray, img_w, img_h, pdf_w, y_frac, is_practical, excluded_px_rows=page_excluded_px_rows)
-                        
-                        print(f"      ✓ OCR found answer. Drawing cross at cx={cx:.1f}, cy={cy:.1f}", flush=True)
-                        pass # DEFERRED
-                        _manifest.setdefault("phase3_crosses", []).append({"page": page_num, "x": cx, "y": cy, "size": random.uniform(55, 85)})
-                    else:
-                        print(f"      ✗ Could not find non-colliding spot for wrong final answer", flush=True)
-                else:
-                    print(f"      ✗ OCR could not locate '{wrong_final_answer}' on page", flush=True)
-
 
         # === GLOBAL COLLISION RESOLUTION FOR THIS PAGE ===
         page_ticks = []
@@ -3429,8 +2890,12 @@ def generate_checked_copy(
                     page_ticks.append((t, "tick" if t["action"] == "tick" else "cross"))
             if qdata.get("stamp") and qdata["stamp"]["page"] == page_num:
                 page_stamps.append((qdata["stamp"], qdata))
+            # Primary feedback
             if qdata.get("feedback") and qdata["feedback"]["page"] == page_num:
                 page_fbs.append((qdata["feedback"], qdata["feedback"]))
+            # Deferred feedback (placed on a continuation page)
+            if qdata.get("deferred_feedback") and qdata["deferred_feedback"]["page"] == page_num:
+                page_fbs.append((qdata["deferred_feedback"], qdata["deferred_feedback"]))
                 
         for t in _manifest.get("phase3_crosses", []):
             if t["page"] == page_num:
@@ -3459,56 +2924,16 @@ def generate_checked_copy(
         def _rects_overlap(r1, r2):
             return not (r1[2] < r2[0] or r1[0] > r2[2] or r1[3] < r2[1] or r1[1] > r2[3])
 
-        movables = [("stamp", s[0]) for s in page_stamps] + [("feedback", f[0]) for f in page_fbs]
-        fixed = [("tick", t[0]) for t in page_ticks] + [("cross", t[0]) for t in page_p3]
-        
-        for _ in range(15):
-            moved_any = False
-            for m_type, m_obj in movables:
-                m_rect = get_rect(m_obj, m_type)
-                
-                all_others = [("tick", t[0]) for t in page_ticks] +                              [("cross", t[0]) for t in page_p3] +                              [("stamp", s[0]) for s in page_stamps if s[0] is not m_obj] +                              [("feedback", f[0]) for f in page_fbs if f[0] is not m_obj]
-                             
-                for o_type, o_obj in all_others:
-                    o_rect = get_rect(o_obj, o_type)
-                    if _rects_overlap(m_rect, o_rect):
-                        dx1 = o_rect[2] - m_rect[0] + 8
-                        dx2 = o_rect[0] - m_rect[2] - 8
-                        dy1 = o_rect[3] - m_rect[1] + 8
-                        dy2 = o_rect[1] - m_rect[3] - 8
-                        
-                        moves = []
-                        if m_type == "stamp":
-                            # Stamps move ONLY left/right
-                            moves = [
-                                (dx1, 0, abs(dx1)),
-                                (dx2, 0, abs(dx2)),
-                            ]
-                        elif m_type == "feedback":
-                            # Feedback moves ONLY up/down
-                            moves = [
-                                (0, dy1, abs(dy1)),
-                                (0, dy2, abs(dy2)),
-                            ]
-                        else:
-                            moves = [
-                                (dx1, 0, abs(dx1)),
-                                (dx2, 0, abs(dx2)),
-                                (0, dy1, abs(dy1)),
-                                (0, dy2, abs(dy2)),
-                            ]
-                        
-                        moves.sort(key=lambda x: x[2])
-                        best_move = moves[0]
-                        m_obj["x"] += best_move[0]
-                        m_obj["y"] += best_move[1]
-                        
-                        m_obj["x"] = max(50, min(pdf_w - 50, m_obj["x"]))
-                        m_obj["y"] = max(50, min(pdf_h - 50, m_obj["y"]))
-                        moved_any = True
-                        break
-            if not moved_any:
-                break
+        # Adjust ticks/crosses if they overlap with stamp or feedback boxes
+        fixed_obstacles = [("stamp", s[0]) for s in page_stamps] + [("feedback", f[0]) for f in page_fbs]
+        for t, act in page_ticks + page_p3:
+            t_rect = get_rect(t, act)
+            for obs_type, obs_obj in fixed_obstacles:
+                obs_rect = get_rect(obs_obj, obs_type)
+                if _rects_overlap(t_rect, obs_rect):
+                    t["x"] = max(t["x"], obs_rect[2] + t["size"] / 2 + 15)
+                    t["x"] = min(pdf_w - 40, t["x"])
+                    t_rect = get_rect(t, act)
                 
         # === DRAW PHASE ===
         for t, act in page_ticks:
@@ -3525,8 +2950,8 @@ def generate_checked_copy(
                 c, 
                 cx=s["x"], 
                 cy=s["y"], 
-                marks_obtained=qdata["marks_obtained"],
-                marks_total=qdata["marks_total"],
+                marks_obtained=s.get("marks_obtained", qdata.get("marks_obtained", 0)),
+                marks_total=s.get("marks_total", qdata.get("marks_total", 1)),
                 font_name=font_name,
                 scale=s["scale"]
             )
@@ -3650,6 +3075,7 @@ def generate_checked_copy(
 
     print(f"\n  ✓ Checked copy    → {output_path}")
     print(f"{'='*62}\n")
+    return _manifest
 
 
 # ── CLI ────────────────────────────────────────────────────────────────────────

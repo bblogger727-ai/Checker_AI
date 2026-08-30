@@ -177,12 +177,14 @@ def get_manifest_summary(manifest_path: str) -> dict:
         q_id       = q.get("q_id",    mkey)
         q_num      = q.get("q_num",   q_id.replace("Q", ""))
         tcs        = q.get("ticks_crosses", [])
-        fb         = q.get("feedback") or {}
+        fb         = q.get("feedback") or q.get("deferred_feedback") or {}
 
         # Human-readable label: "Section B — Q1"
         sec_label = section.replace("Section", "Section ").strip() if section else ""
         q_label   = q_num if q_num.startswith("Q") else f"Q{q_num}"
         display   = f"{sec_label} — {q_label}" if sec_label else q_label
+
+        marks_page = q.get("stamp", {}).get("page") if q.get("stamp") else (q.get("feedback", {}).get("page") if q.get("feedback") else (q.get("deferred_feedback", {}).get("page") if q.get("deferred_feedback") else 1))
 
         summary["questions"][mkey] = {
             "manifest_key":   mkey,
@@ -198,6 +200,7 @@ def get_manifest_summary(manifest_path: str) -> dict:
             "ticks_count":    sum(1 for t in tcs if t.get("action") == "tick"),
             "crosses_count":  sum(1 for t in tcs if t.get("action") == "cross"),
             "ticks_crosses":  tcs,
+            "marks_page":     marks_page,
         }
 
     return summary
@@ -251,18 +254,24 @@ def apply_patch(
     # ── Re-draw overlay from patched manifest ────────────────────────────────
     source_pdf = manifest.get("source_pdf", "")
     if not os.path.isabs(source_pdf):
-        # Relative paths in the manifest may be relative to the manifest dir
-        # OR to the backend root (_HERE). Try both, prefer whichever exists.
+        candidate_cwd      = os.path.abspath(source_pdf)
+        candidate_base     = os.path.join(manifest_dir, os.path.basename(source_pdf))
         candidate_manifest = os.path.join(manifest_dir, source_pdf)
         candidate_here     = os.path.join(_HERE, source_pdf)
-        if os.path.exists(candidate_manifest):
+        if os.path.exists(candidate_cwd):
+            source_pdf = candidate_cwd
+        elif os.path.exists(candidate_base):
+            source_pdf = candidate_base
+        elif os.path.exists(candidate_manifest):
             source_pdf = candidate_manifest
         elif os.path.exists(candidate_here):
             source_pdf = candidate_here
         else:
-            source_pdf = candidate_manifest   # let the next check raise clearly
-    if not os.path.exists(source_pdf):
-        raise FileNotFoundError(f"Source PDF not found: {source_pdf}")
+            source_pdf = candidate_manifest
+    elif not os.path.exists(source_pdf):
+        candidate_base = os.path.join(manifest_dir, os.path.basename(source_pdf))
+        if os.path.exists(candidate_base):
+            source_pdf = candidate_base
 
     _redraw_from_manifest(source_pdf, patched, output_path)
 
@@ -387,9 +396,11 @@ def _apply_corrections_to_manifest(manifest: dict, corrections: dict) -> dict:
             if new_fb is None or str(new_fb).strip() == "":
                 # Remove feedback
                 q["feedback"] = None
+                q["deferred_feedback"] = None
                 print(f"  💬 {mkey}: feedback removed")
             else:
-                if q.get("feedback") is None:
+                fb_target = "deferred_feedback" if (q.get("deferred_feedback") and not q.get("feedback")) else "feedback"
+                if q.get(fb_target) is None:
                     # No existing feedback recorded — can't place without coords.
                     # We'll use a placeholder position; warn the user.
                     print(f"  ⚠ {mkey}: no existing feedback position in manifest. "
@@ -403,9 +414,9 @@ def _apply_corrections_to_manifest(manifest: dict, corrections: dict) -> dict:
                         "scale":     q.get("stamp", {}).get("scale", 1.0) if q.get("stamp") else 1.0,
                     }
                 else:
-                    old_txt = q["feedback"].get("text", "")
-                    q["feedback"]["text"] = str(new_fb)
-                    print(f"  💬 {mkey}: feedback updated")
+                    old_txt = q[fb_target].get("text", "")
+                    q[fb_target]["text"] = str(new_fb)
+                    print(f"  💬 {mkey}: feedback updated ({fb_target})")
                     print(f"       old: {old_txt!r}")
                     print(f"       new: {new_fb!r}")
 
@@ -597,14 +608,15 @@ def _build_page_plan(manifest: dict) -> dict:
                 "data":           stamp,
             })
 
-        # Feedback
-        fb = q.get("feedback")
-        if fb and fb.get("text"):
-            plan.setdefault(int(fb["page"]), []).append({
-                "type":         "feedback",
-                "manifest_key": mkey,
-                "data":         fb,
-            })
+        # Feedback (regular and deferred)
+        for fb_key in ("feedback", "deferred_feedback"):
+            fb = q.get(fb_key)
+            if fb and fb.get("text"):
+                plan.setdefault(int(fb["page"]), []).append({
+                    "type":         "feedback",
+                    "manifest_key": mkey,
+                    "data":         fb,
+                })
 
         # Ticks & crosses
         for tc in q.get("ticks_crosses", []):
