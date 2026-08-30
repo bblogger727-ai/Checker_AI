@@ -44,3 +44,6 @@ typing_extensions==4.15.0
 uvicorn==0.40.0
 pytesseract==0.3.10
 pypdf==4.0.1
+paddlepaddle>=2.6.0
+paddleocr>=2.8.0
+opencv-python-headless>=4.8.0
