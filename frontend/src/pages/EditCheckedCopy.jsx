@@ -411,6 +411,13 @@ function EditCheckedCopy() {
         });
     }, []);
 
+    const handleChangeMcqMarksPage = useCallback((pageNum) => {
+        setChanges(prev => ({
+            ...prev,
+            ["__mcq_marks__"]: { ...(prev["__mcq_marks__"] || {}), marks_page: pageNum },
+        }));
+    }, []);
+
     const handleMoveFeedback = useCallback((mkey, dir) => {
         setChanges(prev => {
             const q = prev[mkey] || {};
@@ -462,9 +469,13 @@ function EditCheckedCopy() {
     const mcqMs       = condenseMoves(mcqMoves);
     const hasMcqMove  = mcqMs !== null && mcqMs.length > 0;
 
+    const origMcqPage = manifest?.mcq_total?.page || manifest?.mcq_total?.marks_page || 1;
+    const currentMcqPage = mcqChanges.marks_page !== undefined ? mcqChanges.marks_page : origMcqPage;
+    const hasMcqPageChange = mcqChanges.marks_page !== undefined && mcqChanges.marks_page !== origMcqPage;
+
     const hasMcqInput = mcqMarks !== '' && (mcqPending || (mcqObtained !== null && mcqObtained !== undefined && parseFloat(mcqMarks) !== mcqObtained));
 
-    const isDirty = Object.keys(changes).length > 0 || hasMcqInput || hasMcqMove;
+    const isDirty = Object.keys(changes).length > 0 || hasMcqInput || hasMcqMove || hasMcqPageChange;
 
     const handleSubmit = async () => {
         if (!isDirty) {
@@ -513,13 +524,16 @@ function EditCheckedCopy() {
                 if (Object.keys(c).length > 0) corrections[mkey] = c;
             }
 
-            if (hasMcqInput || hasMcqMove) {
+            if (hasMcqInput || hasMcqMove || hasMcqPageChange) {
                 const mcqCorr = {};
                 if (hasMcqInput) {
                     mcqCorr.marks_obtained = parseFloat(mcqMarks);
                 }
                 if (hasMcqMove) {
                     mcqCorr.move_stamp = mcqMs;
+                }
+                if (hasMcqPageChange) {
+                    mcqCorr.marks_page = currentMcqPage;
                 }
                 corrections["__mcq_marks__"] = mcqCorr;
             }
@@ -638,12 +652,12 @@ function EditCheckedCopy() {
             </div>
 
             {mcqExists && (
-                <div className={`ecc-mcq-panel ${hasMcqInput || hasMcqMove ? 'ecc-mcq-panel--dirty' : ''}`}>
+                <div className={`ecc-mcq-panel ${hasMcqInput || hasMcqMove || hasMcqPageChange ? 'ecc-mcq-panel--dirty' : ''}`}>
                     <div className="ecc-mcq-panel-top">
                         <div className="ecc-mcq-header">
                             <div className="ecc-mcq-title-row">
                                 <h3>Section A (MCQs) Marks Stamp</h3>
-                                {(hasMcqInput || hasMcqMove) && <span className="dirty-badge">Edited</span>}
+                                {(hasMcqInput || hasMcqMove || hasMcqPageChange) && <span className="dirty-badge">Edited</span>}
                             </div>
                             <p>
                                 {mcqPending
@@ -677,7 +691,22 @@ function EditCheckedCopy() {
 
                     {mcqMode === 'move' && (
                         <div className="move-panel">
-                            <span className="move-hint">Move the MCQ marks marker by 100px increments:</span>
+                            <div className="move-page-row">
+                                <span className="move-hint">Page:</span>
+                                <input
+                                    type="number" min="1" step="1"
+                                    className="page-num-input"
+                                    value={currentMcqPage}
+                                    onChange={e => handleChangeMcqMarksPage(parseInt(e.target.value) || 1)}
+                                    title="Change which page the MCQ marks stamp appears on"
+                                />
+                                {hasMcqPageChange && (
+                                    <span className="page-changed-badge">
+                                        was {origMcqPage}
+                                    </span>
+                                )}
+                            </div>
+                            <span className="move-hint">Move stamp position (100px steps):</span>
                             <DPad onMove={(dir) => handleMoveMcqStamp(dir)} />
                             <div className="move-stats">
                                 Net movement: 

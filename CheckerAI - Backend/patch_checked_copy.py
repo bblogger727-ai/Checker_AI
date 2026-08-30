@@ -161,11 +161,13 @@ def get_manifest_summary(manifest_path: str) -> dict:
             # True when the MCQ section exists but marks haven't been entered yet
             "mcq_pending": mcq.get("pending", False) if mcq else False,
         },
-        # Expose MCQ metadata so the frontend can show the correct max value
+        # Expose MCQ metadata so the frontend can show the correct max value & page
         "mcq_total": {
-            "total":    mcq.get("total",    30.0),
-            "obtained": mcq.get("obtained", None),
-            "pending":  mcq.get("pending",  False),
+            "total":      mcq.get("total",    30.0),
+            "obtained":   mcq.get("obtained", None),
+            "pending":    mcq.get("pending",  False),
+            "page":       mcq.get("page",     1),
+            "marks_page": mcq.get("page",     1),
         } if mcq else None,
         "questions": {},
     }
@@ -320,6 +322,11 @@ def _apply_corrections_to_manifest(manifest: dict, corrections: dict) -> dict:
                         marks_delta += new_mcq - old_mcq
                     mcq["obtained"] = new_mcq
                     print(f"  📝 Global MCQ marks set to {new_mcq}")
+
+                if "marks_page" in corr or "page" in corr:
+                    new_page = int(corr.get("marks_page") or corr.get("page"))
+                    mcq["page"] = new_page
+                    print(f"  📄 Global MCQ marks stamp moved to page {new_page}")
 
                 if "move_stamp" in corr:
                     move_corr = corr["move_stamp"]

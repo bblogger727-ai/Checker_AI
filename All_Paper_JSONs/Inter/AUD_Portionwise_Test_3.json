@@ -149,11 +149,11 @@
           "label": "b",
           "marks": 4,
           "internal_split": null,
-          "question": "| Parameter | Description |\n|-----------|-------------|\n| Company | Sigma Ltd. |\n| Auditor | CJK & Associates |\n| Audit Period | 5 years |\n| Act | Companies Act, 2013 |\n| Requirement | SQC 1 requires the firm to inquire vital information about the client. |\n| Question | Apart from integrity, obtaining such vital information about the client is helpful to the audit firm in deciding about which other matters? Which matters would be considered by the audit firm with regard to the integrity of the client? |",
-          "answer": "| Matters to Consider | Description |\n|---------------------|-------------|\n| Integrity of Client | The firm's assessment of the client's honesty and ethical standing. |\n| Competence | The firm's capacity, including capabilities, time, and resources, to perform the engagement. |\n| Compliance with Ethical Requirements | The firm's adherence to ethical standards and principles governing audits. |",
-          "chapter_number": "10",
-          "chapter_name": "Audit of Banks",
-          "unique_id": "IMG-AUD3-Q5b"
+          "question": "Sigma Ltd. has approached CJK & Associates to appoint them as their auditor for a period of 5 years in accordance with provisions of the Companies Act, 2013. The prospective client company is new to the audit firm. SQC 1 requires that a firm before accepting an engagement should inquire vital information about the client which helps the firm to decide about the integrity of the client. Apart from integrity, obtaining such vital information about the client is helpful to the audit firm in deciding about which other matters? Which matters would be considered by the audit firm with regard to the integrity of the client?",
+          "answer": "A firm before accepting an engagement should acquire vital information about the client. Such information should help the firm to decide about:\n\n- Integrity of Client\n- Competence (including capabilities, time and resources) to perform the engagement\n- Compliance with ethical requirements\n\nWith regard to the integrity of a client, matters that the firm considers include, for example:\n\n- The identity and business reputation of the client's principal owners, key management, related parties and those charged with its governance.\n- The nature of the client's operations, including its business practices.\n- Information concerning the attitude of the client's principal owners, key management and those charged with its governance towards such matters as aggressive interpretation of accounting standards and the internal control environment.\n- Whether the client is aggressively concerned with maintaining the firm's fees as low as possible.\n- Indications of an inappropriate limitation in the scope of work.\n- Indications that the client might be involved in money laundering or other criminal activities.\n- The reasons for the proposed appointment of the firm and non-reappointment of the previous firm.",
+          "chapter_number": "11",
+          "chapter_name": "Quality Control",
+          "unique_id": "11-TP-9"
         }
       ]
     }
