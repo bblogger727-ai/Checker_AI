@@ -222,10 +222,26 @@ def run_stage_6_isolated(output_dir: str):
 
 def run_stage_7_isolated(as_path: str, output_dir: str):
     from generate_checked_copy_v2 import generate_checked_copy
+    from detect_page_bounds import detect_page_bounds as _detect_bounds
+    import json as _json
+
     grading_path  = os.path.join(output_dir, "grading_final.json")
     aligned_path  = os.path.join(output_dir, "aligned_answers.json")
     output_path   = os.path.join(output_dir, "checked_copy.pdf")
     ocr_text_path = os.path.join(output_dir, "3_ocr_output.txt")
+    if not os.path.exists(ocr_text_path):
+        ocr_text_path = os.path.join(output_dir, "ocr_output.txt")
+
+    bounds_path = os.path.join(output_dir, "page_bounds.json")
+    if not os.path.exists(bounds_path):
+        try:
+            bounds = _detect_bounds(as_path)
+            with open(bounds_path, "w") as _bf:
+                _json.dump(bounds, _bf, indent=2)
+        except Exception as _be:
+            bounds_path = None
+
+    manifest_path = os.path.join(output_dir, "checked_copy_manifest.json")
 
     generate_checked_copy(
         pdf_path=as_path,
@@ -233,6 +249,8 @@ def run_stage_7_isolated(as_path: str, output_dir: str):
         aligned_json=aligned_path,
         output_path=output_path,
         ocr_text_path=ocr_text_path if os.path.exists(ocr_text_path) else None,
+        manifest_path=manifest_path,
+        page_bounds_path=bounds_path if bounds_path and os.path.exists(bounds_path) else None,
     )
     print(f"✓ Checked copy saved: {output_path}")
 
