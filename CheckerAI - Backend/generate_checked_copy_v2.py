@@ -99,15 +99,15 @@ def _tier_ann_params(marks_obtained: float, marks_total: float) -> tuple:
     Return (action, count_normal, count_last) for the given score.
 
     action       : 'tick' or 'cross'
-    count_normal : number of marks to draw on every non-last page
-    count_last   : number of marks to draw on the LAST page (always 1)
+    count_normal : number of marks to draw on every non-last page (and full single-page answers)
+    count_last   : number of marks to draw on the partial LAST page of a multi-page answer (always 1)
     """
     ratio = (marks_obtained / marks_total) if marks_total > 0 else 0.0
-    if ratio >= 0.75:
+    if ratio >= 0.7499:
         return ("tick",  2, 1)
-    elif ratio >= 0.41:
+    elif ratio >= 0.4099:
         return ("tick",  1, 1)
-    elif ratio >= 0.25:
+    elif ratio >= 0.2499:
         return ("cross", 1, 1)
     else:
         return ("cross", 2, 1)
@@ -1659,7 +1659,7 @@ def _match_q_heading_text(text: str, q_num: str) -> bool:
         t = t.replace(chr(0x245F + i), f'Q{i}')
     t = re.sub(r'^[①-⑳]\s*', 'Q ', t).lower()
 
-    d_map = {'1': r'[1il|]', '2': r'[2z]', '3': r'3', '4': r'4', '5': r'[5s]', '6': r'6', '7': r'7', '8': r'[8b]'}
+    d_map = {'1': r'[1il|]', '2': r'[2zd]', '3': r'[3e]', '4': r'[4a]', '5': r'[5s]', '6': r'[6b]', '7': r'7', '8': r'[8b]'}
     b_pat = d_map.get(base_num, re.escape(base_num))
     
     prefix_kw = r'(?:^|\b|\s)[\[|\(]?\s*(?:q|que|qu|question|ans|answer)[\s#\-\.=:_]*'
@@ -1872,6 +1872,7 @@ def _plan_annotations_new(
     ink_top: float = 0.05,
     ink_bot: float = 0.95,
     heading_y_frac: float = None,
+    page_lines: list = None,
 ) -> list:
     """
     Plan tick/cross annotations for one question on one page using the
@@ -1892,11 +1893,36 @@ def _plan_annotations_new(
 
     # ── How many annotations for this page? ──────────────────────────────────
     action, count_normal, count_last = _tier_ann_params(marks_obtained, marks_total)
-    is_last_page = (page_idx_in_q == total_pages - 1)
-    n_anns = count_last if is_last_page else count_normal
+    
+    # Single-page answers get full count (e.g. 2 ticks for >=75%, 2 crosses for <25%)
+    if total_pages == 1:
+        n_anns = count_normal
+    else:
+        # Multi-page answers:
+        is_last_page = (page_idx_in_q == total_pages - 1)
+        if not is_last_page:
+            n_anns = count_normal
+        else:
+            # On the last page of a multi-page answer:
+            # Check how many lines of text are written in this slice
+            slice_span = slice_bot - slice_top
+            lines_in_slice = 0
+            if page_lines:
+                lines_in_slice = len([l for l in page_lines if slice_top - 0.02 <= (l.get('ymin', 0) + l.get('ymax', 0)) / 2.0 <= slice_bot + 0.02])
 
-    # Shared-page cap: multiple questions on the same page → 1 each
-    if n_questions_on_page > 1:
+            # If 5 or fewer lines are written on this continuation last page (or tiny slice < 15%), skip annotation
+            if (page_lines and 0 < lines_in_slice <= 5) or slice_span < 0.15:
+                return []
+
+            # Check whether the answer on this page is >= 75% filled
+            fill_span = max(slice_span, ink_bot - slice_top)
+            if fill_span >= 0.70:
+                n_anns = count_normal
+            else:
+                n_anns = count_last
+
+    # Shared-page cap: when multiple questions share a page and this question's slice is small (< 45% of page) → cap at 1
+    if n_questions_on_page > 1 and (slice_bot - slice_top) < 0.45:
         n_anns = 1
 
     # ── Determine valid vertical range ───────────────────────────────────────
@@ -1933,9 +1959,10 @@ def _plan_annotations_new(
         # Collision avoidance
         y_frac = _get_non_colliding_y(target_frac, page_used_y_fracs, lower_bound, upper_bound, MIN_SEP)
         if y_frac is None:
-            if i == 0:
-                # Must place at least 1 — relax separation
-                y_frac = _get_non_colliding_y(target_frac, page_used_y_fracs, lower_bound, upper_bound, MIN_SEP * 0.5)
+            # Progressive relaxation so required annotations (e.g. 2 ticks or 2 crosses) are not dropped
+            y_frac = _get_non_colliding_y(target_frac, page_used_y_fracs, lower_bound, upper_bound, MIN_SEP * 0.4)
+            if y_frac is None:
+                y_frac = _get_non_colliding_y(target_frac, page_used_y_fracs, lower_bound, upper_bound, 0.04)
             if y_frac is None:
                 continue   # no room — skip this annotation
 
@@ -2720,9 +2747,8 @@ def generate_checked_copy(
 
 
             # ── Plan tick/cross annotations (new deterministic tier-based logic) ───
-            # n_questions_on_page = number of non-phantom first-questions on this page
-            # (only is_first items count — continuation items don't add stamps/ticks)
-            n_questions_on_page = len([it for it in items if it.get("is_first") and not it.get("_phantom")])
+            # n_questions_on_page = number of non-phantom questions on this page
+            n_questions_on_page = len([it for it in items if not it.get("_phantom")])
 
             # Only plan annotations on the FIRST page of a question (where the stamp appears).
             # Continuation pages have no stamp and should not accumulate extra ticks/crosses.
@@ -2748,6 +2774,7 @@ def generate_checked_copy(
                     ink_top               = ink_top,
                     ink_bot               = ink_bot,
                     heading_y_frac        = (1.0 - heading_y / pdf_h) if heading_y else None,
+                    page_lines            = paddle_lines,
                 )
             page_annotations_count += len(annotations)
 
