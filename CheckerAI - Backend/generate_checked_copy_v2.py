@@ -2088,6 +2088,29 @@ def generate_checked_copy(
     manifest_path: str = None,
     page_bounds_path: str = None,
 ):
+    out_dir = os.path.dirname(os.path.abspath(output_path)) if output_path else None
+    from paddleocr_lock import paddleocr_lock
+    with paddleocr_lock(output_dir=out_dir):
+        return _generate_checked_copy_impl(
+            pdf_path=pdf_path,
+            grading_json=grading_json,
+            aligned_json=aligned_json,
+            output_path=output_path,
+            ocr_text_path=ocr_text_path,
+            manifest_path=manifest_path,
+            page_bounds_path=page_bounds_path,
+        )
+
+
+def _generate_checked_copy_impl(
+    pdf_path: str,
+    grading_json: str,
+    aligned_json: str,
+    output_path: str,
+    ocr_text_path: str = None,
+    manifest_path: str = None,
+    page_bounds_path: str = None,
+):
     print(f"\n{'='*62}")
     print("  STAGE 7 — Generating Checked Copy (Student-Facing)")
     print(f"{'='*62}")
@@ -2518,6 +2541,9 @@ def generate_checked_copy(
         else:
             img_bgr = cv2.cvtColor(img_np, cv2.COLOR_RGB2BGR)
         paddle_lines = _extract_page_boxes_paddle(img_bgr)
+        del pix_page
+        del img_np
+        del img_bgr
 
         # Compute ink bounds from PaddleOCR bounding boxes (or fallback to image analysis)
         if paddle_lines:
@@ -3102,6 +3128,15 @@ def generate_checked_copy(
 
     print(f"\n  ✓ Checked copy    → {output_path}")
     print(f"{'='*62}\n")
+
+    # Clean up PaddleOCR memory
+    global _paddle_ocr_instance
+    if _paddle_ocr_instance is not None and _paddle_ocr_instance is not False:
+        del _paddle_ocr_instance
+        _paddle_ocr_instance = None
+    import gc
+    gc.collect()
+
     return _manifest
 
 

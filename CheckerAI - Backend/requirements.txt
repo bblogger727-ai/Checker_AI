@@ -47,3 +47,4 @@ pypdf==4.0.1
 paddlepaddle>=2.6.0
 paddleocr>=2.8.0
 opencv-python-headless>=4.8.0
+filelock>=3.12.0
