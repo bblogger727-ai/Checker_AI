@@ -1586,7 +1586,13 @@ def _get_paddle_ocr():
             os.environ["FLAGS_enable_pir_api"] = "0"
             os.environ["FLAGS_use_mkldnn"] = "0"
             from paddleocr import PaddleOCR
-            _paddle_ocr_instance = PaddleOCR(use_textline_orientation=True, lang='en', enable_mkldnn=False)
+            _paddle_ocr_instance = PaddleOCR(
+                use_doc_orientation_classify=False,
+                use_doc_unwarping=False,
+                use_textline_orientation=False,
+                lang='en',
+                enable_mkldnn=False,
+            )
         except Exception as e:
             print(f"  [PaddleOCR] Warning: could not load PaddleOCR: {e}", flush=True)
             _paddle_ocr_instance = False
