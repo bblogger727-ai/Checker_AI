@@ -2008,9 +2008,11 @@ def _plan_annotations_new(
             else:
                 n_anns = count_last
 
-    # Shared-page cap: when multiple questions share a page and this question's slice is small (< 45% of page) → cap at 1
-    if n_questions_on_page > 1 and (slice_bot - slice_top) < 0.45:
-        n_anns = 1
+    # Shared-page cap: when multiple questions share a page, always cap at 1 annotation.
+    # Even if the tier says 2 ticks, 2 stamps on a shared page would be cluttered and
+    # there isn't enough vertical space per question to separate them safely.
+    if n_questions_on_page > 1:
+        n_anns = min(n_anns, 1)
 
     # ── Determine valid vertical range ───────────────────────────────────────
     # If page_lines available, find the actual bottom of student text in this slice
@@ -2843,10 +2845,21 @@ def _generate_checked_copy_impl(
             page_q_items = page_q_items + _phantom_slots
 
             if len(page_q_items) > 1:
-                page_q_items = sorted(
-                    page_q_items,
-                    key=lambda it: 0.0 if not it.get("is_first") else pre_heading_fracs.get(it["q_num"], 0.5)
-                )
+                # Sort order:
+                # 1. Continuation items first (page_idx_in_q > 0) — they started on a prior page
+                #    so their text appears at the TOP of this page.
+                # 2. Among is_first items, sort by heading position (pre_heading_fracs) ascending.
+                # 3. If no heading found, sort by total_pages ascending — a question spanning
+                #    fewer total pages was answered first (started earlier on this page).
+                def _sort_key(it):
+                    is_cont = not it.get("is_first", True)  # continuations first
+                    heading_pos = pre_heading_fracs.get(it["q_num"], None)
+                    if heading_pos is not None:
+                        return (0 if is_cont else 1, heading_pos, 0)
+                    # No heading: use total_pages ascending as tiebreaker
+                    tp = it.get("total_pages", 99)
+                    return (0 if is_cont else 1, 0.5, tp)
+                page_q_items = sorted(page_q_items, key=_sort_key)
 
             n_items = len(page_q_items)
             my_order = next((idx for idx, it in enumerate(page_q_items) if it["q_num"] == q_num), 0)
@@ -2856,14 +2869,24 @@ def _generate_checked_copy_impl(
                 q_bot_frac = ink_bot
             else:
                 # Multi-question slicing
+                heading_pos = pre_heading_fracs.get(q_num, None)
                 if my_order == 0:
                     q_top_frac = ink_top
                 else:
-                    q_top_frac = pre_heading_fracs.get(q_num, ink_top)
+                    if heading_pos is not None:
+                        q_top_frac = heading_pos
+                    else:
+                        # No heading found: divide ink region evenly by order
+                        q_top_frac = ink_top + my_order * (ink_bot - ink_top) / n_items
 
                 if my_order < n_items - 1:
                     next_q = page_q_items[my_order + 1]["q_num"]
-                    q_bot_frac = pre_heading_fracs.get(next_q, ink_bot)
+                    next_heading = pre_heading_fracs.get(next_q, None)
+                    if next_heading is not None:
+                        q_bot_frac = next_heading
+                    else:
+                        # No heading for next question either: divide evenly
+                        q_bot_frac = ink_top + (my_order + 1) * (ink_bot - ink_top) / n_items
                 else:
                     q_bot_frac = ink_bot
 
@@ -2913,12 +2936,26 @@ def _generate_checked_copy_impl(
                         rh_st = 60
                         print(f"    ← left-margin stamp at x={marks_x:.0f}, y={marks_y_placed:.0f}", flush=True)
                     else:
-                        # Direct zone-top placement in left margin
-                        _target_stamp_frac = q_top_frac + 0.04
+                        # Direct zone placement in left margin.
+                        # When multiple questions share a page, spread stamps:
+                        # - First question (my_order=0): very close to its zone TOP
+                        # - Last question (my_order=n_items-1): very close to its zone BOTTOM
+                        # - Middle questions: midpoint of their zone
+                        if n_items > 1 and my_order == 0:
+                            # Top question: stamp near top of its zone
+                            _target_stamp_frac = q_top_frac + 0.02
+                        elif n_items > 1 and my_order == n_items - 1:
+                            # Bottom question: stamp near bottom of its zone
+                            _target_stamp_frac = q_bot_frac - 0.06
+                        elif n_items > 2:
+                            # Middle question: midpoint of zone
+                            _target_stamp_frac = (q_top_frac + q_bot_frac) / 2.0
+                        else:
+                            _target_stamp_frac = q_top_frac + 0.04
                         marks_y_placed = pdf_h * (1.0 - _target_stamp_frac) - _STAMP_HALF_H
                         marks_x = max(24.0, pdf_w * 0.04)
                         rh_st = 60
-                        print(f"    ← direct zone-top stamp at x={marks_x:.0f}, y={marks_y_placed:.0f}", flush=True)
+                        print(f"    ← direct zone stamp (order {my_order+1}/{n_items}) at x={marks_x:.0f}, y={marks_y_placed:.0f}", flush=True)
                     
                     # Clamp stamp Y position so it avoids top 12% margin and bottom 5%
                     marks_y_placed = min(max(marks_y_placed, pdf_h * 0.05 + _STAMP_HALF_H), pdf_h * 0.88 - _STAMP_HALF_H)
@@ -3174,6 +3211,8 @@ def _generate_checked_copy_impl(
                     t_rect = get_rect(t, act)
                 
         # === DRAW PHASE ===
+        # Draw order: ticks/crosses first, then feedback boxes, then stamps on top.
+        # This ensures stamps always appear visually above feedback text.
         for t, act in page_ticks:
             if act == "tick":
                 _draw_tick(c, t["x"], t["y"], size=t["size"])
@@ -3183,17 +3222,7 @@ def _generate_checked_copy_impl(
         for t, act in page_p3:
             _draw_cross(c, t["x"], t["y"], size=t["size"])
             
-        for s, qdata in page_stamps:
-            _draw_marks_stamp(
-                c, 
-                cx=s["x"], 
-                cy=s["y"], 
-                marks_obtained=s.get("marks_obtained", qdata.get("marks_obtained", 0)),
-                marks_total=s.get("marks_total", qdata.get("marks_total", 1)),
-                font_name=font_name,
-                scale=s["scale"]
-            )
-            
+        # Draw feedback BEFORE stamps so stamps render on top
         for f, _ in page_fbs:
             fb_text = f["text"]
             fb_x_final = f["x"]
@@ -3226,6 +3255,18 @@ def _generate_checked_copy_impl(
                 c.drawString(fb_x_final, _draw_y, line)
                 _draw_y -= FB_FONT_SIZE * 1.5
             c.restoreState()
+
+        # Draw stamps LAST so they appear on top of feedback boxes
+        for s, qdata in page_stamps:
+            _draw_marks_stamp(
+                c,
+                cx=s["x"],
+                cy=s["y"],
+                marks_obtained=s.get("marks_obtained", qdata.get("marks_obtained", 0)),
+                marks_total=s.get("marks_total", qdata.get("marks_total", 1)),
+                font_name=font_name,
+                scale=s["scale"]
+            )
 
         c.showPage()
 
