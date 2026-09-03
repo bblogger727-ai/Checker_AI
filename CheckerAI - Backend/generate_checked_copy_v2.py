@@ -176,6 +176,54 @@ _feedback_cache: dict = {}      # (section, q_id) → feedback string
 _used_feedback_texts: list = []  # all generated feedback texts for the current doc (for deduplication)
 
 
+def _generate_fallback_feedback(grade_entry: dict) -> str | None:
+    """
+    Generate a simple, useful teacher comment from grading data alone —
+    used as fallback when the OpenAI API is unavailable.
+    Extracts content from: feedback, major_errors, key_points_missed, tier.
+    """
+    marks_obtained = float(grade_entry.get("marks_obtained", 0) or 0)
+    marks_total    = float(grade_entry.get("marks_total",    0) or 0)
+    marks_ratio    = (marks_obtained / marks_total) if marks_total > 0 else 0
+    tier           = (grade_entry.get("tier") or "").lower()
+    feedback_raw   = (grade_entry.get("feedback") or "").strip()
+    major_errors   = grade_entry.get("major_errors",     []) or []
+    key_pts_missed = grade_entry.get("key_points_missed", []) or []
+
+    # Full marks — short praise based on tier/feedback
+    if marks_ratio >= 1.0:
+        praise_map = {
+            "excellent":  "Excellent work — all key points covered",
+            "very_good":  "Well done — thorough and accurate",
+            "good":       "Good effort — well-structured answer",
+        }
+        return praise_map.get(tier, "Well answered")
+
+    # Extract the most useful sentence from the grader's raw feedback
+    comment = None
+    if feedback_raw:
+        # Take first sentence only (up to 120 chars) and strip exam jargon
+        first_sent = re.split(r'(?<=[.!?])\s+', feedback_raw.strip())[0]
+        first_sent = first_sent.replace("model answer", "expected answer").replace("marking scheme", "requirements")
+        first_sent = re.sub(r'\b(the student|student)\b', 'You', first_sent, flags=re.IGNORECASE)
+        if len(first_sent) > 120:
+            first_sent = first_sent[:117] + "..."
+        comment = first_sent.rstrip(".")
+
+    # If marks < 60%: prepend top error as a bullet
+    if marks_ratio < 0.60:
+        top_errors = (major_errors + key_pts_missed)[:2]
+        if top_errors:
+            err_str = "; ".join(str(e)[:60] for e in top_errors)
+            err_str = re.sub(r'\b(model answer|marking scheme|the student)\b', '', err_str, flags=re.IGNORECASE).strip()
+            if comment:
+                comment = f"• {err_str}"
+            else:
+                comment = f"• {err_str}"
+
+    return comment or None
+
+
 def _generate_llm_feedback(grade_entry: dict, cache_key: str) -> str | None:
     """
     Call GPT-4o-mini to generate a teacher comment for EVERY question — no exceptions.
@@ -276,8 +324,12 @@ def _generate_llm_feedback(grade_entry: dict, cache_key: str) -> str | None:
         return text
     except Exception as e:
         print(f"      ⚠ LLM feedback failed: {e}")
-        _feedback_cache[cache_key] = None
-        return None
+        # ── Fallback: generate comment from grading data when API is unavailable ──
+        fallback = _generate_fallback_feedback(grade_entry)
+        _feedback_cache[cache_key] = fallback
+        if fallback:
+            _used_feedback_texts.append(fallback)
+        return fallback
 
 
 def _load_ocr_page_text(ocr_path: str, page_num: int) -> str:
@@ -528,24 +580,28 @@ def _find_ink_bottom_in_zone(
 
 def _compute_ink_bot_strict(gray: Image.Image, img_w: int, img_h: int) -> float:
     """
-    Find the true bottom of student handwriting using a robust density-based approach.
+    Find the true bottom of student handwriting using a density-based approach.
 
-    This scans the central 84% of the page width to avoid scanner shadows and borders,
-    and finds the last row that contains significant dark pixels.
-    This effectively ignores stray dots but catches actual handwriting.
+    Key distinction: faint printed ruled lines span the full page width at
+    ~2-4% density, while handwriting is darker and denser (typically 8%+).
+
+    Uses INK_THR=180 (instead of 210) to only capture actual handwriting ink,
+    not faint ruled lines which are typically 180-200 grey value.
+    Requires hw_threshold >= 0.08 (8%) so ruled lines never qualify as handwriting.
 
     Returns a fraction of page height (0.0 = top, 1.0 = bottom).
     """
-    # ── Density-based approach ─────────────────────────────────────────────
     px      = gray.load()
-    INK_THR = 210
+    # Use 180 threshold: actual pen ink is darker than this.
+    # Ruled lines are typically printed at 180-210 and will NOT pass this threshold.
+    INK_THR = 180
     STEP    = 3
     x_start = int(img_w * 0.08)
     x_end   = int(img_w * 0.92)
     sampled = max(1, (x_end - x_start) // STEP)
 
     y_scan_start = int(img_h * 0.03)
-    y_scan_end   = int(img_h * 0.92)
+    y_scan_end   = int(img_h * 0.95)
 
     row_densities = []
     for y in range(y_scan_start, y_scan_end):
@@ -555,19 +611,23 @@ def _compute_ink_bot_strict(gray: Image.Image, img_w: int, img_h: int) -> float:
     if not row_densities:
         return 0.90
 
-    all_d    = sorted(d for _, d in row_densities)
-    median_d = all_d[len(all_d) // 2]
-    # Use a much more reasonable threshold. If the median is high, we don't demand 2x the median.
-    # 1.5% dark pixels in a row is typically enough to indicate handwriting.
-    hw_threshold = max(0.015, min(0.03, median_d * 1.5))
+    # Hard floor of 0.08: ruled lines never produce >4% density at threshold 180,
+    # so requiring 8% guarantees only actual handwriting rows qualify.
+    hw_threshold = 0.08
 
     last_hw_y = y_scan_start
     for y, d in row_densities:
         if d >= hw_threshold:
             last_hw_y = y
 
-    margin_px = int(img_h * 0.03)
-    return min(0.93, max(0.12, (last_hw_y + margin_px) / img_h))
+    # If last_hw_y is very close to top (< 20% down), nothing was found —
+    # fall back to a conservative estimate
+    if last_hw_y < img_h * 0.20:
+        return 0.45  # assume student wrote roughly halfway
+
+    margin_px = int(img_h * 0.025)  # 2.5% margin below last handwriting row
+    return min(0.92, max(0.12, (last_hw_y + margin_px) / img_h))
+
 
 
 def _block_y_pdf(center_frac: float, pdf_h: float) -> float:
@@ -1646,12 +1706,36 @@ def _match_q_heading_text(text: str, q_num: str) -> bool:
     and student conventions (e.g. 'Que = 1(a)', 'Que B', 'Q=2(B)', '(Que-3 1)', 'Que=4').
     """
     t = str(text).strip()
-    t_lower = t.lower()
-    # Reject pure narrative body sentences
+
+    # 1. Bare circled numbers, isolated digits, or bullet points like '①', '(1)', '22' are NOT question headings
+    if re.fullmatch(r'^[\u2460-\u2473\d\s\(\)\[\]\.\-]+$', t):
+        return False
+
+    # 2. Strip leading circled numbers entirely (don't normalize to Q1 — that causes body text
+    #    like '① A qualified opinion...' to match Q1 heading)
+    t_clean = re.sub(r'^[\u2460-\u2473]+\s*', '', t).strip()
+    # Also strip all circled numbers from anywhere in the string before matching
+    t_clean = re.sub(r'[\u2460-\u2473]', ' ', t_clean).strip()
+
+    # If after stripping circled numbers and whitespace the text is empty or too short, reject
+    if len(t_clean) < 2:
+        return False
+
+    t_lower = t_clean.lower()
+
+    # 3. Reject pure narrative body sentences
     if any(phrase in t_lower for phrase in [
         'as per as', 'in this case', 'needs to disclose', 'according to as',
-        'profit on sale', 'interest on debenture', 'trade payable', 'trade receivable'
+        'profit on sale', 'interest on debenture', 'trade payable', 'trade receivable',
+        'qualified opinion', 'adverse opinion', 'misstatement', 'financial statement',
+        'basis for', 'material weakness', 'the auditor'
     ]):
+        return False
+
+    # 4. Reject if the text is clearly body content (>6 words and no Q/Que/Ans prefix)
+    words = t_lower.split()
+    has_q_kw = bool(re.search(r'\b(?:q|que|qu|question|ans|answer)\b', t_lower))
+    if len(words) > 6 and not has_q_kw:
         return False
 
     # Extract base digit and sub-letter from q_num (e.g. '1b' -> 1, b; '4—' -> 4, ''; '3b' -> 3, b)
@@ -1662,45 +1746,37 @@ def _match_q_heading_text(text: str, q_num: str) -> bool:
     m_alpha = re.search(r'[a-zA-Z]', q_num[m_num.end():])
     sub_letter = m_alpha.group(0).lower() if m_alpha else ''
 
-    # Normalize circled numbers ①..⑳ -> Q1..Q20
-    for i in range(1, 21):
-        t = t.replace(chr(0x245F + i), f'Q{i}')
-    t = re.sub(r'^[①-⑳]\s*', 'Q ', t).lower()
-
-    d_map = {'1': r'[1il|]', '2': r'[2zd]', '3': r'[3e]', '4': r'[4a]', '5': r'[5s]', '6': r'[6b]', '7': r'7', '8': r'[8b]'}
+    # Use strict digit-only patterns (no OCR-variant character substitutions like [4a] that
+    # match ordinary words like 'Qualified'. Only use strict digit + common OCR confusables.)
+    d_map = {'1': r'[1il|]', '2': r'[2z]', '3': r'3', '4': r'4', '5': r'[5s]', '6': r'6', '7': r'7', '8': r'8'}
     b_pat = d_map.get(base_num, re.escape(base_num))
-    
-    prefix_kw = r'(?:^|\b|\s)[\[|\(]?\s*(?:q|que|qu|question|ans|answer)[\s#\-\.=:_]*'
+
+    prefix_kw = r'(?:^|\b|\s)[\[|(]?\s*(?:q|que|qu|question|ans|answer)[\s#\-\.=:_]*'
 
     # Must have an explicit question/answer keyword OR be at start of line as a label
     if sub_letter:
-        sub_pat = rf'(?:\({sub_letter}\)|{sub_letter})'
+        sub_pat = rf'(?:\({sub_letter}\)|{sub_letter}\b)'
         # e.g. Que = 1(a), Q1a, Q1(a), Que 1a, Q=2(B)
-        p_kw = rf'{prefix_kw}{b_pat}[\s\.\-\)=:_]*{sub_pat}\b'
-        if re.search(p_kw, t):
+        p_kw = rf'{prefix_kw}{b_pat}[\s\.\-\)=:_]*{sub_pat}'
+        if re.search(p_kw, t_lower):
             return True
         # Start of line: e.g. 1(a), (1a), 1a.
-        p_sol = rf'^\s*[\(\[]?\s*{b_pat}[\s\.\-\)=:_]*{sub_pat}\b'
-        if re.search(p_sol, t):
+        p_sol = rf'^\s*[\(\[]?\s*{b_pat}[\s\.\-\)=:_]*{sub_pat}'
+        if re.search(p_sol, t_lower):
             return True
         # e.g. Que = B (for 1b only)
         if base_num in ['1']:
-            p_sub_only = rf'{prefix_kw}{sub_pat}\b'
-            if re.search(p_sub_only, t):
-                return True
-        # e.g. (Que=31) AX (for 3b) where base question is 3
-        p_kw_base = rf'{prefix_kw}{b_pat}'
-        if re.search(p_kw_base, t):
-            other_subs = [c for c in 'abcdef' if c != sub_letter]
-            if not any(f'({c})' in t or f'={c}' in t for c in other_subs):
+            p_sub_only = rf'{prefix_kw}{sub_pat}'
+            if re.search(p_sub_only, t_lower):
                 return True
     else:
-        # If no subpart (e.g. Que=4)
-        p_kw_base = rf'{prefix_kw}{b_pat}'
-        if re.search(p_kw_base, t):
+        # If no subpart (e.g. Que=4): MUST have keyword prefix — never match bare digit in body text
+        p_kw_base = rf'{prefix_kw}{b_pat}(?:[\s\.\-\)=:_]|$)'
+        if re.search(p_kw_base, t_lower):
             return True
+        # Start of line label: e.g. Q4., (4), [4]
         p_sol = rf'^\s*[\(\[]?\s*{b_pat}[\)\]\.\:\-]'
-        if re.search(p_sol, t):
+        if re.search(p_sol, t_lower):
             return True
 
     return False
@@ -1715,6 +1791,9 @@ def _find_heading_y(
 
     if paddle_lines:
         for l in paddle_lines:
+            # Reject page headers, top margin page numbers, or bottom margin
+            if l.get('ymin', 0) < 0.05 or l.get('ymin', 0) > 0.95:
+                continue
             if _match_q_heading_text(l['text'], q_num):
                 return pdf_h * (1.0 - l['ymin'])
 
@@ -1934,15 +2013,31 @@ def _plan_annotations_new(
         n_anns = 1
 
     # ── Determine valid vertical range ───────────────────────────────────────
-    # Hard floor: never annotate inside the top 12% margin.
-    # NOTE: do NOT add heading_y_frac as a floor here. The slice bounds already
-    # incorporate the heading position; adding another offset crushes the zone
-    # on tight pages and prevents any annotation from being placed at all.
-    lower_bound = max(slice_top, ink_top, 0.12)
-    upper_bound = min(slice_bot, ink_bot - 0.02, 0.88)
+    # If page_lines available, find the actual bottom of student text in this slice
+    effective_bot = min(slice_bot, ink_bot)
+    effective_top = max(slice_top, ink_top)
+    if page_lines:
+        slice_lines = [
+            l for l in page_lines
+            if (l.get('ymin', 0) >= slice_top - 0.03) and
+               (l.get('ymin', 0) <= slice_bot + 0.03) and
+               (l.get('ymin', 0) > 0.05) and (l.get('ymax', 0) < 0.95)
+        ]
+        if slice_lines:
+            actual_text_bot = max(l['ymax'] for l in slice_lines)
+            actual_text_top = min(l['ymin'] for l in slice_lines)
+            effective_bot = min(effective_bot, actual_text_bot)
+            effective_top = max(effective_top, actual_text_top)
+
+    # Strict capping: the lower stroke of a tick or cross extends downward (~0.35 * sz).
+    # To guarantee that the tick or cross is completely ON student text and NEVER below
+    # where the student's text ends, we set a strict bottom safety margin of 0.06.
+    ann_bottom_safety = 0.06
+    upper_bound = min(effective_bot - ann_bottom_safety, 0.85)
+    lower_bound = max(effective_top + 0.02, 0.12)
     if upper_bound <= lower_bound:
-        lower_bound = max(0.12, ink_top)
-        upper_bound = min(0.88, ink_bot - 0.02)
+        lower_bound = max(0.12, effective_top)
+        upper_bound = max(lower_bound + 0.03, min(0.85, effective_bot - 0.02))
     if upper_bound <= lower_bound:
         return []  # page has no usable space
 
@@ -1950,8 +2045,14 @@ def _plan_annotations_new(
     slice_h = max(0.05, upper_bound - lower_bound)
     MIN_SEP = 0.18 if slice_h >= 0.55 else (0.12 if slice_h >= 0.30 else 0.08)
 
+    # Hard minimum distance between annotations OF THE SAME QUESTION
+    # (independent of global collision relaxation — this is always enforced)
+    SAME_Q_MIN_SEP = max(MIN_SEP, 0.14)
+
     # ── Place n_anns annotations evenly spaced in [lower_bound, upper_bound] ─
     result = []
+    this_q_placed_fracs: list[float] = []   # tracks only THIS question's placed annotations
+
     for i in range(n_anns):
         if n_anns == 1:
             target_frac = (lower_bound + upper_bound) / 2.0
@@ -1964,19 +2065,46 @@ def _plan_annotations_new(
 
         target_frac = max(lower_bound, min(target_frac, upper_bound))
 
-        # Collision avoidance
-        y_frac = _get_non_colliding_y(target_frac, page_used_y_fracs, lower_bound, upper_bound, MIN_SEP)
+        # Build combined used list: global page positions + THIS question's own positions
+        # (SAME_Q_MIN_SEP enforced against own annotations, MIN_SEP against all others)
+        combined_used = list(page_used_y_fracs)  # already includes prior questions
+
+        # Collision avoidance against global positions
+        y_frac = _get_non_colliding_y(target_frac, combined_used, lower_bound, upper_bound, MIN_SEP)
         if y_frac is None:
-            # Progressive relaxation so required annotations (e.g. 2 ticks or 2 crosses) are not dropped
-            y_frac = _get_non_colliding_y(target_frac, page_used_y_fracs, lower_bound, upper_bound, MIN_SEP * 0.4)
+            # Progressive relaxation against global — but NEVER relax same-question distance
+            y_frac = _get_non_colliding_y(target_frac, combined_used, lower_bound, upper_bound, MIN_SEP * 0.4)
             if y_frac is None:
-                y_frac = _get_non_colliding_y(target_frac, page_used_y_fracs, lower_bound, upper_bound, 0.04)
+                y_frac = _get_non_colliding_y(target_frac, combined_used, lower_bound, upper_bound, 0.04)
             if y_frac is None:
                 continue   # no room — skip this annotation
+
+        # ── Hard same-question spacing: reject if too close to own prior annotations ──
+        if this_q_placed_fracs and any(abs(y_frac - p) < SAME_Q_MIN_SEP for p in this_q_placed_fracs):
+            # Try to find a position that satisfies BOTH global min_sep AND same-q min_sep
+            y_frac_alt = _get_non_colliding_y(
+                target_frac,
+                combined_used + this_q_placed_fracs,  # enforce against both
+                lower_bound, upper_bound,
+                SAME_Q_MIN_SEP,
+            )
+            if y_frac_alt is not None:
+                y_frac = y_frac_alt
+            else:
+                # Can't find a good spot — nudge away from nearest own annotation by SAME_Q_MIN_SEP
+                nearest = min(this_q_placed_fracs, key=lambda p: abs(p - y_frac))
+                direction = 1 if y_frac > nearest else -1
+                y_frac_nudged = nearest + direction * SAME_Q_MIN_SEP
+                y_frac_nudged = max(lower_bound, min(y_frac_nudged, upper_bound))
+                # Accept nudged position if it doesn't collide with a global annotation
+                if all(abs(y_frac_nudged - u) >= 0.04 for u in page_used_y_fracs):
+                    y_frac = y_frac_nudged
+                # else keep original y_frac (best we can do with no space)
 
         y_frac = max(0.12, min(y_frac, 0.88))
         y_pdf  = pdf_h * (1.0 - y_frac) + random.uniform(-4, 4)
         page_used_y_fracs.append(y_frac)
+        this_q_placed_fracs.append(y_frac)   # track for same-question spacing
         if page_excluded_px_rows is not None:
             ann_y_px = int(y_frac * img_h)
             for pr in range(ann_y_px - 40, ann_y_px + 41):
@@ -2211,6 +2339,43 @@ def _generate_checked_copy_impl(
     mcq_total_possible = 30.0
     mcq_page_marked = False
 
+    # Pre-detect the exact page where MCQs are written
+    mcq_target_page = None
+    # 1. Check aligned_data SectionA for MCQ page
+    for sec_k, sec_v in aligned_data.items():
+        if "SectionA" in sec_k and isinstance(sec_v, dict):
+            for mk, mv in sec_v.items():
+                if isinstance(mv, dict):
+                    for p in mv.get("pages", []):
+                        if p > 0:
+                            mcq_target_page = p
+                            break
+                    for subk, subv in mv.items():
+                        if isinstance(subv, dict):
+                            for p in subv.get("pages", []):
+                                if p > 0:
+                                    mcq_target_page = p
+                                    break
+                if mcq_target_page:
+                    break
+        if mcq_target_page:
+            break
+
+    # 2. Check ocr_output.txt for "Section A" / "MCQ" if not found from aligned_data
+    if not mcq_target_page and ocr_text_path and os.path.exists(ocr_text_path):
+        for p_idx in range(num_pages):
+            p_text = _load_ocr_page_text(ocr_text_path, p_idx + 1)
+            if p_text and any(k in p_text.lower() for k in ["section a - mcq", "section a", "mcqs", "multiple choice"]):
+                mcq_target_page = p_idx + 1
+                break
+
+    # 3. Fallback: if full paper or MCQ entries exist, use last page
+    if not mcq_target_page and (is_full_paper or len(_mcq_entries) > 0):
+        mcq_target_page = num_pages
+
+    if mcq_target_page:
+        print(f"  [MCQ] Target page for MCQ total stamp: Page {mcq_target_page}", flush=True)
+
 
     # ── Build per-page drawing plan ────────────────────────────────────────────
     drawing_plan: dict = {}   # page_num → list of plan items
@@ -2295,9 +2460,21 @@ def _generate_checked_copy_impl(
             if "MCQ" in section or "MCQ" in q_id or q_id.isdigit():
                 continue
 
-            answer_pages = aligned_q.get("answer_pages", [])
+            answer_pages = list(aligned_q.get("answer_pages", []))
             if not answer_pages:
                 continue
+
+            q_num_check = aligned_q.get("question_number", q_id).replace("Q", "").strip()
+            # If answer_pages starts with an isolated page (gap > 1) that does NOT have the question heading,
+            # but a subsequent page DOES have the question heading, drop the spurious prefix page(s).
+            if len(answer_pages) > 1 and (answer_pages[1] - answer_pages[0] > 1):
+                p0_text = _load_ocr_page_text(ocr_text_path, answer_pages[0]) if ocr_text_path else ""
+                p1_text = _load_ocr_page_text(ocr_text_path, answer_pages[1]) if ocr_text_path else ""
+                p0_has_h = any(_match_q_heading_text(l, q_num_check) for l in p0_text.split("\n")) if p0_text else False
+                p1_has_h = any(_match_q_heading_text(l, q_num_check) for l in p1_text.split("\n")) if p1_text else False
+                if not p0_has_h and p1_has_h:
+                    print(f"  [spurious-page] Dropping page {answer_pages[0]} for Q{q_num_check} (heading found on page {answer_pages[1]})", flush=True)
+                    answer_pages = answer_pages[1:]
 
             # ── Sibling-page deferral: stamp goes on the LAST page ────────────
             # When this sub-part shares answer_pages with an earlier sibling,
@@ -2442,7 +2619,8 @@ def _generate_checked_copy_impl(
         page_scale = pdf_h / REF_H   # 1.0 for A4, ~3.26 for 2748pt scans
 
         items = drawing_plan.get(page_num, [])
-        if not items and page_num != 1:
+        is_mcq_target = (page_num == mcq_target_page and not mcq_page_marked)
+        if not items and page_num != 1 and not is_mcq_target:
             c.showPage()
             continue
 
@@ -2491,48 +2669,34 @@ def _generate_checked_copy_impl(
                 "mcq_pending": mcq_total_obtained is None,
             }
 
-        # ── MCQ total stamp on page where MCQs are (or fallback to last page) ──────────
-        if (is_full_paper or len(_mcq_entries) > 0) and not mcq_page_marked:
-            ocr_page_text = _load_ocr_page_text(ocr_text_path, page_num) if ocr_text_path else ""
-            has_mcqs_for_stamp = False
-            
-            # If it's the last page and we still haven't marked it, force it here
-            is_last_page = (page_num == num_pages)
-            
-            if ocr_page_text:
-                # Use stricter keywords so we don't accidentally match page 1 because of "(a)"
-                for mcq_key in ["mcq", "multiple choice", "section a", "section-a"]:
-                    if mcq_key in ocr_page_text.lower():
-                        has_mcqs_for_stamp = True
-                        break
-            
-            if has_mcqs_for_stamp or is_last_page:
-                    mcq_page_marked = True
-                    _f = int(28 * page_scale)
-                    _half_h = _f * 2 + int(4 * page_scale) * 2 + _f * 0.20 + 10
-                    mcq_x = pdf_w * 0.15
-                    mcq_y = pdf_h * 0.88 - _half_h
+        # ── MCQ total stamp on page where MCQs are ─────────────────────────────────
+        if is_mcq_target and not mcq_page_marked:
+            mcq_page_marked = True
+            _f = int(28 * page_scale)
+            _half_h = _f * 2 + int(4 * page_scale) * 2 + _f * 0.20 + 10
+            mcq_x = pdf_w * 0.78
+            mcq_y = pdf_h * 0.88 - _half_h
 
-                    if mcq_total_obtained is None:
-                        # MCQ marks pending — draw ?/30 placeholder
-                        _draw_pending_mcq_stamp(c, mcq_x, mcq_y, mcq_total_possible, font_name, scale=page_scale)
-                    else:
-                        _draw_marks_stamp(c, mcq_x, mcq_y, mcq_total_obtained, mcq_total_possible, font_name, scale=page_scale)
+            if mcq_total_obtained is None:
+                # MCQ marks pending — draw ?/30 placeholder
+                _draw_pending_mcq_stamp(c, mcq_x, mcq_y, mcq_total_possible, font_name, scale=page_scale)
+            else:
+                _draw_marks_stamp(c, mcq_x, mcq_y, mcq_total_obtained, mcq_total_possible, font_name, scale=page_scale)
 
-                    _manifest["mcq_total"] = {
-                        "obtained": mcq_total_obtained,   # None = pending
-                        "total":    mcq_total_possible,
-                        "pending":  mcq_total_obtained is None,
-                        "page":     page_num,
-                        "x":        mcq_x,
-                        "y":        mcq_y,
-                        "scale":    page_scale,
-                    }
+            _manifest["mcq_total"] = {
+                "obtained": mcq_total_obtained,   # None = pending
+                "total":    mcq_total_possible,
+                "pending":  mcq_total_obtained is None,
+                "page":     page_num,
+                "x":        mcq_x,
+                "y":        mcq_y,
+                "scale":    page_scale,
+            }
 
-                    # Exclude pixels so feedback search doesn't land on it
-                    stamp_cy_px = int((1.0 - mcq_y / pdf_h) * img_h)
-                    for pr in range(stamp_cy_px - 80, stamp_cy_px + 81):
-                        page_excluded_px_rows.add(pr)
+            # Exclude pixels so feedback search doesn't land on it
+            stamp_cy_px = int((1.0 - mcq_y / pdf_h) * img_h)
+            for pr in range(stamp_cy_px - 80, stamp_cy_px + 81):
+                page_excluded_px_rows.add(pr)
 
 
 
@@ -2556,8 +2720,17 @@ def _generate_checked_copy_impl(
         # Compute ink bounds from PaddleOCR bounding boxes (or fallback to image analysis)
         if paddle_lines:
             ink_top = max(0.04, min(l["ymin"] for l in paddle_lines))
-            ink_bot = min(0.96, max(l["ymax"] for l in paddle_lines))
-            print(f"    [PaddleOCR] Extracted {len(paddle_lines)} text boxes: ink_top={ink_top:.3f}, ink_bot={ink_bot:.3f}", flush=True)
+            # For ink_bot: filter to high-confidence boxes only.
+            # Bleed-through text (from back of thin answer sheets) appears with low OCR confidence
+            # (< 0.50) because it's a faint, mirrored ghost image. Actual student writing
+            # is detected with confidence >= 0.60 in most cases.
+            HIGH_CONF_THR = 0.60
+            high_conf_lines = [l for l in paddle_lines if l.get('score', 1.0) >= HIGH_CONF_THR]
+            if not high_conf_lines:
+                high_conf_lines = paddle_lines  # fallback: use all if none pass threshold
+            ink_bot = min(0.96, max(l["ymax"] for l in high_conf_lines))
+            print(f"    [PaddleOCR] Extracted {len(paddle_lines)} text boxes ({len(high_conf_lines)} high-conf): ink_top={ink_top:.3f}, ink_bot={ink_bot:.3f}", flush=True)
+
         elif text_blocks:
             ink_top = max(0.04, min(b[0] - b[1]/2 for b in text_blocks))
             ink_bot = min(0.96, max(b[0] + b[1]/2 for b in text_blocks))
@@ -2567,9 +2740,18 @@ def _generate_checked_copy_impl(
 
         # ── Authoritative ink_bot scan ──────────────────────────────────────────
         strict_ink_bot = _compute_ink_bot_strict(gray, img_w, img_h)
-        if strict_ink_bot > ink_bot and not paddle_lines:
+        # Always cap ink_bot at strict_ink_bot:
+        # PaddleOCR detects page decorations (table lines, 'Page No.' cells, etc.)
+        # at the page bottom, inflating ink_bot. The pixel scan with threshold=180
+        # correctly ignores these and returns the true handwriting bottom.
+        # Allow a small tolerance (+0.05) since strict scan may be slightly conservative.
+        if strict_ink_bot + 0.05 < ink_bot:
+            print(f"    [ink_bot] PaddleOCR={ink_bot:.3f} capped by strict_scan={strict_ink_bot:.3f}", flush=True)
+            ink_bot = strict_ink_bot + 0.03  # small buffer above strict bottom
+        elif not paddle_lines and strict_ink_bot > ink_bot:
             ink_bot = strict_ink_bot
         print(f"    [DEBUG] Final ink bounds: ink_top={ink_top:.3f}, ink_bot={ink_bot:.3f}", flush=True)
+
 
         # Ensure ink_bot is always at least 0.10 below ink_top
         ink_bot = max(ink_bot, ink_top + 0.10)
@@ -2588,20 +2770,9 @@ def _generate_checked_copy_impl(
                 pre_heading_fracs[_it["q_num"]] = 1.0 - _hy / pdf_h  # → image frac
                 print(f"    [heading] Found Q{_it['q_num']} heading at y_frac={pre_heading_fracs[_it['q_num']]:.3f}", flush=True)
 
-        # Also search paddle_lines for un-attempted phantom questions that appear on this page
-        _items_base = {re.search(r'\d+', it['q_num']).group(0) for it in items if re.search(r'\d+', it['q_num'])}
-        if paddle_lines:
-            for l in paddle_lines:
-                for _sec, _sec_data in graded_answers.items():
-                    if isinstance(_sec_data, dict):
-                        for _qid in _sec_data:
-                            _clean_q = _qid.replace("Q", "").strip()
-                            m_base = re.search(r'\d+', _clean_q)
-                            if m_base and m_base.group(0) in _items_base:
-                                continue
-                            if _clean_q not in pre_heading_fracs and _match_q_heading_text(l["text"], _clean_q):
-                                pre_heading_fracs[_clean_q] = l["ymin"]
-                                print(f"    [heading] Found phantom Q{_clean_q} heading at y_frac={l['ymin']:.3f}: \"{l['text']}\"", flush=True)
+        # NOTE: Phantom heading scanner removed — it was matching MCQ body text
+        # (circled numbers ①②③, letters like 'Qualified') against question numbers,
+        # causing false phantom headings that split vertical slices incorrectly.
 
         # Track chosen Y coordinates (as fractions) globally per page
         page_used_y_fracs = []
@@ -2931,6 +3102,12 @@ def _generate_checked_copy_impl(
                         sz = random.uniform(65, 80) * page_scale
                     else:
                         sz = random.uniform(55, 70) * page_scale
+
+                    # Strict cap: bottom of tick/cross must NEVER go below student text
+                    min_allowed_y_pdf = pdf_h * (1.0 - ink_bot) + (sz * 0.38 + 10)
+                    if draw_y < min_allowed_y_pdf:
+                        draw_y = min_allowed_y_pdf
+
                     _manifest["questions"][_mkey]["ticks_crosses"].append({
                         "page":   page_num,
                         "x":      draw_x,
