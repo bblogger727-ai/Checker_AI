@@ -2937,16 +2937,17 @@ def _generate_checked_copy_impl(
                         print(f"    ← left-margin stamp at x={marks_x:.0f}, y={marks_y_placed:.0f}", flush=True)
                     else:
                         # Direct zone placement in left margin.
-                        # When multiple questions share a page, spread stamps:
-                        # - First question (my_order=0): very close to its zone TOP
-                        # - Last question (my_order=n_items-1): very close to its zone BOTTOM
+                        # When multiple questions share a page, spread stamps widely:
+                        # - First question (order 0): very close to its zone TOP (+ 2%)
+                        # - Last question (order n-1): 80% down its zone (much lower)
                         # - Middle questions: midpoint of their zone
+                        zone_span = q_bot_frac - q_top_frac
                         if n_items > 1 and my_order == 0:
                             # Top question: stamp near top of its zone
                             _target_stamp_frac = q_top_frac + 0.02
                         elif n_items > 1 and my_order == n_items - 1:
-                            # Bottom question: stamp near bottom of its zone
-                            _target_stamp_frac = q_bot_frac - 0.06
+                            # Bottom question: stamp 80% down its zone — well separated from upper
+                            _target_stamp_frac = q_top_frac + zone_span * 0.80
                         elif n_items > 2:
                             # Middle question: midpoint of zone
                             _target_stamp_frac = (q_top_frac + q_bot_frac) / 2.0
