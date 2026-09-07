@@ -310,7 +310,7 @@
 /* Pipeline error */
 .pipeline-error {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     gap: 12px;
     padding: 14px 18px;
     background: rgba(252,129,129,0.08);
@@ -319,6 +319,37 @@
     font-size: 13px;
     color: #fc8181;
 }
+
+.pipeline-error-actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.recheck-btn {
+    padding: 8px 16px;
+    background: linear-gradient(135deg, #b45309, #d97706);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: opacity 0.2s, transform 0.1s;
+    white-space: nowrap;
+}
+
+.recheck-btn:hover:not(:disabled) {
+    opacity: 0.88;
+    transform: translateY(-1px);
+}
+
+.recheck-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
 
 /* ── Result card ─────────────────────────────────────────────────────────── */
 

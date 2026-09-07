@@ -601,6 +601,7 @@ def get_pipeline_status(task_id: str):
     # Attach availability flags for download links
     base["checked_copy_ready"]   = (output_dir / "checked_copy.pdf").exists()
     base["grading_report_ready"] = (output_dir / "grading_report.pdf").exists()
+    base["grading_ready"]        = (output_dir / "grading_final.json").exists()
 
     return JSONResponse(content=base)
 
@@ -856,39 +857,7 @@ def get_pipeline_manifest(task_id: str):
     return get_manifest_summary(str(manifest_path))
 
 
-@router.post("/recheck/{task_id}")
-async def recheck_pipeline(task_id: str):
-    """
-    Re-run ONLY Stage 7 (generate_checked_copy_v2) for an existing job.
-    Overwrites checked_copy.pdf and checked_copy_manifest.json in-place.
-    """
-    job_dir = _get_job_dir(task_id)
-    if not job_dir.exists():
-        raise HTTPException(status_code=404, detail="Task not found")
 
-
-@router.get("/manifest/{task_id}")
-def get_pipeline_manifest(task_id: str):
-    """
-    Returns the annotation manifest for a pipeline task.
-    """
-    job_dir = _JOBS_DIR / task_id
-    manifest_path = job_dir / "checked_copy_manifest.json"
-    if not manifest_path.exists():
-        raise HTTPException(
-            status_code=404, 
-            detail="Annotation manifest not found. Please check this paper again to generate it."
-        )
-    
-    # We use the existing summary helper
-    import sys, os
-    # Add root to sys.path to import patch_checked_copy
-    root_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-    if root_dir not in sys.path:
-        sys.path.insert(0, root_dir)
-        
-    from patch_checked_copy import get_manifest_summary
-    return get_manifest_summary(str(manifest_path))
 
 
 
@@ -906,7 +875,7 @@ async def recheck_pipeline(task_id: str):
     Overwrites checked_copy.pdf and checked_copy_manifest.json in-place.
     Returns { task_id, status } immediately; the job runs in a background thread.
     """
-    job_dir = _JOBS_DIR / task_id
+    job_dir = _get_job_dir(task_id)
     if not job_dir.exists():
         raise HTTPException(status_code=404, detail="Task not found")
 

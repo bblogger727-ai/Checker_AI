@@ -6,6 +6,7 @@ import {
     getPaperCatalog, getPipelineJobs,
     runOldPipeline, runNewPipeline, runFeedbackPipeline,
     getPipelineStatus, downloadPipelineResult, pipelineAction,
+    recheckPipeline,
     getStats, resetStats
 } from '../services/api';
 import './Dashboard.css';
@@ -22,17 +23,19 @@ function saveBlob(blob, filename) {
 }
 
 const STAGE_LABELS = {
-    started:    'Starting pipeline…',
-    stage_1:    'Stage 1 — Extracting question schema',
-    stage_1_2:  'Stage 1+2 — Building schema from paper JSON',
-    stage_2:    'Stage 2 — Extracting model answers',
-    stage_3:    'Stage 3 — Running OCR on student answer sheet',
-    stage_4:    'Stage 4 — Aligning answers',
-    stage_5:    'Stage 5 — Grading with Claude',
-    stage_6:    'Stage 6 — Generating PDF report',
-    stage_7:    'Stage 7 — Annotating checked copy',
-    completed:  'Complete!',
-    failed:     'Failed',
+    started:         'Starting pipeline…',
+    stage_1:         'Stage 1 — Extracting question schema',
+    stage_1_2:       'Stage 1+2 — Building schema from paper JSON',
+    stage_2:         'Stage 2 — Extracting model answers',
+    stage_3:         'Stage 3 — Running OCR on student answer sheet',
+    stage_4:         'Stage 4 — Aligning answers',
+    stage_5:         'Stage 5 — Grading with Claude',
+    stage_6:         'Stage 6 — Generating PDF report',
+    stage_7:         'Stage 7 — Annotating checked copy',
+    recheck:         'Re-generating checked copy (Stage 7)…',
+    recheck_failed:  'Checked copy generation failed',
+    completed:       'Complete!',
+    failed:          'Failed',
 };
 
 const STAGE_IDX = ['started','stage_1','stage_1_2','stage_2','stage_3','stage_4','stage_5','stage_6','stage_7','completed'];
@@ -228,10 +231,11 @@ function ProfileStats({ profile }) {
 
 function OldPapersTab() {
     const navigate = useNavigate();
-    const [form, setForm]     = useState({ studentName: '', qpPdf: null, saPdf: null, asPdf: null, profile: 'Profile 1' });
-    const [taskId, setTaskId] = useState(null);
-    const [status, setStatus] = useState(null);
-    const [running, setRunning] = useState(false);
+    const [form, setForm]         = useState({ studentName: '', qpPdf: null, saPdf: null, asPdf: null, profile: 'Profile 1' });
+    const [taskId, setTaskId]     = useState(null);
+    const [status, setStatus]     = useState(null);
+    const [running, setRunning]   = useState(false);
+    const [isRechecking, setIsRechecking] = useState(false);
     const pollRef = useRef(null);
 
     const clearPoll = () => { if (pollRef.current) clearInterval(pollRef.current); };
@@ -283,16 +287,32 @@ function OldPapersTab() {
         }
     };
 
+    const handleRecheck = async () => {
+        if (!taskId) return;
+        setIsRechecking(true);
+        try {
+            await recheckPipeline(taskId);
+            setStatus(prev => ({ ...prev, stage: 'recheck', status: 'running', message: 'Re-generating checked copy…' }));
+            setRunning(true);
+            startPolling(taskId);
+        } catch (err) {
+            setStatus(prev => ({ ...prev, stage: 'recheck_failed', status: 'failed', error: err.response?.data?.detail || err.message }));
+        } finally {
+            setIsRechecking(false);
+        }
+    };
+
     const reset = () => {
         clearPoll();
         setTaskId(null);
         setStatus(null);
         setRunning(false);
+        setIsRechecking(false);
         setForm(prev => ({ studentName: '', qpPdf: null, saPdf: null, asPdf: null, profile: prev.profile }));
     };
 
     const isDone = status?.stage === 'completed' || status?.status === 'done';
-    const isFailed = status?.stage === 'failed' || status?.status === 'failed' || errorMsg;
+    const isFailed = status?.stage === 'failed' || status?.status === 'failed' || status?.stage === 'recheck_failed' || errorMsg;
 
     if (isDone) {
         return (
@@ -397,8 +417,21 @@ function OldPapersTab() {
 
             {isFailed && (
                 <div className="pipeline-error">
-                    ⚠️ {errorMsg || status?.error || 'Pipeline failed. Please try again.'}
-                    <button type="button" className="reset-btn" onClick={reset}>Reset</button>
+                    <span>⚠️ {errorMsg || status?.error || 'Pipeline failed. Please try again.'}</span>
+                    <div className="pipeline-error-actions">
+                        {status?.grading_ready && taskId && (
+                            <button
+                                type="button"
+                                className="recheck-btn"
+                                onClick={handleRecheck}
+                                disabled={isRechecking}
+                                title="Re-run only Stage 7 (checked copy generation) using existing grading results"
+                            >
+                                {isRechecking ? '⏳ Retrying…' : '🔄 Retry Checked Copy'}
+                            </button>
+                        )}
+                        <button type="button" className="reset-btn" onClick={reset}>Reset</button>
+                    </div>
                 </div>
             )}
 
@@ -417,14 +450,15 @@ function OldPapersTab() {
 
 function NewPapersTab() {
     const navigate  = useNavigate();
-    const [catalog, setCatalog] = useState(null);
+    const [catalog, setCatalog]   = useState(null);
     const [catalogError, setCatalogError] = useState(false);
-    const [sel,     setSel]     = useState({ exam: '', subject: '', type: '', paper: '' });
-    const [form,    setForm]    = useState({ studentName: '', asPdf: null, profile: 'Profile 1' });
-    const [taskId,  setTaskId]  = useState(null);
-    const [status,  setStatus]  = useState(null);
-    const [running, setRunning] = useState(false);
+    const [sel,     setSel]       = useState({ exam: '', subject: '', type: '', paper: '' });
+    const [form,    setForm]      = useState({ studentName: '', asPdf: null, profile: 'Profile 1' });
+    const [taskId,  setTaskId]    = useState(null);
+    const [status,  setStatus]    = useState(null);
+    const [running, setRunning]   = useState(false);
     const [errorMsg, setErrorMsg] = useState(null);
+    const [isRechecking, setIsRechecking] = useState(false);
 
     const handleAction = async (action) => {
         try {
@@ -496,17 +530,33 @@ function NewPapersTab() {
         }
     };
 
+    const handleRecheck = async () => {
+        if (!taskId) return;
+        setIsRechecking(true);
+        try {
+            await recheckPipeline(taskId);
+            setStatus(prev => ({ ...prev, stage: 'recheck', status: 'running', message: 'Re-generating checked copy…' }));
+            setRunning(true);
+            startPolling(taskId);
+        } catch (err) {
+            setStatus(prev => ({ ...prev, stage: 'recheck_failed', status: 'failed', error: err.response?.data?.detail || err.message }));
+        } finally {
+            setIsRechecking(false);
+        }
+    };
+
     const reset = () => {
         clearPoll();
         setTaskId(null);
         setStatus(null);
         setRunning(false);
+        setIsRechecking(false);
         setForm(prev => ({ studentName: '', asPdf: null, profile: prev.profile }));
         setSel({ exam: '', subject: '', type: '', paper: '' });
     };
 
     const isDone   = status?.stage === 'completed' || status?.status === 'done';
-    const isFailed = status?.stage === 'failed'    || status?.status === 'failed' || errorMsg;
+    const isFailed = status?.stage === 'failed' || status?.status === 'failed' || status?.stage === 'recheck_failed' || errorMsg;
 
     if (isDone) {
         return (
@@ -676,8 +726,21 @@ function NewPapersTab() {
 
             {isFailed && (
                 <div className="pipeline-error">
-                    ⚠️ {errorMsg || status?.error || 'Pipeline failed. Please try again.'}
-                    <button type="button" className="reset-btn" onClick={reset}>Reset</button>
+                    <span>⚠️ {errorMsg || status?.error || 'Pipeline failed. Please try again.'}</span>
+                    <div className="pipeline-error-actions">
+                        {status?.grading_ready && taskId && (
+                            <button
+                                type="button"
+                                className="recheck-btn"
+                                onClick={handleRecheck}
+                                disabled={isRechecking}
+                                title="Re-run only Stage 7 (checked copy generation) using existing grading results"
+                            >
+                                {isRechecking ? '⏳ Retrying…' : '🔄 Retry Checked Copy'}
+                            </button>
+                        )}
+                        <button type="button" className="reset-btn" onClick={reset}>Reset</button>
+                    </div>
                 </div>
             )}
 
