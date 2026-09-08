@@ -169,9 +169,19 @@
           "answer": "c",
           "verdict": null,
           "_serial": 10
-        },
+        }
+      ],
+      "mcq_count": 4,
+      "unique_id": "29-CS-15"
+    },
+    {
+      "type": "case_study",
+      "chapter_number": "29",
+      "chapter_name": "CASE SCENARIOS",
+      "case_text": "Delta Limited has three Units - Alpha, Beta and Gamma. It transferred its Unit Gamma to Epsilon Limited by way of slump sale on 1st April, 2025. The Balance Sheet of Delta Limited as on that date is given below:\n\n| Liabilities | ₹ (in lakhs) | Assets | ₹ (in lakhs) |\n| :--- | :--- | :--- | :--- |\n| Paid up capital | 2,550 | Fixed Assets: |  |\n| Reserve & Surplus | 930 | Unit Alpha | 225 |\n|  |  | Unit Beta | 225 |\n| Liabilities: |  | Unit Gamma | 825 |\n| Unit Alpha | 60 | Other Assets: |  |\n| Unit Beta | 165 | Unit Alpha | 780 |\n| Unit Gamma | 135 | Unit Beta | 1,200 |\n|  |  | Unit Gamma | 585 |\n| Total | 3,840 | Total | 3,840 |\n\nAdditional information:\n(i) Lump sum consideration on transfer of Unit Gamma is ₹ 1,320 lakhs.\n(ii) Fixed assets of Unit Gamma include land which was purchased at ₹ 90 lakhs in March, 2024 and revalued at ₹ 135 lakhs as on March 31, 2025. The stamp duty value of land on that date was ₹ 130 lakhs.\n(iii) Other fixed assets represent plant and machinery and furniture, which are reflected at ₹ 690 lakhs (i.e., ₹ 825 lakhs less value of land) which represents written down value of those assets as per books. The written down value of these assets u/s 43(6) of the Income-tax Act, 1961 is ₹ 615 lakhs.\n(iv) Other assets do not include jewellery, artistic work, shares and securities.\n(v) Liabilities represent ascertained liabilities and does not include provision for taxation or proposed dividend.\n(vi) Unit Gamma was set up by Delta Limited in March, 2024.\n(vii) Assume that the turnover of Delta Ltd. for F.Y. 2023-24 is ₹ 1295 lakhs and Delta Ltd. has not opted for section 115BAA.\n(viii) Book profit of Delta Ltd. computed as per section 115JB is ₹ 400 lakhs\n\nFrom the information given above, choose the most appropriate answer to the following questions -",
+      "questions": [
         {
-          "q_num": 5,
+          "q_num": 1,
           "question": "For computing capital gains on slump sale of Unit Gamma, what would be the deemed cost of acquisition and improvement for the purposes of section 48 and 49 and the resultant capital gains? (Chapter 4: Capital Gains)",
           "options": {
             "a": "₹ 1275 lakhs and ₹ 45 lakhs, respectively",
@@ -185,7 +195,7 @@
           "_serial": 11
         },
         {
-          "q_num": 6,
+          "q_num": 2,
           "question": "What is the tax liability on capital gain arising on slump sale of Unit Gamma? (Chapter 4: Capital Gains)",
           "options": {
             "a": "₹ $55,08,360$",
@@ -199,7 +209,7 @@
           "_serial": 12
         },
         {
-          "q_num": 7,
+          "q_num": 3,
           "question": "If Unit Gamma was set up on March, 2011 instead of March, 2023, and the sale consideration is ₹ 3000 lakhs instead of ₹ 1320 lakhs, what would be the capital gains arising to Delta Ltd. on slump sale and the resultant tax liability? The CII of F.Y.2009-10 is 148 and F.Y.2025-26 is 376 . Assume that there is no change in any other information given in the case scenario. (Chapter 4: Capital Gains)",
           "options": {
             "a": "₹ 416.86 lakhs and ₹ 92.78 lakhs, respectively",
@@ -213,7 +223,7 @@
           "_serial": 13
         },
         {
-          "q_num": 8,
+          "q_num": 4,
           "question": "What would be the minimum alternate tax computed under section 115JB for A.Y.2025-26, if Delta Ltd. is located in an IFSC and derives its income solely in convertible foreign exchange? (Chapter 9: Assessment of Various Entities)",
           "options": {
             "a": "₹ $66,76,800$",
@@ -227,7 +237,7 @@
           "_serial": 14
         },
         {
-          "q_num": 9,
+          "q_num": 5,
           "question": "If Delta Ltd. is a company, being a unit of an IFSC, deriving income solely in convertible foreign exchange and has distributed dividend of ₹ 200 lakhs in the P.Y.2025-26, what would be the tax implications in the hands of Delta Ltd. and shareholders? (Chapter 9: Assessment of Various Entities)",
           "options": {
             "a": "No distribution tax in the hands of Delta Ltd. and no income-tax in the hands of the shareholders in respect of dividend so distributed",
@@ -241,8 +251,8 @@
           "_serial": 15
         }
       ],
-      "mcq_count": 9,
-      "unique_id": "29-CS-15"
+      "mcq_count": 5,
+      "unique_id": "29-CS-16"
     }
   ],
   "section_b": [
