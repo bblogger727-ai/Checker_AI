@@ -1041,6 +1041,102 @@ function ExamsTab() {
 /* EDIT CHECKED COPY TAB                                                      */
 /* ══════════════════════════════════════════════════════════════════════════ */
 
+function JobCard({ job, navigate, onRecheckDone }) {
+    const [isRechecking, setIsRechecking] = useState(false);
+    const [recheckError, setRecheckError] = useState(null);
+    const [recheckDone,  setRecheckDone]  = useState(false);
+    const pollRef = useRef(null);
+
+    const clearPoll = () => { if (pollRef.current) clearInterval(pollRef.current); };
+    useEffect(() => () => clearPoll(), []);
+
+    const handleRecheck = async (e) => {
+        e.stopPropagation();
+        setIsRechecking(true);
+        setRecheckError(null);
+        try {
+            await recheckPipeline(job.task_id);
+            pollRef.current = setInterval(async () => {
+                try {
+                    const s = await getPipelineStatus(job.task_id);
+                    if (s.stage === 'completed' || s.status === 'done') {
+                        clearPoll();
+                        setIsRechecking(false);
+                        setRecheckDone(true);
+                        onRecheckDone();
+                    } else if (s.stage === 'recheck_failed' || s.status === 'failed') {
+                        clearPoll();
+                        setIsRechecking(false);
+                        setRecheckError(s.error || 'Recheck failed.');
+                    }
+                } catch (_) {}
+            }, 3000);
+        } catch (err) {
+            setIsRechecking(false);
+            setRecheckError(err.response?.data?.detail || err.message);
+        }
+    };
+
+    // Show retry when grading succeeded but no checked copy yet
+    const canRecheck = job.grading_ready && !job.checked_copy_available && !recheckDone;
+
+    return (
+        <div className="job-card" onClick={() => navigate(`/checked-paper/${job.task_id}/edit`)}>
+            <div className="job-card-header">
+                <span className="job-student-icon">👤</span>
+                <h3 className="job-student-name">{job.student_name}</h3>
+                <span className={`job-status-badge ${job.status}`}>{job.status}</span>
+            </div>
+
+            <div className="job-score-row">
+                <span className="job-score-lbl">Score:</span>
+                <span className="job-score-val">
+                    {job.total_possible > 0 ? `${job.total_obtained.toFixed(1)} / ${job.total_possible.toFixed(1)}` : 'Pending'}
+                </span>
+                {job.total_possible > 0 && (
+                    <span className="job-score-pct">({job.percentage.toFixed(1)}%)</span>
+                )}
+            </div>
+
+            <div className="job-card-footer">
+                <span className="job-date">
+                    {new Date(job.created_at * 1000).toLocaleDateString(undefined, { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' })}
+                </span>
+                <div className="job-card-actions" onClick={(e) => e.stopPropagation()}>
+                    {canRecheck && (
+                        <button
+                            type="button"
+                            className="recheck-btn"
+                            onClick={handleRecheck}
+                            disabled={isRechecking}
+                            title="Re-run Stage 7 to generate the checked copy (no re-grading, no API cost)"
+                        >
+                            {isRechecking ? '⏳ Generating…' : '🔄 Retry Checked Copy'}
+                        </button>
+                    )}
+                    {recheckDone && (
+                        <span className="recheck-success">✅ Checked copy ready</span>
+                    )}
+                    {recheckError && (
+                        <span className="recheck-error-msg" title={recheckError}>⚠️ Retry failed</span>
+                    )}
+                    <button
+                        type="button"
+                        className="edit-copy-btn"
+                        onClick={(e) => {
+                            e.stopPropagation();
+                            navigate(`/checked-paper/${job.task_id}/edit`);
+                        }}
+                        disabled={!job.checked_copy_available && !recheckDone}
+                    >
+                        ✏️ Edit Checked Copy
+                    </button>
+                </div>
+            </div>
+        </div>
+    );
+}
+
 function EditCheckedCopyTab() {
     const navigate = useNavigate();
     const [jobs, setJobs]       = useState([]);
@@ -1055,7 +1151,7 @@ function EditCheckedCopyTab() {
         finally { setLoading(false); }
     };
 
-    const filteredJobs = jobs.filter(j => 
+    const filteredJobs = jobs.filter(j =>
         j.student_name.toLowerCase().includes(filter.toLowerCase()) ||
         j.task_id.toLowerCase().includes(filter.toLowerCase())
     );
@@ -1089,39 +1185,12 @@ function EditCheckedCopyTab() {
             ) : (
                 <div className="jobs-grid">
                     {filteredJobs.map(job => (
-                        <div key={job.task_id} className="job-card" onClick={() => navigate(`/checked-paper/${job.task_id}/edit`)}>
-                            <div className="job-card-header">
-                                <span className="job-student-icon">👤</span>
-                                <h3 className="job-student-name">{job.student_name}</h3>
-                                <span className={`job-status-badge ${job.status}`}>{job.status}</span>
-                            </div>
-                            
-                            <div className="job-score-row">
-                                <span className="job-score-lbl">Score:</span>
-                                <span className="job-score-val">
-                                    {job.total_possible > 0 ? `${job.total_obtained.toFixed(1)} / ${job.total_possible.toFixed(1)}` : 'Pending'}
-                                </span>
-                                {job.total_possible > 0 && (
-                                    <span className="job-score-pct">({job.percentage.toFixed(1)}%)</span>
-                                )}
-                            </div>
-
-                            <div className="job-card-footer">
-                                <span className="job-date">
-                                    {new Date(job.created_at * 1000).toLocaleDateString(undefined, { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' })}
-                                </span>
-                                <button
-                                    type="button"
-                                    className="edit-copy-btn"
-                                    onClick={(e) => {
-                                        e.stopPropagation();
-                                        navigate(`/checked-paper/${job.task_id}/edit`);
-                                    }}
-                                >
-                                    ✏️ Edit Checked Copy
-                                </button>
-                            </div>
-                        </div>
+                        <JobCard
+                            key={job.task_id}
+                            job={job}
+                            navigate={navigate}
+                            onRecheckDone={loadJobs}
+                        />
                     ))}
                 </div>
             )}

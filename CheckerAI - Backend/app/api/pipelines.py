@@ -770,6 +770,7 @@ def list_pipeline_jobs():
                 "percentage": (total_obtained / total_possible * 100) if total_possible else 0.0,
                 "status": status,
                 "checked_copy_available": checked_pdf.exists(),
+                "grading_ready":          grading_json.exists(),
             })
 
     jobs.sort(key=lambda j: j["created_at"], reverse=True)

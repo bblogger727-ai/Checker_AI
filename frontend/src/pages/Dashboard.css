@@ -792,15 +792,25 @@
 
 .job-card-footer {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
+    gap: 10px;
     padding-top: 12px;
     border-top: 1px solid rgba(255, 255, 255, 0.06);
+    flex-wrap: wrap;
 }
 
 .job-date {
     font-size: 12px;
     color: #64748b;
+    padding-top: 4px;
+}
+
+.job-card-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
 }
 
 .edit-copy-btn {
@@ -816,8 +826,28 @@
     box-shadow: 0 2px 8px rgba(2, 132, 199, 0.3);
 }
 
-.edit-copy-btn:hover {
+.edit-copy-btn:hover:not(:disabled) {
     background: linear-gradient(135deg, #0369a1 0%, #075985 100%);
     box-shadow: 0 4px 12px rgba(2, 132, 199, 0.5);
     transform: translateY(-1px);
 }
+
+.edit-copy-btn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.recheck-success {
+    font-size: 12px;
+    font-weight: 600;
+    color: #23a559;
+    white-space: nowrap;
+}
+
+.recheck-error-msg {
+    font-size: 12px;
+    color: #fc8181;
+    cursor: help;
+    white-space: nowrap;
+}
+
