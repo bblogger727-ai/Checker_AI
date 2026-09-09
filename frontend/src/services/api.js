@@ -171,7 +171,7 @@ export const runOldPipeline = async (studentName, qpPdf, saPdf, asPdf, profile =
     fd.append('profile', profile);
     const response = await api.post('/api/pipelines/run/old', fd, {
         headers: { 'Content-Type': 'multipart/form-data' },
-        timeout: 30000,   // just for the initial kick-off
+        timeout: 120000,   // 120s — covers PDF upload on slow Docker connections
     });
     return response.data;
 };
@@ -188,7 +188,7 @@ export const runNewPipeline = async (studentName, ftPaperPath, asPdf, profile = 
     fd.append('profile', profile);
     const response = await api.post('/api/pipelines/run/new', fd, {
         headers: { 'Content-Type': 'multipart/form-data' },
-        timeout: 30000,
+        timeout: 120000,   // 120s — covers PDF upload on slow Docker connections
     });
     return response.data;
 };
@@ -205,7 +205,7 @@ export const runFeedbackPipeline = async (studentName, saPdf, asPdf, marksJsonSt
     fd.append('marks_json_str', marksJsonStr);
     const response = await api.post('/api/pipelines/run/feedback', fd, {
         headers: { 'Content-Type': 'multipart/form-data' },
-        timeout: 30000,
+        timeout: 120000,   // 120s — covers PDF upload on slow Docker connections
     });
     return response.data;
 };
