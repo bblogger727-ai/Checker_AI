@@ -129,6 +129,22 @@ def get_paper_catalog():
 
 _tasks: dict[str, dict] = {}   # task_id → { status, output_dir, thread }
 
+# Global semaphore: only 1 full pipeline runs at a time.
+# This prevents concurrent PaddleOCR + Claude loads from spiking RAM.
+# A second submission will queue (its thread blocks here) until the first finishes.
+_pipeline_semaphore = threading.Semaphore(1)
+
+_TASKS_MAX_HISTORY = 100   # prune oldest entries beyond this count to prevent memory growth
+
+def _prune_tasks():
+    """Keep only the most recent _TASKS_MAX_HISTORY task entries in memory."""
+    if len(_tasks) > _TASKS_MAX_HISTORY:
+        # Keep the last N by insertion order (Python 3.7+ dicts are ordered)
+        to_remove = list(_tasks.keys())[:-_TASKS_MAX_HISTORY]
+        for k in to_remove:
+            _tasks.pop(k, None)
+
+
 
 def _save_upload(upload: UploadFile, dest: Path):
     content = upload.file.read()
@@ -184,49 +200,75 @@ def _resolve_profile_api_keys(profile: str) -> dict:
 
 
 def _run_subprocess(task_id: str, cmd: list[str], output_dir: Path, profile_api_keys: dict = None, profile: str = "Profile 1", paper_type: str = "unknown"):
-    """Run a pipeline subprocess and monitor it. Updates _tasks on completion."""
-    _tasks[task_id]["status"] = "running"
-    _tasks[task_id]["pid"]    = None
+    """Run a pipeline subprocess and monitor it. Updates _tasks on completion.
     
-    env = os.environ.copy()
-    if profile_api_keys:
-        for k, v in profile_api_keys.items():
-            if v:
-                env[k] = v
-                print(f"[PROFILE ENV] Injected {profile} override into subprocess env for {k}")
+    Acquires the global _pipeline_semaphore first — only 1 pipeline runs at a time
+    to prevent concurrent PaddleOCR + Claude loads from causing RAM spikes / OOM kills.
+    """
+    _prune_tasks()
+
+    # If another pipeline is running, update status so the UI shows something meaningful
+    if not _pipeline_semaphore.acquire(blocking=False):
+        # Update result.json to show queued status
+        result_file = output_dir / "result.json"
+        try:
+            data = json.loads(result_file.read_text(encoding="utf-8")) if result_file.exists() else {}
+            data.update({"stage": "started", "status": "queued", "message": "Waiting in queue — another paper is being checked..."})
+            result_file.write_text(json.dumps(data, indent=2), encoding="utf-8")
+        except Exception:
+            pass
+        print(f"[PIPELINE QUEUE] Task {task_id[:12]}... waiting for semaphore (another pipeline is running)", flush=True)
+        _pipeline_semaphore.acquire(blocking=True)   # now block until the slot is free
+        print(f"[PIPELINE QUEUE] Task {task_id[:12]}... acquired semaphore, starting now", flush=True)
 
     try:
-        proc = subprocess.Popen(
-            cmd,
-            cwd=str(_BACKEND_DIR),
-            stdout=subprocess.PIPE,
-            stderr=subprocess.STDOUT,
-            text=True,
-            env=env,
-        )
-        _tasks[task_id]["pid"] = proc.pid
+        _tasks[task_id]["status"] = "running"
+        _tasks[task_id]["pid"]    = None
 
-        # Stream stdout to a log file
-        log_path = output_dir / "pipeline.log"
-        with log_path.open("w") as log_f:
-            for line in proc.stdout:
-                log_f.write(line)
-                log_f.flush()
+        env = os.environ.copy()
+        if profile_api_keys:
+            for k, v in profile_api_keys.items():
+                if v:
+                    env[k] = v
+                    print(f"[PROFILE ENV] Injected {profile} override into subprocess env for {k}")
 
-        proc.wait()
-        if proc.returncode == 0:
-            _tasks[task_id]["status"] = "done"
-            try:
-                increment_stat(profile, paper_type)
-            except Exception as stat_err:
-                print(f"[STATS ERROR] {stat_err}")
-        else:
+        try:
+            proc = subprocess.Popen(
+                cmd,
+                cwd=str(_BACKEND_DIR),
+                stdout=subprocess.PIPE,
+                stderr=subprocess.STDOUT,
+                text=True,
+                env=env,
+            )
+            _tasks[task_id]["pid"] = proc.pid
+
+            # Stream stdout to a log file
+            log_path = output_dir / "pipeline.log"
+            with log_path.open("w") as log_f:
+                for line in proc.stdout:
+                    log_f.write(line)
+                    log_f.flush()
+
+            proc.wait()
+            if proc.returncode == 0:
+                _tasks[task_id]["status"] = "done"
+                try:
+                    increment_stat(profile, paper_type)
+                except Exception as stat_err:
+                    print(f"[STATS ERROR] {stat_err}")
+            else:
+                _tasks[task_id]["status"] = "failed"
+                _tasks[task_id]["error"]  = f"Process exited with code {proc.returncode}"
+
+        except Exception as e:
             _tasks[task_id]["status"] = "failed"
-            _tasks[task_id]["error"]  = f"Process exited with code {proc.returncode}"
+            _tasks[task_id]["error"]  = str(e)
 
-    except Exception as e:
-        _tasks[task_id]["status"] = "failed"
-        _tasks[task_id]["error"]  = str(e)
+    finally:
+        _pipeline_semaphore.release()
+        print(f"[PIPELINE QUEUE] Task {task_id[:12]}... released semaphore", flush=True)
+
 
 
 def _find_existing_job_dir(student_name: str, pipeline_type: str, ft_paper_path: str = None) -> Path | None:
