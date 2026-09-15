@@ -112,7 +112,7 @@ services:
       dockerfile: Dockerfile
     container_name: checkerai-frontend
     ports:
-      - "80:80"
+      - "8080:80"
     depends_on:
       - checker-backend
       - setter-backend
