@@ -150,12 +150,12 @@ export const getPaperCatalog = async () => {
 };
 
 /**
- * Fetch all past checked papers for the Edit Checked Copy section.
- * Returns array of { task_id, student_name, pipeline, created_at, total_obtained, total_possible, percentage, status }
+ * Fetch all past/active checked papers for the Checked Papers section.
+ * Returns { jobs: [...], queue_paused: bool }
  */
 export const getPipelineJobs = async () => {
     const response = await api.get('/api/pipelines/jobs');
-    return response.data;
+    return response.data;  // { jobs: [...], queue_paused: bool }
 };
 
 /**
@@ -258,5 +258,28 @@ export const resetStats = async (profile) => {
     return response.data;
 };
 
-export default api;
+/**
+ * Remove a queued (not running) task from the queue.
+ */
+export const removeFromQueue = async (taskId) => {
+    const response = await api.delete(`/api/pipelines/jobs/remove/${taskId}`);
+    return response.data;
+};
 
+/**
+ * Pause the queue (let current paper finish, hold next ones).
+ */
+export const pauseQueue = async () => {
+    const response = await api.post('/api/pipelines/jobs/pause');
+    return response.data;
+};
+
+/**
+ * Resume a paused queue.
+ */
+export const resumeQueue = async () => {
+    const response = await api.post('/api/pipelines/jobs/resume');
+    return response.data;
+};
+
+export default api;

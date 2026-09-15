@@ -7,7 +7,8 @@ import {
     runOldPipeline, runNewPipeline, runFeedbackPipeline,
     getPipelineStatus, downloadPipelineResult, pipelineAction,
     recheckPipeline,
-    getStats, resetStats
+    getStats, resetStats,
+    removeFromQueue, pauseQueue, resumeQueue,
 } from '../services/api';
 import './Dashboard.css';
 
@@ -178,6 +179,63 @@ function ResultCard({ status, taskId, studentName, onReset, navigate }) {
 
 /* ══════════════════════════════════════════════════════════════════════════ */
 
+/* ── Toast notification ───────────────────────────────────────────────────── */
+function Toast({ message, onDone }) {
+    useEffect(() => {
+        const t = setTimeout(onDone, 3200);
+        return () => clearTimeout(t);
+    }, [onDone]);
+    return (
+        <div style={{
+            position: 'fixed', bottom: '32px', left: '50%', transform: 'translateX(-50%)',
+            background: '#23a559', color: '#fff', padding: '14px 28px',
+            borderRadius: '10px', fontWeight: '600', fontSize: '1rem',
+            boxShadow: '0 4px 24px rgba(0,0,0,0.35)', zIndex: 9999,
+            animation: 'slideUp .25s ease',
+        }}>
+            {message}
+        </div>
+    );
+}
+
+/* ── Lifetime Stats badge (top-right, no reset) ───────────────────────────── */
+function LifetimeStats({ profile }) {
+    const [lifetime, setLifetime] = useState({ total: 0, full: 0, portionwise: 0 });
+
+    const fetchLifetime = useCallback(async () => {
+        try {
+            const data = await getStats();
+            const lt = data?.["__lifetime__"]?.[profile];
+            if (lt) setLifetime(lt);
+        } catch (e) { /* silent */ }
+    }, [profile]);
+
+    useEffect(() => {
+        fetchLifetime();
+        const iv = setInterval(fetchLifetime, 8000);
+        return () => clearInterval(iv);
+    }, [fetchLifetime]);
+
+    return (
+        <div style={{
+            display: 'flex', alignItems: 'center', gap: '10px',
+            background: 'linear-gradient(135deg, #2c2f33 0%, #23272a 100%)',
+            border: '1px solid #5865f2', borderRadius: '8px',
+            padding: '8px 14px', fontSize: '13px', color: '#b5bac1',
+        }}>
+            <span style={{ fontSize: '18px' }}>🏆</span>
+            <div>
+                <div style={{ color: '#fff', fontWeight: 700, fontSize: '14px' }}>
+                    {lifetime.total} Total Lifetime
+                </div>
+                <div style={{ fontSize: '11px', color: '#72767d' }}>
+                    {lifetime.full} Mock &nbsp;·&nbsp; {lifetime.portionwise} Portionwise
+                </div>
+            </div>
+        </div>
+    );
+}
+
 function ProfileStats({ profile }) {
     const [stats, setStats] = useState({ total: 0, full: 0, portionwise: 0 });
 
@@ -211,16 +269,21 @@ function ProfileStats({ profile }) {
     };
 
     return (
-        <div style={{ backgroundColor: '#1e1f22', padding: '10px 15px', borderRadius: '6px', marginBottom: '20px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-            <div style={{ fontSize: '14px', color: '#b5bac1' }}>
-                <strong style={{ color: '#fff' }}>{profile} Usage:</strong>&nbsp;
-                <span style={{ marginRight: '15px' }}>{stats.total} Total checked</span>
-                <span style={{ marginRight: '15px', color: '#5865f2' }}>{stats.full} Mock (Full)</span>
-                <span style={{ color: '#23a559' }}>{stats.portionwise} Portionwise</span>
+        <div style={{ backgroundColor: '#1e1f22', padding: '10px 15px', borderRadius: '6px', marginBottom: '12px' }}>
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '10px' }}>
+                <div style={{ fontSize: '14px', color: '#b5bac1' }}>
+                    <strong style={{ color: '#fff' }}>{profile} Usage:</strong>&nbsp;
+                    <span style={{ marginRight: '15px' }}>{stats.total} Total checked</span>
+                    <span style={{ marginRight: '15px', color: '#5865f2' }}>{stats.full} Mock (Full)</span>
+                    <span style={{ color: '#23a559' }}>{stats.portionwise} Portionwise</span>
+                </div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                    <LifetimeStats profile={profile} />
+                    <button type="button" className="reset-btn" onClick={handleReset} style={{ margin: 0, padding: '4px 10px', fontSize: '12px' }}>
+                        Reset Count
+                    </button>
+                </div>
             </div>
-            <button type="button" className="reset-btn" onClick={handleReset} style={{ margin: 0, padding: '4px 10px', fontSize: '12px' }}>
-                Reset Count
-            </button>
         </div>
     );
 }
@@ -230,42 +293,10 @@ function ProfileStats({ profile }) {
 /* ══════════════════════════════════════════════════════════════════════════ */
 
 function OldPapersTab() {
-    const navigate = useNavigate();
-    const [form, setForm]         = useState({ studentName: '', qpPdf: null, saPdf: null, asPdf: null, profile: 'Profile 1' });
-    const [taskId, setTaskId]     = useState(null);
-    const [status, setStatus]     = useState(null);
-    const [running, setRunning]   = useState(false);
-    const [isRechecking, setIsRechecking] = useState(false);
-    const pollRef = useRef(null);
-
-    const clearPoll = () => { if (pollRef.current) clearInterval(pollRef.current); };
-
-    useEffect(() => () => clearPoll(), []);
-
-    const startPolling = useCallback((tid) => {
-        pollRef.current = setInterval(async () => {
-            try {
-                const s = await getPipelineStatus(tid);
-                setStatus(s);
-                if (s.status === 'done' || s.stage === 'completed' || s.status === 'failed') {
-                    clearPoll();
-                    setRunning(false);
-                }
-            } catch (_) {}
-        }, 3000);
-    }, []);
-
-    const [errorMsg, setErrorMsg] = useState(null);
-
-    const handleAction = async (action) => {
-        try {
-            await pipelineAction(taskId, action);
-            if (action === 'reset') reset();
-        } catch (err) {
-            setErrorMsg(err.response?.data?.detail || err.message);
-        }
-    };
-
+    const [form, setForm] = useState({ studentName: '', qpPdf: null, saPdf: null, asPdf: null, profile: 'Profile 1' });
+    const [submitting, setSubmitting] = useState(false);
+    const [toast, setToast]           = useState(null);
+    const [errorMsg, setErrorMsg]     = useState(null);
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -275,59 +306,22 @@ function OldPapersTab() {
             setErrorMsg('Please provide all three PDFs (Question, Solution, Student).');
             return;
         }
-        setRunning(true);
-        setStatus({ stage: 'started', message: 'Submitting…', status: 'queued' });
+        setSubmitting(true);
         try {
-            const res = await runOldPipeline(form.studentName, qpPdf, saPdf, asPdf, form.profile);
-            setTaskId(res.task_id);
-            startPolling(res.task_id);
+            await runOldPipeline(form.studentName, qpPdf, saPdf, asPdf, form.profile);
+            const name = form.studentName.trim() || 'Paper';
+            setToast(`✅ ${name} has been queued for checking!`);
+            setForm(prev => ({ studentName: '', qpPdf: null, saPdf: null, asPdf: null, profile: prev.profile }));
         } catch (err) {
-            setRunning(false);
-            setStatus({ stage: 'failed', error: err.response?.data?.detail || err.message, status: 'failed' });
-        }
-    };
-
-    const handleRecheck = async () => {
-        if (!taskId) return;
-        setIsRechecking(true);
-        try {
-            await recheckPipeline(taskId);
-            setStatus(prev => ({ ...prev, stage: 'recheck', status: 'running', message: 'Re-generating checked copy…' }));
-            setRunning(true);
-            startPolling(taskId);
-        } catch (err) {
-            setStatus(prev => ({ ...prev, stage: 'recheck_failed', status: 'failed', error: err.response?.data?.detail || err.message }));
+            setErrorMsg(err.response?.data?.detail || err.message);
         } finally {
-            setIsRechecking(false);
+            setSubmitting(false);
         }
     };
-
-    const reset = () => {
-        clearPoll();
-        setTaskId(null);
-        setStatus(null);
-        setRunning(false);
-        setIsRechecking(false);
-        setForm(prev => ({ studentName: '', qpPdf: null, saPdf: null, asPdf: null, profile: prev.profile }));
-    };
-
-    const isDone = status?.stage === 'completed' || status?.status === 'done';
-    const isFailed = status?.stage === 'failed' || status?.status === 'failed' || status?.stage === 'recheck_failed' || errorMsg;
-
-    if (isDone) {
-        return (
-            <ResultCard
-                status={status}
-                taskId={taskId}
-                studentName={form.studentName}
-                onReset={reset}
-                navigate={navigate}
-            />
-        );
-    }
 
     return (
         <form className="pipeline-form" onSubmit={handleSubmit}>
+            {toast && <Toast message={toast} onDone={() => setToast(null)} />}
             <p className="pipeline-desc">
                 Provide all three documents. Claude AI will extract the schema from the question
                 paper, model answers from the solution, OCR the student sheet, align answers,
@@ -341,7 +335,7 @@ function OldPapersTab() {
                     className="text-input"
                     value={form.profile}
                     onChange={(e) => setForm({ ...form, profile: e.target.value })}
-                    disabled={running}
+                    disabled={submitting}
                 >
                     <option value="Profile 1">Profile 1 (Default)</option>
                     <option value="Profile 2">Profile 2</option>
@@ -360,7 +354,7 @@ function OldPapersTab() {
                     placeholder="e.g. Rahul Sharma"
                     value={form.studentName}
                     onChange={(e) => setForm({ ...form, studentName: e.target.value })}
-                    disabled={running}
+                    disabled={submitting}
                 />
             </div>
 
@@ -385,61 +379,22 @@ function OldPapersTab() {
                 />
             </div>
 
-            {running && status && (
-                <div className="pipeline-progress">
-                    {status.stage === 'paused' ? (
-                        <div className="pipeline-paused" style={{ textAlign: 'center', margin: '20px 0', padding: '15px', backgroundColor: '#fef3c7', borderRadius: '8px', border: '1px solid #f59e0b' }}>
-                            <div style={{ color: '#d97706', marginBottom: '15px', fontWeight: 'bold', fontSize: '1.1rem' }}>
-                                ⚠️ {status.message || 'Horizontal pages detected in the student PDF.'}
-                            </div>
-                            <button type="button" onClick={() => handleAction('continue')} className="run-btn" style={{ display: 'inline-block', width: 'auto', marginRight: '15px', padding: '10px 20px' }}>
-                                Continue Checking
-                            </button>
-                            <button type="button" onClick={() => handleAction('reset')} className="reset-btn" style={{ display: 'inline-block', width: 'auto', padding: '10px 20px' }}>
-                                Discard & Reset
-                            </button>
-                        </div>
-                    ) : (
-                        <>
-                            <ProgressBar stage={status.stage} />
-                            <p className="progress-msg">
-                                {STAGE_LABELS[status.stage] || status.message || 'Working…'}
-                            </p>
-                            {status.warning && (
-                                <div style={{ color: '#d97706', marginTop: '10px', fontWeight: '500', fontSize: '0.9rem', backgroundColor: '#fef3c7', padding: '8px', borderRadius: '4px' }}>
-                                    ⚠️ {status.warning}
-                                </div>
-                            )}
-                        </>
-                    )}
-                </div>
-            )}
-
-            {isFailed && (
+            {errorMsg && (
                 <div className="pipeline-error">
-                    <span>⚠️ {errorMsg || status?.error || 'Pipeline failed. Please try again.'}</span>
+                    <span>⚠️ {errorMsg}</span>
                     <div className="pipeline-error-actions">
-                        {status?.grading_ready && taskId && (
-                            <button
-                                type="button"
-                                className="recheck-btn"
-                                onClick={handleRecheck}
-                                disabled={isRechecking}
-                                title="Re-run only Stage 7 (checked copy generation) using existing grading results"
-                            >
-                                {isRechecking ? '⏳ Retrying…' : '🔄 Retry Checked Copy'}
-                            </button>
-                        )}
-                        <button type="button" className="reset-btn" onClick={reset}>Reset</button>
+                        <button type="button" className="reset-btn" onClick={() => setErrorMsg(null)}>Dismiss</button>
                     </div>
                 </div>
             )}
 
-            {!running && (
-                <button id="old-run-btn" type="submit" className="run-btn">
-                    🚀 Run Old Papers Pipeline
-                </button>
-            )}
+            <button id="old-run-btn" type="submit" className="run-btn" disabled={submitting}>
+                {submitting ? '⏳ Queuing…' : '🚀 Queue for Checking'}
+            </button>
+
+            <p style={{ textAlign: 'center', color: '#72767d', fontSize: '13px', marginTop: '8px' }}>
+                💡 Progress is tracked in the <strong>Checked Papers</strong> tab
+            </p>
         </form>
     );
 }
@@ -449,29 +404,13 @@ function OldPapersTab() {
 /* ══════════════════════════════════════════════════════════════════════════ */
 
 function NewPapersTab() {
-    const navigate  = useNavigate();
     const [catalog, setCatalog]   = useState(null);
     const [catalogError, setCatalogError] = useState(false);
     const [sel,     setSel]       = useState({ exam: '', subject: '', type: '', paper: '' });
     const [form,    setForm]      = useState({ studentName: '', asPdf: null, profile: 'Profile 1' });
-    const [taskId,  setTaskId]    = useState(null);
-    const [status,  setStatus]    = useState(null);
-    const [running, setRunning]   = useState(false);
+    const [submitting, setSubmitting] = useState(false);
+    const [toast, setToast]       = useState(null);
     const [errorMsg, setErrorMsg] = useState(null);
-    const [isRechecking, setIsRechecking] = useState(false);
-
-    const handleAction = async (action) => {
-        try {
-            await pipelineAction(taskId, action);
-            if (action === 'reset') reset();
-        } catch (err) {
-            setErrorMsg(err.response?.data?.detail || err.message);
-        }
-    };
-    const pollRef = useRef(null);
-
-    const clearPoll = () => { if (pollRef.current) clearInterval(pollRef.current); };
-    useEffect(() => () => clearPoll(), []);
 
     const loadCatalog = useCallback(() => {
         setCatalogError(false);
@@ -483,9 +422,7 @@ function NewPapersTab() {
             });
     }, []);
 
-    useEffect(() => {
-        loadCatalog();
-    }, [loadCatalog]);
+    useEffect(() => { loadCatalog(); }, [loadCatalog]);
 
     const exams    = catalog ? Object.keys(catalog).sort() : [];
     const subjects = sel.exam && catalog?.[sel.exam] ? Object.keys(catalog[sel.exam]).sort() : [];
@@ -495,21 +432,7 @@ function NewPapersTab() {
               .map(([t]) => t)
         : [];
     const papers   = (sel.type && catalog?.[sel.exam]?.[sel.subject]?.[sel.type]) || [];
-
     const selectedPaperPath = papers.find(p => p.filename === sel.paper)?.path || '';
-
-    const startPolling = useCallback((tid) => {
-        pollRef.current = setInterval(async () => {
-            try {
-                const s = await getPipelineStatus(tid);
-                setStatus(s);
-                if (s.status === 'done' || s.stage === 'completed' || s.status === 'failed') {
-                    clearPoll();
-                    setRunning(false);
-                }
-            } catch (_) {}
-        }, 3000);
-    }, []);
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -518,60 +441,24 @@ function NewPapersTab() {
             setErrorMsg('Please select a paper and provide the student answer sheet.');
             return;
         }
-        setRunning(true);
-        setStatus({ stage: 'started', message: 'Submitting…', status: 'queued' });
+        setSubmitting(true);
         try {
-            const res = await runNewPipeline(form.studentName, selectedPaperPath, form.asPdf, form.profile);
-            setTaskId(res.task_id);
-            startPolling(res.task_id);
+            await runNewPipeline(form.studentName, selectedPaperPath, form.asPdf, form.profile);
+            const name = form.studentName.trim() || 'Paper';
+            const paperName = papers.find(p => p.filename === sel.paper)?.label || '';
+            setToast(`✅ ${name} — ${paperName} queued for checking!`);
+            setForm(prev => ({ studentName: '', asPdf: null, profile: prev.profile }));
+            setSel({ exam: '', subject: '', type: '', paper: '' });
         } catch (err) {
-            setRunning(false);
-            setStatus({ stage: 'failed', error: err.response?.data?.detail || err.message, status: 'failed' });
-        }
-    };
-
-    const handleRecheck = async () => {
-        if (!taskId) return;
-        setIsRechecking(true);
-        try {
-            await recheckPipeline(taskId);
-            setStatus(prev => ({ ...prev, stage: 'recheck', status: 'running', message: 'Re-generating checked copy…' }));
-            setRunning(true);
-            startPolling(taskId);
-        } catch (err) {
-            setStatus(prev => ({ ...prev, stage: 'recheck_failed', status: 'failed', error: err.response?.data?.detail || err.message }));
+            setErrorMsg(err.response?.data?.detail || err.message);
         } finally {
-            setIsRechecking(false);
+            setSubmitting(false);
         }
     };
-
-    const reset = () => {
-        clearPoll();
-        setTaskId(null);
-        setStatus(null);
-        setRunning(false);
-        setIsRechecking(false);
-        setForm(prev => ({ studentName: '', asPdf: null, profile: prev.profile }));
-        setSel({ exam: '', subject: '', type: '', paper: '' });
-    };
-
-    const isDone   = status?.stage === 'completed' || status?.status === 'done';
-    const isFailed = status?.stage === 'failed' || status?.status === 'failed' || status?.stage === 'recheck_failed' || errorMsg;
-
-    if (isDone) {
-        return (
-            <ResultCard
-                status={status}
-                taskId={taskId}
-                studentName={form.studentName}
-                onReset={reset}
-                navigate={navigate}
-            />
-        );
-    }
 
     return (
         <form className="pipeline-form" onSubmit={handleSubmit}>
+            {toast && <Toast message={toast} onDone={() => setToast(null)} />}
             <p className="pipeline-desc">
                 Select a pre-built paper from our library, upload the student answer sheet,
                 and the FT pipeline will handle OCR, sub-part alignment, grading, and
@@ -585,7 +472,7 @@ function NewPapersTab() {
                     className="text-input"
                     value={form.profile}
                     onChange={(e) => setForm({ ...form, profile: e.target.value })}
-                    disabled={running}
+                    disabled={submitting}
                 >
                     <option value="Profile 1">Profile 1 (Default)</option>
                     <option value="Profile 2">Profile 2</option>
@@ -604,13 +491,13 @@ function NewPapersTab() {
                     placeholder="e.g. Priya Mehta"
                     value={form.studentName}
                     onChange={(e) => setForm({ ...form, studentName: e.target.value })}
-                    disabled={running}
+                    disabled={submitting}
                 />
             </div>
 
             {catalogError && (
                 <div className="pipeline-error" style={{ marginBottom: '15px' }}>
-                    ⚠️ Failed to load paper catalog. The backend server might still be starting up or is unreachable. 
+                    ⚠️ Failed to load paper catalog.
                     <button type="button" className="reset-btn" style={{ marginLeft: '15px' }} onClick={loadCatalog}>
                         Retry Loading
                     </button>
@@ -626,7 +513,7 @@ function NewPapersTab() {
                         className="select-input"
                         value={sel.exam}
                         onChange={(e) => setSel({ exam: e.target.value, subject: '', type: '', paper: '' })}
-                        disabled={running || !catalog}
+                        disabled={submitting || !catalog}
                     >
                         <option value="">Select exam…</option>
                         {exams.map(ex => <option key={ex} value={ex}>{ex}</option>)}
@@ -640,7 +527,7 @@ function NewPapersTab() {
                         className="select-input"
                         value={sel.subject}
                         onChange={(e) => setSel({ ...sel, subject: e.target.value, type: '', paper: '' })}
-                        disabled={running || !sel.exam}
+                        disabled={submitting || !sel.exam}
                     >
                         <option value="">Select subject…</option>
                         {subjects.map(s => <option key={s} value={s}>{s.replace(/_/g, ' ')}</option>)}
@@ -654,7 +541,7 @@ function NewPapersTab() {
                         className="select-input"
                         value={sel.type}
                         onChange={(e) => setSel({ ...sel, type: e.target.value, paper: '' })}
-                        disabled={running || !sel.subject}
+                        disabled={submitting || !sel.subject}
                     >
                         <option value="">Select type…</option>
                         {types.map(t => <option key={t} value={t}>{t} Test</option>)}
@@ -668,7 +555,7 @@ function NewPapersTab() {
                         className="select-input"
                         value={sel.paper}
                         onChange={(e) => setSel({ ...sel, paper: e.target.value })}
-                        disabled={running || !sel.type}
+                        disabled={submitting || !sel.type}
                     >
                         <option value="">Select paper…</option>
                         {papers.map(p => (
@@ -694,61 +581,22 @@ function NewPapersTab() {
                 />
             </div>
 
-            {running && status && (
-                <div className="pipeline-progress">
-                    {status.stage === 'paused' ? (
-                        <div className="pipeline-paused" style={{ textAlign: 'center', margin: '20px 0', padding: '15px', backgroundColor: '#fef3c7', borderRadius: '8px', border: '1px solid #f59e0b' }}>
-                            <div style={{ color: '#d97706', marginBottom: '15px', fontWeight: 'bold', fontSize: '1.1rem' }}>
-                                ⚠️ {status.message || 'Horizontal pages detected in the student PDF.'}
-                            </div>
-                            <button type="button" onClick={() => handleAction('continue')} className="run-btn" style={{ display: 'inline-block', width: 'auto', marginRight: '15px', padding: '10px 20px' }}>
-                                Continue Checking
-                            </button>
-                            <button type="button" onClick={() => handleAction('reset')} className="reset-btn" style={{ display: 'inline-block', width: 'auto', padding: '10px 20px' }}>
-                                Discard & Reset
-                            </button>
-                        </div>
-                    ) : (
-                        <>
-                            <ProgressBar stage={status.stage} />
-                            <p className="progress-msg">
-                                {STAGE_LABELS[status.stage] || status.message || 'Working…'}
-                            </p>
-                            {status.warning && (
-                                <div style={{ color: '#d97706', marginTop: '10px', fontWeight: '500', fontSize: '0.9rem', backgroundColor: '#fef3c7', padding: '8px', borderRadius: '4px' }}>
-                                    ⚠️ {status.warning}
-                                </div>
-                            )}
-                        </>
-                    )}
-                </div>
-            )}
-
-            {isFailed && (
+            {errorMsg && (
                 <div className="pipeline-error">
-                    <span>⚠️ {errorMsg || status?.error || 'Pipeline failed. Please try again.'}</span>
+                    <span>⚠️ {errorMsg}</span>
                     <div className="pipeline-error-actions">
-                        {status?.grading_ready && taskId && (
-                            <button
-                                type="button"
-                                className="recheck-btn"
-                                onClick={handleRecheck}
-                                disabled={isRechecking}
-                                title="Re-run only Stage 7 (checked copy generation) using existing grading results"
-                            >
-                                {isRechecking ? '⏳ Retrying…' : '🔄 Retry Checked Copy'}
-                            </button>
-                        )}
-                        <button type="button" className="reset-btn" onClick={reset}>Reset</button>
+                        <button type="button" className="reset-btn" onClick={() => setErrorMsg(null)}>Dismiss</button>
                     </div>
                 </div>
             )}
 
-            {!running && (
-                <button id="new-run-btn" type="submit" className="run-btn" disabled={!selectedPaperPath}>
-                    🚀 Run New Papers Pipeline
-                </button>
-            )}
+            <button id="new-run-btn" type="submit" className="run-btn" disabled={!selectedPaperPath || submitting}>
+                {submitting ? '⏳ Queuing…' : '🚀 Queue for Checking'}
+            </button>
+
+            <p style={{ textAlign: 'center', color: '#72767d', fontSize: '13px', marginTop: '8px' }}>
+                💡 Progress is tracked in the <strong>Checked Papers</strong> tab
+            </p>
         </form>
     );
 }
@@ -1038,13 +886,14 @@ function ExamsTab() {
 }
 
 /* ══════════════════════════════════════════════════════════════════════════ */
-/* EDIT CHECKED COPY TAB                                                      */
+/* CHECKED PAPERS TAB (renamed from Edit Checked Copy)                        */
 /* ══════════════════════════════════════════════════════════════════════════ */
 
-function JobCard({ job, navigate, onRecheckDone }) {
+function JobCard({ job, navigate, onRecheckDone, onRemove }) {
     const [isRechecking, setIsRechecking] = useState(false);
     const [recheckError, setRecheckError] = useState(null);
     const [recheckDone,  setRecheckDone]  = useState(false);
+    const [removing,     setRemoving]     = useState(false);
     const pollRef = useRef(null);
 
     const clearPoll = () => { if (pollRef.current) clearInterval(pollRef.current); };
@@ -1077,32 +926,112 @@ function JobCard({ job, navigate, onRecheckDone }) {
         }
     };
 
-    // Show retry when grading succeeded but no checked copy yet
+    const handleRemove = async (e) => {
+        e.stopPropagation();
+        if (!confirm(`Remove "${job.student_name}" from the queue?`)) return;
+        setRemoving(true);
+        try {
+            await removeFromQueue(job.task_id);
+            onRemove();
+        } catch (err) {
+            alert('Could not remove: ' + (err.response?.data?.detail || err.message));
+            setRemoving(false);
+        }
+    };
+
     const canRecheck = job.grading_ready && !job.checked_copy_available && !recheckDone;
+    const isQueued   = job.status === 'queued';
+    const isRunning  = job.status === 'running';
+    const isPaused   = job.status === 'paused';
 
     return (
-        <div className="job-card" onClick={() => navigate(`/checked-paper/${job.task_id}/edit`)}>
+        <div
+            className={`job-card ${job.status}`}
+            onClick={() => {
+                if (job.checked_copy_available || recheckDone)
+                    navigate(`/checked-paper/${job.task_id}`);
+            }}
+            style={{ cursor: (job.checked_copy_available || recheckDone) ? 'pointer' : 'default' }}
+        >
             <div className="job-card-header">
-                <span className="job-student-icon">👤</span>
-                <h3 className="job-student-name">{job.student_name}</h3>
-                <span className={`job-status-badge ${job.status}`}>{job.status}</span>
+                <span className="job-student-icon">
+                    {isRunning ? '⚙️' : isQueued ? '⏳' : isPaused ? '⚠️' : '👤'}
+                </span>
+                <div style={{ flex: 1, minWidth: 0 }}>
+                    <h3 className="job-student-name">{job.student_name || 'Unknown Student'}</h3>
+                    {job.paper_label && (
+                        <span style={{ fontSize: '12px', color: '#72767d' }}>{job.paper_label}</span>
+                    )}
+                </div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '6px', flexShrink: 0 }}>
+                    {isQueued && job.queue_position > 0 && (
+                        <span style={{
+                            background: '#5865f2', color: '#fff',
+                            borderRadius: '20px', padding: '2px 10px', fontSize: '11px', fontWeight: 700,
+                        }}>#{job.queue_position} in queue</span>
+                    )}
+                    {isRunning && (
+                        <span style={{
+                            background: '#23a559', color: '#fff',
+                            borderRadius: '20px', padding: '2px 10px', fontSize: '11px', fontWeight: 700,
+                            animation: 'pulse 1.5s infinite',
+                        }}>⚙️ Running</span>
+                    )}
+                    <span className={`job-status-badge ${job.status}`}>{job.status}</span>
+                </div>
             </div>
 
-            <div className="job-score-row">
-                <span className="job-score-lbl">Score:</span>
-                <span className="job-score-val">
-                    {job.total_possible > 0 ? `${job.total_obtained.toFixed(1)} / ${job.total_possible.toFixed(1)}` : 'Pending'}
-                </span>
-                {job.total_possible > 0 && (
-                    <span className="job-score-pct">({job.percentage.toFixed(1)}%)</span>
-                )}
-            </div>
+            {/* Score row — only for completed papers */}
+            {!isQueued && !isRunning && (
+                <div className="job-score-row">
+                    <span className="job-score-lbl">Score:</span>
+                    <span className="job-score-val">
+                        {job.total_possible > 0
+                            ? `${job.total_obtained.toFixed(1)} / ${job.total_possible.toFixed(1)}`
+                            : 'Pending'
+                        }
+                    </span>
+                    {job.total_possible > 0 && (
+                        <span className="job-score-pct">({job.percentage.toFixed(1)}%)</span>
+                    )}
+                </div>
+            )}
+
+            {/* Queued paper info */}
+            {isQueued && job.queued_at && (
+                <div style={{ fontSize: '12px', color: '#72767d', padding: '4px 0' }}>
+                    Queued {Math.round((Date.now() / 1000 - job.queued_at) / 60)} min ago
+                </div>
+            )}
+
+            {/* Running spinner */}
+            {isRunning && (
+                <div style={{ fontSize: '12px', color: '#23a559', padding: '4px 0', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                    <span style={{ display: 'inline-block', width: 8, height: 8, borderRadius: '50%', background: '#23a559', animation: 'pulse 1.5s infinite' }} />
+                    Checking in progress…
+                </div>
+            )}
 
             <div className="job-card-footer">
                 <span className="job-date">
                     {new Date(job.created_at * 1000).toLocaleDateString(undefined, { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' })}
                 </span>
                 <div className="job-card-actions" onClick={(e) => e.stopPropagation()}>
+                    {/* Remove from queue button */}
+                    {isQueued && (
+                        <button
+                            type="button"
+                            className="reset-btn"
+                            onClick={handleRemove}
+                            disabled={removing}
+                            title="Remove from queue"
+                            style={{ padding: '4px 10px', fontSize: '12px', background: '#ed4245', borderColor: '#ed4245', color: '#fff' }}
+                        >
+                            {removing ? '⏳' : '✕ Remove'}
+                        </button>
+                    )}
+
+                    {/* Recheck button */}
                     {canRecheck && (
                         <button
                             type="button"
@@ -1120,94 +1049,224 @@ function JobCard({ job, navigate, onRecheckDone }) {
                     {recheckError && (
                         <span className="recheck-error-msg" title={recheckError}>⚠️ Retry failed</span>
                     )}
-                    <button
-                        type="button"
-                        className="edit-copy-btn"
-                        onClick={(e) => {
-                            e.stopPropagation();
-                            navigate(`/checked-paper/${job.task_id}/edit`);
-                        }}
-                        disabled={!job.checked_copy_available && !recheckDone}
-                    >
-                        ✏️ Edit Checked Copy
-                    </button>
+
+                    {/* View & Download button */}
+                    {(job.checked_copy_available || recheckDone) && (
+                        <button
+                            type="button"
+                            className="edit-copy-btn"
+                            style={{ background: '#5865f2', borderColor: '#5865f2' }}
+                            onClick={(e) => {
+                                e.stopPropagation();
+                                navigate(`/checked-paper/${job.task_id}`);
+                            }}
+                        >
+                            📥 View & Download
+                        </button>
+                    )}
+
+                    {/* Edit button */}
+                    {(job.checked_copy_available || recheckDone) && (
+                        <button
+                            type="button"
+                            className="edit-copy-btn"
+                            onClick={(e) => {
+                                e.stopPropagation();
+                                navigate(`/checked-paper/${job.task_id}/edit`);
+                            }}
+                        >
+                            ✏️ Edit Copy
+                        </button>
+                    )}
                 </div>
             </div>
         </div>
     );
 }
 
-function EditCheckedCopyTab() {
+function CheckedPapersTab() {
     const navigate = useNavigate();
-    const [jobs, setJobs]       = useState([]);
-    const [loading, setLoading] = useState(true);
-    const [filter, setFilter]   = useState('');
+    const [jobs,        setJobs]        = useState([]);
+    const [queuePaused, setQueuePaused] = useState(false);
+    const [loading,     setLoading]     = useState(true);
+    const [filter,      setFilter]      = useState('');
+    const [pauseLoading, setPauseLoading] = useState(false);
 
-    useEffect(() => { loadJobs(); }, []);
+    const loadJobs = useCallback(async () => {
+        try {
+            const res = await getPipelineJobs();
+            // Backend returns { jobs: [...], queue_paused: bool }
+            if (res && Array.isArray(res.jobs)) {
+                setJobs(res.jobs);
+                setQueuePaused(res.queue_paused || false);
+            } else if (Array.isArray(res)) {
+                // Fallback: old API shape
+                setJobs(res);
+            }
+        } catch (err) {
+            console.error('Failed to load checked papers:', err);
+        } finally {
+            setLoading(false);
+        }
+    }, []);
 
-    const loadJobs = async () => {
-        try { setJobs(await getPipelineJobs()); }
-        catch (err) { console.error('Failed to load past checked papers:', err); }
-        finally { setLoading(false); }
+    useEffect(() => {
+        loadJobs();
+        const iv = setInterval(loadJobs, 5000);
+        return () => clearInterval(iv);
+    }, [loadJobs]);
+
+    const handlePauseToggle = async () => {
+        setPauseLoading(true);
+        try {
+            if (queuePaused) {
+                await resumeQueue();
+                setQueuePaused(false);
+            } else {
+                await pauseQueue();
+                setQueuePaused(true);
+            }
+        } catch (err) {
+            alert('Failed: ' + (err.response?.data?.detail || err.message));
+        } finally {
+            setPauseLoading(false);
+        }
     };
 
     const filteredJobs = jobs.filter(j =>
-        j.student_name.toLowerCase().includes(filter.toLowerCase()) ||
+        (j.student_name || '').toLowerCase().includes(filter.toLowerCase()) ||
+        (j.paper_label  || '').toLowerCase().includes(filter.toLowerCase()) ||
         j.task_id.toLowerCase().includes(filter.toLowerCase())
     );
+
+    const inProgressJobs = filteredJobs.filter(j => j.status === 'queued' || j.status === 'running');
+    const pausedJobs     = filteredJobs.filter(j => j.status === 'paused');
+    const completedJobs  = filteredJobs.filter(j => j.status === 'completed' || j.status === 'done');
+    const failedJobs     = filteredJobs.filter(j => j.status === 'failed');
+
+    const hasActiveQueue = inProgressJobs.length > 0;
 
     return (
         <div className="edit-checked-tab">
             <div className="tab-header-row">
                 <div>
-                    <h2 className="tab-section-title">Edit Checked Copy</h2>
-                    <p className="tab-section-desc">Select any checked student paper to adjust marks, feedback, or annotation placement.</p>
+                    <h2 className="tab-section-title">Checked Papers</h2>
+                    <p className="tab-section-desc">All papers — queued, in progress, and completed. Click a completed paper to view, download, or edit.</p>
                 </div>
-                <div className="search-box">
-                    <input
-                        type="text"
-                        placeholder="Search student name…"
-                        value={filter}
-                        onChange={(e) => setFilter(e.target.value)}
-                        className="search-input"
-                    />
+                <div style={{ display: 'flex', gap: '10px', alignItems: 'center', flexWrap: 'wrap' }}>
+                    {hasActiveQueue && (
+                        <button
+                            type="button"
+                            className={queuePaused ? 'run-btn' : 'reset-btn'}
+                            onClick={handlePauseToggle}
+                            disabled={pauseLoading}
+                            style={{ padding: '8px 16px', fontSize: '13px', margin: 0, width: 'auto' }}
+                        >
+                            {pauseLoading ? '⏳' : queuePaused ? '▶ Resume Queue' : '⏸ Pause Queue'}
+                        </button>
+                    )}
+                    <div className="search-box">
+                        <input
+                            type="text"
+                            placeholder="Search student or paper…"
+                            value={filter}
+                            onChange={(e) => setFilter(e.target.value)}
+                            className="search-input"
+                        />
+                    </div>
                 </div>
             </div>
 
+            {queuePaused && (
+                <div style={{ background: '#fef3c7', border: '1px solid #f59e0b', borderRadius: '8px', padding: '10px 16px', marginBottom: '16px', color: '#92400e', fontWeight: 600 }}>
+                    ⏸ Queue is paused — new papers will wait until you resume.
+                </div>
+            )}
+
             {loading ? (
                 <div className="loading">Loading checked papers…</div>
-            ) : filteredJobs.length === 0 ? (
-                <div className="empty-state">
-                    <div className="empty-icon">📝</div>
-                    <h3>No past checked papers found</h3>
-                    <p>{filter ? 'No students match your search filter' : 'Check a student paper using Old or New Papers pipeline first'}</p>
-                </div>
             ) : (
-                <div className="jobs-grid">
-                    {filteredJobs.map(job => (
-                        <JobCard
-                            key={job.task_id}
-                            job={job}
-                            navigate={navigate}
-                            onRecheckDone={loadJobs}
-                        />
-                    ))}
-                </div>
+                <>
+                    {/* IN PROGRESS section */}
+                    {inProgressJobs.length > 0 && (
+                        <div style={{ marginBottom: '24px' }}>
+                            <h3 style={{ color: '#b5bac1', fontSize: '13px', textTransform: 'uppercase', letterSpacing: '1px', marginBottom: '12px', fontWeight: 600 }}>
+                                🔄 In Progress ({inProgressJobs.length})
+                            </h3>
+                            <div className="jobs-grid">
+                                {inProgressJobs.map(job => (
+                                    <JobCard key={job.task_id} job={job} navigate={navigate} onRecheckDone={loadJobs} onRemove={loadJobs} />
+                                ))}
+                            </div>
+                        </div>
+                    )}
+
+                    {/* PAUSED section */}
+                    {pausedJobs.length > 0 && (
+                        <div style={{ marginBottom: '24px' }}>
+                            <h3 style={{ color: '#f59e0b', fontSize: '13px', textTransform: 'uppercase', letterSpacing: '1px', marginBottom: '12px', fontWeight: 600 }}>
+                                ⚠️ Paused — Waiting for Action ({pausedJobs.length})
+                            </h3>
+                            <div className="jobs-grid">
+                                {pausedJobs.map(job => (
+                                    <JobCard key={job.task_id} job={job} navigate={navigate} onRecheckDone={loadJobs} onRemove={loadJobs} />
+                                ))}
+                            </div>
+                        </div>
+                    )}
+
+                    {/* FAILED section */}
+                    {failedJobs.length > 0 && (
+                        <div style={{ marginBottom: '24px' }}>
+                            <h3 style={{ color: '#ed4245', fontSize: '13px', textTransform: 'uppercase', letterSpacing: '1px', marginBottom: '12px', fontWeight: 600 }}>
+                                ❌ Failed ({failedJobs.length})
+                            </h3>
+                            <div className="jobs-grid">
+                                {failedJobs.map(job => (
+                                    <JobCard key={job.task_id} job={job} navigate={navigate} onRecheckDone={loadJobs} onRemove={loadJobs} />
+                                ))}
+                            </div>
+                        </div>
+                    )}
+
+                    {/* COMPLETED section */}
+                    {completedJobs.length > 0 ? (
+                        <div style={{ marginBottom: '24px' }}>
+                            <h3 style={{ color: '#23a559', fontSize: '13px', textTransform: 'uppercase', letterSpacing: '1px', marginBottom: '12px', fontWeight: 600 }}>
+                                ✅ Completed ({completedJobs.length})
+                            </h3>
+                            <div className="jobs-grid">
+                                {completedJobs.map(job => (
+                                    <JobCard key={job.task_id} job={job} navigate={navigate} onRecheckDone={loadJobs} onRemove={loadJobs} />
+                                ))}
+                            </div>
+                        </div>
+                    ) : (
+                        !inProgressJobs.length && !pausedJobs.length && !failedJobs.length && (
+                            <div className="empty-state">
+                                <div className="empty-icon">📝</div>
+                                <h3>No checked papers yet</h3>
+                                <p>{filter ? 'No papers match your search' : 'Queue a paper using Old or New Papers pipeline'}</p>
+                            </div>
+                        )
+                    )}
+                </>
             )}
         </div>
     );
 }
+
 
 /* ══════════════════════════════════════════════════════════════════════════ */
 /* DASHBOARD ROOT                                                              */
 /* ══════════════════════════════════════════════════════════════════════════ */
 
 const TABS = [
-    { id: 'new',          label: '⚡ New Papers Checking',  desc: 'Pre-built JSON paper + student sheet' },
-    { id: 'old',          label: '📜 Old Papers Checking',  desc: 'QP + Solution + student sheet' },
-    { id: 'edit_checked', label: '✏️ Edit Checked Copy',   desc: 'Select past student paper & edit copy' },
-    { id: 'feedback',     label: '💬 Feedback Only',        desc: 'Manual marking + feedback' },
-    { id: 'exams',        label: '📋 Manage Exams',          desc: 'Exam & student management' },
+    { id: 'new',            label: '⚡ New Papers Checking',   desc: 'Pre-built JSON paper + student sheet' },
+    { id: 'old',            label: '📜 Old Papers Checking',   desc: 'QP + Solution + student sheet' },
+    { id: 'checked_papers', label: '📋 Checked Papers',        desc: 'All papers — queued, running, done' },
+    { id: 'feedback',       label: '💬 Feedback Only',         desc: 'Manual marking + feedback' },
+    { id: 'exams',          label: '🗂 Manage Exams',           desc: 'Exam & student management' },
 ];
 
 function Dashboard() {
@@ -1249,11 +1308,11 @@ function Dashboard() {
 
                 {/* Tab content */}
                 <div className="tab-content">
-                    {activeTab === 'old'          && <OldPapersTab />}
-                    {activeTab === 'new'          && <NewPapersTab />}
-                    {activeTab === 'edit_checked' && <EditCheckedCopyTab />}
-                    {activeTab === 'feedback'     && <FeedbackTab />}
-                    {activeTab === 'exams'        && <ExamsTab />}
+                    {activeTab === 'old'            && <OldPapersTab />}
+                    {activeTab === 'new'            && <NewPapersTab />}
+                    {activeTab === 'checked_papers' && <CheckedPapersTab />}
+                    {activeTab === 'feedback'       && <FeedbackTab />}
+                    {activeTab === 'exams'          && <ExamsTab />}
                 </div>
             </main>
         </div>

@@ -127,12 +127,16 @@ def get_paper_catalog():
 # In-memory task store  (good enough for a single-server deployment)
 # ══════════════════════════════════════════════════════════════════════════════
 
-_tasks: dict[str, dict] = {}   # task_id → { status, output_dir, thread }
+_tasks: dict[str, dict] = {}   # task_id → { status, output_dir, thread, queued_at }
 
 # Global semaphore: only 1 full pipeline runs at a time.
 # This prevents concurrent PaddleOCR + Claude loads from spiking RAM.
 # A second submission will queue (its thread blocks here) until the first finishes.
 _pipeline_semaphore = threading.Semaphore(1)
+
+# Pause flag — when True, the next queued pipeline waits before starting.
+# The currently-running pipeline always completes (graceful pause).
+_queue_paused = False
 
 _TASKS_MAX_HISTORY = 100   # prune oldest entries beyond this count to prevent memory growth
 
@@ -201,10 +205,13 @@ def _resolve_profile_api_keys(profile: str) -> dict:
 
 def _run_subprocess(task_id: str, cmd: list[str], output_dir: Path, profile_api_keys: dict = None, profile: str = "Profile 1", paper_type: str = "unknown"):
     """Run a pipeline subprocess and monitor it. Updates _tasks on completion.
-    
+
     Acquires the global _pipeline_semaphore first — only 1 pipeline runs at a time
     to prevent concurrent PaddleOCR + Claude loads from causing RAM spikes / OOM kills.
+    When _queue_paused is True the next queued task holds here until resumed
+    (the currently-running task always finishes — graceful pause).
     """
+    global _queue_paused
     _prune_tasks()
 
     # If another pipeline is running, update status so the UI shows something meaningful
@@ -218,8 +225,34 @@ def _run_subprocess(task_id: str, cmd: list[str], output_dir: Path, profile_api_
         except Exception:
             pass
         print(f"[PIPELINE QUEUE] Task {task_id[:12]}... waiting for semaphore (another pipeline is running)", flush=True)
-        _pipeline_semaphore.acquire(blocking=True)   # now block until the slot is free
+        _pipeline_semaphore.acquire(blocking=True)   # block until the slot is free
         print(f"[PIPELINE QUEUE] Task {task_id[:12]}... acquired semaphore, starting now", flush=True)
+
+    # ── Respect pause flag BEFORE starting (the slot is ours now) ───────────
+    # If the user paused the queue while we were waiting, hold here until resumed.
+    if _queue_paused:
+        result_file = output_dir / "result.json"
+        try:
+            data = json.loads(result_file.read_text(encoding="utf-8")) if result_file.exists() else {}
+            data.update({"stage": "started", "status": "queued", "message": "Queue is paused — waiting for resume..."})
+            result_file.write_text(json.dumps(data, indent=2), encoding="utf-8")
+        except Exception:
+            pass
+        print(f"[PIPELINE QUEUE] Task {task_id[:12]}... queue paused, holding...", flush=True)
+        while _queue_paused:
+            # Check whether this task was removed while waiting
+            if _tasks.get(task_id, {}).get("removed"):
+                _pipeline_semaphore.release()
+                print(f"[PIPELINE QUEUE] Task {task_id[:12]}... removed from queue, aborting.", flush=True)
+                return
+            time.sleep(1)
+        print(f"[PIPELINE QUEUE] Task {task_id[:12]}... queue resumed, starting now.", flush=True)
+
+    # Check if task was removed while waiting in queue
+    if _tasks.get(task_id, {}).get("removed"):
+        _pipeline_semaphore.release()
+        print(f"[PIPELINE QUEUE] Task {task_id[:12]}... removed, skipping.", flush=True)
+        return
 
     try:
         _tasks[task_id]["status"] = "running"
@@ -374,6 +407,7 @@ async def run_old_pipeline(
         "student_name": student_name,
         "task_id":     task_id,
         "created_at":  time.time(),
+        "queued_at":   time.time(),
     }
     (output_dir / "task_meta.json").write_text(json.dumps(meta, indent=2))
     
@@ -476,12 +510,20 @@ async def run_new_pipeline(
     as_path = output_dir / "student_answersheet.pdf"
     _save_upload(as_pdf, as_path)
 
+    # Derive a human-friendly paper label from the path (e.g. "AA Mock Paper 1")
+    try:
+        paper_label = paper_path.stem.replace("_", " ")
+    except Exception:
+        paper_label = ""
+
     meta = {
         "pipeline":      "new",
         "student_name":  student_name,
         "ft_paper_path": str(paper_path),
+        "paper_label":   paper_label,
         "task_id":       task_id,
         "created_at":    time.time(),
+        "queued_at":     time.time(),
     }
     (output_dir / "task_meta.json").write_text(json.dumps(meta, indent=2))
     
@@ -724,16 +766,18 @@ def _get_job_dir(task_id: str) -> Path:
 @router.get("/jobs")
 def list_pipeline_jobs():
     """
-    List all checked paper jobs for the Edit Checked Copy dashboard section.
-    Scans both _JOBS_DIR and grading_results directory and returns structured job cards.
+    List all checked paper jobs for the Checked Papers dashboard section.
+    Merges live in-memory tasks (queued/running) with disk-scanned completed jobs.
+    Returns structured job cards with queue_position and queued_at.
     """
     jobs = []
     seen_ids = set()
 
+    # ── Step 1: Scan disk for completed/historical jobs ──────────────────────
     search_dirs = []
     if _JOBS_DIR.exists():
         search_dirs.append(_JOBS_DIR)
-    
+
     grading_results_dir = _BACKEND_DIR / "grading_results"
     if grading_results_dir.exists():
         search_dirs.append(grading_results_dir)
@@ -747,27 +791,31 @@ def list_pipeline_jobs():
             if task_id in seen_ids:
                 continue
 
-            checked_pdf = job_dir / "checked_copy.pdf"
-            result_file = job_dir / "result.json"
+            checked_pdf  = job_dir / "checked_copy.pdf"
+            result_file  = job_dir / "result.json"
             grading_json = job_dir / "grading_final.json"
-            meta_file = job_dir / "task_meta.json"
+            meta_file    = job_dir / "task_meta.json"
 
             if not (checked_pdf.exists() or grading_json.exists() or result_file.exists()):
                 continue
 
             seen_ids.add(task_id)
 
-            student_name = ""
+            student_name  = ""
             pipeline_type = "unknown"
-            created_at = job_dir.stat().st_mtime
+            paper_label   = ""
+            created_at    = job_dir.stat().st_mtime
+            queued_at     = None
 
             if meta_file.exists():
                 try:
                     meta = json.loads(meta_file.read_text(encoding="utf-8"))
-                    student_name = meta.get("student_name", "").strip()
+                    student_name  = meta.get("student_name", "").strip()
                     pipeline_type = meta.get("pipeline", pipeline_type)
+                    paper_label   = meta.get("paper_label", "")
                     if "created_at" in meta:
                         created_at = meta["created_at"]
+                    queued_at = meta.get("queued_at")
                 except Exception:
                     pass
 
@@ -781,15 +829,29 @@ def list_pipeline_jobs():
 
             total_obtained = 0.0
             total_possible = 0.0
+            # Default: if checked pdf exists → completed; otherwise check result.json
             status = "completed" if checked_pdf.exists() else "running"
+
+            # Override status from live _tasks if the task is still tracked in memory
+            live = _tasks.get(task_id)
+            if live:
+                mem_status = live.get("status", "")
+                if mem_status in ("queued", "running"):
+                    status = mem_status
 
             if result_file.exists():
                 try:
                     res = json.loads(result_file.read_text(encoding="utf-8"))
                     total_obtained = float(res.get("total_marks_obtained", 0.0) or 0.0)
                     total_possible = float(res.get("total_marks_possible", 0.0) or 0.0)
-                    if res.get("status"):
-                        status = res["status"]
+                    res_status = res.get("status") or ""
+                    # Only override disk status when more specific
+                    if res_status and res_status not in ("queued", "running") and status not in ("completed",):
+                        status = res_status
+                    elif res_status == "queued" and status != "running":
+                        status = "queued"
+                    elif res_status == "paused":
+                        status = "paused"
                 except Exception:
                     pass
 
@@ -803,20 +865,147 @@ def list_pipeline_jobs():
                     pass
 
             jobs.append({
-                "task_id": task_id,
-                "student_name": student_name,
-                "pipeline": pipeline_type,
-                "created_at": created_at,
-                "total_obtained": total_obtained,
-                "total_possible": total_possible,
-                "percentage": (total_obtained / total_possible * 100) if total_possible else 0.0,
-                "status": status,
+                "task_id":              task_id,
+                "student_name":         student_name,
+                "pipeline":             pipeline_type,
+                "paper_label":          paper_label,
+                "created_at":           created_at,
+                "queued_at":            queued_at,
+                "total_obtained":       total_obtained,
+                "total_possible":       total_possible,
+                "percentage":           (total_obtained / total_possible * 100) if total_possible else 0.0,
+                "status":               status,
                 "checked_copy_available": checked_pdf.exists(),
-                "grading_ready":          grading_json.exists(),
+                "grading_ready":        grading_json.exists(),
+                "queue_position":       0,   # will be filled below
             })
 
+    # ── Step 2: Add live queued/running tasks not yet on disk ────────────────
+    for task_id, task in list(_tasks.items()):
+        if task_id in seen_ids:
+            continue
+        if task.get("removed"):
+            continue
+        mem_status = task.get("status", "queued")
+        if mem_status not in ("queued", "running"):
+            continue   # only include active tasks that aren't on disk yet
+
+        output_dir = Path(task.get("output_dir", ""))
+        meta_file  = output_dir / "task_meta.json"
+        student_name  = ""
+        pipeline_type = task.get("pipeline", "unknown")
+        paper_label   = ""
+        created_at    = task.get("queued_at", time.time())
+        queued_at     = task.get("queued_at")
+
+        if meta_file.exists():
+            try:
+                meta = json.loads(meta_file.read_text(encoding="utf-8"))
+                student_name  = meta.get("student_name", "").strip()
+                paper_label   = meta.get("paper_label", "")
+                queued_at     = meta.get("queued_at", created_at)
+                created_at    = meta.get("created_at", created_at)
+            except Exception:
+                pass
+
+        seen_ids.add(task_id)
+        jobs.append({
+            "task_id":              task_id,
+            "student_name":         student_name,
+            "pipeline":             pipeline_type,
+            "paper_label":          paper_label,
+            "created_at":           created_at,
+            "queued_at":            queued_at,
+            "total_obtained":       0.0,
+            "total_possible":       0.0,
+            "percentage":           0.0,
+            "status":               mem_status,
+            "checked_copy_available": False,
+            "grading_ready":        False,
+            "queue_position":       0,
+        })
+
     jobs.sort(key=lambda j: j["created_at"], reverse=True)
-    return jobs
+
+    # ── Step 3: Assign queue_position to waiting tasks ───────────────────────
+    # queue_position: 0 = not in queue (completed/failed), 1 = next to run, 2 = after that…
+    # "running" gets position 0 (it's currently executing)
+    queue_pos = 1
+    for job in reversed(jobs):   # oldest first = front of queue
+        if job["status"] == "queued":
+            job["queue_position"] = queue_pos
+            queue_pos += 1
+
+    # Expose whether the global queue is currently paused
+    return JSONResponse(content={
+        "jobs": jobs,
+        "queue_paused": _queue_paused,
+    })
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# Queue management — pause / resume / remove
+# ══════════════════════════════════════════════════════════════════════════════
+
+@router.post("/jobs/pause")
+def pause_queue():
+    """Pause the queue. The currently-running pipeline finishes; next one waits."""
+    global _queue_paused
+    _queue_paused = True
+    return {"queue_paused": True}
+
+
+@router.post("/jobs/resume")
+def resume_queue():
+    """Resume a paused queue, allowing the next queued pipeline to start."""
+    global _queue_paused
+    _queue_paused = False
+    return {"queue_paused": False}
+
+
+@router.delete("/jobs/remove/{task_id}")
+def remove_from_queue(task_id: str):
+    """
+    Remove a QUEUED (not running) task from the queue.
+    Marks the task as removed; the background thread will detect this and abort.
+    Also cleans up the uploaded files to free disk space.
+    """
+    task = _tasks.get(task_id)
+    if not task:
+        raise HTTPException(status_code=404, detail="Task not found in queue")
+    if task.get("status") == "running":
+        raise HTTPException(status_code=400, detail="Cannot remove a task that is currently running")
+
+    # Mark as removed so the background thread skips it
+    _tasks[task_id]["removed"] = True
+    _tasks[task_id]["status"]  = "removed"
+
+    # Clean up uploaded files (answer sheet etc.) — keep dir for audit trail
+    output_dir = Path(task.get("output_dir", ""))
+    if output_dir.exists():
+        for fname in ("student_answersheet.pdf", "question_paper.pdf", "solution.pdf"):
+            fp = output_dir / fname
+            if fp.exists():
+                try:
+                    fp.unlink()
+                except Exception:
+                    pass
+        # Write a tombstone result.json
+        tombstone = {"status": "removed", "stage": "removed", "message": "Removed from queue by user"}
+        try:
+            (output_dir / "result.json").write_text(json.dumps(tombstone, indent=2), encoding="utf-8")
+        except Exception:
+            pass
+
+    return {"task_id": task_id, "status": "removed"}
+
+
+@router.get("/queue/status")
+def get_queue_status():
+    """Return current queue pause state and active task counts."""
+    queued  = sum(1 for t in _tasks.values() if t.get("status") == "queued" and not t.get("removed"))
+    running = sum(1 for t in _tasks.values() if t.get("status") == "running")
+    return {"queue_paused": _queue_paused, "queued_count": queued, "running_count": running}
 
 
 @router.get("/student/{task_id}")
