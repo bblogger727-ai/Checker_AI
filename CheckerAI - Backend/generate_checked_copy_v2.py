@@ -1637,66 +1637,53 @@ def _heading_first_block(
     return pdf_h * (1.0 - (center - span / 2))
 
 
-_paddle_ocr_instance = None
+# ── OCR Worker HTTP client ────────────────────────────────────────────────────
+# PaddleOCR is now a resident worker process (ocr_worker.py, port 9999).
+# We call it via HTTP so the model stays loaded between paper checks.
 
-def _get_paddle_ocr():
-    global _paddle_ocr_instance
-    if _paddle_ocr_instance is None:
-        try:
-            os.environ["FLAGS_enable_pir_api"] = "0"
-            os.environ["FLAGS_use_mkldnn"] = "0"
-            from paddleocr import PaddleOCR
-            _paddle_ocr_instance = PaddleOCR(
-                use_doc_orientation_classify=False,
-                use_doc_unwarping=False,
-                use_textline_orientation=False,
-                lang='en',
-                enable_mkldnn=False,
-            )
-        except Exception as e:
-            print(f"  [PaddleOCR] Warning: could not load PaddleOCR: {e}", flush=True)
-            _paddle_ocr_instance = False
-    return _paddle_ocr_instance
+_OCR_WORKER_URL = os.environ.get("OCR_WORKER_URL", "http://localhost:9999")
+
+
+def _call_ocr_worker(img_np) -> list:
+    """
+    Send a BGR numpy image to the resident OCR worker and return a list of
+    dicts with keys: text, ymin, ymax, xmin, xmax, score (fractions 0..1).
+
+    Falls back gracefully to an empty list if the worker is unavailable.
+    """
+    try:
+        import base64
+        import urllib.request
+        import urllib.error
+        import json as _json
+
+        # Encode image as PNG bytes -> base64 string
+        success, buf = cv2.imencode(".png", img_np)
+        if not success:
+            return []
+        img_b64 = base64.b64encode(buf.tobytes()).decode("utf-8")
+
+        payload = _json.dumps({"image_b64": img_b64}).encode("utf-8")
+        req = urllib.request.Request(
+            f"{_OCR_WORKER_URL}/ocr",
+            data=payload,
+            headers={"Content-Type": "application/json"},
+            method="POST",
+        )
+        with urllib.request.urlopen(req, timeout=120) as resp:
+            data = _json.loads(resp.read())
+        return data.get("lines", [])
+    except Exception as e:
+        print(f"  [OCR Worker] Request failed: {e}", flush=True)
+        return []
 
 
 def _extract_page_boxes_paddle(img_np) -> list:
     """
-    Extract text lines with bounding boxes from a BGR image using PaddleOCR.
+    Extract text lines with bounding boxes from a BGR image via the OCR worker.
     Returns list of dicts with keys: text, ymin, ymax, xmin, xmax, score (fractions 0..1).
     """
-    ocr = _get_paddle_ocr()
-    if not ocr:
-        return []
-    try:
-        result = ocr.ocr(img_np)
-    except Exception as e:
-        print(f"  [PaddleOCR] Prediction error: {e}", flush=True)
-        return []
-    if not result:
-        return []
-    h, w = img_np.shape[:2]
-    lines = []
-    for item in result:
-        rec_texts = item.get('rec_texts', [])
-        rec_boxes = item.get('rec_boxes', [])
-        rec_scores = item.get('rec_scores', [])
-        for text, box, score in zip(rec_texts, rec_boxes, rec_scores):
-            box = np.array(box)
-            if box.ndim == 1:
-                xmin, ymin, xmax, ymax = box
-            else:
-                xmin, ymin = box.min(axis=0)
-                xmax, ymax = box.max(axis=0)
-            lines.append({
-                'text': str(text),
-                'ymin': max(0.0, float(ymin) / h),
-                'ymax': min(1.0, float(ymax) / h),
-                'xmin': max(0.0, float(xmin) / w),
-                'xmax': min(1.0, float(xmax) / w),
-                'score': float(score),
-            })
-    lines.sort(key=lambda l: l['ymin'])
-    return lines
+    return _call_ocr_worker(img_np)
 
 
 def _match_q_heading_text(text: str, q_num: str) -> bool:
@@ -3356,13 +3343,7 @@ def _generate_checked_copy_impl(
     print(f"\n  ✓ Checked copy    → {output_path}")
     print(f"{'='*62}\n")
 
-    # Clean up PaddleOCR memory
-    global _paddle_ocr_instance
-    if _paddle_ocr_instance is not None and _paddle_ocr_instance is not False:
-        del _paddle_ocr_instance
-        _paddle_ocr_instance = None
-    import gc
-    gc.collect()
+    # PaddleOCR model lives in the resident OCR worker — no cleanup needed here.
 
     return _manifest
 

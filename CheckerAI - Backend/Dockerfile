@@ -15,6 +15,7 @@ RUN apt-get update && apt-get install -y \
     libgomp1 \
     libgl1 \
     libglib2.0-0 \
+    curl \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy requirements first for caching
@@ -27,8 +28,11 @@ COPY . .
 # Create upload directories
 RUN mkdir -p uploads/exams uploads/students uploads/results data
 
+# Make entrypoint executable
+RUN chmod +x /app/entrypoint.sh
+
 # Expose port
 EXPOSE 8000
 
-# Run the application
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+# Start OCR worker (port 9999, internal) then main API (port 8000)
+CMD ["/app/entrypoint.sh"]

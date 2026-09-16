@@ -129,10 +129,11 @@ def get_paper_catalog():
 
 _tasks: dict[str, dict] = {}   # task_id → { status, output_dir, thread, queued_at }
 
-# Global semaphore: only 1 full pipeline runs at a time.
-# This prevents concurrent PaddleOCR + Claude loads from spiking RAM.
-# A second submission will queue (its thread blocks here) until the first finishes.
-_pipeline_semaphore = threading.Semaphore(1)
+# Global semaphore: up to 2 pipelines run concurrently.
+# PaddleOCR is now a resident worker (ocr_worker.py) so there is no per-paper
+# model-load RAM spike — two simultaneous papers are safe on the 3.7 GB VPS.
+# The OCR worker serialises OCR calls internally via its own asyncio lock.
+_pipeline_semaphore = threading.Semaphore(2)
 
 # Pause flag — when True, the next queued pipeline waits before starting.
 # The currently-running pipeline always completes (graceful pause).
