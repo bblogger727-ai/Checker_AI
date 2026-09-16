@@ -5,7 +5,7 @@ from pydantic import BaseModel
 
 router = APIRouter(prefix="/api/stats", tags=["stats"])
 
-STATS_FILE = Path(__file__).parent.parent.parent / "profile_stats.json"
+STATS_FILE = Path("/app/data/profile_stats.json")
 
 def _read_stats() -> dict:
     if not STATS_FILE.exists():
