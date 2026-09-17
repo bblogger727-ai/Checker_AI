@@ -159,6 +159,20 @@ export const getPipelineJobs = async () => {
 };
 
 /**
+ * Pre-check a student answer sheet for horizontal/rotated pages BEFORE queuing.
+ * Returns { has_horizontal: bool }
+ */
+export const precheckAnswerSheet = async (asPdf) => {
+    const fd = new FormData();
+    fd.append('as_pdf', asPdf);
+    const response = await api.post('/api/pipelines/precheck', fd, {
+        headers: { 'Content-Type': 'multipart/form-data' },
+        timeout: 60000,
+    });
+    return response.data;
+};
+
+/**
  * Launch the Old-Papers (Claude) pipeline.
  * Returns { task_id, status }
  */

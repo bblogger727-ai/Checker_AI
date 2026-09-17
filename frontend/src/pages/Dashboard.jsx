@@ -4,7 +4,7 @@ import { useAuth } from '../App';
 import {
     getExams, createExam, deleteExam,
     getPaperCatalog, getPipelineJobs,
-    runOldPipeline, runNewPipeline, runFeedbackPipeline,
+    runOldPipeline, runNewPipeline, runFeedbackPipeline, precheckAnswerSheet,
     getPipelineStatus, downloadPipelineResult, pipelineAction,
     recheckPipeline,
     getStats, resetStats,
@@ -293,25 +293,22 @@ function ProfileStats({ profile }) {
 /* ══════════════════════════════════════════════════════════════════════════ */
 
 function OldPapersTab() {
-    const [form, setForm] = useState({ studentName: '', qpPdf: null, saPdf: null, asPdf: null, profile: 'Profile 1' });
-    const [submitting, setSubmitting] = useState(false);
-    const [toast, setToast]           = useState(null);
-    const [errorMsg, setErrorMsg]     = useState(null);
+    const [form, setForm]                   = useState({ studentName: '', qpPdf: null, saPdf: null, asPdf: null, profile: 'Profile 1' });
+    const [submitting, setSubmitting]       = useState(false);
+    const [toast, setToast]                 = useState(null);
+    const [errorMsg, setErrorMsg]           = useState(null);
+    const [horizontalWarn, setHorizontalWarn] = useState(false);  // pre-check warning state
+    const pendingSubmitRef = useRef(null);                        // stores the form data while user decides
 
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-        setErrorMsg(null);
-        const { qpPdf, saPdf, asPdf } = form;
-        if (!qpPdf || !saPdf || !asPdf) {
-            setErrorMsg('Please provide all three PDFs (Question, Solution, Student).');
-            return;
-        }
+    const _doQueue = async (formData) => {
         setSubmitting(true);
+        setHorizontalWarn(false);
         try {
-            await runOldPipeline(form.studentName, qpPdf, saPdf, asPdf, form.profile);
-            const name = form.studentName.trim() || 'Paper';
+            await runOldPipeline(formData.studentName, formData.qpPdf, formData.saPdf, formData.asPdf, formData.profile);
+            const name = formData.studentName.trim() || 'Paper';
             setToast(`✅ ${name} has been queued for checking!`);
             setForm(prev => ({ studentName: '', qpPdf: null, saPdf: null, asPdf: null, profile: prev.profile }));
+            pendingSubmitRef.current = null;
         } catch (err) {
             setErrorMsg(err.response?.data?.detail || err.message);
         } finally {
@@ -319,9 +316,64 @@ function OldPapersTab() {
         }
     };
 
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        setErrorMsg(null);
+        setHorizontalWarn(false);
+        const { qpPdf, saPdf, asPdf } = form;
+        if (!qpPdf || !saPdf || !asPdf) {
+            setErrorMsg('Please provide all three PDFs (Question, Solution, Student).');
+            return;
+        }
+        // Pre-check for horizontal pages before queuing
+        setSubmitting(true);
+        try {
+            const { has_horizontal } = await precheckAnswerSheet(asPdf);
+            if (has_horizontal) {
+                pendingSubmitRef.current = { ...form };
+                setHorizontalWarn(true);
+                setSubmitting(false);
+                return;
+            }
+        } catch (_) {
+            // If pre-check fails, proceed normally (don't block)
+        }
+        setSubmitting(false);
+        await _doQueue(form);
+    };
+
     return (
         <form className="pipeline-form" onSubmit={handleSubmit}>
             {toast && <Toast message={toast} onDone={() => setToast(null)} />}
+
+            {/* Horizontal pages warning — shown BEFORE queuing */}
+            {horizontalWarn && (
+                <div style={{
+                    background: '#2d2213', border: '1.5px solid #f0a500', borderRadius: '10px',
+                    padding: '14px 18px', marginBottom: '16px', color: '#f0c040',
+                }}>
+                    <strong>⚠️ Horizontal / Rotated Pages Detected</strong>
+                    <p style={{ margin: '6px 0 12px', fontSize: '13px', color: '#c8a84b' }}>
+                        This answer sheet contains landscape-oriented or rotated pages.
+                        OCR and annotation accuracy may be reduced. Do you still want to continue?
+                    </p>
+                    <div style={{ display: 'flex', gap: '10px' }}>
+                        <button type="button" className="submit-btn"
+                            onClick={() => _doQueue(pendingSubmitRef.current)}
+                            disabled={submitting}
+                        >
+                            {submitting ? '⏳ Queuing…' : '✅ Continue Anyway'}
+                        </button>
+                        <button type="button" className="cancel-btn"
+                            onClick={() => { setHorizontalWarn(false); pendingSubmitRef.current = null; }}
+                            disabled={submitting}
+                        >
+                            ✕ Cancel
+                        </button>
+                    </div>
+                </div>
+            )}
+
             <p className="pipeline-desc">
                 Provide all three documents. Claude AI will extract the schema from the question
                 paper, model answers from the solution, OCR the student sheet, align answers,
@@ -434,21 +486,19 @@ function NewPapersTab() {
     const papers   = (sel.type && catalog?.[sel.exam]?.[sel.subject]?.[sel.type]) || [];
     const selectedPaperPath = papers.find(p => p.filename === sel.paper)?.path || '';
 
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-        setErrorMsg(null);
-        if (!selectedPaperPath || !form.asPdf) {
-            setErrorMsg('Please select a paper and provide the student answer sheet.');
-            return;
-        }
+    const [horizontalWarn, setHorizontalWarn] = useState(false);
+    const pendingSubmitRef = useRef(null);
+
+    const _doQueue = async (formData, paperPath, paperLabel) => {
         setSubmitting(true);
+        setHorizontalWarn(false);
         try {
-            await runNewPipeline(form.studentName, selectedPaperPath, form.asPdf, form.profile);
-            const name = form.studentName.trim() || 'Paper';
-            const paperName = papers.find(p => p.filename === sel.paper)?.label || '';
-            setToast(`✅ ${name} — ${paperName} queued for checking!`);
+            await runNewPipeline(formData.studentName, paperPath, formData.asPdf, formData.profile);
+            const name = formData.studentName.trim() || 'Paper';
+            setToast(`✅ ${name} — ${paperLabel} queued for checking!`);
             setForm(prev => ({ studentName: '', asPdf: null, profile: prev.profile }));
             setSel({ exam: '', subject: '', type: '', paper: '' });
+            pendingSubmitRef.current = null;
         } catch (err) {
             setErrorMsg(err.response?.data?.detail || err.message);
         } finally {
@@ -456,9 +506,64 @@ function NewPapersTab() {
         }
     };
 
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        setErrorMsg(null);
+        setHorizontalWarn(false);
+        if (!selectedPaperPath || !form.asPdf) {
+            setErrorMsg('Please select a paper and provide the student answer sheet.');
+            return;
+        }
+        const paperLabel = papers.find(p => p.filename === sel.paper)?.label || '';
+        // Pre-check for horizontal pages before queuing
+        setSubmitting(true);
+        try {
+            const { has_horizontal } = await precheckAnswerSheet(form.asPdf);
+            if (has_horizontal) {
+                pendingSubmitRef.current = { form: { ...form }, paperPath: selectedPaperPath, paperLabel };
+                setHorizontalWarn(true);
+                setSubmitting(false);
+                return;
+            }
+        } catch (_) {
+            // If pre-check fails, proceed normally
+        }
+        setSubmitting(false);
+        await _doQueue(form, selectedPaperPath, paperLabel);
+    };
+
     return (
         <form className="pipeline-form" onSubmit={handleSubmit}>
             {toast && <Toast message={toast} onDone={() => setToast(null)} />}
+
+            {/* Horizontal pages warning — shown BEFORE queuing */}
+            {horizontalWarn && (
+                <div style={{
+                    background: '#2d2213', border: '1.5px solid #f0a500', borderRadius: '10px',
+                    padding: '14px 18px', marginBottom: '16px', color: '#f0c040',
+                }}>
+                    <strong>⚠️ Horizontal / Rotated Pages Detected</strong>
+                    <p style={{ margin: '6px 0 12px', fontSize: '13px', color: '#c8a84b' }}>
+                        This answer sheet contains landscape-oriented or rotated pages.
+                        OCR and annotation accuracy may be reduced. Do you still want to continue?
+                    </p>
+                    <div style={{ display: 'flex', gap: '10px' }}>
+                        <button type="button" className="submit-btn"
+                            onClick={() => { const p = pendingSubmitRef.current; _doQueue(p.form, p.paperPath, p.paperLabel); }}
+                            disabled={submitting}
+                        >
+                            {submitting ? '⏳ Queuing…' : '✅ Continue Anyway'}
+                        </button>
+                        <button type="button" className="cancel-btn"
+                            onClick={() => { setHorizontalWarn(false); pendingSubmitRef.current = null; }}
+                            disabled={submitting}
+                        >
+                            ✕ Cancel
+                        </button>
+                    </div>
+                </div>
+            )}
+
             <p className="pipeline-desc">
                 Select a pre-built paper from our library, upload the student answer sheet,
                 and the FT pipeline will handle OCR, sub-part alignment, grading, and

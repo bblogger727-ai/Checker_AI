@@ -29,6 +29,7 @@ import json
 import time
 import shutil
 import threading
+import asyncio
 import subprocess
 from pathlib import Path
 from typing import Optional
@@ -350,6 +351,76 @@ def _find_existing_job_dir(student_name: str, pipeline_type: str, ft_paper_path:
         return None
 
     return max(matching_dirs, key=lambda d: d.stat().st_mtime)
+
+# ══════════════════════════════════════════════════════════════════════════════
+# Pre-check: Horizontal page detection (runs BEFORE queuing)
+# ══════════════════════════════════════════════════════════════════════════════
+
+def _check_horizontal_pages(pdf_path: str) -> bool:
+    """
+    Return True if the PDF contains any horizontally-oriented or rotated pages.
+    Mirrors the logic in run_pipeline_FT_api.py / run_pipeline_claude_api.py.
+    """
+    try:
+        import fitz
+        import pytesseract
+        from PIL import Image
+        import io
+        import re
+
+        doc = fitz.open(pdf_path)
+        for i, page in enumerate(doc):
+            rect = page.rect
+            if rect.width > rect.height:
+                doc.close()
+                return True
+            # Check physical text orientation via OCR for first 3 pages
+            if i < 3:
+                pix = page.get_pixmap(dpi=72)
+                img = Image.open(io.BytesIO(pix.tobytes("png")))
+                try:
+                    osd = pytesseract.image_to_osd(img)
+                    rot_match = re.search(r'Rotate:\s*(\d+)', osd)
+                    if rot_match:
+                        rot = int(rot_match.group(1))
+                        if rot == 90 or rot == 270:
+                            doc.close()
+                            return True
+                except Exception:
+                    pass
+        doc.close()
+        return False
+    except Exception:
+        return False
+
+
+@router.post("/precheck")
+async def precheck_answer_sheet(
+    as_pdf: UploadFile = File(..., description="Student Answer Sheet PDF to pre-check"),
+):
+    """
+    Run a fast horizontal-page check on the uploaded PDF.
+    Returns immediately with { has_horizontal: bool }.
+    Call this BEFORE submitting to /run/new or /run/old.
+    The file is saved to a temp location, checked, then deleted.
+    """
+    import tempfile
+    with tempfile.NamedTemporaryFile(suffix=".pdf", delete=False) as tmp:
+        tmp_path = tmp.name
+        content = await as_pdf.read()
+        tmp.write(content)
+
+    try:
+        has_horizontal = await asyncio.get_event_loop().run_in_executor(
+            None, _check_horizontal_pages, tmp_path
+        )
+    finally:
+        try:
+            os.unlink(tmp_path)
+        except Exception:
+            pass
+
+    return {"has_horizontal": has_horizontal}
 
 
 # ══════════════════════════════════════════════════════════════════════════════
