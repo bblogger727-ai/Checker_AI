@@ -139,8 +139,11 @@ function CheckedPaper() {
     return (
         <div className="checked-paper-page">
             <header className="checked-paper-header">
-                <button onClick={() => navigate(`/exam/${student.exam_id}`)} className="back-btn">
-                    Back
+                <button
+                    onClick={() => student.exam_id ? navigate(`/exam/${student.exam_id}`) : navigate('/?tab=checked')}
+                    className="back-btn"
+                >
+                    ← Back
                 </button>
                 <div>
                     <h1>Checked Paper</h1>

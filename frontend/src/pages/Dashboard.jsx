@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../App';
 import {
     getExams, createExam, deleteExam,
@@ -1411,7 +1411,15 @@ const TABS = [
 function Dashboard() {
     const { user, logout } = useAuth();
     const navigate         = useNavigate();
-    const [activeTab, setActiveTab] = useState('new');
+    const location         = useLocation();
+
+    // Read ?tab= param from URL to support deep-linking (e.g. /?tab=checked from Back button)
+    const TAB_MAP = { checked: 'checked_papers', old: 'old', new: 'new', feedback: 'feedback', exams: 'exams' };
+    const initialTab = (() => {
+        const param = new URLSearchParams(location.search).get('tab');
+        return TAB_MAP[param] || 'new';
+    })();
+    const [activeTab, setActiveTab] = useState(initialTab);
 
     return (
         <div className="dashboard">
