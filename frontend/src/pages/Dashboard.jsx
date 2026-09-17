@@ -999,6 +999,7 @@ function JobCard({ job, navigate, onRecheckDone, onRemove }) {
     const [recheckError, setRecheckError] = useState(null);
     const [recheckDone,  setRecheckDone]  = useState(false);
     const [removing,     setRemoving]     = useState(false);
+    const [deleting,     setDeleting]     = useState(false);
     const pollRef = useRef(null);
 
     const clearPoll = () => { if (pollRef.current) clearInterval(pollRef.current); };
@@ -1041,6 +1042,19 @@ function JobCard({ job, navigate, onRecheckDone, onRemove }) {
         } catch (err) {
             alert('Could not remove: ' + (err.response?.data?.detail || err.message));
             setRemoving(false);
+        }
+    };
+
+    const handleDelete = async (e) => {
+        e.stopPropagation();
+        if (!confirm(`Permanently delete the result for "${job.student_name}"? This cannot be undone.`)) return;
+        setDeleting(true);
+        try {
+            await removeFromQueue(job.task_id);
+            onRemove();
+        } catch (err) {
+            alert('Could not delete: ' + (err.response?.data?.detail || err.message));
+            setDeleting(false);
         }
     };
 
@@ -1181,6 +1195,26 @@ function JobCard({ job, navigate, onRecheckDone, onRemove }) {
                             }}
                         >
                             ✏️ Edit Copy
+                        </button>
+                    )}
+
+                    {/* Delete button — for completed/failed jobs */}
+                    {!isQueued && !isRunning && (
+                        <button
+                            type="button"
+                            onClick={handleDelete}
+                            disabled={deleting}
+                            title="Permanently delete this result"
+                            style={{
+                                padding: '4px 10px', fontSize: '12px',
+                                background: 'transparent', border: '1px solid #4f545c',
+                                color: '#72767d', borderRadius: '6px', cursor: 'pointer',
+                                transition: 'background 0.2s, color 0.2s, border-color 0.2s',
+                            }}
+                            onMouseEnter={e => { e.currentTarget.style.background = '#ed4245'; e.currentTarget.style.color = '#fff'; e.currentTarget.style.borderColor = '#ed4245'; }}
+                            onMouseLeave={e => { e.currentTarget.style.background = 'transparent'; e.currentTarget.style.color = '#72767d'; e.currentTarget.style.borderColor = '#4f545c'; }}
+                        >
+                            {deleting ? '⏳' : '🗑️'}
                         </button>
                     )}
                 </div>

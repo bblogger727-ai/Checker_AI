@@ -1038,38 +1038,67 @@ def resume_queue():
 @router.delete("/jobs/remove/{task_id}")
 def remove_from_queue(task_id: str):
     """
-    Remove a QUEUED (not running) task from the queue.
-    Marks the task as removed; the background thread will detect this and abort.
-    Also cleans up the uploaded files to free disk space.
+    Remove a task from the queue or delete a completed/failed job from disk.
+    - For queued tasks: marks as removed so the background thread aborts it.
+    - For completed/failed tasks (on disk, not in memory): deletes the job directory.
+    - Running tasks cannot be removed.
     """
     task = _tasks.get(task_id)
-    if not task:
-        raise HTTPException(status_code=404, detail="Task not found in queue")
-    if task.get("status") == "running":
-        raise HTTPException(status_code=400, detail="Cannot remove a task that is currently running")
 
-    # Mark as removed so the background thread skips it
-    _tasks[task_id]["removed"] = True
-    _tasks[task_id]["status"]  = "removed"
+    if task:
+        # Task is in memory (queued, running, or recently completed)
+        if task.get("status") == "running":
+            raise HTTPException(status_code=400, detail="Cannot remove a task that is currently running")
 
-    # Clean up uploaded files (answer sheet etc.) — keep dir for audit trail
-    output_dir = Path(task.get("output_dir", ""))
-    if output_dir.exists():
-        for fname in ("student_answersheet.pdf", "question_paper.pdf", "solution.pdf"):
-            fp = output_dir / fname
-            if fp.exists():
-                try:
-                    fp.unlink()
-                except Exception:
-                    pass
-        # Write a tombstone result.json
-        tombstone = {"status": "removed", "stage": "removed", "message": "Removed from queue by user"}
+        # Mark as removed so the background thread skips it
+        _tasks[task_id]["removed"] = True
+        _tasks[task_id]["status"]  = "removed"
+
+        # Clean up uploaded files (answer sheet etc.) — keep dir for audit trail
+        output_dir = Path(task.get("output_dir", ""))
+        if output_dir.exists():
+            for fname in ("student_answersheet.pdf", "question_paper.pdf", "solution.pdf"):
+                fp = output_dir / fname
+                if fp.exists():
+                    try:
+                        fp.unlink()
+                    except Exception:
+                        pass
+            # Write a tombstone result.json
+            tombstone = {"status": "removed", "stage": "removed", "message": "Removed from queue by user"}
+            try:
+                (output_dir / "result.json").write_text(json.dumps(tombstone, indent=2), encoding="utf-8")
+            except Exception:
+                pass
+
+        return {"task_id": task_id, "status": "removed"}
+
+    else:
+        # Task not in memory — look for it on disk (completed/failed jobs)
+        job_dir = _get_job_dir(task_id)
+        if not job_dir or not job_dir.exists():
+            raise HTTPException(status_code=404, detail="Task not found")
+
+        # Don't allow deleting currently-running jobs even if somehow not in _tasks
+        result_file = job_dir / "result.json"
+        if result_file.exists():
+            try:
+                res = json.loads(result_file.read_text())
+                if res.get("status") == "running":
+                    raise HTTPException(status_code=400, detail="Cannot remove a task that is currently running")
+            except HTTPException:
+                raise
+            except Exception:
+                pass
+
+        # Delete the entire job directory
         try:
-            (output_dir / "result.json").write_text(json.dumps(tombstone, indent=2), encoding="utf-8")
-        except Exception:
-            pass
+            import shutil as _shutil
+            _shutil.rmtree(job_dir)
+        except Exception as e:
+            raise HTTPException(status_code=500, detail=f"Failed to delete job directory: {e}")
 
-    return {"task_id": task_id, "status": "removed"}
+        return {"task_id": task_id, "status": "deleted"}
 
 
 @router.get("/queue/status")
