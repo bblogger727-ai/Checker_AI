@@ -504,15 +504,10 @@ def main():
     
     has_horizontal = check_horizontal_pages(args.as_pdf)
     if has_horizontal:
-        _write_status(output_dir, "paused", "Horizontal pages detected! Do you want to continue?", extra={"warning": "Horizontal pages detected!"})
-        while True:
-            if os.path.exists(os.path.join(output_dir, "continue.txt")):
-                break
-            if os.path.exists(os.path.join(output_dir, "reset.txt")):
-                _write_status(output_dir, "failed", "Pipeline aborted by user due to horizontal pages.", error="Aborted due to horizontal pages.")
-                sys.exit(1)
-            time.sleep(2)
-        _write_status(output_dir, "started", "Pipeline resumed...")
+        # Log warning and continue — horizontal page check is done pre-queue in the UI.
+        # The pipeline no longer pauses here; it proceeds and the warning is recorded in result.json.
+        print("[WARNING] Horizontal/rotated pages detected — proceeding anyway as user confirmed pre-queue.")
+        _write_status(output_dir, "started", "Pipeline started (horizontal pages detected — proceeding)", extra={"warning": "Horizontal pages detected!"})
 
     start = time.time()
 
