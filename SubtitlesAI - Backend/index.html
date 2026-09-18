@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>SubtitlesAI — Video to SRT</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#080b12;--surface:#0f1320;--surface2:#161c2e;--surface3:#1d2540;
+  --border:#242b40;--border2:#2d3550;
+  --accent:#7c6cfa;--accent2:#5a4fd4;--accent-glow:rgba(124,108,250,.25);
+  --green:#22d472;--red:#f04f4f;--amber:#f5a623;
+  --text:#e8eaf4;--muted:#6b7590;--muted2:#4a5270;--radius:16px;
+}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;min-height:100vh;
+  display:flex;flex-direction:column;align-items:center;padding:60px 20px 40px;
+  background-image:radial-gradient(ellipse 80% 40% at 50% -20%,rgba(124,108,250,.12),transparent);
+}
+
+/* Header */
+header{text-align:center;margin-bottom:56px;max-width:600px}
+.badge{display:inline-flex;align-items:center;gap:8px;
+  background:rgba(124,108,250,.12);border:1px solid rgba(124,108,250,.3);
+  border-radius:20px;padding:7px 18px;font-size:12px;font-weight:600;
+  color:var(--accent);margin-bottom:20px;letter-spacing:.6px;text-transform:uppercase}
+h1{font-size:clamp(32px,6vw,56px);font-weight:800;line-height:1.1;margin-bottom:14px;
+  background:linear-gradient(135deg,#fff 30%,rgba(124,108,250,.9) 100%);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+header p{color:var(--muted);font-size:16px;line-height:1.6}
+
+/* Card */
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
+  padding:36px;width:100%;max-width:700px;margin-bottom:20px;
+  box-shadow:0 4px 40px rgba(0,0,0,.4)}
+.card-title{font-size:11px;font-weight:700;color:var(--muted);
+  text-transform:uppercase;letter-spacing:1px;margin-bottom:24px}
+
+/* Drop zone */
+.dropzone{border:2px dashed var(--border2);border-radius:14px;padding:52px 28px;
+  text-align:center;cursor:pointer;transition:all .25s ease;position:relative;
+  background:var(--surface2)}
+.dropzone:hover,.dropzone.over{border-color:var(--accent);background:rgba(124,108,250,.08);
+  box-shadow:0 0 0 4px var(--accent-glow)}
+.dropzone input{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%;height:100%}
+.dz-icon{font-size:44px;margin-bottom:16px;display:block;
+  filter:drop-shadow(0 0 12px rgba(124,108,250,.5))}
+.dropzone h3{font-size:18px;font-weight:600;margin-bottom:8px;color:var(--text)}
+.dropzone p{color:var(--muted);font-size:13px}
+.file-info{display:none;margin-top:16px;background:rgba(124,108,250,.1);
+  border:1px solid rgba(124,108,250,.2);border-radius:10px;
+  padding:12px 16px;font-size:13px;display:none;
+  align-items:center;gap:10px;color:var(--accent)}
+.file-info.show{display:flex}
+.file-info .fi-name{font-weight:600;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.file-info .fi-size{color:var(--muted);flex-shrink:0;font-size:12px}
+
+/* Options */
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:24px}
+.field label{display:block;font-size:11px;font-weight:700;color:var(--muted);
+  text-transform:uppercase;letter-spacing:.7px;margin-bottom:8px}
+.field select,.field input[type=text]{
+  width:100%;background:var(--surface2);border:1.5px solid var(--border2);
+  border-radius:10px;color:var(--text);padding:11px 14px;font-size:14px;
+  font-family:inherit;outline:none;transition:border .2s,box-shadow .2s;
+  -webkit-appearance:none;appearance:none}
+.field select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='none'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%236b7590' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 14px center;padding-right:36px}
+.field select:focus,.field input:focus{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-glow)}
+.field.full{grid-column:1/-1}
+.hint{font-size:11px;color:var(--muted2);margin-top:6px}
+
+/* Progress */
+.prog-wrap{display:none;margin-top:24px;background:var(--surface2);
+  border:1px solid var(--border);border-radius:12px;padding:16px 18px}
+.prog-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+.prog-header span{font-size:13px;font-weight:500;color:var(--muted)}
+.prog-pct{font-size:13px;font-weight:700;color:var(--accent)}
+.prog-bar-bg{height:6px;background:var(--surface3);border-radius:99px;overflow:hidden}
+.prog-bar{height:100%;background:linear-gradient(90deg,var(--accent),#a78bfa);
+  border-radius:99px;width:0%;transition:width .3s ease;
+  box-shadow:0 0 8px var(--accent-glow)}
+
+/* Submit btn */
+.btn-row{margin-top:24px;display:flex;gap:10px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 28px;
+  border:none;border-radius:11px;font-size:15px;font-weight:600;cursor:pointer;
+  transition:all .2s ease;font-family:inherit;letter-spacing:.2px}
+.btn-primary{background:linear-gradient(135deg,var(--accent),var(--accent2));
+  color:#fff;box-shadow:0 4px 20px rgba(90,79,212,.4)}
+.btn-primary:hover:not(:disabled){opacity:.92;transform:translateY(-1px);
+  box-shadow:0 6px 24px rgba(90,79,212,.5)}
+.btn-primary:disabled{opacity:.45;cursor:not-allowed;transform:none;box-shadow:none}
+
+/* Status card */
+.status-card{display:none}
+.status-inner{display:flex;align-items:flex-start;gap:18px}
+.s-icon{width:52px;height:52px;border-radius:14px;display:flex;align-items:center;
+  justify-content:center;font-size:24px;flex-shrink:0}
+.s-icon.queued{background:rgba(245,166,35,.12);border:1px solid rgba(245,166,35,.2)}
+.s-icon.processing{background:rgba(124,108,250,.12);border:1px solid rgba(124,108,250,.2);
+  animation:glow 2s ease-in-out infinite}
+.s-icon.done{background:rgba(34,212,114,.12);border:1px solid rgba(34,212,114,.2)}
+.s-icon.failed{background:rgba(240,79,79,.12);border:1px solid rgba(240,79,79,.2)}
+.s-text h3{font-size:17px;font-weight:700;margin-bottom:5px}
+.s-text p{font-size:13px;color:var(--muted);line-height:1.5}
+
+/* Spinner */
+.spinner{display:inline-block;width:15px;height:15px;border:2px solid rgba(255,255,255,.25);
+  border-top-color:#fff;border-radius:50%;animation:spin .65s linear infinite}
+
+/* Download btn */
+.btn-dl{margin-top:20px;background:linear-gradient(135deg,#22d472,#16a34a);color:#fff;
+  font-size:15px;padding:14px 32px;box-shadow:0 4px 20px rgba(22,163,74,.35);width:100%;
+  justify-content:center}
+.btn-dl:hover{opacity:.92;transform:translateY(-1px)}
+.btn-new{background:var(--surface2);color:var(--muted);border:1.5px solid var(--border2);
+  margin-top:10px;width:100%;justify-content:center;font-size:14px}
+.btn-new:hover{border-color:var(--accent);color:var(--accent)}
+
+/* Steps indicator */
+.steps{display:flex;align-items:center;gap:0;margin-top:24px}
+.step{display:flex;align-items:center;gap:8px;flex:1}
+.step-dot{width:28px;height:28px;border-radius:50%;display:flex;align-items:center;
+  justify-content:center;font-size:12px;font-weight:700;flex-shrink:0;
+  border:2px solid var(--border2);color:var(--muted);transition:all .4s}
+.step-label{font-size:11px;font-weight:600;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.5px;transition:color .4s}
+.step-line{flex:1;height:1px;background:var(--border2);margin:0 4px}
+.step.active .step-dot{background:var(--accent);border-color:var(--accent);color:#fff;
+  box-shadow:0 0 12px var(--accent-glow)}
+.step.active .step-label{color:var(--text)}
+.step.done .step-dot{background:var(--green);border-color:var(--green);color:#fff}
+.step.done .step-label{color:var(--green)}
+
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes glow{0%,100%{box-shadow:none}50%{box-shadow:0 0 16px var(--accent-glow)}}
+
+footer{margin-top:48px;color:var(--muted2);font-size:12px;text-align:center;line-height:1.8}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="badge">✨ AI-Powered</div>
+  <h1>Video to Subtitles</h1>
+  <p>Upload any video in any language — get perfectly timed English SRT subtitles in minutes, powered by OpenAI Whisper.</p>
+</header>
+
+<!-- Upload Card -->
+<div class="card" id="uploadCard">
+  <div class="card-title">📁 Step 1 — Upload Your Video</div>
+
+  <div class="dropzone" id="dropzone">
+    <input type="file" id="fileInput" accept="video/*,.mp4,.mkv,.avi,.mov,.webm,.ts,.m4v,.flv"/>
+    <span class="dz-icon">🎬</span>
+    <h3>Drop your video here</h3>
+    <p>or click to browse &nbsp;·&nbsp; MP4, MKV, AVI, MOV, WebM &nbsp;·&nbsp; up to 500 MB</p>
+  </div>
+  <div class="file-info" id="fileInfo">
+    <span>📎</span>
+    <span class="fi-name" id="fiName"></span>
+    <span class="fi-size" id="fiSize"></span>
+  </div>
+
+  <div class="opts">
+    <div class="field">
+      <label>Source Language</label>
+      <select id="language">
+        <option value="hi">Hindi (हिन्दी)</option>
+        <option value="en">English</option>
+        <option value="mr">Marathi (मराठी)</option>
+        <option value="gu">Gujarati (ગુજرाती)</option>
+        <option value="ta">Tamil (தமிழ்)</option>
+        <option value="te">Telugu (తెలుగు)</option>
+        <option value="kn">Kannada (ಕನ್ನಡ)</option>
+        <option value="bn">Bengali (বাংলা)</option>
+        <option value="pa">Punjabi (ਪੰਜਾਬੀ)</option>
+        <option value="ur">Urdu (اردو)</option>
+        <option value="zh">Chinese (中文)</option>
+        <option value="ar">Arabic (عربي)</option>
+        <option value="es">Spanish</option>
+        <option value="fr">French</option>
+        <option value="de">German</option>
+        <option value="ja">Japanese</option>
+        <option value="ko">Korean</option>
+      </select>
+    </div>
+    <div class="field">
+      <label>Audio Splits</label>
+      <select id="splits">
+        <option value="2">2 parts</option>
+        <option value="3" selected>3 parts (recommended)</option>
+        <option value="4">4 parts</option>
+        <option value="5">5 parts</option>
+        <option value="6">6 parts — long videos</option>
+      </select>
+      <div class="hint">More splits = better coverage &amp; reliability</div>
+    </div>
+    <div class="field full">
+      <label>Word Replacements (optional)</label>
+      <input type="text" id="replacements" placeholder="e.g.  pooja:Rucha, rocha:Rucha"/>
+      <div class="hint">Correct names or terms the AI gets wrong. Format: old:new, comma-separated</div>
+    </div>
+  </div>
+
+  <div class="prog-wrap" id="progWrap">
+    <div class="prog-header">
+      <span id="progText">Uploading…</span>
+      <span class="prog-pct" id="progPct">0%</span>
+    </div>
+    <div class="prog-bar-bg"><div class="prog-bar" id="progBar"></div></div>
+  </div>
+
+  <div class="btn-row">
+    <button class="btn btn-primary" id="submitBtn" onclick="startUpload()">
+      🚀 &nbsp;Generate Subtitles
+    </button>
+  </div>
+</div>
+
+<!-- Status Card -->
+<div class="card status-card" id="statusCard">
+  <div class="card-title" id="statusCardTitle">⚙️ Generating Subtitles</div>
+
+  <!-- Steps -->
+  <div class="steps" id="stepsRow">
+    <div class="step" id="step-upload">
+      <div class="step-dot">✓</div>
+      <span class="step-label">Uploaded</span>
+    </div>
+    <div class="step-line"></div>
+    <div class="step" id="step-audio">
+      <div class="step-dot">2</div>
+      <span class="step-label">Audio</span>
+    </div>
+    <div class="step-line"></div>
+    <div class="step" id="step-transcribe">
+      <div class="step-dot">3</div>
+      <span class="step-label">Transcribe</span>
+    </div>
+    <div class="step-line"></div>
+    <div class="step" id="step-srt">
+      <div class="step-dot">4</div>
+      <span class="step-label">SRT</span>
+    </div>
+  </div>
+
+  <div class="status-inner" style="margin-top:24px">
+    <div class="s-icon queued" id="sIcon">⏳</div>
+    <div class="s-text">
+      <h3 id="sTitle">Queued</h3>
+      <p id="sMsg">Waiting for an available processing slot…</p>
+    </div>
+  </div>
+
+  <div id="dlArea"></div>
+</div>
+
+<footer>
+  SubtitlesAI &nbsp;·&nbsp; Powered by <a href="https://openai.com/research/whisper">OpenAI Whisper</a><br/>
+  Subtitles are translated and transcribed to English
+</footer>
+
+<script>
+let currentJobId = null;
+let pollTimer = null;
+let stepPhase = 0;
+
+const dropzone  = document.getElementById('dropzone');
+const fileInput = document.getElementById('fileInput');
+const fileInfo  = document.getElementById('fileInfo');
+
+dropzone.addEventListener('dragover', e => { e.preventDefault(); dropzone.classList.add('over'); });
+dropzone.addEventListener('dragleave', () => dropzone.classList.remove('over'));
+dropzone.addEventListener('drop', e => {
+  e.preventDefault(); dropzone.classList.remove('over');
+  if (e.dataTransfer.files[0]) { fileInput.files = e.dataTransfer.files; onFileChange(); }
+});
+fileInput.addEventListener('change', onFileChange);
+
+function onFileChange() {
+  const f = fileInput.files[0];
+  if (!f) return;
+  fileInfo.classList.add('show');
+  document.getElementById('fiName').textContent = f.name;
+  const mb = (f.size / 1024 / 1024).toFixed(1);
+  const over = f.size > 500 * 1024 * 1024;
+  document.getElementById('fiSize').textContent = mb + ' MB' + (over ? ' ⚠️ Too large' : '');
+  document.getElementById('fiSize').style.color = over ? '#f04f4f' : '';
+}
+
+function parseReplacements(raw) {
+  const out = {};
+  if (!raw.trim()) return out;
+  raw.split(',').forEach(pair => {
+    const idx = pair.indexOf(':');
+    if (idx === -1) return;
+    const k = pair.slice(0, idx).trim(), v = pair.slice(idx + 1).trim();
+    if (k && v) out[k] = v;
+  });
+  return out;
+}
+
+function startUpload() {
+  const file = fileInput.files[0];
+  if (!file) { alert('Please select a video file first.'); return; }
+  if (file.size > 500 * 1024 * 1024) { alert('File exceeds 500 MB limit.'); return; }
+
+  document.getElementById('submitBtn').disabled = true;
+  document.getElementById('progWrap').style.display = 'block';
+
+  const fd = new FormData();
+  fd.append('video', file);
+  fd.append('language', document.getElementById('language').value);
+  fd.append('splits', document.getElementById('splits').value);
+  fd.append('word_replacements', JSON.stringify(parseReplacements(document.getElementById('replacements').value)));
+
+  const xhr = new XMLHttpRequest();
+  xhr.open('POST', '/upload');
+
+  xhr.upload.onprogress = e => {
+    if (!e.lengthComputable) return;
+    const pct = Math.round(e.loaded / e.total * 100);
+    document.getElementById('progBar').style.width = pct + '%';
+    document.getElementById('progPct').textContent = pct + '%';
+    document.getElementById('progText').textContent = pct < 100 ? 'Uploading…' : 'Server processing upload…';
+  };
+
+  xhr.onload = () => {
+    if (xhr.status === 200) {
+      currentJobId = JSON.parse(xhr.responseText).job_id;
+      showStatus();
+      startPolling();
+    } else {
+      let msg = 'Upload failed.';
+      try { msg = JSON.parse(xhr.responseText).detail || msg; } catch(_) {}
+      alert(msg);
+      document.getElementById('submitBtn').disabled = false;
+    }
+  };
+
+  xhr.onerror = () => { alert('Network error.'); document.getElementById('submitBtn').disabled = false; };
+  xhr.send(fd);
+}
+
+function showStatus() {
+  document.getElementById('uploadCard').style.display = 'none';
+  document.getElementById('statusCard').style.display = 'block';
+  setStep('upload', 'done');
+  setStep('audio', 'active');
+}
+
+function setStep(id, state) {
+  const el = document.getElementById('step-' + id);
+  if (!el) return;
+  el.className = 'step ' + state;
+  if (state === 'done') el.querySelector('.step-dot').textContent = '✓';
+}
+
+function startPolling() {
+  pollTimer = setInterval(async () => {
+    try {
+      const r = await fetch('/status/' + currentJobId);
+      const d = await r.json();
+      updateStatus(d);
+      if (d.status === 'done' || d.status === 'failed') clearInterval(pollTimer);
+    } catch(_) {}
+  }, 3000);
+}
+
+function updateStatus(d) {
+  const icon  = document.getElementById('sIcon');
+  const title = document.getElementById('sTitle');
+  const msg   = document.getElementById('sMsg');
+  const dl    = document.getElementById('dlArea');
+
+  if (d.status === 'queued') {
+    icon.className = 's-icon queued'; icon.textContent = '⏳';
+    title.textContent = 'Queued'; msg.textContent = d.message;
+  } else if (d.status === 'processing') {
+    icon.className = 's-icon processing'; icon.textContent = '⚙️';
+    title.textContent = 'Processing…'; msg.textContent = d.message;
+    setStep('audio', 'done'); setStep('transcribe', 'active');
+  } else if (d.status === 'done') {
+    icon.className = 's-icon done'; icon.textContent = '✅';
+    title.textContent = 'Subtitles Ready!';
+    msg.textContent = 'Your SRT file has been generated successfully. Download and use it with any video player.';
+    document.getElementById('statusCardTitle').textContent = '✅ Complete';
+    setStep('transcribe', 'done'); setStep('srt', 'done');
+    dl.innerHTML = `
+      <a href="/download/${currentJobId}" download>
+        <button class="btn btn-dl">⬇️ &nbsp;Download SRT File</button>
+      </a>
+      <button class="btn btn-new" onclick="resetForm()">🔄 &nbsp;Generate Another</button>
+    `;
+  } else if (d.status === 'failed') {
+    icon.className = 's-icon failed'; icon.textContent = '❌';
+    title.textContent = 'Generation Failed';
+    msg.textContent = d.message || 'An unexpected error occurred.';
+    document.getElementById('statusCardTitle').textContent = '❌ Failed';
+    dl.innerHTML = `<button class="btn btn-new" style="margin-top:16px" onclick="resetForm()">🔄 &nbsp;Try Again</button>`;
+  }
+}
+
+function resetForm() {
+  clearInterval(pollTimer);
+  currentJobId = null;
+  fileInput.value = '';
+  fileInfo.classList.remove('show');
+  document.getElementById('progWrap').style.display = 'none';
+  document.getElementById('progBar').style.width = '0%';
+  document.getElementById('dlArea').innerHTML = '';
+  document.getElementById('submitBtn').disabled = false;
+  document.getElementById('uploadCard').style.display = 'block';
+  document.getElementById('statusCard').style.display = 'none';
+  document.getElementById('statusCardTitle').textContent = '⚙️ Generating Subtitles';
+  ['upload','audio','transcribe','srt'].forEach(id => {
+    const el = document.getElementById('step-'+id);
+    el.className = 'step';
+    el.querySelector('.step-dot').textContent = {'upload':'✓','audio':'2','transcribe':'3','srt':'4'}[id];
+  });
+}
+</script>
+</body>
+</html>

@@ -105,6 +105,26 @@ services:
         condition: service_healthy
     restart: unless-stopped
 
+  # SubtitlesAI Backend (Video → SRT) - Port 8003
+  subtitles-backend:
+    build:
+      context: ./SubtitlesAI - Backend
+      dockerfile: Dockerfile
+    container_name: subtitlesai-backend
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    volumes:
+      - subtitles_jobs:/subtitles_jobs
+    ports:
+      - "8003:8003"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8003/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
+
   # Frontend (serves all UIs)
   frontend:
     build:
@@ -126,3 +146,4 @@ volumes:
   setter_uploads:
   setter_data:
   mentor_reports:
+  subtitles_jobs:
