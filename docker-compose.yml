@@ -116,7 +116,7 @@ services:
     volumes:
       - subtitles_jobs:/subtitles_jobs
     ports:
-      - "8003:8003"
+      - "127.0.0.1:8003:8003"
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8003/health')"]
