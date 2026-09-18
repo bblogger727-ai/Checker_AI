@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<base href="/subtitles/"/>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>SubtitlesAI — Video to SRT</title>
@@ -202,11 +203,6 @@ a:hover{text-decoration:underline}
       </select>
       <div class="hint">More splits = better coverage &amp; reliability</div>
     </div>
-    <div class="field full">
-      <label>Word Replacements (optional)</label>
-      <input type="text" id="replacements" placeholder="e.g.  pooja:Rucha, rocha:Rucha"/>
-      <div class="hint">Correct names or terms the AI gets wrong. Format: old:new, comma-separated</div>
-    </div>
   </div>
 
   <div class="prog-wrap" id="progWrap">
@@ -319,10 +315,9 @@ function startUpload() {
   fd.append('video', file);
   fd.append('language', document.getElementById('language').value);
   fd.append('splits', document.getElementById('splits').value);
-  fd.append('word_replacements', JSON.stringify(parseReplacements(document.getElementById('replacements').value)));
 
   const xhr = new XMLHttpRequest();
-  xhr.open('POST', '/upload');
+  xhr.open('POST', 'upload');
 
   xhr.upload.onprogress = e => {
     if (!e.lengthComputable) return;
@@ -366,7 +361,7 @@ function setStep(id, state) {
 function startPolling() {
   pollTimer = setInterval(async () => {
     try {
-      const r = await fetch('/status/' + currentJobId);
+      const r = await fetch('status/' + currentJobId);
       const d = await r.json();
       updateStatus(d);
       if (d.status === 'done' || d.status === 'failed') clearInterval(pollTimer);
@@ -394,7 +389,7 @@ function updateStatus(d) {
     document.getElementById('statusCardTitle').textContent = '✅ Complete';
     setStep('transcribe', 'done'); setStep('srt', 'done');
     dl.innerHTML = `
-      <a href="/download/${currentJobId}" download>
+      <a href="download/${currentJobId}" download>
         <button class="btn btn-dl">⬇️ &nbsp;Download SRT File</button>
       </a>
       <button class="btn btn-new" onclick="resetForm()">🔄 &nbsp;Generate Another</button>
