@@ -10,6 +10,19 @@ services:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
       POSTGRES_DB: checkerai
+    # Explicit memory limits — without these, Postgres auto-sizes shared_buffers
+    # to ~25% of system RAM, consuming 2+ GB on a 3.7 GB VPS.
+    command: >
+      postgres
+      -c shared_buffers=128MB
+      -c effective_cache_size=384MB
+      -c work_mem=8MB
+      -c maintenance_work_mem=64MB
+      -c wal_buffers=8MB
+      -c max_connections=20
+      -c checkpoint_completion_target=0.9
+      -c random_page_cost=1.1
+    mem_limit: 512m
     volumes:
       - postgres_data:/var/lib/postgresql/data
     ports:
@@ -54,6 +67,7 @@ services:
       postgres:
         condition: service_healthy
     restart: unless-stopped
+    mem_limit: 1536m
     healthcheck:
       test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
       interval: 30s
@@ -80,6 +94,7 @@ services:
       postgres:
         condition: service_healthy
     restart: unless-stopped
+    mem_limit: 256m
 
   # MentorAI Backend (Student Mentoring) - Port 8002
   mentor-backend:
@@ -104,6 +119,7 @@ services:
       postgres:
         condition: service_healthy
     restart: unless-stopped
+    mem_limit: 256m
 
   # SubtitlesAI Backend (Video → SRT) - Port 8003
   subtitles-backend:
@@ -118,6 +134,7 @@ services:
     ports:
       - "127.0.0.1:8003:8003"
     restart: unless-stopped
+    mem_limit: 512m
     healthcheck:
       test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8003/health')"]
       interval: 30s
@@ -138,6 +155,7 @@ services:
       - setter-backend
       - mentor-backend
     restart: unless-stopped
+    mem_limit: 256m
 
 volumes:
   postgres_data:
