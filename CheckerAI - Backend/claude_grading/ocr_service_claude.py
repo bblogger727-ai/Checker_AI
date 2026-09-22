@@ -22,7 +22,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
-claude_client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+claude_client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY, timeout=120.0)
 CLAUDE_MODEL = "claude-sonnet-4-6"
 
 # ------------------------------------------------------------------
@@ -140,6 +140,7 @@ def perform_ocr_claude(image: Image.Image) -> str:
                 model=CLAUDE_MODEL,
                 max_tokens=4096,
                 system=SYSTEM_PROMPT,
+                timeout=120.0,   # 2-minute hard timeout per page — prevents indefinite hangs
                 messages=[
                     {
                         "role": "user",

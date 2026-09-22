@@ -23,7 +23,7 @@ import anthropic
 
 # Claude client
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
-claude_client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+claude_client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY, timeout=120.0)
 CLAUDE_MODEL = "claude-sonnet-4-6"
 
 from app.services.model_answer_builder import (

@@ -24,7 +24,7 @@ ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
 if not ANTHROPIC_API_KEY:
     raise ValueError("ANTHROPIC_API_KEY not found in environment variables. Please add it to your .env file.")
 
-claude_client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+claude_client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY, timeout=120.0)
 
 # Model to use — Claude Sonnet 4 (latest stable Sonnet)
 CLAUDE_MODEL = "claude-sonnet-4-6"

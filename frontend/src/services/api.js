@@ -296,4 +296,26 @@ export const resumeQueue = async () => {
     return response.data;
 };
 
+/**
+ * Edit a queued job's student name and/or paper before it starts running.
+ * Cancels the old entry and creates a new queued job. Returns { new_task_id }.
+ */
+export const editQueuedJob = async (taskId, { studentName, ftPaperPath, profile } = {}) => {
+    const response = await api.patch(`/api/pipelines/jobs/edit/${taskId}`, {
+        student_name:  studentName  ?? null,
+        ft_paper_path: ftPaperPath  ?? null,
+        profile:       profile      ?? null,
+    });
+    return response.data;  // { new_task_id, status }
+};
+
+/**
+ * Retry a failed job using the same student name, paper, and PDF.
+ * Returns { new_task_id }.
+ */
+export const retryJob = async (taskId) => {
+    const response = await api.post(`/api/pipelines/jobs/retry/${taskId}`);
+    return response.data;  // { new_task_id, status }
+};
+
 export default api;

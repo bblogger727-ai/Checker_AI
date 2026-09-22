@@ -295,6 +295,21 @@ def _run_subprocess(task_id: str, cmd: list[str], output_dir: Path, profile_api_
             else:
                 _tasks[task_id]["status"] = "failed"
                 _tasks[task_id]["error"]  = f"Process exited with code {proc.returncode}"
+                # Write failed status to disk so it persists across restarts.
+                # Without this, result.json stays on the last stage_N the script
+                # wrote before being killed (e.g. stuck on stage_3 forever).
+                result_file = output_dir / "result.json"
+                try:
+                    data = json.loads(result_file.read_text(encoding="utf-8")) if result_file.exists() else {}
+                    data.update({
+                        "stage":   "failed",
+                        "status":  "failed",
+                        "message": "Pipeline process crashed or was killed",
+                        "error":   f"Process exited with code {proc.returncode}",
+                    })
+                    result_file.write_text(json.dumps(data, indent=2), encoding="utf-8")
+                except Exception:
+                    pass
 
         except Exception as e:
             _tasks[task_id]["status"] = "failed"
@@ -1093,12 +1108,253 @@ def remove_from_queue(task_id: str):
 
         # Delete the entire job directory
         try:
-            import shutil as _shutil
-            _shutil.rmtree(job_dir)
+            shutil.rmtree(job_dir)
         except Exception as e:
             raise HTTPException(status_code=500, detail=f"Failed to delete job directory: {e}")
 
         return {"task_id": task_id, "status": "deleted"}
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# Edit queued job (change student name / paper before it starts running)
+# ══════════════════════════════════════════════════════════════════════════════
+
+class EditJobRequest(BaseModel):
+    student_name:  str | None = None
+    ft_paper_path: str | None = None
+    profile:       str | None = None
+
+
+@router.patch("/jobs/edit/{task_id}")
+async def edit_queued_job(task_id: str, body: EditJobRequest):
+    """
+    Edit a queued job's student name and/or paper before it starts running.
+    Cancels the old queued entry and creates a new job with updated params.
+    Returns the new task_id.
+    """
+    task = _tasks.get(task_id)
+    if not task:
+        raise HTTPException(status_code=404, detail="Job not found — it may have already started or completed")
+    if task.get("status") != "queued":
+        raise HTTPException(status_code=400, detail="Can only edit queued jobs (not running or completed ones)")
+
+    old_output_dir = Path(task["output_dir"])
+    meta_file      = old_output_dir / "task_meta.json"
+    meta           = json.loads(meta_file.read_text(encoding="utf-8")) if meta_file.exists() else {}
+
+    new_student_name  = body.student_name  if body.student_name  is not None else meta.get("student_name", "")
+    new_ft_paper_path = body.ft_paper_path if body.ft_paper_path is not None else meta.get("ft_paper_path", "")
+    new_profile       = body.profile       if body.profile       is not None else meta.get("profile", "Profile 1")
+
+    # Validate the new paper path
+    try:
+        paper_path = Path(new_ft_paper_path).resolve()
+        paper_path.relative_to(_PAPERS_DIR.resolve())
+    except (ValueError, FileNotFoundError):
+        raise HTTPException(status_code=400, detail="Invalid paper path — must be from the catalog")
+    if not paper_path.exists():
+        raise HTTPException(status_code=404, detail=f"Paper JSON not found: {new_ft_paper_path}")
+
+    # Check that the original PDF still exists
+    old_pdf = old_output_dir / "student_answersheet.pdf"
+    if not old_pdf.exists():
+        raise HTTPException(status_code=404, detail="Original answer sheet PDF not found — cannot edit")
+
+    # ── Cancel the old queued task ────────────────────────────────────────────
+    # The background thread checks _tasks[task_id]["removed"] before running
+    # the subprocess (line ~254 in _run_subprocess). Setting it here is enough.
+    _tasks[task_id]["removed"] = True
+    _tasks[task_id]["status"]  = "removed"
+
+    # ── Create new job dir and copy the PDF ──────────────────────────────────
+    safe_name  = "".join([c if c.isalnum() else "_" for c in new_student_name.strip()]).strip("_")
+    new_task_id   = f"{safe_name}_{uuid.uuid4().hex}" if safe_name else uuid.uuid4().hex
+    new_output_dir = _JOBS_DIR / new_task_id
+    new_output_dir.mkdir(parents=True, exist_ok=True)
+
+    # Check for reusable OCR from prior run with same paper
+    skip_to_val = 1
+    existing_dir = _find_existing_job_dir(new_student_name, "new", ft_paper_path=str(paper_path))
+    if existing_dir:
+        for ocr_name in ("3_ocr_output.txt", "ocr_output.txt"):
+            src_ocr = existing_dir / ocr_name
+            if src_ocr.exists():
+                shutil.copy2(src_ocr, new_output_dir / ocr_name)
+                skip_to_val = 4
+                break
+
+    # Copy PDF to new dir
+    new_pdf = new_output_dir / "student_answersheet.pdf"
+    shutil.copy2(old_pdf, new_pdf)
+
+    try:
+        paper_label = paper_path.stem.replace("_", " ")
+    except Exception:
+        paper_label = ""
+
+    new_meta = {
+        "pipeline":      "new",
+        "student_name":  new_student_name,
+        "ft_paper_path": str(paper_path),
+        "paper_label":   paper_label,
+        "task_id":       new_task_id,
+        "created_at":    meta.get("created_at", time.time()),
+        "queued_at":     time.time(),
+        "profile":       new_profile,
+        "edited_from":   task_id,
+    }
+    (new_output_dir / "task_meta.json").write_text(json.dumps(new_meta, indent=2))
+
+    cmd = [
+        sys.executable,
+        str(_FT_SCRIPT),
+        "--FT",         str(paper_path),
+        "--as",         str(new_pdf),
+        "--output-dir", str(new_output_dir),
+        "--dataset",    f"new_{new_task_id[:8]}",
+        "--profile",    new_profile,
+        "--skip-to",    str(skip_to_val),
+    ]
+
+    _tasks[new_task_id] = {"status": "queued", "output_dir": str(new_output_dir), "pipeline": "new"}
+    profile_api_keys    = _resolve_profile_api_keys(new_profile)
+
+    paper_type = "unknown"
+    name_lower = str(paper_path).lower()
+    if "mock" in name_lower:
+        paper_type = "full"
+    elif "portionwise" in name_lower:
+        paper_type = "portionwise"
+
+    t = threading.Thread(
+        target=_run_subprocess,
+        args=(new_task_id, cmd, new_output_dir, profile_api_keys, new_profile, paper_type),
+        daemon=True,
+    )
+    t.start()
+    _tasks[new_task_id]["thread"] = t
+
+    # ── Clean up old job dir (PDF copied, safe to delete) ────────────────────
+    try:
+        shutil.rmtree(old_output_dir, ignore_errors=True)
+    except Exception:
+        pass
+
+    print(f"[EDIT] Task {task_id[:12]}... replaced by {new_task_id[:12]}... (name='{new_student_name}', paper='{paper_label}')")
+    return {"new_task_id": new_task_id, "status": "queued"}
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# Retry failed job (re-submit with original params)
+# ══════════════════════════════════════════════════════════════════════════════
+
+@router.post("/jobs/retry/{task_id}")
+async def retry_failed_job(task_id: str):
+    """
+    Re-submit a failed job using the same student name, paper, and PDF.
+    Creates a brand-new queued job entry. The original failed job dir stays
+    on disk (caller can delete it separately via the normal remove endpoint).
+    """
+    job_dir = _get_job_dir(task_id)
+    if not job_dir or not job_dir.exists():
+        raise HTTPException(status_code=404, detail="Job not found")
+
+    meta_file = job_dir / "task_meta.json"
+    if not meta_file.exists():
+        raise HTTPException(status_code=400, detail="No task metadata found — cannot retry")
+
+    meta = json.loads(meta_file.read_text(encoding="utf-8"))
+    student_name  = meta.get("student_name", "")
+    ft_paper_path = meta.get("ft_paper_path", "")
+    profile       = meta.get("profile", "Profile 1")
+
+    # Confirm the answer sheet PDF is still on disk
+    pdf_path = job_dir / "student_answersheet.pdf"
+    if not pdf_path.exists():
+        raise HTTPException(
+            status_code=404,
+            detail="Original answer sheet PDF is missing from disk — cannot retry automatically. Please re-upload."
+        )
+
+    # Validate paper path
+    try:
+        paper_path = Path(ft_paper_path).resolve()
+        paper_path.relative_to(_PAPERS_DIR.resolve())
+        if not paper_path.exists():
+            raise FileNotFoundError()
+    except Exception:
+        raise HTTPException(status_code=400, detail=f"Paper JSON no longer accessible: {ft_paper_path}")
+
+    # Build new job dir
+    safe_name     = "".join([c if c.isalnum() else "_" for c in student_name.strip()]).strip("_")
+    new_task_id   = f"{safe_name}_{uuid.uuid4().hex}" if safe_name else uuid.uuid4().hex
+    new_output_dir = _JOBS_DIR / new_task_id
+    new_output_dir.mkdir(parents=True, exist_ok=True)
+
+    # Reuse OCR if available from the failed run (saves re-processing time)
+    skip_to_val = 1
+    for ocr_name in ("3_ocr_output.txt", "ocr_output.txt"):
+        src_ocr = job_dir / ocr_name
+        if src_ocr.exists():
+            shutil.copy2(src_ocr, new_output_dir / ocr_name)
+            skip_to_val = 4
+            print(f"[RETRY] Reusing OCR from failed run — skipping to stage 4")
+            break
+
+    # Copy PDF
+    new_pdf = new_output_dir / "student_answersheet.pdf"
+    shutil.copy2(pdf_path, new_pdf)
+
+    try:
+        paper_label = paper_path.stem.replace("_", " ")
+    except Exception:
+        paper_label = ""
+
+    new_meta = {
+        "pipeline":      "new",
+        "student_name":  student_name,
+        "ft_paper_path": str(paper_path),
+        "paper_label":   paper_label,
+        "task_id":       new_task_id,
+        "created_at":    time.time(),
+        "queued_at":     time.time(),
+        "profile":       profile,
+        "retried_from":  task_id,
+    }
+    (new_output_dir / "task_meta.json").write_text(json.dumps(new_meta, indent=2))
+
+    cmd = [
+        sys.executable,
+        str(_FT_SCRIPT),
+        "--FT",         str(paper_path),
+        "--as",         str(new_pdf),
+        "--output-dir", str(new_output_dir),
+        "--dataset",    f"new_{new_task_id[:8]}",
+        "--profile",    profile,
+        "--skip-to",    str(skip_to_val),
+    ]
+
+    _tasks[new_task_id] = {"status": "queued", "output_dir": str(new_output_dir), "pipeline": "new"}
+    profile_api_keys    = _resolve_profile_api_keys(profile)
+
+    paper_type = "unknown"
+    name_lower = str(paper_path).lower()
+    if "mock" in name_lower:
+        paper_type = "full"
+    elif "portionwise" in name_lower:
+        paper_type = "portionwise"
+
+    t = threading.Thread(
+        target=_run_subprocess,
+        args=(new_task_id, cmd, new_output_dir, profile_api_keys, profile, paper_type),
+        daemon=True,
+    )
+    t.start()
+    _tasks[new_task_id]["thread"] = t
+
+    print(f"[RETRY] Task {task_id[:12]}... retried as {new_task_id[:12]}... (skip_to={skip_to_val})")
+    return {"new_task_id": new_task_id, "status": "queued"}
+
 
 
 @router.get("/queue/status")

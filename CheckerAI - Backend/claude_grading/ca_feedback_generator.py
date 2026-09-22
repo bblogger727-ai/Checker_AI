@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
-claude_client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY, max_retries=10)
+claude_client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY, max_retries=10, timeout=120.0)
 CLAUDE_MODEL = "claude-sonnet-4-6"
 
 def generate_ca_feedback(question_text: str, model_answer: str, student_answer: str, marks_total: float, marks_scored: float) -> dict:

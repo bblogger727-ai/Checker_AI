@@ -19,7 +19,7 @@ load_dotenv()
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
-claude_client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY, max_retries=10)
+claude_client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY, max_retries=10, timeout=120.0)
 openai_client = OpenAI(api_key=OPENAI_API_KEY)
 
 CLAUDE_MODEL = "claude-sonnet-4-6"

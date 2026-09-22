@@ -9,7 +9,9 @@ import {
     recheckPipeline,
     getStats, resetStats,
     removeFromQueue, pauseQueue, resumeQueue,
+    editQueuedJob, retryJob,
 } from '../services/api';
+
 import './Dashboard.css';
 
 /* ── Tiny helpers ─────────────────────────────────────────────────────────── */
@@ -1000,10 +1002,25 @@ function JobCard({ job, navigate, onRecheckDone, onRemove }) {
     const [recheckDone,  setRecheckDone]  = useState(false);
     const [removing,     setRemoving]     = useState(false);
     const [deleting,     setDeleting]     = useState(false);
+    const [isRetrying,   setIsRetrying]   = useState(false);
+    const [retryError,   setRetryError]   = useState(null);
+    // Edit panel state (queued jobs)
+    const [editOpen,     setEditOpen]     = useState(false);
+    const [editName,     setEditName]     = useState(job.student_name || '');
+    const [editPaper,    setEditPaper]    = useState(job.ft_paper_path || '');
+    const [editCatalog,  setEditCatalog]  = useState(null);
+    const [isSavingEdit, setIsSavingEdit] = useState(false);
+    const [editError,    setEditError]    = useState(null);
     const pollRef = useRef(null);
 
     const clearPoll = () => { if (pollRef.current) clearInterval(pollRef.current); };
     useEffect(() => () => clearPoll(), []);
+
+    // Load catalog when edit panel opens
+    useEffect(() => {
+        if (!editOpen || editCatalog) return;
+        getPaperCatalog().then(setEditCatalog).catch(() => setEditCatalog({}));
+    }, [editOpen]);
 
     const handleRecheck = async (e) => {
         e.stopPropagation();
@@ -1057,6 +1074,37 @@ function JobCard({ job, navigate, onRecheckDone, onRemove }) {
             setDeleting(false);
         }
     };
+    const handleSaveEdit = async (e) => {
+        e.stopPropagation();
+        setIsSavingEdit(true);
+        setEditError(null);
+        try {
+            await editQueuedJob(job.task_id, {
+                studentName:  editName.trim() || undefined,
+                ftPaperPath:  editPaper       || undefined,
+            });
+            setEditOpen(false);
+            onRemove(); // refresh the job list
+        } catch (err) {
+            setEditError(err.response?.data?.detail || err.message || 'Could not save edit.');
+        } finally {
+            setIsSavingEdit(false);
+        }
+    };
+
+    const handleRetry = async (e) => {
+        e.stopPropagation();
+        setIsRetrying(true);
+        setRetryError(null);
+        try {
+            await retryJob(job.task_id);
+            onRemove(); // refresh list — new queued entry will appear
+        } catch (err) {
+            setRetryError(err.response?.data?.detail || err.message || 'Retry failed.');
+            setIsRetrying(false);
+        }
+    };
+
 
     const canRecheck = job.grading_ready && !job.checked_copy_available && !recheckDone;
     const isQueued   = job.status === 'queued';
@@ -1116,10 +1164,84 @@ function JobCard({ job, navigate, onRecheckDone, onRemove }) {
                 </div>
             )}
 
-            {/* Queued paper info */}
+            {/* Queued paper info + Edit toggle */}
             {isQueued && job.queued_at && (
-                <div style={{ fontSize: '12px', color: '#72767d', padding: '4px 0' }}>
-                    Queued {Math.round((Date.now() / 1000 - job.queued_at) / 60)} min ago
+                <div style={{ fontSize: '12px', color: '#72767d', padding: '4px 0', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+                    <span>Queued {Math.round((Date.now() / 1000 - job.queued_at) / 60)} min ago</span>
+                    <button
+                        type="button"
+                        onClick={(e) => { e.stopPropagation(); setEditOpen(o => !o); }}
+                        style={{
+                            background: 'transparent', border: '1px solid #4f545c',
+                            color: '#b9bbbe', borderRadius: '6px',
+                            padding: '2px 10px', fontSize: '11px', cursor: 'pointer',
+                        }}
+                    >
+                        {editOpen ? '✕ Cancel' : '✏️ Edit'}
+                    </button>
+                </div>
+            )}
+
+            {/* Inline edit panel */}
+            {isQueued && editOpen && (
+                <div
+                    onClick={e => e.stopPropagation()}
+                    style={{
+                        background: '#1e2029', border: '1px solid #3d4156',
+                        borderRadius: '10px', padding: '16px', marginTop: '8px',
+                        display: 'flex', flexDirection: 'column', gap: '12px',
+                    }}
+                >
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
+                        <label style={{ fontSize: '11px', fontWeight: 700, color: '#72767d', textTransform: 'uppercase', letterSpacing: '.5px' }}>Student Name</label>
+                        <input
+                            value={editName}
+                            onChange={e => setEditName(e.target.value)}
+                            placeholder="Student name"
+                            style={{
+                                background: '#2c2f3a', border: '1.5px solid #3d4156',
+                                borderRadius: '8px', color: '#e8eaf4',
+                                padding: '8px 12px', fontSize: '13px', fontFamily: 'inherit', outline: 'none',
+                            }}
+                        />
+                    </div>
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
+                        <label style={{ fontSize: '11px', fontWeight: 700, color: '#72767d', textTransform: 'uppercase', letterSpacing: '.5px' }}>Question Paper</label>
+                        {!editCatalog ? (
+                            <span style={{ color: '#72767d', fontSize: '12px' }}>Loading papers…</span>
+                        ) : (
+                            <select
+                                value={editPaper}
+                                onChange={e => setEditPaper(e.target.value)}
+                                style={{
+                                    background: '#2c2f3a', border: '1.5px solid #3d4156',
+                                    borderRadius: '8px', color: '#e8eaf4',
+                                    padding: '8px 12px', fontSize: '13px', fontFamily: 'inherit', outline: 'none',
+                                }}
+                            >
+                                <option value="">— Select a paper —</option>
+                                {Object.entries(editCatalog).flatMap(([exam, papers]) =>
+                                    Object.entries(papers).map(([label, path]) => (
+                                        <option key={path} value={path}>{exam} — {label}</option>
+                                    ))
+                                )}
+                            </select>
+                        )}
+                    </div>
+                    {editError && <span style={{ color: '#f04f4f', fontSize: '12px' }}>⚠️ {editError}</span>}
+                    <button
+                        type="button"
+                        disabled={isSavingEdit || !editPaper}
+                        onClick={handleSaveEdit}
+                        style={{
+                            background: isSavingEdit ? '#3d4156' : '#5865f2',
+                            border: 'none', borderRadius: '8px', color: '#fff',
+                            padding: '9px 20px', fontSize: '13px', fontWeight: 600,
+                            cursor: isSavingEdit ? 'not-allowed' : 'pointer', fontFamily: 'inherit',
+                        }}
+                    >
+                        {isSavingEdit ? '⏳ Saving…' : '✅ Save & Requeue'}
+                    </button>
                 </div>
             )}
 
@@ -1136,6 +1258,30 @@ function JobCard({ job, navigate, onRecheckDone, onRemove }) {
                     {new Date(job.created_at * 1000).toLocaleDateString(undefined, { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' })}
                 </span>
                 <div className="job-card-actions" onClick={(e) => e.stopPropagation()}>
+                    {/* Retry button — for failed jobs */}
+                    {job.status === 'failed' && (
+                        <>
+                            <button
+                                type="button"
+                                disabled={isRetrying}
+                                onClick={handleRetry}
+                                title="Re-submit this paper with the same file and params"
+                                style={{
+                                    padding: '4px 12px', fontSize: '12px',
+                                    background: isRetrying ? '#3d4156' : '#f5a623',
+                                    border: 'none', borderRadius: '6px', color: '#fff',
+                                    fontWeight: 600, cursor: isRetrying ? 'not-allowed' : 'pointer',
+                                    fontFamily: 'inherit',
+                                }}
+                            >
+                                {isRetrying ? '⏳ Retrying…' : '🔄 Retry'}
+                            </button>
+                            {retryError && (
+                                <span style={{ color: '#f04f4f', fontSize: '11px' }} title={retryError}>⚠️ {retryError}</span>
+                            )}
+                        </>
+                    )}
+
                     {/* Remove from queue button */}
                     {isQueued && (
                         <button
