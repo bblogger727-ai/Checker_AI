@@ -2,7 +2,7 @@
 Claude OCR Service — Alternative to GPT-4o Vision OCR.
 
 Uses the same prompt and pipeline structure as ocr_service.py,
-but calls Claude claude-sonnet-4-5 (via base64 image) instead of GPT-4o.
+but calls Claude claude-sonnet-5-5 (via base64 image) instead of GPT-4o.
 
 Usage:
     from claude_grading.ocr_service_claude import perform_ocr_claude, ocr_pdf_claude
@@ -23,7 +23,7 @@ load_dotenv()
 
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
 claude_client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY, timeout=120.0)
-CLAUDE_MODEL = "claude-sonnet-4-5"
+CLAUDE_MODEL = "claude-sonnet-5-5"
 
 # ------------------------------------------------------------------
 # Core OCR function (mirrors perform_ocr in ocr_service.py)
