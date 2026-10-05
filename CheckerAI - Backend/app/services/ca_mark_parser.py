@@ -58,7 +58,7 @@ LAST PAGE TEXT:
             messages=[{"role": "user", "content": prompt}]
         )
         
-        text = response.content[0].text.strip()
+        text = next(block.text for block in response.content if hasattr(block, 'text')).strip()
         if text.startswith('```'):
             text = re.sub(r'^```json?\s*\n?', '', text)
             text = re.sub(r'\n?```\s*$', '', text)

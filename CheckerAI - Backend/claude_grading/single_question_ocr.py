@@ -129,7 +129,7 @@ def ocr_student_answer(student_answer_img_paths: list[str]) -> str:
         ],
     )
 
-    text = response.content[0].text.strip()
+    text = next(block.text for block in response.content if hasattr(block, 'text')).strip()
     print(f"[OCR] Student answer extracted ({len(text)} chars)", flush=True)
     return text
 

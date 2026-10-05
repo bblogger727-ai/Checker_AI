@@ -216,7 +216,7 @@ No explanation, no prose — just the raw JSON."""
                 ]
             )
     
-            content = response.content[0].text.strip()
+            content = next(block.text for block in response.content if hasattr(block, 'text')).strip()
             
             if not content:
                 print(f"[Claude ModelAnswerBuilder]   Warning: Received empty content from Claude on attempt {attempt+1}.", flush=True)

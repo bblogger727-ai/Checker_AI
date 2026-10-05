@@ -155,7 +155,7 @@ CRITICAL RULES:
             temperature=0
         )
         
-        discovery_text = response.content[0].text.strip()
+        discovery_text = next(block.text for block in response.content if hasattr(block, 'text')).strip()
         discovery_data = _extract_json_from_claude(discovery_text)
         discovered = discovery_data.get("discovered_answers", [])
         
@@ -275,7 +275,7 @@ FINAL REMINDERS:
             temperature=0
         )
         
-        mapping_text = response.content[0].text.strip()
+        mapping_text = next(block.text for block in response.content if hasattr(block, 'text')).strip()
         mapping_data = _extract_json_from_claude(mapping_text)
         mappings = mapping_data.get("mappings", [])
         

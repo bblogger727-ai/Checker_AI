@@ -171,7 +171,7 @@ Chunk text:
                 ]
             )
             
-            output = response.content[0].text.strip()
+            output = next(block.text for block in response.content if hasattr(block, 'text')).strip()
             
             if not output:
                 print(f"[Schema Builder]   Warning: Empty response from Claude on attempt {attempt+1}.", flush=True)

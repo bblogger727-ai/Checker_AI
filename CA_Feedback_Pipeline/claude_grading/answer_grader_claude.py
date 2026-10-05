@@ -122,7 +122,7 @@ Student Answer: {mcq['student_answer']}
             ],
             temperature=0
         )
-        content = response.content[0].text.strip()
+        content = next(block.text for block in response.content if hasattr(block, 'text')).strip()
         if content.startswith("```"):
             content = re.sub(r'^```json?\n?', '', content)
             content = re.sub(r'\n?```$', '', content)
@@ -151,7 +151,7 @@ Student Answer: {student_answer}
             ],
             temperature=0
         )
-        content = response.content[0].text.strip()
+        content = next(block.text for block in response.content if hasattr(block, 'text')).strip()
         if content.startswith("```"):
             content = re.sub(r'^```json?\n?', '', content)
             content = re.sub(r'\n?```$', '', content)
@@ -198,7 +198,7 @@ IMPORTANT: Respond with ONLY the JSON object as specified in the output format. 
             ],
             temperature=0
         )
-        content = response.content[0].text.strip()
+        content = next(block.text for block in response.content if hasattr(block, 'text')).strip()
         result = _extract_json(content)
         
         # Validate tier
@@ -250,7 +250,7 @@ IMPORTANT: Respond with ONLY the JSON object as specified in the output format. 
             ],
             temperature=0
         )
-        content = response.content[0].text.strip()
+        content = next(block.text for block in response.content if hasattr(block, 'text')).strip()
         result = _extract_json(content)
         
         # Enforce strict rules

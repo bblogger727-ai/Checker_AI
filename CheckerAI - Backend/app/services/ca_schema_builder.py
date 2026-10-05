@@ -112,7 +112,7 @@ MODEL ANSWER SHEET TEXT (PART {chunk_num}/{total_chunks}):
             system="You are a strict JSON extraction assistant. Output ONLY valid JSON. No prose.",
             messages=[{"role": "user", "content": prompt}]
         )
-        return json.loads(fix_json_output(response.content[0].text.strip()))
+        return json.loads(fix_json_output(next(block.text for block in response.content if hasattr(block, 'text')).strip()))
     except Exception as e:
         print(f"[CA Schema Builder] Error in chunk {chunk_num}: {e}")
         return {}
@@ -176,7 +176,7 @@ MODEL ANSWER SHEET TEXT (PART {chunk_num}):
             system="You are a strict JSON extraction assistant. Output ONLY valid JSON. No prose.",
             messages=[{"role": "user", "content": prompt}]
         )
-        return json.loads(fix_json_output(response.content[0].text.strip()))
+        return json.loads(fix_json_output(next(block.text for block in response.content if hasattr(block, 'text')).strip()))
     except Exception as e:
         print(f"[CA Schema Builder] Error in chunk {chunk_num}: {e}")
         return {}

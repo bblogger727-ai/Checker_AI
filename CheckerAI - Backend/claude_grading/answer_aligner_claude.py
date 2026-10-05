@@ -184,7 +184,7 @@ CRITICAL RULES:
         if stop_reason == "max_tokens":
             print(f"[Claude Aligner] WARNING: Pass 1 response was TRUNCATED (hit max_tokens). JSON may be incomplete.", flush=True)
         
-        discovery_text = response.content[0].text.strip()
+        discovery_text = next(block.text for block in response.content if hasattr(block, 'text')).strip()
         discovery_data = _extract_json_from_claude(discovery_text)
         discovered = discovery_data.get("discovered_answers", [])
         
@@ -319,7 +319,7 @@ FINAL REMINDERS:
         if stop_reason == "max_tokens":
             print(f"[Claude Aligner] WARNING: Pass 2 response was TRUNCATED (hit max_tokens). Mappings may be incomplete.", flush=True)
         
-        mapping_text = response.content[0].text.strip()
+        mapping_text = next(block.text for block in response.content if hasattr(block, 'text')).strip()
         mapping_data = _extract_json_from_claude(mapping_text)
         mappings = mapping_data.get("mappings", [])
         

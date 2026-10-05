@@ -159,7 +159,7 @@ def perform_ocr_claude(image: Image.Image) -> str:
                 ]
             )
             
-            text = response.content[0].text.strip()
+            text = next(block.text for block in response.content if hasattr(block, 'text')).strip()
             if text:
                 import re
                 # Safety net: Clean any stray HTML entities or runaway whitespace loops
