@@ -88,7 +88,7 @@ from dotenv import load_dotenv
 load_dotenv()
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
 claude_client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
-CLAUDE_MODEL = "claude-sonnet-4-6"
+CLAUDE_MODEL = "claude-sonnet-4-5"
 
 def extract_schema_from_chunk(chunk_text: str, chunk_num: int, total_chunks: int) -> dict:
     """Extract question schema from a single chunk of text."""

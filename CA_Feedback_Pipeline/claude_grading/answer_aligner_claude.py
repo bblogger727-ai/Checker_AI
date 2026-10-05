@@ -27,7 +27,7 @@ load_dotenv()
 # Claude client
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
 claude_client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
-CLAUDE_MODEL = "claude-sonnet-4-6"
+CLAUDE_MODEL = "claude-sonnet-4-5"
 
 from app.services.answer_aligner import (
     _split_grouped_mcqs,

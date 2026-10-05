@@ -27,7 +27,7 @@ if not ANTHROPIC_API_KEY:
 claude_client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY, timeout=120.0)
 
 # Model to use — Claude Sonnet 4 (latest stable Sonnet)
-CLAUDE_MODEL = "claude-sonnet-4-6"
+CLAUDE_MODEL = "claude-sonnet-4-5"
 
 # Import Claude-specific prompts (approach > final answer for practicals)
 import sys
