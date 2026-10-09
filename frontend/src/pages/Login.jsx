@@ -2,9 +2,7 @@ import { useState } from 'react';
 import { useAuth } from '../App';
 import './Login.css';
 
-// Single admin credentials
-const ADMIN_USERNAME = 'RuchaSarda';
-const ADMIN_PASSWORD = 'CA@Rucha';
+// Credentials are checked on the server (auth-gate); none are kept in this file.
 
 function Login() {
     const { login } = useAuth();
@@ -18,12 +16,21 @@ function Login() {
         setError('');
         setLoading(true);
 
-        // Check hardcoded credentials
-        if (username === ADMIN_USERNAME && password === ADMIN_PASSWORD) {
-            // Set auth state
-            login({ name: 'Rucha Sarda', role: 'admin' });
-        } else {
-            setError('Invalid username or password');
+        try {
+            const response = await fetch('/auth-gate/login', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ username, password }),
+            });
+            if (response.ok) {
+                login(await response.json());
+            } else if (response.status === 429) {
+                setError('Too many attempts. Please wait a minute and try again.');
+            } else {
+                setError('Invalid username or password');
+            }
+        } catch {
+            setError('Could not reach the server. Please try again.');
         }
 
         setLoading(false);

@@ -8,7 +8,7 @@ services:
     container_name: checkerai-db
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?set DB_PASSWORD in .env}
       POSTGRES_DB: checkerai
     # Explicit memory limits — without these, Postgres auto-sizes shared_buffers
     # to ~25% of system RAM, consuming 2+ GB on a 3.7 GB VPS.
@@ -23,10 +23,10 @@ services:
       -c checkpoint_completion_target=0.9
       -c random_page_cost=1.1
     mem_limit: 1024m
+    # 2026-10-09: fresh volume after the intrusion (old one kept as postgres_data for evidence);
+    # not published on the host: only the backends on the Docker network reach it.
     volumes:
-      - postgres_data:/var/lib/postgresql/data
-    ports:
-      - "5432:5432"
+      - postgres_data_v2:/var/lib/postgresql/data
     healthcheck:
       test: [ "CMD-SHELL", "pg_isready -U postgres" ]
       interval: 10s
@@ -42,7 +42,7 @@ services:
     env_file:
       - .env
     environment:
-      - DATABASE_URL=postgresql://postgres:postgres@postgres:5432/checkerai
+      - DATABASE_URL=postgresql://postgres:${DB_PASSWORD}@postgres:5432/checkerai
       - OPENAI_API_KEY=${OPENAI_API_KEY}
       - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
       - ANTHROPIC_API_KEY_PROFILE_2=${ANTHROPIC_API_KEY_PROFILE_2:-}
@@ -82,7 +82,7 @@ services:
       dockerfile: Dockerfile
     container_name: setterai-backend
     environment:
-      - DATABASE_URL=postgresql://postgres:postgres@postgres:5432/checkerai
+      - DATABASE_URL=postgresql://postgres:${DB_PASSWORD}@postgres:5432/checkerai
       - OPENAI_API_KEY=${OPENAI_API_KEY}
       - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
     volumes:
@@ -103,7 +103,7 @@ services:
       dockerfile: Dockerfile
     container_name: mentorai-backend
     environment:
-      - DATABASE_URL=postgresql://postgres:postgres@postgres:5432/checkerai
+      - DATABASE_URL=postgresql://postgres:${DB_PASSWORD}@postgres:5432/checkerai
       - OPENAI_API_KEY=${OPENAI_API_KEY}
       - SMTP_HOST=${SMTP_HOST:-smtp.gmail.com}
       - SMTP_PORT=${SMTP_PORT:-587}
@@ -142,6 +142,20 @@ services:
       retries: 3
       start_period: 15s
 
+  # Login gate: the website's nginx checks every /api/ request with it (auth-gate/gate.py)
+  auth-gate:
+    image: python:3.12-alpine
+    container_name: checkerai-auth-gate
+    command: ["python", "/gate/gate.py"]
+    env_file:
+      - gate.env
+    volumes:
+      - "./auth-gate:/gate:ro"
+    read_only: true
+    user: "65534:65534"
+    restart: unless-stopped
+    mem_limit: 48m
+
   # Frontend (serves all UIs)
   frontend:
     build:
@@ -154,11 +168,13 @@ services:
       - checker-backend
       - setter-backend
       - mentor-backend
+      - auth-gate
     restart: unless-stopped
     mem_limit: 256m
 
 volumes:
   postgres_data:
+  postgres_data_v2:
   checker_uploads:
   checker_data:
   setter_uploads:

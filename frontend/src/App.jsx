@@ -22,11 +22,19 @@ function App() {
 
   useEffect(() => {
     // Check if admin is logged in
+    // The session cookie is what the server trusts; drop a stale local login.
     const savedUser = localStorage.getItem('admin_user');
-    if (savedUser) {
-      setUser(JSON.parse(savedUser));
+    if (!savedUser) {
+      setLoading(false);
+      return;
     }
-    setLoading(false);
+    fetch('/auth-gate/session')
+      .then((response) => {
+        if (response.ok) setUser(JSON.parse(savedUser));
+        else localStorage.removeItem('admin_user');
+      })
+      .catch(() => setUser(JSON.parse(savedUser)))
+      .finally(() => setLoading(false));
   }, []);
 
   const login = (userData) => {
@@ -35,6 +43,7 @@ function App() {
   };
 
   const logout = () => {
+    fetch('/auth-gate/logout', { method: 'POST' }).catch(() => {});
     localStorage.removeItem('admin_user');
     setUser(null);
   };

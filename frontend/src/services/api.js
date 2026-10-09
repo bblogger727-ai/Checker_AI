@@ -16,6 +16,19 @@ const api = axios.create({
     },
 });
 
+// Session expired or missing: back to the login page.
+api.interceptors.response.use(
+    (response) => response,
+    (error) => {
+        if (error.response?.status === 401) {
+            localStorage.removeItem('admin_user');
+            if (window.location.pathname !== '/login') window.location.assign('/login');
+        }
+        return Promise.reject(error);
+    },
+);
+
+
 // Exams
 export const getExams = async () => {
     const response = await api.get('/api/exams');
