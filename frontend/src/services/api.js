@@ -315,8 +315,9 @@ export const resumeQueue = async () => {
  * Edit a queued job's student name and/or paper before it starts running.
  * Cancels the old entry and creates a new queued job. Returns { new_task_id }.
  */
-export const editQueuedJob = async (taskId, { studentName, ftPaperPath, profile } = {}) => {
+export const editQueuedJob = async (taskId, { copyId, studentName, ftPaperPath, profile } = {}) => {
     const response = await api.patch(`/api/pipelines/jobs/edit/${taskId}`, {
+        copy_id:       copyId       ?? null,
         student_name:  studentName  ?? null,
         ft_paper_path: ftPaperPath  ?? null,
         profile:       profile      ?? null,

@@ -1046,8 +1046,12 @@ function JobCard({ job, navigate, onRecheckDone, onRemove }) {
     const [retryError,   setRetryError]   = useState(null);
     // Edit panel state (queued jobs)
     const [editOpen,     setEditOpen]     = useState(false);
-    const [editName,     setEditName]     = useState(job.student_name || '');
+    // Jobs queued before IDs existed carry their label in student_name.
+    const [editId,       setEditId]       = useState(job.copy_id || job.student_name || '');
+    const [editName,     setEditName]     = useState(job.copy_id ? (job.student_name || '') : '');
     const [editPaper,    setEditPaper]    = useState(job.ft_paper_path || '');
+    const [editProfile,  setEditProfile]  = useState(job.profile || 'Profile 1');
+    const canEditPaper = job.pipeline === 'new';
     const [editCatalog,  setEditCatalog]  = useState(null);
     const [isSavingEdit, setIsSavingEdit] = useState(false);
     const [editError,    setEditError]    = useState(null);
@@ -1091,7 +1095,7 @@ function JobCard({ job, navigate, onRecheckDone, onRemove }) {
 
     const handleRemove = async (e) => {
         e.stopPropagation();
-        if (!confirm(`Remove "${job.student_name}" from the queue?`)) return;
+        if (!confirm(`Remove "${job.copy_id || job.student_name}" from the queue?`)) return;
         setRemoving(true);
         try {
             await removeFromQueue(job.task_id);
@@ -1104,7 +1108,7 @@ function JobCard({ job, navigate, onRecheckDone, onRemove }) {
 
     const handleDelete = async (e) => {
         e.stopPropagation();
-        if (!confirm(`Permanently delete the result for "${job.student_name}"? This cannot be undone.`)) return;
+        if (!confirm(`Permanently delete the result for "${job.copy_id || job.student_name}"? This cannot be undone.`)) return;
         setDeleting(true);
         try {
             await removeFromQueue(job.task_id);
@@ -1118,10 +1122,13 @@ function JobCard({ job, navigate, onRecheckDone, onRemove }) {
         e.stopPropagation();
         setIsSavingEdit(true);
         setEditError(null);
+        if (!editId.trim()) { setEditError('The ID is required.'); setIsSavingEdit(false); return; }
         try {
             await editQueuedJob(job.task_id, {
-                studentName:  editName.trim() || undefined,
-                ftPaperPath:  editPaper       || undefined,
+                copyId:       editId.trim(),
+                studentName:  editName.trim(),          // empty clears the name
+                ftPaperPath:  canEditPaper ? (editPaper || undefined) : undefined,
+                profile:      canEditPaper ? editProfile : undefined,
             });
             setEditOpen(false);
             onRemove(); // refresh the job list
@@ -1236,45 +1243,53 @@ function JobCard({ job, navigate, onRecheckDone, onRemove }) {
                     }}
                 >
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
-                        <label style={{ fontSize: '11px', fontWeight: 700, color: '#72767d', textTransform: 'uppercase', letterSpacing: '.5px' }}>Student Name</label>
-                        <input
-                            value={editName}
-                            onChange={e => setEditName(e.target.value)}
-                            placeholder="Student name"
-                            style={{
-                                background: '#2c2f3a', border: '1.5px solid #3d4156',
-                                borderRadius: '8px', color: '#e8eaf4',
-                                padding: '8px 12px', fontSize: '13px', fontFamily: 'inherit', outline: 'none',
-                            }}
-                        />
+                        <label style={{ fontSize: '11px', fontWeight: 700, color: '#72767d', textTransform: 'uppercase', letterSpacing: '.5px' }}>ID (required)</label>
+                        <input value={editId} onChange={e => setEditId(e.target.value)} placeholder="e.g. 16450" maxLength={40} style={{ background: '#2c2f3a', border: '1.5px solid #3d4156', borderRadius: '8px', color: '#e8eaf4', padding: '8px 12px', fontSize: '13px', fontFamily: 'inherit', outline: 'none' }} />
                     </div>
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
-                        <label style={{ fontSize: '11px', fontWeight: 700, color: '#72767d', textTransform: 'uppercase', letterSpacing: '.5px' }}>Question Paper</label>
-                        {!editCatalog ? (
-                            <span style={{ color: '#72767d', fontSize: '12px' }}>Loading papers…</span>
-                        ) : (
-                            <select
-                                value={editPaper}
-                                onChange={e => setEditPaper(e.target.value)}
-                                style={{
-                                    background: '#2c2f3a', border: '1.5px solid #3d4156',
-                                    borderRadius: '8px', color: '#e8eaf4',
-                                    padding: '8px 12px', fontSize: '13px', fontFamily: 'inherit', outline: 'none',
-                                }}
-                            >
-                                <option value="">— Select a paper —</option>
-                                {Object.entries(editCatalog).flatMap(([exam, papers]) =>
-                                    Object.entries(papers).map(([label, path]) => (
-                                        <option key={path} value={path}>{exam} — {label}</option>
-                                    ))
-                                )}
-                            </select>
-                        )}
+                        <label style={{ fontSize: '11px', fontWeight: 700, color: '#72767d', textTransform: 'uppercase', letterSpacing: '.5px' }}>Student Name (optional)</label>
+                        <input value={editName} onChange={e => setEditName(e.target.value)} placeholder="Student name" style={{ background: '#2c2f3a', border: '1.5px solid #3d4156', borderRadius: '8px', color: '#e8eaf4', padding: '8px 12px', fontSize: '13px', fontFamily: 'inherit', outline: 'none' }} />
                     </div>
+                    {canEditPaper && (
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
+                            <label style={{ fontSize: '11px', fontWeight: 700, color: '#72767d', textTransform: 'uppercase', letterSpacing: '.5px' }}>Question Paper</label>
+                            {!editCatalog ? (
+                                <span style={{ color: '#72767d', fontSize: '12px' }}>Loading papers…</span>
+                            ) : (
+                                <select value={editPaper} onChange={e => setEditPaper(e.target.value)} style={{ background: '#2c2f3a', border: '1.5px solid #3d4156', borderRadius: '8px', color: '#e8eaf4', padding: '8px 12px', fontSize: '13px', fontFamily: 'inherit', outline: 'none' }}>
+                                    <option value="">— Select a paper —</option>
+                                    {/* catalog: { exam: { subject: { Mock: [...], Portionwise: [...] } } } */}
+                                    {Object.entries(editCatalog).flatMap(([exam, subjects]) =>
+                                        Object.entries(subjects).map(([subject, types]) => (
+                                            <optgroup key={`${exam}-${subject}`} label={`${exam} — ${subject.replace(/_/g, ' ')}`}>
+                                                {Object.values(types).flat().map(p => (
+                                                    <option key={p.path} value={p.path}>{p.label}</option>
+                                                ))}
+                                            </optgroup>
+                                        ))
+                                    )}
+                                </select>
+                            )}
+                        </div>
+                    )}
+                    {canEditPaper && (
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
+                            <label style={{ fontSize: '11px', fontWeight: 700, color: '#72767d', textTransform: 'uppercase', letterSpacing: '.5px' }}>Profile API Key</label>
+                            <select value={editProfile} onChange={e => setEditProfile(e.target.value)} style={{ background: '#2c2f3a', border: '1.5px solid #3d4156', borderRadius: '8px', color: '#e8eaf4', padding: '8px 12px', fontSize: '13px', fontFamily: 'inherit', outline: 'none' }}>
+                                <option value="Profile 1">Profile 1 (Default)</option>
+                                <option value="Profile 2">Profile 2</option>
+                            </select>
+                        </div>
+                    )}
+                    <span style={{ color: '#72767d', fontSize: '11px' }}>
+                        {canEditPaper
+                            ? 'Changing the ID or name keeps this paper\'s place in the queue. Changing the paper or profile sends it to the back of the queue.'
+                            : 'For this kind of job only the ID and the name can be changed. To change the PDFs, remove it and submit again.'}
+                    </span>
                     {editError && <span style={{ color: '#f04f4f', fontSize: '12px' }}>⚠️ {editError}</span>}
                     <button
                         type="button"
-                        disabled={isSavingEdit || !editPaper}
+                        disabled={isSavingEdit || !editId.trim() || (canEditPaper && !editPaper)}
                         onClick={handleSaveEdit}
                         style={{
                             background: isSavingEdit ? '#3d4156' : '#5865f2',
@@ -1283,7 +1298,7 @@ function JobCard({ job, navigate, onRecheckDone, onRemove }) {
                             cursor: isSavingEdit ? 'not-allowed' : 'pointer', fontFamily: 'inherit',
                         }}
                     >
-                        {isSavingEdit ? '⏳ Saving…' : '✅ Save & Requeue'}
+                        {isSavingEdit ? '⏳ Saving…' : '✅ Save changes'}
                     </button>
                 </div>
             )}

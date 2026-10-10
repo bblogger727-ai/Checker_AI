@@ -514,6 +514,7 @@ async def run_old_pipeline(
     meta = {
         "pipeline":    "old",
         "copy_id":     copy_id,
+        "profile":     profile,
         "student_name": student_name.strip(),
         "task_id":     task_id,
         "created_at":  time.time(),
@@ -631,6 +632,7 @@ async def run_new_pipeline(
     meta = {
         "pipeline":      "new",
         "copy_id":       copy_id,
+        "profile":       profile,
         "student_name":  student_name.strip(),
         "ft_paper_path": str(paper_path),
         "paper_label":   paper_label,
@@ -916,6 +918,8 @@ def list_pipeline_jobs():
 
             student_name  = ""
             copy_id       = ""
+            ft_paper_path = ""
+            job_profile   = "Profile 1"
             pipeline_type = "unknown"
             paper_label   = ""
             created_at    = job_dir.stat().st_mtime
@@ -926,6 +930,8 @@ def list_pipeline_jobs():
                     meta = json.loads(meta_file.read_text(encoding="utf-8"))
                     student_name  = meta.get("student_name", "").strip()
                     copy_id       = str(meta.get("copy_id") or "")
+                    ft_paper_path = meta.get("ft_paper_path", "")
+                    job_profile   = meta.get("profile", "Profile 1")
                     pipeline_type = meta.get("pipeline", pipeline_type)
                     paper_label   = meta.get("paper_label", "")
                     if "created_at" in meta:
@@ -934,7 +940,7 @@ def list_pipeline_jobs():
                 except Exception:
                     pass
 
-            if not student_name:
+            if not student_name and not copy_id:   # old jobs: the label lives in the folder name
                 clean_name = task_id.replace("dataset_", "").replace("old_", "").replace("new_", "")
                 parts = clean_name.split("_")
                 if len(parts) >= 2 and len(parts[-1]) >= 8 and len(parts[-1]) <= 32:
@@ -982,6 +988,8 @@ def list_pipeline_jobs():
             jobs.append({
                 "task_id":              task_id,
                 "copy_id":              copy_id,
+                "ft_paper_path":        ft_paper_path,
+                "profile":              job_profile,
                 "student_name":         student_name,
                 "pipeline":             pipeline_type,
                 "paper_label":          paper_label,
@@ -1010,6 +1018,8 @@ def list_pipeline_jobs():
         meta_file  = output_dir / "task_meta.json"
         student_name  = ""
         copy_id       = ""
+        ft_paper_path = ""
+        job_profile   = "Profile 1"
         pipeline_type = task.get("pipeline", "unknown")
         paper_label   = ""
         created_at    = task.get("queued_at", time.time())
@@ -1020,6 +1030,8 @@ def list_pipeline_jobs():
                 meta = json.loads(meta_file.read_text(encoding="utf-8"))
                 student_name  = meta.get("student_name", "").strip()
                 copy_id       = str(meta.get("copy_id") or "")
+                ft_paper_path = meta.get("ft_paper_path", "")
+                job_profile   = meta.get("profile", "Profile 1")
                 paper_label   = meta.get("paper_label", "")
                 queued_at     = meta.get("queued_at", created_at)
                 created_at    = meta.get("created_at", created_at)
@@ -1030,6 +1042,8 @@ def list_pipeline_jobs():
         jobs.append({
             "task_id":              task_id,
             "copy_id":              copy_id,
+            "ft_paper_path":        ft_paper_path,
+            "profile":              job_profile,
             "student_name":         student_name,
             "pipeline":             pipeline_type,
             "paper_label":          paper_label,
@@ -1161,9 +1175,12 @@ class EditJobRequest(BaseModel):
 @router.patch("/jobs/edit/{task_id}")
 async def edit_queued_job(task_id: str, body: EditJobRequest):
     """
-    Edit a queued job's student name and/or paper before it starts running.
-    Cancels the old queued entry and creates a new job with updated params.
-    Returns the new task_id.
+    Edit a queued job before it starts running: its ID, student name, paper or profile.
+
+    Changing only the ID or the name rewrites the job's details where it stands, so it keeps
+    its place in the queue. Changing the paper or the profile cancels the queued entry and
+    queues a new job with the same answer sheet (it goes to the back of the queue).
+    Returns the task_id to track from now on.
     """
     task = _tasks.get(task_id)
     if not task:
@@ -1180,6 +1197,23 @@ async def edit_queued_job(task_id: str, body: EditJobRequest):
     new_key           = new_copy_id or new_student_name   # jobs queued before IDs existed keep their label
     new_ft_paper_path = body.ft_paper_path if body.ft_paper_path is not None else meta.get("ft_paper_path", "")
     new_profile       = body.profile       if body.profile       is not None else meta.get("profile", "Profile 1")
+    if new_profile not in ("Profile 1", "Profile 2"):
+        raise HTTPException(status_code=400, detail="Unknown profile")
+
+    pipeline = meta.get("pipeline", task.get("pipeline", "new"))
+    same_paper = pipeline != "new" or not new_ft_paper_path or (
+        Path(new_ft_paper_path).resolve() == Path(meta.get("ft_paper_path", "")).resolve())
+    if same_paper and new_profile == meta.get("profile", "Profile 1"):
+        # Only the ID or name changed: nothing about the checking itself changes.
+        meta.update({"copy_id": new_copy_id, "student_name": new_student_name.strip()})
+        meta_file.write_text(json.dumps(meta, indent=2), encoding="utf-8")
+        print(f"[EDIT] Task {task_id[:12]}... details updated in place (id='{new_copy_id}')")
+        return {"new_task_id": task_id, "status": "queued", "requeued": False}
+    if pipeline != "new":
+        raise HTTPException(
+            status_code=400,
+            detail="For this kind of job only the ID and the name can be edited. "
+                   "Remove it and submit again to change anything else.")
 
     # Validate the new paper path
     try:
@@ -1230,7 +1264,7 @@ async def edit_queued_job(task_id: str, body: EditJobRequest):
     new_meta = {
         "pipeline":      "new",
         "copy_id":       new_copy_id,
-        "student_name":  new_student_name,
+        "student_name":  new_student_name.strip(),
         "ft_paper_path": str(paper_path),
         "paper_label":   paper_label,
         "task_id":       new_task_id,
@@ -1277,7 +1311,7 @@ async def edit_queued_job(task_id: str, body: EditJobRequest):
         pass
 
     print(f"[EDIT] Task {task_id[:12]}... replaced by {new_task_id[:12]}... (name='{new_student_name}', paper='{paper_label}')")
-    return {"new_task_id": new_task_id, "status": "queued"}
+    return {"new_task_id": new_task_id, "status": "queued", "requeued": True}
 
 
 # ══════════════════════════════════════════════════════════════════════════════
