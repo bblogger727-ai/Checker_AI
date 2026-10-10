@@ -133,6 +133,11 @@ def export_checked(after: float = Query(default=0.0, ge=0)):
             except (OSError, ValueError):
                 continue
             paper_path = Path(str(meta.get("ft_paper_path") or ""))
+            report_file = job_dir / "student_report.txt"
+            try:  # CheckerAI's own summary: strength, weakness, ratings, feedback
+                report = report_file.read_text(encoding="utf-8")[:6000] if report_file.is_file() else ""
+            except OSError:
+                report = ""
             jobs.append({
                 "task_id": job_dir.name,
                 # The checker's ID for this answer sheet. Jobs made before IDs existed only
@@ -147,6 +152,7 @@ def export_checked(after: float = Query(default=0.0, ge=0)):
                 "summary": {k: grading.get("metadata", {}).get(k) for k in (
                     "total_marks_obtained", "total_marks_possible", "percentage", "grade",
                     "scoring_rule", "top5_questions")},
+                "student_report": report,
                 "graded_answers": _slim(grading.get("graded_answers") or {}),
             })
     jobs.sort(key=lambda j: j["finished_at"])
