@@ -58,18 +58,28 @@ def _paper(path: Path) -> dict:
             if isinstance(item, dict):
                 questions.append(_question(item, f"Q{item.get('q_num') or i}", "main"))
     else:
+        # Case-study MCQs restart at 1 in each case study, but CheckerAI grades them as one
+        # running list (SectionA/MCQ/1..n), so they are numbered the same way here.
+        mcqs = [(cs, m) for cs in data.get("section_a") or [] if isinstance(cs, dict)
+                for m in cs.get("questions") or [] if isinstance(m, dict)]
+        mcq_marks = round(meta["section_a_marks"] / len(mcqs), 2) \
+            if mcqs and meta.get("section_a_marks") else None
+        for n, (cs, m) in enumerate(mcqs, 1):
+            questions.append(_question({**cs, **m, "marks": m.get("marks") or mcq_marks},
+                                       f"MCQ{n}", "section_a"))
         for section in ("section_a", "section_b"):
             for i, q in enumerate(data.get(section) or [], 1):
-                if not isinstance(q, dict):
+                if not isinstance(q, dict) or q.get("type") == "case_study":
                     continue
                 main = q.get("q_main") or q.get("q_num")
-                if main is None:  # e.g. a case study with its MCQs (Section A)
+                if main is None:
                     questions.append(_question(q, f"{section[-1].upper()}{i}", section))
                     continue
                 for sub in q.get("sub_questions") or [None]:
                     item = {**q, **(sub or {})}
-                    questions.append(_question(item, f"Q{main}{(sub or {}).get('label') or ''}",
-                                               section, q.get("total_marks")))
+                    label = re.sub(r"[^a-z]", "", str((sub or {}).get("label") or "").lower())
+                    questions.append(_question(item, f"Q{main}{label}", section,
+                                               q.get("total_marks")))
     return {
         "id": f"{path.parent.name}/{stem}", "exam": path.parent.name, "subject_code": subject,
         "subject_name": meta.get("subject_name") or subject.replace("_", " "),
