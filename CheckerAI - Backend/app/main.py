@@ -25,6 +25,7 @@ from app.api.exams import router as exams_router
 from app.api.students import router as students_router
 from app.api.pipelines import router as pipelines_router
 from app.api.stats import router as stats_router
+from app.api.export import router as export_router
 
 # Legacy routers (for backward compatibility / testing)
 from app.api.upload import router as upload_router
@@ -89,6 +90,7 @@ app.include_router(exams_router)
 app.include_router(students_router)
 app.include_router(pipelines_router)
 app.include_router(stats_router)
+app.include_router(export_router)  # read-only, for the Mentorship Program
 
 # Legacy routes (file-based, no auth)
 app.include_router(upload_router)
