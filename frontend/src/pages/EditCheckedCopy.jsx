@@ -539,7 +539,7 @@ function EditCheckedCopy() {
             }
 
             const blob = await patchCheckedCopy(id, corrections);
-            saveBlob(blob, `${student?.student_name || 'student'}_checked_copy_edited.pdf`);
+            saveBlob(blob, `${student?.copy_id || student?.student_name || 'paper'}_checked_copy_edited.pdf`);
             showToast('✓ Edited copy downloaded successfully!');
         } catch (err) {
             const detail = err.response?.data?.detail || err.message || 'Failed to generate patched copy';

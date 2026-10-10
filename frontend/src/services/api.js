@@ -189,9 +189,10 @@ export const precheckAnswerSheet = async (asPdf) => {
  * Launch the Old-Papers (Claude) pipeline.
  * Returns { task_id, status }
  */
-export const runOldPipeline = async (studentName, qpPdf, saPdf, asPdf, profile = 'Profile 1') => {
+export const runOldPipeline = async (studentName, qpPdf, saPdf, asPdf, profile = 'Profile 1', copyId = '') => {
     const fd = new FormData();
     fd.append('student_name', studentName);
+    fd.append('copy_id', copyId);
     fd.append('qp_pdf', qpPdf);
     fd.append('sa_pdf', saPdf);
     fd.append('as_pdf', asPdf);
@@ -207,9 +208,10 @@ export const runOldPipeline = async (studentName, qpPdf, saPdf, asPdf, profile =
  * Launch the New-Papers (FT) pipeline.
  * Returns { task_id, status }
  */
-export const runNewPipeline = async (studentName, ftPaperPath, asPdf, profile = 'Profile 1') => {
+export const runNewPipeline = async (studentName, ftPaperPath, asPdf, profile = 'Profile 1', copyId = '') => {
     const fd = new FormData();
     fd.append('student_name', studentName);
+    fd.append('copy_id', copyId);
     fd.append('ft_paper_path', ftPaperPath);
     fd.append('as_pdf', asPdf);
     fd.append('profile', profile);

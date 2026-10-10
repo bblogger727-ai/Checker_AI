@@ -44,7 +44,7 @@ function CheckedPaper() {
         setDownloading('report');
         try {
             const blob = await downloadResultPdf(student.id);
-            saveBlob(blob, `${student.student_name}_result.pdf`);
+            saveBlob(blob, `${student.copy_id || student.student_name}_result.pdf`);
         } catch (err) {
             alert('Failed to download result report: ' + (err.response?.data?.detail || err.message));
         } finally {
@@ -57,7 +57,7 @@ function CheckedPaper() {
         setDownloading('student_report');
         try {
             const blob = await downloadPipelineResult(student.id, 'student_report');
-            saveBlob(blob, `${student.student_name}_student_report.txt`);
+            saveBlob(blob, `${student.copy_id || student.student_name}_student_report.txt`);
         } catch (err) {
             alert('Failed to download student report: ' + (err.response?.data?.detail || err.message));
         } finally {
@@ -70,7 +70,7 @@ function CheckedPaper() {
         setDownloading('checked-copy');
         try {
             const blob = await downloadCheckedCopyPdf(student.id);
-            saveBlob(blob, `${student.student_name}_checked_copy.pdf`);
+            saveBlob(blob, `${student.copy_id || student.student_name}_checked_copy.pdf`);
         } catch (err) {
             alert('Failed to download checked copy: ' + (err.response?.data?.detail || err.message));
         } finally {
@@ -102,7 +102,7 @@ function CheckedPaper() {
                     setRecheckMsg('Recheck complete! Downloading…');
                     try {
                         const blob = await downloadPipelineResult(student.id, 'checked_copy');
-                        saveBlob(blob, `${student.student_name}_checked_copy.pdf`);
+                        saveBlob(blob, `${student.copy_id || student.student_name}_checked_copy.pdf`);
                     } catch (_) { /* user can still download manually */ }
                 } else if (status.status === 'failed') {
                     clearInterval(pollRef.current);

@@ -27,6 +27,7 @@ import sys
 import uuid
 import json
 import time
+import re
 import shutil
 import threading
 import asyncio
@@ -321,7 +322,26 @@ def _run_subprocess(task_id: str, cmd: list[str], output_dir: Path, profile_api_
 
 
 
+_COPY_ID_RE = re.compile(r"[A-Za-z0-9][A-Za-z0-9 _\-]{0,39}")
+
+
+def _clean_copy_id(copy_id: str) -> str:
+    """The checker's own ID for this answer sheet. Mandatory; it names the job and its downloads."""
+    value = " ".join((copy_id or "").split())
+    if not _COPY_ID_RE.fullmatch(value):
+        raise HTTPException(
+            status_code=422,
+            detail="ID is required: letters, digits, spaces, - or _ (up to 40 characters).")
+    return value
+
+
+def _job_key(meta: dict) -> str:
+    """What identifies a job: its ID, or the old name label for jobs made before IDs existed."""
+    return str(meta.get("copy_id") or meta.get("student_name") or "").strip()
+
+
 def _find_existing_job_dir(student_name: str, pipeline_type: str, ft_paper_path: str = None) -> Path | None:
+    # `student_name` here is the job key (see _job_key): the ID for new jobs.
     safe_name = "".join([c if c.isalnum() else "_" for c in student_name.strip()]).strip("_")
     if not safe_name:
         return None
@@ -345,7 +365,7 @@ def _find_existing_job_dir(student_name: str, pipeline_type: str, ft_paper_path:
             if meta_path.exists():
                 try:
                     meta = json.loads(meta_path.read_text(encoding="utf-8"))
-                    if meta.get("student_name", "").strip().lower() == student_name.strip().lower() and meta.get("pipeline") == pipeline_type:
+                    if _job_key(meta).lower() == student_name.strip().lower() and meta.get("pipeline") == pipeline_type:
                         if ft_paper_path and meta.get("ft_paper_path") != ft_paper_path:
                             continue
                         is_match = True
@@ -445,6 +465,7 @@ async def precheck_answer_sheet(
 @router.post("/run/old")
 async def run_old_pipeline(
     student_name: str       = Form(""),
+    copy_id:      str       = Form("", description="The checker's ID for this answer sheet (required)"),
     qp_pdf:       UploadFile = File(..., description="Question Paper PDF"),
     sa_pdf:       UploadFile = File(..., description="Solution / Model Answer PDF"),
     as_pdf:       UploadFile = File(..., description="Student Answer Sheet PDF"),
@@ -456,11 +477,12 @@ async def run_old_pipeline(
     Returns immediately with a `task_id` — poll `/api/pipelines/status/{task_id}`
     for progress updates.
     """
-    existing_dir = _find_existing_job_dir(student_name, "old")
+    copy_id = _clean_copy_id(copy_id)
+    existing_dir = _find_existing_job_dir(copy_id, "old")
     if existing_dir:
         # Found existing OCR — create a FRESH new directory but copy only the OCR file
         # so all other stages (alignment, grading, checked copy) run completely fresh
-        safe_name = "".join([c if c.isalnum() else "_" for c in student_name.strip()]).strip("_")
+        safe_name = "".join([c if c.isalnum() else "_" for c in copy_id]).strip("_")
         task_id   = f"{safe_name}_{uuid.uuid4().hex}" if safe_name else uuid.uuid4().hex
         output_dir = _JOBS_DIR / task_id
         output_dir.mkdir(parents=True, exist_ok=True)
@@ -474,7 +496,7 @@ async def run_old_pipeline(
         skip_to_val = 4
         print(f"[REUSE OCR] Fresh run in {output_dir} with OCR from {existing_dir}")
     else:
-        safe_name = "".join([c if c.isalnum() else "_" for c in student_name.strip()]).strip("_")
+        safe_name = "".join([c if c.isalnum() else "_" for c in copy_id]).strip("_")
         task_id   = f"{safe_name}_{uuid.uuid4().hex}" if safe_name else uuid.uuid4().hex
         output_dir = _JOBS_DIR / task_id
         output_dir.mkdir(parents=True, exist_ok=True)
@@ -491,7 +513,8 @@ async def run_old_pipeline(
     # Save metadata
     meta = {
         "pipeline":    "old",
-        "student_name": student_name,
+        "copy_id":     copy_id,
+        "student_name": student_name.strip(),
         "task_id":     task_id,
         "created_at":  time.time(),
         "queued_at":   time.time(),
@@ -547,6 +570,7 @@ async def run_old_pipeline(
 @router.post("/run/new")
 async def run_new_pipeline(
     student_name:    str       = Form(""),
+    copy_id:         str       = Form("", description="The checker's ID for this answer sheet (required)"),
     ft_paper_path:   str       = Form(..., description="Absolute path to the selected FT paper JSON"),
     as_pdf:          UploadFile = File(..., description="Student Answer Sheet PDF"),
     profile:         str       = Form("Profile 1"),
@@ -559,6 +583,7 @@ async def run_new_pipeline(
 
     Returns immediately with a `task_id`.
     """
+    copy_id = _clean_copy_id(copy_id)
     # Validate the paper path belongs to our catalog dir (basic security check)
     try:
         paper_path = Path(ft_paper_path).resolve()
@@ -569,11 +594,11 @@ async def run_new_pipeline(
     if not paper_path.exists():
         raise HTTPException(status_code=404, detail=f"Paper JSON not found: {ft_paper_path}")
 
-    existing_dir = _find_existing_job_dir(student_name, "new", ft_paper_path=str(paper_path))
+    existing_dir = _find_existing_job_dir(copy_id, "new", ft_paper_path=str(paper_path))
     if existing_dir:
         # Found existing OCR — create a FRESH new directory but copy only the OCR file
         # so all other stages (alignment, grading, checked copy) run completely fresh
-        safe_name = "".join([c if c.isalnum() else "_" for c in student_name.strip()]).strip("_")
+        safe_name = "".join([c if c.isalnum() else "_" for c in copy_id]).strip("_")
         task_id   = f"{safe_name}_{uuid.uuid4().hex}" if safe_name else uuid.uuid4().hex
         output_dir = _JOBS_DIR / task_id
         output_dir.mkdir(parents=True, exist_ok=True)
@@ -587,7 +612,7 @@ async def run_new_pipeline(
         skip_to_val = 4
         print(f"[REUSE OCR] Fresh run in {output_dir} with OCR from {existing_dir}")
     else:
-        safe_name = "".join([c if c.isalnum() else "_" for c in student_name.strip()]).strip("_")
+        safe_name = "".join([c if c.isalnum() else "_" for c in copy_id]).strip("_")
         task_id   = f"{safe_name}_{uuid.uuid4().hex}" if safe_name else uuid.uuid4().hex
         output_dir = _JOBS_DIR / task_id
         output_dir.mkdir(parents=True, exist_ok=True)
@@ -605,7 +630,8 @@ async def run_new_pipeline(
 
     meta = {
         "pipeline":      "new",
-        "student_name":  student_name,
+        "copy_id":       copy_id,
+        "student_name":  student_name.strip(),
         "ft_paper_path": str(paper_path),
         "paper_label":   paper_label,
         "task_id":       task_id,
@@ -814,7 +840,7 @@ def download_pipeline_result(task_id: str, file_type: str):
     meta_file = job_dir / "task_meta.json"
     if meta_file.exists():
         meta = json.loads(meta_file.read_text())
-        student = meta.get("student_name", "student").replace(" ", "_")
+        student = (_job_key(meta) or "paper").replace(" ", "_")  # the ID, not the student's name
         if file_type == "checked_copy":
             download_name = f"{student}_checked_copy.pdf"
         elif file_type == "grading_report":
@@ -889,6 +915,7 @@ def list_pipeline_jobs():
             seen_ids.add(task_id)
 
             student_name  = ""
+            copy_id       = ""
             pipeline_type = "unknown"
             paper_label   = ""
             created_at    = job_dir.stat().st_mtime
@@ -898,6 +925,7 @@ def list_pipeline_jobs():
                 try:
                     meta = json.loads(meta_file.read_text(encoding="utf-8"))
                     student_name  = meta.get("student_name", "").strip()
+                    copy_id       = str(meta.get("copy_id") or "")
                     pipeline_type = meta.get("pipeline", pipeline_type)
                     paper_label   = meta.get("paper_label", "")
                     if "created_at" in meta:
@@ -953,6 +981,7 @@ def list_pipeline_jobs():
 
             jobs.append({
                 "task_id":              task_id,
+                "copy_id":              copy_id,
                 "student_name":         student_name,
                 "pipeline":             pipeline_type,
                 "paper_label":          paper_label,
@@ -980,6 +1009,7 @@ def list_pipeline_jobs():
         output_dir = Path(task.get("output_dir", ""))
         meta_file  = output_dir / "task_meta.json"
         student_name  = ""
+        copy_id       = ""
         pipeline_type = task.get("pipeline", "unknown")
         paper_label   = ""
         created_at    = task.get("queued_at", time.time())
@@ -989,6 +1019,7 @@ def list_pipeline_jobs():
             try:
                 meta = json.loads(meta_file.read_text(encoding="utf-8"))
                 student_name  = meta.get("student_name", "").strip()
+                copy_id       = str(meta.get("copy_id") or "")
                 paper_label   = meta.get("paper_label", "")
                 queued_at     = meta.get("queued_at", created_at)
                 created_at    = meta.get("created_at", created_at)
@@ -998,6 +1029,7 @@ def list_pipeline_jobs():
         seen_ids.add(task_id)
         jobs.append({
             "task_id":              task_id,
+            "copy_id":              copy_id,
             "student_name":         student_name,
             "pipeline":             pipeline_type,
             "paper_label":          paper_label,
@@ -1121,6 +1153,7 @@ def remove_from_queue(task_id: str):
 
 class EditJobRequest(BaseModel):
     student_name:  str | None = None
+    copy_id:       str | None = None
     ft_paper_path: str | None = None
     profile:       str | None = None
 
@@ -1143,6 +1176,8 @@ async def edit_queued_job(task_id: str, body: EditJobRequest):
     meta           = json.loads(meta_file.read_text(encoding="utf-8")) if meta_file.exists() else {}
 
     new_student_name  = body.student_name  if body.student_name  is not None else meta.get("student_name", "")
+    new_copy_id       = _clean_copy_id(body.copy_id) if body.copy_id is not None else str(meta.get("copy_id") or "")
+    new_key           = new_copy_id or new_student_name   # jobs queued before IDs existed keep their label
     new_ft_paper_path = body.ft_paper_path if body.ft_paper_path is not None else meta.get("ft_paper_path", "")
     new_profile       = body.profile       if body.profile       is not None else meta.get("profile", "Profile 1")
 
@@ -1167,14 +1202,14 @@ async def edit_queued_job(task_id: str, body: EditJobRequest):
     _tasks[task_id]["status"]  = "removed"
 
     # ── Create new job dir and copy the PDF ──────────────────────────────────
-    safe_name  = "".join([c if c.isalnum() else "_" for c in new_student_name.strip()]).strip("_")
+    safe_name  = "".join([c if c.isalnum() else "_" for c in new_key.strip()]).strip("_")
     new_task_id   = f"{safe_name}_{uuid.uuid4().hex}" if safe_name else uuid.uuid4().hex
     new_output_dir = _JOBS_DIR / new_task_id
     new_output_dir.mkdir(parents=True, exist_ok=True)
 
     # Check for reusable OCR from prior run with same paper
     skip_to_val = 1
-    existing_dir = _find_existing_job_dir(new_student_name, "new", ft_paper_path=str(paper_path))
+    existing_dir = _find_existing_job_dir(new_key, "new", ft_paper_path=str(paper_path))
     if existing_dir:
         for ocr_name in ("3_ocr_output.txt", "ocr_output.txt"):
             src_ocr = existing_dir / ocr_name
@@ -1194,6 +1229,7 @@ async def edit_queued_job(task_id: str, body: EditJobRequest):
 
     new_meta = {
         "pipeline":      "new",
+        "copy_id":       new_copy_id,
         "student_name":  new_student_name,
         "ft_paper_path": str(paper_path),
         "paper_label":   paper_label,
@@ -1265,6 +1301,7 @@ async def retry_failed_job(task_id: str):
 
     meta = json.loads(meta_file.read_text(encoding="utf-8"))
     student_name  = meta.get("student_name", "")
+    copy_id       = str(meta.get("copy_id") or "")
     ft_paper_path = meta.get("ft_paper_path", "")
     profile       = meta.get("profile", "Profile 1")
 
@@ -1286,7 +1323,7 @@ async def retry_failed_job(task_id: str):
         raise HTTPException(status_code=400, detail=f"Paper JSON no longer accessible: {ft_paper_path}")
 
     # Build new job dir
-    safe_name     = "".join([c if c.isalnum() else "_" for c in student_name.strip()]).strip("_")
+    safe_name     = "".join([c if c.isalnum() else "_" for c in _job_key(meta)]).strip("_")
     new_task_id   = f"{safe_name}_{uuid.uuid4().hex}" if safe_name else uuid.uuid4().hex
     new_output_dir = _JOBS_DIR / new_task_id
     new_output_dir.mkdir(parents=True, exist_ok=True)
@@ -1312,6 +1349,7 @@ async def retry_failed_job(task_id: str):
 
     new_meta = {
         "pipeline":      "new",
+        "copy_id":       copy_id,
         "student_name":  student_name,
         "ft_paper_path": str(paper_path),
         "paper_label":   paper_label,
@@ -1376,10 +1414,12 @@ def get_pipeline_student_mock(task_id: str):
         raise HTTPException(status_code=404, detail="Pipeline task not found")
         
     student_name = "Student"
+    copy_id = ""
     meta_file = job_dir / "task_meta.json"
     if meta_file.exists():
         meta = json.loads(meta_file.read_text())
-        student_name = meta.get("student_name", "Student") or "Student"
+        copy_id = _job_key(meta)
+        student_name = meta.get("student_name", "") or copy_id or "Student"
     else:
         clean_name = task_id.replace("dataset_", "").replace("old_", "").replace("new_", "")
         parts = clean_name.split("_")
@@ -1409,6 +1449,7 @@ def get_pipeline_student_mock(task_id: str):
     return {
         "id": task_id,
         "exam_id": 0,
+        "copy_id": copy_id,
         "student_name": student_name,
         "roll_number": "N/A",
         "status": "completed",

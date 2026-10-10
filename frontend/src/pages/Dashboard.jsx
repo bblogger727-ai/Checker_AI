@@ -295,7 +295,7 @@ function ProfileStats({ profile }) {
 /* ══════════════════════════════════════════════════════════════════════════ */
 
 function OldPapersTab() {
-    const [form, setForm]                   = useState({ studentName: '', qpPdf: null, saPdf: null, asPdf: null, profile: 'Profile 1' });
+    const [form, setForm]                   = useState({ copyId: '', studentName: '', qpPdf: null, saPdf: null, asPdf: null, profile: 'Profile 1' });
     const [submitting, setSubmitting]       = useState(false);
     const [toast, setToast]                 = useState(null);
     const [errorMsg, setErrorMsg]           = useState(null);
@@ -306,10 +306,10 @@ function OldPapersTab() {
         setSubmitting(true);
         setHorizontalWarn(false);
         try {
-            await runOldPipeline(formData.studentName, formData.qpPdf, formData.saPdf, formData.asPdf, formData.profile);
-            const name = formData.studentName.trim() || 'Paper';
+            await runOldPipeline(formData.studentName, formData.qpPdf, formData.saPdf, formData.asPdf, formData.profile, formData.copyId.trim());
+            const name = formData.copyId.trim() || 'Paper';
             setToast(`✅ ${name} has been queued for checking!`);
-            setForm(prev => ({ studentName: '', qpPdf: null, saPdf: null, asPdf: null, profile: prev.profile }));
+            setForm(prev => ({ copyId: '', studentName: '', qpPdf: null, saPdf: null, asPdf: null, profile: prev.profile }));
             pendingSubmitRef.current = null;
         } catch (err) {
             setErrorMsg(err.response?.data?.detail || err.message);
@@ -323,6 +323,10 @@ function OldPapersTab() {
         setErrorMsg(null);
         setHorizontalWarn(false);
         const { qpPdf, saPdf, asPdf } = form;
+        if (!form.copyId.trim()) {
+            setErrorMsg('Please enter the ID for this answer sheet.');
+            return;
+        }
         if (!qpPdf || !saPdf || !asPdf) {
             setErrorMsg('Please provide all three PDFs (Question, Solution, Student).');
             return;
@@ -400,6 +404,22 @@ function OldPapersTab() {
             </div>
 
             <div className="form-field">
+                <label className="field-lbl" htmlFor="old-copy-id">ID (Required)</label>
+                <input
+                    id="old-copy-id"
+                    className="text-input"
+                    type="text"
+                    placeholder="e.g. 16450"
+                    maxLength={40}
+                    required
+                    value={form.copyId}
+                    onChange={(e) => setForm({ ...form, copyId: e.target.value })}
+                    disabled={submitting}
+                />
+                <small style={{ color: '#72767d' }}>Your reference for this answer sheet. The checked copy is downloaded under this ID.</small>
+            </div>
+
+            <div className="form-field">
                 <label className="field-lbl" htmlFor="old-student-name">Student Name (Optional)</label>
                 <input
                     id="old-student-name"
@@ -461,7 +481,7 @@ function NewPapersTab() {
     const [catalog, setCatalog]   = useState(null);
     const [catalogError, setCatalogError] = useState(false);
     const [sel,     setSel]       = useState({ exam: '', subject: '', type: '', paper: '' });
-    const [form,    setForm]      = useState({ studentName: '', asPdf: null, profile: 'Profile 1' });
+    const [form,    setForm]      = useState({ copyId: '', studentName: '', asPdf: null, profile: 'Profile 1' });
     const [submitting, setSubmitting] = useState(false);
     const [toast, setToast]       = useState(null);
     const [errorMsg, setErrorMsg] = useState(null);
@@ -495,10 +515,10 @@ function NewPapersTab() {
         setSubmitting(true);
         setHorizontalWarn(false);
         try {
-            await runNewPipeline(formData.studentName, paperPath, formData.asPdf, formData.profile);
-            const name = formData.studentName.trim() || 'Paper';
+            await runNewPipeline(formData.studentName, paperPath, formData.asPdf, formData.profile, formData.copyId.trim());
+            const name = formData.copyId.trim() || 'Paper';
             setToast(`✅ ${name} — ${paperLabel} queued for checking!`);
-            setForm(prev => ({ studentName: '', asPdf: null, profile: prev.profile }));
+            setForm(prev => ({ copyId: '', studentName: '', asPdf: null, profile: prev.profile }));
             setSel({ exam: '', subject: '', type: '', paper: '' });
             pendingSubmitRef.current = null;
         } catch (err) {
@@ -512,6 +532,10 @@ function NewPapersTab() {
         e.preventDefault();
         setErrorMsg(null);
         setHorizontalWarn(false);
+        if (!form.copyId.trim()) {
+            setErrorMsg('Please enter the ID for this answer sheet.');
+            return;
+        }
         if (!selectedPaperPath || !form.asPdf) {
             setErrorMsg('Please select a paper and provide the student answer sheet.');
             return;
@@ -587,6 +611,22 @@ function NewPapersTab() {
                 <div style={{ marginTop: '10px' }}>
                     <ProfileStats profile={form.profile} />
                 </div>
+            </div>
+
+            <div className="form-field">
+                <label className="field-lbl" htmlFor="new-copy-id">ID (Required)</label>
+                <input
+                    id="new-copy-id"
+                    className="text-input"
+                    type="text"
+                    placeholder="e.g. 16450"
+                    maxLength={40}
+                    required
+                    value={form.copyId}
+                    onChange={(e) => setForm({ ...form, copyId: e.target.value })}
+                    disabled={submitting}
+                />
+                <small style={{ color: '#72767d' }}>Your reference for this answer sheet. The checked copy is downloaded under this ID.</small>
             </div>
 
             <div className="form-field">
@@ -1125,7 +1165,10 @@ function JobCard({ job, navigate, onRecheckDone, onRemove }) {
                     {isRunning ? '⚙️' : isQueued ? '⏳' : isPaused ? '⚠️' : '👤'}
                 </span>
                 <div style={{ flex: 1, minWidth: 0 }}>
-                    <h3 className="job-student-name">{job.student_name || 'Unknown Student'}</h3>
+                    <h3 className="job-student-name">{job.copy_id || job.student_name || 'Unknown'}</h3>
+                    {job.copy_id && job.student_name && job.student_name !== job.copy_id && (
+                        <span style={{ fontSize: '12px', color: '#b5bac1', display: 'block' }}>{job.student_name}</span>
+                    )}
                     {job.paper_label && (
                         <span style={{ fontSize: '12px', color: '#72767d' }}>{job.paper_label}</span>
                     )}
@@ -1420,6 +1463,7 @@ function CheckedPapersTab() {
 
     const filteredJobs = jobs.filter(j =>
         (j.student_name || '').toLowerCase().includes(filter.toLowerCase()) ||
+        (j.copy_id      || '').toLowerCase().includes(filter.toLowerCase()) ||
         (j.paper_label  || '').toLowerCase().includes(filter.toLowerCase()) ||
         j.task_id.toLowerCase().includes(filter.toLowerCase())
     );

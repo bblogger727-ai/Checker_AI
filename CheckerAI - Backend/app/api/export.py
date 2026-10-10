@@ -135,7 +135,11 @@ def export_checked(after: float = Query(default=0.0, ge=0)):
             paper_path = Path(str(meta.get("ft_paper_path") or ""))
             jobs.append({
                 "task_id": job_dir.name,
-                "student": str(meta.get("student_name") or "").strip(),
+                # The checker's ID for this answer sheet. Jobs made before IDs existed only
+                # have a label, which was used as an ID, so it is not sent as a name.
+                "copy_id": str(meta.get("copy_id") or meta.get("student_name") or "").strip(),
+                "student_name": str(meta.get("student_name") or "").strip()
+                if meta.get("copy_id") else "",
                 "paper_id": f"{paper_path.parent.name}/{paper_path.stem}" if paper_path.stem else None,
                 "paper_label": meta.get("paper_label"),
                 "created_at": meta.get("created_at"),
